@@ -56,6 +56,11 @@ YOUTUBE_CHANNELS = {
 }
 
 LOOKBACK_DAYS = 3
+# --- Test mode: cheap runs during development ---
+TEST_MODE = True  # Flip to False for real daily runs
+
+if TEST_MODE:
+    print("⚡ TEST_MODE ON — reduced sources, cheap tokens")
 
 
 # ---------- Hacker News ----------
@@ -122,7 +127,10 @@ LONG_FORM_CHANNELS = {"Joe Rogan", "Lex Fridman"}
 def fetch_transcript(video_id, channel_name=None):
     """Try to pull a transcript. Returns None if unavailable."""
     import threading
-    max_chars = 60000 if channel_name in LONG_FORM_CHANNELS else 15000
+    if TEST_MODE:
+        max_chars = 3000
+    else:
+        max_chars = 60000 if channel_name in LONG_FORM_CHANNELS else 15000
     result = [None]
     error = [None]
 
@@ -324,8 +332,19 @@ def build_html(brief_content):
 
 # ---------- Main ----------
 if __name__ == "__main__":
-    hn_stories = fetch_hn_stories(n=30)
-    yt_videos = fetch_all_youtube()
+    hn_stories = fetch_hn_stories(n=5 if TEST_MODE else 30)
+
+    if TEST_MODE:
+        # Only check 2 channels during testing
+        test_channels = dict(list(YOUTUBE_CHANNELS.items())[:2])
+        original_channels = YOUTUBE_CHANNELS
+        YOUTUBE_CHANNELS.clear()
+        YOUTUBE_CHANNELS.update(test_channels)
+        yt_videos = fetch_all_youtube()
+        YOUTUBE_CHANNELS.clear()
+        YOUTUBE_CHANNELS.update(original_channels)
+    else:
+        yt_videos = fetch_all_youtube()
 
     # Pick today's anchor content
     quote_text, quote_author, quote_context = pick_quote_for_today()

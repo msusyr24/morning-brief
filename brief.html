@@ -31,6 +31,7 @@
   .model-label { font-size: 0.85em; color: #888; text-transform: uppercase; letter-spacing: 0.05em; margin: 0; }
   .model-name { font-size: 1.2em; font-weight: bold; margin: 0.2em 0 0.4em 0; }
   .context { color: #444; font-size: 0.95em; margin: 0; }
+
   .spotlight { background: #eef4f0; padding: 20px 25px; border-left: 4px solid #5a8a6b; border-radius: 6px; margin-bottom: 2em; }
   .spotlight h2 { border-bottom: none; margin-top: 0; }
   .spotlight-name { font-size: 1.25em; font-weight: bold; margin: 0 0 0.4em 0; }
@@ -67,70 +68,30 @@
   <p class="spotlight-instructions">Interested? Copy the line below into <code>YOUTUBE_CHANNELS</code> in <code>brief.py</code> and save:</p>
   <pre class="spotlight-snippet" id="snippet">    "Mike Israetel": "UCfQgsKhHjSyRLOp9mnffqVg",</pre>
   <button class="copy-btn" onclick="navigator.clipboard.writeText(document.getElementById('snippet').innerText.trim()); this.innerText='✅ Copied'; setTimeout(()=>this.innerText='📋 Copy snippet', 2000);">📋 Copy snippet</button>
-  <p class="spotlight-meta">showing for 3 more days. If you don't add it, a new channel will be suggested.</p>
+  <p class="spotlight-meta">showing for 2 more days. If you don't add it, a new channel will be suggested.</p>
 </div>
 <h2>🎥 From People I Follow</h2>
 
 <p><strong>Worth your time:</strong></p>
 
 <div class="story">
-<h3>GTO Wizard</h3>
-<p>GTO Wizard built a benchmark testing LLMs against their poker AI, and the results are brutal: GPT-5.3 (the best performer) still loses at 16.3 big blinds per 100—compared to ~5 BB/100 for top human experts. The failures are telling: LLMs literally misread their hands (calling Q9o "suited"), have massively nitty 3-bet ranges, and hero-call with garbage like 96 on paired boards. Even with $40/100 hands in inference costs, performance plateaus. The luck-adjusted methodology (AVAT) uses knowledge of GTO Wizard's full strategy to reduce variance by 10x over small samples. Public leaderboard is live if you want to benchmark your own bot.</p>
-<p class="meta">Videos: <a href="https://www.youtube.com/watch?v=CjwyEFYY-Ls">Can AI Actually Play Poker? We Ranked the Best LLMs</a> · <a href="https://www.youtube.com/shorts/Qk_8BSQmXF4">Can AI Actually Play Poker?</a></p>
+  <h3>GTO Wizard</h3>
+  <p>GTO Wizard benchmarked major LLMs against their purpose-built poker AI in heads-up play. The results are brutal: GPT-5.3 performed "best" but still lost at 16.3 big blinds per 100 hands—over 3x worse than top human experts (who lose around 5 bb/100 against GTO). Models like GPT-4o and Grok 4 were barely better than folding every hand. The key insight: LLMs are trained to predict language from poker books and forums, while GTO Wizard AI was trained on billions of self-played hands to predict expected value directly. There's a cost-performance curve where spending more on inference helps up to a point, then flatlines—throwing money at reasoning tokens doesn't overcome the fundamental architecture mismatch.</p>
+  <p class="meta">Videos: <a href="https://www.youtube.com/watch?v=CjwyEFYY-Ls">Can AI Actually Play Poker? We Ranked the Best LLMs</a> · <a href="https://www.youtube.com/shorts/Qk_8BSQmXF4">Can AI Actually Play Poker?</a></p>
 </div>
 
 <div class="story">
-<h3>Nick Norwitz</h3>
-<p>Norwitz makes a compelling case that cardiology's LDL fixation misses the point for longevity. PCSK9 loss-of-function mutations dramatically lower LDL but show no lifespan benefit (trend actually goes toward more mortality). By contrast, ApoC3 loss-of-function variants are 2.5x more common in centenarians—despite having virtually identical LDL/ApoB levels. The difference: ApoC3 regulates triglyceride clearance, and lower ApoC3 means better metabolic efficiency. Actionable interventions: ketogenic diets reduced ApoC3 by 50% in 2 weeks in one study; fructose is worse than glucose for ApoC3 production; omega-3s help. Heart rate variability short ties in—low HRV associated with 5.3x higher post-heart attack mortality risk.</p>
-<p class="meta">Videos: <a href="https://www.youtube.com/watch?v=SnwbtYm2RDE">The One Lipid Marker Linked to Longevity</a> · <a href="https://www.youtube.com/shorts/gNhjein5n0w">This Metric Predicts 5x Higher Death Risk After a Heart Attack</a></p>
+  <h3>Ken Berry MD</h3>
+  <p>Berry identifies seven skin conditions linked to hyperinsulinemia—keratosis pilaris (chicken skin), skin tags, and rosacea among them. His claim: these are typically dismissed as genetic or bad luck, but chronic high insulin is the real driver, and they often clear within weeks of dietary intervention. He walks through his "proper human diet" protocol: remove added sugars, grains, beans, and seed oils; fill at least half the plate with fatty meat and eggs; use animal fats. Promises to share specific lab markers to test for hyperinsulinemia at video's end.</p>
+  <p class="meta">Videos: <a href="https://www.youtube.com/watch?v=X9GnsVdhUKM">7 Skin Signs of Insulin Resistance (Even If You're Slim!)</a> · <a href="https://www.youtube.com/shorts/H7VYGl-jhXM">Most people get stuck on step 1...</a></p>
 </div>
-
-<div class="story">
-<h3>Renaissance Periodization</h3>
-<p>Dr. Mike's hypertrophy programming guide nails the beginner-intermediate-advanced distinction: beginners grow from minimal volume and should focus on technique with 5-10 rep ranges on distributed compounds (close-grip bench hits both chest and triceps); don't rush to advanced protocols. The Paddy Pimblett weight cut critique shows him dropping 50 lbs to 155—losing ~30 lbs tissue and ~20 lbs water. Key technique: carb depletion before water cut (glycogen holds 3g water per gram). Sleep content reinforces that ~70% of daily growth hormone releases in first half of nightly sleep, and cortisol spikes from sleep loss shift protein balance catabolic while favoring visceral fat storage.</p>
-<p class="meta">Videos: <a href="https://www.youtube.com/watch?v=zhP5gsBbgYY">How to Train for Muscle Growth: Beginner to Advanced Training</a> · <a href="https://www.youtube.com/watch?v=gSo5l9AqAfg">Exercise Scientist Critiques Paddy The Baddy</a> · <a href="https://www.youtube.com/shorts/huGNal00O6o">You Sleep Less, You Grow Less</a> · <a href="https://www.youtube.com/shorts/D_RqHf2BMcc">Bad Sleep Can Make You Gain More Fat</a></p>
-</div>
-
-<div class="story">
-<h3>Thomas DeLauer</h3>
-<p>DeLauer covers several evidence-backed supplements: Taurine at 4-6g/day reduces oxidative damage in overused muscles and improves insulin sensitivity for better nutrient absorption—he personally noticed faster lactate clearance. A Journal of ISSN study found caffeine (3mg/kg) at 5pm increased fat oxidation 29% vs 10.7% at 8am—the delta is larger because baseline cortisol is lower in evening. For cortisol dysregulation (waking at 3:30am wired, crashing by noon), he recommends a "5:2" approach: weekdays eat normally with carbs at dinner to reset circadian cortisol, then aggressive caloric restriction (500 cal/day) on weekends. On melatonin, a neuroscientist guest confirms no evidence of dependency after 30 years of use—blood work showed normal endogenous production after stopping, with benefits extending to neuroprotection and anti-cancer effects at 1-5mg doses.</p>
-<p class="meta">Videos: <a href="https://www.youtube.com/watch?v=eIJFu18J-qQ">These Powders Build Muscle LEGALLY Without Steroids</a> · <a href="https://www.youtube.com/watch?v=_g7ouiKjRxE">This Coffee Hack Melts Abdominal Fat</a> · <a href="https://www.youtube.com/watch?v=DDqhIkQ-Zk0">Doctors Hate this Cortisol Trick</a> · <a href="https://www.youtube.com/watch?v=P12U_LS7Gys">This Neuroscientist Just Changed Melatonin Forever</a></p>
-</div>
-
-<p><strong>Also posted:</strong></p>
-<ul>
-<li><strong>Joe Rogan:</strong> Long conversations with David Cross (mostly nostalgia about Boston comedy scene, Art Bell, Phil Hendrie), Spencer Pratt on LA mayoral run and fire mismanagement allegations, and Andy Stumpf on his new book and SEAL training. (<a href="https://www.youtube.com/watch?v=efJ1-q3XxVc">David Cross</a> +2 more)</li>
-<li><strong>Paul Saladino MD:</strong> Short clips on cheat days being unnecessary when eating whole foods, plastic linings inside aluminum cans contributing to microplastics, napping benefits (NASA found 26 min optimal), infrared light blocked by low-E windows, and saturated fat not correlating with CVD in metabolically healthy people. (<a href="https://www.youtube.com/shorts/JX2SmkzfHsE">Do I have cheat days?</a> +5 more)</li>
-<li><strong>Ken Berry MD:</strong> Seven skin conditions linked to hyperinsulinemia—keratosis pilaris, skin tags, acanthosis nigricans, hidradenitis suppurativa, acne, rosacea, eczema/psoriasis—recommending fasting insulin testing with target under 10. (<a href="https://www.youtube.com/watch?v=X9GnsVdhUKM">7 Skin Signs of Insulin Resistance</a> +1 more)</li>
-<li><strong>Anthony Chaffee MD:</strong> Short clips arguing 84% of vegans quit, healing requires addressing root causes not just medication, and metabolic disease rates in vegetarian populations like India. (<a href="https://www.youtube.com/shorts/EcqBGgyLZAo">Am I A Turnip?</a> +2 more)</li>
-<li><strong>Dr. Sten Ekberg:</strong> Fatty liver superfoods critique—argues most lists miss that liver fat comes from de novo lipogenesis driven by carbs/fructose, not dietary fat; oatmeal doesn't help if insulin resistant. (<a href="https://www.youtube.com/watch?v=kb6xfIv1tSY">Top 10 SUPER FOODS That Can Heal A FATTY LIVER</a>)</li>
-<li><strong>GTO Lab:</strong> Leon Sturm on final table prep—20 min meditation, brief review of GTO Lab solutions for risk premiums, being gentle with yourself on mistakes. (<a href="https://www.youtube.com/shorts/QbCHfLVlQbU">Leon Sturm's interview</a> +2 more)</li>
-</ul>
 
 <h2>💡 Worth Reading</h2>
 
 <div class="story">
-<h3><a href="https://www.anthropic.com/news/claude-opus-4-7">Claude Opus 4.7</a></h3>
-<p>Anthropic's new flagship model release. At 1898 points, this is getting massive attention. Worth tracking for capability jumps—particularly relevant if you're using Claude for complex reasoning or coding tasks.</p>
-<p class="meta"><a href="https://news.ycombinator.com/item?id=44328401">Discussion</a></p>
-</div>
-
-<div class="story">
-<h3><a href="https://openai.com/index/codex-for-almost-everything/">Codex for almost everything</a></h3>
-<p>OpenAI expanding Codex capabilities significantly. At 956 points, this signals a major push into AI-assisted development beyond just code completion. Direct competition with Claude Code and similar tools.</p>
-<p class="meta"><a href="https://news.ycombinator.com/item?id=44325892">Discussion</a></p>
-</div>
-
-<div class="story">
-<h3><a href="https://hex.ooo/library/last_question.html">Isaac Asimov: The Last Question (1956)</a></h3>
-<p>The classic Asimov short story about entropy and computation across cosmic timescales. If you haven't read it, it's worth the 20 minutes—still holds up as one of the best explorations of AI and thermodynamics in fiction.</p>
-<p class="meta"><a href="https://news.ycombinator.com/item?id=44321456">Discussion</a></p>
-</div>
-
-<div class="story">
-<h3><a href="https://en.wikipedia.org/wiki/Human_accelerated_region_1">Human Accelerated Region 1</a></h3>
-<p>HAR1 is a 118-base segment of DNA that remained nearly unchanged for 300+ million years in vertebrates but then accumulated 18 changes in just ~6 million years of human evolution. Expressed during cortical development—potentially key to understanding what makes human brains different.</p>
-<p class="meta"><a href="https://news.ycombinator.com/item?id=44326789">Discussion</a></p>
+  <h3><a href="https://hex.ooo/library/last_question.html">Isaac Asimov: The Last Question (1956)</a></h3>
+  <p>The classic short story about entropy, computation, and deep time—now especially resonant given current AI discourse. If you haven't read it, it's 15 minutes well spent; if you have, worth revisiting with fresh eyes.</p>
+  <p class="meta"><a href="https://news.ycombinator.com/item?id=44376127">Discussion</a></p>
 </div>
 </body>
 </html>
