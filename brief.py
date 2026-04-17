@@ -1,6 +1,7 @@
 """
-Morning Brief — v0.2
+Morning Brief — v0.3
 Sources: Hacker News + YouTube channels
+Adds: daily anchor (quote + mental model) and channel spotlight
 """
 
 import os
@@ -12,6 +13,9 @@ from anthropic import Anthropic
 from dotenv import load_dotenv
 from youtube_transcript_api import YouTubeTranscriptApi
 from youtube_transcript_api.proxies import WebshareProxyConfig
+from quotes import pick_quote_for_today
+from mental_models import pick_model_for_today
+from suggestions import get_suggestion
 
 load_dotenv()
 client = Anthropic()
@@ -35,7 +39,7 @@ I do NOT care about:
 - Programming language wars, framework discourse
 """
 
-# --- PASTE YOUR YOUTUBE_CHANNELS DICT HERE (from find_channels.py output) ---
+# --- YouTube channels to monitor ---
 YOUTUBE_CHANNELS = {
     "GTO Wizard": "UCXSg1srGpJ67HuPTMm4w72g",
     "Ken Berry MD": "UCIma2WOQs1Mz2AuOt6wRSUw",
@@ -51,7 +55,6 @@ YOUTUBE_CHANNELS = {
     "Renaissance Periodization": "UCfQgsKhHjSyRLOp9mnffqVg",
 }
 
-# --- How many days back to look for new videos ---
 LOOKBACK_DAYS = 3
 
 
@@ -82,7 +85,7 @@ def fetch_recent_videos(channel_name, channel_id, days=LOOKBACK_DAYS):
     """Fetch videos published in the last N days from a channel's RSS feed."""
     feed_url = f"https://www.youtube.com/feeds/videos.xml?channel_id={channel_id}"
     try:
-        response = requests.get(feed_url, timeout=10)
+        response = requests.get(feed_url, timeout=8)
         root = ElementTree.fromstring(response.content)
     except Exception as e:
         print(f"[YT] {channel_name}: feed error ({e})")
@@ -107,7 +110,6 @@ def fetch_recent_videos(channel_name, channel_id, days=LOOKBACK_DAYS):
     return videos
 
 
-# Create one API instance, reused for all transcript fetches
 _transcript_api = YouTubeTranscriptApi(
     proxy_config=WebshareProxyConfig(
         proxy_username=os.getenv("WEBSHARE_PROXY_USERNAME"),
@@ -116,29 +118,71 @@ _transcript_api = YouTubeTranscriptApi(
 )
 LONG_FORM_CHANNELS = {"Joe Rogan", "Lex Fridman"}
 
+
 def fetch_transcript(video_id, channel_name=None):
     """Try to pull a transcript. Returns None if unavailable."""
+    import threading
     max_chars = 60000 if channel_name in LONG_FORM_CHANNELS else 15000
-    try:
-        fetched = _transcript_api.fetch(video_id)
-        text = " ".join([snippet.text for snippet in fetched.snippets])
-        return text[:max_chars]
-    except Exception as e:
-        print(f"    [transcript] {video_id}: {type(e).__name__}")
+    result = [None]
+    error = [None]
+
+    def _do_fetch():
+        try:
+            fetched = _transcript_api.fetch(video_id)
+            text = " ".join([snippet.text for snippet in fetched.snippets])
+            result[0] = text[:max_chars]
+        except Exception as e:
+            error[0] = type(e).__name__
+
+    thread = threading.Thread(target=_do_fetch, daemon=True)
+    thread.start()
+    thread.join(timeout=30)
+
+    if thread.is_alive():
+        print(f"    [transcript] {video_id}: TIMEOUT (>30s)")
         return None
+    if error[0]:
+        print(f"    [transcript] {video_id}: {error[0]}")
+        return None
+    return result[0]
 
 
 def fetch_all_youtube():
-    """Pull recent videos from every channel, with transcripts where possible."""
+    """Pull recent videos from every channel in parallel, then add transcripts in parallel."""
+    from concurrent.futures import ThreadPoolExecutor, as_completed
+
     print(f"[YT] Checking {len(YOUTUBE_CHANNELS)} channels for videos in last {LOOKBACK_DAYS} days...")
     all_videos = []
-    for name, cid in YOUTUBE_CHANNELS.items():
-        videos = fetch_recent_videos(name, cid)
-        for v in videos:
-            v["transcript"] = fetch_transcript(v["video_id"], v["channel"])
-            all_videos.append(v)
-        if videos:
-            print(f"[YT]   {name}: {len(videos)} new video(s)")
+
+    with ThreadPoolExecutor(max_workers=12) as pool:
+        futures = {
+            pool.submit(fetch_recent_videos, name, cid): name
+            for name, cid in YOUTUBE_CHANNELS.items()
+        }
+        for future in as_completed(futures):
+            name = futures[future]
+            try:
+                videos = future.result(timeout=20)
+                if videos:
+                    print(f"[YT]   {name}: {len(videos)} new video(s)")
+                all_videos.extend(videos)
+            except Exception as e:
+                print(f"[YT]   {name}: error — {type(e).__name__}")
+
+    print(f"[YT] Fetching transcripts for {len(all_videos)} videos in parallel...")
+
+    completed = [0]
+    total = len(all_videos)
+
+    def _load_transcript(video):
+        video["transcript"] = fetch_transcript(video["video_id"], video["channel"])
+        completed[0] += 1
+        print(f"[YT]   transcripts: {completed[0]}/{total}")
+        return video
+
+    with ThreadPoolExecutor(max_workers=5) as pool:
+        list(pool.map(_load_transcript, all_videos))
+
     print(f"[YT] Total new videos: {len(all_videos)}")
     return all_videos
 
@@ -249,6 +293,25 @@ def build_html(brief_content):
   .story {{ margin-bottom: 1.8em; }}
   .meta {{ color: #888; font-size: 0.9em; margin-top: 0.3em; }}
   .meta a {{ color: #888; }}
+
+  .anchor {{ background: #f0ede4; padding: 20px 25px; border-radius: 6px; margin-bottom: 2em; }}
+  .anchor h2 {{ border-bottom: none; margin-top: 0; }}
+  .anchor-block {{ margin: 1.2em 0; }}
+  .quote {{ font-size: 1.15em; font-style: italic; margin: 0 0 0.3em 0; }}
+  .author {{ color: #555; margin: 0 0 0.5em 0; font-weight: bold; }}
+  .model-label {{ font-size: 0.85em; color: #888; text-transform: uppercase; letter-spacing: 0.05em; margin: 0; }}
+  .model-name {{ font-size: 1.2em; font-weight: bold; margin: 0.2em 0 0.4em 0; }}
+  .context {{ color: #444; font-size: 0.95em; margin: 0; }}
+
+  .spotlight {{ background: #eef4f0; padding: 20px 25px; border-left: 4px solid #5a8a6b; border-radius: 6px; margin-bottom: 2em; }}
+  .spotlight h2 {{ border-bottom: none; margin-top: 0; }}
+  .spotlight-name {{ font-size: 1.25em; font-weight: bold; margin: 0 0 0.4em 0; }}
+  .spotlight-pitch {{ color: #333; margin: 0 0 1em 0; }}
+  .spotlight-instructions {{ font-size: 0.95em; color: #555; margin: 0 0 0.4em 0; }}
+  .spotlight-snippet {{ background: #1e2a24; color: #d4e8d8; padding: 12px 15px; border-radius: 4px; font-family: 'Consolas', 'Monaco', monospace; font-size: 0.9em; overflow-x: auto; margin: 0.3em 0; }}
+  .copy-btn {{ background: #5a8a6b; color: white; border: none; padding: 6px 14px; border-radius: 4px; cursor: pointer; font-size: 0.85em; margin-top: 0.3em; }}
+  .copy-btn:hover {{ background: #4a7a5b; }}
+  .spotlight-meta {{ color: #888; font-size: 0.85em; font-style: italic; margin: 0.8em 0 0 0; }}
 </style>
 </head>
 <body>
@@ -264,6 +327,13 @@ if __name__ == "__main__":
     hn_stories = fetch_hn_stories(n=30)
     yt_videos = fetch_all_youtube()
 
+    # Pick today's anchor content
+    quote_text, quote_author, quote_context = pick_quote_for_today()
+    model_name, model_domain, model_story = pick_model_for_today()
+
+    # Get today's channel spotlight
+    suggestion = get_suggestion(YOUTUBE_CHANNELS, MY_INTERESTS)
+
     # Save raw dump for debugging
     with open("raw_stories.txt", "w", encoding="utf-8") as f:
         f.write("=== HACKER NEWS ===\n")
@@ -274,7 +344,44 @@ if __name__ == "__main__":
             f.write(f"{v['channel']}: {v['title']}\n  {v['url']}\n  Transcript: {'yes' if v['transcript'] else 'NO'}\n\n")
 
     brief = build_brief(hn_stories, yt_videos)
-    html = build_html(brief)
+
+    # Build the anchor block
+    anchor_html = f"""
+<div class="anchor">
+  <h2>☀️ Today's Anchor</h2>
+  <div class="anchor-block">
+    <p class="quote">"{quote_text}"</p>
+    <p class="author">— {quote_author}</p>
+    <p class="context">{quote_context}</p>
+  </div>
+  <div class="anchor-block">
+    <p class="model-label">Mental Model · {model_domain}</p>
+    <p class="model-name">{model_name}</p>
+    <p class="context">{model_story}</p>
+  </div>
+</div>
+"""
+
+    # Build the spotlight block
+    spotlight_html = ""
+    if suggestion:
+        snippet = f'    "{suggestion["channel_name"]}": "{suggestion["channel_id"]}",'
+        days_left = suggestion.get("days_left", 1)
+        day_note = "showing for 1 more day" if days_left == 1 else f"showing for {days_left} more days"
+
+        spotlight_html = f"""
+<div class="spotlight">
+  <h2>🧭 Channel Spotlight</h2>
+  <p class="spotlight-name">{suggestion["channel_name"]}</p>
+  <p class="spotlight-pitch">{suggestion["pitch"]}</p>
+  <p class="spotlight-instructions">Interested? Copy the line below into <code>YOUTUBE_CHANNELS</code> in <code>brief.py</code> and save:</p>
+  <pre class="spotlight-snippet" id="snippet">{snippet}</pre>
+  <button class="copy-btn" onclick="navigator.clipboard.writeText(document.getElementById('snippet').innerText.trim()); this.innerText='✅ Copied'; setTimeout(()=>this.innerText='📋 Copy snippet', 2000);">📋 Copy snippet</button>
+  <p class="spotlight-meta">{day_note}. If you don't add it, a new channel will be suggested.</p>
+</div>
+"""
+
+    html = build_html(anchor_html + spotlight_html + brief)
 
     with open("brief.html", "w", encoding="utf-8") as f:
         f.write(html)

@@ -22,62 +22,115 @@
   .story { margin-bottom: 1.8em; }
   .meta { color: #888; font-size: 0.9em; margin-top: 0.3em; }
   .meta a { color: #888; }
+
+  .anchor { background: #f0ede4; padding: 20px 25px; border-radius: 6px; margin-bottom: 2em; }
+  .anchor h2 { border-bottom: none; margin-top: 0; }
+  .anchor-block { margin: 1.2em 0; }
+  .quote { font-size: 1.15em; font-style: italic; margin: 0 0 0.3em 0; }
+  .author { color: #555; margin: 0 0 0.5em 0; font-weight: bold; }
+  .model-label { font-size: 0.85em; color: #888; text-transform: uppercase; letter-spacing: 0.05em; margin: 0; }
+  .model-name { font-size: 1.2em; font-weight: bold; margin: 0.2em 0 0.4em 0; }
+  .context { color: #444; font-size: 0.95em; margin: 0; }
+  .spotlight { background: #eef4f0; padding: 20px 25px; border-left: 4px solid #5a8a6b; border-radius: 6px; margin-bottom: 2em; }
+  .spotlight h2 { border-bottom: none; margin-top: 0; }
+  .spotlight-name { font-size: 1.25em; font-weight: bold; margin: 0 0 0.4em 0; }
+  .spotlight-pitch { color: #333; margin: 0 0 1em 0; }
+  .spotlight-instructions { font-size: 0.95em; color: #555; margin: 0 0 0.4em 0; }
+  .spotlight-snippet { background: #1e2a24; color: #d4e8d8; padding: 12px 15px; border-radius: 4px; font-family: 'Consolas', 'Monaco', monospace; font-size: 0.9em; overflow-x: auto; margin: 0.3em 0; }
+  .copy-btn { background: #5a8a6b; color: white; border: none; padding: 6px 14px; border-radius: 4px; cursor: pointer; font-size: 0.85em; margin-top: 0.3em; }
+  .copy-btn:hover { background: #4a7a5b; }
+  .spotlight-meta { color: #888; font-size: 0.85em; font-style: italic; margin: 0.8em 0 0 0; }
 </style>
 </head>
 <body>
 <h1>Morning Brief</h1>
 <p class="date">Friday, April 17, 2026</p>
+
+<div class="anchor">
+  <h2>☀️ Today's Anchor</h2>
+  <div class="anchor-block">
+    <p class="quote">"The first principle is that you must not fool yourself — and you are the easiest person to fool."</p>
+    <p class="author">— Richard Feynman</p>
+    <p class="context">Caltech commencement speech, 1974. Feynman on the core ethic of science — and of honest thinking in any domain.</p>
+  </div>
+  <div class="anchor-block">
+    <p class="model-label">Mental Model · Decision-making</p>
+    <p class="model-name">Asymmetric Bets</p>
+    <p class="context">Seek situations where downside is limited but upside is unbounded. Options trading, venture capital, writing a book. Conversely, avoid inverses: picking up pennies in front of a steamroller. Nassim Taleb's full framework, but Munger lived it before Taleb wrote about it.</p>
+  </div>
+</div>
+
+<div class="spotlight">
+  <h2>🧭 Channel Spotlight</h2>
+  <p class="spotlight-name">Mike Israetel</p>
+  <p class="spotlight-pitch">You have Renaissance Periodization but Mike Israetel also runs his personal channel with more informal, longer discussions that go deeper into training philosophy and dietary flexibility debates—including his critiques of strict carnivore from a bodybuilding perspective. He steelmans moderate-carb approaches with actual mechanistic arguments rather than dogma, which balances your current low-carb-heavy feed. Format is solo talking-head and casual conversations, often 20-45 minutes, more exploratory than the polished RP content.</p>
+  <p class="spotlight-instructions">Interested? Copy the line below into <code>YOUTUBE_CHANNELS</code> in <code>brief.py</code> and save:</p>
+  <pre class="spotlight-snippet" id="snippet">    "Mike Israetel": "UCfQgsKhHjSyRLOp9mnffqVg",</pre>
+  <button class="copy-btn" onclick="navigator.clipboard.writeText(document.getElementById('snippet').innerText.trim()); this.innerText='✅ Copied'; setTimeout(()=>this.innerText='📋 Copy snippet', 2000);">📋 Copy snippet</button>
+  <p class="spotlight-meta">showing for 3 more days. If you don't add it, a new channel will be suggested.</p>
+</div>
 <h2>🎥 From People I Follow</h2>
 
+<p><strong>Worth your time:</strong></p>
+
 <div class="story">
-  <h3>GTO Wizard</h3>
-  <p>GTO Wizard benchmarked major LLMs against their poker AI in heads-up play. GPT 5.3 performed "best" but still lost at 16.3 bb/100 — catastrophically bad compared to human experts who lose around 5 bb/100. Key findings: LLMs have terrible preflop ranges (folding way too much), frequently misread their own hands (calling Q9o "suited," misreading board textures), and hero-call far too often with weak holdings. The testing used AVAT methodology for luck-adjusted win rates. GTO Wizard opened a public API for anyone to benchmark their models. The failures reveal LLMs are predicting language patterns from poker content, not actually computing EV — they sound strategic but make objectively poor decisions.</p>
-  <p class="meta">Videos: <a href="https://www.youtube.com/watch?v=CjwyEFYY-Ls">Can AI Actually Play Poker? We Ranked the Best LLMs</a></p>
+<h3>GTO Wizard</h3>
+<p>GTO Wizard built a benchmark testing LLMs against their poker AI, and the results are brutal: GPT-5.3 (the best performer) still loses at 16.3 big blinds per 100—compared to ~5 BB/100 for top human experts. The failures are telling: LLMs literally misread their hands (calling Q9o "suited"), have massively nitty 3-bet ranges, and hero-call with garbage like 96 on paired boards. Even with $40/100 hands in inference costs, performance plateaus. The luck-adjusted methodology (AVAT) uses knowledge of GTO Wizard's full strategy to reduce variance by 10x over small samples. Public leaderboard is live if you want to benchmark your own bot.</p>
+<p class="meta">Videos: <a href="https://www.youtube.com/watch?v=CjwyEFYY-Ls">Can AI Actually Play Poker? We Ranked the Best LLMs</a> · <a href="https://www.youtube.com/shorts/Qk_8BSQmXF4">Can AI Actually Play Poker?</a></p>
 </div>
 
 <div class="story">
-  <h3>Ken Berry MD</h3>
-  <p>Berry identifies 7 skin conditions linked to hyperinsulinemia: keratosis pilaris ("chicken skin"), skin tags, acanthosis nigricans (dark velvety patches), hidradenitis suppurativa (recurring boils), moderate-to-severe acne, rosacea, and eczema/psoriasis. His argument: these conditions improve or resolve when carbohydrates are cut enough to get fasting insulin under 10 (ideally around 5). He recommends testing hemoglobin A1C, fasting insulin (12-14 hour fast), or C-peptide if injecting insulin. Claims hundreds in his community have put these conditions into remission through ketogenic/carnivore diets.</p>
-  <p class="meta">Videos: <a href="https://www.youtube.com/watch?v=X9GnsVdhUKM">7 Skin Signs of Insulin Resistance</a></p>
+<h3>Nick Norwitz</h3>
+<p>Norwitz makes a compelling case that cardiology's LDL fixation misses the point for longevity. PCSK9 loss-of-function mutations dramatically lower LDL but show no lifespan benefit (trend actually goes toward more mortality). By contrast, ApoC3 loss-of-function variants are 2.5x more common in centenarians—despite having virtually identical LDL/ApoB levels. The difference: ApoC3 regulates triglyceride clearance, and lower ApoC3 means better metabolic efficiency. Actionable interventions: ketogenic diets reduced ApoC3 by 50% in 2 weeks in one study; fructose is worse than glucose for ApoC3 production; omega-3s help. Heart rate variability short ties in—low HRV associated with 5.3x higher post-heart attack mortality risk.</p>
+<p class="meta">Videos: <a href="https://www.youtube.com/watch?v=SnwbtYm2RDE">The One Lipid Marker Linked to Longevity</a> · <a href="https://www.youtube.com/shorts/gNhjein5n0w">This Metric Predicts 5x Higher Death Risk After a Heart Attack</a></p>
 </div>
 
 <div class="story">
-  <h3>Nick Norwitz</h3>
-  <p>Norwitz argues the "lower LDL is better" paradigm misses something important: genetic variants that lower LDL (like PCSK9 loss-of-function) show no lifespan benefit — if anything, trending toward earlier death. But ApoC3 loss-of-function variants are 2.5x more common in centenarians, despite similar LDL/ApoB levels. The difference: ApoC3 variants improve triglyceride clearance and metabolic efficiency (43% drop in remnant cholesterol, only 4% drop in LDL). ApoC3 slows triglyceride breakdown; lowering it improves lipid metabolism and insulin sensitivity. Evidence-based ways to lower ApoC3: ketogenic diets (one study showed 50% reduction in 2 weeks), fructose/sugar restriction, omega-3s (target 8%+ omega-3 index), and improving insulin sensitivity generally.</p>
-  <p class="meta">Videos: <a href="https://www.youtube.com/watch?v=SnwbtYm2RDE">The One Lipid Marker Linked to Longevity</a></p>
+<h3>Renaissance Periodization</h3>
+<p>Dr. Mike's hypertrophy programming guide nails the beginner-intermediate-advanced distinction: beginners grow from minimal volume and should focus on technique with 5-10 rep ranges on distributed compounds (close-grip bench hits both chest and triceps); don't rush to advanced protocols. The Paddy Pimblett weight cut critique shows him dropping 50 lbs to 155—losing ~30 lbs tissue and ~20 lbs water. Key technique: carb depletion before water cut (glycogen holds 3g water per gram). Sleep content reinforces that ~70% of daily growth hormone releases in first half of nightly sleep, and cortisol spikes from sleep loss shift protein balance catabolic while favoring visceral fat storage.</p>
+<p class="meta">Videos: <a href="https://www.youtube.com/watch?v=zhP5gsBbgYY">How to Train for Muscle Growth: Beginner to Advanced Training</a> · <a href="https://www.youtube.com/watch?v=gSo5l9AqAfg">Exercise Scientist Critiques Paddy The Baddy</a> · <a href="https://www.youtube.com/shorts/huGNal00O6o">You Sleep Less, You Grow Less</a> · <a href="https://www.youtube.com/shorts/D_RqHf2BMcc">Bad Sleep Can Make You Gain More Fat</a></p>
 </div>
 
 <div class="story">
-  <h3>Thomas DeLauer</h3>
-  <p><strong>Caffeine timing study:</strong> A Journal of International Society of Sports Nutrition study found 3mg/kg caffeine at 8am increased max fat oxidation by 10.7%, but at 5pm it increased by 29%. Theory: the delta from baseline cortisol is larger in the evening. Practical application: if you can tolerate it without disrupting sleep (6 hours minimum before bed), midday caffeine before lower-intensity cardio may boost fat burning. Recommends combining with apigenin to reduce stimulatory effects while preserving fat oxidation benefits.</p>
-  <p><strong>Melatonin deep-dive with neuroscientist:</strong> After 30 years of daily melatonin use, guest measured his endogenous production after stopping — completely normal levels, no dependency. No evidence of suppressing LH, FSH, or testosterone. Primary benefits aren't sleep (just reduces sleep latency) but neuroprotection: crosses blood-brain barrier, potent antioxidant that suppresses superoxide anion from mitochondria. 5mg sublingual is his dose. Caution: cancer patients on chemo/radiation should be careful since those kill cancer cells via oxidative stress. Green tea extract supplements can cause liver damage at high doses despite benefits at normal tea consumption levels.</p>
-  <p class="meta">Videos: <a href="https://www.youtube.com/watch?v=_g7ouiKjRxE">This Coffee Hack Melts Abdominal Fat</a>, <a href="https://www.youtube.com/watch?v=P12U_LS7Gys">This Neuroscientist Just Changed Melatonin Forever</a></p>
+<h3>Thomas DeLauer</h3>
+<p>DeLauer covers several evidence-backed supplements: Taurine at 4-6g/day reduces oxidative damage in overused muscles and improves insulin sensitivity for better nutrient absorption—he personally noticed faster lactate clearance. A Journal of ISSN study found caffeine (3mg/kg) at 5pm increased fat oxidation 29% vs 10.7% at 8am—the delta is larger because baseline cortisol is lower in evening. For cortisol dysregulation (waking at 3:30am wired, crashing by noon), he recommends a "5:2" approach: weekdays eat normally with carbs at dinner to reset circadian cortisol, then aggressive caloric restriction (500 cal/day) on weekends. On melatonin, a neuroscientist guest confirms no evidence of dependency after 30 years of use—blood work showed normal endogenous production after stopping, with benefits extending to neuroprotection and anti-cancer effects at 1-5mg doses.</p>
+<p class="meta">Videos: <a href="https://www.youtube.com/watch?v=eIJFu18J-qQ">These Powders Build Muscle LEGALLY Without Steroids</a> · <a href="https://www.youtube.com/watch?v=_g7ouiKjRxE">This Coffee Hack Melts Abdominal Fat</a> · <a href="https://www.youtube.com/watch?v=DDqhIkQ-Zk0">Doctors Hate this Cortisol Trick</a> · <a href="https://www.youtube.com/watch?v=P12U_LS7Gys">This Neuroscientist Just Changed Melatonin Forever</a></p>
 </div>
 
-<div class="story">
-  <h3>Renaissance Periodization</h3>
-  <p>Dr. Mike's beginner-to-advanced training framework: Beginners (0-2 years) should train 2-4x/week whole body with distributed compounds, sets of 5-10 reps, focusing on technique over intensity. They grow from minimal volume — don't rush to intermediate programming. Intermediates (3-6 years) need more variation and volume. Advanced (7+ years) make slow gains and shouldn't claim that status if technique is poor. Key principle: "If you can maintain beginner results with beginner volumes, don't go do intermediate shit." Milk each stage. On sleep: 70% of daily growth hormone releases in the first half of sleep; poor sleep raises cortisol (catabolic, promotes visceral fat storage) and directly reduces muscle protein synthesis that occurs during sleep hours.</p>
-  <p class="meta">Videos: <a href="https://www.youtube.com/watch?v=zhP5gsBbgYY">How to Train for Muscle Growth: Beginner to Advanced</a></p>
-</div>
+<p><strong>Also posted:</strong></p>
+<ul>
+<li><strong>Joe Rogan:</strong> Long conversations with David Cross (mostly nostalgia about Boston comedy scene, Art Bell, Phil Hendrie), Spencer Pratt on LA mayoral run and fire mismanagement allegations, and Andy Stumpf on his new book and SEAL training. (<a href="https://www.youtube.com/watch?v=efJ1-q3XxVc">David Cross</a> +2 more)</li>
+<li><strong>Paul Saladino MD:</strong> Short clips on cheat days being unnecessary when eating whole foods, plastic linings inside aluminum cans contributing to microplastics, napping benefits (NASA found 26 min optimal), infrared light blocked by low-E windows, and saturated fat not correlating with CVD in metabolically healthy people. (<a href="https://www.youtube.com/shorts/JX2SmkzfHsE">Do I have cheat days?</a> +5 more)</li>
+<li><strong>Ken Berry MD:</strong> Seven skin conditions linked to hyperinsulinemia—keratosis pilaris, skin tags, acanthosis nigricans, hidradenitis suppurativa, acne, rosacea, eczema/psoriasis—recommending fasting insulin testing with target under 10. (<a href="https://www.youtube.com/watch?v=X9GnsVdhUKM">7 Skin Signs of Insulin Resistance</a> +1 more)</li>
+<li><strong>Anthony Chaffee MD:</strong> Short clips arguing 84% of vegans quit, healing requires addressing root causes not just medication, and metabolic disease rates in vegetarian populations like India. (<a href="https://www.youtube.com/shorts/EcqBGgyLZAo">Am I A Turnip?</a> +2 more)</li>
+<li><strong>Dr. Sten Ekberg:</strong> Fatty liver superfoods critique—argues most lists miss that liver fat comes from de novo lipogenesis driven by carbs/fructose, not dietary fat; oatmeal doesn't help if insulin resistant. (<a href="https://www.youtube.com/watch?v=kb6xfIv1tSY">Top 10 SUPER FOODS That Can Heal A FATTY LIVER</a>)</li>
+<li><strong>GTO Lab:</strong> Leon Sturm on final table prep—20 min meditation, brief review of GTO Lab solutions for risk premiums, being gentle with yourself on mistakes. (<a href="https://www.youtube.com/shorts/QbCHfLVlQbU">Leon Sturm's interview</a> +2 more)</li>
+</ul>
 
 <h2>💡 Worth Reading</h2>
 
 <div class="story">
-  <h3><a href="https://hex.ooo/library/last_question.html">Isaac Asimov: The Last Question</a></h3>
-  <p>The classic Asimov short story about entropy, the heat death of the universe, and whether it can be reversed — spanning trillions of years of human/AI evolution. One of the most celebrated SF short stories ever written, worth revisiting.</p>
-  <p class="meta"><a href="https://news.ycombinator.com/item?id=44312345">Discussion</a></p>
+<h3><a href="https://www.anthropic.com/news/claude-opus-4-7">Claude Opus 4.7</a></h3>
+<p>Anthropic's new flagship model release. At 1898 points, this is getting massive attention. Worth tracking for capability jumps—particularly relevant if you're using Claude for complex reasoning or coding tasks.</p>
+<p class="meta"><a href="https://news.ycombinator.com/item?id=44328401">Discussion</a></p>
 </div>
 
 <div class="story">
-  <h3><a href="https://en.wikipedia.org/wiki/Human_accelerated_region_1">Human Accelerated Region 1</a></h3>
-  <p>HAR1 is the fastest-evolving region in the human genome compared to chimps — 18 changes where only 2 would be expected. It's active during cortical development weeks 7-19 of gestation and may be key to what makes human brains distinctly human. Fascinating intersection of genetics and what separates us from other primates.</p>
-  <p class="meta"><a href="https://news.ycombinator.com/item?id=44298765">Discussion</a></p>
+<h3><a href="https://openai.com/index/codex-for-almost-everything/">Codex for almost everything</a></h3>
+<p>OpenAI expanding Codex capabilities significantly. At 956 points, this signals a major push into AI-assisted development beyond just code completion. Direct competition with Claude Code and similar tools.</p>
+<p class="meta"><a href="https://news.ycombinator.com/item?id=44325892">Discussion</a></p>
 </div>
 
 <div class="story">
-  <h3><a href="https://www.iqiipi.com/the-quiet-colossus.html">Ada, Its Design, and the Language That Built the Languages</a></h3>
-  <p>Deep dive into Ada's design philosophy and its lasting influence on programming language design. For those interested in why languages are designed the way they are and the history of software engineering practices in safety-critical systems.</p>
-  <p class="meta"><a href="https://news.ycombinator.com/item?id=44287654">Discussion</a></p>
+<h3><a href="https://hex.ooo/library/last_question.html">Isaac Asimov: The Last Question (1956)</a></h3>
+<p>The classic Asimov short story about entropy and computation across cosmic timescales. If you haven't read it, it's worth the 20 minutes—still holds up as one of the best explorations of AI and thermodynamics in fiction.</p>
+<p class="meta"><a href="https://news.ycombinator.com/item?id=44321456">Discussion</a></p>
+</div>
+
+<div class="story">
+<h3><a href="https://en.wikipedia.org/wiki/Human_accelerated_region_1">Human Accelerated Region 1</a></h3>
+<p>HAR1 is a 118-base segment of DNA that remained nearly unchanged for 300+ million years in vertebrates but then accumulated 18 changes in just ~6 million years of human evolution. Expressed during cortical development—potentially key to understanding what makes human brains different.</p>
+<p class="meta"><a href="https://news.ycombinator.com/item?id=44326789">Discussion</a></p>
 </div>
 </body>
 </html>
