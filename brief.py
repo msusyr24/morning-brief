@@ -7,6 +7,7 @@ Adds: daily anchor (quote + mental model) and channel spotlight
 import os
 import requests
 import time
+import re
 from datetime import datetime, timedelta, timezone
 from xml.etree import ElementTree
 from anthropic import Anthropic
@@ -53,6 +54,7 @@ YOUTUBE_CHANNELS = {
     "Lex Fridman": "UCSHZKyawb77ixDdsGog4iWA",
     "Dr. Sten Ekberg": "UCIe2pR6PE0dae9BunJ38F7w",
     "Renaissance Periodization": "UCfQgsKhHjSyRLOp9mnffqVg",
+    "Peter Attia": "UC8kGsMa0LygSX9nkBcBH1Sg",
 }
 
 LOOKBACK_DAYS = 3
@@ -84,6 +86,114 @@ def fetch_hn_stories(n=30):
     print(f"[HN]   Got {len(stories)} stories.")
     return stories
 
+# ---------- Generic RSS fetcher ----------
+import feedparser
+
+RSS_SOURCES = {
+    # Bitcoin & macro
+    "Bitcoin Magazine": {
+        "url": "https://bitcoinmagazine.com/.rss/full/",
+        "category": "bitcoin",
+    },
+    "Lyn Alden": {
+        "url": "https://www.lynalden.com/feed/",
+        "category": "bitcoin",
+    },
+    "What Bitcoin Did": {
+        "url": "https://www.whatbitcoindid.com/podcast?format=rss",
+        "category": "bitcoin",
+    },
+    # AI capabilities from the source
+    "Anthropic": {
+        "url": "https://www.anthropic.com/news/rss.xml",
+        "category": "ai",
+    },
+    "OpenAI": {
+        "url": "https://openai.com/news/rss.xml",
+        "category": "ai",
+    },
+    # Health / science / longevity
+    "Peter Attia": {
+        "url": "https://peterattiamd.com/feed/",
+        "category": "health",
+    },
+    "Examine": {
+        "url": "https://examine.com/rss/",
+        "category": "health",
+    },
+    # Long-form ideas
+    "Stratechery (free)": {
+        "url": "https://stratechery.com/feed/",
+        "category": "ideas",
+    },
+    "Marginal Revolution": {
+        "url": "https://marginalrevolution.com/feed",
+        "category": "ideas",
+    },
+}
+
+
+def fetch_rss_source(name, config, days=3):
+    """Fetch a single RSS feed. Returns items from the last N days."""
+    try:
+        feed = feedparser.parse(config["url"])
+    except Exception as e:
+        print(f"[RSS] {name}: error — {e}")
+        return []
+
+    cutoff = datetime.now(timezone.utc) - timedelta(days=days)
+    items = []
+    for entry in feed.entries[:20]:  # Cap at 20 per feed to avoid overwhelming
+        # Parse publish date (format varies across feeds)
+        published = None
+        for attr in ["published_parsed", "updated_parsed"]:
+            pub_struct = entry.get(attr)
+            if pub_struct:
+                published = datetime(*pub_struct[:6], tzinfo=timezone.utc)
+                break
+        if not published or published < cutoff:
+            continue
+
+        # Some feeds give a summary, some give full content; grab what's there
+        summary = entry.get("summary", "") or entry.get("description", "")
+        # feedparser sometimes returns html — quick flattening
+        summary = re.sub(r"<[^>]+>", "", summary)[:400]
+
+        items.append({
+            "source": name,
+            "category": config["category"],
+            "title": entry.get("title", ""),
+            "url": entry.get("link", ""),
+            "summary": summary,
+            "published": published.isoformat(),
+        })
+    return items
+
+
+def fetch_all_rss():
+    """Pull recent items from all RSS sources in parallel."""
+    from concurrent.futures import ThreadPoolExecutor, as_completed
+
+    print(f"[RSS] Checking {len(RSS_SOURCES)} RSS sources...")
+    all_items = []
+
+    with ThreadPoolExecutor(max_workers=len(RSS_SOURCES)) as pool:
+        futures = {
+            pool.submit(fetch_rss_source, name, config): name
+            for name, config in RSS_SOURCES.items()
+        }
+        for future in as_completed(futures):
+            name = futures[future]
+            try:
+                items = future.result(timeout=15)
+                if items:
+                    print(f"[RSS]   {name}: {len(items)} item(s)")
+                all_items.extend(items)
+            except Exception as e:
+                print(f"[RSS]   {name}: error — {type(e).__name__}")
+
+    print(f"[RSS] Total items: {len(all_items)}")
+    return all_items
 
 # ---------- YouTube ----------
 def fetch_recent_videos(channel_name, channel_id, days=LOOKBACK_DAYS):
@@ -196,13 +306,28 @@ def fetch_all_youtube():
 
 
 # ---------- Claude synthesis ----------
-def build_brief(hn_stories, yt_videos):
+def build_brief(hn_stories, yt_videos, rss_items):
     print("[Claude] Generating brief...")
 
     hn_text = "\n".join([
         f"- [{s['score']} pts] {s['title']} — {s['url']}"
         for s in hn_stories
     ])
+
+    # Group RSS items by category
+    rss_by_category = {}
+    for item in rss_items:
+        rss_by_category.setdefault(item["category"], []).append(item)
+
+    rss_text_parts = []
+    for category, items in rss_by_category.items():
+        rss_text_parts.append(f"\n### {category.upper()} ###")
+        for item in items:
+            block = f"- [{item['source']}] {item['title']} — {item['url']}"
+            if item["summary"]:
+                block += f"\n  Summary: {item['summary'][:300]}"
+            rss_text_parts.append(block)
+    rss_text = "\n".join(rss_text_parts) if rss_text_parts else "(No RSS items today.)"
 
     yt_text_parts = []
     for v in yt_videos:
@@ -218,10 +343,13 @@ def build_brief(hn_stories, yt_videos):
 
 {MY_INTERESTS}
 
-Below are today's inputs from Hacker News and from YouTube channels I follow. Produce a clean HTML brief.
+Below are today's inputs from four streams: Hacker News (tech/AI), RSS feeds (Bitcoin/macro, AI capability announcements, health, long-form ideas), and YouTube channels I follow. Produce a clean HTML brief.
 
 === HACKER NEWS ===
 {hn_text}
+
+=== RSS FEEDS ===
+{rss_text}
 
 === YOUTUBE ===
 {yt_text}
@@ -246,28 +374,38 @@ For every OTHER person who posted videos with transcripts (that weren't included
 If they posted multiple, mention the one with most substance and note "+N more."
 </ul>
 
-Rules:
-- If a video has "Transcript unavailable," still list it in "Also posted" but write: "⚠️ Title only, no transcript."
-- Never invent or speculate on content. If you don't have the transcript, say so.
-
-<h2>💡 Worth Reading</h2>
-For each HN story worth my time:
+<h2>₿ Bitcoin & Macro</h2>
+Pull from BOTH the RSS "bitcoin" category AND any HN or YouTube items about Bitcoin/monetary policy/macroeconomics. For each item worth flagging:
 <div class="story">
   <h3><a href="URL">Title</a></h3>
-  <p>2-3 sentences on the substance and why it matters to me.</p>
-  <p class="meta"><a href="COMMENTS_URL">Discussion</a></p>
+  <p>2-3 sentences on the substance. If this is a Saylor appearance, cite his core argument. If it's an essay or analysis, summarize the thesis — not the article structure.</p>
+  <p class="meta">Source</p>
 </div>
 
+<h2>🧬 Health & Science</h2>
+Pull from RSS "health" category AND related HN/YouTube items. Cite specific studies, mechanisms, or data. Skip listicle-style content.
+
+<h2>💡 Worth Reading</h2>
+For HN stories and RSS "ideas" items worth my time:
+<div class="story">
+  <h3><a href="URL">Title</a></h3>
+  <p>2-3 sentences on substance and why it matters.</p>
+  <p class="meta"><a href="COMMENTS_URL">Discussion</a> (if HN) or Source</p>
+</div>
+
+<h2>🤖 AI Capability Watch</h2>
+Only include items from the RSS "ai" category OR HN items that are about NEW END-USER CAPABILITIES (not infrastructure, model releases for release's sake, or framework discourse). If nothing substantive: skip this section entirely.
+
 Rules:
-- Be ruthless. If something doesn't genuinely match my interests, cut it.
-- For YouTube: summarize the IDEAS, not the video. "Chaffee argues that..." not "This video discusses..."
-- No hype, no filler, no "in today's fast-paced world"
+- Be ruthless. Skip padding. Skip political drama. Skip crypto altcoin talk.
 - If a whole section has nothing worthwhile, skip the heading entirely
-- If the day has almost nothing, say so honestly with something like <p><em>Quiet day. Not much worth flagging.</em></p>
+- For YouTube: summarize the IDEAS, not the video. "Chaffee argues that..." not "This video discusses..."
+- No hype, no filler
+- If the day has almost nothing, say so honestly with <p><em>Quiet day. Not much worth flagging.</em></p>
 """
 
     response = client.messages.create(
-        model="claude-opus-4-5",
+        model="claude-sonnet-4-5",
         max_tokens=6000,
         messages=[{"role": "user", "content": prompt}],
     )
@@ -302,6 +440,24 @@ def build_html(brief_content):
   .meta {{ color: #888; font-size: 0.9em; margin-top: 0.3em; }}
   .meta a {{ color: #888; }}
 
+  .btc-ticker {{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #fff8e7;
+    border: 1px solid #f0d890;
+    padding: 10px 18px;
+    border-radius: 6px;
+    margin-bottom: 1.5em;
+    font-family: -apple-system, 'Segoe UI', sans-serif;
+  }}
+  .btc-label {{ font-weight: bold; color: #8b6914; }}
+  .btc-price {{ font-size: 1.3em; font-weight: bold; color: #222; }}
+  .btc-change {{ font-size: 0.95em; font-weight: bold; }}
+  .btc-up {{ color: #2d8a2d; }}
+  .btc-down {{ color: #c23030; }}
+  .btc-meta {{ color: #888; font-size: 0.85em; }}
+
   .anchor {{ background: #f0ede4; padding: 20px 25px; border-radius: 6px; margin-bottom: 2em; }}
   .anchor h2 {{ border-bottom: none; margin-top: 0; }}
   .anchor-block {{ margin: 1.2em 0; }}
@@ -323,6 +479,35 @@ def build_html(brief_content):
 </style>
 </head>
 <body>
+<div class="btc-ticker">
+  <span class="btc-label">₿ Bitcoin</span>
+  <span class="btc-price" id="btc-price">Loading...</span>
+  <span class="btc-change" id="btc-change"></span>
+  <span class="btc-meta" id="btc-meta"></span>
+</div>
+
+<script>
+(async () => {{
+  try {{
+    const res = await fetch('https://api.coingecko.com/api/v3/coins/bitcoin?localization=false&tickers=false&market_data=true&community_data=false&developer_data=false');
+    const data = await res.json();
+    const price = data.market_data.current_price.usd;
+    const change24 = data.market_data.price_change_percentage_24h;
+    const change7d = data.market_data.price_change_percentage_7d;
+
+    document.getElementById('btc-price').innerText = '$' + price.toLocaleString(undefined, {{maximumFractionDigits: 0}});
+
+    const changeEl = document.getElementById('btc-change');
+    const sign = change24 >= 0 ? '▲' : '▼';
+    changeEl.innerText = `${{sign}} ${{Math.abs(change24).toFixed(2)}}% (24h)`;
+    changeEl.className = 'btc-change ' + (change24 >= 0 ? 'btc-up' : 'btc-down');
+
+    document.getElementById('btc-meta').innerText = `7d: ${{change7d >= 0 ? '+' : ''}}${{change7d.toFixed(1)}}%`;
+  }} catch (err) {{
+    document.getElementById('btc-price').innerText = 'Price unavailable';
+  }}
+}})();
+</script>
 <h1>Morning Brief</h1>
 <p class="date">{today}</p>
 {brief_content}
@@ -343,8 +528,12 @@ if __name__ == "__main__":
         yt_videos = fetch_all_youtube()
         YOUTUBE_CHANNELS.clear()
         YOUTUBE_CHANNELS.update(original_channels)
+
+        # Skip RSS during testing to save tokens
+        rss_items = []
     else:
         yt_videos = fetch_all_youtube()
+        rss_items = fetch_all_rss()
 
     # Pick today's anchor content
     quote_text, quote_author, quote_context = pick_quote_for_today()
@@ -358,11 +547,14 @@ if __name__ == "__main__":
         f.write("=== HACKER NEWS ===\n")
         for i, s in enumerate(hn_stories, 1):
             f.write(f"{i}. [{s['score']} pts] {s['title']}\n   {s['url']}\n\n")
+        f.write("\n=== RSS ===\n")
+        for item in rss_items:
+            f.write(f"[{item['category']}] {item['source']}: {item['title']}\n  {item['url']}\n\n")
         f.write("\n=== YOUTUBE ===\n")
         for v in yt_videos:
             f.write(f"{v['channel']}: {v['title']}\n  {v['url']}\n  Transcript: {'yes' if v['transcript'] else 'NO'}\n\n")
 
-    brief = build_brief(hn_stories, yt_videos)
+    brief = build_brief(hn_stories, yt_videos, rss_items)
 
     # Build the anchor block
     anchor_html = f"""
