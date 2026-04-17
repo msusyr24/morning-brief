@@ -1,47 +1,65 @@
 """
-Morning Brief — v0.1
-Pulls top Hacker News stories, summarizes with Claude, saves as HTML.
+Morning Brief — v0.2
+Sources: Hacker News + YouTube channels
 """
 
 import os
 import requests
-from datetime import datetime
+import time
+from datetime import datetime, timedelta, timezone
+from xml.etree import ElementTree
 from anthropic import Anthropic
 from dotenv import load_dotenv
+from youtube_transcript_api import YouTubeTranscriptApi
 
-# Load the API key from .env
 load_dotenv()
 client = Anthropic()
 
-# --- Your interests. Edit this freely. ---
+# --- Your interests ---
 MY_INTERESTS = """
 I care about:
-- AI/ML at the CAPABILITY level: what new things can AI actually DO? Real end-user applications, novel uses, surprising capabilities.
+- AI at the CAPABILITY level: what new things can AI actually DO? Novel end-user applications, surprising capabilities.
 - Bitcoin, monetary policy, macroeconomics, Michael Saylor's perspective
-- Health science with REAL DATA: diet debates (especially carnivore/low-carb vs. conventional), exercise science, longevity research, metabolism
-- Evidence-based fitness and training (hypertrophy, programming, recovery)
-- Thoughtful long-form essays and ideas worth sitting with
-- Early signal on genuinely useful new tools or products
-- Poker theory and high-level strategy content
+- Health science with REAL DATA: carnivore / low-carb / conventional diet debates, metabolism, longevity, exercise science
+- Evidence-based fitness: hypertrophy, programming, recovery
+- Poker theory, especially GTO concepts and high-level strategy
+- NBA and college basketball — games, storylines, analysis
+- Thoughtful long-form ideas worth sitting with
 
 I do NOT care about:
-- AI infrastructure, inference layers, model releases, agent frameworks, dev tooling — too low-level for me
-- "Open source Qwen-X-B beats benchmark Y" — unless it enables a meaningfully new thing I can do
-- Political drama, culture war content, sensationalized headlines
+- AI infrastructure, inference layers, agent frameworks, model releases, dev tooling
+- Political drama, culture war content, sensationalism
 - Crypto speculation, altcoins, NFTs
-- Startup funding gossip without product substance
-- Big Tech earnings, exec drama, corporate politics
-- JavaScript framework discourse, programming language wars
+- Startup funding gossip, corporate earnings, exec drama
+- Programming language wars, framework discourse
 """
 
-# --- Step 1: Fetch Hacker News top stories ---
+# --- PASTE YOUR YOUTUBE_CHANNELS DICT HERE (from find_channels.py output) ---
+YOUTUBE_CHANNELS = {
+    "GTO Wizard": "UCXSg1srGpJ67HuPTMm4w72g",
+    "Ken Berry MD": "UCIma2WOQs1Mz2AuOt6wRSUw",
+    "Anthony Chaffee MD": "UCzoRyR_nlesKZuOlEjWRXQQ",
+    "Paul Saladino MD": "UCgBg0LcHfnJDPmFTTf677Pw",
+    "Joe Rogan": "UCzQUP1qoWDoEbmsQxvdjxgQ",
+    "Nick Norwitz": "UCLTZUJSEulehPtF_ytFiU_A",
+    "GTO Lab": "UCOgptC4EkqVqOW7rNo5L7JA",
+    "Jared Alderman": "UCnf7tCbgJu2RM3fbsJrximw",
+    "Thomas DeLauer": "UC70SrI3VkT1MXALRtf0pcHg",
+    "Lex Fridman": "UCSHZKyawb77ixDdsGog4iWA",
+    "Dr. Sten Ekberg": "UCIe2pR6PE0dae9BunJ38F7w",
+    "Renaissance Periodization": "UCfQgsKhHjSyRLOp9mnffqVg",
+}
+
+# --- How many days back to look for new videos ---
+LOOKBACK_DAYS = 3
+
+
+# ---------- Hacker News ----------
 def fetch_hn_stories(n=30):
-    """Grab top N stories from Hacker News."""
-    print(f"Fetching top {n} Hacker News stories...")
+    print(f"[HN] Fetching top {n} stories...")
     top_ids = requests.get(
         "https://hacker-news.firebaseio.com/v0/topstories.json"
     ).json()[:n]
-
     stories = []
     for story_id in top_ids:
         story = requests.get(
@@ -54,57 +72,141 @@ def fetch_hn_stories(n=30):
                 "score": story.get("score", 0),
                 "comments_url": f"https://news.ycombinator.com/item?id={story_id}",
             })
-    print(f"  Got {len(stories)} stories.")
+    print(f"[HN]   Got {len(stories)} stories.")
     return stories
 
-# --- Step 2: Have Claude filter and summarize ---
-def filter_with_claude(stories):
-    """Ask Claude to pick what matters and write a brief."""
-    print("Asking Claude to filter and summarize...")
 
-    stories_text = "\n".join([
-        f"{i+1}. [{s['score']} pts] {s['title']} — {s['url']}"
-        for i, s in enumerate(stories)
+# ---------- YouTube ----------
+def fetch_recent_videos(channel_name, channel_id, days=LOOKBACK_DAYS):
+    """Fetch videos published in the last N days from a channel's RSS feed."""
+    feed_url = f"https://www.youtube.com/feeds/videos.xml?channel_id={channel_id}"
+    try:
+        response = requests.get(feed_url, timeout=10)
+        root = ElementTree.fromstring(response.content)
+    except Exception as e:
+        print(f"[YT] {channel_name}: feed error ({e})")
+        return []
+
+    ns = {"atom": "http://www.w3.org/2005/Atom", "yt": "http://www.youtube.com/xml/schemas/2015"}
+    cutoff = datetime.now(timezone.utc) - timedelta(days=days)
+    videos = []
+
+    for entry in root.findall("atom:entry", ns):
+        published_str = entry.find("atom:published", ns).text
+        published = datetime.fromisoformat(published_str.replace("Z", "+00:00"))
+        if published < cutoff:
+            continue
+        videos.append({
+            "channel": channel_name,
+            "title": entry.find("atom:title", ns).text,
+            "video_id": entry.find("yt:videoId", ns).text,
+            "url": entry.find("atom:link", ns).attrib["href"],
+            "published": published_str,
+        })
+    return videos
+
+
+# Create one API instance, reused for all transcript fetches
+_transcript_api = YouTubeTranscriptApi()
+LONG_FORM_CHANNELS = {"Joe Rogan", "Lex Fridman"}
+
+def fetch_transcript(video_id, channel_name=None):
+    """Try to pull a transcript. Returns None if unavailable."""
+    max_chars = 60000 if channel_name in LONG_FORM_CHANNELS else 15000
+    time.sleep(2)  # Be polite to YouTube; avoids rate limiting
+    try:
+        fetched = _transcript_api.fetch(video_id)
+        text = " ".join([snippet.text for snippet in fetched.snippets])
+        return text[:max_chars]
+    except Exception as e:
+        print(f"    [transcript] {video_id}: {type(e).__name__}")
+        return None
+
+
+def fetch_all_youtube():
+    """Pull recent videos from every channel, with transcripts where possible."""
+    print(f"[YT] Checking {len(YOUTUBE_CHANNELS)} channels for videos in last {LOOKBACK_DAYS} days...")
+    all_videos = []
+    for name, cid in YOUTUBE_CHANNELS.items():
+        videos = fetch_recent_videos(name, cid)
+        for v in videos:
+            v["transcript"] = fetch_transcript(v["video_id"], v["channel"])
+            all_videos.append(v)
+        if videos:
+            print(f"[YT]   {name}: {len(videos)} new video(s)")
+    print(f"[YT] Total new videos: {len(all_videos)}")
+    return all_videos
+
+
+# ---------- Claude synthesis ----------
+def build_brief(hn_stories, yt_videos):
+    print("[Claude] Generating brief...")
+
+    hn_text = "\n".join([
+        f"- [{s['score']} pts] {s['title']} — {s['url']}"
+        for s in hn_stories
     ])
 
-    prompt = f"""You are my personal morning brief curator. Below are today's top Hacker News stories. Your job: identify the ones genuinely worth my time based on my interests, skip the noise, and write a clean brief.
+    yt_text_parts = []
+    for v in yt_videos:
+        block = f"\n--- {v['channel']}: {v['title']} ({v['url']}) ---\n"
+        if v["transcript"]:
+            block += f"Transcript excerpt:\n{v['transcript']}\n"
+        else:
+            block += "(Transcript unavailable — title only)\n"
+        yt_text_parts.append(block)
+    yt_text = "\n".join(yt_text_parts) if yt_text_parts else "(No new videos today.)"
 
-My interests:
+    prompt = f"""You are my morning brief curator. I care about these topics:
+
 {MY_INTERESTS}
 
-Today's HN stories:
-{stories_text}
+Below are today's inputs from Hacker News and from YouTube channels I follow. Produce a clean HTML brief.
 
-Write the brief as HTML fragments (no <html>, <head>, or <body> tags — just content). Format:
+=== HACKER NEWS ===
+{hn_text}
 
-<h2>Today's Signal</h2>
-<p>One-sentence opening about today's theme if there is one, otherwise skip.</p>
+=== YOUTUBE ===
+{yt_text}
 
-For each story worth including (aim for 5-10, skip the rest):
+Output format: HTML fragments only, no <html> or <body> wrapper. Use these sections IN THIS ORDER, but SKIP any section with no worthwhile content (do not include empty sections):
+
+<h2>🎥 From People I Follow</h2>
+Group by person. For each person who posted something worth flagging:
+<div class="story">
+  <h3>Channel Name</h3>
+  <p>Lead with the substance: what did they actually argue, claim, or cover? Cite specific studies, numbers, or points they made. If they posted multiple videos, weave them together as "also discussed..." — don't list each video separately. 3-5 sentences per person, more if the content warrants.</p>
+  <p class="meta">Videos: <a href="URL1">Title 1</a> · <a href="URL2">Title 2</a></p>
+</div>
+
+If someone's videos are all surface-level (listicles, obvious clickbait, nothing substantive), skip them entirely. Do not pad.
+
+<h2>💡 Worth Reading</h2>
+For each HN story worth my time:
 <div class="story">
   <h3><a href="URL">Title</a></h3>
-  <p>2-3 sentences on why this matters to me specifically. Not a summary of the article — your take on why I should or shouldn't click. Be direct, no hype.</p>
-  <p class="meta"><a href="COMMENTS_URL">HN discussion</a> · {{score}} points</p>
+  <p>2-3 sentences on the substance and why it matters to me.</p>
+  <p class="meta"><a href="COMMENTS_URL">Discussion</a></p>
 </div>
 
 Rules:
-- If nothing is worth including, say so honestly. Don't pad.
-- No sensationalism. No "you won't believe..." framing.
-- If a story is technical and deep, say so. If it's a hot take, say so.
-- Prioritize primary sources and substantive content over opinion pieces.
+- Be ruthless. If something doesn't genuinely match my interests, cut it.
+- For YouTube: summarize the IDEAS, not the video. "Chaffee argues that..." not "This video discusses..."
+- No hype, no filler, no "in today's fast-paced world"
+- If a whole section has nothing worthwhile, skip the heading entirely
+- If the day has almost nothing, say so honestly with something like <p><em>Quiet day. Not much worth flagging.</em></p>
 """
 
     response = client.messages.create(
         model="claude-opus-4-5",
-        max_tokens=4000,
+        max_tokens=6000,
         messages=[{"role": "user", "content": prompt}],
     )
-
     return response.content[0].text
 
-# --- Step 3: Wrap in a full HTML page ---
+
+# ---------- HTML wrapper ----------
 def build_html(brief_content):
-    """Wrap the brief in a styled HTML page."""
     today = datetime.now().strftime("%A, %B %d, %Y")
     return f"""<!DOCTYPE html>
 <html lang="en">
@@ -139,14 +241,26 @@ def build_html(brief_content):
 </body>
 </html>"""
 
-# --- Main ---
+
+# ---------- Main ----------
 if __name__ == "__main__":
-    stories = fetch_hn_stories(n=30)
-    brief = filter_with_claude(stories)
+    hn_stories = fetch_hn_stories(n=30)
+    yt_videos = fetch_all_youtube()
+
+    # Save raw dump for debugging
+    with open("raw_stories.txt", "w", encoding="utf-8") as f:
+        f.write("=== HACKER NEWS ===\n")
+        for i, s in enumerate(hn_stories, 1):
+            f.write(f"{i}. [{s['score']} pts] {s['title']}\n   {s['url']}\n\n")
+        f.write("\n=== YOUTUBE ===\n")
+        for v in yt_videos:
+            f.write(f"{v['channel']}: {v['title']}\n  {v['url']}\n  Transcript: {'yes' if v['transcript'] else 'NO'}\n\n")
+
+    brief = build_brief(hn_stories, yt_videos)
     html = build_html(brief)
 
-    output_path = "brief.html"
-    with open(output_path, "w", encoding="utf-8") as f:
+    with open("brief.html", "w", encoding="utf-8") as f:
         f.write(html)
 
-    print(f"\nDone. Open {output_path} in a browser.")
+    print("\nDone. Open brief.html.")
+    print("See raw_stories.txt to compare raw input vs. curated output.")
