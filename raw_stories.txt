@@ -1,225 +1,225 @@
 === HACKER NEWS ===
-1. [234 pts] Isaac Asimov: The Last Question
+1. [272 pts] Isaac Asimov: The Last Question
    https://hex.ooo/library/last_question.html
 
-2. [15 pts] Is Your Site Agent-Ready? (By Cloudflare)
-   https://isitagentready.com
-
-3. [8 pts] We Reproduced Anthropic's Mythos Findings with Public Models
+2. [37 pts] We Reproduced Anthropic's Mythos Findings with Public Models
    https://blog.vidocsecurity.com/blog/we-reproduced-anthropics-mythos-findings-with-public-models
 
-4. [1870 pts] Claude Opus 4.7
-   https://www.anthropic.com/news/claude-opus-4-7
+3. [11 pts] Healthchecks.io Now Uses Self-Hosted Object Storage
+   https://blog.healthchecks.io/2026/04/healthchecks-io-now-uses-self-hosted-object-storage/
 
-5. [166 pts] Ada, Its Design, and the Language That Built the Languages
-   https://www.iqiipi.com/the-quiet-colossus.html
-
-6. [938 pts] Codex for almost everything
-   https://openai.com/index/codex-for-almost-everything/
-
-7. [98 pts] FIM – Linux framebuffer image viewer
-   https://www.nongnu.org/fbi-improved/
-
-8. [182 pts] CadQuery is an open-source Python library for building 3D CAD models
-   https://cadquery.github.io/
-
-9. [55 pts] 中文 Literacy Speedrun II: Character Cyclotron
-   https://blog.kevinzwu.com/character-cyclotron/
-
-10. [105 pts] A Python Interpreter Written in Python
-   https://aosabook.org/en/500L/a-python-interpreter-written-in-python.html
-
-11. [25 pts] Show HN: Stage – Putting humans back in control of code review
-   https://stagereview.app/
-
-12. [8 pts] The missing catalogue: why finding books in translation is still so hard
-   https://blogs.lse.ac.uk/impactofsocialsciences/2026/04/13/the-missing-catalogue-why-finding-books-in-translation-is-still-so-hard/
-
-13. [130 pts] How Big Tech wrote secrecy into EU law to hide data centres' environmental toll
-   https://www.investigate-europe.eu/posts/big-tech-data-centres-secrecy-eu-law-environment-footprint
-
-14. [86 pts] 30 Years of HPC: many hardware advances, little adoption of new languages
-   https://chapel-lang.org/blog/posts/30years/
-
-15. [275 pts] Official Clojure Documentary page with Video, Shownotes, and Links
-   https://clojure.org/about/documentary
-
-16. [273 pts] Android CLI: Build Android apps 3x faster using any agent
-   https://android-developers.googleblog.com/2026/04/build-android-apps-3x-faster-using-any-agent.html
-
-17. [81 pts] Human Accelerated Region 1
-   https://en.wikipedia.org/wiki/Human_accelerated_region_1
-
-18. [15 pts] Taking a Look at Compression Algorithms – Moncef Abboud
-   https://cefboud.com/posts/compression/
-
-19. [100 pts] Show HN: SPICE simulation → oscilloscope → verification with Claude Code
-   https://lucasgerads.com/blog/lecroy-mcp-spice-demo/
-
-20. [208 pts] Playdate’s handheld changed how Duke University teaches game design
-   https://news.play.date/news/duke-playdate-education/
-
-21. [205 pts] Guy builds AI driven hardware hacker arm from duct tape, old cam and CNC machine
-   https://github.com/gainsec/autoprober
-
-22. [1 pts] Substrate AI Is Hiring Harness Engineers
-   https://www.ycombinator.com/companies/substrate/jobs/QJU9023-harness-engineer
-
-23. [80 pts] ReBot-DevArm: open-source Robotic Arm
-   https://github.com/Seeed-Projects/reBot-DevArm
-
-24. [142 pts] A Better R Programming Experience Thanks to Tree-sitter
-   https://ropensci.org/blog/2026/04/02/tree-sitter-overview/
-
-25. [5 pts] It Is Time to Ban the Sale of Precise Geolocation
+4. [41 pts] It Is Time to Ban the Sale of Precise Geolocation
    https://www.lawfaremedia.org/article/it-is-time-to-ban-the-sale-of-precise-geolocation
 
-26. [53 pts] A Git helper tool that breaks large merges into parallelizable tasks
-   https://github.com/mwallner/mergetopus
+5. [1874 pts] Claude Opus 4.7
+   https://www.anthropic.com/news/claude-opus-4-7
 
-27. [1186 pts] Qwen3.6-35B-A3B: Agentic coding power, now open to all
+6. [171 pts] Ada, Its Design, and the Language That Built the Languages
+   https://www.iqiipi.com/the-quiet-colossus.html
+
+7. [940 pts] Codex for almost everything
+   https://openai.com/index/codex-for-almost-everything/
+
+8. [102 pts] FIM – Linux framebuffer image viewer
+   https://www.nongnu.org/fbi-improved/
+
+9. [185 pts] CadQuery is an open-source Python library for building 3D CAD models
+   https://cadquery.github.io/
+
+10. [56 pts] 中文 Literacy Speedrun II: Character Cyclotron
+   https://blog.kevinzwu.com/character-cyclotron/
+
+11. [106 pts] A Python Interpreter Written in Python
+   https://aosabook.org/en/500L/a-python-interpreter-written-in-python.html
+
+12. [28 pts] Show HN: Stage – Putting humans back in control of code review
+   https://stagereview.app/
+
+13. [144 pts] How Big Tech wrote secrecy into EU law to hide data centres' environmental toll
+   https://www.investigate-europe.eu/posts/big-tech-data-centres-secrecy-eu-law-environment-footprint
+
+14. [280 pts] Official Clojure Documentary page with Video, Shownotes, and Links
+   https://clojure.org/about/documentary
+
+15. [87 pts] 30 Years of HPC: many hardware advances, little adoption of new languages
+   https://chapel-lang.org/blog/posts/30years/
+
+16. [274 pts] Android CLI: Build Android apps 3x faster using any agent
+   https://android-developers.googleblog.com/2026/04/build-android-apps-3x-faster-using-any-agent.html
+
+17. [83 pts] Human Accelerated Region 1
+   https://en.wikipedia.org/wiki/Human_accelerated_region_1
+
+18. [10 pts] The missing catalogue: why finding books in translation is still so hard
+   https://blogs.lse.ac.uk/impactofsocialsciences/2026/04/13/the-missing-catalogue-why-finding-books-in-translation-is-still-so-hard/
+
+19. [102 pts] Show HN: SPICE simulation → oscilloscope → verification with Claude Code
+   https://lucasgerads.com/blog/lecroy-mcp-spice-demo/
+
+20. [212 pts] Playdate’s handheld changed how Duke University teaches game design
+   https://news.play.date/news/duke-playdate-education/
+
+21. [13 pts] Teddy Roosevelt and Abraham Lincoln in the same photo
+   https://prologue.blogs.archives.gov/2010/11/09/teddy-roosevelt-and-abraham-lincoln-in-the-same-photo/
+
+22. [206 pts] Guy builds AI driven hardware hacker arm from duct tape, old cam and CNC machine
+   https://github.com/gainsec/autoprober
+
+23. [83 pts] ReBot-DevArm: open-source Robotic Arm
+   https://github.com/Seeed-Projects/reBot-DevArm
+
+24. [1 pts] Substrate AI Is Hiring Harness Engineers
+   https://www.ycombinator.com/companies/substrate/jobs/QJU9023-harness-engineer
+
+25. [142 pts] A Better R Programming Experience Thanks to Tree-sitter
+   https://ropensci.org/blog/2026/04/02/tree-sitter-overview/
+
+26. [25 pts] Is Your Site Agent-Ready? (By Cloudflare)
+   https://isitagentready.com
+
+27. [1191 pts] Qwen3.6-35B-A3B: Agentic coding power, now open to all
    https://qwen.ai/blog?id=qwen3.6-35b-a3b
 
-28. [314 pts] US Bill Mandates On-Device Age Verification
-   https://reclaimthenet.org/us-bill-mandates-on-device-age-verification
+28. [53 pts] A Git helper tool that breaks large merges into parallelizable tasks
+   https://github.com/mwallner/mergetopus
 
 29. [300 pts] Cloudflare's AI Platform: an inference layer designed for agents
    https://blog.cloudflare.com/ai-platform/
 
-30. [133 pts] The beginning of scarcity in AI
+30. [137 pts] The beginning of scarcity in AI
    https://tomtunguz.com/ai-compute-crisis-2026/
 
 
 === YOUTUBE ===
 GTO Wizard: Can AI Actually Play Poker?
   https://www.youtube.com/shorts/Qk_8BSQmXF4
-  Transcript: NO
+  Transcript: yes
 
 GTO Wizard: Can AI Actually Play Poker? We Ranked the Best LLMs
   https://www.youtube.com/watch?v=CjwyEFYY-Ls
-  Transcript: NO
+  Transcript: yes
 
 Ken Berry MD: 7 Skin Signs of Insulin Resistance (Even If You’re Slim!)
   https://www.youtube.com/watch?v=X9GnsVdhUKM
-  Transcript: NO
+  Transcript: yes
 
 Ken Berry MD: Most people get stuck on step 1. Sugar is everywhere, and it’s keeping you inflamed and stuck.
   https://www.youtube.com/shorts/H7VYGl-jhXM
-  Transcript: NO
+  Transcript: yes
 
 Anthony Chaffee MD: Am I A Turnip?
   https://www.youtube.com/shorts/EcqBGgyLZAo
-  Transcript: NO
+  Transcript: yes
 
 Anthony Chaffee MD: 84% Of Vegans Quit... Do THIS Instead! #carnivorediet  #healthy
   https://www.youtube.com/shorts/rnwd-qwBWrM
-  Transcript: NO
+  Transcript: yes
 
 Anthony Chaffee MD: Healing is not the same thing as Medicating| Mimi Morgan #carnivore #parkinsonsdisease #plantfree
   https://www.youtube.com/shorts/yKXRVf4CYIM
-  Transcript: NO
+  Transcript: yes
 
 Paul Saladino MD: Do I have cheat days?
   https://www.youtube.com/shorts/JX2SmkzfHsE
-  Transcript: NO
+  Transcript: yes
 
 Paul Saladino MD: Are you drinking plastic?
   https://www.youtube.com/shorts/bUuSc5ScCGA
-  Transcript: NO
+  Transcript: yes
 
 Paul Saladino MD: Napping = better health
   https://www.youtube.com/shorts/YTX44yVELa0
-  Transcript: NO
+  Transcript: yes
 
 Paul Saladino MD: You’re not getting enough sunlight
   https://www.youtube.com/shorts/vitEr9LP98c
-  Transcript: NO
+  Transcript: yes
 
 Paul Saladino MD: Is saturated fat healthy?
   https://www.youtube.com/shorts/5xgWLmcjGoo
-  Transcript: NO
+  Transcript: yes
 
 Paul Saladino MD: Lululemon = forever chemicals
   https://www.youtube.com/shorts/A-Jnsd2d2WY
-  Transcript: NO
+  Transcript: yes
 
 Joe Rogan: Joe Rogan Experience #2484 - David Cross
   https://www.youtube.com/watch?v=efJ1-q3XxVc
-  Transcript: NO
+  Transcript: yes
 
 Joe Rogan: Joe Rogan Experience #2483 - Spencer Pratt
   https://www.youtube.com/watch?v=pDfm9RaIIv4
-  Transcript: NO
+  Transcript: yes
 
 Joe Rogan: Joe Rogan Experience #2482 - Andy Stumpf
   https://www.youtube.com/watch?v=qrKuqmJmz0Q
-  Transcript: NO
+  Transcript: yes
 
 Nick Norwitz: The One Lipid Marker Linked to Longevity
   https://www.youtube.com/watch?v=SnwbtYm2RDE
-  Transcript: NO
+  Transcript: yes
 
 Nick Norwitz: This Metric Predicts 5x Higher Death Risk After a Heart Attack
   https://www.youtube.com/shorts/gNhjein5n0w
-  Transcript: NO
+  Transcript: yes
 
 GTO Lab: Leon Sturm's interview by Diana Kalietina
   https://www.youtube.com/shorts/QbCHfLVlQbU
-  Transcript: NO
+  Transcript: yes
 
 GTO Lab: Knowing EQUILIBRIUM is KEY to exploit with check-raises - Nick Petrangelo
   https://www.youtube.com/shorts/eiOjbYATWSs
-  Transcript: NO
+  Transcript: yes
 
 GTO Lab: DIAL your check raises when defending vs late positions - Ben Heath
   https://www.youtube.com/shorts/tOggJ5xIBns
-  Transcript: NO
+  Transcript: yes
 
 Thomas DeLauer: These Powders Build Muscle LEGALLY Without Steroids
   https://www.youtube.com/watch?v=eIJFu18J-qQ
-  Transcript: NO
+  Transcript: yes
 
 Thomas DeLauer: This Coffee Hack Melts Abdominal Fat (Journal Intl Society Sports Nutrition Study)
   https://www.youtube.com/watch?v=_g7ouiKjRxE
-  Transcript: NO
+  Transcript: yes
 
 Thomas DeLauer: This Neuroscientist Just Changed Melatonin Forever (sleep longer tonight)
   https://www.youtube.com/watch?v=P12U_LS7Gys
-  Transcript: NO
+  Transcript: yes
 
 Thomas DeLauer: Doctors Hate this Cortisol Trick (Stops High Cortisol Fast)
   https://www.youtube.com/watch?v=DDqhIkQ-Zk0
-  Transcript: NO
+  Transcript: yes
 
 Dr. Sten Ekberg: Top 10 SUPER FOODS That Can Heal A FATTY LIVER!
   https://www.youtube.com/watch?v=kb6xfIv1tSY
-  Transcript: NO
+  Transcript: yes
 
 Renaissance Periodization: Bad Sleep Can Make You Gain More Fat
   https://www.youtube.com/shorts/D_RqHf2BMcc
-  Transcript: NO
+  Transcript: yes
 
 Renaissance Periodization: Dr. Mike’s 80g Protein Snack
   https://www.youtube.com/shorts/o1vdnL0sUhQ
-  Transcript: NO
+  Transcript: yes
 
 Renaissance Periodization: Sleep Loss Kills Muscle Growth
   https://www.youtube.com/shorts/fvWZGJ68gaU
-  Transcript: NO
+  Transcript: yes
 
 Renaissance Periodization: Dr. Mike Trains “Fasted”
   https://www.youtube.com/shorts/wn8LzLtW2Ss
-  Transcript: NO
+  Transcript: yes
 
 Renaissance Periodization: How to Train for Muscle Growth: Beginner to Advanced Training
   https://www.youtube.com/watch?v=zhP5gsBbgYY
-  Transcript: NO
+  Transcript: yes
 
 Renaissance Periodization: You Sleep Less, You Grow Less
   https://www.youtube.com/shorts/huGNal00O6o
-  Transcript: NO
+  Transcript: yes
 
 Renaissance Periodization: Dr. Mike Eats Protein Puffs Like Cereal
   https://www.youtube.com/shorts/VHxdMSdJfyk
-  Transcript: NO
+  Transcript: yes
 

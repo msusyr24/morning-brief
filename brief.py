@@ -11,6 +11,7 @@ from xml.etree import ElementTree
 from anthropic import Anthropic
 from dotenv import load_dotenv
 from youtube_transcript_api import YouTubeTranscriptApi
+from youtube_transcript_api.proxies import WebshareProxyConfig
 
 load_dotenv()
 client = Anthropic()
@@ -107,13 +108,17 @@ def fetch_recent_videos(channel_name, channel_id, days=LOOKBACK_DAYS):
 
 
 # Create one API instance, reused for all transcript fetches
-_transcript_api = YouTubeTranscriptApi()
+_transcript_api = YouTubeTranscriptApi(
+    proxy_config=WebshareProxyConfig(
+        proxy_username=os.getenv("WEBSHARE_PROXY_USERNAME"),
+        proxy_password=os.getenv("WEBSHARE_PROXY_PASSWORD"),
+    )
+)
 LONG_FORM_CHANNELS = {"Joe Rogan", "Lex Fridman"}
 
 def fetch_transcript(video_id, channel_name=None):
     """Try to pull a transcript. Returns None if unavailable."""
     max_chars = 60000 if channel_name in LONG_FORM_CHANNELS else 15000
-    time.sleep(2)  # Be polite to YouTube; avoids rate limiting
     try:
         fetched = _transcript_api.fetch(video_id)
         text = " ".join([snippet.text for snippet in fetched.snippets])
@@ -172,14 +177,26 @@ Below are today's inputs from Hacker News and from YouTube channels I follow. Pr
 Output format: HTML fragments only, no <html> or <body> wrapper. Use these sections IN THIS ORDER, but SKIP any section with no worthwhile content (do not include empty sections):
 
 <h2>🎥 From People I Follow</h2>
-Group by person. For each person who posted something worth flagging:
+
+<p><strong>Worth your time:</strong></p>
+
+Group by person. For each person whose content this period has real substance:
 <div class="story">
   <h3>Channel Name</h3>
-  <p>Lead with the substance: what did they actually argue, claim, or cover? Cite specific studies, numbers, or points they made. If they posted multiple videos, weave them together as "also discussed..." — don't list each video separately. 3-5 sentences per person, more if the content warrants.</p>
+  <p>Lead with the substance: what did they actually argue, claim, or cover? Cite specific claims, studies, numbers, or points they made. Weave multiple videos from the same person together. 3-5 sentences.</p>
   <p class="meta">Videos: <a href="URL1">Title 1</a> · <a href="URL2">Title 2</a></p>
 </div>
 
-If someone's videos are all surface-level (listicles, obvious clickbait, nothing substantive), skip them entirely. Do not pad.
+<p><strong>Also posted:</strong></p>
+<ul>
+For every OTHER person who posted videos with transcripts (that weren't included above), write one <li> per person in this format:
+  <li><strong>Channel Name:</strong> One-sentence summary of what they posted. (<a href="URL">Title</a>)</li>
+If they posted multiple, mention the one with most substance and note "+N more."
+</ul>
+
+Rules:
+- If a video has "Transcript unavailable," still list it in "Also posted" but write: "⚠️ Title only, no transcript."
+- Never invent or speculate on content. If you don't have the transcript, say so.
 
 <h2>💡 Worth Reading</h2>
 For each HN story worth my time:
