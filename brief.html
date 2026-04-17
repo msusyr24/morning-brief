@@ -23,6 +23,24 @@
   .meta { color: #888; font-size: 0.9em; margin-top: 0.3em; }
   .meta a { color: #888; }
 
+  .btc-ticker {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #fff8e7;
+    border: 1px solid #f0d890;
+    padding: 10px 18px;
+    border-radius: 6px;
+    margin-bottom: 1.5em;
+    font-family: -apple-system, 'Segoe UI', sans-serif;
+  }
+  .btc-label { font-weight: bold; color: #8b6914; }
+  .btc-price { font-size: 1.3em; font-weight: bold; color: #222; }
+  .btc-change { font-size: 0.95em; font-weight: bold; }
+  .btc-up { color: #2d8a2d; }
+  .btc-down { color: #c23030; }
+  .btc-meta { color: #888; font-size: 0.85em; }
+
   .anchor { background: #f0ede4; padding: 20px 25px; border-radius: 6px; margin-bottom: 2em; }
   .anchor h2 { border-bottom: none; margin-top: 0; }
   .anchor-block { margin: 1.2em 0; }
@@ -44,6 +62,35 @@
 </style>
 </head>
 <body>
+<div class="btc-ticker">
+  <span class="btc-label">₿ Bitcoin</span>
+  <span class="btc-price" id="btc-price">Loading...</span>
+  <span class="btc-change" id="btc-change"></span>
+  <span class="btc-meta" id="btc-meta"></span>
+</div>
+
+<script>
+(async () => {
+  try {
+    const res = await fetch('https://api.coingecko.com/api/v3/coins/bitcoin?localization=false&tickers=false&market_data=true&community_data=false&developer_data=false');
+    const data = await res.json();
+    const price = data.market_data.current_price.usd;
+    const change24 = data.market_data.price_change_percentage_24h;
+    const change7d = data.market_data.price_change_percentage_7d;
+
+    document.getElementById('btc-price').innerText = '$' + price.toLocaleString(undefined, {maximumFractionDigits: 0});
+
+    const changeEl = document.getElementById('btc-change');
+    const sign = change24 >= 0 ? '▲' : '▼';
+    changeEl.innerText = `${sign} ${Math.abs(change24).toFixed(2)}% (24h)`;
+    changeEl.className = 'btc-change ' + (change24 >= 0 ? 'btc-up' : 'btc-down');
+
+    document.getElementById('btc-meta').innerText = `7d: ${change7d >= 0 ? '+' : ''}${change7d.toFixed(1)}%`;
+  } catch (err) {
+    document.getElementById('btc-price').innerText = 'Price unavailable';
+  }
+})();
+</script>
 <h1>Morning Brief</h1>
 <p class="date">Friday, April 17, 2026</p>
 
@@ -60,78 +107,118 @@
     <p class="context">Seek situations where downside is limited but upside is unbounded. Options trading, venture capital, writing a book. Conversely, avoid inverses: picking up pennies in front of a steamroller. Nassim Taleb's full framework, but Munger lived it before Taleb wrote about it.</p>
   </div>
 </div>
-
-<div class="spotlight">
-  <h2>🧭 Channel Spotlight</h2>
-  <p class="spotlight-name">Peter Attia</p>
-  <p class="spotlight-pitch">Attia brings more methodological rigor to longevity and metabolic health than your current health channels—he's genuinely agnostic on carnivore vs. other approaches and focuses heavily on what the clinical data actually supports vs. mechanistic speculation. He covers zone 2 training, glucose regulation, and lifespan research with a physician's skepticism rather than advocate framing. Format is a mix of solo deep-dives and long-form interviews (1-3 hours), often with researchers rather than fellow content creators.</p>
-  <p class="spotlight-instructions">Interested? Copy the line below into <code>YOUTUBE_CHANNELS</code> in <code>brief.py</code> and save:</p>
-  <pre class="spotlight-snippet" id="snippet">    "Peter Attia": "UC8kGsMa0LygSX9nkBcBH1Sg",</pre>
-  <button class="copy-btn" onclick="navigator.clipboard.writeText(document.getElementById('snippet').innerText.trim()); this.innerText='✅ Copied'; setTimeout(()=>this.innerText='📋 Copy snippet', 2000);">📋 Copy snippet</button>
-  <p class="spotlight-meta">showing for 3 more days. If you don't add it, a new channel will be suggested.</p>
-</div>
 <h2>🎥 From People I Follow</h2>
 
 <p><strong>Worth your time:</strong></p>
 
 <div class="story">
+  <h3>Renaissance Periodization (Dr. Mike Israetel)</h3>
+  <p>Dr. Mike delivered a comprehensive beginner-to-advanced hypertrophy training guide, emphasizing that beginners should prioritize technique mastery over volume with 2-4 sessions per week of whole-body training using distributed compounds (exercises that hit multiple muscle groups), working in the 5-10 rep range. He argues beginners can grow from minimal volume and should "milk each stage" rather than rushing to advanced protocols. On Paddy Pimblett's extreme 50-pound weight cut, Mike broke down the physiology: approximately 30 pounds was fat/muscle loss over 7 weeks at a ~1,000 calorie deficit, with the final 15-20 pounds being dangerous water manipulation through carb depletion and sauna work. He stressed that weight cutting is only appropriate for elite athletes and can literally stunt brain development and growth in adolescents. Separately, he covered how sleep loss kills muscle growth by disrupting the 70% of growth hormone secreted in the first half of nightly sleep, raising cortisol (which favors visceral fat storage and protein catabolism), and missing the critical overnight window when myofibrillar protein synthesis occurs.</p>
+  <p class="meta">Videos: <a href="https://www.youtube.com/watch?v=zhP5gsBbgYY">How to Train for Muscle Growth: Beginner to Advanced</a> · <a href="https://www.youtube.com/watch?v=gSo5l9AqAfg">Critiques Paddy The Baddy's Weight Loss</a> · <a href="https://www.youtube.com/shorts/fvWZGJ68gaU">Sleep Loss Kills Muscle Growth</a> +3 more</p>
+</div>
+
+<div class="story">
   <h3>Nick Norwitz</h3>
-  <p>Norwitz argues that the "lower LDL is always better" paradigm is incomplete for longevity. He presents data showing PCSK9 loss-of-function mutations dramatically lower LDL but show no lifespan benefit—if anything, trending toward earlier death. The key variable he identifies is ApoC3, a protein that slows triglyceride clearance. Centenarians were 2.5x more likely to carry ApoC3 loss-of-function variants, yet their LDL/ApoB levels were virtually identical to controls—the difference was higher HDL and lower triglyceride-to-HDL ratio. Actionable strategies to lower ApoC3: ketogenic diets (one study showed 50% reduction in 2 weeks), fructose restriction (worse than glucose for ApoC3), and omega-3s. He also covered HRV research: low HRV associates with 50% higher heart attack risk in healthy people and 5.3x higher mortality post-heart attack.</p>
-  <p class="meta">Videos: <a href="https://www.youtube.com/watch?v=SnwbtYm2RDE">The One Lipid Marker Linked to Longevity</a> · <a href="https://www.youtube.com/shorts/gNhjein5n0w">This Metric Predicts 5x Higher Death Risk After a Heart Attack</a></p>
+  <p>Norwitz presents ApoC3 (apolipoprotein C-III) as a potentially more important longevity marker than LDL cholesterol, citing data that centenarians are 2.5x more likely to carry genetic variants that reduce ApoC3, despite having similar or even slightly higher ApoB levels. He argues this explains a key paradox: PCSK9 loss-of-function mutations dramatically lower LDL but provide no lifespan benefit (if anything trending toward higher mortality), while ApoC3 loss-of-function improves cardiovascular outcomes and longevity without meaningfully changing LDL. ApoC3 acts as a "metabolic brake" that slows triglyceride clearance; lowering it improves metabolic efficiency and insulin sensitivity. His evidence-based intervention recommendations: ketogenic/low-carb diets (which reduced ApoC3 by 50% in 2 weeks in one obesity study), restricting fructose specifically (a stronger ApoC3 stimulus than glucose), increasing omega-3 fatty acids to an 8% red blood cell index, and improving insulin sensitivity through any means. Separately, he flagged heart rate variability (HRV) as predicting 5.3x higher mortality risk post-heart attack and 50% higher heart attack risk in healthy populations.</p>
+  <p class="meta">Videos: <a href="https://www.youtube.com/watch?v=SnwbtYm2RDE">The One Lipid Marker Linked to Longevity</a> · <a href="https://www.youtube.com/shorts/gNhjein5n0w">HRV Predicts 5x Higher Death Risk</a></p>
 </div>
 
 <div class="story">
   <h3>GTO Wizard</h3>
-  <p>GTO Wizard built a benchmark testing whether LLMs can actually play poker well against GTO Wizard AI. They tested state-of-the-art models to see if the "emergent intelligence" translates to real strategic decision-making. The full video promises to reveal which models performed and what their failures tell us about AI reasoning capabilities—though the short teases the methodology more than results.</p>
-  <p class="meta">Videos: <a href="https://www.youtube.com/watch?v=CjwyEFYY-Ls">Can AI Actually Play Poker? We Ranked the Best LLMs</a> · <a href="https://www.youtube.com/shorts/Qk_8BSQmXF4">Can AI Actually Play Poker?</a></p>
-</div>
-
-<div class="story">
-  <h3>GTO Lab</h3>
-  <p>Leon Sturm shared his tournament prep routine: 20-minute meditation before playing, breath work on dinner break, and reviewing GTO Lab solutions for similar stack distributions before final tables—but warns against over-studying outputs since you'll try to remember too much in-game. Nick Petrangelo emphasized that knowing equilibrium check-raise frequencies is essential before attempting exploits: "It's very difficult to know how to check-raise too much or not enough if we don't know what the right amount is yet."</p>
-  <p class="meta">Videos: <a href="https://www.youtube.com/shorts/QbCHfLVlQbU">Leon Sturm's interview</a> · <a href="https://www.youtube.com/shorts/eiOjbYATWSs">Knowing EQUILIBRIUM is KEY to exploit with check-raises</a></p>
-</div>
-
-<div class="story">
-  <h3>Renaissance Periodization</h3>
-  <p>Dr. Mike broke down training periodization by experience level with specific recommendations: beginners (0-2 years) should stick to 2-4 whole-body sessions weekly, sets of 5-10 reps, distributed compound movements, and prioritize technique over intensity—they grow from minimal volume. Intermediates and advanced lifters need progressively more variation and volume. Key insight: if you can maintain beginner results with beginner volumes, don't prematurely adopt intermediate protocols. On sleep: 70% of daily growth hormone releases in the first half of nightly sleep; missing sleep raises cortisol (shifts protein balance catabolic, favors visceral fat storage). Also critiqued Paddy Pimblett's 50lb weight cut—noting the 5pm pre-fight weight was actually 155lb with significant water manipulation.</p>
-  <p class="meta">Videos: <a href="https://www.youtube.com/watch?v=zhP5gsBbgYY">How to Train for Muscle Growth: Beginner to Advanced</a> · <a href="https://www.youtube.com/shorts/huGNal00O6o">You Sleep Less, You Grow Less</a> · <a href="https://www.youtube.com/watch?v=gSo5l9AqAfg">Critiques Paddy The Baddy's Weight Loss</a> +3 more</p>
+  <p>GTO Wizard built a comprehensive benchmark testing whether large language models can actually play poker competently, measuring them against GTO Wizard AI using AIVAT (a variance-reduction technique pioneered by CFR researchers). Results were brutal: the best performer, GPT-5.3, still lost 16.3 bb/100 (versus ~5 bb/100 for top human experts), while some models like Grok-4 lost at nearly 60 bb/100—barely better than folding every hand. LLMs showed systematic weaknesses: nitty preflop ranges (defending big blind with only premium three-bets instead of linear suited/connected ranges), frequent hand misreads (calling queen-nine offsuit "queen-nine suited"), and a tendency to make excessive hero calls with weak holdings. The benchmark is now public with an API for developers to test their own models. On the strategy side, Nick Petrangelo emphasized that understanding equilibrium check-raise frequencies is essential before exploiting—you can't know how much to deviate without knowing the correct baseline amount.</p>
+  <p class="meta">Videos: <a href="https://www.youtube.com/watch?v=CjwyEFYY-Ls">Can AI Actually Play Poker? We Ranked the Best LLMs</a> · <a href="https://www.youtube.com/shorts/eiOjbYATWSs">Nick Petrangelo on equilibrium</a></p>
 </div>
 
 <p><strong>Also posted:</strong></p>
 <ul>
-  <li><strong>Paul Saladino MD:</strong> Covered saturated fat and cholesterol (argues the relationship with CVD is attenuated in metabolically healthy individuals—one study showed zero correlation between LDL and CVD in those with coronary artery calcium score of zero), plus shorts on napping (NASA study: 26 minutes optimal), infrared light from windows, and plastic lining in aluminum cans as microplastic source. (<a href="https://www.youtube.com/shorts/5xgWLmcjGoo">Is saturated fat healthy?</a> +5 more)</li>
-  <li><strong>Ken Berry MD:</strong> Posted on skin signs of insulin resistance and a 5-step proper human diet framework (remove added sugar, grains/beans, seed oils; fill plate with fatty meat/eggs; repeat). (<a href="https://www.youtube.com/watch?v=X9GnsVdhUKM">7 Skin Signs of Insulin Resistance</a> +1 more)</li>
-  <li><strong>Anthony Chaffee MD:</strong> Argued carnivore diet solves binge eating because steak is satiating while carbs lower leptin and increase ghrelin; criticized vegan diets noting 84% quit. (<a href="https://www.youtube.com/shorts/tSnwrkQrvKU">Steak, the Solution to Binge Eating</a> +2 more)</li>
-  <li><strong>Dr. Sten Ekberg:</strong> ⚠️ Title only, no transcript. (<a href="https://www.youtube.com/watch?v=kb6xfIv1tSY">Top 10 SUPER FOODS That Can Heal A FATTY LIVER</a>)</li>
-  <li><strong>Thomas DeLauer:</strong> Covered taurine for training capacity (4-6g/day), creatine's anti-catabolic effects (reduced leucine oxidation), a caffeine timing study showing 29% increased fat oxidation at 5pm vs 10.7% at 8am, melatonin interview (neuroscientist claims no dependency evidence, took 5mg nightly for 30 years with normal hormone levels after stopping), and cortisol management strategies (5:2 approach with carb refeeds in evening). (<a href="https://www.youtube.com/watch?v=eIJFu18J-qQ">4g of This Powder Builds Muscle LEGALLY</a> +3 more)</li>
-  <li><strong>Joe Rogan:</strong> Long-form interviews with John Fogerty (music industry exploitation, CCR lawsuit where he was sued for sounding like himself), David Cross (comedy nostalgia, Art Bell/Phil Hendrie), and Spencer Pratt (LA mayoral run, fire mismanagement claims, homeless industrial complex fraud allegations). (<a href="https://www.youtube.com/watch?v=hpLAqYQVb68">John Fogerty</a> +2 more)</li>
+  <li><strong>Anthony Chaffee MD:</strong> Argued carnivore diet solves binge eating because steak provides satiety (feeling full on <1 lb vs. being able to eat 9 oranges), whereas carbs lower leptin and increase ghrelin creating a "bottomless pit"; criticized eating disorder treatment programs for prescribing processed foods that perpetuate the cycle. (<a href="https://www.youtube.com/shorts/tSnwrkQrvKU">Steak, the Solution to Binge Eating</a> +2 more)</li>
+  <li><strong>GTO Lab:</strong> Leon Sturm's tournament prep includes 20-minute pre-session meditation, reviewing similar final table structures in the GTO Lab library for "feel" rather than memorizing outputs, and being gentle with yourself about mistakes as part of the learning process. (<a href="https://www.youtube.com/shorts/QbCHfLVlQbU">Leon Sturm interview</a>)</li>
 </ul>
+
+<h2>₿ Bitcoin & Macro</h2>
+
+<div class="story">
+  <h3><a href="https://bitcoinmagazine.com/news/strategy-mstr-jumps-over-12-bitcoin-mstr">Strategy (MSTR) Jumps Over 12% as Bitcoin Pumps Past $77,000</a></h3>
+  <p>Bitcoin surged past $77,000 as Iran announced the Strait of Hormuz remains fully open under a tentative ceasefire, easing geopolitical risk and triggering a broader risk-on rally. Strategy (MSTR), Michael Saylor's Bitcoin treasury company, jumped over 12% in response. The price action represents a rapid recovery from recent tensions.</p>
+  <p class="meta">Bitcoin Magazine</p>
+</div>
+
+<div class="story">
+  <h3><a href="https://bitcoinmagazine.com/conference/czech-national-bank-governor-will-soon-speak-on-why-theyre-diversifying-their-reserves-with-bitcoin">Czech National Bank to Speak on Bitcoin Reserve Diversification</a></h3>
+  <p>Czech National Bank Governor Aleš Michl has been confirmed as a speaker at Bitcoin 2026, where he will deliver a keynote titled "Diversifying Central Bank Reserves With Bitcoin." This represents a significant milestone in sovereign Bitcoin adoption discourse, with a sitting central bank governor publicly making the case for BTC as a reserve asset.</p>
+  <p class="meta">Bitcoin Magazine</p>
+</div>
+
+<div class="story">
+  <h3><a href="https://bitcoinmagazine.com/news/sheri-biggs-discloses-250000-bitcoin">Congresswoman Sheri Biggs Discloses Up to $250,000 BTC Investment</a></h3>
+  <p>Representative Sheri Biggs of South Carolina disclosed a purchase of up to $250,000 in Bitcoin exposure via the iShares Bitcoin ETF. The disclosure adds to growing Congressional interest in Bitcoin holdings, signaling continued political normalization of Bitcoin as an investment asset.</p>
+  <p class="meta">Bitcoin Magazine</p>
+</div>
+
+<h2>🧬 Health & Science</h2>
+
+<div class="story">
+  <h3><a href="https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/The_toxic_side_of_the_Moon">All 12 Moonwalkers Had "Lunar Hay Fever" From Gunpowder-Smelling Dust</a></h3>
+  <p>Every Apollo astronaut who walked on the Moon experienced what they called "lunar hay fever"—sneezing, watery eyes, and sore throats triggered by Moon dust that smells like gunpowder. The fine, electrostatically charged lunar regolith clung to spacesuits and was carried into the lunar modules, where it became a persistent irritant. The mechanism likely involves the dust's sharp, abrasive particles (never weathered by wind or water) and possible chemical reactions with the cabin's oxygen-rich atmosphere. This remains a significant engineering and health challenge for future long-duration lunar missions.</p>
+  <p class="meta"><a href="https://news.ycombinator.com/item?id=150">Discussion</a></p>
+</div>
 
 <h2>💡 Worth Reading</h2>
 
 <div class="story">
+  <h3><a href="https://stratechery.com/2026/an-interview-with-f1-driver-and-venture-capitalist-nico-rosberg-about-the-drive-to-win/">An Interview with F1 Driver and Venture Capitalist Nico Rosberg</a></h3>
+  <p>Ben Thompson's conversation with former F1 world champion Nico Rosberg explores the mental edge required at the highest levels of competition and how those lessons translate to venture capital. Rosberg discusses finding incremental advantages, maximizing opportunities within constraints, and the psychology of sustained peak performance. The interview offers genuine insights into competitive excellence beyond the typical startup hustle narrative.</p>
+  <p class="meta">Stratechery</p>
+</div>
+
+<div class="story">
+  <h3><a href="https://marginalrevolution.com/marginalrevolution/2026/04/my-excellent-conversation-with-kim-bowes.html">Tyler Cowen's Conversation with Kim Bowes on Ancient Rome</a></h3>
+  <p>Tyler interviews archaeologist Kim Bowes about her book "Surviving Rome: The Economic Lives of the Ninety Percent," which Tyler calls perhaps his favorite economics book of 2025. Bowes uses material remains—pottery, bones, building foundations—to reconstruct how ordinary Romans actually lived and worked, challenging narratives built solely from elite textual sources. The conversation illuminates ancient economic life from the bottom up through forensic archaeology.</p>
+  <p class="meta">Marginal Revolution</p>
+</div>
+
+<div class="story">
+  <h3><a href="https://marginalrevolution.com/marginalrevolution/2026/04/rescind-davis-bacon.html">Rescind Davis-Bacon</a></h3>
+  <p>Mike Schmidt, Director of the CHIPS Program Office, details how the Davis-Bacon Act's "prevailing wage" requirements substantially impacted the CHIPS program. Tyler Cowen argues the Act increases construction costs on federally funded projects without commensurate benefits, making it a prime target for regulatory reform. The piece provides concrete examples of how labor regulations inflate infrastructure costs and slow deployment.</p>
+  <p class="meta">Marginal Revolution</p>
+</div>
+
+<div class="story">
   <h3><a href="https://hex.ooo/library/last_question.html">Isaac Asimov: The Last Question (1956)</a></h3>
-  <p>The classic short story about entropy, computation, and the ultimate fate of the universe. If you've never read it, it's one of the most elegant pieces of science fiction ever written—and directly relevant to thinking about AI capabilities and limits.</p>
-  <p class="meta"><a href="https://news.ycombinator.com/item?id=44320498">Discussion</a></p>
+  <p>Asimov's classic short story traces humanity's relationship with an ever-evolving AI across trillions of years, culminating in a profound meditation on entropy, consciousness, and creation. The story's final line remains one of science fiction's most memorable moments. Still worth reading 70 years later as AI capabilities accelerate.</p>
+  <p class="meta"><a href="https://news.ycombinator.com/item?id=554">Discussion</a></p>
 </div>
 
 <div class="story">
-  <h3><a href="https://www.lawfaremedia.org/article/it-is-time-to-ban-the-sale-of-precise-geolocation">Ban the Sale of Precise Geolocation</a></h3>
-  <p>Lawfare argues for prohibiting the commercial sale of precise location data. Given recent reporting on ad-based surveillance tech being used by law enforcement (also on HN today via Citizen Lab's Penlink analysis), this is becoming an urgent privacy issue with real policy momentum.</p>
-  <p class="meta"><a href="https://news.ycombinator.com/item?id=44318418">Discussion</a></p>
+  <h3><a href="https://www.iqiipi.com/the-quiet-colossus.html">Ada, Its Design, and the Language That Built the Languages</a></h3>
+  <p>A deep dive into the Ada programming language's design philosophy and its lasting influence on modern language design, despite its relatively niche current usage. The article examines how Ada's emphasis on reliability, type safety, and explicit contracts influenced everything from Java to Rust, making it a "quiet colossus" whose ideas permeate modern software engineering even as the language itself receded from mainstream use.</p>
+  <p class="meta"><a href="https://news.ycombinator.com/item?id=232">Discussion</a></p>
 </div>
 
 <div class="story">
-  <h3><a href="https://www.anthropic.com/news/claude-design-anthropic-labs">Claude Design — Anthropic Labs</a></h3>
-  <p>Anthropic's announcement about Claude's new design capabilities. Worth tracking as a new end-user application of AI—exactly the capability-level development you care about rather than infrastructure.</p>
-  <p class="meta"><a href="https://news.ycombinator.com/item?id=44319551">Discussion</a></p>
+  <h3><a href="https://marginalrevolution.com/marginalrevolution/2026/04/are-we-underestimating-youth-well-being.html">Are We Underestimating Youth Well-Being?</a></h3>
+  <p>Research examining whether declining youth well-being metrics are consistent across surveys finds significant variation depending on measurement methodology. While some surveys show sharp declines in teen mental health, others show more stable or even improving trends, suggesting the "youth mental health crisis" narrative may be more nuanced than commonly portrayed. The post raises important questions about measurement validity and media narratives around teen well-being.</p>
+  <p class="meta">Marginal Revolution</p>
+</div>
+
+<h2>🤖 AI Capability Watch</h2>
+
+<div class="story">
+  <h3><a href="https://openai.com/index/introducing-gpt-rosalind">OpenAI Introduces GPT-Rosalind for Life Sciences</a></h3>
+  <p>OpenAI launched GPT-Rosalind, a frontier reasoning model purpose-built for drug discovery, genomics analysis, protein reasoning, and scientific research workflows. This represents a meaningful specialization move—creating domain-specific models optimized for scientific research rather than general-purpose chat. The model aims to accelerate actual research output rather than just assist with literature review or writing.</p>
+  <p class="meta">OpenAI</p>
 </div>
 
 <div class="story">
-  <h3><a href="https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/The_toxic_side_of_the_Moon">All 12 Moonwalkers Had "Lunar Hay Fever" from Dust Smelling Like Gunpowder</a></h3>
-  <p>Fascinating piece of space exploration history: lunar regolith caused allergic reactions in every Apollo astronaut who walked on the moon. The dust's reactivity and potential toxicity remains a serious engineering challenge for future lunar missions.</p>
-  <p class="meta"><a href="https://news.ycombinator.com/item?id=44282051">Discussion</a></p>
+  <h3><a href="https://www.anthropic.com/news/claude-design-anthropic-labs">Claude Design</a></h3>
+  <p>Anthropic announced Claude Design, though details are limited in the summary. This appears to be a new capability or product offering, but without more context on what end-user capabilities it enables, it's difficult to assess significance. Worth monitoring for follow-up details.</p>
+  <p class="meta">Anthropic</p>
+</div>
+
+<div class="story">
+  <h3><a href="https://openai.com/index/codex-for-almost-everything">Codex Updated with Computer Use and Plugins</a></h3>
+  <p>The Codex app for macOS and Windows now includes computer use (allowing the AI to directly control desktop applications), in-app browsing, image generation, persistent memory, and a plugin system. This moves beyond code completion toward genuine desktop automation—the AI can now interact with your actual desktop environment to complete tasks, not just generate code snippets. Represents a step toward AI as an operating system-level agent.</p>
+  <p class="meta">OpenAI</p>
 </div>
 </body>
 </html>
