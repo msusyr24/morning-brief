@@ -63,35 +63,75 @@
 
 <div class="spotlight">
   <h2>🧭 Channel Spotlight</h2>
-  <p class="spotlight-name">Mike Israetel</p>
-  <p class="spotlight-pitch">You have Renaissance Periodization but Mike Israetel also runs his personal channel with more informal, longer discussions that go deeper into training philosophy and dietary flexibility debates—including his critiques of strict carnivore from a bodybuilding perspective. He steelmans moderate-carb approaches with actual mechanistic arguments rather than dogma, which balances your current low-carb-heavy feed. Format is solo talking-head and casual conversations, often 20-45 minutes, more exploratory than the polished RP content.</p>
+  <p class="spotlight-name">Peter Attia</p>
+  <p class="spotlight-pitch">Attia brings more methodological rigor to longevity and metabolic health than your current health channels—he's genuinely agnostic on carnivore vs. other approaches and focuses heavily on what the clinical data actually supports vs. mechanistic speculation. He covers zone 2 training, glucose regulation, and lifespan research with a physician's skepticism rather than advocate framing. Format is a mix of solo deep-dives and long-form interviews (1-3 hours), often with researchers rather than fellow content creators.</p>
   <p class="spotlight-instructions">Interested? Copy the line below into <code>YOUTUBE_CHANNELS</code> in <code>brief.py</code> and save:</p>
-  <pre class="spotlight-snippet" id="snippet">    "Mike Israetel": "UCfQgsKhHjSyRLOp9mnffqVg",</pre>
+  <pre class="spotlight-snippet" id="snippet">    "Peter Attia": "UC8kGsMa0LygSX9nkBcBH1Sg",</pre>
   <button class="copy-btn" onclick="navigator.clipboard.writeText(document.getElementById('snippet').innerText.trim()); this.innerText='✅ Copied'; setTimeout(()=>this.innerText='📋 Copy snippet', 2000);">📋 Copy snippet</button>
-  <p class="spotlight-meta">showing for 2 more days. If you don't add it, a new channel will be suggested.</p>
+  <p class="spotlight-meta">showing for 3 more days. If you don't add it, a new channel will be suggested.</p>
 </div>
 <h2>🎥 From People I Follow</h2>
 
 <p><strong>Worth your time:</strong></p>
 
 <div class="story">
+  <h3>Nick Norwitz</h3>
+  <p>Norwitz argues that the "lower LDL is always better" paradigm is incomplete for longevity. He presents data showing PCSK9 loss-of-function mutations dramatically lower LDL but show no lifespan benefit—if anything, trending toward earlier death. The key variable he identifies is ApoC3, a protein that slows triglyceride clearance. Centenarians were 2.5x more likely to carry ApoC3 loss-of-function variants, yet their LDL/ApoB levels were virtually identical to controls—the difference was higher HDL and lower triglyceride-to-HDL ratio. Actionable strategies to lower ApoC3: ketogenic diets (one study showed 50% reduction in 2 weeks), fructose restriction (worse than glucose for ApoC3), and omega-3s. He also covered HRV research: low HRV associates with 50% higher heart attack risk in healthy people and 5.3x higher mortality post-heart attack.</p>
+  <p class="meta">Videos: <a href="https://www.youtube.com/watch?v=SnwbtYm2RDE">The One Lipid Marker Linked to Longevity</a> · <a href="https://www.youtube.com/shorts/gNhjein5n0w">This Metric Predicts 5x Higher Death Risk After a Heart Attack</a></p>
+</div>
+
+<div class="story">
   <h3>GTO Wizard</h3>
-  <p>GTO Wizard benchmarked major LLMs against their purpose-built poker AI in heads-up play. The results are brutal: GPT-5.3 performed "best" but still lost at 16.3 big blinds per 100 hands—over 3x worse than top human experts (who lose around 5 bb/100 against GTO). Models like GPT-4o and Grok 4 were barely better than folding every hand. The key insight: LLMs are trained to predict language from poker books and forums, while GTO Wizard AI was trained on billions of self-played hands to predict expected value directly. There's a cost-performance curve where spending more on inference helps up to a point, then flatlines—throwing money at reasoning tokens doesn't overcome the fundamental architecture mismatch.</p>
+  <p>GTO Wizard built a benchmark testing whether LLMs can actually play poker well against GTO Wizard AI. They tested state-of-the-art models to see if the "emergent intelligence" translates to real strategic decision-making. The full video promises to reveal which models performed and what their failures tell us about AI reasoning capabilities—though the short teases the methodology more than results.</p>
   <p class="meta">Videos: <a href="https://www.youtube.com/watch?v=CjwyEFYY-Ls">Can AI Actually Play Poker? We Ranked the Best LLMs</a> · <a href="https://www.youtube.com/shorts/Qk_8BSQmXF4">Can AI Actually Play Poker?</a></p>
 </div>
 
 <div class="story">
-  <h3>Ken Berry MD</h3>
-  <p>Berry identifies seven skin conditions linked to hyperinsulinemia—keratosis pilaris (chicken skin), skin tags, and rosacea among them. His claim: these are typically dismissed as genetic or bad luck, but chronic high insulin is the real driver, and they often clear within weeks of dietary intervention. He walks through his "proper human diet" protocol: remove added sugars, grains, beans, and seed oils; fill at least half the plate with fatty meat and eggs; use animal fats. Promises to share specific lab markers to test for hyperinsulinemia at video's end.</p>
-  <p class="meta">Videos: <a href="https://www.youtube.com/watch?v=X9GnsVdhUKM">7 Skin Signs of Insulin Resistance (Even If You're Slim!)</a> · <a href="https://www.youtube.com/shorts/H7VYGl-jhXM">Most people get stuck on step 1...</a></p>
+  <h3>GTO Lab</h3>
+  <p>Leon Sturm shared his tournament prep routine: 20-minute meditation before playing, breath work on dinner break, and reviewing GTO Lab solutions for similar stack distributions before final tables—but warns against over-studying outputs since you'll try to remember too much in-game. Nick Petrangelo emphasized that knowing equilibrium check-raise frequencies is essential before attempting exploits: "It's very difficult to know how to check-raise too much or not enough if we don't know what the right amount is yet."</p>
+  <p class="meta">Videos: <a href="https://www.youtube.com/shorts/QbCHfLVlQbU">Leon Sturm's interview</a> · <a href="https://www.youtube.com/shorts/eiOjbYATWSs">Knowing EQUILIBRIUM is KEY to exploit with check-raises</a></p>
 </div>
+
+<div class="story">
+  <h3>Renaissance Periodization</h3>
+  <p>Dr. Mike broke down training periodization by experience level with specific recommendations: beginners (0-2 years) should stick to 2-4 whole-body sessions weekly, sets of 5-10 reps, distributed compound movements, and prioritize technique over intensity—they grow from minimal volume. Intermediates and advanced lifters need progressively more variation and volume. Key insight: if you can maintain beginner results with beginner volumes, don't prematurely adopt intermediate protocols. On sleep: 70% of daily growth hormone releases in the first half of nightly sleep; missing sleep raises cortisol (shifts protein balance catabolic, favors visceral fat storage). Also critiqued Paddy Pimblett's 50lb weight cut—noting the 5pm pre-fight weight was actually 155lb with significant water manipulation.</p>
+  <p class="meta">Videos: <a href="https://www.youtube.com/watch?v=zhP5gsBbgYY">How to Train for Muscle Growth: Beginner to Advanced</a> · <a href="https://www.youtube.com/shorts/huGNal00O6o">You Sleep Less, You Grow Less</a> · <a href="https://www.youtube.com/watch?v=gSo5l9AqAfg">Critiques Paddy The Baddy's Weight Loss</a> +3 more</p>
+</div>
+
+<p><strong>Also posted:</strong></p>
+<ul>
+  <li><strong>Paul Saladino MD:</strong> Covered saturated fat and cholesterol (argues the relationship with CVD is attenuated in metabolically healthy individuals—one study showed zero correlation between LDL and CVD in those with coronary artery calcium score of zero), plus shorts on napping (NASA study: 26 minutes optimal), infrared light from windows, and plastic lining in aluminum cans as microplastic source. (<a href="https://www.youtube.com/shorts/5xgWLmcjGoo">Is saturated fat healthy?</a> +5 more)</li>
+  <li><strong>Ken Berry MD:</strong> Posted on skin signs of insulin resistance and a 5-step proper human diet framework (remove added sugar, grains/beans, seed oils; fill plate with fatty meat/eggs; repeat). (<a href="https://www.youtube.com/watch?v=X9GnsVdhUKM">7 Skin Signs of Insulin Resistance</a> +1 more)</li>
+  <li><strong>Anthony Chaffee MD:</strong> Argued carnivore diet solves binge eating because steak is satiating while carbs lower leptin and increase ghrelin; criticized vegan diets noting 84% quit. (<a href="https://www.youtube.com/shorts/tSnwrkQrvKU">Steak, the Solution to Binge Eating</a> +2 more)</li>
+  <li><strong>Dr. Sten Ekberg:</strong> ⚠️ Title only, no transcript. (<a href="https://www.youtube.com/watch?v=kb6xfIv1tSY">Top 10 SUPER FOODS That Can Heal A FATTY LIVER</a>)</li>
+  <li><strong>Thomas DeLauer:</strong> Covered taurine for training capacity (4-6g/day), creatine's anti-catabolic effects (reduced leucine oxidation), a caffeine timing study showing 29% increased fat oxidation at 5pm vs 10.7% at 8am, melatonin interview (neuroscientist claims no dependency evidence, took 5mg nightly for 30 years with normal hormone levels after stopping), and cortisol management strategies (5:2 approach with carb refeeds in evening). (<a href="https://www.youtube.com/watch?v=eIJFu18J-qQ">4g of This Powder Builds Muscle LEGALLY</a> +3 more)</li>
+  <li><strong>Joe Rogan:</strong> Long-form interviews with John Fogerty (music industry exploitation, CCR lawsuit where he was sued for sounding like himself), David Cross (comedy nostalgia, Art Bell/Phil Hendrie), and Spencer Pratt (LA mayoral run, fire mismanagement claims, homeless industrial complex fraud allegations). (<a href="https://www.youtube.com/watch?v=hpLAqYQVb68">John Fogerty</a> +2 more)</li>
+</ul>
 
 <h2>💡 Worth Reading</h2>
 
 <div class="story">
   <h3><a href="https://hex.ooo/library/last_question.html">Isaac Asimov: The Last Question (1956)</a></h3>
-  <p>The classic short story about entropy, computation, and deep time—now especially resonant given current AI discourse. If you haven't read it, it's 15 minutes well spent; if you have, worth revisiting with fresh eyes.</p>
-  <p class="meta"><a href="https://news.ycombinator.com/item?id=44376127">Discussion</a></p>
+  <p>The classic short story about entropy, computation, and the ultimate fate of the universe. If you've never read it, it's one of the most elegant pieces of science fiction ever written—and directly relevant to thinking about AI capabilities and limits.</p>
+  <p class="meta"><a href="https://news.ycombinator.com/item?id=44320498">Discussion</a></p>
+</div>
+
+<div class="story">
+  <h3><a href="https://www.lawfaremedia.org/article/it-is-time-to-ban-the-sale-of-precise-geolocation">Ban the Sale of Precise Geolocation</a></h3>
+  <p>Lawfare argues for prohibiting the commercial sale of precise location data. Given recent reporting on ad-based surveillance tech being used by law enforcement (also on HN today via Citizen Lab's Penlink analysis), this is becoming an urgent privacy issue with real policy momentum.</p>
+  <p class="meta"><a href="https://news.ycombinator.com/item?id=44318418">Discussion</a></p>
+</div>
+
+<div class="story">
+  <h3><a href="https://www.anthropic.com/news/claude-design-anthropic-labs">Claude Design — Anthropic Labs</a></h3>
+  <p>Anthropic's announcement about Claude's new design capabilities. Worth tracking as a new end-user application of AI—exactly the capability-level development you care about rather than infrastructure.</p>
+  <p class="meta"><a href="https://news.ycombinator.com/item?id=44319551">Discussion</a></p>
+</div>
+
+<div class="story">
+  <h3><a href="https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/The_toxic_side_of_the_Moon">All 12 Moonwalkers Had "Lunar Hay Fever" from Dust Smelling Like Gunpowder</a></h3>
+  <p>Fascinating piece of space exploration history: lunar regolith caused allergic reactions in every Apollo astronaut who walked on the moon. The dust's reactivity and potential toxicity remains a serious engineering challenge for future lunar missions.</p>
+  <p class="meta"><a href="https://news.ycombinator.com/item?id=44282051">Discussion</a></p>
 </div>
 </body>
 </html>
