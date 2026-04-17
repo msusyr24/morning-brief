@@ -57,7 +57,7 @@ YOUTUBE_CHANNELS = {
 
 LOOKBACK_DAYS = 3
 # --- Test mode: cheap runs during development ---
-TEST_MODE = True  # Flip to False for real daily runs
+TEST_MODE = False  # Flip to False for real daily runs
 
 if TEST_MODE:
     print("⚡ TEST_MODE ON — reduced sources, cheap tokens")
