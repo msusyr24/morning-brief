@@ -16,17 +16,22 @@ client = Anthropic()
 # --- Your interests. Edit this freely. ---
 MY_INTERESTS = """
 I care about:
-- AI/ML breakthroughs, new models, new capabilities, new tools
-- New software or products that push the field forward
-- Bitcoin, macroeconomics, Michael Saylor
-- Health science: diet evidence, exercise science, longevity research
-- Thoughtful long-form essays and ideas worth reading
+- AI/ML at the CAPABILITY level: what new things can AI actually DO? Real end-user applications, novel uses, surprising capabilities.
+- Bitcoin, monetary policy, macroeconomics, Michael Saylor's perspective
+- Health science with REAL DATA: diet debates (especially carnivore/low-carb vs. conventional), exercise science, longevity research, metabolism
+- Evidence-based fitness and training (hypertrophy, programming, recovery)
+- Thoughtful long-form essays and ideas worth sitting with
+- Early signal on genuinely useful new tools or products
+- Poker theory and high-level strategy content
 
 I do NOT care about:
+- AI infrastructure, inference layers, model releases, agent frameworks, dev tooling — too low-level for me
+- "Open source Qwen-X-B beats benchmark Y" — unless it enables a meaningfully new thing I can do
 - Political drama, culture war content, sensationalized headlines
-- Crypto speculation or altcoin pumps
-- Startup funding gossip without substance
-- Apple/Google/Microsoft corporate gossip unless it's about real capabilities
+- Crypto speculation, altcoins, NFTs
+- Startup funding gossip without product substance
+- Big Tech earnings, exec drama, corporate politics
+- JavaScript framework discourse, programming language wars
 """
 
 # --- Step 1: Fetch Hacker News top stories ---
