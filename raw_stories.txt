@@ -1,96 +1,99 @@
 === HACKER NEWS ===
-1. [963 pts] Claude Design
+1. [81 pts] Category Theory Illustrated – Orders
+   https://abuseofnotation.github.io/category-theory-illustrated/04_order/
+
+2. [94 pts] Amiga Graphics
+   https://amiga.lychesis.net/
+
+3. [80 pts] Michael Rabin Has Died
+   https://en.wikipedia.org/wiki/Michael_O._Rabin
+
+4. [1063 pts] Claude Design
    https://www.anthropic.com/news/claude-design-anthropic-labs
 
-2. [58 pts] Show HN: I made a calculator that works over disjoint sets of intervals
+5. [177 pts] Show HN: I made a calculator that works over disjoint sets of intervals
    https://victorpoughon.github.io/interval-calculator/
 
-3. [77 pts] Towards trust in Emacs
-   https://eshelyaron.com/posts/2026-04-15-towards-trust-in-emacs.html
-
-4. [576 pts] Measuring Claude 4.7's tokenizer costs
+6. [619 pts] Measuring Claude 4.7's tokenizer costs
    https://www.claudecodecamp.com/p/i-measured-claude-4-7-s-new-tokenizer-here-s-what-it-costs-you
 
-5. [296 pts] All 12 moonwalkers had "lunar hay fever" from dust smelling like gunpowder (2018)
+7. [120 pts] Towards trust in Emacs
+   https://eshelyaron.com/posts/2026-04-15-towards-trust-in-emacs.html
+
+8. [344 pts] All 12 moonwalkers had "lunar hay fever" from dust smelling like gunpowder (2018)
    https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/The_toxic_side_of_the_Moon
 
-6. [169 pts] Spending 3 months coding by hand
+9. [41 pts] The simple geometry behind any road
+   https://sandboxspirit.com/blog/simple-geometry-of-roads/
+
+10. [217 pts] Spending 3 months coding by hand
    https://miguelconner.substack.com/p/im-coding-by-hand
 
-7. [151 pts] A simplified model of Fil-C
+11. [36 pts] It is incorrect to "normalize" // in HTTP URL paths
+   https://runxiyu.org/comp/doubleslash/
+
+12. [178 pts] A simplified model of Fil-C
    https://www.corsix.org/content/simplified-model-of-fil-c
 
-8. [167 pts] Are the costs of AI agents also rising exponentially? (2025)
-   https://www.tobyord.com/writing/hourly-costs-for-ai-agents
-
-9. [688 pts] Isaac Asimov: The Last Question (1956)
-   https://hex.ooo/library/last_question.html
-
-10. [297 pts] Show HN: Smol machines – subsecond coldstart, portable virtual machines
-   https://github.com/smol-machines/smolvm
-
-11. [143 pts] Slop Cop
-   https://awnist.com/slop-cop
-
-12. [172 pts] Show HN: PanicLock – Close your MacBook lid disable TouchID –> password unlock
-   https://github.com/paniclock/paniclock/
-
-13. [171 pts] Hyperscalers have already outspent most famous US megaprojects
-   https://twitter.com/finmoorhouse/status/2044933442236776794
-
-14. [149 pts] "cat readme.txt" is not safe if you use iTerm2
-   https://blog.calif.io/p/mad-bugs-even-cat-readmetxt-is-not
-
-15. [67 pts] Landmark ancient-genome study shows surprise acceleration of human evolution
-   https://www.nature.com/articles/d41586-026-01204-5
-
-16. [256 pts] NASA Force
-   https://nasaforce.gov/
-
-17. [219 pts] Middle schooler finds coin from Troy in Berlin
-   https://www.thehistoryblog.com/archives/75848
-
-18. [26 pts] Casus Belli Engineering
-   https://marcosmagueta.com/blog/casus-belli-engineering/
-
-19. [21 pts] Brunost: The Nynorsk Programming Language
+13. [74 pts] Brunost: The Nynorsk Programming Language
    https://lindbakk.com/blog/introducing-brunost
 
-20. [47 pts] The Unix executable as a Smalltalk method (2025) [video]
-   https://www.youtube.com/watch?v=sZjPQ7vtLNA
+14. [7 pts] It's OK to compare floating-points for equality
+   https://lisyarus.github.io/blog/posts/its-ok-to-compare-floating-points-for-equality.html
 
-21. [5 pts] Making Wax Sealed Letters at Scale
-   https://waxletter.com/
+15. [219 pts] Are the costs of AI agents also rising exponentially? (2025)
+   https://www.tobyord.com/writing/hourly-costs-for-ai-agents
 
-22. [190 pts] NIST gives up enriching most CVEs
+16. [49 pts] Rewriting Every Syscall in a Linux Binary at Load Time
+   https://amitlimaye1.substack.com/p/rewriting-every-syscall-in-a-linux
+
+17. [341 pts] Show HN: Smol machines – subsecond coldstart, portable virtual machines
+   https://github.com/smol-machines/smolvm
+
+18. [196 pts] "cat readme.txt" is not safe if you use iTerm2
+   https://blog.calif.io/p/mad-bugs-even-cat-readmetxt-is-not
+
+19. [184 pts] Slop Cop
+   https://awnist.com/slop-cop
+
+20. [8 pts] Show HN: Sfsym – Export Apple SF Symbols as Vector SVG/PDF/PNG
+   https://github.com/yapstudios/sfsym
+
+21. [199 pts] Show HN: PanicLock – Close your MacBook lid disable TouchID –> password unlock
+   https://github.com/paniclock/paniclock/
+
+22. [202 pts] Hyperscalers have already outspent most famous US megaprojects
+   https://twitter.com/finmoorhouse/status/2044933442236776794
+
+23. [279 pts] NASA Force
+   https://nasaforce.gov/
+
+24. [240 pts] Middle schooler finds coin from Troy in Berlin
+   https://www.thehistoryblog.com/archives/75848
+
+25. [84 pts] Landmark ancient-genome study shows surprise acceleration of human evolution
+   https://www.nature.com/articles/d41586-026-01204-5
+
+26. [205 pts] NIST gives up enriching most CVEs
    https://risky.biz/risky-bulletin-nist-gives-up-enriching-most-cves/
 
-23. [71 pts] Introducing: ShaderPad
+27. [43 pts] Casus Belli Engineering
+   https://marcosmagueta.com/blog/casus-belli-engineering/
+
+28. [99 pts] Introducing: ShaderPad
    https://rileyjshaw.com/blog/introducing-shaderpad/
 
-24. [1 pts] Arc Prize Foundation (YC W26) Is Hiring a Platform Engineer for ARC-AGI-4
-   https://www.ycombinator.com/companies/arc-prize-foundation/jobs/AKZRZDN-platform-engineer-benchmark-lead
+29. [57 pts] The Unix executable as a Smalltalk method (2025) [video]
+   https://www.youtube.com/watch?v=sZjPQ7vtLNA
 
-25. [37 pts] Generating a color spectrum for an image
-   https://amandahinton.com/blog/generating-a-color-spectrum-for-an-image
-
-26. [73 pts] The GNU libc atanh is correctly rounded
+30. [99 pts] The GNU libc atanh is correctly rounded
    https://inria.hal.science/hal-05591661
-
-27. [669 pts] Ban the sale of precise geolocation
-   https://www.lawfaremedia.org/article/it-is-time-to-ban-the-sale-of-precise-geolocation
-
-28. [110 pts] Show HN: Stage – Putting humans back in control of code review
-   https://stagereview.app/
-
-29. [102 pts] I built a 3D printing business and ran it for 8 months
-   https://www.wespiser.com/posts/2026-04-12-3D-Printing-Biz.html
-
-30. [7 pts] Ben Lerner's Big Feelings
-   https://www.vulture.com/article/ben-lerner-transcription-interview.html
 
 
 === RSS ===
+[ideas] Marginal Revolution: Birthright Citizenship and Youth Crime
+  https://marginalrevolution.com/marginalrevolution/2026/04/birthright-citizenship-and-youth-crime.html?utm_source=rss&utm_medium=rss&utm_campaign=birthright-citizenship-and-youth-crime
+
 [ideas] Marginal Revolution: Emergent Ventures India, 16th cohort
   https://marginalrevolution.com/marginalrevolution/2026/04/emergent-ventures-india-16th-cohort.html?utm_source=rss&utm_medium=rss&utm_campaign=emergent-ventures-india-16th-cohort
 
@@ -163,14 +166,14 @@
 [bitcoin] Bitcoin Magazine: Citi Says Mixing Bitcoin With Gold Can Boost Your Portfolio Performance
   https://bitcoinmagazine.com/news/citi-says-mixing-bitcoin-with-gold-boost
 
+[health] Peter Attia: Prostate cancer: a PSA on PSA
+  https://peterattiamd.com/prostate-cancer-psa/
+
 [ideas] Stratechery (free): 2026.16: Servers, Satellites, and Stars
   https://stratechery.com/2026/servers-satellites-and-stars/
 
 [ideas] Stratechery (free): An Interview with F1 Driver and Venture Capitalist Nico Rosberg About the Drive to Win
   https://stratechery.com/2026/an-interview-with-f1-driver-and-venture-capitalist-nico-rosberg-about-the-drive-to-win/
-
-[ideas] Stratechery (free): Amazon Buys Globalstar, Delta to Add Leo, The Apple Angle
-  https://stratechery.com/2026/amazon-buys-globalstar-delta-to-add-leo-the-apple-angle/
 
 [ai] OpenAI: Codex for (almost) everything
   https://openai.com/index/codex-for-almost-everything
@@ -181,8 +184,785 @@
 [ai] OpenAI: Accelerating the cyber defense ecosystem that protects us all
   https://openai.com/index/accelerating-cyber-defense-ecosystem
 
-[ai] OpenAI: The next evolution of the Agents SDK
-  https://openai.com/index/the-next-evolution-of-the-agents-sdk
-
 
 === YOUTUBE ===
+Joe Rogan: Joe Rogan Experience #2485 - John Fogerty
+  https://www.youtube.com/watch?v=hpLAqYQVb68
+  Transcript: yes
+
+Joe Rogan: Joe Rogan Experience #2484 - David Cross
+  https://www.youtube.com/watch?v=efJ1-q3XxVc
+  Transcript: yes
+
+Joe Rogan: Joe Rogan Experience #2483 - Spencer Pratt
+  https://www.youtube.com/watch?v=pDfm9RaIIv4
+  Transcript: yes
+
+Joe Rogan: Joe Rogan Experience #2482 - Andy Stumpf
+  https://www.youtube.com/watch?v=qrKuqmJmz0Q
+  Transcript: yes
+
+Joe Rogan: JRE MMA Show #177 - Protect Ya Neck
+  https://www.youtube.com/watch?v=aYt_2KoP4v4
+  Transcript: NO
+
+Joe Rogan: Joe Rogan Experience #2481 - Duncan Trussell
+  https://www.youtube.com/watch?v=vrRJimixWEc
+  Transcript: NO
+
+Joe Rogan: Joe Rogan Experience #2480 - Arsenio Hall
+  https://www.youtube.com/watch?v=FtbcMT31Wkc
+  Transcript: yes
+
+Joe Rogan: Joe Rogan Experience #2479 - Bob Lazar & Luigi Vendittelli
+  https://www.youtube.com/watch?v=Lb_1d68vx-g
+  Transcript: yes
+
+Joe Rogan: Joe Rogan Experience #2478 - Theo Von
+  https://www.youtube.com/watch?v=wRJ2N8qBPs0
+  Transcript: yes
+
+Joe Rogan: Joe Rogan Experience #2477 - Rick Perry & W. Bryan Hubbard
+  https://www.youtube.com/watch?v=JIArjzI3gas
+  Transcript: yes
+
+Joe Rogan: Joe Rogan Experience #2476 - Shanna H. Swan
+  https://www.youtube.com/watch?v=c-313sIpL_0
+  Transcript: yes
+
+Joe Rogan: Joe Rogan Experience #2475 - Andrew Jarecki
+  https://www.youtube.com/watch?v=9uhx6ApHD-8
+  Transcript: yes
+
+Joe Rogan: Joe Rogan Experience #2474 - Dave Smith
+  https://www.youtube.com/watch?v=JUePtc0bJSE
+  Transcript: yes
+
+Joe Rogan: Joe Rogan Experience #2473 - Bill Thompson
+  https://www.youtube.com/watch?v=UlRHECIUNng
+  Transcript: yes
+
+Joe Rogan: Joe Rogan Experience #2472 - Jeff Ross
+  https://www.youtube.com/watch?v=7s_XJ5fonGI
+  Transcript: yes
+
+Renaissance Periodization: Exercise Scientist Critiques Paddy The Baddy’s EXTREME Weight Loss Techniques
+  https://www.youtube.com/watch?v=gSo5l9AqAfg
+  Transcript: yes
+
+Renaissance Periodization: Bad Sleep Can Make You Gain More Fat
+  https://www.youtube.com/shorts/D_RqHf2BMcc
+  Transcript: yes
+
+Renaissance Periodization: Dr. Mike’s 80g Protein Snack
+  https://www.youtube.com/shorts/o1vdnL0sUhQ
+  Transcript: yes
+
+Renaissance Periodization: Sleep Loss Kills Muscle Growth
+  https://www.youtube.com/shorts/fvWZGJ68gaU
+  Transcript: yes
+
+Renaissance Periodization: Dr. Mike Trains “Fasted”
+  https://www.youtube.com/shorts/wn8LzLtW2Ss
+  Transcript: yes
+
+Renaissance Periodization: How to Train for Muscle Growth: Beginner to Advanced Training
+  https://www.youtube.com/watch?v=zhP5gsBbgYY
+  Transcript: yes
+
+Renaissance Periodization: You Sleep Less, You Grow Less
+  https://www.youtube.com/shorts/huGNal00O6o
+  Transcript: yes
+
+Renaissance Periodization: Dr. Mike Eats Protein Puffs Like Cereal
+  https://www.youtube.com/shorts/VHxdMSdJfyk
+  Transcript: yes
+
+Renaissance Periodization: Training More Often? Do Less Per Session
+  https://www.youtube.com/shorts/JDCxDKwPxhA
+  Transcript: yes
+
+Renaissance Periodization: Sleep Matters a TON For Your Gains
+  https://www.youtube.com/shorts/Ii0QAaSsyV0
+  Transcript: yes
+
+Renaissance Periodization: Inside The Lab That Busts Fake Supplements (Huge Problem)
+  https://www.youtube.com/watch?v=zykO04T9r08
+  Transcript: yes
+
+Renaissance Periodization: When More Sets Become Junk Volume
+  https://www.youtube.com/shorts/x5p9trMGCnU
+  Transcript: yes
+
+Renaissance Periodization: Dr. Mike’s Post-Workout Meal
+  https://www.youtube.com/shorts/P2aB-Sy09qI
+  Transcript: yes
+
+Renaissance Periodization: 10-12 Sets Per Workout is Overkill!
+  https://www.youtube.com/shorts/5gVFewUkDZ8
+  Transcript: yes
+
+Renaissance Periodization: How Dr Mike Gets 10,000 Steps / Day
+  https://www.youtube.com/shorts/-LHgDXEgFFU
+  Transcript: yes
+
+Dr. Sten Ekberg: Top 10 SUPER FOODS That Can Heal A FATTY LIVER!
+  https://www.youtube.com/watch?v=kb6xfIv1tSY
+  Transcript: yes
+
+Dr. Sten Ekberg: 10 Urgent Signs Your Body Needs Methylated B Vitamins
+  https://www.youtube.com/watch?v=MiRS3_DQI58
+  Transcript: yes
+
+Dr. Sten Ekberg: 10 Signs Your LIVER Is Blocking Belly Fat Loss
+  https://www.youtube.com/watch?v=duSV43DwvoM
+  Transcript: yes
+
+Dr. Sten Ekberg: #1 Absolute Worst HEART ADVICE Your Doctor Gives You
+  https://www.youtube.com/watch?v=gxPog8boQjo
+  Transcript: NO
+
+Dr. Sten Ekberg: What Restaurants Don't Want You To Know About Their Food
+  https://www.youtube.com/watch?v=ZQYWPmxauck
+  Transcript: yes
+
+Dr. Sten Ekberg: Top 10 Things You Do DAILY That Destroy Your Brain
+  https://www.youtube.com/watch?v=2FMVt76_bzE
+  Transcript: yes
+
+Dr. Sten Ekberg: Top 10 Foods That DESTROY Your THYROID
+  https://www.youtube.com/watch?v=HhaCaYdE8ts
+  Transcript: yes
+
+Dr. Sten Ekberg: 10 Signs Your KIDNEYS Are Crying For Help
+  https://www.youtube.com/watch?v=VZG1EAldavI
+  Transcript: yes
+
+Dr. Sten Ekberg: Lose Belly Fat But Don't Believe These YouTube Lies
+  https://www.youtube.com/watch?v=6tSGWdg0leI
+  Transcript: yes
+
+Dr. Sten Ekberg: Top 10 Foods That Make You Age Faster
+  https://www.youtube.com/watch?v=hr_ZmgIrYAA
+  Transcript: yes
+
+Dr. Sten Ekberg: #1 Most Important Test Your Doctor Refuses To Check
+  https://www.youtube.com/watch?v=RpAFLbaUEXk
+  Transcript: yes
+
+Dr. Sten Ekberg: This Happens When You Do 25 Squats Twice A Day
+  https://www.youtube.com/watch?v=Nn76mq0SX5A
+  Transcript: yes
+
+Dr. Sten Ekberg: 10 Early Signs Your Body Is Full of Toxins
+  https://www.youtube.com/watch?v=aOW5OLwQF2k
+  Transcript: yes
+
+Dr. Sten Ekberg: The Biological Cost of Ozempic and Other GLP-1s
+  https://www.youtube.com/watch?v=0snUlg4I-bg
+  Transcript: yes
+
+Dr. Sten Ekberg: Top 10 Healthiest Meats You Must Eat!
+  https://www.youtube.com/watch?v=BKTJzHtBvWM
+  Transcript: yes
+
+Jared Alderman: Poker's Next Frontier Is Not What You Think
+  https://www.youtube.com/watch?v=40VErN0VUhE
+  Transcript: yes
+
+Jared Alderman: Charlie Carrel On The Hidden Edge That's Always There
+  https://www.youtube.com/watch?v=E2_KovmUhcs
+  Transcript: yes
+
+Jared Alderman: What 40 Years of Professional Poker Teaches You About Your Mind
+  https://www.youtube.com/watch?v=WuDK8RWzYZU
+  Transcript: yes
+
+Jared Alderman: Why Ego Is Your Biggest Leak in Poker
+  https://www.youtube.com/watch?v=EvepPwyAPhQ
+  Transcript: yes
+
+Jared Alderman: Why Losing Everything Made Him a Better Poker Player
+  https://www.youtube.com/watch?v=uQGpWIkJgBw
+  Transcript: yes
+
+Jared Alderman: How TJ Reid 4x'd his Hendon Mob in ONE Tournament!
+  https://www.youtube.com/watch?v=yPCrlPzrnBk
+  Transcript: yes
+
+Jared Alderman: Stephen Chidwick: "This Is Why Poker Is Fascinating" #poker #awareness #podcast
+  https://www.youtube.com/shorts/GVq4Sw4jpIM
+  Transcript: yes
+
+Jared Alderman: The Scariest Psychology Experiment #mentalhealth #awareness #podcast
+  https://www.youtube.com/shorts/9cQeTD6ReqE
+  Transcript: yes
+
+Jared Alderman: Mastery, Kindness, and the Path to Peak Poker
+  https://www.youtube.com/watch?v=jeU-VKmjITQ
+  Transcript: yes
+
+Jared Alderman: Stephen Chidwick on the Skill That Changed His Game Forever
+  https://www.youtube.com/watch?v=CTVoT_boxm0
+  Transcript: yes
+
+Jared Alderman: Jared Returns to Streaming
+  https://www.youtube.com/watch?v=OYYPlu9pg5E
+  Transcript: yes
+
+Jared Alderman: Learn to Red Line MTTs!
+  https://www.youtube.com/watch?v=dz2kp8mrl0o
+  Transcript: NO
+
+Jared Alderman: The Future of Poker Strategy (Start Learning this Now)
+  https://www.youtube.com/watch?v=VjrgsYkwf-4
+  Transcript: yes
+
+Jared Alderman: Why GTO Breaks in Multiway Pots
+  https://www.youtube.com/watch?v=cA8-RUa3xXQ
+  Transcript: yes
+
+Jared Alderman: You Must Trust Your Edge #poker #strategy
+  https://www.youtube.com/shorts/PKb9DByosN4
+  Transcript: yes
+
+Lex Fridman: Vikings, Ragnar, Berserkers, Valhalla & the Warriors of the Viking Age | Lex Fridman Podcast #495
+  https://www.youtube.com/watch?v=iKx3gAODybU
+  Transcript: yes
+
+Lex Fridman: Jensen Huang: NVIDIA - The $4 Trillion Company & the AI Revolution | Lex Fridman Podcast #494
+  https://www.youtube.com/watch?v=vif8NQcjVf0
+  Transcript: yes
+
+Lex Fridman: Jeff Kaplan: World of Warcraft, Overwatch, Blizzard, and Future of Gaming | Lex Fridman Podcast #493
+  https://www.youtube.com/watch?v=H9rF1CSSh-w
+  Transcript: NO
+
+Lex Fridman: Lex trains w/ Khabib Nurmagomedov | Exclusive Footage at UFC PI
+  https://www.youtube.com/shorts/SHlrUAkkWI0
+  Transcript: yes
+
+Lex Fridman: Rick Beato: Greatest Guitarists of All Time, History & Future of Music | Lex Fridman Podcast #492
+  https://www.youtube.com/watch?v=1SJiTwbSI58
+  Transcript: yes
+
+Lex Fridman: Khabib vs Lex: Training with Khabib | FULL EXCLUSIVE FOOTAGE
+  https://www.youtube.com/watch?v=KGVpKPNUdzA
+  Transcript: yes
+
+Lex Fridman: OpenClaw: The Viral AI Agent that Broke the Internet - Peter Steinberger | Lex Fridman Podcast #491
+  https://www.youtube.com/watch?v=YFjfBk8HI5o
+  Transcript: yes
+
+Lex Fridman: State of AI in 2026: LLMs, Coding, Scaling Laws, China, Agents, GPUs, AGI | Lex Fridman Podcast #490
+  https://www.youtube.com/watch?v=EV7WhVT270Q
+  Transcript: yes
+
+Lex Fridman: Paul Rosolie: Uncontacted Tribes in the Amazon Jungle | Lex Fridman Podcast #489
+  https://www.youtube.com/watch?v=Z-FRe5AKmCU
+  Transcript: yes
+
+Lex Fridman: Infinity, Paradoxes, Gödel Incompleteness & the Mathematical Multiverse | Lex Fridman Podcast #488
+  https://www.youtube.com/watch?v=14OPT6CcsH4
+  Transcript: yes
+
+Lex Fridman: Deciphering Secrets of Ancient Civilizations, Noah's Ark, and Flood Myths | Lex Fridman Podcast #487
+  https://www.youtube.com/watch?v=_bBRVNkAfkQ
+  Transcript: yes
+
+Lex Fridman: Michael Levin: Hidden Reality of Alien Intelligence & Biological Life | Lex Fridman Podcast #486
+  https://www.youtube.com/watch?v=Qp0rCU49lMs
+  Transcript: yes
+
+Lex Fridman: David Kirtley: Nuclear Fusion, Plasma Physics, and the Future of Energy | Lex Fridman Podcast #485
+  https://www.youtube.com/watch?v=m_CFCyc2Shs
+  Transcript: yes
+
+Lex Fridman: Dan Houser: GTA, Red Dead Redemption, Rockstar, Absurd & Future of Gaming | Lex Fridman Podcast #484
+  https://www.youtube.com/watch?v=o3gbXDjNWyI
+  Transcript: yes
+
+Lex Fridman: Julia Shaw: Criminal Psychology of Murder, Serial Killers, Memory & Sex | Lex Fridman Podcast #483
+  https://www.youtube.com/watch?v=7OLVwZeMCfY
+  Transcript: yes
+
+Peter Attia: Is Industrial Processing the Real Problem With Seed Oils? | Layne Norton, Ph.D.
+  https://www.youtube.com/watch?v=Tsqzx3L6UWs
+  Transcript: yes
+
+Peter Attia: Why Ingredient Changes Don’t Always Mean Healthier Food | Layne Norton, Ph.D.
+  https://www.youtube.com/shorts/IC7iP7uGiQ4
+  Transcript: yes
+
+Peter Attia: Cooking with Lard vs Seed Oils | Layne Norton, Ph.D.
+  https://www.youtube.com/watch?v=7_cbaDXAWYM
+  Transcript: yes
+
+Peter Attia: The Evolutionary Argument Against Eating Seed Oils | Layne Norton, Ph.D.
+  https://www.youtube.com/shorts/H8rDAQeJ1UM
+  Transcript: yes
+
+Peter Attia: Seed Oils, Saturated Fat, and the Tradeoff People Miss | Layne Norton, Ph.D.
+  https://www.youtube.com/shorts/HSVkWSoACwU
+  Transcript: yes
+
+Peter Attia: 380 ‒ The seed oil debate: are they uniquely harmful relative to other dietary fats?
+  https://www.youtube.com/watch?v=iB49uq-t1UM
+  Transcript: yes
+
+Peter Attia: The VO₂ Accuracy of Wearables | Peter Attia
+  https://www.youtube.com/shorts/0MX-AJQ1utA
+  Transcript: yes
+
+Peter Attia: Why Higher VO₂ Max is Important | Peter Attia
+  https://www.youtube.com/shorts/QZxB6fj88Ds
+  Transcript: yes
+
+Peter Attia: The Holy Grail Metric of Longevity | Peter Attia
+  https://www.youtube.com/shorts/4H4rqcIRN08
+  Transcript: yes
+
+Peter Attia: A guide to cardiorespiratory training at any fitness level to improve longevity (AMA 79 sneak peek)
+  https://www.youtube.com/watch?v=yisfGtcV5xk
+  Transcript: yes
+
+Peter Attia: How Early Training Choices Shape Women’s Health for Life | Abbie Smith-Ryan, Ph.D.
+  https://www.youtube.com/watch?v=bsw0pKcWf5c
+  Transcript: NO
+
+Peter Attia: How Women Can Balance Strength and Cardio With Limited Time | Abbie Smith-Ryan, Ph.D.
+  https://www.youtube.com/shorts/8jkc9Ad3sIo
+  Transcript: yes
+
+Peter Attia: How Busy Moms Can Build Strength and Cardio Fitness | Abbie Smith-Ryan, Ph.D.
+  https://www.youtube.com/watch?v=9Rxp2a0m8wM
+  Transcript: yes
+
+Peter Attia: How Busy Moms Can Build Fitness Without Extra Time | Abbie Smith-Ryan, Ph.D.
+  https://www.youtube.com/shorts/IRKXacA0PkE
+  Transcript: yes
+
+Peter Attia: How the Menstrual Cycle Affects Training and Recovery | Abbie Smith-Ryan, Ph.D.
+  https://www.youtube.com/shorts/srfJZpkAVgQ
+  Transcript: yes
+
+Paul Saladino MD: Is red meat safe?
+  https://www.youtube.com/shorts/XdzaJELAcCM
+  Transcript: yes
+
+Paul Saladino MD: Do I have cheat days?
+  https://www.youtube.com/shorts/JX2SmkzfHsE
+  Transcript: yes
+
+Paul Saladino MD: Are you drinking plastic?
+  https://www.youtube.com/shorts/bUuSc5ScCGA
+  Transcript: yes
+
+Paul Saladino MD: Napping = better health
+  https://www.youtube.com/shorts/YTX44yVELa0
+  Transcript: yes
+
+Paul Saladino MD: You’re not getting enough sunlight
+  https://www.youtube.com/shorts/vitEr9LP98c
+  Transcript: yes
+
+Paul Saladino MD: Is saturated fat healthy?
+  https://www.youtube.com/shorts/5xgWLmcjGoo
+  Transcript: yes
+
+Paul Saladino MD: Lululemon = forever chemicals
+  https://www.youtube.com/shorts/A-Jnsd2d2WY
+  Transcript: yes
+
+Paul Saladino MD: Your doctor doesn’t know this…
+  https://www.youtube.com/shorts/fdpfvg0wfxo
+  Transcript: yes
+
+Paul Saladino MD: Are peptides healthy?
+  https://www.youtube.com/shorts/5_-OJCuwE9o
+  Transcript: yes
+
+Paul Saladino MD: The Peptide Lie: What Influencers Won’t Tell You
+  https://www.youtube.com/watch?v=LsfLAI6qBzY
+  Transcript: yes
+
+Paul Saladino MD: This diet cured her diseases
+  https://www.youtube.com/shorts/GE4AtlmPalU
+  Transcript: yes
+
+Paul Saladino MD: My thoughts on peptides and GLP-1s
+  https://www.youtube.com/shorts/CHJF9_2rwBU
+  Transcript: yes
+
+Paul Saladino MD: The truth about saturated fat
+  https://www.youtube.com/shorts/z4hVGmx9C_Q
+  Transcript: yes
+
+Paul Saladino MD: Peanut butter = seed oil?
+  https://www.youtube.com/shorts/fnEYriviZLs
+  Transcript: yes
+
+Paul Saladino MD: They are using fake butter!?
+  https://www.youtube.com/shorts/s8iWlxMNUSg
+  Transcript: yes
+
+GTO Lab: Leon Sturm's interview by Diana Kalietina
+  https://www.youtube.com/shorts/QbCHfLVlQbU
+  Transcript: yes
+
+GTO Lab: Knowing EQUILIBRIUM is KEY to exploit with check-raises - Nick Petrangelo
+  https://www.youtube.com/shorts/eiOjbYATWSs
+  Transcript: yes
+
+GTO Lab: DIAL your check raises when defending vs late positions - Ben Heath
+  https://www.youtube.com/shorts/tOggJ5xIBns
+  Transcript: yes
+
+GTO Lab: Poker STORYTELLING is an ART you need to consider - Jonathan Jaffe
+  https://www.youtube.com/shorts/vxO6ZhIcvHY
+  Transcript: NO
+
+GTO Lab: Do not MIN-RAISE in this STACK distribution, be aware of the situation - Clemen Deng
+  https://www.youtube.com/shorts/NMiHlDHHK1M
+  Transcript: NO
+
+GTO Lab: Disguise your BLUFFS by using RIVER bet sizes that resemble value bets - Daniel Dvoress
+  https://www.youtube.com/shorts/jJrFFCjZnc8
+  Transcript: NO
+
+GTO Lab: You NEED to have CLEARANCE in your turn BLUFF barrels BvB- Jonathan Jaffe
+  https://www.youtube.com/shorts/JKj0TBXhWmc
+  Transcript: yes
+
+GTO Lab: IMPORTANT to adjust vs the chip leader knowing this concept - Clemen Deng
+  https://www.youtube.com/shorts/PkUsvzlCv2w
+  Transcript: NO
+
+GTO Lab: The Soft Skills That Actually Win In MTTs | With Jonathan Jaffe & Daniel Dvoress
+  https://www.youtube.com/watch?v=NZpFNs453PM
+  Transcript: NO
+
+GTO Lab: Make sure you are defending correctly in these textures, don't OVER-FOLD - Nick Petrangelo
+  https://www.youtube.com/shorts/jcKIi_5JHh4
+  Transcript: yes
+
+GTO Lab: USE high low hands as your go's to in this BB vs SB stab spot - Ben Heath
+  https://www.youtube.com/shorts/2VN9-DwGecs
+  Transcript: NO
+
+GTO Lab: Part 2 of Daniel Dvoress conversation with Diana
+  https://www.youtube.com/shorts/-VBJOGKpUjI
+  Transcript: yes
+
+GTO Lab: KEY ICM concept to have in mind, in your next deep run - Daniel Dvoress
+  https://www.youtube.com/shorts/5T3hEErBTng
+  Transcript: yes
+
+GTO Lab: REMEMBER to use BLOCKERS in your 4-bets bluffs - Clemen Deng
+  https://www.youtube.com/shorts/uCQ80SPYQjA
+  Transcript: NO
+
+GTO Lab: Key Concept: adjust to overfolding spots in populations - Ben Heath
+  https://www.youtube.com/shorts/w0t8oyjZhXk
+  Transcript: NO
+
+Thomas DeLauer: 4g of This Powder Builds Muscle LEGALLY Without Steroids
+  https://www.youtube.com/watch?v=eIJFu18J-qQ
+  Transcript: yes
+
+Thomas DeLauer: This Coffee Hack Melts Abdominal Fat (Journal Intl Society Sports Nutrition Study)
+  https://www.youtube.com/watch?v=_g7ouiKjRxE
+  Transcript: yes
+
+Thomas DeLauer: This Neuroscientist Just Changed Melatonin Forever (sleep longer tonight)
+  https://www.youtube.com/watch?v=P12U_LS7Gys
+  Transcript: yes
+
+Thomas DeLauer: Doctors Hate this Cortisol Trick (Stops High Cortisol Fast)
+  https://www.youtube.com/watch?v=DDqhIkQ-Zk0
+  Transcript: yes
+
+Thomas DeLauer: This Builds Muscle Without Eating More Protein
+  https://www.youtube.com/watch?v=d8YvKSQTvhk
+  Transcript: yes
+
+Thomas DeLauer: The 4 Stages that Shrink a Fatty Liver — and Visceral Fat
+  https://www.youtube.com/watch?v=Rzhs1XE8MH4
+  Transcript: yes
+
+Thomas DeLauer: The 1st Ever Study on What Workout is Best for Fat Loss (split vs full body)
+  https://www.youtube.com/watch?v=_LCMCtdm31k
+  Transcript: yes
+
+Thomas DeLauer: They Lied About Honey - What 1 Tbsp Actually Does to Visceral Fat
+  https://www.youtube.com/watch?v=mD02nNriyAk
+  Transcript: yes
+
+Thomas DeLauer: If You See This on Your Face, Your Cortisol is Too High (don’t ignore)
+  https://www.youtube.com/watch?v=WKHLmsHumY8
+  Transcript: yes
+
+Thomas DeLauer: These 14 Foods Abolish Inflammation and Visceral Fat Over Age 40
+  https://www.youtube.com/watch?v=_cSSX1-uPZs
+  Transcript: yes
+
+Thomas DeLauer: This Brain Glitch TRIPLES Visceral Fat (how to fix it)
+  https://www.youtube.com/watch?v=HKkG__kKmZM
+  Transcript: yes
+
+Thomas DeLauer: This is Better than Walking 10k Steps (repairs arteries)
+  https://www.youtube.com/watch?v=n_-qaBYcQRU
+  Transcript: yes
+
+Thomas DeLauer: Your Belly Fat is DOUBLING Every Time You Do This (stop it now)
+  https://www.youtube.com/watch?v=MnSVzQv_Kxs
+  Transcript: yes
+
+Thomas DeLauer: This Gross Sign Means You’re Shrinking Fat Cells (don’t ignore it)
+  https://www.youtube.com/watch?v=RKeEjqQJmQA
+  Transcript: yes
+
+Thomas DeLauer: This DOUBLES Belly Fat Loss Without Eating Less (we’ve been lied to)
+  https://www.youtube.com/watch?v=Rjd4h3btuUg
+  Transcript: yes
+
+Anthony Chaffee MD: Steak, the Solution to Binge Eating
+  https://www.youtube.com/shorts/tSnwrkQrvKU
+  Transcript: yes
+
+Anthony Chaffee MD: Am I A Turnip?
+  https://www.youtube.com/shorts/EcqBGgyLZAo
+  Transcript: yes
+
+Anthony Chaffee MD: 84% Of Vegans Quit... Do THIS Instead! #carnivorediet  #healthy
+  https://www.youtube.com/shorts/rnwd-qwBWrM
+  Transcript: yes
+
+Anthony Chaffee MD: Healing is not the same thing as Medicating| Mimi Morgan #carnivore #parkinsonsdisease #plantfree
+  https://www.youtube.com/shorts/yKXRVf4CYIM
+  Transcript: yes
+
+Anthony Chaffee MD: The Proof We Are Not Herbivores
+  https://www.youtube.com/shorts/4RSFLtxuD3w
+  Transcript: yes
+
+Anthony Chaffee MD: She Ate ONLY ONE Food and REVERSED Her Parkinson's! | Mimi Morgan
+  https://www.youtube.com/watch?v=nzadjpRuasA
+  Transcript: yes
+
+Anthony Chaffee MD: This Changes Everything
+  https://www.youtube.com/shorts/3f49N-7osK0
+  Transcript: yes
+
+Anthony Chaffee MD: Massive Dry Aged Tomahawk
+  https://www.youtube.com/shorts/rs8FP1i0lwY
+  Transcript: NO
+
+Anthony Chaffee MD: Plants Are Trying To Kill You
+  https://www.youtube.com/shorts/sj83KJd9DYw
+  Transcript: yes
+
+Anthony Chaffee MD: The No-BS Approach to Fix Your Body and Mind, with Duru Bilimlier
+  https://www.youtube.com/watch?v=i-nVtDX_9Uw
+  Transcript: yes
+
+Anthony Chaffee MD: The Best Treatment For IBD Is NOT Medication
+  https://www.youtube.com/shorts/iDeROY-THQg
+  Transcript: yes
+
+Anthony Chaffee MD: You Have More Energy With Fat Than Carbs
+  https://www.youtube.com/shorts/WXkW6nUIdbo
+  Transcript: yes
+
+Anthony Chaffee MD: Your Brain Is Shrinking Right Now -- Here's How To Stop It
+  https://www.youtube.com/watch?v=iLb325IXYUI
+  Transcript: yes
+
+Anthony Chaffee MD: This Will Change Your Life
+  https://www.youtube.com/shorts/CzH1d3kMfHE
+  Transcript: yes
+
+Anthony Chaffee MD: So You Need Salt On Carnivore?
+  https://www.youtube.com/shorts/CHUjp1JaQgQ
+  Transcript: yes
+
+Nick Norwitz: The One Lipid Marker Linked to Longevity
+  https://www.youtube.com/watch?v=SnwbtYm2RDE
+  Transcript: yes
+
+Nick Norwitz: This Metric Predicts 5x Higher Death Risk After a Heart Attack
+  https://www.youtube.com/shorts/gNhjein5n0w
+  Transcript: yes
+
+Nick Norwitz: Why Are We Playing Cholesterol Uno?
+  https://www.youtube.com/shorts/dlqDdh3l4z8
+  Transcript: yes
+
+Nick Norwitz: Unexpected Weight Loss Tips | Dr. Jason Fung
+  https://www.youtube.com/watch?v=0bP9gyr_M98
+  Transcript: yes
+
+Nick Norwitz: How Stress & Diet May Disrupt Brain Energy (Creatine Link)
+  https://www.youtube.com/shorts/9I2ou_SV4dk
+  Transcript: yes
+
+Nick Norwitz: This Mineral + Exercise May Boost Brain Regeneration
+  https://www.youtube.com/shorts/TVGFyD3uQac
+  Transcript: yes
+
+Nick Norwitz: Why I’m Starting this Cholesterol Drug (For My Brain)
+  https://www.youtube.com/watch?v=5idzP5ghT7A
+  Transcript: yes
+
+Nick Norwitz: The Number #1 Misconception About LDL and Cholesterol
+  https://www.youtube.com/shorts/kCDJNMbH1DU
+  Transcript: yes
+
+Nick Norwitz: 5 Things You Need to Know About Lp(a) and Heart Health
+  https://www.youtube.com/shorts/zm8nPG1HivE
+  Transcript: yes
+
+Nick Norwitz: This Particle Raises Heart Disease Risk 230% — How to Stop It
+  https://www.youtube.com/watch?v=uT3M9-C2b20
+  Transcript: yes
+
+Nick Norwitz: Bad Sleep Can Literally Grow Artery Plaque — Here’s the Mechanism
+  https://www.youtube.com/shorts/l0TmZNYWSNw
+  Transcript: yes
+
+Nick Norwitz: Creatine + Probiotics Improved Depression in RCT
+  https://www.youtube.com/shorts/kLFiV73gn4c
+  Transcript: yes
+
+Nick Norwitz: How to Beat Lp(a): Cardiology’s New Voldemort
+  https://www.youtube.com/shorts/pgd7ca7gOz8
+  Transcript: yes
+
+Nick Norwitz: An Astounding Breakthrough in the Fight Against Alzheimer's
+  https://www.youtube.com/watch?v=unUp1tM3Gqc
+  Transcript: yes
+
+Nick Norwitz: Why 20% of People Are Exercise Non-Responders
+  https://www.youtube.com/shorts/AOTv-fHlKrg
+  Transcript: yes
+
+Ken Berry MD: 7 Skin Signs of Insulin Resistance (Even If You’re Slim!)
+  https://www.youtube.com/watch?v=X9GnsVdhUKM
+  Transcript: yes
+
+Ken Berry MD: Most people get stuck on step 1. Sugar is everywhere, and it’s keeping you inflamed and stuck.
+  https://www.youtube.com/shorts/H7VYGl-jhXM
+  Transcript: yes
+
+Ken Berry MD: Ozempic -vs- KETO [Benefits & Side Effects] with Amanda Decker, NP
+  https://www.youtube.com/watch?v=TIr4zGGEJ4U
+  Transcript: yes
+
+Ken Berry MD: If you have a strong opinion about oatmeal… have you ever tested your blood sugar after eating it?
+  https://www.youtube.com/shorts/m93rJR7RUNc
+  Transcript: yes
+
+Ken Berry MD: How many carbs do you think you’re eating in a day?
+  https://www.youtube.com/shorts/dE1wspTw134
+  Transcript: yes
+
+Ken Berry MD: 7 Thyroid LIES Your Doctor Tells You + Q&A
+  https://www.youtube.com/watch?v=UKQLE-NgfgI
+  Transcript: yes
+
+Ken Berry MD: Sunlight actually plays a role in your health. You don’t need to avoid it…
+  https://www.youtube.com/shorts/LL6w4Snq2-0
+  Transcript: yes
+
+Ken Berry MD: If you’re eating ultra processed foods cooked in seed oils all day, that’s the problem.
+  https://www.youtube.com/shorts/vBBTeTYIei4
+  Transcript: yes
+
+Ken Berry MD: Nicotine catches a lot of blame these days. But it’s not what makes cigarettes dangerous.
+  https://www.youtube.com/shorts/ppPVvnxd03Y
+  Transcript: yes
+
+Ken Berry MD: Fake Meat & Plant Milk Fail! with Ty Beal, PhD
+  https://www.youtube.com/watch?v=z7chjtsvTis
+  Transcript: yes
+
+Ken Berry MD: Top 7 Carnivore/Keto Mistakes + Q&A
+  https://www.youtube.com/watch?v=SmcBpkTjxck
+  Transcript: yes
+
+Ken Berry MD: Are you still worried about LDL, or starting to question what you’ve been told? 👇
+  https://www.youtube.com/shorts/Xm-qBgZIvtQ
+  Transcript: yes
+
+Ken Berry MD: We talked through 7 of them in  last week’s Monday Night Live. Go watch the replay
+  https://www.youtube.com/shorts/mAL4eWYibls
+  Transcript: yes
+
+Ken Berry MD: I recommend Earth Harmony’s Lugol’s Iodine.  Use code Berry10 for 10% off.
+  https://www.youtube.com/shorts/FShgjdEvj7Y
+  Transcript: yes
+
+Ken Berry MD: Doctors Miss This ALL THE TIME with Thyroid Expert Dr. Amie Hornaman
+  https://www.youtube.com/watch?v=ePMrIg5qC4U
+  Transcript: yes
+
+GTO Wizard: Can AI Actually Play Poker?
+  https://www.youtube.com/shorts/Qk_8BSQmXF4
+  Transcript: yes
+
+GTO Wizard: Can AI Actually Play Poker? We Ranked the Best LLMs
+  https://www.youtube.com/watch?v=CjwyEFYY-Ls
+  Transcript: yes
+
+GTO Wizard: The Mechanics Behind Flop Range Betting
+  https://www.youtube.com/shorts/DNmhLjajZUY
+  Transcript: yes
+
+GTO Wizard: Poker Mindset Leaks That Cost You Big (And You Don't Even Know It)
+  https://www.youtube.com/watch?v=Zt0KqNkUrMY
+  Transcript: yes
+
+GTO Wizard: Stoyan and Samuel Mullur Review the 2025 Triton Jeju 100K Main Event FT
+  https://www.youtube.com/watch?v=JhqbgbcGdb8
+  Transcript: yes
+
+GTO Wizard: Stoyan and Samuel Mullur Review the 2025 Triton Jeju 100K Main Event FT
+  https://www.youtube.com/shorts/hg3LWdiDGLs
+  Transcript: yes
+
+GTO Wizard: How to Build Simple Preflop Ranges You’ll Actually Remember
+  https://www.youtube.com/shorts/D648QPYFJbQ
+  Transcript: yes
+
+GTO Wizard: How to Build Simple Preflop Ranges You’ll Actually Remember
+  https://www.youtube.com/watch?v=bZgTw4w2GpU
+  Transcript: yes
+
+GTO Wizard: How Espen Handles the Toughest FT Spots
+  https://www.youtube.com/shorts/p_GiwCMNg4U
+  Transcript: yes
+
+GTO Wizard: How Espen Handles the Toughest FT Spots
+  https://www.youtube.com/watch?v=VjR0BR6mQDE
+  Transcript: yes
+
+GTO Wizard: Jungleman Calls With QUEEN HIGH?! #poker #shorts
+  https://www.youtube.com/shorts/3c-p3QtYCd0
+  Transcript: yes
+
+GTO Wizard: Espen Reviews a Deep Run in a $5K Online MTT
+  https://www.youtube.com/shorts/o_-5-vBZfKE
+  Transcript: yes
+
+GTO Wizard: Espen Reviews a Deep Run in a 5K Online MTT
+  https://www.youtube.com/watch?v=av87HqR_Yq0
+  Transcript: NO
+
+GTO Wizard: Jungleman’s 4 Exploits That Print Against Non GTO Players
+  https://www.youtube.com/shorts/NbgXf2z8WGM
+  Transcript: yes
+
+GTO Wizard: You’re Thinking About Preflop the Wrong Way
+  https://www.youtube.com/shorts/NfH7AOrbtqU
+  Transcript: yes
+
