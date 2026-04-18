@@ -91,51 +91,44 @@ def fetch_hn_stories(n=30):
 import feedparser
 
 RSS_SOURCES = {
-    # Bitcoin & macro
+    # Bitcoin & macro (high-signal, not spam)
     "Bitcoin Magazine": {
         "url": "https://bitcoinmagazine.com/.rss/full/",
         "category": "bitcoin",
+        "max_items": 8,
     },
-    "Lyn Alden": {
-        "url": "https://www.lynalden.com/feed/",
+    "The Pomp Letter": {
+        "url": "https://pomp.substack.com/feed",
         "category": "bitcoin",
+        "max_items": 5,
     },
-    "What Bitcoin Did": {
-        "url": "https://www.whatbitcoindid.com/podcast?format=rss",
-        "category": "bitcoin",
+    # Long-form ideas
+    "Stratechery": {
+        "url": "https://stratechery.com/feed/",
+        "category": "ideas",
+        "max_items": 5,
     },
-    # AI capabilities from the source
-    "Anthropic": {
-        "url": "https://www.anthropic.com/news/rss.xml",
-        "category": "ai",
-    },
-    "OpenAI": {
-        "url": "https://openai.com/news/rss.xml",
-        "category": "ai",
-    },
-    # Health / science / longevity
+    # Health
     "Peter Attia": {
         "url": "https://peterattiamd.com/feed/",
         "category": "health",
+        "max_items": 5,
     },
-    "Examine": {
-        "url": "https://examine.com/rss/",
-        "category": "health",
+    # AI capability — Anthropic & OpenAI's actual feeds
+    "Anthropic News": {
+        "url": "https://www.anthropic.com/news/feed.xml",
+        "category": "ai",
+        "max_items": 5,
     },
-    # Long-form ideas
-    "Stratechery (free)": {
-        "url": "https://stratechery.com/feed/",
-        "category": "ideas",
-    },
-    "Marginal Revolution": {
-        "url": "https://marginalrevolution.com/feed",
-        "category": "ideas",
+    "OpenAI Blog": {
+        "url": "https://openai.com/blog/rss.xml",
+        "category": "ai",
+        "max_items": 5,
     },
 }
 
-
 def fetch_rss_source(name, config, days=3):
-    """Fetch a single RSS feed. Returns items from the last N days."""
+    """Fetch a single RSS feed. Returns items from the last N days, capped."""
     try:
         feed = feedparser.parse(config["url"])
     except Exception as e:
@@ -143,9 +136,9 @@ def fetch_rss_source(name, config, days=3):
         return []
 
     cutoff = datetime.now(timezone.utc) - timedelta(days=days)
+    max_items = config.get("max_items", 10)
     items = []
-    for entry in feed.entries[:20]:  # Cap at 20 per feed to avoid overwhelming
-        # Parse publish date (format varies across feeds)
+    for entry in feed.entries[:20]:
         published = None
         for attr in ["published_parsed", "updated_parsed"]:
             pub_struct = entry.get(attr)
@@ -155,9 +148,7 @@ def fetch_rss_source(name, config, days=3):
         if not published or published < cutoff:
             continue
 
-        # Some feeds give a summary, some give full content; grab what's there
         summary = entry.get("summary", "") or entry.get("description", "")
-        # feedparser sometimes returns html — quick flattening
         summary = re.sub(r"<[^>]+>", "", summary)[:400]
 
         items.append({
@@ -168,8 +159,9 @@ def fetch_rss_source(name, config, days=3):
             "summary": summary,
             "published": published.isoformat(),
         })
+        if len(items) >= max_items:
+            break
     return items
-
 
 def fetch_all_rss():
     """Pull recent items from all RSS sources in parallel."""
