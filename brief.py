@@ -102,6 +102,11 @@ RSS_SOURCES = {
         "category": "bitcoin",
         "max_items": 5,
     },
+    "Lyn Alden": {
+        "url": "https://www.lynalden.com/feed/",
+        "category": "bitcoin",
+        "max_items": 3,
+    },
     # Long-form ideas
     "Stratechery": {
         "url": "https://stratechery.com/feed/",
