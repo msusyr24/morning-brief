@@ -62,6 +62,7 @@ YOUTUBE_CHANNELS = {
     "Dr. Sten Ekberg": "UCIe2pR6PE0dae9BunJ38F7w",
     "Renaissance Periodization": "UCfQgsKhHjSyRLOp9mnffqVg",
     "Peter Attia": "UC8kGsMa0LygSX9nkBcBH1Sg",
+    "ModernWisdom": "UCIaH-gZIVC432YRjNVvnyCA",
 }
 
 LOOKBACK_DAYS = 3
@@ -135,6 +136,17 @@ RSS_SOURCES = {
         "url": "https://openai.com/blog/rss.xml",
         "category": "ai",
         "max_items": 5,
+    },
+    # Wisdom: philosophy, stoicism, mental strength, mental models
+    "Farnam Street": {
+        "url": "https://fs.blog/feed/",
+        "category": "wisdom",
+        "max_items": 5,
+    },
+    "The Daily Stoic": {
+        "url": "https://dailystoic.com/feed/",
+        "category": "wisdom",
+        "max_items": 3,
     },
 }
 
