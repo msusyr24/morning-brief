@@ -25,20 +25,26 @@ client = Anthropic()
 # --- Your interests ---
 MY_INTERESTS = """
 I care about:
-- AI at the CAPABILITY level: what new things can AI actually DO? Novel end-user applications, surprising capabilities.
+- AI/ML at the CAPABILITY level: what new things can AI actually DO? Real end-user applications, novel uses, surprising capabilities.
 - Bitcoin, monetary policy, macroeconomics, Michael Saylor's perspective
-- Health science with REAL DATA: carnivore / low-carb / conventional diet debates, metabolism, longevity, exercise science
-- Evidence-based fitness: hypertrophy, programming, recovery
-- Poker theory, especially GTO concepts and high-level strategy
+- Health science with REAL DATA: diet debates (especially carnivore/low-carb vs. conventional), exercise science, longevity research, metabolism
+- Evidence-based fitness and training (hypertrophy, programming, recovery)
+- Poker theory and high-level strategy content (GTO Wizard, GTO Lab, Jared Alderman)
 - NBA and college basketball — games, storylines, analysis
-- Thoughtful long-form ideas worth sitting with
+- Philosophy and Stoicism: Marcus Aurelius, Seneca, Epictetus, and modern interpreters; ethics, dealing with adversity, what makes a good life
+- Mental strength and the inner game: discipline, emotional regulation, decision-making under pressure, resilience, handling failure
+- Mental models and frameworks for thinking clearly (Munger, Kahneman, first principles, inversion, etc.)
+- Thoughtful long-form essays and ideas worth sitting with
 
 I do NOT care about:
-- AI infrastructure, inference layers, agent frameworks, model releases, dev tooling
-- Political drama, culture war content, sensationalism
+- AI infrastructure, inference layers, model releases, agent frameworks, dev tooling — too low-level for me
+- "Open source Qwen-X-B beats benchmark Y" — unless it enables a meaningfully new thing I can do
+- Political drama, culture war content, sensationalized headlines
 - Crypto speculation, altcoins, NFTs
-- Startup funding gossip, corporate earnings, exec drama
-- Programming language wars, framework discourse
+- Startup funding gossip without product substance
+- Big Tech earnings, exec drama, corporate politics
+- JavaScript framework discourse, programming language wars
+- Generic self-help / hustle-culture content — "10 habits of successful people" style
 """
 
 # --- YouTube channels to monitor ---
