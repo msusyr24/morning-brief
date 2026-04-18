@@ -1,104 +1,98 @@
 === HACKER NEWS ===
-1. [691 pts] Claude Design
+1. [963 pts] Claude Design
    https://www.anthropic.com/news/claude-design-anthropic-labs
 
-2. [467 pts] Claude Opus 4.7 costs 20–30% more per session
+2. [58 pts] Show HN: I made a calculator that works over disjoint sets of intervals
+   https://victorpoughon.github.io/interval-calculator/
+
+3. [77 pts] Towards trust in Emacs
+   https://eshelyaron.com/posts/2026-04-15-towards-trust-in-emacs.html
+
+4. [576 pts] Measuring Claude 4.7's tokenizer costs
    https://www.claudecodecamp.com/p/i-measured-claude-4-7-s-new-tokenizer-here-s-what-it-costs-you
 
-3. [150 pts] All 12 moonwalkers had "lunar hay fever" from dust smelling like gunpowder (2018)
+5. [296 pts] All 12 moonwalkers had "lunar hay fever" from dust smelling like gunpowder (2018)
    https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/The_toxic_side_of_the_Moon
 
-4. [25 pts] I'm spending 3 months coding the old way
+6. [169 pts] Spending 3 months coding by hand
    https://miguelconner.substack.com/p/im-coding-by-hand
 
-5. [151 pts] Show HN: Smol machines – subsecond coldstart, portable virtual machines
-   https://github.com/smol-machines/smolvm
+7. [151 pts] A simplified model of Fil-C
+   https://www.corsix.org/content/simplified-model-of-fil-c
 
-6. [554 pts] Isaac Asimov: The Last Question (1956)
+8. [167 pts] Are the costs of AI agents also rising exponentially? (2025)
+   https://www.tobyord.com/writing/hourly-costs-for-ai-agents
+
+9. [688 pts] Isaac Asimov: The Last Question (1956)
    https://hex.ooo/library/last_question.html
 
-7. [1 pts] Arc Prize Foundation (YC W26) Is Hiring a Platform Engineer for ARC-AGI-4
-   https://www.ycombinator.com/companies/arc-prize-foundation/jobs/AKZRZDN-platform-engineer-benchmark-lead
+10. [297 pts] Show HN: Smol machines – subsecond coldstart, portable virtual machines
+   https://github.com/smol-machines/smolvm
 
-8. [167 pts] NASA Force
-   https://nasaforce.gov/
+11. [143 pts] Slop Cop
+   https://awnist.com/slop-cop
 
-9. [173 pts] Middle schooler finds coin from Troy in Berlin
-   https://www.thehistoryblog.com/archives/75848
-
-10. [140 pts] NIST gives up enriching most CVEs
-   https://risky.biz/risky-bulletin-nist-gives-up-enriching-most-cves/
-
-11. [18 pts] Why, After All These Years, MZI-Based Transistorlessness Might Finally Be Here
-   https://write.as/mnggfj7asl07k
-
-12. [37 pts] I built a 3D printing business and ran it for 8 months
-   https://www.wespiser.com/posts/2026-04-12-3D-Printing-Biz.html
-
-13. [8 pts] Introducing: ShaderPad
-   https://rileyjshaw.com/blog/introducing-shaderpad/
-
-14. [499 pts] Ban the sale of precise geolocation
-   https://www.lawfaremedia.org/article/it-is-time-to-ban-the-sale-of-precise-geolocation
-
-15. [35 pts] Webloc: Analysis of Penlink's Ad-Based Geolocation Surveillance Tech
-   https://citizenlab.ca/research/analysis-of-penlinks-ad-based-geolocation-surveillance-tech/
-
-16. [84 pts] Show HN: PanicLock – Close your MacBook lid disable TouchID –> password unlock
+12. [172 pts] Show HN: PanicLock – Close your MacBook lid disable TouchID –> password unlock
    https://github.com/paniclock/paniclock/
 
-17. [126 pts] Healthchecks.io now uses self-hosted object storage
-   https://blog.healthchecks.io/2026/04/healthchecks-io-now-uses-self-hosted-object-storage/
+13. [171 pts] Hyperscalers have already outspent most famous US megaprojects
+   https://twitter.com/finmoorhouse/status/2044933442236776794
 
-18. [91 pts] Iceye Open Data
-   https://www.iceye.com/open-data-initiative
+14. [149 pts] "cat readme.txt" is not safe if you use iTerm2
+   https://blog.calif.io/p/mad-bugs-even-cat-readmetxt-is-not
 
-19. [5 pts] The GNU libc atanh is correctly rounded
+15. [67 pts] Landmark ancient-genome study shows surprise acceleration of human evolution
+   https://www.nature.com/articles/d41586-026-01204-5
+
+16. [256 pts] NASA Force
+   https://nasaforce.gov/
+
+17. [219 pts] Middle schooler finds coin from Troy in Berlin
+   https://www.thehistoryblog.com/archives/75848
+
+18. [26 pts] Casus Belli Engineering
+   https://marcosmagueta.com/blog/casus-belli-engineering/
+
+19. [21 pts] Brunost: The Nynorsk Programming Language
+   https://lindbakk.com/blog/introducing-brunost
+
+20. [47 pts] The Unix executable as a Smalltalk method (2025) [video]
+   https://www.youtube.com/watch?v=sZjPQ7vtLNA
+
+21. [5 pts] Making Wax Sealed Letters at Scale
+   https://waxletter.com/
+
+22. [190 pts] NIST gives up enriching most CVEs
+   https://risky.biz/risky-bulletin-nist-gives-up-enriching-most-cves/
+
+23. [71 pts] Introducing: ShaderPad
+   https://rileyjshaw.com/blog/introducing-shaderpad/
+
+24. [1 pts] Arc Prize Foundation (YC W26) Is Hiring a Platform Engineer for ARC-AGI-4
+   https://www.ycombinator.com/companies/arc-prize-foundation/jobs/AKZRZDN-platform-engineer-benchmark-lead
+
+25. [37 pts] Generating a color spectrum for an image
+   https://amandahinton.com/blog/generating-a-color-spectrum-for-an-image
+
+26. [73 pts] The GNU libc atanh is correctly rounded
    https://inria.hal.science/hal-05591661
 
-20. [42 pts] Detecting DOSBox from Within the Box
-   https://datagirl.xyz/posts/dos_inside_the_box.html
+27. [669 pts] Ban the sale of precise geolocation
+   https://www.lawfaremedia.org/article/it-is-time-to-ban-the-sale-of-precise-geolocation
 
-21. [31 pts] Solitaire simulator for finding the best strategy: Current record is 8.590%
-   https://github.com/dacracot/Klondike3-Simulator
-
-22. [44 pts] Connie Converse was a folk-music genius. Then she vanished
-   https://www.bbc.com/culture/article/20260413-the-mystery-of-a-missing-folk-music-pioneer
-
-23. [42 pts] The Gregorio project – GPL tools for typesetting Gregorian chant
-   https://gregorio-project.github.io/index.html
-
-24. [76 pts] Show HN: Stage – Putting humans back in control of code review
+28. [110 pts] Show HN: Stage – Putting humans back in control of code review
    https://stagereview.app/
 
-25. [60 pts] Designing the Transport Typeface
-   https://www.thamesandhudson.com/blogs/all-news-features/designing-the-transport-typeface-margaret-calvert-on-the-making-of-britain-s-road-signs
+29. [102 pts] I built a 3D printing business and ran it for 8 months
+   https://www.wespiser.com/posts/2026-04-12-3D-Printing-Biz.html
 
-26. [66 pts] Tesla tells HW3 owner to 'be patient' after 7 years of waiting for FSD
-   https://electrek.co/2026/04/17/tesla-hw3-owners-be-patient-7-years-fsd/
-
-27. [232 pts] Ada, its design, and the language that built the languages
-   https://www.iqiipi.com/the-quiet-colossus.html
-
-28. [120 pts] Teddy Roosevelt and Abraham Lincoln in the same photo (2010)
-   https://prologue.blogs.archives.gov/2010/11/09/teddy-roosevelt-and-abraham-lincoln-in-the-same-photo/
-
-29. [131 pts] Reflections on 30 years of HPC programming
-   https://chapel-lang.org/blog/posts/30years/
-
-30. [19 pts] Random musings: 80s hardware, cyberdecks
-   https://strangelyentangled.com/blog/musings-80s-hardware/
+30. [7 pts] Ben Lerner's Big Feelings
+   https://www.vulture.com/article/ben-lerner-transcription-interview.html
 
 
 === RSS ===
-[ideas] Stratechery (free): 2026.16: Servers, Satellites, and Stars
-  https://stratechery.com/2026/servers-satellites-and-stars/
-
-[ideas] Stratechery (free): An Interview with F1 Driver and Venture Capitalist Nico Rosberg About the Drive to Win
-  https://stratechery.com/2026/an-interview-with-f1-driver-and-venture-capitalist-nico-rosberg-about-the-drive-to-win/
-
-[ideas] Stratechery (free): Amazon Buys Globalstar, Delta to Add Leo, The Apple Angle
-  https://stratechery.com/2026/amazon-buys-globalstar-delta-to-add-leo-the-apple-angle/
+[ideas] Marginal Revolution: Emergent Ventures India, 16th cohort
+  https://marginalrevolution.com/marginalrevolution/2026/04/emergent-ventures-india-16th-cohort.html?utm_source=rss&utm_medium=rss&utm_campaign=emergent-ventures-india-16th-cohort
 
 [ideas] Marginal Revolution: That was then, this is now
   https://marginalrevolution.com/marginalrevolution/2026/04/that-was-then-this-is-now-56.html?utm_source=rss&utm_medium=rss&utm_campaign=that-was-then-this-is-now-56
@@ -139,12 +133,6 @@
 [ideas] Marginal Revolution: Rescind Davis Bacon
   https://marginalrevolution.com/marginalrevolution/2026/04/rescind-davis-bacon.html?utm_source=rss&utm_medium=rss&utm_campaign=rescind-davis-bacon
 
-[ideas] Marginal Revolution: The Venetian empire and the Mongols (modeling Marco Polo)
-  https://marginalrevolution.com/marginalrevolution/2026/04/the-venetian-empire-and-the-mongols-modeling-marco-polo.html?utm_source=rss&utm_medium=rss&utm_campaign=the-venetian-empire-and-the-mongols-modeling-marco-polo
-
-[ideas] Marginal Revolution: Are we underestimating youth well-being?
-  https://marginalrevolution.com/marginalrevolution/2026/04/are-we-underestimating-youth-well-being.html?utm_source=rss&utm_medium=rss&utm_campaign=are-we-underestimating-youth-well-being
-
 [bitcoin] Bitcoin Magazine: When Quantum Computers Come for Your Bitcoin: What Classical Property Law Says Happens Next
   https://bitcoinmagazine.com/legal/when-quantum-computers-come-for-your-bitcoin-what-classical-property-law-says-happens-next
 
@@ -175,6 +163,15 @@
 [bitcoin] Bitcoin Magazine: Citi Says Mixing Bitcoin With Gold Can Boost Your Portfolio Performance
   https://bitcoinmagazine.com/news/citi-says-mixing-bitcoin-with-gold-boost
 
+[ideas] Stratechery (free): 2026.16: Servers, Satellites, and Stars
+  https://stratechery.com/2026/servers-satellites-and-stars/
+
+[ideas] Stratechery (free): An Interview with F1 Driver and Venture Capitalist Nico Rosberg About the Drive to Win
+  https://stratechery.com/2026/an-interview-with-f1-driver-and-venture-capitalist-nico-rosberg-about-the-drive-to-win/
+
+[ideas] Stratechery (free): Amazon Buys Globalstar, Delta to Add Leo, The Apple Angle
+  https://stratechery.com/2026/amazon-buys-globalstar-delta-to-add-leo-the-apple-angle/
+
 [ai] OpenAI: Codex for (almost) everything
   https://openai.com/index/codex-for-almost-everything
 
@@ -189,67 +186,3 @@
 
 
 === YOUTUBE ===
-GTO Lab: Leon Sturm's interview by Diana Kalietina
-  https://www.youtube.com/shorts/QbCHfLVlQbU
-  Transcript: yes
-
-GTO Lab: Knowing EQUILIBRIUM is KEY to exploit with check-raises - Nick Petrangelo
-  https://www.youtube.com/shorts/eiOjbYATWSs
-  Transcript: yes
-
-Renaissance Periodization: Exercise Scientist Critiques Paddy The Baddy’s EXTREME Weight Loss Techniques
-  https://www.youtube.com/watch?v=gSo5l9AqAfg
-  Transcript: yes
-
-Renaissance Periodization: Bad Sleep Can Make You Gain More Fat
-  https://www.youtube.com/shorts/D_RqHf2BMcc
-  Transcript: yes
-
-Renaissance Periodization: Dr. Mike’s 80g Protein Snack
-  https://www.youtube.com/shorts/o1vdnL0sUhQ
-  Transcript: yes
-
-Renaissance Periodization: Sleep Loss Kills Muscle Growth
-  https://www.youtube.com/shorts/fvWZGJ68gaU
-  Transcript: yes
-
-Renaissance Periodization: Dr. Mike Trains “Fasted”
-  https://www.youtube.com/shorts/wn8LzLtW2Ss
-  Transcript: yes
-
-Renaissance Periodization: How to Train for Muscle Growth: Beginner to Advanced Training
-  https://www.youtube.com/watch?v=zhP5gsBbgYY
-  Transcript: yes
-
-Renaissance Periodization: You Sleep Less, You Grow Less
-  https://www.youtube.com/shorts/huGNal00O6o
-  Transcript: yes
-
-Anthony Chaffee MD: Steak, the Solution to Binge Eating
-  https://www.youtube.com/shorts/tSnwrkQrvKU
-  Transcript: yes
-
-Anthony Chaffee MD: Am I A Turnip?
-  https://www.youtube.com/shorts/EcqBGgyLZAo
-  Transcript: yes
-
-Anthony Chaffee MD: 84% Of Vegans Quit... Do THIS Instead! #carnivorediet  #healthy
-  https://www.youtube.com/shorts/rnwd-qwBWrM
-  Transcript: yes
-
-GTO Wizard: Can AI Actually Play Poker?
-  https://www.youtube.com/shorts/Qk_8BSQmXF4
-  Transcript: yes
-
-GTO Wizard: Can AI Actually Play Poker? We Ranked the Best LLMs
-  https://www.youtube.com/watch?v=CjwyEFYY-Ls
-  Transcript: yes
-
-Nick Norwitz: The One Lipid Marker Linked to Longevity
-  https://www.youtube.com/watch?v=SnwbtYm2RDE
-  Transcript: yes
-
-Nick Norwitz: This Metric Predicts 5x Higher Death Risk After a Heart Attack
-  https://www.youtube.com/shorts/gNhjein5n0w
-  Transcript: yes
-
