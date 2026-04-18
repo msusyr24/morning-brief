@@ -32,16 +32,45 @@ def save_state(state):
         json.dump(state, f, indent=2)
 
 
-def verify_channel_exists(channel_id):
-    """Check a channel ID resolves to a real, active feed. Returns True/False."""
-    if not channel_id or not channel_id.startswith("UC") or len(channel_id) != 24:
-        return False
-    feed_url = f"https://www.youtube.com/feeds/videos.xml?channel_id={channel_id}"
-    try:
-        response = requests.get(feed_url, timeout=10)
-        return response.status_code == 200 and "<entry>" in response.text
-    except Exception:
-        return False
+def verify_channel_exists(channel_id_or_handle):
+    """Check a channel exists. Uses YouTube Data API if key is available.
+    Returns (channel_id, channel_name) on success, (None, None) on failure."""
+    api_key = os.getenv("YOUTUBE_API_KEY")
+
+    # If it looks like a channel ID, verify via RSS feed
+    if channel_id_or_handle and channel_id_or_handle.startswith("UC") and len(channel_id_or_handle) == 24:
+        feed_url = f"https://www.youtube.com/feeds/videos.xml?channel_id={channel_id_or_handle}"
+        try:
+            response = requests.get(feed_url, timeout=10)
+            if response.status_code == 200 and "<entry>" in response.text:
+                return channel_id_or_handle, None
+        except Exception:
+            pass
+
+    # Otherwise, if we have an API key, search by name/handle
+    if api_key and channel_id_or_handle:
+        search_term = channel_id_or_handle.lstrip("@")
+        try:
+            resp = requests.get(
+                "https://www.googleapis.com/youtube/v3/search",
+                params={
+                    "key": api_key,
+                    "q": search_term,
+                    "type": "channel",
+                    "part": "snippet",
+                    "maxResults": 1,
+                },
+                timeout=10,
+            )
+            data = resp.json()
+            items = data.get("items", [])
+            if items:
+                snippet = items[0]["snippet"]
+                return snippet["channelId"], snippet["channelTitle"]
+        except Exception as e:
+            print(f"[suggestions] YouTube API error: {e}")
+
+    return None, None
 
 
 def ask_claude_for_suggestion(current_channels, history, interests_text):
@@ -126,15 +155,25 @@ def get_suggestion(current_channels, interests_text, max_retries=3):
 
         channel_id = suggestion.get("channel_id", "")
         channel_name = suggestion.get("channel_name", "")
+        handle = suggestion.get("youtube_handle", "")
 
-        if not verify_channel_exists(channel_id):
-            print(f"[suggestions] Could not verify {channel_name} ({channel_id}), retrying...")
-            # Add to history so we don't try the same again
+        # Try Claude's ID first, then fall back to searching by handle or name
+        verified_id, verified_name = verify_channel_exists(channel_id)
+        if not verified_id and handle:
+            verified_id, verified_name = verify_channel_exists(handle)
+        if not verified_id and channel_name:
+            verified_id, verified_name = verify_channel_exists(channel_name)
+
+        if not verified_id:
+            print(f"[suggestions] Could not verify {channel_name}, retrying...")
             state.setdefault("history", []).append(channel_name)
             save_state(state)
             continue
 
-        # Success — keep channel_id in place (already in suggestion dict)
+        # Use whatever ID we actually verified (Claude's guess may have been wrong)
+        suggestion["channel_id"] = verified_id
+        if verified_name:
+            suggestion["channel_name"] = verified_name
         state["current_suggestion"] = suggestion
         state["shown_count"] = 1
         state.setdefault("history", []).append(suggestion.get("channel_name", ""))
