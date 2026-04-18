@@ -1,96 +1,102 @@
 === HACKER NEWS ===
-1. [92 pts] Category Theory Illustrated – Orders
-   https://abuseofnotation.github.io/category-theory-illustrated/04_order/
+1. [189 pts] Migrating from DigitalOcean to Hetzner: From $1,432 to $233 With Zero Downtime
+   https://isayeter.com/posts/digitalocean-to-hetzner-migration/
 
-2. [98 pts] Michael Rabin Has Died
+2. [138 pts] State of Kdenlive
+   https://kdenlive.org/news/2026/state-2026/
+
+3. [96 pts] Why Japan has such good railways
+   https://worksinprogress.co/issue/why-japan-has-such-good-railways/
+
+4. [231 pts] Michael Rabin has died
    https://en.wikipedia.org/wiki/Michael_O._Rabin
 
-3. [102 pts] Amiga Graphics
+5. [162 pts] Amiga Graphics Archive
    https://amiga.lychesis.net/
 
-4. [1069 pts] Claude Design
-   https://www.anthropic.com/news/claude-design-anthropic-labs
+6. [149 pts] Category Theory Illustrated – Orders
+   https://abuseofnotation.github.io/category-theory-illustrated/04_order/
 
-5. [180 pts] Show HN: I made a calculator that works over disjoint sets of intervals
-   https://victorpoughon.github.io/interval-calculator/
-
-6. [14 pts] It's OK to compare floating-points for equality
+7. [87 pts] It's OK to compare floating-points for equality
    https://lisyarus.github.io/blog/posts/its-ok-to-compare-floating-points-for-equality.html
 
-7. [621 pts] Measuring Claude 4.7's tokenizer costs
+8. [1107 pts] Claude Design
+   https://www.anthropic.com/news/claude-design-anthropic-labs
+
+9. [222 pts] Show HN: I made a calculator that works over disjoint sets of intervals
+   https://victorpoughon.github.io/interval-calculator/
+
+10. [646 pts] Measuring Claude 4.7's tokenizer costs
    https://www.claudecodecamp.com/p/i-measured-claude-4-7-s-new-tokenizer-here-s-what-it-costs-you
 
-8. [122 pts] Towards trust in Emacs
-   https://eshelyaron.com/posts/2026-04-15-towards-trust-in-emacs.html
-
-9. [347 pts] All 12 moonwalkers had "lunar hay fever" from dust smelling like gunpowder (2018)
+11. [390 pts] All 12 moonwalkers had "lunar hay fever" from dust smelling like gunpowder (2018)
    https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/The_toxic_side_of_the_Moon
 
-10. [221 pts] Spending 3 months coding by hand
+12. [21 pts] A Dumb Introduction to Z3 (2025)
+   https://ar-ms.me/thoughts/a-gentle-introduction-to-z3/
+
+13. [150 pts] Towards trust in Emacs
+   https://eshelyaron.com/posts/2026-04-15-towards-trust-in-emacs.html
+
+14. [261 pts] I’m spending months coding the old way
    https://miguelconner.substack.com/p/im-coding-by-hand
 
-11. [44 pts] The simple geometry behind any road
+15. [78 pts] The simple geometry behind any road
    https://sandboxspirit.com/blog/simple-geometry-of-roads/
 
-12. [40 pts] It is incorrect to "normalize" // in HTTP URL paths
-   https://runxiyu.org/comp/doubleslash/
-
-13. [51 pts] Rewriting Every Syscall in a Linux Binary at Load Time
-   https://amitlimaye1.substack.com/p/rewriting-every-syscall-in-a-linux
-
-14. [179 pts] A simplified model of Fil-C
-   https://www.corsix.org/content/simplified-model-of-fil-c
-
-15. [220 pts] Are the costs of AI agents also rising exponentially? (2025)
-   https://www.tobyord.com/writing/hourly-costs-for-ai-agents
-
-16. [76 pts] Brunost: The Nynorsk Programming Language
+16. [110 pts] Brunost: The Nynorsk Programming Language
    https://lindbakk.com/blog/introducing-brunost
 
-17. [343 pts] Show HN: Smol machines – subsecond coldstart, portable virtual machines
+17. [257 pts] Are the costs of AI agents also rising exponentially? (2025)
+   https://www.tobyord.com/writing/hourly-costs-for-ai-agents
+
+18. [389 pts] Show HN: Smol machines – subsecond coldstart, portable virtual machines
    https://github.com/smol-machines/smolvm
 
-18. [193 pts] Slop Cop
-   https://awnist.com/slop-cop
+19. [190 pts] A simplified model of Fil-C
+   https://www.corsix.org/content/simplified-model-of-fil-c
 
-19. [198 pts] "cat readme.txt" is not safe if you use iTerm2
-   https://blog.calif.io/p/mad-bugs-even-cat-readmetxt-is-not
-
-20. [202 pts] Show HN: PanicLock – Close your MacBook lid disable TouchID –> password unlock
-   https://github.com/paniclock/paniclock/
-
-21. [204 pts] Hyperscalers have already outspent most famous US megaprojects
+20. [245 pts] Hyperscalers have already outspent most famous US megaprojects
    https://twitter.com/finmoorhouse/status/2044933442236776794
 
-22. [280 pts] NASA Force
-   https://nasaforce.gov/
+21. [241 pts] "cat readme.txt" is not safe if you use iTerm2
+   https://blog.calif.io/p/mad-bugs-even-cat-readmetxt-is-not
 
-23. [8 pts] Show HN: Sfsym – Export Apple SF Symbols as Vector SVG/PDF/PNG
-   https://github.com/yapstudios/sfsym
+22. [70 pts] Rewriting Every Syscall in a Linux Binary at Load Time
+   https://amitlimaye1.substack.com/p/rewriting-every-syscall-in-a-linux
 
-24. [241 pts] Middle schooler finds coin from Troy in Berlin
+23. [207 pts] Slop Cop
+   https://awnist.com/slop-cop
+
+24. [219 pts] Show HN: PanicLock – Close your MacBook lid disable TouchID –> password unlock
+   https://github.com/paniclock/paniclock/
+
+25. [9 pts] Sumida Aquarium Posts 2026 Penguin Relationship Chart, with Drama and Breakups
+   https://www.sumida-aquarium.com/special/sokanzu/en/2026/
+
+26. [252 pts] Middle schooler finds coin from Troy in Berlin
    https://www.thehistoryblog.com/archives/75848
 
-25. [84 pts] Landmark ancient-genome study shows surprise acceleration of human evolution
+27. [299 pts] NASA Force
+   https://nasaforce.gov/
+
+28. [98 pts] Landmark ancient-genome study shows surprise acceleration of human evolution
    https://www.nature.com/articles/d41586-026-01204-5
 
-26. [205 pts] NIST gives up enriching most CVEs
+29. [18 pts] Show HN: Sfsym – Export Apple SF Symbols as Vector SVG/PDF/PNG
+   https://github.com/yapstudios/sfsym
+
+30. [216 pts] NIST gives up enriching most CVEs
    https://risky.biz/risky-bulletin-nist-gives-up-enriching-most-cves/
-
-27. [100 pts] Introducing: ShaderPad
-   https://rileyjshaw.com/blog/introducing-shaderpad/
-
-28. [43 pts] Casus Belli Engineering
-   https://marcosmagueta.com/blog/casus-belli-engineering/
-
-29. [58 pts] The Unix executable as a Smalltalk method (2025) [video]
-   https://www.youtube.com/watch?v=sZjPQ7vtLNA
-
-30. [100 pts] The GNU libc atanh is correctly rounded
-   https://inria.hal.science/hal-05591661
 
 
 === RSS ===
+[bitcoin] The Pomp Letter: Bitcoin Is Ready To Fly Alongside The Stock Market
+  https://pomp.substack.com/p/bitcoin-is-ready-to-fly-alongside
+
+[bitcoin] The Pomp Letter: Dollar Destruction & Loss of Affordability
+  https://pomp.substack.com/p/dollar-destruction-and-loss-of-affordability
+
 [ideas] Stratechery: 2026.16: Servers, Satellites, and Stars
   https://stratechery.com/2026/servers-satellites-and-stars/
 
@@ -135,55 +141,115 @@
 
 
 === YOUTUBE ===
-Lex Fridman: Vikings, Ragnar, Berserkers, Valhalla & the Warriors of the Viking Age | Lex Fridman Podcast #495
-  https://www.youtube.com/watch?v=iKx3gAODybU
-  Transcript: yes
-
-Peter Attia: Is Industrial Processing the Real Problem With Seed Oils? | Layne Norton, Ph.D.
-  https://www.youtube.com/watch?v=Tsqzx3L6UWs
-  Transcript: yes
-
-Ken Berry MD: 7 Skin Signs of Insulin Resistance (Even If You’re Slim!)
-  https://www.youtube.com/watch?v=X9GnsVdhUKM
-  Transcript: yes
-
-GTO Lab: Leon Sturm's interview by Diana Kalietina
-  https://www.youtube.com/shorts/QbCHfLVlQbU
-  Transcript: yes
-
-GTO Wizard: Can AI Actually Play Poker?
-  https://www.youtube.com/shorts/Qk_8BSQmXF4
-  Transcript: NO
-
-Renaissance Periodization: Exercise Scientist Critiques Paddy The Baddy’s EXTREME Weight Loss Techniques
-  https://www.youtube.com/watch?v=gSo5l9AqAfg
-  Transcript: yes
-
-Jared Alderman: Poker's Next Frontier Is Not What You Think
-  https://www.youtube.com/watch?v=40VErN0VUhE
-  Transcript: yes
-
-Dr. Sten Ekberg: Top 10 SUPER FOODS That Can Heal A FATTY LIVER!
-  https://www.youtube.com/watch?v=kb6xfIv1tSY
-  Transcript: yes
-
 Paul Saladino MD: Is red meat safe?
   https://www.youtube.com/shorts/XdzaJELAcCM
   Transcript: yes
 
-Nick Norwitz: The One Lipid Marker Linked to Longevity
-  https://www.youtube.com/watch?v=SnwbtYm2RDE
+Joe Rogan: Joe Rogan Experience #2485 - John Fogerty
+  https://www.youtube.com/watch?v=hpLAqYQVb68
   Transcript: yes
 
 Anthony Chaffee MD: Steak, the Solution to Binge Eating
   https://www.youtube.com/shorts/tSnwrkQrvKU
   Transcript: yes
 
-Thomas DeLauer: 4g of This Powder Builds Muscle LEGALLY Without Steroids
-  https://www.youtube.com/watch?v=eIJFu18J-qQ
+Nick Norwitz: New GLP-1 Data Just Changed the Muscle Loss Story
+  https://www.youtube.com/shorts/QbAXIYyVhW0
   Transcript: yes
 
-Joe Rogan: Joe Rogan Experience #2485 - John Fogerty
-  https://www.youtube.com/watch?v=hpLAqYQVb68
+Lex Fridman: Vikings, Ragnar, Berserkers, Valhalla & the Warriors of the Viking Age | Lex Fridman Podcast #495
+  https://www.youtube.com/watch?v=iKx3gAODybU
+  Transcript: yes
+
+Ken Berry MD: 7 Skin Signs of Insulin Resistance (Even If You’re Slim!)
+  https://www.youtube.com/watch?v=X9GnsVdhUKM
+  Transcript: yes
+
+Renaissance Periodization: Why Women Don't Grow As Much Muscle
+  https://www.youtube.com/shorts/DMb1V13YyM0
+  Transcript: yes
+
+Jared Alderman: Poker's Next Frontier Is Not What You Think
+  https://www.youtube.com/watch?v=40VErN0VUhE
+  Transcript: yes
+
+ModernWisdom: THEY’RE BRAINWASHING YOU! (& other secrets that made you click) - Etymology Nerd
+  https://www.youtube.com/watch?v=jxDDW5OKhdA
+  Transcript: yes
+
+ModernWisdom: Are People Losing Interest In S*x? | Dr Debra Soh
+  https://www.youtube.com/shorts/0PPoSfxutbg
+  Transcript: yes
+
+ModernWisdom: What Every Man Wants To Hear
+  https://www.youtube.com/shorts/1PSTkpv5Tg4
+  Transcript: yes
+
+ModernWisdom: “Demonising Men Is Not A Good Strategy” - Richard Reeves
+  https://www.youtube.com/watch?v=-IIntBok8zY
+  Transcript: yes
+
+ModernWisdom: What Does Parental Conflict Do To Children? | Erica Komisar
+  https://www.youtube.com/shorts/l49tOWFdQcM
+  Transcript: yes
+
+ModernWisdom: How To Relax Yourself In Stressful Situations
+  https://www.youtube.com/shorts/9SvVMJFz2-g
+  Transcript: yes
+
+ModernWisdom: The Rise of History’s Greatest Emperor: An Untold Story - Alex Petkas
+  https://www.youtube.com/watch?v=1qIn-iTdk8g
+  Transcript: yes
+
+ModernWisdom: How The Advancement Of AI Could Break Economies | Tristan Harris
+  https://www.youtube.com/shorts/N2d2ZW6DJmY
+  Transcript: yes
+
+ModernWisdom: Are Humans Connecting Less In Today's Society? | Dr Debra Soh
+  https://www.youtube.com/shorts/1IkL-wuDMq0
+  Transcript: yes
+
+ModernWisdom: Huge Debate: Should Fathers Be In The Delivery Room? - Richard Reeves
+  https://www.youtube.com/watch?v=uLlceLRN5fM
+  Transcript: yes
+
+ModernWisdom: Don't Waste Your Time On Things You Don't Want To Do
+  https://www.youtube.com/shorts/ehc0GlgGmA0
+  Transcript: yes
+
+ModernWisdom: Why Gossiping Is Important For Humans
+  https://www.youtube.com/shorts/XkOwvCptjLE
+  Transcript: NO
+
+ModernWisdom: The Final Warnings Caesar Refused to See - Alex Petkas
+  https://www.youtube.com/watch?v=JBSuLTKAExg
+  Transcript: yes
+
+ModernWisdom: What Makes AI Different Than Other Technologies? | Tristan Harris
+  https://www.youtube.com/shorts/_fzaiR6nMX0
+  Transcript: yes
+
+ModernWisdom: How Our Brains Slow Down The Speed Of Time
+  https://www.youtube.com/shorts/fYMjshhGYDg
+  Transcript: yes
+
+GTO Wizard: Can AI Actually Play Poker?
+  https://www.youtube.com/shorts/Qk_8BSQmXF4
+  Transcript: yes
+
+Thomas DeLauer: Your Dopamine is Broken — How to Rebuild it in 30 Days
+  https://www.youtube.com/watch?v=dvCAYVKpgaY
+  Transcript: yes
+
+Dr. Sten Ekberg: Top 10 SUPER FOODS That Can Heal A FATTY LIVER!
+  https://www.youtube.com/watch?v=kb6xfIv1tSY
+  Transcript: yes
+
+GTO Lab: Leon Sturm's interview by Diana Kalietina
+  https://www.youtube.com/shorts/QbCHfLVlQbU
+  Transcript: yes
+
+Peter Attia: Is Industrial Processing the Real Problem With Seed Oils? | Layne Norton, Ph.D.
+  https://www.youtube.com/watch?v=Tsqzx3L6UWs
   Transcript: yes
 
