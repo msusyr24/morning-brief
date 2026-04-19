@@ -1,101 +1,98 @@
 === HACKER NEWS ===
-1. [253 pts] NIST scientists create 'any wavelength' lasers
-   https://www.nist.gov/news-events/news/2026/04/any-color-you-nist-scientists-create-any-wavelength-lasers-tiny-circuits
+1. [218 pts] Archive of Byte magazine, starting with issue #1 in 1975
+   https://archive.org/details/byte-magazine-1975-09
 
-2. [229 pts] College instructor turns to typewriters to curb AI-written work
-   https://sentinelcolorado.com/uncategorized/a-college-instructor-turns-to-typewriters-to-curb-ai-written-work-and-teach-life-lessons/
+2. [96 pts] SPEAKE(a)R: Turn Speakers to Microphones for Fun and Profit [pdf] (2017)
+   https://www.usenix.org/system/files/conference/woot17/woot17-paper-guri.pdf
 
-3. [482 pts] Anonymous request-token comparisons from Opus 4.6 and Opus 4.7
-   https://tokens.billchambers.me/leaderboard
+3. [223 pts] Game devs explain the tricks involved with letting you pause a game
+   https://kotaku.com/video-game-devs-explain-how-pausing-works-and-sometimes-it-gets-weird-2000686339
 
-4. [60 pts] Updating Gun Rocket through 10 years of Unity Engine
-   https://jackpritz.com/blog/updating-gun-rocket-through-10-years-of-unity-engine
+4. [90 pts] The seven programming ur-languages (2022)
+   https://madhadron.com/programming/seven_ur_languages.html
 
-5. [28 pts] What Are Skiplists Good For?
+5. [12 pts] Nanopass Framework: Clean Compiler Creation Language
+   https://nanopass.org/
+
+6. [31 pts] Shader Lab, like Photoshop but for shaders
+   https://eng.basement.studio/tools/shader-lab
+
+7. [36 pts] Airline worker arrested after sharing photos of bomb damage in WhatsApp group
+   https://www.lbc.co.uk/article/dubai-police-spied-private-whatsapp-5HjdXwr_2/
+
+8. [162 pts] What are skiplists good for?
    https://antithesis.com/blog/2026/skiptrees/
 
-6. [308 pts] The electromechanical angle computer inside the B-52 bomber's star tracker
+9. [354 pts] NIST scientists create 'any wavelength' lasers
+   https://www.nist.gov/news-events/news/2026/04/any-color-you-nist-scientists-create-any-wavelength-lasers-tiny-circuits
+
+10. [340 pts] College instructor turns to typewriters to curb AI-written work
+   https://sentinelcolorado.com/uncategorized/a-college-instructor-turns-to-typewriters-to-curb-ai-written-work-and-teach-life-lessons/
+
+11. [560 pts] Anonymous request-token comparisons from Opus 4.6 and Opus 4.7
+   https://tokens.billchambers.me/leaderboard
+
+12. [370 pts] The electromechanical angle computer inside the B-52 bomber's star tracker
    https://www.righto.com/2026/04/B-52-star-tracker-angle-computer.html
 
-7. [358 pts] Why Japan has such good railways
+13. [96 pts] Ask HN: How did you land your first projects as a solo engineer/consultant?
+   https://news.ycombinator.com/item?id=47822940
+
+14. [454 pts] Why Japan has such good railways
    https://worksinprogress.co/issue/why-japan-has-such-good-railways/
 
-8. [60 pts] Zero-Copy GPU Inference from WebAssembly on Apple Silicon
-   https://abacusnoir.com/2026/04/18/zero-copy-gpu-inference-from-webassembly-on-apple-silicon/
+15. [60 pts] Changes in the system prompt between Claude Opus 4.6 and 4.7
+   https://simonwillison.net/2026/Apr/18/opus-system-prompt/
 
-9. [18 pts] Metatextual Literacy
-   https://www.jenn.site/metatextual-literacy/
+16. [95 pts] Updating Gun Rocket through 10 years of Unity Engine
+   https://jackpritz.com/blog/updating-gun-rocket-through-10-years-of-unity-engine
 
-10. [129 pts] Modern Common Lisp with FSet
-   https://fset.common-lisp.dev/Modern-CL/Top_html/index.html
+17. [10 pts] Show HN: Prompt-to-Excalidraw demo with Gemma 4 E2B in the browser (3.1GB)
+   https://teamchong.github.io/turboquant-wasm/draw.html
 
-11. [21 pts] The becquerel as an SI unit for request rate
-   https://entropicthoughts.com/si-units-for-request-rate
+18. [37 pts] It's cool to care (2025)
+   https://alexwlchan.net/2025/cool-to-care/
 
-12. [83 pts] Optimizing Ruby Path Methods
-   https://byroot.github.io/ruby/performance/2026/04/18/faster-paths.html
+19. [41 pts] Binary Dependencies: Identifying the Hidden Packages We All Depend On
+   https://vlad.website/binary-dependencies-identifying-the-hidden-packages-we-all-depend-on/
 
-13. [367 pts] State of Kdenlive
+20. [425 pts] State of Kdenlive
    https://kdenlive.org/news/2026/state-2026/
 
-14. [730 pts] Migrating from DigitalOcean to Hetzner
+21. [110 pts] The world in which IPv6 was a good design
+   https://apenwarr.ca/log/20170810
+
+22. [18 pts] Binary GCD
+   https://en.algorithmica.org/hpc/algorithms/gcd/#binary-gcd
+
+23. [171 pts] Modern Common Lisp with FSet
+   https://fset.common-lisp.dev/Modern-CL/Top_html/index.html
+
+24. [822 pts] Migrating from DigitalOcean to Hetzner
    https://isayeter.com/posts/digitalocean-to-hetzner-migration/
 
-15. [276 pts] Thoughts and feelings around Claude Design
-   https://samhenri.gold/blog/20260418-claude-design/
+25. [115 pts] Keep Pushing: We Get 10 More Days to Reform Section 702
+   https://www.eff.org/deeplinks/2026/04/keep-pushing-we-get-10-more-days-reform-section-702
 
-16. [197 pts] Sumida Aquarium Posts 2026 Penguin Relationship Chart, with Drama and Breakups
-   https://www.sumida-aquarium.com/special/sokanzu/en/2026/
+26. [114 pts] Optimizing Ruby Path Methods
+   https://byroot.github.io/ruby/performance/2026/04/18/faster-paths.html
 
-17. [135 pts] NASA Shuts Off Instrument on Voyager 1 to Keep Spacecraft Operating
-   https://science.nasa.gov/blogs/voyager/2026/04/17/nasa-shuts-off-instrument-on-voyager-1-to-keep-spacecraft-operating/
+27. [45 pts] Metatextual Literacy
+   https://www.jenn.site/metatextual-literacy/
 
-18. [107 pts] Show HN: MDV – a Markdown superset for docs, dashboards, and slides with data
-   https://github.com/drasimwagan/mdv
-
-19. [12 pts] Dizzying Spiral Staircase with Single Guardrail Once Led to Top of Eiffel Tower
+28. [36 pts] Dizzying Spiral Staircase with Single Guardrail Once Led to Top of Eiffel Tower
    https://www.smithsonianmag.com/smart-news/a-dizzying-spiral-staircase-with-a-single-guardrail-once-led-to-the-top-of-the-eiffel-tower-now-you-can-buy-14-of-the-original-steps-180988535/
 
-20. [31 pts] My first impressions on ROCm and Strix Halo
-   https://blog.marcoinacio.com/posts/my-first-impressions-rocm-strix-halo/
+29. [99 pts] Zero-Copy GPU Inference from WebAssembly on Apple Silicon
+   https://abacusnoir.com/2026/04/18/zero-copy-gpu-inference-from-webassembly-on-apple-silicon/
 
-21. [93 pts] Scientists discover “cleaner ants” that groom giant ants in Arizona desert
-   https://www.sciencedaily.com/releases/2026/04/260414075641.htm
-
-22. [101 pts] 80386 Memory Pipeline
-   https://nand2mario.github.io/posts/2026/80386_memory_pipeline/
-
-23. [25 pts] Bypassing the kernel for 56ns cross-language IPC
-   https://github.com/riyaneel/Tachyon/tree/main/docs/adr
-
-24. [37 pts] I dug into the Postgres sources to write my own WAL receiver
-   https://medium.com/@mailbox.sq7/a-long-story-about-how-i-dug-into-the-postgresql-source-code-to-write-my-own-wal-receiver-and-what-53fd251d8f25
-
-25. [77 pts] Understanding the FFT Algorithm (2013)
-   https://jakevdp.github.io/blog/2013/08/28/understanding-the-fft/
-
-26. [47 pts] Floating Point Fun on Cortex-M Processors
-   https://danielmangum.com/posts/floating-point-cortex-m/
-
-27. [93 pts] Fuzix OS
-   https://www.fuzix.org/
-
-28. [70 pts] Show HN: SmallDocs – Markdown without the frustrations
-   https://news.ycombinator.com/item?id=47777633
-
-29. [193 pts] It's OK to compare floating-points for equality
-   https://lisyarus.github.io/blog/posts/its-ok-to-compare-floating-points-for-equality.html
-
-30. [297 pts] Show HN: I made a calculator that works over disjoint sets of intervals
-   https://victorpoughon.github.io/interval-calculator/
+30. [229 pts] Sumida Aquarium Posts 2026 Penguin Relationship Chart, with Drama and Breakups
+   https://www.sumida-aquarium.com/special/sokanzu/en/2026/
 
 
 === RSS ===
-[ideas] Stratechery: 2026.16: Servers, Satellites, and Stars
-  https://stratechery.com/2026/servers-satellites-and-stars/
-
-[ideas] Stratechery: An Interview with F1 Driver and Venture Capitalist Nico Rosberg About the Drive to Win
-  https://stratechery.com/2026/an-interview-with-f1-driver-and-venture-capitalist-nico-rosberg-about-the-drive-to-win/
+[health] Peter Attia: Prostate cancer: a PSA on PSA
+  https://peterattiamd.com/prostate-cancer-psa/
 
 [bitcoin] Bitcoin Magazine: When Quantum Computers Come for Your Bitcoin: What Classical Property Law Says Happens Next
   https://bitcoinmagazine.com/legal/when-quantum-computers-come-for-your-bitcoin-what-classical-property-law-says-happens-next
@@ -121,11 +118,72 @@
 [bitcoin] Bitcoin Magazine: Bitcoin Price Charges Past $77,000 as Iran Says Strait of Hormuz Fully Open
   https://bitcoinmagazine.com/news/bitcoin-price-charges-past-77000
 
-[health] Peter Attia: Prostate cancer: a PSA on PSA
-  https://peterattiamd.com/prostate-cancer-psa/
-
-[ai] OpenAI Blog: Codex for (almost) everything
-  https://openai.com/index/codex-for-almost-everything
+[ideas] Stratechery: 2026.16: Servers, Satellites, and Stars
+  https://stratechery.com/2026/servers-satellites-and-stars/
 
 
 === YOUTUBE ===
+Peter Attia: Is Industrial Processing the Real Problem With Seed Oils? | Layne Norton, Ph.D.
+  https://www.youtube.com/watch?v=Tsqzx3L6UWs
+  Transcript: yes
+
+ModernWisdom: Why Can't Wisdom Be Programmed? | Tristan Harris
+  https://www.youtube.com/shorts/5NCcJyNpN08
+  Transcript: yes
+
+ModernWisdom: Are You Doing What Works For You?
+  https://www.youtube.com/shorts/A_XAPY0jn9U
+  Transcript: yes
+
+Dr. Sten Ekberg: Top 10 SUPER FOODS That Can Heal A FATTY LIVER!
+  https://www.youtube.com/watch?v=kb6xfIv1tSY
+  Transcript: NO
+
+Ken Berry MD: 7 Skin Signs of Insulin Resistance (Even If You’re Slim!)
+  https://www.youtube.com/watch?v=X9GnsVdhUKM
+  Transcript: yes
+
+Renaissance Periodization: Why Women Don't Grow As Much Muscle
+  https://www.youtube.com/shorts/DMb1V13YyM0
+  Transcript: yes
+
+Nick Norwitz: Vitamin C Might Slow Aging—Here’s the Mechanism
+  https://www.youtube.com/shorts/PrB3zl-aJ7g
+  Transcript: yes
+
+Thomas DeLauer: Dr Jason Fung: This Signal Forces You to Store Fat — Here’s How to Kill It
+  https://www.youtube.com/watch?v=JTvdIhXC8B4
+  Transcript: yes
+
+Paul Saladino MD: Starbucks Dubai chocolate contains WHAT!?
+  https://www.youtube.com/shorts/kMZ3WaaNWz4
+  Transcript: yes
+
+Paul Saladino MD: Doctor Reacts to Everything Dwayne "The Rock" Johnson Eats In A Day
+  https://www.youtube.com/watch?v=tmhyZU_X8kA
+  Transcript: yes
+
+Anthony Chaffee MD: Why Retired Athletes are Unrecognizable #shorts #short #shortvideo
+  https://www.youtube.com/shorts/wCkemWQ6tzs
+  Transcript: yes
+
+GTO Wizard: Can AI Actually Play Poker?
+  https://www.youtube.com/shorts/Qk_8BSQmXF4
+  Transcript: yes
+
+Jared Alderman: Poker's Next Frontier Is Not What You Think
+  https://www.youtube.com/watch?v=40VErN0VUhE
+  Transcript: yes
+
+Lex Fridman: Vikings, Ragnar, Berserkers, Valhalla & the Warriors of the Viking Age | Lex Fridman Podcast #495
+  https://www.youtube.com/watch?v=iKx3gAODybU
+  Transcript: yes
+
+Joe Rogan: Joe Rogan Experience #2485 - John Fogerty
+  https://www.youtube.com/watch?v=hpLAqYQVb68
+  Transcript: yes
+
+GTO Lab: Heuristics while being SHORT are KEY to get MAX value from your opponents - Clemen Deng
+  https://www.youtube.com/shorts/a8kuB8HOWJM
+  Transcript: NO
+
