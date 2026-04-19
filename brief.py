@@ -234,12 +234,25 @@ def save_watermarks(watermarks):
 def fetch_recent_videos(channel_name, channel_id, last_seen_id=None, fallback_to_latest=True):
     """Fetch videos newer than last_seen_id. If none, optionally return the single latest."""
     feed_url = f"https://www.youtube.com/feeds/videos.xml?channel_id={channel_id}"
+    headers = {
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
+                      "AppleWebKit/537.36 (KHTML, like Gecko) "
+                      "Chrome/120.0.0.0 Safari/537.36",
+        "Accept": "application/atom+xml, application/xml, text/xml, */*",
+    }
     try:
-        response = requests.get(feed_url, timeout=8)
+        response = requests.get(feed_url, headers=headers, timeout=8)
+        if response.status_code != 200:
+            print(f"[YT] {channel_name}: HTTP {response.status_code}")
+            return [], False
+        body = response.content.lstrip()
+        if not (body.startswith(b"<?xml") or body.startswith(b"<feed")):
+            print(f"[YT] {channel_name}: non-XML response — first 120 bytes: {body[:120]!r}")
+            return [], False
         root = ElementTree.fromstring(response.content)
     except Exception as e:
         print(f"[YT] {channel_name}: feed error ({e})")
-        return [], False  # (videos, is_fallback)
+        return [], False
 
     ns = {"atom": "http://www.w3.org/2005/Atom", "yt": "http://www.youtube.com/xml/schemas/2015"}
     videos = []
