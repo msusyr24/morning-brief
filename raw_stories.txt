@@ -1,98 +1,98 @@
 === HACKER NEWS ===
-1. [218 pts] Archive of Byte magazine, starting with issue #1 in 1975
-   https://archive.org/details/byte-magazine-1975-09
+1. [23 pts] SDF Public Access Unix System
+   https://sdf.org/?ssh
 
-2. [96 pts] SPEAKE(a)R: Turn Speakers to Microphones for Fun and Profit [pdf] (2017)
-   https://www.usenix.org/system/files/conference/woot17/woot17-paper-guri.pdf
+2. [15 pts] Ben Lerner's Big Feelings
+   https://www.vulture.com/article/ben-lerner-transcription-interview.html
 
-3. [223 pts] Game devs explain the tricks involved with letting you pause a game
-   https://kotaku.com/video-game-devs-explain-how-pausing-works-and-sometimes-it-gets-weird-2000686339
+3. [17 pts] Stripe's Payment APIs: the first 10 years (2020)
+   https://stripe.dev/blog/payment-api-design
 
-4. [90 pts] The seven programming ur-languages (2022)
-   https://madhadron.com/programming/seven_ur_languages.html
+4. [697 pts] Vercel April 2026 security incident
+   https://www.bleepingcomputer.com/news/security/vercel-confirms-breach-as-hackers-claim-to-be-selling-stolen-data/
 
-5. [12 pts] Nanopass Framework: Clean Compiler Creation Language
-   https://nanopass.org/
+5. [162 pts] A Brief History of Fish Sauce
+   https://www.legalnomads.com/fish-sauce/
 
-6. [31 pts] Shader Lab, like Photoshop but for shaders
-   https://eng.basement.studio/tools/shader-lab
+6. [74 pts] Claude Token Counter, now with model comparisons
+   https://simonwillison.net/2026/Apr/20/claude-token-counts/
 
-7. [36 pts] Airline worker arrested after sharing photos of bomb damage in WhatsApp group
-   https://www.lbc.co.uk/article/dubai-police-spied-private-whatsapp-5HjdXwr_2/
+7. [162 pts] Stop trying to engineer your way out of listening to people
+   https://ashley.rolfmore.com/stop-trying-to-engineer-your-way-out-of-listening-to-people/
 
-8. [162 pts] What are skiplists good for?
-   https://antithesis.com/blog/2026/skiptrees/
+8. [34 pts] Monumental ship burial beneath ancient Norwegian mound predates the Viking Age
+   https://phys.org/news/2026-04-monumental-ship-burial-beneath-ancient.html
 
-9. [354 pts] NIST scientists create 'any wavelength' lasers
-   https://www.nist.gov/news-events/news/2026/04/any-color-you-nist-scientists-create-any-wavelength-lasers-tiny-circuits
+9. [192 pts] The Bromine Chokepoint
+   https://warontherocks.com/cogs-of-war/the-bromine-chokepoint-how-strife-in-the-middle-east-could-halt-production-of-the-worlds-memory-chips/
 
-10. [340 pts] College instructor turns to typewriters to curb AI-written work
-   https://sentinelcolorado.com/uncategorized/a-college-instructor-turns-to-typewriters-to-curb-ai-written-work-and-teach-life-lessons/
+10. [97 pts] Mechanical Keyboard Sounds – A listening Museum
+   https://sheets.works/data-viz/keyboard-sounds
 
-11. [560 pts] Anonymous request-token comparisons from Opus 4.6 and Opus 4.7
-   https://tokens.billchambers.me/leaderboard
+11. [198 pts] Turtle WoW classic server announces shutdown after Blizzard wins injunction
+   https://www.pcgamer.com/games/world-of-warcraft/turtle-wow-classic-server-announces-shutdown-after-blizzard-wins-injunction/
 
-12. [370 pts] The electromechanical angle computer inside the B-52 bomber's star tracker
-   https://www.righto.com/2026/04/B-52-star-tracker-angle-computer.html
+12. [21 pts] Zero-copy protobuf and ConnectRPC for Rust
+   https://medium.com/@iainmcgin/zero-copy-protobuf-and-connectrpc-for-rust-69bda8ac0f02
 
-13. [96 pts] Ask HN: How did you land your first projects as a solo engineer/consultant?
-   https://news.ycombinator.com/item?id=47822940
+13. [13 pts] Knitout and Kniterate 3
+   https://soup.agnescameron.info//2026/04/01/transfers.html
 
-14. [454 pts] Why Japan has such good railways
-   https://worksinprogress.co/issue/why-japan-has-such-good-railways/
-
-15. [60 pts] Changes in the system prompt between Claude Opus 4.6 and 4.7
+14. [288 pts] Changes in the system prompt between Claude Opus 4.6 and 4.7
    https://simonwillison.net/2026/Apr/18/opus-system-prompt/
 
-16. [95 pts] Updating Gun Rocket through 10 years of Unity Engine
-   https://jackpritz.com/blog/updating-gun-rocket-through-10-years-of-unity-engine
+15. [143 pts] Show HN: Run TRELLIS.2 Image-to-3D generation natively on Apple Silicon
+   https://github.com/shivampkumar/trellis-mac
 
-17. [10 pts] Show HN: Prompt-to-Excalidraw demo with Gemma 4 E2B in the browser (3.1GB)
+16. [57 pts] Swiss AI Initiative (2023)
+   https://www.swiss-ai.org
+
+17. [22 pts] A cache-friendly IPv6 LPM with AVX-512 (linearized B+-tree, real BGP benchmarks)
+   https://github.com/esutcu/planb-lpm
+
+18. [4 pts] Up to 8M Bees Are Living in an Underground Network Beneath This Cemetery
+   https://www.discovermagazine.com/up-to-8-million-bees-are-living-in-an-underground-network-beneath-this-cemetery-48977
+
+19. [145 pts] 2,100 Swiss municipalities showing which provider handles their official email
+   https://mxmap.ch/
+
+20. [84 pts] Scientific datasets are riddled with copy-paste errors
+   https://www.sciencedetective.org/scientific-datasets-are-riddled-with-copy-paste-errors/
+
+21. [265 pts] The RAM shortage could last years
+   https://www.theverge.com/ai-artificial-intelligence/914672/the-ram-shortage-could-last-years
+
+22. [89 pts] Prove you are a robot: CAPTCHAs for agents
+   https://browser-use.com/posts/prove-you-are-a-robot
+
+23. [74 pts] Six Levels of Dark Mode (2024)
+   https://cssence.com/2024/six-levels-of-dark-mode/
+
+24. [28 pts] Show HN: A lightweight way to make agents talk without paying for API usage
+   https://juanpabloaj.com/2026/04/16/a-lightweight-way-to-make-agents-talk-without-paying-for-api-usage/
+
+25. [64 pts] I wrote a CHIP-8 emulator in my own programming language
+   https://github.com/navid-m/chip8emu
+
+26. [129 pts] Nanopass Framework: Clean Compiler Creation Language
+   https://nanopass.org/
+
+27. [67 pts] Sudo for Windows (2024)
+   https://github.com/microsoft/sudo
+
+28. [23 pts] Interesting Map Geometry and Mathematics
+   https://www.markrjohnsongames.com/2026/04/11/ultima-ratio-regum-0-11-update-57-interesting-map-geometry-and-mathematics/
+
+29. [175 pts] SPEAKE(a)R: Turn Speakers to Microphones for Fun and Profit [pdf] (2017)
+   https://www.usenix.org/system/files/conference/woot17/woot17-paper-guri.pdf
+
+30. [117 pts] Show HN: Prompt-to-Excalidraw demo with Gemma 4 E2B in the browser (3.1GB)
    https://teamchong.github.io/turboquant-wasm/draw.html
-
-18. [37 pts] It's cool to care (2025)
-   https://alexwlchan.net/2025/cool-to-care/
-
-19. [41 pts] Binary Dependencies: Identifying the Hidden Packages We All Depend On
-   https://vlad.website/binary-dependencies-identifying-the-hidden-packages-we-all-depend-on/
-
-20. [425 pts] State of Kdenlive
-   https://kdenlive.org/news/2026/state-2026/
-
-21. [110 pts] The world in which IPv6 was a good design
-   https://apenwarr.ca/log/20170810
-
-22. [18 pts] Binary GCD
-   https://en.algorithmica.org/hpc/algorithms/gcd/#binary-gcd
-
-23. [171 pts] Modern Common Lisp with FSet
-   https://fset.common-lisp.dev/Modern-CL/Top_html/index.html
-
-24. [822 pts] Migrating from DigitalOcean to Hetzner
-   https://isayeter.com/posts/digitalocean-to-hetzner-migration/
-
-25. [115 pts] Keep Pushing: We Get 10 More Days to Reform Section 702
-   https://www.eff.org/deeplinks/2026/04/keep-pushing-we-get-10-more-days-reform-section-702
-
-26. [114 pts] Optimizing Ruby Path Methods
-   https://byroot.github.io/ruby/performance/2026/04/18/faster-paths.html
-
-27. [45 pts] Metatextual Literacy
-   https://www.jenn.site/metatextual-literacy/
-
-28. [36 pts] Dizzying Spiral Staircase with Single Guardrail Once Led to Top of Eiffel Tower
-   https://www.smithsonianmag.com/smart-news/a-dizzying-spiral-staircase-with-a-single-guardrail-once-led-to-the-top-of-the-eiffel-tower-now-you-can-buy-14-of-the-original-steps-180988535/
-
-29. [99 pts] Zero-Copy GPU Inference from WebAssembly on Apple Silicon
-   https://abacusnoir.com/2026/04/18/zero-copy-gpu-inference-from-webassembly-on-apple-silicon/
-
-30. [229 pts] Sumida Aquarium Posts 2026 Penguin Relationship Chart, with Drama and Breakups
-   https://www.sumida-aquarium.com/special/sokanzu/en/2026/
 
 
 === RSS ===
-[health] Peter Attia: Prostate cancer: a PSA on PSA
-  https://peterattiamd.com/prostate-cancer-psa/
+[ideas] Stratechery: 2026.16: Servers, Satellites, and Stars
+  https://stratechery.com/2026/servers-satellites-and-stars/
 
 [bitcoin] Bitcoin Magazine: When Quantum Computers Come for Your Bitcoin: What Classical Property Law Says Happens Next
   https://bitcoinmagazine.com/legal/when-quantum-computers-come-for-your-bitcoin-what-classical-property-law-says-happens-next
@@ -118,72 +118,87 @@
 [bitcoin] Bitcoin Magazine: Bitcoin Price Charges Past $77,000 as Iran Says Strait of Hormuz Fully Open
   https://bitcoinmagazine.com/news/bitcoin-price-charges-past-77000
 
-[ideas] Stratechery: 2026.16: Servers, Satellites, and Stars
-  https://stratechery.com/2026/servers-satellites-and-stars/
+[health] Peter Attia: #388 — Prostate cancer screening: why current PSA guidelines are failing men and how modern tools improve early detection and save lives
+  https://peterattiamd.com/prostatecancerscreening/
+
+[health] Peter Attia: Prostate cancer: a PSA on PSA
+  https://peterattiamd.com/prostate-cancer-psa/
 
 
 === YOUTUBE ===
-Peter Attia: Is Industrial Processing the Real Problem With Seed Oils? | Layne Norton, Ph.D.
-  https://www.youtube.com/watch?v=Tsqzx3L6UWs
+Joe Rogan: Joe Rogan Experience #2485 - John Fogerty
+  https://www.youtube.com/watch?v=hpLAqYQVb68
   Transcript: yes
 
-ModernWisdom: Why Can't Wisdom Be Programmed? | Tristan Harris
-  https://www.youtube.com/shorts/5NCcJyNpN08
+ModernWisdom: The Hidden Cost Of Always Pushing Yourself
+  https://www.youtube.com/shorts/21FE1UmMRQI
   Transcript: yes
 
-ModernWisdom: Are You Doing What Works For You?
-  https://www.youtube.com/shorts/A_XAPY0jn9U
+ModernWisdom: Is Divorce Always Bad For Children? | Erica Komisar
+  https://www.youtube.com/shorts/BvMmnGc63Xc
   Transcript: yes
 
-Dr. Sten Ekberg: Top 10 SUPER FOODS That Can Heal A FATTY LIVER!
-  https://www.youtube.com/watch?v=kb6xfIv1tSY
-  Transcript: NO
-
-Ken Berry MD: 7 Skin Signs of Insulin Resistance (Even If You’re Slim!)
-  https://www.youtube.com/watch?v=X9GnsVdhUKM
+ModernWisdom: Tour Diary: Australia, Beers & Chris Hemsworth.
+  https://www.youtube.com/watch?v=V5d0x3wTR84
   Transcript: yes
 
-Renaissance Periodization: Why Women Don't Grow As Much Muscle
-  https://www.youtube.com/shorts/DMb1V13YyM0
+Paul Saladino MD: The best routine for longevity
+  https://www.youtube.com/shorts/nAB6dCCcsKA
+  Transcript: yes
+
+Paul Saladino MD: The best diet for high testosterone?
+  https://www.youtube.com/shorts/WAyA94hpXuU
   Transcript: yes
 
 Nick Norwitz: Vitamin C Might Slow Aging—Here’s the Mechanism
   https://www.youtube.com/shorts/PrB3zl-aJ7g
   Transcript: yes
 
-Thomas DeLauer: Dr Jason Fung: This Signal Forces You to Store Fat — Here’s How to Kill It
-  https://www.youtube.com/watch?v=JTvdIhXC8B4
+Thomas DeLauer: 1 Pinch Makes Creatine Absorb 3X Better (stop wasting it)
+  https://www.youtube.com/watch?v=4TjPOXGmffQ
   Transcript: yes
 
-Paul Saladino MD: Starbucks Dubai chocolate contains WHAT!?
-  https://www.youtube.com/shorts/kMZ3WaaNWz4
-  Transcript: yes
-
-Paul Saladino MD: Doctor Reacts to Everything Dwayne "The Rock" Johnson Eats In A Day
-  https://www.youtube.com/watch?v=tmhyZU_X8kA
-  Transcript: yes
-
-Anthony Chaffee MD: Why Retired Athletes are Unrecognizable #shorts #short #shortvideo
-  https://www.youtube.com/shorts/wCkemWQ6tzs
-  Transcript: yes
-
-GTO Wizard: Can AI Actually Play Poker?
-  https://www.youtube.com/shorts/Qk_8BSQmXF4
-  Transcript: yes
-
-Jared Alderman: Poker's Next Frontier Is Not What You Think
-  https://www.youtube.com/watch?v=40VErN0VUhE
+Renaissance Periodization: Don't JUST Walk at The Gym
+  https://www.youtube.com/shorts/v_tEKHs5_Pc
   Transcript: yes
 
 Lex Fridman: Vikings, Ragnar, Berserkers, Valhalla & the Warriors of the Viking Age | Lex Fridman Podcast #495
   https://www.youtube.com/watch?v=iKx3gAODybU
   Transcript: yes
 
-Joe Rogan: Joe Rogan Experience #2485 - John Fogerty
-  https://www.youtube.com/watch?v=hpLAqYQVb68
+Dr. Sten Ekberg: Top 10 SUPER FOODS That Can Heal A FATTY LIVER!
+  https://www.youtube.com/watch?v=kb6xfIv1tSY
+  Transcript: NO
+
+Peter Attia: Is Industrial Processing the Real Problem With Seed Oils? | Layne Norton, Ph.D.
+  https://www.youtube.com/watch?v=Tsqzx3L6UWs
+  Transcript: yes
+
+GTO Lab: Check-raising with FRINGIER hands allows you have BLUFFS in next streets - Ben Heath
+  https://www.youtube.com/shorts/3APQs1hEuyE
   Transcript: yes
 
 GTO Lab: Heuristics while being SHORT are KEY to get MAX value from your opponents - Clemen Deng
   https://www.youtube.com/shorts/a8kuB8HOWJM
   Transcript: NO
+
+Jared Alderman: Poker's Next Frontier Is Not What You Think
+  https://www.youtube.com/watch?v=40VErN0VUhE
+  Transcript: yes
+
+GTO Wizard: Can AI Actually Play Poker?
+  https://www.youtube.com/shorts/Qk_8BSQmXF4
+  Transcript: yes
+
+Ken Berry MD: 7 Skin Signs of Insulin Resistance (Even If You’re Slim!)
+  https://www.youtube.com/watch?v=X9GnsVdhUKM
+  Transcript: yes
+
+Anthony Chaffee MD: The Truth Behind Lifelong Peak Performance
+  https://www.youtube.com/watch?v=mom9zEQzgtk
+  Transcript: yes
+
+Anthony Chaffee MD: Multiple System Atrophe #shorts #short #shortvideo #carnivore
+  https://www.youtube.com/shorts/pMndLpCq-8M
+  Transcript: yes
 
