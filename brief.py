@@ -236,9 +236,15 @@ def fetch_recent_videos(channel_name, channel_id, last_seen_id=None, fallback_to
     feed_url = f"https://www.youtube.com/feeds/videos.xml?channel_id={channel_id}"
     headers = {
         "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
-                      "AppleWebKit/537.36 (KHTML, like Gecko) "
-                      "Chrome/120.0.0.0 Safari/537.36",
+                    "AppleWebKit/537.36 (KHTML, like Gecko) "
+                    "Chrome/120.0.0.0 Safari/537.36",
         "Accept": "application/atom+xml, application/xml, text/xml, */*",
+        "Accept-Language": "en-US,en;q=0.9",
+        "Accept-Encoding": "gzip, deflate, br",
+        "Referer": "https://www.youtube.com/",
+        "Sec-Fetch-Dest": "document",
+        "Sec-Fetch-Mode": "navigate",
+        "Sec-Fetch-Site": "none",
     }
     try:
         response = requests.get(feed_url, headers=headers, timeout=8)

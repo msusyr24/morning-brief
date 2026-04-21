@@ -1,104 +1,128 @@
 === HACKER NEWS ===
-1. [1609 pts] John Ternus to become Apple CEO
-   https://www.apple.com/newsroom/2026/04/tim-cook-to-become-apple-executive-chairman-john-ternus-to-become-apple-ceo/
+1. [81 pts] The Vercel breach: OAuth attack exposes risk in platform environment variables
+   https://www.trendmicro.com/en_us/research/26/d/vercel-breach-oauth-supply-chain.html
 
-2. [84 pts] Anthropic says OpenClaw-style Claude CLI usage is allowed again
+2. [51 pts] Britannica11.org – a structured edition of the 1911 Encyclopædia Britannica
+   https://britannica11.org/
+
+3. [145 pts] Framework Laptop 13 Pro
+   https://frame.work/laptop13pro
+
+4. [645 pts] Laws of Software Engineering
+   https://lawsofsoftwareengineering.com
+
+5. [13 pts] Cal.diy: open-source community edition of cal.com
+   https://github.com/calcom/cal.diy
+
+6. [66 pts] A Periodic Map of Cheese
+   https://cheesemap.netlify.app/
+
+7. [111 pts] Show HN: GoModel – an open-source AI gateway in Go
+   https://github.com/ENTERPILOT/GOModel/
+
+8. [95 pts] Fusion Power Plant Simulator
+   https://www.fusionenergybase.com/fusion-power-plant-simulator
+
+9. [152 pts] Edit store price tags using Flipper Zero
+   https://github.com/i12bp8/TagTinker
+
+10. [1 pts] Trellis AI (YC W24) Is hiring engineers to build self-improving agents
+   https://www.ycombinator.com/companies/trellis-ai/jobs/SvzJaTH-member-of-technical-staff-product-engineering-full-time
+
+11. [25 pts] Modern Front end Complexity: essential or accidental?
+   https://binaryigor.com/modern-frontend-complexity.html
+
+12. [135 pts] Running a Minecraft Server and More on a 1960s Univac Computer
+   https://farlow.dev/2026/04/17/running-a-minecraft-server-and-more-on-a-1960s-univac-computer
+
+13. [197 pts] Show HN: VidStudio, a browser based video editor that doesn't upload your files
+   https://vidstudio.app/video-editor
+
+14. [27 pts] Kasane: New drop-in Kakoune front end with GPU rendering and WASM Plugins
+   https://github.com/Yus314/kasane
+
+15. [10 pts] Theseus, a Static Windows Emulator
+   https://neugierig.org/software/blog/2026/04/theseus.html
+
+16. [93 pts] Tindie store under "scheduled maintenance" for days
+   https://www.tindie.com/
+
+17. [119 pts] A type-safe, realtime collaborative Graph Database in a CRDT
+   https://codemix.com/graph
+
+18. [420 pts] Anthropic says OpenClaw-style Claude CLI usage is allowed again
    https://docs.openclaw.ai/providers/anthropic
 
-3. [96 pts] A Roblox cheat and one AI tool brought down Vercel's platform
-   https://webmatrices.com/post/how-a-roblox-cheat-and-one-ai-tool-brought-down-vercel-s-entire-platform
+19. [97 pts] Clojure: Transducers
+   https://clojure.org/reference/transducers
 
-4. [37 pts] Show HN: Mediator.ai – Using Nash bargaining and LLMs to systematize fairness
+20. [8 pts] Ibuilt a tiny Unix‑like 'OS' with shell and filesystem for Arduino UNO (2KB RAM)
+   https://github.com/Arc1011/KernelUNO
+
+21. [222 pts] MNT Reform is an open hardware laptop, designed and assembled in Germany
+   http://mnt.stanleylieber.com/reform/
+
+22. [34 pts] Show HN: Daemons – we pivoted from building agents to cleaning up after them
+   https://charlielabs.ai/
+
+23. [24 pts] Show HN: Ctx – a /resume that works across Claude Code and Codex
+   https://github.com/dchu917/ctx
+
+24. [45 pts] Meta capturing employee mouse movements, keystrokes for AI training data
+   https://economictimes.indiatimes.com/tech/technology/meta-to-start-capturing-employee-mouse-movements-keystrokes-for-ai-training-data/articleshow/130422612.cms?from=mdr
+
+25. [211 pts] Original GrapheneOS responses to WIRED fact checker
+   https://discuss.grapheneos.org/d/34369-original-grapheneos-responses-to-wired-fact-checker
+
+26. [127 pts] Show HN: Mediator.ai – Using Nash bargaining and LLMs to systematize fairness
    https://mediator.ai/
 
-5. [130 pts] How to make a fast dynamic language interpreter
-   https://zef-lang.dev/implementation
+27. [232 pts] Tim Cook's Impeccable Timing
+   https://stratechery.com/2026/tim-cooks-impeccable-timing/
 
-6. [23 pts] The Beauty of Bonsai Styles
-   https://longwoodgardens.org/blog/2023-05-17/beauty-bonsai-styles
+28. [34 pts] Leonardo, Borgia, and Machiavelli: A Fateful Collusion
+   https://www.historytoday.com/archive/leonardo-borgia-and-machiavelli-fateful-collusion
 
-7. [600 pts] Qwen3.6-Max-Preview: Smarter, Sharper, Still Evolving
-   https://qwen.ai/blog?id=qwen3.6-max-preview
+29. [53 pts] Slava's Monoid Zoo
+   https://factorcode.org/slava/monoids.html
 
-8. [43 pts] How a subsea cable is repaired
-   https://www.onesteppower.com/post/subsea-cable-repair
-
-9. [3 pts] Using Changesets in a polyglot monorepo
-   https://luke.hsiao.dev/blog/changesets-polyglot-monorepo/
-
-10. [208 pts] Jujutsu megamerges for fun and profit
-   https://isaaccorbrey.com/notes/jujutsu-megamerges-for-fun-and-profit
-
-11. [229 pts] Kimi vendor verifier – verify accuracy of inference providers
-   https://www.kimi.com/blog/kimi-vendor-verifier
-
-12. [3 pts] Louis Zocchi, inventor of the d100, has died
-   https://icv2.com/articles/news/view/62176/r-i-p-louis-zocchi-the-godfather-dice
-
-13. [126 pts] Ternary Bonsai: Top Intelligence at 1.58 Bits
-   https://prismml.com/news/ternary-bonsai
-
-14. [25 pts] Prediction markets are breaking the news and becoming their own beat
-   https://www.niemanlab.org/2026/04/prediction-markets-are-breaking-the-news-and-becoming-their-own-beat/
-
-15. [14 pts] Tim Davis – Probabilistic engineering and the 24-7 employee
-   https://www.timdavis.com/blog/probabilistic-engineering-and-the-24-7-employee
-
-16. [72 pts] Air is full of DNA
-   https://www.nature.com/articles/d41586-026-01099-2
-
-17. [7 pts] Bullshit About Bullshit Machines [pdf]
-   https://aphyr.com/data/posts/411/the-future-of-everything-is-lies.pdf
-
-18. [71 pts] Japan's cherry blossom database, 1,200 years old, has a new keeper
-   https://www.nytimes.com/2026/04/17/climate/japan-cherry-blossom-database-scientist.html
-
-19. [395 pts] ggsql: A Grammar of Graphics for SQL
-   https://opensource.posit.co/blog/2026-04-20_ggsql_alpha_release/
-
-20. [113 pts] Soul Player C64 – A real transformer running on a 1 MHz Commodore 64
-   https://github.com/gizmo64k/soulplayer-c64
-
-21. [73 pts] Monero Community Crowdfunding System
-   https://ccs.getmonero.org/ideas/
-
-22. [197 pts] Quantum Computers Are Not a Threat to 128-Bit Symmetric Keys
-   https://words.filippo.io/128-bits/
-
-23. [197 pts] Brussels launched an age checking app. Hackers took 2 minutes to break it
-   https://www.politico.eu/article/eu-brussels-launched-age-checking-app-hackers-say-took-them-2-minutes-break-it/
-
-24. [131 pts] Modern Rendering Culling Techniques
-   https://krupitskas.com/posts/modern_culling_techniques/
-
-25. [1155 pts] All phones sold in the EU to have replaceable batteries from 2027
-   https://www.theolivepress.es/spain-news/2026/04/20/eu-to-force-replaceable-batteries-in-phones-and-tablets-from-2027/
-
-26. [41 pts] Year of the IPv6 Overlay Network
-   https://www.defined.net/blog/year-of-the-ipv6-overlay-network/
-
-27. [147 pts] Kefir C17/C23 Compiler
-   https://sr.ht/~jprotopopov/kefir/
-
-28. [232 pts] WebUSB Extension for Firefox
-   https://github.com/ArcaneNibble/awawausb
-
-29. [258 pts] OpenAI ad partner now selling ChatGPT ad placements based on “prompt relevance”
-   https://www.adweek.com/media/exclusive-leaked-deck-reveals-stackadapts-playbook-for-chatgpt-ads/
-
-30. [70 pts] Zero-Copy Pages in Rust: Or How I Learned to Stop Worrying and Love Lifetimes
-   https://redixhumayun.github.io/databases/2026/04/14/zero-copy-pages-in-rust.html
+30. [194 pts] Anthropic takes $5B from Amazon and pledges $100B in cloud spending in return
+   https://techcrunch.com/2026/04/20/anthropic-takes-5b-from-amazon-and-pledges-100b-in-cloud-spending-in-return/
 
 
 === RSS ===
+[ideas] Stratechery: Tim Cook’s Impeccable Timing
+  https://stratechery.com/2026/tim-cooks-impeccable-timing/
+
 [ideas] Stratechery: TSMC Earnings, New N3 Fabs, The Nvidia Ramp
   https://stratechery.com/2026/tsmc-earnings-new-n3-fabs-the-nvidia-ramp/
 
 [health] Peter Attia: #388 — Prostate cancer screening: why current PSA guidelines are failing men and how modern tools improve early detection and save lives
   https://peterattiamd.com/prostatecancerscreening/
 
-[health] Peter Attia: Prostate cancer: a PSA on PSA
-  https://peterattiamd.com/prostate-cancer-psa/
+[bitcoin] The Pomp Letter: Prediction Markets Will Become An Essential Tool In Investor Portfolios
+  https://pomp.substack.com/p/prediction-markets-will-become-an
+
+[bitcoin] The Pomp Letter: Bitcoin Has Become The King Of Safe Haven Assets
+  https://pomp.substack.com/p/bitcoin-has-become-the-king-of-safe
+
+[bitcoin] Bitcoin Magazine: New York Sues Coinbase and Gemini Over Alleged Illegal Prediction Market Gambling Operations
+  https://bitcoinmagazine.com/news/new-york-sues-coinbase-and-gemini
+
+[bitcoin] Bitcoin Magazine: Bitcoin Whales Accumulate 45,000 BTC as Warsh and Paparo Back Bitcoin’s Role
+  https://bitcoinmagazine.com/news/bitcoin-whales-accumulate-45000-btc
+
+[bitcoin] Bitcoin Magazine: Top U.S. Pacific Commander Calls Bitcoin a “Valuable Computer Science Tool” for National Power And Security
+  https://bitcoinmagazine.com/news/pacific-commander-calls-bitcoin-valuable
+
+[bitcoin] Bitcoin Magazine: Scammers Target Stranded Ships in Strait of Hormuz With Fake Bitcoin Transit Fees
+  https://bitcoinmagazine.com/news/bitcoin-scammers-target-stranded-ships
+
+[bitcoin] Bitcoin Magazine: Morgan Stanley’s Spot Bitcoin ETF Tops $139M in Assets Within Nine Days
+  https://bitcoinmagazine.com/news/morgan-stanleys-spot-bitcoin-etf-tops-139m-in-assets-within-nine-days
+
+[bitcoin] Bitcoin Magazine: Onramp Launches Finance Platform Combining Cash, Bitcoin and Gold in One Account
+  https://bitcoinmagazine.com/news/onramp-launches-finance-platform-bitcoin
 
 [bitcoin] Bitcoin Magazine: Bitcoin Price Retakes $76,500 as Iran Tensions and Oil Volatility Drive Market Uncertainty
   https://bitcoinmagazine.com/markets/bitcoin-price-retakes-76500-as-iran-tensions-and-oil-volatility-drive-market-uncertainty
@@ -106,23 +130,115 @@
 [bitcoin] Bitcoin Magazine: Alcoa Nears Sale of Idle New York Smelter to NYDIG for Bitcoin Mining Use
   https://bitcoinmagazine.com/news/alcoa-nears-sale-of-idle-new-york
 
-[bitcoin] Bitcoin Magazine: Jason Lowery Appointed Special Assistant to U.S. Indo-Pacific Command Commander, Bringing Bitcoin Strategic Expertise
-  https://bitcoinmagazine.com/politics/jason-lowery-appointed-special-assistant-to-u-s-indo-pacific-command-commander-bringing-bitcoin-strategic-expertise
-
-[bitcoin] Bitcoin Magazine: Capital B Buys 12 Bitcoin, Expands Treasury to 2,937 BTC
-  https://bitcoinmagazine.com/news/capital-b-buys-12-bitcoin
-
-[bitcoin] Bitcoin Magazine: Spot Bitcoin ETFs Cross $1B Last Week in Inflows as Cumulative Flows Approach Record High
-  https://bitcoinmagazine.com/news/spot-bitcoin-etfs-cross-1b
-
-[bitcoin] Bitcoin Magazine: Strategy (MSTR) Buys $2.54B in Bitcoin in Third-Largest Purchase, Surpasses BlackRock Holdings
-  https://bitcoinmagazine.com/news/strategy-mstr-buys-2-54b-in-bitcoin
-
-[bitcoin] Bitcoin Magazine: Lydian Launches Visa Platinum Crypto Card to Enable Everyday Spending of Digital Assets
-  https://bitcoinmagazine.com/news/lydian-launches-visa-platinum-crypto-card
+[ai] OpenAI Blog: Scaling Codex to enterprises worldwide
+  https://openai.com/index/scaling-codex-to-enterprises-worldwide
 
 [ai] OpenAI Blog: OpenAI helps Hyatt advance AI among colleagues
   https://openai.com/index/hyatt-advances-ai-with-chatgpt-enterprise
 
 
 === YOUTUBE ===
+Dr. Sten Ekberg: Top 10 SUPER FOODS That Can Heal A FATTY LIVER!
+  https://www.youtube.com/watch?v=kb6xfIv1tSY
+  Transcript: yes
+
+ModernWisdom: Oz Pearlman Broke Chris's Mind
+  https://www.youtube.com/watch?v=xLDpca-3-LE
+  Transcript: yes
+
+ModernWisdom: Is Hypergamy Shifting? | Dr Debra Soh
+  https://www.youtube.com/shorts/it9qQ_bZsz4
+  Transcript: yes
+
+ModernWisdom: Most Men Never Hear This | @matthewhussey
+  https://www.youtube.com/shorts/6hhIekLy1lU
+  Transcript: yes
+
+ModernWisdom: A Shocking Turn in the War on Men - Richard Reeves
+  https://www.youtube.com/watch?v=5E3sDYiOVGs
+  Transcript: yes
+
+Lex Fridman: Vikings, Ragnar, Berserkers, Valhalla & the Warriors of the Viking Age | Lex Fridman Podcast #495
+  https://www.youtube.com/watch?v=iKx3gAODybU
+  Transcript: yes
+
+Joe Rogan: Joe Rogan Experience #2486 - Luis J Gomez
+  https://www.youtube.com/watch?v=k2D-xNI7XgY
+  Transcript: yes
+
+Renaissance Periodization: 2 Workouts / Week Build Muscle
+  https://www.youtube.com/shorts/dgbthh_f1J4
+  Transcript: yes
+
+Renaissance Periodization: Pilates Won’t Build Your Body
+  https://www.youtube.com/shorts/WkbzWN5nwVs
+  Transcript: yes
+
+Renaissance Periodization: The Only Dumbbell Lateral Raise Guide You Need (For Side Delt Growth)
+  https://www.youtube.com/watch?v=4hTUCDUQaNA
+  Transcript: yes
+
+Renaissance Periodization: The Next BIG Weight Loss Drug
+  https://www.youtube.com/shorts/wPtAAA-eOjo
+  Transcript: yes
+
+GTO Wizard: Can AI Actually Play Poker?
+  https://www.youtube.com/shorts/Qk_8BSQmXF4
+  Transcript: yes
+
+Paul Saladino MD: The healthiest foods at Sprouts
+  https://www.youtube.com/shorts/fMHs6dhroP0
+  Transcript: yes
+
+Paul Saladino MD: Do this to increase creatine absorption
+  https://www.youtube.com/shorts/2Bd1P5HWCnQ
+  Transcript: yes
+
+Paul Saladino MD: How I recover so quickly 🤒
+  https://www.youtube.com/shorts/03Rq-FSYdT0
+  Transcript: yes
+
+Paul Saladino MD: Dermatologists lied to you about the sun
+  https://www.youtube.com/shorts/BjzSZ_2GBLY
+  Transcript: yes
+
+GTO Lab: 🔥Get Ready For WSOP Bootcamp is here
+  https://www.youtube.com/shorts/b99JDbJxDGE
+  Transcript: yes
+
+GTO Lab: Why This River Decision Isn’t As Obvious As It Looks | With Jonathan Jaffe & Nick Petrangelo
+  https://www.youtube.com/watch?v=yf_YpSu4f9U
+  Transcript: yes
+
+GTO Lab: Be aware of EQUITY disadvantage while defending the BB - Ben Heath
+  https://www.youtube.com/shorts/X8ka5ui0iIY
+  Transcript: NO
+
+Anthony Chaffee MD: It's Not About A Few Years Of Your Life #shortvideo #shorts #short
+  https://www.youtube.com/shorts/G_vHuFnvFsY
+  Transcript: yes
+
+Ken Berry MD: 7 Skin Signs of Insulin Resistance (Even If You’re Slim!)
+  https://www.youtube.com/watch?v=X9GnsVdhUKM
+  Transcript: yes
+
+Jared Alderman: Poker's Next Frontier Is Not What You Think
+  https://www.youtube.com/watch?v=40VErN0VUhE
+  Transcript: yes
+
+Nick Norwitz: I Ate 1000 Sardines—My Omega-3 Levels Went Off the Charts
+  https://www.youtube.com/shorts/flcBKoxpmTw
+  Transcript: yes
+
+Nick Norwitz: Can This Nut Make New Neurons?
+  https://www.youtube.com/watch?v=MMU3QIyam1Y
+  Transcript: yes
+
+Peter Attia: Is Industrial Processing the Real Problem With Seed Oils? | Layne Norton, Ph.D.
+  https://www.youtube.com/watch?v=Tsqzx3L6UWs
+  Transcript: yes
+
+Thomas DeLauer: This Stops Hair from Greying (and it works fast)
+  https://www.youtube.com/watch?v=hQMlgg4LlFA
+  Transcript: yes
+
