@@ -1,13 +1,14 @@
 {
   "current_suggestion": {
-    "channel_name": "Dr. Layne Norton",
-    "channel_id": "UCqMBA83S0TnfTlTeE5j1mgQ",
-    "youtube_handle": "@BioLayne",
-    "pitch": "Your current health channels skew heavily toward carnivore and low-carb advocacy (Saladino, Chaffee, Ekberg), and Layne Norton is the most rigorous counterweight available \u2014 a PhD in nutritional sciences who systematically examines the actual study designs and effect sizes behind diet claims, including direct debates with carnivore proponents. He covers protein optimization, body composition, and metabolic research with a level of statistical literacy that Renaissance Periodization touches on for training but nobody in your feed applies to diet. Format is a mix of solo breakdowns, live Q&As, and occasional long-form interviews, consistently staying close to primary literature."
+    "channel_name": "Bryan Johnson",
+    "channel_id": "UCnRVL1-HJnXWB_Xi2dAoTcg",
+    "youtube_handle": "@bryanjohnson_",
+    "pitch": "Your health channels (Attia, Saladino, Chaffee) focus on diet and exercise interventions, but Bryan Johnson is running the most obsessively measured self-experiment in longevity \u2014 tracking dozens of biomarkers continuously and publishing the actual data, which steelmans a more systems-level, protocol-driven approach to aging that none of your current channels take. He also sits at a genuine intersection of AI capability (he thinks seriously about what it means to build aligned systems) and personal philosophy around autonomy and decision-making, covering territory your channels leave untouched. Format is a mix of solo explainers and interviews, typically data-heavy and unconventional in framing."
   },
-  "shown_count": 3,
+  "shown_count": 1,
   "history": [
     "Brad Kearns",
-    "Dr. Layne Norton"
+    "Dr. Layne Norton",
+    "Bryan Johnson"
   ]
 }

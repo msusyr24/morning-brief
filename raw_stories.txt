@@ -1,111 +1,96 @@
 === HACKER NEWS ===
-1. [81 pts] The Vercel breach: OAuth attack exposes risk in platform environment variables
+1. [91 pts] The Vercel breach: OAuth attack exposes risk in platform environment variables
    https://www.trendmicro.com/en_us/research/26/d/vercel-breach-oauth-supply-chain.html
 
-2. [51 pts] Britannica11.org – a structured edition of the 1911 Encyclopædia Britannica
+2. [58 pts] Britannica11.org – a structured edition of the 1911 Encyclopædia Britannica
    https://britannica11.org/
 
-3. [145 pts] Framework Laptop 13 Pro
+3. [174 pts] Framework Laptop 13 Pro
    https://frame.work/laptop13pro
 
-4. [645 pts] Laws of Software Engineering
-   https://lawsofsoftwareengineering.com
-
-5. [13 pts] Cal.diy: open-source community edition of cal.com
+4. [17 pts] Cal.diy: open-source community edition of cal.com
    https://github.com/calcom/cal.diy
 
-6. [66 pts] A Periodic Map of Cheese
+5. [654 pts] Laws of Software Engineering
+   https://lawsofsoftwareengineering.com
+
+6. [69 pts] A Periodic Map of Cheese
    https://cheesemap.netlify.app/
 
 7. [111 pts] Show HN: GoModel – an open-source AI gateway in Go
    https://github.com/ENTERPILOT/GOModel/
 
-8. [95 pts] Fusion Power Plant Simulator
+8. [97 pts] Fusion Power Plant Simulator
    https://www.fusionenergybase.com/fusion-power-plant-simulator
 
-9. [152 pts] Edit store price tags using Flipper Zero
+9. [158 pts] Edit store price tags using Flipper Zero
    https://github.com/i12bp8/TagTinker
 
 10. [1 pts] Trellis AI (YC W24) Is hiring engineers to build self-improving agents
    https://www.ycombinator.com/companies/trellis-ai/jobs/SvzJaTH-member-of-technical-staff-product-engineering-full-time
 
-11. [25 pts] Modern Front end Complexity: essential or accidental?
+11. [27 pts] Modern Front end Complexity: essential or accidental?
    https://binaryigor.com/modern-frontend-complexity.html
 
-12. [135 pts] Running a Minecraft Server and More on a 1960s Univac Computer
-   https://farlow.dev/2026/04/17/running-a-minecraft-server-and-more-on-a-1960s-univac-computer
-
-13. [197 pts] Show HN: VidStudio, a browser based video editor that doesn't upload your files
+12. [199 pts] Show HN: VidStudio, a browser based video editor that doesn't upload your files
    https://vidstudio.app/video-editor
+
+13. [135 pts] Running a Minecraft Server and More on a 1960s Univac Computer
+   https://farlow.dev/2026/04/17/running-a-minecraft-server-and-more-on-a-1960s-univac-computer
 
 14. [27 pts] Kasane: New drop-in Kakoune front end with GPU rendering and WASM Plugins
    https://github.com/Yus314/kasane
 
-15. [10 pts] Theseus, a Static Windows Emulator
+15. [12 pts] Theseus, a Static Windows Emulator
    https://neugierig.org/software/blog/2026/04/theseus.html
 
-16. [93 pts] Tindie store under "scheduled maintenance" for days
+16. [94 pts] Tindie store under "scheduled maintenance" for days
    https://www.tindie.com/
 
-17. [119 pts] A type-safe, realtime collaborative Graph Database in a CRDT
+17. [121 pts] A type-safe, realtime collaborative Graph Database in a CRDT
    https://codemix.com/graph
 
-18. [420 pts] Anthropic says OpenClaw-style Claude CLI usage is allowed again
+18. [422 pts] Anthropic says OpenClaw-style Claude CLI usage is allowed again
    https://docs.openclaw.ai/providers/anthropic
 
-19. [97 pts] Clojure: Transducers
+19. [100 pts] Clojure: Transducers
    https://clojure.org/reference/transducers
 
-20. [8 pts] Ibuilt a tiny Unix‑like 'OS' with shell and filesystem for Arduino UNO (2KB RAM)
-   https://github.com/Arc1011/KernelUNO
-
-21. [222 pts] MNT Reform is an open hardware laptop, designed and assembled in Germany
+20. [225 pts] MNT Reform is an open hardware laptop, designed and assembled in Germany
    http://mnt.stanleylieber.com/reform/
 
-22. [34 pts] Show HN: Daemons – we pivoted from building agents to cleaning up after them
-   https://charlielabs.ai/
-
-23. [24 pts] Show HN: Ctx – a /resume that works across Claude Code and Codex
-   https://github.com/dchu917/ctx
-
-24. [45 pts] Meta capturing employee mouse movements, keystrokes for AI training data
+21. [49 pts] Meta capturing employee mouse movements, keystrokes for AI training data
    https://economictimes.indiatimes.com/tech/technology/meta-to-start-capturing-employee-mouse-movements-keystrokes-for-ai-training-data/articleshow/130422612.cms?from=mdr
 
-25. [211 pts] Original GrapheneOS responses to WIRED fact checker
-   https://discuss.grapheneos.org/d/34369-original-grapheneos-responses-to-wired-fact-checker
+22. [25 pts] Show HN: Ctx – a /resume that works across Claude Code and Codex
+   https://github.com/dchu917/ctx
+
+23. [9 pts] Ibuilt a tiny Unix‑like 'OS' with shell and filesystem for Arduino UNO (2KB RAM)
+   https://github.com/Arc1011/KernelUNO
+
+24. [35 pts] Show HN: Daemons – we pivoted from building agents to cleaning up after them
+   https://charlielabs.ai/
+
+25. [239 pts] Tim Cook's Impeccable Timing
+   https://stratechery.com/2026/tim-cooks-impeccable-timing/
 
 26. [127 pts] Show HN: Mediator.ai – Using Nash bargaining and LLMs to systematize fairness
    https://mediator.ai/
 
-27. [232 pts] Tim Cook's Impeccable Timing
-   https://stratechery.com/2026/tim-cooks-impeccable-timing/
+27. [21 pts] Colorado River disappeared record for 5M years: now we know where it was
+   https://phys.org/news/2026-04-colorado-river-geological-million-years.html
 
-28. [34 pts] Leonardo, Borgia, and Machiavelli: A Fateful Collusion
+28. [212 pts] Original GrapheneOS responses to WIRED fact checker
+   https://discuss.grapheneos.org/d/34369-original-grapheneos-responses-to-wired-fact-checker
+
+29. [34 pts] Leonardo, Borgia, and Machiavelli: A Fateful Collusion
    https://www.historytoday.com/archive/leonardo-borgia-and-machiavelli-fateful-collusion
 
-29. [53 pts] Slava's Monoid Zoo
-   https://factorcode.org/slava/monoids.html
-
-30. [194 pts] Anthropic takes $5B from Amazon and pledges $100B in cloud spending in return
+30. [196 pts] Anthropic takes $5B from Amazon and pledges $100B in cloud spending in return
    https://techcrunch.com/2026/04/20/anthropic-takes-5b-from-amazon-and-pledges-100b-in-cloud-spending-in-return/
 
 
 === RSS ===
-[ideas] Stratechery: Tim Cook’s Impeccable Timing
-  https://stratechery.com/2026/tim-cooks-impeccable-timing/
-
-[ideas] Stratechery: TSMC Earnings, New N3 Fabs, The Nvidia Ramp
-  https://stratechery.com/2026/tsmc-earnings-new-n3-fabs-the-nvidia-ramp/
-
-[health] Peter Attia: #388 — Prostate cancer screening: why current PSA guidelines are failing men and how modern tools improve early detection and save lives
-  https://peterattiamd.com/prostatecancerscreening/
-
-[bitcoin] The Pomp Letter: Prediction Markets Will Become An Essential Tool In Investor Portfolios
-  https://pomp.substack.com/p/prediction-markets-will-become-an
-
-[bitcoin] The Pomp Letter: Bitcoin Has Become The King Of Safe Haven Assets
-  https://pomp.substack.com/p/bitcoin-has-become-the-king-of-safe
-
 [bitcoin] Bitcoin Magazine: New York Sues Coinbase and Gemini Over Alleged Illegal Prediction Market Gambling Operations
   https://bitcoinmagazine.com/news/new-york-sues-coinbase-and-gemini
 
@@ -130,6 +115,15 @@
 [bitcoin] Bitcoin Magazine: Alcoa Nears Sale of Idle New York Smelter to NYDIG for Bitcoin Mining Use
   https://bitcoinmagazine.com/news/alcoa-nears-sale-of-idle-new-york
 
+[ideas] Stratechery: Tim Cook’s Impeccable Timing
+  https://stratechery.com/2026/tim-cooks-impeccable-timing/
+
+[ideas] Stratechery: TSMC Earnings, New N3 Fabs, The Nvidia Ramp
+  https://stratechery.com/2026/tsmc-earnings-new-n3-fabs-the-nvidia-ramp/
+
+[health] Peter Attia: #388 — Prostate cancer screening: why current PSA guidelines are failing men and how modern tools improve early detection and save lives
+  https://peterattiamd.com/prostatecancerscreening/
+
 [ai] OpenAI Blog: Scaling Codex to enterprises worldwide
   https://openai.com/index/scaling-codex-to-enterprises-worldwide
 
@@ -138,107 +132,59 @@
 
 
 === YOUTUBE ===
-Dr. Sten Ekberg: Top 10 SUPER FOODS That Can Heal A FATTY LIVER!
-  https://www.youtube.com/watch?v=kb6xfIv1tSY
-  Transcript: yes
-
-ModernWisdom: Oz Pearlman Broke Chris's Mind
-  https://www.youtube.com/watch?v=xLDpca-3-LE
-  Transcript: yes
-
-ModernWisdom: Is Hypergamy Shifting? | Dr Debra Soh
-  https://www.youtube.com/shorts/it9qQ_bZsz4
-  Transcript: yes
-
-ModernWisdom: Most Men Never Hear This | @matthewhussey
-  https://www.youtube.com/shorts/6hhIekLy1lU
-  Transcript: yes
-
-ModernWisdom: A Shocking Turn in the War on Men - Richard Reeves
-  https://www.youtube.com/watch?v=5E3sDYiOVGs
-  Transcript: yes
-
-Lex Fridman: Vikings, Ragnar, Berserkers, Valhalla & the Warriors of the Viking Age | Lex Fridman Podcast #495
-  https://www.youtube.com/watch?v=iKx3gAODybU
+Paul Saladino MD: The healthiest foods at Sprouts
+  https://www.youtube.com/shorts/fMHs6dhroP0
   Transcript: yes
 
 Joe Rogan: Joe Rogan Experience #2486 - Luis J Gomez
   https://www.youtube.com/watch?v=k2D-xNI7XgY
   Transcript: yes
 
-Renaissance Periodization: 2 Workouts / Week Build Muscle
-  https://www.youtube.com/shorts/dgbthh_f1J4
+Nick Norwitz: I Ate 1000 Sardines—My Omega-3 Levels Went Off the Charts
+  https://www.youtube.com/shorts/flcBKoxpmTw
   Transcript: yes
 
-Renaissance Periodization: Pilates Won’t Build Your Body
-  https://www.youtube.com/shorts/WkbzWN5nwVs
-  Transcript: yes
+Lex Fridman: Vikings, Ragnar, Berserkers, Valhalla & the Warriors of the Viking Age | Lex Fridman Podcast #495
+  https://www.youtube.com/watch?v=iKx3gAODybU
+  Transcript: NO
 
-Renaissance Periodization: The Only Dumbbell Lateral Raise Guide You Need (For Side Delt Growth)
-  https://www.youtube.com/watch?v=4hTUCDUQaNA
-  Transcript: yes
-
-Renaissance Periodization: The Next BIG Weight Loss Drug
-  https://www.youtube.com/shorts/wPtAAA-eOjo
+ModernWisdom: Oz Pearlman Broke Chris's Mind
+  https://www.youtube.com/watch?v=xLDpca-3-LE
   Transcript: yes
 
 GTO Wizard: Can AI Actually Play Poker?
   https://www.youtube.com/shorts/Qk_8BSQmXF4
   Transcript: yes
 
-Paul Saladino MD: The healthiest foods at Sprouts
-  https://www.youtube.com/shorts/fMHs6dhroP0
-  Transcript: yes
-
-Paul Saladino MD: Do this to increase creatine absorption
-  https://www.youtube.com/shorts/2Bd1P5HWCnQ
-  Transcript: yes
-
-Paul Saladino MD: How I recover so quickly 🤒
-  https://www.youtube.com/shorts/03Rq-FSYdT0
-  Transcript: yes
-
-Paul Saladino MD: Dermatologists lied to you about the sun
-  https://www.youtube.com/shorts/BjzSZ_2GBLY
-  Transcript: yes
-
-GTO Lab: 🔥Get Ready For WSOP Bootcamp is here
-  https://www.youtube.com/shorts/b99JDbJxDGE
-  Transcript: yes
-
-GTO Lab: Why This River Decision Isn’t As Obvious As It Looks | With Jonathan Jaffe & Nick Petrangelo
-  https://www.youtube.com/watch?v=yf_YpSu4f9U
-  Transcript: yes
-
-GTO Lab: Be aware of EQUITY disadvantage while defending the BB - Ben Heath
-  https://www.youtube.com/shorts/X8ka5ui0iIY
-  Transcript: NO
-
 Anthony Chaffee MD: It's Not About A Few Years Of Your Life #shortvideo #shorts #short
   https://www.youtube.com/shorts/G_vHuFnvFsY
-  Transcript: yes
-
-Ken Berry MD: 7 Skin Signs of Insulin Resistance (Even If You’re Slim!)
-  https://www.youtube.com/watch?v=X9GnsVdhUKM
   Transcript: yes
 
 Jared Alderman: Poker's Next Frontier Is Not What You Think
   https://www.youtube.com/watch?v=40VErN0VUhE
   Transcript: yes
 
-Nick Norwitz: I Ate 1000 Sardines—My Omega-3 Levels Went Off the Charts
-  https://www.youtube.com/shorts/flcBKoxpmTw
+Thomas DeLauer: This Stops Hair from Greying (and it works fast)
+  https://www.youtube.com/watch?v=hQMlgg4LlFA
   Transcript: yes
 
-Nick Norwitz: Can This Nut Make New Neurons?
-  https://www.youtube.com/watch?v=MMU3QIyam1Y
+GTO Lab: 🔥Get Ready For WSOP Bootcamp is here
+  https://www.youtube.com/shorts/b99JDbJxDGE
+  Transcript: yes
+
+Ken Berry MD: 7 Skin Signs of Insulin Resistance (Even If You’re Slim!)
+  https://www.youtube.com/watch?v=X9GnsVdhUKM
+  Transcript: yes
+
+Dr. Sten Ekberg: Top 10 SUPER FOODS That Can Heal A FATTY LIVER!
+  https://www.youtube.com/watch?v=kb6xfIv1tSY
+  Transcript: yes
+
+Renaissance Periodization: 2 Workouts / Week Build Muscle
+  https://www.youtube.com/shorts/dgbthh_f1J4
   Transcript: yes
 
 Peter Attia: Is Industrial Processing the Real Problem With Seed Oils? | Layne Norton, Ph.D.
   https://www.youtube.com/watch?v=Tsqzx3L6UWs
-  Transcript: yes
-
-Thomas DeLauer: This Stops Hair from Greying (and it works fast)
-  https://www.youtube.com/watch?v=hQMlgg4LlFA
   Transcript: yes
 
