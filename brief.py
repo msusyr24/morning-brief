@@ -132,6 +132,7 @@ RSS_SOURCES = {
         "url": "https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_anthropic_news.xml",
         "category": "ai",
         "max_items": 5,
+        "lookback_days": 14,
     },
     "OpenAI Blog": {
         "url": "https://openai.com/blog/rss.xml",
@@ -143,11 +144,6 @@ RSS_SOURCES = {
         "url": "https://fs.blog/feed/",
         "category": "wisdom",
         "max_items": 5,
-    },
-    "The Daily Stoic": {
-        "url": "https://dailystoic.com/feed/",
-        "category": "wisdom",
-        "max_items": 3,
     },
     # Long-form ideas / mental models
     "Astral Codex Ten": {
@@ -190,7 +186,7 @@ RSS_SOURCES = {
         "url": "https://www.strongerbyscience.com/feed/",
         "category": "health",
         "max_items": 3,
-        "lookback_days": 30,
+        "lookback_days": 60,
     },
     # AI capability
     "Simon Willison": {
@@ -220,14 +216,27 @@ def fetch_rss_source(name, config, days=3):
         proxy_url = f"http://{ws_user}-rotate:{ws_pass}@p.webshare.io:80"
         proxies = {"http": proxy_url, "https": proxy_url}
 
+    response = None
+    last_error = None
+    for attempt in range(3):
+        try:
+            response = requests.get(config["url"], headers=headers, timeout=30, proxies=proxies)
+            if response.status_code == 200:
+                break
+            last_error = f"HTTP {response.status_code}"
+        except Exception as e:
+            last_error = f"{type(e).__name__}"
+        response = None  # don't keep a failed response
+        time.sleep(1)  # brief pause; rotating proxy gives a new IP next attempt
+
+    if response is None:
+        print(f"[RSS] {name}: {last_error} (after 3 attempts)")
+        return []
+
     try:
-        response = requests.get(config["url"], headers=headers, timeout=30, proxies=proxies)
-        if response.status_code != 200:
-            print(f"[RSS] {name}: HTTP {response.status_code}")
-            return []
         feed = feedparser.parse(response.content)
     except Exception as e:
-        print(f"[RSS] {name}: fetch error — {type(e).__name__}")
+        print(f"[RSS] {name}: parse error — {type(e).__name__}")
         return []
 
     if feed.bozo and not feed.entries:
