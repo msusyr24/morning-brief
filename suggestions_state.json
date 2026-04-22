@@ -1,14 +1,15 @@
 {
   "current_suggestion": {
-    "channel_name": "Bryan Johnson",
-    "channel_id": "UCnRVL1-HJnXWB_Xi2dAoTcg",
-    "youtube_handle": "@bryanjohnson_",
-    "pitch": "Your health channels (Attia, Saladino, Chaffee) focus on diet and exercise interventions, but Bryan Johnson is running the most obsessively measured self-experiment in longevity \u2014 tracking dozens of biomarkers continuously and publishing the actual data, which steelmans a more systems-level, protocol-driven approach to aging that none of your current channels take. He also sits at a genuine intersection of AI capability (he thinks seriously about what it means to build aligned systems) and personal philosophy around autonomy and decision-making, covering territory your channels leave untouched. Format is a mix of solo explainers and interviews, typically data-heavy and unconventional in framing."
+    "channel_name": "Michael Levin's Academic Content",
+    "channel_id": "UC3pVafx6EZqXVI2V_Efu2uw",
+    "youtube_handle": "@drmichaellevin",
+    "pitch": "Levin is a biologist at Tufts whose work on bioelectricity, morphogenesis, and cognitive science sits at the intersection of biology, AI, and philosophy of mind \u2014 none of your current channels touch this territory. His core argument is that intelligence and goal-directedness are substrate-independent and exist at every level of biology, which directly steelmans a perspective missing from your carnivore/longevity stack and adds rigorous depth to your AI capability interests by asking what intelligence actually is. Mostly solo lectures and interview appearances, running 30\u201390 minutes, dense with empirical content and genuine conceptual challenge."
   },
-  "shown_count": 3,
+  "shown_count": 1,
   "history": [
     "Brad Kearns",
     "Dr. Layne Norton",
-    "Bryan Johnson"
+    "Bryan Johnson",
+    "Michael Levin's Academic Content"
   ]
 }
