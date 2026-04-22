@@ -1,104 +1,98 @@
 === HACKER NEWS ===
-1. [207 pts] Making RAM at Home [video]
+1. [46 pts] Windows 9x Subsystem for Linux
+   https://social.hails.org/@hailey/116446826733136456
+
+2. [352 pts] Making RAM at Home [video]
    https://www.youtube.com/watch?v=h6GWikWlAQA
 
-2. [709 pts] ChatGPT Images 2.0
+3. [827 pts] ChatGPT Images 2.0
    https://openai.com/index/introducing-chatgpt-images-2-0/
 
-3. [266 pts] Acetaminophen vs. ibuprofen
-   https://asteriskmag.com/issues/14/the-mystery-in-the-medicine-cabinet
+4. [18 pts] All your agents are going async
+   https://zknill.io/posts/all-your-agents-are-going-async/
 
-4. [57 pts] Diverse organic molecules on Mars revealed by the first SAM TMAH experiment
-   https://www.courthousenews.com/preserved-for-billions-of-years-organic-compounds-found-on-mars/
-
-5. [511 pts] SpaceX says it has agreement to acquire Cursor for $60B
-   https://twitter.com/spacex/status/2046713419978453374
-
-6. [930 pts] Laws of Software Engineering
-   https://lawsofsoftwareengineering.com
-
-7. [302 pts] The Vercel breach: OAuth attack exposes risk in platform environment variables
-   https://www.trendmicro.com/en_us/research/26/d/vercel-breach-oauth-supply-chain.html
-
-8. [115 pts] Drunk post: Things I've learned as a senior engineer (2021)
-   https://luminousmen.substack.com/p/drunk-post-things-ive-learned-as
-
-9. [13 pts] Garbage Collection Without Unsafe Code
+5. [53 pts] Garbage Collection Without Unsafe Code
    https://fitzgen.com/2024/02/06/safe-gc.html
 
-10. [269 pts] Britannica11.org – a structured edition of the 1911 Encyclopædia Britannica
+6. [34 pts] Contact Lens Uses Microfluidics to Monitor and Treat Glaucoma
+   https://spectrum.ieee.org/smart-contact-lens-glaucoma-microfluidics
+
+7. [1018 pts] Laws of Software Engineering
+   https://lawsofsoftwareengineering.com
+
+8. [71 pts] Diverse organic molecules on Mars revealed by the first SAM TMAH experiment
+   https://www.courthousenews.com/preserved-for-billions-of-years-organic-compounds-found-on-mars/
+
+9. [15 pts] MuJoCo – Advanced Physics Simulation
+   https://github.com/google-deepmind/mujoco
+
+10. [313 pts] The Vercel breach: OAuth attack exposes risk in platform environment variables
+   https://www.trendmicro.com/en_us/research/26/d/vercel-breach-oauth-supply-chain.html
+
+11. [599 pts] SpaceX says it has agreement to acquire Cursor for $60B
+   https://twitter.com/spacex/status/2046713419978453374
+
+12. [379 pts] Acetaminophen vs. ibuprofen
+   https://asteriskmag.com/issues/14/the-mystery-in-the-medicine-cabinet
+
+13. [290 pts] Britannica11.org – a structured edition of the 1911 Encyclopædia Britannica
    https://britannica11.org/
 
-11. [103 pts] Windows Server 2025 Runs Better on ARM
-   https://jasoneckert.github.io/myblog/server-2025-arm64/
+14. [5 pts] Context Is Software, Weights Are Hardware
+   https://www.aravindjayendran.com/writing/context-is-not-learning
 
-12. [174 pts] Stephen's Sausage Roll remains one of the most influential puzzle games
-   https://thinkygames.com/features/10-years-of-grilling-stephens-sausage-roll-remains-one-of-the-most-influential-puzzle-games-ever-created/
-
-13. [479 pts] Meta to start capturing employee mouse movements, keystrokes for AI training
-   https://www.reuters.com/sustainability/boards-policy-regulation/meta-start-capturing-employee-mouse-movements-keystrokes-ai-training-data-2026-04-21/
-
-14. [21 pts] A printing press for biological data
-   https://www.owlposting.com/p/the-printing-press-for-biological
-
-15. [108 pts] CrabTrap: An LLM-as-a-judge HTTP proxy to secure agents in production
-   https://www.brex.com/crabtrap
-
-16. [145 pts] Fusion Power Plant Simulator
-   https://www.fusionenergybase.com/fusion-power-plant-simulator
-
-17. [402 pts] Changes to GitHub Copilot individual plans
+15. [452 pts] Changes to GitHub Copilot individual plans
    https://github.blog/news-insights/company-news/changes-to-github-copilot-individual-plans/
 
-18. [1148 pts] Framework Laptop 13 Pro
+16. [199 pts] Stephen's Sausage Roll remains one of the most influential puzzle games
+   https://thinkygames.com/features/10-years-of-grilling-stephens-sausage-roll-remains-one-of-the-most-influential-puzzle-games-ever-created/
+
+17. [562 pts] Meta to start capturing employee mouse movements, keystrokes for AI training
+   https://www.reuters.com/sustainability/boards-policy-regulation/meta-start-capturing-employee-mouse-movements-keystrokes-ai-training-data-2026-04-21/
+
+18. [159 pts] Fusion Power Plant Simulator
+   https://www.fusionenergybase.com/fusion-power-plant-simulator
+
+19. [130 pts] Windows Server 2025 Runs Better on ARM
+   https://jasoneckert.github.io/myblog/server-2025-arm64/
+
+20. [1272 pts] Framework Laptop 13 Pro
    https://frame.work/laptop13pro
 
-19. [185 pts] Cal.diy: open-source community edition of cal.com
+21. [21 pts] Meta employees are up in arms over a mandatory program to train AI on their
+   https://www.businessinsider.com/meta-new-ai-tool-tracks-staff-activity-sparks-concern-2026-4
+
+22. [206 pts] Cal.diy: open-source community edition of cal.com
    https://github.com/calcom/cal.diy
 
-20. [24 pts] Hunting a 34 year old pointer bug in EtherSlip
-   https://www.brutman.com/Adventures_In_Code/EtherSlip_ARP/EtherSlip_ARP.html
+23. [13 pts] Rock carving facts – Tanum Sweden
+   https://www.tanumworldheritage.se/rock-carving-facts/?lang=en
 
-21. [325 pts] Edit store price tags using Flipper Zero
+24. [338 pts] Edit store price tags using Flipper Zero
    https://github.com/i12bp8/TagTinker
 
-22. [103 pts] FBI looks into dead or missing scientists tied to NASA, Blue Origin, SpaceX
-   https://fortune.com/2026/04/21/scientists-disappear-die-nasa-space-blue-origin-spacex/
+25. [113 pts] CrabTrap: An LLM-as-a-judge HTTP proxy to secure agents in production
+   https://www.brex.com/crabtrap
 
-23. [13 pts] Kuri – Zig based agent-browser alternative
+26. [144 pts] Drunk post: Things I've learned as a senior engineer (2021)
+   https://luminousmen.substack.com/p/drunk-post-things-ive-learned-as
+
+27. [29 pts] A printing press for biological data
+   https://www.owlposting.com/p/the-printing-press-for-biological
+
+28. [28 pts] Kuri – Zig based agent-browser alternative
    https://github.com/justrach/kuri
 
-24. [16 pts] Some secret management belongs in your HTTP proxy
-   https://blog.exe.dev/http-proxy-secrets
+29. [23 pts] What Async Promised and What It Delivered
+   https://causality.blog/essays/what-async-promised/
 
-25. [500 pts] Claude Code to be removed from Anthropic's Pro plan?
+30. [578 pts] Claude Code to be removed from Anthropic's Pro plan?
    https://bsky.app/profile/edzitron.com/post/3mjzxwfx3qs2a
-
-26. [7 pts] 20000 Gates and 20 MIPS [pdf]
-   https://bitsavers.org/pdf/amdahl/history/20000_Gates_and_20_MIPS_199011.pdf
-
-27. [212 pts] Running a Minecraft Server and more on a 1960s UNIVAC Computer
-   https://farlow.dev/2026/04/17/running-a-minecraft-server-and-more-on-a-1960s-univac-computer
-
-28. [266 pts] Show HN: VidStudio, a browser based video editor that doesn't upload your files
-   https://vidstudio.app/video-editor
-
-29. [69 pts] Global growth in solar "the largest ever observed for any source"
-   https://arstechnica.com/science/2026/04/global-growth-in-solar-the-largest-ever-observed-for-any-source/
-
-30. [97 pts] Theseus, a Static Windows Emulator
-   https://neugierig.org/software/blog/2026/04/theseus.html
 
 
 === RSS ===
-[health] Peter Attia: #388 — Prostate cancer screening: why current PSA guidelines are failing men and how modern tools improve early detection and save lives
-  https://peterattiamd.com/prostatecancerscreening/
-
-[ideas] Stratechery: Tim Cook’s Impeccable Timing
-  https://stratechery.com/2026/tim-cooks-impeccable-timing/
-
-[ideas] Stratechery: TSMC Earnings, New N3 Fabs, The Nvidia Ramp
-  https://stratechery.com/2026/tsmc-earnings-new-n3-fabs-the-nvidia-ramp/
+[wisdom] Farnam Street: Greg Brockman: Inside the 72 Hours That Almost Killed OpenAI
+  https://fs.blog/knowledge-project-podcast/greg-brockman/
 
 [bitcoin] Bitcoin Magazine: Relics of a Revolution, Part IV: The Bank Was Already Burning
   https://bitcoinmagazine.com/culture/relics-of-a-revolution-part-iv
@@ -124,6 +118,18 @@
 [bitcoin] Bitcoin Magazine: Morgan Stanley’s Spot Bitcoin ETF Tops $139M in Assets Within Nine Days
   https://bitcoinmagazine.com/news/morgan-stanleys-spot-bitcoin-etf-tops-139m-in-assets-within-nine-days
 
+[ideas] Stratechery: John Ternus and Apple’s Hardware-Defined Future, SpaceXAI and Cursor
+  https://stratechery.com/2026/john-ternus-and-apples-hardware-defined-future-spacexai-and-cursor/
+
+[ideas] Stratechery: Tim Cook’s Impeccable Timing
+  https://stratechery.com/2026/tim-cooks-impeccable-timing/
+
+[ideas] Stratechery: TSMC Earnings, New N3 Fabs, The Nvidia Ramp
+  https://stratechery.com/2026/tsmc-earnings-new-n3-fabs-the-nvidia-ramp/
+
+[health] Peter Attia: #388 — Prostate cancer screening: why current PSA guidelines are failing men and how modern tools improve early detection and save lives
+  https://peterattiamd.com/prostatecancerscreening/
+
 [ai] OpenAI Blog: Scaling Codex to enterprises worldwide
   https://openai.com/index/scaling-codex-to-enterprises-worldwide
 
@@ -132,7 +138,63 @@
 
 
 === YOUTUBE ===
+GTO Wizard: Can AI Actually Play Poker?
+  https://www.youtube.com/shorts/Qk_8BSQmXF4
+  Transcript: yes
+
+Thomas DeLauer: This Stops Hair from Greying (and it works fast)
+  https://www.youtube.com/watch?v=hQMlgg4LlFA
+  Transcript: yes
+
+Peter Attia: Is Industrial Processing the Real Problem With Seed Oils? | Layne Norton, Ph.D.
+  https://www.youtube.com/watch?v=Tsqzx3L6UWs
+  Transcript: yes
+
+Jared Alderman: Poker's Next Frontier Is Not What You Think
+  https://www.youtube.com/watch?v=40VErN0VUhE
+  Transcript: yes
+
+GTO Lab: 🔥Get Ready For WSOP Bootcamp is here
+  https://www.youtube.com/shorts/b99JDbJxDGE
+  Transcript: yes
+
+Anthony Chaffee MD: His Time Improved by 20% #shorts #short #shortvideo
+  https://www.youtube.com/shorts/JF32bWd-Db0
+  Transcript: yes
+
+Ken Berry MD: 7 Skin Signs of Insulin Resistance (Even If You’re Slim!)
+  https://www.youtube.com/watch?v=X9GnsVdhUKM
+  Transcript: yes
+
+Joe Rogan: Joe Rogan Experience #2486 - Luis J Gomez
+  https://www.youtube.com/watch?v=k2D-xNI7XgY
+  Transcript: yes
+
+Nick Norwitz: I Ate 1000 Sardines—My Omega-3 Levels Went Off the Charts
+  https://www.youtube.com/shorts/flcBKoxpmTw
+  Transcript: yes
+
+Lex Fridman: Vikings, Ragnar, Berserkers, Valhalla & the Warriors of the Viking Age | Lex Fridman Podcast #495
+  https://www.youtube.com/watch?v=iKx3gAODybU
+  Transcript: yes
+
+Dr. Sten Ekberg: Top 10 SUPER FOODS That Can Heal A FATTY LIVER!
+  https://www.youtube.com/watch?v=kb6xfIv1tSY
+  Transcript: yes
+
+Renaissance Periodization: Results DON'T Mean Huge Sacrifices
+  https://www.youtube.com/shorts/qTHSfOpNu30
+  Transcript: yes
+
 Paul Saladino MD: The healthiest foods at Sprouts
   https://www.youtube.com/shorts/fMHs6dhroP0
-  Transcript: NO
+  Transcript: yes
+
+ModernWisdom: The Dark Side Of AI | Tristan Harris
+  https://www.youtube.com/shorts/kAimhaKGUPs
+  Transcript: yes
+
+ModernWisdom: Does Romanticizing Life Make Time Feel Slower?
+  https://www.youtube.com/shorts/YAw6zsc6Tsc
+  Transcript: yes
 
