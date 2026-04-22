@@ -113,6 +113,7 @@ RSS_SOURCES = {
         "url": "https://www.lynalden.com/feed/",
         "category": "bitcoin",
         "max_items": 3,
+        "lookback_days": 60,
     },
     # Long-form ideas
     "Stratechery": {
@@ -163,28 +164,33 @@ RSS_SOURCES = {
         "url": "https://program247365.github.io/paulgraham-rss/rss.xml",
         "category": "ideas",
         "max_items": 3,
+        "lookback_days": 30,
     },
     "Collaborative Fund (Morgan Housel)": {
         "url": "https://collabfund.com/blog/feed/",
         "category": "ideas",
         "max_items": 3,
+        "lookback_days": 14,
     },
     # Philosophy / wisdom
     "Figs in Winter (Pigliucci)": {
         "url": "https://figsinwintertime.substack.com/feed",
         "category": "wisdom",
         "max_items": 3,
+        "lookback_days": 14,
     },
     "Donald Robertson": {
         "url": "https://donaldrobertson.substack.com/feed",
         "category": "wisdom",
         "max_items": 3,
+        "lookback_days": 14,
     },
     # Health / fitness
     "Stronger by Science": {
         "url": "https://www.strongerbyscience.com/feed/",
         "category": "health",
         "max_items": 3,
+        "lookback_days": 14,
     },
     # AI capability
     "Simon Willison": {
@@ -202,7 +208,15 @@ def fetch_rss_source(name, config, days=3):
         print(f"[RSS] {name}: error — {e}")
         return []
 
-    cutoff = datetime.now(timezone.utc) - timedelta(days=days)
+    # Diagnostic: feedparser doesn't raise on HTTP errors, it sets bozo=1
+    if feed.bozo and not feed.entries:
+        print(f"[RSS] {name}: bozo — {feed.bozo_exception}")
+        return []
+    if not feed.entries:
+        print(f"[RSS] {name}: feed parsed but 0 entries")
+        return []
+
+    cutoff = datetime.now(timezone.utc) - timedelta(days=config.get("lookback_days", days))
     max_items = config.get("max_items", 10)
     items = []
     for entry in feed.entries[:20]:
@@ -228,6 +242,8 @@ def fetch_rss_source(name, config, days=3):
         })
         if len(items) >= max_items:
             break
+    if not items:
+        print(f"[RSS] {name}: {len(feed.entries)} entries in feed, none within last {days} days")
     return items
 
 def fetch_all_rss():
