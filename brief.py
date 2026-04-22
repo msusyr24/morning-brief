@@ -232,22 +232,26 @@ def save_watermarks(watermarks):
 
 
 def fetch_recent_videos(channel_name, channel_id, last_seen_id=None, fallback_to_latest=True):
-    """Fetch videos newer than last_seen_id. If none, optionally return the single latest."""
     feed_url = f"https://www.youtube.com/feeds/videos.xml?channel_id={channel_id}"
     headers = {
         "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
-                    "AppleWebKit/537.36 (KHTML, like Gecko) "
-                    "Chrome/120.0.0.0 Safari/537.36",
+                      "AppleWebKit/537.36 (KHTML, like Gecko) "
+                      "Chrome/120.0.0.0 Safari/537.36",
         "Accept": "application/atom+xml, application/xml, text/xml, */*",
         "Accept-Language": "en-US,en;q=0.9",
-        "Accept-Encoding": "gzip, deflate, br",
-        "Referer": "https://www.youtube.com/",
-        "Sec-Fetch-Dest": "document",
-        "Sec-Fetch-Mode": "navigate",
-        "Sec-Fetch-Site": "none",
     }
+
+    # Route through Webshare when creds are present (GitHub Actions).
+    # Falls back to direct when running locally without env vars set.
+    proxies = None
+    ws_user = os.getenv("WEBSHARE_PROXY_USERNAME")
+    ws_pass = os.getenv("WEBSHARE_PROXY_PASSWORD")
+    if ws_user and ws_pass:
+        proxy_url = f"http://{ws_user}-rotate:{ws_pass}@p.webshare.io:80"
+        proxies = {"http": proxy_url, "https": proxy_url}
+
     try:
-        response = requests.get(feed_url, headers=headers, timeout=8)
+        response = requests.get(feed_url, headers=headers, timeout=15, proxies=proxies)
         if response.status_code != 200:
             print(f"[YT] {channel_name}: HTTP {response.status_code}")
             return [], False
