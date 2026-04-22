@@ -1,96 +1,114 @@
 === HACKER NEWS ===
-1. [91 pts] The Vercel breach: OAuth attack exposes risk in platform environment variables
-   https://www.trendmicro.com/en_us/research/26/d/vercel-breach-oauth-supply-chain.html
+1. [207 pts] Making RAM at Home [video]
+   https://www.youtube.com/watch?v=h6GWikWlAQA
 
-2. [58 pts] Britannica11.org – a structured edition of the 1911 Encyclopædia Britannica
-   https://britannica11.org/
+2. [709 pts] ChatGPT Images 2.0
+   https://openai.com/index/introducing-chatgpt-images-2-0/
 
-3. [174 pts] Framework Laptop 13 Pro
-   https://frame.work/laptop13pro
+3. [266 pts] Acetaminophen vs. ibuprofen
+   https://asteriskmag.com/issues/14/the-mystery-in-the-medicine-cabinet
 
-4. [17 pts] Cal.diy: open-source community edition of cal.com
-   https://github.com/calcom/cal.diy
+4. [57 pts] Diverse organic molecules on Mars revealed by the first SAM TMAH experiment
+   https://www.courthousenews.com/preserved-for-billions-of-years-organic-compounds-found-on-mars/
 
-5. [654 pts] Laws of Software Engineering
+5. [511 pts] SpaceX says it has agreement to acquire Cursor for $60B
+   https://twitter.com/spacex/status/2046713419978453374
+
+6. [930 pts] Laws of Software Engineering
    https://lawsofsoftwareengineering.com
 
-6. [69 pts] A Periodic Map of Cheese
-   https://cheesemap.netlify.app/
+7. [302 pts] The Vercel breach: OAuth attack exposes risk in platform environment variables
+   https://www.trendmicro.com/en_us/research/26/d/vercel-breach-oauth-supply-chain.html
 
-7. [111 pts] Show HN: GoModel – an open-source AI gateway in Go
-   https://github.com/ENTERPILOT/GOModel/
+8. [115 pts] Drunk post: Things I've learned as a senior engineer (2021)
+   https://luminousmen.substack.com/p/drunk-post-things-ive-learned-as
 
-8. [97 pts] Fusion Power Plant Simulator
+9. [13 pts] Garbage Collection Without Unsafe Code
+   https://fitzgen.com/2024/02/06/safe-gc.html
+
+10. [269 pts] Britannica11.org – a structured edition of the 1911 Encyclopædia Britannica
+   https://britannica11.org/
+
+11. [103 pts] Windows Server 2025 Runs Better on ARM
+   https://jasoneckert.github.io/myblog/server-2025-arm64/
+
+12. [174 pts] Stephen's Sausage Roll remains one of the most influential puzzle games
+   https://thinkygames.com/features/10-years-of-grilling-stephens-sausage-roll-remains-one-of-the-most-influential-puzzle-games-ever-created/
+
+13. [479 pts] Meta to start capturing employee mouse movements, keystrokes for AI training
+   https://www.reuters.com/sustainability/boards-policy-regulation/meta-start-capturing-employee-mouse-movements-keystrokes-ai-training-data-2026-04-21/
+
+14. [21 pts] A printing press for biological data
+   https://www.owlposting.com/p/the-printing-press-for-biological
+
+15. [108 pts] CrabTrap: An LLM-as-a-judge HTTP proxy to secure agents in production
+   https://www.brex.com/crabtrap
+
+16. [145 pts] Fusion Power Plant Simulator
    https://www.fusionenergybase.com/fusion-power-plant-simulator
 
-9. [158 pts] Edit store price tags using Flipper Zero
+17. [402 pts] Changes to GitHub Copilot individual plans
+   https://github.blog/news-insights/company-news/changes-to-github-copilot-individual-plans/
+
+18. [1148 pts] Framework Laptop 13 Pro
+   https://frame.work/laptop13pro
+
+19. [185 pts] Cal.diy: open-source community edition of cal.com
+   https://github.com/calcom/cal.diy
+
+20. [24 pts] Hunting a 34 year old pointer bug in EtherSlip
+   https://www.brutman.com/Adventures_In_Code/EtherSlip_ARP/EtherSlip_ARP.html
+
+21. [325 pts] Edit store price tags using Flipper Zero
    https://github.com/i12bp8/TagTinker
 
-10. [1 pts] Trellis AI (YC W24) Is hiring engineers to build self-improving agents
-   https://www.ycombinator.com/companies/trellis-ai/jobs/SvzJaTH-member-of-technical-staff-product-engineering-full-time
+22. [103 pts] FBI looks into dead or missing scientists tied to NASA, Blue Origin, SpaceX
+   https://fortune.com/2026/04/21/scientists-disappear-die-nasa-space-blue-origin-spacex/
 
-11. [27 pts] Modern Front end Complexity: essential or accidental?
-   https://binaryigor.com/modern-frontend-complexity.html
+23. [13 pts] Kuri – Zig based agent-browser alternative
+   https://github.com/justrach/kuri
 
-12. [199 pts] Show HN: VidStudio, a browser based video editor that doesn't upload your files
-   https://vidstudio.app/video-editor
+24. [16 pts] Some secret management belongs in your HTTP proxy
+   https://blog.exe.dev/http-proxy-secrets
 
-13. [135 pts] Running a Minecraft Server and More on a 1960s Univac Computer
+25. [500 pts] Claude Code to be removed from Anthropic's Pro plan?
+   https://bsky.app/profile/edzitron.com/post/3mjzxwfx3qs2a
+
+26. [7 pts] 20000 Gates and 20 MIPS [pdf]
+   https://bitsavers.org/pdf/amdahl/history/20000_Gates_and_20_MIPS_199011.pdf
+
+27. [212 pts] Running a Minecraft Server and more on a 1960s UNIVAC Computer
    https://farlow.dev/2026/04/17/running-a-minecraft-server-and-more-on-a-1960s-univac-computer
 
-14. [27 pts] Kasane: New drop-in Kakoune front end with GPU rendering and WASM Plugins
-   https://github.com/Yus314/kasane
+28. [266 pts] Show HN: VidStudio, a browser based video editor that doesn't upload your files
+   https://vidstudio.app/video-editor
 
-15. [12 pts] Theseus, a Static Windows Emulator
+29. [69 pts] Global growth in solar "the largest ever observed for any source"
+   https://arstechnica.com/science/2026/04/global-growth-in-solar-the-largest-ever-observed-for-any-source/
+
+30. [97 pts] Theseus, a Static Windows Emulator
    https://neugierig.org/software/blog/2026/04/theseus.html
-
-16. [94 pts] Tindie store under "scheduled maintenance" for days
-   https://www.tindie.com/
-
-17. [121 pts] A type-safe, realtime collaborative Graph Database in a CRDT
-   https://codemix.com/graph
-
-18. [422 pts] Anthropic says OpenClaw-style Claude CLI usage is allowed again
-   https://docs.openclaw.ai/providers/anthropic
-
-19. [100 pts] Clojure: Transducers
-   https://clojure.org/reference/transducers
-
-20. [225 pts] MNT Reform is an open hardware laptop, designed and assembled in Germany
-   http://mnt.stanleylieber.com/reform/
-
-21. [49 pts] Meta capturing employee mouse movements, keystrokes for AI training data
-   https://economictimes.indiatimes.com/tech/technology/meta-to-start-capturing-employee-mouse-movements-keystrokes-for-ai-training-data/articleshow/130422612.cms?from=mdr
-
-22. [25 pts] Show HN: Ctx – a /resume that works across Claude Code and Codex
-   https://github.com/dchu917/ctx
-
-23. [9 pts] Ibuilt a tiny Unix‑like 'OS' with shell and filesystem for Arduino UNO (2KB RAM)
-   https://github.com/Arc1011/KernelUNO
-
-24. [35 pts] Show HN: Daemons – we pivoted from building agents to cleaning up after them
-   https://charlielabs.ai/
-
-25. [239 pts] Tim Cook's Impeccable Timing
-   https://stratechery.com/2026/tim-cooks-impeccable-timing/
-
-26. [127 pts] Show HN: Mediator.ai – Using Nash bargaining and LLMs to systematize fairness
-   https://mediator.ai/
-
-27. [21 pts] Colorado River disappeared record for 5M years: now we know where it was
-   https://phys.org/news/2026-04-colorado-river-geological-million-years.html
-
-28. [212 pts] Original GrapheneOS responses to WIRED fact checker
-   https://discuss.grapheneos.org/d/34369-original-grapheneos-responses-to-wired-fact-checker
-
-29. [34 pts] Leonardo, Borgia, and Machiavelli: A Fateful Collusion
-   https://www.historytoday.com/archive/leonardo-borgia-and-machiavelli-fateful-collusion
-
-30. [196 pts] Anthropic takes $5B from Amazon and pledges $100B in cloud spending in return
-   https://techcrunch.com/2026/04/20/anthropic-takes-5b-from-amazon-and-pledges-100b-in-cloud-spending-in-return/
 
 
 === RSS ===
+[health] Peter Attia: #388 — Prostate cancer screening: why current PSA guidelines are failing men and how modern tools improve early detection and save lives
+  https://peterattiamd.com/prostatecancerscreening/
+
+[ideas] Stratechery: Tim Cook’s Impeccable Timing
+  https://stratechery.com/2026/tim-cooks-impeccable-timing/
+
+[ideas] Stratechery: TSMC Earnings, New N3 Fabs, The Nvidia Ramp
+  https://stratechery.com/2026/tsmc-earnings-new-n3-fabs-the-nvidia-ramp/
+
+[bitcoin] Bitcoin Magazine: Relics of a Revolution, Part IV: The Bank Was Already Burning
+  https://bitcoinmagazine.com/culture/relics-of-a-revolution-part-iv
+
+[bitcoin] Bitcoin Magazine: Kalshi and Polymarket Enter the Crypto Race to Launch Perpetual Futures
+  https://bitcoinmagazine.com/news/kalshi-and-polymarket-enter-the-crypto
+
+[bitcoin] Bitcoin Magazine: Kalshi CEO Tarek Mansour To Speak at Bitcoin 2026 Conference on Prediction Markets and BTC
+  https://bitcoinmagazine.com/conference/kalshi-ceo-tarek-mansour-to-speak-at-bitcoin-2026-conference-on-prediction-markets-and-btc
+
 [bitcoin] Bitcoin Magazine: New York Sues Coinbase and Gemini Over Alleged Illegal Prediction Market Gambling Operations
   https://bitcoinmagazine.com/news/new-york-sues-coinbase-and-gemini
 
@@ -106,24 +124,6 @@
 [bitcoin] Bitcoin Magazine: Morgan Stanley’s Spot Bitcoin ETF Tops $139M in Assets Within Nine Days
   https://bitcoinmagazine.com/news/morgan-stanleys-spot-bitcoin-etf-tops-139m-in-assets-within-nine-days
 
-[bitcoin] Bitcoin Magazine: Onramp Launches Finance Platform Combining Cash, Bitcoin and Gold in One Account
-  https://bitcoinmagazine.com/news/onramp-launches-finance-platform-bitcoin
-
-[bitcoin] Bitcoin Magazine: Bitcoin Price Retakes $76,500 as Iran Tensions and Oil Volatility Drive Market Uncertainty
-  https://bitcoinmagazine.com/markets/bitcoin-price-retakes-76500-as-iran-tensions-and-oil-volatility-drive-market-uncertainty
-
-[bitcoin] Bitcoin Magazine: Alcoa Nears Sale of Idle New York Smelter to NYDIG for Bitcoin Mining Use
-  https://bitcoinmagazine.com/news/alcoa-nears-sale-of-idle-new-york
-
-[ideas] Stratechery: Tim Cook’s Impeccable Timing
-  https://stratechery.com/2026/tim-cooks-impeccable-timing/
-
-[ideas] Stratechery: TSMC Earnings, New N3 Fabs, The Nvidia Ramp
-  https://stratechery.com/2026/tsmc-earnings-new-n3-fabs-the-nvidia-ramp/
-
-[health] Peter Attia: #388 — Prostate cancer screening: why current PSA guidelines are failing men and how modern tools improve early detection and save lives
-  https://peterattiamd.com/prostatecancerscreening/
-
 [ai] OpenAI Blog: Scaling Codex to enterprises worldwide
   https://openai.com/index/scaling-codex-to-enterprises-worldwide
 
@@ -134,57 +134,5 @@
 === YOUTUBE ===
 Paul Saladino MD: The healthiest foods at Sprouts
   https://www.youtube.com/shorts/fMHs6dhroP0
-  Transcript: yes
-
-Joe Rogan: Joe Rogan Experience #2486 - Luis J Gomez
-  https://www.youtube.com/watch?v=k2D-xNI7XgY
-  Transcript: yes
-
-Nick Norwitz: I Ate 1000 Sardines—My Omega-3 Levels Went Off the Charts
-  https://www.youtube.com/shorts/flcBKoxpmTw
-  Transcript: yes
-
-Lex Fridman: Vikings, Ragnar, Berserkers, Valhalla & the Warriors of the Viking Age | Lex Fridman Podcast #495
-  https://www.youtube.com/watch?v=iKx3gAODybU
   Transcript: NO
-
-ModernWisdom: Oz Pearlman Broke Chris's Mind
-  https://www.youtube.com/watch?v=xLDpca-3-LE
-  Transcript: yes
-
-GTO Wizard: Can AI Actually Play Poker?
-  https://www.youtube.com/shorts/Qk_8BSQmXF4
-  Transcript: yes
-
-Anthony Chaffee MD: It's Not About A Few Years Of Your Life #shortvideo #shorts #short
-  https://www.youtube.com/shorts/G_vHuFnvFsY
-  Transcript: yes
-
-Jared Alderman: Poker's Next Frontier Is Not What You Think
-  https://www.youtube.com/watch?v=40VErN0VUhE
-  Transcript: yes
-
-Thomas DeLauer: This Stops Hair from Greying (and it works fast)
-  https://www.youtube.com/watch?v=hQMlgg4LlFA
-  Transcript: yes
-
-GTO Lab: 🔥Get Ready For WSOP Bootcamp is here
-  https://www.youtube.com/shorts/b99JDbJxDGE
-  Transcript: yes
-
-Ken Berry MD: 7 Skin Signs of Insulin Resistance (Even If You’re Slim!)
-  https://www.youtube.com/watch?v=X9GnsVdhUKM
-  Transcript: yes
-
-Dr. Sten Ekberg: Top 10 SUPER FOODS That Can Heal A FATTY LIVER!
-  https://www.youtube.com/watch?v=kb6xfIv1tSY
-  Transcript: yes
-
-Renaissance Periodization: 2 Workouts / Week Build Muscle
-  https://www.youtube.com/shorts/dgbthh_f1J4
-  Transcript: yes
-
-Peter Attia: Is Industrial Processing the Real Problem With Seed Oils? | Layne Norton, Ph.D.
-  https://www.youtube.com/watch?v=Tsqzx3L6UWs
-  Transcript: yes
 
