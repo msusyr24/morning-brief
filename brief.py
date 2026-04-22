@@ -25,7 +25,7 @@ client = Anthropic()
 # --- Your interests ---
 MY_INTERESTS = """
 I care about:
-- AI/ML at the CAPABILITY level: what new things can AI actually DO? Real end-user applications, novel uses, surprising capabilities.
+- AI/ML at the CAPABILITY level: what new things can AI actually DO? Real end-user applications, novel uses, surprising capabilities, model releases with major upgrades/changes for average person.
 - Bitcoin, monetary policy, macroeconomics, Michael Saylor's perspective
 - Health science with REAL DATA: diet debates (especially carnivore/low-carb vs. conventional), exercise science, longevity research, metabolism
 - Evidence-based fitness and training (hypertrophy, programming, recovery)
@@ -37,7 +37,7 @@ I care about:
 - Thoughtful long-form essays and ideas worth sitting with
 
 I do NOT care about:
-- AI infrastructure, inference layers, model releases, agent frameworks, dev tooling — too low-level for me
+- AI infrastructure, inference layers, agent frameworks, dev tooling — too low-level for me
 - "Open source Qwen-X-B beats benchmark Y" — unless it enables a meaningfully new thing I can do
 - Political drama, culture war content, sensationalized headlines
 - Crypto speculation, altcoins, NFTs
@@ -147,6 +147,50 @@ RSS_SOURCES = {
         "url": "https://dailystoic.com/feed/",
         "category": "wisdom",
         "max_items": 3,
+    },
+    # Long-form ideas / mental models
+    "Astral Codex Ten": {
+        "url": "https://www.astralcodexten.com/feed",
+        "category": "ideas",
+        "max_items": 3,
+    },
+    "Marginal Revolution": {
+        "url": "https://marginalrevolution.com/feed",
+        "category": "ideas",
+        "max_items": 5,
+    },
+    "Paul Graham": {
+        "url": "https://program247365.github.io/paulgraham-rss/rss.xml",
+        "category": "ideas",
+        "max_items": 3,
+    },
+    "Collaborative Fund (Morgan Housel)": {
+        "url": "https://collabfund.com/blog/feed/",
+        "category": "ideas",
+        "max_items": 3,
+    },
+    # Philosophy / wisdom
+    "Figs in Winter (Pigliucci)": {
+        "url": "https://figsinwintertime.substack.com/feed",
+        "category": "wisdom",
+        "max_items": 3,
+    },
+    "Donald Robertson": {
+        "url": "https://donaldrobertson.substack.com/feed",
+        "category": "wisdom",
+        "max_items": 3,
+    },
+    # Health / fitness
+    "Stronger by Science": {
+        "url": "https://www.strongerbyscience.com/feed/",
+        "category": "health",
+        "max_items": 3,
+    },
+    # AI capability
+    "Simon Willison": {
+        "url": "https://simonwillison.net/atom/everything/",
+        "category": "ai",
+        "max_items": 5,
     },
 }
 
