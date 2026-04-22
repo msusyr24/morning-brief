@@ -129,7 +129,7 @@ RSS_SOURCES = {
     },
     # AI capability — Anthropic & OpenAI's actual feeds
     "Anthropic News": {
-        "url": "https://www.anthropic.com/news/feed.xml",
+        "url": "https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_anthropic_news.xml",
         "category": "ai",
         "max_items": 5,
     },
@@ -164,10 +164,10 @@ RSS_SOURCES = {
         "url": "https://program247365.github.io/paulgraham-rss/rss.xml",
         "category": "ideas",
         "max_items": 3,
-        "lookback_days": 30,
+        "lookback_days": 90,
     },
     "Collaborative Fund (Morgan Housel)": {
-        "url": "https://collabfund.com/blog/feed/",
+        "url": "https://collabfund.substack.com/feed",
         "category": "ideas",
         "max_items": 3,
         "lookback_days": 14,
@@ -190,7 +190,7 @@ RSS_SOURCES = {
         "url": "https://www.strongerbyscience.com/feed/",
         "category": "health",
         "max_items": 3,
-        "lookback_days": 14,
+        "lookback_days": 30,
     },
     # AI capability
     "Simon Willison": {
@@ -221,7 +221,7 @@ def fetch_rss_source(name, config, days=3):
         proxies = {"http": proxy_url, "https": proxy_url}
 
     try:
-        response = requests.get(config["url"], headers=headers, timeout=15, proxies=proxies)
+        response = requests.get(config["url"], headers=headers, timeout=30, proxies=proxies)
         if response.status_code != 200:
             print(f"[RSS] {name}: HTTP {response.status_code}")
             return []
