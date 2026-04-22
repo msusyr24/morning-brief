@@ -202,13 +202,34 @@ RSS_SOURCES = {
 
 def fetch_rss_source(name, config, days=3):
     """Fetch a single RSS feed. Returns items from the last N days, capped."""
+    lookback = config.get("lookback_days", days)
+
+    headers = {
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
+                      "AppleWebKit/537.36 (KHTML, like Gecko) "
+                      "Chrome/120.0.0.0 Safari/537.36",
+        "Accept": "application/atom+xml, application/rss+xml, application/xml, text/xml, */*",
+        "Accept-Language": "en-US,en;q=0.9",
+    }
+
+    # Route through Webshare when creds are present (same pattern as YouTube fetch)
+    proxies = None
+    ws_user = os.getenv("WEBSHARE_PROXY_USERNAME")
+    ws_pass = os.getenv("WEBSHARE_PROXY_PASSWORD")
+    if ws_user and ws_pass:
+        proxy_url = f"http://{ws_user}-rotate:{ws_pass}@p.webshare.io:80"
+        proxies = {"http": proxy_url, "https": proxy_url}
+
     try:
-        feed = feedparser.parse(config["url"])
+        response = requests.get(config["url"], headers=headers, timeout=15, proxies=proxies)
+        if response.status_code != 200:
+            print(f"[RSS] {name}: HTTP {response.status_code}")
+            return []
+        feed = feedparser.parse(response.content)
     except Exception as e:
-        print(f"[RSS] {name}: error — {e}")
+        print(f"[RSS] {name}: fetch error — {type(e).__name__}")
         return []
 
-    # Diagnostic: feedparser doesn't raise on HTTP errors, it sets bozo=1
     if feed.bozo and not feed.entries:
         print(f"[RSS] {name}: bozo — {feed.bozo_exception}")
         return []
@@ -216,7 +237,7 @@ def fetch_rss_source(name, config, days=3):
         print(f"[RSS] {name}: feed parsed but 0 entries")
         return []
 
-    cutoff = datetime.now(timezone.utc) - timedelta(days=config.get("lookback_days", days))
+    cutoff = datetime.now(timezone.utc) - timedelta(days=lookback)
     max_items = config.get("max_items", 10)
     items = []
     for entry in feed.entries[:20]:
@@ -242,8 +263,10 @@ def fetch_rss_source(name, config, days=3):
         })
         if len(items) >= max_items:
             break
+
     if not items:
-        print(f"[RSS] {name}: {len(feed.entries)} entries in feed, none within last {days} days")
+        print(f"[RSS] {name}: {len(feed.entries)} entries in feed, none within last {lookback} days")
+
     return items
 
 def fetch_all_rss():
