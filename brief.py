@@ -63,6 +63,7 @@ YOUTUBE_CHANNELS = {
     "Renaissance Periodization": "UCfQgsKhHjSyRLOp9mnffqVg",
     "Peter Attia": "UC8kGsMa0LygSX9nkBcBH1Sg",
     "ModernWisdom": "UCIaH-gZIVC432YRjNVvnyCA",
+    "Andrew Huberman": "UC2D2CMWXMOVWx7giW1n3LIg",
 }
 
 LOOKBACK_DAYS = 3
