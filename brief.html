@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>Morning Brief — Friday, April 24, 2026</title>
+<title>Morning Brief — Saturday, April 25, 2026</title>
 <style>
   body {
     font-family: Georgia, serif;
@@ -92,19 +92,19 @@
 })();
 </script>
 <h1>Morning Brief</h1>
-<p class="date">Friday, April 24, 2026</p>
+<p class="date">Saturday, April 25, 2026</p>
 
 <div class="anchor">
   <h2>☀️ Today's Anchor</h2>
   <div class="anchor-block">
-    <p class="quote">"Do what you can, with what you have, where you are."</p>
-    <p class="author">— Theodore Roosevelt</p>
-    <p class="context">From his autobiography. Roosevelt wrote this reflecting on his sickly childhood and how he built his life despite limitations.</p>
+    <p class="quote">"A year from now you may wish you had started today."</p>
+    <p class="author">— Karen Lamb</p>
+    <p class="context">Often misattributed online. Lamb is a motivational writer; the line became famous through repetition.</p>
   </div>
   <div class="anchor-block">
-    <p class="model-label">Mental Model · Problem-solving</p>
-    <p class="model-name">Five Whys</p>
-    <p class="context">Toyota's technique: when a problem surfaces, ask 'why?' five times. Each answer gets you closer to root cause. The first answer is always a symptom, not a cause. Munger uses this in business analysis: 'Why is this company losing money?' → five layers deep, you usually find a cultural or strategic issue, not an operational one.</p>
+    <p class="model-label">Mental Model · Epistemics</p>
+    <p class="model-name">Ockham's Broom</p>
+    <p class="context">Biologist Sydney Brenner's coinage: theorists use it to 'sweep under the rug' inconvenient facts that don't fit their model. Watch for it in any big theory — yours included. The facts being ignored are usually the most important ones.</p>
   </div>
 </div>
 
@@ -115,137 +115,130 @@
   <p class="spotlight-instructions">Interested? Copy the line below into <code>YOUTUBE_CHANNELS</code> in <code>brief.py</code> and save:</p>
   <pre class="spotlight-snippet" id="snippet">    "Andrew Huberman": "UC2D2CMWXMOVWx7giW1n3LIg",</pre>
   <button class="copy-btn" onclick="navigator.clipboard.writeText(document.getElementById('snippet').innerText.trim()); this.innerText='✅ Copied'; setTimeout(()=>this.innerText='📋 Copy snippet', 2000);">📋 Copy snippet</button>
-  <p class="spotlight-meta">showing for 2 more days. If you don't add it, a new channel will be suggested.</p>
+  <p class="spotlight-meta">showing for 1 more day. If you don't add it, a new channel will be suggested.</p>
 </div>
 <h2>🎥 From People I Follow</h2>
 
 <p><strong>Worth your time:</strong></p>
 
 <div class="story">
-  <h3>GTO Wizard</h3>
-  <p>A structured, practical guide to actually learning from solvers rather than just memorizing outputs. The core argument: most players fail because they try to copy solver frequencies rather than understand <em>why</em> the solver acts — how range advantages change sizing decisions, why an Ace-King-2 board calls for an overbet (button dominates the top of range) while Ace-8-2 doesn't (big blind has sets and two-pair too). The recommended workflow: use aggregated reports for broad heuristics first, then build custom solutions with 4 bet sizes (25/50/75/125% pot), set a <em>specific</em> study goal (not "studying BTN vs BB" but "BTN vs BB on two-broadway-one-low flops"), and use node-locking to model opponent mistakes and find exploits. Key exploit example: against a passive player who won't raise enough on the river, your strongest flushes should shift from small-size (designed to induce raises) to large-size, since you're leaving money on the table when the raise never comes.</p>
-  <p class="meta">Videos: <a href="https://www.youtube.com/watch?v=RsDVNjSmqeI">How to Study Effectively With GTO Wizard</a> · <a href="https://www.youtube.com/shorts/5yX0-0ZtGow">Study Effectively With GTO Wizard (Short)</a></p>
+  <h3>Nick Norwitz</h3>
+  <p>Norwitz covered ezetimibe (brand: Zetia/Zedia), a cholesterol-lowering drug typically thought to work only in the gut — arguing it's been misunderstood. He took it not to lower LDL but to support brain health: ezetimibe crosses the blood-brain barrier and disrupts a specific protein-protein interaction linked to misfolding (the "bad origami" behind Alzheimer's and other neurodegenerative diseases). His own LDL dropped 56% (288 mg/dL) as a side effect. A review of patient cases found those taking ezetimibe had an eightfold lower risk of Alzheimer's and related dementias — imperfect data, but enough for him to use it. Separately, he covered a randomized controlled study on statins and muscle damage (transcript unavailable, but the title flags it as RCT-grade evidence on a real mechanism).</p>
+  <p class="meta">Videos: <a href="https://www.youtube.com/watch?v=d9LeDSoYOVc">What Statins Did To My Muscles (RCT)</a> · <a href="https://www.youtube.com/shorts/KGgG5Wb08AY">This Drug Cut LDL 56%—But That Wasn't the Goal</a></p>
 </div>
 
 <div class="story">
   <h3>GTO Lab</h3>
-  <p>Alex Kulev illustrates river <em>splitting</em> — using two bet sizes on the same node — with a concrete example involving quads. The reason to split: when your range contains both nut hands (four aces) and strong-but-not-nuts hands (king-x full houses plus bluffs), a single size leaves value on the table. The nuts want maximum size; the strong-but-vulnerable hands want a smaller size that can still fold out weaker holdings without risking a raise they can't call off. A clean, precise illustration of why polarization alone doesn't determine sizing — range composition within the nut tier matters.</p>
-  <p class="meta">Video: <a href="https://www.youtube.com/shorts/QpkThSG4C2E">Alex Kulev explains SPLITTING on the RIVER</a></p>
+  <p>Brian Kim analyzed a short-stack big blind spot (~15bb) where the player holds a full house on a paired, flushed board. The key decision point: facing action when the opponent's range is weighted toward overpairs and sets — hands that beat a full house — while also containing some flushes and air that might hero-call a shove. Kim's conclusion is that shoving is clearly correct, not close: the full house isn't strong enough to trap, checking and calling is equivalent in risk, and the only realistic equity comes from getting looked up by flushes or ace-high hero calls. The framing — "you're just going to get stacked here" so you might as well be the aggressor — is a useful heuristic for marginal-but-committed hands in short-stack spots.</p>
+  <p class="meta">Videos: <a href="https://www.youtube.com/shorts/FBcTalAMa7g">Brian Kim analyzes defending the BB with 15bb</a></p>
 </div>
 
 <div class="story">
-  <h3>Jared Alderman</h3>
-  <p>A reframe of confidence for poker players: instead of trying to <em>fix leaks</em> during a downswing (which keeps your attention on deficit and erodes confidence), anchor your identity to moments when you <em>were</em> performing at your best — what you were actually doing then, and doing more of it. His coach's prompt was: "When were you most successful, and what were the two or three things you were doing?" The meta-point is that poker culture over-indexes on leak-fixing and almost never encourages players to mark and revisit hands they played well. Doing so builds a more durable confidence than result-by-result feedback loops.</p>
-  <p class="meta">Video: <a href="https://www.youtube.com/watch?v=OxNxUlz0_kM">Why Fixing Your Leaks Is Killing Your Confidence</a></p>
-</div>
-
-<div class="story">
-  <h3>Dr. Sten Ekberg</h3>
-  <p>A methodical critique of standard fatty liver "superfood" lists (oatmeal, green tea, blueberries). His central claim: roughly 70% of the work in reversing fatty liver is reversing insulin resistance, because fat accumulates in the liver via <em>de novo lipogenesis</em> — the liver converting excess carbohydrates (especially fructose, which only the liver can process) into fat, driven by insulin. Dietary fat does not meaningfully raise insulin and therefore cannot produce a fatty liver, making "avoid saturated fat" advice actively misleading. The superfoods on standard lists — oatmeal (raises blood sugar), blueberries, green tea, herbs/spices — have real but marginal benefits (he assigns them roughly 5% of the impact), and do nothing to address the insulin/fructose pipeline. Coffee gets credit for reducing liver enzymes (ALT) and fibrosis risk via chlorogenic acids, which also work in decaf — making it a partial exception.</p>
-  <p class="meta">Video: <a href="https://www.youtube.com/watch?v=kb6xfIv1tSY">Top 10 SUPER FOODS That Can Heal A FATTY LIVER!</a></p>
-</div>
-
-<div class="story">
-  <h3>Renaissance Periodization (Dr. Mike)</h3>
-  <p>Two sharp, evidence-referenced clips. First: women often respond <em>better</em> to lower-rep training (5–10 reps) than high-rep training (20–30) for hypertrophy — not because the physiology differs, but because the psychology does. At rep 22 of a set of 30, the lactic acid pain triggers premature termination before true muscular failure; sets of 5–10 reach mechanical failure without that pain signal. The practical fix is simply to put more weight on the bar. Second: the "lifting makes women bulky" fear is physiologically unfounded — female hormonal and genetic profiles strongly resist mass gain, and women eating at a caloric deficit while lifting will typically lose fat while gaining muscle, resulting in net weight loss with improved body composition.</p>
-  <p class="meta">Videos: <a href="https://www.youtube.com/shorts/fMd14NzDMRs">Women Need More Weight</a> · <a href="https://www.youtube.com/shorts/pjNETxCw1QE">Lifting Won't Make Women Bulky</a></p>
-</div>
-
-<div class="story">
-  <h3>Thomas DeLauer</h3>
-  <p>A detailed breakdown of autophagy signs and amplification tactics. Key signals: mental clarity (neurons fire with less oxidative interference), vivid dreams with strong recall (increased BDNF and synaptic plasticity), "hunter mode" visual sharpening (elevated catecholamines + consolidated glutamate-glutamine cycling), "good hunger" that feels like a churn rather than hanginess (ghrelin directly drives autophagy), and an energy shift around hour 15–16 when glycogen depletes and mitophagy kicks in at the mitochondrial level. Amplification tactics cited: cold exposure for brain autophagy, 1–2g spermidine (or aged cheese/mushrooms), 200–400mg theanine (suppresses mTOR), 5g glutamine to support brain fuel cycling, loading creatine <em>before</em> a fast to bank energy for cleanup processes, and zone-2 walking at the tail end of a fast to extend it without breaking it. He also flags when to turn autophagy <em>off</em> — specifically around muscle-building windows — since autophagy and mTOR are largely antagonistic.</p>
-  <p class="meta">Video: <a href="https://www.youtube.com/watch?v=IPtrhaJL18I">This Sign Means Fat Loss, Autophagy and Cellular Cleanup are Happening</a></p>
+  <h3>Stronger by Science / Renaissance Periodization</h3>
+  <p>The Stronger by Science piece on isometric training challenges the conventional assumption that iso work is inferior to dynamic training for strength and hypertrophy — the actual evidence, reviewed in depth, doesn't support that claim, and the article breaks down what iso training does well (joint-angle-specific strength, low joint stress, applicability in rehab contexts) and where it falls short. Dr. Mike at RP made a sharp point about training motivation: over 90% of why anyone goes to the gym is aesthetics — wanting to look better — and rather than moralize against that, the better move is to channel that existing motivation toward training methods that also improve health, longevity, and quality of life. The teen-on-tren critique video was substantive on one specific mechanism worth knowing: exogenous testosterone in adolescents accelerates closure of growth plates (via estrogen conversion), permanently capping height — and also risks blunting brain development and long-term cognitive function during a critical window.</p>
+  <p class="meta">Articles/Videos: <a href="https://www.strongerbyscience.com/isometric-training/">Isometric Training Review (SBS)</a> · <a href="https://www.youtube.com/shorts/eBKUy52G88E">Why People REALLY Go To The Gym</a> · <a href="https://www.youtube.com/watch?v=x6IDeFXDdEc">Exercise Scientist Critiques The 16-Year-Old on Tren</a></p>
 </div>
 
 <p><strong>Also posted:</strong></p>
 <ul>
-  <li><strong>Peter Attia / Layne Norton:</strong> A technical deep-dive into seed oil processing — specifically whether hexane extraction poses health risks. Norton's bottom line: residual hexane in finished oils is 0.05–0.5 parts per million, hexane toxicity is inhalation-driven not ingestion-driven, and the calculated dose needed for mild side effects from ingestion would require consuming ~11,340 kg of oil. Attia's counter-question — whether chronic lifetime accumulation could drive slow-moving disease — is raised but not resolved. The more live debate shifts to linoleic acid prevalence rising from ~3% to ~10% of total food availability over 100 years. (<a href="https://www.youtube.com/watch?v=Tsqzx3L6UWs">Is Industrial Processing the Real Problem With Seed Oils?</a>)</li>
-  <li><strong>Donald Robertson:</strong> Two posts on Marcus Aurelius — a conversation about coping with stress through Stoic practice, and a roundup of his appearances on Chris Williamson's Modern Wisdom podcast. (<a href="https://donaldrobertson.substack.com/p/what-marcus-aurelius-can-teach-us">What Marcus Aurelius Can Teach Us Coping with Stress</a> + <a href="https://donaldrobertson.substack.com/p/conversations-with-chris-williamson">Conversations with Chris Williamson</a>)</li>
-  <li><strong>Modern Wisdom (shorts):</strong> A sharp distinction between a "nice guy" (conflict-avoidant, no clear values) and a "good man" (has ideals he'll defend, accepts being unpopular for them) — a clean mental model worth sitting with. (<a href="https://www.youtube.com/shorts/RtQBLh3123o">Are You A Nice Guy Or A Good Man?</a>)</li>
-  <li><strong>Paul Saladino MD:</strong> Claims dryer sheets off-gas benzene and acetaldehyde, contain phthalates (endocrine disruptors) and quaternary ammonium compounds linked to skin disorders; recommends wool dryer balls as replacement. Short on citations but the mechanism claim about phthalate skin absorption is worth a look if you use them. (<a href="https://www.youtube.com/shorts/05nO24jkGdI">Dryer sheets are disrupting your hormones</a>)</li>
-  <li><strong>Lex Fridman:</strong> Carried forward — Vikings, Ragnar, berserkers, and Viking warrior culture. No transcript available. (<a href="https://www.youtube.com/watch?v=iKx3gAODybU">Vikings, Ragnar, Berserkers, Valhalla & the Warriors of the Viking Age</a>)</li>
+  <li><strong>Thomas DeLauer:</strong> Covered a 24-week RCT (published in <em>Foods</em>) in pre-diabetic adults showing that 300g of fresh mango daily outperformed a calorie-matched granola bar on fasting glucose (18.5 mg/dL lower), HbA1c, HOMA-IR, and body fat (−1.4%) — mechanisms proposed include mango polyphenols (mangiferin, quercetin, gallotannins) reshaping gut microbiome toward butyrate-producing bacteria and directly activating AMPK; practical recommendation is to pair mango with protein in the evening, not morning, to avoid blunting fat oxidation. (<a href="https://www.youtube.com/watch?v=U5cUB9p8LSE">1 Cup with Carbs Blocks Insulin and Shrinks Visceral Fat</a>)</li>
+  <li><strong>Dr. Sten Ekberg:</strong> Argued that 25 push-ups twice daily is a practical minimum-effective-dose: it stimulates mTOR/muscle protein synthesis without requiring recovery days, activates GLUT4 transporters independent of insulin (reducing postprandial glucose spikes), and triggers BDNF release; he maps a 90-day progression from neural adaptation (weeks 1–2) to fiber recruitment (weeks 3–4) to visible hypertrophy (month 3). (<a href="https://www.youtube.com/watch?v=0XFH6Hv3BTc">This Happens When You Do 25 Push-Ups Twice A Day</a>)</li>
+  <li><strong>Peter Attia / Layne Norton:</strong> Debated whether seed oil harms are attributable to linoleic acid itself or to industrial processing — Norton argued hexane residues in refined oils are well under 1 ppm and would require consuming ~11,000 kg of oil to produce even mild toxicity; the more legitimate processing concern is oxidation from repeated high-heat use, not extraction chemistry. (<a href="https://www.youtube.com/watch?v=Tsqzx3L6UWs">Is Industrial Processing the Real Problem With Seed Oils?</a>) [Most recent, not new]</li>
+  <li><strong>Paul Saladino MD:</strong> Bedroom optimization walkthrough: key claims include CO2 buildup in sealed rooms (800–1,000+ ppm) impairing next-day cognitive function, LEDs disrupting melatonin via blue light and flicker activating the sympathetic nervous system, and legs-up-the-wall with box breathing for 10 minutes pre-sleep as a parasympathetic wind-down; also covers non-toxic mattress certifications (GreenGuard Gold), linen/wool bedding, and air filtration (PM2.5 monitoring). (+2 more shorts on carnivore/gut healing) (<a href="https://www.youtube.com/watch?v=c7Rm6sT35Tk">My Non-Toxic Bedroom Tour</a>)</li>
+  <li><strong>Jared Alderman:</strong> Posted on "the edge most poker players never pursue" — transcript unavailable. (<a href="https://www.youtube.com/watch?v=18zicffeFzI">The Edge That Most Poker Players Never Pursue</a>)</li>
+  <li><strong>Lex Fridman:</strong> Long-form conversation with Viking historian Lars Brownworth — covered the speed advantage of longships (70–120 miles/day vs. 10–15 for land armies), the meritocratic "we are all kings" command structure, and the argument that the Vikings' greatest historical contribution was creative destruction that cleared the ground for modern France and England. [Most recent, not new] (<a href="https://www.youtube.com/watch?v=iKx3gAODybU">Vikings, Ragnar, Berserkers, Valhalla</a>)</li>
 </ul>
-
----
 
 <h2>₿ Bitcoin & Macro</h2>
 
 <div class="story">
-  <h3><a href="https://pomp.substack.com/p/the-incoming-fed-chairman-thinks">The Incoming Fed Chairman Thinks Deflation Is a Major Risk</a></h3>
-  <p>Pomp flags that the Fed's incoming chair has publicly identified deflation — not inflation — as the primary risk, which signals a posture toward looser monetary policy going forward. If accurate, this is directly relevant to the Bitcoin thesis: a Fed structurally biased toward easing strengthens the case for hard assets. Worth reading the primary source if you track monetary policy closely.</p>
+  <h3><a href="https://pomp.substack.com/p/the-incoming-fed-chairman-thinks">The Incoming Fed Chairman Thinks Deflation Is A Major Risk</a></h3>
+  <p>Pomp flags that the likely next Fed Chair (Kevin Warsh) views deflation — not inflation — as the primary macro risk, which would imply a bias toward looser monetary policy if he takes the role. From a Bitcoin-as-hard-money perspective, a deflation-focused Fed chairman who loosens policy early is exactly the macro backdrop that validates the Saylor thesis: currency debasement risk remains structural regardless of which direction the Fed claims to be fighting.</p>
   <p class="meta">The Pomp Letter</p>
 </div>
 
 <div class="story">
-  <h3><a href="https://bitcoinmagazine.com/news/the-us-military-is-running-a-bitcoin-node">The U.S. Military Is Running a Bitcoin Node</a></h3>
-  <p>INDOPACOM commander Admiral Samuel Paparo revealed the U.S. military is actively running a Bitcoin node and testing its cryptographic architecture as a tool for network security. This is a notable legitimization signal — not investment-thesis news, but institutional adoption at the defense layer, which cuts against the regulatory hostility narrative.</p>
+  <h3><a href="https://bitcoinmagazine.com/news/vaneck-flags-dual-bullish-for-bitcoin">VanEck Flags Dual Bullish Signals for Bitcoin</a></h3>
+  <p>VanEck notes two historically bullish setups converging: deeply negative funding rates (indicating cautious/bearish sentiment among leveraged traders) and clustered hash rate declines (historically correlated with strong forward returns, as weak miners capitulate). Both signals have preceded significant price recovery in prior cycles. Worth watching as a data point, not a call.</p>
   <p class="meta">Bitcoin Magazine</p>
 </div>
-
----
 
 <h2>🧬 Health & Science</h2>
 
 <div class="story">
-  <h3><a href="https://www.strongerbyscience.com/isometric-training/">Hold Still: What Does the Evidence Actually Say About Isometric Training for Strength and Hypertrophy?</a></h3>
-  <p>Stronger by Science reviews the evidence on isometric (static contraction) training, pushing back on the conventional wisdom that it's clearly inferior to dynamic training for building strength and muscle. The piece examines the actual mechanisms — joint angle specificity, time under tension, motor unit recruitment — and argues current evidence doesn't cleanly support dismissing isometrics, particularly for injury rehabilitation contexts or as a supplement to dynamic work. Worth reading if you're building or optimizing a training program and have written off isometrics entirely.</p>
+  <h3>Isometric Training: The Evidence Is Better Than You Think</h3>
+  <p>Stronger by Science published a thorough review challenging the widespread assumption that isometric (static contraction) training is inferior for building strength and muscle. The actual literature doesn't support that claim — isometrics produce meaningful hypertrophy and strength gains, with specific advantages in joint-angle-specific strength development and lower joint stress (relevant for injury rehab or maintenance training). The piece breaks down what the evidence actually shows about mechanisms, where isometrics do and don't transfer, and how to program them. Worth reading if you've dismissed iso work as accessory filler.</p>
   <p class="meta"><a href="https://www.strongerbyscience.com/isometric-training/">Stronger by Science</a></p>
 </div>
 
 <div class="story">
-  <h3><a href="https://www.nature.com/articles/s41467-026-71264-8">Habitual Coffee Intake Shapes the Microbiome, Modifies Physiology and Cognition</a></h3>
-  <p>A Nature Communications study (162 HN points) links habitual coffee consumption to measurable changes in gut microbiome composition, physiological markers, and cognitive function — going beyond the liver enzyme / fibrosis data that Ekberg cites and into systemic effects. The direction of the findings appears positive but the mechanism details are in the full paper. Relevant context for anyone who drinks coffee daily and tracks health markers.</p>
-  <p class="meta"><a href="https://news.ycombinator.com/item?id=habitual-coffee">Hacker News discussion</a> · Nature Communications</p>
+  <h3>Ezetimibe and Brain Health: A Misclassified Drug?</h3>
+  <p>Nick Norwitz argues ezetimibe (Zetia) is primarily understood as a gut-based cholesterol drug but actually crosses the blood-brain barrier and may interrupt protein misfolding pathways implicated in Alzheimer's and neurodegeneration. A case-review study found eightfold lower rates of Alzheimer's and related dementias in ezetimibe users — not RCT-level evidence, but a mechanistic hypothesis with enough signal to warrant attention. His personal n=1: LDL dropped 288 mg/dL (56%) as a side effect while the primary goal was neuroprotection. This is a drug most people associate only with cholesterol management; the brain angle is underreported.</p>
+  <p class="meta"><a href="https://www.youtube.com/shorts/KGgG5Wb08AY">Nick Norwitz</a></p>
 </div>
 
----
+<div class="story">
+  <h3>Mango vs. Granola Bar: A Controlled Trial on Metabolic Effects</h3>
+  <p>A 24-week RCT in pre-diabetic adults (published in <em>Foods</em>) randomized participants to 300g fresh mango daily vs. a calorie-matched granola bar. The mango group had fasting glucose 18.5 mg/dL lower, stable HbA1c vs. increased in controls, improved HOMA-IR and insulin sensitivity, and lost 1.4% body fat — despite no caloric deficit being the goal. Proposed mechanisms: mango polyphenols (mangiferin, quercetin, gallotannins) + fiber reshape the gut microbiome toward butyrate-producing bacteria (reducing inflammation and improving insulin signaling), and mangiferin specifically appears to activate AMPK and upregulate pyruvate dehydrogenase — mimicking effects of AMPK activators, shifting cells toward glucose oxidation and away from fat storage. The food matrix — not just calories or macros — drove the difference. DeLauer's practical recommendation: time mango in the evening with protein (not fat), post-workout if possible, to stack AMPK activation from exercise with the polyphenol effect.</p>
+  <p class="meta"><a href="https://www.youtube.com/watch?v=U5cUB9p8LSE">Thomas DeLauer</a></p>
+</div>
 
 <h2>💡 Worth Reading</h2>
 
 <div class="story">
-  <h3><a href="https://paulgraham.com/brandage.html">The Brand Age — Paul Graham</a></h3>
-  <p>Graham argues we've entered an era where brand (reputation, trust, recognizability) has become the primary form of competitive advantage — supplanting product quality in many domains because quality has become table stakes. Worth reading for anyone thinking about how people and businesses actually get chosen in a world with abundant options and AI-generated commoditization of basic work.</p>
+  <h3><a href="https://kevinlynagh.com/newsletter/2026_04_overthinking/">Sabotaging Projects by Overthinking, Scope Creep, and Structural Diffing</a></h3>
+  <p>A Hacker News favorite this week (389 pts) — the essay argues that a specific cognitive trap kills projects: treating every decision as an opportunity to find the "right" structure rather than just making something work. The author's self-diagnosis is that he diffs new ideas against an ideal structure that doesn't exist yet, which creates paralysis. Relevant beyond software — this is a clean articulation of perfectionism-as-self-sabotage with a practical frame for recognizing it in yourself.</p>
+  <p class="meta"><a href="https://news.ycombinator.com/item?id=kevinlynagh">Discussion</a> · Kevin Lynagh</p>
+</div>
+
+<div class="story">
+  <h3><a href="https://notes.andymatuschak.org/Work_with_the_garage_door_up">Work with the Garage Door Up (Andy Matuschak)</a></h3>
+  <p>A 2024 piece resurging on HN (145 pts): the idea is to work in public — sharing process, half-formed ideas, and failures — rather than only publishing polished outputs. Matuschak's argument is that showing the work-in-progress creates a different kind of connection and learning than finished artifacts do, and that the instinct to hide messy process is both common and costly. Short, worth sitting with.</p>
+  <p class="meta"><a href="https://news.ycombinator.com/item?id=andymatuschak">Discussion</a> · Andy Matuschak</p>
+</div>
+
+<div class="story">
+  <h3><a href="https://paulgraham.com/brandage.html">The Brand Age (Paul Graham)</a></h3>
+  <p>Graham's latest essay — no summary available from the feed, but given his track record and the title ("The Brand Age"), this is almost certainly an argument about how brand has become the primary mechanism of trust and differentiation in a world flooded with AI-generated content and commoditized products. Worth reading directly; his essays are short.</p>
   <p class="meta">Paul Graham</p>
 </div>
 
 <div class="story">
-  <h3><a href="https://www.orwellfoundation.com/the-orwell-foundation/orwell/essays-and-other-works/why-i-write/">Why I Write (1946) — George Orwell</a></h3>
-  <p>Orwell's classic essay on his four motives for writing: sheer egoism, aesthetic enthusiasm, historical impulse, and political purpose — and how he came to see all good prose as a struggle to fuse those motives without one overwhelming the others. 980 HN points suggests it hit a nerve this week; it's one of the best short pieces ever written on what it actually means to want to make something. If you haven't read it, this is the day.</p>
-  <p class="meta"><a href="https://news.ycombinator.com/item?id=why-i-write-orwell">HN Discussion</a> · Orwell Foundation</p>
+  <h3><a href="https://figsinwintertime.substack.com/p/five-crucial-stoic-ideas">Five Crucial Stoic Ideas — How Do They Stand Up to Modern Science and Philosophy?</a></h3>
+  <p>Massimo Pigliucci (Figs in Winter) stress-tests five core Stoic ideas against contemporary science and philosophy. This is exactly the kind of rigorous engagement with Stoicism worth having — not hagiography, but actual scrutiny of whether the ancient framework holds up. Pigliucci is a philosopher and former biologist, so the scientific critique is substantive.</p>
+  <p class="meta"><a href="https://figsinwintertime.substack.com/p/five-crucial-stoic-ideas">Figs in Winter</a></p>
+</div>
+
+<div class="story">
+  <h3><a href="https://donaldrobertson.substack.com/p/what-marcus-aurelius-can-teach-us">What Marcus Aurelius Can Teach Us About Coping with Stress</a></h3>
+  <p>Donald Robertson in conversation with Mark Forstater, author of <em>The Spiritual Teachings of Marcus Aurelius</em>. Robertson is one of the most serious Marcus Aurelius scholars writing today (author of <em>How to Think Like a Roman Emperor</em>), so this is likely to go deeper than the usual Stoicism content — worth checking if you're in the Marcus Aurelius space.</p>
+  <p class="meta"><a href="https://donaldrobertson.substack.com/p/what-marcus-aurelius-can-teach-us">Donald Robertson</a></p>
 </div>
 
 <div class="story">
   <h3><a href="https://fs.blog/knowledge-project-podcast/greg-brockman/">Greg Brockman: Inside the 72 Hours That Almost Killed OpenAI</a></h3>
-  <p>Farnam Street's interview with OpenAI co-founder Greg Brockman covers the inside account of the Sam Altman firing crisis, how OpenAI thinks about AGI timelines, and the structural tensions between safety and capability that drove the board conflict. Less about AI capabilities per se and more about how the humans building it think under extreme pressure — which is the part that's actually worth your time from a mental-game and decision-making perspective.</p>
-  <p class="meta">Farnam Street / The Knowledge Project</p>
+  <p>Farnam Street's Knowledge Project interview with OpenAI co-founder Greg Brockman on the Altman firing/rehiring crisis — what happened, what it revealed about the organization, and how Brockman thinks about the AGI race and what OpenAI is actually building toward. Less about AI capability and more about decision-making under extreme pressure, organizational resilience, and conviction — which puts it squarely in the "mental strength / decisions under pressure" bucket that's worth your time.</p>
+  <p class="meta"><a href="https://fs.blog/knowledge-project-podcast/greg-brockman/">Farnam Street</a></p>
 </div>
-
-<div class="story">
-  <h3><a href="https://figsinwintertime.substack.com/p/five-crucial-stoic-ideas">Five Crucial Stoic Ideas — Massimo Pigliucci</a></h3>
-  <p>Pigliucci (a philosopher and Stoicism scholar) examines five core Stoic concepts and stress-tests them against modern science and philosophy — asking which hold up, which need revision, and which should be discarded. This is a more rigorous engagement than most popular Stoicism content and worth reading alongside Robertson's more applied material.</p>
-  <p class="meta"><a href="https://figsinwintertime.substack.com/p/five-crucial-stoic-ideas">Figs in Winter</a></p>
-</div>
-
----
 
 <h2>🤖 AI Capability Watch</h2>
 
 <div class="story">
-  <h3><a href="https://openai.com/index/introducing-gpt-5-5/">GPT-5.5</a></h3>
-  <p>OpenAI's new flagship model — positioned as their most capable release yet, with meaningful improvements in complex reasoning, coding, and multi-tool data analysis tasks. This is a new model family position (above GPT-5, below whatever comes next), not an incremental update — the kind of release where real-world performance on hard tasks should be noticeably different for everyday users.</p>
-  <p class="meta"><a href="https://news.ycombinator.com/item?id=gpt55">HN Discussion</a> · OpenAI</p>
+  <h3><a href="https://api-docs.deepseek.com/news/news260424">DeepSeek V4</a></h3>
+  <p>DeepSeek released two preview models — V4-Pro and V4-Flash — both with 1 million token context windows and Mixture-of-Experts architecture (Pro is 1.6T parameters). Simon Willison's read: "almost on the frontier, a fraction of the price" — meaning these are competitive with top Western models on capability benchmarks while being significantly cheaper to run via API. If that holds, it continues the pattern of DeepSeek compressing the cost curve for frontier-level AI, which has real implications for what's economically viable to build on top of these models.</p>
+  <p class="meta"><a href="https://simonwillison.net/2026/Apr/24/deepseek-v4/">Simon Willison's Analysis</a> · DeepSeek</p>
 </div>
 
 <div class="story">
-  <h3><a href="https://api-docs.deepseek.com/">DeepSeek V4</a></h3>
-  <p>DeepSeek dropped two preview models — V4-Pro and V4-Flash — both with 1 million token context windows and Mixture-of-Experts architecture. Pro is a 1.6 trillion parameter model; per Simon Willison's analysis, it's "almost on the frontier, at a fraction of the price." The significance: if DeepSeek V4 approaches GPT-5.5 quality at substantially lower API cost, the price floor for frontier-grade AI drops again — which affects anyone building with or budgeting for AI tools.</p>
-  <p class="meta"><a href="https://news.ycombinator.com/item?id=deepseekv4">HN Discussion</a> · Simon Willison</p>
+  <h3><a href="https://openai.com/index/introducing-gpt-5-5">Introducing GPT-5.5</a></h3>
+  <p>OpenAI released GPT-5.5, positioning it as their most capable model to date with particular emphasis on complex reasoning, coding, and research tasks. A prompting guide was simultaneously released with practical tips for getting the most out of it (including handling long thinking periods with intermediate responses). Worth noting as a new model family entry, though capability details beyond "faster and smarter than GPT-5" are thin from the feed summaries.</p>
+  <p class="meta"><a href="https://openai.com/index/introducing-gpt-5-5">OpenAI</a></p>
 </div>
 
 <div class="story">
   <h3><a href="https://www.anthropic.com/news/claude-opus-4-7">Introducing Claude Opus 4.7</a></h3>
-  <p>Anthropic released Claude Opus 4.7, a new model in the Opus line. Details on capability improvements are in the announcement, but Opus releases from Anthropic have historically represented their top-tier reasoning tier — this is a new model, not a feature update.</p>
-  <p class="meta">Anthropic</p>
+  <p>Anthropic released Claude Opus 4.7, a new entry in the Opus line (their highest-capability tier). No transcript or detailed summary available from the feed, but a new Opus model release from Anthropic is a genuine model family update — Opus is the tier where Anthropic has historically pushed their frontier capabilities hardest. Worth checking the release notes directly for what's new versus Opus 4.</p>
+  <p class="meta"><a href="https://www.anthropic.com/news/claude-opus-4-7">Anthropic</a></p>
 </div>
 </body>
 </html>
