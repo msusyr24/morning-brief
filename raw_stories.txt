@@ -1,96 +1,117 @@
 === HACKER NEWS ===
-1. [452 pts] Google plans to invest up to $40B in Anthropic
-   https://www.bloomberg.com/news/articles/2026-04-24/google-plans-to-invest-up-to-40-billion-in-anthropic
+1. [230 pts] Amateur armed with ChatGPT solves an Erdős problem
+   https://www.scientificamerican.com/article/amateur-armed-with-chatgpt-vibe-maths-a-60-year-old-problem/
 
-2. [18 pts] Turbo Vision 2.0 – a modern port
-   https://github.com/magiblot/tvision
+2. [159 pts] Why has there been so little progress on Alzheimer's disease?
+   https://freakonomics.com/podcast/why-has-there-been-so-little-progress-on-alzheimers-disease/
 
-3. [108 pts] Paraloid B-72
-   https://en.wikipedia.org/wiki/Paraloid_B-72
+3. [231 pts] USB Cheat Sheet (2022)
+   https://fabiensanglard.net/usbcheat/index.html
 
-4. [22 pts] Oxford All Souls College General Examination [pdf]
-   https://www.asc.ox.ac.uk/sites/default/files/2025-10/General%202025.pdf
+4. [120 pts] Tell HN: An app is silently installing itself on my iPhone every day
+   https://news.ycombinator.com/item?id=47906253
 
-5. [62 pts] Humpback whales are forming super-groups
-   https://www.bbc.com/future/article/20260416-the-humpback-super-groups-swarming-the-seas
+5. [33 pts] Mahjong: A Visual Guide
+   https://themahjong.guide/
 
-6. [83 pts] Replace IBM Quantum back end with /dev/urandom
-   https://github.com/yuvadm/quantumslop/blob/25ad2e76ae58baa96f6219742459407db9dd17f5/URANDOM_DEMO.md
+6. [110 pts] Flickr: The first and last great photo platform
+   https://petapixel.com/2026/04/22/flickr-the-first-and-last-great-photo-platform/
 
-7. [198 pts] My audio interface has SSH enabled by default
-   https://hhh.hn/rodecaster-duo-fw/
+7. [54 pts] EU Age Control: The trojan horse for digital IDs
+   https://juraj.bednar.io/en/blog-en/2026/04/17/eu-age-control-the-trojan-horse-for-digital-ids/
 
-8. [151 pts] Iliad fragment found in Roman-era mummy
-   https://www.thehistoryblog.com/archives/75877
+8. [298 pts] The Free Universal Construction Kit
+   https://fffff.at/free-universal-construction-kit/
 
-9. [389 pts] Sabotaging projects by overthinking, scope creep, and structural diffing
-   https://kevinlynagh.com/newsletter/2026_04_overthinking/
+9. [163 pts] OpenAI Privacy Filter
+   https://openai.com/index/introducing-openai-privacy-filter/
 
-10. [43 pts] Education must go beyond the mere production of words
-   https://www.ncregister.com/commentaries/schnell-repairing-the-ruins
+10. [5 pts] Per-image PCA characterization of the Kodak image suite (PDF and JSON)
+   https://github.com/PearsonZero/kodak-pcd0992-statistical-characterization/tree/main/baseline
 
-11. [192 pts] The Classic American Diner
-   https://blogs.loc.gov/picturethis/2026/04/the-classic-american-diner/
+11. [546 pts] 1-Bit Hokusai's "The Great Wave" (2023)
+   https://www.hypertalking.com/2023/05/08/1-bit-pixel-art-of-hokusais-the-great-wave-off-kanagawa/
 
-12. [28 pts] "Plain text has been around for decades and it's here to stay." – Unsung
-   https://unsung.aresluna.org/plain-text-has-been-around-for-decades-and-its-here-to-stay/
+12. [244 pts] Using coding assistance tools to revive projects you never were going to finish
+   https://blog.matthewbrunelle.com/its-ok-to-use-coding-assistance-tools-to-revive-the-projects-you-never-were-going-to-finish/
 
-13. [182 pts] There Will Be a Scientific Theory of Deep Learning
-   https://arxiv.org/abs/2604.21691
+13. [136 pts] The Joy of Folding Bikes
+   https://blog.korny.info/2026/04/19/the-joy-of-folding-bikes
 
-14. [16 pts] A disabled kea parrot is the alpha male of his circus
-   https://www.cell.com/current-biology/fulltext/S0960-9822(26)00259-9
+14. [11 pts] My Homemade PBX (2002)
+   https://wandel.ca/homepage/pbx.html
 
-15. [145 pts] Work with the garage door up (2024)
-   https://notes.andymatuschak.org/Work_with_the_garage_door_up
+15. [102 pts] America's Geothermal Breakthrough
+   https://oilprice.com/Alternative-Energy/Geothermal-Energy/Americas-Geothermal-Breakthrough-Could-Unlock-a-150-Gigawatt-Energy-Revolution.html
 
-16. [103 pts] Firefox Has Integrated Brave's Adblock Engine
-   https://itsfoss.com/news/firefox-ships-brave-adblock-engine/
+16. [30 pts] DeepSeek-V4 on Day 0: From Fast Inference to Verified RL with SGLang and Miles
+   https://www.lmsys.org/blog/2026-04-25-deepseek-v4/
 
-17. [28 pts] Do I belong in tech anymore?
-   https://ky.fyi/posts/ai-burnout
+17. [9 pts] GnuPG – post-quantum crypto landing in mainline
+   https://lists.gnupg.org/pipermail/gnupg-announce/2026q2/000504.html
 
-18. [4 pts] A 3D Body from Eight Questions – No Photo, No GPU
-   https://clad.you/blog/posts/questionnaire-mlp/
+18. [13 pts] Reviving BrowserID in 2026
+   https://wakamoleguy.com/p/reviving-browserid-in-2026
 
-19. [332 pts] How to be anti-social – a guide to incoherent and isolating social experiences
-   https://nate.leaflet.pub/3mk4xkaxobc2p
+19. [28 pts] The Super Nintendo Cartridges (2024)
+   https://fabiensanglard.net/snes_carts/
 
-20. [11 pts] Reverse-engineering infrared-based electronic shelf labels
-   https://www.furrtek.org/?a=esl
+20. [12 pts] AGPLv3§74 Empowers Users to Thwart Badgeware Like OnlyOffice
+   https://sfconservancy.org/blog/2026/apr/16/badgeware-onlyoffice-nextcloud-affero-gpl/
 
-21. [153 pts] Email could have been X.400 times better
-   https://buttondown.com/blog/x400-vs-smtp-email
+21. [566 pts] New 10 GbE USB adapters are cooler, smaller, cheaper
+   https://www.jeffgeerling.com/blog/2026/new-10-gbe-usb-adapters-cooler-smaller-cheaper/
 
-22. [91 pts] Show HN: I've built a nice home server OS
-   https://lightwhale.asklandd.dk/
+22. [5 pts] Shall We Play a Game?
+   https://asteriskmag.com/issues/14/shall-we-play-a-game
 
-23. [238 pts] MacBook Neo and how the iPad should be
-   https://craigmod.com/essays/ipad_neo/
+23. [74 pts] Math Is Hard – OpenBSD Stories
+   http://miod.online.fr/software/openbsd/stories/vaxfp.html
 
-24. [27 pts] The Overtom Chess Computer Museum
-   https://tluif.home.xs4all.nl/chescom/Engindex.html
+24. [35 pts] Optimizing Datalog for the GPU
+   https://dl.acm.org/doi/10.1145/3669940.3707274
 
-25. [40 pts] You don't want long-lived keys
-   https://argemma.com/blog/long-lived-keys/
+25. [97 pts] Hokusai and Tesselations
+   https://dl.ndl.go.jp/pid/1899550/1/11/
 
-26. [1861 pts] DeepSeek v4
-   https://api-docs.deepseek.com/news/news260424
+26. [19 pts] The George Business, by Roger Zelazny (1980)
+   https://www.eternal-flame.org/library/oldlibrary/georgebusiness.html
 
-27. [17 pts] (Blender) Cosmology with Geometry Nodes
-   https://www.blender.org/user-stories/cosmology-with-geometry-nodes/
+27. [29 pts] The Long Reply
+   https://ironicsans.ghost.io/the-long-reply/
 
-28. [106 pts] Diatec, known for its mechanical keyboard brand FILCO, has ceased operations
-   https://gigazine.net/gsc_news/en/20260424-filco-diatec/
+28. [126 pts] Simulacrum of Knowledge Work
+   https://blog.happyfellow.dev/simulacrum-of-knowledge-work/
 
-29. [157 pts] I'm done making desktop applications (2009)
-   https://www.kalzumeus.com/2009/09/05/desktop-aps-versus-web-apps/
+29. [190 pts] What async promised and what it delivered
+   https://causality.blog/essays/what-async-promised/
 
-30. [3 pts] Show HN: VT Code – Rust TUI coding agent with multi-provider support
-   https://github.com/vinhnx/VTCode
+30. [88 pts] Mine, an IDE for Coalton and Common Lisp
+   https://coalton-lang.github.io/mine/
 
 
 === RSS ===
+[ai] Simon Willison: WHY ARE YOU LIKE THIS
+  https://simonwillison.net/2026/Apr/25/why-are-you-like-this/#atom-everything
+
+[ai] Simon Willison: Quoting Romain Huet
+  https://simonwillison.net/2026/Apr/25/romain-huet/#atom-everything
+
+[ai] Simon Willison: GPT-5.5 prompting guide
+  https://simonwillison.net/2026/Apr/25/gpt-5-5-prompting-guide/#atom-everything
+
+[ai] Simon Willison: llm 0.31
+  https://simonwillison.net/2026/Apr/24/llm/#atom-everything
+
+[ai] Simon Willison: The people do not yearn for automation
+  https://simonwillison.net/2026/Apr/24/the-people-do-not-yearn-for-automation/#atom-everything
+
+[ideas] Stratechery: 2026.17: He Came, He Saw, He Cooked
+  https://stratechery.com/2026/he-came-he-saw-he-cooked/
+
+[ideas] Stratechery: An Interview with Google Cloud CEO Thomas Kurian About the Agentic Moment
+  https://stratechery.com/2026/an-interview-with-google-cloud-ceo-thomas-kurian-about-the-agentic-moment/
+
 [ai] Anthropic News: Anthropic and NEC collaborate to build Japan’s largest AI engineering workforce
   https://www.anthropic.com/news/anthropic-nec
 
@@ -106,83 +127,47 @@
 [ai] Anthropic News: Introducing Claude Opus 4.7
   https://www.anthropic.com/news/claude-opus-4-7
 
-[ideas] Paul Graham: The Brand Age
-  https://paulgraham.com/brandage.html
-
-[ideas] Marginal Revolution: That was then, this is now
-  https://marginalrevolution.com/marginalrevolution/2026/04/that-was-then-this-is-now-58.html?utm_source=rss&utm_medium=rss&utm_campaign=that-was-then-this-is-now-58
-
-[ideas] Marginal Revolution: Growth is getting harder to find, not ideas
-  https://marginalrevolution.com/marginalrevolution/2026/04/growth-is-getting-harder-to-find-not-ideas-2.html?utm_source=rss&utm_medium=rss&utm_campaign=growth-is-getting-harder-to-find-not-ideas-2
-
-[ideas] Marginal Revolution: Friday assorted links
-  https://marginalrevolution.com/marginalrevolution/2026/04/friday-assorted-links-569.html?utm_source=rss&utm_medium=rss&utm_campaign=friday-assorted-links-569
-
-[ideas] Marginal Revolution: Which workers are using AI the most and best?
-  https://marginalrevolution.com/marginalrevolution/2026/04/which-workers-are-using-ai-the-most-and-best.html?utm_source=rss&utm_medium=rss&utm_campaign=which-workers-are-using-ai-the-most-and-best
-
-[ideas] Marginal Revolution: What should I ask Luke Burgis?
-  https://marginalrevolution.com/marginalrevolution/2026/04/what-should-i-ask-luke-burgis.html?utm_source=rss&utm_medium=rss&utm_campaign=what-should-i-ask-luke-burgis
-
-[wisdom] Farnam Street: Greg Brockman: Inside the 72 Hours That Almost Killed OpenAI
-  https://fs.blog/knowledge-project-podcast/greg-brockman/
-
-[ideas] Collaborative Fund (Morgan Housel): Collab Holdings
-  https://collabfund.substack.com/p/collab-holdings
-
-[ai] Simon Willison: GPT-5.5 prompting guide
-  https://simonwillison.net/2026/Apr/25/gpt-5-5-prompting-guide/#atom-everything
-
-[ai] Simon Willison: llm 0.31
-  https://simonwillison.net/2026/Apr/24/llm/#atom-everything
-
-[ai] Simon Willison: The people do not yearn for automation
-  https://simonwillison.net/2026/Apr/24/the-people-do-not-yearn-for-automation/#atom-everything
-
-[ai] Simon Willison: DeepSeek V4 - almost on the frontier, a fraction of the price
-  https://simonwillison.net/2026/Apr/24/deepseek-v4/#atom-everything
-
-[ai] Simon Willison: Millisecond Converter
-  https://simonwillison.net/2026/Apr/24/milliseconds/#atom-everything
-
 [bitcoin] The Pomp Letter: My Conversation with the New York Times about Bitcoin
   https://pomp.substack.com/p/my-conversation-with-the-new-york
 
 [bitcoin] The Pomp Letter: The Incoming Fed Chairman Thinks Deflation Is A Major Risk
   https://pomp.substack.com/p/the-incoming-fed-chairman-thinks
 
-[ideas] Astral Codex Ten: Links For April 2026
-  https://www.astralcodexten.com/p/links-for-april-2026
+[ideas] Paul Graham: The Brand Age
+  https://paulgraham.com/brandage.html
 
-[ai] OpenAI Blog: Introducing GPT-5.5
-  https://openai.com/index/introducing-gpt-5-5
+[health] Peter Attia: There is no safe gamble with high LDL cholesterol
+  https://peterattiamd.com/there-is-no-safe-gamble-with-high-ldl-cholesterol/
 
-[ai] OpenAI Blog: GPT-5.5 System Card
-  https://openai.com/index/gpt-5-5-system-card
+[ideas] Collaborative Fund (Morgan Housel): Collab Holdings
+  https://collabfund.substack.com/p/collab-holdings
 
-[ai] OpenAI Blog: Automations
-  https://openai.com/academy/codex-automations
+[ideas] Marginal Revolution: Will AI save the U.S. fiscal situation?
+  https://marginalrevolution.com/marginalrevolution/2026/04/will-ai-save-the-u-s-fiscal-situation.html?utm_source=rss&utm_medium=rss&utm_campaign=will-ai-save-the-u-s-fiscal-situation
 
-[ai] OpenAI Blog: Top 10 uses for Codex at work
-  https://openai.com/academy/top-10-use-cases-codex-for-work
+[ideas] Marginal Revolution: Saturday assorted links
+  https://marginalrevolution.com/marginalrevolution/2026/04/saturday-assorted-links-558.html?utm_source=rss&utm_medium=rss&utm_campaign=saturday-assorted-links-558
 
-[ai] OpenAI Blog: Plugins and skills
-  https://openai.com/academy/codex-plugins-and-skills
+[ideas] Marginal Revolution: The Pernicious Trade Account
+  https://marginalrevolution.com/marginalrevolution/2026/04/the-pernicious-trade-account.html?utm_source=rss&utm_medium=rss&utm_campaign=the-pernicious-trade-account
 
-[wisdom] Figs in Winter (Pigliucci): Socrates and AI
-  https://figsinwintertime.substack.com/p/socrates-and-ai
+[ideas] Marginal Revolution: More on Sir Thomas Gresham (from my email)
+  https://marginalrevolution.com/marginalrevolution/2026/04/more-on-sir-thomas-gresham-from-my-email.html?utm_source=rss&utm_medium=rss&utm_campaign=more-on-sir-thomas-gresham-from-my-email
 
-[wisdom] Figs in Winter (Pigliucci): The Seven Sages: III–Solon of Salamis
-  https://figsinwintertime.substack.com/p/the-seven-sages-iiisolon-of-salamis
-
-[wisdom] Figs in Winter (Pigliucci): Five crucial Stoic ideas
-  https://figsinwintertime.substack.com/p/five-crucial-stoic-ideas
+[ideas] Marginal Revolution: That was then, this is now
+  https://marginalrevolution.com/marginalrevolution/2026/04/that-was-then-this-is-now-58.html?utm_source=rss&utm_medium=rss&utm_campaign=that-was-then-this-is-now-58
 
 [wisdom] Donald Robertson: What Marcus Aurelius Can Teach Us Coping with Stress
   https://donaldrobertson.substack.com/p/what-marcus-aurelius-can-teach-us
 
 [wisdom] Donald Robertson: Conversations with Chris Williamson
   https://donaldrobertson.substack.com/p/conversations-with-chris-williamson
+
+[ideas] Astral Codex Ten: Links For April 2026
+  https://www.astralcodexten.com/p/links-for-april-2026
+
+[health] Stronger by Science: Hold Still: What Does the Evidence Actually Say About Isometric Training for Strength and Hypertrophy?
+  https://www.strongerbyscience.com/isometric-training/
 
 [bitcoin] Bitcoin Magazine: VanEck Flags Dual Bullish Signals for Bitcoin as Funding Turns Negative, Hash Rate Slips
   https://bitcoinmagazine.com/news/vaneck-flags-dual-bullish-for-bitcoin
@@ -208,106 +193,138 @@
 [bitcoin] Bitcoin Magazine: Pantera Capital Urges Satsuma to Dump All Bitcoin as Shares Collapse 99%
   https://bitcoinmagazine.com/news/pantera-urges-satsuma-to-sell-bitcoin
 
-[health] Stronger by Science: Hold Still: What Does the Evidence Actually Say About Isometric Training for Strength and Hypertrophy?
-  https://www.strongerbyscience.com/isometric-training/
+[wisdom] Figs in Winter (Pigliucci): Suggested Readings
+  https://figsinwintertime.substack.com/p/suggested-readings-cf5
 
-[ideas] Stratechery: 2026.17: He Came, He Saw, He Cooked
-  https://stratechery.com/2026/he-came-he-saw-he-cooked/
+[wisdom] Figs in Winter (Pigliucci): Socrates and AI
+  https://figsinwintertime.substack.com/p/socrates-and-ai
 
-[ideas] Stratechery: An Interview with Google Cloud CEO Thomas Kurian About the Agentic Moment
-  https://stratechery.com/2026/an-interview-with-google-cloud-ceo-thomas-kurian-about-the-agentic-moment/
+[wisdom] Figs in Winter (Pigliucci): The Seven Sages: III–Solon of Salamis
+  https://figsinwintertime.substack.com/p/the-seven-sages-iiisolon-of-salamis
 
-[ideas] Stratechery: John Ternus and Apple’s Hardware-Defined Future, SpaceXAI and Cursor
-  https://stratechery.com/2026/john-ternus-and-apples-hardware-defined-future-spacexai-and-cursor/
+[ai] OpenAI Blog: Introducing GPT-5.5
+  https://openai.com/index/introducing-gpt-5-5
+
+[ai] OpenAI Blog: GPT-5.5 System Card
+  https://openai.com/index/gpt-5-5-system-card
+
+[ai] OpenAI Blog: Automations
+  https://openai.com/academy/codex-automations
+
+[ai] OpenAI Blog: Top 10 uses for Codex at work
+  https://openai.com/academy/top-10-use-cases-codex-for-work
+
+[ai] OpenAI Blog: Plugins and skills
+  https://openai.com/academy/codex-plugins-and-skills
 
 
 === YOUTUBE ===
-Nick Norwitz: What Statins Did To My Muscles (Randomized Controlled Study)
-  https://www.youtube.com/watch?v=d9LeDSoYOVc
+Ken Berry MD: Every cell in your body needs iodine daily. You should get it from real food first…
+  https://www.youtube.com/shorts/YkiUhzzsQ-Q
   Transcript: NO
 
-Nick Norwitz: This Drug Cut LDL 56%—But That Wasn’t the Goal
-  https://www.youtube.com/shorts/KGgG5Wb08AY
+Joe Rogan: Joe Rogan Experience #2489 - Ryan Bingham
+  https://www.youtube.com/watch?v=Jvv1g3QMLL0
   Transcript: yes
 
-GTO Lab: We all have been in THIS SPOT. Brian Kim analyze defending the BB with 15bb
-  https://www.youtube.com/shorts/FBcTalAMa7g
+Paul Saladino MD: People think I’m crazy…
+  https://www.youtube.com/shorts/94ZKjA7Ucss
+  Transcript: NO
+
+Renaissance Periodization: Why Dr. Mike Got Lipo
+  https://www.youtube.com/shorts/fCXyXFAbIMA
+  Transcript: NO
+
+ModernWisdom: Go Outside And Learn By Living
+  https://www.youtube.com/shorts/XVqaz6UcQQE
+  Transcript: yes
+
+ModernWisdom: No One is Ready for This Coming War - Navy SEAL Andy Stumpf
+  https://www.youtube.com/watch?v=QvxHBtYsDig
+  Transcript: NO
+
+ModernWisdom: How To Handle Criticism
+  https://www.youtube.com/shorts/hDHagBlsILM
   Transcript: yes
 
 ModernWisdom: 3 Rules For A Lasting Relationship
   https://www.youtube.com/shorts/9rjLyFOy9bw
-  Transcript: NO
-
-ModernWisdom: Do This To Save Your Relationship
-  https://www.youtube.com/shorts/dQs7R84tZ04
-  Transcript: yes
-
-ModernWisdom: Women Are Just As “Porn-Brained” As Men
-  https://www.youtube.com/watch?v=cR9lxSFgbdA
-  Transcript: yes
-
-ModernWisdom: Be Careful How You Live Your Life
-  https://www.youtube.com/shorts/dLLTTHVxwbQ
   Transcript: yes
 
 Lex Fridman: Vikings, Ragnar, Berserkers, Valhalla & the Warriors of the Viking Age | Lex Fridman Podcast #495
   https://www.youtube.com/watch?v=iKx3gAODybU
   Transcript: yes
 
-Jared Alderman: The Edge That Most Poker Players Never Pursue
-  https://www.youtube.com/watch?v=18zicffeFzI
-  Transcript: NO
-
-Thomas DeLauer: 1 Cup with Carbs Blocks Insulin and Shrinks Visceral Fat
-  https://www.youtube.com/watch?v=U5cUB9p8LSE
+Thomas DeLauer: What They Discovered in 46% of Whey Protein (contaminated)
+  https://www.youtube.com/watch?v=3EM42H7mBP0
   Transcript: yes
 
-Ken Berry MD: Every cell in your body needs iodine daily. You should get it from real food first…
-  https://www.youtube.com/shorts/YkiUhzzsQ-Q
+Andrew Huberman: Essentials: The Neuroscience of Speech, Language & Music | Dr. Erich Jarvis
+  https://www.youtube.com/watch?v=3bnLgOxHMB8
   Transcript: yes
 
-Joe Rogan: Joe Rogan Experience #2489 - Ryan Bingham
-  https://www.youtube.com/watch?v=Jvv1g3QMLL0
+Andrew Huberman: How to Better Regulate Your Emotions | Dr. Marc Brackett
+  https://www.youtube.com/watch?v=FBgM7jndkLQ
+  Transcript: yes
+
+Andrew Huberman: Understand & Improve Memory Using Science-Based Tools | Huberman Lab Essentials
+  https://www.youtube.com/watch?v=U6dnOVth7-I
+  Transcript: yes
+
+Andrew Huberman: How Women Can Improve Their Fertility & Hormone Health | Dr. Natalie Crawford
+  https://www.youtube.com/watch?v=RTPNJgHeZBI
+  Transcript: yes
+
+Andrew Huberman: Essentials: The Biology of Aggression, Mating & Arousal | Dr. David Anderson
+  https://www.youtube.com/watch?v=xZ4I2aE8zQA
+  Transcript: yes
+
+Andrew Huberman: Cultivating Awe & Emotional Connection in Daily Life | Dr. Dacher Keltner
+  https://www.youtube.com/watch?v=Tmw2dW0a9DY
+  Transcript: yes
+
+Andrew Huberman: Essentials: How to Build Strength, Muscle Size & Endurance | Dr. Andy Galpin
+  https://www.youtube.com/watch?v=0VSOoMuStvg
+  Transcript: yes
+
+Andrew Huberman: How Hormones Shape Sexual Orientation & Behavior | Dr. Marc Breedlove
+  https://www.youtube.com/watch?v=6-mEiwe2NhE
+  Transcript: yes
+
+Andrew Huberman: Using Salt to Optimize Mental & Physical Performance | Huberman Lab Essentials
+  https://www.youtube.com/watch?v=hnzrPKvRBD8
+  Transcript: yes
+
+Andrew Huberman: The Best Vitality & Health Protocols | Dr. Rhonda Patrick
+  https://www.youtube.com/watch?v=C0DMdUqF73Q
+  Transcript: yes
+
+Andrew Huberman: Essentials: Tools for Setting & Achieving Goals | Dr. Emily Balcetis
+  https://www.youtube.com/watch?v=RECLTp_YxSU
+  Transcript: yes
+
+Andrew Huberman: Science-Based Meditation Tools to Improve Your Brain & Health | Dr. Richard Davidson
+  https://www.youtube.com/watch?v=hlOA8ObQJXo
+  Transcript: yes
+
+Andrew Huberman: Benefits of Sauna & Deliberate Heat Exposure | Huberman Lab Essentials
+  https://www.youtube.com/watch?v=iuPQmw4Ax00
+  Transcript: yes
+
+Andrew Huberman: Avoiding, Treating & Curing Cancer | Dr. Alex Marson
+  https://www.youtube.com/watch?v=u4VTFb4awrQ
+  Transcript: yes
+
+Andrew Huberman: Essentials: The Biology of Taste Perception & Sugar Craving | Dr. Charles Zuker
+  https://www.youtube.com/watch?v=cru_4P6qVYQ
   Transcript: yes
 
 Anthony Chaffee MD: Rediscovering what Medicine Forgot #shorts #short #shortvideo #carnivore
   https://www.youtube.com/shorts/n11AOuIBRgk
   Transcript: yes
 
-Anthony Chaffee MD: The Human Body is Absolutely Amazing #shorts #short #shortvideo #carnivore
-  https://www.youtube.com/shorts/NwOp4GjPOUI
-  Transcript: yes
-
-Paul Saladino MD: My Non-Toxic Bedroom Tour in 2026 (Live to 120+)
-  https://www.youtube.com/watch?v=c7Rm6sT35Tk
-  Transcript: yes
-
-Paul Saladino MD: This is how you heal your gut
-  https://www.youtube.com/shorts/fCjY3QnUnhU
-  Transcript: yes
-
-Paul Saladino MD: The best thing at In-N-Out
-  https://www.youtube.com/shorts/BzVgRsxB_Ic
-  Transcript: yes
-
-GTO Wizard: Study Effectively With GTO Wizard
-  https://www.youtube.com/shorts/5yX0-0ZtGow
-  Transcript: yes
-
-Dr. Sten Ekberg: This Happens When You Do 25 Push-Ups Twice A Day
-  https://www.youtube.com/watch?v=0XFH6Hv3BTc
-  Transcript: yes
-
-Renaissance Periodization: Dr. Mike’s 75g Protein Dinner
-  https://www.youtube.com/shorts/JLUILsoh65U
-  Transcript: yes
-
-Renaissance Periodization: Exercise Scientist Critiques The 16-Year-Old on Tren
-  https://www.youtube.com/watch?v=x6IDeFXDdEc
-  Transcript: yes
-
-Renaissance Periodization: Why People REALLY Go To The Gym
-  https://www.youtube.com/shorts/eBKUy52G88E
+GTO Lab: We all have been in THIS SPOT. Brian Kim analyze defending the BB with 15bb
+  https://www.youtube.com/shorts/FBcTalAMa7g
   Transcript: yes
 
 Peter Attia: Is Industrial Processing the Real Problem With Seed Oils? | Layne Norton, Ph.D.
