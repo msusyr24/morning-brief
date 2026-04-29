@@ -1,11 +1,11 @@
 {
   "current_suggestion": {
-    "channel_name": "FoundMyFitness",
-    "channel_id": "UCWF8SqJVNlx-ctXbLswcTcA",
-    "youtube_handle": "@FoundMyFitness",
-    "pitch": "Your health channels skew heavily toward carnivore/low-carb advocacy, and Rhonda Patrick steelmans the micronutrient, phytonutrient, and sauna/cold exposure side of longevity that Attia touches but doesn't own. She goes deep on primary literature \u2014 heat shock proteins, sulforaphane, omega-3 mechanisms, and genetic variation in nutrient metabolism \u2014 with a level of citation density that matches your preference for real data over ideology. Format is a mix of solo deep-dives and long-form research interviews with scientists like Valter Longo and Satchin Panda, typically 45\u201390 minutes."
+    "channel_name": "Chris Williamson",
+    "channel_id": "UCIaH-gZIVC432YRjNVvnyCA",
+    "youtube_handle": "@ChrisWillx",
+    "pitch": "Your current long-form interview channels (Lex, Rogan, Modern Wisdom) overlap heavily, but Chris Williamson consistently pulls guests in the intersection of evolutionary psychology, behavior change, and male psychology that none of your current channels own \u2014 figures like Geoffrey Miller, Rob Henderson, or Jonathan Haidt in contexts more focused on applied philosophy and mental models than politics. He steelmans the 'inner game' angle more rigorously than the hustle-culture adjacent content you're avoiding, with a philosophy-meets-data sensibility that bridges Stoicism and modern behavioral science. Format is long-form solo and interview, typically 60-120 minutes, with above-average follow-up questions and a willingness to sit in nuance."
   },
-  "shown_count": 3,
+  "shown_count": 1,
   "history": [
     "Brad Kearns",
     "Dr. Layne Norton",
@@ -13,6 +13,7 @@
     "Michael Levin's Academic Content",
     "Diet Doctor",
     "Andrew Huberman",
-    "FoundMyFitness"
+    "FoundMyFitness",
+    "Chris Williamson"
   ]
 }
