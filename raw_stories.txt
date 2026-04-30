@@ -1,125 +1,119 @@
 === HACKER NEWS ===
-1. [2158 pts] Ghostty is leaving GitHub
-   https://mitchellh.com/writing/ghostty-leaving-github
+1. [338 pts] Where the goblins came from
+   https://openai.com/index/where-the-goblins-came-from/
 
-2. [118 pts] Bugs Rust won't catch
-   https://corrode.dev/blog/bugs-rust-wont-catch/
+2. [183 pts] Craig Venter has died
+   https://www.jcvi.org/media-center/j-craig-venter-genomics-pioneer-and-founder-jcvi-and-diploid-genomics-inc-dies-79
 
-3. [365 pts] Before GitHub
-   https://lucumr.pocoo.org/2026/4/28/before-github/
+3. [82 pts] Alignment whack-a-mole: Finetuning activates recall of copyrighted books in LLMs
+   https://github.com/cauchy221/Alignment-Whack-a-Mole-Code
 
-4. [247 pts] How ChatGPT serves ads
-   https://www.buchodi.com/how-chatgpt-serves-ads-heres-the-full-attribution-loop/
+4. [1707 pts] Zed 1.0
+   https://zed.dev/blog/zed-1-0
 
-5. [74 pts] Show HN: Auto-Architecture: Karpathy's Loop, pointed at a CPU
-   https://github.com/FeSens/auto-arch-tournament/blob/main/docs/auto-arch-tournament-blog-post.md
+5. [78 pts] Noctua releases official 3D CAD models for its cooling fans
+   https://www.noctua.at/en/3d-cad-models
 
-6. [7 pts] Withnail's Coat and I
-   https://ontherow.substack.com/p/withnails-coat-and-i
+6. [114 pts] The Zig project's rationale for their firm anti-AI contribution policy
+   https://simonwillison.net/2026/Apr/30/zig-anti-ai/
 
-7. [225 pts] OpenAI models coming to Amazon Bedrock: Interview with OpenAI and AWS CEOs
-   https://stratechery.com/2026/an-interview-with-openai-ceo-sam-altman-and-aws-ceo-matt-garman-about-bedrock-managed-agents/
+7. [55 pts] Functional programmers need to take a look at Zig
+   https://pure-systems.org/posts/2026-04-29-functional-programmers-need-to-take-a-look-at-zig.html
 
-8. [30 pts] We still don't have a more precise value for "Big G"
-   https://arstechnica.com/science/2026/04/we-still-dont-have-a-more-precise-value-for-big-g/
+8. [54 pts] Biology is a Burrito: A text- and visual-based journey through a living cell
+   https://burrito.bio/essays/biology-is-a-burrito
 
-9. [187 pts] Regression: malware reminder on every read still causes subagent refusals
-   https://github.com/anthropics/claude-code/issues/49363
+9. [808 pts] Copy Fail
+   https://copy.fail/
 
-10. [118 pts] I won a championship that doesn't exist
-   https://ron.stoner.com/How_I_Won_a_Championship_That_Doesnt_Exist/
+10. [816 pts] Cursor Camp
+   https://neal.fun/cursor-camp/
 
-11. [37 pts] Apple CMF (Color-Matching Functions) 2026
-   https://www.lttlabs.com/articles/2026/04/11/apple-studio-display-xdr-display-testing-results
+11. [27 pts] London to Calcutta by Bus (2022)
+   https://www.amusingplanet.com/2022/08/london-to-calcutta-by-bus.html
 
-12. [302 pts] GitHub RCE Vulnerability: CVE-2026-3854 Breakdown
-   https://www.wiz.io/blog/github-rce-vulnerability-cve-2026-3854
+12. [307 pts] FastCGI: 30 years old and still the better protocol for reverse proxies
+   https://www.agwa.name/blog/post/fastcgi_is_the_better_protocol_for_reverse_proxies
 
-13. [83 pts] Behavioral timescale synaptic plasticity rewires the brain after an experience
-   https://www.quantamagazine.org/a-new-type-of-neuroplasticity-rewires-the-brain-after-a-single-experience-20260424/
+13. [201 pts] OpenTrafficMap
+   https://opentrafficmap.org/
 
-14. [136 pts] Intel Arc Pro B70 Review
-   https://www.pugetsystems.com/labs/articles/intel-arc-pro-b70-review/
+14. [8 pts] Monad Tutorials Timeline
+   https://wiki.haskell.org/Monad_tutorials_timeline
 
-15. [327 pts] Who owns the code Claude Code wrote?
-   https://legallayer.substack.com/p/who-owns-the-claude-code-wrote
+15. [61 pts] Mike: open-source legal AI
+   https://mikeoss.com/
 
-16. [1191 pts] Your phone is about to stop being yours
-   https://keepandroidopen.org/en/
+16. [39 pts] Joby kicks off NYC electric air taxi demos with historic JFK flight
+   https://www.flyingmag.com/joby-nyc-electric-air-taxi-jfk-airport/
 
-17. [26 pts] When the Internet Was a Place
-   https://www.frontporchrepublic.com/2025/09/when-the-internet-was-a-place/
+17. [1070 pts] HERMES.md in commit messages causes requests to route to extra usage billing
+   https://github.com/anthropics/claude-code/issues/53262
 
-18. [218 pts] Warp is now open-source
-   https://www.warp.dev/blog/warp-is-now-open-source
+18. [46 pts] Consequences of passing too few register parameters to a C function
+   https://devblogs.microsoft.com/oldnewthing/20260427-00/?p=112271
 
-19. [77 pts] We decreased our LLM costs with Opus
-   https://www.mendral.com/blog/frontier-model-lower-costs
+19. [47 pts] Creating a Color Palette from an Image
+   https://amandahinton.com/blog/creating-a-color-palette-from-an-image
 
-20. [23 pts] Nonlinearity Affects a Pendulum
-   https://www.johndcook.com/blog/2026/04/24/nonlinear-pendulum/
+20. [10 pts] Who Is That Knocking at My (SSH) Door?
+   https://sheep.horse/2026/4/who_is_that_knocking_at_my_%28ssh%29_door.html
 
-21. [661 pts] Talkie: a 13B vintage language model from 1930
-   https://talkie-lm.com/introducing-talkie
+21. [200 pts] Why I still reach for Lisp and Scheme instead of Haskell
+   https://jointhefreeworld.org/blog/articles/lisps/why-i-still-reach-for-scheme-instead-of-haskell/index.html
 
-22. [82 pts] Show HN: Drive any macOS app in the background without stealing the cursor
-   https://github.com/trycua/cua
+22. [234 pts] Laws of UX
+   https://lawsofux.com/
 
-23. [781 pts] Localsend: An open-source cross-platform alternative to AirDrop
-   https://github.com/localsend/localsend
+23. [1 pts] Gooseworks (YC W23) Is Hiring a Founding Growth Engineer
+   https://www.ycombinator.com/companies/gooseworks/jobs/ztgY6bD-founding-growth-engineer
 
-24. [105 pts] CJIT: C, Just in Time
-   https://dyne.org/cjit/
+24. [25 pts] A grounded conceptual model for ownership types in Rust
+   https://cacm.acm.org/research-highlights/a-grounded-conceptual-model-for-ownership-types-in-rust/
 
-25. [102 pts] Claude for Creative Work
-   https://www.anthropic.com/news/claude-for-creative-work
+25. [236 pts] An open-source stethoscope that costs between $2.5 and $5 to produce
+   https://github.com/GliaX/Stethoscope
 
-26. [8 pts] Building a Hamiltonian Path Puzzle
-   https://www.4rknova.com//blog/2026/04/24/number-trail
+26. [550 pts] We need a federation of forges
+   https://blog.tangled.org/federation/
 
-27. [200 pts] I have officially retired from Emacs
-   https://nullprogram.com/blog/2026/04/26/
+27. [49 pts] DRAM Crunch: Lessons for System Design
+   https://www.eetimes.com/what-the-dram-crunch-teaches-us-about-system-design/
 
-28. [384 pts] UAE to leave OPEC
-   https://www.ft.com/content/8c354f2d-3e66-47f1-aad4-9b4aa30e386d
+28. [76 pts] Vera: a programming language designed for machines to write
+   https://github.com/aallan/vera
 
-29. [346 pts] An update on GitHub availability
-   https://github.blog/news-insights/company-news/an-update-on-github-availability/
+29. [104 pts] How to Build the Future: Demis Hassabis [video]
+   https://www.youtube.com/watch?v=JNyuX1zoOgU
 
-30. [345 pts] VibeVoice: Open-source frontier voice AI
-   https://github.com/microsoft/VibeVoice
+30. [126 pts] Ramp's Sheets AI Exfiltrates Financials
+   https://www.promptarmor.com/resources/ramps-sheets-ai-exfiltrates-financials
 
 
 === RSS ===
+[ideas] Stratechery: Intel Earnings, Intel’s Differentiation?, Whither Terafab
+  https://stratechery.com/2026/intel-earnings-intels-differentiation-whither-terafab/
+
+[ideas] Stratechery: An Interview with OpenAI CEO Sam Altman and AWS CEO Matt Garman About Bedrock Managed Agents
+  https://stratechery.com/2026/an-interview-with-openai-ceo-sam-altman-and-aws-ceo-matt-garman-about-bedrock-managed-agents/
+
+[ideas] Stratechery: AI Hardware, Meta Display, Redefining VR and AR
+  https://stratechery.com/2026/ai-hardware-meta-display-redefining-vr-and-ar/
+
+[ai] Simon Willison: The Zig project's rationale for their firm anti-AI contribution policy
+  https://simonwillison.net/2026/Apr/30/zig-anti-ai/#atom-everything
+
+[ai] Simon Willison: llm 0.32a1
+  https://simonwillison.net/2026/Apr/29/llm-3/#atom-everything
+
+[ai] Simon Willison: LLM 0.32a0  is a major backwards-compatible refactor
+  https://simonwillison.net/2026/Apr/29/llm/#atom-everything
+
+[ai] Simon Willison: llm 0.32a0
+  https://simonwillison.net/2026/Apr/29/llm-2/#atom-everything
+
 [ai] Simon Willison: Quoting OpenAI Codex base_instructions
   https://simonwillison.net/2026/Apr/28/openai-codex/#atom-everything
-
-[ai] Simon Willison: Quoting Matthew Yglesias
-  https://simonwillison.net/2026/Apr/28/matthew-yglesias/#atom-everything
-
-[ai] Simon Willison: What's new in pip 26.1 - lockfiles and dependency cooldowns!
-  https://simonwillison.net/2026/Apr/28/pip-261/#atom-everything
-
-[ai] Simon Willison: Introducing talkie: a 13B vintage language model from 1930
-  https://simonwillison.net/2026/Apr/28/talkie/#atom-everything
-
-[ai] Simon Willison: microsoft/VibeVoice
-  https://simonwillison.net/2026/Apr/27/vibevoice/#atom-everything
-
-[ideas] Collaborative Fund (Morgan Housel): Long-Term Money
-  https://collabfund.substack.com/p/long-term-money
-
-[ideas] Collaborative Fund (Morgan Housel): Collab Holdings
-  https://collabfund.substack.com/p/collab-holdings
-
-[ideas] Paul Graham: The Brand Age
-  https://paulgraham.com/brandage.html
-
-[wisdom] Donald Robertson: When Reading about Stoicism isn’t Enough
-  https://donaldrobertson.substack.com/p/when-reading-about-stoicism-isnt
-
-[wisdom] Donald Robertson: What Marcus Aurelius Can Teach Us About Coping with Stress
-  https://donaldrobertson.substack.com/p/what-marcus-aurelius-can-teach-us
 
 [ai] Anthropic News: Claude for Creative Work
   https://www.anthropic.com/news/claude-for-creative-work
@@ -136,6 +130,60 @@
 [ai] Anthropic News: Anthropic and Amazon expand collaboration for up to 5 gigawatts of new compute
   https://www.anthropic.com/news/anthropic-amazon-compute
 
+[ideas] Paul Graham: The Brand Age
+  https://paulgraham.com/brandage.html
+
+[health] Peter Attia: Reducing cardiovascular risk: a playbook for lipid-lowering pharmacotherapy
+  https://peterattiamd.com/lipid-lowering-pharmacotherapy/
+
+[ideas] Marginal Revolution: My very charming Conversation with Craig Newmark
+  https://marginalrevolution.com/marginalrevolution/2026/04/my-very-charming-conversation-with-craig-newmark.html?utm_source=rss&utm_medium=rss&utm_campaign=my-very-charming-conversation-with-craig-newmark
+
+[ideas] Marginal Revolution: Wednesday assorted links
+  https://marginalrevolution.com/marginalrevolution/2026/04/wednesday-assorted-links-551.html?utm_source=rss&utm_medium=rss&utm_campaign=wednesday-assorted-links-551
+
+[ideas] Marginal Revolution: Capitalism and Modernity
+  https://marginalrevolution.com/marginalrevolution/2026/04/capitalism-and-modernity.html?utm_source=rss&utm_medium=rss&utm_campaign=capitalism-and-modernity
+
+[ideas] Marginal Revolution: Are we finally seeing some market clearing prices for movies?
+  https://marginalrevolution.com/marginalrevolution/2026/04/are-we-finally-seeing-some-market-clearing-prices-for-movies.html?utm_source=rss&utm_medium=rss&utm_campaign=are-we-finally-seeing-some-market-clearing-prices-for-movies
+
+[ideas] Marginal Revolution: The economic rise of Latin America?
+  https://marginalrevolution.com/marginalrevolution/2026/04/the-economic-rise-of-latin-america.html?utm_source=rss&utm_medium=rss&utm_campaign=the-economic-rise-of-latin-america
+
+[ideas] Collaborative Fund (Morgan Housel): Long-Term Money
+  https://collabfund.substack.com/p/long-term-money
+
+[bitcoin] Bitcoin Magazine: Strike CEO Jack Mallers Announces Lending Proof-of-Reserves, Volatility-Proof Loans, and Backs Tether Merger Plan
+  https://bitcoinmagazine.com/news/strike-ceo-jack-mallers-bitcoin-conference
+
+[bitcoin] Bitcoin Magazine: Strategy and Blockstream CEOs Paint Vision of Bitcoin’s Financial Future
+  https://bitcoinmagazine.com/news/strategy-and-blockstream-bitcoins-future
+
+[bitcoin] Bitcoin Magazine: Morgan Stanley Executive on Bitcoin: ‘We Are Still So Early on This Journey’
+  https://bitcoinmagazine.com/news/morgan-stanley-executive-on-bitcoin
+
+[bitcoin] Bitcoin Magazine: Bitcoin, WikiLeaks, and a Film the Streamers Wouldn’t Touch: Jack Dorsey and Eugene Jarecki Make Their Case
+  https://bitcoinmagazine.com/news/bitcoin-jack-dorsey-eugene-jarecki
+
+[bitcoin] Bitcoin Magazine: Eric Trump, John Koudounis Call Bitcoin a Global Reserve Asset, Float $1M Price Target
+  https://bitcoinmagazine.com/news/eric-trump-john-koudounis-bitcoin-asset
+
+[bitcoin] Bitcoin Magazine: Bitcoin-Backed Loans Are Unlocking Homeownership for an Entire New Generation
+  https://bitcoinmagazine.com/news/how-bitcoin-backed-loans-homeownership
+
+[bitcoin] Bitcoin Magazine: Steak ‘n Shake Says Bitcoin Payments Cut Processing Costs by 50%, Save $6 Million Annually
+  https://bitcoinmagazine.com/news/bitcoin-is-fueling-steak-n-shake-comeback
+
+[bitcoin] Bitcoin Magazine: Bitcoin is Reshaping Traditional Finance, Industry Leaders Say
+  https://bitcoinmagazine.com/news/bitcoin-will-reshape-traditional-finance
+
+[wisdom] Donald Robertson: When Reading about Stoicism isn’t Enough
+  https://donaldrobertson.substack.com/p/when-reading-about-stoicism-isnt
+
+[wisdom] Donald Robertson: What Marcus Aurelius Can Teach Us About Coping with Stress
+  https://donaldrobertson.substack.com/p/what-marcus-aurelius-can-teach-us
+
 [wisdom] Figs in Winter (Pigliucci): Socrates's pupils — part I
   https://figsinwintertime.substack.com/p/socratess-pupils-part-i
 
@@ -145,59 +193,17 @@
 [wisdom] Figs in Winter (Pigliucci): Socrates and AI
   https://figsinwintertime.substack.com/p/socrates-and-ai
 
-[ideas] Stratechery: An Interview with OpenAI CEO Sam Altman and AWS CEO Matt Garman About Bedrock Managed Agents
-  https://stratechery.com/2026/an-interview-with-openai-ceo-sam-altman-and-aws-ceo-matt-garman-about-bedrock-managed-agents/
+[health] Stronger by Science: Hold Still: What Does the Evidence Actually Say About Isometric Training for Strength and Hypertrophy?
+  https://www.strongerbyscience.com/isometric-training/
 
-[ideas] Stratechery: AI Hardware, Meta Display, Redefining VR and AR
-  https://stratechery.com/2026/ai-hardware-meta-display-redefining-vr-and-ar/
+[ai] OpenAI Blog: Where the goblins came from
+  https://openai.com/index/where-the-goblins-came-from
 
-[health] Peter Attia: Reducing cardiovascular risk: a playbook for lipid-lowering pharmacotherapy
-  https://peterattiamd.com/lipid-lowering-pharmacotherapy/
+[ai] OpenAI Blog: Building the compute infrastructure for the Intelligence Age
+  https://openai.com/index/building-the-compute-infrastructure-for-the-intelligence-age
 
-[health] Peter Attia: #389 – Thinking scientifically: why it’s hard, why it matters, and a practical toolkit
-  https://peterattiamd.com/thinkingscientifically/
-
-[bitcoin] The Pomp Letter: Are Stocks Overvalued and Should You Be Worried?
-  https://pomp.substack.com/p/are-stocks-overvalued-and-should
-
-[bitcoin] Bitcoin Magazine: Bitcoin is Reshaping Traditional Finance, Industry Leaders Say
-  https://bitcoinmagazine.com/news/bitcoin-will-reshape-traditional-finance
-
-[bitcoin] Bitcoin Magazine: ‘This Time Is Different’: A First of Its Kind Documentary Covering Bitcoin’s Four Year Cycle, David Bailey, And Nakamoto in Production
-  https://bitcoinmagazine.com/news/this-time-is-different-bitcoin-documentary
-
-[bitcoin] Bitcoin Magazine: Strategy’s (MSTR) Michael Saylor Says STRC is ‘Going Viral’ After $8.5 Billion Run‑Up
-  https://bitcoinmagazine.com/news/strategys-mstr-michael-saylor-says-strc
-
-[bitcoin] Bitcoin Magazine: Bitcoin 2027 Conference Returning to Nashville, Tennessee
-  https://bitcoinmagazine.com/news/bitcoin-2027-conference-nashville
-
-[bitcoin] Bitcoin Magazine: Czech Central Bank Chief Backs Bitcoin as 1% Reserve Slice in ‘Conservative but Innovative’ Strategy
-  https://bitcoinmagazine.com/news/czech-central-bank-chief-backs-bitcoin
-
-[bitcoin] Bitcoin Magazine: Lightspark Launches Grid Global Accounts, Targeting Fragmented Global Payment System
-  https://bitcoinmagazine.com/news/lightspark-launches-grid-global-accounts
-
-[bitcoin] Bitcoin Magazine: Your Bank is Becoming a Casino: River CEO Frames Bitcoin as the Alternative
-  https://bitcoinmagazine.com/news/your-bank-is-a-casino-bitcoin-alternative
-
-[bitcoin] Bitcoin Magazine: Block (XYZ) Touts Bitcoin as ‘Everyday Money’ With 800,000 Merchants Now Accepting It
-  https://bitcoinmagazine.com/news/blocks-xyz-miles-suter-pushes-bitcoin
-
-[ideas] Marginal Revolution: The economic rise of Latin America?
-  https://marginalrevolution.com/marginalrevolution/2026/04/the-economic-rise-of-latin-america.html?utm_source=rss&utm_medium=rss&utm_campaign=the-economic-rise-of-latin-america
-
-[ideas] Marginal Revolution: Tuesday assorted links
-  https://marginalrevolution.com/marginalrevolution/2026/04/tuesday-assorted-links-566.html?utm_source=rss&utm_medium=rss&utm_campaign=tuesday-assorted-links-566
-
-[ideas] Marginal Revolution: talkie: an LM from 1930
-  https://marginalrevolution.com/marginalrevolution/2026/04/talkie-an-lm-from-1930.html?utm_source=rss&utm_medium=rss&utm_campaign=talkie-an-lm-from-1930
-
-[ideas] Marginal Revolution: HUD Says Realtors Can Now Speak the Truth
-  https://marginalrevolution.com/marginalrevolution/2026/04/hud-says-its-legal-to-tell-the-truth.html?utm_source=rss&utm_medium=rss&utm_campaign=hud-says-its-legal-to-tell-the-truth
-
-[ideas] Marginal Revolution: EU fact of the day
-  https://marginalrevolution.com/marginalrevolution/2026/04/eu-fact-of-the-day.html?utm_source=rss&utm_medium=rss&utm_campaign=eu-fact-of-the-day
+[ai] OpenAI Blog: Cybersecurity in the Intelligence Age
+  https://openai.com/index/cybersecurity-in-the-intelligence-age
 
 [ai] OpenAI Blog: OpenAI models, Codex, and Managed Agents come to AWS
   https://openai.com/index/openai-on-aws
@@ -205,31 +211,65 @@
 [ai] OpenAI Blog: Our commitment to community safety
   https://openai.com/index/our-commitment-to-community-safety
 
-[ai] OpenAI Blog: OpenAI available at FedRAMP Moderate
-  https://openai.com/index/openai-available-at-fedramp-moderate
-
-[ai] OpenAI Blog: The next phase of the Microsoft OpenAI partnership
-  https://openai.com/index/next-phase-of-microsoft-partnership
-
-[ai] OpenAI Blog: An open-source spec for orchestration: Symphony
-  https://openai.com/index/open-source-codex-orchestration-symphony
-
 [ideas] Astral Codex Ten: Your Attempt To Solve Debate Will Not Work
   https://www.astralcodexten.com/p/your-attempt-to-solve-debate-will
 
 [ideas] Astral Codex Ten: Open Thread 431
   https://www.astralcodexten.com/p/open-thread-431
 
-[health] Stronger by Science: Hold Still: What Does the Evidence Actually Say About Isometric Training for Strength and Hypertrophy?
-  https://www.strongerbyscience.com/isometric-training/
+[bitcoin] The Pomp Letter: I Changed My Mind on Artificial Intelligence...
+  https://pomp.substack.com/p/i-changed-my-mind-on-artificial-intelligence
+
+[bitcoin] The Pomp Letter: Are Stocks Overvalued and Should You Be Worried?
+  https://pomp.substack.com/p/are-stocks-overvalued-and-should
 
 
 === YOUTUBE ===
-Anthony Chaffee MD: Malnutrition Over Time #shortvideo #shorts #short
-  https://www.youtube.com/shorts/Bdv7N4pu37A
+Joe Rogan: Joe Rogan Experience #2491 - Brian Simpson
+  https://www.youtube.com/watch?v=36NpaOg5594
+  Transcript: NO
+
+Joe Rogan: Joe Rogan Experience #2490 - RZA
+  https://www.youtube.com/watch?v=D_ZGWj_38uA
   Transcript: yes
 
-Anthony Chaffee MD: The Diet and Training Fix Everyone Must Know
-  https://www.youtube.com/watch?v=CnAgvNHAkUI
+Andrew Huberman: Male Roles, Obligations and Options for Building a Fulfilling Life | Scott Galloway
+  https://www.youtube.com/watch?v=sQcS6f2qYoQ
+  Transcript: yes
+
+Nick Norwitz: How to Slow Aging for $0.06 a Day
+  https://www.youtube.com/watch?v=0p0cld4RmDo
+  Transcript: yes
+
+Nick Norwitz: Retatrutide (GLP-3) Made Me Hungrier… But I Lost Weight
+  https://www.youtube.com/shorts/9ox3jtimAws
+  Transcript: yes
+
+Nick Norwitz: Retatrutide: Why Muscle Loss Data Doesn’t Match Real Life
+  https://www.youtube.com/shorts/4fcAktMs6Mg
+  Transcript: yes
+
+Nick Norwitz: I Put the World's Most Controversial Drug To the Test — Here's What I Found
+  https://www.youtube.com/watch?v=d9LeDSoYOVc
+  Transcript: yes
+
+Thomas DeLauer: They Were Wrong About Olive Oil, 1 Tbsp of THIS is Best for Longevity
+  https://www.youtube.com/watch?v=2w6rRJ_vkpg
+  Transcript: yes
+
+Thomas DeLauer: The Cortisol Doctor: This is What Really Drives Visceral Fat Growth
+  https://www.youtube.com/watch?v=aAeqskxH2-k
+  Transcript: yes
+
+Thomas DeLauer: This Fasting Strategy INCREASES Inflammation -Please Avoid It
+  https://www.youtube.com/watch?v=A62dIN21wdU
+  Transcript: yes
+
+Thomas DeLauer: This Raises Cortisol, Atrophies Muscle and STOPS Fat Loss When Fasting
+  https://www.youtube.com/watch?v=lmgULY8uXUA
+  Transcript: yes
+
+Thomas DeLauer: 40,000 Visceral Fat MRI Scans Prove the Best Foods to Lose Belly Fat
+  https://www.youtube.com/watch?v=Bkhi7zyOM28
   Transcript: yes
 
