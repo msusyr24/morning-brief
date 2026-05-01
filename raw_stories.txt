@@ -1,120 +1,96 @@
 === HACKER NEWS ===
-1. [338 pts] Where the goblins came from
-   https://openai.com/index/where-the-goblins-came-from/
+1. [524 pts] How Mark Klein told the EFF about Room 641A [book excerpt]
+   https://thereader.mitpress.mit.edu/the-whistleblower-who-uncovered-the-nsas-big-brother-machine/
 
-2. [183 pts] Craig Venter has died
-   https://www.jcvi.org/media-center/j-craig-venter-genomics-pioneer-and-founder-jcvi-and-diploid-genomics-inc-dies-79
+2. [448 pts] For Linux kernel vulnerabilities, there is no heads-up to distributions
+   https://www.openwall.com/lists/oss-security/2026/04/30/10
 
-3. [82 pts] Alignment whack-a-mole: Finetuning activates recall of copyrighted books in LLMs
-   https://github.com/cauchy221/Alignment-Whack-a-Mole-Code
+3. [277 pts] Opus 4.7 knows the real Kelsey
+   https://www.theargumentmag.com/p/i-can-never-talk-to-an-ai-anonymously
 
-4. [1707 pts] Zed 1.0
-   https://zed.dev/blog/zed-1-0
+4. [18 pts] Roboticist-Turned-Teacher Built a Life-Size Replica of Eniac
+   https://spectrum.ieee.org/roboticist-turned-teacher-eniac-replica
 
-5. [78 pts] Noctua releases official 3D CAD models for its cooling fans
-   https://www.noctua.at/en/3d-cad-models
+5. [373 pts] Shai-Hulud Themed Malware Found in the PyTorch Lightning AI Training Library
+   https://semgrep.dev/blog/2026/malicious-dependency-in-pytorch-lightning-used-for-ai-training/
 
-6. [114 pts] The Zig project's rationale for their firm anti-AI contribution policy
-   https://simonwillison.net/2026/Apr/30/zig-anti-ai/
+6. [68 pts] Maladaptive Frugality
+   https://herbertlui.net/maladaptive-frugality/
 
-7. [55 pts] Functional programmers need to take a look at Zig
-   https://pure-systems.org/posts/2026-04-29-functional-programmers-need-to-take-a-look-at-zig.html
+7. [583 pts] Can I disable all data collection from my vehicle?
+   https://rivian.com/support/article/can-i-disable-all-data-collection-from-my-vehicle
 
-8. [54 pts] Biology is a Burrito: A text- and visual-based journey through a living cell
-   https://burrito.bio/essays/biology-is-a-burrito
+8. [81 pts] CPanel and WHM Authentication Bypass – CVE-2026-41940
+   https://labs.watchtowr.com/the-internet-is-falling-down-falling-down-falling-down-cpanel-whm-authentication-bypass-cve-2026-41940/
 
-9. [808 pts] Copy Fail
-   https://copy.fail/
+9. [67 pts] OpenWarp
+   https://openwarp.zerx.dev
 
-10. [816 pts] Cursor Camp
-   https://neal.fun/cursor-camp/
+10. [18 pts] New copy of earliest poem in English, written 1,3k years ago, discovered in Rome
+   https://www.tcd.ie/news_events/articles/2026/caedmons-hymn-discovery/
 
-11. [27 pts] London to Calcutta by Bus (2022)
-   https://www.amusingplanet.com/2022/08/london-to-calcutta-by-bus.html
+11. [253 pts] I built a Game Boy emulator in F#
+   https://nickkossolapov.github.io/fame-boy/building-a-game-boy-emulator-in-fsharp/
 
-12. [307 pts] FastCGI: 30 years old and still the better protocol for reverse proxies
-   https://www.agwa.name/blog/post/fastcgi_is_the_better_protocol_for_reverse_proxies
+12. [1072 pts] Claude Code refuses requests or charges extra if your commits mention "OpenClaw"
+   https://twitter.com/theo/status/2049645973350363168
 
-13. [201 pts] OpenTrafficMap
-   https://opentrafficmap.org/
+13. [387 pts] How an oil refinery works
+   https://www.construction-physics.com/p/how-an-oil-refinery-works
 
-14. [8 pts] Monad Tutorials Timeline
-   https://wiki.haskell.org/Monad_tutorials_timeline
+14. [176 pts] Reverse Engineering SimTower
+   https://phulin.me/blog/simtower
 
-15. [61 pts] Mike: open-source legal AI
-   https://mikeoss.com/
+15. [119 pts] New mechanical panoramic film camera from Jeff Bridges
+   https://wideluxx.com
 
-16. [39 pts] Joby kicks off NYC electric air taxi demos with historic JFK flight
-   https://www.flyingmag.com/joby-nyc-electric-air-taxi-jfk-airport/
+16. [289 pts] You can beat the binary search
+   https://lemire.me/blog/2026/04/27/you-can-beat-the-binary-search/
 
-17. [1070 pts] HERMES.md in commit messages causes requests to route to extra usage billing
-   https://github.com/anthropics/claude-code/issues/53262
+17. [787 pts] Belgium stops decommissioning nuclear power plants
+   https://dpa-international.com/general-news/urn:newsml:dpa.com:20090101:260430-930-14717/
 
-18. [46 pts] Consequences of passing too few register parameters to a C function
-   https://devblogs.microsoft.com/oldnewthing/20260427-00/?p=112271
+18. [66 pts] Snowball Earth may hide a far stranger climate cycle than anyone expected
+   https://sciencex.com/news/2026-04-snowball-earth-stranger-climate.html
 
-19. [47 pts] Creating a Color Palette from an Image
-   https://amandahinton.com/blog/creating-a-color-palette-from-an-image
+19. [200 pts] Honker – Durable queues, streams, pub/sub, and cron scheduler in a SQLite file
+   https://honker.dev/
 
-20. [10 pts] Who Is That Knocking at My (SSH) Door?
-   https://sheep.horse/2026/4/who_is_that_knocking_at_my_%28ssh%29_door.html
+20. [61 pts] Show HN: Winpodx – run Windows apps on Linux as native windows
+   https://github.com/kernalix7/winpodx
 
-21. [200 pts] Why I still reach for Lisp and Scheme instead of Haskell
-   https://jointhefreeworld.org/blog/articles/lisps/why-i-still-reach-for-scheme-instead-of-haskell/index.html
+21. [180 pts] 10Gb/s Ethernet: what I did to get it working in my home
+   https://www.gilesthomas.com/2026/04/10g-ethernet-what-i-did
 
-22. [234 pts] Laws of UX
-   https://lawsofux.com/
+22. [112 pts] Full-Text Search with DuckDB
+   https://peterdohertys.website/blog-posts/full-text-search-w-duckdb.html
 
-23. [1 pts] Gooseworks (YC W23) Is Hiring a Founding Growth Engineer
-   https://www.ycombinator.com/companies/gooseworks/jobs/ztgY6bD-founding-growth-engineer
+23. [58 pts] I Got Sick of Remembering Port Numbers
+   https://gregraiz.com/blog/local-vibe/
 
-24. [25 pts] A grounded conceptual model for ownership types in Rust
-   https://cacm.acm.org/research-highlights/a-grounded-conceptual-model-for-ownership-types-in-rust/
+24. [271 pts] I aggregated 28 US Government auction sites into one search
+   https://bidprowl.com
 
-25. [236 pts] An open-source stethoscope that costs between $2.5 and $5 to produce
-   https://github.com/GliaX/Stethoscope
+25. [113 pts] Does Postgres Scale?
+   https://www.dbos.dev/blog/benchmarking-workflow-execution-scalability-on-postgres
 
-26. [550 pts] We need a federation of forges
-   https://blog.tangled.org/federation/
+26. [80 pts] The Church Rock Uranium Mill Spill
+   https://en.wikipedia.org/wiki/Church_Rock_uranium_mill_spill
 
-27. [49 pts] DRAM Crunch: Lessons for System Design
-   https://www.eetimes.com/what-the-dram-crunch-teaches-us-about-system-design/
+27. [57 pts] Follow-up to Carrot disclosure: Forgejo
+   https://dustri.org/b/follow-up-to-carrot-disclosure-forgejo.html
 
-28. [76 pts] Vera: a programming language designed for machines to write
-   https://github.com/aallan/vera
+28. [454 pts] Spain's parliament will act against massive IP blockages by LaLiga
+   https://www.democrata.es/en/politics/congress-and-senate/congress-will-act-against-massive-ip-blockages-by-laliga/
 
-29. [104 pts] How to Build the Future: Demis Hassabis [video]
-   https://www.youtube.com/watch?v=JNyuX1zoOgU
+29. [286 pts] Granite 4.1: IBM's 8B Model Matching 32B MoE
+   https://firethering.com/granite-4-1-ibm-open-source-model-family/
 
-30. [126 pts] Ramp's Sheets AI Exfiltrates Financials
-   https://www.promptarmor.com/resources/ramps-sheets-ai-exfiltrates-financials
+30. [25 pts] A Milestone in Formalization: The Sphere Packing Problem in Dimension 8
+   https://www.alphaxiv.org/abs/2604.23468
 
 
 === RSS ===
-[ideas] Stratechery: Intel Earnings, Intel’s Differentiation?, Whither Terafab
-  https://stratechery.com/2026/intel-earnings-intels-differentiation-whither-terafab/
-
-[ideas] Stratechery: An Interview with OpenAI CEO Sam Altman and AWS CEO Matt Garman About Bedrock Managed Agents
-  https://stratechery.com/2026/an-interview-with-openai-ceo-sam-altman-and-aws-ceo-matt-garman-about-bedrock-managed-agents/
-
-[ideas] Stratechery: AI Hardware, Meta Display, Redefining VR and AR
-  https://stratechery.com/2026/ai-hardware-meta-display-redefining-vr-and-ar/
-
-[ai] Simon Willison: The Zig project's rationale for their firm anti-AI contribution policy
-  https://simonwillison.net/2026/Apr/30/zig-anti-ai/#atom-everything
-
-[ai] Simon Willison: llm 0.32a1
-  https://simonwillison.net/2026/Apr/29/llm-3/#atom-everything
-
-[ai] Simon Willison: LLM 0.32a0  is a major backwards-compatible refactor
-  https://simonwillison.net/2026/Apr/29/llm/#atom-everything
-
-[ai] Simon Willison: llm 0.32a0
-  https://simonwillison.net/2026/Apr/29/llm-2/#atom-everything
-
-[ai] Simon Willison: Quoting OpenAI Codex base_instructions
-  https://simonwillison.net/2026/Apr/28/openai-codex/#atom-everything
-
 [ai] Anthropic News: Claude for Creative Work
   https://www.anthropic.com/news/claude-for-creative-work
 
@@ -130,29 +106,86 @@
 [ai] Anthropic News: Anthropic and Amazon expand collaboration for up to 5 gigawatts of new compute
   https://www.anthropic.com/news/anthropic-amazon-compute
 
-[ideas] Paul Graham: The Brand Age
-  https://paulgraham.com/brandage.html
+[ai] Simon Willison: Codex CLI 0.128.0 adds /goal
+  https://simonwillison.net/2026/Apr/30/codex-goals/#atom-everything
+
+[ai] Simon Willison: Our evaluation of OpenAI's GPT-5.5 cyber capabilities
+  https://simonwillison.net/2026/Apr/30/gpt-55-cyber-capabilities/#atom-everything
+
+[ai] Simon Willison: Quoting Andrew Kelley
+  https://simonwillison.net/2026/Apr/30/andrew-kelley/#atom-everything
+
+[ai] Simon Willison: We need RSS for sharing abundant vibe-coded apps
+  https://simonwillison.net/2026/Apr/30/rss-vibe-coded-apps/#atom-everything
+
+[ai] Simon Willison: The Zig project's rationale for their firm anti-AI contribution policy
+  https://simonwillison.net/2026/Apr/30/zig-anti-ai/#atom-everything
+
+[wisdom] Donald Robertson: How can Stoicism Help Kids?
+  https://donaldrobertson.substack.com/p/how-can-stoicism-help-kids
+
+[wisdom] Donald Robertson: When Reading about Stoicism isn’t Enough
+  https://donaldrobertson.substack.com/p/when-reading-about-stoicism-isnt
+
+[ideas] Astral Codex Ten: What Deontological Bars?
+  https://www.astralcodexten.com/p/what-deontological-bars
+
+[ideas] Astral Codex Ten: Your Attempt To Solve Debate Will Not Work
+  https://www.astralcodexten.com/p/your-attempt-to-solve-debate-will
+
+[ideas] Collaborative Fund (Morgan Housel): Long-Term Money
+  https://collabfund.substack.com/p/long-term-money
 
 [health] Peter Attia: Reducing cardiovascular risk: a playbook for lipid-lowering pharmacotherapy
   https://peterattiamd.com/lipid-lowering-pharmacotherapy/
 
-[ideas] Marginal Revolution: My very charming Conversation with Craig Newmark
-  https://marginalrevolution.com/marginalrevolution/2026/04/my-very-charming-conversation-with-craig-newmark.html?utm_source=rss&utm_medium=rss&utm_campaign=my-very-charming-conversation-with-craig-newmark
+[ai] OpenAI Blog: Introducing Advanced Account Security
+  https://openai.com/index/advanced-account-security
 
-[ideas] Marginal Revolution: Wednesday assorted links
-  https://marginalrevolution.com/marginalrevolution/2026/04/wednesday-assorted-links-551.html?utm_source=rss&utm_medium=rss&utm_campaign=wednesday-assorted-links-551
+[ai] OpenAI Blog: Where the goblins came from
+  https://openai.com/index/where-the-goblins-came-from
 
-[ideas] Marginal Revolution: Capitalism and Modernity
-  https://marginalrevolution.com/marginalrevolution/2026/04/capitalism-and-modernity.html?utm_source=rss&utm_medium=rss&utm_campaign=capitalism-and-modernity
+[ai] OpenAI Blog: Building the compute infrastructure for the Intelligence Age
+  https://openai.com/index/building-the-compute-infrastructure-for-the-intelligence-age
 
-[ideas] Marginal Revolution: Are we finally seeing some market clearing prices for movies?
-  https://marginalrevolution.com/marginalrevolution/2026/04/are-we-finally-seeing-some-market-clearing-prices-for-movies.html?utm_source=rss&utm_medium=rss&utm_campaign=are-we-finally-seeing-some-market-clearing-prices-for-movies
+[ai] OpenAI Blog: Cybersecurity in the Intelligence Age
+  https://openai.com/index/cybersecurity-in-the-intelligence-age
 
-[ideas] Marginal Revolution: The economic rise of Latin America?
-  https://marginalrevolution.com/marginalrevolution/2026/04/the-economic-rise-of-latin-america.html?utm_source=rss&utm_medium=rss&utm_campaign=the-economic-rise-of-latin-america
+[bitcoin] The Pomp Letter: I Changed My Mind on Artificial Intelligence...
+  https://pomp.substack.com/p/i-changed-my-mind-on-artificial-intelligence
 
-[ideas] Collaborative Fund (Morgan Housel): Long-Term Money
-  https://collabfund.substack.com/p/long-term-money
+[ideas] Stratechery: Amazon Earnings, Trainium and Commodity Markets, Additional Amazon Notes
+  https://stratechery.com/2026/amazon-earnings-trainium-and-commodity-markets-additional-amazon-notes/
+
+[ideas] Stratechery: Intel Earnings, Intel’s Differentiation?, Whither Terafab
+  https://stratechery.com/2026/intel-earnings-intels-differentiation-whither-terafab/
+
+[ideas] Stratechery: An Interview with OpenAI CEO Sam Altman and AWS CEO Matt Garman About Bedrock Managed Agents
+  https://stratechery.com/2026/an-interview-with-openai-ceo-sam-altman-and-aws-ceo-matt-garman-about-bedrock-managed-agents/
+
+[ideas] Marginal Revolution: Do Market Reforms Cause Growth?
+  https://marginalrevolution.com/marginalrevolution/2026/05/do-market-reforms-cause-growth.html?utm_source=rss&utm_medium=rss&utm_campaign=do-market-reforms-cause-growth
+
+[ideas] Marginal Revolution: Thursday assorted links
+  https://marginalrevolution.com/marginalrevolution/2026/04/thursday-assorted-links-550.html?utm_source=rss&utm_medium=rss&utm_campaign=thursday-assorted-links-550
+
+[ideas] Marginal Revolution: The collapse of teen fertility in the digital era
+  https://marginalrevolution.com/marginalrevolution/2026/04/the-collapse-of-teen-fertility-in-the-digital-era.html?utm_source=rss&utm_medium=rss&utm_campaign=the-collapse-of-teen-fertility-in-the-digital-era
+
+[ideas] Marginal Revolution: Pro-Development Environmentalists
+  https://marginalrevolution.com/marginalrevolution/2026/04/pro-development-environmentalists.html?utm_source=rss&utm_medium=rss&utm_campaign=pro-development-environmentalists
+
+[ideas] Marginal Revolution: Stablecoin sentences to ponder
+  https://marginalrevolution.com/marginalrevolution/2026/04/stablecoin-sentences-to-ponder-2.html?utm_source=rss&utm_medium=rss&utm_campaign=stablecoin-sentences-to-ponder-2
+
+[wisdom] Figs in Winter (Pigliucci): Socrates's pupils — part II
+  https://figsinwintertime.substack.com/p/socratess-pupils-part-ii
+
+[wisdom] Figs in Winter (Pigliucci): Socrates's pupils — part I
+  https://figsinwintertime.substack.com/p/socratess-pupils-part-i
+
+[wisdom] Figs in Winter (Pigliucci): Suggested Readings
+  https://figsinwintertime.substack.com/p/suggested-readings-cf5
 
 [bitcoin] Bitcoin Magazine: Strike CEO Jack Mallers Announces Lending Proof-of-Reserves, Volatility-Proof Loans, and Backs Tether Merger Plan
   https://bitcoinmagazine.com/news/strike-ceo-jack-mallers-bitcoin-conference
@@ -178,98 +211,127 @@
 [bitcoin] Bitcoin Magazine: Bitcoin is Reshaping Traditional Finance, Industry Leaders Say
   https://bitcoinmagazine.com/news/bitcoin-will-reshape-traditional-finance
 
-[wisdom] Donald Robertson: When Reading about Stoicism isn’t Enough
-  https://donaldrobertson.substack.com/p/when-reading-about-stoicism-isnt
-
-[wisdom] Donald Robertson: What Marcus Aurelius Can Teach Us About Coping with Stress
-  https://donaldrobertson.substack.com/p/what-marcus-aurelius-can-teach-us
-
-[wisdom] Figs in Winter (Pigliucci): Socrates's pupils — part I
-  https://figsinwintertime.substack.com/p/socratess-pupils-part-i
-
-[wisdom] Figs in Winter (Pigliucci): Suggested Readings
-  https://figsinwintertime.substack.com/p/suggested-readings-cf5
-
-[wisdom] Figs in Winter (Pigliucci): Socrates and AI
-  https://figsinwintertime.substack.com/p/socrates-and-ai
-
 [health] Stronger by Science: Hold Still: What Does the Evidence Actually Say About Isometric Training for Strength and Hypertrophy?
   https://www.strongerbyscience.com/isometric-training/
 
-[ai] OpenAI Blog: Where the goblins came from
-  https://openai.com/index/where-the-goblins-came-from
-
-[ai] OpenAI Blog: Building the compute infrastructure for the Intelligence Age
-  https://openai.com/index/building-the-compute-infrastructure-for-the-intelligence-age
-
-[ai] OpenAI Blog: Cybersecurity in the Intelligence Age
-  https://openai.com/index/cybersecurity-in-the-intelligence-age
-
-[ai] OpenAI Blog: OpenAI models, Codex, and Managed Agents come to AWS
-  https://openai.com/index/openai-on-aws
-
-[ai] OpenAI Blog: Our commitment to community safety
-  https://openai.com/index/our-commitment-to-community-safety
-
-[ideas] Astral Codex Ten: Your Attempt To Solve Debate Will Not Work
-  https://www.astralcodexten.com/p/your-attempt-to-solve-debate-will
-
-[ideas] Astral Codex Ten: Open Thread 431
-  https://www.astralcodexten.com/p/open-thread-431
-
-[bitcoin] The Pomp Letter: I Changed My Mind on Artificial Intelligence...
-  https://pomp.substack.com/p/i-changed-my-mind-on-artificial-intelligence
-
-[bitcoin] The Pomp Letter: Are Stocks Overvalued and Should You Be Worried?
-  https://pomp.substack.com/p/are-stocks-overvalued-and-should
+[ideas] Paul Graham: The Brand Age
+  https://paulgraham.com/brandage.html
 
 
 === YOUTUBE ===
-Joe Rogan: Joe Rogan Experience #2491 - Brian Simpson
-  https://www.youtube.com/watch?v=36NpaOg5594
+Renaissance Periodization: Vegan Diet ≠ Abs
+  https://www.youtube.com/shorts/uhK6_sJ8diM
+  Transcript: yes
+
+Renaissance Periodization: Cold Immersion Is Even More Worthless Than We Thought? (New Study)
+  https://www.youtube.com/watch?v=uhwvH6pVDOw
+  Transcript: yes
+
+Renaissance Periodization: You Don't Need 2 Hour Workouts To Get In Shape
+  https://www.youtube.com/shorts/wDAeusl-b-A
   Transcript: NO
 
-Joe Rogan: Joe Rogan Experience #2490 - RZA
-  https://www.youtube.com/watch?v=D_ZGWj_38uA
+Renaissance Periodization: Short On Time? Do This Exercise
+  https://www.youtube.com/shorts/RW1hzWx5BJ4
+  Transcript: NO
+
+Renaissance Periodization: Home-Grown VS Grocery Store = NO Difference
+  https://www.youtube.com/shorts/98ED_6UsY-4
   Transcript: yes
 
-Andrew Huberman: Male Roles, Obligations and Options for Building a Fulfilling Life | Scott Galloway
-  https://www.youtube.com/watch?v=sQcS6f2qYoQ
+Renaissance Periodization: You’re Being Judged LESS Than You Think
+  https://www.youtube.com/shorts/YbDr3D5k-A0
   Transcript: yes
 
-Nick Norwitz: How to Slow Aging for $0.06 a Day
-  https://www.youtube.com/watch?v=0p0cld4RmDo
+Renaissance Periodization: The Curl Variations That Actually Matter For Growth
+  https://www.youtube.com/watch?v=qehmseuvj-I
   Transcript: yes
 
-Nick Norwitz: Retatrutide (GLP-3) Made Me Hungrier… But I Lost Weight
-  https://www.youtube.com/shorts/9ox3jtimAws
+Renaissance Periodization: Why Dr. Mike Got Lipo
+  https://www.youtube.com/shorts/fCXyXFAbIMA
   Transcript: yes
 
-Nick Norwitz: Retatrutide: Why Muscle Loss Data Doesn’t Match Real Life
-  https://www.youtube.com/shorts/4fcAktMs6Mg
+ModernWisdom: The Uber Eats to OnlyFans Pipeline
+  https://www.youtube.com/watch?v=OxqC3bnb4GM
   Transcript: yes
 
-Nick Norwitz: I Put the World's Most Controversial Drug To the Test — Here's What I Found
-  https://www.youtube.com/watch?v=d9LeDSoYOVc
+ModernWisdom: You Can’t Stand Out By Fitting In
+  https://www.youtube.com/shorts/nl3nng6_a9s
   Transcript: yes
 
-Thomas DeLauer: They Were Wrong About Olive Oil, 1 Tbsp of THIS is Best for Longevity
-  https://www.youtube.com/watch?v=2w6rRJ_vkpg
+ModernWisdom: The Exact Words to End Any Relationship
+  https://www.youtube.com/watch?v=VlJtU4MFbYc
   Transcript: yes
 
-Thomas DeLauer: The Cortisol Doctor: This is What Really Drives Visceral Fat Growth
-  https://www.youtube.com/watch?v=aAeqskxH2-k
+ModernWisdom: Jimmy Carr On Finding Your True Self
+  https://www.youtube.com/shorts/CaMl5cWbJOM
   Transcript: yes
 
-Thomas DeLauer: This Fasting Strategy INCREASES Inflammation -Please Avoid It
-  https://www.youtube.com/watch?v=A62dIN21wdU
+ModernWisdom: The “Stop Nick Shirley Act” is Mind-Blowing
+  https://www.youtube.com/watch?v=i7sDgws4wa8
   Transcript: yes
 
-Thomas DeLauer: This Raises Cortisol, Atrophies Muscle and STOPS Fat Loss When Fasting
-  https://www.youtube.com/watch?v=lmgULY8uXUA
+ModernWisdom: Mentalist Makes Chris Williamson Sh*t Himself
+  https://www.youtube.com/shorts/SZmEskifNaY
   Transcript: yes
 
-Thomas DeLauer: 40,000 Visceral Fat MRI Scans Prove the Best Foods to Lose Belly Fat
-  https://www.youtube.com/watch?v=Bkhi7zyOM28
+ModernWisdom: The Extreme Crisis of Young Women - Freya India
+  https://www.youtube.com/watch?v=VDsihdJGiq0
   Transcript: yes
+
+ModernWisdom: You're Chasing The Wrong Hard Things
+  https://www.youtube.com/shorts/uFP7O5KTic0
+  Transcript: yes
+
+ModernWisdom: Why Can Women Talk About Men Like This?
+  https://www.youtube.com/watch?v=Sj_Cvl6gpKE
+  Transcript: yes
+
+ModernWisdom: You’re Exactly Where You Need To Be
+  https://www.youtube.com/shorts/0pvZh7Me3I0
+  Transcript: yes
+
+Joe Rogan: Joe Rogan Experience #2492 - Ari Shaffir
+  https://www.youtube.com/watch?v=znQB0FumtV8
+  Transcript: yes
+
+Joe Rogan: Joe Rogan Experience #2491 - Brian Simpson
+  https://www.youtube.com/watch?v=36NpaOg5594
+  Transcript: yes
+
+Ken Berry MD: How much are you spending on snacks and starchy sides every week?
+  https://www.youtube.com/shorts/TIODEESBUiw
+  Transcript: yes
+
+Ken Berry MD: This clip is from our full live: 7 Tips to Crush Your First 30 Days on Carnivore on the channel.
+  https://www.youtube.com/shorts/0j4yO-HczrI
+  Transcript: yes
+
+Ken Berry MD: HIGH INSULIN = FRAGILE BONES, Cancer & Faster Aging? with Dr. Isabella Cooper
+  https://www.youtube.com/watch?v=O64j4uC8diA
+  Transcript: yes
+
+Lex Fridman: Vikings, Ragnar, Berserkers, Valhalla & the Warriors of the Viking Age | Lex Fridman Podcast #495
+  https://www.youtube.com/watch?v=iKx3gAODybU
+  Transcript: yes
+
+Anthony Chaffee MD: Being Healthy IS Our Natural State! #shortvideo #shorts #short
+  https://www.youtube.com/shorts/Qtt3Ro__LOU
+  Transcript: yes
+
+Paul Saladino MD: The worst idea for fertility
+  https://www.youtube.com/shorts/92k__YZEAes
+  Transcript: yes
+
+Paul Saladino MD: What is he eating? 😳
+  https://www.youtube.com/shorts/4Wis0LjCfG0
+  Transcript: yes
+
+Paul Saladino MD: Avoid these items in your bathroom
+  https://www.youtube.com/shorts/5RfmBJFnJ6o
+  Transcript: yes
+
+Paul Saladino MD: People think I’m crazy…
+  https://www.youtube.com/shorts/94ZKjA7Ucss
+  Transcript: NO
 
