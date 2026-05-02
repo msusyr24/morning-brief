@@ -1,11 +1,11 @@
 {
   "current_suggestion": {
-    "channel_name": "Chris Williamson",
-    "channel_id": "UCIaH-gZIVC432YRjNVvnyCA",
-    "youtube_handle": "@ChrisWillx",
-    "pitch": "Your current long-form interview channels (Lex, Rogan, Modern Wisdom) overlap heavily, but Chris Williamson consistently pulls guests in the intersection of evolutionary psychology, behavior change, and male psychology that none of your current channels own \u2014 figures like Geoffrey Miller, Rob Henderson, or Jonathan Haidt in contexts more focused on applied philosophy and mental models than politics. He steelmans the 'inner game' angle more rigorously than the hustle-culture adjacent content you're avoiding, with a philosophy-meets-data sensibility that bridges Stoicism and modern behavioral science. Format is long-form solo and interview, typically 60-120 minutes, with above-average follow-up questions and a willingness to sit in nuance."
+    "channel_name": "ThinkingPoker",
+    "channel_id": "UC_qsy__bQgZlPTfrnOMVgHg",
+    "youtube_handle": "@ThinkingPoker",
+    "pitch": "Your poker channels (GTO Wizard, GTO Lab, Alderman) are heavy on solver work and GTO mechanics, but Thinking Poker with Andrew Brokos fills a gap by emphasizing poker philosophy, hand reading heuristics, and the decision-making psychology behind deviating from GTO \u2014 the 'why' behind the math. The format is a long-form podcast with deep hand history analysis and occasional interviews with high-stakes players and theorists. It complements solver-based learning by training the reasoning layer beneath the outputs."
   },
-  "shown_count": 3,
+  "shown_count": 1,
   "history": [
     "Brad Kearns",
     "Dr. Layne Norton",
@@ -14,6 +14,7 @@
     "Diet Doctor",
     "Andrew Huberman",
     "FoundMyFitness",
-    "Chris Williamson"
+    "Chris Williamson",
+    "ThinkingPoker"
   ]
 }
