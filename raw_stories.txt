@@ -1,99 +1,96 @@
 === HACKER NEWS ===
-1. [136 pts] Ask.com has closed
-   https://www.ask.com/
+1. [147 pts] Kimi K2.6 just beat Claude, GPT-5.5, and Gemini in a coding challenge
+   https://thinkpol.ca/2026/04/30/an-open-weights-chinese-model-just-beat-claude-gpt-5-5-and-gemini-in-a-programming-challenge/
 
-2. [393 pts] Ti-84 Evo
-   https://education.ti.com/en/products/calculators/graphing-calculators/ti-84-evo
+2. [128 pts] Clandestine network smuggling Starlink tech into Iran to beat internet blackout
+   https://www.bbc.com/news/articles/cvgzk91leweo
 
-3. [86 pts] Job Postings for Software Engineers Are Rapidly Rising
-   https://www.citadelsecurities.com/news-and-insights/2026-global-intelligence-crisis/
+3. [132 pts] A Couple Million Lines of Haskell: Production Engineering at Mercury
+   https://blog.haskell.org/a-couple-million-lines-of-haskell/
 
-4. [141 pts] Artemis II Photo Timeline
-   https://artemistimeline.com/#artemis-ii-walkout-nhq202604010003
+4. [244 pts] This Month in Ladybird - April 2026
+   https://ladybird.org/newsletter/2026-04-30/
 
-5. [299 pts] New research suggests people can communicate and practice skills while dreaming
-   https://www.newyorker.com/culture/annals-of-inquiry/its-possible-to-learn-in-our-sleep-should-we
+5. [240 pts] Six Years Perfecting Maps on WatchOS
+   https://www.david-smith.org/blog/2026/04/29/maps-on-watchos/
 
-6. [10 pts] LFM2-24B-A2B: Scaling Up the LFM2 Architecture
-   https://www.liquid.ai/blog/lfm2-24b-a2b
+6. [36 pts] The IBM Granite 4.1 family of models
+   https://research.ibm.com/blog/granite-4-1-ai-foundation-models
 
-7. [9 pts] K3k: Kubernetes in Kubernetes
-   https://github.com/rancher/k3k
+7. [419 pts] Dav2d
+   https://code.videolan.org/videolan/dav2d
 
-8. [1 pts] CollectWise (YC F24) Is Hiring
-   https://www.ycombinator.com/companies/collectwise/jobs/rEWfZ6R-senior-forward-deployed-engineer
+8. [147 pts] Neanderthals ran 'fat factories' 125,000 years ago (2025)
+   https://www.universiteitleiden.nl/en/news/2025/07/neanderthals-ran-fat-factories-125000-years-ago
 
-9. [37 pts] To Restore an Island Paradise, Add Fungi
-   https://e360.yale.edu/digest/atoll-islands-sea-level-rise-fungi
+9. [263 pts] Do_not_track
+   https://donottrack.sh/
 
-10. [28 pts] I built the Playwright for desktop apps. 80% token savings
-   https://github.com/lahfir/agent-desktop
+10. [52 pts] Windows API Is Successful Cross-Platform API
+   https://retrocoding.net/windows-api-is-successful-cross-platform-api
 
-11. [145 pts] I'm Peter Roberts, immigration attorney who does work for YC and startups. AMA
-   https://news.ycombinator.com/item?id=47975676
+11. [1023 pts] VS Code inserting 'Co-Authored-by Copilot' into commits regardless of usage
+   https://github.com/microsoft/vscode/pull/310226
 
-12. [36 pts] Direct electrochemical black coffee quality appraisal using cyclic voltammetry
-   https://www.nature.com/articles/s41467-026-71526-5
+12. [8 pts] San Francisco streets with confusingly similar names
+   https://j-nelson.net/san-francisco-streets-with-similar-names/
 
-13. [117 pts] Lib0xc: A set of C standard library-adjacent APIs for safer systems programming
-   https://github.com/microsoft/lib0xc
+13. [179 pts] Inventions for battery reuse and recycling increase seven-fold in last decade
+   https://www.epo.org/en/news-events/news/inventions-battery-reuse-and-recycling-increase-more-seven-fold-last-decade
 
-14. [14 pts] Sourcefeed – a pop-up RSS service
-   https://www.sourcefeed.app/
+14. [89 pts] The agent harness belongs outside the sandbox
+   https://www.mendral.com/blog/agent-harness-belongs-outside-sandbox
 
-15. [247 pts] Ask HN: Who is hiring? (May 2026)
-   https://news.ycombinator.com/item?id=47975571
+15. [108 pts] Maryland Is First to Ban A.I.-Driven Price Increases in Grocery Stores
+   https://www.nytimes.com/2026/05/01/business/surveillance-pricing-groceries-maryland.html
 
-16. [117 pts] Eka’s robotic claw feels like we're approaching a ChatGPT moment
-   https://www.wired.com/story/when-robots-have-their-chatgpt-moment-remember-these-pincers/
+16. [81 pts] Clojurists Together – Q2 2026 Open Source Funding Announcement
+   https://www.clojuriststogether.org/news/q2-2026-funding-announcement/
 
-17. [149 pts] The smelly baby problem
-   https://www.worksinprogress.news/p/how-disposable-diapers-conquered
+17. [54 pts] A more efficient implementation of Shor's algorithm
+   https://lwn.net/Articles/1066156/
 
-18. [469 pts] Show HN: WhatCable, a tiny menu bar app for inspecting USB-C cables
-   https://github.com/darrylmorley/whatcable
+18. [85 pts] Show HN: State of the Art of Coding Models, According to Hacker News Commenters
+   https://hnup.date/hn-sota
 
-19. [54 pts] A Report on Burnout in Open Source Software Communities (2025) [pdf]
-   https://mirandaheath.website/static/oss_burnout_report_mh_25.pdf
+19. [18 pts] Care Homes and Hotels in Japan Shut as Expansion Strategy Unravels
+   https://www.newsonjapan.com/article/149075.php
 
-20. [135 pts] Whohas – Command-line utility for cross-distro, cross-repository package search
-   https://github.com/whohas/whohas
+20. [69 pts] A Physics Engine with Incremental Rollback for Multiplayer Games
+   https://easel.games/blog/2026-rollback-physics
 
-21. [8 pts] Chasing a SharedKey signature mismatch: fix azurerm_storage_table_entity
-   https://topaz.thecloudtheory.com/blog/debugging-table-entity-auth/
+21. [15 pts] Simple and Correct Snapshot Isolation
+   https://remy.wang/blog/si.html
 
-22. [149 pts] Apocalypse Early Warning System
-   https://ews.kylemcdonald.net/
+22. [237 pts] How fast is a macOS VM, and how small could it be?
+   https://eclecticlight.co/2026/05/02/how-fast-is-a-macos-vm-and-how-small-could-it-be/
 
-23. [83 pts] Whimsical Animations Course Open House
-   https://courses.joshwcomeau.com/wham/open-house/00-introduction
+23. [18 pts] When Dawkins met Claude – Could this AI be conscious?
+   https://unherd.com/2026/04/is-ai-the-next-phase-of-evolution/
 
-24. [8 pts] Create an MP4 video of a web page scrolling at a steady speed
-   https://github.com/upenn/web-scroll-video
+24. [114 pts] Open source does not imply open community
+   https://blog.feld.me/posts/2026/04/open-source-does-not-imply-open-community/
 
-25. [361 pts] City Learns Flock Accessed Cameras in Children's Gymnastics Room as a Sales Demo
-   https://www.404media.co/city-learns-flock-accessed-cameras-in-childrens-gymnastics-room-as-a-sales-pitch-demo-renews-contract-anyway/
+25. [150 pts] Barman – Backup and Recovery Manager for PostgreSQL
+   https://github.com/EnterpriseDB/barman
 
-26. [22 pts] Tvheadend: Self-Hosted IPTV Server
-   https://tvheadend.org
+26. [23 pts] Dabbling in Erlang, part 2: A minimal introduction (2013)
+   https://agis.io/post/dabbling-in-erlang-a-minimal-introduction/
 
-27. [457 pts] The gay jailbreak technique (2025)
-   https://github.com/Exocija/ZetaLib/blob/main/The%20Gay%20Jailbreak/The%20Gay%20Jailbreak.md
+27. [421 pts] NetHack 5.0.0
+   https://nethack.org/v500/release.html
 
-28. [78 pts] Show HN: AI CAD Harness
-   https://fusion.adam.new/install
+28. [80 pts] Little Magazines Are Back
+   https://wsjfreeexpression.substack.com/p/little-magazines-are-back
 
-29. [123 pts] Understand Anything
-   https://github.com/Lum1104/Understand-Anything
+29. [116 pts] The USB Situation
+   https://randsinrepose.com/archives/the-usb-situation/
 
-30. [124 pts] Ask HN: Who wants to be hired? (May 2026)
-   https://news.ycombinator.com/item?id=47975570
+30. [77 pts] Unsigned sizes: A five year mistake
+   https://c3-lang.org/blog/unsigned-sizes-a-five-year-mistake/
 
 
 === RSS ===
-[ideas] Paul Graham: The Brand Age
-  https://paulgraham.com/brandage.html
-
 [ai] Anthropic News: Claude for Creative Work
   https://www.anthropic.com/news/claude-for-creative-work
 
@@ -109,6 +106,24 @@
 [ai] Anthropic News: Anthropic and Amazon expand collaboration for up to 5 gigawatts of new compute
   https://www.anthropic.com/news/anthropic-amazon-compute
 
+[wisdom] Figs in Winter (Pigliucci): In the media
+  https://figsinwintertime.substack.com/p/in-the-media-b13
+
+[wisdom] Figs in Winter (Pigliucci): Socrates's pupils — part II
+  https://figsinwintertime.substack.com/p/socratess-pupils-part-ii
+
+[wisdom] Figs in Winter (Pigliucci): Socrates's pupils — part I
+  https://figsinwintertime.substack.com/p/socratess-pupils-part-i
+
+[ideas] Paul Graham: The Brand Age
+  https://paulgraham.com/brandage.html
+
+[health] Peter Attia: Disappointing results from the first rapamycin-plus-exercise trial
+  https://peterattiamd.com/rapamycin-plus-exercise-trial/
+
+[ai] Simon Willison: Sightings
+  https://simonwillison.net/2026/May/2/sightings/#atom-everything
+
 [ai] Simon Willison: iNaturalist Sightings
   https://simonwillison.net/2026/May/1/inat-sightings/#atom-everything
 
@@ -121,29 +136,14 @@
 [ai] Simon Willison: Quoting Andrew Kelley
   https://simonwillison.net/2026/Apr/30/andrew-kelley/#atom-everything
 
-[ai] Simon Willison: We need RSS for sharing abundant vibe-coded apps
-  https://simonwillison.net/2026/Apr/30/rss-vibe-coded-apps/#atom-everything
+[ideas] Stratechery: 2026.18: Long-term, Peripheral & Myopic Visions
+  https://stratechery.com/2026/long-term-peripheral-myopic-visions/
+
+[ideas] Stratechery: Amazon Earnings, Trainium and Commodity Markets, Additional Amazon Notes
+  https://stratechery.com/2026/amazon-earnings-trainium-and-commodity-markets-additional-amazon-notes/
 
 [ideas] Collaborative Fund (Morgan Housel): Long-Term Money
   https://collabfund.substack.com/p/long-term-money
-
-[wisdom] Figs in Winter (Pigliucci): Socrates's pupils — part II
-  https://figsinwintertime.substack.com/p/socratess-pupils-part-ii
-
-[wisdom] Figs in Winter (Pigliucci): Socrates's pupils — part I
-  https://figsinwintertime.substack.com/p/socratess-pupils-part-i
-
-[wisdom] Figs in Winter (Pigliucci): Suggested Readings
-  https://figsinwintertime.substack.com/p/suggested-readings-cf5
-
-[ai] OpenAI Blog: Introducing Advanced Account Security
-  https://openai.com/index/advanced-account-security
-
-[ai] OpenAI Blog: Where the goblins came from
-  https://openai.com/index/where-the-goblins-came-from
-
-[ai] OpenAI Blog: Building the compute infrastructure for the Intelligence Age
-  https://openai.com/index/building-the-compute-infrastructure-for-the-intelligence-age
 
 [wisdom] Donald Robertson: How can Stoicism Help Kids?
   https://donaldrobertson.substack.com/p/how-can-stoicism-help-kids
@@ -151,35 +151,26 @@
 [wisdom] Donald Robertson: When Reading about Stoicism isn’t Enough
   https://donaldrobertson.substack.com/p/when-reading-about-stoicism-isnt
 
+[bitcoin] The Pomp Letter: The Stock Market Is On Fire Because Investors Don't Care About Iran Anymore
+  https://pomp.substack.com/p/the-stock-market-is-on-fire-because
+
+[ideas] Marginal Revolution: Is there a recent growth in negative-sum assets?
+  https://marginalrevolution.com/marginalrevolution/2026/05/is-there-a-recent-growth-in-negative-sum-assets.html?utm_source=rss&utm_medium=rss&utm_campaign=is-there-a-recent-growth-in-negative-sum-assets
+
+[ideas] Marginal Revolution: Saturday assorted links
+  https://marginalrevolution.com/marginalrevolution/2026/05/saturday-assorted-links-559.html?utm_source=rss&utm_medium=rss&utm_campaign=saturday-assorted-links-559
+
+[ideas] Marginal Revolution: Have online worlds become the last free places for children?
+  https://marginalrevolution.com/marginalrevolution/2026/05/have-online-worlds-become-the-last-free-places-for-children.html?utm_source=rss&utm_medium=rss&utm_campaign=have-online-worlds-become-the-last-free-places-for-children
+
 [ideas] Marginal Revolution: Words of wisdom, on China shock 2.0
   https://marginalrevolution.com/marginalrevolution/2026/05/words-of-wisdom-on-china-shock-2-0.html?utm_source=rss&utm_medium=rss&utm_campaign=words-of-wisdom-on-china-shock-2-0
 
 [ideas] Marginal Revolution: My NPR debate on whether science is too risk-averse
   https://marginalrevolution.com/marginalrevolution/2026/05/my-npr-debate-on-whether-science-is-too-risk-averse.html?utm_source=rss&utm_medium=rss&utm_campaign=my-npr-debate-on-whether-science-is-too-risk-averse
 
-[ideas] Marginal Revolution: Friday assorted links
-  https://marginalrevolution.com/marginalrevolution/2026/05/friday-assorted-links-570.html?utm_source=rss&utm_medium=rss&utm_campaign=friday-assorted-links-570
-
-[ideas] Marginal Revolution: Ryan Avent’s new book *In Good Faith*
-  https://marginalrevolution.com/marginalrevolution/2026/05/ryan-avents-new-book-in-good-faith.html?utm_source=rss&utm_medium=rss&utm_campaign=ryan-avents-new-book-in-good-faith
-
-[ideas] Marginal Revolution: New results on AI mental health therapists
-  https://marginalrevolution.com/marginalrevolution/2026/05/new-results-on-ai-mental-health-therapists.html?utm_source=rss&utm_medium=rss&utm_campaign=new-results-on-ai-mental-health-therapists
-
-[ideas] Stratechery: 2026.18: Long-term, Peripheral & Myopic Visions
-  https://stratechery.com/2026/long-term-peripheral-myopic-visions/
-
-[ideas] Stratechery: Amazon Earnings, Trainium and Commodity Markets, Additional Amazon Notes
-  https://stratechery.com/2026/amazon-earnings-trainium-and-commodity-markets-additional-amazon-notes/
-
-[ideas] Stratechery: Intel Earnings, Intel’s Differentiation?, Whither Terafab
-  https://stratechery.com/2026/intel-earnings-intels-differentiation-whither-terafab/
-
-[bitcoin] The Pomp Letter: The Stock Market Is On Fire Because Investors Don't Care About Iran Anymore
-  https://pomp.substack.com/p/the-stock-market-is-on-fire-because
-
-[bitcoin] The Pomp Letter: I Changed My Mind on Artificial Intelligence...
-  https://pomp.substack.com/p/i-changed-my-mind-on-artificial-intelligence
+[ideas] Astral Codex Ten: What Deontological Bars?
+  https://www.astralcodexten.com/p/what-deontological-bars
 
 [bitcoin] Bitcoin Magazine: From NYSE Gut Punch to ‘One App for Money’: Exodus Bets Self‑Custody Can Power Everyday Life
   https://bitcoinmagazine.com/news/exodus-bets-self-custody-can-power-life
@@ -192,21 +183,6 @@
 
 [bitcoin] Bitcoin Magazine: Galoy Pushes Deeper Into U.S. Banking With All-in-One Bitcoin Platform
   https://bitcoinmagazine.com/news/galoy-pushes-deeper-into-u-s-banking
-
-[bitcoin] Bitcoin Magazine: Strike CEO Jack Mallers Announces Lending Proof-of-Reserves, Volatility-Proof Loans, and Backs Tether Merger Plan
-  https://bitcoinmagazine.com/news/strike-ceo-jack-mallers-bitcoin-conference
-
-[bitcoin] Bitcoin Magazine: Strategy and Blockstream CEOs Paint Vision of Bitcoin’s Financial Future
-  https://bitcoinmagazine.com/news/strategy-and-blockstream-bitcoins-future
-
-[bitcoin] Bitcoin Magazine: Morgan Stanley Executive on Bitcoin: ‘We Are Still So Early on This Journey’
-  https://bitcoinmagazine.com/news/morgan-stanley-executive-on-bitcoin
-
-[bitcoin] Bitcoin Magazine: Bitcoin, WikiLeaks, and a Film the Streamers Wouldn’t Touch: Jack Dorsey and Eugene Jarecki Make Their Case
-  https://bitcoinmagazine.com/news/bitcoin-jack-dorsey-eugene-jarecki
-
-[ideas] Astral Codex Ten: What Deontological Bars?
-  https://www.astralcodexten.com/p/what-deontological-bars
 
 [health] Stronger by Science: Hold Still: What Does the Evidence Actually Say About Isometric Training for Strength and Hypertrophy?
   https://www.strongerbyscience.com/isometric-training/
