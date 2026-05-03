@@ -64,6 +64,7 @@ YOUTUBE_CHANNELS = {
     "Peter Attia": "UC8kGsMa0LygSX9nkBcBH1Sg",
     "ModernWisdom": "UCIaH-gZIVC432YRjNVvnyCA",
     "Andrew Huberman": "UC2D2CMWXMOVWx7giW1n3LIg",
+    "ThinkingPoker": "UC_qsy__bQgZlPTfrnOMVgHg",
 }
 
 LOOKBACK_DAYS = 3
@@ -334,20 +335,32 @@ def fetch_recent_videos(channel_name, channel_id, last_seen_id=None, fallback_to
         "Accept-Language": "en-US,en;q=0.9",
     }
 
-    # Route through Webshare when creds are present (GitHub Actions).
-    # Falls back to direct when running locally without env vars set.
+    response = None
+    last_error = None
+    for attempt in range(3):
+        try:
+            response = requests.get(feed_url, headers=headers, timeout=15)
+            if response.status_code == 200:
+                break
+            last_error = f"HTTP {response.status_code}"
+        except Exception as e:
+            last_error = f"{type(e).__name__}"
+        response = None
+        time.sleep(2 + attempt)  # 2s, 3s, 4s — let YouTube's rate counter cool
+
+    if response is None:
+        print(f"[YT] {channel_name}: {last_error} (after 3 attempts)")
+        return [], False
+
+    body = response.content.lstrip()
+    if not (body.startswith(b"<?xml") or body.startswith(b"<feed")):
+        print(f"[YT] {channel_name}: non-XML response — first 120 bytes: {body[:120]!r}")
+        return [], False
+
     try:
-        response = requests.get(feed_url, headers=headers, timeout=15)
-        if response.status_code != 200:
-            print(f"[YT] {channel_name}: HTTP {response.status_code}")
-            return [], False
-        body = response.content.lstrip()
-        if not (body.startswith(b"<?xml") or body.startswith(b"<feed")):
-            print(f"[YT] {channel_name}: non-XML response — first 120 bytes: {body[:120]!r}")
-            return [], False
         root = ElementTree.fromstring(response.content)
     except Exception as e:
-        print(f"[YT] {channel_name}: feed error ({e})")
+        print(f"[YT] {channel_name}: parse error ({e})")
         return [], False
 
     ns = {"atom": "http://www.w3.org/2005/Atom", "yt": "http://www.youtube.com/xml/schemas/2015"}
@@ -426,7 +439,7 @@ def fetch_all_youtube():
     watermarks = load_watermarks()
     all_videos = []
 
-    with ThreadPoolExecutor(max_workers=len(YOUTUBE_CHANNELS)) as pool:
+    with ThreadPoolExecutor(max_workers=4) as pool:
         futures = {
             pool.submit(
                 fetch_recent_videos,
