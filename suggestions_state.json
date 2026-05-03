@@ -1,11 +1,11 @@
 {
   "current_suggestion": {
-    "channel_name": "ThinkingPoker",
-    "channel_id": "UC_qsy__bQgZlPTfrnOMVgHg",
-    "youtube_handle": "@ThinkingPoker",
-    "pitch": "Your poker channels (GTO Wizard, GTO Lab, Alderman) are heavy on solver work and GTO mechanics, but Thinking Poker with Andrew Brokos fills a gap by emphasizing poker philosophy, hand reading heuristics, and the decision-making psychology behind deviating from GTO \u2014 the 'why' behind the math. The format is a long-form podcast with deep hand history analysis and occasional interviews with high-stakes players and theorists. It complements solver-based learning by training the reasoning layer beneath the outputs."
+    "channel_name": "Ben Felix",
+    "channel_id": "UCDXTQ8nWmx_EhZ2v-kp7QxA",
+    "youtube_handle": "@BenFelixCSI",
+    "pitch": "Your current financial lens skews heavily toward Bitcoin and Austrian/hard-money thinking via Saylor \u2014 Ben Felix steelmans the evidence-based counterargument using peer-reviewed factor investing and market research, which sharpens your ability to stress-test those views rather than just reinforce them. He covers monetary policy, asset pricing, and long-term wealth in short solo explainer videos that cite actual academic papers, similar in rigor to how Peter Attia approaches health claims. The format is concise (typically 10-20 minutes), dense with citations, and deliberately low-hype \u2014 he engages with the same macroeconomic questions you care about from a fundamentally different epistemic starting point."
   },
-  "shown_count": 2,
+  "shown_count": 1,
   "history": [
     "Brad Kearns",
     "Dr. Layne Norton",
@@ -15,6 +15,7 @@
     "Andrew Huberman",
     "FoundMyFitness",
     "Chris Williamson",
-    "ThinkingPoker"
+    "ThinkingPoker",
+    "Ben Felix"
   ]
 }
