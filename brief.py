@@ -490,6 +490,16 @@ def fetch_all_youtube():
     with ThreadPoolExecutor(max_workers=5) as pool:
         list(pool.map(_load_transcript, all_videos))
 
+    # Retry pass for failed transcripts — proxy may give a different IP this time
+    failed = [v for v in all_videos if not v.get("transcript")]
+    if failed:
+        print(f"[YT] Retrying {len(failed)} failed transcripts...")
+        time.sleep(10)  # let the rate limiter cool
+        for v in failed:
+            v["transcript"] = fetch_transcript(v["video_id"], v["channel"])
+        retried_success = sum(1 for v in failed if v.get("transcript"))
+        print(f"[YT] Retry recovered {retried_success}/{len(failed)} transcripts")
+
     # Advance watermark ONLY for real new videos that got transcripts.
     # Fallback videos don't move the watermark (they're just "here's the latest, you haven't seen new since").
     # Videos without transcripts don't advance either — we'll retry them next run.
