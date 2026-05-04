@@ -22,6 +22,10 @@ from suggestions import get_suggestion
 load_dotenv()
 client = Anthropic()
 
+if os.getenv("GITHUB_ACTIONS"):
+    assert os.getenv("WEBSHARE_PROXY_USERNAME"), "WEBSHARE_PROXY_USERNAME not set in GitHub Actions"
+    assert os.getenv("WEBSHARE_PROXY_PASSWORD"), "WEBSHARE_PROXY_PASSWORD not set in GitHub Actions"
+
 # --- Your interests ---
 MY_INTERESTS = """
 I care about:
@@ -65,6 +69,7 @@ YOUTUBE_CHANNELS = {
     "ModernWisdom": "UCIaH-gZIVC432YRjNVvnyCA",
     "Andrew Huberman": "UC2D2CMWXMOVWx7giW1n3LIg",
     "ThinkingPoker": "UC_qsy__bQgZlPTfrnOMVgHg",
+    "Ben Felix": "UCDXTQ8nWmx_EhZ2v-kp7QxA",
 }
 
 LOOKBACK_DAYS = 3
@@ -335,19 +340,25 @@ def fetch_recent_videos(channel_name, channel_id, last_seen_id=None, fallback_to
         "Accept-Language": "en-US,en;q=0.9",
     }
 
+    proxies = None
+    ws_user = os.getenv("WEBSHARE_PROXY_USERNAME")
+    ws_pass = os.getenv("WEBSHARE_PROXY_PASSWORD")
+    if ws_user and ws_pass:
+        proxy_url = f"http://{ws_user}-rotate:{ws_pass}@p.webshare.io:80"
+        proxies = {"http": proxy_url, "https": proxy_url}
+
     response = None
     last_error = None
     for attempt in range(3):
         try:
-            response = requests.get(feed_url, headers=headers, timeout=15)
+            response = requests.get(feed_url, headers=headers, timeout=15, proxies=proxies)
             if response.status_code == 200:
                 break
             last_error = f"HTTP {response.status_code}"
         except Exception as e:
             last_error = f"{type(e).__name__}"
         response = None
-        time.sleep(2 + attempt)  # 2s, 3s, 4s — let YouTube's rate counter cool
-
+        time.sleep(5 * (attempt + 1))  # 5s, 10s, 15s
     if response is None:
         print(f"[YT] {channel_name}: {last_error} (after 3 attempts)")
         return [], False
