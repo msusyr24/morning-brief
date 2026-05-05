@@ -70,6 +70,7 @@ YOUTUBE_CHANNELS = {
     "Andrew Huberman": "UC2D2CMWXMOVWx7giW1n3LIg",
     "ThinkingPoker": "UC_qsy__bQgZlPTfrnOMVgHg",
     "Ben Felix": "UCDXTQ8nWmx_EhZ2v-kp7QxA",
+    "Mind The Game": "UC6L_LBqoKZXFa4WxHox5iCw",
 }
 
 LOOKBACK_DAYS = 3
