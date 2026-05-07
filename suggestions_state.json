@@ -1,11 +1,11 @@
 {
   "current_suggestion": {
-    "channel_name": "Alan Thrall (Untamed Strength)",
-    "channel_id": "UCRLOLGZl3-QTaJfLmAKgoAw",
-    "youtube_handle": "@AlanThrall",
-    "pitch": "Your Renaissance Periodization and Peter Attia content covers hypertrophy and longevity well, but Alan Thrall steelmans the strength/powerlifting side with a grounded, no-nonsense perspective that cuts through fitness industry noise. He covers programming, technique, and training philosophy with an emphasis on practical application over theory, often pushing back on overcomplicated approaches that dominate fitness discourse. Format is a mix of solo instructional videos and candid conversational pieces \u2014 low production ego, high signal."
+    "channel_name": "Doug Polk Poker",
+    "channel_id": "UCyI7FNTudkyALBh9N7hwI9Q",
+    "youtube_handle": "@DougPolkPoker",
+    "pitch": "Your poker channels (GTO Wizard, GTO Lab, Jared Alderman) are heavy on solver-based GTO theory, but Doug Polk balances high-level strategy with real game application, hand history breakdowns, and honest discussion of how GTO concepts actually hold up at the table against human opponents. He covers spots where solver outputs require practical interpretation rather than rote application, which is a gap in pure theory content. Format is a mix of solo analysis, hand reviews, and occasional interviews, generally at an intermediate-to-advanced level."
   },
-  "shown_count": 3,
+  "shown_count": 1,
   "history": [
     "Brad Kearns",
     "Dr. Layne Norton",
@@ -17,6 +17,7 @@
     "Chris Williamson",
     "ThinkingPoker",
     "Ben Felix",
-    "Alan Thrall (Untamed Strength)"
+    "Alan Thrall (Untamed Strength)",
+    "Doug Polk Poker"
   ]
 }
