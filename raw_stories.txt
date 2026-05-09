@@ -1,135 +1,96 @@
 === HACKER NEWS ===
-1. [470 pts] Canvas is down as ShinyHunters threatens to leak schools’ data
-   https://www.theverge.com/tech/926458/canvas-shinyhunters-breach
+1. [113 pts] A recent experience with ChatGPT 5.5 Pro
+   https://gowers.wordpress.com/2026/05/08/a-recent-experience-with-chatgpt-5-5-pro/
 
-2. [330 pts] Maybe you shouldn't install new software for a bit
-   https://xeiaso.net/blog/2026/abstain-from-install/
+2. [31 pts] Using Claude Code: The unreasonable effectiveness of HTML
+   https://twitter.com/trq212/status/2052809885763747935
 
-3. [470 pts] Cloudflare to cut about 20% workforce
-   https://www.reuters.com/business/world-at-work/cloudflare-cut-over-1100-jobs-2026-05-07/
+3. [852 pts] Google broke reCAPTCHA for de-googled Android users
+   https://reclaimthenet.org/google-broke-recaptcha-for-de-googled-android-users
 
-4. [529 pts] Dirtyfrag: Universal Linux LPE
-   https://www.openwall.com/lists/oss-security/2026/05/07/8
+4. [231 pts] OpenAI's WebRTC problem
+   https://moq.dev/blog/webrtc-is-the-problem/
 
-5. [77 pts] Pinocchio is weirder than you remembered
-   https://storica.club/blog/pinocchio-in-italian/
+5. [88 pts] Mythical Man Month
+   https://martinfowler.com/bliki/MythicalManMonth.html
 
-6. [589 pts] The map that keeps Burning Man honest
-   https://www.not-ship.com/burning-man-moop/
+6. [302 pts] AI is breaking two vulnerability cultures
+   https://www.jefftk.com/p/ai-is-breaking-two-vulnerability-cultures
 
-7. [404 pts] Agents need control flow, not more prompts
-   https://bsuh.bearblog.dev/agents-need-control-flow/
+7. [548 pts] David Attenborough's 100th Birthday
+   https://www.bbc.com/news/articles/cp3pww9g0p5o
 
-8. [53 pts] GNU IFUNC is the real culprit behind CVE-2024-3094
-   https://github.com/robertdfrench/ifuncd-up
+8. [188 pts] AWS North Virginia data center outage – recovery to take hours
+   https://www.cnbc.com/2026/05/08/aws-outage-data-center-fanduel-coinbase.html
 
-9. [241 pts] Natural Language Autoencoders: Turning Claude's Thoughts into Text
-   https://www.anthropic.com/research/natural-language-autoencoders
+9. [107 pts] The React2Shell Story
+   https://lachlan.nz/blog/the-react2shell-story/
 
-10. [81 pts] Plasticity and language in the anaesthetized human hippocampus
-   https://www.bcm.edu/news/researchers-discover-advanced-language-processing-in-the-unconscious-human-brain
+10. [157 pts] Wi is Fi: Understanding Wi-Fi 4/5/6/6E/7/8 (802.11 n/AC/ax/be/bn)
+   https://www.wiisfi.com/
 
-11. [273 pts] AlphaEvolve: Gemini-powered coding agent scaling impact across fields
-   https://deepmind.google/blog/alphaevolve-impact/
+11. [314 pts] Cartoon Network Flash Games
+   https://www.webdesignmuseum.org/flash-game-exhibitions/cartoon-network-flash-games
 
-12. [37 pts] Gambling ads on social media reach more than twice as many men as women: study
-   https://www.cam.ac.uk/research/news/gambling-ads-on-social-media-reach-more-than-twice-as-many-men-as-women
+12. [73 pts] Bitter Lessons from the ISSpresso
+   https://mceglowski.substack.com/p/bitter-lessons-from-the-isspresso
 
-13. [344 pts] DeepSeek 4 Flash local inference engine for Metal
-   https://github.com/antirez/ds4
+13. [167 pts] You gave me a u32. I gave you root. (io_uring ZCRX freelist LPE)
+   https://ze3tar.github.io/post-zcrx.html
 
-14. [3 pts] Blaise – A modern self-hosting zero-legacy Object Pascal compiler targeting QBE
-   https://github.com/graemeg/blaise
+14. [41 pts] Light without electricity? Glowing algae could make it possible
+   https://www.colorado.edu/today/2026/05/06/light-without-electricity-glowing-algae-could-make-it-possible
 
-15. [10 pts] How to make SSE token streams resumable, cancellable, and multi-device
-   https://zknill.io/posts/everyone-said-sse-token-streaming-was-easy/
+15. [395 pts] An Introduction to Meshtastic
+   https://meshtastic.org/docs/introduction/
 
-16. [560 pts] AI slop is killing online communities
-   https://rmoff.net/2026/05/06/ai-slop-is-killing-online-communities/
+16. [64 pts] Can LLMs model real-world systems in TLA+?
+   https://www.sigops.org/2026/can-llms-model-real-world-systems-in-tla/
 
-17. [15 pts] Los Alamos and the long path to detecting neutrinos
-   https://www.lanl.gov/media/publications/1663/from-ghost-particle-to-cosmic-messenger
+17. [30 pts] The Soul of Maintaining a New Machine
+   https://books.worksinprogress.co/book/maintenance-of-everything/communities-of-practice/the-soul-of-maintaining-a-new-machine/3
 
-18. [115 pts] Nonprofit hospitals spend billions on consultants with no clear effect
-   https://www.uchicagomedicine.org/forefront/research-and-discoveries-articles/nonprofit-hospitals-spend-billions-on-management-consultants
+18. [127 pts] Teaching Claude Why
+   https://www.anthropic.com/research/teaching-claude-why
 
-19. [139 pts] Brazil's Pix payment system faces pressure from Visa and Mastercard
-   https://www.elciudadano.com/en/brazils-pix-payment-system-faces-pressure-from-visa-and-mastercard/04/04/
+19. [204 pts] Serving a website on a Raspberry Pi Zero running in RAM
+   https://btxx.org/posts/memory/
 
-20. [121 pts] Singapore introduces caning for boys who bully others at school
-   https://www.theguardian.com/world/2026/may/06/singapore-caning-school-bullies
+20. [44 pts] All means are fair except solving the problem
+   https://yosefk.com/blog/all-means-are-fair-except-solving-the-problem.html
 
-21. [39 pts] Komai: a fine Matrix chat app you can get to love
-   https://etke.cc/blog/introducing-komai
+21. [36 pts] When is your birthday? The math behind hash collisions
+   https://0xkrt26.github.io/math_behind_security/2026/05/08/birthday-problem.html
 
-22. [276 pts] I want to live like Costco people
-   https://tastecooking.com/i-want-to-live-like-costco-people/
+22. [326 pts] Mojo 1.0 Beta
+   https://mojolang.org/
 
-23. [119 pts] Hardening Firefox with Claude Mythos Preview
-   https://hacks.mozilla.org/2026/05/behind-the-scenes-hardening-firefox/
+23. [5 pts] PortalVR Motion – use any VR content in 2D with 3D tracked Joy-Cons
+   https://portalvr.io/motion
 
-24. [69 pts] Two Home Affairs officials suspended after AI 'hallucinations' found
-   https://www.citizen.co.za/news/home-affairs-officials-suspended-ai-hallucinations/
+24. [1 pts] Mux (YC W16) Is Hiring
+   https://www.mux.com/jobs
 
-25. [49 pts] Creating for a niche
-   https://www.davesnider.com/posts/working-in-a-niche
+25. [8 pts] Boosting multimodal inference performance by >10% with a single Python dict
+   https://modal.com/blog/boosting-multimodal-inference-performance-by-greater-than-10-with-a-single-python-dictionary
 
-26. [542 pts] Programming Still Sucks
-   https://www.stvn.sh/writing/programming-still-sucks-fqffhyp
+26. [55 pts] Over 97% of the 'Linux' Foundation's Budget Goes Not to Linux
+   https://techrights.org/n/2026/05/08/Over_97_of_the_Linux_Foundation_s_Budget_Goes_Not_to_Linux.shtml
 
-27. [78 pts] Principles for agent-native CLIs
-   https://twitter.com/trevin/status/2051316002730991795
+27. [227 pts] Meta Shuts Down End-to-End Encryption for Instagram Messaging
+   https://www.pcmag.com/news/meta-shuts-down-end-to-end-encryption-for-instagram-dms-messaging
 
-28. [524 pts] Chrome removes claim of On-device Al not sending data to Google Servers
-   https://old.reddit.com/r/chrome/comments/1t5qayz/chrome_removes_claim_of_ondevice_al_not_sending/
+28. [256 pts] US Government releases first batch of UAP documents and videos
+   https://www.war.gov/UFO/
 
-29. [42 pts] Tools in the Grass: Raising the next generation of crafts person
-   https://www.popularwoodworking.com/editors-blog/tools-in-the-grass/
+29. [74 pts] Looking at the data behind prediction markets
+   https://asteriskmag.com/issues/14/are-prediction-markets-good-for-anything
 
-30. [165 pts] The Self-Cancelling Subscription
-   https://predr.ag/blog/the-self-cancelling-subscription/
+30. [946 pts] Poland is now among the 20 largest economies
+   https://apnews.com/article/poland-economy-growth-g20-gdp-26fe06e120398410f8d773ba5661e7aa
 
 
 === RSS ===
-[ideas] Paul Graham: The Brand Age
-  https://paulgraham.com/brandage.html
-
-[wisdom] Farnam Street: Winston Weinberg: Speed, Stress, and Better Decisions
-  https://fs.blog/knowledge-project-podcast/winston-weinberg/
-
-[wisdom] Figs in Winter (Pigliucci): Physicalism and consciousness — part II
-  https://figsinwintertime.substack.com/p/physicalism-and-consciousness-ii
-
-[wisdom] Figs in Winter (Pigliucci): Physicalism and consciousness — part I
-  https://figsinwintertime.substack.com/p/physicalism-and-consciousness-i
-
-[wisdom] Figs in Winter (Pigliucci): In the media
-  https://figsinwintertime.substack.com/p/in-the-media-b13
-
-[ai] Simon Willison: llm-gemini 0.31
-  https://simonwillison.net/2026/May/7/llm-gemini/#atom-everything
-
-[ai] Simon Willison: Big Words
-  https://simonwillison.net/2026/May/7/big-words/#atom-everything
-
-[ai] Simon Willison: Behind the Scenes Hardening Firefox with Claude Mythos Preview
-  https://simonwillison.net/2026/May/7/firefox-claude-mythos/#atom-everything
-
-[ai] Simon Willison: Notes on the xAI/Anthropic data center deal
-  https://simonwillison.net/2026/May/7/xai-anthropic/#atom-everything
-
-[ai] Simon Willison: GitHub Repo Stats
-  https://simonwillison.net/2026/May/7/github-repo-stats/#atom-everything
-
-[wisdom] Donald Robertson: Bear in mind the social consequences of your actions...
-  https://donaldrobertson.substack.com/p/bear-in-mind-the-social-consequences
-
-[wisdom] Donald Robertson: Hand Gestures for Self-Improvement
-  https://donaldrobertson.substack.com/p/hand-gestures-for-self-improvement
-
-[wisdom] Donald Robertson: How can Stoicism Help Kids?
-  https://donaldrobertson.substack.com/p/how-can-stoicism-help-kids
-
 [ai] Anthropic News: Higher usage limits for Claude and a compute deal with SpaceX
   https://www.anthropic.com/news/higher-limits-spacex
 
@@ -145,8 +106,8 @@
 [ai] Anthropic News: Anthropic names Theo Hourmouzis General Manager of Australia & New Zealand and officially opens Sydney office
   https://www.anthropic.com/news/theo-hourmouzis-general-manager-australia-new-zealand
 
-[bitcoin] The Pomp Letter: The Crypto Industry Is Dying...That Is A Good Thing
-  https://pomp.substack.com/p/the-crypto-industry-is-dyingthat
+[ideas] Stratechery: 2026.19: Earning & Spending
+  https://stratechery.com/2026/earning-spending/
 
 [ideas] Stratechery: An Interview with Joanna Stern About Living With AI
   https://stratechery.com/2026/an-interview-with-joanna-stern-about-living-with-ai/
@@ -154,32 +115,77 @@
 [ideas] Stratechery: Microsoft Earnings, Apple Earnings
   https://stratechery.com/2026/microsoft-earnings-apple-earnings/
 
-[ideas] Stratechery: Amazon’s Durability
-  https://stratechery.com/2026/amazons-durability/
+[wisdom] Donald Robertson: Bear in mind the social consequences of your actions...
+  https://donaldrobertson.substack.com/p/bear-in-mind-the-social-consequences
 
-[ideas] Collaborative Fund (Morgan Housel): Long-Term Money
-  https://collabfund.substack.com/p/long-term-money
+[wisdom] Donald Robertson: Hand Gestures for Self-Improvement
+  https://donaldrobertson.substack.com/p/hand-gestures-for-self-improvement
 
-[ideas] Marginal Revolution: How Poverty Fell
-  https://marginalrevolution.com/marginalrevolution/2026/05/how-poverty-fell-2.html?utm_source=rss&utm_medium=rss&utm_campaign=how-poverty-fell-2
+[wisdom] Donald Robertson: How can Stoicism Help Kids?
+  https://donaldrobertson.substack.com/p/how-can-stoicism-help-kids
 
-[ideas] Marginal Revolution: Thursday assorted links
-  https://marginalrevolution.com/marginalrevolution/2026/05/thursday-assorted-links-551.html?utm_source=rss&utm_medium=rss&utm_campaign=thursday-assorted-links-551
+[ideas] Paul Graham: The Brand Age
+  https://paulgraham.com/brandage.html
 
-[ideas] Marginal Revolution: Do Americans really hate AI?
-  https://marginalrevolution.com/marginalrevolution/2026/05/do-americans-really-hate-ai.html?utm_source=rss&utm_medium=rss&utm_campaign=do-americans-really-hate-ai
-
-[ideas] Marginal Revolution: AGI Could Lower Interest Rates
-  https://marginalrevolution.com/marginalrevolution/2026/05/agi-could-lower-interest-rates.html?utm_source=rss&utm_medium=rss&utm_campaign=agi-could-lower-interest-rates
-
-[ideas] Marginal Revolution: William Stanley Jevons as polymath
-  https://marginalrevolution.com/marginalrevolution/2026/05/william-stanley-jevons-as-polymath.html?utm_source=rss&utm_medium=rss&utm_campaign=william-stanley-jevons-as-polymath
+[ideas] Astral Codex Ten: Three Model Organisms For Taste
+  https://www.astralcodexten.com/p/three-model-organisms-for-taste
 
 [ideas] Astral Codex Ten: Contra Everyone On Taste
   https://www.astralcodexten.com/p/contra-everyone-on-taste
 
 [ideas] Astral Codex Ten: Hidden Open Thread 432.5
   https://www.astralcodexten.com/p/hidden-open-thread-4325
+
+[ai] Simon Willison: Quoting Luke Curley
+  https://simonwillison.net/2026/May/9/luke-curley/#atom-everything
+
+[ai] Simon Willison: Using Claude Code: The Unreasonable Effectiveness of HTML
+  https://simonwillison.net/2026/May/8/unreasonable-effectiveness-of-html/#atom-everything
+
+[ai] Simon Willison: llm-gemini 0.31
+  https://simonwillison.net/2026/May/7/llm-gemini/#atom-everything
+
+[ai] Simon Willison: Big Words
+  https://simonwillison.net/2026/May/7/big-words/#atom-everything
+
+[ai] Simon Willison: Behind the Scenes Hardening Firefox with Claude Mythos Preview
+  https://simonwillison.net/2026/May/7/firefox-claude-mythos/#atom-everything
+
+[ideas] Collaborative Fund (Morgan Housel): Long-Term Money
+  https://collabfund.substack.com/p/long-term-money
+
+[wisdom] Figs in Winter (Pigliucci): Physicalism and consciousness — part II
+  https://figsinwintertime.substack.com/p/physicalism-and-consciousness-ii
+
+[wisdom] Figs in Winter (Pigliucci): Physicalism and consciousness — part I
+  https://figsinwintertime.substack.com/p/physicalism-and-consciousness-i
+
+[wisdom] Figs in Winter (Pigliucci): In the media
+  https://figsinwintertime.substack.com/p/in-the-media-b13
+
+[bitcoin] The Pomp Letter: We Are In A Bull Market & These Stocks Are Going Much Higher
+  https://pomp.substack.com/p/we-are-in-a-bull-market-and-these
+
+[bitcoin] The Pomp Letter: The Crypto Industry Is Dying...That Is A Good Thing
+  https://pomp.substack.com/p/the-crypto-industry-is-dyingthat
+
+[ideas] Marginal Revolution: The social media ban in Australia, how is it going?
+  https://marginalrevolution.com/marginalrevolution/2026/05/the-social-media-ban-in-australia-how-is-it-going.html?utm_source=rss&utm_medium=rss&utm_campaign=the-social-media-ban-in-australia-how-is-it-going
+
+[ideas] Marginal Revolution: Friday assorted links
+  https://marginalrevolution.com/marginalrevolution/2026/05/friday-assorted-links-571.html?utm_source=rss&utm_medium=rss&utm_campaign=friday-assorted-links-571
+
+[ideas] Marginal Revolution: The UFO files
+  https://marginalrevolution.com/marginalrevolution/2026/05/the-ufo-files.html?utm_source=rss&utm_medium=rss&utm_campaign=the-ufo-files
+
+[ideas] Marginal Revolution: A simple point about diversification
+  https://marginalrevolution.com/marginalrevolution/2026/05/a-simple-point-about-diversification.html?utm_source=rss&utm_medium=rss&utm_campaign=a-simple-point-about-diversification
+
+[ideas] Marginal Revolution: Sentences to ponder
+  https://marginalrevolution.com/marginalrevolution/2026/05/sentences-to-ponder-138.html?utm_source=rss&utm_medium=rss&utm_campaign=sentences-to-ponder-138
+
+[bitcoin] Bitcoin Magazine: What does Bitcoin “Power Projection” mean to the U.S. Military?
+  https://bitcoinmagazine.com/politics/what-does-bitcoin-power-projection-mean-to-the-u-s-military
 
 [bitcoin] Bitcoin Magazine: ANTPOOL, Block Inc, F2Pool, Foundry, Spiderpool, MARA Foundation & DMND Join Stratum v2 Working Group
   https://bitcoinmagazine.com/news/antpool-block-inc-f2pool-foundry-spiderpool-dmnd-join-stratum-v2-working-group
@@ -193,17 +199,8 @@
 [bitcoin] Bitcoin Magazine: Strategy Opens Door to Bold Bitcoin Sales Pivot Unlocking $2.2 Billion Tax Benefit
   https://bitcoinmagazine.com/bitcoin-for-corporations/sstrategy-mstr-bitcoin-sales-pivot
 
-[bitcoin] Bitcoin Magazine: Sequans Sells Half Its Bitcoin Holdings as Revenue Falls and Losses Mount
-  https://bitcoinmagazine.com/news/sequans-sells-half-its-bitcoin-holdings
-
-[bitcoin] Bitcoin Magazine: Kraken Partners With MoneyGram to Enable Crypto Cash-Outs at 500,000 Locations Worldwide
-  https://bitcoinmagazine.com/news/kraken-partners-with-moneygram
-
-[bitcoin] Bitcoin Magazine: K Wave Abandons Bitcoin Treasury Plan, Shifts to AI Infrastructure Play with $485M War Chest
-  https://bitcoinmagazine.com/news/k-wave-abandons-bitcoin-treasury-plan
-
-[bitcoin] Bitcoin Magazine: Bitcoin Price Rockets Past $81,000 for the First Time Since January
-  https://bitcoinmagazine.com/markets/bitcoin-price-crosses-81000-january
+[ai] OpenAI Blog: Running Codex safely at OpenAI
+  https://openai.com/index/running-codex-safely
 
 [ai] OpenAI Blog: Scaling Trusted Access for Cyber with GPT-5.5 and GPT-5.5-Cyber
   https://openai.com/index/gpt-5-5-with-trusted-access-for-cyber
@@ -214,26 +211,90 @@
 [ai] OpenAI Blog: Advancing voice intelligence with new models in the API
   https://openai.com/index/advancing-voice-intelligence-with-new-models-in-the-api
 
-[ai] OpenAI Blog: Introducing Trusted Contact in ChatGPT
-  https://openai.com/index/introducing-trusted-contact-in-chatgpt
-
 [ai] OpenAI Blog: Testing ads in ChatGPT
   https://openai.com/index/testing-ads-in-chatgpt
 
 [health] Stronger by Science: Hold Still: What Does the Evidence Actually Say About Isometric Training for Strength and Hypertrophy?
   https://www.strongerbyscience.com/isometric-training/
 
+[wisdom] Farnam Street: Winston Weinberg: Speed, Stress, and Better Decisions
+  https://fs.blog/knowledge-project-podcast/winston-weinberg/
+
 
 === YOUTUBE ===
-Paul Saladino MD: Outdoor gym workout in Miami
-  https://www.youtube.com/shorts/TR9--f5rgm8
+Paul Saladino MD: Pizza is overrated…
+  https://www.youtube.com/shorts/EOKea_MaOAA
   Transcript: yes
 
-Paul Saladino MD: I Reveal What’s Actually In Your "Healthy" Protein Bars
-  https://www.youtube.com/watch?v=mmck-JU2mnQ
+GTO Lab: One of the key concepts we will address on Day 1 of the bootcamp.
+  https://www.youtube.com/shorts/TMPUSzYYesM
   Transcript: yes
 
-Paul Saladino MD: What they don’t tell you about GLP-1 drugs
-  https://www.youtube.com/shorts/sUSpKi0nO0w
+GTO Lab: What's your bullet goal? - Jonathan Jaffe
+  https://www.youtube.com/shorts/6uQv7LgKFtA
+  Transcript: yes
+
+GTO Lab: Bubble factor and risk premiums in the bubble stage of the tournament explained by Connor Rash
+  https://www.youtube.com/shorts/vWhWanpEfzI
+  Transcript: yes
+
+GTO Lab: 👉🏻 To every PRO member who has supported GTO LAB, thank you.
+  https://www.youtube.com/shorts/MKGgy__9Cns
+  Transcript: yes
+
+GTO Lab: Was This Massive Flop Bet Genius or Spew? | WSOP Bootcamp Preview with Jonathan Jaffe & Leon Sturm
+  https://www.youtube.com/watch?v=ft5Nb_UN-Sk
+  Transcript: yes
+
+GTO Lab: 👉🏻 We created this bootcamp exclusively for PRO members.
+  https://www.youtube.com/shorts/cCT0XC-EVDI
+  Transcript: yes
+
+GTO Lab: You still are able to check raise fold while shallow - Brian Kim
+  https://www.youtube.com/shorts/MpE0war-jUY
+  Transcript: NO
+
+ModernWisdom: The Type Of People Who Fall For Limerence
+  https://www.youtube.com/shorts/1jXLM5GAf0g
+  Transcript: yes
+
+ModernWisdom: Why Is Masculinity Controversial?
+  https://www.youtube.com/shorts/gG5SuN87k0w
+  Transcript: yes
+
+ModernWisdom: The Brutal Truth About Choosing a Partner
+  https://www.youtube.com/watch?v=VViT1WIvfho
+  Transcript: yes
+
+ModernWisdom: Take Advantage Of Other People's Laziness
+  https://www.youtube.com/shorts/j_a98xerE4U
+  Transcript: yes
+
+ModernWisdom: How Andrew Huberman Found Real Peace
+  https://www.youtube.com/shorts/LNycEXYMs8U
+  Transcript: yes
+
+ModernWisdom: DEBATE: Why Do Gen Z Women Hate Men So Much?
+  https://www.youtube.com/watch?v=-jNZpKi0RFA
+  Transcript: yes
+
+ModernWisdom: The "Cold Plunge" Conversation Theory
+  https://www.youtube.com/shorts/xFh20iRX2Lw
+  Transcript: yes
+
+ModernWisdom: Mentalist Makes Chris Williamson Lose His Mind
+  https://www.youtube.com/shorts/_IWI0-xIa9s
+  Transcript: yes
+
+ModernWisdom: This Will Save You 10 Years of Therapy - Mark Manson
+  https://www.youtube.com/watch?v=3Trvf4Yryk8
+  Transcript: yes
+
+Andrew Huberman: Essentials: Compulsive Behaviors & Deep Brain Stimulation | Dr. Casey Halpern
+  https://www.youtube.com/watch?v=aKDzF_fMMrc
+  Transcript: yes
+
+Ben Felix: Using Your Money To Be Happier
+  https://www.youtube.com/watch?v=S9InNdQhFwc
   Transcript: yes
 
