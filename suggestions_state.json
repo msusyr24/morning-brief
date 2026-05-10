@@ -1,11 +1,11 @@
 {
   "current_suggestion": {
-    "channel_name": "Doug Polk Poker",
-    "channel_id": "UCyI7FNTudkyALBh9N7hwI9Q",
-    "youtube_handle": "@DougPolkPoker",
-    "pitch": "Your poker channels (GTO Wizard, GTO Lab, Jared Alderman) are heavy on solver-based GTO theory, but Doug Polk balances high-level strategy with real game application, hand history breakdowns, and honest discussion of how GTO concepts actually hold up at the table against human opponents. He covers spots where solver outputs require practical interpretation rather than rote application, which is a gap in pure theory content. Format is a mix of solo analysis, hand reviews, and occasional interviews, generally at an intermediate-to-advanced level."
+    "channel_name": "Conor Neill",
+    "channel_id": "UCcZhBlipmIFlfZjt-Ji4Udg",
+    "youtube_handle": "@ConorNeill",
+    "pitch": "Your philosophy and mental-models interests are currently covered through long-form podcasts (Lex, Huberman, ModernWisdom), but Conor Neill works a different angle: he translates Stoic and classical rhetoric principles into frameworks for decision-making and leadership, drawing heavily on Seneca, Marcus Aurelius, and Munger-style thinking. His videos are short to mid-length solo talks, typically 5-15 minutes, which means high density of applicable mental models without the interview padding. He covers topics like emotional regulation, how to speak and think under pressure, and what ancient philosophy actually prescribes for modern choices \u2014 filling a gap between your Stoicism interest and your mental-strength interest that none of your current channels address directly."
   },
-  "shown_count": 3,
+  "shown_count": 1,
   "history": [
     "Brad Kearns",
     "Dr. Layne Norton",
@@ -18,6 +18,7 @@
     "ThinkingPoker",
     "Ben Felix",
     "Alan Thrall (Untamed Strength)",
-    "Doug Polk Poker"
+    "Doug Polk Poker",
+    "Conor Neill"
   ]
 }
