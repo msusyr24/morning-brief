@@ -1,104 +1,107 @@
 === HACKER NEWS ===
-1. [721 pts] Postmortem: TanStack NPM supply-chain compromise
-   https://tanstack.com/blog/npm-supply-chain-compromise-postmortem
+1. [86 pts] Deterministic Fully-Static Whole-Binary Translation Without Heuristics
+   https://arxiv.org/abs/2605.08419
 
-2. [122 pts] They Live (1988) inspired Adblocker
-   https://github.com/davmlaw/they_live_adblocker
+2. [336 pts] Restore full BambuNetwork support for Bambu Lab printers
+   https://github.com/FULU-Foundation/OrcaSlicer-bambulab
 
-3. [362 pts] If AI writes your code, why use Python?
-   https://medium.com/@NMitchem/if-ai-writes-your-code-why-use-python-bf8c4ba1a055
+3. [716 pts] Googlebook
+   https://googlebook.google/
 
-4. [106 pts] Claude Platform on AWS
-   https://claude.com/blog/claude-platform-on-aws
+4. [90 pts] The vi family
+   https://lpar.ATH0.com/posts/2026/05/the-vi-family/
 
-5. [294 pts] UCLA discovers first stroke rehabilitation drug to repair brain damage (2025)
-   https://stemcell.ucla.edu/news/ucla-discovers-first-stroke-rehabilitation-drug-repair-brain-damage
+5. [386 pts] Show HN: Needle: We Distilled Gemini Tool Calling into a 26M Model
+   https://github.com/cactus-compute/needle
 
-6. [156 pts] Google says criminal hackers used AI to find a major software flaw
-   https://www.nytimes.com/2026/05/11/us/politics/google-hackers-attack-ai.html
+6. [300 pts] How to make your text look futuristic (2016)
+   https://typesetinthefuture.com/2016/02/18/futuristic/
 
-7. [53 pts] Software Internals Book Club
-   https://eatonphil.com/bookclub.html
+7. [119 pts] Kraftwerk's radical 1976 track
+   https://www.bbc.com/culture/article/20260511-kraftwerks-radical-1976-track-radioactivity-became-an-anti-nuclear-anthem
 
-8. [16 pts] Boriel BASIC
-   https://zxbasic.readthedocs.io/en/docs/
+8. [285 pts] CERT is releasing six CVEs for serious security vulnerabilities in dnsmasq
+   https://lists.thekelleys.org.uk/pipermail/dnsmasq-discuss/2026q2/018471.html
 
-9. [57 pts] Show HN: A modern Music Player Daemon based on Rockbox firmware
-   https://github.com/tsirysndr/rockbox-zig
+9. [135 pts] My graduation cap runs Rust
+   https://ericswpark.com/blog/2026/2026-05-12-my-graduation-cap-runs-rust/
 
-10. [129 pts] I let AI build a tool to help me figure out what was waking me up at night
-   https://martin.sh/i-let-ai-build-a-tool-to-help-me-figure-out-what-was-waking-me-up-at-night/
+10. [500 pts] Why senior developers fail to communicate their expertise
+   https://www.nair.sh/guides-and-opinions/communicating-your-expertise/why-senior-developers-fail-to-communicate-their-expertise
 
-11. [63 pts] I hate soldering
-   https://user8.bearblog.dev/rant/
+11. [61 pts] Traceway: MIT-licensed observability stack you can self-host in ~90s
+   https://github.com/tracewayapp/traceway
 
-12. [6 pts] High-precision HDC reference instrument for the Sol Star System
-   https://pypi.org/project/ephemerides-spectral/
+12. [64 pts] When "idle" isn't idle: how a Linux kernel optimization became a QUIC bug
+   https://blog.cloudflare.com/quic-death-spiral-fix/
 
-13. [261 pts] Nullsoft, 1997-2004 (2004)
-   https://slate.com/technology/2004/11/the-death-of-the-last-maverick-tech-company.html
+13. [31 pts] Referer Reality
+   https://www.robinsloan.com/lab/referer/
 
-14. [39 pts] A lost ancient script reveals how writing as we know it began
-   https://www.newscientist.com/article/2524042-a-lost-ancient-script-reveals-how-writing-as-we-know-it-really-began/
+14. [451 pts] Rendering the Sky, Sunsets, and Planets
+   https://blog.maximeheckel.com/posts/on-rendering-the-sky-sunsets-and-planets/
 
-15. [130 pts] Library for fast mapping of Java records to native memory
-   https://github.com/mamba-studio/TypedMemory
+15. [251 pts] Quack: The DuckDB Client-Server Protocol
+   https://duckdb.org/2026/05/12/quack-remote-protocol
 
-16. [173 pts] Interaction Models
-   https://thinkingmachines.ai/blog/interaction-models/
+16. [25 pts] Zero-native – Build native desktop apps with web UI
+   https://zero-native.dev
 
-17. [434 pts] GitLab announces workforce reduction and end of their CREDIT values
-   https://about.gitlab.com/blog/gitlab-act-2/
+17. [287 pts] Tell NYT, Atlantic, USA Today to keep Wayback Machine
+   https://www.savethearchive.com/newsleaders/
 
-18. [10 pts] Extremely Low Frequencies
-   https://computer.rip/2026-05-09-extremely-low-frequencies.html
+18. [348 pts] The Future of Obsidian Plugins
+   https://obsidian.md/blog/future-of-plugins/
 
-19. [41 pts] VGA Memory Access Is Complicated
-   https://www.os2museum.com/wp/learn-something-old-every-day-part-xxi-vga-memory-access-is-complicated/
+19. [111 pts] Scrcpy v4.0
+   https://github.com/Genymobile/scrcpy/releases/tag/v4.0
 
-20. [66 pts] Griffin PowerMate driver for modern macOS
-   https://github.com/jameslockman/Griffin-PowerMate-Driver
+20. [180 pts] Reimagining the mouse pointer for the AI era
+   https://deepmind.google/blog/ai-pointer/
 
-21. [95 pts] Show HN: TikTok but for scientific papers
-   https://andreaturchet.github.io/website/index.html
+21. [48 pts] Fc, a lossless compressor for floating-point streams
+   https://github.com/xtellect/fc
 
-22. [47 pts] Productivity isn't about going faster
-   https://humanpro.co/articles/productivity-isnt-about-going-faster/
+22. [7 pts] Up in Smoke
+   https://thebaffler.com/odds-and-ends/the-profession-that-does-not-exist-symposium
 
-23. [3 pts] Supercomputer networking to accelerate large scale AI training
-   https://openai.com/index/mrc-supercomputer-networking/
+23. [68 pts] Show HN: Agentic interface for mainframes and COBOL
+   https://www.hypercubic.ai/hopper
 
-24. [52 pts] The rise and fall of snake oil
-   https://www.historytoday.com/archive/history-matters/rise-and-fall-snake-oil
+24. [50 pts] Launch HN: Voker (YC S24) – Analytics for AI Agents
+   https://voker.ai
 
-25. [229 pts] Training an LLM in Swift, Part 1: Taking matrix mult from Gflop/s to Tflop/s
-   https://www.cocoawithlove.com/blog/matrix-multiplications-swift.html
+25. [74 pts] Lanzaboote – NixOS Secure Boot
+   https://x86.lol/generic/2022/11/26/lanzaboote.html
 
-26. [132 pts] Interfaze: A new model architecture built for high accuracy at scale
-   https://interfaze.ai/blog/interfaze-a-new-model-architecture-built-for-high-accuracy-at-scale
+26. [1192 pts] Bambu Lab is abusing the open source social contract
+   https://www.jeffgeerling.com/blog/2026/bambu-lab-abusing-open-source-social-contract/
 
-27. [53 pts] Silverback Imfura took a chance, and ended up alone
-   https://gorillafund.org/mountain-gorillas/silverback-imfura-took-a-chance-and-ended-up-alone/
+27. [29 pts] Foucault's Order of Things Explained with Trading Cards [video]
+   https://www.youtube.com/watch?v=1TbHYjGvS68
 
-28. [33 pts] Abstract Machines for Logic Programs
-   https://chrisistyping.bearblog.dev/abstract-machines-for-logic-programs/
+28. [10 pts] What can singing mice say about human speech?
+   https://phys.org/news/2026-05-mice-human-speech.html
 
-29. [74 pts] Show HN: OpenGravity – A zero-install, BYOK vanilla JS clone of Antigravity
-   https://github.com/ab-613/opengravity
+29. [139 pts] When life gives you lemons, write better error messages
+   https://wix-ux.com/when-life-gives-you-lemons-write-better-error-messages-46c5223e1a2f
 
-30. [1 pts] Bild AI (YC W25) Is Hiring Founding Product Engineers
-   https://bild.ai/jobs
+30. [179 pts] EFF to 4th Circuit: Electronic Device Searches at the Border Require a Warrant
+   https://www.eff.org/deeplinks/2026/05/eff-fourth-circuit-electronic-device-searches-border-require-warrant
 
 
 === RSS ===
+[wisdom] Figs in Winter (Pigliucci): Eugenics: bad science, bad ethics, or both?
+  https://figsinwintertime.substack.com/p/eugenics-bad-science-bad-ethics-or
+
 [wisdom] Figs in Winter (Pigliucci): From the archive
   https://figsinwintertime.substack.com/p/from-the-archive-d05
 
 [wisdom] Figs in Winter (Pigliucci): Physicalism and consciousness — part II
   https://figsinwintertime.substack.com/p/physicalism-and-consciousness-ii
 
-[wisdom] Figs in Winter (Pigliucci): Physicalism and consciousness — part I
-  https://figsinwintertime.substack.com/p/physicalism-and-consciousness-i
+[ideas] Paul Graham: The Brand Age
+  https://paulgraham.com/brandage.html
 
 [ai] Anthropic News: Higher usage limits for Claude and a compute deal with SpaceX
   https://www.anthropic.com/news/higher-limits-spacex
@@ -109,50 +112,44 @@
 [ai] Anthropic News: Building a new enterprise AI services company with Blackstone, Hellman & Friedman, and Goldman Sachs
   https://www.anthropic.com/news/enterprise-ai-services-company
 
-[health] Peter Attia: #391 ‒ Colorectal cancer screening: importance of early screening, colonoscopy as a screening and preventive tool, and how to build a personalized strategy
-  https://peterattiamd.com/colorectalcancerscreening/
+[bitcoin] The Pomp Letter: The Recession Is Cancelled As Capital Investments Drive Stocks Higher
+  https://pomp.substack.com/p/the-recession-is-cancelled-as-capital
 
-[health] Peter Attia: The dynamic physiology of the brain with menopause
-  https://peterattiamd.com/menopause-and-brain-function/
+[ai] Simon Willison: CSP Allow-list Experiment
+  https://simonwillison.net/2026/May/13/csp-allow/#atom-everything
 
-[ai] Simon Willison: Thoughts on GitLab's workforce reduction" and "structural and strategic decisions"
-  https://simonwillison.net/2026/May/11/gitlab-act-2/#atom-everything
+[ai] Simon Willison: datasette 1.0a29
+  https://simonwillison.net/2026/May/12/datasette/#atom-everything
 
-[ai] Simon Willison: Quoting James Shore
-  https://simonwillison.net/2026/May/11/james-shore/#atom-everything
+[ai] Simon Willison: Quoting Mo Bitar
+  https://simonwillison.net/2026/May/12/mo-bitar/#atom-everything
 
-[ai] Simon Willison: Your AI Use Is Breaking My Brain
-  https://simonwillison.net/2026/May/11/zombie-internet/#atom-everything
+[ai] Simon Willison: Quoting Mitchell Hashimoto
+  https://simonwillison.net/2026/May/12/mitchell-hashimoto/#atom-everything
 
-[ai] Simon Willison: Using LLM in the shebang line of a script
-  https://simonwillison.net/2026/May/11/llm-shebang/#atom-everything
+[ai] Simon Willison: llm 0.32a2
+  https://simonwillison.net/2026/May/12/llm/#atom-everything
 
-[ai] Simon Willison: Learning on the Shop floor
-  https://simonwillison.net/2026/May/11/learning-on-the-shop-floor/#atom-everything
+[ideas] Stratechery: SpaceX and Anthropic, xAI’s Two Companies, Elon Musk and SpaceXAI’s Future
+  https://stratechery.com/2026/spacex-and-anthropic-xais-two-companies-elon-musk-and-spacexais-future/
 
 [ideas] Stratechery: The Inference Shift
   https://stratechery.com/2026/the-inference-shift/
 
-[bitcoin] Bitcoin Magazine: Bitcoin Price Holds Near $82,000 as ETF Inflows Surge and CLARITY Act Battle Intensifies
-  https://bitcoinmagazine.com/markets/bitcoin-price-holds-near-82000
+[ai] OpenAI Blog: How finance teams use Codex
+  https://openai.com/academy/how-finance-teams-use-codex
 
-[bitcoin] Bitcoin Magazine: American Bankers Attempt Last Ditch Effort To Kill Crypto Market Structure Bill Regarding Stablecoins
-  https://bitcoinmagazine.com/news/american-bankers-effort-kill-crypto-bill
+[ai] OpenAI Blog: How NVIDIA engineers and researchers build with Codex
+  https://openai.com/index/nvidia
 
-[bitcoin] Bitcoin Magazine: Senate Schedules CLARITY Act Markup as Banking Lobby, Democrats Mount Resistance
-  https://bitcoinmagazine.com/news/senate-schedules-clarity-act-markup
+[ai] OpenAI Blog: What Parameter Golf taught us about AI-assisted research
+  https://openai.com/index/what-parameter-golf-taught-us
 
-[bitcoin] Bitcoin Magazine: Strategy (MSTR) Buys $43 Million More Bitcoin After Saylor Defends Potential BTC Sales
-  https://bitcoinmagazine.com/news/strategy-mstr-buys-43-million-more-bitcoin
+[ai] OpenAI Blog: AutoScout24 scales engineering with AI-powered workflows
+  https://openai.com/index/autoscout24
 
-[ideas] Astral Codex Ten: Open Thread 433
-  https://www.astralcodexten.com/p/open-thread-433
-
-[bitcoin] The Pomp Letter: The Recession Is Cancelled As Capital Investments Drive Stocks Higher
-  https://pomp.substack.com/p/the-recession-is-cancelled-as-capital
-
-[ideas] Paul Graham: The Brand Age
-  https://paulgraham.com/brandage.html
+[ai] OpenAI Blog: How ChatGPT adoption broadened in early 2026
+  https://openai.com/signals/research/2026q1-update
 
 [wisdom] Donald Robertson: Announcing: How to do Stoic Therapy
   https://donaldrobertson.substack.com/p/announcing-how-to-do-stoic-therapy
@@ -163,39 +160,53 @@
 [wisdom] Donald Robertson: Hand Gestures for Self-Improvement
   https://donaldrobertson.substack.com/p/hand-gestures-for-self-improvement
 
+[health] Peter Attia: #391 ‒ Colorectal cancer screening: importance of early screening, colonoscopy as a screening and preventive tool, and how to build a personalized strategy
+  https://peterattiamd.com/colorectalcancerscreening/
+
+[ideas] Astral Codex Ten: Open Thread 433
+  https://www.astralcodexten.com/p/open-thread-433
+
+[ideas] Marginal Revolution: Data centers are good
+  https://marginalrevolution.com/marginalrevolution/2026/05/data-centers-are-good.html?utm_source=rss&utm_medium=rss&utm_campaign=data-centers-are-good
+
+[ideas] Marginal Revolution: Hollis Robbins on AI and higher education
+  https://marginalrevolution.com/marginalrevolution/2026/05/hollis-robbins-on-ai-and-higher-education.html?utm_source=rss&utm_medium=rss&utm_campaign=hollis-robbins-on-ai-and-higher-education
+
+[ideas] Marginal Revolution: Tuesday assorted links
+  https://marginalrevolution.com/marginalrevolution/2026/05/tuesday-assorted-links-568.html?utm_source=rss&utm_medium=rss&utm_campaign=tuesday-assorted-links-568
+
+[ideas] Marginal Revolution: Ideas Behind Their Time: Part Two
+  https://marginalrevolution.com/marginalrevolution/2026/05/ideas-behind-their-time-2.html?utm_source=rss&utm_medium=rss&utm_campaign=ideas-behind-their-time-2
+
+[ideas] Marginal Revolution: Early evidence on school smartphone bans and mental health
+  https://marginalrevolution.com/marginalrevolution/2026/05/early-evidence-on-school-smartphone-bans-and-mental-health.html?utm_source=rss&utm_medium=rss&utm_campaign=early-evidence-on-school-smartphone-bans-and-mental-health
+
 [health] Stronger by Science: Hold Still: What Does the Evidence Actually Say About Isometric Training for Strength and Hypertrophy?
   https://www.strongerbyscience.com/isometric-training/
 
-[ai] OpenAI Blog: How ChatGPT adoption broadened in early 2026
-  https://openai.com/signals/research/2026q1-update
+[bitcoin] Bitcoin Magazine: What’s Really at Stake in the Market Structure Debate: The BRCA
+  https://bitcoinmagazine.com/legal/whats-really-at-stake-in-the-market-structure-debate-the-brca
 
-[ai] OpenAI Blog: How enterprises are scaling AI
-  https://openai.com/business/guides-and-resources/how-enterprises-are-scaling-ai
+[bitcoin] Bitcoin Magazine: Square Crosses 1 Million Bitcoin-Enabled Merchants as Real-World Adoption Continues to Grow
+  https://bitcoinmagazine.com/news/square-crosses-1-million-bitcoin-merchants
 
-[ai] OpenAI Blog: OpenAI Campus Network: Student club interest form
-  https://openai.com/index/openai-campus-network-student-club-interest-form
+[bitcoin] Bitcoin Magazine: Senate Confirms Bitcoin-Friendly Kevin Warsh to Fed Board, Clearing Path to Chairmanship
+  https://bitcoinmagazine.com/news/senate-confirms-bitcoin-kevin-warsh
 
-[ai] OpenAI Blog: OpenAI launches DeployCo to help businesses build around intelligence
-  https://openai.com/index/openai-launches-the-deployment-company
+[bitcoin] Bitcoin Magazine: MARA Dumps $1.5B in Bitcoin as Miner Trades Treasury Hoard for AI Power Bet
+  https://bitcoinmagazine.com/news/mara-dumps-1-5b-in-bitcoin
 
-[ideas] Marginal Revolution: Using agents to build economic datasets
-  https://marginalrevolution.com/marginalrevolution/2026/05/using-agents-to-build-economic-datasets.html?utm_source=rss&utm_medium=rss&utm_campaign=using-agents-to-build-economic-datasets
+[bitcoin] Bitcoin Magazine: Labor Unions Join Banking Industry in Opposition to Senate Crypto Bill, The Clarity Act
+  https://bitcoinmagazine.com/news/labor-unions-banking-industry-crypto-bill
 
-[ideas] Marginal Revolution: Why are stock prices still so high?
-  https://marginalrevolution.com/marginalrevolution/2026/05/why-are-stock-prices-still-so-high.html?utm_source=rss&utm_medium=rss&utm_campaign=why-are-stock-prices-still-so-high
+[bitcoin] Bitcoin Magazine: Senate Banking Committee Unveils 309-Page Crypto Market Structure Bill Before Thursday Markup
+  https://bitcoinmagazine.com/news/senate-banking-committee-unveils-309-bill
 
-[ideas] Marginal Revolution: Monday assorted links
-  https://marginalrevolution.com/marginalrevolution/2026/05/monday-assorted-links-559.html?utm_source=rss&utm_medium=rss&utm_campaign=monday-assorted-links-559
+[bitcoin] Bitcoin Magazine: Bitcoin Price Holds Near $82,000 as ETF Inflows Surge and CLARITY Act Battle Intensifies
+  https://bitcoinmagazine.com/markets/bitcoin-price-holds-near-82000
 
-[ideas] Marginal Revolution: Another use of AI in research (from my email)
-  https://marginalrevolution.com/marginalrevolution/2026/05/another-use-of-ai-in-research-from-my-email.html?utm_source=rss&utm_medium=rss&utm_campaign=another-use-of-ai-in-research-from-my-email
-
-[ideas] Marginal Revolution: The interstate trade effects of autonomous trucks
-  https://marginalrevolution.com/marginalrevolution/2026/05/the-interstate-trade-effects-of-autonomous-trucks.html?utm_source=rss&utm_medium=rss&utm_campaign=the-interstate-trade-effects-of-autonomous-trucks
+[bitcoin] Bitcoin Magazine: American Bankers Attempt Last Ditch Effort To Kill Crypto Market Structure Bill Regarding Stablecoins
+  https://bitcoinmagazine.com/news/american-bankers-effort-kill-crypto-bill
 
 
 === YOUTUBE ===
-Ben Felix: Using Your Money To Be Happier
-  https://www.youtube.com/watch?v=S9InNdQhFwc
-  Transcript: yes
-

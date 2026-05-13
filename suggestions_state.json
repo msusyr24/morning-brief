@@ -1,11 +1,11 @@
 {
   "current_suggestion": {
-    "channel_name": "Conor Neill",
-    "channel_id": "UCcZhBlipmIFlfZjt-Ji4Udg",
-    "youtube_handle": "@ConorNeill",
-    "pitch": "Your philosophy and mental-models interests are currently covered through long-form podcasts (Lex, Huberman, ModernWisdom), but Conor Neill works a different angle: he translates Stoic and classical rhetoric principles into frameworks for decision-making and leadership, drawing heavily on Seneca, Marcus Aurelius, and Munger-style thinking. His videos are short to mid-length solo talks, typically 5-15 minutes, which means high density of applicable mental models without the interview padding. He covers topics like emotional regulation, how to speak and think under pressure, and what ancient philosophy actually prescribes for modern choices \u2014 filling a gap between your Stoicism interest and your mental-strength interest that none of your current channels address directly."
+    "channel_name": "Rational Animations",
+    "channel_id": "UCgqt1RE0k0MIr0LoyJRy2lg",
+    "youtube_handle": "@RationalAnimations",
+    "pitch": "Your current roster is heavy on domain experts but light on rigorous epistemology \u2014 how to actually evaluate conflicting evidence, update beliefs, and reason under uncertainty. Rational Animations covers decision theory, philosophy of mind, forecasting, and effective reasoning using animated essays in the style of 3Blue1Brown applied to ideas rather than math. The depth is genuine \u2014 episodes engage seriously with Kahneman, Parfit, and LessWrong-style thinking without being cultish about it \u2014 and it complements your interest in mental models and Stoic philosophy by stress-testing the frameworks themselves."
   },
-  "shown_count": 3,
+  "shown_count": 1,
   "history": [
     "Brad Kearns",
     "Dr. Layne Norton",
@@ -19,6 +19,7 @@
     "Ben Felix",
     "Alan Thrall (Untamed Strength)",
     "Doug Polk Poker",
-    "Conor Neill"
+    "Conor Neill",
+    "Rational Animations"
   ]
 }
