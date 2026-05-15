@@ -1,96 +1,114 @@
 === HACKER NEWS ===
-1. [135 pts] Claude for Small Business
-   https://www.anthropic.com/news/claude-for-small-business
+1. [264 pts] Mullvad exit IPs are surprisingly identifying
+   https://tmctmt.com/posts/mullvad-exit-ips-as-a-fingerprinting-vector/
 
-2. [204 pts] Scorched Earth 2000 – Web
-   http://www.scorch2000.com/web/
+2. [109 pts] How Claude Code works in large codebases
+   https://claude.com/blog/how-claude-code-works-in-large-codebases-best-practices-and-where-to-start
 
-3. [643 pts] Linux gaming is faster because Windows APIs are becoming Linux kernel features
-   https://www.xda-developers.com/linux-gaming-is-getting-faster-because-windows-apis-are-becoming-linux-kernel-features/
+3. [13 pts] UK Government Kicks Out Palantir
+   https://shkspr.mobi/blog/2026/05/uk-government-kicks-out-palantir/
 
-4. [145 pts] Cisco workforce reductions
-   https://blogs.cisco.com/news/our-path-forward
+4. [762 pts] Removing the modem and GPS from my 2024 RAV4 hybrid
+   https://arkadiyt.com/2026/05/13/removing-the-modem-and-gps-from-my-rav4/
 
-5. [30 pts] Arena AI Model ELO History
-   https://mayerwin.github.io/AI-Arena-History/
+5. [87 pts] Access to frontier AI will soon be limited by economic and security constraints
+   https://writing.antonleicht.me/p/cut-off
 
-6. [544 pts] Setting up a free *.city.state.us locality domain (2025)
-   https://fredchan.org/blog/locality-domains-guide/
+6. [261 pts] A few words on DS4
+   https://antirez.com/news/165
 
-7. [339 pts] A History of IDEs at Google
-   https://laurent.le-brun.eu/blog/a-history-of-ides-at-google
+7. [47 pts] Details of the Daring Airdrop at Tristan Da Cunha
+   https://www.tristandc.com/government/news-2026-05-11-airdrop.php
 
-8. [172 pts] MacBook Neo Deep Dive: Benchmarks, Wafer Economics, and the 8GB Gamble
-   https://www.jdhodges.com/blog/macbook-neo-benchmarks-analysis/
+8. [14 pts] Solar-based sleep patterns compared to modern norms
+   https://dylan.gr/1775146616
 
-9. [263 pts] The Emacsification of Software
-   https://sockpuppet.org/blog/2026/05/12/emacsification/
+9. [328 pts] First public macOS kernel memory corruption exploit on Apple M5
+   https://blog.calif.io/p/first-public-kernel-memory-corruption
 
-10. [26 pts] Avoiding and reducing microplastic false positives from dry glove contact
-   https://pubs.rsc.org/en/content/articlelanding/2026/ay/d5ay01801c
+10. [59 pts] Gyroflow: Video stabilization using gyroscope data
+   https://github.com/gyroflow/gyroflow
 
-11. [138 pts] Chess puzzle I found in my dad's old book
-   https://ardoedo.it/kempelen/
+11. [550 pts] RTX 5090 and M4 MacBook Air: Can It Game?
+   https://scottjg.com/posts/2026-05-05-egpu-mac-gaming/
 
-12. [384 pts] Twin brothers wipe 96 government databases minutes after being fired
-   https://arstechnica.com/tech-policy/2026/05/drop-database-what-not-to-do-after-losing-an-it-job/
+12. [287 pts] Codex is now in the ChatGPT mobile app
+   https://openai.com/index/work-with-codex-from-anywhere/
 
-13. [30 pts] Show HN: Nibble
-   https://github.com/glouw/nibble
+13. [346 pts] New Nginx Exploit
+   https://github.com/DepthFirstDisclosures/Nginx-Rift
 
-14. [104 pts] Microsoft BitLocker – YellowKey zero-day exploit
-   https://www.tomshardware.com/tech-industry/cyber-security/microsoft-bitlocker-protected-drives-can-now-be-opened-with-just-some-files-on-a-usb-stick-yellowkey-zero-day-exploit-demonstrates-an-apparent-backdoor
+14. [87 pts] Tesla Wall Connector bootloader bypasses the firmware downgrade ratchet
+   https://www.synacktiv.com/en/publications/exploiting-the-tesla-wall-connector-from-its-charge-port-connector-part-2-bypassing
 
-15. [28 pts] delta time
-   https://www.deltatime.life/
+15. [7 pts] Coldkey – Post-quantum age key generation and paper backup tool
+   https://github.com/pike00/coldkey
 
-16. [6 pts] Extraordinary Ordinals
-   https://text.marvinborner.de/2026-04-09-17.html
+16. [109 pts] RISC-V Router
+   https://router.start9.com/
 
-17. [7 pts] 'A Four-Eyed World' Review: The Story of Spectacles
-   https://www.wsj.com/arts-culture/books/a-four-eyed-world-review-the-story-of-spectacles-504334ac
+17. [22 pts] reCAPTCHA Mobile Verification Is Bringing the Play Integrity API to Desktops
+   https://discuss.grapheneos.org/d/35428-recaptcha-mobile-verification-is-bringing-the-play-integrity-api-to-desktops
 
-18. [303 pts] Princeton mandates proctoring for in-person exams, upending 133 year precedent
-   https://www.dailyprincetonian.com/article/2026/05/princeton-news-adpol-proctoring-in-person-examinations-passed-faculty-133-years-precedent
+18. [593 pts] Rewrite Bun in Rust has been merged
+   https://github.com/oven-sh/bun/pull/30412
 
-19. [187 pts] The US is winning the AI race where it matters most: commercialization
-   https://avkcode.github.io/blog/us-winning-ai-race.html
+19. [66 pts] OVMS: Open source electric vehicle remote monitoring, diagnosis and control
+   https://www.openvehicles.com/home
 
-20. [174 pts] Xs of Y – roguelike that names itself every run. Written in 4kLoC
-   https://github.com/nooga/xsofy
+20. [174 pts] More than sixty percent of the United States is experiencing drought conditions
+   https://news.vt.edu/articles/2026/05/drought-united-states-la-nina-expert.html
 
-21. [81 pts] Launch HN: Ardent (YC P26) – Postgres sandboxes in seconds with zero migration
-   https://www.tryardent.com/
+21. [170 pts] HDD Firmware Hacking
+   https://icode4.coffee/?p=1465
 
-22. [11 pts] Golden Testing a CAD Library
-   https://doscienceto.it/blog/posts/2026-04-27-golden-testing-cad.html
+22. [108 pts] Porting 3D Movie Maker to Linux
+   https://benstoneonline.com/posts/porting-3d-movie-maker-to-linux/
 
-23. [86 pts] Heritability of human life span is ~50% when heritability is redefined
-   https://dynomight.net/lifespan/
+23. [57 pts] LLM Policy for Rust Compiler
+   https://github.com/rust-lang/rust-forge/pull/1040
 
-24. [82 pts] How can Apple deal with the memory shortage?
-   https://asymco.com/2026/05/11/the-great-memory-panic-of-2026/
+24. [1 pts] Infracost (YC W21) Is Hiring Sr Dev Advocate to make agents cloud cost-aware
+   https://www.ycombinator.com/companies/infracost/jobs/NzwUQ7c-senior-developer-advocate
 
-25. [662 pts] Show HN: Needle: We Distilled Gemini Tool Calling into a 26M Model
-   https://github.com/cactus-compute/needle
+25. [449 pts] New arXiv policy: 1-year ban for hallucinated references
+   https://twitter.com/tdietterich/status/2055000956144935055
 
-26. [216 pts] Reverting the incremental GC in Python 3.14 and 3.15
-   https://discuss.python.org/t/reverting-the-incremental-gc-in-python-3-14-and-3-15/107014
+26. [125 pts] What's in a GGUF, besides the weights – and what's still missing?
+   https://nobodywho.ooo/posts/whats-in-a-gguf/
 
-27. [55 pts] Marco Polo: Finding a friend with only distance and motion
-   https://www.jackhogan.me/blog/marco-polo
+27. [193 pts] Ontario auditors find doctors' AI note takers routinely blow basic facts
+   https://www.theregister.com/ai-ml/2026/05/14/ontario-auditors-find-doctors-ai-note-takers-routinely-blow-basic-facts/5240771
 
-28. [114 pts] S-100 Virtual Workbench
-   https://grantmestrength.github.io/S100/
+28. [20 pts] UFerris a Versatile Learner Board for Rust Embedded Beginners
+   https://www.theembeddedrustacean.com/uferris
 
-29. [65 pts] The other half of AI safety
-   https://personalaisafety.com/p/the-other-half-of-ai-safety
+29. [91 pts] The Power of a Free Popsicle (2018)
+   https://www.gsb.stanford.edu/insights/power-free-popsicle
 
-30. [106 pts] Mystery Microsoft bug leaker keeps the zero-days coming
-   https://www.theregister.com/security/2026/05/13/disgruntled-researcher-releases-two-more-microsoft-zero-days/5239758
+30. [41 pts] Show HN: GridTravel- A community based travel app for users to share routes
+   https://www.gridtravel.app
 
 
 === RSS ===
+[ai] Simon Willison: Not so locked in any more
+  https://simonwillison.net/2026/May/14/not-so-locked-in/#atom-everything
+
+[ai] Simon Willison: Quoting Mitchell Hashimoto
+  https://simonwillison.net/2026/May/14/mitchell-hashimoto/#atom-everything
+
+[ai] Simon Willison: datasette-ip-rate-limit 0.1a0
+  https://simonwillison.net/2026/May/14/datasette-ip-rate-limit/#atom-everything
+
+[ai] Simon Willison: Welcome to the Datasette blog
+  https://simonwillison.net/2026/May/13/welcome-to-the-datasette-blog/#atom-everything
+
+[ai] Simon Willison: Quoting Boris Mann
+  https://simonwillison.net/2026/May/13/boris-mann/#atom-everything
+
+[ai] Anthropic News: Anthropic forms $200 million partnership with the Gates Foundation
+  https://www.anthropic.com/news/gates-foundation-partnership
+
 [ai] Anthropic News: Introducing Claude for Small Business
   https://www.anthropic.com/news/claude-for-small-business
 
@@ -103,14 +121,17 @@
 [ai] Anthropic News: Building a new enterprise AI services company with Blackstone, Hellman & Friedman, and Goldman Sachs
   https://www.anthropic.com/news/enterprise-ai-services-company
 
+[ideas] Stratechery: An Interview with Ben Thompson at the MoffettNathanson Media, Internet & Communications Conference
+  https://stratechery.com/2026/an-interview-with-ben-thompson-at-the-moffettnathanson-media-internet-communications-conference/
+
 [ideas] Stratechery: The Deployment Company, Back to the 70s, Apple and Intel
   https://stratechery.com/2026/the-deployment-company-back-to-the-70s-apple-and-intel/
 
 [ideas] Stratechery: SpaceX and Anthropic, xAI’s Two Companies, Elon Musk and SpaceXAI’s Future
   https://stratechery.com/2026/spacex-and-anthropic-xais-two-companies-elon-musk-and-spacexais-future/
 
-[ideas] Stratechery: The Inference Shift
-  https://stratechery.com/2026/the-inference-shift/
+[wisdom] Figs in Winter (Pigliucci): Where did the Stoic God come from?
+  https://figsinwintertime.substack.com/p/where-did-the-stoic-god-come-from
 
 [wisdom] Figs in Winter (Pigliucci): Eugenics: bad science, bad ethics, or both?
   https://figsinwintertime.substack.com/p/eugenics-bad-science-bad-ethics-or
@@ -118,11 +139,56 @@
 [wisdom] Figs in Winter (Pigliucci): From the archive
   https://figsinwintertime.substack.com/p/from-the-archive-d05
 
-[wisdom] Figs in Winter (Pigliucci): Physicalism and consciousness — part II
-  https://figsinwintertime.substack.com/p/physicalism-and-consciousness-ii
+[wisdom] Farnam Street: [Outliers] Chung Ju-yung: The Hyundai Founder Who Put a Country on His Back
+  https://fs.blog/knowledge-project-podcast/outliers-chung-ju-yung/
+
+[bitcoin] Bitcoin Magazine: Onramp Raises $12.5M Series A to Scale Multi-Institution Bitcoin Custody Platform
+  https://bitcoinmagazine.com/news/onramp-raises-12-5m-series-a
+
+[bitcoin] Bitcoin Magazine: Bitcoin Price Surges 3% Past $82K as Senate Advances Clarity Act, STRC and SATA Fuel Bitcoin Credit Boom
+  https://bitcoinmagazine.com/news/bitcoin-price-surges-3-past-82k
+
+[bitcoin] Bitcoin Magazine: Bukele’s Futuristic BINAES Library Blends Books, Bitcoin, and Family Play in Revitalized Capital
+  https://bitcoinmagazine.com/culture/bukeles-futuristic-binaes-library-blends-books-bitcoin-and-family-play-in-revitalized-capital
+
+[bitcoin] Bitcoin Magazine: Senate Banking Committee Advances Clarity Act, Two Democrats Break Ranks in 15-9 Vote
+  https://bitcoinmagazine.com/news/senate-committee-advances-clarity-act
+
+[bitcoin] Bitcoin Magazine: Senate Banking Committee Opens Historic Crypto Bill Markup as Warren, Republicans Clash Over CLARITY Act Amendments
+  https://bitcoinmagazine.com/news/senate-banking-committee-crypto-bill
+
+[bitcoin] Bitcoin Magazine: Strive’s SATA Sets U.S. First With Daily 13% Bitcoin-Backed Dividend Preferred
+  https://bitcoinmagazine.com/news/strive-bitcoin-backed-dividend-preferred
+
+[bitcoin] Bitcoin Magazine: Ledger, Consensys Get Cold Feet as Crypto IPO Window Slams Shut
+  https://bitcoinmagazine.com/news/ledger-consensys-get-cold-feet-as-crypto
+
+[bitcoin] Bitcoin Magazine: Senate Confirms Bitcoin Friendly Kevin Warsh As Fed Chair Ahead of Clarity Act Vote
+  https://bitcoinmagazine.com/news/senate-confirms-bitcoin-friendly-warsh
+
+[bitcoin] The Pomp Letter: This AI Product Is Helping Investors Make Money
+  https://pomp.substack.com/p/this-ai-product-is-helping-investors
 
 [ideas] Paul Graham: The Brand Age
   https://paulgraham.com/brandage.html
+
+[ideas] Marginal Revolution: One way to benefit adolescents
+  https://marginalrevolution.com/marginalrevolution/2026/05/one-way-to-benefit-adolescents.html?utm_source=rss&utm_medium=rss&utm_campaign=one-way-to-benefit-adolescents
+
+[ideas] Marginal Revolution: Meta-papers in science (from my email)
+  https://marginalrevolution.com/marginalrevolution/2026/05/meta-papers-in-science-from-my-email.html?utm_source=rss&utm_medium=rss&utm_campaign=meta-papers-in-science-from-my-email
+
+[ideas] Marginal Revolution: MIT fact of the day
+  https://marginalrevolution.com/marginalrevolution/2026/05/mit-fact-of-the-day.html?utm_source=rss&utm_medium=rss&utm_campaign=mit-fact-of-the-day
+
+[ideas] Marginal Revolution: Thursday assorted links
+  https://marginalrevolution.com/marginalrevolution/2026/05/thursday-assorted-links-552.html?utm_source=rss&utm_medium=rss&utm_campaign=thursday-assorted-links-552
+
+[ideas] Marginal Revolution: How Much Has Shale Gas Saved U.S. Consumers?
+  https://marginalrevolution.com/marginalrevolution/2026/05/fracking-for-the-win.html?utm_source=rss&utm_medium=rss&utm_campaign=fracking-for-the-win
+
+[health] Stronger by Science: Hold Still: What Does the Evidence Actually Say About Isometric Training for Strength and Hypertrophy?
+  https://www.strongerbyscience.com/isometric-training/
 
 [wisdom] Donald Robertson: Announcing: How to do Stoic Therapy
   https://donaldrobertson.substack.com/p/announcing-how-to-do-stoic-therapy
@@ -133,44 +199,20 @@
 [wisdom] Donald Robertson: Hand Gestures for Self-Improvement
   https://donaldrobertson.substack.com/p/hand-gestures-for-self-improvement
 
-[ideas] Marginal Revolution: My excellent Conversation with Bob Spitz
-  https://marginalrevolution.com/marginalrevolution/2026/05/my-excellent-conversation-with-bob-spitz.html?utm_source=rss&utm_medium=rss&utm_campaign=my-excellent-conversation-with-bob-spitz
-
-[ideas] Marginal Revolution: Xavier, Nick, and Tristan podcast with me
-  https://marginalrevolution.com/marginalrevolution/2026/05/xavier-nick-and-tristan-podcast-with-me.html?utm_source=rss&utm_medium=rss&utm_campaign=xavier-nick-and-tristan-podcast-with-me
-
-[ideas] Marginal Revolution: Wednesday assorted links
-  https://marginalrevolution.com/marginalrevolution/2026/05/wednesday-assorted-links-553.html?utm_source=rss&utm_medium=rss&utm_campaign=wednesday-assorted-links-553
-
-[ideas] Marginal Revolution: Some non-obvious reasons why AI will create some transitional problems in employment
-  https://marginalrevolution.com/marginalrevolution/2026/05/some-non-obvious-reasons-why-ai-will-create-some-transitional-problems-in-employment.html?utm_source=rss&utm_medium=rss&utm_campaign=some-non-obvious-reasons-why-ai-will-create-some-transitional-problems-in-employment
-
-[ideas] Marginal Revolution: Data centers are good
-  https://marginalrevolution.com/marginalrevolution/2026/05/data-centers-are-good.html?utm_source=rss&utm_medium=rss&utm_campaign=data-centers-are-good
-
 [ideas] Astral Codex Ten: Every Magazine Piece On The SF AI Scene
   https://www.astralcodexten.com/p/every-magazine-piece-on-the-sf-ai
 
 [ideas] Astral Codex Ten: Nostalgebraist's Hydrogen Jukeboxes
   https://www.astralcodexten.com/p/nostalgebraists-hydrogen-jukeboxes
 
-[ideas] Astral Codex Ten: Open Thread 433
-  https://www.astralcodexten.com/p/open-thread-433
+[ai] OpenAI Blog: Sea's View on the Future of Agentic Software Development with Codex
+  https://openai.com/index/sea-david-chen
 
-[ai] Simon Willison: Welcome to the Datasette blog
-  https://simonwillison.net/2026/May/13/welcome-to-the-datasette-blog/#atom-everything
+[ai] OpenAI Blog: Work with Codex from anywhere
+  https://openai.com/index/work-with-codex-from-anywhere
 
-[ai] Simon Willison: Quoting Boris Mann
-  https://simonwillison.net/2026/May/13/boris-mann/#atom-everything
-
-[ai] Simon Willison: CSP Allow-list Experiment
-  https://simonwillison.net/2026/May/13/csp-allow/#atom-everything
-
-[ai] Simon Willison: datasette 1.0a29
-  https://simonwillison.net/2026/May/12/datasette/#atom-everything
-
-[ai] Simon Willison: Quoting Mo Bitar
-  https://simonwillison.net/2026/May/12/mo-bitar/#atom-everything
+[ai] OpenAI Blog: Helping ChatGPT better recognize context in sensitive conversations
+  https://openai.com/index/chatgpt-recognize-context-in-sensitive-conversations
 
 [ai] OpenAI Blog: Building a safe, effective sandbox to enable Codex on Windows
   https://openai.com/index/building-codex-windows-sandbox
@@ -178,52 +220,54 @@
 [ai] OpenAI Blog: Our response to the TanStack npm supply chain attack
   https://openai.com/index/our-response-to-the-tanstack-npm-supply-chain-attack
 
-[ai] OpenAI Blog: How finance teams use Codex
-  https://openai.com/academy/how-finance-teams-use-codex
-
-[ai] OpenAI Blog: What Parameter Golf taught us about AI-assisted research
-  https://openai.com/index/what-parameter-golf-taught-us
-
-[ai] OpenAI Blog: AutoScout24 scales engineering with AI-powered workflows
-  https://openai.com/index/autoscout24
-
-[bitcoin] The Pomp Letter: This AI Product Is Helping Investors Make Money
-  https://pomp.substack.com/p/this-ai-product-is-helping-investors
-
-[bitcoin] The Pomp Letter: The Recession Is Cancelled As Capital Investments Drive Stocks Higher
-  https://pomp.substack.com/p/the-recession-is-cancelled-as-capital
-
-[bitcoin] Bitcoin Magazine: Senate Confirms Bitcoin Friendly Kevin Warsh As Fed Chair Ahead of Clarity Act Vote
-  https://bitcoinmagazine.com/news/senate-confirms-bitcoin-friendly-warsh
-
-[bitcoin] Bitcoin Magazine: Coinbase CEO Says Crypto Bill Could Rewire American Finance — Senate Votes Thursday
-  https://bitcoinmagazine.com/news/coinbase-ceo-says-crypto-bill-could
-
-[bitcoin] Bitcoin Magazine: Bitcoin Suisse Secures Bermuda Regulatory Approvals for International Digital Asset Expansion
-  https://bitcoinmagazine.com/news/bitcoin-suisse-secures-bermuda-regulatory
-
-[bitcoin] Bitcoin Magazine: The 2036 Issue: Letter From The Editor
-  https://bitcoinmagazine.com/print/the-2036-issue-letter-from-the-editor
-
-[bitcoin] Bitcoin Magazine: Senate Crypto Bill Faces Over 100 Amendments Ahead of Thursday Markup
-  https://bitcoinmagazine.com/news/senate-crypto-bill-faces-100-amendments
-
-[bitcoin] Bitcoin Magazine: Blockaid Launches Real-Time Compliance Suite as Institutions Deepen Crypto Exposure
-  https://bitcoinmagazine.com/news/blockaid-launches-compliance-suite-crypto
-
-[bitcoin] Bitcoin Magazine: $11.77 Trillion Brokerage Giant Charles Schwab Launches Spot Bitcoin Trading Platform
-  https://bitcoinmagazine.com/news/charles-schwab-launches-spot-bitcoin
-
-[bitcoin] Bitcoin Magazine: What’s Really at Stake in the Market Structure Debate: The BRCA
-  https://bitcoinmagazine.com/legal/whats-really-at-stake-in-the-market-structure-debate-the-brca
-
-[health] Stronger by Science: Hold Still: What Does the Evidence Actually Say About Isometric Training for Strength and Hypertrophy?
-  https://www.strongerbyscience.com/isometric-training/
-
 
 === YOUTUBE ===
-Lex Fridman: FFmpeg: The Incredible Technology Behind Video on the Internet | Lex Fridman Podcast #496
-  https://www.youtube.com/watch?v=nepKKz-MzFM
+Ken Berry MD: Why Community is EVERYTHING! with Courtney Luna
+  https://www.youtube.com/watch?v=zMdlb8VMFBE
+  Transcript: NO
+
+Ken Berry MD: Your body requires protein.Your body requires fat. But carbohydrates? No
+  https://www.youtube.com/shorts/bEViBkep928
+  Transcript: yes
+
+Ken Berry MD: Not only can you survive… many people feel their best when they eat an all meat diet.
+  https://www.youtube.com/shorts/J9cUR1HIdTY
+  Transcript: yes
+
+Ken Berry MD: What if the baseline human diet is actually much simpler than we’ve been told?
+  https://www.youtube.com/shorts/EyC87OC96lM
+  Transcript: NO
+
+Nick Norwitz: The Mitochondrial Hormone Everyone’s Talking About (MOTS-c)
+  https://www.youtube.com/shorts/RWn9EfxzMPg
+  Transcript: yes
+
+Nick Norwitz: How to Lose Visceral Fat in 8 Weeks (Proven in RCTs)
+  https://www.youtube.com/watch?v=wnEApLnKDRI
+  Transcript: yes
+
+Nick Norwitz: The Sardine Diet Gave Me A Superpower ⁠
+  https://www.youtube.com/shorts/2OMgwMJXcjE
+  Transcript: yes
+
+Nick Norwitz: This Tiny Peptide Might 2X REM Sleep!
+  https://www.youtube.com/shorts/y-Up7NCphxY
+  Transcript: yes
+
+Nick Norwitz: The Sardine Diet Gave Me a Superpower (And a Very Unfortunate Side Effect)
+  https://www.youtube.com/watch?v=0a7q8ENyBOk
+  Transcript: yes
+
+Jared Alderman: The Simple Things That Cost Players BIG In Live Poker
+  https://www.youtube.com/watch?v=BGVkY_hI0qE
+  Transcript: yes
+
+Jared Alderman: He Says Mental Game is Overrated?!
+  https://www.youtube.com/watch?v=4-SsukyxhKY
+  Transcript: yes
+
+Dr. Sten Ekberg: #1 Absolute Best Way To Prevent Colon Cancer
+  https://www.youtube.com/watch?v=C7CKRkAIs3A
   Transcript: yes
 
 Ben Felix: Using Your Money To Be Happier
