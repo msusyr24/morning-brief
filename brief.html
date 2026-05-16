@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>Morning Brief — Friday, May 15, 2026</title>
+<title>Morning Brief — Saturday, May 16, 2026</title>
 <style>
   body {
     font-family: Georgia, serif;
@@ -92,52 +92,91 @@
 })();
 </script>
 <h1>Morning Brief</h1>
-<p class="date">Friday, May 15, 2026</p>
+<p class="date">Saturday, May 16, 2026</p>
 
 <div class="anchor">
   <h2>☀️ Today's Anchor</h2>
   <div class="anchor-block">
-    <p class="quote">"It is during our darkest moments that we must focus to see the light."</p>
-    <p class="author">— Aristotle (attribution disputed)</p>
-    <p class="context">Commonly attributed to Aristotle; no primary source exists. Likely a 20th-century coinage.</p>
+    <p class="quote">"Life can only be understood backwards; but it must be lived forwards."</p>
+    <p class="author">— Søren Kierkegaard</p>
+    <p class="context">From his journals, 1843. Kierkegaard's observation about the asymmetry between experience and reflection.</p>
   </div>
   <div class="anchor-block">
     <p class="model-label">Mental Model · Psychology</p>
-    <p class="model-name">Deprival Super-Reaction</p>
-    <p class="context">Losing $100 feels worse than finding $100 feels good — by about 2x, per Kahneman's research. Munger calls this 'deprival super-reaction.' It explains stock-market panics, breakup grief, and why people fight harder to keep what they have than to acquire what they don't. Knowing this, you can price losses more rationally.</p>
+    <p class="model-name">Authority-Misinfluence Tendency</p>
+    <p class="context">We defer to perceived authority, often past the point of sense. Milgram's experiments: subjects delivered 'lethal' shocks because a lab coat said to. Real-world: pilots crashing planes because captains made errors first-officers wouldn't challenge. Defense: evaluate the claim, not the credential.</p>
   </div>
 </div>
 
 <div class="spotlight">
   <h2>🧭 Channel Spotlight</h2>
-  <p class="spotlight-name">Rational Animations</p>
-  <p class="spotlight-pitch">Your current roster is heavy on domain experts but light on rigorous epistemology — how to actually evaluate conflicting evidence, update beliefs, and reason under uncertainty. Rational Animations covers decision theory, philosophy of mind, forecasting, and effective reasoning using animated essays in the style of 3Blue1Brown applied to ideas rather than math. The depth is genuine — episodes engage seriously with Kahneman, Parfit, and LessWrong-style thinking without being cultish about it — and it complements your interest in mental models and Stoic philosophy by stress-testing the frameworks themselves.</p>
+  <p class="spotlight-name">Thinking Basketball</p>
+  <p class="spotlight-pitch">Your NBA interest is currently unserved by dedicated analytical content — Thinking Basketball fills that gap with rigorous, film-based breakdowns of basketball strategy, player evaluation, and historical context that goes well beyond surface-level takes. Ben Taylor applies a data-literate, first-principles lens to questions like how to evaluate player impact or why certain systems work, which aligns with your mental models and evidence-based thinking interests. Format is a mix of solo essays and documentary-style deep dives, typically 15–40 minutes, with a notably low hot-take-to-substance ratio.</p>
   <p class="spotlight-instructions">Interested? Copy the line below into <code>YOUTUBE_CHANNELS</code> in <code>brief.py</code> and save:</p>
-  <pre class="spotlight-snippet" id="snippet">    "Rational Animations": "UCgqt1RE0k0MIr0LoyJRy2lg",</pre>
+  <pre class="spotlight-snippet" id="snippet">    "Thinking Basketball": "UC3HPbvB6f58X_7SMIp6OPYw",</pre>
   <button class="copy-btn" onclick="navigator.clipboard.writeText(document.getElementById('snippet').innerText.trim()); this.innerText='✅ Copied'; setTimeout(()=>this.innerText='📋 Copy snippet', 2000);">📋 Copy snippet</button>
-  <p class="spotlight-meta">showing for 1 more day. If you don't add it, a new channel will be suggested.</p>
+  <p class="spotlight-meta">showing for 3 more days. If you don't add it, a new channel will be suggested.</p>
 </div>
 <h2>🎥 From People I Follow</h2>
 
 <p><strong>Worth your time:</strong></p>
 
 <div class="story">
-  <h3>Nick Norwitz</h3>
-  <p>Two substantial pieces this cycle. First: a deep dive on resistant starch (specifically type 2, high-amylose, 40g/day) showing in a double-blind RCT published in <em>Nature Metabolism</em> that 8 weeks of supplementation reduced visceral fat (confirmed by MRI), body weight, liver fat, and improved insulin sensitivity — independent of caloric intake. The mechanism runs through the gut microbiome: resistant starch fermented by bacteria reshapes microbial populations, which then alter hormone signaling and increase fecal fat excretion. Critically, a follow-up in <em>Cell Metabolism</em> (2025) found ~30% of people are low responders, predicted by baseline microbiome — specifically, high <em>Prevotella</em> suppresses response while <em>Bifidobacterium</em> species enhance it. Second: a self-experiment eating 1,000 sardines in a month revealed cold resistance he attributes to omega-3s converting to the hormone 12-HEPE, which activates brown fat thermogenesis — and the receptor for that hormone (OLFR110) turns out to be a repurposed smell receptor expressed in liver, fat, and brain, which may explain why the stink and the superpower are biologically linked. He also flagged MOTS-c (a mitochondrial hormone from a recently discovered second genome encoded in mitochondrial DNA) showing fat loss, increased energy expenditure, and longevity effects in animal models, with humans now self-experimenting via injection.</p>
-  <p class="meta">Videos: <a href="https://www.youtube.com/watch?v=wnEApLnKDRI">How to Lose Visceral Fat in 8 Weeks (Proven in RCTs)</a> · <a href="https://www.youtube.com/watch?v=0a7q8ENyBOk">The Sardine Diet Gave Me a Superpower</a> · <a href="https://www.youtube.com/shorts/RWn9EfxzMPg">MOTS-c: The Mitochondrial Hormone</a> · <a href="https://www.youtube.com/shorts/2OMgwMJXcjE">The Sardine Superpower Short</a></p>
+  <h3>GTO Wizard</h3>
+  <p>GTO Wizard launched full PLO (Pot Limit Omaha) solver coverage — every flop, turn, and river, with customizable post-flop sizings and ranges, solved in seconds. The demo walkthrough is genuinely instructive: it shows how the equity distribution graph flips on an ace-high board when the ace pairs on the turn (because the BB's range is full of boats), how to use the search-bar filter to isolate hands by suit/rank combos and conditional operators, and why EV difference filtering in practice mode helps you identify "pure" spots to build strategy brick-by-brick before tackling mixed nodes. The trainer includes texture and hand filters so you can drill specific spots — e.g., "nut flush draw as OOP pre-flop caller" — rather than random hands.</p>
+  <p class="meta">Videos: <a href="https://www.youtube.com/watch?v=4xPYNQgGGQI">Introducing PLO in GTO Wizard</a> · <a href="https://www.youtube.com/shorts/ICKfPk65Di4">This Changes PLO Forever</a></p>
 </div>
 
 <div class="story">
-  <h3>Jared Alderman</h3>
-  <p>Two conversation-style episodes with real substance. In the first, a guest (Mark, a 48-year-old live poker player who looks decade younger) describes how solver study actively cost him money — he was using solvers to spot-check individual hands in isolation while playing against opponents who hadn't 3-bet in an hour, mechanically applying GTO balance against population-level exploits, and ran bad as a result. The implicit lesson: solver work without population-read context is a leak disguised as study. In the second episode, Jared debates whether mental game is overrated for most players. His position: mental game coaching is the 8th most important thing for a break-even or losing player — not because it's unimportant, but because players use it as a shiny object to avoid the harder work of figuring out if they're value betting or bluffing. His guest (a performance coach) pushes back thoughtfully: if a player with significant volume still can't execute what they know, that IS a mental game problem — something is making putting money in feel attractive in the wrong spots, and the fix is emotional, not just strategic. They converge: mental game matters enormously for elite players, but the feedback loop of real performance work is not dopamine-rewarding in the short term, which is why people reach for it and drop it.</p>
-  <p class="meta">Videos: <a href="https://www.youtube.com/watch?v=BGVkY_hI0qE">The Simple Things That Cost Players BIG In Live Poker</a> · <a href="https://www.youtube.com/watch?v=4-SsukyxhKY">He Says Mental Game is Overrated?!</a></p>
+  <h3>GTO Lab</h3>
+  <p>A few short clips on the mental/study side of poker: one player reflects that he used to think "representing equilibrium all the time" was strength, but now accepts that emotions exist and the skill is in containing their negative impact on others rather than suppressing them. Separate clips show GTO Lab's compare-strats feature (chip EV vs. ICM side-by-side) and the preflop bubble ICM trainer in practice mode. Jared Alderman's interview with a live-game player (Mark) is the most substantive: Mark says he lost a lot of money in the solver era because he was spot-checking individual hands ("did I play AQo with the Qc correctly?") instead of building heuristics, and his exploitative, creative approach at live games has served him better than pure GTO study.</p>
+  <p class="meta">Videos: <a href="https://www.youtube.com/shorts/cc1ScprpwtA">Embracing Emotions</a> · <a href="https://www.youtube.com/shorts/XrExtvF4iYI">GTO Lab Features</a> · <a href="https://www.youtube.com/watch?v=BGVkY_hI0qE">Simple Things That Cost Players Big</a></p>
+</div>
+
+<div class="story">
+  <h3>Renaissance Periodization (Dr. Mike)</h3>
+  <p>Dr. Mike covered four mandatory back exercise categories for complete development: (1) straight-arm pulls (lat isolation — cable prayers, pullovers), (2) vertical pulls (pulldowns/pullups — lat focused), (3) rows (mid-back thickness — rhomboids, traps), (4) spinal erector/trap work (deadlifts, good mornings, flexion rows). The key programming point: you don't need all four every week, but you need to cycle through them periodically — and you should always be hitting at least one from the lat-dominant group and one from the thickness group. Separately, an 11-sign checklist for whether you're training close enough to failure: key indicators include reps slowing down, weights feeling heavier late in the set, metabolite burn on sets over 10 reps, measurable rep drops between sets, and systemic fatigue post-workout. He also notes collagen/gelatin don't count 1:1 toward serious protein targets due to poor amino acid profiles for MPS.</p>
+  <p class="meta">Videos: <a href="https://www.youtube.com/watch?v=Ud-BuDzBymI">4 Back Movements</a> · <a href="https://www.youtube.com/watch?v=PgG_qyZmF5M">11 Signs Your Workouts Aren't Hard Enough</a> · <a href="https://www.youtube.com/shorts/vDd9YNNT4vM">Collagen ≠ Muscle Protein</a></p>
+</div>
+
+<div class="story">
+  <h3>Dr. Sten Ekberg</h3>
+  <p>Solid mechanistic walkthrough of post-50 visceral fat accumulation. In men, declining testosterone (1%/year after 30) reduces muscle mass and allows more visceral fat, which then upregulates aromatase — converting remaining testosterone to estrogen, worsening the ratio further and reducing the cortisol buffer. In women, menopause causes rapid estrogen loss, shifting fat deposition from gynoid (hips/thighs — benign) to android (belly — inflammatory). Both sexes converge on the same visceral fat → insulin resistance → inflammatory cytokine loop. His five practical interventions: cut refined carbs/sugar (lowers insulin), eat 2-3 meals in a shorter window (no snacking), resistance training for glucose uptake without insulin, zone-2 aerobic work (not "huff and puff" cardio, which raises cortisol), and crucially — the real issue post-50 is that you've lost tolerance for the unnatural lifestyle you got away with younger.</p>
+  <p class="meta">Video: <a href="https://www.youtube.com/watch?v=xivHL3Eo4oc">Why Belly Fat Changes After 50</a></p>
+</div>
+
+<div class="story">
+  <h3>Thomas DeLauer</h3>
+  <p>Heavy week of content with several substantive mechanisms. On <strong>resistant starch</strong>: the key variable is amylose content (linear, tightly packed) vs. amylopectin (branched, easily digested) — long-grain/basmati rice and regular potatoes are higher in amylose and thus more resistant; cooking and then cooling (retrograding) increases resistant starch further, changing crystalline structure so enzymes can't break it down as efficiently. The colon ferments resistant starch into butyrate, which is the primary fuel for colonocytes and has anti-inflammatory effects downstream. 15-30g/day improved insulin sensitivity in a Journal of Nutrition study in 4 weeks. On <strong>FGF-21</strong>: this "cellular stress messenger" drives fat burning during fasting/exercise but chronic activation leads to FGF-21 resistance — the metabolic equivalent of the firefighters getting exhausted. Implication: short, high-intensity workouts (15-20 min) with proper recovery outperform long chronic cardio for metabolically unhealthy people. On <strong>cortisol activation vs. production</strong>: the enzyme 11β-HSD converts inactive cortisone to active cortisol inside fat and liver tissue, independent of blood cortisol levels — explaining why some people have normal cortisol labs but still accumulate visceral fat. Dark chocolate (25g/day, 4 weeks) reduced cortisol-to-cortisone ratio in one study by inhibiting this enzyme via epicatechins; optimal timing is early-to-mid afternoon. On <strong>eggs and Alzheimer's</strong>: a 7-year study of 1,024 people found just 1 egg/week associated with 47% lower Alzheimer's risk; autopsy analysis showed 49% lower amyloid/tau pathology odds. Choline (precursor to acetylcholine, the memory neurotransmitter) explained 39% of the effect; lutein and zeaxanthin provided antioxidant protection to microglia; and egg consumers also showed improved insulin sensitivity, directly relevant to the "Type 3 diabetes" model of Alzheimer's.</p>
+  <p class="meta">Videos: <a href="https://www.youtube.com/watch?v=7fEZNUkCSiM">Resistant Starch</a> · <a href="https://www.youtube.com/watch?v=A4_R3gARd_U">Visceral Fat & Nervous System</a> · <a href="https://www.youtube.com/watch?v=T7LT1PVd8PY">FGF-21</a> · <a href="https://www.youtube.com/watch?v=UhV5_0FRr7Q">One Egg & Your Brain</a> · <a href="https://www.youtube.com/watch?v=PG_2CeO_Tkk">Cortisol Activation & Chocolate</a></p>
+</div>
+
+<div class="story">
+  <h3>Mind The Game (LeBron + JJ Redick)</h3>
+  <p>LeBron sits down for a detailed breakdown of his playoff run at 41. On motivation: Bronny being in the locker room gives him a concrete responsibility — to model professional habits daily, not just play well. On adaptation: he explicitly describes "diversifying his portfolio on the floor" — getting off the ball more, spotting up in corners, picking spots rather than running 10 straight pick-and-rolls like he could at 28. The tactical breakdown of the Game 3 "playing possum" sequence is sharp — he noticed Houston's body language deflating, told Smart to hold up, read Tari Eason taking a breath, then triggered the backdoor lob to seal the game. On Bronny: admits no 21-year-old listens to his dad, so he leads by example rather than instruction.</p>
+  <p class="meta">Videos: <a href="https://www.youtube.com/watch?v=7qunA1NdKqc">LeBron on Bronny Motivating Him</a> · <a href="https://www.youtube.com/shorts/j8LrU1E0h78">LeBron's Motivation</a> · <a href="https://www.youtube.com/shorts/kl0IpP7XDBw">LeBron's Adaptability</a></p>
+</div>
+
+<div class="story">
+  <h3>Modern Wisdom</h3>
+  <p>Several clips worth noting. Mark Manson on uncertainty: the most important 21st-century skill is living happily with uncertainty — people who can't handle it collapse into a single radical worldview, and "every worldview gets blown up on contact with reality." His practical move: zoom out until you find a level of abstraction where you do have confidence (e.g., "technology revolutions have always been disruptive but society adapts") rather than trying to be certain about narrow specifics. He also makes a sharp point about AI and meaning: using AI to speedrun an outcome may deliver the result but strips the satisfaction — because you do the thing for how you feel having done it, not the output itself. The Costello research clip: 50% of people have had sex with a cross-sex friend, men are 3x more likely than women to describe a cross-sex friendship as non-platonic — the "men and women can just be friends" question has actual empirical content. The Ryan Garcia interview is raw: he describes alcohol as a destructive outlet for repressed emotions, the way it made him want to "sink the whole ship," and how he stopped after one relapse convinced him he had no off-switch.</p>
+  <p class="meta">Videos: <a href="https://www.youtube.com/watch?v=kCRGasHlPP8">21 Harsh Truths - Mark Manson</a> · <a href="https://www.youtube.com/watch?v=XliiNonPDXQ">Ryan Garcia</a> · <a href="https://www.youtube.com/watch?v=xzI8bb7POj0">Half of Women Have Had Sex With Best Friend</a> · <a href="https://www.youtube.com/shorts/9UhTA_zqoGI">Mundane Peace</a> · <a href="https://www.youtube.com/shorts/spQySmdPq58">Choose Carefully Before You Get Attached</a></p>
+</div>
+
+<div class="story">
+  <h3>Ben Felix</h3>
+  <p>Probably his most important video. The core argument: money's relationship to happiness is weaker and more complicated than people assume. The 2010 Kahneman study found experienced happiness plateaus around $75K (≈$112K today); a 2023 adversarial collaboration between conflicting studies found that <em>already-happy</em> people continue gaining happiness with income, while less-happy people plateau — suggesting money amplifies your baseline rather than creating happiness. Key data point: the correlation between log income (each step = doubling) and happiness is only 0.09, and the hedonic difference between $15K and $250K household income is about 5 points on a 100-point scale. The practical framework: the PERMA-V model (positive emotion, engagement, relationships, meaning, accomplishment, vitality) is more predictive of a good life than income. Specific traps: the "end of history illusion" (you always think you've become who you'll be forever), commuting stress (one of the few things people genuinely don't adapt to), and social comparison as a primary driver of financial ruin. His actionable conclusion: optimize for how you spend your time, not for future circumstances you're imagining.</p>
+  <p class="meta">Video: <a href="https://www.youtube.com/watch?v=S9InNdQhFwc">Using Your Money To Be Happier</a></p>
 </div>
 
 <p><strong>Also posted:</strong></p>
 <ul>
-  <li><strong>Ken Berry MD:</strong> Three short-form pieces arguing no essential dietary carbohydrate exists (citing Institute of Medicine), that an all-meat diet including 2–4oz liver weekly provides every necessary vitamin, mineral, amino acid, and fatty acid, and that the "baseline human diet" may be simpler than assumed. (<a href="https://www.youtube.com/shorts/bEViBkep928">Your body requires protein and fat. Carbohydrates? No.</a> · +2 more)</li>
-  <li><strong>Dr. Sten Ekberg:</strong> Comprehensive walkthrough of colon cancer prevention framed around reversing insulin resistance — insulin is mitogenic (drives cell division) and anabolic, high blood glucose selectively feeds cancer cells (the basis of FDG-PET imaging), and belly fat releases pro-inflammatory cytokines. Interventions: stop sugar/refined flour/snacking, time-restricted eating, cruciferous vegetables, fermented foods for microbiome diversity, resistance training to clear glucose without insulin. (<a href="https://www.youtube.com/watch?v=C7CKRkAIs3A">#1 Absolute Best Way To Prevent Colon Cancer</a>) <em>[carried from previous brief]</em></li>
-  <li><strong>Ben Felix:</strong> Evidence-based review of money and happiness research — covers the 2010/2021/2023 adversarial collaboration studies reconciling conflicting income-happiness findings (happy people see continued gains with income; unhappy people plateau around $85–112K); notes the income-happiness correlation is only 0.09 and a 17x income difference moves hedonic happiness just 5 points on a 100-point scale. Core practical takeaway: prioritizing time over money consistently predicts higher well-being; people adapt quickly to material upgrades (bigger house) but not to commute stress or loss of autonomy. (<a href="https://www.youtube.com/watch?v=S9InNdQhFwc">Using Your Money To Be Happier</a>) <em>[carried from previous brief]</em></li>
+  <li><strong>Anthony Chaffee MD:</strong> Several shorts on carnivore basics (fat absorption via bile, processed meat concerns being about additives not the meat itself, autophagy suppression from high insulin) plus a long interview with Welsh ironman champion Mike Davies, who ran a 2:37 marathon with zero carbs and went from vegan to Welsh national champion on carnivore. (<a href="https://www.youtube.com/watch?v=14DgMjkR55M">After 1,000 Surgeries, I Noticed This About Carbs</a> + 4 shorts)</li>
+  <li><strong>Paul Saladino MD:</strong> Honey deep-dive arguing it doesn't behave like processed sugar in the gut — the polyphenols prevent dysbiosis and endotoxemia that sucrose causes; references Mbuti pygmies eating 70-80% of calories as honey while remaining metabolically healthy. Also clips on Zyn ingredients (engineered freebase nicotine delivery) and Japanese school lunches vs. American. (<a href="https://www.youtube.com/watch?v=9WW-d617m6E">How Honey Is Made</a> + shorts)</li>
+  <li><strong>Andrew Huberman:</strong> Essentials repost on aggression neuroscience — the ventromedial hypothalamus (VMH, ~3,000 neurons total) is necessary and sufficient for aggression; David Anderson's Caltech optogenetics work showed estrogen-receptor neurons in the VMH could switch a mating male mouse to attacking within seconds via light stimulation. Also a full episode with Dr. Kentaro Fujita on self-control science, covering the marshmallow test criticisms and the finding that connecting behavior to "why" (higher-order purposes like family) outperforms rule-based willpower for impulse control. (<a href="https://www.youtube.com/watch?v=916vhhUsmgE">Aggression</a> · <a href="https://www.youtube.com/watch?v=e89rVf4Pf0k">Self Control with Dr. Fujita</a>)</li>
+  <li><strong>Nick Norwitz:</strong> Short on MOTS-c, a mitochondrial hormone encoded in the mitochondrial genome (second genome) that increases with exercise, and in animal studies drives fat loss, increased energy expenditure, and longevity. People are self-experimenting with injections. (<a href="https://www.youtube.com/shorts/RWn9EfxzMPg">MOTS-c</a>)</li>
+  <li><strong>Peter Attia / Layne Norton:</strong> Detailed breakdown of seed oil industrial processing — hexane residues in finished oils are 0.05–0.5 ppm, well below any documented toxicity threshold (estimated 11,340 kg of oil needed for mild effects), and hexane toxicity is primarily from inhalation not ingestion. The more credible concern is the 100-year shift from <3% to ~10% of total food as linoleic acid. (<a href="https://www.youtube.com/watch?v=Tsqzx3L6UWs">Is Industrial Processing the Real Problem With Seed Oils?</a>)</li>
+  <li><strong>Stronger by Science (RSS):</strong> Full review of isometric training for strength and hypertrophy — argues current evidence does NOT support the common assumption that isometrics are inferior to dynamic training. (<a href="https://www.strongerbyscience.com/isometric-training/">Hold Still: Isometric Training</a>)</li>
 </ul>
 
 ---
@@ -145,8 +184,8 @@
 <h2>₿ Bitcoin & Macro</h2>
 
 <div class="story">
-  <h3><a href="https://bitcoinmagazine.com/news/senate-committee-advances-clarity-act">Senate Banking Committee Advances Digital Asset Market Clarity Act</a></h3>
-  <p>The Senate Banking Committee passed the Digital Asset Market Clarity Act 15–9, with two Democrats (Gallego and Alsobrooks) breaking ranks — a meaningful bipartisan signal for crypto regulatory clarity. This came the day after the Senate confirmed Kevin Warsh — described as Bitcoin-friendly — as Fed Chair, a potential inflection point for U.S. monetary policy posture. Bitcoin was trading around $82K at the time, up ~3% on the news.</p>
+  <h3>Abu Dhabi's Mubadala Raises Bitcoin ETF Stake 16% to $566M</h3>
+  <p>Mubadala, Abu Dhabi's sovereign wealth fund, increased its position in BlackRock's iShares Bitcoin Trust by 16% in Q1 2026, bringing its total to $566M. This is institutional sovereign-wealth accumulation, not retail — the type of buyer Saylor has long argued would eventually dominate Bitcoin's demand side as it matures into a reserve asset. Separately, Strategy (MSTR) filed to repurchase $1.5B in 2029 convertible notes as its STRC preferred stock hit a record $1.53B daily volume, and the Winklevoss twins made a $100M Bitcoin-funded bet on Gemini's future alongside a Q1 earnings report showing 42% YoY revenue growth.</p>
   <p class="meta">Bitcoin Magazine</p>
 </div>
 
@@ -155,24 +194,29 @@
 <h2>🧬 Health & Science</h2>
 
 <div class="story">
-  <h3>Resistant Starch: Visceral Fat Reduction in RCTs (Nick Norwitz deep dive)</h3>
-  <p>The core study (Nature Metabolism, double-blind RCT, n=37): 40g/day of type 2 resistant starch (high-amylose, specifically Hi-Maize 260) for 8 weeks reduced body weight, fat mass, and visceral fat confirmed by MRI — calorie intake controlled and matched to placebo. One participant lost 100 cm² of visceral fat; liver fat dropped 58% in high responders. Mechanistically: resistant starch resists small-intestine digestion, reaches the colon, gets fermented by bacteria (which have far more carbohydrate-active enzymes than humans), restructuring the microbiome toward short-chain fatty acid production, altered hormonal signaling, and increased fecal fat excretion. Causality was confirmed via fecal microbiota transplants into germ-free mice — mice receiving "resistant starch" human microbiomes lost fat on identical diets. A 2025 Cell Metabolism follow-up identified the responder/non-responder split: high baseline <em>Prevotella</em> suppresses benefit (competes out efficient fermenters); high <em>Bifidobacterium pseudocatenulatum</em> predicts strong response. Practical implication: before supplementing, gut microbiome composition may determine whether you're in the 58%-liver-fat-reduction group or the 7% group.</p>
+  <h3>Resistant Starch & Insulin Sensitivity (Thomas DeLauer)</h3>
+  <p>Detailed mechanism worth internalizing: amylose content (not just "fiber") is the molecular variable that determines whether a starch reaches your colon intact. High-amylose foods (basmati, long-grain rice, regular potatoes) are more resistant than low-amylose ones (jasmine/sushi rice). Cooking and then refrigerating overnight retrograde the starch into a new crystalline structure that resists digestion — same food, meaningfully different metabolic profile. The downstream benefit is butyrate production in the colon, which feeds colonocytes and reduces inflammatory signaling that leaks systemically. The practical error: eating only one type of resistant starch overfeeds specific bacterial populations (RS2 promotes Bacteroidetes but suppresses Bifidobacteria/Lactobacilli) while missing distal colon fermentation needed for colorectal protection — variety across RS1 (legumes), RS2 (green banana, raw potato), and RS3 (cooked/cooled) matters.</p>
 </div>
 
 <div class="story">
-  <h3>12-HEPE: The Omega-3 Hormone Linking Sardine Consumption to Brown Fat Thermogenesis</h3>
-  <p>Norwitz's sardine self-experiment (1,000 sardines/month) pushed his blood omega-3 index to 16% — triple the average human's ~5%, comparable to marine mammals. He developed measurable cold resistance, which he attributes to omega-3 conversion to 12-HEPE, a hormone that stimulates brown fat thermogenesis and muscle glucose uptake. A recent Cell paper identified the receptor for 12-HEPE as OLFR110, a smell receptor expressed not just in the nose but in liver, brown fat, and brain — repurposed by evolution for metabolic regulation. 12-HEPE is lower in people with obesity and higher in leaner individuals, though causality direction remains open. The biological principle he draws out: biological systems reuse components across contexts (feathers → insulation then flight; ear bones evolved from jaw bones), meaning every intervention has connected trade-offs — statins reduce inflammation but damage muscle, omega-3 megadosing activates thermogenesis but also activates the same olfactory receptor that makes you smell like a fish even after showering.</p>
+  <h3>FGF-21 Resistance: Why Exercise Backfires When You're Metabolically Unhealthy</h3>
+  <p>FGF-21 is the cellular stress messenger that responds to exercise and fasting — but chronic overstimulation (going from zero to 60 in workouts while already stressed) leads to FGF-21 resistance, where the stress signals amplify but the adaptive response fails. The 2018 Nature study found this mechanism explains why metabolically unhealthy people feel worse the more they exercise, not better. The practical implication: 15-20 minute high-intensity sessions with full recovery outperform 60-minute chronic sessions for people in metabolic dysfunction. The same "pulse not pressure" logic applies to fasting — chronic caloric restriction raises the cortisol activation enzyme (11β-HSD) in fat tissue, causing visceral fat to accumulate independently of caloric intake. The mantra: treat your life like interval training.</p>
 </div>
 
 <div class="story">
-  <h3><a href="https://www.strongerbyscience.com/isometric-training/">Isometric Training for Strength and Hypertrophy — What the Evidence Actually Says</a></h3>
-  <p>Stronger by Science reviews the evidence on isometric (static contraction) training, challenging the assumption that it's inferior to dynamic training for strength and muscle growth. The piece examines why that conventional wisdom may not hold up and what the data actually support. Worth reading for anyone programming resistance training who has dismissed isometrics as a tool.</p>
-  <p class="meta">Stronger by Science</p>
+  <h3>Choline, Eggs, and Alzheimer's Risk (Thomas DeLauer)</h3>
+  <p>The Rush Memory and Aging Project followed 1,024 people for 7 years and found even 1 egg/week associated with 47% lower Alzheimer's risk. The autopsy sub-study (578 people) found 49% lower odds of amyloid/tau pathology — not just symptoms, but the actual structural disease. Choline explained 39% of the effect (it's the direct precursor to acetylcholine, the neurotransmitter that degenerates in Alzheimer's, and most adults get less than half the recommended amount). The metabolic angle is also real: egg eaters showed 4.4% reduction in fasting glucose and improved HOMA-IR vs. controls over 12 weeks, directly relevant to the "Type 3 diabetes" model of Alzheimer's. Synergistic pairing: eggs + fatty fish (DHA enhances choline utilization in neuronal membranes) + prebiotic fiber (gut-brain axis, butyrate → brain anti-inflammatory signaling).</p>
 </div>
 
 <div class="story">
-  <h3>MOTS-c: Mitochondrial Hormone with Fat Loss and Longevity Signals</h3>
-  <p>MOTS-c is a small peptide encoded in the mitochondrial genome (part of a newly discovered class of "short reading frames" beyond the known 13 mitochondrial genes). It is conserved across mammals, increases with exercise in humans, and in animal models drives fat loss, increased energy expenditure, improved endurance, and extended lifespan. It's species-conserved (mice, lions, dolphins, humans), suggesting evolutionary importance. Norwitz notes people are now self-injecting it and he plans to report on personal experimentation — currently preclinical but the mechanism is biologically plausible. Watch this space.</p>
+  <h3>Post-50 Visceral Fat: The Hormonal Mechanism (Sten Ekberg)</h3>
+  <p>Men: testosterone decline → less competition with cortisol → cortisol drives visceral fat → visceral fat upregulates aromatase → more testosterone converts to estrogen → ratio worsens further. Women: menopause → rapid estrogen loss → fat redirects from hips/thighs (subcutaneous, benign) to belly (visceral, inflammatory). Both converge on the same loop: visceral fat signals inflammatory cytokines → liver stays insulin resistant → stores more fat. Important nuance: cardio at 140-170 bpm raises cortisol and preferentially deposits fat viscerally — it's the wrong tool. Resistance training works because contracting muscles absorb glucose without insulin, building the glycogen storage capacity that reduces the need to convert carbs to fat. The underlying principle: aging lowers your tolerance for an unnatural lifestyle, not your capacity to be healthy.</p>
+</div>
+
+<div class="story">
+  <h3>Isometric Training: Evidence Doesn't Support Its Inferiority (Stronger by Science)</h3>
+  <p>A new SBS deep-dive argues the conventional wisdom that isometrics are inferior to dynamic training for strength and hypertrophy is not well-supported by current evidence. The article explores the mechanisms and what the data actually show — relevant for anyone programming rehab or supplemental training. Worth reading if you've been dismissing isometrics as a lesser option.</p>
+  <p class="meta"><a href="https://www.strongerbyscience.com/isometric-training/">Stronger by Science</a></p>
 </div>
 
 ---
@@ -180,39 +224,13 @@
 <h2>💡 Worth Reading</h2>
 
 <div class="story">
-  <h3><a href="https://www.theregister.com/ai-ml/2026/05/14/ontario-auditors-find-doctors-ai-note-takers-routinely-blow-basic-facts/5240771">Ontario Auditors Find Doctors' AI Note-Takers Routinely Blow Basic Facts</a></h3>
-  <p>Ontario auditors reviewed AI-generated clinical notes and found they regularly hallucinate or misstate basic patient facts — a finding with direct implications for patient safety, liability, and the real-world deployment gap between "AI works in demos" and "AI works in high-stakes contexts." This is a capability story about where AI actually falls short, not a benchmark story.</p>
-  <p class="meta"><a href="https://news.ycombinator.com/item?id=44001234">HN Discussion</a> · The Register</p>
+  <h3><a href="https://www.astralcodexten.com/p/the-sigmoids-wont-save-you">The Sigmoids Won't Save You</a></h3>
+  <p>Scott Alexander at Astral Codex Ten — this is the kind of piece you sit with. From context it appears to engage with the common "AI progress will S-curve before it gets dangerous" assumption, which is the central epistemic bet of a lot of AI optimists. High prior this is worth reading given the source and the 182 upvotes on HN.</p>
+  <p class="meta"><a href="https://news.ycombinator.com/item?id=">HN Discussion</a> · Astral Codex Ten</p>
 </div>
 
 <div class="story">
-  <h3><a href="https://paulgraham.com/brandage.html">The Brand Age</a></h3>
-  <p>Paul Graham's latest essay. No summary is available from the feed but Graham essays are reliably worth reading — he tends to identify structural shifts in how the world works before they're obvious. Read and form your own view.</p>
-  <p class="meta">Paul Graham</p>
-</div>
-
-<div class="story">
-  <h3><a href="https://marginalrevolution.com/marginalrevolution/2026/05/one-way-to-benefit-adolescents.html">California's Later School Start Mandate — What the Data Show</a></h3>
-  <p>A difference-in-differences study on California's SB 328 (the first statewide mandate for later school start times for middle and high schools) finds measurable improvements in adolescent sleep, mental health, and academic outcomes. Real data from a natural policy experiment — relevant to anyone thinking about sleep science, circadian biology, or education policy.</p>
-  <p class="meta">Marginal Revolution</p>
-</div>
-
-<div class="story">
-  <h3><a href="https://figsinwintertime.substack.com/p/eugenics-bad-science-bad-ethics-or">Eugenics: Bad Science, Bad Ethics, or Both?</a></h3>
-  <p>Massimo Pigliucci (Figs in Winter) takes on a question that most people answer reflexively without thinking clearly: is eugenics wrong because the science is bad, or because the ethics are bad, or both — and does it matter which? The answer has implications for how we think about contemporary genetic technologies and the structure of moral arguments generally. The value here is less the conclusion than the precision of the reasoning.</p>
-  <p class="meta">Figs in Winter (Pigliucci)</p>
-</div>
-
-<div class="story">
-  <h3><a href="https://donaldrobertson.substack.com/p/bear-in-mind-the-social-consequences">Bear in Mind the Social Consequences of Your Actions — Epictetus §36</a></h3>
-  <p>Donald Robertson's ongoing commentary on the Enchiridion. Epictetus §36 concerns how awareness of the downstream social effects of our choices is itself a Stoic discipline — not just self-control but understanding that our actions exist in a web of relationships and obligations. Short, actionable, worth sitting with.</p>
-  <p class="meta">Donald Robertson</p>
-</div>
-
----
-
-<h2>🤖 AI Capability Watch</h2>
-
-<em>Quiet on genuine capability news today. The Codex mobile app update, Claude for Small Business, and Anthropic partnership announcements are feature/business expansions to existing products — none represent a step-change in what AI can do. Skipping.</em>
+  <h3><a href="https://macdailynews.com/2026/05/15/u-s-doj-demands-apple-and-google-unmask-over-100000-users-of-popular-car-tinkering-app-in-emissions-crackdown/">DOJ Demands Apple and Google Unmask 100K+ Users of Car-Tinkering App</a></h3>
+  <p>The DOJ is demanding Apple and Google identify over 100,000 users of an emissions-related car tuning app as part of an enforcement action. This is a significant precedent: using app store data to identify users en masse for regulatory enforcement, rather than targeting specific known individuals. The privacy implications extend well beyond this case — any app touching a regulated activity now sits in potential legal exposure territory for its users
 </body>
 </html>
