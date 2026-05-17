@@ -1,125 +1,101 @@
 === HACKER NEWS ===
-1. [841 pts] Project Gutenberg – keeps getting better
-   https://www.gutenberg.org/
+1. [303 pts] Zerostack – A Unix-inspired coding agent written in pure Rust
+   https://crates.io/crates/zerostack/1.0.0
 
-2. [58 pts] Ploopy Bean: a trackpoint for every computer
-   https://ploopy.co/shop/bean-pointing-stick/
+2. [92 pts] Hosting a website on an 8-bit microcontroller
+   https://maurycyz.com/projects/mcusite/
 
-3. [1110 pts] I believe there are entire companies right now under AI psychosis
-   https://twitter.com/mitchellh/status/2055380239711457578
+3. [64 pts] Colossus: The Forbin Project
+   https://en.wikipedia.org/wiki/Colossus:_The_Forbin_Project
 
-4. [68 pts] The bird eye was pushed to an evolutionary extreme
-   https://www.quantamagazine.org/how-the-bird-eye-was-pushed-to-an-evolutionary-extreme-20260513/
+4. [129 pts] A nicer voltmeter clock
+   https://lcamtuf.substack.com/p/a-nicer-voltmeter-clock
 
-5. [75 pts] Additive Blending on the Nintendo 64
-   https://phoboslab.org/log/2026/05/n64-additive-blending
+5. [140 pts] OpenAI and Government of Malta partner to roll out ChatGPT Plus to all citizens
+   https://openai.com/index/malta-chatgpt-plus-partnership/
 
-6. [79 pts] SQL patterns I use to catch transaction fraud
-   https://analytics.fixelsmith.com/posts/sql-fraud-patterns/
+6. [36 pts] Self-Distillation Enables Continual Learning [pdf]
+   https://arxiv.org/abs/2601.19897
 
-7. [85 pts] Naturally Occurring Quasicrystals
-   https://johncarlosbaez.wordpress.com/2026/05/14/naturally-occurring-quasicrystals/
+7. [5 pts] Show HN: Codiff, a local diff review tool
+   https://github.com/nkzw-tech/codiff/releases
 
-8. [96 pts] The main thing about P2P meth is that there's so much of it (2021)
-   https://dynomight.net/p2p-meth/
+8. [80 pts] C++26 Shipped a SIMD Library Nobody Asked For
+   https://lucisqr.substack.com/p/c26-shipped-a-simd-library-nobody
 
-9. [20 pts] England Runestones
-   https://en.wikipedia.org/wiki/England_runestones
+9. [13 pts] Why did Clovis toolmakers choose difficult quartz crystal?
+   https://phys.org/news/2026-04-clovis-toolmakers-difficult-quartz-crystal.html
 
-10. [7 pts] Research on mildew contamination affecting the sound quality of analog tapes
-   https://www.nature.com/articles/s40494-026-02592-7
+10. [322 pts] SANA-WM, a 2.6B open-source world model for 1-minute 720p video
+   https://nvlabs.github.io/Sana/WM/
 
-11. [355 pts] A 0-click exploit chain for the Pixel 10
-   https://projectzero.google/2026/05/pixel-10-exploit.html
+11. [18 pts] Illusions of Understanding in the Sciences
+   https://link.springer.com/article/10.1007/s42113-026-00271-1
 
-12. [80 pts] How to Write to SSDs [pdf]
-   https://www.vldb.org/pvldb/vol19/p1469-lee.pdf
+12. [487 pts] Moving away from Tailwind, and learning to structure my CSS
+   https://jvns.ca/blog/2026/05/15/moving-away-from-tailwind--and-learning-to-structure-my-css-/
 
-13. [67 pts] NYT and Vaping: How to Lie by Saying Only True Things (2022)
-   https://gwern.net/vaping
+13. [43 pts] Tesla Solar Roof is on life support as it pivot to panels
+   https://electrek.co/2026/05/14/tesla-solar-roof-promise-vs-reality-pivot-panels/
 
-14. [417 pts] California bill would require patches or refunds when online games shut down
-   https://arstechnica.com/gaming/2026/05/bill-to-keep-online-games-playable-clears-key-hurdle-in-california/
+14. [43 pts] Unknowable Math Can Help Hide Secrets
+   https://www.quantamagazine.org/how-unknowable-math-can-help-hide-secrets-20260511/
 
-15. [182 pts] The sigmoids won't save you
-   https://www.astralcodexten.com/p/the-sigmoids-wont-save-you
+15. [55 pts] The Third Hard Problem
+   https://mmapped.blog/posts/48-the-third-hard-problem
 
-16. [31 pts] I Bought a “Junk” PSP From Japan
-   https://gardinerbryant.com/i-bought-a-junk-psp-from-japan-heres-how-it-went/
+16. [82 pts] A molecule with half-Möbius topology
+   https://www.science.org/doi/10.1126/science.aea3321
 
-17. [38 pts] ESP-EEG is an affordable 8-channel biosensing board
-   https://www.autodidacts.io/cerelog-esp-eeg-affordable-openbci-like-board/
+17. [75 pts] MCP Hello Page
+   https://www.hybridlogic.co.uk/blog/2026/05/mcp-hello-page
 
-18. [38 pts] Show HN: Epiq – Distributed Git based issue tracker TUI
-   https://ljtn.github.io/epiq/
+18. [270 pts] Accelerando (2005)
+   https://www.antipope.org/charlie/blog-static/fiction/accelerando/accelerando.html
 
-19. [163 pts] Erlang/OTP 29.0
-   https://www.erlang.org/news/188
+19. [251 pts] We've made the world too complicated
+   https://user8.bearblog.dev/the-world-is-too-complicated/
 
-20. [97 pts] I designed a nibble-oriented CPU in Verilog to build a scientific calculator
-   https://github.com/gdevic/FPGA-Calculator
+20. [358 pts] Frontier AI has broken the open CTF format
+   https://kabir.au/blog/the-ctf-scene-is-dead
 
-21. [35 pts] Orthrus-Qwen3: up to 7.8×tokens/forward on Qwen3, identical output distribution
-   https://github.com/chiennv2000/orthrus
+21. [115 pts] Halt and Catch Fire
+   https://unstack.io/halt-and-catch-fire
 
-22. [147 pts] Image-blaster: Creates 3D environments, SFX, and meshes from a single image
-   https://github.com/neilsonnn/image-blaster
+22. [204 pts] δ-mem: Efficient Online Memory for Large Language Models
+   https://arxiv.org/abs/2605.12357
 
-23. [247 pts] The Zulip Foundation
-   https://blog.zulip.com/2026/05/15/announcing-zulip-foundation/
+23. [30 pts] Grafana Labs internal source code accessed
+   https://twitter.com/grafana/status/2055827123236171827
 
-24. [399 pts] U.S. DOJ demands Apple and Google unmask over 100k users of car-tinkering app
-   https://macdailynews.com/2026/05/15/u-s-doj-demands-apple-and-google-unmask-over-100000-users-of-popular-car-tinkering-app-in-emissions-crackdown/
+24. [41 pts] Content-defined chunking added to Bazel
+   https://www.buildbuddy.io/blog/content-defined-chunking/
 
-25. [137 pts] Show HN: Watch a neural net learn to play Snake
-   https://ppo.gradexp.xyz/
+25. [120 pts] PART Telescopes – Bringing radio astronomy within reach of rural schools
+   https://parttelescopes.web.app/
 
-26. [288 pts] 'No way to prevent this,' says only package manager where this regularly happens
-   https://kevinpatel.xyz/posts/no-way-to-prevent-this/
+26. [109 pts] Fisker went bankrupt and owners built an open source car company from the ashes
+   https://electrek.co/2026/05/16/fisker-ocean-open-source-ev-story-after-bankruptcy/
 
-27. [171 pts] ASCII by Jason Scott
-   https://ascii.textfiles.com/
+27. [66 pts] Show HN: Rocksky – Music scrobbling and discovery on the AT Protocol
+   https://tangled.org/rocksky.app/rocksky
 
-28. [230 pts] Radicle: Sovereign {code forge} built on Git
-   https://radicle.dev/
+28. [74 pts] 3D Gaussian Splatting in a Weekend
+   https://bfeldman.me/3dgs-weekend/
 
-29. [303 pts] ABC News has taken all FiveThirtyEight articles offline
-   https://twitter.com/baseballot/status/2055309076209492208
+29. [124 pts] Kioxia and Dell cram 10 PB into slim 2RU server
+   https://www.blocksandfiles.com/flash/2026/05/14/kioxia-and-dell-cram-10-pb-into-slim-2ru-server/5240574
 
-30. [176 pts] Waymo updates 3,800 robotaxis after they 'drive into standing water'
-   https://www.cnbc.com/2026/05/12/waymo-recalls-3800-robotaxis-after-able-drive-into-standing-water.html
+30. [116 pts] Greek Alphabet Cards
+   https://labs.randomquark.com/alphabet_cards/
 
 
 === RSS ===
-[wisdom] Figs in Winter (Pigliucci): Where did the Stoic God come from?
-  https://figsinwintertime.substack.com/p/where-did-the-stoic-god-come-from
+[ai] Simon Willison: Warelay -> OpenClaw
+  https://simonwillison.net/2026/May/16/openclaw-names/#atom-everything
 
-[wisdom] Figs in Winter (Pigliucci): Eugenics: bad science, bad ethics, or both?
-  https://figsinwintertime.substack.com/p/eugenics-bad-science-bad-ethics-or
-
-[wisdom] Figs in Winter (Pigliucci): From the archive
-  https://figsinwintertime.substack.com/p/from-the-archive-d05
-
-[ideas] Astral Codex Ten: The Sigmoids Won't Save You
-  https://www.astralcodexten.com/p/the-sigmoids-wont-save-you
-
-[ideas] Astral Codex Ten: Every Magazine Piece On The SF AI Scene
-  https://www.astralcodexten.com/p/every-magazine-piece-on-the-sf-ai
-
-[ideas] Astral Codex Ten: Nostalgebraist's Hydrogen Jukeboxes
-  https://www.astralcodexten.com/p/nostalgebraists-hydrogen-jukeboxes
-
-[wisdom] Donald Robertson: Live: "How to do Stoic Therapy" - Conversations with Modern Stoicism
-  https://donaldrobertson.substack.com/p/live-how-to-do-stoic-therapy-conversations
-
-[wisdom] Donald Robertson: Join us today for "How to do Stoic Therapy"
-  https://donaldrobertson.substack.com/p/join-us-today-for-how-to-do-stoic
-
-[wisdom] Donald Robertson: Announcing: How to do Stoic Therapy
-  https://donaldrobertson.substack.com/p/announcing-how-to-do-stoic-therapy
-
-[wisdom] Farnam Street: [Outliers] Chung Ju-yung: The Hyundai Founder Who Put a Country on His Back
-  https://fs.blog/knowledge-project-podcast/outliers-chung-ju-yung/
+[ai] Simon Willison: Quoting Julia Evans
+  https://simonwillison.net/2026/May/16/julia-evans/#atom-everything
 
 [ai] Simon Willison: inaturalist-clumper 0.1
   https://simonwillison.net/2026/May/15/inaturalist-clumper/#atom-everything
@@ -129,24 +105,6 @@
 
 [ai] Simon Willison: QR code generator
   https://simonwillison.net/2026/May/15/qr-code-generator/#atom-everything
-
-[ai] Simon Willison: datasette-llm-limits 0.1a0
-  https://simonwillison.net/2026/May/15/datasette-llm-limits/#atom-everything
-
-[ai] Simon Willison: Not so locked in any more
-  https://simonwillison.net/2026/May/14/not-so-locked-in/#atom-everything
-
-[ideas] Stratechery: 2026.20: Shifting Alliances in a Changing World
-  https://stratechery.com/2026/shifting-alliances-in-a-changing-world/
-
-[ideas] Stratechery: An Interview with Ben Thompson at the MoffettNathanson Media, Internet & Communications Conference
-  https://stratechery.com/2026/an-interview-with-ben-thompson-at-the-moffettnathanson-media-internet-communications-conference/
-
-[ideas] Stratechery: The Deployment Company, Back to the 70s, Apple and Intel
-  https://stratechery.com/2026/the-deployment-company-back-to-the-70s-apple-and-intel/
-
-[bitcoin] The Pomp Letter: This AI Product Is Helping Investors Make Money
-  https://pomp.substack.com/p/this-ai-product-is-helping-investors
 
 [ai] Anthropic News: Anthropic forms $200 million partnership with the Gates Foundation
   https://www.anthropic.com/news/gates-foundation-partnership
@@ -163,20 +121,26 @@
 [ai] Anthropic News: Agents for financial services
   https://www.anthropic.com/news/finance-agents
 
-[ideas] Marginal Revolution: Weapons, Wealth, and the Fates of Societies
-  https://marginalrevolution.com/marginalrevolution/2026/05/weapons-wealth-and-the-fates-of-societies.html?utm_source=rss&utm_medium=rss&utm_campaign=weapons-wealth-and-the-fates-of-societies
+[ideas] Stratechery: 2026.20: Shifting Alliances in a Changing World
+  https://stratechery.com/2026/shifting-alliances-in-a-changing-world/
 
-[ideas] Marginal Revolution: What I’ve been reading
-  https://marginalrevolution.com/marginalrevolution/2026/05/what-ive-been-reading-288.html?utm_source=rss&utm_medium=rss&utm_campaign=what-ive-been-reading-288
+[ideas] Stratechery: An Interview with Ben Thompson at the MoffettNathanson Media, Internet & Communications Conference
+  https://stratechery.com/2026/an-interview-with-ben-thompson-at-the-moffettnathanson-media-internet-communications-conference/
 
-[ideas] Marginal Revolution: Friday assorted links
-  https://marginalrevolution.com/marginalrevolution/2026/05/friday-assorted-links-572.html?utm_source=rss&utm_medium=rss&utm_campaign=friday-assorted-links-572
+[health] Peter Attia: A critical look at ultra-processed diets and male reproductive health
+  https://peterattiamd.com/ultra-processed-diets-and-reproductive-health/
 
-[ideas] Marginal Revolution: Philosophical Ideas Behind Their Time
-  https://marginalrevolution.com/marginalrevolution/2026/05/philosophical-ideas-behind-their-time.html?utm_source=rss&utm_medium=rss&utm_campaign=philosophical-ideas-behind-their-time
+[wisdom] Figs in Winter (Pigliucci): How to Be a (Happy) Skeptic: my new book, one month out
+  https://figsinwintertime.substack.com/p/how-to-be-a-happy-skeptic-my-new
 
-[ideas] Marginal Revolution: Christopher Nolan, Straussian?
-  https://marginalrevolution.com/marginalrevolution/2026/05/christopher-nolan-straussian.html?utm_source=rss&utm_medium=rss&utm_campaign=christopher-nolan-straussian
+[wisdom] Figs in Winter (Pigliucci): Where did the Stoic God come from?
+  https://figsinwintertime.substack.com/p/where-did-the-stoic-god-come-from
+
+[wisdom] Figs in Winter (Pigliucci): Eugenics: bad science, bad ethics, or both?
+  https://figsinwintertime.substack.com/p/eugenics-bad-science-bad-ethics-or
+
+[ideas] Astral Codex Ten: The Sigmoids Won't Save You
+  https://www.astralcodexten.com/p/the-sigmoids-wont-save-you
 
 [bitcoin] Bitcoin Magazine: Bitcoin Open Heads to Iconic Glen Abbey Golf Club for June 8, 2026 Event
   https://bitcoinmagazine.com/culture/bitcoin-open-heads-to-iconic-glen-abbey-golf-club-for-june-8-2026-event
@@ -202,341 +166,56 @@
 [bitcoin] Bitcoin Magazine: Onramp Raises $12.5M Series A to Scale Multi-Institution Bitcoin Custody Platform
   https://bitcoinmagazine.com/news/onramp-raises-12-5m-series-a
 
-[health] Stronger by Science: Hold Still: What Does the Evidence Actually Say About Isometric Training for Strength and Hypertrophy?
-  https://www.strongerbyscience.com/isometric-training/
+[ideas] Paul Graham: The Brand Age
+  https://paulgraham.com/brandage.html
 
-[ai] OpenAI Blog: A new personal finance experience in ChatGPT
-  https://openai.com/index/personal-finance-chatgpt
+[ai] OpenAI Blog: OpenAI and Malta partner to bring ChatGPT Plus to all citizens
+  https://openai.com/index/malta-chatgpt-plus-partnership
+
+[ai] OpenAI Blog: How business operations teams use Codex
+  https://openai.com/academy/codex-for-work/how-business-operations-teams-use-codex
 
 [ai] OpenAI Blog: Databricks brings GPT-5.5 to enterprise agent workflows
   https://openai.com/index/databricks
 
-[ai] OpenAI Blog: Sea's View on the Future of Agentic Software Development with Codex
-  https://openai.com/index/sea-david-chen
+[ai] OpenAI Blog: How data science teams use Codex
+  https://openai.com/academy/codex-for-work/how-data-science-teams-use-codex
 
-[ai] OpenAI Blog: Work with Codex from anywhere
-  https://openai.com/index/work-with-codex-from-anywhere
+[ai] OpenAI Blog: A new personal finance experience in ChatGPT
+  https://openai.com/index/personal-finance-chatgpt
 
-[ai] OpenAI Blog: Helping ChatGPT better recognize context in sensitive conversations
-  https://openai.com/index/chatgpt-recognize-context-in-sensitive-conversations
+[wisdom] Farnam Street: [Outliers] Chung Ju-yung: The Hyundai Founder Who Put a Country on His Back
+  https://fs.blog/knowledge-project-podcast/outliers-chung-ju-yung/
 
-[ideas] Paul Graham: The Brand Age
-  https://paulgraham.com/brandage.html
+[ideas] Marginal Revolution: South Korea facts of the day
+  https://marginalrevolution.com/marginalrevolution/2026/05/south-korea-facts-of-the-day.html?utm_source=rss&utm_medium=rss&utm_campaign=south-korea-facts-of-the-day
+
+[ideas] Marginal Revolution: Revealing Life Preferences Through LLMs
+  https://marginalrevolution.com/marginalrevolution/2026/05/revealing-life-preferences-through-llms.html?utm_source=rss&utm_medium=rss&utm_campaign=revealing-life-preferences-through-llms
+
+[ideas] Marginal Revolution: Saturday assorted links
+  https://marginalrevolution.com/marginalrevolution/2026/05/saturday-assorted-links-561.html?utm_source=rss&utm_medium=rss&utm_campaign=saturday-assorted-links-561
+
+[ideas] Marginal Revolution: Ned Phelps, RIP
+  https://marginalrevolution.com/marginalrevolution/2026/05/ned-phelps-rip.html?utm_source=rss&utm_medium=rss&utm_campaign=ned-phelps-rip
+
+[ideas] Marginal Revolution: Hayek in Jacobin
+  https://marginalrevolution.com/marginalrevolution/2026/05/hayek-in-jacobin.html?utm_source=rss&utm_medium=rss&utm_campaign=hayek-in-jacobin
+
+[wisdom] Donald Robertson: Live: "How to do Stoic Therapy" - Conversations with Modern Stoicism
+  https://donaldrobertson.substack.com/p/live-how-to-do-stoic-therapy-conversations
+
+[wisdom] Donald Robertson: Join us today for "How to do Stoic Therapy"
+  https://donaldrobertson.substack.com/p/join-us-today-for-how-to-do-stoic
+
+[wisdom] Donald Robertson: Announcing: How to do Stoic Therapy
+  https://donaldrobertson.substack.com/p/announcing-how-to-do-stoic-therapy
+
+[health] Stronger by Science: Hold Still: What Does the Evidence Actually Say About Isometric Training for Strength and Hypertrophy?
+  https://www.strongerbyscience.com/isometric-training/
 
 
 === YOUTUBE ===
-GTO Wizard: This Changes PLO Forever
-  https://www.youtube.com/shorts/ICKfPk65Di4
-  Transcript: yes
-
-GTO Wizard: This Changes PLO Forever | Introducing PLO in GTO Wizard
-  https://www.youtube.com/watch?v=4xPYNQgGGQI
-  Transcript: yes
-
-GTO Wizard: PLO is coming to GTO Wizard
-  https://www.youtube.com/shorts/DLVqp5jdG80
-  Transcript: NO
-
-Anthony Chaffee MD: How Much Fat On A Carnivore Diet?
-  https://www.youtube.com/shorts/p_KUpp6oXGU
-  Transcript: yes
-
-Anthony Chaffee MD: Processed Meat Is Not The Problem. Here's Why.
-  https://www.youtube.com/shorts/8i7UtmJro80
-  Transcript: yes
-
-Anthony Chaffee MD: The Key To Autophagy
-  https://www.youtube.com/shorts/Ze7iLiFFCxw
-  Transcript: yes
-
-Anthony Chaffee MD: This Is The Real Reason You're Overweight
-  https://www.youtube.com/shorts/HMOcUeZeObg
-  Transcript: yes
-
-Anthony Chaffee MD: After 1,000 Surgeries, I Noticed This About Carbs
-  https://www.youtube.com/watch?v=14DgMjkR55M
-  Transcript: yes
-
-Paul Saladino MD: Debating about nutrition on TV
-  https://www.youtube.com/shorts/s7rPjCr6cyY
-  Transcript: yes
-
-Paul Saladino MD: How Honey Is Made (I Got My Own Bees)
-  https://www.youtube.com/watch?v=9WW-d617m6E
-  Transcript: yes
-
-Paul Saladino MD: What’s inside a Zyn?
-  https://www.youtube.com/shorts/TSy4JDtPVqQ
-  Transcript: yes
-
-Paul Saladino MD: Is this the secret in Japanese schools?
-  https://www.youtube.com/shorts/TDYE5LpwxC8
-  Transcript: yes
-
-Paul Saladino MD: New York today vs 1935
-  https://www.youtube.com/shorts/IvPSwCbZ0L8
-  Transcript: yes
-
-Paul Saladino MD: The worst thing on an airplane?
-  https://www.youtube.com/shorts/Gy8eihkOcd0
-  Transcript: yes
-
-Paul Saladino MD: Trouble falling asleep? Try this…
-  https://www.youtube.com/shorts/gWS4Jexlh6E
-  Transcript: yes
-
-Ken Berry MD: Why Community is EVERYTHING! with Courtney Luna
-  https://www.youtube.com/watch?v=zMdlb8VMFBE
-  Transcript: yes
-
-Ken Berry MD: People were taught to fear butter while pouring seed oils on everything  #EatYourMeat
-  https://www.youtube.com/shorts/9oZyCbB0fPU
-  Transcript: yes
-
-Joe Rogan: Joe Rogan Experience #2500 - Scott Horton
-  https://www.youtube.com/watch?v=KBNfvk5Ali0
-  Transcript: yes
-
-Joe Rogan: Joe Rogan Experience #2499 - Marcus King
-  https://www.youtube.com/watch?v=0xMBjMlDY9M
-  Transcript: yes
-
-Joe Rogan: Joe Rogan Experience #2498 - Brendan Schaub
-  https://www.youtube.com/watch?v=1WVv39tLlzg
-  Transcript: yes
-
-Joe Rogan: Joe Rogan Experience #2497 - Gad Saad
-  https://www.youtube.com/watch?v=6jdaXp0iwtw
-  Transcript: yes
-
-Nick Norwitz: The Mitochondrial Hormone Everyone’s Talking About (MOTS-c)
-  https://www.youtube.com/shorts/RWn9EfxzMPg
-  Transcript: yes
-
-GTO Lab: Embracing Emotions: Strength in Vulnerability and Balance
-  https://www.youtube.com/shorts/cc1ScprpwtA
-  Transcript: yes
-
-GTO Lab: More GTO LAB features I use in my study that has help me in this early year run 🔥
-  https://www.youtube.com/shorts/XrExtvF4iYI
-  Transcript: yes
-
-GTO Lab: ICM Trainer but fun! with Klemens Roiter and Jonathan Jaffe
-  https://www.youtube.com/shorts/vPmUCU89yMI
-  Transcript: yes
-
-GTO Lab: GTO LAB full table mode practice for preflop ICM REVIEW
-  https://www.youtube.com/shorts/M_BJK3ahmX4
-  Transcript: yes
-
-GTO Lab: Is your relationship with your phone something you've address before summer tournaments?
-  https://www.youtube.com/shorts/SiYD_33469w
-  Transcript: yes
-
-Dr. Sten Ekberg: Why Belly Fat Changes After 50
-  https://www.youtube.com/watch?v=xivHL3Eo4oc
-  Transcript: yes
-
-Jared Alderman: The Simple Things That Cost Players BIG In Live Poker
-  https://www.youtube.com/watch?v=BGVkY_hI0qE
-  Transcript: yes
-
-Thomas DeLauer: 15g Daily Stops Insulin Resistance and Kills Cravings (nobody talks about it)
-  https://www.youtube.com/watch?v=7fEZNUkCSiM
-  Transcript: yes
-
-Thomas DeLauer: 33% Drop in Visceral Fat Without Diet and Exercise (nervous system trick)
-  https://www.youtube.com/watch?v=A4_R3gARd_U
-  Transcript: yes
-
-Thomas DeLauer: This Hormone is Worse Than Cortisol for Belly Fat (Exercise Makes It Worse)
-  https://www.youtube.com/watch?v=T7LT1PVd8PY
-  Transcript: yes
-
-Thomas DeLauer: Your Mitochondria are Begging You For This (more than Diet)
-  https://www.youtube.com/watch?v=BaH2Xh3L1Xo
-  Transcript: yes
-
-Thomas DeLauer: The Most Important Protein Rule for Low Carb Diets has Been Established
-  https://www.youtube.com/watch?v=xcjsXvWbeno
-  Transcript: yes
-
-Thomas DeLauer: They Were Wrong About Visceral Fat - 1oz Kills Cortisol Abruptly
-  https://www.youtube.com/watch?v=PG_2CeO_Tkk
-  Transcript: yes
-
-Thomas DeLauer: This is What Literally ONE EGG Does to Your Brain
-  https://www.youtube.com/watch?v=UhV5_0FRr7Q
-  Transcript: yes
-
-Thomas DeLauer: The Most Powerful Peptide for Inflammation has Been Discovered (KPV)
-  https://www.youtube.com/watch?v=wdCjXXmRoEw
-  Transcript: yes
-
-Thomas DeLauer: Ditch Cashews, 1oz of This Nut Clears Arteries and Drops Inflammation
-  https://www.youtube.com/watch?v=-4af-dr2ty8
-  Transcript: yes
-
-Thomas DeLauer: 4g of This Powder Stops Brain Inflammation (and stops microplastics)
-  https://www.youtube.com/watch?v=xQ65oemA9xg
-  Transcript: yes
-
-Thomas DeLauer: This Stops Neuroinflammation (brain fog) in Its Tracks
-  https://www.youtube.com/watch?v=4Up99gF-V-I
-  Transcript: yes
-
-Thomas DeLauer: This Detoxifies Microplastics and Plastic Byproducts in One Week (Rhonda Patrick's Plan)
-  https://www.youtube.com/watch?v=KTR4MmvNiGI
-  Transcript: yes
-
-Lex Fridman: FFmpeg: The Incredible Technology Behind Video on the Internet | Lex Fridman Podcast #496
-  https://www.youtube.com/watch?v=nepKKz-MzFM
-  Transcript: yes
-
-Peter Attia: Is Industrial Processing the Real Problem With Seed Oils? | Layne Norton, Ph.D.
-  https://www.youtube.com/watch?v=Tsqzx3L6UWs
-  Transcript: yes
-
-ModernWisdom: The Importance Of Mundane Peace
-  https://www.youtube.com/shorts/9UhTA_zqoGI
-  Transcript: yes
-
-ModernWisdom: My First Manager Quit
-  https://www.youtube.com/shorts/8IxCPZS5MLc
-  Transcript: yes
-
-ModernWisdom: The Brutal Truth About Kids and Happiness
-  https://www.youtube.com/watch?v=ng6c0cSvDSE
-  Transcript: yes
-
-ModernWisdom: Choose Carefully Before You Get Attached
-  https://www.youtube.com/shorts/spQySmdPq58
-  Transcript: yes
-
-ModernWisdom: This Is How To Know A Real Friend
-  https://www.youtube.com/shorts/AxBOv6Gg21w
-  Transcript: yes
-
-ModernWisdom: “They Wanted A Bad Guy, So I Became One” - Ryan Garcia
-  https://www.youtube.com/watch?v=XliiNonPDXQ
-  Transcript: yes
-
-ModernWisdom: Your Brain Is Being Hijacked
-  https://www.youtube.com/shorts/WrzFoMtcPFE
-  Transcript: yes
-
-ModernWisdom: Intelligence = Rate Of Learning
-  https://www.youtube.com/shorts/8wbH9-0vcMI
-  Transcript: yes
-
-ModernWisdom: “Half Of Women Have Had Sex With Their Best Friend”
-  https://www.youtube.com/watch?v=xzI8bb7POj0
-  Transcript: yes
-
-ModernWisdom: For People Who Want Success Without Work
-  https://www.youtube.com/shorts/57xD91ZnWQI
-  Transcript: yes
-
-ModernWisdom: Talent Makes People Forgive Everything
-  https://www.youtube.com/shorts/YC0ArKVijYE
-  Transcript: yes
-
-ModernWisdom: Why Don’t They Want You Talking About Birth Rates?
-  https://www.youtube.com/watch?v=ub5buYkbK5s
-  Transcript: yes
-
-ModernWisdom: High Standards Can Make You Miserable
-  https://www.youtube.com/shorts/ak47KG-zT0o
-  Transcript: yes
-
-ModernWisdom: It's Okay And You're Not Alone
-  https://www.youtube.com/shorts/8SLSiRj2R6E
-  Transcript: yes
-
-ModernWisdom: 21 Harsh Truths About Why You’re Still Lost - Mark Manson
-  https://www.youtube.com/watch?v=kCRGasHlPP8
-  Transcript: yes
-
-Renaissance Periodization: Collagen Alone ≠ Muscle Protein
-  https://www.youtube.com/shorts/vDd9YNNT4vM
-  Transcript: yes
-
-Renaissance Periodization: Exercise Scientist Critiques the Strongest Man You’ve Never Heard Of
-  https://www.youtube.com/watch?v=0cChF5iQheI
-  Transcript: yes
-
-Renaissance Periodization: Hungry At Night? Do This
-  https://www.youtube.com/shorts/gQyf5xd7Hzw
-  Transcript: yes
-
-Renaissance Periodization: Dairy Is Built To Make You Jacked
-  https://www.youtube.com/shorts/TCYGX85ek6g
-  Transcript: yes
-
-Renaissance Periodization: 11 Signs Your Workouts Aren’t Hard Enough to Build Muscle
-  https://www.youtube.com/watch?v=PgG_qyZmF5M
-  Transcript: yes
-
-Renaissance Periodization: You’re Counting Protein Wrong
-  https://www.youtube.com/shorts/7QGDn0HMMA0
-  Transcript: yes
-
-Renaissance Periodization: Rock Climber Strength Will Shock You
-  https://www.youtube.com/shorts/t4lCAyx6pow
-  Transcript: yes
-
-Renaissance Periodization: Peanut Butter Is NOT Protein 💔
-  https://www.youtube.com/shorts/PgvGHfrYYoM
-  Transcript: yes
-
-Renaissance Periodization: Your Protein Bar Might Be Candy
-  https://www.youtube.com/shorts/mAVH8VILE_c
-  Transcript: yes
-
-Renaissance Periodization: Your Back Will Never Be Huge Without These 4 Movements
-  https://www.youtube.com/watch?v=Ud-BuDzBymI
-  Transcript: yes
-
-Renaissance Periodization: Diet Soda Over Regular Soda. Period.
-  https://www.youtube.com/shorts/tPftND-aNVg
-  Transcript: yes
-
-Renaissance Periodization: Egg Whites - A Huge Dieting Hack!
-  https://www.youtube.com/shorts/LQXhb5DbcaA
-  Transcript: yes
-
-Andrew Huberman: Understanding & Controlling Aggression | Huberman Lab Essentials
-  https://www.youtube.com/watch?v=916vhhUsmgE
-  Transcript: yes
-
-Andrew Huberman: Master Self Control & Overcome Procrastination | Dr. Kentaro Fujita
-  https://www.youtube.com/watch?v=e89rVf4Pf0k
-  Transcript: yes
-
-ThinkingPoker: Bankroll Management - Thinking Poker
-  https://www.youtube.com/watch?v=6w8amkDkeVw
-  Transcript: yes
-
-Mind The Game: LeBron's motivation was deeper than wins and losses.
-  https://www.youtube.com/shorts/j8LrU1E0h78
-  Transcript: yes
-
-Mind The Game: LeBron Shares Why Bronny Motivates Him to Keep Playing
-  https://www.youtube.com/watch?v=7qunA1NdKqc
-  Transcript: yes
-
-Mind The Game: LeBron's adaptability has proven why he’s stood the test of time. Tap into the new episode out now!
-  https://www.youtube.com/shorts/kl0IpP7XDBw
-  Transcript: yes
-
-Mind The Game: Luke is reaping the benefits of being ready when his number’s called.Presented by @DraftKings #ad
-  https://www.youtube.com/shorts/lpuJYlXinD8
-  Transcript: yes
-
-Mind The Game: Father Time never stood a chance against LeBron. 👑
-  https://www.youtube.com/shorts/uEqN7ayVQZs
-  Transcript: yes
-
 Ben Felix: Using Your Money To Be Happier
   https://www.youtube.com/watch?v=S9InNdQhFwc
   Transcript: yes
