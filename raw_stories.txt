@@ -1,96 +1,99 @@
 === HACKER NEWS ===
-1. [250 pts] GenCAD
-   https://gencad.github.io/
+1. [263 pts] The last six months in LLMs in five minutes
+   https://simonwillison.net/2026/May/19/5-minute-llms/
 
-2. [27 pts] Why bambu_networking violates the AGPL in Bambu Studio
-   https://github.com/jarczakpawel/OrcaSlicer-bambulab/blob/main/bambu_agpl.md
+2. [48 pts] Codex-maxxing
+   https://jxnl.co/writing/2026/05/10/codex-maxxing/
 
-3. [114 pts] Ask an Astronaut: 333 hours of Q&A footage with astronauts
-   https://askanastronaut.issinrealtime.org/
+3. [272 pts] Click (2016)
+   https://clickclickclick.click/
 
-4. [316 pts] I turned a $80 RK3562 Android tablet into a Debian Linux workstation
-   https://github.com/tech4bot/rk3562deb
+4. [45 pts] Turn your Android phone into a ham radio transceiver
+   https://www.kv4p.com/
 
-5. [110 pts] Prolog Coding Horror
-   https://www.metalevel.at/prolog/horror
+5. [79 pts] Anyone on the Internet Can Ring Your Doorbell
+   https://www.abgeo.dev/blog/anyone-can-ring-your-doorbell
 
-6. [284 pts] Show HN: Semble – Code search for agents that uses 98% fewer tokens than grep
-   https://github.com/MinishLab/semble
+6. [21 pts] PyTorch Landscape
+   https://pytorch.landscape2.io
 
-7. [106 pts] Jank now has its own custom IR
-   https://jank-lang.org/blog/2026-05-08-optimization/
+7. [30 pts] Peter Neumann has died
+   https://www.tuhs.org/pipermail/tuhs/2026-May/033748.html
 
-8. [97 pts] WriteUp: 16 Bytes of x86 that turn Matrix rain into sound
-   https://hellmood.111mb.de//wake_up_16b_writeup.html
+8. [193 pts] Pope Leo XIV’s first encyclical Magnifica humanitas to be published May 25
+   https://www.vaticannews.va/en/pope/news/2026-05/pope-leo-xiv-first-encyclical-magnifica-humanitas.html
 
-9. [24 pts] Crystals found inside wreckage from the first nuclear bomb test
-   https://www.scientificamerican.com/article/strange-crystals-found-inside-wreckage-from-the-first-nuclear-bomb-test/
+9. [90 pts] Regex Chess: A 2-ply minimax chess engine in 84,688 regular expressions
+   https://nicholas.carlini.com/writing/2025/regex-chess.html
 
-10. [178 pts] Two EA-18 fighter jets collide at Mountain Home airshow, pilots ejected safely
-   https://idahonews.com/news/local/two-f-18-fighter-jets-have-crashed-during-an-airshow-at-mountain-home-air-force-base
+10. [421 pts] Anthropic acquires Stainless
+   https://www.anthropic.com/news/anthropic-acquires-stainless
 
-11. [18 pts] Show HN: Mezz, a curl-able WiFi sandbox for IoT pentesting
-   https://github.com/ABGEO/mezz
+11. [103 pts] Cursor Introduces Composer 2.5
+   https://cursor.com/blog/composer-2-5
 
-12. [44 pts] A Good Lemma Is Worth a Thousand Theorems (2007)
-   https://sites.math.rutgers.edu/~zeilberg/Opinion82.html
+12. [135 pts] 1024000^2 Blocks, 2B2T Minecraft Server World Download Project, and Discoveries
+   https://github.com/2b2tplace/1m_release
 
-13. [232 pts] Tesla Solar Roof is on life support as it pivot to panels
-   https://electrek.co/2026/05/14/tesla-solar-roof-promise-vs-reality-pivot-panels/
+13. [457 pts] We stopped AI bot spam in our GitHub repo using Git's –author flag
+   https://archestra.ai/blog/only-responsible-ai
 
-14. [192 pts] Hindenburg’s Smoking Room
-   https://www.airships.net/hindenburg-smoking-room/
+14. [6 pts] Make ZIP files smaller with ZIP Shrinker
+   https://evanhahn.com/make-zip-files-smaller-with-zip-shrinker/
 
-15. [175 pts] CUDA Books
-   https://github.com/alternbits/awesome-cuda-books
+15. [126 pts] Show HN: Number Gacha, a gacha game distilled to its essence
+   https://isabisabel.com/gacha/
 
-16. [244 pts] Prolog Basics Explained with Pokémon
-   https://unplannedobsolescence.com/blog/prolog-basics-pokemon/
+16. [150 pts] Hyperpolyglot Lisp: Common Lisp, Racket, Clojure, Emacs Lisp
+   https://hyperpolyglot.org/lisp
 
-17. [100 pts] Magical Realism: “Northern Exposure” 25 Years Later (2015)
-   https://www.rogerebert.com/streaming/magical-realism-nothern-exposure-25-years-later
+17. [106 pts] Peter Salus has died
+   https://www.tuhs.org/pipermail/tuhs/2026-May/033750.html
 
-18. [17 pts] Étienne Ghys: The Shape of Letters: From Leonardo da Vinci to Donald Knuth
-   https://www.youtube.com/watch?v=1OIxzewWilc
+18. [232 pts] We let AIs run radio stations
+   https://andonlabs.com/blog/andon-fm
 
-19. [557 pts] I don't think AI will make your processes go faster
-   https://frederickvanbrabant.com/blog/2026-05-15-i-dont-think-ai-will-make-your-processes-go-faster/
+19. [49 pts] When can the C++ compiler devirtualize a call?
+   https://quuxplusone.github.io/blog/2021/02/15/devirtualization/
 
-20. [5 pts] Profunctor Equipment in Haskell
-   https://bartoszmilewski.com/2026/05/16/profunctor-equipment-in-haskell/
+20. [15 pts] Show HN: Hsrs – Type-Safe Haskell Bindings Generator for Rust
+   https://github.com/harmont-dev/hsrs
 
-21. [60 pts] Cannibalistic attacks between gray seals leave telltale “corkscrew” injuries
-   https://www.science.org/content/article/scientists-id-corkscrew-killer-behind-gruesome-seal-deaths
+21. [3 pts] Polypad
+   https://polypad.amplify.com/
 
-22. [130 pts] High-Entropy Alloy
-   https://en.wikipedia.org/wiki/High-entropy_alloy
+22. [4 pts] Show HN: I built a sovereign OS, L1 blockchain, AI agent, and language
+   https://github.com/Ionablokchain
 
-23. [92 pts] Trials on veterans suggest ibogaine could provide a new treatment for PTSD
-   https://www.bbc.com/future/article/20260514-how-hallucinogenic-ibogaine-helps-veterans-overcome-ptsd
+23. [201 pts] AI eats the world (Spring 26) [pdf]
+   https://static1.squarespace.com/static/50363cf324ac8e905e7df861/t/6a0af5d0484fbf5fe9a7743e/1779103184855/2026-Spring-AI.pdf
 
-24. [147 pts] VoIP brings back old-fashioned pay phones to rural Vermont (2025)
-   https://spectrum.ieee.org/payphone-voip
+24. [3 pts] Mug Shots: A Small Town Noir (2014)
+   https://theappendix.net/issues/2014/4/mug-shots-a-small-town-noir
 
-25. [186 pts] Mercurial, 20 years and counting: how are we still alive and kicking? [video]
-   https://fosdem.org/2026/schedule/event/AGWUVH-mercurial-aint-you-dead-yet/
+25. [908 pts] Elon Musk has lost his lawsuit against Sam Altman and OpenAI
+   https://techcrunch.com/2026/05/18/elon-musk-has-lost-his-lawsuit-against-sam-altman-and-openai/
 
-26. [92 pts] The History of ThinkPad: From IBM’s Bento Box to Lenovo’s AI Workstations
-   https://www.jdhodges.com/blog/thinkpad-history/
+26. [195 pts] Two computers, one monitor, zero fiddling (2025)
+   https://alexplescan.com/posts/2025/08/16/kvm/
 
-27. [333 pts] A nicer voltmeter clock
-   https://lcamtuf.substack.com/p/a-nicer-voltmeter-clock
+27. [7 pts] LLMCap – A proxy that hard-stops LLM API calls when you hit a dollar cap
+   https://www.llmcap.io/
 
-28. [229 pts] Colossus: The Forbin Project
-   https://en.wikipedia.org/wiki/Colossus:_The_Forbin_Project
+28. [47 pts] Alignment pretraining: AI discourse creates self-fulfilling (mis)alignment
+   https://arxiv.org/abs/2601.10160
 
-29. [702 pts] Mozilla to UK regulators: VPNs are essential privacy and security tools
-   https://blog.mozilla.org/netpolicy/2026/05/15/mozilla-to-uk-regulators-vpns-are-essential-privacy-and-security-tools-and-should-not-be-undermined/
+29. [16 pts] Why is it called Kent House?
+   https://diamondgeezer.blogspot.com/2026/05/kent-house.html
 
-30. [20 pts] The SGI Buyer's Guide (2003)
-   https://hardware.majix.org/computers/sgi/buyers-guide.shtml
+30. [102 pts] Agora-1: The Multi-Agent World Model
+   https://odyssey.ml/introducing-agora-1
 
 
 === RSS ===
+[ai] Anthropic News: Anthropic acquires Stainless
+  https://www.anthropic.com/news/anthropic-acquires-stainless
+
 [ai] Anthropic News: Anthropic forms $200 million partnership with the Gates Foundation
   https://www.anthropic.com/news/gates-foundation-partnership
 
@@ -103,29 +106,11 @@
 [ai] Anthropic News: Higher usage limits for Claude and a compute deal with SpaceX
   https://www.anthropic.com/news/higher-limits-spacex
 
-[ai] Anthropic News: Agents for financial services
-  https://www.anthropic.com/news/finance-agents
+[ai] Simon Willison: The last six months in LLMs in five minutes
+  https://simonwillison.net/2026/May/19/5-minute-llms/#atom-everything
 
-[ideas] Stratechery: 2026.20: Shifting Alliances in a Changing World
-  https://stratechery.com/2026/shifting-alliances-in-a-changing-world/
-
-[ideas] Astral Codex Ten: The Sigmoids Won't Save You
-  https://www.astralcodexten.com/p/the-sigmoids-wont-save-you
-
-[health] Peter Attia: #392 – Genetic testing: when it’s valuable, how to choose the right test, and what to do with the results
-  https://peterattiamd.com/genetictesting/
-
-[health] Peter Attia: A critical look at ultra-processed diets and male reproductive health
-  https://peterattiamd.com/ultra-processed-diets-and-reproductive-health/
-
-[wisdom] Donald Robertson: Live: "How to do Stoic Therapy" - Conversations with Modern Stoicism
-  https://donaldrobertson.substack.com/p/live-how-to-do-stoic-therapy-conversations
-
-[wisdom] Donald Robertson: Join us today for "How to do Stoic Therapy"
-  https://donaldrobertson.substack.com/p/join-us-today-for-how-to-do-stoic
-
-[wisdom] Donald Robertson: Announcing: How to do Stoic Therapy
-  https://donaldrobertson.substack.com/p/announcing-how-to-do-stoic-therapy
+[ai] Simon Willison: Glaucous-winged Gull, Brown Pelican, Snowy Egret, Canada Goose
+  https://simonwillison.net/2026/May/18/sighting-362781627/#atom-everything
 
 [ai] Simon Willison: GDS weighs in on the NHS's decision to retreat from Open Source
   https://simonwillison.net/2026/May/17/gds-weighs-in/#atom-everything
@@ -136,56 +121,20 @@
 [ai] Simon Willison: Quoting Julia Evans
   https://simonwillison.net/2026/May/16/julia-evans/#atom-everything
 
-[ai] Simon Willison: inaturalist-clumper 0.1
-  https://simonwillison.net/2026/May/15/inaturalist-clumper/#atom-everything
+[ideas] Paul Graham: The Brand Age
+  https://paulgraham.com/brandage.html
 
-[ai] Simon Willison: Western Gull, Rock Pigeon
-  https://simonwillison.net/2026/May/15/sighting-361818285/#atom-everything
+[bitcoin] The Pomp Letter: History Says AI Could Be In A Bubble, But The Best Investors Are Not Selling
+  https://pomp.substack.com/p/history-says-ai-could-be-in-a-bubble
 
 [bitcoin] The Pomp Letter: My Current Thoughts On Financial Markets
   https://pomp.substack.com/p/my-current-thoughts-on-financial
 
-[bitcoin] Bitcoin Magazine: Bitcoin Open Heads to Iconic Glen Abbey Golf Club for June 8, 2026 Event
-  https://bitcoinmagazine.com/culture/bitcoin-open-heads-to-iconic-glen-abbey-golf-club-for-june-8-2026-event
+[ideas] Stratechery: Data Center Discontent, Understanding the Opposition, Fixing the Problem
+  https://stratechery.com/2026/data-center-discontent-understanding-the-opposition-fixing-the-problem/
 
-[bitcoin] Bitcoin Magazine: Abu Dhabi’s Mubadala Raises Bitcoin ETF Stake 16% to $566 Million in Q1 2026
-  https://bitcoinmagazine.com/news/abu-dhabis-mubadala-raises-bitcoin-stake
-
-[bitcoin] Bitcoin Magazine: Gemini Stock Jumps After Winklevoss Twins Make $100M Bitcoin Bet on Company Future
-  https://bitcoinmagazine.com/news/gemini-stock-jumps-after-winklevoss-twins
-
-[bitcoin] Bitcoin Magazine: The Trump Family Trust Bought Bitcoin-Linked Stocks in First Quarter: Filing
-  https://bitcoinmagazine.com/news/trump-trust-bought-bitcoin-linked-stocks
-
-[bitcoin] Bitcoin Magazine: DMND and RootstockLabs Partner To Bring Stratum V2 To Merge-mining
-  https://bitcoinmagazine.com/news/dmnd-and-rootstocklabs-partner-to-bring-stratum-v2-to-merge-mining
-
-[bitcoin] Bitcoin Magazine: Strategy (MSTR) Files to Repurchase $1.5B in 2029 Convertible Notes as STRC Hits Record $1.53B Daily Volume
-  https://bitcoinmagazine.com/news/strategy-mstr-files-to-repurchase-1-5b
-
-[bitcoin] Bitcoin Magazine: Poland Passes Crypto Bill as Fraud Probe Deepens Political Divide
-  https://bitcoinmagazine.com/news/poland-passes-crypto-bill-as-fraud
-
-[ideas] Paul Graham: The Brand Age
-  https://paulgraham.com/brandage.html
-
-[ai] OpenAI Blog: OpenAI and Malta partner to bring ChatGPT Plus to all citizens
-  https://openai.com/index/malta-chatgpt-plus-partnership
-
-[ideas] Marginal Revolution: What else is special about southeastern Michigan? (from my email)
-  https://marginalrevolution.com/marginalrevolution/2026/05/what-else-is-special-about-southeastern-michigan-from-my-email.html?utm_source=rss&utm_medium=rss&utm_campaign=what-else-is-special-about-southeastern-michigan-from-my-email
-
-[ideas] Marginal Revolution: Why I am skeptical on the relationship between smart phones and fertility
-  https://marginalrevolution.com/marginalrevolution/2026/05/why-i-am-skeptical-on-the-relationship-between-smart-phones-and-fertility.html?utm_source=rss&utm_medium=rss&utm_campaign=why-i-am-skeptical-on-the-relationship-between-smart-phones-and-fertility
-
-[ideas] Marginal Revolution: Sunday assorted links
-  https://marginalrevolution.com/marginalrevolution/2026/05/sunday-assorted-links-567.html?utm_source=rss&utm_medium=rss&utm_campaign=sunday-assorted-links-567
-
-[ideas] Marginal Revolution: Dwarkesh in the Datacenter
-  https://marginalrevolution.com/marginalrevolution/2026/05/dwarkesh-in-the-datacenter.html?utm_source=rss&utm_medium=rss&utm_campaign=dwarkesh-in-the-datacenter
-
-[ideas] Marginal Revolution: “Is the scientific enterprise too risk-averse?”
-  https://marginalrevolution.com/marginalrevolution/2026/05/is-the-scientific-enterprise-too-risk-averse.html?utm_source=rss&utm_medium=rss&utm_campaign=is-the-scientific-enterprise-too-risk-averse
+[ideas] Astral Codex Ten: Open Thread 434
+  https://www.astralcodexten.com/p/open-thread-434
 
 [wisdom] Figs in Winter (Pigliucci): How to Be a (Happy) Skeptic: my new book, one month out
   https://figsinwintertime.substack.com/p/how-to-be-a-happy-skeptic-my-new
@@ -196,120 +145,59 @@
 [wisdom] Figs in Winter (Pigliucci): Eugenics: bad science, bad ethics, or both?
   https://figsinwintertime.substack.com/p/eugenics-bad-science-bad-ethics-or
 
+[wisdom] Donald Robertson: Live: "How to do Stoic Therapy" - Conversations with Modern Stoicism
+  https://donaldrobertson.substack.com/p/live-how-to-do-stoic-therapy-conversations
+
+[wisdom] Donald Robertson: Join us today for "How to do Stoic Therapy"
+  https://donaldrobertson.substack.com/p/join-us-today-for-how-to-do-stoic
+
+[wisdom] Donald Robertson: Announcing: How to do Stoic Therapy
+  https://donaldrobertson.substack.com/p/announcing-how-to-do-stoic-therapy
+
+[ai] OpenAI Blog: OpenAI and Dell partner to bring Codex to hybrid and on-premise enterprise environments
+  https://openai.com/index/dell-codex-enterprise-partnership
+
 [health] Stronger by Science: Hold Still: What Does the Evidence Actually Say About Isometric Training for Strength and Hypertrophy?
   https://www.strongerbyscience.com/isometric-training/
 
+[bitcoin] Bitcoin Magazine: White House Says Strategic Bitcoin Reserve Announcement Is Imminent: ‘A Breakthrough’
+  https://bitcoinmagazine.com/news/white-house-strategic-bitcoin-reserve
+
+[bitcoin] Bitcoin Magazine: Standard Chartered to Absorb Zodia Custody’s Core Business in Digital Asset Consolidation
+  https://bitcoinmagazine.com/news/standard-chartered-to-absorb-zodia-custody
+
+[bitcoin] Bitcoin Magazine: Capital B Acquires 192 Bitcoin for €13 Million, Pushes Total Holdings to 3,135 BTC
+  https://bitcoinmagazine.com/news/capital-b-acquires-192-bitcoin-for-13
+
+[bitcoin] Bitcoin Magazine: Bitcoin Depot (BTM) Stock Falls 80% As Company Files for Chapter 11 Bankruptcy
+  https://bitcoinmagazine.com/news/bitcoin-depot-btm-files-for-chapter-11
+
+[bitcoin] Bitcoin Magazine: Iran Launches Bitcoin-Backed Insurance Service for Strait of Hormuz Shipping, Eyes $10B In Revenue
+  https://bitcoinmagazine.com/news/iran-launches-bitcoin-backed-service
+
+[bitcoin] Bitcoin Magazine: Strategy (MSTR) Spends A Massive $2 Billion on More Bitcoin, Lifts Holdings to 843,738 BTC
+  https://bitcoinmagazine.com/news/strategy-spends-a-massive-2-billion
+
+[health] Peter Attia: #392 – Genetic testing: when it’s valuable, how to choose the right test, and what to do with the results
+  https://peterattiamd.com/genetictesting/
+
+[health] Peter Attia: A critical look at ultra-processed diets and male reproductive health
+  https://peterattiamd.com/ultra-processed-diets-and-reproductive-health/
+
+[ideas] Marginal Revolution: “Wokeness has peaked. What followed is worse.”
+  https://marginalrevolution.com/marginalrevolution/2026/05/wokeness-has-peaked-what-followed-is-worse.html?utm_source=rss&utm_medium=rss&utm_campaign=wokeness-has-peaked-what-followed-is-worse
+
+[ideas] Marginal Revolution: Monday assorted links
+  https://marginalrevolution.com/marginalrevolution/2026/05/monday-assorted-links-560.html?utm_source=rss&utm_medium=rss&utm_campaign=monday-assorted-links-560
+
+[ideas] Marginal Revolution: Who is losing out in marriage market competition?
+  https://marginalrevolution.com/marginalrevolution/2026/05/who-is-losing-out-in-marriage-market-competition.html?utm_source=rss&utm_medium=rss&utm_campaign=who-is-losing-out-in-marriage-market-competition
+
+[ideas] Marginal Revolution: What else is special about southeastern Michigan? (from my email)
+  https://marginalrevolution.com/marginalrevolution/2026/05/what-else-is-special-about-southeastern-michigan-from-my-email.html?utm_source=rss&utm_medium=rss&utm_campaign=what-else-is-special-about-southeastern-michigan-from-my-email
+
+[ideas] Marginal Revolution: Why I am skeptical on the relationship between smart phones and fertility
+  https://marginalrevolution.com/marginalrevolution/2026/05/why-i-am-skeptical-on-the-relationship-between-smart-phones-and-fertility.html?utm_source=rss&utm_medium=rss&utm_campaign=why-i-am-skeptical-on-the-relationship-between-smart-phones-and-fertility
+
 
 === YOUTUBE ===
-GTO Wizard: This Changes PLO Forever
-  https://www.youtube.com/shorts/ICKfPk65Di4
-  Transcript: NO
-
-Anthony Chaffee MD: This Is The Optimal Human Diet
-  https://www.youtube.com/shorts/5_Icpn2mbpw
-  Transcript: yes
-
-Ken Berry MD: Why Community is EVERYTHING! with Courtney Luna
-  https://www.youtube.com/watch?v=zMdlb8VMFBE
-  Transcript: yes
-
-Joe Rogan: Joe Rogan Experience #2500 - Scott Horton
-  https://www.youtube.com/watch?v=KBNfvk5Ali0
-  Transcript: yes
-
-Nick Norwitz: The Mitochondrial Hormone Everyone’s Talking About (MOTS-c)
-  https://www.youtube.com/shorts/RWn9EfxzMPg
-  Transcript: yes
-
-Paul Saladino MD: The best food for babies?
-  https://www.youtube.com/shorts/NRmkiHiqPdo
-  Transcript: yes
-
-Paul Saladino MD: My favorite grilling hacks
-  https://www.youtube.com/shorts/SECWcqlxeew
-  Transcript: yes
-
-GTO Lab: A very common emotion that poker players suffer from at some point.
-  https://www.youtube.com/shorts/wVLjIVNgcyI
-  Transcript: yes
-
-Jared Alderman: The Simple Things That Cost Players BIG In Live Poker
-  https://www.youtube.com/watch?v=BGVkY_hI0qE
-  Transcript: yes
-
-Lex Fridman: FFmpeg: The Incredible Technology Behind Video on the Internet | Lex Fridman Podcast #496
-  https://www.youtube.com/watch?v=nepKKz-MzFM
-  Transcript: yes
-
-Dr. Sten Ekberg: Why Belly Fat Changes After 50
-  https://www.youtube.com/watch?v=xivHL3Eo4oc
-  Transcript: yes
-
-Renaissance Periodization: Why The Carnivore Diet Rarely Works
-  https://www.youtube.com/shorts/h23ZBzLPYUo
-  Transcript: yes
-
-Renaissance Periodization: What’s The BEST Kind of Whey Protein?
-  https://www.youtube.com/shorts/ccnn_n-1J9M
-  Transcript: yes
-
-Renaissance Periodization: Cardio on Rest Days - Good Idea?
-  https://www.youtube.com/shorts/9L2PQxHKZqo
-  Transcript: yes
-
-ModernWisdom: Suffering Informs The Meaning Of Your Life
-  https://www.youtube.com/shorts/vEUEVD8sNjk
-  Transcript: yes
-
-ModernWisdom: What Real Masculinity Looks Like
-  https://www.youtube.com/shorts/lEpkoORTy-U
-  Transcript: yes
-
-ModernWisdom: “Something Funny Happens When You Stop Needing Women” - Mark Manson
-  https://www.youtube.com/watch?v=9dfGSy2WhVY
-  Transcript: yes
-
-ModernWisdom: Hard Work Brings Proof To Confidence
-  https://www.youtube.com/shorts/0i_8sfa9bIM
-  Transcript: yes
-
-ModernWisdom: The Hidden Cost Of Beauty
-  https://www.youtube.com/shorts/yTsb7yk7HyU
-  Transcript: yes
-
-ModernWisdom: The Health Crisis Of Office Jobs - Bob King
-  https://www.youtube.com/watch?v=FVT-Eqq9uVY
-  Transcript: yes
-
-Peter Attia: Is Industrial Processing the Real Problem With Seed Oils? | Layne Norton, Ph.D.
-  https://www.youtube.com/watch?v=Tsqzx3L6UWs
-  Transcript: yes
-
-ThinkingPoker: Bankroll Management - Thinking Poker
-  https://www.youtube.com/watch?v=6w8amkDkeVw
-  Transcript: yes
-
-Thomas DeLauer: This Shrinks Fat Cells 41% While You Sleep (instead of burning carbs)
-  https://www.youtube.com/watch?v=lyDyW2sSE_E
-  Transcript: yes
-
-Thomas DeLauer: Everything About Caffeine is Changing, Here’s 8 New Studies that Prove it
-  https://www.youtube.com/watch?v=cIKaPNPo8Pk
-  Transcript: yes
-
-Thomas DeLauer: 1 Cup Makes You Sleep Harder, Lowers Cortisol and Replaces Alcohol
-  https://www.youtube.com/watch?v=xdvE4pHkSMU
-  Transcript: yes
-
-Andrew Huberman: Understanding & Controlling Aggression | Huberman Lab Essentials
-  https://www.youtube.com/watch?v=916vhhUsmgE
-  Transcript: yes
-
-Ben Felix: Using Your Money To Be Happier
-  https://www.youtube.com/watch?v=S9InNdQhFwc
-  Transcript: yes
-
-Mind The Game: LeBron's motivation was deeper than wins and losses.
-  https://www.youtube.com/shorts/j8LrU1E0h78
-  Transcript: yes
-
