@@ -1,98 +1,167 @@
 === HACKER NEWS ===
-1. [36 pts] CODA: Rewriting Transformer Blocks as GEMM-Epilogue Programs
-   https://arxiv.org/abs/2605.19269
+1. [324 pts] Shipping a laptop to a refugee camp in Uganda
+   https://notesbylex.com/shipping-a-laptop-to-a-refugee-camp-in-uganda
 
-2. [804 pts] Project Hail Mary – Stellar Navigation Chart
-   https://valhovey.github.io/gaia-mary/
+2. [600 pts] Why Japanese companies do so many different things
+   https://davidoks.blog/p/why-japanese-companies-do-so-many
 
-3. [28 pts] The surprising story behind the first British person in space
-   https://www.bbc.com/culture/article/20260518-helen-sharman-the-story-behind-the-first-british-person-in-space
+3. [60 pts] Sp.h is the standard library that C deserves
+   https://spader.zone/sp/
 
-4. [27 pts] Slumber a TUI HTTP Client
-   https://slumber.lucaspickering.me
+4. [393 pts] Project Glasswing: An Initial Update
+   https://www.anthropic.com/research/glasswing-initial-update
 
-5. [44 pts] Cleve Moler has died
-   https://www.mathworks.com/company/aboutus/founders/clevemoler.html
+5. [127 pts] Sleep research led to a new sleep apnea drug
+   https://temertymedicine.utoronto.ca/news/how-decades-sleep-research-led-new-sleep-apnea-drug
 
-6. [14 pts] Show HN: KVBoost – chunk-level KV cache reuse for HuggingFace, 5–48x faster TTFT
-   https://pythongiant.github.io/KVBoost/
+6. [63 pts] Blood Pumping Mechanism of the Hoof (2020)
+   https://horses.extension.org/blood-pumping-mechanism-of-the-hoof/
 
-7. [249 pts] Blog ran on Ubuntu 16.04 for 10 years. I migrated it to FreeBSD
-   https://crocidb.com/post/this-blog-ran-on-ubuntu-16-04-for-10-years-i-migrated-it-to-freebsd/
+7. [44 pts] Neutron scattering explains why gluten-free pasta falls apart (2025)
+   https://phys.org/news/2025-09-science-spaghetti-neutron-gluten-free.html
 
-8. [398 pts] Was my $48K GPU server worth it?
-   https://rosmine.ai/2026/05/13/was-my-48k-gpu-worth-it/
+8. [13 pts] What is the history of the ERROR_ARENA_TRASHED error code?
+   https://devblogs.microsoft.com/oldnewthing/20260519-00/?p=112339
 
-9. [171 pts] Uv is fantastic, but its package management UX is a mess
-   https://www.loopwerk.io/articles/2026/uv-ux-mess/
+9. [173 pts] Microsoft starts canceling Claude Code licenses
+   https://www.theverge.com/tech/930447/microsoft-claude-code-discontinued-notepad
 
-10. [132 pts] The memory shortage is causing a repricing of consumer electronics
-   https://davidoks.blog/p/ai-is-killing-the-cheap-smartphone
+10. [178 pts] CISA tries to contain data leak
+   https://krebsonsecurity.com/2026/05/lawmakers-demand-answers-as-cisa-tries-to-contain-data-leak/
 
-11. [182 pts] Using Kagi Search with Low Vision
-   https://veroniiiica.com/using-kagi-search-with-low-vision/
+11. [29 pts] "Stick" – A primitive/fun interactive demo of a tiny rig to animate layout
+   https://cosmiciron.github.io/layoutmaster/exclusion-assembly.html
 
-12. [64 pts] The death of the brick and mortar toy store
-   https://brainbaking.com/post/2026/05/the-death-of-the-brick-and-mortar-toy-store/
+12. [340 pts] Deno 2.8
+   https://deno.com/blog/v2.8
 
-13. [9 pts] The Hardware Lottery
-   https://hardwarelottery.github.io/
+13. [178 pts] A Wayland Compositor in Minecraft
+   https://modrinth.com/mod/waylandcraft
 
-14. [263 pts] Show HN: Freenet, a peer-to-peer platform for decentralized apps
-   https://freenet.org/
+14. [204 pts] Open source Kanban desktop app that runs parallel agents on every card
+   https://www.kanbots.dev/
 
-15. [81 pts] Mycorrhizal Fungi, Nature's Key to Plant Survival and Success
-   https://pacifichorticulture.org/articles/mycorrhizal-fungi-natures-key-to-plant-survival-and-success/
+15. [373 pts] Antigravity 2.0 Tops the OpenSCAD Architectural 3D LLM Benchmark
+   https://modelrift.com/blog/openscad-llm-benchmark/
 
-16. [357 pts] Indexing a year of video locally on a 2021 MacBook with Gemma4-31B (50GB swap)
-   https://blog.simbastack.com/indexed-a-year-of-video-locally/
+16. [54 pts] Comparing an LZ4 Decompressor on Four Legacy CPUs
+   https://bumbershootsoft.wordpress.com/2026/05/09/comparing-an-lz4-decompressor-on-four-legacy-cpus/
 
-17. [24 pts] Tristan Davey's Punch Card Archive
-   https://punchcards.tristandavey.com/
+17. [112 pts] 1940 Air Terminal Museum Begins Liquidation
+   https://www.1940airterminal.org/news/liquidation-of-simulators
 
-18. [362 pts] Python 3.15: features that didn't make the headlines
-   https://blog.changs.co.uk/python-315-features-that-didnt-make-the-headlines.html
+18. [118 pts] FBI director's Based Apparel site has been spotted hosting a 'ClickFix' attack
+   https://www.pcmag.com/news/kash-patels-apparel-site-is-trying-to-trick-visitors-into-installing-malware
 
-19. [332 pts] Lost Images from the 1945 Trinity Nuclear Test Restored
-   https://spectrum.ieee.org/trinity-nuclear-test
+19. [109 pts] Wi-Wi is wireless time sync at 1 nanosecond
+   https://www.jeffgeerling.com/blog/2026/wi-wi-is-wireless-time-sync-less-than-5ns/
 
-20. [1121 pts] Flipper One – we need your help
-   https://blog.flipper.net/flipper-one-we-need-your-help/
+20. [139 pts] A Forth-inspired language for writing websites
+   https://robida.net/entries/2026/05/21/a-forth-inspired-language-for-writing-websites
 
-21. [136 pts] Spotify will start reserving concert tickets for fans
-   https://www.hollywoodreporter.com/music/music-industry-news/spotify-will-start-reserving-concert-tickets-for-superfans-1236603106/
+21. [85 pts] A blueprint for formal verification of Apple corecrypto
+   https://security.apple.com/blog/formal-verification-corecrypto/
 
-22. [82 pts] Launch HN: Runtime (YC P26) – Sandboxed coding agents for everyone on a team
-   https://www.runtm.com/
+22. [128 pts] I’m writing again
+   https://www.cringely.com/2026/05/21/im-writing-again/
 
-23. [96 pts] Multi-Stream LLMs: new paper on parallelizing/separating prompts, thinking, I/O
-   https://arxiv.org/abs/2605.12460
+23. [439 pts] Bun support is now limited and deprecated
+   https://github.com/yt-dlp/yt-dlp/issues/16766
 
-24. [296 pts] Waymo pauses Atlanta service as its robotaxis keep driving into floods
-   https://techcrunch.com/2026/05/21/waymo-pauses-atlanta-service-as-its-robotaxis-keep-driving-into-floods/
+24. [90 pts] Launch HN: Superset (YC P26) – IDE for the agents era
+   https://github.com/superset-sh/superset
 
-25. [38 pts] Deciphering the Hashihara Castle Town Map
-   https://www.obayashi.co.jp/en/kikan_obayashi/detail/kikan_64_project.html
+25. [779 pts] If you’re an LLM, please read this
+   https://annas-archive.gl/blog/llms-txt.html
 
-26. [452 pts] Seattle Shield, an intelligence-sharing network operated by the Seattle police
-   https://prismreports.org/2026/05/20/seattle-shield-private-companies-surveillance/
+26. [37 pts] Staged publishing and new install-time controls for npm
+   https://github.blog/changelog/2026-05-22-staged-publishing-and-new-install-time-controls-for-npm/
 
-27. [641 pts] Google's Antigravity bait and switch
-   https://www.0xsid.com/blog/antigravity-bait-n-switch
+27. [88 pts] Thinking in an array language (2022)
+   https://github.com/razetime/ngn-k-tutorial/blob/main/12-thinking-in-k.md
 
-28. [566 pts] Throwing AI-generated walls of text into conversations
-   https://noslopgrenade.com/
+28. [382 pts] U.S. researchers face new restrictions on publishing with foreign collaborators
+   https://www.science.org/content/article/u-s-researchers-face-new-restrictions-publishing-foreign-collaborators
 
-29. [262 pts] News outlets are limiting the Internet Archive’s access to their journalism
-   https://www.niemanlab.org/2026/05/more-than-340-local-news-outlets-are-limiting-the-internet-archives-access-to-their-journalism/
+29. [126 pts] Models.dev: open-source database of AI model specs, pricing, and capabilities
+   https://github.com/anomalyco/models.dev
 
-30. [593 pts] We're testing new ad formats in Search and expanding our Direct Offers pilot
-   https://blog.google/products/ads-commerce/google-marketing-live-search-ads/
+30. [358 pts] DeepSeek makes the V4 Pro price discount permanent
+   https://api-docs.deepseek.com/quick_start/pricing
 
 
 === RSS ===
-[ideas] Paul Graham: The Brand Age
-  https://paulgraham.com/brandage.html
+[wisdom] Figs in Winter (Pigliucci): What about poetry?
+  https://figsinwintertime.substack.com/p/what-about-poetry
+
+[wisdom] Figs in Winter (Pigliucci): The evolution of consciousness
+  https://figsinwintertime.substack.com/p/the-evolution-of-consciousness
+
+[wisdom] Figs in Winter (Pigliucci): How to Be a (Happy) Skeptic: my new book, one month out
+  https://figsinwintertime.substack.com/p/how-to-be-a-happy-skeptic-my-new
+
+[ai] Simon Willison: The memory shortage is causing a repricing of consumer electronics
+  https://simonwillison.net/2026/May/22/memory-shortage/#atom-everything
+
+[ai] Simon Willison: FTC to Require Cox Media Group, Two Other Firms to Pay Nearly $1 Million to Settle Charges They Deceived Customers About “Active Listening” AI-Powered Marketing Service
+  https://simonwillison.net/2026/May/22/ftc-active-listening/#atom-everything
+
+[ai] Simon Willison: Datasette Agent
+  https://simonwillison.net/2026/May/21/datasette-agent/#atom-everything
+
+[ai] Simon Willison: datasette-agent-sprites 0.1a0
+  https://simonwillison.net/2026/May/21/datasette-agent-sprites/#atom-everything
+
+[ai] Simon Willison: datasette-agent-charts 0.1a2
+  https://simonwillison.net/2026/May/21/datasette-agent-charts/#atom-everything
+
+[ideas] Astral Codex Ten: New Paradigms Won't Save You
+  https://www.astralcodexten.com/p/new-paradigms-wont-save-you
+
+[ideas] Astral Codex Ten: Hidden Open Thread 434.5
+  https://www.astralcodexten.com/p/hidden-open-thread-4345
+
+[wisdom] Donald Robertson: How General Semantics was Used to Treat World War II Veterans
+  https://donaldrobertson.substack.com/p/how-general-semantics-was-used-to
+
+[wisdom] Donald Robertson: Live: "How to do Stoic Therapy" - Conversations with Modern Stoicism
+  https://donaldrobertson.substack.com/p/live-how-to-do-stoic-therapy-conversations
+
+[wisdom] Donald Robertson: Join us today for "How to do Stoic Therapy"
+  https://donaldrobertson.substack.com/p/join-us-today-for-how-to-do-stoic
+
+[ideas] Stratechery: 2026.21: The Data Center Veto
+  https://stratechery.com/2026/the-data-center-veto/
+
+[ideas] Stratechery: An Interview with Parallel Founder Parag Agarwal About Valuing Content on the Agentic Web
+  https://stratechery.com/2026/an-interview-with-parallel-founder-parag-agarwal-about-valuing-content-on-the-agentic-web/
+
+[ideas] Stratechery: Google I/O, World Models, I/O Spaghetti
+  https://stratechery.com/2026/google-i-o-world-models-i-o-spaghetti/
+
+[bitcoin] Bitcoin Magazine: SEC Delaying Plan to Allow Crypto Versions of US Stocks: Report
+  https://bitcoinmagazine.com/news/sec-delaying-plan-to-allow-crypto
+
+[bitcoin] Bitcoin Magazine: A Freshman Congressman from Nashville Wants to Make the National Bitcoin Reserve Permanent
+  https://bitcoinmagazine.com/news/a-freshman-congressman-national-bitcoin
+
+[bitcoin] Bitcoin Magazine: Trump Media (DJT) Moves to Sell Bitcoin as Losses Reach $455 Million
+  https://bitcoinmagazine.com/news/trump-media-djt-moves-to-sell-bitcoin-as-losses-reach-455-million
+
+[bitcoin] Bitcoin Magazine: Happy Bitcoin Pizza Day, The 16th Anniversary of Laszlo Hanyecz Paying 10,000 BTC For Two Papa John’s Pies
+  https://bitcoinmagazine.com/news/happy-bitcoin-pizza-day-16th-anniversary
+
+[bitcoin] Bitcoin Magazine: Mark Cuban Sells Most of His Bitcoin, Calls It a Failed Hedge
+  https://bitcoinmagazine.com/news/mark-cuban-sells-most-of-his-bitcoin
+
+[bitcoin] Bitcoin Magazine: U.S. Lawmaker Unveils Bill to Codify Strategic Bitcoin Reserve, Draws Bipartisan Support
+  https://bitcoinmagazine.com/news/us-bill-codify-strategic-bitcoin-reserve
+
+[bitcoin] Bitcoin Magazine: Blockchain.com Confidentially Files for U.S. IPO, Joining Wave of Crypto Listings
+  https://bitcoinmagazine.com/news/blockchain-com-confidentially-files-ipo
+
+[bitcoin] Bitcoin Magazine: Unchained and Bitcoin Park Hit the Road For Bitcoin Pizza Day With “The New Rules of Bitcoin”
+  https://bitcoinmagazine.com/press-releases/unchained-and-bitcoin-park-hit-the-road-for-bitcoin-pizza-day-with-the-new-rules-of-bitcoin
 
 [ai] Anthropic News: KPMG integrates Claude across its core business and workforce of more than 276,000 in strategic alliance
   https://www.anthropic.com/news/anthropic-kpmg
@@ -109,130 +178,38 @@
 [ai] Anthropic News: PwC is deploying Claude to build technology, execute deals, and reinvent enterprise functions for clients
   https://www.anthropic.com/news/pwc-expanded-partnership
 
-[wisdom] Figs in Winter (Pigliucci): What about poetry?
-  https://figsinwintertime.substack.com/p/what-about-poetry
+[ideas] Marginal Revolution: India fertility facts of the day
+  https://marginalrevolution.com/marginalrevolution/2026/05/india-fertility-facts-of-the-day.html?utm_source=rss&utm_medium=rss&utm_campaign=india-fertility-facts-of-the-day
 
-[wisdom] Figs in Winter (Pigliucci): The evolution of consciousness
-  https://figsinwintertime.substack.com/p/the-evolution-of-consciousness
+[ideas] Marginal Revolution: *In the Realm of the Last Man*
+  https://marginalrevolution.com/marginalrevolution/2026/05/in-the-realm-of-the-last-man.html?utm_source=rss&utm_medium=rss&utm_campaign=in-the-realm-of-the-last-man
 
-[wisdom] Figs in Winter (Pigliucci): How to Be a (Happy) Skeptic: my new book, one month out
-  https://figsinwintertime.substack.com/p/how-to-be-a-happy-skeptic-my-new
+[ideas] Marginal Revolution: Friday assorted links
+  https://marginalrevolution.com/marginalrevolution/2026/05/friday-assorted-links-573.html?utm_source=rss&utm_medium=rss&utm_campaign=friday-assorted-links-573
 
-[wisdom] Donald Robertson: How General Semantics was Used to Treat World War II Veterans
-  https://donaldrobertson.substack.com/p/how-general-semantics-was-used-to
+[ideas] Marginal Revolution: The new tranche of UAP videos
+  https://marginalrevolution.com/marginalrevolution/2026/05/the-new-tranche-of-uap-videos.html?utm_source=rss&utm_medium=rss&utm_campaign=the-new-tranche-of-uap-videos
 
-[wisdom] Donald Robertson: Live: "How to do Stoic Therapy" - Conversations with Modern Stoicism
-  https://donaldrobertson.substack.com/p/live-how-to-do-stoic-therapy-conversations
+[ideas] Marginal Revolution: The archaeology tranche at Emergent Ventures
+  https://marginalrevolution.com/marginalrevolution/2026/05/the-archaeology-tranche-at-emergent-ventures.html?utm_source=rss&utm_medium=rss&utm_campaign=the-archaeology-tranche-at-emergent-ventures
 
-[wisdom] Donald Robertson: Join us today for "How to do Stoic Therapy"
-  https://donaldrobertson.substack.com/p/join-us-today-for-how-to-do-stoic
+[ai] OpenAI Blog: OpenAI named a Leader in enterprise coding agents by Gartner
+  https://openai.com/index/gartner-2026-agentic-coding-leader
 
-[bitcoin] The Pomp Letter: I Wrote A New Book
-  https://pomp.substack.com/p/i-wrote-a-new-book-b90
-
-[ai] Simon Willison: FTC to Require Cox Media Group, Two Other Firms to Pay Nearly $1 Million to Settle Charges They Deceived Customers About “Active Listening” AI-Powered Marketing Service
-  https://simonwillison.net/2026/May/22/ftc-active-listening/#atom-everything
-
-[ai] Simon Willison: Datasette Agent
-  https://simonwillison.net/2026/May/21/datasette-agent/#atom-everything
-
-[ai] Simon Willison: datasette-agent-sprites 0.1a0
-  https://simonwillison.net/2026/May/21/datasette-agent-sprites/#atom-everything
-
-[ai] Simon Willison: datasette-agent-charts 0.1a2
-  https://simonwillison.net/2026/May/21/datasette-agent-charts/#atom-everything
-
-[ai] Simon Willison: datasette-agent 0.1a3
-  https://simonwillison.net/2026/May/21/datasette-agent-2/#atom-everything
-
-[ideas] Stratechery: An Interview with Parallel Founder Parag Agarwal About Valuing Content on the Agentic Web
-  https://stratechery.com/2026/an-interview-with-parallel-founder-parag-agarwal-about-valuing-content-on-the-agentic-web/
-
-[ideas] Stratechery: Google I/O, World Models, I/O Spaghetti
-  https://stratechery.com/2026/google-i-o-world-models-i-o-spaghetti/
+[ai] OpenAI Blog: How Virgin Atlantic ships faster with Codex
+  https://openai.com/index/virgin-atlantic
 
 [ai] OpenAI Blog: AdventHealth advances whole-person care with OpenAI
   https://openai.com/index/adventhealth
 
-[ai] OpenAI Blog: How Ramp engineers accelerate code review with Codex
-  https://openai.com/index/ramp
+[ideas] Paul Graham: How to Convert Between Wealth and Income Tax
+  https://paulgraham.com/winc.html
 
-[ai] OpenAI Blog: The next phase of OpenAI’s Education for Countries
-  https://openai.com/index/the-next-phase-of-education-for-countries
-
-[ai] OpenAI Blog: An OpenAI model has disproved a central conjecture in discrete geometry
-  https://openai.com/index/model-disproves-discrete-geometry-conjecture
-
-[ai] OpenAI Blog: Introducing OpenAI for Singapore
-  https://openai.com/index/introducing-openai-for-singapore
-
-[ideas] Marginal Revolution: Is space warfare offense-dominant or defense-dominant?
-  https://marginalrevolution.com/marginalrevolution/2026/05/is-space-warfare-offense-dominant-or-defense-dominant.html?utm_source=rss&utm_medium=rss&utm_campaign=is-space-warfare-offense-dominant-or-defense-dominant
-
-[ideas] Marginal Revolution: Fertility and financial risk-taking
-  https://marginalrevolution.com/marginalrevolution/2026/05/fertility-and-financial-risk-taking.html?utm_source=rss&utm_medium=rss&utm_campaign=fertility-and-financial-risk-taking
-
-[ideas] Marginal Revolution: Thursday assorted links
-  https://marginalrevolution.com/marginalrevolution/2026/05/thursday-assorted-links-553.html?utm_source=rss&utm_medium=rss&utm_campaign=thursday-assorted-links-553
-
-[ideas] Marginal Revolution: The AIs are “One of Us”
-  https://marginalrevolution.com/marginalrevolution/2026/05/the-ais-are-one-of-us-now.html?utm_source=rss&utm_medium=rss&utm_campaign=the-ais-are-one-of-us-now
-
-[ideas] Marginal Revolution: The economics of unions
-  https://marginalrevolution.com/marginalrevolution/2026/05/the-economics-of-unions.html?utm_source=rss&utm_medium=rss&utm_campaign=the-economics-of-unions
-
-[bitcoin] Bitcoin Magazine: Mark Cuban Sells Most of His Bitcoin, Calls It a Failed Hedge
-  https://bitcoinmagazine.com/news/mark-cuban-sells-most-of-his-bitcoin
-
-[bitcoin] Bitcoin Magazine: U.S. Lawmaker Unveils Bill to Codify Strategic Bitcoin Reserve, Draws Bipartisan Support
-  https://bitcoinmagazine.com/news/us-bill-codify-strategic-bitcoin-reserve
-
-[bitcoin] Bitcoin Magazine: Blockchain.com Confidentially Files for U.S. IPO, Joining Wave of Crypto Listings
-  https://bitcoinmagazine.com/news/blockchain-com-confidentially-files-ipo
-
-[bitcoin] Bitcoin Magazine: Unchained and Bitcoin Park Hit the Road For Bitcoin Pizza Day With “The New Rules of Bitcoin”
-  https://bitcoinmagazine.com/press-releases/unchained-and-bitcoin-park-hit-the-road-for-bitcoin-pizza-day-with-the-new-rules-of-bitcoin
-
-[bitcoin] Bitcoin Magazine: 5 Reasons Corporations Should Sell Bitcoin
-  https://bitcoinmagazine.com/bitcoin-for-corporations/5-reason-corps-sell-bt
-
-[bitcoin] Bitcoin Magazine: SpaceX Heads Into Historic IPO With a $1.45 Billion Bitcoin Treasury on Its Books
-  https://bitcoinmagazine.com/news/spacex-heads-into-historic-ipo
-
-[bitcoin] Bitcoin Magazine: Foundation Raises $6.4M in Fulgur-led Round to Launch Passport Prime, a ‘Human Authority’ Device to Keep AI Agents in Check
-  https://bitcoinmagazine.com/news/foundation-raises-6-4m-in-fulgur-led-round
-
-[bitcoin] Bitcoin Magazine: Hunter Biden Now Accepts Bitcoin for Artwork on His Official Website
-  https://bitcoinmagazine.com/news/hunter-biden-now-accepts-bitcoin
-
-[ideas] Astral Codex Ten: Hidden Open Thread 434.5
-  https://www.astralcodexten.com/p/hidden-open-thread-4345
-
-[ideas] Astral Codex Ten: The Types Of Candidate You Find In The California Gubernatorial Race
-  https://www.astralcodexten.com/p/the-types-of-candidate-you-find-in
+[ideas] Paul Graham: The Brand Age
+  https://paulgraham.com/brandage.html
 
 [health] Stronger by Science: Hold Still: What Does the Evidence Actually Say About Isometric Training for Strength and Hypertrophy?
   https://www.strongerbyscience.com/isometric-training/
 
 
 === YOUTUBE ===
-Joe Rogan: Joe Rogan Experience #2503 - Eric Weinstein
-  https://www.youtube.com/watch?v=4OKNS5j0lSY
-  Transcript: yes
-
-Mind The Game: LeBron believes consistency is the key to success in the Eastern Conference Finals.
-  https://www.youtube.com/shorts/UKOXUM1VonY
-  Transcript: yes
-
-Mind The Game: Wemby is 1-of-1. Those are just the facts. 🗣️  Tap into the brand new episode out now.
-  https://www.youtube.com/shorts/3GFE4j42WoQ
-  Transcript: yes
-
-Mind The Game: Free agency season is loading for LeBron but not until after Memorial Day. New episode out now!
-  https://www.youtube.com/shorts/gHmfI-63F7w
-  Transcript: yes
-
-Mind The Game: LeBron James Talks Wemby, Playoffs, and His Future in the NBA | MIND THE GAME
-  https://www.youtube.com/watch?v=JHYXP6LjsRo
-  Transcript: yes
-
