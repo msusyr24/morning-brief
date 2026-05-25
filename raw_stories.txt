@@ -1,114 +1,96 @@
 === HACKER NEWS ===
-1. [113 pts] Amazon Web Services – Four Years and Out
-   https://www.adventuresinoss.com/aws-four-years/
+1. [122 pts] Jira Is Turing-Complete
+   https://seriot.ch/computation/jira.html
 
-2. [172 pts] Microsoft open-sources "the earliest DOS source code discovered to date"
+2. [75 pts] Didgeridoo playing as alternative treatment for obstructive sleep apnea(2006)
+   https://pmc.ncbi.nlm.nih.gov/articles/PMC1360393/
+
+3. [331 pts] Show HN: Audiomass – a free, open-source multitrack audio editor for the web
+   https://audiomass.co/?multitrack=1
+
+4. [51 pts] I love my Bluetooth keyboard
+   https://liquidbrain.net/blog/i-love-my-bluetooth-keyboard/
+
+5. [537 pts] DeepSeek reasonix, DeepSeek native coding agent with high caching and low cost
+   https://esengine.github.io/DeepSeek-Reasonix/
+
+6. [238 pts] Migrating from Go to Rust
+   https://corrode.dev/learn/migration-guides/go-to-rust/
+
+7. [81 pts] White Rabbit – sub-nanosecond synchronization for large distributed systems
+   https://ohwr.org/projects/white-rabbit/
+
+8. [75 pts] Bug 1950764: Work Around Crash on Intel Raptor Lake CPU
+   https://phabricator.services.mozilla.com/D301917
+
+9. [149 pts] A fundamental principle of aeronautical engineering has been overturned
+   https://www.wired.com/story/a-fundamental-principle-of-aeronautical-engineering-has-been-overturned/
+
+10. [48 pts] C constructs that still don't work in C++
+   https://lospino.so/blog/c-constructs-that-still-dont-work-in-cpp/
+
+11. [514 pts] I spent 50 hours drawing a line graph
+   https://www.dougmacdowell.com/50-hours-to-draw-some-lines.html
+
+12. [227 pts] Constraint Decay: The Fragility of LLM Agents in Back End Code Generation
+   https://arxiv.org/abs/2605.06445
+
+13. [464 pts] Microsoft open-sources “the earliest DOS source code discovered to date”
    https://arstechnica.com/gadgets/2026/04/microsoft-open-sources-the-earliest-dos-source-code-discovered-to-date/
 
-3. [66 pts] Why Is Vivado 2026.1 Dropping Linux Support for Free Tier?
-   https://adaptivesupport.amd.com/s/question/0D5Pd00001YQLdMKAX/why-is-vivado-20261-dropping-linux-support-for-free-tier-?language=en_US
+14. [372 pts] Memory has grown to nearly two-thirds of AI chip component costs
+   https://epoch.ai/data-insights/ai-chip-component-cost-shares
 
-4. [109 pts] Scammers are abusing an internal Microsoft account to send spam links
+15. [84 pts] Scientists solve 200-year-old puzzle of how tobacco plants make nicotine
+   https://www.york.ac.uk/news-and-events/news/2026/research/200-year-old-puzzle-tobacco-plants-nicotine/
+
+16. [287 pts] The Eternal Sloptember
+   https://geohot.github.io//blog/jekyll/update/2026/05/24/the-eternal-sloptember.html
+
+17. [159 pts] Build Adafruit projects right from Firefox
+   https://www.firefox.com/en-US/landing/adafruit/
+
+18. [76 pts] Building Pi with Pi
+   https://lucumr.pocoo.org/2026/5/24/pi-oss/
+
+19. [142 pts] Mastering Dyalog APL
+   https://mastering.dyalog.com/README.html
+
+20. [81 pts] Using HTTP/2 Cleartext for a server in Go 1.24
+   https://www.clarityboss.com/blog/go-http2-cleartext-h2c-cloud-run
+
+21. [196 pts] Greg Brockman interview [video]
+   https://fs.blog/knowledge-project-podcast/greg-brockman/
+
+22. [283 pts] Scammers are abusing an internal Microsoft account to send spam links
    https://techcrunch.com/2026/05/21/scammers-are-abusing-an-internal-microsoft-account-to-send-spam/
 
-5. [157 pts] Wake up! 16b
-   https://hellmood.111mb.de/wake_up_16b_writeup.html
+23. [7 pts] Gorilla: A fast, scalable, in-memory time series database (2016)
+   https://blog.acolyer.org/2016/05/03/gorilla-a-fast-scalable-in-memory-time-series-database/
 
-6. [36 pts] Alexander Grothendieck Revolutionized 20th-Century Mathematics
-   https://www.quantamagazine.org/how-alexander-grothendieck-revolutionized-20th-century-mathematics-20260520/
+24. [74 pts] Noroboto: Lying Fonts and Mitigation in Rust
+   https://tritium.legal/blog/noroboto
 
-7. [350 pts] Time to talk about my writerdeck
+25. [197 pts] Childhood Computing
+   https://susam.net/childhood-computing.html
+
+26. [110 pts] Perceptual Image Codec: What Matters in Practical Learned Image Compression
+   https://apple.github.io/ml-pico/
+
+27. [316 pts] Why is Vivado 2026.1 dropping Linux support for free tier?
+   https://adaptivesupport.amd.com/s/question/0D5Pd00001YQLdMKAX/why-is-vivado-20261-dropping-linux-support-for-free-tier-?language=en_US
+
+28. [56 pts] Getting an old Computer online with Android Ethernet tethering
+   https://82mhz.net/posts/2026/05/getting-an-old-computer-online-with-android-ethernet-tethering/
+
+29. [148 pts] I keep bouncing off the Scheme language
+   https://www.sicpers.info/2026/05/i-keep-bouncing-off-the-scheme-language/
+
+30. [479 pts] Time to talk about my writerdeck
    https://veronicaexplains.net/my-first-writerdeck/
-
-8. [792 pts] Green card seekers must leave U.S. to apply, Trump administration says
-   https://www.nytimes.com/2026/05/22/us/politics/green-card-changes-trump.html
-
-9. [14 pts] Neoclassical C++: segmented iterators revisited
-   https://boostedcpp.net/2026/05/18/neoclassical-c-segmented-iterators-revisited-1/
-
-10. [378 pts] On The <dl> (2021)
-   https://benmyers.dev/blog/on-the-dl/
-
-11. [261 pts] My two-part desk setup (2025)
-   https://arslan.io/2025/11/18/my-two-part-desk-setup/
-
-12. [64 pts] 'Fuck you, Bambu': How one private message could change the face of 3D printing
-   https://www.theverge.com/tech/931532/bambu-agpl-pawel-jarczak-open-source-threat-dmca-github
-
-13. [82 pts] Sales and Dungeons: Thermal printer TTRPG utility
-   https://sales-and-dungeons.app/
-
-14. [53 pts] My I3-Emacs Integration
-   https://khz.ac/software/i3-integration.html
-
-15. [13 pts] Buildcraft Is a Compiler Problem
-   https://mitander.xyz/posts/buildcraft-is-a-compiler-problem/
-
-16. [86 pts] Judson's Last Ride
-   https://www.realclearpolitics.com/articles/2026/05/22/judsons_last_ride_154150.html
-
-17. [256 pts] The Art of Money Getting
-   https://kk.org/cooltools/book-freak-210-the-art-of-money-getting/
-
-18. [9 pts] The C64 Dead Test Font
-   https://www.masswerk.at/nowgobang/2026/c64-dead-test-font
-
-19. [23 pts] Schlitz Is Gone, but First It's Getting One Last Hurrah
-   https://www.milwaukeemag.com/schlitz-is-gone/
-
-20. [60 pts] Air France and Airbus found guilty of manslaughter over 2009 plane crash
-   https://www.bbc.com/news/articles/czd2qmdvmq6o
-
-21. [133 pts] Hengefinder: Finding when the sun aligns with your street
-   https://victoriaritvo.com/blog/hengefinder/
-
-22. [69 pts] New map reveals lost roads of the Roman Empire
-   https://www.scientificamerican.com/article/new-high-resolution-map-transforms-what-we-know-about-roman-roads-and-the-roman-empire/
-
-23. [40 pts] Byrne's Euclid
-   https://www.c82.net/euclid/
-
-24. [98 pts] Reverse engineering circuitry in a Spacelab computer from 1980
-   https://www.righto.com/2026/05/reverse-engineering-spacelab-computer.html
-
-25. [178 pts] .NET (OK, C#) finally gets union types
-   https://andrewlock.net/exploring-the-dotnet-11-preview-2-dotnet-gets-union-types/
-
-26. [241 pts] 80386 microcode disassembled
-   https://www.reenigne.org/blog/80386-microcode-disassembled/
-
-27. [154 pts] Kindle loyalists scramble as Amazon turns page on old e-readers
-   https://www.reuters.com/business/retail-consumer/kindle-loyalists-scramble-amazon-turns-page-old-e-readers-2026-05-19/
-
-28. [135 pts] -​-dangerously-skip-reading-code
-   https://olano.dev/blog/dangerously-skip/
-
-29. [35 pts] Show HN: Anyone interested in a tool helps to explore C++ ASTs
-   https://uvic-aurora.github.io/acav-manual/index.html
-
-30. [113 pts] PHP's Oddities
-   https://flowtwo.io/post/php%27s-oddities
 
 
 === RSS ===
-[ideas] Paul Graham: How to Convert Between Wealth and Income Tax
-  https://paulgraham.com/winc.html
-
-[ideas] Paul Graham: The Brand Age
-  https://paulgraham.com/brandage.html
-
-[wisdom] Figs in Winter (Pigliucci): Suggested Readings
-  https://figsinwintertime.substack.com/p/suggested-readings-d46
-
-[wisdom] Figs in Winter (Pigliucci): What about poetry?
-  https://figsinwintertime.substack.com/p/what-about-poetry
-
-[wisdom] Figs in Winter (Pigliucci): The evolution of consciousness
-  https://figsinwintertime.substack.com/p/the-evolution-of-consciousness
-
-[health] Peter Attia: What at-home HPV testing means for cervical cancer screening
-  https://peterattiamd.com/cervical-cancer-screening/
-
 [ai] Anthropic News: KPMG integrates Claude across its core business and workforce of more than 276,000 in strategic alliance
   https://www.anthropic.com/news/anthropic-kpmg
 
@@ -124,11 +106,29 @@
 [ai] Anthropic News: PwC is deploying Claude to build technology, execute deals, and reinvent enterprise functions for clients
   https://www.anthropic.com/news/pwc-expanded-partnership
 
-[ideas] Stratechery: 2026.21: The Data Center Veto
-  https://stratechery.com/2026/the-data-center-veto/
+[ai] Simon Willison: datasette 1.0a30
+  https://simonwillison.net/2026/May/24/datasette/#atom-everything
 
-[ideas] Stratechery: An Interview with Parallel Founder Parag Agarwal About Valuing Content on the Agentic Web
-  https://stratechery.com/2026/an-interview-with-parallel-founder-parag-agarwal-about-valuing-content-on-the-agentic-web/
+[ai] Simon Willison: datasette-agent 0.1a4
+  https://simonwillison.net/2026/May/24/datasette-agent/#atom-everything
+
+[ai] Simon Willison: datasette-fixtures 0.1a0
+  https://simonwillison.net/2026/May/24/datasette-fixtures/#atom-everything
+
+[ai] Simon Willison: Quoting Armin Ronacher
+  https://simonwillison.net/2026/May/24/armin-ronacher/#atom-everything
+
+[ai] Simon Willison: Mad House — Usborne Creepy Computer Games
+  https://simonwillison.net/2026/May/24/usborne-mad-house/#atom-everything
+
+[ideas] Paul Graham: How to Convert Between Wealth and Income Tax
+  https://paulgraham.com/winc.html
+
+[ideas] Paul Graham: The Brand Age
+  https://paulgraham.com/brandage.html
+
+[wisdom] Donald Robertson: How Anyone Can Think Like a Roman Emperor
+  https://donaldrobertson.substack.com/p/how-anyone-can-think-like-a-roman-emperor-4fd6de661c96
 
 [wisdom] Donald Robertson: How General Semantics was Used to Treat World War II Veterans
   https://donaldrobertson.substack.com/p/how-general-semantics-was-used-to
@@ -136,17 +136,23 @@
 [wisdom] Donald Robertson: Live: "How to do Stoic Therapy" - Conversations with Modern Stoicism
   https://donaldrobertson.substack.com/p/live-how-to-do-stoic-therapy-conversations
 
-[wisdom] Donald Robertson: Join us today for "How to do Stoic Therapy"
-  https://donaldrobertson.substack.com/p/join-us-today-for-how-to-do-stoic
+[ideas] Marginal Revolution: The carousel trade (arbitrage)
+  https://marginalrevolution.com/marginalrevolution/2026/05/the-carousel-trade-arbitrage.html?utm_source=rss&utm_medium=rss&utm_campaign=the-carousel-trade-arbitrage
 
-[ai] OpenAI Blog: OpenAI named a Leader in enterprise coding agents by Gartner
-  https://openai.com/index/gartner-2026-agentic-coding-leader
+[ideas] Marginal Revolution: Emergent Ventures winners, 54th cohort
+  https://marginalrevolution.com/marginalrevolution/2026/05/emergent-ventures-winners-54th-cohort.html?utm_source=rss&utm_medium=rss&utm_campaign=emergent-ventures-winners-54th-cohort
 
-[ai] OpenAI Blog: How Virgin Atlantic ships faster with Codex
-  https://openai.com/index/virgin-atlantic
+[ideas] Marginal Revolution: Sunday assorted links
+  https://marginalrevolution.com/marginalrevolution/2026/05/sunday-assorted-links-568.html?utm_source=rss&utm_medium=rss&utm_campaign=sunday-assorted-links-568
 
-[ai] OpenAI Blog: AdventHealth advances whole-person care with OpenAI
-  https://openai.com/index/adventhealth
+[ideas] Marginal Revolution: Liberal Economists Score an Own Goal Against Bezos
+  https://marginalrevolution.com/marginalrevolution/2026/05/liberal-economists-score-an-own-goal-against-bezos.html?utm_source=rss&utm_medium=rss&utm_campaign=liberal-economists-score-an-own-goal-against-bezos
+
+[ideas] Marginal Revolution: *Equality of Permission*
+  https://marginalrevolution.com/marginalrevolution/2026/05/equality-of-permission.html?utm_source=rss&utm_medium=rss&utm_campaign=equality-of-permission
+
+[ideas] Astral Codex Ten: New Paradigms Won't Save You
+  https://www.astralcodexten.com/p/new-paradigms-wont-save-you
 
 [bitcoin] Bitcoin Magazine: The History and Future of Physical Bitcoin
   https://bitcoinmagazine.com/business/the-history-and-future-of-physical-bitcoin
@@ -163,54 +169,214 @@
 [bitcoin] Bitcoin Magazine: Happy Bitcoin Pizza Day, The 16th Anniversary of Laszlo Hanyecz Paying 10,000 BTC For Two Papa John’s Pies
   https://bitcoinmagazine.com/news/happy-bitcoin-pizza-day-16th-anniversary
 
-[bitcoin] Bitcoin Magazine: Mark Cuban Sells Most of His Bitcoin, Calls It a Failed Hedge
-  https://bitcoinmagazine.com/news/mark-cuban-sells-most-of-his-bitcoin
+[health] Peter Attia: #393 ‒ AMA #85: A guide to medications and supplements: determining what to take, what to skip, and how to know if they’re working for you
+  https://peterattiamd.com/ama85/
 
-[bitcoin] Bitcoin Magazine: U.S. Lawmaker Unveils Bill to Codify Strategic Bitcoin Reserve, Draws Bipartisan Support
-  https://bitcoinmagazine.com/news/us-bill-codify-strategic-bitcoin-reserve
+[health] Peter Attia: What at-home HPV testing means for cervical cancer screening
+  https://peterattiamd.com/cervical-cancer-screening/
 
-[bitcoin] Bitcoin Magazine: Blockchain.com Confidentially Files for U.S. IPO, Joining Wave of Crypto Listings
-  https://bitcoinmagazine.com/news/blockchain-com-confidentially-files-ipo
+[wisdom] Figs in Winter (Pigliucci): Suggested Readings
+  https://figsinwintertime.substack.com/p/suggested-readings-d46
 
-[ideas] Marginal Revolution: Robert Wright’s *The God Test*
-  https://marginalrevolution.com/marginalrevolution/2026/05/robert-wrights-the-god-test.html?utm_source=rss&utm_medium=rss&utm_campaign=robert-wrights-the-god-test
+[wisdom] Figs in Winter (Pigliucci): What about poetry?
+  https://figsinwintertime.substack.com/p/what-about-poetry
 
-[ideas] Marginal Revolution: Saturday assorted links
-  https://marginalrevolution.com/marginalrevolution/2026/05/saturday-assorted-links-562.html?utm_source=rss&utm_medium=rss&utm_campaign=saturday-assorted-links-562
-
-[ideas] Marginal Revolution: Ross Douthat on what AI money should learn from the golden age of philanthropy
-  https://marginalrevolution.com/marginalrevolution/2026/05/ross-douthat-on-what-ai-money-should-learn-from-the-golden-age-of-philanthropy.html?utm_source=rss&utm_medium=rss&utm_campaign=ross-douthat-on-what-ai-money-should-learn-from-the-golden-age-of-philanthropy
-
-[ideas] Marginal Revolution: What should I ask Chase Koch?
-  https://marginalrevolution.com/marginalrevolution/2026/05/what-should-i-ask-chase-koch.html?utm_source=rss&utm_medium=rss&utm_campaign=what-should-i-ask-chase-koch
-
-[ideas] Marginal Revolution: India fertility facts of the day
-  https://marginalrevolution.com/marginalrevolution/2026/05/india-fertility-facts-of-the-day.html?utm_source=rss&utm_medium=rss&utm_campaign=india-fertility-facts-of-the-day
+[wisdom] Figs in Winter (Pigliucci): The evolution of consciousness
+  https://figsinwintertime.substack.com/p/the-evolution-of-consciousness
 
 [health] Stronger by Science: Hold Still: What Does the Evidence Actually Say About Isometric Training for Strength and Hypertrophy?
   https://www.strongerbyscience.com/isometric-training/
 
-[ideas] Astral Codex Ten: New Paradigms Won't Save You
-  https://www.astralcodexten.com/p/new-paradigms-wont-save-you
-
-[ai] Simon Willison: On the <dl>
-  https://simonwillison.net/2026/May/23/on-the-dl/#atom-everything
-
-[ai] Simon Willison: The memory shortage is causing a repricing of consumer electronics
-  https://simonwillison.net/2026/May/22/memory-shortage/#atom-everything
-
-[ai] Simon Willison: FTC to Require Cox Media Group, Two Other Firms to Pay Nearly $1 Million to Settle Charges They Deceived Customers About “Active Listening” AI-Powered Marketing Service
-  https://simonwillison.net/2026/May/22/ftc-active-listening/#atom-everything
-
-[ai] Simon Willison: Datasette Agent
-  https://simonwillison.net/2026/May/21/datasette-agent/#atom-everything
-
-[ai] Simon Willison: datasette-agent-sprites 0.1a0
-  https://simonwillison.net/2026/May/21/datasette-agent-sprites/#atom-everything
+[ideas] Stratechery: 2026.21: The Data Center Veto
+  https://stratechery.com/2026/the-data-center-veto/
 
 
 === YOUTUBE ===
+GTO Wizard: PLO in GTO Wizard ft. Tombos21 & Joey Ingram
+  https://www.youtube.com/watch?v=mFxVLlp6cIs
+  Transcript: yes
+
+Anthony Chaffee MD: The Simpsons KNEW It All Along! #thesimpsons #shorts #ytshorts #broccoli #carnivorediet #vegan
+  https://www.youtube.com/shorts/gkNiZ86tp9s
+  Transcript: yes
+
+Anthony Chaffee MD: Nutrition Is Simple If You Know This
+  https://www.youtube.com/shorts/_6Ja2ScPn_s
+  Transcript: yes
+
+Paul Saladino MD: You’re drinking plastic
+  https://www.youtube.com/shorts/y1UFCGLkhHQ
+  Transcript: yes
+
+Paul Saladino MD: How To Shop For Meat And Eggs At Costco
+  https://www.youtube.com/watch?v=mXRxFtQiT3I
+  Transcript: yes
+
+Ken Berry MD: Choose real food like Lexi!! @lexinoelv
+  https://www.youtube.com/shorts/ij-7ftrdjhw
+  Transcript: yes
+
+Ken Berry MD: Monday Night Live with Dr. Berry & Nurse Neisha
+  https://www.youtube.com/watch?v=6KZtxeSuOuM
+  Transcript: NO
+
+Ken Berry MD: Remove the CONSTANT sugar and starch from your diet. Eat your meat!
+  https://www.youtube.com/shorts/A8xUGRgTqR0
+  Transcript: yes
+
+Ken Berry MD: Watch for the full video soon on the channel. Are you concerned about Alpha Gal? Let me know!
+  https://www.youtube.com/shorts/wg2LjjgnJlk
+  Transcript: NO
+
+Nick Norwitz: My Cholesterol Was 700 for 7 Years… Then This Happened
+  https://www.youtube.com/shorts/qNfw99EPW7M
+  Transcript: yes
+
+Nick Norwitz: The Strange Link Between Fructose and Liver Damage
+  https://www.youtube.com/shorts/otBeOv_yhd4
+  Transcript: yes
+
+Joe Rogan: Joe Rogan Experience #2504 - Skylar Grey
+  https://www.youtube.com/watch?v=fOTMWZNYg9g
+  Transcript: yes
+
+Jared Alderman: Beating Isildur1, Winning 6 Bracelets, and Finding Fulfilment Outside of Poker — Brian Hastings
+  https://www.youtube.com/watch?v=FJ1mEcvFiHw
+  Transcript: yes
+
+Jared Alderman: How Indecision Is Losing You Money
+  https://www.youtube.com/watch?v=KdUNUBiYB74
+  Transcript: yes
+
+GTO Lab: Avoid Over-Prioritizing Sleep: obsessing over the need to sleep can create an "anxiety snowball"
+  https://www.youtube.com/shorts/Ts3QWMKrJR0
+  Transcript: yes
+
+GTO Lab: Don't let poker steal your sense of control.
+  https://www.youtube.com/shorts/Wo5BTmIsctg
+  Transcript: yes
+
+Thomas DeLauer: You’ll Never Look at the Mitochondria the Same Again
+  https://www.youtube.com/watch?v=CXfsFmZUiMw
+  Transcript: yes
+
+Thomas DeLauer: 10 Signs Your Mitochondria are Dying (that lab tests don't show)
+  https://www.youtube.com/watch?v=BHApw964CVQ
+  Transcript: yes
+
+Thomas DeLauer: I Replaced 16:8 Fasting With This and Everything Got Better
+  https://www.youtube.com/watch?v=jpF7O2Rr-Fk
+  Transcript: yes
+
+Thomas DeLauer: This Drives Cortisol Through the Roof - and We’ve Been Wrong for Decades
+  https://www.youtube.com/watch?v=S5JWTRKSmdc
+  Transcript: yes
+
+Thomas DeLauer: This Stops Hair from Thinning, Graying, and Balding
+  https://www.youtube.com/watch?v=ZohoBKQ30sw
+  Transcript: yes
+
+Dr. Sten Ekberg: You Cannot Heal Your THYROID If You Do These 10 Things Daily
+  https://www.youtube.com/watch?v=m65Aq4H-oic
+  Transcript: yes
+
+Lex Fridman: FFmpeg: The Incredible Technology Behind Video on the Internet | Lex Fridman Podcast #496
+  https://www.youtube.com/watch?v=nepKKz-MzFM
+  Transcript: yes
+
+Renaissance Periodization: Why Tuna Is NOT a Perfect Protein Source
+  https://www.youtube.com/shorts/gwEviCDeRfw
+  Transcript: yes
+
+Renaissance Periodization: More Protein ≠ More Gains
+  https://www.youtube.com/shorts/dL5QAIds81M
+  Transcript: yes
+
+Renaissance Periodization: Ronnie Coleman Never Made This Diet Mistake
+  https://www.youtube.com/shorts/EPKiy6vvY98
+  Transcript: yes
+
+Renaissance Periodization: Exercise Scientist Critiques ALPHA MALE BOOT CAMPS- Good For all Men?
+  https://www.youtube.com/watch?v=M4OOpcq3Jlk
+  Transcript: yes
+
+Renaissance Periodization: This Ab Exercise is AWESOME
+  https://www.youtube.com/shorts/DMkDaLzwZ_E
+  Transcript: yes
+
+Renaissance Periodization: Your Diet Doesn't Have To Suck!
+  https://www.youtube.com/shorts/W1d4IZUAqa8
+  Transcript: yes
+
+Renaissance Periodization: this workout is DANGEROUS
+  https://www.youtube.com/shorts/53qmwl0yjeY
+  Transcript: yes
+
+Peter Attia: Is Industrial Processing the Real Problem With Seed Oils? | Layne Norton, Ph.D.
+  https://www.youtube.com/watch?v=Tsqzx3L6UWs
+  Transcript: yes
+
 Andrew Huberman: Essentials: The Science of Learning & Speaking Languages | Dr. Eddie Chang
   https://www.youtube.com/watch?v=MOPqSEK6GvA
+  Transcript: yes
+
+ModernWisdom: The Way Out Of People Pleasing
+  https://www.youtube.com/shorts/OKHvotc4-14
+  Transcript: yes
+
+ModernWisdom: How Police Interrogators Get You To Confess - Chase Hughes
+  https://www.youtube.com/watch?v=B_wR9Ii0TYs
+  Transcript: yes
+
+ModernWisdom: Embrace Your Current Life
+  https://www.youtube.com/shorts/AKfPicqcuWE
+  Transcript: yes
+
+ModernWisdom: What Happens If The Population Shrinks?
+  https://www.youtube.com/shorts/CUuAQhA9qT4
+  Transcript: yes
+
+ModernWisdom: The New Way Of The Superior Man - David Deida (1st interview in a decade)
+  https://www.youtube.com/watch?v=c4LSX-R2nJo
+  Transcript: yes
+
+ModernWisdom: Trust The Process
+  https://www.youtube.com/shorts/ss_5MBPYcsE
+  Transcript: yes
+
+ModernWisdom: What Is A Friend?
+  https://www.youtube.com/shorts/TJ9C-BGWo8A
+  Transcript: yes
+
+ModernWisdom: Matt McCusker Teaches Andrew Huberman About Fap Naps
+  https://www.youtube.com/watch?v=XXBOHmmjr7U
+  Transcript: yes
+
+ModernWisdom: Why Do Years Start Feeling Like Days?
+  https://www.youtube.com/shorts/apsty9Oi5oM
+  Transcript: yes
+
+ModernWisdom: 19 Lessons From 1100 Episodes
+  https://www.youtube.com/watch?v=RBZTLptAMao
+  Transcript: yes
+
+ThinkingPoker: Bankroll Management - Thinking Poker
+  https://www.youtube.com/watch?v=6w8amkDkeVw
+  Transcript: yes
+
+Ben Felix: Using Your Money To Be Happier
+  https://www.youtube.com/watch?v=S9InNdQhFwc
+  Transcript: yes
+
+Mind The Game: LeBron  🤝🏾 Caruso. Tap into our new episode. Presented by @DraftKings  #ad
+  https://www.youtube.com/shorts/GhVg94zUFPo
+  Transcript: yes
+
+Mind The Game: The sky is the limit for Ausar and Amen Thompson 🙏🏾
+  https://www.youtube.com/shorts/WfTFfkBb-_M
+  Transcript: yes
+
+Mind The Game: SGA is a nightmare for defenders because he’s always in attack mode.
+  https://www.youtube.com/shorts/dTFBkTsvwrM
   Transcript: yes
 

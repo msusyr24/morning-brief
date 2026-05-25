@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>Morning Brief — Sunday, May 24, 2026</title>
+<title>Morning Brief — Monday, May 25, 2026</title>
 <style>
   body {
     font-family: Georgia, serif;
@@ -92,19 +92,19 @@
 })();
 </script>
 <h1>Morning Brief</h1>
-<p class="date">Sunday, May 24, 2026</p>
+<p class="date">Monday, May 25, 2026</p>
 
 <div class="anchor">
   <h2>☀️ Today's Anchor</h2>
   <div class="anchor-block">
-    <p class="quote">"Honesty is the first chapter in the book of wisdom."</p>
-    <p class="author">— Thomas Jefferson</p>
-    <p class="context">Letter to Nathaniel Macon, 1819. Jefferson as elder statesman reflecting on what he'd learned.</p>
+    <p class="quote">"Simplicity is the ultimate sophistication."</p>
+    <p class="author">— Leonardo da Vinci (attribution disputed)</p>
+    <p class="context">Attributed to da Vinci, though the earliest sourced version is from Clare Boothe Luce in the 1930s. Apple later adopted it.</p>
   </div>
   <div class="anchor-block">
-    <p class="model-label">Mental Model · Physics</p>
-    <p class="model-name">Critical Mass</p>
-    <p class="context">Below a threshold, a reaction dies. Above it, it runs away. Munger applies this to businesses: Costco reached a member density where its cost structure became impossible to replicate. Below critical mass, companies starve. The question for any venture: what's the minimum scale needed to self-sustain?</p>
+    <p class="model-label">Mental Model · Engineering/Systems</p>
+    <p class="model-name">Feedback Loops</p>
+    <p class="context">Every system has loops — reinforcing (compounding) or balancing (self-correcting). Social media engagement: reinforcing. Thermostat: balancing. Identifying which type of loop you're in tells you what to expect. Reinforcing loops go to extremes without external intervention.</p>
   </div>
 </div>
 
@@ -115,80 +115,131 @@
   <p class="spotlight-instructions">Interested? Copy the line below into <code>YOUTUBE_CHANNELS</code> in <code>brief.py</code> and save:</p>
   <pre class="spotlight-snippet" id="snippet">    "Goal Guys": "UC6MXE0Px3m1aI4vI0pLWzQg",</pre>
   <button class="copy-btn" onclick="navigator.clipboard.writeText(document.getElementById('snippet').innerText.trim()); this.innerText='✅ Copied'; setTimeout(()=>this.innerText='📋 Copy snippet', 2000);">📋 Copy snippet</button>
-  <p class="spotlight-meta">showing for 2 more days. If you don't add it, a new channel will be suggested.</p>
+  <p class="spotlight-meta">showing for 1 more day. If you don't add it, a new channel will be suggested.</p>
 </div>
 <h2>🎥 From People I Follow</h2>
 
 <p><strong>Worth your time:</strong></p>
 
 <div class="story">
-  <h3>Huberman Lab</h3>
-  <p>Dr. Eddie Chang (UCSF neurosurgeon) breaks down the speech-language distinction clearly: speech is the mechanical audio signal produced by the vocal tract; language is the broader cognitive system extracting meaning, grammar, and syntax. The most striking segment covers Chang's BRAVO clinical trial, in which a man paralyzed for 15 years — reduced to pecking out letters with a stick on his baseball cap — had electrode arrays implanted over his speech cortex. A machine-learning decoder trained on 50 words, combined with autocorrect-style language modeling, allowed him to produce words and sentences directly from brain activity for the first time. Chang notes vocabulary is expanding and the 50-word ceiling is an engineering constraint, not a fundamental limit. A secondary finding worth noting: primitive vocalizations like laughing and crying are controlled by evolutionarily older, separate brain areas — patients with speech-area damage can still laugh and moan.</p>
-  <p class="meta">Video: <a href="https://www.youtube.com/watch?v=MOPqSEK6GvA">Essentials: The Science of Learning & Speaking Languages | Dr. Eddie Chang</a></p>
+  <h3>Jared Alderman (feat. Brian Hastings)</h3>
+  <p>A rich, substantive conversation on when to RNG vs. make a pure decision in tournament poker. Hastings argues for RNG'ing early in the game tree (e.g., AK vs. an EP open at 90bb) precisely because solver mixes are close and you lack opponent-specific reads — but becomes increasingly opposed to RNG'ing as you approach the river, where one action is almost always dominant. Jared pushes back with an interesting counter: instead of striving for balance (which is nearly impossible to achieve accurately in-game given compounding errors from prior streets), he prefers to be genuinely capable of doing anything — bluffing or shutting down — so opponents can't exploit a predictable lean. They also discuss the psychology of "known aggression" (e.g., a player who everyone knows over-bluffs still gets folds because execution remains hard), and the mechanics of a K-T river check-jam at low frequency, where being balanced requires you to have both nutted hands and blockers — not just any combo of K-T.</p>
+  <p class="meta">Videos: <a href="https://www.youtube.com/watch?v=FJ1mEcvFiHw">Beating Isildur1, Winning 6 Bracelets, and Finding Fulfilment Outside of Poker — Brian Hastings</a> · <a href="https://www.youtube.com/watch?v=KdUNUBiYB74">How Indecision Is Losing You Money</a></p>
 </div>
 
----
+<div class="story">
+  <h3>GTO Wizard</h3>
+  <p>First-ever GTO Wizard PLO livestream with Tombos21 and Joey Ingram, walking through the new PLO solver. Key insight surfaced early: when facing a 4-bet in PLO, the hijack's range is ~86% pocket aces — which means Broadway hands like KK that would be a snap-call in NLH become near-pure folds, while low connected hands with equity vs. aces become the calling candidates. Tombos notes that the conceptual shift from NLH is less about hand strength now and more about nut potential on the river — including backdoor draws and future blockers. The tool also shows that PLO cash games feature dramatically more flatting and less 3-betting than NLH, even for strong hands, because equities run closer and inflating the pot OOP is punished more severely.</p>
+  <p class="meta">Videos: <a href="https://www.youtube.com/watch?v=mFxVLlp6cIs">PLO in GTO Wizard ft. Tombos21 & Joey Ingram</a></p>
+</div>
+
+<div class="story">
+  <h3>Nick Norwitz</h3>
+  <p>Two sharp clips. First: Norwitz reports that after 7 years with LDL sustained above 500 mg/dL (as high as 574), his advanced heart scan returned zero plaque — soft or calcified — and he published a peer-reviewed paper on it. He explicitly notes this can't be explained by age, since children with familial hypercholesterolemia develop plaque within years, and some plant-based influencers in their 30s with low LDL already have ~60 cubic millimeters of measurable plaque. His argument: LDL is not the whole story. Second clip: New research in Cell Metabolism suggests gut microbes can convert dietary fructose into alcohol metabolic byproducts (specifically acetaldehyde), driving liver inflammation. When researchers wiped out the microbiome with antibiotics, the fructose-liver disease link disappeared — suggesting the danger is partly mediated by which microbes you're carrying.</p>
+  <p class="meta">Videos: <a href="https://www.youtube.com/shorts/qNfw99EPW7M">My Cholesterol Was 700 for 7 Years…</a> · <a href="https://www.youtube.com/shorts/otBeOv_yhd4">The Strange Link Between Fructose and Liver Damage</a></p>
+</div>
+
+<div class="story">
+  <h3>Renaissance Periodization (Dr. Mike)</h3>
+  <p>Three clips with real substance. On tuna: mercury concern is real for high-volume consumers, with albacore being notably higher than skipjack — don't eat it every meal. On protein and hypertrophy: the Ronnie Coleman "10oz to 16oz" anecdote is correctly deconstructed — the likely variable that drove his gains was total calories (protein comes packaged with fat), not protein grams per se, illustrating the problem of single-variable thinking in diet. On male boot camps charging $18K: Dr. Mike argues the psychological mechanism can work — incremental overcoming of progressively harder challenges builds real toughness — but a weekend of suffering alone won't hold if not threaded into ongoing lifestyle change; the camaraderie and identity shift are the real value, not the acute suffering itself.</p>
+  <p class="meta">Videos: <a href="https://www.youtube.com/shorts/gwEviCDeRfw">Why Tuna Is NOT a Perfect Protein Source</a> · <a href="https://www.youtube.com/shorts/dL5QAIds81M">More Protein ≠ More Gains</a> · <a href="https://www.youtube.com/watch?v=M4OOpcq3Jlk">Exercise Scientist Critiques ALPHA MALE BOOT CAMPS</a></p>
+</div>
+
+<div class="story">
+  <h3>Thomas DeLauer</h3>
+  <p>DeLauer had a dense week on metabolic signaling. His mitochondria/light video makes the case — citing a Journal of Clinical Medicine review — that cytochrome c oxidase (Complex IV of the electron transport chain) directly absorbs red and near-infrared light, improving electron flow, ATP output, and reducing reactive oxygen species. This means light isn't just circadian — it's directly metabolic. A PNAS study he cites found that sleeping under room light (~100 lux vs. 3 lux) increased insulin resistance and heart rate by the next morning, even with identical diet — with the mechanism being melatonin suppression removing its role as a mitochondrial antioxidant. Separately, he argues against daily 16:8 fasting on the grounds that it chronically elevates morning cortisol (suppressing the HPA axis "stand-down" signal that comes from eating), and instead proposes 3-4 longer fasts per week (18-22 hrs) paired with eating days that feature high protein front-loading and high energy flux — eating and moving more on fed days to keep metabolic rate elevated rather than chronically restricting.</p>
+  <p class="meta">Videos: <a href="https://www.youtube.com/watch?v=CXfsFmZUiMw">You'll Never Look at the Mitochondria the Same Again</a> · <a href="https://www.youtube.com/watch?v=jpF7O2Rr-Fk">I Replaced 16:8 Fasting With This</a> · <a href="https://www.youtube.com/watch?v=S5JWTRKSmdc">This Drives Cortisol Through the Roof</a></p>
+</div>
+
+<div class="story">
+  <h3>Stronger by Science</h3>
+  <p>Full written review of the evidence on isometric training for strength and hypertrophy — conclusion: the conventional wisdom that isometrics are inferior to dynamic training is not well-supported by current data. The piece explores joint-angle specificity (a real limitation), but argues that when isometrics are matched for effort and volume, strength and size gains are more comparable than assumed. Worth reading if you program rehab work or want to diversify training stimuli.</p>
+  <p class="meta">Article: <a href="https://www.strongerbyscience.com/isometric-training/">Hold Still: What Does the Evidence Actually Say About Isometric Training?</a></p>
+</div>
+
+<div class="story">
+  <h3>ModernWisdom (Chris Williamson)</h3>
+  <p>Episode 1,100 produced a genuinely sharp solo essay. The core idea: discipline, motivation, and obsession are often conflated, but they operate on fundamentally different friction economics — discipline is friction accepted, motivation is friction reduced, obsession is friction inverted (you can't not do the thing). The actionable insight is that obsession is a non-renewable fuel source: when it cools, you can't summon it back, so the correct response to a positive obsession isn't to moderate it but to fully surrender to it and let it fossilize into identity before the fuel runs out. What looks like iron discipline in accomplished people is often just the residue of a past obsession. Also, a separate short on the "end of history illusion" — people of all ages believe they've recently become the stable version of themselves they'll be forever, while simultaneously acknowledging they've changed enormously in the past — which is relevant for long-term goal-setting.</p>
+  <p class="meta">Videos: <a href="https://www.youtube.com/watch?v=RBZTLptAMao">19 Lessons From 1100 Episodes</a> · <a href="https://www.youtube.com/shorts/apsty9Oi5oM">Why Do Years Start Feeling Like Days?</a></p>
+</div>
+
+<div class="story">
+  <h3>Donald Robertson</h3>
+  <p>Two pieces on applied Stoicism. The first reframes Stoic practice as cultivating a kind of inner majesty — the Marcus Aurelius concept that your inner citadel (your ruling faculty, or hegemonikon) can remain sovereign regardless of external circumstances, which Robertson connects to modern cognitive behavioral frameworks. The second is historically interesting: General Semantics, developed by Alfred Korzybski, was deployed by US Army psychiatrist Douglas Kelley after WWII to help veterans "re-map" their trauma — essentially an early rational psychotherapy that preceded CBT. Robertson connects this to the Stoic idea that it is not events but our judgments about events that cause suffering.</p>
+  <p class="meta">Articles: <a href="https://donaldrobertson.substack.com/p/how-anyone-can-think-like-a-roman-emperor-4fd6de661c96">How Anyone Can Think Like a Roman Emperor</a> · <a href="https://donaldrobertson.substack.com/p/how-general-semantics-was-used-to">How General Semantics Was Used to Treat WWII Veterans</a></p>
+</div>
+
+<p><strong>Also posted:</strong></p>
+<ul>
+  <li><strong>GTO Lab:</strong> Two mental game shorts — one on not setting rigid sleep expectations before a big poker day (the "anxiety snowball"), and one on maintaining a sense of control outside of poker through small daily rituals like cooking and cleaning. (<a href="https://www.youtube.com/shorts/Ts3QWMKrJR0">Avoid Over-Prioritizing Sleep</a> · <a href="https://www.youtube.com/shorts/Wo5BTmIsctg">Don't Let Poker Steal Your Sense of Control</a>)</li>
+  <li><strong>Paul Saladino MD:</strong> Costco meat-buying guide (favor grass-fed ground beef over conventional, air-chilled over chlorine-bath chicken, wild sockeye over farm-raised Atlantic salmon) plus a clip on microplastics — a can of Coke reportedly contains 3.7 million microplastics vs. 250,000 per liter in a plastic bottle, and plastics have been found in every male testicular sample studied. (<a href="https://www.youtube.com/watch?v=mXRxFtQiT3I">How To Shop For Meat And Eggs At Costco</a> + <a href="https://www.youtube.com/shorts/y1UFCGLkhHQ">You're drinking plastic</a>)</li>
+  <li><strong>Dr. Sten Ekberg:</strong> Detailed breakdown of 10 daily habits that block thyroid healing — including fluoride in tap water (historically used as a hyperthyroid treatment at 2-5mg/day; 2L of tap water ≈ 1.4mg), unfermented soy's TPO inhibition, chronic cardio elevating reverse T3, and poor sleep disrupting the TSH surge that peaks 11pm–4am. (<a href="https://www.youtube.com/watch?v=m65Aq4H-oic">You Cannot Heal Your THYROID If You Do These 10 Things Daily</a>)</li>
+  <li><strong>Thomas DeLauer (also):</strong> 10 signs of mitochondrial dysfunction — including high cholesterol, low thyroid, abnormal ketone patterns, and elevated morning lactate — plus a conversation on creatine as "the mitochondrial energy grid," with the claim that most people not eating 1-2 lbs of meat/day are likely under-repleted. (<a href="https://www.youtube.com/watch?v=BHApw964CVQ">10 Signs Your Mitochondria are Dying</a>) · Hair thinning/graying deep dive: pumpkin seed oil's delta-7 sterols both inhibit 5-alpha reductase (~40% DHT reduction) AND compete at the androgen receptor — a dual mechanism finasteride doesn't have; graying is primarily an oxidative stress/melanocyte stem cell exhaustion problem, with a 2021 study showing mid-shaft repigmentation after stress reduction. (<a href="https://www.youtube.com/watch?v=ZohoBKQ30sw">This Stops Hair from Thinning, Graying, and Balding</a>)</li>
+  <li><strong>Peter Attia (also, not new):</strong> Layne Norton conversation on seed oil processing — the hexane extraction argument is largely debunked: boiling point is 69°C, residual hexane in finished oils is 0.05–0.5 ppm, it doesn't bioaccumulate, and the dose required for mild toxicity in rodents translates to ~11,340 kg of oil consumed at once. The more substantive concern is the shift from ~3% to ~10% of total calories as linoleic acid over the past century. (<a href="https://www.youtube.com/watch?v=Tsqzx3L6UWs">Is Industrial Processing the Real Problem With Seed Oils?</a>)</li>
+  <li><strong>Mind The Game:</strong> LeBron on Alex Caruso — "you have to treat him with Giannis-level respect in the open floor"; brief clip on the Thompson twins (Ausar and Amen) as "superstars in the making." (<a href="https://www.youtube.com/shorts/GhVg94zUFPo">LeBron on Caruso</a> · <a href="https://www.youtube.com/shorts/WfTFmBb-_M">Thompson Twins</a>)</li>
+  <li><strong>Anthony Chaffee MD:</strong> Short clips referencing Native American disease burden when switching to Western diet as evidence for carnivore thesis — no new data, illustrative anecdote only. (<a href="https://www.youtube.com/shorts/_6Ja2ScPn_s">Nutrition Is Simple If You Know This</a>)</li>
+  <li><strong>Ben Felix (also, not new):</strong> Evidence-based framework for using money to be happier — the income/happiness relationship is weaker than people think (correlation 0.09 in experience-sampling data; the entire difference between $15K and $250K household income is ~5 points on a 100-point scale). Key finding: people who prioritize time over money report higher happiness, better relationships, and more meaningful work — even though it means less money. The PERMA-V model (positive emotion, engagement, relationships, meaning, accomplishment, vitality) is offered as the organizing framework. (<a href="https://www.youtube.com/watch?v=S9InNdQhFwc">Using Your Money To Be Happier</a>)</li>
+</ul>
 
 <h2>₿ Bitcoin & Macro</h2>
 
 <div class="story">
-  <h3><a href="https://bitcoinmagazine.com/news/us-bill-codify-strategic-bitcoin-reserve">Two Bills to Codify a Strategic Bitcoin Reserve Draw Bipartisan Support</a></h3>
-  <p>Rep. Nick Begich (R-AK) and Rep. Matt Van Epps (R-TN) separately introduced legislation to permanently establish a U.S. Strategic Bitcoin Reserve — moving it from executive order to statute. Bipartisan co-sponsors signal this is no longer a fringe position. If passed, it would lock in federal BTC accumulation policy regardless of which administration is in office, a structurally significant shift in how the U.S. government treats Bitcoin as a reserve asset.</p>
+  <h3><a href="https://bitcoinmagazine.com/news/a-freshman-congressman-national-bitcoin">A Freshman Congressman Wants to Make the National Bitcoin Reserve Permanent</a></h3>
+  <p>Rep. Matt Van Epps (Nashville) introduced the American Reserve Modernization Act of 2026, which would codify the existing executive-order Bitcoin reserve into permanent law, making it harder for future administrations to reverse. This is the first serious legislative attempt to lock in the strategic reserve concept rather than leave it as a discretionary executive action — a meaningful step toward Bitcoin having a durable place in U.S. monetary policy.</p>
   <p class="meta">Bitcoin Magazine</p>
 </div>
 
 <div class="story">
-  <h3><a href="https://bitcoinmagazine.com/news/mark-cuban-sells-most-of-his-bitcoin">Mark Cuban Sells Most of His Bitcoin, Calls It a Failed Hedge</a></h3>
-  <p>Cuban argues Bitcoin has not functioned as a reliable hedge against fiat debasement or geopolitical risk — the core Saylor thesis — and has exited most of his position. This is a direct refutation of the "digital gold" narrative from a high-profile, previously bullish voice. Worth noting not because Cuban's timing is reliable, but because his stated reasoning (failed hedge) is exactly the thesis that Saylor's entire framework is built to counter.</p>
+  <h3><a href="https://bitcoinmagazine.com/news/trump-media-djt-moves-to-sell-bitcoin-as-losses-reach-455-million">Trump Media Moves to Sell Bitcoin as Losses Reach $455 Million</a></h3>
+  <p>Trump Media transferred 2,650 BTC (~$205M) to Crypto.com, signaling a likely sale — notable because it represents a corporate Bitcoin treasury being unwound under financial pressure rather than conviction. This is the mirror image of the MicroStrategy thesis: a company holding Bitcoin not as a long-term treasury reserve but as a short-term financial maneuver, and now liquidating under duress.</p>
   <p class="meta">Bitcoin Magazine</p>
 </div>
-
----
 
 <h2>🧬 Health & Science</h2>
 
 <div class="story">
-  <h3><a href="https://www.strongerbyscience.com/isometric-training/">Hold Still: What Does the Evidence Actually Say About Isometric Training for Strength and Hypertrophy?</a></h3>
-  <p>Stronger by Science takes a serious look at the claim that isometric (static contraction) training is inferior to dynamic training for strength and hypertrophy. The article argues current evidence does not support that assumption — isometrics produce meaningful strength and size gains, particularly at the trained joint angle, and may have underappreciated applications in rehab, tendon loading, and as a complement to dynamic work. The piece goes into mechanisms: time under tension, motor unit recruitment patterns, and the specificity principle (strength gains are angle-specific, which is both a limitation and a potential tool). Worth reading if you program accessory work or deal with joint issues that limit range of motion.</p>
+  <h3>Light as a Metabolic Signal — Mitochondria and Insulin Resistance</h3>
+  <p>Thomas DeLauer synthesized a meaningful body of research this week: a Journal of Clinical Medicine review confirmed that cytochrome c oxidase (Complex IV) directly absorbs red/near-infrared light, improving electron coupling and ATP output — not just circadian signaling but literal energetic machinery. A PNAS study found that one night of sleeping under room light (~100 lux) increased insulin resistance and heart rate the next morning on an identical diet, with the proposed mechanism being melatonin suppression removing its role as a mitochondrial antioxidant and ROS scavenger. A separate Nutrients analysis found morning bright light exposure in overweight subjects produced measurable fat loss and appetite reduction even before dietary changes — attributed to direct metabolic effects beyond circadian entrainment. Practical upshot: sleep dark, get real morning sunlight, and consider that chronic metabolic dysfunction may be partly a light-environment problem.</p>
+</div>
+
+<div class="story">
+  <h3>Nick Norwitz: Zero Coronary Plaque After 7 Years of LDL >500</h3>
+  <p>Norwitz published a peer-reviewed case report after sustained LDL above 500 mg/dL (peak 574) and obtained an advanced 3D coronary plaque scan showing zero plaque — soft or calcified. The relevant comparison: children with familial hypercholesterolemia at similar LDL levels develop plaque within years of life and have heart attacks by age 8-10. Norwitz is a lean mass hyper-responder on a ketogenic diet; his ApoB may be elevated but his particle context (low triglycerides, high HDL, low insulin, zero inflammation markers) differs from the FH phenotype. The paper doesn't prove LDL is irrelevant, but is serious evidence that context and particle type matter more than the raw number.</p>
+</div>
+
+<div class="story">
+  <h3>Fructose → Gut Microbes → Alcohol Metabolites → Liver Damage</h3>
+  <p>A Cell Metabolism study found that fructose-driven liver disease risk is partially mediated by gut microbiota: when researchers eliminated microbiomes with antibiotics, the fructose-liver disease link disappeared. Stool samples from liver disease patients showed upregulated alcohol metabolism pathways, and follow-up experiments mapped a specific pathway where gut microbes convert fructose to acetaldehyde (a toxic alcohol byproduct), driving hepatic inflammation. This doesn't mean fructose is equivalent to alcohol, but it does suggest the gut microbiome is a meaningful variable in why high-sugar diets damage the liver — and that microbiome composition could modulate individual susceptibility.</p>
+</div>
+
+<div class="story">
+  <h3>Isometric Training: Evidence Better Than Assumed</h3>
+  <p>Stronger by Science published a thorough literature review concluding that isometric training's reputation as inferior for hypertrophy and strength is not well-supported. When equated for effort and volume, isometrics produce comparable results to dynamic training for many outcomes. The real limitation is joint-angle specificity — strength gains are more localized to the trained angle — but this can be managed by training at long muscle lengths (which show the most transfer). Practically relevant for rehab programming, busy travel weeks, or adding variety to a stagnant program.</p>
   <p class="meta"><a href="https://www.strongerbyscience.com/isometric-training/">Stronger by Science</a></p>
 </div>
 
----
+<div class="story">
+  <h3>Peter Attia AMA: Medications and Supplements Framework</h3>
+  <p>The framing principle from this AMA is worth holding: "Poor problem definition almost guarantees some sort of false positive." The practical implication is that most people add supplements or medications without first clearly defining what problem they're trying to solve, what measurable outcome would indicate it's working, and what the counterfactual looks like. Without that rigor, you can't know if anything is actually doing anything — and you're likely accumulating interventions that feel productive but aren't falsifiable.</p>
+  <p class="meta"><a href="https://peterattiamd.com/ama85/">Peter Attia</a></p>
+</div>
 
 <h2>💡 Worth Reading</h2>
 
 <div class="story">
-  <h3><a href="https://www.astralcodexten.com/p/new-paradigms-wont-save-you">New Paradigms Won't Save You — Astral Codex Ten</a></h3>
-  <p>Scott Alexander's essay pushes back on the idea that adopting a new intellectual framework — a new paradigm, a new theory of everything — is the fix for whatever epistemic problem you're facing. The core argument (based on the title and ACX's typical structure) is that the bottleneck is usually not your framework but your willingness to apply it rigorously and sit with uncertainty. Directly relevant to the mental models / clear thinking cluster of interests — a useful corrective to the "one more framework" habit.</p>
-  <p class="meta">Astral Codex Ten</p>
+  <h3><a href="https://geohot.github.io//blog/jekyll/update/2026/05/24/the-eternal-sloptember.html">The Eternal Sloptember</a></h3>
+  <p>George Hotz (geohot) argues that the internet has entered a permanent "Sloptember" — AI-generated content has become indistinguishable enough from human output that signal-to-noise has collapsed across the whole web. The piece is worth reading not for the complaint (we've heard it) but for Hotz's specific framing: that the problem isn't bad AI content per se, but the collapse of the filtering mechanisms we relied on to distinguish credible human signal from noise. Short, sharp, and thought-provoking.</p>
+  <p class="meta"><a href="https://news.ycombinator.com/item?id=44087153">HN Discussion</a></p>
 </div>
 
 <div class="story">
-  <h3><a href="https://figsinwintertime.substack.com/p/the-evolution-of-consciousness">The Evolution of Consciousness — Massimo Pigliucci (Figs in Winter)</a></h3>
-  <p>Pigliucci — a philosopher of science with a biology background — takes on the question of whether consciousness is a biological phenomenon and, if so, how and why it evolved. This sits at the intersection of Stoic philosophy (which had a sophisticated theory of the rational soul) and modern neuroscience, and Pigliucci is one of the few people credentialed to handle both sides. Worth reading alongside the Chang/Huberman piece above on brain-machine interface, which raises similar questions about what "mind" actually is.</p>
-  <p class="meta">Figs in Winter (Substack)</p>
+  <h3><a href="https://www.astralcodexten.com/p/new-paradigms-wont-save-you">New Paradigms Won't Save You</a></h3>
+  <p>Scott Alexander (Astral Codex Ten) argues that the appeal of paradigm shifts — the idea that a new framework will dissolve your current problems — is almost always illusory. The insight: paradigms change the vocabulary and framing, but the underlying hard problems tend to survive. The piece connects to the Stoic / mental models tradition: the tools change, but the difficulty of clear thinking and honest self-assessment don't. Worth sitting with if you find yourself attracted to the next "revolutionary" system.</p>
+  <p class="meta"><a href="https://www.astralcodexten.com/p/new-paradigms-wont-save-you">Astral Codex Ten</a></p>
 </div>
 
 <div class="story">
-  <h3><a href="https://donaldrobertson.substack.com/p/how-general-semantics-was-used-to">How General Semantics Was Used to Treat WWII Veterans — Donald Robertson</a></h3>
-  <p>Robertson profiles Douglas Kelley, a WWII psychiatrist (also featured in the recent Nuremberg documentary) who applied General Semantics — a precursor to CBT — to treat traumatized veterans. General Semantics, developed by Alfred Korzybski, is a framework for distinguishing language from reality and reducing the emotional charge of irrational self-talk. Robertson draws a direct line from this approach to modern rational-emotive therapy and Stoic practice. Concrete historical grounding for the "philosophy as therapy" idea that runs through Stoicism.</p>
-  <p class="meta">Donald Robertson (Substack)</p>
-</div>
-
-<div class="story">
-  <h3><a href="https://www.quantamagazine.org/how-alexander-grothendieck-revolutionized-20th-century-mathematics-20260520/">Alexander Grothendieck Revolutionized 20th-Century Mathematics</a></h3>
-  <p>Quanta profiles Grothendieck, arguably the most radical mathematical mind of the 20th century — a man who rebuilt the foundations of algebraic geometry from scratch using pure abstraction, then walked away from mathematics entirely and lived as a recluse. Beyond the math, the biographical arc is striking: extreme intellectual power, total commitment, eventual rejection of the entire enterprise. A good long read if you're drawn to first-principles thinkers who go all the way down.</p>
-  <p class="meta"><a href="https://news.ycombinator.com/item?id=44072483">HN Discussion</a></p>
-</div>
-
----
-
-<h2>🤖 AI Capability Watch</h2>
-
-<div class="story">
-  <h3><a href="https://openai.com/index/virgin-atlantic">Virgin Atlantic Used OpenAI's Codex to Ship a Mobile App Rewrite on a Hard Holiday Deadline</a></h3>
-  <p>Virgin Atlantic used Codex — OpenAI's autonomous coding agent — to complete a full mobile app overhaul on a fixed holiday travel deadline, achieving near-total unit test coverage and zero P1 defects at launch. This is one of the first well-documented cases of an AI coding agent being used for a high-stakes, deadline-bound production software project at a major company, not just developer productivity experiments. The "zero P1 defects" claim in particular is worth scrutinizing — if it holds up under examination, it shifts the conversation about where AI coding agents can be trusted.</p>
-  <p class="meta">OpenAI Blog</p>
-</div>
+  <h3><a href="https://www.wired.com/story/a-fundamental-principle-of-aeronautical-engineering-has-been-overturned/">A Fundamental Principle of Aeronautical Engineering Has Been Overturned</a></h3>
+  <p>A principle assumed since the Wright Brothers — about how airflow behaves at certain angles of attack — has apparently been shown to be wrong under specific conditions, with implications for wing design efficiency. The details are technical, but the meta-point is interesting: a foundational assumption in a mature engineering field held for 120 years before
 </body>
 </html>
