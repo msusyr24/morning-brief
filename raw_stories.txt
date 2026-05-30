@@ -1,96 +1,126 @@
 === HACKER NEWS ===
-1. [1421 pts] Claude Opus 4.8
-   https://www.anthropic.com/news/claude-opus-4-8
+1. [465 pts] SQLite is all you need for durable workflows
+   https://obeli.sk/blog/sqlite-is-all-you-need-for-durable-workflows/
 
-2. [834 pts] Bricks and Minifigs Stole a Man's $200k Lego Collection
-   https://mybricklog.com/blog/bricks-minifigs-corporate-stole-old-mans-200000-lego-collection
+2. [44 pts] Perry Compiles TypeScript directly to executables using SWC and LLVM
+   https://www.perryts.com/
 
-3. [184 pts] Blue Origin’s New Glenn rocket exploded during a static fire test
-   https://arstechnica.com/space/2026/05/blue-origins-new-glenn-rocket-just-exploded-during-a-static-fire-test/
+3. [150 pts] Snowboard Kids 2 is 100% Decompiled
+   https://blog.chrislewis.au/snowboard-kids-2-is-100-decompiled/
 
-4. [332 pts] I made a million dollar product from my dorm room (2025)
-   https://nick.winans.io/blog/nice-nano/
+4. [32 pts] Math-to-Manim
+   https://github.com/HarleyCoops/Math-To-Manim
 
-5. [255 pts] Cars collect a startling amount of data about you
-   https://www.bbc.com/future/article/20260513-your-car-is-spying-on-you-its-about-to-get-worse
+5. [86 pts] Naphtha shortages in Japan
+   https://www.nippon.com/en/japan-data/h02783/
 
-6. [92 pts] Ten Basic Clouds
-   https://www.noaa.gov/jetstream/clouds/ten-basic-clouds
+6. [335 pts] Notes from the Mistral AI Now Summit
+   https://koenvangilst.nl/lab/mistral-ai-now-summit
 
-7. [34 pts] Italians and Dutch share the same gestural instinct for teaching
-   https://www.mpi.nl/news/italians-and-dutch-share-same-gestural-instinct-teaching
+7. [156 pts] MCP is dead?
+   https://www.quandri.io/engineering-blog/mcp-is-dead
 
-8. [234 pts] Blue Origin's New Glenn blows up during static fire test
-   https://twitter.com/nasaspaceflight/status/2060164928472854821
+8. [125 pts] Print with dozens of colors: Our new open-source ColorMix for PrusaSlicer
+   https://blog.prusa3d.com/our-new-open-source-colormix-model-in-prusaslicer-and-easyprint_136079/
 
-9. [221 pts] Nitpicking the shell history scene in 'Tron: Legacy'
-   https://www.chiark.greenend.org.uk/~sgtatham/quasiblog/tron-legacy/
+9. [114 pts] Shift will clean homes for free to train future robots
+   https://www.theverge.com/ai-artificial-intelligence/939765/ai-training-data-startup-shift-free-cleaning
 
-10. [58 pts] The mysterious Hy3 LLM is topping OpenRouter Model Rankings by a large margin
+10. [268 pts] It's hard to justify buying a Framework 12
+   https://www.jeffgeerling.com/blog/2026/its-hard-to-justify-framework-12/
+
+11. [893 pts] The dead economy theory
+   https://www.owenmcgrann.com/p/the-dead-economy-theory
+
+12. [19 pts] What It Takes to Preserve Floppy Disks
+   https://spectrum.ieee.org/floppy-disk-data-preservation-archives
+
+13. [126 pts] Show HN: Tiny-vLLM – high performance LLM inference engine in C++ and CUDA
+   https://github.com/jmaczan/tiny-vllm
+
+14. [544 pts] Citing 'severe' math deficits, UC faculty demand a return to SAT tests for STEM
+   https://www.latimes.com/california/story/2026-05-27/uc-math-professors-demand-return-of-sat-for-stem-admissions
+
+15. [89 pts] The Last Technical Interview
+   https://steve-yegge.medium.com/the-last-technical-interview-bc13ddcf4564
+
+16. [43 pts] Show HN: Open-source private home security camera system (end-to-end encryption)
+   https://github.com/secluso/core
+
+17. [173 pts] Liquid AI reveals 8B-A1B MoE trained on 38T
+   https://www.liquid.ai/blog/lfm2-5-8b-a1b
+
+18. [217 pts] Bijou64: A variable-length integer encoding
+   https://www.inkandswitch.com/tangents/bijou64/
+
+19. [249 pts] What Is a Dickover?
+   https://daringfireball.net/2026/05/what_is_a_dickover
+
+20. [320 pts] Is AI causing a repeat of frontend’s lost decade?
+   https://mastrojs.github.io/blog/2026-05-23-is-AI-causing-a-repeat-of-frontends-lost-decade/
+
+21. [50 pts] Ember.js 7.0
+   https://blog.emberjs.com/ember-released-7-0/
+
+22. [161 pts] On Rendering Diffs
+   https://pierre.computer/writing/on-rendering-diffs
+
+23. [130 pts] WH proposes rules giving political appointees final approval on research grants
+   https://www.scientificamerican.com/article/white-house-proposes-new-rules-giving-political-appointees-final-say-on-research-grants/
+
+24. [297 pts] You can just say it
+   https://noperator.dev/posts/you-can-just-say-it/
+
+25. [119 pts] The mysterious Hy3 LLM is topping OpenRouter Model Rankings by a large margin
    https://minimaxir.com/2026/05/openrouter-hy3/
 
-11. [12 pts] Zot now supports Claude Opus 4.8
-   https://www.zot.sh
+26. [12 pts] A new register allocator for ZJIT
+   https://railsatscale.com/2026-05-27-a-new-register-allocator-for-zjit/
 
-12. [202 pts] I hated writing until I learned there’s a science to it (2024)
-   https://www.science.org/content/article/i-hated-writing-until-i-learned-there-s-science-it
+27. [636 pts] GTA 6 Developers Unionize
+   https://rockstarintel.com/gta-6-developers-announce-rockstar-games-union/
 
-13. [32 pts] Claude Code – Everything You Can Configure That the Docs Don't Tell You
-   https://buildingbetter.tech/p/i-read-the-claude-code-source-code
+28. [167 pts] We should be more tired than the model
+   https://vickiboykis.com/2026/05/28/we-should-be-more-tired-than-the-model/
 
-14. [293 pts] Show HN: Continue? Y/N: A 60-second game about AI agent permission fatigue
-   https://llmgame.scalex.dev
+29. [137 pts] Show HN: TV Explorer. Adding advanced UI to free online TV
+   https://tvexplorer.live
 
-15. [17 pts] Python utility package for building Claude Code hooks
-   https://github.com/RasmusGodske/claude-hook-utils
-
-16. [180 pts] News about Raspberry Pi 6 and Microcontroller Development
-   https://www.jeffgeerling.com/blog/2026/news-about-raspberry-pi-6-and-microcontroller-development/
-
-17. [142 pts] Coalton is an efficient, statically typed Lisp with ideas from Haskell and OCaml
-   https://coalton-lang.github.io/
-
-18. [53 pts] Garnix (A Nix CI) is shutting down
-   https://discourse.nixos.org/t/garnix-is-shutting-down-not-oc/77895
-
-19. [323 pts] GitHub bans security researcher who posted zero-day Windows exploits
-   https://www.tomshardware.com/tech-industry/cyber-security/microsofts-github-bans-security-researcher-who-posted-zero-day-windows-exploits-because-company-ruined-their-life-expert-claims-action-is-vindictive-and-promises-further-retaliation
-
-20. [306 pts] Building durable workflows on Postgres
-   https://www.dbos.dev/blog/postgres-is-all-you-need-for-durable-execution
-
-21. [183 pts] SF startup is testing robots in Airbnbs, and trashing them, lawsuit claims
-   https://sfstandard.com/2026/05/28/sf-startup-secretly-testing-robots-airbnbs-trashing-lawsuit-claims/
-
-22. [177 pts] The Permanent Upper Crow
-   https://permanent-upper-crow.jasonwu.ink/
-
-23. [4 pts] Avoid Using "< [Cdata[ ]]>" in RSS
-   https://waspdev.com/articles/2026-05-11/avoid-using-cdata-in-rss
-
-24. [60 pts] What Gets Kept
-   https://www.newyorker.com/culture/the-weekend-essay/what-jack-kerouac-left-behind
-
-25. [228 pts] Indoor Wi-Fi Roaming with OpenWRT
-   https://taoofmac.com/space/blog/2026/05/26/1730
-
-26. [77 pts] Endive: A JVM native WebAssembly runtime
-   https://github.com/bytecodealliance/endive
-
-27. [278 pts] Various LLM Smells
-   https://shvbsle.in/various-llm-smells/
-
-28. [71 pts] Show HN: Ktx – Open-source executable context layer for data agents
-   https://github.com/Kaelio/ktx
-
-29. [321 pts] Anthropic raises $65B in Series H funding at $965B post-money valuation
-   https://www.anthropic.com/news/series-h
-
-30. [93 pts] Bitburner, programming-based incremental game
-   https://bitburner-official.github.io/
+30. [162 pts] High Density Living, 2000 Years Ago: Inside the Roman Apartment Building
+   https://commonedge.org/high-density-living-2000-years-ago-inside-the-roman-apartment-building/
 
 
 === RSS ===
+[wisdom] Donald Robertson: Five Stoic Reminders Readers Shared This Week
+  https://donaldrobertson.substack.com/p/five-stoic-reminders-readers-shared
+
+[wisdom] Donald Robertson: How Anyone Can Think Like a Roman Emperor
+  https://donaldrobertson.substack.com/p/how-anyone-can-think-like-a-roman-emperor-4fd6de661c96
+
+[wisdom] Donald Robertson: How General Semantics was Used to Treat World War II Veterans
+  https://donaldrobertson.substack.com/p/how-general-semantics-was-used-to
+
+[wisdom] Figs in Winter (Pigliucci): Early Socratic dialogues: Charmides
+  https://figsinwintertime.substack.com/p/early-socratic-dialogues-charmides
+
+[wisdom] Figs in Winter (Pigliucci): How to cope with Boethius
+  https://figsinwintertime.substack.com/p/how-to-cope-with-boethius
+
+[wisdom] Figs in Winter (Pigliucci): Suggested Readings
+  https://figsinwintertime.substack.com/p/suggested-readings-d46
+
+[ideas] Astral Codex Ten: Book Review: The Dialectical Imagination
+  https://www.astralcodexten.com/p/book-review-the-dialectical-imagination
+
+[ideas] Astral Codex Ten: Hidden Open Thread 435.5
+  https://www.astralcodexten.com/p/hidden-open-thread-4355
+
+[ideas] Paul Graham: How to Convert Between Wealth and Income Tax
+  https://paulgraham.com/winc.html
+
+[ideas] Paul Graham: The Brand Age
+  https://paulgraham.com/brandage.html
+
 [ai] Simon Willison: datasette 1.0a31
   https://simonwillison.net/2026/May/29/datasette/#atom-everything
 
@@ -106,38 +136,20 @@
 [ai] Simon Willison: markdown-svg-renderer
   https://simonwillison.net/2026/May/28/markdown-svg-renderer/#atom-everything
 
+[ideas] Marginal Revolution: Supply is elastic, installment #1637
+  https://marginalrevolution.com/marginalrevolution/2026/05/supply-is-elastic-installment-1637.html?utm_source=rss&utm_medium=rss&utm_campaign=supply-is-elastic-installment-1637
+
+[ideas] Marginal Revolution: Friday assorted links
+  https://marginalrevolution.com/marginalrevolution/2026/05/friday-assorted-links-574.html?utm_source=rss&utm_medium=rss&utm_campaign=friday-assorted-links-574
+
+[ideas] Marginal Revolution: What I have been learning doing New Aesthetics
+  https://marginalrevolution.com/marginalrevolution/2026/05/what-i-have-been-learning-doing-new-aesthetics.html?utm_source=rss&utm_medium=rss&utm_campaign=what-i-have-been-learning-doing-new-aesthetics
+
+[ideas] Marginal Revolution: Why are Murders Down in Baltimore?
+  https://marginalrevolution.com/marginalrevolution/2026/05/why-are-murders-down-in-baltimore.html?utm_source=rss&utm_medium=rss&utm_campaign=why-are-murders-down-in-baltimore
+
 [ideas] Marginal Revolution: Are we undermeasuring inflation for lower earners?
   https://marginalrevolution.com/marginalrevolution/2026/05/are-we-undermeasuring-inflation-for-lower-earners.html?utm_source=rss&utm_medium=rss&utm_campaign=are-we-undermeasuring-inflation-for-lower-earners
-
-[ideas] Marginal Revolution: How Much Has Shale Gas Saved U.S. Consumers?
-  https://marginalrevolution.com/marginalrevolution/2026/05/how-much-has-shale-gas-saved-u-s-consumers.html?utm_source=rss&utm_medium=rss&utm_campaign=how-much-has-shale-gas-saved-u-s-consumers
-
-[ideas] Marginal Revolution: AI in gdp
-  https://marginalrevolution.com/marginalrevolution/2026/05/ai-in-gdp.html?utm_source=rss&utm_medium=rss&utm_campaign=ai-in-gdp
-
-[ideas] Marginal Revolution: Thursday assorted links
-  https://marginalrevolution.com/marginalrevolution/2026/05/thursday-assorted-links-554.html?utm_source=rss&utm_medium=rss&utm_campaign=thursday-assorted-links-554
-
-[ideas] Marginal Revolution: Those new service sector economics jobs?
-  https://marginalrevolution.com/marginalrevolution/2026/05/those-new-service-sector-economics-jobs.html?utm_source=rss&utm_medium=rss&utm_campaign=those-new-service-sector-economics-jobs
-
-[wisdom] Figs in Winter (Pigliucci): Early Socratic dialogues: Charmides
-  https://figsinwintertime.substack.com/p/early-socratic-dialogues-charmides
-
-[wisdom] Figs in Winter (Pigliucci): How to cope with Boethius
-  https://figsinwintertime.substack.com/p/how-to-cope-with-boethius
-
-[wisdom] Figs in Winter (Pigliucci): Suggested Readings
-  https://figsinwintertime.substack.com/p/suggested-readings-d46
-
-[health] Peter Attia: Growth hormone for musculoskeletal system repair
-  https://peterattiamd.com/growth-hormone-for-musculoskeletal-system-repair/
-
-[ideas] Paul Graham: How to Convert Between Wealth and Income Tax
-  https://paulgraham.com/winc.html
-
-[ideas] Paul Graham: The Brand Age
-  https://paulgraham.com/brandage.html
 
 [ai] Anthropic News: Anthropic raises $65B in Series H funding at $965B post-money valuation
   https://www.anthropic.com/news/series-h
@@ -154,68 +166,8 @@
 [ai] Anthropic News: Anthropic co-founder Chris Olah's remarks on Pope Leo XIV's encyclical "Magnifica humanitas"
   https://www.anthropic.com/news/chris-olah-pope-leo-encyclical
 
-[wisdom] Farnam Street: Proven, Better, New: Mark Pincus on the Rules of Innovation
-  https://fs.blog/knowledge-project-podcast/mark-pincus/
-
-[bitcoin] Bitcoin Magazine: Bitcoin Miners Face AI Squeeze as Hash Rate Flattens and Network Enters New Security Phase, Fidelity Says
-  https://bitcoinmagazine.com/news/bitcoin-miners-face-ai-squeeze
-
-[bitcoin] Bitcoin Magazine: Anonymous Plaintiff Seeks Legal Title to $293 Billion in Dormant Bitcoin, Without Holding Any Private Keys
-  https://bitcoinmagazine.com/news/anonymous-plaintiff-seeks-legal-bitcoin
-
-[bitcoin] Bitcoin Magazine: Sequans (SQNS) Completes Bitcoin Unwind, Exits Digital Asset Strategy After Less Than a Year
-  https://bitcoinmagazine.com/news/sequans-completes-bitcoin-unwind
-
-[bitcoin] Bitcoin Magazine: Bitcoin Price Falls 5.5% in 5 Days to Below 73,000 as Spot ETF Outflows Accelerate
-  https://bitcoinmagazine.com/markets/bitcoin-price-falls-below-73000
-
-[bitcoin] Bitcoin Magazine: UTXO Enters Bitcoin Staking on Stacks, Targets BTC Yield
-  https://bitcoinmagazine.com/news/utxo-enters-bitcoin-staking-on-stacks
-
-[bitcoin] Bitcoin Magazine: No – Digital Credit Cannot Be Replicated With Bitcoin and Treasuries
-  https://bitcoinmagazine.com/bitcoin-for-corporations/digital-credit-cant-be-replicated-btc-t
-
-[bitcoin] Bitcoin Magazine: The 2036 Issue: What Choices Will You Make On The Way To A Multipolar World?
-  https://bitcoinmagazine.com/print/the-2036-issue-what-choices-will-you-make-on-the-way-to-a-multipolar-world
-
-[bitcoin] Bitcoin Magazine: Cathie Wood Doubles Down: ARK Invest Sets Bitcoin Base Case at $750,000 by 2030
-  https://bitcoinmagazine.com/business/cathie-wood-doubles-down-ark-invest-sets-bitcoin-base-case-at-750000-by-2030
-
-[bitcoin] The Pomp Letter: The Stock Market And Consumer Sentiment Are Telling Two Different Stories
-  https://pomp.substack.com/p/here-is-proof-ai-will-continue-driving-c8f
-
-[bitcoin] The Pomp Letter: Stocks Are Getting Cheaper As They Go Higher
-  https://pomp.substack.com/p/stocks-are-getting-cheaper-as-they
-
-[ideas] Astral Codex Ten: Hidden Open Thread 435.5
-  https://www.astralcodexten.com/p/hidden-open-thread-4355
-
-[ideas] Astral Codex Ten: Use AI This Election
-  https://www.astralcodexten.com/p/use-ai-this-election
-
-[ai] OpenAI Blog: How Endava builds an agentic organization with Codex
-  https://openai.com/index/endava
-
-[ai] OpenAI Blog: OpenAI’s Frontier Governance Framework
-  https://openai.com/index/openai-frontier-governance-framework
-
-[ai] OpenAI Blog: MUFG aims to become AI-native with OpenAI
-  https://openai.com/index/mufg
-
-[ai] OpenAI Blog: Cisco and OpenAI redefine enterprise engineering with Codex
-  https://openai.com/index/cisco
-
-[ai] OpenAI Blog: Building self-improving tax agents with Codex
-  https://openai.com/index/building-self-improving-tax-agents-with-codex
-
-[wisdom] Donald Robertson: Five Stoic Reminders Readers Shared This Week
-  https://donaldrobertson.substack.com/p/five-stoic-reminders-readers-shared
-
-[wisdom] Donald Robertson: How Anyone Can Think Like a Roman Emperor
-  https://donaldrobertson.substack.com/p/how-anyone-can-think-like-a-roman-emperor-4fd6de661c96
-
-[wisdom] Donald Robertson: How General Semantics was Used to Treat World War II Veterans
-  https://donaldrobertson.substack.com/p/how-general-semantics-was-used-to
+[ideas] Stratechery: 2026.22: Luceing Their Mind
+  https://stratechery.com/2026/luceing-their-mind/
 
 [ideas] Stratechery: An Interview with Eric Seufert About Models and Ads, and AI’s Upside for Humanity
   https://stratechery.com/2026/an-interview-with-eric-seufert-about-models-and-ads-and-ais-upside-for-humanity/
@@ -223,44 +175,117 @@
 [ideas] Stratechery: The SpaceX IPO and Data Centers in Space
   https://stratechery.com/2026/the-spacex-ipo-and-data-centers-in-space/
 
-[ideas] Stratechery: Nvidia Earnings, The AI Stack, Nvidia’s New Reporting
-  https://stratechery.com/2026/nvidia-earnings-the-ai-stack-nvidias-new-reporting/
+[bitcoin] Bitcoin Magazine: Coinkite Launches Coldcard MK5: Major UX Upgrades to Flagship Bitcoin Hardware Wallet
+  https://bitcoinmagazine.com/business/coinkite-launches-coldcard-mk5-major-ux-upgrades-to-flagship-bitcoin-hardware-wallet
+
+[bitcoin] Bitcoin Magazine: U.S. Treasury: The United States Has Seized Nearly $1 Billion of Iran’s Crypto
+  https://bitcoinmagazine.com/news/u-s-treasury-the-united-states-iran
+
+[bitcoin] Bitcoin Magazine: JPMorgan Chase CEO Jamie Dimon Declares War on Clarity Act, Calls Coinbase’s Armstrong ‘Full of Sh*t’
+  https://bitcoinmagazine.com/news/jpmorgan-chase-ceo-dimon-declares-war
+
+[bitcoin] Bitcoin Magazine: Retired Couple Loses $76,000 Life Savings to Bitcoin ATM Scam, Sues Bitcoin Depot in Federal Court
+  https://bitcoinmagazine.com/news/retired-couple-sues-bitcoin-depot-in-court
+
+[bitcoin] Bitcoin Magazine: CFTC Cracks Open U.S. Market for Bitcoin and Crypto Perpetual Futures
+  https://bitcoinmagazine.com/news/cftc-cracks-open-u-s-market-for-bitcoin
+
+[bitcoin] Bitcoin Magazine: Someone Just Inscribed the U.S. Constitution onto the Bitcoin Blockchain
+  https://bitcoinmagazine.com/news/someone-inscribed-the-constitution-bitcoin
+
+[bitcoin] Bitcoin Magazine: Texas Names Bitcoin Reserve Advisory Committee as State Eyes Direct Bitcoin Custody
+  https://bitcoinmagazine.com/news/texas-names-bitcoin-reserve-committee
+
+[bitcoin] Bitcoin Magazine: Bitcoin Miners Face AI Squeeze as Hash Rate Flattens and Network Enters New Security Phase, Fidelity Says
+  https://bitcoinmagazine.com/news/bitcoin-miners-face-ai-squeeze
+
+[ai] OpenAI Blog: Boston Children’s uses AI to unlock new diagnoses
+  https://openai.com/index/boston-childrens-hospital
+
+[ai] OpenAI Blog: How Braintrust turns customer requests into code with Codex
+  https://openai.com/index/braintrust
+
+[ai] OpenAI Blog: Strengthening societal resilience with Rosalind Biodefense
+  https://openai.com/index/strengthening-societal-resilience-with-rosalind-biodefense
+
+[ai] OpenAI Blog: A shared playbook for trustworthy third party evaluations
+  https://openai.com/index/trustworthy-third-party-evaluations-foundations
+
+[ai] OpenAI Blog: How Endava builds an agentic organization with Codex
+  https://openai.com/index/endava
+
+[wisdom] Farnam Street: Proven, Better, New: Mark Pincus on the Rules of Innovation
+  https://fs.blog/knowledge-project-podcast/mark-pincus/
 
 [health] Stronger by Science: Hold Still: What Does the Evidence Actually Say About Isometric Training for Strength and Hypertrophy?
   https://www.strongerbyscience.com/isometric-training/
 
+[bitcoin] The Pomp Letter: The Retail Investor Feeding Frenzy
+  https://pomp.substack.com/p/the-retail-investor-feeding-frenzy
+
+[bitcoin] The Pomp Letter: The Stock Market And Consumer Sentiment Are Telling Two Different Stories
+  https://pomp.substack.com/p/here-is-proof-ai-will-continue-driving-c8f
+
 
 === YOUTUBE ===
-Ken Berry MD: What’s always stocked in your meat drawer right now? Use discount code: NEISHA
-  https://www.youtube.com/shorts/k_JbxU-TtvI
+Ken Berry MD: They Lied About High LDL — 27 Years Proof with Dr. David Diamond
+  https://www.youtube.com/watch?v=q57CNySsYxs
   Transcript: yes
 
-Paul Saladino MD: The best and worst olive oils
-  https://www.youtube.com/shorts/ooVmlg-dnFQ
+Ken Berry MD: Monday Night Live with Dr. Berry & Nurse Neisha
+  https://www.youtube.com/watch?v=q_NREn05lQw
+  Transcript: NO
+
+Ken Berry MD: Your body is literally built from protein, fat, vitamins, and minerals…
+  https://www.youtube.com/shorts/Z-PAm5z7xQA
+  Transcript: yes
+
+Paul Saladino MD: Why men have low testosterone today
+  https://www.youtube.com/shorts/6UStjTPlkuo
+  Transcript: yes
+
+Anthony Chaffee MD: Even Long-Term Carnivores Are Eating Carbs Again (Here's Why)
+  https://www.youtube.com/watch?v=0RiZufCf0nY
+  Transcript: yes
+
+Joe Rogan: Joe Rogan Experience #2507 - Harland Williams
+  https://www.youtube.com/watch?v=51ds7IU7ZL8
+  Transcript: yes
+
+Joe Rogan: Joe Rogan Experience #2506 - Michelle Thaller
+  https://www.youtube.com/watch?v=GZCmYrgOZU0
   Transcript: yes
 
 GTO Wizard: PLO in GTO Wizard ft. Tombos21 & Joey Ingram
   https://www.youtube.com/watch?v=mFxVLlp6cIs
   Transcript: yes
 
-Joe Rogan: Joe Rogan Experience #2506 - Michelle Thaller
-  https://www.youtube.com/watch?v=GZCmYrgOZU0
-  Transcript: NO
-
-Anthony Chaffee MD: Even Long-Term Carnivores Are Eating Carbs Again (Here's Why)
-  https://www.youtube.com/watch?v=0RiZufCf0nY
-  Transcript: yes
-
 Nick Norwitz: Scientists Just Gene-Edited Humans to Lower Cholesterol (Really!)
   https://www.youtube.com/shorts/hJ8iPITyaN4
   Transcript: yes
 
-GTO Lab: Put in some light reps in the Trainer before your WSOP tournaments
-  https://www.youtube.com/shorts/Of6KT4fDEKg
+Thomas DeLauer: 37mg is the Most Underrated Performance Enhancer for Fat Loss and Strength
+  https://www.youtube.com/watch?v=HCZsTtu7nP0
   Transcript: yes
 
-Thomas DeLauer: They Were Wrong About Insulin Resistance — The Spike is Not the Problem
-  https://www.youtube.com/watch?v=OwpHnBlh1jw
+GTO Lab: Stop letting a bad bust-out ruin your entire series. 📉
+  https://www.youtube.com/shorts/Y_1-kyYumqo
+  Transcript: yes
+
+Lex Fridman: Biggest Mysteries in Physics: Antimatter, Dark Energy & ToE - Don Lincoln | Lex Fridman Podcast #497
+  https://www.youtube.com/watch?v=1M3Vdl6DRkU
+  Transcript: yes
+
+Renaissance Periodization: Exercise Scientist Critiques the Enhanced Games Flop
+  https://www.youtube.com/watch?v=1BAnz0MYHkk
+  Transcript: yes
+
+Renaissance Periodization: Ronnie Ate 600g Protein?!
+  https://www.youtube.com/shorts/9iDdD8s8H8Q
+  Transcript: yes
+
+Dr. Sten Ekberg: I Ate Nothing But Sardines For 5 Days and Here's What Happened
+  https://www.youtube.com/watch?v=pLKMkkMt5P0
   Transcript: yes
 
 Jared Alderman: Beating Isildur1, Winning 6 Bracelets, and Finding Fulfilment Outside of Poker — Brian Hastings
@@ -271,36 +296,24 @@ Peter Attia: Is Industrial Processing the Real Problem With Seed Oils? | Layne N
   https://www.youtube.com/watch?v=Tsqzx3L6UWs
   Transcript: yes
 
-Lex Fridman: FFmpeg: The Incredible Technology Behind Video on the Internet | Lex Fridman Podcast #496
-  https://www.youtube.com/watch?v=nepKKz-MzFM
-  Transcript: yes
-
-Dr. Sten Ekberg: You Cannot Heal Your THYROID If You Do These 10 Things Daily
-  https://www.youtube.com/watch?v=m65Aq4H-oic
-  Transcript: yes
-
 Andrew Huberman: The Science & Process of Healing from Grief | Huberman Lab Essentials
   https://www.youtube.com/watch?v=PlQyGIIAGNo
-  Transcript: yes
-
-Renaissance Periodization: Ozempic Is More Than Fat Loss
-  https://www.youtube.com/shorts/Td1zdhI4FaE
   Transcript: yes
 
 ThinkingPoker: Bankroll Management - Thinking Poker
   https://www.youtube.com/watch?v=6w8amkDkeVw
   Transcript: yes
 
-ModernWisdom: The 3 Reasons Why Every Argument Happens
-  https://www.youtube.com/shorts/0kokMDlCGmw
+ModernWisdom: The Algorithmic Trap Of Smart Phones
+  https://www.youtube.com/shorts/U_sZeTeNGYA
   Transcript: yes
 
-ModernWisdom: Men Should Embrace Their Biological Role
-  https://www.youtube.com/shorts/fT8xFcSQsWw
+ModernWisdom: What Actually Makes Someone Attractive?
+  https://www.youtube.com/shorts/5EVesXOBlLs
   Transcript: yes
 
-ModernWisdom: Psyop Expert: “Brainwashing Is Real And It’s Happening Now” - Chase Hughes
-  https://www.youtube.com/watch?v=sBwtELpwVl4
+ModernWisdom: The New Trend Of AI-Powered Looksmaxxing
+  https://www.youtube.com/watch?v=lkdV97ve15w
   Transcript: yes
 
 Mind The Game: LeBron  🤝🏾 Caruso. Tap into our new episode. Presented by @DraftKings  #ad
