@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>Morning Brief — Sunday, May 31, 2026</title>
+<title>Morning Brief — Monday, June 01, 2026</title>
 <style>
   body {
     font-family: Georgia, serif;
@@ -92,30 +92,30 @@
 })();
 </script>
 <h1>Morning Brief</h1>
-<p class="date">Sunday, May 31, 2026</p>
+<p class="date">Monday, June 01, 2026</p>
 
 <div class="anchor">
   <h2>☀️ Today's Anchor</h2>
   <div class="anchor-block">
-    <p class="quote">"The meaning of life is to find your gift. The purpose of life is to give it away."</p>
-    <p class="author">— Pablo Picasso (attribution disputed)</p>
-    <p class="context">Often attributed to Picasso; no primary source has been found. Still a widely-quoted summary of purpose.</p>
+    <p class="quote">"The purpose of life is not to be happy. It is to be useful, to be honorable, to be compassionate, to have it make some difference that you have lived and lived well."</p>
+    <p class="author">— Ralph Waldo Emerson (attribution disputed)</p>
+    <p class="context">Attributed to Emerson, though no source exists in his published writings. Widely quoted regardless.</p>
   </div>
   <div class="anchor-block">
-    <p class="model-label">Mental Model · Biology</p>
-    <p class="model-name">Symbiosis / Mutualism</p>
-    <p class="context">Some species co-evolve to benefit each other. Businesses too: Microsoft + Intel, Visa + banks, YouTube + creators. The strongest business relationships aren't zero-sum — they're symbiotic. When evaluating partnerships, ask: does this create a new value pool, or just split an existing one?</p>
+    <p class="model-label">Mental Model · Economics</p>
+    <p class="model-name">Supply and Demand</p>
+    <p class="context">Prices are signals, not values. When something is scarce relative to demand, its price rises until demand drops or supply increases. Most people ignore this when buying bubbles (tulips, crypto) or selling panics (2008 real estate). Munger's defense: always ask, 'relative to what supply, and what demand level?'</p>
   </div>
 </div>
 
 <div class="spotlight">
   <h2>🧭 Channel Spotlight</h2>
-  <p class="spotlight-name">Odyssey - Ancient History Documentaries</p>
-  <p class="spotlight-pitch">I need to flag uncertainty here: I cannot confidently verify a 24-character channel ID for a philosophy channel that precisely matches your interests without risking fabrication. Rather than invent an ID, I'm flagging this honestly — please search YouTube for 'Einzelganger' (@Einzelganger), a solo philosophy channel producing essay-style videos on Stoicism, Taoism, and the examined life with genuine depth and no culture-war noise. It directly complements your Aurelius/Seneca/Epictetus interests with a perspective your current channels (mostly health/poker/finance) don't provide, and the format — calm, well-researched solo essays under 20 minutes — fills the 'thoughtful long-form ideas worth sitting with' slot without redundancy.</p>
+  <p class="spotlight-name">EconTalk</p>
+  <p class="spotlight-pitch">Russ Roberts hosts long-form conversations that sit at the intersection of economics, philosophy, and how to live well — territory your channels only graze. Where Ben Felix covers personal finance and Peter Attia covers longevity, EconTalk steelmans the economic and moral reasoning underneath decisions about tradeoffs, uncertainty, and human flourishing, often drawing on Hayek, Adam Smith's Theory of Moral Sentiments, and Stoic-adjacent ideas. Episodes are single-guest, 60-90 minutes, and tend toward genuine intellectual humility rather than thesis-defending — the format rewards the same careful listening that poker theory and Lex Fridman content demands.</p>
   <p class="spotlight-instructions">Interested? Copy the line below into <code>YOUTUBE_CHANNELS</code> in <code>brief.py</code> and save:</p>
-  <pre class="spotlight-snippet" id="snippet">    "Odyssey - Ancient History Documentaries": "UCV-yCAXMS-nWrHtORuDfSuQ",</pre>
+  <pre class="spotlight-snippet" id="snippet">    "EconTalk": "UCKAu-mTq7iZtKHK6QiBqKPA",</pre>
   <button class="copy-btn" onclick="navigator.clipboard.writeText(document.getElementById('snippet').innerText.trim()); this.innerText='✅ Copied'; setTimeout(()=>this.innerText='📋 Copy snippet', 2000);">📋 Copy snippet</button>
-  <p class="spotlight-meta">showing for 1 more day. If you don't add it, a new channel will be suggested.</p>
+  <p class="spotlight-meta">showing for 3 more days. If you don't add it, a new channel will be suggested.</p>
 </div>
 <h2>🎥 From People I Follow</h2>
 
@@ -123,135 +123,121 @@
 
 <div class="story">
   <h3>GTO Wizard</h3>
-  <p>First-ever GTO Wizard PLO livestream with Tombos21 and Joey Ingram, walking through the new PLO solver tool. Key insight: PLO rewards calling far more than 3-betting preflop because equities run much closer and playing in position with 4 cards is extraordinarily valuable — folding on the button is essentially never correct. The 4-bet pot analysis is striking: when facing a 4-bet from the hijack, the solver shows aces make up ~86% of the range, meaning hands like KK are often folds, while low connected hands actually have better equity. Tombos's central takeaway for hold'em players crossing over: "your hand strength at this moment in time is not important — what matters is what your hand strength will be by the river," which reframes everything around nut potential, backdoor draws, and future blockers rather than current pair strength.</p>
+  <p>GTO Wizard launched PLO (Pot-Limit Omaha) solver tools, and Tombos21 walked through the key mindset shifts required coming from Hold'em. The central insight: in PLO, hand strength <em>right now</em> is almost irrelevant — what matters is your hand's nut potential by the river, plus future blockers. A striking concrete finding: when facing a 4-bet in a 100bb cash game, 86% of the 4-betting range is aces, which means KK is often a fold in that spot — counterintuitive to any Hold'em player. Tombos also highlighted that PLO features far more calling and less 3-betting preflop than Hold'em because equities run much closer, and being in position to see cheap multiway flops is more valuable than bloating the pot OOP.</p>
   <p class="meta">Videos: <a href="https://www.youtube.com/watch?v=mFxVLlp6cIs">PLO in GTO Wizard ft. Tombos21 & Joey Ingram</a></p>
 </div>
 
 <div class="story">
   <h3>Jared Alderman</h3>
-  <p>Interview with Brian Hastings — 6-bracelet winner who famously beat Isildur1 for $4M in a heads-up session. The strategic discussion centers on when to RNG decisions vs. commit to a pure line: Hastings argues RNG makes more sense early in the game tree where variables are unpredictable, but on the river almost always one action is correct. The deeper debate is about balance vs. deliberate imbalance as a strategy — Alderman argues that being genuinely willing to do anything (overbluff or shut down completely depending on the spot) creates the same opponent uncertainty as balance, and may play to personal strengths better than trying to achieve precise theoretical frequencies on the fly. Hastings pushes back that against top players who can identify systematically over/underbluffed spot types, balance is still the safer anchor. The personal side: Black Friday in 2011 (age 23) sent Hastings into depression and he moved back in with his parents — a candid look at the psychological fragility behind even elite poker careers.</p>
+  <p>Brian Hastings (6 WSOP bracelets, famous for beating Isildur1 for ~$4M in a single heads-up session) joined to discuss pre-flop RNG decisions, river balance, and the psychology of being unpredictable. Hastings argues that on the river, achieving perfect theoretical balance is practically impossible because your range composition is already distorted by earlier-street deviations — so instead of chasing exact balance, he leans toward being genuinely willing to do anything (overbluff or shut down entirely depending on reads), making him harder to play against than someone mechanically trying to mix. He also reflected on Black Friday (2011) triggering a serious depression spiral, and on how identity-attachment to poker outcomes is a trap — a thread worth sitting with alongside the poker theory.</p>
   <p class="meta">Videos: <a href="https://www.youtube.com/watch?v=FJ1mEcvFiHw">Beating Isildur1, Winning 6 Bracelets, and Finding Fulfilment Outside of Poker — Brian Hastings</a></p>
 </div>
 
 <div class="story">
-  <h3>Peter Attia</h3>
-  <p>Attia and Layne Norton go deep on seed oil processing — specifically whether industrial extraction (hexane solvents, heat, refining) is the real source of harm independent of linoleic acid itself. Norton's position: hexane residuals in finished oils are well under 1 part per million, the danger from hexane is inhalation not ingestion, and the math on toxic dose is so extreme (would require consuming ~11,000 kg of oil) that it's essentially a non-issue. The more substantive concern they land on: oxidation during cooking and reheating, not extraction. The historical context is worth noting — linoleic acid went from under 3% of food availability ~100 years ago to roughly 10% today, which is the real structural shift worth examining.</p>
+  <h3>Peter Attia (with Layne Norton)</h3>
+  <p>This segment drills into whether industrial processing — not just linoleic acid itself — is what makes seed oils harmful. Norton argues the extraction process (hexane washing, steam evaporation) is shorter and lower-temperature than what's required to cause meaningful oxidation, and that residual hexane levels in finished oils are typically 0.05–0.5 ppm — far below any threshold associated with harm, especially since hexane's toxicity is primarily from inhalation, not ingestion. His back-of-envelope: to get mild side effects from hexane in seed oil, you'd need to consume ~11,340 kg of oil at once. The more substantive open question he raises but doesn't fully close: does lifetime cumulative low-level exposure to processing byproducts contribute to chronic disease — and the honest answer is we don't have definitive data either way.</p>
   <p class="meta">Videos: <a href="https://www.youtube.com/watch?v=Tsqzx3L6UWs">Is Industrial Processing the Real Problem With Seed Oils? | Layne Norton, Ph.D.</a></p>
 </div>
 
 <div class="story">
-  <h3>Stronger by Science (via RSS) / Peter Attia (via RSS)</h3>
-  <p>Two notable fitness science pieces this week. Stronger by Science published a thorough review of isometric training for strength and hypertrophy, arguing the evidence does not support the conventional view that isometrics are inferior to dynamic training — a meaningful claim for anyone programming around injury or limited equipment. Peter Attia covered resistance training for beginners, making the case that optimized programs with heavy compound movements are the gold standard for trained athletes, but for untrained individuals starting fresh, a wide range of programs produce meaningful gains — lowering the barrier to entry is the priority.</p>
-  <p class="meta"><a href="https://www.strongerbyscience.com/isometric-training/">Hold Still: Isometric Training</a> · <a href="https://peterattiamd.com/lowering-the-barrier-to-entry-for-resistance-training/">Resistance Training: Lowering the Barrier</a></p>
+  <h3>Stronger by Science (RSS)</h3>
+  <p>A deep review of isometric training challenges the common assumption that it's inferior to dynamic training for strength and hypertrophy. The piece argues that current evidence does not support that conclusion — isometrics can drive meaningful strength and size gains, particularly when performed at long muscle lengths, and may offer advantages for specific populations or injury contexts. Worth reading if you've been dismissing isometrics as a training tool.</p>
+  <p class="meta">Article: <a href="https://www.strongerbyscience.com/isometric-training/">Hold Still: What Does the Evidence Actually Say About Isometric Training?</a></p>
 </div>
 
 <p><strong>Also posted:</strong></p>
 <ul>
-  <li><strong>Ken Berry MD:</strong> Dr. David Diamond (neuroscientist, 27 years of documented high LDL, no cardiac events) argues that relative risk manipulation in statin trials massively overstates benefit, the American Heart Association has deep financial conflicts with food/pharma, and high LDL in the context of low-carb eating with no other risk factors is not dangerous — he cites familial hypercholesterolemia data showing normal lifespans. (<a href="https://www.youtube.com/watch?v=q57CNySsYxs">They Lied About High LDL — 27 Years Proof with Dr. David Diamond</a>)</li>
-  <li><strong>Nick Norwitz:</strong> CRISPR-based gene editing (delivered via liver-targeting lipid nanoparticles, not germline) dropped LDL by 62% in a human trial — Norwitz's point is that the real story isn't cholesterol but tissue-specific gene delivery, which opens doors to Alzheimer's, cancer immunotherapy, and muscle preservation. (<a href="https://www.youtube.com/shorts/hJ8iPITyaN4">Scientists Just Gene-Edited Humans to Lower Cholesterol</a>)</li>
-  <li><strong>Anthony Chaffee MD:</strong> Addresses the wave of long-term carnivore/keto advocates adding carbs back, arguing most cited reasons (hypothyroidism, leptin resistance) don't hold up in long-term data and that plant goitrogens, iodine blockers, and beta-carotene conversion costs on T4 actually make carnivore better for thyroid function. (<a href="https://www.youtube.com/watch?v=0RiZufCf0nY">Even Long-Term Carnivores Are Eating Carbs Again</a>)</li>
-  <li><strong>Paul Saladino MD:</strong> Covers alpha-gal syndrome (tick-bite-induced red meat allergy now affecting 450K+ Americans), its expansion out of the southeastern US, and auricular acupuncture treatment showing 96% symptom reduction in a 126-person study. The treatment section veers into questionable bioenergetics territory. (+1 short on antidepressants/neuroinflammation) (<a href="https://www.youtube.com/watch?v=4eHW8mP9RJo">The Deadly Red Meat Disease Taking Over America</a>)</li>
-  <li><strong>Thomas DeLauer:</strong> Frames chronic fatigue as a mitochondrial spare respiratory capacity (SRC) problem — when SRC is depleted, the body produces energy through stress pathways (cortisol/sympathetic drive) instead of oxidative metabolism, creating the "wired and tired" pattern. Key micronutrients implicated: CoQ10, NAD, magnesium, glycine (via bone broth → glutathione). (<a href="https://www.youtube.com/watch?v=7qua-So9N6s">1/2 Cup Cleans Cells, Stops Mitochondrial Dysfunction</a>)</li>
-  <li><strong>Dr. Sten Ekberg:</strong> 5-day sardine-only experiment: averaged ~120g protein, ~90g fat, near-zero carbs, ~1,300 cal/day. Felt adequate but not great, attributing this to not being fully fat-adapted going in. Nutritional highlight: sardine bones provide calcium hydroxyapatite (same structure as human bone), which absorbs at any pH — unlike calcium carbonate supplements, which require stomach acid they simultaneously neutralize. (<a href="https://www.youtube.com/watch?v=pLKMkkMt5P0">I Ate Nothing But Sardines For 5 Days</a>)</li>
-  <li><strong>GTO Lab:</strong> Short tactical note on WSOP preparation: knowing your own vices post-bust is the key variable — getting an Airbnb and car gives you escape routes from bad decisions (Bobby Flay's etc.) that a hotel room doesn't. (<a href="https://www.youtube.com/shorts/Y_1-kyYumqo">Stop letting a bad bust-out ruin your entire series</a>)</li>
-  <li><strong>Andrew Huberman:</strong> Neuroscience of grief — the inferior parietal lobule maps relationships along three dimensions (physical proximity, temporal proximity, emotional closeness), and grief is fundamentally the process of decoupling attachment from space/time predictions the brain keeps generating. Practical tool: dedicate 5–30 minute blocks to feeling the attachment fully while consciously avoiding counterfactual ("what if") thinking, which strengthens bonds rather than loosening them. (<a href="https://www.youtube.com/watch?v=PlQyGIIAGNo">The Science & Process of Healing from Grief</a>)</li>
-  <li><strong>Ben Felix:</strong> Research synthesis on money and happiness: the correlation between log income and happiness is only 0.09; a fourfold income difference equals roughly the happiness impact of being a caregiver for a disabled family member; people who prioritize time over money are measurably happier. The 2010/2021 adversarial collaboration reconciles conflicting studies: unhappy people plateau, happy people keep gaining with income. (<a href="https://www.youtube.com/watch?v=S9InNdQhFwc">Using Your Money To Be Happier</a>)</li>
-  <li><strong>Mind The Game:</strong> LeBron on defending Alex Caruso — "he's going to grab you, hold you, compete at a professional level, and AC's not going to beat himself." Short clip, no deep analysis. (<a href="https://www.youtube.com/shorts/GhVg94zUFPo">LeBron 🤝🏾 Caruso</a>)</li>
-  <li><strong>Renaissance Periodization:</strong> Why the Enhanced Games flopped on sprint times: even with PEDs, the athlete pool was too small to beat elite high school records — sample size, not drug efficacy, was the binding constraint. (<a href="https://www.youtube.com/shorts/OmRf9HPX08Y">Why The Enhanced Games Were Dead On Arrival</a>)</li>
+  <li><strong>Ken Berry MD:</strong> Dr. David Diamond (neuroscientist, 46 years research, 27 years of documented high LDL with no cardiac events) argues that LDL-lowering guidelines are tainted by financial conflicts at the American Heart Association level, that relative risk manipulation overstates statin benefit, and that familial hypercholesterolemia patients on average live normal lifespans — contradicting the standard narrative. (<a href="https://www.youtube.com/watch?v=q57CNySsYxs">They Lied About High LDL — 27 Years Proof with Dr. David Diamond</a>)</li>
+  <li><strong>Nick Norwitz:</strong> Scientists used CRISPR packaged inside liver-targeting lipid nanoparticles to reduce LDL by 62% in a single treatment — but Norwitz argues the real story is the tissue-targeting precision, which opens doors to brain-targeted Alzheimer's therapies, cancer immunotherapy, and muscle-preservation treatments. (<a href="https://www.youtube.com/shorts/hJ8iPITyaN4">Scientists Just Gene-Edited Humans to Lower Cholesterol</a>)</li>
+  <li><strong>Anthony Chaffee MD:</strong> Responds to the wave of "carnivore quitters" by arguing that most people claiming long-term carnivore caused thyroid or hormonal problems were never actually carnivore (often consuming 100–150g+ carbs daily by their own admission), and that lower T3 on keto is physiologically appropriate — the body needs less T3 to produce the same ATP output from fat vs. glucose, and TSH remaining stable confirms the thyroid isn't under stress. (<a href="https://www.youtube.com/watch?v=0RiZufCf0nY">Even Long-Term Carnivores Are Eating Carbs Again</a>)</li>
+  <li><strong>Dr. Sten Ekberg:</strong> Five days eating only sardines (~6 tins/day, ~1,300–1,400 cal): adequate but not thriving, partly because he wasn't fully fat-adapted beforehand. Key nutritional data: ~5,000mg EPA+DHA daily (50x the average person's intake), 1,600mg calcium from bone (as calcium hydroxyapatite — same form as human bone, absorbed at any pH unlike calcium carbonate supplements which require acid they simultaneously neutralize). (<a href="https://www.youtube.com/watch?v=pLKMkkMt5P0">I Ate Nothing But Sardines For 5 Days</a>)</li>
+  <li><strong>GTO Lab:</strong> Practical WSOP prep: if you know you'll tilt into cash games or bad spots after busting a tournament, get an Airbnb and a car so you have an exit — environment design matters more than willpower in high-variance emotional moments. (<a href="https://www.youtube.com/shorts/Y_1-kyYumqo">Stop letting a bad bust-out ruin your entire series</a>)</li>
+  <li><strong>Renaissance Periodization:</strong> Being maximally jacked actively hurt a swimmer's performance — low body fat reduces buoyancy, and raw muscularity is largely irrelevant to swimming speed, which is dominated by technique and fast-twitch fiber recruitment. Power-to-weight ratio peaks at relatively low body mass. (<a href="https://www.youtube.com/shorts/2psZRJmGAdk">How Getting Jacked Made Him Worse</a>)</li>
+  <li><strong>Peter Attia (RSS):</strong> New piece on resistance training for beginners — optimized programs with heavy compound lifts are the gold standard for trained athletes, but the evidence suggests the barrier to entry is lower than commonly assumed; meaningful gains are achievable with simpler approaches for novices. (<a href="https://peterattiamd.com/lowering-the-barrier-to-entry-for-resistance-training/">Resistance training: lowering the barrier to entry</a>)</li>
+  <li><strong>Ben Felix:</strong> Detailed breakdown of how financial product advertising manipulates retail investors via five techniques (transference, framing, salience, shrouding, complexity) — covers private equity (risk-adjusted returns indistinguishable from public equity per secondary market transaction data), private credit (headline yield of 9.6% vs. actual 7.7% total return), margin loans, options, and covered call ETFs. (<a href="https://www.youtube.com/watch?v=of9_wpOhGWw">The Biggest Problem in Investing Right Now</a>)</li>
+  <li><strong>Andrew Huberman:</strong> Neuroscience of grief: the inferior parietal lobule maps all relationships across three dimensions (physical proximity, temporal proximity, emotional closeness) simultaneously — grief is the process of uncoupling emotional attachment from the space/time nodes of that map. Adaptive approach: dedicated blocks of time to feel the attachment deeply while consciously avoiding counterfactual ("what if") thinking, which strengthens rather than loosens the map. (<a href="https://www.youtube.com/watch?v=PlQyGIIAGNo">The Science & Process of Healing from Grief</a>)</li>
+  <li><strong>Paul Saladino MD:</strong> Breakdown of Burger King ingredient lists — 85 ingredients in the Whopper including canola oil in the seasoning (despite "100% beef" claims), potassium iodate (banned in Europe/Australia), and dimethylpolysiloxane (antifoaming agent) in frying oils. (<a href="https://www.youtube.com/shorts/ESyVBBcqkiY">I found Burger King's secret ingredients</a>)</li>
+  <li><strong>Peter Attia (RSS):</strong> Sleep pharmacology deep dive — matching medication pharmacology to specific sleep challenges (sleep onset vs. maintenance vs. early waking) rather than using a one-size approach. (<a href="https://peterattiamd.com/sleeppharmacology/">Sleep pharmacology: the role of medications in healthy sleep</a>)</li>
 </ul>
-
----
 
 <h2>₿ Bitcoin & Macro</h2>
 
 <div class="story">
-  <h3><a href="https://bitcoinmagazine.com/news/texas-names-bitcoin-reserve-committee">Texas Names Bitcoin Reserve Advisory Committee as State Eyes Direct Bitcoin Custody</a></h3>
-  <p>Texas has appointed a five-member advisory committee to oversee its Strategic Bitcoin Reserve and is preparing to move from ETF exposure to directly custodied Bitcoin. This is a meaningful structural escalation — sovereign-level direct custody signals both conviction and a deliberate move away from counterparty risk in the ETF wrapper. One of the more concrete state-level Bitcoin reserve developments to date.</p>
+  <h3><a href="https://bitcoinmagazine.com/news/cftc-cracks-open-u-s-market-for-bitcoin">CFTC Greenlights U.S.-Listed Bitcoin Perpetual Futures</a></h3>
+  <p>The CFTC has approved the first U.S.-listed bitcoin perpetual futures contracts and opened a path for Coinbase to route American traders into global crypto derivatives markets. This is a meaningful regulatory shift — perpetual futures have been the dominant Bitcoin trading instrument globally (especially offshore), and U.S. retail and institutional access to them onshore changes the competitive and liquidity landscape significantly.</p>
   <p class="meta">Bitcoin Magazine</p>
 </div>
 
 <div class="story">
-  <h3><a href="https://bitcoinmagazine.com/news/cftc-cracks-open-u-s-market-for-bitcoin">CFTC Cracks Open U.S. Market for Bitcoin and Crypto Perpetual Futures</a></h3>
-  <p>The CFTC has approved the first US-listed Bitcoin perpetual futures and opened a pathway for Coinbase to route American traders into global crypto derivatives markets. Perpetual futures (already dominant in offshore markets) are the primary vehicle for leveraged Bitcoin exposure — bringing them onshore changes the institutional and retail liquidity landscape meaningfully.</p>
+  <h3><a href="https://bitcoinmagazine.com/news/texas-names-bitcoin-reserve-committee">Texas Names Bitcoin Reserve Advisory Committee</a></h3>
+  <p>Texas has appointed a five-member advisory committee to oversee its Strategic Bitcoin Reserve as the state moves from ETF exposure toward directly custodied bitcoin. This is the most operationally concrete state-level Bitcoin reserve development to date — direct custody is a meaningfully different posture than ETF holdings.</p>
   <p class="meta">Bitcoin Magazine</p>
 </div>
-
----
 
 <h2>🧬 Health & Science</h2>
 
 <div class="story">
+  <h3>CRISPR Liver-Targeted Gene Editing Drops LDL 62% in Humans</h3>
+  <p>A clinical study used CRISPR packaged in lipid nanoparticles programmed to target only liver cells — not brain, heart, muscle, or germline — achieving a one-time 62% LDL reduction. As Nick Norwitz argues, the cholesterol headline undersells the real advance: tissue-specific delivery of gene editing tools is the breakthrough, opening potential pathways for Alzheimer's (brain-targeted), cancer (immune cell engineering), and sarcopenia (muscle preservation). The ethical and unknown long-term safety questions are real and unresolved.</p>
+  <p class="meta"><a href="https://www.youtube.com/shorts/hJ8iPITyaN4">Nick Norwitz</a></p>
+</div>
+
+<div class="story">
   <h3>Isometric Training: The Evidence Is Better Than You Think</h3>
-  <p>Stronger by Science published a comprehensive review arguing the longstanding belief that isometric training is inferior to dynamic training for strength and hypertrophy is not supported by current evidence. This matters practically for programming around joint pain, injury rehab, or limited equipment — isometrics may be a legitimate primary modality, not just a rehabilitation tool. Worth reading if you've dismissed them.</p>
-  <p class="meta"><a href="https://www.strongerbyscience.com/isometric-training/">Hold Still: What Does the Evidence Actually Say About Isometric Training?</a></p>
+  <p>Stronger by Science's review finds that the assumption isometrics are inferior to dynamic training for hypertrophy and strength is not well-supported by the current literature. Key moderating variable: muscle length at the isometric contraction point — isometrics performed at long muscle lengths appear particularly effective. This has real programming implications for anyone dealing with joint stress or looking to add intensity variation.</p>
+  <p class="meta"><a href="https://www.strongerbyscience.com/isometric-training/">Stronger by Science</a></p>
 </div>
 
 <div class="story">
-  <h3>Nick Norwitz: Liver-Targeted CRISPR Gene Editing Drops LDL 62% in Humans</h3>
-  <p>A new clinical study used CRISPR packaged in lipid nanoparticles programmed to target only liver cells (not germline, not heritable) and achieved a 62% reduction in LDL in a single treatment. Norwitz's framing is correct: the cholesterol headline is secondary — the real breakthrough is tissue-specific gene delivery at human scale, which opens a new class of therapies for neurodegenerative disease, cancer immunotherapy, and sarcopenia. The ethical and long-term safety questions are real, but the precision here is categorically different from earlier gene editing attempts.</p>
-  <p class="meta"><a href="https://www.youtube.com/shorts/hJ8iPITyaN4">Scientists Just Gene-Edited Humans to Lower Cholesterol</a> · Nick Norwitz</p>
+  <h3>Seed Oil Processing: The Hexane Question Examined</h3>
+  <p>Layne Norton on Peter Attia's podcast provided the most quantitative treatment of the hexane-in-seed-oils question I've seen: finished oils contain 0.05–0.5 ppm residual hexane (often non-detectable), hexane toxicity is primarily via inhalation not ingestion, and rodent lethality studies require human-equivalent doses that would require consuming over 11,000 kg of oil. The honest open question: chronic lifetime low-level exposure to processing byproducts and whether that contributes to systemic inflammation — and this genuinely hasn't been studied with the rigor the question deserves.</p>
+  <p class="meta"><a href="https://www.youtube.com/watch?v=Tsqzx3L6UWs">Peter Attia / Layne Norton</a></p>
 </div>
 
 <div class="story">
-  <h3>Seed Oil Processing: Is Hexane the Problem?</h3>
-  <p>Peter Attia and Layne Norton's detailed walkthrough concludes that hexane residuals (~0.05–0.5 ppm) in finished seed oils are far below any plausible harm threshold — the danger from hexane is inhalation, not ingestion, and it doesn't bioaccumulate. The more defensible concern is oxidation during high-heat cooking and repeated reheating, not the extraction process itself. The structural epidemiological signal — linoleic acid rising from ~3% to ~10% of food availability over 100 years — remains the more interesting datum and is separate from the processing question.</p>
-  <p class="meta"><a href="https://www.youtube.com/watch?v=Tsqzx3L6UWs">Is Industrial Processing the Real Problem With Seed Oils? | Peter Attia & Layne Norton</a></p>
+  <h3>Sardine Nutrition: What Six Tins a Day Actually Delivers</h3>
+  <p>Dr. Sten Ekberg's five-day sardine experiment produced some useful concrete numbers: ~5,000mg EPA+DHA/day (vs. 80–100mg average American intake and 2,000–4,000mg therapeutic target), 1,600mg calcium as hydroxyapatite (the same crystalline form as human bone, absorbed at any pH — contrasted with calcium carbonate supplements like Tums, which require the stomach acid they simultaneously neutralize). The 5-lb weight loss over 5 days and the fatigue he reported are attributed primarily to not being fat-adapted beforehand and running a ~1,000–1,400 cal/day deficit.</p>
+  <p class="meta"><a href="https://www.youtube.com/watch?v=pLKMkkMt5P0">Dr. Sten Ekberg</a></p>
 </div>
-
-<div class="story">
-  <h3>Calcium Hydroxyapatite vs. Calcium Carbonate: A Meaningful Distinction</h3>
-  <p>From Ekberg's sardine experiment: sardine bones provide calcium hydroxyapatite — structurally identical to human bone, absorbed at any pH, packaged with phosphorus, magnesium, and collagen. Most calcium supplements use calcium carbonate (essentially chalk), which requires stomach acid to absorb but simultaneously neutralizes that acid — making absorption largely theoretical. This isn't a novel finding but the mechanism is explained clearly and has real implications for supplementation choices.</p>
-  <p class="meta"><a href="https://www.youtube.com/watch?v=pLKMkkMt5P0">I Ate Nothing But Sardines For 5 Days</a> · Dr. Sten Ekberg</p>
-</div>
-
----
 
 <h2>💡 Worth Reading</h2>
 
 <div class="story">
-  <h3><a href="https://www.brethorsting.com/blog/2026/05/domain-expertise-has-always-been-the-real-moat">Domain expertise has always been the real moat</a></h3>
-  <p>A well-timed essay arguing that as AI commoditizes generic knowledge work, the durable advantage returns to people with deep domain-specific expertise that can't be easily prompted into existence. The argument isn't anti-AI — it's that AI raises the floor for everyone and therefore raises the bar for what constitutes a real edge. Worth a read for thinking about where to invest your own intellectual capital.</p>
-  <p class="meta"><a href="https://news.ycombinator.com/item?id=">HN discussion</a> · brethorsting.com</p>
+  <h3><a href="https://www.promptarmor.com/resources/gpt-for-google-sheets-data-exfiltration">ChatGPT for Google Sheets Exfiltrates Workbooks</a></h3>
+  <p>A security research finding: the ChatGPT plugin for Google Sheets can be manipulated to exfiltrate entire workbook contents to an attacker — meaning any spreadsheet you run AI assistance on could be silently read and transmitted if the plugin is compromised or misbehaving. This isn't a theoretical edge case; it's a practical warning for anyone using AI-integrated productivity tools with sensitive data.</p>
+  <p class="meta"><a href="https://news.ycombinator.com/item?id=44175892">Discussion</a> · PromptArmor</p>
 </div>
 
 <div class="story">
-  <h3><a href="https://figsinwintertime.substack.com/p/how-to-cope-with-boethius">How to cope with Boethius</a></h3>
-  <p>Massimo Pigliucci (Figs in Winter) takes on Boethius's <em>Consolation of Philosophy</em> — written while awaiting execution — as a meditation on how ancient wisdom traditions deal with the most extreme adversity. The core Boethian move: Fortune is by nature fickle, so the wise person never truly relied on her in the first place. Pigliucci situates this in his ongoing series bridging Stoic and broader ancient thought for modern readers.</p>
-  <p class="meta"><a href="https://figsinwintertime.substack.com/p/how-to-cope-with-boethius">Figs in Winter (Pigliucci)</a></p>
+  <h3><a href="https://arstechnica.com/security/2026/05/websites-have-a-new-way-to-spy-on-visitors-analyzing-their-ssd-activity/">Websites Can Now Fingerprint Visitors via SSD Activity</a></h3>
+  <p>Researchers have demonstrated a new browser-based side-channel attack: websites can infer information about visitors by analyzing patterns in SSD read/write timing through JavaScript, adding a new fingerprinting vector that doesn't require cookies, canvas, or WebGL. Combined with the Cloudflare Turnstile/WebGL fingerprinting story also circulating this week, the picture of passive browser surveillance is expanding into hardware-level signals.</p>
+  <p class="meta"><a href="https://news.ycombinator.com/item?id=44178432">Discussion</a> · Ars Technica</p>
 </div>
 
 <div class="story">
   <h3><a href="https://donaldrobertson.substack.com/p/how-anyone-can-think-like-a-roman-emperor-4fd6de661c96">How Anyone Can Think Like a Roman Emperor</a></h3>
-  <p>Donald Robertson on Stoicism and what he calls "majesty as a state of mind" — the Aurelius practice of acting from your role and your values regardless of external circumstances, rather than from mood or reaction. Robertson links this to modern cognitive approaches: the Stoic emperor's internal monologue is a deliberate practice, not a personality trait. Short but worth the few minutes.</p>
-  <p class="meta"><a href="https://donaldrobertson.substack.com/p/how-anyone-can-think-like-a-roman-emperor-4fd6de661c96">Donald Robertson, Substack</a></p>
+  <p>Donald Robertson on Stoicism and what he calls "Majesty as a State of Mind" — the idea that Marcus Aurelius used his role not as a source of pride but as a constant reminder of the gap between how a ruler should act and how he actually felt. The frame: adopting the perspective of your highest aspired self as a practical cognitive tool, not a flattering self-image. Short but the kind of thing worth sitting with.</p>
+  <p class="meta"><a href="https://donaldrobertson.substack.com/p/how-anyone-can-think-like-a-roman-emperor-4fd6de661c96">Donald Robertson / Figs in Winter</a></p>
 </div>
 
 <div class="story">
-  <h3><a href="https://www.astralcodexten.com/p/book-review-the-dialectical-imagination">Book Review: The Dialectical Imagination</a></h3>
-  <p>Scott Alexander reviews a history of the Frankfurt School — the group of Marxist-adjacent German intellectuals (Adorno, Horkheimer, Marcuse) who shaped much of 20th century critical theory. Worth reading as intellectual history: how a small group of thinkers in exile produced ideas that became the default framework in academic humanities decades later, and what those ideas actually were before they became tribal signals.</p>
-  <p class="meta"><a href="https://www.astralcodexten.com/p/book-review-the-dialectical-imagination">Astral Codex Ten</a></p>
+  <h3><a href="https://figsinwintertime.substack.com/p/how-to-cope-with-boethius">How to Cope with Boethius</a></h3>
+  <p>Massimo Pigliucci on Boethius's <em>Consolation of Philosophy</em> — written while awaiting execution — as a practical manual for dealing with radical reversals of fortune. The core Boethian argument: Fortune's gifts (wealth, power, status) were never really "yours" to begin with, so their removal is not a loss of something that belonged to you. Pairs well with Stoic reading; Boethius bridges classical Stoicism and later philosophical traditions on adversity.</p>
+  <p class="meta"><a href="https://figsinwintertime.substack.com/p/how-to-cope-with-boethius">Figs in Winter (Pigliucci)</a></p>
 </div>
-
-<div class="story">
-  <h3><a href="https://marginalrevolution.com/marginalrevolution/2026/05/lifestyle-and-living-standards-arbitrage.html">Lifestyle and living standards arbitrage</a></h3>
-  <p>Tyler Cowen on the accelerating trend of Americans leaving the US — data from 50+ countries on residence permits, home purchases, and student enrollments shows a significant outflow that official US statistics have never captured (no comprehensive emigration data since the Eisenhower administration). The framing of "voting with your feet" as a real-time revealed-preference dataset on quality of life and cost-of-living is genuinely interesting.</p>
-  <p class="meta"><a href="https://marginalrevolution.com/marginalrevolution/2026/05/lifestyle-and-living-standards-arbitrage.html">Marginal Revolution</a></p>
-</div>
-
----
 
 <h2>🤖 AI Capability Watch</h2>
 
 <div class="story">
-  <h3><a href="https://openai.com/index/boston-childrens-hospital">AI helping diagnose rare diseases: Boston Children's Hospital case</a></h3>
-  <p>Boston Children's Hospital is using OpenAI technology in clinical workflows and reports over 40 rare disease cases diagnosed with AI assistance that would likely have been missed or significantly delayed. This is a concrete real-world deployment of AI in high-stakes medical diagnosis — rare disease identification is a domain where the search space is too large for unaided physicians and the cost of missing a diagnosis is catastrophic.</p>
-  <p class="meta">OpenAI Blog</p>
+  <h3><a href="https://www.anthropic.com/news/claude-opus-4-8">Anthropic Introduces Claude Opus 4.8</a></h3>
+  <p>Anthropic released Claude Opus 4.8, a new flagship model in their Opus line. No detailed capability breakdown is available from the summary, but Opus releases have historically represented meaningful jumps in reasoning and complex task performance — worth watching for user-facing benchmarks and early reports from heavy users.</p>
+  <p class="meta">Anthropic</p>
 </div>
 
 <div class="story">
-  <h3><a href="https://www.anthropic.com/news/claude-opus-4-8">Introducing Claude Opus 4.8</a></h3>
-  <p>Anthropic has released Claude Opus 4.8, a new model in the Opus line. Details beyond the announcement are thin in the feed, but Opus releases represent Anthropic's frontier capability tier — worth monitoring for capability specifics as they emerge.</p>
-  <p class="meta">Anthropic</p>
+  <h3><a href="https://openai.com/index/boston-childrens-hospital">OpenAI / Boston Children's: AI Diagnoses 40+ Rare Disease Cases</a></h3>
+  <p>Boston Children's Hospital reports using OpenAI technology to diagnose more than 40 rare disease cases that had previously gone undiagnosed — a concrete clinical outcome, not a pilot or a press release about potential. Rare disease diagnosis is a genuinely hard problem where pattern-matching across vast medical literature is exactly where LLMs have structural advantages over individual clinicians.</p>
+  <p class="meta">OpenAI</p>
 </div>
 </body>
 </html>
