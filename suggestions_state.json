@@ -1,11 +1,11 @@
 {
   "current_suggestion": {
-    "channel_name": "EconTalk",
-    "channel_id": "UCKAu-mTq7iZtKHK6QiBqKPA",
-    "youtube_handle": "@EconTalk",
-    "pitch": "Russ Roberts hosts long-form conversations that sit at the intersection of economics, philosophy, and how to live well \u2014 territory your channels only graze. Where Ben Felix covers personal finance and Peter Attia covers longevity, EconTalk steelmans the economic and moral reasoning underneath decisions about tradeoffs, uncertainty, and human flourishing, often drawing on Hayek, Adam Smith's Theory of Moral Sentiments, and Stoic-adjacent ideas. Episodes are single-guest, 60-90 minutes, and tend toward genuine intellectual humility rather than thesis-defending \u2014 the format rewards the same careful listening that poker theory and Lex Fridman content demands."
+    "channel_name": "Solve For Why",
+    "channel_id": "UCfTYOriUd_yOkUUgoDZX71w",
+    "youtube_handle": "@solveforwhy",
+    "pitch": "Your poker channels (GTO Wizard, GTO Lab, Alderman) are heavily solver-oriented, but Matt Berkey represents a serious counterweight: a high-stakes live cash professional who critiques over-reliance on GTO frameworks and argues for exploitative, reads-based play grounded in live dynamics. This steelmans an angle your current lineup largely ignores \u2014 that solver outputs can become a crutch that degrades real-time thinking. Format is a mix of solo breakdowns, hand history reviews, and podcast-style conversations, with consistent philosophical depth about decision-making under uncertainty that will also resonate with your interest in mental models and pressure."
   },
-  "shown_count": 3,
+  "shown_count": 1,
   "history": [
     "Brad Kearns",
     "Dr. Layne Norton",
@@ -26,6 +26,7 @@
     "Goal Guys",
     "Poker Detox",
     "Odyssey - Ancient History Documentaries",
-    "EconTalk"
+    "EconTalk",
+    "Solve For Why"
   ]
 }
