@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>Morning Brief — Thursday, June 04, 2026</title>
+<title>Morning Brief — Friday, June 05, 2026</title>
 <style>
   body {
     font-family: Georgia, serif;
@@ -92,19 +92,19 @@
 })();
 </script>
 <h1>Morning Brief</h1>
-<p class="date">Thursday, June 04, 2026</p>
+<p class="date">Friday, June 05, 2026</p>
 
 <div class="anchor">
   <h2>☀️ Today's Anchor</h2>
   <div class="anchor-block">
-    <p class="quote">"We suffer more often in imagination than in reality."</p>
-    <p class="author">— Seneca</p>
-    <p class="context">From Letters from a Stoic. Seneca was advising a friend on anxiety — a 2000-year-old observation about human nature.</p>
+    <p class="quote">"Waste no more time arguing what a good man should be. Be one."</p>
+    <p class="author">— Marcus Aurelius</p>
+    <p class="context">Meditations, Book 10. The shortest summary of Stoic ethics ever written.</p>
   </div>
   <div class="anchor-block">
     <p class="model-label">Mental Model · Economics</p>
-    <p class="model-name">Economies of Scale</p>
-    <p class="context">Costs per unit often drop as volume grows. This is why Walmart crushes small competitors and why networks (like social media) concentrate to winners. Munger's warning: some businesses have dis-economies of scale (bureaucracy, coordination costs). Distinguish which you're in.</p>
+    <p class="model-name">Network Effects</p>
+    <p class="context">The value of a product grows with the number of users. Telephones, Facebook, credit cards. Once critical mass is reached, displacement becomes nearly impossible. The moat isn't the product — it's the user base. Munger invested in See's, American Express, and Coca-Cola partly on this basis.</p>
   </div>
 </div>
 
@@ -115,123 +115,125 @@
   <p class="spotlight-instructions">Interested? Copy the line below into <code>YOUTUBE_CHANNELS</code> in <code>brief.py</code> and save:</p>
   <pre class="spotlight-snippet" id="snippet">    "Solve For Why": "UCfTYOriUd_yOkUUgoDZX71w",</pre>
   <button class="copy-btn" onclick="navigator.clipboard.writeText(document.getElementById('snippet').innerText.trim()); this.innerText='✅ Copied'; setTimeout(()=>this.innerText='📋 Copy snippet', 2000);">📋 Copy snippet</button>
-  <p class="spotlight-meta">showing for 3 more days. If you don't add it, a new channel will be suggested.</p>
+  <p class="spotlight-meta">showing for 2 more days. If you don't add it, a new channel will be suggested.</p>
 </div>
 <h2>🎥 From People I Follow</h2>
 
 <p><strong>Worth your time:</strong></p>
 
 <div class="story">
-  <h3>Jared Alderman (feat. Brian Hastings)</h3>
-  <p>A rich conversation on GTO vs. exploitative play, featuring Brian Hastings — 6-time bracelet winner and the player who famously beat Isildur1 for $4M+ in a single session. The core debate: when should you RNG your decisions vs. committing to a read? Hastings argues that on the river, pure balance is often impossible to achieve precisely (your hand may have taken a non-mixed line earlier, making your actual frequency diverge from the solver), so he leans toward intentional imbalance in unpredictable directions — making opponents unsure whether you're over-bluffing or under-bluffing rather than striving for theoretical equilibrium. Jared pushes back that a truly elite opponent will identify which spots you systematically over/underbluff; Hastings concedes this but argues that being "genuinely willing to do anything" in a spot creates the same exploitative difficulty as balance. There's also a candid discussion of Black Friday's psychological impact — Hastings moved back in with his parents at 23, entered a depression spiral — and how his relationship with poker has evolved since.</p>
-  <p class="meta">Videos: <a href="https://www.youtube.com/watch?v=FJ1mEcvFiHw">Beating Isildur1, Winning 6 Bracelets, and Finding Fulfilment Outside of Poker — Brian Hastings</a></p>
+  <h3>Jared Alderman</h3>
+  <p>Alderman zeroes in on the gap between insight and execution — the moment a coaching breakthrough feels profound but produces zero behavioral change. His core argument: "aha moments" create a kind of mental applause that masquerades as progress while nothing actually changes. The fix isn't willpower; it's systematizing the insight into a concrete, repeatable technique you can pull from your toolkit under pressure, specifically when you're a "weaker mental version of yourself." He draws on a Buddhist framing — everything is causes and conditions, including mental states — to argue that concentration, calm, and clarity aren't virtues you summon, they're outputs of conditions you can learn to engineer. His new "Poker Performance Field Kit" is designed as guided in-session audio for specific moments (just lost a big pot, entering day two of a tournament), meant to bridge theory to live execution.</p>
+  <p class="meta">Videos: <a href="https://www.youtube.com/watch?v=EO0IYMQUYJs">Why Your Breakthroughs Are Useless</a></p>
 </div>
 
 <div class="story">
   <h3>GTO Wizard</h3>
-  <p>GTO Wizard launched its first-ever PLO tool and streamed a live walkthrough with Tombos21 and Joey Ingram. The key strategic insight surfaced early: in PLO, 86% of four-bet ranges consist of AA-xx, making hands like KK a pure fold in four-bet pots — a complete inversion of NLHE intuition. Tombos makes the deeper point that PLO forces you to abandon "current hand strength" as a frame and instead evaluate "what will my hand be by the river?" — making backdoor draws, future blockers, and reverse blockers far more central than in hold'em. The calling-vs-3betting frequency difference between games is also highlighted: PLO players call far more and three-bet far less, because equities run closer preflop and inflating pots OOP is more costly when four cards mean every flop can connect.</p>
+  <p>GTO Wizard launched PLO (Pot-Limit Omaha) solver coverage, and this stream with Tombos21 and Joey Ingram surfaced several sharp insights for Texas Hold'em players crossing over. Key findings from the solver: (1) When facing a four-bet in PLO, the four-bettor has aces roughly 86% of the time, making hands like KK a near-pure fold — a complete inversion of NLHE intuition. (2) Calling dominates three-betting preflop across most positions because equities run much closer in PLO (four cards means even "ragged" hands can connect hard), making pot inflation OOP unattractive. (3) Tombos' central mindset shift: in PLO, your hand strength right now is nearly irrelevant — what matters is your hand's potential by the river, including backdoor draws and future blocker utility. The leading range on boards that hit your opponent hard (e.g., J-7-5) should be bigger, not a small range-bet — an immediate lesson from the solver that contradicts common NLHE heuristics about check-to-the-aggressor.</p>
   <p class="meta">Videos: <a href="https://www.youtube.com/watch?v=mFxVLlp6cIs">PLO in GTO Wizard ft. Tombos21 & Joey Ingram</a></p>
 </div>
 
 <div class="story">
-  <h3>Renaissance Periodization (Dr. Mike)</h3>
-  <p>Dr. Mike covered two distinct topics. On training structure: doing cardio immediately after lifting deprioritizes the recovery and growth stimulus — ideally cardio is done at a completely separate time, or at least before lifting if it must be same session. On peptides: RFK pushed 12 peptides toward a formal regulatory vetting process. Dr. Mike's hierarchy from the analysis: MK-677 has the strongest human evidence (large increases in GH/IGF-1, fat-free mass, sleep quality — essentially low-cost oral GH replacement, with the main downside being extreme appetite increase); BPC-157 has compelling animal data for tissue repair but only one formal human trial; Melanotan-2 has well-characterized effects (tanning, libido, appetite suppression, spontaneous erections/priapism risk) in both animal and human models; most others (TB-500, Epithalon, DSIP, Dihexa, GHKCU) are preclinical-only with small-to-moderate effect sizes and unknown human safety profiles. His overall frame: receptor-identified peptides (GLPs, MK-677) are far more predictable than receptor-unknown peptides (BPC-157, TB-500).</p>
-  <p class="meta">Videos: <a href="https://www.youtube.com/watch?v=66VtxKJAlSU">RFK Is Bringing Peptides Back — Are These Actually Good?</a> · <a href="https://www.youtube.com/shorts/EP0vJj-h5H0">Cardio After Lifting Is Killing Your Gains?!</a></p>
+  <h3>GTO Lab</h3>
+  <p>Clemen Deng makes a tight, specific point: on J-7-5 boards where the blinds have strong range coverage (7x and 5x combos), range-betting small is inefficient because it doesn't exploit your range advantage — instead, the correct play is a larger sizing or checking ~40% of the time. When the board pairs (a 7 comes on the turn) and your opponent checks, they're weighted heavily toward unpaired hands, at which point you should start leveraging your ace-high advantage and bet near-pure with the right holdings. The takeaway: board texture should dictate whether you're attacking or conceding range advantage, not defaulting to small range-bets.</p>
+  <p class="meta">Videos: <a href="https://www.youtube.com/shorts/iNKyn-P1zHE">Stop range-banging small on boards that hit your opponent's range</a></p>
 </div>
 
 <div class="story">
-  <h3>Nick Norwitz</h3>
-  <p>Norwitz walks through what he calls "super soldier serum" biology — a Phase 2 trial of bimagrumab, a monoclonal antibody targeting the myostatin pathway (the same gene that produces double-muscled cattle and bully whippets). The trial results: 100% of weight loss came from fat, participants simultaneously gained muscle and grip strength with no increase in physical activity. He then frames CRISPR/Cas9 and prime editing (a more precise "find-replace" gene editor that doesn't cut both DNA strands) against real approvals: the FDA approved the first CRISPR therapy for sickle cell disease in 2023, with 97% of patients free of severe pain crises for 12+ months post-treatment, at a current cost of $2.2M. Norwitz — who carries two APOE4 alleles, giving him 10-15x average Alzheimer's risk — discusses active research into prime-editing APOE4 into the neuroprotective APOE2 variant in the brain, with delivery (getting the editing machinery into neurons) as the remaining bottleneck. Cellular reprogramming (Yamanaka factors, Wolverine analogy) rounds out the video.</p>
-  <p class="meta">Videos: <a href="https://www.youtube.com/watch?v=eJTqiMsZP8Y">The Technology That Will Change Humans Forever</a></p>
+  <h3>Massimo Pigliucci (Figs in Winter)</h3>
+  <p>Pigliucci posted three pieces this cycle: a discussion of Epictetus Discourses 1.11 on family affection (what we owe those we love and why Stoicism isn't cold indifference), a piece on meta-ethics using Star Trek and Samurai as lenses to ask whether we can ever legitimately criticize another culture's moral framework, and a weekly reading list. Worth reading if you're in the Stoic/ethics thread.</p>
+  <p class="meta">Videos: <a href="https://figsinwintertime.substack.com/p/on-family-affection">On family affection</a> · <a href="https://figsinwintertime.substack.com/p/meta-ethics-star-trek-and-samurai">Meta-ethics, Star Trek, and Samurai</a></p>
 </div>
 
 <div class="story">
-  <h3>Peter Attia (feat. Layne Norton)</h3>
-  <p>A detailed breakdown of seed oil processing chemistry, specifically whether the industrial extraction process — not just linoleic acid itself — drives harm. Norton's argument: hexane used in extraction evaporates at 69°C, leaves residues of 0.05–0.5 parts per million in finished oils, doesn't bioaccumulate, and toxicity cases come only from inhalation, not ingestion. His calculation: you'd need to consume ~11,340kg of oil at once to even approach mild side effects from hexane. The more substantive concern he acknowledges is the shift in dietary linoleic acid from ~3% of food availability 100 years ago to roughly ~10% today — the cumulative displacement of the omega-6/omega-3 ratio being the more defensible mechanistic concern than the processing chemistry per se.</p>
-  <p class="meta">Videos: <a href="https://www.youtube.com/watch?v=Tsqzx3L6UWs">Is Industrial Processing the Real Problem With Seed Oils? | Layne Norton, Ph.D.</a></p>
-</div>
-
-<div class="story">
-  <h3>Dr. Sten Ekberg</h3>
-  <p>Ekberg ate nothing but sardines for 5 days (~6 tins/day, ~1,300–1,400 kcal/day, ~120g protein, ~90g fat, near-zero carbs) and reported honest results: adequate but not thriving, with fatigue building by day 3. He attributes this partly to not being fully fat-adapted beforehand — he came off 70–120g carbs/day directly into zero carbs, rather than transitioning via a multi-week low-carb phase first. The nutritional case he makes is strong: sardines provide ~5,000mg EPA+DHA daily (roughly 50x the average American's intake), with a near 1:1 EPA:DHA ratio making them unusually brain-favorable. The calcium source (calcium hydroxyapatite from bones) is highlighted as far superior to calcium carbonate supplements — the former absorbs at any pH, the latter requires stomach acid to absorb, while simultaneously neutralizing that acid, making most calcium supplements essentially useless.</p>
-  <p class="meta">Videos: <a href="https://www.youtube.com/watch?v=pLKMkkMt5P0">I Ate Nothing But Sardines For 5 Days and Here's What Happened</a></p>
+  <h3>Donald Robertson</h3>
+  <p>Robertson's piece on Epictetus Handbook §37 — "do not bite off more than you can chew" — is a practical Stoic note on matching ambition to current capacity rather than the idealized self. His separate piece on CBT-derived techniques for pre-empting future situations (changing your response before you're in the moment) is methodologically interesting: he outlines how anticipatory rehearsal can be used to prepare cognitive responses, not just cope reactively. Announced a live Substack event with Pigliucci on June 15 on skepticism.</p>
+  <p class="meta">Videos: <a href="https://donaldrobertson.substack.com/p/do-not-bite-off-more-than-you-can">Do not bite off more than you can chew</a> · <a href="https://donaldrobertson.substack.com/p/how-to-change-your-response-to-a">How to Change your Response to a Situation</a></p>
 </div>
 
 <p><strong>Also posted:</strong></p>
 <ul>
-  <li><strong>Andrew Huberman (feat. Dr. Abu Bakri):</strong> A comprehensive peptide masterclass covering BPC-157 (origin in Croatian gastric juice research, no identified receptor, strong animal data, minimal human trials), GLPs, growth hormone secretagogues (tessamorelin, MK-677), GHK-copper, and the longevity peptides (Epithalon, Pinealon). Key clinical frame: peptides with identified receptors (GLPs, MK-677) are far more predictable than receptor-unknown peptides. Also surfaces the "trinity stack" observed in elite transformations: GLP-1 + GH secretagogue + androgen modulation. (<a href="https://www.youtube.com/watch?v=_DfqnpSbMfE">Peptides: The Science, Uses & Safety</a>)</li>
-  <li><strong>GTO Lab (Diana Kalietina):</strong> Brief coaching tip: when an opponent does something theoretically unsupported, it's almost always value or semi-value — almost never a bluff. A heuristic worth filing. (<a href="https://www.youtube.com/shorts/vrInTEFxc40">Diana Kalietina's Must-Watch Coaching Videos</a>)</li>
-  <li><strong>Ben Felix:</strong> Breakdown of financial product advertising manipulation — five techniques (transference, framing, salience, shrouding, complexity) applied to private equity, private credit, margin loans, options, and covered call ETFs. Core finding: private equity's apparent outperformance disappears when using secondary market transaction prices instead of self-reported NAVs, and the residual return is explained by ~2x public market beta exposure. (<a href="https://www.youtube.com/watch?v=of9_wpOhGWw">The Biggest Problem in Investing Right Now</a>)</li>
-  <li><strong>Thomas DeLauer:</strong> Makes the case for apigenin (from parsley, 2 tbsp fresh flat-leaf) as an aromatase inhibitor, AMPK activator, senomorphic agent, and blood-brain barrier-crossing neuroprotectant that upregulates BDNF. Practical protocol: take with a fat-containing meal near end of day; stack with zinc (blocks 5-alpha reductase via a separate testosterone metabolism pathway) and berberine (activates AMPK through a different mechanism than apigenin). (<a href="https://www.youtube.com/watch?v=YMZxaTPy1NU">2 Tbsp Blocks Fat Storage, Crosses the Blood Brain Barrier, and Drops Estrogen</a>)</li>
-  <li><strong>Mind The Game (Steve Nash):</strong> Nash on his 1996 draft experience — went to 12+ team workouts, the Desert Classic in Phoenix cemented him as a first-round pick, went 15th, and his mindset was "I'm just getting started" rather than fixating on where he should have gone. (<a href="https://www.youtube.com/shorts/1MzZaVNp2Vg">Steve Nash had to rewind the clock 30 years</a>)</li>
-  <li><strong>Stronger by Science (RSS):</strong> Deep-dive review of isometric training research — the current evidence does not support the conventional view that isometrics are inferior to dynamic training for strength or hypertrophy. (<a href="https://www.strongerbyscience.com/isometric-training/">Hold Still: What Does the Evidence Actually Say About Isometric Training?</a>)</li>
+  <li><strong>Nick Norwitz:</strong> Covers early research (monkey studies + first human trial) on myostatin/activin A blockers — one treatment over 8 weeks produced ~7 lb lean mass gain and ~9 lb fat loss simultaneously. Preliminary and requires replication, but the mechanism (removing hormonal brakes on muscle growth) is novel. (<a href="https://www.youtube.com/shorts/7UiQnCqKrm4">Gain Muscle, Lose Fat? The New Biology Behind It</a>)</li>
+  <li><strong>Thomas DeLauer:</strong> Detailed breakdown of selenium deficiency and thyroid T4→T3 conversion: argues most standard blood panels miss functional selenoprotein insufficiency, one Brazil nut per week (not daily — too much variability, risk of selenosis) is sufficient to meaningfully support conversion, and cortisol suppresses the same deiodinase enzyme from a separate pathway — making stress management part of the same protocol. Cites Lancet, JRSM, and an RCT in AJCN. (<a href="https://www.youtube.com/watch?v=EOixgw0p87A">Literally 1 Nut PER WEEK Restores Metabolic Function</a>)</li>
+  <li><strong>Renaissance Periodization:</strong> Brief but pointed: the gap between "unbelievable athlete" and "world-record contender" is so large that PEDs don't close it — sport-specific technique, fiber type, and vascular morphology matter far more than drugs at the elite level. (<a href="https://www.youtube.com/shorts/fJeWlKA1oqg">The Aura Even Steroids Can't Reach</a>)</li>
+  <li><strong>Paul Saladino MD:</strong> Warns that most commercial sourdough contains enriched wheat flour with synthetic folic acid, which studies show leads to unmetabolized folic acid in 90%+ of people consuming supplements or enriched flours — linked to reduced immune function and some cancer associations. Real sourdough should be wheat flour, water, salt only. (<a href="https://www.youtube.com/shorts/oY8s7Q9e5_Q">Don't make this mistake…</a>)</li>
+  <li><strong>Ben Felix:</strong> Thorough breakdown of five marketing manipulation techniques used by financial product sellers (transference, framing, salience, shrouding, complexity) applied to private equity, private credit, margin loans, options, and covered-call ETFs. Core finding: private equity's apparent outperformance disappears when benchmarked against risk-appropriate public equity and when secondary market transaction prices (not self-reported NAVs) are used. (<a href="https://www.youtube.com/watch?v=of9_wpOhGWw">The Biggest Problem in Investing Right Now</a>)</li>
+  <li><strong>Dr. Sten Ekberg:</strong> 5-day sardines-only experiment (~6 tins/day): ~120g protein, ~90g fat, near-zero carbs, ~1,300–1,400 cal/day. Felt adequate but not great — attributed primarily to not being fat-adapted beforehand and running a ~1,000+ cal daily deficit while staying active. Highlights sardine-specific advantages: full nose-to-tail eating (bones included for calcium hydroxyapatite, which doesn't require stomach acid unlike calcium carbonate supplements), ~5,000mg EPA+DHA/day, and a favorable omega-3:6 ratio. (<a href="https://www.youtube.com/watch?v=pLKMkkMt5P0">I Ate Nothing But Sardines For 5 Days</a>)</li>
+  <li><strong>Andrew Huberman (ft. Dr. Nolan Williams):</strong> Stanford psychiatrist makes a compelling case for "Psychiatry 3.0" — depression as a circuit-level problem (left dorsolateral PFC failing to govern the cingulate), not a chemical imbalance. Rapid TMS (5-day protocol) and psilocybin both produce measurable circuit-level changes that persist after the intervention ends, suggesting the brain is recalibrating rather than being chemically supplemented. Several patients reported spontaneous mindfulness-like states by day 4-5 of TMS treatment — an unreported side effect he's observed repeatedly. (<a href="https://www.youtube.com/watch?v=GkG1hMhIQ_Q">Essentials: Psychedelics & Neurostimulation for Brain Rewiring</a>)</li>
+  <li><strong>Mind The Game (LeBron James):</strong> LeBron breaks down a specific late-game playoff possession — he pre-switched to take Oladipo before the screen was set, specifically to prevent Oladipo from triggering a switch onto Korver or another weak defender. The block that followed was the intended outcome of a defensive read made two actions earlier. (+1 more short on accountability and learning individual teammates' motivational profiles.) (<a href="https://www.youtube.com/shorts/M08hqiajxqA">LeBron dissects the game like no other</a>)</li>
 </ul>
 
 <h2>₿ Bitcoin & Macro</h2>
 
 <div class="story">
-  <h3><a href="https://bitcoinmagazine.com/news/scott-bessent-strategic-bitcoin-reserve">Scott Bessent Backs Strategic Bitcoin Reserve, Urges Senate to Pass BITCOIN Act</a></h3>
-  <p>Treasury Secretary Scott Bessent testified before the Senate Finance Committee that the Trump administration is actively moving forward with a Strategic Bitcoin Reserve and urged Congress to pass the BITCOIN Act and the Clarity Act. This is a notable escalation — the sitting Treasury Secretary explicitly endorsing a sovereign BTC reserve on the record before Congress, not just as a policy position but as an active legislative push.</p>
+  <h3><a href="https://bitcoinmagazine.com/news/michael-saylor-calls-bitcoins-drop">Michael Saylor Calls Bitcoin's Drop a 'Capital Rotation' to AI as BTC Slides Below $62,000</a></h3>
+  <p>Bitcoin fell below $62,000 — its lowest in months — driven by Strategy's surprise sale, ETF outflows, and liquidations. Saylor's thesis: this is capital rotating into AI infrastructure, not a fundamental breakdown. Standard Chartered's Geoff Kendrick argues the bottom is "almost in," while a Schwab strategist points to ~$60,000 as the production cost floor for efficient miners, providing an energy-based support level. The Fear & Greed Index hit 12, matching FTX-crash lows — the Bitcoin Rainbow Chart's lowest band breached for only the second time since that collapse.</p>
   <p class="meta">Bitcoin Magazine</p>
 </div>
 
 <div class="story">
-  <h3><a href="https://bitcoinmagazine.com/markets/bitcoin-price-plunges-below-62000-erasing-months-of-recovery-as-sell-off-accelerates">Bitcoin Drops Below $62K Amid Rotation Into AI and IPOs</a></h3>
-  <p>Bitcoin fell below $62,000 — down roughly 12% over seven days and at its lowest since February — with analysts attributing the move to capital rotating out of crypto into AI-related equities and IPOs. Worth noting alongside the Bessent news: macro-level institutional support is strengthening at the same time short-term price momentum is deteriorating sharply.</p>
+  <h3><a href="https://bitcoinmagazine.com/news/bitcoin-buys-a-home-better-and-coinbase">Bitcoin Buys a Home: Better and Coinbase Close First Fannie Mae-Backed BTC Mortgage</a></h3>
+  <p>Better and Coinbase have funded the first Fannie Mae-backed mortgage that allows homebuyers to use Bitcoin as collateral for a down payment loan. This is a meaningful structural development — Fannie Mae's backing means this isn't a fringe product but one entering the conventional mortgage system, which could expand BTC's utility as a collateral asset in mainstream lending.</p>
   <p class="meta">Bitcoin Magazine</p>
 </div>
 
 <h2>🧬 Health & Science</h2>
 
 <div class="story">
-  <h3>Bimagrumab Phase 2: 100% Fat Loss, Simultaneous Muscle Gain</h3>
-  <p>A paper published in <em>Nature Medicine</em> (2026) on bimagrumab — a monoclonal antibody partially blocking the myostatin/activin receptor pathway — showed that in obese participants, every gram of weight lost came from fat while participants simultaneously gained lean mass and grip strength with no change in physical activity. This is mechanistically distinct from GLP-1 agonists, which cause 25–39% of weight loss as lean mass. The drug mimics the biology of myostatin-null individuals (double-muscled cattle, rare humans) who exhibit extraordinary musculature and low body fat with potential longevity advantages. Side effects were mild GI upset and headaches; the drug has completed Phase 2 and is not yet commercially available.</p>
-  <p class="meta">Summarized from Nick Norwitz — <a href="https://www.youtube.com/watch?v=eJTqiMsZP8Y">The Technology That Will Change Humans Forever</a></p>
+  <h3>Isometric Training: What the Evidence Actually Says</h3>
+  <p>Stronger by Science published a review challenging the assumption that isometric training is inferior to dynamic training for strength and hypertrophy. The conventional view has been that full range-of-motion dynamic training is the gold standard, but the current evidence base doesn't clearly support that hierarchy — isometrics may be more effective than commonly assumed, particularly for specific strength adaptations and rehabilitation contexts. Worth reading if you're programming for hypertrophy or injury management and have been dismissing isometrics as supplementary at best.</p>
+  <p class="meta"><a href="https://www.strongerbyscience.com/isometric-training/">Hold Still: What Does the Evidence Actually Say About Isometric Training</a> — Stronger by Science</p>
 </div>
 
 <div class="story">
-  <h3>Isometric Training Is Not Inferior for Strength or Hypertrophy</h3>
-  <p>Stronger by Science published a thorough evidence review challenging the conventional wisdom that isometric training is less effective than dynamic training for building strength and muscle. The piece argues the current research does not support that claim — and that isometrics deserve more serious consideration in programming, particularly for injury rehab contexts and as a complement to dynamic work.</p>
-  <p class="meta"><a href="https://www.strongerbyscience.com/isometric-training/">Stronger by Science</a></p>
+  <h3>Long COVID Causes — Science.org</h3>
+  <p>A Science.org blog post surveys the current state of long COVID mechanistic research — worth reading if you follow post-viral illness science, as the causal picture is becoming clearer with several competing hypotheses (viral persistence, immune dysregulation, microbiome disruption, autoantibodies) gaining or losing ground. No single mechanism has won out, but the field has narrowed from total uncertainty to a set of testable, partially-supported pathways.</p>
+  <p class="meta"><a href="https://www.science.org/content/blog-post/causes-long-covid">The Causes of Long Covid</a> · <a href="https://news.ycombinator.com/item?id=">HN Discussion</a></p>
 </div>
 
 <div class="story">
-  <h3>Seed Oil Processing: Hexane Residues Are Not the Mechanism of Harm</h3>
-  <p>In the Attia/Norton conversation, Norton makes a specific quantitative case: hexane residues in seed oils run 0.05–0.5 ppm, hexane toxicity comes from inhalation not ingestion, and the estimated oral dose for mild side effects is ~11,340kg of oil — effectively ruling out hexane as a chronic harm driver. The more defensible concern he points to is the dietary linoleic acid share rising from ~3% to ~10% of food availability over the past century, which drives the omega-6/omega-3 imbalance. If you've been avoiding seed oils primarily due to processing concerns rather than the fatty acid ratio argument, this is worth updating on.</p>
-  <p class="meta"><a href="https://www.youtube.com/watch?v=Tsqzx3L6UWs">Peter Attia — Is Industrial Processing the Real Problem With Seed Oils?</a></p>
+  <h3>Peter Attia + Layne Norton: Seed Oil Processing — Is Industrial Extraction the Real Problem?</h3>
+  <p>The conversation focused specifically on hexane extraction of seed oils. Norton's argument: the hexane residue in finished oils is 0.05–0.5 parts per million (often below instrument detection limits), hexane toxicity is primarily via inhalation not ingestion, rodent lethality studies required 5,000 mg/kg bodyweight, and the human equivalent dose to experience mild side effects would require consuming ~11,340 kg of oil. His broader point is that chronic bioaccumulation is implausible given hexane doesn't bioaccumulate and the body clears it. The more open question they leave unresolved: linoleic acid's share of total food availability has grown from <3% to ~10% over the past century — whether that dietary shift matters more than the processing method is still contested.</p>
+  <p class="meta"><a href="https://www.youtube.com/watch?v=Tsqzx3L6UWs">Is Industrial Processing the Real Problem With Seed Oils?</a> — Peter Attia</p>
 </div>
 
 <h2>💡 Worth Reading</h2>
 
 <div class="story">
-  <h3><a href="https://www.dailycal.org/news/campus/academics/failing-grades-soar-as-professors-see-greater-ai-usage-dwindling-math-skills-in-uc-berkeley/article_16fad0bf-02cb-4b8c-8d88-888ffd9f8608.html">Failing Grades Soar with AI Usage, Dwindling Math Skills at Berkeley CS</a></h3>
-  <p>Berkeley CS professors are documenting a concrete and accelerating pattern: students using AI tools for coursework are showing degraded foundational math skills and higher failure rates — not just in introductory courses but in upper-division work that requires the skills they skipped building. This is one of the first high-signal, named-institution reports connecting AI-assisted work to measurable downstream skill deterioration, and it has implications beyond education: for any field where AI is lowering the cost of producing outputs without maintaining the cognitive infrastructure behind them.</p>
-  <p class="meta"><a href="https://news.ycombinator.com/item?id=48387095">Discussion on HN</a> · The Daily Californian</p>
+  <h3><a href="https://www.anthropic.com/institute/recursive-self-improvement">When AI Builds Itself: Anthropic's Progress Toward Recursive Self-Improvement</a></h3>
+  <p>Anthropic's Institute published their current thinking on recursive self-improvement — AI systems that meaningfully assist in improving AI systems. This is less a capability announcement than a transparency document about where they are, what they've learned, and what the risks look like from the inside. Worth reading not for the hype angle but because Anthropic writing publicly about this trajectory is itself a signal worth tracking.</p>
+  <p class="meta">Anthropic · <a href="https://news.ycombinator.com/item?id=">HN Discussion (432 pts)</a></p>
 </div>
 
 <div class="story">
-  <h3><a href="https://www.theatlantic.com/philosophy/2026/06/no-artificial-intelligence-is-not-conscious/687378/">Artificial Intelligence Is Not Conscious — Ted Chiang</a></h3>
-  <p>Ted Chiang (author of the stories behind <em>Arrival</em> and <em>Exhalation</em>) argues in The Atlantic that AI systems are not conscious — and more importantly, that the question matters practically, not just philosophically. Chiang's framing tends to be unusually rigorous for public-facing AI commentary; he consistently distinguishes between systems that <em>perform</em> understanding and systems that <em>have</em> it. Worth reading as a counterweight to both AI hype and AI doom narratives.</p>
-  <p class="meta"><a href="https://news.ycombinator.com/item?id=48387095">Discussion on HN</a> · The Atlantic</p>
+  <h3><a href="https://fs.blog/knowledge-project-podcast/bill-gurley/">Mental Models That Change How You Think — Bill Gurley</a></h3>
+  <p>Farnam Street's Knowledge Project interview with Bill Gurley, who brings an unusual combination: Wall Street background, decades as a top-tier VC (Benchmark), and now board membership at the Santa Fe Institute studying complexity and systems thinking. Content is member-gated until June 9 but flagged here because Gurley on mental models and complex systems is reliably substantive — worth queuing.</p>
+  <p class="meta">Farnam Street / Knowledge Project</p>
 </div>
 
 <div class="story">
-  <h3><a href="https://www.science.org/content/article/mathematicians-issue-warning-ai-rapidly-gains-ground">Mathematicians Issue Warning as AI Rapidly Gains Ground</a></h3>
-  <p>Professional mathematicians are raising concerns that AI systems are encroaching on mathematical research in ways that may not be as robust as they appear — and that the field risks mistaking pattern-matching performance on known problems for genuine mathematical reasoning. Relevant context alongside the Berkeley data above: there's a consistent thread emerging of domain experts in rigorous fields flagging AI capability signals they find alarming or misleading.</p>
-  <p class="meta"><a href="https://news.ycombinator.com/item?id=48387095">Discussion on HN</a> · Science.org</p>
+  <h3><a href="https://simonwillison.net/2026/Jun/4/ai-enthusiasts-ai-skeptics/#atom-everything">AI Enthusiasts Are in a Race Against Time; AI Skeptics Are in a Race Against Entropy</a></h3>
+  <p>Simon Willison surfaces a framing from Charity Majors that's worth sitting with: AI enthusiasts are trying to move fast before the window closes; AI skeptics are betting that organizational entropy and technical debt will outlast the hype. Both can be right simultaneously, and both are often working on the same teams. Short but the tension it names is real and underarticulated in most AI discourse.</p>
+  <p class="meta">Simon Willison</p>
 </div>
 
 <div class="story">
-  <h3><a href="https://www.strongerbyscience.com/isometric-training/">"They're Made Out of Weights" — On the Nature of LLMs</a></h3>
-  <p>A well-circulated essay (736 HN points) riffing on Ted Chiang's "Story of Your Life" style — using the framing of "they're made out of meat" to explore what it means that AI systems are literally just numerical weights. Not a technical piece; more of a philosophical provocation about what kind of thing an LLM actually <em>is</em> and why our intuitions about it keep misfiring. Pairs well with the Chiang piece above.</p>
-  <p class="meta"><a href="https://maxleiter.com/blog/weights">maxleiter.com</a></p>
+  <h3><a href="https://www.scotthyoung.com/blog/2026/05/27/revolutionize-schooling/">I'm Skeptical About Efforts to Revolutionize Schooling</a></h3>
+  <p>Scott Young argues against the recurring techno-optimist thesis that technology will fundamentally transform education. His case: the core constraints on learning aren't informational (content is already abundant and cheap) but motivational, social, and structural — and new tools consistently fail to move those levers. Worth reading as a counterweight to AI-in-education enthusiasm, especially given the Hacker News traction (146 pts).</p>
+  <p class="meta"><a href="https://news.ycombinator.com/item?id=">HN Discussion (146 pts)</a></p>
 </div>
 
 <h2>🤖 AI Capability Watch</h2>
 
 <div class="story">
+  <h3><a href="https://openai.com/index/chatgpt-memory-dreaming">ChatGPT "Dreaming": New Persistent Memory System</a></h3>
+  <p>OpenAI announced a new memory architecture for ChatGPT called "Dreaming" that moves beyond the existing user-managed memory feature — the system now actively consolidates and updates its understanding of your preferences across conversations, without you having to explicitly save anything. If it works as described, this is a meaningful shift from stateless sessions toward a model that accumulates a genuine user context over time, which changes what ChatGPT is useful for on a daily basis.</p>
+  <p class="meta">OpenAI Blog</p>
+</div>
+
+<div class="story">
   <h3><a href="https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind">GPT-Rosalind: OpenAI's Life Sciences Research Model</a></h3>
-  <p>OpenAI released GPT-Rosalind, a model specifically fine-tuned for life sciences research with enhanced capabilities in biological reasoning, medicinal chemistry, genomics analysis, and experimental workflow design. This represents a new product category — a domain-specialized frontier model for scientific research — rather than a general-purpose update, targeting professional researchers rather than general users.</p>
+  <p>OpenAI launched GPT-Rosalind, a model purpose-built for life sciences research with specific capabilities in biological reasoning, medicinal chemistry, genomics analysis, and experimental workflow design. This represents a meaningful product category expansion — a domain-specialized model aimed at actual research workflows rather than general-purpose use, following the pattern of foundation models being fine-tuned into genuine scientific tools.</p>
   <p class="meta">OpenAI Blog</p>
 </div>
 </body>
