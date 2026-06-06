@@ -1,111 +1,96 @@
 === HACKER NEWS ===
-1. [189 pts] Meta enables ADB on deprecated Portal devices [video]
-   https://fb.watch/HxPu0fSyeH/
+1. [167 pts] How LLMs work
+   https://www.0xkato.xyz/how-llms-actually-work/
 
-2. [52 pts] C++: The Documentary Released Today
-   https://herbsutter.com/2026/06/04/c-the-documentary-released-today/
+2. [136 pts] The intracies of modern camera lens repair (2024)
+   https://salvagedcircuitry.com/sigma-45mm.html
 
-3. [21 pts] Fine-tuning an LLM to write docs like it's 1995
-   https://passo.uno/fine-tuning-docs-llm/
+3. [37 pts] Pre-Modern Armies for Worldbuilders, Part I: Why They Fight
+   https://acoup.blog/2026/06/05/collections-pre-modern-armies-for-worldbuilders-part-i-why-they-fight/
 
-4. [380 pts] Anthropic's open-source framework for AI-powered vulnerability discovery
-   https://github.com/anthropics/defending-code-reference-harness
+4. [65 pts] The back cover of C++: The Language raises questions not answered by front cover
+   https://devblogs.microsoft.com/oldnewthing/20260605-01/?p=112391
 
-5. [96 pts] Azure Linux 4.0 is Microsoft's first general-purpose Linux
-   https://www.boxofcables.dev/azure-linux-4-0-is-microsofts-first-general-purpose-linux/
+5. [148 pts] S&P 500 rejects SpaceX, also blocking entry for OpenAI and Anthropic
+   https://arstechnica.com/tech-policy/2026/06/sp-500-blocks-fast-spacex-entry-wont-waive-rule-for-unprofitable-ai-firms/
 
-6. [145 pts] Open Code Review – An AI-powered code review CLI tool
-   https://github.com/alibaba/open-code-review
+6. [38 pts] Lockdown Mode
+   https://help.openai.com/en/articles/20001061-lockdown-mode
 
-7. [150 pts] Do transformers need three projections? Systematic study of QKV variants
-   https://arxiv.org/abs/2606.04032
+7. [13 pts] Ten Years of Franz
+   https://meetfranz.com/blog/ten-years-of-franz
 
-8. [45 pts] WiFi Time
-   https://mitxela.com/projects/wifi_time
+8. [378 pts] Astronauts told to return to ISS after sheltering over air leak repairs
+   https://www.bbc.com/news/live/c4g44ew3g1kt
 
-9. [17 pts] The IsUpMap lets you check the status of over 100 major sites at once
-   https://isupmap.com/
+9. [377 pts] pg_durable: Microsoft open sources in-database durable execution
+   https://github.com/microsoft/pg_durable
 
-10. [146 pts] I'm skeptical about efforts to revolutionize schooling
-   https://www.scotthyoung.com/blog/2026/05/27/revolutionize-schooling/
+10. [27 pts] No Let, No Rec, No Problem: A Gentler Introduction to the Y and Z Combinators
+   https://irfanali.org/blog/zcom
 
-11. [8 pts] Watching a Z80 from an RP2350
-   https://emalliab.wordpress.com/2026/05/26/watching-a-z80-from-an-rp2350/
+11. [326 pts] New method turns ocean water into drinking water, without waste
+   https://www.rochester.edu/newscenter/what-is-desalination-definition-ocean-water-704732/
 
-12. [158 pts] Branchless Quicksort faster than std:sort and pdqsort with C and C++ API
-   https://tiki.li/blog/blqsort
+12. [324 pts] Gemma 4 QAT models: Optimizing compression for mobile and laptop efficiency
+   https://blog.google/innovation-and-ai/technology/developers-tools/quantization-aware-training-gemma-4/
 
-13. [19 pts] Magenta RealTime 2: Open and Local Live Music Models
-   https://magenta.withgoogle.com/magenta-realtime-2
+13. [277 pts] Ask HN: What was your "oh shit" moment with GenAI?
+   https://news.ycombinator.com/item?id=48406174
 
-14. [15 pts] Delacroix's Entry of the Crusaders into Constantinople Restored
-   https://www.louvre.fr/en/explore/life-at-the-museum/delacroix-s-entry-of-the-crusaders-into-constantinople-restored-to-its-original-glory
+14. [375 pts] Did Claude increase bugs in rsync?
+   https://alexispurslane.github.io/rsync-analysis/
 
-15. [462 pts] SpaceX, Other Mega IPOs Denied Fast Index Entry by S&P
-   https://www.bloomberg.com/news/articles/2026-06-04/s-p-dow-jones-keeps-megacap-ipo-rules-as-is-after-consultation
+15. [509 pts] Mouseless – keyboard-driven control of macOS/Linux/Windows
+   https://mouseless.click
 
-16. [103 pts] The Causes of Long Covid
-   https://www.science.org/content/blog-post/causes-long-covid
+16. [60 pts] The perils of UUID primary keys in SQLite
+   https://andersmurphy.com/2026/06/05/the-perils-of-uuid-primary-keys-in-sqlite.html
 
-17. [19 pts] Go Experiments Explained
-   https://www.alexedwards.net/blog/go-experiments-explained
+17. [162 pts] My Agent Skill for Test-Driven Development
+   https://www.saturnci.com/my-agent-skill-for-test-driven-development.html
 
-18. [49 pts] The Pentagon is running an AI propaganda mill targeting Latin America
-   https://theintercept.com/2026/06/02/la-tilde-propaganda-latin-america-pentagon/
+18. [406 pts] Gov.uk has replaced Stripe with Dutch provider Adyen
+   https://www.theregister.com/public-sector/2026/06/04/govuk-goes-dutch-on-payments-as-it-dumps-stripe/5250763
 
-19. [45 pts] Reverse-Engineered Userspace Driver for Asus ZenVision Lid OLED on Linux"
-   https://github.com/tarpediem/zenvision-linux
+19. [89 pts] Ask HN: Why is the HN crowd so anti-AI?
+   https://news.ycombinator.com/item?id=48420827
 
-20. [151 pts] Samurai City
-   https://worksinprogress.co/issue/samurai-city/
+20. [295 pts] Conventional Commits encourages focus on the wrong things
+   https://sumnerevans.com/posts/software-engineering/stop-using-conventional-commits/
 
-21. [432 pts] When AI Builds Itself: Our progress toward recursive self-improvement
-   https://www.anthropic.com/institute/recursive-self-improvement
+21. [29 pts] Nine Ways to Do Inheritance in Rust, a Language Without Inheritance
+   https://medium.com/@carlmkadie/nine-ways-to-do-inheritance-in-rust-a-language-without-inheritance-14825bf1e215
 
-22. [129 pts] KVarN: Native vLLM backend for KV-cache quantization by Huawei
-   https://github.com/huawei-csl/KVarN
+22. [80 pts] The Quiet Numbers Station: Decoding Nineteen Years of GPS Cryptography
+   https://www.benthamsgaze.org/2026/06/02/the-quiet-numbers-station-decoding-nineteen-years-of-gps-cryptography/
 
-23. [70 pts] Queen bees emerge from special wax chambers
-   https://cen.acs.org/materials/biobased-materials/queen-bees-special-wax/104/web/2026/06
+23. [25 pts] Europe's largest Copper Age tomb: children's bones show ancient health crisis
+   https://phys.org/news/2026-05-europe-largest-copper-age-tomb.html
 
-24. [623 pts] VoidZero Is Joining Cloudflare
-   https://blog.cloudflare.com/voidzero-joins-cloudflare/
+24. [26 pts] Show HN: ABC Classic 100 Rankings visualised
+   https://classic100.gotski.workers.dev/
 
-25. [7 pts] Linear Cosine Palettes(2025)
-   https://blog.djnavarro.net/posts/2025-09-14_cosine-palettes/
+25. [38 pts] Nordstjernen 1.0
+   https://github.com/nordstjernen-web/nordstjernen/releases/tag/1.0.0
 
-26. [282 pts] Retro-Tech Parenting
-   https://havenweb.org/2026/05/28/retro-tech.html
+26. [111 pts] Transformers are inherently succinct
+   https://openreview.net/pdf?id=Yxz92UuPLQ
 
-27. [55 pts] JLink JTAG Access on the Pinecil
-   https://danielmangum.com/posts/jlink-jtag-pinecil/
+27. [215 pts] Three of our worst VC stories
+   https://twitter.com/eastdakota/status/2062860530360959273
 
-28. [53 pts] Castor: CERN Advanced STORage Manager
-   https://castor.web.cern.ch/content/home.html
+28. [384 pts] Tracing a powerful GNSS interference source over Europe
+   https://arxiv.org/abs/2606.03673
 
-29. [71 pts] Making Debian or Fedora persistent live images
-   https://sigwait.org/~alex/blog/2026/05/28/smdBC8.html
+29. [163 pts] India's surprise baby bust
+   https://www.economist.com/leaders/2026/06/04/indias-surprise-baby-bust-is-a-warning-to-the-world
 
-30. [50 pts] Show HN: Mercek – A Desktop IDE for AWS ECS
-   https://www.mercek.dev/
+30. [154 pts] Cooldown Support for Ruby Bundler
+   https://blog.rubygems.org/2026/06/03/cooldown-let-new-gems-be-vetted.html
 
 
 === RSS ===
-[ai] Simon Willison: AI enthusiasts are in a race against time, AI skeptics are in a race against entropy
-  https://simonwillison.net/2026/Jun/4/ai-enthusiasts-ai-skeptics/#atom-everything
-
-[ai] Simon Willison: Quoting Emanuel Maiberg, 404 Media
-  https://simonwillison.net/2026/Jun/4/a-slightly-different-version/#atom-everything
-
-[ai] Simon Willison: Uber Caps Usage of AI Tools Like Claude Code to Manage Costs
-  https://simonwillison.net/2026/Jun/3/uber-caps-usage/#atom-everything
-
-[ai] Simon Willison: Microsoft's new MAI models
-  https://simonwillison.net/2026/Jun/2/microsofts-new-models/#atom-everything
-
-[ai] Simon Willison: datasette-agent-micropython 0.1a0
-  https://simonwillison.net/2026/Jun/2/datasette-agent-micropython/#atom-everything
-
 [ai] Anthropic News: What we learned mapping a year’s worth of AI-enabled cyber threats
   https://www.anthropic.com/news/AI-enabled-cyber-threats-mitre-attack
 
@@ -121,11 +106,26 @@
 [ai] Anthropic News: Anthropic raises $65B in Series H funding at $965B post-money valuation
   https://www.anthropic.com/news/series-h
 
+[ai] Simon Willison: micropython-wasm 0.1a2
+  https://simonwillison.net/2026/Jun/6/micropython-wasm/#atom-everything
+
+[ai] Simon Willison: Running Python code in a sandbox with MicroPython and WASM
+  https://simonwillison.net/2026/Jun/6/micropython-in-a-sandbox/#atom-everything
+
+[ai] Simon Willison: OpenAI Help: Lockdown Mode
+  https://simonwillison.net/2026/Jun/5/openai-help-lockdown-mode/#atom-everything
+
+[ai] Simon Willison: Quoting Andreas Kling
+  https://simonwillison.net/2026/Jun/5/andreas-kling/#atom-everything
+
+[ai] Simon Willison: AI enthusiasts are in a race against time, AI skeptics are in a race against entropy
+  https://simonwillison.net/2026/Jun/4/ai-enthusiasts-ai-skeptics/#atom-everything
+
 [ideas] Paul Graham: How to Convert Between Wealth and Income Tax
   https://paulgraham.com/winc.html
 
-[wisdom] Farnam Street: Mental Models That Change How You Think | Bill Gurley
-  https://fs.blog/knowledge-project-podcast/bill-gurley/
+[ideas] Stratechery: 2026.23: Power Shifts
+  https://stratechery.com/2026/power-shifts/
 
 [ideas] Stratechery: An Interview with Microsoft CEO Satya Nadella About Finding Core Competencies
   https://stratechery.com/2026/an-interview-with-microsoft-ceo-satya-nadella-about-finding-core-competencies/
@@ -133,26 +133,11 @@
 [ideas] Stratechery: The Nvidia AI PC, Project Solara, Microsoft AI
   https://stratechery.com/2026/the-nvidia-ai-pc-project-solara-microsoft-ai/
 
-[ideas] Stratechery: The Google Capital Company
-  https://stratechery.com/2026/the-google-capital-company/
+[wisdom] Farnam Street: Mental Models That Change How You Think | Bill Gurley
+  https://fs.blog/knowledge-project-podcast/bill-gurley/
 
-[bitcoin] The Pomp Letter: The Next Big Investment Opportunity
-  https://pomp.substack.com/p/the-next-big-investment-opportunity
-
-[ideas] Marginal Revolution: Rubber rationing in World War II
-  https://marginalrevolution.com/marginalrevolution/2026/06/rubber-rationing-in-world-war-ii.html?utm_source=rss&utm_medium=rss&utm_campaign=rubber-rationing-in-world-war-ii
-
-[ideas] Marginal Revolution: My twenty-minute AI talk for the Swedish company Sana
-  https://marginalrevolution.com/marginalrevolution/2026/06/my-twenty-minute-ai-talk-for-the-swedish-company-sana.html?utm_source=rss&utm_medium=rss&utm_campaign=my-twenty-minute-ai-talk-for-the-swedish-company-sana
-
-[ideas] Marginal Revolution: Thursday assorted links
-  https://marginalrevolution.com/marginalrevolution/2026/06/thursday-assorted-links-555.html?utm_source=rss&utm_medium=rss&utm_campaign=thursday-assorted-links-555
-
-[ideas] Marginal Revolution: CA Logic
-  https://marginalrevolution.com/marginalrevolution/2026/06/ca-logic.html?utm_source=rss&utm_medium=rss&utm_campaign=ca-logic
-
-[ideas] Marginal Revolution: Should we recriminalize marijuana?
-  https://marginalrevolution.com/marginalrevolution/2026/06/should-we-recriminalize-marijuana.html?utm_source=rss&utm_medium=rss&utm_campaign=should-we-recriminalize-marijuana
+[wisdom] Figs in Winter (Pigliucci): Suggested Readings
+  https://figsinwintertime.substack.com/p/suggested-readings-847
 
 [wisdom] Figs in Winter (Pigliucci): On family affection
   https://figsinwintertime.substack.com/p/on-family-affection
@@ -160,8 +145,23 @@
 [wisdom] Figs in Winter (Pigliucci): Meta-ethics, Star Trek, and Samurai
   https://figsinwintertime.substack.com/p/meta-ethics-star-trek-and-samurai
 
-[wisdom] Figs in Winter (Pigliucci): Suggested Readings
-  https://figsinwintertime.substack.com/p/suggested-readings-737
+[wisdom] Donald Robertson: Do not bite off more than you can chew...
+  https://donaldrobertson.substack.com/p/do-not-bite-off-more-than-you-can
+
+[wisdom] Donald Robertson: Announcing: How to Be a Skeptic
+  https://donaldrobertson.substack.com/p/announcing-how-to-be-a-skeptic
+
+[wisdom] Donald Robertson: How to Change your Response to a Situation
+  https://donaldrobertson.substack.com/p/how-to-change-your-response-to-a
+
+[ideas] Astral Codex Ten: Choose Book Review Finalists 2026
+  https://www.astralcodexten.com/p/choose-book-review-finalists-2026
+
+[bitcoin] Bitcoin Magazine: The Hyperinflation of 1971 at the Kindergarten
+  https://bitcoinmagazine.com/bitcoin-books/the-hyperinflation-of-1971-at-the-kindergarten
+
+[bitcoin] Bitcoin Magazine: 5th Worst Bitcoin Price Action Ever — I’m Buying At 99.8% Probability
+  https://bitcoinmagazine.com/markets/5th-worst-bitcoin-price-action-ever-im-buying-at-99-8-probability
 
 [bitcoin] Bitcoin Magazine: Bitcoin’s Pullback Tests Institutional Adoption Narrative as Pompliano Stays Bullish
   https://bitcoinmagazine.com/news/bitcoin-as-pompliano-stays-bullish
@@ -181,20 +181,11 @@
 [bitcoin] Bitcoin Magazine: Bitcoin Buys a Home: Better and Coinbase Close First Fannie Mae-Backed BTC Mortgage
   https://bitcoinmagazine.com/news/bitcoin-buys-a-home-better-and-coinbase
 
-[bitcoin] Bitcoin Magazine: Standard Chartered Sees Bitcoin Bottom ‘Almost In’ as Sell-Off Cuts 14% in Seven Days
-  https://bitcoinmagazine.com/news/standard-chartered-sees-bitcoin-bottom
+[bitcoin] The Pomp Letter: A Masterclass on Digital Credit & The Potential Risks
+  https://pomp.substack.com/p/a-masterclass-on-digital-credit-and
 
-[bitcoin] Bitcoin Magazine: Bitcoin Price Plunges Below $62,000, Erasing Months of Recovery as Sell-Off Accelerates
-  https://bitcoinmagazine.com/markets/bitcoin-price-plunges-below-62000-erasing-months-of-recovery-as-sell-off-accelerates
-
-[wisdom] Donald Robertson: Do not bite off more than you can chew...
-  https://donaldrobertson.substack.com/p/do-not-bite-off-more-than-you-can
-
-[wisdom] Donald Robertson: Announcing: How to Be a Skeptic
-  https://donaldrobertson.substack.com/p/announcing-how-to-be-a-skeptic
-
-[wisdom] Donald Robertson: How to Change your Response to a Situation
-  https://donaldrobertson.substack.com/p/how-to-change-your-response-to-a
+[bitcoin] The Pomp Letter: The Next Big Investment Opportunity
+  https://pomp.substack.com/p/the-next-big-investment-opportunity
 
 [ai] OpenAI Blog: How Endava is redesigning software delivery around AI agents
   https://openai.com/index/endava-frontiers
@@ -211,95 +202,115 @@
 [ai] OpenAI Blog: How Wasmer used Codex to build a Node.js runtime for the edge
   https://openai.com/index/wasmer
 
-[ideas] Astral Codex Ten: Choose Book Review Finalists 2026
-  https://www.astralcodexten.com/p/choose-book-review-finalists-2026
+[ideas] Marginal Revolution: Should you move to Argentina? (from my email)
+  https://marginalrevolution.com/marginalrevolution/2026/06/should-you-move-to-argentina-from-my-email.html?utm_source=rss&utm_medium=rss&utm_campaign=should-you-move-to-argentina-from-my-email
+
+[ideas] Marginal Revolution: Friday assorted links
+  https://marginalrevolution.com/marginalrevolution/2026/06/friday-assorted-links-575.html?utm_source=rss&utm_medium=rss&utm_campaign=friday-assorted-links-575
+
+[ideas] Marginal Revolution: Tyler and Alex Speak to OpenAI
+  https://marginalrevolution.com/marginalrevolution/2026/06/tyler-and-alex-speak-to-openai.html?utm_source=rss&utm_medium=rss&utm_campaign=tyler-and-alex-speak-to-openai
+
+[ideas] Marginal Revolution: Western hemisphere fact of the day
+  https://marginalrevolution.com/marginalrevolution/2026/06/western-hemisphere-fact-of-the-day.html?utm_source=rss&utm_medium=rss&utm_campaign=western-hemisphere-fact-of-the-day
+
+[ideas] Marginal Revolution: Rubber rationing in World War II
+  https://marginalrevolution.com/marginalrevolution/2026/06/rubber-rationing-in-world-war-ii.html?utm_source=rss&utm_medium=rss&utm_campaign=rubber-rationing-in-world-war-ii
 
 [health] Stronger by Science: Hold Still: What Does the Evidence Actually Say About Isometric Training for Strength and Hypertrophy?
   https://www.strongerbyscience.com/isometric-training/
 
 
 === YOUTUBE ===
-GTO Wizard: PLO in GTO Wizard ft. Tombos21 & Joey Ingram
-  https://www.youtube.com/watch?v=mFxVLlp6cIs
-  Transcript: yes
-
-Paul Saladino MD: Don’t make this mistake…
-  https://www.youtube.com/shorts/oY8s7Q9e5_Q
-  Transcript: yes
-
-Anthony Chaffee MD: Plants Will POISON YOU With Cyanide
-  https://www.youtube.com/shorts/8tSoXYRKrCg
-  Transcript: yes
-
-Nick Norwitz: ⁠Gain Muscle, Lose Fat? The New Biology Behind It
-  https://www.youtube.com/shorts/7UiQnCqKrm4
-  Transcript: yes
-
 Ken Berry MD: Have you tried carnivore? What happened to your digestion after the switch?
   https://www.youtube.com/shorts/SmzYAPePNNQ
   Transcript: yes
 
-Joe Rogan: Joe Rogan Experience #2509 - Caleb Hammer
-  https://www.youtube.com/watch?v=wt2sI8OdmWs
+GTO Wizard: PLO in GTO Wizard ft. Tombos21 & Joey Ingram
+  https://www.youtube.com/watch?v=mFxVLlp6cIs
   Transcript: yes
 
-GTO Lab: 👉🏻 Stop range-banging small on boards that hit your opponent’s range. - Clemen Deng
-  https://www.youtube.com/shorts/iNKyn-P1zHE
+Paul Saladino MD: Your chicken is full of chlorine
+  https://www.youtube.com/shorts/iZ-qsl3CH6A
   Transcript: yes
 
-Thomas DeLauer: Literally 1 Nut PER WEEK Restores Metabolic Function
-  https://www.youtube.com/watch?v=EOixgw0p87A
+Paul Saladino MD: How I Find The Healthiest Eggs in 2026 (Avoid THIS)
+  https://www.youtube.com/watch?v=SPaqnDv-qmQ
   Transcript: yes
 
-Jared Alderman: Why Your Breakthroughs Are Useless
-  https://www.youtube.com/watch?v=EO0IYMQUYJs
+Anthony Chaffee MD: Your BRAIN NEEDS FAT To Function Properly!
+  https://www.youtube.com/shorts/us1y0Yt6A0M
   Transcript: yes
 
-Renaissance Periodization: The Aura Even Steroids Can't Reach
-  https://www.youtube.com/shorts/fJeWlKA1oqg
+Joe Rogan: Joe Rogan Experience #2510 - Devon Larratt
+  https://www.youtube.com/watch?v=ZmejzHXudq0
   Transcript: yes
 
-Dr. Sten Ekberg: I Ate Nothing But Sardines For 5 Days and Here's What Happened
-  https://www.youtube.com/watch?v=pLKMkkMt5P0
+Nick Norwitz: The Light Hack That Makes You More Attractive (in Weeks)
+  https://www.youtube.com/watch?v=8Nidf8GOIio
+  Transcript: yes
+
+Jared Alderman: The Poker Skills That Apply to Everything In Life
+  https://www.youtube.com/watch?v=g_r9v2SB7s8
+  Transcript: yes
+
+Thomas DeLauer: 1 Cup Strips Fat, Drops Inflammation and Lowers Insulin
+  https://www.youtube.com/watch?v=cG9lsylBmCw
   Transcript: yes
 
 Lex Fridman: Biggest Mysteries in Physics: Antimatter, Dark Energy & ToE - Don Lincoln | Lex Fridman Podcast #497
   https://www.youtube.com/watch?v=1M3Vdl6DRkU
   Transcript: yes
 
+GTO Lab: ❌ Stop making it harder than it has to be - Jonathan Jaffe & Nick Petrangelo
+  https://www.youtube.com/shorts/I6mL8kQQkNo
+  Transcript: yes
+
+Renaissance Periodization: CrossFitters Are Athletic FREAKS
+  https://www.youtube.com/shorts/Iv1qQUMfMro
+  Transcript: yes
+
+Renaissance Periodization: Exercise Scientist Critiques Vladislava Galagan: Pushed Into Steroids?
+  https://www.youtube.com/watch?v=r13U7QPY9pg
+  Transcript: yes
+
+Renaissance Periodization: The Harsh Reality of Olympic Talent
+  https://www.youtube.com/shorts/BhBoqDlClB4
+  Transcript: yes
+
+ModernWisdom: The AI Looksmaxxing Craze
+  https://www.youtube.com/shorts/MdmlF5-_UUo
+  Transcript: yes
+
+ModernWisdom: Total Control Or Total Collapse?
+  https://www.youtube.com/shorts/C96yQLPeoL8
+  Transcript: yes
+
+ModernWisdom: When Did Trying Hard Become Lame? - Joe Santagato
+  https://www.youtube.com/watch?v=6uGTzZlVlns
+  Transcript: yes
+
 Peter Attia: Is Industrial Processing the Real Problem With Seed Oils? | Layne Norton, Ph.D.
   https://www.youtube.com/watch?v=Tsqzx3L6UWs
-  Transcript: yes
-
-ModernWisdom: Stop Performing For Others
-  https://www.youtube.com/shorts/x-_r5DXPMO4
-  Transcript: yes
-
-ModernWisdom: The Michel Thomas Method
-  https://www.youtube.com/shorts/tJESh3HQ4hw
-  Transcript: yes
-
-ModernWisdom: Something Strange Is Happening To Gen Z - Isabel Brown
-  https://www.youtube.com/watch?v=kBNCFocQ_dM
-  Transcript: yes
-
-Andrew Huberman: Essentials: Psychedelics & Neurostimulation for Brain Rewiring | Dr. Nolan Williams
-  https://www.youtube.com/watch?v=GkG1hMhIQ_Q
-  Transcript: yes
-
-Ben Felix: The Biggest Problem in Investing Right Now
-  https://www.youtube.com/watch?v=of9_wpOhGWw
   Transcript: yes
 
 ThinkingPoker: Bankroll Management - Thinking Poker
   https://www.youtube.com/watch?v=6w8amkDkeVw
   Transcript: yes
 
-Mind The Game: LeBron dissects the game like no other. 😮‍💨
-  https://www.youtube.com/shorts/M08hqiajxqA
+Ben Felix: The Biggest Problem in Investing Right Now
+  https://www.youtube.com/watch?v=of9_wpOhGWw
   Transcript: yes
 
-Mind The Game: The great ones find ways to get the best out of their teammates. Presented by @DraftKings #ad
-  https://www.youtube.com/shorts/xkXbjEIkdw4
+Andrew Huberman: Essentials: Psychedelics & Neurostimulation for Brain Rewiring | Dr. Nolan Williams
+  https://www.youtube.com/watch?v=GkG1hMhIQ_Q
+  Transcript: yes
+
+Dr. Sten Ekberg: 10 Healthiest Foods You MUST Have In Your Diet
+  https://www.youtube.com/watch?v=eUvoL59e4M8
+  Transcript: yes
+
+Mind The Game: LeBron 🤝 CP3
+  https://www.youtube.com/shorts/52LhShH14jY
   Transcript: yes
 
