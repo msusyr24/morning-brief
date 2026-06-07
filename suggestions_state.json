@@ -1,11 +1,11 @@
 {
   "current_suggestion": {
-    "channel_name": "Solve For Why",
-    "channel_id": "UCfTYOriUd_yOkUUgoDZX71w",
-    "youtube_handle": "@solveforwhy",
-    "pitch": "Your poker channels (GTO Wizard, GTO Lab, Alderman) are heavily solver-oriented, but Matt Berkey represents a serious counterweight: a high-stakes live cash professional who critiques over-reliance on GTO frameworks and argues for exploitative, reads-based play grounded in live dynamics. This steelmans an angle your current lineup largely ignores \u2014 that solver outputs can become a crutch that degrades real-time thinking. Format is a mix of solo breakdowns, hand history reviews, and podcast-style conversations, with consistent philosophical depth about decision-making under uncertainty that will also resonate with your interest in mental models and pressure."
+    "channel_name": "TEDx Talks \u2013 Russ Roberts (EconTalk host solo appearances)",
+    "channel_id": "UCnUYZLuoy1rq1aVMwx4aTzw",
+    "youtube_handle": "@RussRoberts",
+    "pitch": "Roberts hosts EconTalk but his standalone channel covers the intersection of economics, humility in reasoning, and how to live well \u2014 directly bridging your Ben Felix macro interest with your Stoicism and mental models interest in a way none of your current channels do. He draws heavily on Hayek, Smith's Theory of Moral Sentiments, and epistemic humility about what data can and can't tell us \u2014 a useful steelman against overconfident health and finance claims you're absorbing elsewhere. Format is a mix of solo reflections, prepared talks, and occasional interviews, all at high intellectual density."
   },
-  "shown_count": 3,
+  "shown_count": 1,
   "history": [
     "Brad Kearns",
     "Dr. Layne Norton",
@@ -27,6 +27,7 @@
     "Poker Detox",
     "Odyssey - Ancient History Documentaries",
     "EconTalk",
-    "Solve For Why"
+    "Solve For Why",
+    "TEDx Talks \u2013 Russ Roberts (EconTalk host solo appearances)"
   ]
 }
