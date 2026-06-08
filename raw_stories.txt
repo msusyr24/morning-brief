@@ -1,96 +1,111 @@
 === HACKER NEWS ===
-1. [50 pts] The 29th International Obfuscated C Code Contest (IOCCC) 2025 Winners
+1. [220 pts] Dopamine Fracking
+   https://igerman.cc/blog/dopamine-fracking/
+
+2. [123 pts] 1k Data Breaches Later, the Disclosure Lag Is Worse
+   https://www.troyhunt.com/1000-data-breaches-later-the-disclosure-lag-is-worse-than-ever/
+
+3. [194 pts] APC–2 – A professional record cutter for producing original playback discs
+   https://teenage.engineering/products/apc-2
+
+4. [598 pts] Building from zero after addiction, prison, and a felony
+   https://gavinray97.github.io/blog/building-from-zero-after-addiction-prison-felony
+
+5. [178 pts] The Smallest Brain You Can Build: A Perceptron in Python
+   https://ranpara.net/posts/perceptron-explained-from-scratch/
+
+6. [30 pts] Playing with Vision Embeddings
+   https://prestonbjensen.com/posts/playing-with-vision-embeddings
+
+7. [37 pts] Richard Scolyer Has Died
+   https://www.bbc.com/news/articles/c14yz5jg476o
+
+8. [237 pts] DeepSeek V4 Pro beats GPT-5.5 Pro on precision
+   https://runtimewire.com/article/deepseek-v4-pro-beats-gpt-5-5-pro-on-precision
+
+9. [77 pts] Algorithmic Monocultures in Hiring
+   https://algorithmichiring.github.io/
+
+10. [153 pts] New drug 'functionally cures' many hepatitis B virus infections
+   https://www.science.org/content/article/new-drug-functionally-cures-many-hepatitis-b-virus-infections?user_id=66c4bf745d78644b3aa57b08
+
+11. [19 pts] GitHub Is Down
+   https://www.githubstatus.com/incidents/m7n7sm0sr1pz
+
+12. [22 pts] Tiny hackable CUDA language model implementation
+   https://github.com/markusheimerl/gpt
+
+13. [14 pts] Do agents.md files help coding agents?
+   https://twitter.com/rasbt/status/2063649136323252397
+
+14. [224 pts] Show HN: I Derived a Pancake
+   https://www.absurdlyoptimized.com/recipes/pancakes/
+
+15. [215 pts] Making peace with your unlived dreams (2023)
+   https://nik.art/making-peace-with-your-unlived-dreams/
+
+16. [99 pts] 1worldflag: A blue dot on a transparent background
+   https://1worldflag.com/
+
+17. [105 pts] A Matter Wi-Fi Light Bulb in Rust on the Raspberry Pi Pico 2 W
+   https://github.com/melastmohican/rust-rpico2-embassy-examples
+
+18. [7 pts] Giant Floating Victorian Drydock
+   https://mastermariners.org.au/stories-from-the-past/6481-the-world-s-largest-floating-dry-dock-was-towed-across-the-atlantic-to-bermuda-in-1869
+
+19. [34 pts] Man-Computer Symbiosis J. C. R. Licklider (1960)
+   https://groups.csail.mit.edu/medg/people/psz/Licklider.html
+
+20. [20 pts] A discovery about GCC's unidirectional rotation algorithm
+   https://devblogs.microsoft.com/oldnewthing/20260603-00/?p=112378
+
+21. [397 pts] How's Linear so fast? A technical breakdown
+   https://performance.dev/how-is-linear-so-fast-a-technical-breakdown
+
+22. [303 pts] Show HN: Lathe – Use LLMs to learn a new domain, not skip past it
+   https://github.com/devenjarvis/lathe
+
+23. [185 pts] What is the purpose of the lost+found folder in Linux and Unix? (2014)
+   https://unix.stackexchange.com/questions/18154/what-is-the-purpose-of-the-lostfound-folder-in-linux-and-unix
+
+24. [390 pts] The 29th International Obfuscated C Code Contest (IOCCC) 2025 Winners
    https://www.ioccc.org/2025/
 
-2. [68 pts] I design with Claude more than Figma now
-   https://blog.janestreet.com/i-design-with-claude-code-more-than-figma-now-index/
+25. [91 pts] Texas grid flags risks as data centers, crypto sites fail voltage tests
+   https://www.reuters.com/business/energy/texas-grid-flags-risks-data-centers-crypto-sites-fail-voltage-tests-2026-06-05/
 
-3. [111 pts] Valve P2P networking broken for more than 2 months
-   https://github.com/ValveSoftware/GameNetworkingSockets/issues/398
+26. [78 pts] Do we fear the serializable isolation level more than we fear subtle bugs (2024)
+   https://blog.ydb.tech/do-we-fear-the-serializable-isolation-level-more-than-we-fear-subtle-bugs-5a025401b609
 
-4. [67 pts] Field of clones: How horse replicas came to dominate polo
-   https://knowablemagazine.org/content/article/technology/2026/cloned-polo-horses
+27. [933 pts] LLMs are eroding my software engineering career and I don't know what to do
+   https://human-in-the-loop.bearblog.dev/llms-are-eroding-my-software-engineering-career-and-i-dont-know-what-to-do/
 
-5. [30 pts] My Software North Star
-   https://kristoff.it/blog/north-star/
+28. [86 pts] Powering up a module from the IBM 604: an electronic calculator from 1948
+   https://www.righto.com/2026/06/ibm-604-thyraton-tube-module.html
 
-6. [80 pts] Tokenomics: Quantifying Where Tokens Are Used in Agentic Software Engineering
-   https://arxiv.org/abs/2601.14470
+29. [7 pts] Trusted Computing Frequently Asked Questions (2003)
+   https://www.cl.cam.ac.uk/archive/rja14/tcpa-faq-1.0.html
 
-7. [168 pts] Harness engineering: Leveraging Codex in an agent-first world
-   https://openai.com/index/harness-engineering/
-
-8. [320 pts] Ntsc-rs – open-source video emulation of analog TV and VHS artifacts
-   https://ntsc.rs/
-
-9. [57 pts] Symbolica 2.0: Programmable Symbols for Python and Rust
-   https://symbolica.io/posts/symbolica_2_0_release/
-
-10. [90 pts] Public Domain Image Archive
-   https://pdimagearchive.org/
-
-11. [41 pts] How Liminalism Became the Defining Aesthetic of Our Time
-   https://hyperallergic.com/how-liminalism-became-the-defining-aesthetic-of-our-time/
-
-12. [44 pts] Biohub releases a world model of protein biology
-   https://biohub.org/news/world-model-of-protein-biology/
-
-13. [34 pts] Show HN: Oproxy – inspect and modify network traffic from the browser
-   https://github.com/sauravrao637/oproxy
-
-14. [74 pts] Introducing Boron Buckyballs: Theory that B80 cages can’t be made is disproved
-   https://cen.acs.org/materials/nanomaterials/buckyballs-boron-buckminster-fullerene-nanomaterials/104/web/2026/06
-
-15. [286 pts] Moving beyond fork() + exec()
-   https://lwn.net/SubscriberLink/1076018/16f01bbbb8e0d1f0/
-
-16. [20 pts] Human-Like Neural Nets by Catapulting
-   https://gwern.net/llm-catapult
-
-17. [550 pts] Meta confirms 1000s of Instagram accounts were hacked by abusing its AI chatbot
-   https://this.weekinsecurity.com/meta-confirms-thousands-of-instagram-accounts-were-hacked-by-abusing-its-ai-chatbot/
-
-18. [268 pts] Nvidia is proposing a beast of a CPU system for Windows PCs
-   https://twitter.com/lemire/status/2062880075117113739
-
-19. [221 pts] Zeroserve: A zero-config web server you can script with eBPF
-   https://su3.io/posts/introducing-zeroserve
-
-20. [5 pts] Arithmetic Without Numbers – How LLMs Do Math
-   https://alvaro-videla.com/llm-arithmetic-internals/article_interactive/article.html
-
-21. [105 pts] Sem: New primitive for code understanding – not LSPs, but entities on top of Git
-   https://ataraxy-labs.github.io/sem/
-
-22. [227 pts] Google to pay SpaceX $920M a month for compute capacity at xAI data centers
-   https://www.cnbc.com/2026/06/05/google-to-pay-spacex-920-million-a-month-for-xai-compute-capacity.html
-
-23. [13 pts] Show HN: Free animated icon library for Vue
-   https://respeak-io.github.io/lucide-motion-vue/
-
-24. [18 pts] Show HN: TakoVM – Isolated model and tool execution used by enterprises
-   https://github.com/las7/TakoVM
-
-25. [49 pts] The circus freaks of open source
-   https://drewdevault.com/blog/Circus-freaks-of-FOSS/
-
-26. [597 pts] Ask HN: What was your "oh shit" moment with GenAI?
-   https://news.ycombinator.com/item?id=48406174
-
-27. [122 pts] Motorola effectively bricked its entire line of WiFi routers without explanation
-   https://mashable.com/tech/motorola-wifi-routers-stop-working-motosync-plus-app-down
-
-28. [306 pts] Pokemon Emerald Ported to WebAssembly (100k FPS)
-   https://pokeemerald.com/
-
-29. [151 pts] Show HN: Infinite canvas notes in the non-Euclidean Poincaré disk
-   https://uonr.github.io/poincake/
-
-30. [34 pts] Unicode Fonts and Tools for X11
-   https://www.cl.cam.ac.uk/~mgk25/ucs-fonts.html
+30. [128 pts] Cloning a Sennheiser BA2015 battery pack
+   https://blog.brixit.nl/cloning-a-sennheiser-ba2015-accu-pack/
 
 
 === RSS ===
+[ai] Simon Willison: datasette-agent-edit 0.1a0
+  https://simonwillison.net/2026/Jun/7/datasette-agent-edit/#atom-everything
+
+[ai] Simon Willison: micropython-wasm 0.1a2
+  https://simonwillison.net/2026/Jun/6/micropython-wasm/#atom-everything
+
+[ai] Simon Willison: Running Python code in a sandbox with MicroPython and WASM
+  https://simonwillison.net/2026/Jun/6/micropython-in-a-sandbox/#atom-everything
+
+[ai] Simon Willison: OpenAI Help: Lockdown Mode
+  https://simonwillison.net/2026/Jun/5/openai-help-lockdown-mode/#atom-everything
+
+[ai] Simon Willison: Quoting Andreas Kling
+  https://simonwillison.net/2026/Jun/5/andreas-kling/#atom-everything
+
 [ideas] Paul Graham: How to Convert Between Wealth and Income Tax
   https://paulgraham.com/winc.html
 
@@ -103,6 +118,12 @@
 [wisdom] Donald Robertson: How to Change your Response to a Situation
   https://donaldrobertson.substack.com/p/how-to-change-your-response-to-a
 
+[bitcoin] The Pomp Letter: A Masterclass on Digital Credit & The Potential Risks
+  https://pomp.substack.com/p/a-masterclass-on-digital-credit-and
+
+[ideas] Collaborative Fund (Morgan Housel): Plan on the plan not going according to plan
+  https://collabfund.substack.com/p/plan-on-the-plan-not-going-according
+
 [wisdom] Figs in Winter (Pigliucci): Suggested Readings
   https://figsinwintertime.substack.com/p/suggested-readings-847
 
@@ -111,6 +132,21 @@
 
 [wisdom] Figs in Winter (Pigliucci): Meta-ethics, Star Trek, and Samurai
   https://figsinwintertime.substack.com/p/meta-ethics-star-trek-and-samurai
+
+[ideas] Marginal Revolution: Might AI hurt corporate profits? (from my email)
+  https://marginalrevolution.com/marginalrevolution/2026/06/might-ai-hurt-corporate-profits-from-my-email.html?utm_source=rss&utm_medium=rss&utm_campaign=might-ai-hurt-corporate-profits-from-my-email
+
+[ideas] Marginal Revolution: Sunday assorted links
+  https://marginalrevolution.com/marginalrevolution/2026/06/sunday-assorted-links-570.html?utm_source=rss&utm_medium=rss&utm_campaign=sunday-assorted-links-570
+
+[ideas] Marginal Revolution: How High-Skill Immigration Restrictions Eroded Regional Productivity: Evidence from the 2017 BAHA Executive Order
+  https://marginalrevolution.com/marginalrevolution/2026/06/how-high-skill-immigration-restrictions-eroded-regional-productivity-evidence-from-the-2017-baha-executive-order.html?utm_source=rss&utm_medium=rss&utm_campaign=how-high-skill-immigration-restrictions-eroded-regional-productivity-evidence-from-the-2017-baha-executive-order
+
+[ideas] Marginal Revolution: Let Me Disinherit My Children, S’il vous plaît
+  https://marginalrevolution.com/marginalrevolution/2026/06/let-me-disinherit-my-children-sil-vous-plait.html?utm_source=rss&utm_medium=rss&utm_campaign=let-me-disinherit-my-children-sil-vous-plait
+
+[ideas] Marginal Revolution: Why drugs are here to stay (from my email)
+  https://marginalrevolution.com/marginalrevolution/2026/06/why-drugs-are-here-to-stay-from-my-email.html?utm_source=rss&utm_medium=rss&utm_campaign=why-drugs-are-here-to-stay-from-my-email
 
 [ai] Anthropic News: What we learned mapping a year’s worth of AI-enabled cyber threats
   https://www.anthropic.com/news/AI-enabled-cyber-threats-mitre-attack
@@ -127,32 +163,8 @@
 [ai] Anthropic News: Anthropic raises $65B in Series H funding at $965B post-money valuation
   https://www.anthropic.com/news/series-h
 
-[ideas] Marginal Revolution: Why drugs are here to stay (from my email)
-  https://marginalrevolution.com/marginalrevolution/2026/06/why-drugs-are-here-to-stay-from-my-email.html?utm_source=rss&utm_medium=rss&utm_campaign=why-drugs-are-here-to-stay-from-my-email
-
-[ideas] Marginal Revolution: Is work from home bad for your mental health?
-  https://marginalrevolution.com/marginalrevolution/2026/06/is-work-from-home-bad-for-your-mental-health.html?utm_source=rss&utm_medium=rss&utm_campaign=is-work-from-home-bad-for-your-mental-health
-
-[ideas] Marginal Revolution: Saturday assorted links
-  https://marginalrevolution.com/marginalrevolution/2026/06/saturday-assorted-links-564.html?utm_source=rss&utm_medium=rss&utm_campaign=saturday-assorted-links-564
-
-[ideas] Marginal Revolution: Barter markets in everything
-  https://marginalrevolution.com/marginalrevolution/2026/06/barter-markets-in-everything-3.html?utm_source=rss&utm_medium=rss&utm_campaign=barter-markets-in-everything-3
-
-[ideas] Marginal Revolution: Should you move to Argentina? (from my email)
-  https://marginalrevolution.com/marginalrevolution/2026/06/should-you-move-to-argentina-from-my-email.html?utm_source=rss&utm_medium=rss&utm_campaign=should-you-move-to-argentina-from-my-email
-
-[wisdom] Farnam Street: Mental Models That Change How You Think | Bill Gurley
-  https://fs.blog/knowledge-project-podcast/bill-gurley/
-
-[bitcoin] The Pomp Letter: A Masterclass on Digital Credit & The Potential Risks
-  https://pomp.substack.com/p/a-masterclass-on-digital-credit-and
-
-[ai] OpenAI Blog: How Endava is redesigning software delivery around AI agents
-  https://openai.com/index/endava-frontiers
-
-[ai] OpenAI Blog: Dreaming: Better memory for a more helpful ChatGPT
-  https://openai.com/index/chatgpt-memory-dreaming
+[health] Peter Attia: #395 – Brain lipidology: understanding APOE, cholesterol homeostasis, Alzheimer’s disease risk, and the effects of lipid-lowering therapies on brain health | Tom Dayspring, M.D.
+  https://peterattiamd.com/tomdayspring8/
 
 [health] Peter Attia: The beginning of the end of atherosclerosis?
   https://peterattiamd.com/the-beginning-of-the-end-of-atherosclerosis/
@@ -160,57 +172,17 @@
 [ideas] Stratechery: 2026.23: Power Shifts
   https://stratechery.com/2026/power-shifts/
 
-[ideas] Stratechery: An Interview with Microsoft CEO Satya Nadella About Finding Core Competencies
-  https://stratechery.com/2026/an-interview-with-microsoft-ceo-satya-nadella-about-finding-core-competencies/
-
 [bitcoin] Bitcoin Magazine: The Hyperinflation of 1971 at the Kindergarten
   https://bitcoinmagazine.com/bitcoin-books/the-hyperinflation-of-1971-at-the-kindergarten
 
 [bitcoin] Bitcoin Magazine: 5th Worst Bitcoin Price Action Ever — I’m Buying At 99.8% Probability
   https://bitcoinmagazine.com/markets/5th-worst-bitcoin-price-action-ever-im-buying-at-99-8-probability
 
-[bitcoin] Bitcoin Magazine: Bitcoin’s Pullback Tests Institutional Adoption Narrative as Pompliano Stays Bullish
-  https://bitcoinmagazine.com/news/bitcoin-as-pompliano-stays-bullish
-
-[bitcoin] Bitcoin Magazine: Bitcoin Price Plunges Below ‘Fire Sale’ Territory as Fear Index Reads 12 — Echoing the FTX Crash
-  https://bitcoinmagazine.com/markets/bitcoin-price-plunges-below-fire-sale
-
-[bitcoin] Bitcoin Magazine: Schwab Strategist: Bitcoin’s $60,000 Mining Cost Could Mark the Cycle Bottom
-  https://bitcoinmagazine.com/news/schwab-strategist-bitcoins-60000-mining
-
-[bitcoin] Bitcoin Magazine: Bitcoin Privacy in 2026: A Practical Guide
-  https://bitcoinmagazine.com/guides/bitcoin-privacy-in-2026-a-practical-guide
-
-[bitcoin] Bitcoin Magazine: Michael Saylor Calls Bitcoin’s Drop a ‘Capital Rotation’ to AI as BTC Slides Below $62,000
-  https://bitcoinmagazine.com/news/michael-saylor-calls-bitcoins-drop
-
-[bitcoin] Bitcoin Magazine: Bitcoin Buys a Home: Better and Coinbase Close First Fannie Mae-Backed BTC Mortgage
-  https://bitcoinmagazine.com/news/bitcoin-buys-a-home-better-and-coinbase
-
-[ai] Simon Willison: micropython-wasm 0.1a2
-  https://simonwillison.net/2026/Jun/6/micropython-wasm/#atom-everything
-
-[ai] Simon Willison: Running Python code in a sandbox with MicroPython and WASM
-  https://simonwillison.net/2026/Jun/6/micropython-in-a-sandbox/#atom-everything
-
-[ai] Simon Willison: OpenAI Help: Lockdown Mode
-  https://simonwillison.net/2026/Jun/5/openai-help-lockdown-mode/#atom-everything
-
-[ai] Simon Willison: Quoting Andreas Kling
-  https://simonwillison.net/2026/Jun/5/andreas-kling/#atom-everything
-
-[ai] Simon Willison: AI enthusiasts are in a race against time, AI skeptics are in a race against entropy
-  https://simonwillison.net/2026/Jun/4/ai-enthusiasts-ai-skeptics/#atom-everything
-
 [health] Stronger by Science: Hold Still: What Does the Evidence Actually Say About Isometric Training for Strength and Hypertrophy?
   https://www.strongerbyscience.com/isometric-training/
 
 
 === YOUTUBE ===
-GTO Wizard: PLO in GTO Wizard ft. Tombos21 & Joey Ingram
-  https://www.youtube.com/watch?v=mFxVLlp6cIs
-  Transcript: yes
-
 Paul Saladino MD: Stop storing your food in this
   https://www.youtube.com/shorts/lsvwqChAXdM
   Transcript: NO
@@ -219,12 +191,12 @@ Ken Berry MD: Have you tried carnivore? What happened to your digestion after th
   https://www.youtube.com/shorts/SmzYAPePNNQ
   Transcript: yes
 
-Joe Rogan: Joe Rogan Experience #2510 - Devon Larratt
-  https://www.youtube.com/watch?v=ZmejzHXudq0
+GTO Wizard: PLO in GTO Wizard ft. Tombos21 & Joey Ingram
+  https://www.youtube.com/watch?v=mFxVLlp6cIs
   Transcript: yes
 
-Anthony Chaffee MD: Your BRAIN NEEDS FAT To Function Properly!
-  https://www.youtube.com/shorts/us1y0Yt6A0M
+Anthony Chaffee MD: It Took Me 10 Years Carnivore to Realize What I'll Tell You in 25 Minutes
+  https://www.youtube.com/watch?v=JPFIW7AFlnY
   Transcript: yes
 
 Nick Norwitz: BPC-157 Made This Injured Muscle Grow Back Stronger
@@ -235,52 +207,60 @@ GTO Lab: 👋🏼 Meet our Coach Klemens Roiter
   https://www.youtube.com/shorts/AGx3v2v-xFo
   Transcript: yes
 
+Jared Alderman: The Poker Skills That Apply to Everything In Life
+  https://www.youtube.com/watch?v=g_r9v2SB7s8
+  Transcript: yes
+
 Lex Fridman: Biggest Mysteries in Physics: Antimatter, Dark Energy & ToE - Don Lincoln | Lex Fridman Podcast #497
   https://www.youtube.com/watch?v=1M3Vdl6DRkU
   Transcript: yes
 
-Jared Alderman: The Poker Skills That Apply to Everything In Life
-  https://www.youtube.com/watch?v=g_r9v2SB7s8
+Joe Rogan: Joe Rogan Experience #2510 - Devon Larratt
+  https://www.youtube.com/watch?v=ZmejzHXudq0
+  Transcript: yes
+
+Thomas DeLauer: 90% of Belly Fat is Lost This Way (it’s NOT diet or exercise)
+  https://www.youtube.com/watch?v=uD_-F-PqtXU
   Transcript: yes
 
 Dr. Sten Ekberg: 10 Healthiest Foods You MUST Have In Your Diet
   https://www.youtube.com/watch?v=eUvoL59e4M8
   Transcript: yes
 
-Thomas DeLauer: We’ve Been Wrong About Carbs
-  https://www.youtube.com/watch?v=DD53ZMRgunw
+Renaissance Periodization: Not Everyone Needs Huge Legs
+  https://www.youtube.com/shorts/RRhi8QeNXHk
   Transcript: yes
 
-ModernWisdom: The Fastest Way To Change A Pattern
-  https://www.youtube.com/shorts/W2W5glG7rwM
+Renaissance Periodization: CrossFit Training Is Absolutely Unhinged
+  https://www.youtube.com/shorts/PNwHgKhXksc
   Transcript: yes
 
-ModernWisdom: The Sad Truth About Female Looksmaxxing
-  https://www.youtube.com/shorts/Q-sCVH1FKRU
+ModernWisdom: How To Know If Someone Is Lying
+  https://www.youtube.com/shorts/XYByt1_sk5Q
   Transcript: yes
 
-ModernWisdom: The Price of Obsession Nobody Talks About - Zach Braff
-  https://www.youtube.com/watch?v=JR2vbnw32ro
+ModernWisdom: The Hidden Cost Of Antidepressants
+  https://www.youtube.com/shorts/IRJ_rJSu-ic
   Transcript: yes
 
-Renaissance Periodization: Drugs Don't Make Elite Athletes
-  https://www.youtube.com/shorts/72Mz4I-p38A
-  Transcript: yes
-
-Peter Attia: Is Industrial Processing the Real Problem With Seed Oils? | Layne Norton, Ph.D.
-  https://www.youtube.com/watch?v=Tsqzx3L6UWs
+ModernWisdom: This Advice Could Get Me Cancelled - Mark Manson
+  https://www.youtube.com/watch?v=Nn1ezadJrxo
   Transcript: yes
 
 Andrew Huberman: Essentials: Psychedelics & Neurostimulation for Brain Rewiring | Dr. Nolan Williams
   https://www.youtube.com/watch?v=GkG1hMhIQ_Q
   Transcript: yes
 
-ThinkingPoker: Bankroll Management - Thinking Poker
-  https://www.youtube.com/watch?v=6w8amkDkeVw
+Peter Attia: Is Industrial Processing the Real Problem With Seed Oils? | Layne Norton, Ph.D.
+  https://www.youtube.com/watch?v=Tsqzx3L6UWs
   Transcript: yes
 
 Ben Felix: The Biggest Problem in Investing Right Now
   https://www.youtube.com/watch?v=of9_wpOhGWw
+  Transcript: yes
+
+ThinkingPoker: Bankroll Management - Thinking Poker
+  https://www.youtube.com/watch?v=6w8amkDkeVw
   Transcript: yes
 
 Mind The Game: LeBron 🤝 CP3
