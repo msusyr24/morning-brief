@@ -1,11 +1,11 @@
 {
   "current_suggestion": {
-    "channel_name": "TEDx Talks \u2013 Russ Roberts (EconTalk host solo appearances)",
-    "channel_id": "UCnUYZLuoy1rq1aVMwx4aTzw",
-    "youtube_handle": "@RussRoberts",
-    "pitch": "Roberts hosts EconTalk but his standalone channel covers the intersection of economics, humility in reasoning, and how to live well \u2014 directly bridging your Ben Felix macro interest with your Stoicism and mental models interest in a way none of your current channels do. He draws heavily on Hayek, Smith's Theory of Moral Sentiments, and epistemic humility about what data can and can't tell us \u2014 a useful steelman against overconfident health and finance claims you're absorbing elsewhere. Format is a mix of solo reflections, prepared talks, and occasional interviews, all at high intellectual density."
+    "channel_name": "Dwarkesh Patel",
+    "channel_id": "UCXl4i9dYBrFOabk0xGmbkRA",
+    "youtube_handle": "@DwarkeshPatel",
+    "pitch": "Your AI consumption is strong on capabilities and applications (Lex, Huberman adjacents) but thin on deep mechanistic thinking about intelligence scaling, cognition, and what AI progress actually means intellectually \u2014 Dwarkesh fills that gap with unusually rigorous long-form interviews with researchers like Dario Amodei, Francois Chollet, and historians like Patrick Collison. His questions push on first principles in a way that overlaps directly with your interest in mental models and clear thinking, not just AI hype. Format is solo long-form interview, typically 2-4 hours, with serious preparation evident in follow-up questions."
   },
-  "shown_count": 3,
+  "shown_count": 1,
   "history": [
     "Brad Kearns",
     "Dr. Layne Norton",
@@ -28,6 +28,7 @@
     "Odyssey - Ancient History Documentaries",
     "EconTalk",
     "Solve For Why",
-    "TEDx Talks \u2013 Russ Roberts (EconTalk host solo appearances)"
+    "TEDx Talks \u2013 Russ Roberts (EconTalk host solo appearances)",
+    "Dwarkesh Patel"
   ]
 }
