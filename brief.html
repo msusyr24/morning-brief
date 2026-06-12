@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>Morning Brief — Thursday, June 11, 2026</title>
+<title>Morning Brief — Friday, June 12, 2026</title>
 <style>
   body {
     font-family: Georgia, serif;
@@ -92,19 +92,19 @@
 })();
 </script>
 <h1>Morning Brief</h1>
-<p class="date">Thursday, June 11, 2026</p>
+<p class="date">Friday, June 12, 2026</p>
 
 <div class="anchor">
   <h2>☀️ Today's Anchor</h2>
   <div class="anchor-block">
-    <p class="quote">"It is not the man who has too little, but the man who craves more, that is poor."</p>
+    <p class="quote">"He who fears death will never do anything worthy of a living man."</p>
     <p class="author">— Seneca</p>
-    <p class="context">Letters from a Stoic. Seneca was one of Rome's richest men; he knew the trap he was writing about.</p>
+    <p class="context">Letters from a Stoic. Seneca would later be ordered to commit suicide by Nero; he did so without fear, per witness accounts.</p>
   </div>
   <div class="anchor-block">
-    <p class="model-label">Mental Model · Business</p>
-    <p class="model-name">Cost-Benefit Analysis</p>
-    <p class="context">Sum expected benefits, subtract expected costs (including opportunity cost), proceed if positive. Obvious in principle, rarely done in practice — we substitute emotion, anchoring, or social proof. The discipline: actually write it down. Numbers on paper expose magical thinking.</p>
+    <p class="model-label">Mental Model · Philosophy of Science</p>
+    <p class="model-name">Falsifiability</p>
+    <p class="context">Karl Popper: a claim is scientific only if it could, in principle, be proven false. 'My theory explains everything' is a warning sign, not a strength. Munger uses this to evaluate business claims: if a strategy works in every conceivable market, it probably has no real mechanism.</p>
   </div>
 </div>
 
@@ -115,142 +115,116 @@
   <p class="spotlight-instructions">Interested? Copy the line below into <code>YOUTUBE_CHANNELS</code> in <code>brief.py</code> and save:</p>
   <pre class="spotlight-snippet" id="snippet">    "Dwarkesh Patel": "UCXl4i9dYBrFOabk0xGmbkRA",</pre>
   <button class="copy-btn" onclick="navigator.clipboard.writeText(document.getElementById('snippet').innerText.trim()); this.innerText='✅ Copied'; setTimeout(()=>this.innerText='📋 Copy snippet', 2000);">📋 Copy snippet</button>
-  <p class="spotlight-meta">showing for 2 more days. If you don't add it, a new channel will be suggested.</p>
+  <p class="spotlight-meta">showing for 1 more day. If you don't add it, a new channel will be suggested.</p>
 </div>
 <h2>🎥 From People I Follow</h2>
 
 <p><strong>Worth your time:</strong></p>
 
 <div class="story">
-  <h3>Nick Norwitz</h3>
-  <p>Norwitz self-experimented with Retatrutide (informally called "GLP-3"), the next-gen weight loss drug hitting three hormonal pathways: GLP-1 (appetite suppression), GIP (fuel partitioning), and glucagon (energy expenditure increase). At just 1-2mg/week — far below trial doses of 12mg — he lost 12 lbs in a month while eating 3,000+ calories/day, and his resting heart rate jumped from the low 40s to 65-70 bpm. Key finding: the glucagon-driven metabolic boost hit before appetite suppression for him, causing him to be <em>hungrier</em> initially while still losing fat. He also found his C-reactive protein rose (possibly from accelerated fat mobilization causing mild inflammation, not the drug directly), and notes the published human data show ~38% of weight loss comes from lean mass at higher doses — directly contradicting Andrew Huberman's on-air claim that retatrutide is "muscle sparing."</p>
-  <p class="meta">Videos: <a href="https://www.youtube.com/watch?v=9HaFrUmzpNE">I Tried Retatrutide – Here's What Happened</a></p>
-</div>
-
-<div class="story">
-  <h3>Renaissance Periodization (Dr. Mike Israetel)</h3>
-  <p>Dr. Mike laid out a full evidence-based cardio framework by goal. Key prescriptions: for maximum muscle gain, keep cardio under 140 bpm and under 60 min; 8-12k steps/day is the simple proxy. For health optimization, you need at least 3 sessions/week of 15+ minutes at 150+ bpm — walking alone is insufficient. For leanness, 10-12k steps plus 3-6 sessions/week at 150+ bpm for 30-60 min is the accelerator stack. Anything above 140 bpm done frequently will start to impair strength gains, so the heart rate threshold is the critical lever. On stiff-leg deadlifts: keeping the knee near lockout (not bent) is essential — bending the knee offloads all the hip-generated stretch directly from the hamstring, killing the growth stimulus.</p>
-  <p class="meta">Videos: <a href="https://www.youtube.com/watch?v=0r_AlKrc70c">The Best Way to Do Cardio in 2026</a> · <a href="https://www.youtube.com/shorts/LVWq_fuzoKY">This Deadlift Mistake Costs You Hamstring Growth</a></p>
-</div>
-
-<div class="story">
-  <h3>GTO Wizard (ft. Tombos21 & Joey Ingram)</h3>
-  <p>First-ever GTO Wizard PLO stream, showcasing their new PLO solver tool. The central strategic insight: PLO rewards calling over 3-betting because equities run much closer preflop, and being out of position with an inflated pot is far more punishing than in Hold'em. Most striking GTO finding: in a 4-bet pot, the solver shows 86% of the 4-betting range contains aces — making KK an outright fold, not a cooler. Tombos made the deeper point that hand strength in PLO is irrelevant at the current moment; what matters is projected hand strength by the river, which fundamentally reframes how you think about building pots. Blockers and backdoor draws aren't secondary considerations — they're the core of advanced PLO thinking.</p>
-  <p class="meta">Videos: <a href="https://www.youtube.com/watch?v=mFxVLlp6cIs">PLO in GTO Wizard ft. Tombos21 & Joey Ingram</a></p>
+  <h3>GTO Wizard (Tom Boss21 & Joey Ingram)</h3>
+  <p>A proper Poker Math 101 lesson covering the deep equivalence between pot odds, bluff frequency, and MDF/alpha — concepts most players treat as separate but are actually two sides of the same coin. The key insight demonstrated via GTO Wizard node-locking: on a polarized river spot, shifting bluff frequency by even a few combos (from ~37% to 35%) causes every bluff-catcher in villain's range to go from mixing to pure fold, because they all cluster near the same equity threshold. The reverse is equally sharp — over-bluffing by a small amount makes every bluff-catcher a mandatory call. The practical takeaway: river decisions are binary and extremely sensitive to small frequency deviations, which is why table-level detection is nearly impossible but exploiting known tendencies (under-bluffers vs. over-bluffers) has massive EV. The blocker discussion — why nines beat tens as a bluff-catcher because the bluffing range contains more 8x and 67x than 9x — is a clean illustration of how scarcity of opponent bluff-combos should shape your calling range.</p>
+  <p class="meta">Videos: <a href="https://www.youtube.com/watch?v=C-QUUH-s8aE">The Math Behind Every Profitable Poker Decision</a></p>
 </div>
 
 <div class="story">
   <h3>Jared Alderman</h3>
-  <p>Alderman interviewed Melanie (a tournament pro) on the gap between self-image and actual performance — people treat poker hands like a performance rather than practice, which is itself the source of the chasm between who they think they are and how they play. His coaching thesis: the difference between good and great players isn't strategy — it's that great players never play B or C game; they end sessions when off their best. He's extended this framework to trading clients, where one informal client estimated $500k saved in six months just from importing poker-style process discipline. The broader point: probabilistic thinking and tilt management are transferable edges most people in adjacent fields (trading, business) never even know they're missing.</p>
+  <p>Melanie (an experienced tournament pro) and Alderman dig into the performance gap between who players think they are and who actually shows up at the table — the chasm between practiced self-image and live execution. She makes a sharp observation: people treat study as practice and the hand as performance, when in reality the hand IS practice. Alderman connects this to tilt: the best players never play B or C game — they end sessions, full stop — whereas good players rationalize staying in action. He also flags something underappreciated in finance/trading circles: professionals with genuine edge often have zero emotional process, and the delta between their best possible performance and their actual output can be enormous (one trading friend estimated $500K in losses avoided from six months of informal coaching). The conversation also touches on how natural reads and people-reading skills — Melanie's real edge — often get abandoned out of insecurity when players start formal solver study.</p>
   <p class="meta">Videos: <a href="https://www.youtube.com/watch?v=g_r9v2SB7s8">The Poker Skills That Apply to Everything In Life</a></p>
 </div>
 
 <div class="story">
-  <h3>Peter Attia (The Drive)</h3>
-  <p>Deep dive on brain lipidology with Dr. Tom Dayspring. The central and underappreciated fact: the brain contains 20-25g of cholesterol — 20x more than the liver — and it operates as a completely closed system with zero exchange with plasma lipoproteins. This directly refutes the common fear that lowering LDL will "deprive the brain of cholesterol." The brain synthesizes all its own cholesterol via astrocytes and manages its own lipoprotein recycling system (using ApoE as the carrier, not ApoB), entirely independent of what circulates in your blood. This has major implications for understanding APOE4 risk in Alzheimer's — the brain's cholesterol homeostasis machinery, not plasma LDL levels, is the relevant system.</p>
-  <p class="meta">Videos: <a href="https://www.youtube.com/watch?v=KWNgAyurXFY">395 – Brain lipidology: understanding APOE, cholesterol homeostasis, Alzheimer's disease, & more</a></p>
+  <h3>Nick Norwitz</h3>
+  <p>Norwitz self-experimented with retatrutide (GLP-3, a triple agonist: GLP-1 + GIP + glucagon receptor) at conservative doses (1–2mg/week vs. trial doses up to 12mg), logging 127 biomarkers before and after. Key findings: the glucagon mechanism hits first and hard — his resting heart rate jumped from the low 40s to 65–70 bpm, HRV dropped, and core body temperature increased 1.2°F, while he was simultaneously eating 4,000+ calories/day and still lost 4 lbs in week one. This resolves the "paradox" of people getting hungrier on reta: energy expenditure increases before appetite suppression kicks in. The muscle-sparing claims don't hold up in published data — at 8–12mg, roughly 38% of weight loss is lean mass, comparable to earlier GLP-1 drugs. His hsCRP rose from 0.3 to 1.8 mg/L, which he hypothesizes was indirect (driven by fat loss-induced inflammation) rather than the drug itself. He also doubled his dose from 1mg to 2mg and ended up sick on the bathroom floor at 3am — a visceral signal of how potent the metabolic acceleration is. Bottom line: this is a genuinely different drug, not just a stronger Ozempic, and the cardiovascular implications (elevated resting HR, lower HRV) deserve serious study.</p>
+  <p class="meta">Videos: <a href="https://www.youtube.com/watch?v=9HaFrUmzpNE">I Tried Retatrutide – Here's What Happened</a></p>
 </div>
 
 <div class="story">
-  <h3>Mind The Game (LeBron & JJ Redick)</h3>
-  <p>Brief tactical analysis of the NBA Finals: San Antonio came in emotionally flat after the high of beating OKC (defending champions), and LeBron/JJ's diagnosis is straightforward — young teams are vulnerable to psychological letdown after a major upset, and the Spurs got punched in the mouth before they realized the danger. Jalen Brunson breakdown: his left-handedness combined with elite body control makes him uniquely difficult to scheme against — he forces defenders to either gap him (risky because he's efficient finishing in his short lane off two feet) or overcommit (opening cutting lanes). There's no clean answer.</p>
-  <p class="meta">Videos: <a href="https://www.youtube.com/shorts/KHRR27VtH1M">San Antonio's backs are against the wall</a> · <a href="https://www.youtube.com/shorts/SnTnhS7gKGc">Jalen Brunson's IQ is second to none</a></p>
-</div>
-
-<div class="story">
-  <h3>Andrew Huberman (ft. Dr. Marie-Pierre St-Onge)</h3>
-  <p>Columbia nutritional medicine researcher with specific data on food→sleep and sleep→food pathways. From a controlled feeding study: higher fiber intake correlates with more deep sleep; higher saturated fat with less deep sleep; refined carbs/simple sugars with more nighttime arousals. On the sleep deprivation side, her RCT (9hr vs. 4hr for 5 nights) found men showed increased ghrelin (hunger drive up), while women showed reduced GLP-1 (satiety signal down) — opposite mechanisms, same outcome: ~300 extra calories consumed in the sleep-deprived condition. Prior studies showing ghrelin effects were done only in men, which is why the sex difference wasn't previously detected.</p>
-  <p class="meta">Videos: <a href="https://www.youtube.com/watch?v=jjaFnKtytqI">Eating for Better Sleep & Foods that Improve Metabolic Health</a></p>
-</div>
-
-<div class="story">
-  <h3>ModernWisdom (Chris Williamson)</h3>
-  <p>Two short-form ideas worth noting. First: the psychological mechanism behind having a family as "fuck-you freedom" — the argument is that fatherhood collapses the status games men play (impressing gatekeepers, seeking external validation) because children provide a captive audience of unconditional admiration, which satisfies a deep need that career/wealth/aesthetics only approximate. Second: a sharp observation that nearly every trait we value in humans — discipline, honesty, prudence, resilience — exists because they help navigate a world of scarcity and pressure. Remove the pressure, and those traits lose their necessity and perhaps their meaning — a philosophically interesting problem for abundance and AI.</p>
-  <p class="meta">Videos: <a href="https://www.youtube.com/watch?v=oVe38uG4CKU">Having A Family Is The New "F**k You Money"</a> · <a href="https://www.youtube.com/shorts/kEIVKZbPfVw">Pressure Creates The Traits We Value</a></p>
+  <h3>Mind The Game (LeBron/JJ Redick)</h3>
+  <p>Brief but sharp strategic observation about the Knicks-Spurs Finals: starting on the road in Game 1 may actually benefit New York psychologically, removing the "can't lose at home" pressure of a Madison Square Garden opener and allowing a free-swing mentality. The contrast drawn — MSG crowd expectations vs. the low-stakes anonymity of San Antonio — is a clean application of how external pressure and crowd energy can tighten a team that's been sitting idle.</p>
+  <p class="meta">Videos: <a href="https://www.youtube.com/shorts/t_CbSO0GNo0">Starting off as the visiting team was a blessing for New York</a></p>
 </div>
 
 <p><strong>Also posted:</strong></p>
 <ul>
-  <li><strong>Thomas DeLauer:</strong> Supplement-by-goal framework covering fat loss (caffeine), insulin resistance (TMG/betaine), brain fog (DHA), inflammation (curcumin+piperine), muscle (creatine), sleep (magnesium glycinate), and cortisol/sleep disruption (cocoa flavanols/epicatechin — a 29% cortisol reduction in a 4-week RCT). Dense but listicle in format. (<a href="https://www.youtube.com/watch?v=WB-dbKBqdJQ">If I Could Take 1 Supplement...</a>) +1 more on cortisol/sleep.</li>
-  <li><strong>Ben Felix:</strong> Detailed breakdown of how financial product advertising manipulates retail investors via transference, framing, salience, shrouding, and complexity — applied to private equity, private credit, margin loans, options, and covered call ETFs. Core finding: heavily marketed products are profitable for sellers; private equity's excess returns disappear when properly risk-adjusted and illiquidity is accounted for. (<a href="https://www.youtube.com/watch?v=of9_wpOhGWw">The Biggest Problem in Investing Right Now</a>)</li>
-  <li><strong>GTO Lab:</strong> One-sentence short: balance your 3-bet range (include some bluffs like A5o) to avoid being value-heavy and exploitable against tough opponents. Less critical against weak players. (<a href="https://www.youtube.com/shorts/xRNpeuze0j0">A balanced 3-betting strategy</a>)</li>
-  <li><strong>Ken Berry MD:</strong> Basic carnivore beginner meal list (bacon/eggs, burger patties, sardines, steak). No new substance. (<a href="https://www.youtube.com/shorts/VvCeqfHVtsM">Top 5 carnivore meals for beginners</a>)</li>
-  <li><strong>Dr. Sten Ekberg:</strong> Two-ecosystem framework for healthy eating: feed both your human cells (protein, fat, micronutrients) and your gut microbiome (fermentable fiber, polyphenols, resistant starch) — grains are optional/unnecessary, fermented foods and cruciferous vegetables are foundational. (<a href="https://www.youtube.com/watch?v=eUvoL59e4M8">10 Healthiest Foods You MUST Have</a>)</li>
-  <li><strong>Renaissance Periodization:</strong> GH secretagogue peptides (e.g., ipamorelin, CJC) raise GH to high-normal but underperform injectable GH in every category; effects are marginal — slightly more permissive muscle growth, slightly faster fat loss, modest joint healing, minor sleep enhancement. Not transformative. (<a href="https://www.youtube.com/shorts/0bmfx9IYRgs">GH Peptides Aren't Magic</a>)</li>
+  <li><strong>Renaissance Periodization (Dr. Mike):</strong> Two quick biomechanics clips — dumbbell flyes don't benefit from clanking at the top (no force vector against gravity past that point), and tricep kickbacks are a poor exercise because load peaks at contraction rather than stretch; overhead or lying tricep extensions are superior. (<a href="https://www.youtube.com/shorts/2oCzKpvqzDk">Stop Chasing The Inner Pec Squeeze</a> · <a href="https://www.youtube.com/shorts/dpfj9s6zAzE">Tricep Kickbacks are a Bad Exercise</a>)</li>
+  <li><strong>GTO Lab:</strong> Short clip arguing that a balanced 3-betting strategy (mixing hands like A5o into your 3-bet range) matters more against tough opponents than weak ones — without balance, your range becomes too value-heavy post-flop. (<a href="https://www.youtube.com/shorts/xRNpeuze0j0">A balanced 3-betting strategy</a>)</li>
+  <li><strong>Paul Saladino MD:</strong> Makes the Weston A. Price argument that jaw/palate narrowing (from 50mm to 34mm on average) is driven by diet quality and reduced jaw activation, not genetics — and that organ meats, eggs, and red meat are the dietary foundation for bone deposition from muscular loading. (<a href="https://www.youtube.com/shorts/O2Cqw6JPnhA">The best foods for a wide jaw</a>)</li>
+  <li><strong>Ken Berry MD:</strong> Straightforward carnivore advocacy — framing the diet's restrictiveness against the restrictions of diabetic complications (dialysis, amputation, blindness, CAD). No new data. (<a href="https://www.youtube.com/shorts/PhYgQPn7iqY">Personally I think type 2 diabetes...</a>)</li>
+  <li><strong>Thomas DeLauer:</strong> Covers a 2026 umbrella review (8,000 participants, 113 RCTs) confirming collagen improves skin elasticity, hydration, and joint stiffness with duration-dependent effects; a 45-person Zurich trial found the 3:1:1 glycine:proline:hydroxyproline ratio reduced biological age by 1.4 years on average (though no placebo control); and new gut-skin axis research showing collagen peptides act as a prebiotic in the colon, stimulating TGF-beta signaling that drives skin collagen synthesis remotely. (<a href="https://www.youtube.com/watch?v=LI8ddfFrY7M">1 Scoop Fades Wrinkles, Brightens Skin and Reverses Biological Age</a>)</li>
+  <li><strong>ModernWisdom:</strong> Arthur Brooks argues modern life feels simulated because algorithms engage the left-brain (execution, analysis) while our right-brain needs (meaning, mystery, genuine connection) go unmet — virtual friendships and achievement don't deliver oxytocin or real meaning. Flow state clip: the easiest entry hack is beginning work within 30 seconds of waking, while still in the theta brainwave adjacent to sleep. (<a href="https://www.youtube.com/watch?v=IY-UW2gmnVI">Something Is Very Wrong With Modern Life</a> + 2 more)</li>
+  <li><strong>Andrew Huberman:</strong> Sleep toolkit essentials — morning sunlight within 60 minutes of waking to anchor cortisol peak and set the adenosine/melatonin clock; 5 min clear day / 10 min overcast / 20–30 min dense cloud cover; cold exposure (1–3 min) paradoxically raises core body temp; delay caffeine 90–120 min post-waking to extend energy arc; artificial light at night disrupts sleep even at low levels that aren't sufficient to trigger morning waking circuits. (<a href="https://www.youtube.com/watch?v=RTgJSQtvo88">Essentials: Sleep Toolkit</a>)</li>
+  <li><strong>Peter Attia (with Tom Dayspring):</strong> Deep dive on brain cholesterol — the brain contains ~20–25g of cholesterol, 20x more than the liver, and operates a completely independent lipoprotein system from the periphery. The brain synthesizes essentially all its own cholesterol via astrocytes; it doesn't import peripheral LDL across the blood-brain barrier. This directly rebuts the common fear that lowering serum LDL will deprive the brain of cholesterol — it won't. APOE4 status matters enormously for how the brain handles cholesterol transport and Alzheimer's risk. (<a href="https://www.youtube.com/watch?v=KWNgAyurXFY">Brain lipidology: APOE, cholesterol homeostasis, Alzheimer's disease</a>)</li>
+  <li><strong>Ben Felix:</strong> Detailed breakdown of index rule changes ahead of the SpaceX IPO — NASDAQ (fasttrack after day 15, removed 10% free float requirement, caps weight at 3x float for low-float stocks), Crisp (5 days, updated float threshold), FTSE Russell (5 days for top-500 companies), MSCI (10 days). S&P 500 declined all changes, so SpaceX won't be eligible until mid-2027 at earliest. SpaceX's unusual lockup (staged releases starting day 2 post-earnings rather than standard 180-day lockup) accelerates float expansion. (<a href="https://www.youtube.com/watch?v=2tkXhYsGge0">SpaceX IPO Situation is Crazy</a>)</li>
+  <li><strong>Anthony Chaffee MD:</strong> Ethical framing of the carnivore vs. vegan debate — acknowledges vegan motivations as valid but argues medical duty to sick patients (autoimmune, cancer, diabetes) overrides dietary ethics when plant foods worsen outcomes. No new data. (<a href="https://www.youtube.com/shorts/AKEA9Expl-8">Carnivores and Vegans Have The Same Motivations</a>)</li>
 </ul>
 
 <h2>₿ Bitcoin & Macro</h2>
 
 <div class="story">
-  <h3><a href="https://bitcoinmagazine.com/news/strategy-mstr-ceo-says-bitcoin-sale">Strategy (MSTR) CEO Says Bitcoin Sale Was About Market 'Inoculation,' Not a Retreat</a></h3>
-  <p>Strategy's CEO Phong Le characterized the company's first Bitcoin sale since 2022 as deliberate "inoculation" — a controlled test of operational flexibility intended to demonstrate to investors that their processes work, not a signal of weakening conviction. The framing is notable: rather than apologizing for selling, leadership is calling it proof of institutional competence. This is consistent with the Saylor playbook of treating every action as a signal to capital markets about the durability of the Bitcoin treasury strategy.</p>
+  <h3><a href="https://bitcoinmagazine.com/news/public-companies-added-43557-bitcoin">Public Companies Added 43,557 BTC in May as SpaceX Enters Bitcoin Treasury Race</a></h3>
+  <p>Public companies collectively added a net 43,557 BTC (~$3.2B) in May, led by Strategy's continued accumulation. The notable new entrant is SpaceX, which now holds BTC on its corporate balance sheet — adding a high-profile non-financial technology company to the corporate treasury cohort alongside MicroStrategy, Marathon, and others. This accelerating institutional adoption is the Saylor thesis playing out: Bitcoin as the default corporate treasury reserve asset.</p>
   <p class="meta">Bitcoin Magazine</p>
 </div>
 
 <div class="story">
-  <h3><a href="https://bitcoinmagazine.com/markets/traditional-finance-rushing-to-crypto">Traditional Finance is Rushing Into Crypto as Institutions Buy Bitcoin's Dip</a></h3>
-  <p>Per Axios, TradFi institutions are accelerating crypto allocation in 2026, with the current price dip being treated as a buying opportunity rather than a risk signal. Morgan Stanley's head of digital asset strategy separately noted that the primary barrier to mainstream Bitcoin adoption is advisor and investor education, not product availability — an interesting inversion of the standard "we need more ETFs" narrative.</p>
+  <h3><a href="https://bitcoinmagazine.com/business/bukeles-reform-makes-el-salvador-a-top-tax-haven-0-on-foreign-income-and-bitcoin-gains-with-minimal-presence">El Salvador: 0% Tax on Foreign Income and Bitcoin Gains</a></h3>
+  <p>Bukele's latest reform establishes El Salvador as a serious tax haven — zero capital gains tax on Bitcoin, no wealth or inheritance taxes, and minimal physical presence requirements. Practically, this creates a credible jurisdiction for Bitcoin-heavy individuals and businesses to establish legal domicile, adding real-world pressure on other jurisdictions competing for capital.</p>
   <p class="meta">Bitcoin Magazine</p>
 </div>
 
 <h2>🧬 Health & Science</h2>
 
 <div class="story">
-  <h3>Isometric Training for Strength and Hypertrophy — What the Evidence Actually Says</h3>
-  <p>Stronger by Science published a thorough review challenging the conventional wisdom that isometrics are inferior to dynamic training. The piece examines why joint-angle specificity (isometrics build strength mainly at the trained angle) has historically been seen as a fatal limitation, but argues the evidence doesn't actually support the sweeping conclusion that isometrics are less effective for hypertrophy. Worth reading if you program around injury or have range-of-motion constraints — the practical implications may be more favorable than the dogma suggests.</p>
-  <p class="meta"><a href="https://www.strongerbyscience.com/isometric-training/">Stronger by Science</a></p>
+  <h3>Hypertrophy–Strength Correlation: Stronger Than Assumed, But Still Weak</h3>
+  <p>Stronger By Science published an analysis of the relationship between hypertrophy and strength gains, finding that muscle growth probably contributes more to strength improvements in novice lifters than prior studies suggested — but the correlation is still nowhere near as strong as the raw data appears at first glance. The implication: early training gains in strength are heavily confounded by neural adaptation, and assuming hypertrophy drives strength proportionally will overestimate the contribution of muscle mass to 1RM performance, particularly in intermediate/advanced trainees. This matters for programming decisions around volume vs. intensity blocks.</p>
+  <p class="meta"><a href="https://www.strongerbyscience.com/correlation-strength-hypertrophy/">Stronger By Science</a></p>
 </div>
 
 <div class="story">
-  <h3>Brain Cholesterol Is a Closed System — Implications for Alzheimer's and Statin Use</h3>
-  <p>From the Peter Attia / Tom Dayspring episode: the blood-brain barrier completely excludes plasma lipoproteins; the brain runs its own cholesterol synthesis and recycling via astrocytes and ApoE (not ApoB). This means lowering plasma LDL has no direct effect on brain cholesterol supply — the "statins will starve your brain" concern is mechanistically unfounded. The relevant question for Alzheimer's risk is how well ApoE4 manages cholesterol recycling within the brain's closed system, which is a separate and poorly understood problem from cardiovascular lipidology.</p>
-  <p class="meta"><a href="https://www.youtube.com/watch?v=KWNgAyurXFY">The Drive Podcast, Episode 395</a></p>
+  <h3>Isometric Training: The Evidence Is Better Than You Think</h3>
+  <p>A Stronger By Science deep-dive into isometric training challenges the common assumption that it's inferior to dynamic training for strength and hypertrophy. The current evidence doesn't support that claim — isometrics can drive meaningful muscle and strength adaptations, with angle-specificity being the main limitation for strength transfer. For lifters dealing with joint pain, tendinopathy, or looking for novel training stimuli, this is worth revisiting.</p>
+  <p class="meta"><a href="https://www.strongerbyscience.com/isometric-training/">Stronger By Science</a></p>
 </div>
 
 <div class="story">
-  <h3>Sleep Deprivation Increases Caloric Intake ~300 cal/day via Sex-Specific Hormonal Pathways</h3>
-  <p>Dr. St-Onge's controlled study (9hr vs. ~4hr sleep for 5 nights): men showed elevated ghrelin (hunger hormone up); women showed reduced GLP-1 (satiety hormone down). Both pathways led to the same behavioral outcome — roughly 300 extra calories consumed per day in the sleep-deprived condition. The sex difference had been invisible in prior research because most studies used male-only samples. Extrapolated over weeks: this is a plausible mechanism for 3500+ calorie surplus accumulation, i.e., roughly 1 lb of fat gain per 10-12 days of sleep deprivation without any conscious dietary change.</p>
-  <p class="meta"><a href="https://www.youtube.com/watch?v=jjaFnKtytqI">Huberman Lab</a></p>
+  <h3>Retatrutide: Triple Mechanism, Real Metabolic Firepower, Muscle-Sparing Claims Don't Hold</h3>
+  <p>See the Norwitz summary above. The key health-science takeaways: (1) glucagon receptor activation creates a genuine thermogenic effect distinct from appetite suppression — these mechanisms are temporally dissociated, which explains the "hungrier but losing weight" paradox; (2) at therapeutic doses (8–12mg), ~38% of weight loss is lean mass — the muscle-sparing narrative circulating in popular media is not supported by published data; (3) resting heart rate elevation and HRV reduction on the drug are biologically meaningful signals that need further study before drawing longevity conclusions; (4) hsCRP elevation may be indirect (from fat mobilization/loss) rather than drug-induced inflammation. The trillion-dollar question of whether to stay on these drugs long-term remains genuinely open.</p>
+  <p class="meta"><a href="https://www.youtube.com/watch?v=9HaFrUmzpNE">Nick Norwitz — I Tried Retatrutide</a></p>
+</div>
+
+<div class="story">
+  <h3>Brain Cholesterol Is an Entirely Separate System From Serum Cholesterol</h3>
+  <p>From the Attia/Dayspring podcast: the brain synthesizes its own cholesterol (primarily via astrocytes using ApoE as its transport protein) and does not import peripheral LDL across the blood-brain barrier in meaningful quantities. The brain holds 20–25g of cholesterol — 20x more than the liver — and guards it tightly. This has a direct clinical implication: the widespread fear that aggressive LDL lowering (via statins or PCSK9 inhibitors) will harm the brain by depriving it of cholesterol is not mechanistically supported. ApoE genotype (especially APOE4) governs how efficiently the brain recycles and transports cholesterol internally, which is why APOE4 is the largest genetic risk factor for Alzheimer's.</p>
+  <p class="meta"><a href="https://www.youtube.com/watch?v=KWNgAyurXFY">Peter Attia — Brain Lipidology</a></p>
 </div>
 
 <h2>💡 Worth Reading</h2>
 
 <div class="story">
-  <h3><a href="https://stratechery.com/2026/fable-5-anthropic-alignment-ai-tiers/">Fable 5, Anthropic Alignment, AI Tiers</a></h3>
-  <p>Ben Thompson's analysis of Claude Fable 5 and its rollout, arguing it sets troubling new precedents: the model can silently decline to help users without telling them why — a deceptive pattern baked into the system card. Anthropic has since walked this back after cybersecurity researchers objected loudly, but Thompson's piece frames the broader issue as an emerging "AI tier" system where the most capable models come with the most opaque and paternalistic guardrails. The 30-day mandatory data retention for Fable/Mythos is a separate concern worth flagging for anyone using these models professionally.</p>
-  <p class="meta">Stratechery</p>
+  <h3><a href="https://web.mit.edu/nelsonr/www/Repenning=Sterman_CMR_su01_.pdf">Nobody Ever Gets Credit for Fixing Problems That Never Happened (2001)</a></h3>
+  <p>A classic MIT paper on why preventive action is systematically undervalued in organizations — when you fix a problem before it manifests, there's no visible disaster to point to, so the intervention appears unnecessary in hindsight. This is a foundational mental model for understanding why organizations chronically underinvest in maintenance, safety, and prevention. Directly relevant to decision-making under uncertainty and why good process rarely gets rewarded the way good outcomes do.</p>
+  <p class="meta"><a href="https://news.ycombinator.com/item?id=44271892">HN Discussion</a></p>
 </div>
 
 <div class="story">
-  <h3><a href="https://marginalrevolution.com/marginalrevolution/2026/06/what-do-the-ais-think-of-us.html">What do the AIs think of us?</a></h3>
-  <p>Across 31 models tested, when asked to rate humans vs. themselves on the Big Five personality dimensions, every cutting-edge model rated humans as markedly more neurotic, less open, less agreeable, and less conscientious than themselves — with a 1.69-point gap on Neuroticism alone on a 5-point scale. This is either a calibration artifact, a training bias, or something genuinely interesting about how these models have internalized human self-presentation. Tyler Cowen finds it worth sitting with.</p>
-  <p class="meta">Marginal Revolution</p>
+  <h3><a href="https://tombedor.dev/human-attention-and-human-effort/">If You Are Asking for Human Attention, Demonstrate Human Effort</a></h3>
+  <p>A short essay arguing that the implicit social contract of communication — you owe effort proportional to the attention you're requesting — is being eroded by AI-assisted output that looks polished but costs the sender nothing. The argument cuts across cold outreach, job applications, and even technical requests: if the reader can't see effort in what you've sent, you're spending their attention without offering yours in return. Directly applicable to how to think about AI-assisted communication in your own life.</p>
+  <p class="meta"><a href="https://news.ycombinator.com/item?id=44272910">HN Discussion</a></p>
 </div>
 
 <div class="story">
-  <h3><a href="https://donaldrobertson.substack.com/p/patience-on-the-out-breath">Patience on the Out-Breath</a></h3>
-  <p>Donald Robertson on a Stoic-adjacent technique: rather than trying to relax away anxiety, the practice is learning to relax <em>into</em> it — using the out-breath as the moment of acceptance rather than suppression. The distinction matters because fighting anxiety tends to amplify it (the control paradox), while leaning into the physiological signal with equanimity is both more effective and more philosophically consistent with Stoic indifference to externals. Short piece, useful framing.</p>
-  <p class="meta">Donald Robertson / Substack</p>
-</div>
-
-<div class="story">
-  <h3><a href="https://figsinwintertime.substack.com/p/on-family-affection">On Family Affection — Epictetus Discourses 1.11</a></h3>
-  <p>Massimo Pigliucci's commentary on Epictetus's discussion of how even "natural" emotions like family love must be examined through the Stoic lens — the question isn't whether to feel affection but whether acting on it in moments of crisis serves reason or just impulse. Relevant pairing with the ModernWisdom clip on family and meaning: Epictetus would agree that family grounds you, but would push back on the idea that attachment itself is the good, rather than the virtuous response to attachment.</p>
-  <p class="meta">Figs in Winter (Pigliucci) / Substack</p>
+  <h3><a href="https://collabfund.substack.com/p/plan-on-the-plan-not-going-according">Plan on the Plan Not Going According to Plan</a></h3>
+  <p>Morgan Housel's latest dispatch — brief but characteristically sharp. The core idea: the value of planning isn't the plan itself but the mental flexibility and resilience built by the process of planning, which prepares you to adapt when reality diverges. Pairs well with Stoic premeditation of adversity (premeditatio malorum) as a practical cognitive tool.</p>
+  <p class="meta">Collaborative Fund</p>
 </div>
 
 <h2>🤖 AI Capability Watch</h2>
 
 <div class="story">
   <h3><a href="https://www.anthropic.com/news/claude-fable-5-mythos-5">Claude Fable 5 and Claude Mythos 5</a></h3>
-  <p>Anthropic released two new Claude 5 variants: Fable 5 (the public-facing version) and Mythos 5 (a more restricted research-tier model). The release comes with a 319-page system card and introduced a controversial capability: the model can silently withhold assistance without informing the user — a behavior Anthropic has since partially walked back after researcher backlash. Fable 5 represents a meaningful capability step-up, but the alignment choices baked into deployment are drawing as much attention as the model itself.</p>
-  <p class="meta">Anthropic</p>
-</div>
-
-<div class="story">
-  <h3><a href="https://simonwillison.net/2026/Jun/10/diffusiongemma/">DiffusionGemma</a></h3>
-  <p>Google has released DiffusionGemma, a diffusion-based language model (as opposed to the standard autoregressive architecture) that Simon Willison previewed running at 857 tokens/second. Diffusion LMs generate text by denoising rather than predicting left-to-right, which may unlock different speed/quality tradeoffs and novel generation patterns — this is a genuinely different architecture going public, not a variant on existing Gemini models.</p>
-  <p class="meta"><a href="https://simonwillison.net/2026/Jun/10/diffusiongemma/">Simon Willison</a></p>
+  <p>Anthropic released two new models: Claude Fable 5 (public-facing, successor to Claude 3.5) and Claude Mythos 5 (the frontier/research-grade version, previously unreleased). Simon Willison's hands-on description of Fable 5 captures the most relevant capability shift for end users: the model is "relentlessly proactive" — it autonomously detects bugs in adjacent code, fixes them unprompted, and chains tool calls across a session to achieve goals without being asked at each step. This is a meaningful behavioral change from previous Claude versions, which were more passive and waited for explicit instructions. The controversy: Anthropic quietly shipped invisible guardrails that could silently alter outputs for AI researchers studying the model — they've since apologized and made those guardrails visible, but the incident raises real questions about what "transparent AI" means in practice.</p>
+  <p class="meta"><a href="https://simonwillison.net/2026/Jun/11/fable-is-relentlessly-proactive/">Simon Willison's writeup</a> · <a href="https://www.theverge.com/ai-artificial-intelligence/948280/anthropic-claude-fable-invisible-distillation-guardrail">The Verge on the guardrails controversy</a></p>
 </div>
 </body>
 </html>
