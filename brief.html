@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>Morning Brief — Tuesday, June 16, 2026</title>
+<title>Morning Brief — Wednesday, June 17, 2026</title>
 <style>
   body {
     font-family: Georgia, serif;
@@ -92,19 +92,19 @@
 })();
 </script>
 <h1>Morning Brief</h1>
-<p class="date">Tuesday, June 16, 2026</p>
+<p class="date">Wednesday, June 17, 2026</p>
 
 <div class="anchor">
   <h2>☀️ Today's Anchor</h2>
   <div class="anchor-block">
-    <p class="quote">"Whereof one cannot speak, thereof one must be silent."</p>
-    <p class="author">— Ludwig Wittgenstein</p>
-    <p class="context">The closing line of the Tractatus. Wittgenstein meant this literally — some things language cannot capture.</p>
+    <p class="quote">"He who has a why to live for can bear almost any how."</p>
+    <p class="author">— Friedrich Nietzsche</p>
+    <p class="context">Twilight of the Idols. Later used by Viktor Frankl as the thesis of Man's Search for Meaning, written in a concentration camp.</p>
   </div>
   <div class="anchor-block">
     <p class="model-label">Mental Model · Epistemics</p>
-    <p class="model-name">Chesterton's Fence</p>
-    <p class="context">Before removing a rule or system you don't understand, figure out why it was put there. Every rule was someone's solution to a problem. If you can't articulate the problem, you might be about to recreate it. Munger applies this to business reorganizations: understand the old structure first.</p>
+    <p class="model-name">Confirmation Bias</p>
+    <p class="context">We seek evidence that confirms what we already believe, and dismiss what doesn't. Charles Darwin's rule: when he encountered evidence against his pet theories, he'd immediately write it down, because he knew he'd forget it otherwise. Deliberate contrarian reading is the only known antidote.</p>
   </div>
 </div>
 
@@ -115,127 +115,141 @@
   <p class="spotlight-instructions">Interested? Copy the line below into <code>YOUTUBE_CHANNELS</code> in <code>brief.py</code> and save:</p>
   <pre class="spotlight-snippet" id="snippet">    "Jeff Nippard": "UC68TLK0mAEzUyHx5x5k-S1Q",</pre>
   <button class="copy-btn" onclick="navigator.clipboard.writeText(document.getElementById('snippet').innerText.trim()); this.innerText='✅ Copied'; setTimeout(()=>this.innerText='📋 Copy snippet', 2000);">📋 Copy snippet</button>
-  <p class="spotlight-meta">showing for 3 more days. If you don't add it, a new channel will be suggested.</p>
+  <p class="spotlight-meta">showing for 2 more days. If you don't add it, a new channel will be suggested.</p>
 </div>
 <h2>🎥 From People I Follow</h2>
 
 <p><strong>Worth your time:</strong></p>
 
 <div class="story">
-  <h3>GTO Wizard (Tom Boss21 & Joey Ingram)</h3>
-  <p>A deep Poker Math 101 walkthrough that actually earns its runtime. The core insight: pot odds and bluff frequency are two sides of the same coin — on the river, the percentage you should bluff exactly equals the pot odds you're laying your opponent. They demonstrate this live with GTO Wizard node-locking: shift a range to be even slightly too value-heavy and <em>every</em> bluff-catcher folds; shift it slightly too bluff-heavy and <em>every</em> bluff-catcher calls. The line is that sensitive. They also walk through how MDF (minimum defense frequency) is just alpha inverted — alpha asks "how often must villain fold for my bluff to profit?", MDF asks "how often must I defend to deny that profit?" The blocker section at the end is worth isolating: scarcity of bluff combos, not just raw blocker strength, determines which hands you should hero-call with.</p>
+  <h3>GTO Wizard</h3>
+  <p>Tom Boss walks Joey Ingram through a unified framework for river bet sizing, pot odds, and MDF — arguing these aren't separate concepts but two sides of the same coin. The core insight: when you bet 150% pot on the river, you're laying your opponent 37% pot odds, which means you must be bluffing exactly 37% of the time for their bluff-catchers to be indifferent. The nodelock demonstrations are the real value — shifting just 4 combos from bluffs to value causes every bluff-catcher to fold; adding a handful more bluffs makes everything call. The takeaway: river lines are extremely sensitive to small deviations in bluff frequency, and the GTO solution exists precisely because it makes your opponent indifferent and earns you zero EV on your bluffs while maximally extracting from value. Also covered: why the BB should donk-lead on 5-4-3 boards (nut advantage + prevent cutoff from checking back), and how blocker effects at showdown drive the specific selection of bluff hands (hands that unblock villain's folds).</p>
   <p class="meta">Videos: <a href="https://www.youtube.com/watch?v=C-QUUH-s8aE">The Math Behind Every Profitable Poker Decision</a></p>
 </div>
 
 <div class="story">
+  <h3>GTO Lab</h3>
+  <p>Kayhan Mokri makes a sharp point about range balance when checking down to the river OOP: if you never include delayed bluffs in your check-check-bet line, your river betting range becomes purely value-heavy, which eliminates fold equity entirely — IP can just never fold. The solution is to include hands with zero showdown value (e.g., 9-2 offsuit on a river blank) as check-check-river bluffs, because they have blocker value and unblock the hands villain will fold (king-high, queen-high type holdings).</p>
+  <p class="meta">Videos: <a href="https://www.youtube.com/shorts/VOvvQHMVkJ4">Kayhan Mokri on balanced check-down ranges</a></p>
+</div>
+
+<div class="story">
   <h3>Jared Alderman</h3>
-  <p>Short but sharp: Alderman makes the case that one of the hardest skills in poker is recognizing skill in opponents who do things outside your current strategic framework. He uses Isildur1's oversized bets as the canonical example — the table read him as a fish, then realized he was creating maximally difficult spots. The meta-point is that the game advances in punctuated leaps when a player does something "wrong" that turns out to be dominant, and your first instinct will be to dismiss it.</p>
-  <p class="meta">Videos: <a href="https://www.youtube.com/shorts/7C7LSTyoH4k">The Skill of Recognizing Skill</a></p>
+  <p>A pointed philosophical distinction: what you can *think* is not what you *know* — it's a habit of thought. Real knowledge is behavioral. If you "know" impermanence intellectually but still react with suffering when bad things happen, you don't actually know it yet. This is directly applicable to poker (and life): the test of whether you've internalized a concept is how you behave under pressure, not whether you can recite it.</p>
+  <p class="meta">Videos: <a href="https://www.youtube.com/shorts/7YXL2kuzTLQ">Stop Thinking, Start DOING</a></p>
+</div>
+
+<div class="story">
+  <h3>Ken Berry MD</h3>
+  <p>The Isabella Cooper interview is legitimately interesting for the bone health angle. The core claim: hyperinsulinemia — not low bone mineral density — is the primary driver of fragility fractures in most people, and the DEXA scan misses this because high insulin actually drives *higher* bone mineral density that is paradoxically brittle (lacks ductility and torsion strength). The mechanism: osteocytes (42 billion of them, half-life ~25 years) require fatty acid delivery via LDL-docked lipoprotein receptors — receptors that are damaged by both high glucose and high insulin. High-fiber diets and seed oils lower LDL, further starving osteocytes of their preferred fuel. Osteocalcin, the 10th most abundant protein in the body, is the key bone peptide here — it should be low in a healthy metabolic state and rises paradoxically with worsening insulin resistance before eventually crashing. The practical implication: fasting insulin under 6-10 µIU/mL and adequate K2 and D are more important for bone strength than a good DEXA score. Berry also recants his prior caution on LDL, now stating high LDL in the context of normal metabolic markers (A1C, fasting insulin, triglycerides, HDL, hsCRP) is a good sign, not a concern.</p>
+  <p class="meta">Videos: <a href="https://www.youtube.com/watch?v=BNShB15hEKE">Stronger Bones After 50? Isabella Cooper's Osteocalcin Secret</a> · <a href="https://www.youtube.com/shorts/9nU1XP6u50g">Yep… I was wrong (on LDL)</a></p>
 </div>
 
 <div class="story">
   <h3>Nick Norwitz</h3>
-  <p>Solid deep dive on Heart Rate Variability as a practical health marker. Key data points: in an 808-patient post-MI study, low HRV predicted a 5.3x higher risk of death over follow-up years; a separate study found each one-standard-deviation drop in HRV associated with a 47% increased risk of a first cardiac event. HRV reflects vagal (parasympathetic) tone — high HRV means your "brakes" are responsive, low HRV means you're flying with broken brakes. Practical improvement levers with the strongest evidence: zone 2 cardio (most reliable baseline builder), HIIT dosed correctly (~30% of aerobic volume), and omega-3s (EPA+DHA at 3,000–4,000mg/day, shown in RCTs to boost HRV via membrane fluidity and vagal tone through brain-stem accumulation). Caffeine acutely suppresses HRV by pushing sympathetic tone — don't measure HRV post-coffee. Norwitz also recommends measuring HRV immediately upon waking, before phone or caffeine, for the cleanest baseline signal.</p>
+  <p>A well-structured explainer on heart rate variability (HRV) as a marker of vagal (parasympathetic) tone and "neurocardiac agility." Key data: in an 808-patient post-MI study (AJC, 1987), low HRV predicted 5.3× higher mortality over the following years; in a 2,501-person healthy cohort, each 1 SD drop in HRV was associated with 47% higher risk of a first cardiac event. Practical improvement levers: zone 2 cardio is the most reliable baseline booster; HIIT is a double-edged sword — use HRV itself to gate recovery before next hard session (rough ratio: 70% zone 2, 30% HIIT). Omega-3s (EPA+DHA at 3,000–4,000 mg/day, equivalent to ~3 cans of sardines) improve HRV via membrane fluidity, anti-inflammation, and vagal tone through brainstem accumulation — he favors lyso-phosphatidylcholine DHA for brain delivery. Caffeine acutely suppresses HRV but up to 4 cups/day is neutral-to-beneficial; don't measure HRV post-caffeine.</p>
   <p class="meta">Videos: <a href="https://www.youtube.com/watch?v=bdxYexIpYjo">Heart Rate Variability (And The Coffee that Almost Killed Me)</a></p>
 </div>
 
 <div class="story">
-  <h3>Thomas DeLauer</h3>
-  <p>Two substantive videos this period. On fasting: the "10 commandments" framework has some genuinely mechanistic claims worth noting — black coffee (and even decaf) triggers autophagy via AMPK/mTOR inhibition within 1–4 hours per a Cell Cycle study; salt satisfies the same nucleus of the solitary tract circuitry as sugar (Journal of Clinical Hypertension data showing inverse sodium/sugar relationship); and the metabolic threshold for meaningful fasting doesn't begin until 16 hours, when ketone concentrations can more than double between hours 15–20 per a Metabolism study. Critically, back-to-back fasting days without adequate calories triggers adaptive thermogenesis (one AJCN study showed 266 cal/day REE drop after 3 weeks of restriction), so eating enough during feeding windows is non-negotiable. On collagen: it's not a muscle-builder, but it does four specific things whey can't: (1) survives digestion as intact bioactive peptides (proHyp peaks at 10,000x any other food-derived peptide), (2) delivers glycine to address a ~10g/day metabolic shortfall that throttles creatine synthesis and glutathione production, (3) 3g glycine before bed shortens time to slow-wave sleep without sedation by triggering peripheral vasodilation and core temperature drop, and (4) corrects the methionine-to-glycine imbalance from high muscle-meat diets, reducing homocysteine accumulation within 24 hours of supplementation.</p>
-  <p class="meta">Videos: <a href="https://www.youtube.com/watch?v=YpDsCa0znhA">The 10 Commandments of Fasting</a> · <a href="https://www.youtube.com/watch?v=k1NTvM94PR8">1 Scoop of This Protein Does What Whey Can't Even Touch</a></p>
-</div>
-
-<div class="story">
-  <h3>Andrew Huberman (ft. Andy Stumpf)</h3>
-  <p>The centerpiece tool from Stumpf's book <em>Drown Proof</em> is the Concern vs. Influence exercise: draw a line down a page, list everything occupying your waking hours on the left (concern), then try to fill the right side (influence). Almost everything lands left; the only thing you can honestly put right is yourself — your thoughts, responses, time management. Stumpf does it monthly now; Huberman does it weekly and calls it a "game changer" for cutting rumination. The deeper point: the exercise forces the recognition that you have no control over what happens to you, only over how you respond — a clean Stoic frame delivered practically. Stumpf also makes a strong case for phone screen time under 1 hour/day (he got to 30 min in January) and notes that forcing Instagram to the laptop makes it sticky enough to close quickly.</p>
-  <p class="meta">Videos: <a href="https://www.youtube.com/watch?v=baecUt1GaPk">The Mental Frame & Specific Daily Actions to Succeed | Andy Stumpf</a></p>
-</div>
-
-<div class="story">
-  <h3>GTO Lab (Alex Kulev)</h3>
-  <p>One-minute short but a clean mental game point: decide your worst-case loss before a session, confirm mathematically you can afford it, and then free yourself to simply perform. Preparing for the bad outcome at the start removes the weight of it mid-session — you've already processed the ending.</p>
-  <p class="meta">Videos: <a href="https://www.youtube.com/shorts/mgIyegdoTJw">You can't perform if you're afraid to lose</a></p>
+  <h3>Mind The Game (LeBron James & JJ Redick)</h3>
+  <p>LeBron and JJ break down what makes Jalen Brunson so hard to guard. Key points: Brunson's primary weapon is using his body to cut off defenders and *stop the game* — forcing the defense to declare who guards the newly created space, then playing 4-on-3. He plays off two feet with unconventional release timing that makes shot-blocking nearly impossible to time. He's a lefty, which LeBron argues creates real perceptual difficulty for defenders tuned to 90–95% right-handed players. The floor-spacing around him (Bridges, OG, Hart, Robinson) is what makes it all work — he needs defenders dragged to the perimeter so his body leverage can create driving lanes.</p>
+  <p class="meta">Videos: <a href="https://www.youtube.com/watch?v=WivbQB_cvc0">LeBron Explains What Makes Jalen Brunson So Dangerous</a></p>
 </div>
 
 <p><strong>Also posted:</strong></p>
 <ul>
-  <li><strong>Ken Berry MD:</strong> Practical carnivore-budget breakdown — chicken quarters at $0.87/lb come out to ~$0.33 per 30g protein (skin adds collagen, bones give broth), chicken livers as the cheapest superfood per nutrient density, pork loin/butt steak as the best beef-adjacent value. (<a href="https://www.youtube.com/watch?v=Enjc_2pw9P8">7 Cheapest Quality Proteins</a>)</li>
-  <li><strong>Anthony Chaffee MD:</strong> Argues that fast food is effectively a hypervegetarian diet (>90% calories from plants — buns, seed-oil fries, sugary drinks) and that the meat patty is the only "saving grace." Cites the Minnesota Coronary Experiment (~10,000 participants) showing replacing animal fats with polyunsaturated vegetable oils lowered LDL but increased heart attack/stroke deaths in a dose-dependent relationship. (<a href="https://www.youtube.com/watch?v=UKt8Z-a6hpU">How Bad is McDonald's REALLY?</a>)</li>
-  <li><strong>Paul Saladino MD:</strong> Brief but data-backed: handling thermal paper receipts for 2 hours produces measurable BPA increases in blood and urine in 100% of subjects (2014 study); cashiers show 2–3x elevated levels. (<a href="https://www.youtube.com/shorts/7zn7TCSM54c">You'll never touch another receipt…</a>)</li>
-  <li><strong>Dr. Sten Ekberg:</strong> Detailed explainer on resistant starch — RS3 (cooked-then-cooled rice/potatoes) reverts only a fraction of starch to crystalline form, so it's not a free pass for carbs. The real benefit is butyrate production in the colon feeding keystone bacterial species (F. prausnitzii, Roseburia intestinalis), with downstream effects on gut lining integrity, reduced leaky gut, and a "second meal effect" where propionate from RS fermentation reduces hepatic gluconeogenesis and triggers mild GLP-1, lowering next-meal glucose by 10–20 mg/dL in metabolically healthy people. Raw potato starch (~3.5g/day for 4 weeks) showed significant increases in Akkermansia and reductions in both diarrhea and constipation in research. (<a href="https://www.youtube.com/watch?v=LhwOofZ8ins">Eat Bread, Rice & Potatoes WITHOUT Blood Sugar Spikes?</a>)</li>
-  <li><strong>Renaissance Periodization (Dr. Mike):</strong> Two videos — a fun gym-strength-vs-firefighter challenge showing technique and task-specific conditioning matter enormously (Dr. Mike took 5x longer than a firefighter on gear donning, ~5 min vs 38 sec on roof ventilation); and a practical sleep note that late workouts (8–9pm) spike sympathetic drive and can wire you for hours, interfering with sleep onset. (<a href="https://www.youtube.com/watch?v=1VZSfVxKbcA">Exercise Scientist vs. Firefighter</a> · <a href="https://www.youtube.com/shorts/ItapYSVQrhA">Late Workouts Can Wreck Sleep</a>)</li>
-  <li><strong>Stronger by Science (RSS):</strong> Two research reviews — one finding hypertrophy contributes more to strength gains in novices than prior studies suggested (though the relationship is weaker than it first appears); one on isometric training showing current evidence doesn't support the assumption it's inferior to dynamic training for strength and hypertrophy. (<a href="https://www.strongerbyscience.com/correlation-strength-hypertrophy/">Hypertrophy-Strength Correlation</a> · <a href="https://www.strongerbyscience.com/isometric-training/">Isometric Training Review</a>)</li>
-  <li><strong>Mind The Game (NBA short):</strong> LeBron and JJ argue that the Knicks benefited psychologically from starting the Finals on the road — less "can't lose home court" pressure, more free-swing mentality. (<a href="https://www.youtube.com/shorts/t_CbSO0GNo0">Starting off as the visiting team was a blessing for New York</a>)</li>
-  <li><strong>Modern Wisdom (George Mack):</strong> Wide-ranging conversation — the relevant thread is about overthinking, nonchalance as a cultural shield (especially British), and the 5–9pm single-man doom loop of unproductive scrolling. Some decent mental-models tangents buried in a lot of banter. (<a href="https://www.youtube.com/watch?v=1P7m6xrC8T0">The Hidden Cost Of Overthinking Everything</a>)</li>
-  <li><strong>Lex Fridman (Don Lincoln):</strong> Marked as not new — particle physicist walkthrough of physics history as a story of unification (Newton, Maxwell, Einstein, electroweak, Higgs). Most substantive on the LHC: 1 billion collisions/second, triggers filter to ~1,000 worth recording, and they now make top quarks at 1/second vs. the 19 total from six months of Fermilab data in 1995. (<a href="https://www.youtube.com/watch?v=1M3Vdl6DRkU">Biggest Mysteries in Physics</a>)</li>
-  <li><strong>Joe Rogan (Cameron Hanes):</strong> Mostly outdoors/hunting/UFC chat with some scattered mental-game moments — Rogan on not wasting energy resenting competitors, everything being reps, and the "soup with shit in it" social media framework. No single dense idea worth isolating. (<a href="https://www.youtube.com/watch?v=bKceG6tQc0M">JRE #2514 - Cameron Hanes</a>)</li>
-  <li><strong>Ben Felix:</strong> Deep index-fund analysis of the SpaceX IPO situation — covers NASDAQ, FTSE Russell, CRSP, MSCI, and S&P rule changes. S&P notably refused all three proposed changes; SpaceX can't enter S&P 500 until mid-2027 at earliest. CRSP (behind VTI) quietly changed its free-float rule, meaning SpaceX enters after 5 trading days at ~0.12% weight. (<a href="https://www.youtube.com/watch?v=2tkXhYsGge0">SpaceX IPO Situation is Crazy</a>)</li>
+  <li><strong>Andrew Huberman (ft. Andy Stumpf):</strong> Former SEAL Andy Stumpf explains the "sphere of influence vs. sphere of concern" exercise — draw a line down a page, list everything occupying your mind on the left (concern), then try to list what you can directly influence on the right. Nearly everything lands left; the right column is almost always just "yourself." Stumpf uses it ~monthly and found getting phone screen time under 30 min/day in January was the biggest mental health improvement he'd had in years. (<a href="https://www.youtube.com/watch?v=baecUt1GaPk">The Mental Frame & Specific Daily Actions to Succeed</a>)</li>
+  <li><strong>ModernWisdom:</strong> Two shorts: a neurological framing of why you can't simulate meaning (right-brain "why" problems vs. left-brain "how" problems — AI companions are a left-brain solution to a right-brain need), and a Navy SEAL's account of Ibogaine + 5-MeO-DMT treatment pulling him back from a suicide attempt. (<a href="https://www.youtube.com/shorts/3cIn4A1sw5I">You Can't Simulate The Meaning Of Life</a> · <a href="https://www.youtube.com/watch?v=QbV2d4lfY7s">DMT Actually Saved My Life</a>)</li>
+  <li><strong>Peter Attia:</strong> A detailed framework for breast cancer screening — argues 40% lower mortality is achievable with proper screening, that MRI is indicated for ~9% of women but utilized by only 0.4%, and that every woman should have a formal risk assessment by age 25. Covers density, BRCA genetics, family history, and how to personalize beyond population guidelines. (<a href="https://www.youtube.com/watch?v=_9mBlZXA1Lk">Breast cancer screening</a>)</li>
+  <li><strong>Renaissance Periodization (Mike Israetel):</strong> Carbohydrates are "the undisputed forever king of performance nutrition" — carnivore can stabilize energy but caps performance ceiling; recommends 50–75g carbs per meal, 4x/day for adult males, low-glycemic sources. Also: cautions against running BPC-157/TB-500 year-round due to potential long-term cancer risk — use at therapeutic dose for the duration of injury healing, then stop. (<a href="https://www.youtube.com/shorts/4Y2RtDoN8Po">Why Carbs are SO Important for Performance</a> · <a href="https://www.youtube.com/shorts/IvvQA-iwErA">Don't Run BPC Year Round</a>)</li>
+  <li><strong>Dr. Sten Ekberg:</strong> Thorough explainer on resistant starch (RS2/RS3) — only a fraction of cooked-then-cooled starch converts to RS, so this is not a free pass to eat more carbs. The real benefit is RS selectively feeding butyrate-producing bacteria (Faecalibacterium prausnitzii, Roseburia intestinalis), which supports colonocyte health, reduces leaky gut, and via propionate, triggers a "second meal effect" (10–20 mg/dL lower glucose response on the *next* meal). Raw potato starch is the most researched delivery vehicle; 3.5g/day showed measurable microbiome changes in 4 weeks. (<a href="https://www.youtube.com/watch?v=LhwOofZ8ins">Eat Bread, Rice & Potatoes WITHOUT Blood Sugar Spikes?</a>)</li>
+  <li><strong>Thomas DeLauer:</strong> Two videos on metabolic optimization — coffee + 2g L-carnitine for fat oxidation (caffeine mobilizes fat, carnitine shuttles it into mitochondria; combined showed greater fat oxidation than either alone in athletes); and dehydration driving insulin resistance via five mechanisms including ET-1 blocking GLUT4 translocation, cellular shrinkage triggering stress kinases, and vasopressin increasing hepatic gluconeogenesis. Practical: 16oz water + pinch of salt first thing AM, creatine 3–5g for intracellular hydration. (<a href="https://www.youtube.com/watch?v=YMAdEGwny-Q">2g Amplifies Effects of Coffee on Fat Loss</a> · <a href="https://www.youtube.com/watch?v=zzbEZbmolVI">The Crazy Effect of Drinking Ice Water on Insulin Resistance</a>)</li>
+  <li><strong>Anthony Chaffee MD:</strong> Argues that fast food is essentially a plant-based diet (~90%+ calories from processed carbs, seed oils, sugar) and the meat patty is its only redeeming nutritional component. References the Minnesota Coronary Experiment and Sydney Heart Trial showing replacing animal fat with polyunsaturated vegetable oils increased cardiac mortality in a dose-dependent fashion. (<a href="https://www.youtube.com/watch?v=UKt8Z-a6hpU">How Bad is McDonald's REALLY?</a>)</li>
+  <li><strong>Ben Felix:</strong> Detailed breakdown of how major indices (NASDAQ 100, CRSP, FTSE Russell, MSCI, S&P 500) are changing — or refusing to change — their IPO inclusion rules ahead of the SpaceX IPO. S&P held firm at 12-month seasoning; others fast-tracked to 5–15 days. SpaceX's ~4% free float means it'll be weighted at ~0.12% of CRSP total market index at inclusion. (<a href="https://www.youtube.com/watch?v=2tkXhYsGge0">SpaceX IPO Situation is Crazy</a>)</li>
+  <li><strong>Paul Saladino MD:</strong> Potassium iodate (a flour oxidizer) is legal in US bread up to 3mg — potentially delivering 1,000+ mcg of iodine per bun against a daily requirement of 150 mcg; banned in most other countries. (<a href="https://www.youtube.com/shorts/Jd0Gufmo9Tg">Burger King's secret ingredient</a>)</li>
 </ul>
-
----
 
 <h2>₿ Bitcoin & Macro</h2>
 
 <div class="story">
-  <h3><a href="https://bitcoinmagazine.com/markets/bitcoin-price-and-crypto-stocks-surge">Bitcoin Rebounds 11%+ on Iran Ceasefire + Strategy's $100M Buy</a></h3>
-  <p>Bitcoin clawed back from a June 5th low near $59,000 to ~$66,500 — an 11%+ rebound — as Middle East tensions eased and institutional accumulation continued. Strategy added 1,587 BTC for $100M, lifting its total to 846,842 BTC, while Strive added 73 BTC bringing its treasury to 19,105 BTC. The convergence of macro risk-off relief and continued corporate balance-sheet buying into the dip is the pattern Saylor has argued is self-reinforcing: price weakness is a buying opportunity for holders with long time horizons and cheap capital.</p>
+  <h3><a href="https://bitcoinmagazine.com/news/vaneck-bitcoin-miners-face-50b-funding-gap">VanEck: Bitcoin Miners Face $50B Funding Gap as AI Pivot Separates Winners From Losers</a></h3>
+  <p>VanEck estimates a ~$50B funding gap facing Bitcoin miners attempting to pivot to AI data center operations, with capital increasingly flowing only to miners that have already secured and energized AI infrastructure. The analysis implies a bifurcation: miners who made the pivot early are being valued as tech/infrastructure companies, while pure-play BTC miners face a structural funding disadvantage as block rewards compress post-halving.</p>
   <p class="meta">Bitcoin Magazine</p>
 </div>
 
----
+<div class="story">
+  <h3><a href="https://bitcoinmagazine.com/news/blackrock-launches-new-bitcoin-etf">BlackRock Launches New Bitcoin ETF Combining BTC Exposure With Covered Call Income</a></h3>
+  <p>BlackRock launched BITA (iShares Bitcoin Premium Income ETF), a covered-call bitcoin fund that writes options on IBIT/spot BTC to generate monthly income while retaining some upside exposure. This is a notable product evolution: it takes the spot ETF wrapper and layers income generation on top, targeting yield-seeking institutional and retail allocators who want BTC exposure with cash flow — a structure borrowed directly from the equity covered-call ETF playbook (think JEPI for bitcoin).</p>
+  <p class="meta">Bitcoin Magazine</p>
+</div>
 
 <h2>🧬 Health & Science</h2>
 
 <div class="story">
-  <h3>Peter Attia: Breast Cancer Screening Framework</h3>
-  <p>Attia's core argument: the problem isn't lack of tools, it's a failure to connect known high-risk women to better screening. At least 9% of women meet criteria for breast MRI, yet actual utilization is 0.4% — a pure execution failure, not a scientific gap. His practical framework: every woman should have a formal risk assessment by age 25 (not because imaging starts then, but to determine whether you're truly average risk), annual mammography beginning at 40 for average-risk women, and MRI added for high-risk women. The key underappreciated risk factors he flags: breast density (reported on mammogram but not discoverable until first imaging — though ~60–70% heritable, so ask your mother), dense breasts both increase baseline risk AND reduce mammogram sensitivity, and family history captures more than just BRCA mutations — it reflects lower-penetrant variants and shared environmental factors no single gene test covers. He explicitly pushes back on USPSTF's biennial-only recommendation, noting its population-efficiency framing doesn't optimize for individual outcome.</p>
-  <p class="meta"><a href="https://peterattiamd.com/breastcancerscreening/">Peter Attia — Episode #396</a> · <a href="https://www.youtube.com/watch?v=_9mBlZXA1Lk">YouTube</a></p>
+  <h3>Bone Strength, Hyperinsulinemia, and Osteocalcin — Dr. Isabella Cooper via Ken Berry MD</h3>
+  <p>The central and counterintuitive claim: hyperinsulinemia causes <em>higher</em> bone mineral density that is paradoxically fragile — brittle like chalk rather than ductile. The mechanism is damage to lipoprotein-related receptor 1 (LRP1) on osteocytes via AGEs from chronic glucose/insulin exposure, which prevents fatty acid delivery to the 42 billion osteocytes that constitute the living matrix of bone. Osteocytes burn fatty acids (not ketones) as their primary fuel; without LDL-delivered triglycerides and fat-soluble vitamins D and K2, they cannot produce structural collagen or osteocalcin properly. The clinical implication: fasting insulin is the key bone health marker, not DEXA — and the lab reference range of "0–24.9 µIU/mL" is functionally useless (0 = type 1 diabetes). Optimal fasting insulin is under 6; under 10 is acceptable. High-fiber diets and seed oils worsen bone health by lowering LDL, starving osteocytes of their delivery vehicle. This is a mechanistically coherent argument that directly contradicts conventional dietary guidance for bone health.</p>
 </div>
 
 <div class="story">
-  <h3>Copper Drug Restores Memory and Clears Alzheimer's Proteins (Monash)</h3>
-  <p>Researchers at Monash University report a copper-transport drug that restores memory and clears toxic Alzheimer's-associated proteins in preclinical models. The mechanism targets copper dyshomeostasis — an underexplored pathway in neurodegeneration distinct from the amyloid-clearance approaches that have repeatedly failed in trials. Early stage, but the mechanism novelty is worth tracking given the long history of failed Alzheimer's drug development.</p>
-  <p class="meta"><a href="https://www.monash.edu/news/articles/copper-drug-restores-memory-and-clears-toxic-alzheimers-proteins">Monash University</a> · <a href="https://news.ycombinator.com/item?id=48542100">HN Discussion</a></p>
+  <h3>Is the Correlation Between Hypertrophy and Strength Gains Stronger Than We Realized? — Stronger by Science</h3>
+  <p>A new analysis suggests hypertrophy contributes more to strength gains in novice lifters than prior studies indicated — but the relationship is far from deterministic. The piece is a useful corrective to both the "size equals strength" oversimplification and the "hypertrophy and strength are entirely separate" view. Worth reading for anyone programming both goals simultaneously.</p>
+  <p class="meta"><a href="https://www.strongerbyscience.com/correlation-strength-hypertrophy/">Stronger by Science</a></p>
 </div>
 
----
+<div class="story">
+  <h3>Isometric Training for Strength and Hypertrophy — Stronger by Science</h3>
+  <p>A full evidence review concludes that isometric training is not inferior to dynamic training for strength and hypertrophy — a claim that runs against conventional wisdom and most programming assumptions. Isometrics produce strength gains that are somewhat joint-angle specific but transfer more than previously thought, and hypertrophy effects are comparable to dynamic training when volume is equated. Practically interesting for injury rehab contexts and as a supplementary tool.</p>
+  <p class="meta"><a href="https://www.strongerbyscience.com/isometric-training/">Stronger by Science</a></p>
+</div>
+
+<div class="story">
+  <h3>HRV: Landmark Data Points — Nick Norwitz</h3>
+  <p>Two studies worth bookmarking: (1) 808 post-MI patients followed with Holter monitors — low HRV group had 5.3× higher all-cause mortality over subsequent years (American Journal of Cardiology, 1987). (2) 2,501 healthy individuals followed 3.5 years — each 1 SD drop in HRV associated with 47% increased risk of a first cardiac event, independent of standard risk factors. Measurement protocol: measure immediately upon waking, before caffeine or movement, same device daily — consistency matters more than which protocol you use. Zone 2 cardio is the most reliable HRV improver; omega-3s (3,000–4,000 mg EPA+DHA/day) have RCT support via membrane fluidity, inflammation reduction, and brainstem vagal tone effects.</p>
+</div>
 
 <h2>💡 Worth Reading</h2>
 
 <div class="story">
-  <h3><a href="https://stratechery.com/2026/anthropics-safety-superpower/">Anthropic's Safety Superpower</a></h3>
-  <p>Ben Thompson's argument: Anthropic's genuine belief in its own safety mission isn't a constraint on the business — it's a strategic asset. That conviction gives the company license to be aggressive commercially and even to push back on U.S. government directives (the Fable/Mythos export control situation) in ways that would look reckless from any other lab. The piece is essentially about how authentic institutional identity creates optionality that cynical positioning can't replicate.</p>
-  <p class="meta">Stratechery</p>
+  <h3><a href="https://therepublicofletters.substack.com/p/calvin-and-hobbes-and-the-price-of-integrity">Calvin and Hobbes and the Price of Integrity</a></h3>
+  <p>An essay using Bill Watterson's famous refusal to license Calvin and Hobbes — leaving hundreds of millions of dollars on the table — as a lens for thinking about integrity, creative ownership, and what it costs to actually live by your values rather than just claim them. Given the current context of IP being strip-mined everywhere, this hits differently.</p>
+  <p class="meta"><a href="https://news.ycombinator.com/item?id=PLACEHOLDER">Discussion</a> · The Republic of Letters</p>
 </div>
 
 <div class="story">
-  <h3><a href="https://www.economist.com/by-invitation/2026/06/15/humanity-isnt-ready-for-the-coming-intelligence-explosion">Humanity Isn't Ready for the Coming Intelligence Explosion</a></h3>
-  <p>An Economist opinion piece arguing the pace of AI capability improvement is outrunning humanity's institutional capacity to respond. Worth reading less for novelty (the argument is familiar) and more because it's now landing in The Economist, signaling the mainstream is treating the intelligence explosion thesis as serious rather than speculative.</p>
-  <p class="meta">The Economist · <a href="https://news.ycombinator.com/item?id=48542100">HN Discussion</a></p>
+  <h3><a href="https://vickiboykis.com/2026/06/15/running-local-models-is-good-now/">Running Local Models Is Good Now</a></h3>
+  <p>A practitioner's honest assessment that local LLM inference has crossed a genuine usability threshold — not a benchmark post, but a "here's what I actually use it for and why it works now" piece. The specific claim that Qwen3.6-27B is capable enough for real daily coding tasks on consumer hardware (M2 Ultra, RTX 5090) is notable because that class of claim has historically been aspirational rather than practical. If you've tried local models before and been disappointed, this is worth a skim to see if the calculus has changed.</p>
+  <p class="meta"><a href="https://news.ycombinator.com/item?id=PLACEHOLDER">Discussion (1,281 pts on HN)</a></p>
 </div>
 
 <div class="story">
-  <h3><a href="https://marginalrevolution.com/marginalrevolution/2026/06/ai-nationalism-europe-included.html">AI Nationalism, Europe Included</a></h3>
-  <p>Tyler Cowen's column notes that even if Mistral AI became a genuine EU-scale Anthropic/OpenAI competitor, Europe faces a second-order problem: EU member states would then compete to capture Mistral's value nationally rather than treating it as a shared European asset. Meanwhile, Meta alone will spend more on chips this year ($125B) than Germany spends on defense ($114B) and is offering $100M+ researcher salaries. The structural gap isn't rhetoric — it's capital and talent at scale.</p>
+  <h3><a href="https://donaldrobertson.substack.com/p/this-darkness-is-not-that-darkness">This Darkness Is Not That Darkness</a></h3>
+  <p>Donald Robertson on a forgotten ancestor of CBT — rational emotive behavior therapy applied to a WWII veteran who kept confusing present-day anxiety triggers with past trauma. The core Stoic/cognitive insight: our suffering often comes not from events themselves but from misidentifying *which* event we're actually responding to. Practically useful for anyone whose emotional reactions feel disproportionate to the present situation.</p>
+  <p class="meta">Donald Robertson / Substack</p>
+</div>
+
+<div class="story">
+  <h3><a href="https://donaldrobertson.substack.com/p/patience-on-the-out-breath">Patience on the Out-Breath</a></h3>
+  <p>A short piece arguing that the goal of anxiety work shouldn't be to eliminate the feeling but to learn to relax *into* it rather than away from it — a meaningful distinction for anyone using breathwork or meditation as a coping tool. The "out-breath" framing suggests that the exhale, the release, is where the practice actually happens.</p>
+  <p class="meta">Donald Robertson / Substack</p>
+</div>
+
+<div class="story">
+  <h3><a href="https://www.astralcodexten.com/p/never-cross-a-river-four-feet-deep">Never Cross a River Four Feet Deep on Average</a></h3>
+  <p>An Astral Codex Ten guest post on variance and risk — the title is the thesis: an average that hides lethal variance is useless or actively dangerous. Relevant to anyone thinking about decision-making under uncertainty, probabilistic thinking, or why expected value calculations can fail you in practice. One of those ideas that immediately becomes a mental model you use everywhere.</p>
+  <p class="meta">Astral Codex Ten</p>
+</div>
+
+<div class="story">
+  <h3><a href="https://marginalrevolution.com/marginalrevolution/2026/06/montanas-sb535-and-a-potential-biotech-renaissance-in-america.html">Montana's SB535 and a Potential Biotech Renaissance in America</a></h3>
+  <p>China's NMPA approved 83 new drugs in 2024 vs. FDA's 50; China's share of new commercial clinical trials jumped from 8% globally in 2013 to 30% in 2024. Montana's SB535 is part of a broader state-level regulatory experimentation trend attempting to work around FDA bottlenecks. If this dynamic continues, the US loses its default position as the place where cutting-edge therapeutics get developed and tested first — with real implications for both biotech investment and patient access.</p>
   <p class="meta">Marginal Revolution</p>
 </div>
 
-<div class="story">
-  <h3><a href="https://roman.pt/posts/linkedin-backdoor/">A Backdoor in a LinkedIn Job Offer</a></h3>
-  <p>A researcher documents receiving what appeared to be a legitimate LinkedIn recruiter outreach that contained a supply-chain-style backdoor embedded in a coding challenge. The attack vector is sophisticated: the malicious payload was hidden in a repository the candidate was asked to run locally as part of the "interview process." High signal for anyone who receives unsolicited technical job offers with "take-home projects."</p>
-  <p class="meta"><a href="https://news.ycombinator.com/item?id=48542100">HN Discussion</a> (1123 pts)</p>
-</div>
+<h2>🤖 AI Capability Watch</h2>
 
 <div class="story">
-  <h3><a href="https://collabfund.substack.com/p/plan-on-the-plan-not-going-according">Plan on the Plan Not Going According to Plan — Morgan Housel</a></h3>
-  <p>Short Housel piece making the case that resilience isn't about better planning — it's about building in the expectation of deviation. The plans that work are the ones designed to survive contact with reality, not the ones optimized for a smooth path. Clean mental model, brief read.</p>
-  <p class="meta">Collaborative Fund</p>
-</div>
-
-<div class="story">
-  <h3><a href="https://donaldrobertson.substack.com/p/patience-on-the-out-breath">Patience on the Out-Breath — Donald Robertson</a></h3>
-  <p>Robertson's piece reframes anxiety management: rather than trying to relax anxiety away (which often creates a secondary loop of frustration when it doesn't work), the Stoic-adjacent practice is to relax <em>into</em> the anxiety — to breathe into the discomfort and let it be present without fighting it. Pairs well with the Epictetus #37 commentary he also posted on not overextending beyond what you can actually handle.</p>
-  <p class="meta">Donald Robertson / Substack</p>
-</div>
+  <h3><a href="https://qwen.ai/blog?id=qwen-robotsuite">Qwen-Robot Suite: Foundation Models for Physical World Intelligence</a></h3>
+  <p>Alibaba's Qwen team released a suite of foundation models specifically targeting robotics and physical-world tasks — this is a new product category from a major lab, not a benchmark update. The significance: it represents a serious push toward AI that can perceive, reason about, and act in the physical world, an area where there have been very few production-grade foundation
 </body>
 </html>
