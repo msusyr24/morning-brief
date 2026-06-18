@@ -1,128 +1,125 @@
 === HACKER NEWS ===
-1. [719 pts] GrapheneOS has been ported to Android 17
-   https://discuss.grapheneos.org/d/36469-grapheneos-has-been-ported-to-android-17-and-official-releases-are-coming-soon
+1. [618 pts] Midjourney Medical
+   https://www.midjourney.com/medical/blogpost
 
-2. [51 pts] The founder's playbook: Building an AI-native startup
-   https://claude.com/blog/the-founders-playbook
+2. [72 pts] DeepSeek Introduces Vision
+   https://chat.deepseek.com/
 
-3. [1281 pts] Running local models is good now
-   https://vickiboykis.com/2026/06/15/running-local-models-is-good-now/
+3. [53 pts] The Australian Government to Require SMS/MMS Sender ID Registraion
+   https://www.acma.gov.au/sms-sender-id-register
 
-4. [232 pts] Humiliating IIS servers for fun and jail time
-   https://mll.sh/humiliating-iis-servers-for-fun-and-jail-time/
+4. [160 pts] Local Qwen isn't a worse Opus, it's a different tool
+   https://blog.alexellis.io/local-ai-is-not-opus/
 
-5. [159 pts] Wolfram Language and Mathematica version 15
-   https://writings.stephenwolfram.com/2026/06/launching-version-15-of-wolfram-language-mathematica-built-in-useful-ai-lots-of-new-core-functionality/
+5. [1112 pts] Lore – Open source version control system designed for scalability
+   https://lore.org/
 
-6. [398 pts] TIL: You can make HTTP requests without curl using Bash /dev/TCP
-   https://mareksuppa.com/til/bash-dev-tcp-http-without-curl/
+6. [444 pts] US holds off blacklisting DeepSeek, more than 100 firms deemed security risks
+   https://www.reuters.com/world/china/us-holds-off-blacklisting-chinas-deepseek-more-than-100-firms-deemed-security-2026-06-17/
 
-7. [47 pts] Subterranean fungi networks more than 100 quadrillion km in length
-   https://www.theguardian.com/science/2026/jun/11/arbuscular-mycorrhizal-fungi-plant-life-climate-global-mapping-study
+7. [142 pts] Taxonomy of the Occlupanida (parasitoids on bread bag tags)
+   https://www.horg.com/horg/?page_id=921
 
-8. [405 pts] Calvin and Hobbes and the price of integrity
-   https://therepublicofletters.substack.com/p/calvin-and-hobbes-and-the-price-of
+8. [156 pts] Storied Colors – A catalogue of named colors
+   https://storiedcolors.com/
 
-9. [204 pts] GPT‑NL: a sovereign language model for the Netherlands
-   https://www.tno.nl/en/digital/artificial-intelligence/gpt-nl/
+9. [124 pts] Clojure Hosted on Go
+   https://github.com/glojurelang/glojure
 
-10. [279 pts] Has AI already killed self-help nonfiction books?
-   https://tim.blog/2026/06/12/has-ai-already-killed-nonfiction/
+10. [37 pts] Nim Conf 2026 (Online, Sat June 20)
+   https://conf.nim-lang.org/
 
-11. [5 pts] Why do commercial spaces sit vacant?
-   https://www.freerange.city/p/why-do-commercial-spaces-sit-vacant
+11. [123 pts] How Madrid built its metro cheaply (2024)
+   https://worksinprogress.co/issue/how-madrid-built-its-metro-cheaply/
 
-12. [368 pts] Stop Using JWTs
-   https://gist.github.com/samsch/0d1f3d3b4745d778f78b230cf6061452
+12. [146 pts] Loreline – Tools for writing interactive fiction
+   https://loreline.app/en/
 
-13. [15 pts] Lattice Triangles Are Rare
-   https://axiommath.ai/territory/the-reveal
+13. [11 pts] Sogen – High-performance Windows and Linux userspace emulator
+   https://sogen.dev/
 
-14. [200 pts] Stop Killing Games fails to secure EU law despite 1.3M signatures
-   https://www.dexerto.com/gaming/stop-killing-games-fails-to-secure-eu-law-despite-1-3m-signatures-3376431/
+14. [266 pts] How we run Firecracker VMs inside EC2 and start browsers in less than 1s
+   https://browser-use.com/posts/firecracker-browser-infra
 
-15. [257 pts] But yak shaving is fun (2019)
-   https://parksb.github.io/en/article/32.html
+15. [32 pts] AI Compute Extensions (ACE) Specification
+   https://x86ecosystem.org/resource/ai-compute-extensions-ace-specification/
 
-16. [1007 pts] SpaceX to buy Cursor for $60B
-   https://www.reuters.com/legal/transactional/spacex-buy-anysphere-60-billion-2026-06-16/
+16. [180 pts] Launch HN: Adam (YC W25) – Open-Source AI CAD
+   https://github.com/Adam-CAD/CADAM
 
-17. [19 pts] Semiclassical Gravity Efficiently Solves NP-Complete Problems
-   https://arxiv.org/abs/2606.14806
+17. [364 pts] RFC 10008: The new HTTP Query Method
+   https://www.rfc-editor.org/info/rfc10008/
 
-18. [25 pts] The Amphibious Villagers of Indonesia
-   https://www.economist.com/interactive/1843/2026/06/12/the-amphibious-villagers-of-indonesia
+18. [117 pts] SteamOS Linux 3.8 released as stable
+   https://store.steampowered.com/news/app/1675200/view/697641379212298072
 
-19. [11 pts] Chameleon Ultra: a flashdrive sized NFC toolkit
-   https://github.com/RfidResearchGroup/ChameleonUltra
+19. [69 pts] Show HN: We built an 8-bit CPU as 2nd year EE students
+   https://github.com/c0rRupT9/STEPLA-1
 
-20. [75 pts] A brief tour of the PDP-11, the most influential minicomputer of all time (2022)
-   https://arstechnica.com/gadgets/2022/03/a-brief-tour-of-the-pdp-11-the-most-influential-minicomputer-of-all-time/
+20. [251 pts] Why thinking out loud with someone beats thinking alone
+   https://www.thesignalist.io/s/the-dialogue-dividend/
 
-21. [139 pts] 10Gb/s Ethernet: switching to a Broadcom SFP+ module
-   https://www.gilesthomas.com/2026/06/10g-ethernet-switching-to-broadcom-sfp-plus
+21. [7 pts] The 2-Year Apartment Rule
+   https://tadaima.bearblog.dev/the-2-year-apartment-rule/
 
-22. [172 pts] Qwen-Robot Suite: A Foundation Model Suite for Physical World Intelligence
-   https://qwen.ai/blog?id=qwen-robotsuite
+22. [40 pts] Biological evolution and information acquisition
+   https://www.construction-physics.com/p/biological-evolution-and-information
 
-23. [29 pts] Working in Glass
-   https://www.asimov.press/p/glass
+23. [652 pts] Volkswagen started blocking GrapheneOS users
+   https://discuss.grapheneos.org/d/35949-volkswagen-app?page=3
 
-24. [44 pts] A Nipkow Disk Mechanical TV Simulator
-   https://analogtv.net/mechanical-lab
+24. [228 pts] Show HN: An 8-bit live gamecast for baseball
+   https://ribbie.tv/watch
 
-25. [73 pts] Show HN: cuTile Rust: Safe, data-race-free GPU kernels in Rust
-   https://github.com/nvlabs/cutile-rs
+25. [34 pts] Show HN: Spin Lab
+   https://srijanshukla.com/artifacts/spin-lab/
 
-26. [58 pts] NetNewsWire Status
-   https://inessential.com/2026/06/15/netnewswire-status.html
+26. [301 pts] Tesco moving 40k server workloads off VMware amid Broadcom's abusive conduct
+   https://arstechnica.com/information-technology/2026/06/tesco-moving-40000-server-workloads-off-vmware-amid-broadcoms-abusive-conduct/
 
-27. [690 pts] Mechanical Watch (2022)
-   https://ciechanow.ski/mechanical-watch/
+27. [53 pts] I Hate Compilers
+   https://xeiaso.net/notes/2026/anubis-wasm-vendor-binary/
 
-28. [742 pts] Apple's weird anti-nausea dots cured my car sickness
-   https://www.theverge.com/tech/942854/apple-vehicle-motion-cues-review-really-work
+28. [223 pts] Show HN: Inkwash, a watercolor sketching app and explanation
+   https://johnowhitaker.github.io/inkwash/about
 
-29. [33 pts] All about the IBM 1130 Computing System
-   http://ibm1130.org/
+29. [230 pts] MicroUI – A tiny, portable, immediate-mode UI library written in ANSI C
+   https://github.com/rxi/microui
 
-30. [569 pts] Is Meta destroying its engineering organization?
-   https://newsletter.pragmaticengineer.com/p/why-is-meta-destroying-its-engineering
+30. [845 pts] GLM-5.2 is the new leading open weights model on Artificial Analysis
+   https://artificialanalysis.ai/articles/glm-5-2-is-the-new-leading-open-weights-model-on-the-artificial-analysis-intelligence-index
 
 
 === RSS ===
+[ai] Simon Willison: GLM-5.2 is probably the most powerful text-only open weights LLM
+  https://simonwillison.net/2026/Jun/17/glm-52/#atom-everything
+
+[ai] Simon Willison: Quoting Charity Majors
+  https://simonwillison.net/2026/Jun/17/charity-majors/#atom-everything
+
+[ai] Simon Willison: <click-to-play> — a still that plays
+  https://simonwillison.net/2026/Jun/17/click-to-play-component/#atom-everything
+
+[ai] Simon Willison: NetNewsWire Status
+  https://simonwillison.net/2026/Jun/17/netnewswire-status/#atom-everything
+
+[ai] Simon Willison: datasette 1.0a34
+  https://simonwillison.net/2026/Jun/16/datasette/#atom-everything
+
 [ideas] Paul Graham: How to Earn a Billion Dollars
   https://paulgraham.com/earn.html
 
 [ideas] Paul Graham: How to Convert Between Wealth and Income Tax
   https://paulgraham.com/winc.html
 
-[health] Peter Attia: #396 ‒ Breast cancer screening: understanding risk, deciding when to start and how often to screen, and choosing the right imaging strategy
-  https://peterattiamd.com/breastcancerscreening/
-
-[ideas] Collaborative Fund (Morgan Housel): Plan on the plan not going according to plan
-  https://collabfund.substack.com/p/plan-on-the-plan-not-going-according
+[ideas] Stratechery: The State of Fable, The Jailbreak Problem, SpaceX Acquires Cursor
+  https://stratechery.com/2026/the-state-of-fable-the-jailbreak-problem-spacex-acquires-cursor/
 
 [ideas] Stratechery: Fox Buys Roku, The Problem With Fox’s Smart Strategy, Streaming That Works
   https://stratechery.com/2026/fox-buys-roku-the-problem-with-foxs-smart-strategy-streaming-that-works/
 
 [ideas] Stratechery: Anthropic’s Safety Superpower
   https://stratechery.com/2026/anthropics-safety-superpower/
-
-[ai] Anthropic News: TCS and Anthropic partner to bring Claude to regulated industries
-  https://www.anthropic.com/news/tcs-anthropic-partnership
-
-[ai] Anthropic News: Results from the first Anthropic Public Record
-  https://www.anthropic.com/news/anthropic-public-record
-
-[ai] Anthropic News: Statement on the US government directive to suspend access to Fable 5 and Mythos 5
-  https://www.anthropic.com/news/fable-mythos-access
-
-[ai] Anthropic News: DXC will integrate Claude into the systems banks, airlines, and other regulated industries rely on
-  https://www.anthropic.com/news/dxc-anthropic-alliance
-
-[ai] Anthropic News: Introducing Claude Corps
-  https://www.anthropic.com/news/claude-corps
 
 [wisdom] Figs in Winter (Pigliucci): How to make a home with Vitruvius & co.
   https://figsinwintertime.substack.com/p/how-to-make-a-home-with-vitruvius
@@ -133,26 +130,11 @@
 [wisdom] Figs in Winter (Pigliucci): The art of ataraxia: IVb–Letter to Herodotus, part II
   https://figsinwintertime.substack.com/p/the-art-of-ataraxia-ivbletter-to
 
-[bitcoin] The Pomp Letter: SpaceX Just Became The First Mega Meme Stock
-  https://pomp.substack.com/p/spacex-just-became-the-first-mega
+[ideas] Collaborative Fund (Morgan Housel): Plan on the plan not going according to plan
+  https://collabfund.substack.com/p/plan-on-the-plan-not-going-according
 
-[bitcoin] The Pomp Letter: We need more trillionaires
-  https://pomp.substack.com/p/we-need-more-trillionaires
-
-[ideas] Marginal Revolution: Facts about American men and women
-  https://marginalrevolution.com/marginalrevolution/2026/06/facts-about-american-men-and-women.html?utm_source=rss&utm_medium=rss&utm_campaign=facts-about-american-men-and-women
-
-[ideas] Marginal Revolution: Do teens regret their social media use?
-  https://marginalrevolution.com/marginalrevolution/2026/06/do-teens-regret-their-social-media-use.html?utm_source=rss&utm_medium=rss&utm_campaign=do-teens-regret-their-social-media-use
-
-[ideas] Marginal Revolution: Can Online Activity Be Regulated? Evidence from Adult Websites
-  https://marginalrevolution.com/marginalrevolution/2026/06/can-online-activity-be-regulated-evidence-from-adult-websites.html?utm_source=rss&utm_medium=rss&utm_campaign=can-online-activity-be-regulated-evidence-from-adult-websites
-
-[ideas] Marginal Revolution: Tuesday assorted links
-  https://marginalrevolution.com/marginalrevolution/2026/06/tuesday-assorted-links-573.html?utm_source=rss&utm_medium=rss&utm_campaign=tuesday-assorted-links-573
-
-[ideas] Marginal Revolution: Montana’s SB535 and a Potential Biotech Renaissance in America
-  https://marginalrevolution.com/marginalrevolution/2026/06/montanas-sb535-and-a-potential-biotech-renaissance-in-america.html?utm_source=rss&utm_medium=rss&utm_campaign=montanas-sb535-and-a-potential-biotech-renaissance-in-america
+[ideas] Astral Codex Ten: Waiting For The Miracle
+  https://www.astralcodexten.com/p/waiting-for-the-miracle
 
 [ideas] Astral Codex Ten: Never Cross a River Four Feet Deep on Average
   https://www.astralcodexten.com/p/never-cross-a-river-four-feet-deep
@@ -169,44 +151,77 @@
 [wisdom] Donald Robertson: Patience on the Out-Breath
   https://donaldrobertson.substack.com/p/patience-on-the-out-breath
 
+[bitcoin] The Pomp Letter: Your invitation to meet public company CEOs at our conference in October...
+  https://pomp.substack.com/p/your-invitation-to-meet-public-company
+
+[bitcoin] The Pomp Letter: SpaceX Just Became The First Mega Meme Stock
+  https://pomp.substack.com/p/spacex-just-became-the-first-mega
+
+[bitcoin] The Pomp Letter: We need more trillionaires
+  https://pomp.substack.com/p/we-need-more-trillionaires
+
+[bitcoin] Bitcoin Magazine: Fed Signals Possible Rate Hikes as Kevin Warsh Opens ‘New Chapter’ at Central Bank
+  https://bitcoinmagazine.com/news/fed-signals-rate-hikes-as-kevin-warsh
+
+[bitcoin] Bitcoin Magazine: Mexican Billionaire Ricardo Salinas Bets 70% of His Portfolio on Bitcoin, Eyes $1 Million Price
+  https://bitcoinmagazine.com/news/mexican-billionaire-ricardo-salinas-bets
+
+[bitcoin] Bitcoin Magazine: U.S. Congressman Nick Begich Wants America to Stop Selling Its Bitcoin — And Start Treating It Like Gold
+  https://bitcoinmagazine.com/news/nick-begich-selling-its-bitcoin
+
+[bitcoin] Bitcoin Magazine: Oman Launches Mandatory National Bitcoin Mining Pool in State-Backed Push for Regulatory Control
+  https://bitcoinmagazine.com/news/oman-launches-mandatory-bitcoin-mining
+
+[bitcoin] Bitcoin Magazine: 79% of Bitcoin Supply Now Locked by Long-Term Holders. Analyst Sees Bear Market Nearing Exhaustion
+  https://bitcoinmagazine.com/markets/79-of-bitcoin-supply-now-locked-by-longs
+
+[bitcoin] Bitcoin Magazine: Crypto Industry Slams Illinois’ New Digital Asset Tax as ‘Most Punitive’ in U.S.
+  https://bitcoinmagazine.com/news/crypto-slams-illinois-digital-asset-tax
+
 [bitcoin] Bitcoin Magazine: VanEck: Bitcoin Miners Face $50B Funding Gap as AI Pivot Separates Winners From Losers
   https://bitcoinmagazine.com/news/vaneck-bitcoin-miners-face-50b-funding-gap
 
 [bitcoin] Bitcoin Magazine: Invite-Only Mita TechTalks 2026 to Unite Bitcoin, AI and Energy Leaders in Punta Mita
   https://bitcoinmagazine.com/news/invite-only-mita-techtalks-2026
 
-[bitcoin] Bitcoin Magazine: Cardone Capital’s Bitcoin-REIT Hybrid: Targeting 22-32% Returns by Blending Cash-Flowing Properties and BTC Holdings
-  https://bitcoinmagazine.com/business/cardone-capitals-bitcoin-reit-hybrid-targeting-22-32-returns-by-blending-cash-flowing-properties-and-btc-holdings
+[ai] OpenAI Blog: A near-autonomous AI chemist improves a challenging reaction in medicinal chemistry
+  https://openai.com/index/ai-chemist-improves-reaction
 
-[bitcoin] Bitcoin Magazine: Binance Reportedly Faces European Union Exit as MiCA License Bid Nears Rejection
-  https://bitcoinmagazine.com/news/binance-faces-european-union-exit
+[ai] OpenAI Blog: Introducing LifeSciBench
+  https://openai.com/index/introducing-life-sci-bench
 
-[bitcoin] Bitcoin Magazine: BlackRock Launches New Bitcoin ETF Combining BTC Exposure With Covered Call Income
-  https://bitcoinmagazine.com/news/blackrock-launches-new-bitcoin-etf
+[ai] OpenAI Blog: Predicting model behavior before release by simulating deployment
+  https://openai.com/index/deployment-simulation
 
-[bitcoin] Bitcoin Magazine: Bitcoin Price and Crypto Stocks Surge as Iran Ceasefire, Strategy’s $100M Buy Collide With Fed Week
-  https://bitcoinmagazine.com/markets/bitcoin-price-and-crypto-stocks-surge
+[ai] Anthropic News: Anthropic opens Seoul office and announces new partnerships across the Korean AI ecosystem
+  https://www.anthropic.com/news/seoul-office-partnerships-korean-ai-ecosystem
 
-[bitcoin] Bitcoin Magazine: BitGo Joins Fortune 500 with $16.2B Revenue, Marking Milestone for Regulated Bitcoin Infrastructure
-  https://bitcoinmagazine.com/business/bitgo-joins-fortune-500-with-16-2b-revenue-marking-milestone-for-regulated-bitcoin-custody
+[ai] Anthropic News: TCS and Anthropic partner to bring Claude to regulated industries
+  https://www.anthropic.com/news/tcs-anthropic-partnership
 
-[bitcoin] Bitcoin Magazine: Kraken Launches CFTC-Regulated Bitcoin and Crypto Perpetual Futures for U.S. Traders
-  https://bitcoinmagazine.com/news/kraken-launches-cftc-regulated-bitcoin
+[ai] Anthropic News: Results from the first Anthropic Public Record
+  https://www.anthropic.com/news/anthropic-public-record
 
-[ai] Simon Willison: <click-to-play> — a still that plays
-  https://simonwillison.net/2026/Jun/17/click-to-play-component/#atom-everything
+[ai] Anthropic News: Statement on the US government directive to suspend access to Fable 5 and Mythos 5
+  https://www.anthropic.com/news/fable-mythos-access
 
-[ai] Simon Willison: NetNewsWire Status
-  https://simonwillison.net/2026/Jun/17/netnewswire-status/#atom-everything
+[ai] Anthropic News: DXC will integrate Claude into the systems banks, airlines, and other regulated industries rely on
+  https://www.anthropic.com/news/dxc-anthropic-alliance
 
-[ai] Simon Willison: datasette 1.0a34
-  https://simonwillison.net/2026/Jun/16/datasette/#atom-everything
+[ideas] Marginal Revolution: My Conversation with Dave Baszucki
+  https://marginalrevolution.com/marginalrevolution/2026/06/my-conversation-with-dave-baszucki.html?utm_source=rss&utm_medium=rss&utm_campaign=my-conversation-with-dave-baszucki
 
-[ai] Simon Willison: datasette-tailscale 0.1a0
-  https://simonwillison.net/2026/Jun/16/datasette-tailscale/#atom-everything
+[ideas] Marginal Revolution: A Cohort Perspective on Latin America’s Fertility Transition
+  https://marginalrevolution.com/marginalrevolution/2026/06/a-cohort-perspective-on-latin-americas-fertility-transition.html?utm_source=rss&utm_medium=rss&utm_campaign=a-cohort-perspective-on-latin-americas-fertility-transition
 
-[ai] Simon Willison: Quoting Georgi Gerganov
-  https://simonwillison.net/2026/Jun/16/georgi-gerganov/#atom-everything
+[ideas] Marginal Revolution: Wednesday assorted links
+  https://marginalrevolution.com/marginalrevolution/2026/06/wednesday-assorted-links-558.html?utm_source=rss&utm_medium=rss&utm_campaign=wednesday-assorted-links-558
+
+[ideas] Marginal Revolution: Facts about American men and women
+  https://marginalrevolution.com/marginalrevolution/2026/06/facts-about-american-men-and-women.html?utm_source=rss&utm_medium=rss&utm_campaign=facts-about-american-men-and-women
+
+[ideas] Marginal Revolution: Do teens regret their social media use?
+  https://marginalrevolution.com/marginalrevolution/2026/06/do-teens-regret-their-social-media-use.html?utm_source=rss&utm_medium=rss&utm_campaign=do-teens-regret-their-social-media-use
 
 [health] Stronger by Science: Is the Correlation Between Hypertrophy and Strength Gains Stronger Than We Realized?
   https://www.strongerbyscience.com/correlation-strength-hypertrophy/
@@ -214,28 +229,10 @@
 [health] Stronger by Science: Hold Still: What Does the Evidence Actually Say About Isometric Training for Strength and Hypertrophy?
   https://www.strongerbyscience.com/isometric-training/
 
-[ai] OpenAI Blog: Predicting model behavior before release by simulating deployment
-  https://openai.com/index/deployment-simulation
-
-[ai] OpenAI Blog: Introducing the OpenAI Partner Network
-  https://openai.com/index/introducing-openai-partner-network
-
 
 === YOUTUBE ===
-Ken Berry MD: Stronger Bones After 50? Isabella Cooper's Osteocalcin Secret
-  https://www.youtube.com/watch?v=BNShB15hEKE
-  Transcript: yes
-
-Ken Berry MD: Yep… I was wrong.
-  https://www.youtube.com/shorts/9nU1XP6u50g
-  Transcript: yes
-
-Ken Berry MD: What the Berry Family Actually Snacks On
-  https://www.youtube.com/watch?v=6bi-6rulD3k
-  Transcript: yes
-
-Paul Saladino MD: Burger King’s secret ingredient
-  https://www.youtube.com/shorts/Jd0Gufmo9Tg
+Ken Berry MD: Pork rinds are made from pig skin, making them a rich source of collagen and high in protein.
+  https://www.youtube.com/shorts/UbkL8ztUew4
   Transcript: yes
 
 Anthony Chaffee MD: How Bad is McDonald’s REALLY? (Surgeon Explains)
@@ -246,32 +243,60 @@ GTO Wizard: The Math Behind Every Profitable Poker Decision
   https://www.youtube.com/watch?v=C-QUUH-s8aE
   Transcript: yes
 
-Joe Rogan: Joe Rogan Experience #2514 - Cameron Hanes
-  https://www.youtube.com/watch?v=bKceG6tQc0M
+Paul Saladino MD: Burger King’s secret ingredient
+  https://www.youtube.com/shorts/Jd0Gufmo9Tg
   Transcript: yes
 
-Nick Norwitz: Heart Rate Variability (And The Coffee that Almost Killed Me)
+Joe Rogan: Joe Rogan Experience #2515 - Chase Hughes
+  https://www.youtube.com/watch?v=OVXli9YkY0o
+  Transcript: yes
+
+Nick Norwitz: What an Accident At Starbucks Taught Me About Heart Health
   https://www.youtube.com/watch?v=bdxYexIpYjo
   Transcript: yes
 
-Thomas DeLauer: 2g Amplifies Effects of Coffee on Fat Loss
-  https://www.youtube.com/watch?v=YMAdEGwny-Q
+Thomas DeLauer: Rhonda Patrick: This is the Best Powder for Gut Health and Inflammation
+  https://www.youtube.com/watch?v=5DVUEKrekYw
   Transcript: yes
 
-Thomas DeLauer: The Crazy Effect of Drinking Ice Water on Insulin Resistance
-  https://www.youtube.com/watch?v=zzbEZbmolVI
+Jared Alderman: Stop Self-Improvement #shorts
+  https://www.youtube.com/shorts/nFwf8xFHjlo
   Transcript: yes
 
-GTO Lab: 🇳🇴  Kayhan Mokri explains why checking down to the river requires a balanced range.
-  https://www.youtube.com/shorts/VOvvQHMVkJ4
+Jared Alderman: What Stops You Following Through #shorts
+  https://www.youtube.com/shorts/Spr9gkBuVIY
   Transcript: yes
 
-Jared Alderman: Stop Thinking, Start DOING: What You ACTUALLY Know! #shorts
-  https://www.youtube.com/shorts/7YXL2kuzTLQ
+GTO Lab: Stop obsessing over your last hand mid-tournament.
+  https://www.youtube.com/shorts/1alAdKJLHfI
   Transcript: yes
 
 Lex Fridman: Biggest Mysteries in Physics: Antimatter, Dark Energy & ToE - Don Lincoln | Lex Fridman Podcast #497
   https://www.youtube.com/watch?v=1M3Vdl6DRkU
+  Transcript: yes
+
+Renaissance Periodization: Why Athletes Eat Mid Workout
+  https://www.youtube.com/shorts/X_EqIclv55Q
+  Transcript: yes
+
+Renaissance Periodization: The Most Attractive Body Fat for Men Will Shock You (NEW STUDY)
+  https://www.youtube.com/watch?v=xAEbFzUT3fI
+  Transcript: yes
+
+Renaissance Periodization: Make Pushups Hit Triceps Harder
+  https://www.youtube.com/shorts/VHT58k2qHeY
+  Transcript: yes
+
+ModernWisdom: 100k’s In 30 Days
+  https://www.youtube.com/shorts/RpbGJ04sYk0
+  Transcript: yes
+
+ModernWisdom: The Importance Of Setting Boundaries
+  https://www.youtube.com/shorts/Y2t5W5_68Fw
+  Transcript: yes
+
+ModernWisdom: "Monk Mode" Is Making You Weird
+  https://www.youtube.com/watch?v=8BI0tgKT7To
   Transcript: yes
 
 Dr. Sten Ekberg: Eat Bread, Rice & Potatoes WITHOUT Blood Sugar Spikes?
@@ -282,24 +307,12 @@ Peter Attia: 396 – Breast cancer screening: understanding risk, deciding when 
   https://www.youtube.com/watch?v=_9mBlZXA1Lk
   Transcript: yes
 
-Renaissance Periodization: Why Carbs are SO Important for Performance
-  https://www.youtube.com/shorts/4Y2RtDoN8Po
+Andrew Huberman: The Mental Frame & Specific Daily Actions to Succeed | Andy Stumpf
+  https://www.youtube.com/watch?v=baecUt1GaPk
   Transcript: yes
 
-Renaissance Periodization: Don’t Run BPC Year Round
-  https://www.youtube.com/shorts/IvvQA-iwErA
-  Transcript: yes
-
-ModernWisdom: You Can’t Simulate The Meaning Of Life
-  https://www.youtube.com/shorts/3cIn4A1sw5I
-  Transcript: yes
-
-ModernWisdom: Have We Gone Too Far With AI?
-  https://www.youtube.com/shorts/2fgDwJm-APk
-  Transcript: yes
-
-ModernWisdom: “DMT Actually Saved My Life” - Navy SEAL
-  https://www.youtube.com/watch?v=QbV2d4lfY7s
+Ben Felix: SpaceX IPO Situation is Crazy
+  https://www.youtube.com/watch?v=2tkXhYsGge0
   Transcript: yes
 
 ThinkingPoker: Bankroll Management - Thinking Poker
@@ -308,13 +321,5 @@ ThinkingPoker: Bankroll Management - Thinking Poker
 
 Mind The Game: LeBron Explains What Makes Jalen Brunson So Dangerous
   https://www.youtube.com/watch?v=WivbQB_cvc0
-  Transcript: yes
-
-Ben Felix: SpaceX IPO Situation is Crazy
-  https://www.youtube.com/watch?v=2tkXhYsGge0
-  Transcript: yes
-
-Andrew Huberman: The Mental Frame & Specific Daily Actions to Succeed | Andy Stumpf
-  https://www.youtube.com/watch?v=baecUt1GaPk
   Transcript: yes
 
