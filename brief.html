@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>Morning Brief — Friday, June 19, 2026</title>
+<title>Morning Brief — Saturday, June 20, 2026</title>
 <style>
   body {
     font-family: Georgia, serif;
@@ -92,19 +92,19 @@
 })();
 </script>
 <h1>Morning Brief</h1>
-<p class="date">Friday, June 19, 2026</p>
+<p class="date">Saturday, June 20, 2026</p>
 
 <div class="anchor">
   <h2>☀️ Today's Anchor</h2>
   <div class="anchor-block">
-    <p class="quote">"The cave you fear to enter holds the treasure you seek."</p>
-    <p class="author">— Joseph Campbell</p>
-    <p class="context">The Hero with a Thousand Faces. Campbell's summary of why mythic heroes across cultures face what they dread.</p>
+    <p class="quote">"What does not kill me makes me stronger."</p>
+    <p class="author">— Friedrich Nietzsche</p>
+    <p class="context">Twilight of the Idols. Often quoted flippantly, but Nietzsche meant it about suffering that reveals character, not minor adversity.</p>
   </div>
   <div class="anchor-block">
     <p class="model-label">Mental Model · Decision-making</p>
-    <p class="model-name">Expected Value</p>
-    <p class="context">Probability-weighted outcomes. A 10% chance at $1M is worth more than a 90% chance at $100K — but most people grab the latter, fearing the 90% loss. Munger: 'If you can get comfortable with expected value, you'll make decisions 99% of people can't.'</p>
+    <p class="model-name">Asymmetric Bets</p>
+    <p class="context">Seek situations where downside is limited but upside is unbounded. Options trading, venture capital, writing a book. Conversely, avoid inverses: picking up pennies in front of a steamroller. Nassim Taleb's full framework, but Munger lived it before Taleb wrote about it.</p>
   </div>
 </div>
 
@@ -115,126 +115,132 @@
   <p class="spotlight-instructions">Interested? Copy the line below into <code>YOUTUBE_CHANNELS</code> in <code>brief.py</code> and save:</p>
   <pre class="spotlight-snippet" id="snippet">    "Andy Galpin": "UCe3R2e3zYxWwIhMKV36Qhkw",</pre>
   <button class="copy-btn" onclick="navigator.clipboard.writeText(document.getElementById('snippet').innerText.trim()); this.innerText='✅ Copied'; setTimeout(()=>this.innerText='📋 Copy snippet', 2000);">📋 Copy snippet</button>
-  <p class="spotlight-meta">showing for 3 more days. If you don't add it, a new channel will be suggested.</p>
+  <p class="spotlight-meta">showing for 2 more days. If you don't add it, a new channel will be suggested.</p>
 </div>
 <h2>🎥 From People I Follow</h2>
 
 <p><strong>Worth your time:</strong></p>
 
 <div class="story">
+  <h3>Nick Norwitz</h3>
+  <p>Solid explainer on Heart Rate Variability (HRV) as a predictor of mortality — a 1987 study of 808 post-heart-attack patients found low HRV conferred a 5.3x higher risk of death over subsequent years, and a separate prospective study found even a one standard deviation drop in HRV associated with 47% higher risk of a first cardiac event. Norwitz explains the physiology clearly: HRV reflects parasympathetic (vagal) tone — high variability means a responsive, adaptive nervous system; low variability means you're "flying down the highway with broken brakes." For improving HRV: Zone 2 cardio is the most reliable baseline intervention; HIIT can drive meaningful gains when dosed correctly (he does 20 min, 1-2x/week) but suppresses HRV acutely if overdone; omega-3s (3,000–4,000mg EPA+DHA/day, equivalent to ~3 cans of sardines) are shown in RCTs to boost HRV via membrane fluidity, reduced inflammation, and direct vagal tone effects. His personal HRV peak coincided with a sardine-heavy dietary phase delivering 6,000mg/day of EPA+DHA.</p>
+  <p class="meta">Videos: <a href="https://www.youtube.com/watch?v=bdxYexIpYjo">Heart Rate Variability (And The Coffee that Almost Killed Me)</a></p>
+</div>
+
+<div class="story">
   <h3>GTO Wizard</h3>
-  <p>Tom Boss and Joey Ingram work through the unified math behind pot odds, MDF, and alpha — making the case that these are two sides of the same coin rather than separate concepts. The core insight: on the river, the percentage of time you bluff should equal the pot odds you're laying your opponent, and tiny deviations (just a few combos) cause optimal bluff-catchers to swing from always-call to always-fold. They demonstrate this with a node-locked GTO Wizard sim on a 5-4-3-3-4 board where villain bets 150% pot — showing how 37% bluff frequency makes every intermediate hand exactly indifferent, and how shifting that frequency by even 2–3% collapses the entire calling range. Blocker effects (preferring hands that block villain's bluffing range) are shown to matter at the margin but not be the primary consideration.</p>
+  <p>Tom "Boss21" walks Joey Ingram through the unified math behind pot odds, MDF, and bluffing frequency — making the case that these aren't separate concepts but two sides of the same coin. The key insight demonstrated via GTO Wizard node-locking: on the river, a solver betting 150% pot needs to be bluffing exactly 37% of the time to make bluff-catchers indifferent; shift the bluff frequency just slightly in either direction (even by 3-4 combos) and the correct response snaps entirely to always-call or always-fold. This extreme sensitivity to small frequency deviations is why river play is the most punishing street for population leaks, and why detecting those leaks in real-time is extremely hard — even skilled players can't distinguish 35% vs. 41% bluff frequency from small samples.</p>
   <p class="meta">Videos: <a href="https://www.youtube.com/watch?v=C-QUUH-s8aE">The Math Behind Every Profitable Poker Decision</a></p>
 </div>
 
 <div class="story">
   <h3>Jared Alderman</h3>
-  <p>A sharp conversation about why macro exploits backfire and what real balance actually looks like in practice. The key argument: "balanced" doesn't mean moderate on every decision — it means being genuinely capable of going either direction (range call or range fold) at any moment, so opponents never know which version they're facing. The analogy used is political moderates who hold extreme-in-both-directions views that average out, vs. people who are mildly middle-of-the-road on everything. Strong players are patient — they play mostly well-executed hands and only pull the trigger on an exploit when something actually strikes them as strange, rather than forcing reads. The trap identified: players who are hyper-aware that information exists and feel pressure to act on it every hand, which makes them easier to beat than someone who simply waits.</p>
-  <p class="meta">Videos: <a href="https://www.youtube.com/watch?v=-u_eHSbwhEc">This Is Why Your Exploits Backfire</a></p>
+  <p>Two sharp clips. The first (with Pr0digy) makes an important process point: if you've pre-committed to a rule like "I don't catch in the main," you've already corrupted your in-game reasoning — your first instinct becomes the rule rather than the spot, and you can't think clearly when someone is actually punting their stack to you. Being truly +EV means staying open to each hand on its own merits. The second (full episode) covers the meta-game of heads-up tournaments: how to profile an unknown opponent quickly, how to set a Bayesian prior and update it on small samples, and the underrated value of engineering showdowns — not for the money, but for the information. The most accessible information-gathering lines are passive ones (checking down in position, not barreling a turn) rather than expensive river calls in 3-bet pots.</p>
+  <p class="meta">Videos: <a href="https://www.youtube.com/shorts/HwQfNxBFtJ4">Stop Blundering! Pr0digy on being Truly Plus EV</a> · <a href="https://www.youtube.com/watch?v=VtWUDDF7css">How To Adapt Without Losing Your Edge</a></p>
 </div>
 
 <div class="story">
-  <h3>Stronger by Science / Renaissance Periodization</h3>
-  <p>Stronger by Science published two pieces worth noting: one on the hypertrophy-strength correlation (new data suggests muscle growth contributes more to strength gains in novices than previously thought, but the relationship is far weaker than surface-level analysis implies once confounders are controlled), and a deep dive on isometric training arguing the evidence doesn't actually support the common belief that isometrics are inferior to dynamic training for strength and size. RP's short makes the simple but important point that volume should only increase when the athlete is recovering and performance is trending up — metrics first, then more work.</p>
-  <p class="meta">Articles: <a href="https://www.strongerbyscience.com/correlation-strength-hypertrophy/">Hypertrophy–Strength Correlation</a> · <a href="https://www.strongerbyscience.com/isometric-training/">Isometric Training Evidence</a> · <a href="https://www.youtube.com/shorts/76cBnvOWHBg">When More Volume Actually Works</a></p>
+  <h3>Renaissance Periodization (Dr. Mike)</h3>
+  <p>Two substantive pieces. The Haaland breakdown lays out a clean framework for soccer-specific S&C: three lower-body priorities are anterior chain (abs/hip flexors/quads for kicking power), vertical force production (squatting variations for speed and jump height), and posterior chain (hamstrings/glutes for directional change and injury prevention). He also makes a pointed case against hypoxic/heat training for performance — it depresses outputs below adaptive thresholds, so you're training too easy while feeling like it's hard; better to train hard in normal conditions and use hypoxic chambers separately for cardiovascular adaptation without fatigue interference. The SLDL short: the fix for not feeling SLDLs in your hamstrings is anterior pelvic tilt before you descend — not lumbar rounding — which pre-stretches the hamstrings and loads them immediately.</p>
+  <p class="meta">Videos: <a href="https://www.youtube.com/watch?v=4-o4WwmfaeE">Exercise Scientist Critiques Erling Haaland's Freakish Athleticism</a> · <a href="https://www.youtube.com/shorts/1FY5HSiKYeA">Why You Don't Feel SLDLs In Your Hamstrings</a></p>
 </div>
 
 <div class="story">
-  <h3>Mind The Game (LeBron & JJ Redick)</h3>
-  <p>LeBron breaks down what makes Jalen Brunson uniquely dangerous: his ability to cut defenders off with his body to stop the game on his own terms, play off two feet (making timing impossible for shot-blockers), and operate in a tight straight-line lane rather than looping around defenders. LeBron specifically highlights Brunson being a lefty as an underappreciated factor — roughly 90–95% of NBA players are right-handed, so the rhythm is genuinely disorienting. The broader point: Brunson is attempting something that only Isiah Thomas and arguably Steph Curry have pulled off — winning a title as the primary ball-handler at his size — and the surrounding cast (Bridges, OG, Hart, Robinson) is architecturally necessary to make it viable.</p>
-  <p class="meta">Videos: <a href="https://www.youtube.com/watch?v=WivbQB_cvc0">LeBron Explains What Makes Jalen Brunson So Dangerous</a></p>
+  <h3>Joe Rogan (with Rowan Jacobsen)</h3>
+  <p>Jacobsen's core thesis: sun exposure extends lifespan, not just via vitamin D but through multiple independent pathways — opioid release in the brain, blood pressure reduction via nitric oxide (sun hitting skin triggers vasodilation systemically), improved cognition and metabolic rate, and mood. The American Academy of Dermatology's "zero sun exposure" recommendation ignores all the cardiovascular and systemic evidence because dermatologists are incentivized to prevent only skin cancer, not to optimize overall mortality. Key nuances worth internalizing: melanoma is associated with burning and intermittent sun (office worker goes to Cancun), NOT chronic daily exposure — outdoor workers have lower melanoma rates than office workers; burning in childhood is the strongest melanoma risk factor; UVA passes through glass while UVB doesn't, meaning you get carcinogenic exposure without the tanning/burning feedback loop from sitting near windows; and vitamin D supplementation consistently fails in clinical trials to replicate the benefits of naturally high serum vitamin D, suggesting sunlight provides co-factors or companion compounds (skin-produced cholesterol derivatives, etc.) that the pill doesn't.</p>
+  <p class="meta">Videos: <a href="https://www.youtube.com/watch?v=J-CQjxKFb_0">JRE #2516 - Rowan Jacobsen</a></p>
 </div>
 
 <p><strong>Also posted:</strong></p>
 <ul>
-  <li><strong>Joe Rogan (with Rowan Jacobsen):</strong> Long-form conversation on sun exposure science — the key claims: UV light triggers opiate release in the brain; chronic moderate sun exposure is associated with lower blood pressure and extended lifespan; outdoor workers have <em>lower</em> melanoma rates than office workers; burning (especially in childhood) is the actual risk factor, not cumulative gentle exposure; and vitamin D supplements largely failed in clinical trials while natural sun-derived D correlates with better outcomes. (<a href="https://www.youtube.com/watch?v=J-CQjxKFb_0">JRE #2516 - Rowan Jacobsen</a>)</li>
-  <li><strong>Nick Norwitz:</strong> Deep dive on heart rate variability (HRV) — covers the physiology (parasympathetic vagal tone = high HRV = good), landmark studies (5.3x higher mortality in low-HRV post-MI patients; 47% increased first heart attack risk per 1 SD drop), and practical protocols: zone 2 cardio as the most reliable HRV raiser, HIIT as a double-edged sword requiring careful dosing, and omega-3s (3,000–4,000mg EPA+DHA daily) shown in RCTs to boost HRV via membrane fluidity and vagal tone. Also: caffeine suppresses HRV acutely but is net neutral-to-positive long-term. (<a href="https://www.youtube.com/watch?v=bdxYexIpYjo">What an Accident At Starbucks Taught Me About Heart Health</a>)</li>
-  <li><strong>Anthony Chaffee MD:</strong> Argues that fast food is effectively a hyper-vegetarian diet (>90% of calories from plants — refined carbs, seed oils, sugary drinks) and the meat is the only redeeming component. Cites hairless mouse studies replicated 5+ times showing polyunsaturated fats cause UV-induced skin cancer while saturated fats don't, and the Minnesota Coronary Experiment (~10,000 participants) showing replacing animal fats with vegetable oils lowered LDL but increased cardiovascular deaths in a dose-dependent relationship. (<a href="https://www.youtube.com/watch?v=UKt8Z-a6hpU">How Bad is McDonald's REALLY?</a>)</li>
-  <li><strong>Thomas DeLauer (with Dr. Jonathan Chef):</strong> Covers insulin resistance mechanisms (chronic insulin exposure = "doorbell fatigue" starting in the liver), argues calorie restriction is obsolete because biological organisms adapt (Biggest Loser data: 11/13 contestants regained weight, with up to 1,000 cal/day reduction in BMR 6 years later), and advocates strategic extended fasting (>24hrs) over intermittent fasting for resetting the insulin/glucagon ratio — with CGM and continuous ketone monitoring as the data layer. (<a href="https://www.youtube.com/watch?v=wpRzguPGt2Q">Insulin Resistance Doctor: This Ends Insulin Resistance Over 40</a>)</li>
-  <li><strong>Dr. Sten Ekberg:</strong> Explains resistant starch in useful detail — RS2 (raw crystalline starch in green bananas, raw oats, raw potatoes) and RS3 (cooked-then-cooled, which only partially reverts) feed butyrate-producing bacteria in the colon, improve colonocyte health, reduce leaky gut, and trigger a "second meal effect" via propionate suppressing hepatic gluconeogenesis. Key warning: cooling rice/potatoes does NOT convert most of the starch — only a fraction reverts, so it's not a free pass to eat more carbs. (<a href="https://www.youtube.com/watch?v=LhwOofZ8ins">Eat Bread, Rice & Potatoes WITHOUT Blood Sugar Spikes?</a>)</li>
-  <li><strong>Andrew Huberman:</strong> Covers the neuroscience of stretching — spindle reflexes, Golgi tendon organs, and von Economo neurons (described as uniquely enriched in humans, integrating body sensing with the ability to override pain/discomfort signals). Practical conclusion: static stretching with 30-second holds beats dynamic/ballistic for long-term range of motion gains, and "relaxing into the stretch" has a real neural mechanism via parasympathetic upregulation. (<a href="https://www.youtube.com/watch?v=syJYZm5OZhE">Improve Flexibility with Research-Supported Stretching Protocols</a>)</li>
-  <li><strong>GTO Lab:</strong> Quick tactical note — rainbow flops (not flush-draw boards) are where solvers use the biggest bet sizes, because the overpair advantage matters more when draws aren't the equalizer. Common player intuition is backwards on this. (<a href="https://www.youtube.com/shorts/MpacNMCkUDQ">Before you size down on a rainbow flop, ask who owns the overpairs</a>)</li>
-  <li><strong>Peter Attia:</strong> Breast cancer screening framework — key stats: 42,000 US deaths/year; stage 1 has 96%+ 10-year survival vs. ~30% 5-year survival at stage 4; women who screen regularly are up to 40% less likely to die from it; 9% of women qualify for MRI screening but only 0.4% get it. Recommends formal risk assessment by age 25, annual mammography from 40 for average-risk women, and MRI for high-risk (BRCA mutations, dense breasts, family history). (<a href="https://www.youtube.com/watch?v=_9mBlZXA1Lk">Breast cancer screening: understanding risk, deciding when to start</a>)</li>
+  <li><strong>Anthony Chaffee MD:</strong> Argues he doesn't supplement creatine because his carnivore diet (~3-4 lbs meat/day) already delivers 8-10g/day; his broader claim is that the standard 5g/day supplement dose simply replaces what a meat-heavy diet would naturally provide, and that beyond "enough," creatine adds water weight without proven hypertrophy benefit. (<a href="https://www.youtube.com/watch?v=AVwqKpa2kwg">Why I Don't Take Creatine</a>)</li>
+  <li><strong>Stronger by Science (RSS):</strong> Two research pieces this cycle — one finding hypertrophy contributes more to early strength gains in novices than previously estimated (though the relationship is still weak), and a thorough look at isometric training evidence suggesting it's less inferior to dynamic training than commonly believed. (<a href="https://www.strongerbyscience.com/correlation-strength-hypertropy/">Hypertrophy & Strength Correlation</a> + <a href="https://www.strongerbyscience.com/isometric-training/">Isometric Training Review</a>)</li>
+  <li><strong>Andrew Huberman:</strong> Essentials repost on stretching science — the key practical takeaway is that static stretching (30-second holds) outperforms dynamic/ballistic for long-term range of motion gains; PNF variants can accelerate this; the mechanism involves the nervous system (spindle reflexes and GTO shutdown) more than the muscle tissue itself. (<a href="https://www.youtube.com/watch?v=syJYZm5OZhE">Improve Flexibility with Research-Supported Stretching Protocols</a>)</li>
+  <li><strong>Sten Ekberg:</strong> Framework video on visceral fat reduction, assigning rough relative magnitudes: green tea catechins + carotenoids (~2-3% of total effect), alcohol elimination (~5%), stress/cortisol management (~10%), with exercise and diet being the overwhelming drivers. Makes a useful point that Zone 2 is preferable to steady-state aerobics for people with adrenal stress because it doesn't trigger cortisol or post-workout carb cravings. (<a href="https://www.youtube.com/watch?v=dpAdw0r8VX4">#1 Fastest Way to Shrink Visceral Fat</a>)</li>
+  <li><strong>Thomas DeLauer:</strong> Two metabolism-optimization clips — one on pre-coffee hydration (500ml water raises RMR ~30% via thermogenesis, primarily from fat oxidation; dehydration elevates ET-1 which blocks GLUT4 glucose transporters, pushing glucose toward fat storage) and one on horseradish/wasabi compounds (AITC activates TRPA1 thermogenesis; 6-MSITC activates NRF2 pathway upregulating ~250 detox/antioxidant genes including endogenous glutathione production). (<a href="https://www.youtube.com/watch?v=DqifbpeUaHQ">1 Glass BEFORE Coffee Shrinks Fat Cells</a> · <a href="https://www.youtube.com/watch?v=qtC2MO64CBQ">1 Teaspoon Detoxifies Cells</a>)</li>
+  <li><strong>GTO Lab:</strong> Short on bankroll management and risk tolerance — the core point is that bankroll rules are only meaningful if they match your actual emotional tolerance for downswings, not an abstract mathematical recommendation. (<a href="https://www.youtube.com/shorts/QVd_4fnaaLs">Bankroll rules mean nothing if they don't match your risk tolerance</a>)</li>
+  <li><strong>Peter Attia:</strong> Breast cancer screening deep-dive (full public episode) — key practical frame: every woman should have formal risk assessment by age 25; average-risk women should start annual mammography at 40; at least 9% of women qualify for breast MRI by published criteria but only 0.4% actually get it. Dense breast tissue (present in ~50% of screening-age women) both raises baseline cancer risk AND degrades mammogram sensitivity. (<a href="https://www.youtube.com/watch?v=_9mBlZXA1Lk">Breast Cancer Screening</a>)</li>
+  <li><strong>Donald Robertson (RSS/Wisdom):</strong> Two Stoicism pieces — a CBT-adjacent historical note on distinguishing present fear from past trauma, and a conversation with Massimo Pigliucci on philosophical skepticism. (<a href="https://donaldrobertson.substack.com/p/this-darkness-is-not-that-darkness">This Darkness Is Not That Darkness</a>)</li>
+  <li><strong>Massimo Pigliucci (Figs in Winter):</strong> Short essay arguing that reason divorced from virtue is merely calculation — a Stoic critique of purely instrumental rationality. (<a href="https://figsinwintertime.substack.com/p/reason-without-virtue-is-just-calculation">Reason Without Virtue Is Just Calculation</a>)</li>
+  <li><strong>Ben Felix:</strong> Detailed breakdown of the SpaceX IPO and index fund inclusion rules — NASDAQ, FTSE Russell, CRSP, and MSCI all changed rules to allow fast-track inclusion (5-15 trading days); S&P 500 notably refused, meaning SpaceX won't enter that index until ~mid-2027 at earliest. Net effect on a typical broad-market portfolio holder: small (~0.05-0.12% weighting initially), growing as insider lockups release. (<a href="https://www.youtube.com/watch?v=2tkXhYsGge0">SpaceX IPO Situation is Crazy</a>)</li>
 </ul>
 
 <h2>₿ Bitcoin & Macro</h2>
 
 <div class="story">
-  <h3><a href="https://bitcoinmagazine.com/markets/bitcoin-price-falls-to-62000-as-hawkish">Bitcoin Falls to $62K as Fed Signals Possible Rate Hikes Under New Chair Warsh</a></h3>
-  <p>New Fed Chair Kevin Warsh opened what was described as a "new chapter" with hawkish signals — rates held but hikes back on the table as inflation concerns persist, sending Bitcoin and equities lower. This is notable because the Warsh appointment was expected by some to be more market-friendly; if he's running tighter policy, the macro tailwind thesis for Bitcoin gets complicated near-term.</p>
+  <h3><a href="https://bitcoinmagazine.com/markets/bitcoin-price-falls-to-62000-as-hawkish">Bitcoin Drops to $62K on Hawkish Fed Shift + Mining Economics Deteriorate</a></h3>
+  <p>Bitcoin fell to ~$62,000 following a hawkish FOMC pivot, with JPMorgan reporting mining production costs have "worsened" — current BTC price sits roughly 19% below JPMorgan's estimated $78,000 all-in production cost, forcing public miners into record coin sales. This is the core tension the Saylor thesis is designed to exploit: miners capitulating and selling while long-term holders accumulate at a discount to cost-of-production. The hawkish Fed shift is the proximate macro cause — higher-for-longer rates reduce risk appetite and suppress BTC as an uncorrelated asset in the short term.</p>
   <p class="meta">Bitcoin Magazine</p>
 </div>
 
 <div class="story">
-  <h3><a href="https://bitcoinmagazine.com/markets/strc-is-junk-credit-in-a-bitcoin-costume-and-retail-is-holding-8-8-billion-of-it">STRC Is Junk Credit in a Bitcoin Costume — Retail Is Holding $8.8B of It</a></h3>
-  <p>Bitcoin Magazine makes a sharp structural argument: Strategy's preferred stack (STRC, SATA) — $15B across three securities — is being marketed as Bitcoin exposure but is actually subordinated credit risk on a levered Bitcoin holder. Retail investors are effectively taking on corporate credit risk dressed up as Bitcoin upside, without understanding the priority waterfall in a distress scenario. Worth understanding if you follow the MicroStrategy/Saylor corporate treasury playbook closely.</p>
+  <h3><a href="https://bitcoinmagazine.com/news/franklin-templeton-files-two-etfs-bitcoin">Franklin Templeton Files ETFs That Auto-Reinvest Stock Dividends Into Bitcoin</a></h3>
+  <p>Franklin Templeton filed for two ETFs that automatically redirect stock dividend payments into Bitcoin exposure — a structural product innovation that creates a passive, ongoing BTC accumulation mechanism embedded in traditional equity investing. This is distinct from a spot BTC ETF; it's a dividend-reinvestment vehicle that converts yield into BTC, which fits the Saylor thesis of systematic, programmatic Bitcoin acquisition. Combined with BlackRock calling Bitcoin "too big to ignore" and launching a covered-call income ETF on its spot BTC holdings, the institutional product infrastructure around Bitcoin is expanding rapidly.</p>
+  <p class="meta">Bitcoin Magazine</p>
+</div>
+
+<div class="story">
+  <h3><a href="https://bitcoinmagazine.com/markets/strc-is-junk-credit-in-a-bitcoin-costume-and-retail-is-holding-8-8-billion-of-it">STRC Is Junk Credit in a Bitcoin Costume — $8.8B in Retail Hands</a></h3>
+  <p>A sharp warning piece: $15 billion is sitting across three securities (Strategy's preferred stack, STRC, and SATA) being marketed to Bitcoin holders as safer, smarter BTC exposure. The argument is that these are effectively high-yield debt instruments with Bitcoin correlation — junk credit dressed as a Bitcoin play — and retail is holding $8.8B of STRC specifically. Worth understanding the distinction between owning BTC outright and owning leveraged instruments with BTC as the underlying before they unwind in a down market.</p>
   <p class="meta">Bitcoin Magazine</p>
 </div>
 
 <h2>🧬 Health & Science</h2>
 
 <div class="story">
-  <h3>Shingles Vaccine Reduces Dementia Risk — New Confirmation</h3>
-  <p>Marginal Revolution flagged updated evidence confirming the 2023 finding: the shingles vaccine (targeting varicella zoster virus) meaningfully reduces dementia incidence, strongly implicating VZV as a causal factor in at least some forms of dementia. This matters practically — it's one of the few modifiable interventions with this kind of mechanistic plausibility and epidemiological support for dementia prevention.</p>
-  <p class="meta"><a href="https://marginalrevolution.com/marginalrevolution/2026/06/the-shingles-vaccine-reduces-dementia.html">Marginal Revolution</a></p>
+  <h3>Sun Exposure: The Actual Evidence (Rowan Jacobsen on JRE)</h3>
+  <p>Several specific, data-grounded claims worth filing away. Outdoor workers have <em>lower</em> melanoma incidence than office workers — melanoma is associated with intermittent high-dose burning (especially in childhood), not chronic moderate exposure. UVA penetrates window glass while UVB does not, meaning you can accumulate carcinogenic UV exposure sitting by a window or driving without the tanning response that signals overexposure — which may partly explain "truck driver face" (unilateral photoaging from driver-side window UVA). Large clinical trials on vitamin D supplementation (including a major NEJM-published analysis) failed to show benefits for cancer, cardiovascular, or immune outcomes in people who weren't severely deficient — whereas people with naturally high serum vitamin D (from sun) consistently show lower rates of chronic disease, suggesting sunlight produces companion compounds or signaling molecules the pill doesn't replicate. Sunlight triggers endogenous opioid release, lowers blood pressure via nitric oxide-mediated vasodilation, and improves cognition and metabolic rate — all independent of vitamin D. The dermatology establishment's zero-sun recommendation is tailored to fair-skinned melanoma-prone individuals and ignores these systemic benefits, as well as the fact that people with very dark skin have almost no risk of sun-induced skin cancer and stand to gain enormously from sun exposure for cardiovascular health.</p>
 </div>
 
 <div class="story">
-  <h3>Hospitals Repurposing Drugs at 90% Lower Cost</h3>
-  <p>King's College London reports that hospitals and universities are reformulating off-patent drugs at a fraction of the commercial price — with verified examples of 90% cost reductions. This is an underreported area where academic pharmacy is functionally competing with pharma, particularly for rare disease treatments where no commercial incentive exists to develop affordable formulations.</p>
-  <p class="meta"><a href="https://www.kcl.ac.uk/news/hospitals-and-universities-repurposing-drugs-at-90-lower-cost">King's College London</a> · <a href="https://news.ycombinator.com/item?id=">HN Discussion</a></p>
+  <h3>HRV as a Mortality Biomarker — Specific Studies and Actionable Protocols (Nick Norwitz)</h3>
+  <p>The 1987 American Journal of Cardiology study (n=808, post-MI) found low HRV patients had 5.3x higher all-cause mortality over subsequent years. A separate prospective study (n=2,501, 3.5-year follow-up) found each standard deviation drop in HRV associated with 47% higher risk of a first cardiac event, independent of traditional risk factors. For improvement: Zone 2 (60-70% max HR) is the most robustly supported intervention; HIIT (20 min, 1-2x/week) can amplify gains when fully recovered but suppresses HRV acutely — use your daily HRV reading to time sessions. Omega-3s at 3,000–4,000mg EPA+DHA/day have RCT support for HRV improvement via neuronal membrane fluidity, inflammation reduction, and brain stem vagal tone — a clinically meaningful dose achievable with ~3 cans of sardines daily or targeted supplementation. Measure HRV first thing on waking before caffeine, movement, or phone for a clean baseline; consistency of protocol matters more than which method you use.</p>
 </div>
 
 <div class="story">
-  <h3>Ice Water Drowning Survival — JACC Case Study</h3>
-  <p>A 2025 case report in the Journal of the American College of Cardiology documents survival of a young patient from ice water drowning — notable because the extreme hypothermia that causes death in warm-water drowning actually provides neuroprotection in cold water, extending the window for resuscitation. The clinical implication is that cold water drowning victims should receive more aggressive and prolonged resuscitation attempts than warm water victims.</p>
-  <p class="meta"><a href="https://www.jacc.org/doi/10.1016/j.jaccas.2025.104885">JACC Case Study</a></p>
+  <h3>Isometric Training Is Less Inferior Than You Think (Stronger by Science)</h3>
+  <p>A deep review of the isometric training literature finds that the conventional wisdom — isometrics are significantly inferior to dynamic training for strength and hypertrophy — is not well-supported by the current evidence base. The review examines the mechanisms and study designs behind the assumption and finds meaningful limitations; isometrics may have a more legitimate role in programming than most trainees give them credit for, particularly for injury contexts or accessory work. No specific protocol recommendations summarized in the excerpt, but worth reading if you're considering isometric holds as a programming tool.</p>
+  <p class="meta"><a href="https://www.strongerbyscience.com/isometric-training/">Stronger by Science</a></p>
 </div>
 
 <h2>💡 Worth Reading</h2>
 
 <div class="story">
-  <h3><a href="https://www.thatprivacyguy.com/blog/elkjop-forced-consent-fine">I Told Them Forced Consent Was Unlawful. 5 Years Later It Cost Elkjøp €1.8M</a></h3>
-  <p>A privacy lawyer describes warning Norwegian electronics retailer Elkjøp that requiring customers to accept marketing as a condition of service was illegal under GDPR, being ignored, and watching the €1.8M fine land five years later. A well-written first-person account of how GDPR enforcement actually works in practice — slow, but real — and a useful illustration of why "forced consent" is legally distinct from actual consent.</p>
-  <p class="meta"><a href="https://news.ycombinator.com/item?id=">HN Discussion</a></p>
+  <h3><a href="https://donaldrobertson.substack.com/p/this-darkness-is-not-that-darkness">This Darkness Is Not That Darkness — Donald Robertson</a></h3>
+  <p>Robertson traces a largely forgotten precursor to CBT — one that helped a WWII veteran distinguish present-day fears from the psychological residue of past trauma, rather than conflating them. The idea that we often respond to the present as if it were the past is foundational to both Stoic practice and modern therapy, but Robertson's historical framing gives it unusual concreteness. Short and worth the 5 minutes.</p>
+  <p class="meta"><a href="https://donaldrobertson.substack.com/p/this-darkness-is-not-that-darkness">Donald Robertson's Substack</a></p>
 </div>
 
 <div class="story">
-  <h3><a href="https://www.astralcodexten.com/p/never-cross-a-river-four-feet-deep">Never Cross a River Four Feet Deep on Average</a></h3>
-  <p>A guest post on Astral Codex Ten exploring why averages are actively dangerous for decisions involving variance — the titular river being four feet deep on average could drown you at every crossing if the variance is high enough. A clear exposition of a mental model that applies directly to risk management in any domain where the distribution shape matters more than the central tendency.</p>
-  <p class="meta">Astral Codex Ten</p>
+  <h3><a href="https://figsinwintertime.substack.com/p/reason-without-virtue-is-just-calculation">Reason Without Virtue Is Just Calculation — Massimo Pigliucci</a></h3>
+  <p>A pointed Stoic argument: separating reason from ethics — treating reason as a morally neutral optimization tool — was always a mistake, and the consequences of doing so are visible everywhere. Pigliucci's position is that the Stoic integration of logos (reason) and virtue isn't a historical quirk but a necessary philosophical move. Useful framing for anyone thinking about AI ethics, decision-making frameworks, or the limits of purely consequentialist reasoning.</p>
+  <p class="meta"><a href="https://figsinwintertime.substack.com/p/reason-without-virtue-is-just-calculation">Figs in Winter</a></p>
 </div>
 
 <div class="story">
-  <h3><a href="https://figsinwintertime.substack.com/p/reason-without-virtue-is-just-calculation">Reason Without Virtue Is Just Calculation</a></h3>
-  <p>Massimo Pigliucci argues that the Enlightenment project of separating rational inquiry from ethics was a category error — reason without virtue produces optimization, not wisdom. The Stoic framework is that logos (reason) and arete (virtue) are inseparable: you cannot reason well about what to do without having cultivated the character to recognize what matters. A compact and well-argued piece relevant to anyone thinking about AI alignment or the limits of purely technical decision-making.</p>
-  <p class="meta">Figs in Winter (Pigliucci)</p>
+  <h3><a href="https://www.ibm.com/think/news/discovery-changed-how-scientists-think-about-memory-kavli-prize">The Discovery That Changed How Scientists Think About Memory — IBM/Kavli</a></h3>
+  <p>A write-up on the research that earned the Kavli Prize, reframing how memory consolidation works at the synaptic level — specifically challenging the long-held assumption about how memories are stored and retrieved. The piece is IBM's popular science coverage, so the level of mechanistic detail is limited, but the finding itself is significant enough to be worth a look if you follow neuroscience or longevity/cognitive health research.</p>
+  <p class="meta"><a href="https://news.ycombinator.com/item?id=48604232">HN Discussion</a></p>
 </div>
 
 <div class="story">
-  <h3><a href="https://donaldrobertson.substack.com/p/this-darkness-is-not-that-darkness">This Darkness Is Not That Darkness</a></h3>
-  <p>Donald Robertson on a forgotten ancestor of CBT — likely referring to Rational Emotive Behavior Therapy or earlier Stoic-influenced therapeutic approaches — and how it helped a WWII veteran stop conflating present fear responses with past trauma. The core technique: learning to distinguish the emotional valence of a current situation from the emotional memory of a past one. Short but worth reading as a concrete example of Stoic-derived psychological intervention.</p>
-  <p class="meta">Donald Robertson / Substack</p>
-</div>
-
-<div class="story">
-  <h3><a href="https://collabfund.substack.com/p/plan-on-the-plan-not-going-according">Plan on the Plan Not Going According to Plan</a></h3>
-  <p>Morgan Housel's short piece arguing that the meta-skill in any long-term endeavor isn't execution of a plan but anticipating that the plan will break and building psychological and structural resilience to adapt. The framing is useful: instead of "what's my plan," the question is "what will I do when my plan fails, and have I budgeted for that?"</p>
-  <p class="meta">Collaborative Fund</p>
+  <h3><a href="https://collabfund.substack.com/p/plan-on-the-plan-not-going-according">Plan on the Plan Not Going According to Plan — Morgan Housel</a></h3>
+  <p>A characteristically tight Housel piece on building robustness into your plans rather than optimizing them for the expected case. The core mental model: resilience is itself a strategy, not a fallback — the best plans assume deviation. Fits squarely in the Munger/Kahneman tradition of thinking about second-order effects and what you're not seeing.</p>
+  <p class="meta"><a href="https://collabfund.substack.com/p/plan-on-the-plan-not-going-according">Collaborative Fund</a></p>
 </div>
 
 <h2>🤖 AI Capability Watch</h2>
 
 <div class="story">
-  <h3><a href="https://openai.com/index/diagnose-rare-childhood-diseases">OpenAI Reasoning Model Identifies 18 New Diagnoses in Previously Unsolved Rare Disease Cases</a></h3>
-  <p>Researchers used an OpenAI reasoning model to assist physicians with previously unsolved rare genetic disease cases in children — the model identified 18 new diagnoses that had not been reached through standard clinical workup. This is a meaningful real-world outcome, not a benchmark: actual patients, actual diagnoses, actual conditions that went unresolved by human clinicians alone.</p>
-  <p class="meta">OpenAI Blog</p>
+  <h3><a href="https://openai.com/index/diagnose-rare-childhood-diseases">AI Reasoning Model Finds 18 New Diagnoses in Previously Unsolved Rare Disease Cases</a></h3>
+  <p>Researchers used an OpenAI reasoning model to assist physicians in diagnosing rare genetic diseases in children — and it identified 18 new diagnoses in cases that had previously gone unsolved. This is a meaningful capability demonstration: not a benchmark, but real clinical cases where human specialists had already failed to reach a diagnosis, with the AI providing actionable answers. Rare disease diagnosis is a domain where the space of possibilities is too large for most physicians to hold in working memory, making it a genuine use case rather than a performance benchmark.</p>
+  <p class="meta"><a href="https://openai.com/index/diagnose-rare-childhood-diseases">OpenAI Blog</a></p>
 </div>
 
 <div class="story">
-  <h3><a href="https://openai.com/index/ai-chemist-improves-reaction">Near-Autonomous AI Chemist Improves a Key Drug-Making Reaction</a></h3>
-  <p>OpenAI and Molecule.one demonstrated GPT-5.4 operating as a near-autonomous chemist — designing experiments, interpreting results, and iterating — to improve a difficult reaction in medicinal chemistry without continuous human direction. This is a step toward AI as an independent scientific agent rather than a tool that assists human scientists, which is a qualitatively different capability category.</p>
-  <p class="meta">OpenAI Blog</p>
+  <h3><a href="https://openai.com/index/ai-chemist-improves-reaction">Near-Autonomous AI Chemist Improves a Challenging Medicinal Chemistry Reaction</a></h3>
+  <p>OpenAI and Molecule.one demonstrated a near-autonomous AI chemist using GPT-5.4 that improved a key drug-synthesis reaction in medicinal chemistry — operating with minimal human intervention across the experimental loop. This matters because autonomous scientific experimentation (propose, run, analyze, iterate) has been a theoretical AI application for years; this is a concrete published case of it working on a hard real-world chemistry problem, not a toy task.</p>
+  <p class="meta"><a href="https://openai.com/index/ai-chemist-improves-reaction">OpenAI Blog</a></p>
 </div>
 </body>
 </html>
