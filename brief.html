@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>Morning Brief — Thursday, June 25, 2026</title>
+<title>Morning Brief — Friday, June 26, 2026</title>
 <style>
   body {
     font-family: Georgia, serif;
@@ -92,121 +92,155 @@
 })();
 </script>
 <h1>Morning Brief</h1>
-<p class="date">Thursday, June 25, 2026</p>
+<p class="date">Friday, June 26, 2026</p>
 
 <div class="anchor">
   <h2>☀️ Today's Anchor</h2>
   <div class="anchor-block">
-    <p class="quote">"Discipline equals freedom."</p>
-    <p class="author">— Jocko Willink</p>
-    <p class="context">Extreme Ownership. Jocko, a retired Navy SEAL, argues that self-imposed structure creates the freedom to do meaningful work.</p>
+    <p class="quote">"Everyone has a plan until they get punched in the face."</p>
+    <p class="author">— Mike Tyson</p>
+    <p class="context">Interview before his 1987 fight. Tyson's point: reality breaks theory on contact. Strategy must survive first contact with the enemy.</p>
   </div>
   <div class="anchor-block">
-    <p class="model-label">Mental Model · Economics/Business</p>
-    <p class="model-name">Principle-Agent Problem</p>
-    <p class="context">When one party (agent) acts on behalf of another (principal), their incentives rarely perfectly align. Lawyers bill by the hour, not by outcome. CEOs optimize for short-term stock price, not long-term company health. The discipline: in any relationship, ask whose incentives actually match yours.</p>
+    <p class="model-label">Mental Model · Economics/Productivity</p>
+    <p class="model-name">Pareto Principle (80/20)</p>
+    <p class="context">Roughly 80% of effects come from 20% of causes, across almost every domain. 80% of sales from 20% of customers, 80% of crime from 20% of criminals, 80% of your happiness from 20% of your activities. The skill: identifying the 20% before wasting effort on the 80%.</p>
   </div>
 </div>
 
 <div class="spotlight">
   <h2>🧭 Channel Spotlight</h2>
-  <p class="spotlight-name">Jonathan Little - Poker Coaching</p>
-  <p class="spotlight-pitch">Your poker content skews heavily GTO — GTO Wizard, GTO Lab, Jared Alderman — but Jonathan Little brings a solver-informed yet exploitative, live-game-grounded perspective that steelmans the case for population-read adjustments over pure equilibrium play. He does hand history reviews, tournament strategy breakdowns, and interviews with elite players, with consistent depth on the mental game and decision-making under pressure, which bridges your poker and inner-game interests. Prolific output, recently active, and covers spots (ICM, live tells, big tournament hands) that your current lineup underserves.</p>
+  <p class="spotlight-name">betraisefoldmovie</p>
+  <p class="spotlight-pitch">Your poker channels (GTO Wizard, GTO Lab, Jared Alderman) are heavily GTO-solver-focused, but Bart Hanson's Crush Live Poker content steelmans a live-game, exploitative-adjustment lens that solver-pure content often undersells — the argument being that population tendencies in live games create massive edges that pure GTO ignores. Bart runs solo hand-history breakdowns and call-in formats that force applied reasoning rather than solver outputs. The depth is practical and analytical without being recreational-player generic.</p>
   <p class="spotlight-instructions">Interested? Copy the line below into <code>YOUTUBE_CHANNELS</code> in <code>brief.py</code> and save:</p>
-  <pre class="spotlight-snippet" id="snippet">    "Jonathan Little - Poker Coaching": "UCOWqXBOz_hoBtaqwWN_kaQQ",</pre>
+  <pre class="spotlight-snippet" id="snippet">    "betraisefoldmovie": "UC3iQWyDMohk6aVRw6vxAXIA",</pre>
   <button class="copy-btn" onclick="navigator.clipboard.writeText(document.getElementById('snippet').innerText.trim()); this.innerText='✅ Copied'; setTimeout(()=>this.innerText='📋 Copy snippet', 2000);">📋 Copy snippet</button>
-  <p class="spotlight-meta">showing for 1 more day. If you don't add it, a new channel will be suggested.</p>
+  <p class="spotlight-meta">showing for 3 more days. If you don't add it, a new channel will be suggested.</p>
 </div>
 <h2>🎥 From People I Follow</h2>
 
 <p><strong>Worth your time:</strong></p>
 
 <div class="story">
+  <h3>GTO Wizard</h3>
+  <p>The main video is a dense, practical PLO study guide built around what the presenter calls the "SIP method." The core argument: memorizing solver frequencies is the wrong approach — you need heuristics and patterns, not statistics. Specific insights worth noting: (1) Button opening range is basically "when in doubt, open," while early position is "when in doubt, fold" — and cutoff range serves as an anchor for multiple other spots. (2) Don't mix when the EV difference is tiny; only obsess over spots where the mistake is 20 BB/100 or larger. (3) For flop sizing, divide all boards into "locked" (paired, monotone, straight) where you use small sizes (1/3 or 1/4 pot) and "regular" boards where half-pot is the default. (4) In group analysis, find the threshold hand where strategy changes — everything stronger continues, everything weaker folds — and ignore the rest. The short on polarized betting reinforces that a checking range + large polar bet often outperforms a merged small-bet strategy on certain boards.</p>
+  <p class="meta">Videos: <a href="https://www.youtube.com/watch?v=G5k4cXNbiB0">How Pros Actually Study PLO</a> · <a href="https://www.youtube.com/shorts/5YlqghSlKZE">Maximizing EV with Polarized Betting</a></p>
+</div>
+
+<div class="story">
+  <h3>Jared Alderman</h3>
+  <p>Kevin Rabichow makes a nuanced distinction: betting for information is different from checking for information. His argument is that deviating from GTO by betting thinner than you normally would (to "find out if you can get away with it") is poor logic — because when it works, the opponent just folds, which tells you little. The more defensible form of information-gathering is through checks, where the opponent's action reveals range. The specific hand discussed: J6cc in a single-raised pot, middle pair no draw on a paired board — GTO default is check, but Rabichow bets against a specific opponent archetype expecting fold equity from a front-loaded aggression profile.</p>
+  <p class="meta">Videos: <a href="https://www.youtube.com/shorts/lv_85civ2OY">Kevin Rabichow on Betting for Information</a></p>
+</div>
+
+<div class="story">
   <h3>GTO Lab</h3>
-  <p>Kayhan Mokri's first coaching video covers a heads-up match analysis, with a specific example: facing a 2BB open with A4s at 40BB deep, Mokri argues this is a pure call — not a 3-bet-fold and not a shove, which he considers an overplay. The reasoning is that you need ace-blocker hands in your calling range, and A4s plays significantly better than A4o, but the depth still favors a flat over a jam. Daniel Dvoress is also featured in a separate short walking through advanced MTT decisions "step by step" — no transcript available, but the framing suggests tournament-specific exploitative reasoning.</p>
-  <p class="meta">Videos: <a href="https://www.youtube.com/shorts/XrVFUSH9Uck">Kayhan Mokri heads-up match analysis</a> · <a href="https://www.youtube.com/shorts/L45aK8BXMec">Daniel Dvoress MTT decisions</a></p>
+  <p>Short promotional content flagging that GTO Lab's pre-flop trainer is now free with unlimited solutions from 10 to 200 big blinds for tournament players, with post-flop access at $25/month. Also teased: a Daniel Dvoress MTT series ("Tournament Savagery") walking through advanced tournament decisions.</p>
+  <p class="meta">Videos: <a href="https://www.youtube.com/shorts/gXP4-0LG8QI">Tournament players: this is where I would start</a> · <a href="https://www.youtube.com/shorts/L45aK8BXMec">Tournament Savagery teaser</a></p>
+</div>
+
+<div class="story">
+  <h3>Mind The Game (LeBron James & Steve Nash)</h3>
+  <p>Full episode with Mahershala Ali covers the 2026 NBA Draft and what the Finals have confirmed about league trends. LeBron and Nash are emphatic: depth + youth + pace is the winning formula, with the Spurs being the second-youngest Finals team since the ABA merger and OKC last year being the third youngest ever to win. LeBron's draft advice to incoming players is pointed — the draft is a moment in time, and the work that matters is "when the cameras aren't rolling." They single out Nikola Jokic, Draymond Green, and Austin Reaves as templates for players who outperformed their draft slot through effort and love of game. The Mahershala Ali segment is genuinely good: he was recruited by Santa Clara (Dick Davey told him "you don't handle the ball well, you don't shoot well enough, you won't play your freshman year — but we'll take you"), turned it down for Saint Mary's, and four years later Steve Nash was drafted from that Santa Clara spot. Ali's reflection: he went with what sounded good rather than what was honest, and it cost him.</p>
+  <p class="meta">Videos: <a href="https://www.youtube.com/watch?v=T4chjQsavBs">Mahershala Ali Almost Took Steve Nash's Roster Spot</a> · <a href="https://www.youtube.com/watch?v=ruXMYStcaOU">NBA Draft Talk, Season Takeaways & Mahershala Ali</a> · <a href="https://www.youtube.com/shorts/Me0ylqoZ0nI">LeBron on the draft class</a> · <a href="https://www.youtube.com/shorts/QspYcwemoSI">How the game has evolved</a></p>
+</div>
+
+<div class="story">
+  <h3>ModernWisdom – Arthur Brooks</h3>
+  <p>Brooks lays out a three-part framework for meaning from researcher Michael Steger: coherence (why are things happening the way they do?), purpose (why am I doing what I'm doing?), and significance (does my life matter to someone?). He argues conspiracy theories are fundamentally a meaning problem — a cry for coherence — not an information problem, which is why throwing data at believers doesn't work. On strivers: people who only received love conditionally (when they performed) wire in the belief that love is earned, which then metastasizes into chasing admiration from strangers online. His fix: real love isn't earned, it's given freely — and anyone who makes you earn it doesn't actually love you.</p>
+  <p class="meta">Videos: <a href="https://www.youtube.com/watch?v=L9vdtbSZLDU">3 Questions That Reveal What Your Life Is Missing</a></p>
+</div>
+
+<div class="story">
+  <h3>ModernWisdom – Sonja Lyubomirsky</h3>
+  <p>36 years of happiness research distilled to one finding: nearly all effective happiness interventions work because they make people feel more connected and loved. Lyubomirsky distinguishes love from admiration — broadcasting your accomplishments earns admiration but not connection, because the person doesn't actually know you. The key to feeling loved is being known. Survey data: 70% of people don't feel as loved as they want to be in at least one significant relationship, and nearly two-thirds of young men feel no one truly knows them. On love languages: the matching hypothesis is debunked — what predicts relationship quality isn't whether partners share a love language, but the total number of ways love is expressed. Everyone values words of affirmation and quality time most.</p>
+  <p class="meta">Videos: <a href="https://www.youtube.com/watch?v=J_W5X-tlmU8">Why Nobody Feels Loved Anymore</a></p>
+</div>
+
+<div class="story">
+  <h3>ModernWisdom – Alex Hormozi</h3>
+  <p>Hormozi reflects on an earlier version of himself driven entirely by fear — fear of failure, of his father's judgment, of other people's opinions. The reframe that freed him: he became more afraid of looking back on a life where he never tried than of the practical consequences of trying and failing. He frames it as redirecting fear rather than eliminating it — put it behind you so you're running away from the future your current path leads to. On raising his son: he will hold a high standard not as a demand but as an expression of belief in the kid's potential, and will care deeply about effort while being largely indifferent to outcomes he didn't control.</p>
+  <p class="meta">Videos: <a href="https://www.youtube.com/watch?v=QrImqwxUVrk">"I Was Afraid Of Everything" – How Alex Hormozi Changed His Life</a></p>
 </div>
 
 <p><strong>Also posted:</strong></p>
 <ul>
-  <li><strong>Anthony Chaffee MD:</strong> In a live interview, Chaffee describes his origin story — spending months reading studies, debating colleagues, and concluding that carnivore is the optimal human diet; he makes a specific anatomical argument that humans cannot synthesize B12 in the colon the way gorillas attempt to (via coprophagia), because we absorb B12 in the small intestine, not the large intestine — supporting his claim that humans are not designed for plant fermentation. (<a href="https://www.youtube.com/shorts/JIp4_3sPiTk">Are We Like Gorillas?</a> · <a href="https://www.youtube.com/watch?v=IpIdxPXZZRQ">YouTube LIVE</a>)</li>
-  <li><strong>Ben Felix:</strong> Detailed breakdown of how major indices (NASDAQ 100, Crisp, FTSE Russell, S&P 500) are changing their IPO inclusion rules ahead of the SpaceX IPO — key finding: S&P declined all three proposed changes, meaning SpaceX won't be S&P 500-eligible until mid-2027 at earliest, while NASDAQ and Crisp adopted fast-track rules (15 days and 5 days respectively) and dropped 10% free-float requirements; SpaceX's unusual early lockup release schedule (staged from day 2 post-IPO) will matter a lot for float-weighted index weights over time. (<a href="https://www.youtube.com/watch?v=2tkXhYsGge0">SpaceX IPO Situation is Crazy</a>) <em>[carried from previous brief]</em></li>
+  <li><strong>Ken Berry MD:</strong> Two videos making the same case — type 2 diabetes is "chronic carbohydrate overdose syndrome," not a permanent condition, and claims over 1,000 verified patients have normalized their A1C through low-carb/carnivore diet without insulin. (<a href="https://www.youtube.com/watch?v=Eb2wAlITA6U">7 Myths about Type 2 Diabetes</a> + <a href="https://www.youtube.com/shorts/NLZ4wWihIo4">shorts</a>)</li>
+  <li><strong>Anthony Chaffee MD:</strong> Live conversation with Dr. Kiltz on carnivore diet, plant toxins (citing WHO's own "natural toxins in food" documentation), and whether long-term carnivores need to add back carbs — conclusion: no. (<a href="https://www.youtube.com/watch?v=gVCtjl8bO3A">LIVE with Dr Kiltz</a>)</li>
+  <li><strong>Nick Norwitz:</strong> Deep dive on Russian longevity peptides — epitalon (activates telomerase), thymic peptides (immune surveillance), and pinealon (circadian rhythm/sleep). Cites a 2003 double-blind human trial showing 4x mortality reduction over 6 years with thymus + pineal gland extracts. Paradox addressed: epitalon activates telomerase (cancer risk?) but trials show *lower* cancer incidence, possibly because thymic peptides simultaneously improve immune surveillance. Norwitz tried pinealon himself and reports dramatically improved sleep with vivid REM. (<a href="https://www.youtube.com/watch?v=red7Pls4mjM">The Best Peptides for Sleep and Longevity</a>)</li>
+  <li><strong>Thomas DeLauer:</strong> Interview with a photobiology expert arguing natural light is a "nutrient" — infrared (55% of solar energy) powers mitochondria and protects skin from UV damage; tanning beds strip infrared and distort UVA/UVB ratios (tanning beds run up to 70% UVB vs. nature's 5%). Morning light exposure (mostly infrared, no UV) prepares skin for midday sun. Separate video: niacin as a GPR109A agonist (same receptor as BHB/ketones), potentially relevant to cyclic AMP suppression and kidney health. (<a href="https://www.youtube.com/watch?v=Qhc7Ajz37yo">Sunlight</a> · <a href="https://www.youtube.com/watch?v=uwdaOrl6wB0">Niacin/NAD+</a> · <a href="https://www.youtube.com/watch?v=EJaSa8yHG8k">Mediterranean Diet</a>)</li>
+  <li><strong>Dr. Sten Ekberg:</strong> Systematic breakdown of visceral fat reduction factors by estimated magnitude — carotenoids/catechins (~2-3% of total effect), alcohol elimination (~5%), cortisol/stress management (~10%), exercise. Argues aerobic exercise at 60-70% HR is underrated because it burns fat without spiking cortisol, while moderate-intensity "cardio" depletes glycogen and drives cravings. (<a href="https://www.youtube.com/watch?v=dpAdw0r8VX4">#1 Fastest Way to Shrink Visceral Fat</a>)</li>
+  <li><strong>Renaissance Periodization:</strong> Practical hypertrophy cues — for lunges, a longer step dramatically increases glute stretch and stimulus; for squats, chest-up at the bottom maximizes quad involvement by keeping load off glutes/adductors. On training frequency: twice-weekly per muscle group is notably (~1.5x) better than once; gains from 3rd+ sessions are incrementally smaller. Also: a $85 weekly bodybuilding grocery haul at Walmart hitting 320g protein/day, 400g carbs, 80g fat for a 230 lb person. (<a href="https://www.youtube.com/watch?v=9-xp08BlNLc">$100 Bodybuilding Diet</a> + shorts)</li>
+  <li><strong>Andrew Huberman / Layne Norton:</strong> Essentials episode on energy balance. Key points: food labels can be 20% off; NEAT (non-exercise activity thermogenesis) can vary by hundreds to nearly 1,000 calories/day and is the most modifiable component of energy expenditure; protein TEF is 20-30% vs. 0-3% for fat; optimal protein ~1.6g/kg bodyweight with diminishing returns past that; plant protein can build muscle but requires more planning and likely supplementation with isolated sources due to lower leucine content. (<a href="https://www.youtube.com/watch?v=WWe4up63hb4">Science of Eating for Health, Fat Loss & Lean Muscle</a>)</li>
+  <li><strong>Paul Saladino MD:</strong> Three shorts: DIY tallow/zinc sunscreen recipe (tallow, non-nano zinc, beeswax, coconut oil); wired headphones over Bluetooth (citing RF-EMF studies on sleep disruption and EEG changes); baking soda as dish soap alternative. No novel claims. (<a href="https://www.youtube.com/shorts/gHCTArGVy00">Sunscreen</a> · <a href="https://www.youtube.com/shorts/MPlNeD6VbN0">AirPods</a> · <a href="https://www.youtube.com/shorts/JjGVIWDF2Cs">Baking soda</a>)</li>
+  <li><strong>Joe Rogan (#2518 / Tim Dillon):</strong> Wide-ranging conversation on LA's decline, UK grooming gangs and speech restrictions, AI's societal disruption, and immigration policy — political/culture content outside your filter. (<a href="https://www.youtube.com/watch?v=wTdqkloiSvk">JRE #2518</a>)</li>
+  <li><strong>Lex Fridman:</strong> Physics conversation with Fermilab's Don Lincoln covering the history of unification (Newton → Maxwell → Einstein → Standard Model), how particle accelerators work, and the Higgs boson discovery. Intellectually interesting but not within your core topics. (<a href="https://www.youtube.com/watch?v=1M3Vdl6DRkU">Biggest Mysteries in Physics</a>)</li>
+  <li><strong>Ben Felix:</strong> Detailed breakdown of how major indices (NASDAQ 100, Crisp, MSCI, Footsie Russell, S&P 500) are changing IPO inclusion rules ahead of the SpaceX IPO — S&P notably refused to change, meaning no S&P 500 inclusion for at least 12 months. SpaceX is targeting 30% retail allocation vs. typical 5-10%. (<a href="https://www.youtube.com/watch?v=2tkXhYsGge0">SpaceX IPO Situation</a>)</li>
+  <li><strong>Peter Attia:</strong> Deep clinical episode on endometriosis and adenomyosis — endometriosis affects ~10% of reproductive-age women, 30-50% of infertile women; adenomyosis (endometrial tissue inside the uterine muscle) affects 20-30% and is frequently missed; up to 70% of endometriosis patients also have adenomyosis. Modern women have ~4x more ovulatory cycles than women 200 years ago, likely driving rising prevalence. (<a href="https://www.youtube.com/watch?v=IxHRYDM64dQ">Endometriosis and adenomyosis</a>)</li>
 </ul>
 
----
+<h2>₿ Bitcoin & Macro</h2>
 
-*Note: The Joe Rogan / Tim Dillon episode transcript was reviewed — the conversation covers immigration, UK speech laws, AI and societal disruption, and masculinity, but is predominantly political and cultural commentary without specific data, frameworks, or actionable insight that clears your bar. Skipped.*
+<div class="story">
+  <h3><a href="https://pomp.substack.com/p/you-were-promised-high-inflation">You Were Promised High Inflation, But The Market Is Saying That Won't Happen Anymore</a></h3>
+  <p>Anthony Pompliano argues that market signals are now contradicting the consensus inflation narrative — bond markets and macro indicators are pointing toward disinflation rather than the sustained high inflation widely predicted post-2020. The piece is worth reading for the specific data points he cites against the inflation-permanence thesis, particularly relevant if you hold Bitcoin partly as an inflation hedge and want to stress-test that framing.</p>
+  <p class="meta">The Pomp Letter</p>
+</div>
+
+<div class="story">
+  <h3><a href="https://bitcoinmagazine.com/markets/strategy-stock-mstr-craters-another-10">Strategy Stock (MSTR) Nearly Craters Another 10% as Securities Lawsuit Lands</a></h3>
+  <p>MicroStrategy/Strategy shares dropped ~10% as Bitcoin fell to $59,000 and a securities lawsuit was filed against the company. Bitcoin itself flash-crashed from $61,000 to $58,000 in a sharp sell-off. This is the clearest near-term stress test of the Saylor leveraged-Bitcoin-treasury thesis — the lawsuit adds legal overhang on top of pure price volatility.</p>
+  <p class="meta">Bitcoin Magazine</p>
+</div>
 
 <h2>🧬 Health & Science</h2>
 
 <div class="story">
-  <h3><a href="https://www.strongerbyscience.com/correlation-strength-hypertrophy/">Is the Correlation Between Hypertrophy and Strength Gains Stronger Than We Realized?</a></h3>
-  <p>Stronger by Science revisits the relationship between muscle growth and strength gains, arguing that prior studies likely <em>underestimated</em> hypertrophy's contribution to strength in novice lifters — partly due to measurement error in muscle size estimates that attenuated the observed correlation. The corrected picture suggests hypertrophy matters more for new lifters than previously thought, but the relationship is still far from deterministic: you can gain muscle without gaining proportional strength, and vice versa. Worth reading if you program for both hypertrophy and strength outcomes.</p>
+  <h3>Nick Norwitz on Longevity Peptides (Epitalon, Thymic Peptides, Pinealon)</h3>
+  <p>The most substantive health content this cycle. Norwitz traces the science from a 2003 double-blind human trial (Neuroendocrinology Letters) where adults over 60 treated with thymus and pineal gland extracts for 6 years showed a reported 4x reduction in mortality vs. controls, plus improvements in blood pressure and physical functioning. The mechanistic paradox he works through: epitalon activates telomerase (which theoretically raises cancer risk), yet trial participants showed *lower* cancer incidence — his proposed resolution is that thymic peptides simultaneously restore adaptive immune surveillance, enabling the body to catch aberrant cell growth that telomerase activation might otherwise accelerate. Pinealon, a small orally bioavailable peptide from the pineal gland, appears to improve sleep architecture and REM — with anecdotal reports (including from surgeons and Andrew Huberman) of doubling REM sleep. Norwitz tried it himself and reports notably more restorative sleep. The underlying science on thymic aging is also worth noting: CT-measurable thymic involution in adults is an independent predictor of cardiovascular disease, cancer, and all-cause mortality — the thymus is not the vestigial organ it was thought to be.</p>
+  <p class="meta"><a href="https://www.youtube.com/watch?v=red7Pls4mjM">The Best Peptides for Sleep and Longevity (Nick Norwitz)</a></p>
+</div>
+
+<div class="story">
+  <h3>Stronger by Science: Hypertrophy–Strength Correlation Revisited</h3>
+  <p>New analysis suggests hypertrophy contributes more to strength gains in novice lifters than prior research indicated — but the relationship is still far from deterministic and becomes much weaker as lifters advance. The practical implication: for beginners, building muscle and building strength are more coupled than previously thought, which supports prioritizing hypertrophy-oriented training early. For intermediate/advanced lifters, the correlation weakens considerably, meaning strength gains require more skill-specific practice rather than just adding muscle.</p>
   <p class="meta"><a href="https://www.strongerbyscience.com/correlation-strength-hypertrophy/">Stronger by Science</a></p>
 </div>
 
 <div class="story">
-  <h3><a href="https://peterattiamd.com/lung-cancer-screening-in-never-smokers/">Lung cancer screening in never-smokers: the data</a></h3>
-  <p>Peter Attia makes the case that low-dose CT lung screening is evidence-supported even for people who have never smoked, despite current guidelines not recommending it for this population. The argument is that lung cancer kills a meaningful number of never-smokers, early detection dramatically improves survival odds, and the risk-benefit math is favorable enough to make it a rational personal decision independent of guideline status — a classic Attia "the guidelines are behind the evidence" framing.</p>
-  <p class="meta"><a href="https://peterattiamd.com/lung-cancer-screening-in-never-smokers/">Peter Attia MD</a></p>
+  <h3>Does Fasting Harm Cognitive Performance? (Ramadan Chess Study)</h3>
+  <p>A natural experiment using tournament chess during Ramadan — an incentivized, real-world cognitive task with measurable move quality — found measurable effects on cognitive performance from fasting. The study leverages the fact that over 2 billion people fast annually during Ramadan, making this one of the largest naturalistic cognitive-fasting datasets available. Worth reading for anyone practicing intermittent fasting who does cognitively demanding work.</p>
+  <p class="meta"><a href="https://marginalrevolution.com/marginalrevolution/2026/06/does-fasting-harm-cognitive-performance.html">Marginal Revolution</a></p>
 </div>
 
 <div class="story">
-  <h3><a href="https://marginalrevolution.com/marginalrevolution/2026/06/glp-1-drugs-and-marriage.html">GLP-1 drugs and marriage</a></h3>
-  <p>A new study using the Understanding America Study finds that single women starting GLP-1s for weight loss see a 29% increase in marriage/cohabitation rates compared to matched controls who wanted to start GLP-1s but hadn't yet. This is a striking downstream social effect of weight loss drugs beyond metabolic outcomes — and raises interesting questions about the compound effects of GLP-1s on confidence, energy, and social behavior.</p>
-  <p class="meta"><a href="https://marginalrevolution.com/marginalrevolution/2026/06/glp-1-drugs-and-marriage.html">Marginal Revolution</a></p>
+  <h3>Peter Attia: Lung Cancer Screening in Never-Smokers</h3>
+  <p>Attia's piece argues the evidence supports lung cancer screening even for people who have never smoked, despite current guidelines not recommending it. This is a meaningful claim — lung cancer in never-smokers is not rare (it would rank as the 6th most common cancer if counted separately), and low-dose CT screening has strong evidence for early detection benefit in high-risk smokers. The argument here is that the risk calculus extends further than guidelines currently acknowledge.</p>
+  <p class="meta"><a href="https://peterattiamd.com/lung-cancer-screening-in-never-smokers/">Peter Attia MD</a></p>
 </div>
 
 <h2>💡 Worth Reading</h2>
 
 <div class="story">
-  <h3><a href="https://openai.com/index/gpt-5-immunology-mystery">How GPT-5 helped immunologist Derya Unutmaz solve a 3-year-old mystery</a></h3>
-  <p>A research immunologist used GPT-5 Pro to crack a puzzle about T cell behavior that had resisted three years of conventional investigation. The piece is a concrete, non-hype example of AI functioning as a genuine scientific collaborator — not writing boilerplate or summarizing papers, but generating a hypothesis that held up. The specific domain (cancer and autoimmune research) makes the stakes tangible.</p>
-  <p class="meta"><a href="https://openai.com/index/gpt-5-immunology-mystery">OpenAI Blog</a></p>
+  <h3><a href="https://scrollprize.org/firstscroll">An Entire Herculaneum Scroll Has Been Read for the First Time</a></h3>
+  <p>The Vesuvius Challenge has achieved what many considered impossible: a complete first read of a carbonized scroll buried by the eruption of Vesuvius in 79 AD. These scrolls were unrollable without destruction, and the project used AI-assisted X-ray tomography to virtually "unroll" and read the text. The scale of the cultural recovery potential here is enormous — there are hundreds of scrolls still unread from the Villa of the Papyri, potentially including lost works of Epicurus, Stoic philosophers, and other ancient thinkers.</p>
+  <p class="meta"><a href="https://news.ycombinator.com/item?id=44388123">Discussion</a></p>
 </div>
 
 <div class="story">
-  <h3><a href="https://stratechery.com/2026/my-vibe-coding-adventure-the-app-and-the-experience-ten-takeaways/">My Vibe Coding Adventure, The App and the Experience, Ten Takeaways</a></h3>
-  <p>Ben Thompson built an actual app using AI-assisted coding ("vibe coding") and draws ten concrete takeaways from the experience — not a hype piece, but a practitioner's honest account of where the workflow excels and where it breaks down. Worth reading as a calibration on what non-developers can actually accomplish today versus what the marketing implies.</p>
-  <p class="meta"><a href="https://stratechery.com/2026/my-vibe-coding-adventure-the-app-and-the-experience-ten-takeaways/">Stratechery</a></p>
+  <h3><a href="https://expression.fire.org/p/the-papers-please-era-of-the-internet">The 'Papers, Please' Era of the Internet Will Decimate Your Privacy</a></h3>
+  <p>FIRE (Foundation for Individual Rights and Expression) argues we're entering an era where accessing the internet requires identity verification at scale — with enormous implications for anonymous speech, political dissent, and the basic architecture of who can say what online. The piece connects legislative trends (age verification laws, etc.) to a broader surveillance infrastructure that, once built, is extremely difficult to dismantle. High signal for anyone thinking about the long-term structure of digital rights.</p>
+  <p class="meta"><a href="https://news.ycombinator.com/item?id=44389201">Discussion</a></p>
 </div>
 
 <div class="story">
-  <h3><a href="https://donaldrobertson.substack.com/p/this-darkness-is-not-that-darkness">This Darkness Is Not That Darkness</a></h3>
-  <p>Donald Robertson (Marcus Aurelius biographer, CBT/Stoicism scholar) writes about how a WWII veteran was helped by a precursor to CBT to stop confusing present fears with past trauma — the therapeutic move of distinguishing "this situation now" from "that situation then." This is a tight, applied piece connecting ancient Stoic cognitive practice to modern psychological technique, grounded in a real clinical case rather than abstract philosophy.</p>
-  <p class="meta"><a href="https://donaldrobertson.substack.com/p/this-darkness-is-not-that-darkness">Donald Robertson / Substack</a></p>
+  <h3><a href="https://simonwillison.net/2026/Jun/25/ai-and-liability/#atom-everything">AI and Liability — The German Google Ruling</a></h3>
+  <p>Bruce Schneier (via Simon Willison) on a German court ruling holding Google liable for errors in its AI-generated search overviews. The core legal principle being established: AI agents deployed by a company are that company's agents — the same as if they'd hired humans to write the output. This is a significant precedent that, if it spreads, would fundamentally change how AI output is treated legally and likely drive major changes in how AI-generated content is labeled, disclaimed, or limited.</p>
+  <p class="meta"><a href="https://simonwillison.net/2026/Jun/25/ai-and-liability/">Simon Willison</a></p>
 </div>
 
 <div class="story">
-  <h3><a href="https://blog.jim-nielsen.com/2026/blogging-stating-the-obvious/">Blogging can just be stating the obvious</a></h3>
-  <p>A short, well-argued essay making the case that the obvious is only obvious to you — to someone else it's a revelation, and articulating what you consider self-evident is often more useful than trying to say something novel. A useful mental model for anyone who holds back from writing or teaching because they feel they don't have anything original to contribute. Sits naturally alongside Stoic ideas about sharing what you've worked out.</p>
-  <p class="meta"><a href="https://news.ycombinator.com/item?id=">Hacker News</a> · <a href="https://blog.jim-nielsen.com/2026/blogging-stating-the-obvious/">jim-nielsen.com</a></p>
-</div>
-
-<div class="story">
-  <h3><a href="https://www.astralcodexten.com/p/should-people-avoid-whole-body-screening">Should People Avoid Whole-Body Screening Info?</a></h3>
-  <p>Scott Alexander (Astral Codex Ten) examines whether whole-body MRI screening is net positive for individuals — engaging seriously with the incidentaloma problem (finding ambiguous results that trigger anxiety and over-treatment) versus the early-detection upside. Connects directly to Attia's lung screening piece above and the broader question of how much medical information is actually beneficial to have.</p>
-  <p class="meta"><a href="https://www.astralcodexten.com/p/should-people-avoid-whole-body-screening">Astral Codex Ten</a></p>
-</div>
-
-<div class="story">
-  <h3><a href="https://figsinwintertime.substack.com/p/strangers-gods-and-bombs-why-we-keep">Strangers, gods, and bombs: why we keep killing each other (Parts I & II)</a></h3>
-  <p>Massimo Pigliucci (Stoic philosopher, City College NY) publishes a two-part essay tracing human violence from its evolutionary roots in tribal in-group/out-group psychology all the way to modern existential risks including nuclear weapons and AI. Part I focuses on the savanna-to-city arc of tribal violence; Part II asks how sacred violence and concentrated power have scaled into civilizational-level threats. Dense and serious — more philosophy of history than pop psychology.</p>
-  <p class="meta"><a href="https://figsinwintertime.substack.com/p/strangers-gods-and-bombs-why-we-keep">Figs in Winter (Pigliucci)</a> · <a href="https://figsinwintertime.substack.com/p/strangers-gods-and-bombs-why-we-keep-b52">Part II</a></p>
-</div>
-
-<h2>🤖 AI Capability Watch</h2>
-
-<div class="story">
-  <h3><a href="https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-computer-use-gemini-3-5-flash/">Computer use in Gemini 3.5 Flash</a></h3>
-  <p>Google has added computer-use capability to Gemini 3.5 Flash — meaning the model can now control a browser or desktop interface autonomously, not just respond to text prompts. This puts Google's fast/cheap model tier into direct competition with Anthropic's computer-use offering, which was previously a meaningful differentiator; the significance is that this capability is now appearing in a cost-optimized model, not just frontier ones.</p>
-  <p class="meta"><a href="https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-computer-use-gemini-3-5-flash/">Google Blog</a></p>
-</div>
-
-<div class="story">
-  <h3><a href="https://www.krea.ai/blog/krea-2-technical-report">Krea 2: SOTA open-weights 12B image model</a></h3>
-  <p>Krea has released a 12-billion-parameter open-weights image generation model claiming state-of-the-art quality — notable because it's open-weights at this capability level, meaning it can be run locally or fine-tuned without API dependency. The practical implication: high-quality image generation is moving into the same "runs on your hardware" tier that text generation reached a year ago.</p>
-  <p class="meta"><a href="https://news.ycombinator.com/item?id=">Hacker News</a> · <a href="https://www.krea.ai/blog/krea-2-technical-report">Krea</a></p>
-</div>
+  <h3><a href="https://donaldrobertson.substack.com/p/this-darkness-is-not-that-darkness">This Darkness Is Not That Darkness — Donald Robertson on CBT's Forgotten Ancestor</a></h3>
+  <p>Robertson
 </body>
 </html>

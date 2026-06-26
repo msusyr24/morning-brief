@@ -1,11 +1,11 @@
 {
   "current_suggestion": {
-    "channel_name": "Jonathan Little - Poker Coaching",
-    "channel_id": "UCOWqXBOz_hoBtaqwWN_kaQQ",
-    "youtube_handle": "@JonathanLittlePoker",
-    "pitch": "Your poker content skews heavily GTO \u2014 GTO Wizard, GTO Lab, Jared Alderman \u2014 but Jonathan Little brings a solver-informed yet exploitative, live-game-grounded perspective that steelmans the case for population-read adjustments over pure equilibrium play. He does hand history reviews, tournament strategy breakdowns, and interviews with elite players, with consistent depth on the mental game and decision-making under pressure, which bridges your poker and inner-game interests. Prolific output, recently active, and covers spots (ICM, live tells, big tournament hands) that your current lineup underserves."
+    "channel_name": "betraisefoldmovie",
+    "channel_id": "UC3iQWyDMohk6aVRw6vxAXIA",
+    "youtube_handle": "@BetRaiseFold",
+    "pitch": "Your poker channels (GTO Wizard, GTO Lab, Jared Alderman) are heavily GTO-solver-focused, but Bart Hanson's Crush Live Poker content steelmans a live-game, exploitative-adjustment lens that solver-pure content often undersells \u2014 the argument being that population tendencies in live games create massive edges that pure GTO ignores. Bart runs solo hand-history breakdowns and call-in formats that force applied reasoning rather than solver outputs. The depth is practical and analytical without being recreational-player generic."
   },
-  "shown_count": 3,
+  "shown_count": 1,
   "history": [
     "Brad Kearns",
     "Dr. Layne Norton",
@@ -33,6 +33,7 @@
     "EP Wealth Advisors (with Ben Felix-style rigor \u2014 try 'The Plain Bagel' instead)",
     "Jeff Nippard",
     "Andy Galpin",
-    "Jonathan Little - Poker Coaching"
+    "Jonathan Little - Poker Coaching",
+    "betraisefoldmovie"
   ]
 }
