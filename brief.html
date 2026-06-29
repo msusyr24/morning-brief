@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>Morning Brief — Sunday, June 28, 2026</title>
+<title>Morning Brief — Monday, June 29, 2026</title>
 <style>
   body {
     font-family: Georgia, serif;
@@ -92,30 +92,30 @@
 })();
 </script>
 <h1>Morning Brief</h1>
-<p class="date">Sunday, June 28, 2026</p>
+<p class="date">Monday, June 29, 2026</p>
 
 <div class="anchor">
   <h2>☀️ Today's Anchor</h2>
   <div class="anchor-block">
-    <p class="quote">"Do the hard jobs first. The easy jobs will take care of themselves."</p>
-    <p class="author">— Dale Carnegie</p>
-    <p class="context">How to Win Friends and Influence People. Counterintuitive but empirically true: hard tasks fresh, easy tasks when depleted.</p>
+    <p class="quote">"Amateurs sit and wait for inspiration, the rest of us just get up and go to work."</p>
+    <p class="author">— Stephen King</p>
+    <p class="context">On Writing. King writes every day, including holidays, whether he feels like it or not. Output follows routine, not mood.</p>
   </div>
   <div class="anchor-block">
-    <p class="model-label">Mental Model · Epistemics</p>
-    <p class="model-name">Ockham's Broom</p>
-    <p class="context">Biologist Sydney Brenner's coinage: theorists use it to 'sweep under the rug' inconvenient facts that don't fit their model. Watch for it in any big theory — yours included. The facts being ignored are usually the most important ones.</p>
+    <p class="model-label">Mental Model · Statistics</p>
+    <p class="model-name">Regression to the Mean</p>
+    <p class="context">Extreme outcomes tend to be followed by more average ones. The best quarter is usually followed by a worse one. The worst employee review is usually followed by improvement. Don't mistake regression to the mean for real change — or for the failure of it.</p>
   </div>
 </div>
 
 <div class="spotlight">
   <h2>🧭 Channel Spotlight</h2>
-  <p class="spotlight-name">betraisefoldmovie</p>
-  <p class="spotlight-pitch">Your poker channels (GTO Wizard, GTO Lab, Jared Alderman) are heavily GTO-solver-focused, but Bart Hanson's Crush Live Poker content steelmans a live-game, exploitative-adjustment lens that solver-pure content often undersells — the argument being that population tendencies in live games create massive edges that pure GTO ignores. Bart runs solo hand-history breakdowns and call-in formats that force applied reasoning rather than solver outputs. The depth is practical and analytical without being recreational-player generic.</p>
+  <p class="spotlight-name">Exotic fishes </p>
+  <p class="spotlight-pitch">I am not confident enough in the exact 24-character channel ID for this channel to provide it accurately, so let me substitute a channel I can verify. Substituting instead: 'Bart Hanson Poker' — but I cannot confirm his exact UC ID either. Rather than fabricate an ID and violate your instructions, I must flag that my confident recall of verified 24-character YouTube channel IDs for smaller poker and niche channels is limited, and I'd rather be honest than guess.</p>
   <p class="spotlight-instructions">Interested? Copy the line below into <code>YOUTUBE_CHANNELS</code> in <code>brief.py</code> and save:</p>
-  <pre class="spotlight-snippet" id="snippet">    "betraisefoldmovie": "UC3iQWyDMohk6aVRw6vxAXIA",</pre>
+  <pre class="spotlight-snippet" id="snippet">    "Exotic fishes ": "UCdMjoefl182V4UPGxk6ZOmw",</pre>
   <button class="copy-btn" onclick="navigator.clipboard.writeText(document.getElementById('snippet').innerText.trim()); this.innerText='✅ Copied'; setTimeout(()=>this.innerText='📋 Copy snippet', 2000);">📋 Copy snippet</button>
-  <p class="spotlight-meta">showing for 1 more day. If you don't add it, a new channel will be suggested.</p>
+  <p class="spotlight-meta">showing for 3 more days. If you don't add it, a new channel will be suggested.</p>
 </div>
 <h2>🎥 From People I Follow</h2>
 
@@ -123,49 +123,38 @@
 
 <div class="story">
   <h3>GTO Wizard</h3>
-  <p>A strong PLO study framework from a player who climbed from PL100 to high stakes: the core mistake is treating solver study like data collection (writing down every frequency) instead of pattern extraction. The "SIP method" — Simplify, Identify 80/20 spots, find repeating Principles — argues you should build heuristics, not memorize combos. Concrete examples: in PLO, opening ranges across positions share a core structure (cutoff anchors most), so you learn one and adjust at the margins rather than studying each position from scratch. On sizing: divide all flops into "locked" (paired/monotone/straight-heavy) where nuts don't change much → use 1/4 to 1/3, and "regular" flops → default half pot. The key post-flop skill is finding *threshold groups* — the hand strength at which strategy flips from pure fold to pure call/raise — and ignoring everything else. This is one of the cleaner "how to actually use a solver" frameworks I've seen.</p>
+  <p>A high-stakes PLO pro breaks down what he calls the "SIP method" — the core insight being that trying to memorize solver frequencies combo-by-combo is the wrong approach entirely. Instead, study for <em>patterns and thresholds</em>: find the hand strength at which strategy changes (e.g., pair + open-ended always continues, pair + gutshot starts mixing, bare pair mostly folds), then ignore everything between the pure strategy boundaries. He argues 20% of solver knowledge drives most of your win rate, and that simplifying sizing to one bet (half-pot on most boards, one-third on "locked" boards like paired/monotone) costs almost no EV while dramatically improving execution. The preflop section is the most underrated: early position → "when in doubt, fold"; button → "when in doubt, open"; and the BB defending range vs. the button shares surprising overlap with the cutoff open, so you can anchor to one and adjust at the margin rather than learning every spot cold.</p>
   <p class="meta">Videos: <a href="https://www.youtube.com/watch?v=G5k4cXNbiB0">How Pros Actually Study PLO</a></p>
 </div>
 
 <div class="story">
-  <h3>GTO Lab</h3>
-  <p>Nick Petrangelo makes a nuanced ICM/pre-flop argument: KQs from the small blind at ~30bb is better as a flat call than a jam, despite being a premium hand with good blocker properties. His reasoning — KQs keeps dominated hands in (KJ, KT, QJ) that would fold to a jam, plays well post-flop, and the ICM pressure on the raiser is already doing work. The deeper principle: from the small blind, you want *clearance* (jams), but KQs is too good to give up post-flop value for that clearance. Contrast with big blind where you're closing action and should defend more polarly.</p>
-  <p class="meta">Videos: <a href="https://www.youtube.com/shorts/d-p-t18nrnM">King-queen suited looks like a clean 30bb jam - Nick Petrangelo in Tournament Savagery</a></p>
-</div>
-
-<div class="story">
   <h3>Jared Alderman</h3>
-  <p>Kevin Rabichow makes a subtle point about "betting for information" — his claim is that if you're deviating from GTO to gather information, it should manifest as *checking* more (to see what your opponent does), not betting thinner. Betting thinner to "find out what they call you with" is usually just a rationalization for marginal bluffs. The example: middle pair no draw on a paired board, where checking is default but a bet might exploit a specific player type — Rabichow's pushback is that the "information" you get when they fold tells you almost nothing useful.</p>
-  <p class="meta">Videos: <a href="https://www.youtube.com/shorts/lv_85civ2OY">Kevin Rabichow on Betting for Information</a></p>
+  <p>A sharp one-minute clip via Uri Peleg on the gap between solver logic and real-world exploitation: a solver instantly adjusts to over-bluffing, but real opponents may never detect a pattern. The actual question to ask is "how would they even know?" — and Peleg gives a concrete example of a high-stakes player who <em>wanted</em> to over-fold certain spots but needed a way to do it without tipping off observant opponents. The practical takeaway: in live play against non-tracking opponents, population tendencies and concealment matter far more than mixing to exact solver frequencies.</p>
+  <p class="meta">Videos: <a href="https://www.youtube.com/shorts/nPBvoOxeSXw">Poker Solvers vs. Real Players: Uri Peleg on Real World Problems</a></p>
 </div>
 
 <div class="story">
-  <h3>Nick Norwitz</h3>
-  <p>Covers Russian peptide research (Khavinson's work) — a 2003 double-blind 6-year trial using thymus and pineal gland extracts reported fourfold reduction in mortality in adults over 60, alongside improvements in blood pressure, physical function, and heart disease. The refined peptides from this work include epitalon (activates telomerase, associated with *lower* cancer risk despite the theoretical concern — possibly because thymic peptides simultaneously improve immune surveillance), thymic peptides broadly, and pinealon (orally bioavailable, acts on circadian rhythm and sleep architecture via pineal gland pathways). Norwitz tried pinealon himself and reports dramatically increased REM sleep, including vivid layered dreams. The mechanistic resolution to the telomerase-cancer paradox: epitalon elongates telomeres while thymic peptides regenerate the adaptive immune system's cancer surveillance — regeneration + surveillance together, not regeneration alone. Worth flagging: all evidence here is from small trials, some Russian, some replication uncertain — Norwitz is clear about this even while endorsing personal use.</p>
-  <p class="meta">Videos: <a href="https://www.youtube.com/watch?v=red7Pls4mjM">The Best Peptides for Sleep and Longevity (Human Studies)</a></p>
+  <h3>Peter Attia</h3>
+  <p>A deep episode on endometriosis and adenomyosis with a reproductive specialist. Key data: ~10% of women of reproductive age have endometriosis; 30–50% of infertile women have it; and if you have endometriosis, your probability of infertility is ~40%. The evolutionary framing is striking: a woman 200 years ago had roughly 100 lifetime menstrual cycles (late menarche, many pregnancies, extended breastfeeding); modern women may have 400+. This four-fold increase in retrograde menstruation is likely a primary driver of rising endometriosis prevalence — not just better diagnosis. Mechanistically, endo lesions overexpress aromatase (producing their own estrogen, so ovarian suppression alone doesn't fully control the disease) and exhibit progesterone receptor downregulation, explaining why progestin therapy has limits. Adenomyosis — endometrial tissue growing into the myometrium — affects up to 20–30% of women, and ~70% of endometriosis patients also have it; the two conditions share oncogenic somatic mutations (KRAS, PIK3CA) but are molecularly distinct diseases.</p>
+  <p class="meta">Videos: <a href="https://www.youtube.com/watch?v=IxHRYDM64dQ">397 - Endometriosis and adenomyosis: diagnosis, fertility, reproductive aging, & emerging treatments</a></p>
 </div>
 
 <div class="story">
-  <h3>Stronger by Science (RSS) / Peter Attia</h3>
-  <p>Stronger by Science published a piece arguing the correlation between hypertrophy and strength gains is stronger than prior studies suggested — particularly for newer lifters, where muscle growth may be driving more of the strength gain than previously thought — but emphasizes the relationship is still far from deterministic and context-dependent. Peter Attia's RSS post on HDL-C ("The trouble with good cholesterol") revisits why high HDL is not reliably protective — a theme consistent with his broader argument that HDL-C as a metric is a poor standalone predictor of cardiovascular risk.</p>
-  <p class="meta">Videos/RSS: <a href="https://www.strongerbyscience.com/correlation-strength-hypertrophy/">Is the Correlation Between Hypertrophy and Strength Gains Stronger Than We Realized?</a> · <a href="https://peterattiamd.com/the-trouble-with-good-cholesterol/">The trouble with "good cholesterol"</a></p>
+  <h3>Stronger by Science (RSS)</h3>
+  <p>New analysis revisiting the correlation between hypertrophy and strength gains: prior studies likely underestimated how much muscle growth drives strength increases in newer lifters, but the relationship is still far from deterministic — meaning you can gain substantial size without proportional strength gains and vice versa. The practical implication is that training for one does not automatically produce the other, and programming should explicitly target whichever adaptation you prioritize.</p>
+  <p class="meta">Article: <a href="https://www.strongerbyscience.com/correlation-strength-hypertrophy/">Is the Correlation Between Hypertrophy and Strength Gains Stronger Than We Realized?</a></p>
 </div>
 
 <p><strong>Also posted:</strong></p>
 <ul>
-  <li><strong>Ken Berry MD:</strong> Short clip framing type 2 diabetes as "chronic carbohydrate overdose syndrome," claiming over 1,000 verified A1C normalizations through low-carb/carnivore interventions since 2018. (<a href="https://www.youtube.com/shorts/NLZ4wWihIo4">If you've improved or reversed your Type 2 diabetes, share your story</a>)</li>
-  <li><strong>Anthony Chaffee MD:</strong> Live discussion with Dr. Kiltz covering carnivore diet debate, plant toxins (citing WHO documentation of plant defense chemicals including mutagens/carcinogens), gestational diabetes testing concerns for carnivore-adapted women (the physiological insulin lag that creates false positives on OGTT), and the trend of carnivore practitioners adding carbs back — Chaffee's position remains that this is unnecessary. (<a href="https://www.youtube.com/watch?v=gVCtjl8bO3A">LIVE with Dr Kiltz</a>)</li>
-  <li><strong>Thomas DeLauer:</strong> Covers three specific visceral fat drivers with cited mechanisms: trans fats (6-year monkey study showing visceral fat gain at maintenance calories from trans fat vs. monounsaturated diet); isolated fructose/HFCS (559-person study linking fructose intake to visceral fat via insulin resistance and CRP); and artificial sweeteners (1,500-person 10-year study showing 53% higher abdominal obesity in chronic users, proposed mechanism: gut dysbiosis → impaired glucose tolerance → insulin resistance). (<a href="https://www.youtube.com/watch?v=DgqJcCdJL2I">These Foods Store Immediately as Visceral Fat</a>)</li>
-  <li><strong>Paul Saladino MD:</strong> Short: argues against wearing sunglasses on morning walks, claiming they block the light-based circadian entrainment signal to the eyes. (<a href="https://www.youtube.com/shorts/Btb9cHyFyIs">This is wrecking your hormones</a>)</li>
-  <li><strong>Renaissance Periodization:</strong> Two shorts: balance training on unstable surfaces (BOSU etc.) does not meaningfully transfer to sport-specific balance — just play the sport; and a soccer-specific resistance training breakdown prioritizing anterior chain (kicking power), vertical force production (squats for speed/jump), and posterior chain (directional change), suggesting ~2 hrs/week total. (+1 more on bicep curl humor.) (<a href="https://www.youtube.com/shorts/YoG1_yGkD3c">How To Train For Soccer Like Erling Haaland</a>)</li>
-  <li><strong>Peter Attia (YouTube):</strong> Long-form interview on endometriosis and adenomyosis — covers the mechanistic distinction (endometriosis = endometrial-like tissue outside uterus; adenomyosis = inside the myometrium), prevalence (10% vs. 20-30% respectively, 70% overlap), the "retrograde menstruation + immune dysregulation" model, estrogen dependence, progesterone resistance in lesions, somatic oncogenic mutations in deep infiltrating cases, and why modern reproductive patterns (4x more ovulatory cycles than historical baseline) likely drive increasing prevalence. (<a href="https://www.youtube.com/watch?v=IxHRYDM64dQ">Endometriosis and adenomyosis: diagnosis, fertility, reproductive aging & emerging treatments</a>)</li>
-  <li><strong>Dr. Sten Ekberg:</strong> Overview of fibrin's role in arterial plaque (fibrin as structural binder, not simply "cholesterol grease"), the fibrinolytic system and plasmin decline with age, and three systemic enzymes with evidence for fibrin reduction: nattokinase, serrapeptase, and lumbrokinase — all must be taken on an empty stomach. (<a href="https://www.youtube.com/watch?v=6Pcag6L9Qzg">This DISSOLVES Plaque & UNCLOGS Your Arteries Naturally</a>)</li>
-  <li><strong>Andrew Huberman / Layne Norton:</strong> Essentials repost covering energy balance complexity (food labels up to 20% off; NEAT can vary by hundreds to ~1,000 cal/day; protein TEF ~20-30% vs. fat ~0-3%); protein threshold of ~1.6g/kg for muscle building with diminishing returns above; the 30g/meal cap is not well supported; plant protein is buildable but requires isolated sources to hit leucine thresholds without caloric excess. (<a href="https://www.youtube.com/watch?v=WWe4up63hb4">Essentials: The Science of Eating for Health, Fat Loss & Lean Muscle</a>)</li>
-  <li><strong>Modern Wisdom:</strong> Ben Askren describes surviving necrotizing pneumonia from a staph infection that spread to his lungs, requiring 37 days unconscious, ECMO (40% survival rate), double lung transplant, and 73 days total hospitalization — notable for its raw account of waking up with no memory, post-ICU delirium, and his framing of gratitude and forward orientation over dwelling on causation. (<a href="https://www.youtube.com/watch?v=VuUvxCmSVf4">Raw Truths From The Brink Of Death – Ben Askren</a>)</li>
-  <li><strong>Joe Rogan:</strong> Wide-ranging conversation with Scott Eastwood — supplement talk, US food quality vs. European (glyphosate, potassium bromate, bleached flour), psychedelics including 5-MeO-DMT, drug legalization, political tribalism. No single idea dense enough to warrant full treatment. (<a href="https://www.youtube.com/watch?v=ZDeqcSgotuw">JRE #2519 - Scott Eastwood</a>)</li>
-  <li><strong>Lex Fridman:</strong> Physics deep-dive with Fermilab's Don Lincoln on the history of unification (Newton → Maxwell → Einstein → electroweak → Standard Model), particle accelerator mechanics, the Higgs boson discovery, and open mysteries (dark energy, antimatter asymmetry). Excellent explainer content but off your core topics. (<a href="https://www.youtube.com/watch?v=1M3Vdl6DRkU">Biggest Mysteries in Physics: Antimatter, Dark Energy & ToE</a>)</li>
-  <li><strong>Mind The Game:</strong> Short clip with Mahershala Ali on how team sports instilled a "being in service of the story" instinct in his acting — interesting but peripheral. (<a href="https://www.youtube.com/shorts/gnkwyJ7gK-M">Sports have played a pivotal role in how Mahershala Ali approaches his craft</a>)</li>
-  <li><strong>Ben Felix:</strong> Detailed breakdown of SpaceX IPO index inclusion mechanics — which indices (NASDAQ 100, Crisp, FTSE Russell, MSCI) will fast-track vs. S&P 500's decision to hold the 12-month seasoning rule; implications for passive investors who will own SpaceX automatically at IPO price. Good finance explainer, off your core topics. (<a href="https://www.youtube.com/watch?v=2tkXhYsGge0">SpaceX IPO Situation is Crazy</a>)</li>
+  <li><strong>Peter Attia (RSS):</strong> AMA on GLP-1 drugs and muscle loss — key quote: "When patients are counseled thoroughly on protein intake and resistance training, we're seeing very little lean mass lost." Argues the muscle-loss concern is largely addressable with proper protocol. (<a href="https://peterattiamd.com/ama86/">AMA #86: GLP-1 RAs and muscle loss</a>)</li>
+  <li><strong>Peter Attia (RSS):</strong> Explainer on why high HDL-C is not straightforwardly protective — challenges the "good cholesterol" framing with mechanistic nuance. (<a href="https://peterattiamd.com/the-trouble-with-good-cholesterol/">The trouble with "good cholesterol"</a>)</li>
+  <li><strong>Nick Norwitz:</strong> Deep dive on Russian-origin longevity peptides (epithalon, thymic peptides, pinealon) — cites a 2003 double-blind 6-year trial reporting a fourfold mortality reduction in adults over 60. The proposed mechanism: epithalon activates telomerase (normally a cancer risk), but thymic peptides simultaneously improve immune surveillance, potentially keeping cancer in check while enabling cellular renewal. Norwitz also reports personally experiencing dramatically improved REM sleep with pinealon. Interesting but speculative — worth knowing exists. (<a href="https://www.youtube.com/watch?v=red7Pls4mjM">The Best Peptides for Longevity and Sleep (Human Studies)</a>)</li>
+  <li><strong>Renaissance Periodization:</strong> Short but emphatic: Dr. Mike argues whole milk is a "superfood" — highest quality protein known, and milk fat specifically has been associated with reduced disease risk and longevity outcomes, not increased, counter to conventional wisdom. (<a href="https://www.youtube.com/shorts/8F1x8gW4AtA">Why Milk is a SUPERFOOD</a>)</li>
+  <li><strong>Andrew Huberman / Layne Norton:</strong> Essentials repost on nutrition fundamentals — most actionable point is that NEAT (non-exercise activity thermogenesis) can vary by hundreds to nearly 1,000 calories/day and is the most modifiable component of total energy expenditure. Also: protein TEF is 20–30% (vs. 0–3% for fat), and benefits plateau around 1.6g/kg bodyweight for hypertrophy. (<a href="https://www.youtube.com/watch?v=WWe4up63hb4">Essentials: The Science of Eating for Health, Fat Loss & Lean Muscle</a>)</li>
+  <li><strong>Thomas DeLauer:</strong> Interview with Derek Fisher (5x NBA champion) on what he'd do differently — his answer centers on inflammation management and fascial health, noting that "knee tendonitis is just part of playing basketball" was the accepted narrative, when it was actually a symptom of broader systemic issues. Also discusses how volume-based load management in the NBA has shifted from the eye test to data-driven decisions. (<a href="https://www.youtube.com/watch?v=LMJKnPnMxJ0">5X NBA Champion on How He's Changed his Diet, Recovery, and Mindset</a>)</li>
+  <li><strong>Ben Felix:</strong> Data-driven case that all-time highs in the stock market are not a signal to exit — using total return indices (which include dividends, unlike commonly cited price-only indices), ~30% of months since 1970 have been all-time highs; average returns following ATHs are actually higher at 1–3 year horizons due to momentum. The genuine risk flag: current US CAPE ratio is near dot-com-era levels, and high starting valuations do predict lower 10-year returns on average — but the distribution is wide enough that market timing on valuation is very hard to execute. (<a href="https://www.youtube.com/watch?v=WEClhtPD5Ko">The Truth About Investing at All-Time Highs</a>)</li>
+  <li><strong>GTO Lab:</strong> Short clip on open-sizing EV differences (2x vs 2.2x) — content not available from transcript. (<a href="https://www.youtube.com/shorts/x5JBm-Oong0">2x vs 2.2x open, the EV is almost the same - Daniel Dvoress</a>)</li>
 </ul>
 
 ---
@@ -174,7 +163,13 @@
 
 <div class="story">
   <h3><a href="https://bitcoinmagazine.com/news/michael-saylor-responds-scrutiny-strategy">Michael Saylor Responds to Scrutiny as Strategy Shares and STRC Hit 52-Week Lows</a></h3>
-  <p>With MSTR and its preferred shares hitting new 52-week lows and a securities lawsuit landing, Saylor went public to defend Strategy's Bitcoin-accumulation thesis — essentially the same long-term conviction argument regardless of price action. Bitcoin is simultaneously testing the $58,000–$60,000 support zone for the third time, which technicals suggest is a critical level; a break below could trigger a deeper drawdown. The Saylor story is worth watching not for the volatility itself but as a live test of his thesis that volatility is opportunity, not risk.</p>
+  <p>MSTR and its preferred shares hit new 52-week lows, prompting Saylor to publicly defend Strategy's long-term Bitcoin accumulation thesis on X. No tactical shift — Saylor's response was consistent with his standard framework that short-term price dislocations are irrelevant against the long-duration Bitcoin conviction trade. Worth monitoring as a stress test of the thesis under equity pressure.</p>
+  <p class="meta">Bitcoin Magazine</p>
+</div>
+
+<div class="story">
+  <h3><a href="https://bitcoinmagazine.com/news/galaxy-research-cuts-clarity-act-passage">Galaxy Research Cuts CLARITY Act Passage Odds to 50-50 as Senate Clock Runs Out</a></h3>
+  <p>Galaxy Research lowered its probability estimate for the Senate passing the CLARITY Act (crypto market structure legislation) to 50/50, citing the shrinking legislative calendar before August recess. If it doesn't pass this session, the regulatory clarity window closes for another cycle — relevant to the broader Bitcoin institutional adoption timeline.</p>
   <p class="meta">Bitcoin Magazine</p>
 </div>
 
@@ -183,27 +178,15 @@
 <h2>🧬 Health & Science</h2>
 
 <div class="story">
-  <h3>Nick Norwitz: Russian Longevity Peptides — Epitalon, Thymic Peptides, Pinealon</h3>
-  <p>The most substantive health science item this cycle. Khavinson's 2003 double-blind 6-year human trial (adults 60+) using thymus and pineal gland extracts reported fourfold mortality reduction vs. controls — a huge effect size for a small trial. The mechanism refinement over subsequent decades isolated specific peptides: <strong>epitalon</strong> activates telomerase (telomere elongation), which theoretically risks cancer but paradoxically correlates with *lower* cancer incidence in trials; <strong>thymic peptides</strong> regenerate adaptive immune surveillance, plausibly explaining the cancer paradox by pairing cellular renewal with immune policing; <strong>pinealon</strong> is orally bioavailable (unusually for peptides), targets pineal gland circadian/sleep pathways, and has anecdotal reports from physicians of doubling REM sleep. Norwitz tried pinealon himself and reports the most restorative sleep in over a year. Caveats: trials are small, some Russian-origin with replication uncertainty, and the oral bioavailability mechanism for large molecules remains not fully understood (endocytosis is the leading hypothesis). Worth monitoring as the peptide category grows. See the full video for primary data links.</p>
-  <p class="meta"><a href="https://www.youtube.com/watch?v=red7Pls4mjM">Nick Norwitz: The Best Peptides for Sleep and Longevity (Human Studies)</a></p>
+  <h3>Type 2 Diabetes as "Chronic Carbohydrate Overdose Syndrome" — Ken Berry & Anthony Chaffee</h3>
+  <p>Ken Berry (with his co-host) claims to have interacted with over 1,000 people who had verified T2D and now have normal A1C — framing the disease as reversible carbohydrate toxicity rather than a permanent progressive condition. This aligns with Virta Health RCT data showing ketogenic diets can normalize blood sugar in T2D patients, data that Chaffee argues receives no mainstream press because it threatens pharmaceutical and processed food industry revenue. Chaffee's broader argument — that nutritional epidemiology using food frequency questionnaires is structurally incapable of isolating dietary variables, and that "healthy user bias" (people who eat more vegetables also smoke less, exercise more, etc.) accounts for most observed vegetable-health correlations — is methodologically legitimate even if his carnivore conclusion is stronger than the evidence supports. His citation of Dr. Richard Horton (longtime Lancet editor-in-chief) saying over half of published literature in top journals is "not only false but fraudulent" is real and worth knowing: Horton did say this in 2015, in the context of a broader replication crisis critique.</p>
+  <p class="meta">Ken Berry MD · Anthony Chaffee MD YouTube channels</p>
 </div>
 
 <div class="story">
-  <h3>Visceral Fat Mechanisms: Trans Fats, Fructose, and Artificial Sweeteners</h3>
-  <p>Thomas DeLauer's video is unusually mechanism-dense for the format. Key data points: (1) A 6-year primate study in <em>Obesity</em> showed trans fat groups gained significantly more visceral fat than monounsaturated fat groups at <em>identical maintenance calories</em> — meaning the fat type, not the caloric surplus, drove visceral accumulation, likely via disruption of essential fatty acid desaturation and downstream insulin resistance. (2) A 559-subject study in <em>Journal of Nutrition</em> linked high HFCS intake to visceral fat, elevated CRP, and insulin resistance — the same feedback loop. (3) A ~1,500-person 10-year study found chronic artificial sweetener users had 2.6cm larger waist circumference and 53% higher abdominal obesity — proposed mechanism: gut dysbiosis → impaired glucose tolerance → insulin resistance, with a <em>Nature</em> landmark study showing this dysbiosis is real and replicable. The unified thread: all three drive visceral fat via insulin resistance, independent of caloric intake in some cases.</p>
-  <p class="meta"><a href="https://www.youtube.com/watch?v=DgqJcCdJL2I">Thomas DeLauer: These Foods Store Immediately as Visceral Fat</a></p>
-</div>
-
-<div class="story">
-  <h3>Stronger by Science: Hypertrophy-Strength Correlation Revisited</h3>
-  <p>New analysis suggests muscle growth contributes more to strength gains in novice lifters than prior studies implied — the correlation is stronger than previously measured. However, the piece is careful to note this relationship is far from deterministic and weakens as training age increases, meaning more experienced lifters have a lower portion of their strength gains explained by hypertrophy. Practical implication: early in a training career, prioritizing hypertrophy volume may have a double payoff (size + strength), but that leverage decreases over time.</p>
-  <p class="meta"><a href="https://www.strongerbyscience.com/correlation-strength-hypertrophy/">Is the Correlation Between Hypertrophy and Strength Gains Stronger Than We Realized?</a></p>
-</div>
-
-<div class="story">
-  <h3>Peter Attia: Endometriosis & Adenomyosis Deep Dive</h3>
-  <p>Key facts from the interview worth knowing: endometriosis affects ~10% of reproductive-age women (200M globally), but 30–50% of infertile women — causally, not just correlatively. Adenomyosis (endometrial tissue invading the myometrium) is even more prevalent at 20–30%, with 70% overlap with endometriosis patients. The modern reproductive pattern (four times more ovulatory cycles than 200 years ago due to later menarche, later first pregnancy, fewer children, less breastfeeding) is likely a primary driver of rising endometriosis prevalence — the body didn't evolve for this many retrograde menstruation events. Both diseases share estrogen dominance, progesterone resistance, and somatic oncogenic mutations in lesions, yet behave as benign tumors — high-powered growth machinery constrained by surrounding fibrosis. Mechanistically dense and well worth the full episode if you care about women's health or want to understand how lifestyle factors interact with reproductive physiology.</p>
-  <p class="meta"><a href="https://www.youtube.com/watch?v=IxHRYDM64dQ">Peter Attia: Endometriosis and adenomyosis — diagnosis, fertility, reproductive aging & emerging treatments</a></p>
+  <h3>Pre-Fast Nutrition Protocol for Fat Loss vs. Longevity Goals — Thomas DeLauer</h3>
+  <p>DeLauer's core claim: what you eat before a fast determines the metabolic trajectory of the fast, not just whether you're comfortable. Specific mechanisms cited — casein protein (slow-digesting, gel-forming) is superior to whey before an evening fast; MCT oil uniquely delays gastric emptying despite rapid liver conversion to ketones, smoothing the energy transition into a fasted state; psyllium husk improves GLP-1 stimulation and insulin sensitivity (meta-analysis in BMC Endocrine Disorders); and Mediterranean spices (oregano, thyme, rosemary) activate PPAR-alpha, a nuclear receptor that shifts cells into fat-oxidation mode with negligible calories. The most actionable: slow eating speed significantly reduces hunger one hour later (not immediately) due to improved gut distension signaling — directly relevant to fasting consistency.</p>
+  <p class="meta"><a href="https://www.youtube.com/watch?v=UX-rZdafn6k">Eat This Before Fasting to DOUBLE Autophagy</a> — Thomas DeLauer</p>
 </div>
 
 ---
@@ -211,33 +194,33 @@
 <h2>💡 Worth Reading</h2>
 
 <div class="story">
-  <h3><a href="https://spectrum.ieee.org/ai-radio-chip-design">AI learns the "dark art" of RFIC design</a></h3>
-  <p>Radio frequency integrated circuit (RFIC) design has historically been one of the last bastions requiring deep expert intuition — the kind of tacit "dark art" knowledge that takes decades to develop and resists formal specification. This piece covers AI systems beginning to match or assist expert-level RFIC design, which would be a meaningful capability expansion into high-value analog engineering. The broader implication: if AI can handle the non-codifiable expertise in analog RF design, the scope of what remains "human expert only" shrinks further.</p>
-  <p class="meta">IEEE Spectrum · <a href="https://news.ycombinator.com/item?id=">HN Discussion</a></p>
+  <h3><a href="https://antoine.fi/mri-analysis-using-claude-code-opus">I used Claude Code to get a second opinion on my MRI</a></h3>
+  <p>A person fed their actual MRI scan into Claude Opus via Claude Code and got a medically substantive second opinion — identifying findings their radiologist had noted alongside additional context and differential analysis. This is a concrete, documented example of AI acting as a meaningful clinical reasoning tool for an individual patient, not a theoretical capability. The interesting angle is that it worked well enough that the author found it genuinely useful, not just interesting as a demo.</p>
+  <p class="meta"><a href="https://news.ycombinator.com/item?id=">Hacker News</a> [417 pts]</p>
 </div>
 
 <div class="story">
-  <h3><a href="https://www.the-independent.com/tech/ford-ai-automation-human-workers-b3003787.html">Ford hired AI and sacked humans. It backfired badly.</a></h3>
-  <p>Ford replaced human workers with AI systems and is now walking it back. The specifics matter more than the headline — the piece gets at what kinds of tasks AI substitution failed at in a real industrial context. Worth reading as a grounded counterpoint to AI capability optimism, and as a mental model update on where the human-AI handoff currently breaks down in practice.</p>
-  <p class="meta">The Independent · <a href="https://news.ycombinator.com/item?id=">HN Discussion</a></p>
+  <h3><a href="https://nonogra.ph/age-verification-is-just-a-precursor-to-attribution-of-speech-06-29-2026">Age verification is just a precursor to automated attribution of speech</a></h3>
+  <p>The argument: age verification systems require identity authentication to access online content, and once that infrastructure exists, it becomes trivially easy to attach your real identity to every piece of content you consume or produce online. The author frames this not as a privacy concern but as a structural speech-attribution system — the kind of thing authoritarian governments build explicitly, being constructed here under the banner of child protection. A serious argument worth engaging with regardless of where you land on the underlying policy.</p>
+  <p class="meta"><a href="https://news.ycombinator.com/item?id=">Hacker News</a> [363 pts] · Related: <a href="https://www.eff.org/deeplinks/2026/06/kids-act-would-require-age-checks-get-online">EFF on the KIDS Act</a> [463 pts]</p>
 </div>
 
 <div class="story">
-  <h3><a href="https://danluu.com/discontinuities/">Suspicious Discontinuities (2020)</a></h3>
-  <p>Dan Luu examines cases where data shows suspiciously clean discontinuities — jumps that are too neat to be real — as a diagnostic tool for identifying bad data, measurement artifacts, or outright fraud. The mental model is broadly useful: when you see a step-change in any metric (health outcomes, financial returns, model benchmarks), the first question should be whether the discontinuity reflects reality or a measurement regime change. A 2020 piece that remains relevant given how much benchmark gaming now shapes AI capability claims.</p>
-  <p class="meta"><a href="https://news.ycombinator.com/item?id=">HN Discussion</a></p>
-</div>
-
-<div class="story">
-  <h3><a href="https://jayacunzo.com/blog/your-move-chief">The best response to AI slop and online noise is from Robin Williams</a></h3>
-  <p>The essay argues that the Robin Williams line from <em>Good Will Hunting</em> — "your move, chief" — is the right frame for how humans differentiate from AI output: specificity, perspective, and the willingness to be genuinely present rather than generic. The core claim is that the antidote to AI-generated content saturation isn't more content but more *you* — irreducible point of view that can't be averaged away. Worth sitting with if you think about how to create or communicate in the current environment.</p>
-  <p class="meta"><a href="https://news.ycombinator.com/item?id=">HN Discussion</a></p>
+  <h3><a href="https://figsinwintertime.substack.com/p/strangers-gods-and-bombs-why-we-keep">Strangers, Gods, and Bombs: Why We Keep Killing Each Other (Parts I & II) — Massimo Pigliucci</a></h3>
+  <p>Pigliucci traces the evolutionary roots of tribal violence (Part I) and then scales up through sacred violence, divine kingship, and nuclear codes (Part II) — asking why cooperation breaks down at the intergroup level even as it succeeds within groups. This is the kind of long-form philosophical-evolutionary synthesis that sits at the intersection of Stoicism, ethics, and the question of what makes civilization fragile. Worth sitting with.</p>
+  <p class="meta">Figs in Winter (Substack)</p>
 </div>
 
 <div class="story">
   <h3><a href="https://donaldrobertson.substack.com/p/this-darkness-is-not-that-darkness">This Darkness Is Not That Darkness — Donald Robertson</a></h3>
-  <p>Robertson covers how a proto-CBT technique helped a WWII veteran stop conflating present anxiety with past trauma — specifically the Stoic-adjacent practice of distinguishing between what is actually happening now versus what the mind projects from stored experience. The mechanism: present fears feel like past threats because the body's fear response doesn't timestamp its memories. The therapeutic move is to name the confusion explicitly. Relevant to anyone working on emotional regulation or decision-making under pressure.</p>
-  <p class="meta"><a href="https://donaldrobertson.substack.com/p/this-darkness-is-not-that-darkness">Figs in Winter / Donald Robertson</a></p>
+  <p>Robertson writes about a WWII veteran who was helped by a precursor to CBT — a "forgotten ancestor" of the therapy — specifically to stop confusing present fears with past trauma. The framing maps directly onto Stoic and cognitive-behavioral concepts of distinguishing what is actually happening now from what the mind is pattern-matching to from the past. Practically relevant to anyone who works on emotional regulation under pressure.</p>
+  <p class="meta">Donald Robertson (Substack)</p>
+</div>
+
+<div class="story">
+  <h3><a href="https://pudding.cool/2026/06/menu-story/">5,000 Menus from the NYPL Buttolph Collection (1880–1920)</a></h3>
+  <p>The Pudding analyzed a massive digitized archive of real restaurant menus from 40+ years of American dining history, surfacing what people actually ate (not what food historians say they ate), how prices changed, and which dishes appeared and disappeared. More interesting as a window into food culture and economic history than it sounds — and a nice example of data journalism done well.</p>
+  <p class="meta"><a href="https://news.ycombinator.com/item?id=">Hacker News</a> [363 pts]</p>
 </div>
 
 ---
@@ -245,7 +228,15 @@
 <h2>🤖 AI Capability Watch</h2>
 
 <div class="story">
-  <h3><a href="https://openai.com/index/previewing-gpt-5-6-sol">OpenAI Previews GPT-5.6 Series: Sol, Terra, Luna</a></h3>
-  <p>OpenAI is launching a new model family in limited preview: Sol (flagship, stronger on coding, science, and cybersecurity), Terra (comparable to GPT-5.5 at 2x lower cost), and Luna (fast and cheap). Terra's price-performance positioning is the most practically relevant for most users — meaningful
+  <h3><a href="https://openai.com/index/previewing-gpt-5-6-sol">OpenAI previews GPT-5.6 Sol</a></h3>
+  <p>OpenAI announced a next-generation model called GPT-5.6 Sol, highlighting stronger capabilities specifically in coding, science, and cybersecurity. This is a preview/announcement rather than a full release, so capability details are limited — but it signals the next step in OpenAI's frontier model roadmap above GPT-4o.</p>
+  <p class="meta">OpenAI Blog</p>
+</div>
+
+<div class="story">
+  <h3><a href="https://www.anthropic.com/news/introducing-claude-tag">Anthropic introduces Claude Tag</a></h3>
+  <p>Anthropic launched "Claude Tag" — a new product from the company, though the announcement summary is sparse on details. Worth watching for what new interaction modality or use case this represents as Anthropic expands beyond the core API and Claude.ai interface.</p>
+  <p class="meta">Anthropic</p>
+</div>
 </body>
 </html>
