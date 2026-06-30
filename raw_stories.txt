@@ -1,116 +1,113 @@
 === HACKER NEWS ===
-1. [327 pts] HackerRank open sourced its ATS. My resume scored 90/100. Oh wait 74. No – 88
-   https://danunparsed.com/p/hackerrank-open-source-ats
+1. [825 pts] Qwen 3.6 27B is the sweet spot for local development
+   https://quesma.com/blog/qwen-36-is-awesome/
 
-2. [796 pts] GLM 5.2 beats Claude in our benchmarks
-   https://semgrep.dev/blog/2026/we-have-mythos-at-home-glm-52-beats-claude-in-our-cyber-benchmarks/
+2. [445 pts] .self: A new top-level domain designed to support self-hosting
+   https://hccf.onmy.cloud/2026/06/21/reclaiming-our-digital-selves-hccfs-vision-for-a-human-centered-top-level-domain/
 
-3. [28 pts] Replacing Systemd with OpenRC in Debian
-   https://danielcordova.me/blog/debian-openrc/
+3. [380 pts] Free the Icons
+   https://weblog.rogueamoeba.com/2026/06/26/free-the-icons/
 
-4. [55 pts] Dissecting Apple's Sparse Image Format (ASIF)
-   https://schamper.dev/dissecting-apples-sparse-image-format-asif/
+4. [97 pts] Memory Safe Context Switching
+   https://fil-c.org/context_switches
 
-5. [383 pts] Age verification is just a precursor to automated attribution of speech
-   https://nonogra.ph/age-verification-is-just-a-precursor-to-attribution-of-speech-06-29-2026
+5. [100 pts] LongCat-2.0, a large-scale MoE model with 1.6T total and 48B Active
+   https://longcat.chat/blog/longcat-2.0/
 
-6. [54 pts] Herdr: Agent multiplexer that lives in your terminal
-   https://github.com/ogulcancelik/herdr
+6. [44 pts] Old Computer Challenge
+   http://occ.sdf.org/
 
-7. [29 pts] Lore – Give your coding agent the decisions your team made
-   https://github.com/itsthelore/rac-core
+7. [51 pts] Exploring PDP-1 Lisp (1960)
+   https://obsolescence.dev/pdp1-lisp-introduction.html
 
-8. [283 pts] Historical memory prices 1960-2026
-   https://dam.stanford.edu/memory-prices.html
+8. [394 pts] Rocketlab acquires Iridium
+   https://investors.rocketlabcorp.com/news-releases/news-release-details/rocket-lab-acquire-iridium-historic-deal-creating-fully
 
-9. [363 pts] 5k menus from the New York Public Library’s Buttolph Collection (1880-1920)
-   https://pudding.cool/2026/06/menu-story/
+9. [76 pts] Linux for the Sega MegaDrive
+   https://github.com/LinuxMD/linuxmd
 
-10. [14 pts] 1.38 Millimeter Microcontroller
-   https://www.ti.com/product/MSPM0C1104
+10. [15 pts] Open Source Low Tech
+   https://opensourcelowtech.org/
 
-11. [417 pts] I used Claude Code to get a second opinion on my MRI
-   https://antoine.fi/mri-analysis-using-claude-code-opus
+11. [69 pts] Popping the GPU Bubble
+   https://moondream.ai/blog/popping-the-gpu-bubble
 
-12. [26 pts] We found a bug in the hyper HTTP library
-   https://blog.cloudflare.com/hyper-bug/
+12. [192 pts] Ornith-1.0: self-improving open-source models for agentic coding
+   https://github.com/deepreinforce-ai/Ornith-1
 
-13. [90 pts] Knowledge Distillation of Black-Box Large Language Models (2024)
-   https://arxiv.org/abs/2401.07013
+13. [11 pts] The end of the AArch64 desktop experiment
+   https://marcin.juszkiewicz.com.pl/2026/06/26/the-end-of-the-aarch64-desktop-experiment/
 
-14. [53 pts] Deciphering basmala
-   https://blog.plover.com/lang/bismillah.html
+14. [65 pts] Study suggests most Americans would be healthier without daylight saving time
+   https://med.stanford.edu/news/all-news/2025/09/daylight-saving-time.html
 
-15. [273 pts] Show HN: Zanagrams
-   https://zanagrams.com/
+15. [51 pts] How to corrupt an SQLite database file
+   https://www.sqlite.org/howtocorrupt.html
 
-16. [145 pts] Tokenmaxxing is dead, long live tokenmaxxing
-   https://12gramsofcarbon.com/p/agentics-tech-things-tokenmaxxing
+16. [508 pts] US Supreme Court rules geofence warrants require constitutional protections
+   https://www.theguardian.com/us-news/2026/jun/29/supreme-court-geofence-warrants-case-decision
 
-17. [11 pts] US Grid Constraints: Towards 40GW+ of Behind-the-Meter Datacenter by 2028?
-   https://newsletter.semianalysis.com/p/us-grid-constraints-towards-40gw
+17. [228 pts] One million passports leaked online
+   https://www.theverge.com/tech/947157/passports-data-breach-cannabis-club-systems-nefos-puffpal
 
-18. [107 pts] TOP500 at ISC’26: We have a New Number 1 Supercomputer
-   https://chipsandcheese.com/p/top500-at-isc26-we-have-a-new-number
+18. [48 pts] Zig – SPIR-V Backend Progress
+   https://ziglang.org/devlog/2026/#2026-06-26
 
-19. [463 pts] The KIDS Act would require age checks to get online
-   https://www.eff.org/deeplinks/2026/06/kids-act-would-require-age-checks-get-online
+19. [152 pts] Apple Neural Engine: Architecture, Programming, and Performance
+   https://arxiv.org/abs/2606.22283
 
-20. [57 pts] The Baffling World of Masayoshi Son's Presentations (2020)
-   https://www.bloomberg.com/news/features/2020-06-23/golden-geese-and-unicorns-inside-the-eccentric-presentations-of-masayoshi-son
+20. [286 pts] A native graphical shell for SSH
+   https://probablymarcus.com/blocks/2026/06/28/native-graphical-shell-for-SSH.html
 
-21. [388 pts] Professor denounces mass AI fraud on an exam at Brown
-   https://english.elpais.com/education/2026-06-28/ai-fraud-at-brown-university-academic-integrity-is-at-risk.html
+21. [66 pts] Kb – Prolog Knowledge Base
+   https://github.com/mat-mgm/kb-prolog
 
-22. [23 pts] The Forgotten Castles of the Garamantes
-   https://www.wildmanlife.com/the-forgotten-castles-of-the-garamantes/
+22. [201 pts] WATaBoy: JIT-Ing Game Boy Instructions to WASM Beats a Native Interpreter
+   https://humphri.es/blog/WATaBoy/
 
-23. [152 pts] Model Training as Code
-   https://aleph-alpha.com/en/blog/model-training-as-code/
+23. [195 pts] Dark Sky Lighting
+   https://www.savingourstars.org/darkskylighting#whatisdarkskylighting
 
-24. [110 pts] Working around dragons with the Lemote Yeeloong laptop and OpenBSD
-   http://oldvcr.blogspot.com/2026/06/working-around-dragons-with-lemote.html
+24. [205 pts] South Korea to spend $1T on more memory chip production and humanoid robots
+   https://arstechnica.com/ai/2026/06/south-korea-to-spend-1t-on-more-memory-chip-production-and-humanoid-robots/
 
-25. [368 pts] Librepods: AirPods liberated
-   https://github.com/librepods-org/librepods
+25. [45 pts] Alan Kay on the meaning of "object-oriented programming" (2003)
+   https://notes.shixiangxi.com/en/docs/appendix/alan-kay-on-oop/
 
-26. [182 pts] The Boeing 747 begins its final descent
-   https://www.theatlantic.com/magazine/2026/07/boeing-747-retirement/687304/
+26. [130 pts] Wallace the 6 inch f/2.8 telescope, building it, and hiking with it
+   https://lucassifoni.info/blog/hiking-with-wallace/
 
-27. [202 pts] A way to exclude sensitive files issue still open for OpenAI Codex
-   https://github.com/openai/codex/issues/2847
+27. [244 pts] What happens when you run a CUDA kernel?
+   https://fergusfinn.com/blog/what-happens-when-you-run-a-gpu-kernel/
 
-28. [131 pts] Daisugi, the Japanese technique of growing trees out of other trees (2020)
-   https://www.openculture.com/2020/10/daisugi.html
+28. [18 pts] Philae's extraordinary comet landing relived (2024)
+   https://www.esa.int/Science_Exploration/Space_Science/Rosetta/Philae_s_extraordinary_comet_landing_relived
 
-29. [82 pts] More evidence is consistent with possible ancient life on Mars (2025)
-   https://www.cbc.ca/radio/quirks/more-evidence-of-life-on-mars-but-still-no-life-1.7649645
+29. [138 pts] Working With AI: A concrete example
+   https://htmx.org/essays/working-with-ai/
 
-30. [105 pts] Examining circuit boards from the Space Shuttle's I/O Processor
-   https://www.righto.com/2026/06/space-shuttle-io-processor-boards.html
+30. [513 pts] 30-year sentence for transporting zines is a five-alarm fire for free speech
+   https://theintercept.com/2026/06/26/daniel-sanchez-estrada-zines-prairieland-free-speech/
 
 
 === RSS ===
+[ai] Simon Willison: HTML table extractor
+  https://simonwillison.net/2026/Jun/29/html-table-extractor/#atom-everything
+
+[ai] Simon Willison: Count the number of Safari tabs
+  https://simonwillison.net/2026/Jun/29/safari-tab-count/#atom-everything
+
+[ai] Simon Willison: Ornith-1.0: Self-Scaffolding LLMs for Agentic Coding
+  https://simonwillison.net/2026/Jun/29/ornith/#atom-everything
+
 [ai] Simon Willison: Quoting Jon Udell
   https://simonwillison.net/2026/Jun/28/jon-udell/#atom-everything
 
 [ai] Simon Willison: Hack Your Summer
   https://simonwillison.net/2026/Jun/28/hack-your-summer/#atom-everything
 
-[ai] Simon Willison: Quoting Dean W. Ball
-  https://simonwillison.net/2026/Jun/26/dean-w-ball/#atom-everything
-
-[ai] Simon Willison: Quoting Timothy B. Lee
-  https://simonwillison.net/2026/Jun/26/timothy-b-lee/#atom-everything
-
-[ai] Simon Willison: What happened after 2,000 people tried to hack my AI assistant
-  https://simonwillison.net/2026/Jun/26/hack-my-ai-assistant/#atom-everything
-
-[ideas] Paul Graham: How to Earn a Billion Dollars
-  https://paulgraham.com/earn.html
-
-[ideas] Paul Graham: How to Convert Between Wealth and Income Tax
-  https://paulgraham.com/winc.html
+[bitcoin] The Pomp Letter: The Real Economy Comeback No One Saw Coming
+  https://pomp.substack.com/p/the-real-economy-comeback-no-one
 
 [health] Peter Attia: #398 ‒ AMA #86: GLP-1 RAs and muscle loss: new data, better questions, and how to preserve muscle during weight loss
   https://peterattiamd.com/ama86/
@@ -118,50 +115,11 @@
 [health] Peter Attia: The trouble with “good cholesterol”
   https://peterattiamd.com/the-trouble-with-good-cholesterol/
 
-[ideas] Marginal Revolution: Will future biomedical advances be low marginal cost?
-  https://marginalrevolution.com/marginalrevolution/2026/06/will-future-biomedical-advances-be-low-marginal-cost.html?utm_source=rss&utm_medium=rss&utm_campaign=will-future-biomedical-advances-be-low-marginal-cost
-
-[ideas] Marginal Revolution: Typewriters and fertility
-  https://marginalrevolution.com/marginalrevolution/2026/06/typewriters-and-fertility.html?utm_source=rss&utm_medium=rss&utm_campaign=typewriters-and-fertility
-
-[ideas] Marginal Revolution: Sunday assorted links
-  https://marginalrevolution.com/marginalrevolution/2026/06/sunday-assorted-links-573.html?utm_source=rss&utm_medium=rss&utm_campaign=sunday-assorted-links-573
-
-[ideas] Marginal Revolution: Chloe vs. History
-  https://marginalrevolution.com/marginalrevolution/2026/06/chloe-vs-history.html?utm_source=rss&utm_medium=rss&utm_campaign=chloe-vs-history
-
-[ideas] Marginal Revolution: My ARC talk on AI and jobs
-  https://marginalrevolution.com/marginalrevolution/2026/06/my-arc-talk-on-ai-and-jobs.html?utm_source=rss&utm_medium=rss&utm_campaign=my-arc-talk-on-ai-and-jobs
-
-[wisdom] Figs in Winter (Pigliucci): From the archive
-  https://figsinwintertime.substack.com/p/from-the-archive-21e
-
-[wisdom] Figs in Winter (Pigliucci): Strangers, gods, and bombs: why we keep killing each other (part II)
-  https://figsinwintertime.substack.com/p/strangers-gods-and-bombs-why-we-keep-b52
-
-[wisdom] Figs in Winter (Pigliucci): Strangers, gods, and bombs: why we keep killing each other (part I)
-  https://figsinwintertime.substack.com/p/strangers-gods-and-bombs-why-we-keep
-
-[bitcoin] Bitcoin Magazine: Galaxy Research Cuts CLARITY Act Passage Odds to 50-50 as Senate Clock Runs Out
-  https://bitcoinmagazine.com/news/galaxy-research-cuts-clarity-act-passage
-
-[bitcoin] Bitcoin Magazine: Billionaire Investor Jeremy Grantham: Bitcoin Will ‘Dwindle Away With a Whimper’
-  https://bitcoinmagazine.com/news/billionaire-jeremy-grantham-bitcoin
-
-[bitcoin] Bitcoin Magazine: Michael Saylor Responds to Scrutiny as Strategy Shares and STRC Hit 52-Week Lows
-  https://bitcoinmagazine.com/news/michael-saylor-responds-scrutiny-strategy
-
-[bitcoin] Bitcoin Magazine: ‘I See Volatility as Opportunity’: Bitcoin Tests Critical Support as Key Level Hangs in the Balance
-  https://bitcoinmagazine.com/news/i-see-volatility-as-opportunity-bitcoin
-
 [ai] Anthropic News: Introducing Claude Tag
   https://www.anthropic.com/news/introducing-claude-tag
 
 [ai] Anthropic News: Anthropic opens Seoul office and announces new partnerships across the Korean AI ecosystem
   https://www.anthropic.com/news/seoul-office-partnerships-korean-ai-ecosystem
-
-[ideas] Stratechery: 2026.26: Summer Vibes
-  https://stratechery.com/2026/summer-vibes/
 
 [wisdom] Donald Robertson: The Rivalry of Athens and Sparta
   https://donaldrobertson.substack.com/p/the-rivalry-of-athens-and-sparta
@@ -172,101 +130,171 @@
 [wisdom] Donald Robertson: This Darkness Is Not That Darkness
   https://donaldrobertson.substack.com/p/this-darkness-is-not-that-darkness
 
-[bitcoin] The Pomp Letter: The AI Model Labs Have Been De-Facto Nationalized
-  https://pomp.substack.com/p/the-ai-model-labs-have-been-de-facto
+[wisdom] Figs in Winter (Pigliucci): The Lion-Man and the birth of the impossible
+  https://figsinwintertime.substack.com/p/the-lion-man-and-the-birth-of-the
 
-[health] Stronger by Science: Is the Correlation Between Hypertrophy and Strength Gains Stronger Than We Realized?
-  https://www.strongerbyscience.com/correlation-strength-hypertrophy/
+[wisdom] Figs in Winter (Pigliucci): From the archive
+  https://figsinwintertime.substack.com/p/from-the-archive-21e
+
+[wisdom] Figs in Winter (Pigliucci): Strangers, gods, and bombs: why we keep killing each other (part II)
+  https://figsinwintertime.substack.com/p/strangers-gods-and-bombs-why-we-keep-b52
+
+[ai] OpenAI Blog: Mapping Europe’s AI Workforce Opportunity
+  https://openai.com/index/mapping-ai-jobs-transition-eu
 
 [ai] OpenAI Blog: HP Inc. launches Frontier strategic partnership with OpenAI
   https://openai.com/index/hp-frontier-partnership
 
-[ai] OpenAI Blog: Previewing GPT-5.6 Sol: a next-generation model
-  https://openai.com/index/previewing-gpt-5-6-sol
+[ideas] Stratechery: Summer Break: Week of June 29
+  https://stratechery.com/2026/summer-break-week-of-june-29/
+
+[bitcoin] Bitcoin Magazine: Strategy (MSTR) Surges Over 12% As Bitcoin-Linked Stocks Have Green Day
+  https://bitcoinmagazine.com/markets/strategy-mstr-surges-12-bitcoin-stocks
+
+[bitcoin] Bitcoin Magazine: JPMorgan Backs U.S. Crypto Bill, But Puts a Warning Label Front and Center as Senate Eyes August Deadline
+  https://bitcoinmagazine.com/news/jpmorgan-backs-u-s-crypto-bill
+
+[bitcoin] Bitcoin Magazine: Fidelity Outlines 5 Factors That Could End the Bitcoin and Crypto Winter
+  https://bitcoinmagazine.com/news/fidelity-5-factors-bitcoin-crypto-winter
+
+[bitcoin] Bitcoin Magazine: Clarity Act Enters Critical Two-Week Window as Senate Heads Into Recess
+  https://bitcoinmagazine.com/news/clarity-act-enters-critical-2-week-window
+
+[bitcoin] Bitcoin Magazine: 2007–2009—The Global Financial Crisis and the Birth of Bitcoin
+  https://bitcoinmagazine.com/bitcoin-books/2007-2009-the-global-financial-crisis-and-the-birth-of-bitcoin
+
+[bitcoin] Bitcoin Magazine: Strive (ASST) Holds 19,864 BTC With No New Purchases Last Week, Balance Sheet Hits $141.7M Cash
+  https://bitcoinmagazine.com/news/strive-asst-holds-19864-btc-no-new
+
+[bitcoin] Bitcoin Magazine: Strategy (MSTR) Raises STRC Dividend, Authorizes $2B in Buybacks, and Unlocks Further Bitcoin Sales
+  https://bitcoinmagazine.com/news/strategy-mstr-strc-dividend-authorizes-2b
+
+[ideas] Paul Graham: How to Earn a Billion Dollars
+  https://paulgraham.com/earn.html
+
+[ideas] Paul Graham: How to Convert Between Wealth and Income Tax
+  https://paulgraham.com/winc.html
+
+[ideas] Marginal Revolution: Jackson Dahl podcasts with me and Nabeel on aesthetics
+  https://marginalrevolution.com/marginalrevolution/2026/06/jackson-dahl-podcasts-with-me-and-nabeel-on-aesthetics.html?utm_source=rss&utm_medium=rss&utm_campaign=jackson-dahl-podcasts-with-me-and-nabeel-on-aesthetics
+
+[ideas] Marginal Revolution: Monday assorted links
+  https://marginalrevolution.com/marginalrevolution/2026/06/monday-assorted-links-566.html?utm_source=rss&utm_medium=rss&utm_campaign=monday-assorted-links-566
+
+[ideas] Marginal Revolution: AI cheating on math econ at Brown
+  https://marginalrevolution.com/marginalrevolution/2026/06/ai-cheating-on-math-econ.html?utm_source=rss&utm_medium=rss&utm_campaign=ai-cheating-on-math-econ
+
+[ideas] Marginal Revolution: Politically Incorrect Paper of the Day: The US Racial Wealth Gap
+  https://marginalrevolution.com/marginalrevolution/2026/06/politically-incorrect-paper-of-the-day-the-us-racial-wealth-gap.html?utm_source=rss&utm_medium=rss&utm_campaign=politically-incorrect-paper-of-the-day-the-us-racial-wealth-gap
+
+[ideas] Marginal Revolution: Will future biomedical advances be low marginal cost?
+  https://marginalrevolution.com/marginalrevolution/2026/06/will-future-biomedical-advances-be-low-marginal-cost.html?utm_source=rss&utm_medium=rss&utm_campaign=will-future-biomedical-advances-be-low-marginal-cost
+
+[ideas] Astral Codex Ten: Open Thread 440
+  https://www.astralcodexten.com/p/open-thread-440
+
+[health] Stronger by Science: Is the Correlation Between Hypertrophy and Strength Gains Stronger Than We Realized?
+  https://www.strongerbyscience.com/correlation-strength-hypertrophy/
 
 
 === YOUTUBE ===
-Ken Berry MD: If you've improved or reversed your Type 2 diabetes, share your story below. It could help others!
-  https://www.youtube.com/shorts/NLZ4wWihIo4
+Anthony Chaffee MD: This Is What Humans Are Meant To Eat #shorts #shortvideo #short
+  https://www.youtube.com/shorts/JO338lY9f5U
   Transcript: yes
 
-Anthony Chaffee MD: If We’re Meant To Eat Fruits & Vegetables, Explain This!
-  https://www.youtube.com/watch?v=sGL2ghSlLFY
+Ken Berry MD: If you’re trying to reverse type 2 diabetes, build your breakfast around protein and healthy fats.
+  https://www.youtube.com/shorts/8qPlKPtk87Y
+  Transcript: yes
+
+Ken Berry MD: If you want to reverse type 2 diabetes and keep it gone, the biggest changes start in your kitchen
+  https://www.youtube.com/shorts/3SwBryYYnxw
+  Transcript: yes
+
+Ken Berry MD: Reverse Type 2 Diabetes Faster: 10 Daily Habits That Lower Blood Sugar
+  https://www.youtube.com/watch?v=RF_yIUvLRCk
   Transcript: yes
 
 GTO Wizard: How Pros Actually Study PLO
   https://www.youtube.com/watch?v=G5k4cXNbiB0
   Transcript: yes
 
-Paul Saladino MD: This is wrecking your hormones
-  https://www.youtube.com/shorts/Btb9cHyFyIs
+Paul Saladino MD: Starbucks is fooling you
+  https://www.youtube.com/shorts/mTK2OeXiItU
   Transcript: yes
 
-Joe Rogan: Joe Rogan Experience #2519 - Scott Eastwood
-  https://www.youtube.com/watch?v=ZDeqcSgotuw
+Nick Norwitz: How I Lost Weight By Eating 6,000 More Calories
+  https://www.youtube.com/watch?v=wrPTqnQqlXM
   Transcript: yes
 
-Nick Norwitz: The Best Peptides for Longevity and Sleep (Human Studies)
-  https://www.youtube.com/watch?v=red7Pls4mjM
+GTO Lab: At this depth after the bubble burst you're playing for chips again — not survival.
+  https://www.youtube.com/shorts/srmU8y3OdkI
   Transcript: yes
 
 GTO Lab: 2x vs 2.2x open, the EV is almost the same - Daniel Dvoress
   https://www.youtube.com/shorts/x5JBm-Oong0
   Transcript: NO
 
-Jared Alderman: Poker Solvers vs. Real Players: Uri Peleg on Real World Problems #shorts
-  https://www.youtube.com/shorts/nPBvoOxeSXw
-  Transcript: yes
-
-Thomas DeLauer: Eat This Before Fasting to DOUBLE Autophagy and Shrink Fat Cells by 50%
-  https://www.youtube.com/watch?v=UX-rZdafn6k
-  Transcript: yes
-
-Thomas DeLauer: 5X NBA Champion on How He’s Changed his Diet, Recovery, and Mindset
-  https://www.youtube.com/watch?v=LMJKnPnMxJ0
-  Transcript: yes
-
-Renaissance Periodization: Why Milk is a SUPERFOOD
-  https://www.youtube.com/shorts/8F1x8gW4AtA
+Lex Fridman: Biggest Mysteries in Physics: Antimatter, Dark Energy & ToE - Don Lincoln | Lex Fridman Podcast #497
+  https://www.youtube.com/watch?v=1M3Vdl6DRkU
   Transcript: yes
 
 Dr. Sten Ekberg: This DISSOLVES Plaque & UNCLOGS Your Arteries Naturally
   https://www.youtube.com/watch?v=6Pcag6L9Qzg
   Transcript: yes
 
-Lex Fridman: Biggest Mysteries in Physics: Antimatter, Dark Energy & ToE - Don Lincoln | Lex Fridman Podcast #497
-  https://www.youtube.com/watch?v=1M3Vdl6DRkU
+Joe Rogan: Joe Rogan Experience #2519 - Scott Eastwood
+  https://www.youtube.com/watch?v=ZDeqcSgotuw
+  Transcript: yes
+
+Jared Alderman: Uri Peleg on discovering solver secrets #shorts
+  https://www.youtube.com/shorts/f7TmZ7vkK6s
   Transcript: yes
 
 Peter Attia: 397 - Endometriosis and adenomyosis: diagnosis, fertility, reproductive aging, & emerging treatments
   https://www.youtube.com/watch?v=IxHRYDM64dQ
   Transcript: yes
 
+Thomas DeLauer: 200mg Stops Mitochondrial Dysfunction at its Core (repairs electron transport)
+  https://www.youtube.com/watch?v=TcN62glyGFM
+  Transcript: yes
+
 ThinkingPoker: Bankroll Management - Thinking Poker
   https://www.youtube.com/watch?v=6w8amkDkeVw
   Transcript: yes
 
-Andrew Huberman: Essentials: The Science of Eating for Health, Fat Loss & Lean Muscle | Dr. Layne Norton
-  https://www.youtube.com/watch?v=WWe4up63hb4
+Renaissance Periodization: Knees Over Toes = Quad Growth
+  https://www.youtube.com/shorts/74zZZ7ZwOoA
+  Transcript: yes
+
+Renaissance Periodization: You’re Under Training The Muscles You Want Most
+  https://www.youtube.com/watch?v=IMNjp8nXAAU
+  Transcript: yes
+
+Renaissance Periodization: Dr. Mike Hates Fatty Steaks
+  https://www.youtube.com/shorts/e5nQoKMDug8
+  Transcript: yes
+
+Andrew Huberman: Movement Practice to Strengthen Your Mind-Body Connection | Ido Portal
+  https://www.youtube.com/watch?v=Zz8chJwh3S4
   Transcript: yes
 
 Ben Felix: The Truth About Investing at All-Time Highs
   https://www.youtube.com/watch?v=WEClhtPD5Ko
   Transcript: yes
 
-ModernWisdom: Can Institutions Change Your Thinking?
-  https://www.youtube.com/shorts/Jzn-F8Vkv_8
+Mind The Game: Are individual workouts hurting kids? LeBron weighs in. Presented by @DraftKings.
+  https://www.youtube.com/shorts/bwjn0JB5jzE
   Transcript: yes
 
-ModernWisdom: Why Everything Has To Be Entertaining Now
-  https://www.youtube.com/shorts/dl82vojeaSM
+ModernWisdom: Your Priorities Are Your Actions
+  https://www.youtube.com/shorts/FI3C0mKwYt8
   Transcript: yes
 
-ModernWisdom: Japan's Infinite Handjob Glitch
-  https://www.youtube.com/watch?v=c7WfTprQ58U
+ModernWisdom: E-Stop
+  https://www.youtube.com/shorts/VXyjkgUtiNc
   Transcript: yes
 
-Mind The Game: Sports have played a pivotal role in how @mahershalaali approaches his craft. New ep out now. Tap in
-  https://www.youtube.com/shorts/gnkwyJ7gK-M
+ModernWisdom: 33 Brutal Truths To Stop Wasting Your Potential - Alex Hormozi
+  https://www.youtube.com/watch?v=-AdkwqkE20M
   Transcript: yes
 
