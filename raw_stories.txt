@@ -1,98 +1,119 @@
 === HACKER NEWS ===
-1. [1782 pts] Claude Code is steganographically marking requests
-   https://thereallo.dev/blog/claude-code-prompt-steganography
+1. [343 pts] ZCode – Harness for GLM-5.2
+   https://zcode.z.ai/en
 
-2. [1065 pts] Claude Sonnet 5
-   https://www.anthropic.com/news/claude-sonnet-5
+2. [185 pts] Oomwoo, an open-source robot vacuum you build yourself
+   https://makerspet.com/blog/building-an-open-source-robot-vacuum-meet-oomwoo/
 
-3. [66 pts] The first early human eggs from stem cells
-   https://www.conception.bio/science-and-updates/the-first-early-human-eggs-from-stem-cells
+3. [43 pts] Kimi K2.7 Code is generally available in GitHub Copilot
+   https://github.blog/changelog/2026-07-01-kimi-k2-7-is-now-available-in-github-copilot/
 
-4. [181 pts] Google copybara: moving code between repositories
-   https://github.com/google/copybara
+4. [169 pts] Bring back crappy forums
+   https://tedium.co/2026/07/01/online-web-forums-retrospective/
 
-5. [66 pts] ArXiv's Next Chapter
-   https://blog.arxiv.org/2026/06/30/arxivs-next-chapter/
+5. [18 pts] CursorBench 3.1
+   https://cursor.com/evals
 
-6. [596 pts] Department of Commerce has lifted export controls on Claude Fable 5 and Mythos 5
-   https://twitter.com/AnthropicAI/status/2072106151890809341
+6. [306 pts] What to learn to be a graphics programmer
+   https://blog.demofox.org/2026/07/01/what-to-learn-to-be-a-graphics-programmer/
 
-7. [459 pts] Claude Science
-   https://claude.com/product/claude-science
+7. [123 pts] Opening up 'Zero-Knowledge Proof' technology to promote privacy in age assurance
+   https://blog.google/innovation-and-ai/technology/safety-security/opening-up-zero-knowledge-proof-technology-to-promote-privacy-in-age-assurance/
 
-8. [356 pts] Nano Banana 2 Lite
-   https://deepmind.google/models/gemini-image/flash-lite/
+8. [61 pts] Senior SWE-Bench: open-source benchmark that assesses agents as senior engineers
+   https://senior-swe-bench.snorkel.ai/
 
-9. [60 pts] Forestiere Underground Gardens
-   https://en.wikipedia.org/wiki/Forestiere_Underground_Gardens
+9. [347 pts] FFmpeg 9.1's new AAC encoder
+   https://hydrogenaudio.org/index.php/topic,129691.0.html
 
-10. [171 pts] How does a pull-back car work? Illustrated teardown
-   https://mechanical-pencil.com/products/car
+10. [81 pts] A new Android malware from Google
+   https://f-droid.org/2026/07/01/adv-malware.html
 
-11. [177 pts] Leanstral 1.5
-   https://docs.mistral.ai/models/model-cards/leanstral-1-5-26-06
+11. [78 pts] The Underhanded C Contest
+   https://underhanded-c.org/
 
-12. [21 pts] Matrix Orthogonalization Improves Memory in Recurrent Models
-   https://ayushtambde.com/blog/matrix-orthogonalization-improves-memory-in-recurrent-models/
+12. [182 pts] Ask HN: Who is hiring? (July 2026)
+   https://news.ycombinator.com/item?id=48747976
 
-13. [20 pts] Pystd, similar-ish functionality with a fraction of the compile time
-   https://nibblestew.blogspot.com/2026/06/pystd-standard-library-similar-ish.html
+13. [93 pts] How do wombats poop cubes?
+   https://www.science.org/content/article/how-do-wombats-poop-cubes-scientists-get-bottom-mystery
 
-14. [194 pts] CERN bids farewell to the LHC and enters Long Shutdown 3
-   https://home.cern/cern-bids-farewell-to-the-lhc-and-enters-long-shutdown-3/
+14. [318 pts] Show HN: Searchable directory of 22k+ products from worker-owned co-ops
+   https://www.workerowned.info/
 
-15. [7 pts] How information theory saved my word game
-   https://motplot.app/helloworld
+15. [85 pts] Qualcomm Linux 2.0
+   https://www.qualcomm.com/developer/blog/2026/06/qualcomm-linux-2-now-available
 
-16. [237 pts] I ported Kubernetes to the browser
-   https://ngrok.com/blog/i-ported-kubernetes-to-the-browser
+16. [41 pts] Learn Vim motions with an ice-cream van
+   https://thisismodest.com/vimscoops/
 
-17. [145 pts] From brain waves to words: a new path to communication without surgery
-   https://ai.meta.com/blog/brain2qwerty-brain-ai-human-communication/?_fb_noscript=1
+17. [827 pts] For first time, a cell built from scratch grows and divides
+   https://www.quantamagazine.org/for-the-first-time-a-cell-built-from-scratch-grows-and-divides-20260701/
 
-18. [81 pts] Ante: A new way to blend borrow checking and reference counting
-   https://verdagon.dev/blog/ante-blending-borrowing-rc
+18. [141 pts] Weave Robotics launches Isaac 1, a $7,999 home robot with Fall 2026 deliveries
+   https://www.weaverobotics.com/isaac-1
 
-19. [121 pts] Tokyo has only two barley tea makers, we visited one to see how mugicha is made
-   https://soranews24.com/2026/06/30/tokyo-has-only-two-barley-tea-makers-and-we-visited-one-to-see-how-mugicha-is-made/
+19. [28 pts] Database Traffic Control
+   https://planetscale.com/blog/introducing-database-traffic-control
 
-20. [171 pts] I built a mmWave material classification radar (2025)
-   https://gauthier-lechevalier.com/radar
+20. [308 pts] Internal Combustion Engine (2021)
+   https://ciechanow.ski/internal-combustion-engine/
 
-21. [55 pts] Scaling Laws, Carefully
-   https://lilianweng.github.io/posts/2026-06-24-scaling-laws/
+21. [3 pts] The Wisdom of Quinn the Eskimo (Apple Developer Technical Support Engineer)
+   https://github.com/macshome/The-Wisdom-of-Quinn
 
-22. [57 pts] Hatari – Online Atari ST/STE/TT/Falcon Emulator
-   https://hatari.frama.io/hatari/online/hatari.html
+22. [278 pts] Monetization Gateway: Charge for any resource behind Cloudflare via x402
+   https://blog.cloudflare.com/monetization-gateway/
 
-23. [354 pts] Building a custom octocopter from scratch with no prior hardware experience
-   https://karolina.mgdubiel.com/drone/
+23. [112 pts] Why jet engines aren't made in China
+   https://aakash.substack.com/p/why-jet-engines-arent-made-in-china
 
-24. [85 pts] Stroustrup's Rule (2024)
-   https://buttondown.com/hillelwayne/archive/stroustrups-rule/
+24. [15 pts] The vibration of the pager has a sound all its own
+   https://www.notyouremergency.com/triage-intro
 
-25. [123 pts] Long Island's decommissioned nuclear power plant
-   https://nickcarr.com/scouting-a-decommissioned-nuclear-power-plant/
+25. [120 pts] Ask HN: Who wants to be hired? (July 2026)
+   https://news.ycombinator.com/item?id=48747975
 
-26. [37 pts] How employment changes when firms adopt generative AI
-   https://ramp.com/data/ai-jobs-impact
+26. [1 pts] Proliferate (YC S25) Is Hiring
+   https://www.ycombinator.com/companies/proliferate/jobs/mMHvKR9-founding-product-engineer
 
-27. [16 pts] Meta is adding rate limits and soft paywall to smart glasses
-   https://www.theverge.com/gadgets/959899/meta-ai-glasses-paywall-rate-limit
+27. [72 pts] Chip Off The Old Block
+   https://www.astralcodexten.com/p/chip-off-the-old-block
 
-28. [158 pts] Have you restarted your computer this week?
-   https://taonaw.com/2026/06/27/have-you-restarted-your-computer.html
+28. [65 pts] The <Usermedia> HTML Element
+   https://developer.chrome.com/blog/usermedia-html-element
 
-29. [12 pts] Segmenting Robot Video into Actionable Subtasks
-   https://macrodata.co/blog/annotating-robot-video-subtasks
+29. [72 pts] The Apple Disk II Controller Card (2021)
+   https://www.bigmessowires.com/2021/11/12/the-amazing-disk-ii-controller-card/
 
-30. [296 pts] Knoppix
-   https://www.knopper.net/knoppix/index-en.html
+30. [51 pts] Launch HN: Parsewise (YC P25) – Reason Across Documents with an API
+   https://news.ycombinator.com/item?id=48746752
 
 
 === RSS ===
+[ideas] Astral Codex Ten: Chip Off The Old Block
+  https://www.astralcodexten.com/p/chip-off-the-old-block
+
+[ideas] Astral Codex Ten: Open Thread 440
+  https://www.astralcodexten.com/p/open-thread-440
+
 [ideas] Stratechery: Summer Break: Week of June 29
   https://stratechery.com/2026/summer-break-week-of-june-29/
+
+[wisdom] Farnam Street: The Mindset That Unlocks Your Full Potential | Dr. Gio Valiante
+  https://fs.blog/knowledge-project-podcast/performance-psychologist-mindset/
+
+[ai] Anthropic News: Claude Science, an AI workbench for scientists, is now available
+  https://www.anthropic.com/news/claude-science-ai-workbench
+
+[ai] Anthropic News: Introducing Claude Sonnet 5
+  https://www.anthropic.com/news/claude-sonnet-5
+
+[ai] Anthropic News: Redeploying Fable 5
+  https://www.anthropic.com/news/redeploying-fable-5
+
+[ai] Anthropic News: Introducing Claude Tag
+  https://www.anthropic.com/news/introducing-claude-tag
 
 [ideas] Paul Graham: How to Earn a Billion Dollars
   https://paulgraham.com/earn.html
@@ -118,23 +139,23 @@
 [ai] Simon Willison: Have your agent record video demos of its work with shot-scraper video
   https://simonwillison.net/2026/Jun/30/shot-scraper-video/#atom-everything
 
-[wisdom] Farnam Street: The Mindset That Unlocks Your Full Potential | Dr. Gio Valiante
-  https://fs.blog/knowledge-project-podcast/performance-psychologist-mindset/
+[ideas] Marginal Revolution: Emergent Ventures India, 17th cohort
+  https://marginalrevolution.com/marginalrevolution/2026/07/emergent-ventures-india-17th-cohort.html?utm_source=rss&utm_medium=rss&utm_campaign=emergent-ventures-india-17th-cohort
 
-[health] Peter Attia: #398 ‒ AMA #86: GLP-1 RAs and muscle loss: new data, better questions, and how to preserve muscle during weight loss
-  https://peterattiamd.com/ama86/
+[ideas] Marginal Revolution: How to ask for help from a stranger
+  https://marginalrevolution.com/marginalrevolution/2026/07/how-to-ask-for-help-from-a-stranger.html?utm_source=rss&utm_medium=rss&utm_campaign=how-to-ask-for-help-from-a-stranger
 
-[ai] Anthropic News: Redeploying Fable 5
-  https://www.anthropic.com/news/redeploying-fable-5
+[ideas] Marginal Revolution: Wednesday assorted links
+  https://marginalrevolution.com/marginalrevolution/2026/07/wednesday-assorted-links-560.html?utm_source=rss&utm_medium=rss&utm_campaign=wednesday-assorted-links-560
 
-[ai] Anthropic News: Claude Science, an AI workbench for scientists, is now available
-  https://www.anthropic.com/news/claude-science-ai-workbench
+[ideas] Marginal Revolution: Civilian supersonic flights are being legalized in the U.S.
+  https://marginalrevolution.com/marginalrevolution/2026/07/civilian-supersonic-flights-are-being-legalized-in-the-u-s.html?utm_source=rss&utm_medium=rss&utm_campaign=civilian-supersonic-flights-are-being-legalized-in-the-u-s
 
-[ai] Anthropic News: Introducing Claude Sonnet 5
-  https://www.anthropic.com/news/claude-sonnet-5
+[ideas] Marginal Revolution: Fables of the Reconstruction/Reconstruction of the Fables
+  https://marginalrevolution.com/marginalrevolution/2026/07/reconstruction-of-the-fables.html?utm_source=rss&utm_medium=rss&utm_campaign=reconstruction-of-the-fables
 
-[ai] Anthropic News: Introducing Claude Tag
-  https://www.anthropic.com/news/introducing-claude-tag
+[wisdom] Figs in Winter (Pigliucci): On miracles
+  https://figsinwintertime.substack.com/p/on-miracles
 
 [wisdom] Figs in Winter (Pigliucci): The Lion-Man and the birth of the impossible
   https://figsinwintertime.substack.com/p/the-lion-man-and-the-birth-of-the
@@ -142,47 +163,44 @@
 [wisdom] Figs in Winter (Pigliucci): From the archive
   https://figsinwintertime.substack.com/p/from-the-archive-21e
 
-[wisdom] Figs in Winter (Pigliucci): Strangers, gods, and bombs: why we keep killing each other (part II)
-  https://figsinwintertime.substack.com/p/strangers-gods-and-bombs-why-we-keep-b52
+[bitcoin] Bitcoin Magazine: The 2036 Issue: The Future Is Now, Words of Wisdom from Jeff Booth
+  https://bitcoinmagazine.com/print/the-2036-issue-the-future-is-now-words-of-wisdom-from-jeff-booth
 
-[ideas] Marginal Revolution: Fables of the Reconstruction/Reconstruction of the Fables
-  https://marginalrevolution.com/marginalrevolution/2026/07/reconstruction-of-the-fables.html?utm_source=rss&utm_medium=rss&utm_campaign=reconstruction-of-the-fables
+[bitcoin] Bitcoin Magazine: Bitcoin Price Reclaims $60,000 As Strategy (MSTR) and Strive (ASST) Jump More Than 10%
+  https://bitcoinmagazine.com/markets/bitcoin-price-reclaims-60000-strategy
 
-[ideas] Marginal Revolution: What I’ve been reading
-  https://marginalrevolution.com/marginalrevolution/2026/07/what-ive-been-reading-291.html?utm_source=rss&utm_medium=rss&utm_campaign=what-ive-been-reading-291
+[bitcoin] Bitcoin Magazine: AI’s Bitcoin Moment: Why the Open-Source Fight Looks Like Crypto Back in 2014
+  https://bitcoinmagazine.com/news/ais-bitcoin-moment-open-source-fight
 
-[ideas] Marginal Revolution: Differentiation drives the erosion of positivity on social media
-  https://marginalrevolution.com/marginalrevolution/2026/06/differentiation-drives-the-erosion-of-positivity-on-social-media.html?utm_source=rss&utm_medium=rss&utm_campaign=differentiation-drives-the-erosion-of-positivity-on-social-media
+[bitcoin] Bitcoin Magazine: Moody’s Flags Quantum Threat to Bitcoin and Digital Assets After Trump Orders
+  https://bitcoinmagazine.com/news/moodys-flags-quantum-threat-to-bitcoin
 
-[ideas] Marginal Revolution: Tuesday assorted links
-  https://marginalrevolution.com/marginalrevolution/2026/06/tuesday-assorted-links-575.html?utm_source=rss&utm_medium=rss&utm_campaign=tuesday-assorted-links-575
+[bitcoin] Bitcoin Magazine: Preferred Stock Is Becoming Bitcoin Treasury Firms’ Financing Tool of Choice: Report
+  https://bitcoinmagazine.com/news/preferred-stock-is-becoming-bitcoin
 
-[ideas] Marginal Revolution: What should I ask Daron Acemoglu?
-  https://marginalrevolution.com/marginalrevolution/2026/06/what-should-i-ask-daron-acemoglu-2.html?utm_source=rss&utm_medium=rss&utm_campaign=what-should-i-ask-daron-acemoglu-2
+[bitcoin] Bitcoin Magazine: Standard Chartered and LMAX Group Execute First Live Digital Asset Prime Brokerage Trades
+  https://bitcoinmagazine.com/news/standard-chartered-and-lmax-group-execute
 
-[bitcoin] Bitcoin Magazine: President Donald Trump Discloses More Than $50 Million in Bitcoin Held in Cold Storage
-  https://bitcoinmagazine.com/news/president-donald-trump-50-million-bitcoin
+[bitcoin] Bitcoin Magazine: Citi Slashes Bitcoin Target to $82,000 as ETF Money Heads for the Exits
+  https://bitcoinmagazine.com/news/citi-slashes-bitcoin-target-to-82000
 
-[bitcoin] Bitcoin Magazine: Anchorage Digital and Binance Launch Off-Exchange Settlement for Institutional Crypto Trading
-  https://bitcoinmagazine.com/news/anchorage-digital-and-binance-crypto
+[bitcoin] Bitcoin Magazine: Trump-Backed American Bitcoin (ABTC) Sets Reverse Split for July 2
+  https://bitcoinmagazine.com/news/trump-backed-american-bitcoin-july-2
 
-[bitcoin] Bitcoin Magazine: Visa, Mastercard, And Over 140 Companies Launch Stablecoin Open USD
-  https://bitcoinmagazine.com/news/visa-mastercard-and-over-140-open-usd
+[ai] OpenAI Blog: How ChatGPT adoption has expanded
+  https://openai.com/index/how-chatgpt-adoption-has-expanded
 
-[bitcoin] Bitcoin Magazine: One Year Later: How Coldcard Q’s Key Teleport Delivers Secure Remote Key Management for Bitcoin Treasuries
-  https://bitcoinmagazine.com/technical/one-year-later-how-coldcard-qs-key-teleport-delivers-secure-remote-key-management-for-bitcoin-treasuries
+[ai] OpenAI Blog: Inside Genebench-Pro
+  https://openai.com/index/genebench-pro/case-studies
 
-[bitcoin] Bitcoin Magazine: Crypto Firms Lead $517 Million Corporate Surge Into 2026 Midterms
-  https://bitcoinmagazine.com/news/crypto-firms-lead-517-million-corporate
+[ai] OpenAI Blog: Introducing GeneBench-Pro
+  https://openai.com/index/introducing-genebench-pro
 
-[bitcoin] Bitcoin Magazine: UAE-Based Goldman Lampe Private Bank Acquires $137 Million in Bitcoin
-  https://bitcoinmagazine.com/news/goldman-lampe-bank-acquires-137m-in-btc
+[ai] OpenAI Blog: Core dump epidemiology: fixing an 18-year-old bug
+  https://openai.com/index/core-dump-epidemiology-data-infrastructure-bug
 
-[bitcoin] Bitcoin Magazine: UK Sets Landmark Crypto Rules in Race to Become Global Hub
-  https://bitcoinmagazine.com/news/uk-sets-landmark-crypto-rules-in-race
-
-[bitcoin] Bitcoin Magazine: Strategy (MSTR) Surges Over 12% As Bitcoin-Linked Stocks Have Green Day
-  https://bitcoinmagazine.com/markets/strategy-mstr-surges-12-bitcoin-stocks
+[ai] OpenAI Blog: Mapping Europe’s AI Workforce Opportunity
+  https://openai.com/index/mapping-ai-jobs-transition-eu
 
 [wisdom] Donald Robertson: Marcus Aurelius Was Not an Emotionless Stoic
   https://donaldrobertson.substack.com/p/marcus-aurelius-was-not-an-emotionless
@@ -193,113 +211,8 @@
 [wisdom] Donald Robertson: How to Be a Happy Skeptic with Massimo Pigliucci
   https://donaldrobertson.substack.com/p/how-to-be-a-happy-skeptic-with-massimo
 
-[ai] OpenAI Blog: How ChatGPT adoption has expanded
-  https://openai.com/index/how-chatgpt-adoption-has-expanded
-
-[ai] OpenAI Blog: Introducing GeneBench-Pro
-  https://openai.com/index/introducing-genebench-pro
-
-[ai] OpenAI Blog: Core dump epidemiology: fixing an 18-year-old bug
-  https://openai.com/index/core-dump-epidemiology-data-infrastructure-bug
-
-[ai] OpenAI Blog: Inside Genebench-Pro
-  https://openai.com/index/genebench-pro/case-studies
-
-[ai] OpenAI Blog: Mapping Europe’s AI Workforce Opportunity
-  https://openai.com/index/mapping-ai-jobs-transition-eu
-
-[ideas] Astral Codex Ten: Chip Off The Old Block
-  https://www.astralcodexten.com/p/chip-off-the-old-block
-
-[ideas] Astral Codex Ten: Open Thread 440
-  https://www.astralcodexten.com/p/open-thread-440
-
 [health] Stronger by Science: Is the Correlation Between Hypertrophy and Strength Gains Stronger Than We Realized?
   https://www.strongerbyscience.com/correlation-strength-hypertrophy/
 
 
 === YOUTUBE ===
-Paul Saladino MD: What’s making Americans fat?
-  https://www.youtube.com/shorts/NJqdJj6xGY8
-  Transcript: yes
-
-GTO Wizard: How Pros Actually Study PLO
-  https://www.youtube.com/watch?v=G5k4cXNbiB0
-  Transcript: yes
-
-Anthony Chaffee MD: This Is What Humans Are Meant To Eat #shorts #shortvideo #short
-  https://www.youtube.com/shorts/JO338lY9f5U
-  Transcript: yes
-
-Ken Berry MD: Fatty liver disease is incredibly common, yet MILLIONS of people have it without realizing it.
-  https://www.youtube.com/shorts/UkHfqfu6jUE
-  Transcript: yes
-
-Joe Rogan: Joe Rogan Experience #2520 - Tommy Lee
-  https://www.youtube.com/watch?v=q8HRqmkEKWw
-  Transcript: yes
-
-Nick Norwitz: How I Lost Weight By Eating 6,000 More Calories
-  https://www.youtube.com/watch?v=wrPTqnQqlXM
-  Transcript: yes
-
-GTO Lab: Everyone thought Ponakov was crazy. He was the only one who understood his own range.
-  https://www.youtube.com/shorts/rrJL9jEtqZU
-  Transcript: yes
-
-Jared Alderman: Poker Players are Innefficient: Uri Peleg on adjusting #shorts
-  https://www.youtube.com/shorts/Cp_IUuKx0mc
-  Transcript: yes
-
-Thomas DeLauer: This is What Happens During 3 Days of ONLY Eating Sardines
-  https://www.youtube.com/watch?v=MlthhCAFlAY
-  Transcript: yes
-
-Dr. Sten Ekberg: This DISSOLVES Plaque & UNCLOGS Your Arteries Naturally
-  https://www.youtube.com/watch?v=6Pcag6L9Qzg
-  Transcript: yes
-
-Renaissance Periodization: Why Haaland Needs Insane Flexibility
-  https://www.youtube.com/shorts/aNPWhA2aAdk
-  Transcript: yes
-
-Renaissance Periodization: Why Harder Training Isn’t Always Better
-  https://www.youtube.com/shorts/hcGSz0NYaJk
-  Transcript: yes
-
-Peter Attia: 397 - Endometriosis and adenomyosis: diagnosis, fertility, reproductive aging, & emerging treatments
-  https://www.youtube.com/watch?v=IxHRYDM64dQ
-  Transcript: yes
-
-ModernWisdom: Why A Convenient Life Is Unsatisfying
-  https://www.youtube.com/shorts/D4s0Cyn8KUU
-  Transcript: yes
-
-ModernWisdom: Why You Keep Falling Back Into Old Habits
-  https://www.youtube.com/shorts/GfuusWyeS1A
-  Transcript: yes
-
-ModernWisdom: “75% Of Men Said Yes. 0% Of Women Did.”
-  https://www.youtube.com/watch?v=Cm1so_eZQ74
-  Transcript: yes
-
-ThinkingPoker: Bankroll Management - Thinking Poker
-  https://www.youtube.com/watch?v=6w8amkDkeVw
-  Transcript: yes
-
-Andrew Huberman: Movement Practice to Strengthen Your Mind-Body Connection | Ido Portal
-  https://www.youtube.com/watch?v=Zz8chJwh3S4
-  Transcript: yes
-
-Ben Felix: The Truth About Investing at All-Time Highs
-  https://www.youtube.com/watch?v=WEClhtPD5Ko
-  Transcript: yes
-
-Mind The Game: LeBron and Steph on Teaming Up for Team USA’s 2024 Gold Medal Run
-  https://www.youtube.com/watch?v=V_tqh3elTDQ
-  Transcript: yes
-
-Lex Fridman: The Rise and Fall of the Roman Empire and the Byzantine Empire | Lex Fridman Podcast #498
-  https://www.youtube.com/watch?v=pv1TUJSEM2k
-  Transcript: yes
-
