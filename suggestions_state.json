@@ -1,11 +1,11 @@
 {
   "current_suggestion": {
-    "channel_name": "Naval",
-    "channel_id": "UCh_dVD10YuSghle8g6yjePg",
-    "youtube_handle": "@naval",
-    "pitch": "Naval's channel covers the intersection of clear thinking, wealth philosophy, and the examined life \u2014 territory adjacent to your Stoicism, mental models, and Bitcoin/monetary interests but approached from a distinctly Eastern-meets-rationalist angle that none of your current channels hit. His content includes solo tweetstorm breakdowns, long-form podcast appearances, and rare interviews where he applies first-principles reasoning to happiness, desire, and leverage in ways that complement Munger and the Stoics without repeating them. Depth is high and format is mostly medium-length solo or interview cuts, with no hustle-culture filler."
+    "channel_name": "Odyssey of the Mind (William MacAskill / 80,000 Hours)",
+    "channel_id": "UCddiUEpeqJcYeBxX1IVBKvQ",
+    "youtube_handle": "@80000Hours",
+    "pitch": "Your philosophy and mental models interests are well-served on the Stoic/classical side, but 80,000 Hours steelmans the rigorous analytical ethics angle you're missing \u2014 effective altruism, moral uncertainty, and how to reason carefully about what actually matters. Their long-form interviews (often 2-3 hours) with philosophers, economists, and scientists treat ethics empirically rather than dogmatically, which pairs well with your Munger/Kahneman mental models interest. The depth rivals Lex Fridman but stays closer to philosophy and decision theory rather than tech celebrity."
   },
-  "shown_count": 3,
+  "shown_count": 1,
   "history": [
     "Brad Kearns",
     "Dr. Layne Norton",
@@ -36,6 +36,7 @@
     "Jonathan Little - Poker Coaching",
     "betraisefoldmovie",
     "Exotic fishes ",
-    "Naval"
+    "Naval",
+    "Odyssey of the Mind (William MacAskill / 80,000 Hours)"
   ]
 }

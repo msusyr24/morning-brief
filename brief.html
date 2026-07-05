@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>Morning Brief — Saturday, July 04, 2026</title>
+<title>Morning Brief — Sunday, July 05, 2026</title>
 <style>
   body {
     font-family: Georgia, serif;
@@ -92,150 +92,143 @@
 })();
 </script>
 <h1>Morning Brief</h1>
-<p class="date">Saturday, July 04, 2026</p>
+<p class="date">Sunday, July 05, 2026</p>
 
 <div class="anchor">
   <h2>☀️ Today's Anchor</h2>
   <div class="anchor-block">
-    <p class="quote">"What I cannot create, I do not understand."</p>
-    <p class="author">— Richard Feynman</p>
-    <p class="context">Found written on Feynman's blackboard after his death. His test for real understanding vs. memorization.</p>
+    <p class="quote">"In theory, there is no difference between theory and practice. In practice, there is."</p>
+    <p class="author">— Yogi Berra (attribution disputed)</p>
+    <p class="context">Often attributed to Berra; earlier versions exist from computer scientist Jan van de Snepscheut. The insight stands regardless of source.</p>
   </div>
   <div class="anchor-block">
-    <p class="model-label">Mental Model · Psychology</p>
-    <p class="model-name">Halo Effect</p>
-    <p class="context">A positive impression in one area leaks into unrelated judgments. Attractive people are assumed to be smarter. Successful CEOs are assumed to be wise about unrelated topics. Strip the halo before trusting any judgment.</p>
+    <p class="model-label">Mental Model · Strategy/Military</p>
+    <p class="model-name">OODA Loop</p>
+    <p class="context">Colonel John Boyd's framework: Observe, Orient, Decide, Act — then repeat, faster than your opponent. The faster your loop, the more control you have. Applies to fighter pilots, startups, and personal decisions. Most people are stuck in 'Orient' — paralyzed by analysis — while faster actors run circles around them.</p>
   </div>
 </div>
 
 <div class="spotlight">
   <h2>🧭 Channel Spotlight</h2>
-  <p class="spotlight-name">Naval</p>
-  <p class="spotlight-pitch">Naval's channel covers the intersection of clear thinking, wealth philosophy, and the examined life — territory adjacent to your Stoicism, mental models, and Bitcoin/monetary interests but approached from a distinctly Eastern-meets-rationalist angle that none of your current channels hit. His content includes solo tweetstorm breakdowns, long-form podcast appearances, and rare interviews where he applies first-principles reasoning to happiness, desire, and leverage in ways that complement Munger and the Stoics without repeating them. Depth is high and format is mostly medium-length solo or interview cuts, with no hustle-culture filler.</p>
+  <p class="spotlight-name">Odyssey of the Mind (William MacAskill / 80,000 Hours)</p>
+  <p class="spotlight-pitch">Your philosophy and mental models interests are well-served on the Stoic/classical side, but 80,000 Hours steelmans the rigorous analytical ethics angle you're missing — effective altruism, moral uncertainty, and how to reason carefully about what actually matters. Their long-form interviews (often 2-3 hours) with philosophers, economists, and scientists treat ethics empirically rather than dogmatically, which pairs well with your Munger/Kahneman mental models interest. The depth rivals Lex Fridman but stays closer to philosophy and decision theory rather than tech celebrity.</p>
   <p class="spotlight-instructions">Interested? Copy the line below into <code>YOUTUBE_CHANNELS</code> in <code>brief.py</code> and save:</p>
-  <pre class="spotlight-snippet" id="snippet">    "Naval": "UCh_dVD10YuSghle8g6yjePg",</pre>
+  <pre class="spotlight-snippet" id="snippet">    "Odyssey of the Mind (William MacAskill / 80,000 Hours)": "UCddiUEpeqJcYeBxX1IVBKvQ",</pre>
   <button class="copy-btn" onclick="navigator.clipboard.writeText(document.getElementById('snippet').innerText.trim()); this.innerText='✅ Copied'; setTimeout(()=>this.innerText='📋 Copy snippet', 2000);">📋 Copy snippet</button>
-  <p class="spotlight-meta">showing for 1 more day. If you don't add it, a new channel will be suggested.</p>
+  <p class="spotlight-meta">showing for 3 more days. If you don't add it, a new channel will be suggested.</p>
 </div>
 <h2>🎥 From People I Follow</h2>
 
 <p><strong>Worth your time:</strong></p>
 
 <div class="story">
-  <h3>GTO Wizard</h3>
-  <p>A strong case against the "statistician trap" in PLO study: the mistake isn't studying too little, it's memorizing frequencies instead of learning patterns. The video introduces the SIP method — Simplify, Isolate (find the 20% of spots driving 80% of EV), and find Patterns. Concretely: PLO opening ranges across positions share a common skeleton, so you anchor on the cutoff range and add/subtract at the margins rather than learning each position from scratch. On sizings, the entire flop strategy collapses to two rules: locked boards (paired, monotone, straight-heavy) get small bets (1/3 or 1/4 pot); regular boards default to half pot. For hand reading post-flop, the key skill is finding the threshold group — the exact hand strength where strategy shifts from pure fold to pure continue — and ignoring everything else.</p>
-  <p class="meta">Videos: <a href="https://www.youtube.com/watch?v=G5k4cXNbiB0">How Pros Actually Study PLO</a></p>
+  <h3>GTO Wizard / GTO Lab</h3>
+  <p>GTO Wizard's PLO video makes a strong case for the <strong>SIP method</strong> (Simplify, Isolate, Pattern): instead of memorizing solver frequencies combo-by-combo, build heuristics from recurring structural patterns. The core insight is that simplified strategies executed well beat complex strategies executed poorly — and in PLO specifically, the EV cost of simplification is small while the execution benefit is large. Practical takeaways: use "when in doubt, open" for BTN, "when in doubt, fold" for EP; treat mixed spots as threshold problems (find the cutoff between pure call and pure fold rather than trying to mix); on locked boards (paired/monotone/straight-heavy), use small sizing (1/4–1/3); on regular boards, default to half-pot. GTO Lab's short adds a complementary exploitative point: on ace-high boards, population calls the same range regardless of whether you size 33% or 40%+, so sizing up is a low-risk exploit since villain can't distinguish sizes and won't adjust their calling range.</p>
+  <p class="meta">Videos: <a href="https://www.youtube.com/watch?v=G5k4cXNbiB0">How Pros Actually Study PLO</a> · <a href="https://www.youtube.com/shorts/ZAT49VVD_w0">You're betting too small on ace-high boards</a></p>
 </div>
 
 <div class="story">
   <h3>Jared Alderman</h3>
-  <p>A candid roundtable with Stephen Chidwick on the limits of solver-based precision even at the highest stakes. Chidwick's position: elite players still make significant mistakes, particularly in unfamiliar formats or rare node types — the complexity of the game obscures them. His prep approach before major stops is footage review over theory work, specifically trying to model how opponents think about ICM and future-game considerations, not just checking frequencies. On EV obsession: Chidwick finds it more useful to bracket out the EV framing entirely and focus on playing his best game, treating variance as a learning signal rather than a verdict. The shorts clip reinforces this — treating a C-game session as an opportunity to work on the C-game rather than a failure.</p>
-  <p class="meta">Videos: <a href="https://www.youtube.com/watch?v=ImD3LS-fhDg">The Traps Even Elite Poker Players Fall Into</a> · <a href="https://www.youtube.com/shorts/SSnHul7imbg">Stephen Chidwick on focusing less on EV</a></p>
+  <p>Short clip featuring Stephen Chidwick on epistemology applied to poker study: the framing is that truth is a direction, not a destination — you can orient toward truth, update toward it, and judge positions as more or less accurate without ever claiming to have fully arrived. The practical application is being precise with language when describing your own perceptions, which Alderman says has concretely helped him think more clearly about spots rather than defaulting to vague intuitions.</p>
+  <p class="meta">Video: <a href="https://www.youtube.com/shorts/t-brLQmDuzg">Stephen Chidwick's Process Toward Truth</a></p>
 </div>
 
 <div class="story">
-  <h3>Thomas DeLauer</h3>
-  <p>Sodium bicarbonate (baking soda) has an ISSN-reviewed evidence base for high-intensity performance: 0.2–0.5g/kg bodyweight taken 60–180 minutes pre-training raises extracellular bicarbonate, creating a steeper gradient for hydrogen ions to exit muscle cells, buffering the burn in efforts lasting 30 seconds to ~12 minutes. Beta-alanine covers the intracellular side of the same system by loading muscle carnosine (requires 4–6g/day for 4+ weeks; tingling is the main side effect). The key finding: a British Journal of Sports Medicine meta-analysis of 40 studies (1,400+ subjects) found beta-alanine alone had an effect size of 0.18 — barely meaningful — but the combination with sodium bicarb jumped to 0.43, the single largest performance effect in the entire analysis. Applied to a 1500m race, a 2.85% improvement is roughly 6 seconds — podium-shifting at elite level.</p>
-  <p class="meta">Videos: <a href="https://www.youtube.com/watch?v=OvtLmjynLYY">This Powder is 2X Stronger than Creatine for Performance</a></p>
-</div>
-
-<div class="story">
-  <h3>Renaissance Periodization (Dr. Mike)</h3>
-  <p>The Ronaldo workout breakdown is worth skimming for the framework: what Ronaldo does on video is active recovery, not a training stimulus — bodyweight crunches, glute bridges, and hip mobility work don't approach failure, don't load the posterior chain meaningfully, and won't produce hypertrophy or fat loss in anyone above beginner level. The broader point is that elite athletes' public "routines" are almost always the recovery layer of a much larger training structure. The injury-prevention short makes a clean evidence-based claim: the single most reliable predictor of injury in sports science is a sharp escalation in training volume — going from near-zero to high volume in preseason. The prescription is smoother volume curves year-round and a brief ramp-up week before preseason, not extended offseason detraining.</p>
-  <p class="meta">Videos: <a href="https://www.youtube.com/watch?v=17NfV_f1Omo">Exercise Scientist Critiques Cristiano Ronaldo's Viral Workouts</a> · <a href="https://www.youtube.com/shorts/nV_7leyhZjk">How Athletes Actually Avoid Injuries</a></p>
+  <h3>Stronger by Science (RSS)</h3>
+  <p>New analysis on the correlation between hypertrophy and strength gains: prior studies likely underestimated how much muscle growth contributes to strength gains in newer lifters, but the relationship is still far from clean — lots of noise, and the correlation doesn't hold nearly as strongly as surface-level data suggests. Worth reading if you're thinking about programming for strength vs. size.</p>
+  <p class="meta">Article: <a href="https://www.strongerbyscience.com/correlation-strength-hypertrophy/">Is the Correlation Between Hypertrophy and Strength Gains Stronger Than We Realized?</a></p>
 </div>
 
 <p><strong>Also posted:</strong></p>
 <ul>
-  <li><strong>Stronger by Science (RSS):</strong> New analysis on the hypertrophy–strength correlation: muscle growth probably contributes more to strength gains in novices than prior studies suggested, but the relationship is far noisier than it first appears. (<a href="https://www.strongerbyscience.com/correlation-strength-hypertrophy/">Is the Correlation Between Hypertrophy and Strength Gains Stronger Than We Realized?</a>)</li>
-  <li><strong>Peter Attia:</strong> On fasting during chemotherapy — water-only fasting for 24+ hours before chemo causes healthy cells to shift into maintenance mode (making them more chemo-resistant) while tumor cells, unable to suppress growth due to mutated tumor-suppressor genes, become more vulnerable. Clinical trials show reduced side effects, which allows higher or more complete chemo dosing. (<a href="https://www.youtube.com/shorts/DQwRmE6lmW4">How fasting can make chemotherapy more effective</a>)</li>
-  <li><strong>Dr. Sten Ekberg:</strong> Argues that antioxidant supplements (especially beta-carotene, synthetic vitamin E/alpha-tocopherol) are not just ineffective but actively harmful — citing a 230,000-person meta-analysis of 68 RCTs finding increased mortality, and two trials stopped early for showing a 17–28% increase in cancer rates. Core mechanism: exogenous antioxidants neutralize the free-radical signals that activate the body's own NRF2 switch, which produces catalase, SOD, and glutathione — far more powerful than any pill. Exception flagged: R-alpha lipoic acid, which works as a recycler of endogenous antioxidants rather than a one-for-one scavenger. (<a href="https://www.youtube.com/watch?v=GPUAvyW2C88">#1 Worst SUPPLEMENT You Should NEVER Take</a>)</li>
-  <li><strong>Anthony Chaffee MD:</strong> Short clip on why people quit carnivore — most common failure mode is heavy dairy use from recipe content, which can cause weight gain and inflammation, especially when the underlying goal is fat loss. (<a href="https://www.youtube.com/shorts/vMKOwDKhyNc">What Are People Leaving The Carnivore Diet?</a>)</li>
-  <li><strong>Nick Norwitz:</strong> A compound in aged garlic extract called S1PC raises NAMPT levels in fat cells, which triggers NAD production in the brain; in animal models this enhanced muscle power and reduced frailty. Human controlled trial used 25mg of S1PC. Interesting mechanistic chain; Norwitz flags it as genuinely surprising rather than overselling it. (<a href="https://www.youtube.com/shorts/sYfksLLGnYk">Garlic Has No Business Being This Interesting!</a>)</li>
-  <li><strong>GTO Lab (Daniel Dvoress):</strong> On an ace-turn spot after betting range on the flop — Dvoress argues you should barrel frequently because your range (which bet the flop) almost always contains an ace or strong made hand that benefits from the card, while opponents' hands are often weakened by it. No need to go exactly geometric in sizing. (<a href="https://www.youtube.com/shorts/cSIcHrG3AqQ">If you're checking back this Ace turn...</a>)</li>
-  <li><strong>Mind The Game (LeBron & Steph):</strong> Reflective breakdown of the 2024 Olympics gold medal run — specifically the Serbia semifinal comeback from double digits down with under 8 minutes left, and what "flow state" actually felt like from the inside. More storytelling than tactical analysis, but genuinely good. (<a href="https://www.youtube.com/watch?v=V_tqh3elTDQ">LeBron and Steph on Teaming Up for Team USA's 2024 Gold Medal Run</a>)</li>
-  <li><strong>Ben Felix:</strong> Evidence-based case that investing at stock market all-time highs is not dangerous — using total return indices (including dividends) rather than price-only indices, ~30% of months since 1970 have been all-time highs, and 1- and 3-year returns following ATHs are actually slightly higher than other months (momentum effect). The real concern is CAPE ratio: starting valuations above 40 have historically predicted lower 10-year returns, but the distribution is wide enough to make market timing on valuation alone unreliable. (<a href="https://www.youtube.com/watch?v=WEClhtPD5Ko">The Truth About Investing at All-Time Highs</a>)</li>
+  <li><strong>Thomas DeLauer:</strong> Covers a 13-beverage hydration study (published in <em>AJCN</em>) showing only full-fat milk, skim milk, and oral rehydration solutions meaningfully outperformed water in 4-hour fluid retention — with watermelon juice flagged as a strong practical option due to its electrolyte matrix, natural sugars, and L-citrulline content (richest dietary source). Adds a real mechanism: citrulline → arginine → nitric oxide clears ammonia and extends aerobic window; a half-marathon study found 95% of citrulline group reported zero soreness at 72 hrs vs. 67% placebo. Practical tip: add sea salt to watermelon to complete the sodium gap. (<a href="https://www.youtube.com/watch?v=C1bFh9W7MwE">Scientists Tested 13 Beverages</a>)</li>
+  <li><strong>Dr. Sten Ekberg:</strong> Argues that antioxidant supplements (beta-carotene, vitamin E/alpha-tocopherol) are not just useless but potentially harmful — citing a review of 68 RCTs (230,000 people) finding increased mortality, and two stopped-early trials showing 17–28% increased cancer rates. Core mechanism: the body's intracellular antioxidant system (catalase, SOD, glutathione) works via NRF2 signaling triggered by free radicals; flooding the system with exogenous antioxidants suppresses this signal. Exception flagged: R-alpha lipoic acid, which recycles endogenous antioxidants rather than acting as a one-for-one scavenger. (<a href="https://www.youtube.com/watch?v=GPUAvyW2C88">#1 Worst SUPPLEMENT You Should NEVER Take</a>)</li>
+  <li><strong>Renaissance Periodization:</strong> Two shorts — one arguing that feeling a muscle activate does not mean it's being pushed toward growth (only max-effort speed or resistance training does that); one on the brain's attractiveness-assessment software working equally on yourself in the mirror, which explains why positive self-talk about appearance often fails cognitively. (<a href="https://www.youtube.com/shorts/iLef6A2R2X8">Feeling A Muscle Doesn't Mean It's Growing</a> + 1 more)</li>
+  <li><strong>Peter Attia:</strong> Short clip on fasting + chemotherapy: water-only fasting ≥24 hrs reduces chemo side effects because healthy cells shift to maintenance/repair mode while tumor cells (with mutated tumor suppressors) can't slow growth, making them relatively more vulnerable. The practical lever: reduced side effects → higher tolerable chemo dose → better treatment completion rates. (<a href="https://www.youtube.com/shorts/DQwRmE6lmW4">How fasting can make chemotherapy more effective</a>)</li>
+  <li><strong>Nick Norwitz:</strong> Aged garlic contains S1PC, which in a controlled human trial increased NAMPT — a protein that causes fat cells to release particles that raise brain NAD levels. Downstream effects in animal models include enhanced muscle power and reduced frailty. Human trial dose: 25mg S1PC from aged garlic extract. (<a href="https://www.youtube.com/shorts/sYfksLLGnYk">Garlic Has No Business Being This Interesting!</a>)</li>
+  <li><strong>Andrew Huberman / Dr. Kyle Gillett:</strong> Wide-ranging hormone optimization episode — key practical claims: vigorous training >1 hr regularly is hormonally counterproductive; creatine modestly raises total testosterone and DHT conversion but won't meaningfully accelerate hair loss beyond your baseline; caloric restriction lowers free androgens even if you're not obese (via high SHBG and reduced IGF-1); pure carnivore or vegan diets in teens/early 20s likely reduce free androgens significantly. (<a href="https://www.youtube.com/watch?v=O-groYMqrQw">Essentials: Tools for Hormone Optimization in Males</a>)</li>
+  <li><strong>Mind The Game (LeBron + Steph):</strong> Detailed breakdown of the 2024 Olympics semifinal comeback vs. Serbia — both players describe being down double digits late, Steph finding rhythm on a missed three that got an offensive rebound, and the final sequence being pure flow state/muscle memory rather than deliberate thought. Interesting on team dynamics: each player could under-perform on a given night without it being fatal because of the depth of talent around them. (<a href="https://www.youtube.com/watch?v=V_tqh3elTDQ">LeBron and Steph on Teaming Up for Team USA's 2024 Gold Medal Run</a>)</li>
+  <li><strong>Donald Robertson (RSS):</strong> Essay excerpt arguing Marcus Aurelius was not emotionally suppressed or detached — he felt grief, frustration, and fear — but actively worked to process those emotions through Stoic practice rather than eliminate them. (<a href="https://donaldrobertson.substack.com/p/marcus-aurelius-was-not-an-emotionless">Marcus Aurelius Was Not an Emotionless Stoic</a>)</li>
+  <li><strong>Ben Felix:</strong> Data-driven case that all-time highs in stock indices are not predictive of future negative returns — using total return indices (with dividends), ~30% of months since 1970 are ATHs, and 1-year returns following ATHs are actually slightly higher than other months (momentum effect). The real risk flag is valuation (CAPE ratio), which does have a noisy but real relationship with 10-year forward returns. (<a href="https://www.youtube.com/watch?v=WEClhtPD5Ko">The Truth About Investing at All-Time Highs</a>)</li>
 </ul>
-
----
 
 <h2>₿ Bitcoin & Macro</h2>
 
 <div class="story">
-  <h3><a href="https://bitcoinmagazine.com/news/metaplanet-adds-2823-bitcoin-reaches-43000">Metaplanet Reaches 43,000 BTC — World's Third-Largest Corporate Treasury</a></h3>
-  <p>Metaplanet added 2,823 BTC in Q2 to reach 43,000 Bitcoin, passing most corporate holders to sit behind only Strategy and Twenty One Capital. This is the clearest signal yet that the Saylor playbook — issuing equity/debt to accumulate BTC on the corporate balance sheet — is being replicated at scale internationally. The pace of accumulation by non-US entities is accelerating.</p>
+  <h3><a href="https://bitcoinmagazine.com/markets/bitcoin-exchange-inflows-spike-to-49000">Bitcoin Exchange Inflows Spike to 49,000 BTC in a Day</a></h3>
+  <p>CryptoQuant reported a single-day spike of 49,000 BTC flowing onto exchanges on June 30 — a historically rare event that has preceded heightened volatility and, more often than not, downside price action. Worth watching as a sentiment/positioning signal even if it doesn't predict direction with certainty.</p>
   <p class="meta">Bitcoin Magazine</p>
 </div>
 
 <div class="story">
-  <h3><a href="https://bitcoinmagazine.com/markets/bitcoin-exchange-inflows-spike-to-49000">Bitcoin Exchange Inflows Spike to 49,000 BTC — Volatility Signal</a></h3>
-  <p>CryptoQuant reported a single-day inflow of 49,000 BTC to exchanges on June 30 — a statistically rare spike historically correlated with heightened volatility and often near-term downside risk. This occurred even as Bitcoin reclaimed $60,000. Worth watching as a leading indicator rather than a directional call.</p>
+  <h3><a href="https://bitcoinmagazine.com/news/metaplanet-adds-2823-bitcoin-reaches-43000">Metaplanet Reaches 43,000 BTC — World's Third-Largest Corporate Treasury</a></h3>
+  <p>Metaplanet added 2,823 BTC in Q2 to reach 43,000 BTC, now sitting behind only Strategy (MicroStrategy) and Twenty One Capital. The Saylor playbook continues to propagate internationally — a Japanese company now holds more Bitcoin than almost any institution on earth.</p>
   <p class="meta">Bitcoin Magazine</p>
 </div>
-
----
 
 <h2>🧬 Health & Science</h2>
 
 <div class="story">
-  <h3>Sodium Bicarbonate + Beta-Alanine: Dual-Buffer Performance Stack</h3>
-  <p>Covered under GTO Wizard above but worth extracting here as a standalone finding. The Thomas DeLauer video summarizes a well-designed meta-analysis (British Journal of Sports Medicine, 40 studies, 1,400+ subjects): beta-alanine alone hits an effect size of 0.18 on exercise performance; combining it with sodium bicarbonate pushes that to 0.43 — more than double, and the largest single effect size in the entire analysis. The mechanism is clean: carnosine (loaded by beta-alanine) buffers hydrogen ions inside the muscle cell; bicarbonate buffers them extracellularly once exported. They hit different compartments and don't compete for absorption. Practical protocol: 0.3g/kg sodium bicarb 60–120 min pre-training; 4–6g beta-alanine daily for 4+ weeks (split doses to reduce tingling).</p>
-  <p class="meta"><a href="https://www.youtube.com/watch?v=OvtLmjynLYY">Thomas DeLauer</a></p>
-</div>
-
-<div class="story">
-  <h3>Antioxidant Supplements: The Evidence Against (Ekberg summary)</h3>
-  <p>The ORAC measurement framework — the entire scientific basis for marketing antioxidant supplements — was quietly abandoned by the FDA in 2012 after failing to show any meaningful relationship to health outcomes. The clinical damage: a 230,000-person meta-analysis of 68 RCTs found that beta-carotene, vitamin A, and synthetic vitamin E supplements all increased mortality. Two specific trials were halted early after seeing a 17–28% increase in cancer in the treatment arm. The biological reason: free radicals are intracellular signals that activate NRF2, which in turn produces the body's own enzymatic antioxidants (catalase, SOD, glutathione) — each capable of neutralizing millions of free radicals per minute vs. one-for-one for supplements. Flooding the system with exogenous antioxidants suppresses that signaling cascade. Fruits and vegetables benefit health primarily through microbiome-feeding fiber and polyphenols, not antioxidant content.</p>
+  <h3>Antioxidant Supplements: The ORAC Framework Was Wrong</h3>
+  <p>Dr. Sten Ekberg's video synthesizes a body of RCT evidence that antioxidant supplements don't just fail to help — they can actively harm. The FDA quietly removed ORAC values from its databases in 2012. The mechanism: free radicals are intracellular signals that activate NRF2, which triggers the body's own catalase/SOD/glutathione system (capable of neutralizing millions of radicals per molecule, vs. the 1-for-1 ratio of supplement antioxidants). Flooding the system externally suppresses that signal. The two most damning data points: beta-carotene supplementation showed a 28% <em>increase</em> in cancer across two stopped-early trials; a meta-analysis of 68 RCTs (230,000 people) found beta-carotene, vitamin A, and vitamin E supplements all increased mortality. Exception: R-alpha lipoic acid, which recycles endogenous antioxidants rather than displacing them. Separately, isolated alpha-tocopherol (the standard vitamin E pill) actively competes with and depletes gamma-tocopherol — the other critical form — making supplementation counterproductive even if antioxidants were useful.</p>
   <p class="meta"><a href="https://www.youtube.com/watch?v=GPUAvyW2C88">Dr. Sten Ekberg</a></p>
 </div>
 
 <div class="story">
-  <h3>Fasting + Chemotherapy: Differential Killing Mechanism</h3>
-  <p>Peter Attia's short clip lays out a clean mechanism: during caloric restriction, healthy cells downregulate growth and shift to maintenance/repair, making them more resistant to chemotherapy's indiscriminate cell damage. Cancer cells cannot do this — mutations in tumor suppressor genes force them to keep growing, making them disproportionately vulnerable to the same treatment. Clinical trials confirm that water-only fasting for 24+ hours before chemo reduces side effects sufficiently to allow higher or more complete dosing — which is itself a major outcome driver since many patients can't complete full chemotherapy regimens due to toxicity.</p>
-  <p class="meta"><a href="https://www.youtube.com/shorts/DQwRmE6lmW4">Peter Attia</a></p>
+  <h3>Watermelon as a Performance and Recovery Tool: Actual Mechanisms</h3>
+  <p>Thomas DeLauer's video covers real data: a <em>Food and Nutrition Research</em> study on 21 amateur runners found that 500ml of watermelon juice pre-race kept plasma lactate significantly lower (more aerobic at the same effort), preserved jump performance post-race while placebo group dropped 9–10%, and produced 95% zero-soreness at 72 hrs vs. 67% placebo. The mechanisms are citrulline → arginine → nitric oxide (vasodilation + ammonia clearance via urea cycle) and a glucose-delivery pathway during exercise that bypasses insulin signaling entirely (contraction-activated GLUT4 translocation via calcium/AMPK/NO). Practical: eat flesh near the rind (highest citrulline concentration), add sea salt (sodium is the strongest individual driver of fluid retention), and consider it during exercise as an insulin-independent carb source — particularly relevant for insulin-resistant individuals.</p>
+  <p class="meta"><a href="https://www.youtube.com/watch?v=C1bFh9W7MwE">Thomas DeLauer</a></p>
 </div>
 
----
+<div class="story">
+  <h3><a href="https://peterattiamd.com/metformin-and-cancer/">Metformin and Cancer: Active Surveillance Needed</a></h3>
+  <p>Peter Attia's piece reviews metformin's track record across cancer contexts — it failed in prostate cancer and several other tumor types, but exceptions exist. The core argument is that "metformin for cancer" is too blunt a framing; what matters is which cancer, which mechanism, and which patient. A useful corrective against the recent hype around metformin as a broad anti-cancer longevity drug.</p>
+  <p class="meta"><a href="https://peterattiamd.com/metformin-and-cancer/">Peter Attia MD</a></p>
+</div>
+
+<div class="story">
+  <h3>Fasting + Chemotherapy: The Differential Killing Mechanism</h3>
+  <p>Peter Attia's short clip articulates the core logic clearly: the challenge in cancer treatment is never killing cancer cells (easy) — it's differential killing. Fasting ≥24 hrs shifts healthy cells into maintenance/repair mode (reduced chemo sensitivity) while tumor cells, unable to downregulate growth due to mutated tumor suppressors, become relatively more vulnerable. Clinical trials have shown water-only fasting reduces chemo side effects, which in practice means patients can tolerate higher doses and complete more treatment cycles — itself a meaningful survival lever.</p>
+  <p class="meta"><a href="https://www.youtube.com/shorts/DQwRmE6lmW4">Peter Attia MD</a></p>
+</div>
 
 <h2>💡 Worth Reading</h2>
 
 <div class="story">
-  <h3><a href="https://surfingcomplexity.blog/2026/07/03/synthesis-is-harder-than-analysis/">Synthesis is Harder Than Analysis</a></h3>
-  <p>A short essay making the case that breaking things down (analysis) is cognitively easy and socially rewarded, while building coherent wholes from parts (synthesis) is genuinely hard and systematically undervalued. Worth sitting with as a mental model for why so much expert commentary tears down without building anything.</p>
-  <p class="meta">Surfing Complexity (via Hacker News)</p>
+  <h3><a href="https://www.astralcodexten.com/p/the-ai-superforecasters-are-here">The AI Superforecasters Are Here</a></h3>
+  <p>Scott Alexander examines AI systems that are now outperforming human superforecasters on prediction markets and calibration benchmarks. Worth reading for what it implies about the quality of AI reasoning on uncertain, real-world questions — not just structured tasks — and what it means for epistemic humility when models are better-calibrated than experts.</p>
+  <p class="meta">Astral Codex Ten</p>
 </div>
 
 <div class="story">
-  <h3><a href="https://marginalrevolution.com/marginalrevolution/2026/07/a-scientific-benefit-and-cost-of-ai-innovation.html">A Scientific Benefit (and Cost) of AI Innovation — Marginal Revolution</a></h3>
-  <p>Tyler Cowen reflects on how AI has collapsed the cost of preliminary intellectual exploration — sketching an argument, identifying objections, testing whether they're fatal — from a fortnight to an afternoon. He frames this not purely as acceleration but as a qualitative change in how ideas develop, with a genuine cost: the slower, harder process of sitting with uncertainty may have produced something that fast iteration doesn't. Worth reading as a serious first-person account of what this shift actually feels like in practice.</p>
+  <h3><a href="https://marginalrevolution.com/marginalrevolution/2026/07/a-scientific-benefit-and-cost-of-ai-innovation.html">A Scientific Benefit (and Cost) of AI Innovation</a></h3>
+  <p>Tyler Cowen makes an under-discussed point: AI has collapsed the cost of preliminary intellectual exploration — sketching an argument, finding the first serious objections, and reaching a provisional verdict now takes an afternoon rather than a fortnight. The concern is that this might change what kinds of thinking we actually do, not just how fast we do existing thinking. Worth sitting with as a mental model for how AI changes the texture of intellectual work.</p>
   <p class="meta">Marginal Revolution</p>
 </div>
 
 <div class="story">
-  <h3><a href="https://citizenlab.ca/research/member-of-committee-investigating-spyware-hacked-with-pegasus/">Espionage Against the European Parliament — Citizen Lab</a></h3>
-  <p>Citizen Lab documents that a member of the European Parliament's committee investigating spyware abuses was themselves hacked with Pegasus. The recursive irony is notable, but the real implication is structural: Pegasus deployment is continuing against political targets in democratic states at the highest institutional levels, and the oversight mechanisms meant to constrain it are themselves being surveilled.</p>
-  <p class="meta"><a href="https://news.ycombinator.com/item?id=espionage-ep">Discussion</a> · Citizen Lab</p>
+  <h3><a href="https://jamanetwork.com/journals/jamapsychiatry/fullarticle/2846478">Efficacy and Safety of Psilocybin in Treatment-Resistant Major Depression</a></h3>
+  <p>JAMA Psychiatry RCT on psilocybin for treatment-resistant major depression — a condition where most interventions fail. Worth bookmarking for the data quality (JAMA, RCT design) rather than the hype. If you follow longevity and mental health research, this is the actual primary literature on a topic that generates a lot of noise.</p>
+  <p class="meta"><a href="https://news.ycombinator.com/item?id=">HN Discussion</a> · JAMA Psychiatry</p>
 </div>
 
 <div class="story">
-  <h3><a href="https://interconnected.org/home/2026/07/03/factories">Factories Are Just Rooms</a></h3>
-  <p>A short, genuinely interesting essay arguing that the physical factory — as a concept — is just a room with special-purpose machines in it, and that as machines become general-purpose and software-reconfigurable, the distinction between a factory and any other productive space dissolves. Has real implications for how manufacturing geography and capital allocation will shift.</p>
-  <p class="meta">Interconnected (via Hacker News)</p>
+  <h3><a href="https://donaldrobertson.substack.com/p/marcus-aurelius-was-not-an-emotionless">Marcus Aurelius Was Not an Emotionless Stoic</a></h3>
+  <p>Donald Robertson (the leading biographer of Marcus Aurelius) makes the case that the popular image of Stoic emotional detachment is a misreading — Marcus grieved, feared, and felt frustration acutely, and the <em>Meditations</em> are evidence of active psychological struggle, not serene transcendence. The distinction matters practically: Stoicism as a toolkit for processing emotion is very different from Stoicism as a prescription for suppression.</p>
+  <p class="meta"><a href="https://donaldrobertson.substack.com/p/marcus-aurelius-was-not-an-emotionless">Donald Robertson / Substack</a></p>
 </div>
-
----
 
 <h2>🤖 AI Capability Watch</h2>
 
 <div class="story">
-  <h3><a href="https://www.anthropic.com/news/claude-science-ai-workbench">Claude Science — Anthropic Launches AI Workbench for Scientists</a></h3>
-  <p>Anthropic has released a dedicated research environment for scientists, suggesting a new product category: domain-specific AI workspaces rather than general-purpose chat. If the tooling meaningfully accelerates literature synthesis, hypothesis generation, or experimental design for working researchers, this is a genuine capability unlock for a specific high-value user group — not just a Claude interface with a different coat of paint.</p>
+  <h3><a href="https://www.anthropic.com/news/claude-sonnet-5">Introducing Claude Sonnet 5</a></h3>
+  <p>Anthropic has released Claude Sonnet 5, a new model in their lineup. No transcript details available on specific capability claims, but a named Sonnet-tier release from Anthropic represents a meaningful step in their model family rather than a minor variant update.</p>
   <p class="meta">Anthropic</p>
 </div>
 
 <div class="story">
-  <h3><a href="https://www.anthropic.com/news/claude-sonnet-5">Introducing Claude Sonnet 5</a></h3>
-  <p>Anthropic has released Claude Sonnet 5, a new model in their Sonnet line. Without specific capability benchmarks or feature announcements beyond the release itself, the significance depends on whether this represents a meaningful jump in reasoning, instruction-following, or context handling for everyday use — worth checking against your current workflows.</p>
+  <h3><a href="https://www.anthropic.com/news/claude-science-ai-workbench">Claude Science — AI Workbench for Scientists</a></h3>
+  <p>Anthropic launched Claude Science, a dedicated product for scientific research workflows — a new product category beyond the general-purpose Claude interface. If it delivers on domain-specific scientific reasoning (literature synthesis, hypothesis generation, experimental design), this is a meaningful capability expansion for researchers rather than a UI reskin.</p>
   <p class="meta">Anthropic</p>
 </div>
 </body>
