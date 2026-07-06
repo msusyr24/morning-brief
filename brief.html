@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>Morning Brief — Sunday, July 05, 2026</title>
+<title>Morning Brief — Monday, July 06, 2026</title>
 <style>
   body {
     font-family: Georgia, serif;
@@ -92,19 +92,19 @@
 })();
 </script>
 <h1>Morning Brief</h1>
-<p class="date">Sunday, July 05, 2026</p>
+<p class="date">Monday, July 06, 2026</p>
 
 <div class="anchor">
   <h2>☀️ Today's Anchor</h2>
   <div class="anchor-block">
-    <p class="quote">"In theory, there is no difference between theory and practice. In practice, there is."</p>
-    <p class="author">— Yogi Berra (attribution disputed)</p>
-    <p class="context">Often attributed to Berra; earlier versions exist from computer scientist Jan van de Snepscheut. The insight stands regardless of source.</p>
+    <p class="quote">"The map is not the territory."</p>
+    <p class="author">— Alfred Korzybski</p>
+    <p class="context">Science and Sanity (1933). Korzybski's foundational insight for General Semantics: our models of reality are never reality itself.</p>
   </div>
   <div class="anchor-block">
-    <p class="model-label">Mental Model · Strategy/Military</p>
-    <p class="model-name">OODA Loop</p>
-    <p class="context">Colonel John Boyd's framework: Observe, Orient, Decide, Act — then repeat, faster than your opponent. The faster your loop, the more control you have. Applies to fighter pilots, startups, and personal decisions. Most people are stuck in 'Orient' — paralyzed by analysis — while faster actors run circles around them.</p>
+    <p class="model-label">Mental Model · Strategy</p>
+    <p class="model-name">Maginot Line Thinking</p>
+    <p class="context">France's WWI-era defense, designed against the last war, was simply bypassed in WWII. Generals always fight the last war. Companies always defend the last market. Individuals always prepare for the last threat. Ask: what if the threat doesn't come from where I'm defending?</p>
   </div>
 </div>
 
@@ -115,121 +115,108 @@
   <p class="spotlight-instructions">Interested? Copy the line below into <code>YOUTUBE_CHANNELS</code> in <code>brief.py</code> and save:</p>
   <pre class="spotlight-snippet" id="snippet">    "Odyssey of the Mind (William MacAskill / 80,000 Hours)": "UCddiUEpeqJcYeBxX1IVBKvQ",</pre>
   <button class="copy-btn" onclick="navigator.clipboard.writeText(document.getElementById('snippet').innerText.trim()); this.innerText='✅ Copied'; setTimeout(()=>this.innerText='📋 Copy snippet', 2000);">📋 Copy snippet</button>
-  <p class="spotlight-meta">showing for 3 more days. If you don't add it, a new channel will be suggested.</p>
+  <p class="spotlight-meta">showing for 2 more days. If you don't add it, a new channel will be suggested.</p>
 </div>
 <h2>🎥 From People I Follow</h2>
 
 <p><strong>Worth your time:</strong></p>
 
 <div class="story">
-  <h3>GTO Wizard / GTO Lab</h3>
-  <p>GTO Wizard's PLO video makes a strong case for the <strong>SIP method</strong> (Simplify, Isolate, Pattern): instead of memorizing solver frequencies combo-by-combo, build heuristics from recurring structural patterns. The core insight is that simplified strategies executed well beat complex strategies executed poorly — and in PLO specifically, the EV cost of simplification is small while the execution benefit is large. Practical takeaways: use "when in doubt, open" for BTN, "when in doubt, fold" for EP; treat mixed spots as threshold problems (find the cutoff between pure call and pure fold rather than trying to mix); on locked boards (paired/monotone/straight-heavy), use small sizing (1/4–1/3); on regular boards, default to half-pot. GTO Lab's short adds a complementary exploitative point: on ace-high boards, population calls the same range regardless of whether you size 33% or 40%+, so sizing up is a low-risk exploit since villain can't distinguish sizes and won't adjust their calling range.</p>
-  <p class="meta">Videos: <a href="https://www.youtube.com/watch?v=G5k4cXNbiB0">How Pros Actually Study PLO</a> · <a href="https://www.youtube.com/shorts/ZAT49VVD_w0">You're betting too small on ace-high boards</a></p>
+  <h3>GTO Wizard</h3>
+  <p>A thorough breakdown of the "SIP method" for studying PLO: Simplify, Identify the 20%, and find Patterns. The core argument is that memorizing solver frequencies combo-by-combo is counterproductive — instead, build heuristics (e.g., "when in doubt on the button, open; when in doubt early, fold") and focus study time on spots where the strategy actually changes, i.e., threshold groups. A specific and useful claim: on most flops you can use a single sizing without meaningful EV loss — "locked" boards (paired, monotone, straight) favor small sizing (1/3–1/4), regular boards favor half-pot. The piece on small blind vs. cutoff c-betting — why SB bets far more on high-card boards despite similar range frequencies — is the kind of pattern-level insight the video argues you should be hunting for.</p>
+  <p class="meta">Videos: <a href="https://www.youtube.com/watch?v=G5k4cXNbiB0">How Pros Actually Study PLO</a></p>
+</div>
+
+<div class="story">
+  <h3>GTO Lab</h3>
+  <p>A short but pointed claim: on ace-high boards like A-T-9 rainbow, population is calling the same range regardless of whether you bet 25% or 40%, because players are conditioned not to fold a pair on the flop. That inelasticity means sizing up exploits the field without meaningfully changing the range that calls — a clean example of population-adjusted bet sizing vs. GTO-neutral sizing.</p>
+  <p class="meta">Videos: <a href="https://www.youtube.com/shorts/ZAT49VVD_w0">You're betting too small on ace-high boards</a></p>
 </div>
 
 <div class="story">
   <h3>Jared Alderman</h3>
-  <p>Short clip featuring Stephen Chidwick on epistemology applied to poker study: the framing is that truth is a direction, not a destination — you can orient toward truth, update toward it, and judge positions as more or less accurate without ever claiming to have fully arrived. The practical application is being precise with language when describing your own perceptions, which Alderman says has concretely helped him think more clearly about spots rather than defaulting to vague intuitions.</p>
-  <p class="meta">Video: <a href="https://www.youtube.com/shorts/t-brLQmDuzg">Stephen Chidwick's Process Toward Truth</a></p>
+  <p>A brief but philosophically interesting clip on kindness and self-talk: the argument is that fixating on "what is true" about yourself can crowd out "what is useful." His point to a student was that if you'd asked "what do I actually need to hear right now?" sooner, you'd have found the productive framing without waiting for someone else to offer it. Frames kindness toward oneself as a utility, not a softness — relevant to the inner game of decision-making under pressure.</p>
+  <p class="meta">Videos: <a href="https://www.youtube.com/shorts/mrtB6OMIPG4">Kindness: What You Need vs. What Is True</a></p>
 </div>
 
 <div class="story">
-  <h3>Stronger by Science (RSS)</h3>
-  <p>New analysis on the correlation between hypertrophy and strength gains: prior studies likely underestimated how much muscle growth contributes to strength gains in newer lifters, but the relationship is still far from clean — lots of noise, and the correlation doesn't hold nearly as strongly as surface-level data suggests. Worth reading if you're thinking about programming for strength vs. size.</p>
-  <p class="meta">Article: <a href="https://www.strongerbyscience.com/correlation-strength-hypertrophy/">Is the Correlation Between Hypertrophy and Strength Gains Stronger Than We Realized?</a></p>
+  <h3>Mind The Game (LeBron & JJ Redick)</h3>
+  <p>LeBron and Steph break down the 2024 Olympic run, specifically the Serbia semifinal comeback from double digits down. Steph describes the flow-state progression: missing first three, hitting a mid-range, feeling energy shift — "at that point I was like, alright." LeBron describes the closing sequence as intentional but not scripted ("I'm coming to set a screen for you" → Steph made the play, muscle memory took over), and both confirm it was fully reactive by the final shots. Good material on what "flow state" actually feels like in elite competition — no thought, pure pattern recognition, trust.</p>
+  <p class="meta">Videos: <a href="https://www.youtube.com/watch?v=V_tqh3elTDQ">LeBron and Steph on Teaming Up for Team USA's 2024 Gold Medal Run</a></p>
 </div>
 
 <p><strong>Also posted:</strong></p>
 <ul>
-  <li><strong>Thomas DeLauer:</strong> Covers a 13-beverage hydration study (published in <em>AJCN</em>) showing only full-fat milk, skim milk, and oral rehydration solutions meaningfully outperformed water in 4-hour fluid retention — with watermelon juice flagged as a strong practical option due to its electrolyte matrix, natural sugars, and L-citrulline content (richest dietary source). Adds a real mechanism: citrulline → arginine → nitric oxide clears ammonia and extends aerobic window; a half-marathon study found 95% of citrulline group reported zero soreness at 72 hrs vs. 67% placebo. Practical tip: add sea salt to watermelon to complete the sodium gap. (<a href="https://www.youtube.com/watch?v=C1bFh9W7MwE">Scientists Tested 13 Beverages</a>)</li>
-  <li><strong>Dr. Sten Ekberg:</strong> Argues that antioxidant supplements (beta-carotene, vitamin E/alpha-tocopherol) are not just useless but potentially harmful — citing a review of 68 RCTs (230,000 people) finding increased mortality, and two stopped-early trials showing 17–28% increased cancer rates. Core mechanism: the body's intracellular antioxidant system (catalase, SOD, glutathione) works via NRF2 signaling triggered by free radicals; flooding the system with exogenous antioxidants suppresses this signal. Exception flagged: R-alpha lipoic acid, which recycles endogenous antioxidants rather than acting as a one-for-one scavenger. (<a href="https://www.youtube.com/watch?v=GPUAvyW2C88">#1 Worst SUPPLEMENT You Should NEVER Take</a>)</li>
-  <li><strong>Renaissance Periodization:</strong> Two shorts — one arguing that feeling a muscle activate does not mean it's being pushed toward growth (only max-effort speed or resistance training does that); one on the brain's attractiveness-assessment software working equally on yourself in the mirror, which explains why positive self-talk about appearance often fails cognitively. (<a href="https://www.youtube.com/shorts/iLef6A2R2X8">Feeling A Muscle Doesn't Mean It's Growing</a> + 1 more)</li>
-  <li><strong>Peter Attia:</strong> Short clip on fasting + chemotherapy: water-only fasting ≥24 hrs reduces chemo side effects because healthy cells shift to maintenance/repair mode while tumor cells (with mutated tumor suppressors) can't slow growth, making them relatively more vulnerable. The practical lever: reduced side effects → higher tolerable chemo dose → better treatment completion rates. (<a href="https://www.youtube.com/shorts/DQwRmE6lmW4">How fasting can make chemotherapy more effective</a>)</li>
-  <li><strong>Nick Norwitz:</strong> Aged garlic contains S1PC, which in a controlled human trial increased NAMPT — a protein that causes fat cells to release particles that raise brain NAD levels. Downstream effects in animal models include enhanced muscle power and reduced frailty. Human trial dose: 25mg S1PC from aged garlic extract. (<a href="https://www.youtube.com/shorts/sYfksLLGnYk">Garlic Has No Business Being This Interesting!</a>)</li>
-  <li><strong>Andrew Huberman / Dr. Kyle Gillett:</strong> Wide-ranging hormone optimization episode — key practical claims: vigorous training >1 hr regularly is hormonally counterproductive; creatine modestly raises total testosterone and DHT conversion but won't meaningfully accelerate hair loss beyond your baseline; caloric restriction lowers free androgens even if you're not obese (via high SHBG and reduced IGF-1); pure carnivore or vegan diets in teens/early 20s likely reduce free androgens significantly. (<a href="https://www.youtube.com/watch?v=O-groYMqrQw">Essentials: Tools for Hormone Optimization in Males</a>)</li>
-  <li><strong>Mind The Game (LeBron + Steph):</strong> Detailed breakdown of the 2024 Olympics semifinal comeback vs. Serbia — both players describe being down double digits late, Steph finding rhythm on a missed three that got an offensive rebound, and the final sequence being pure flow state/muscle memory rather than deliberate thought. Interesting on team dynamics: each player could under-perform on a given night without it being fatal because of the depth of talent around them. (<a href="https://www.youtube.com/watch?v=V_tqh3elTDQ">LeBron and Steph on Teaming Up for Team USA's 2024 Gold Medal Run</a>)</li>
-  <li><strong>Donald Robertson (RSS):</strong> Essay excerpt arguing Marcus Aurelius was not emotionally suppressed or detached — he felt grief, frustration, and fear — but actively worked to process those emotions through Stoic practice rather than eliminate them. (<a href="https://donaldrobertson.substack.com/p/marcus-aurelius-was-not-an-emotionless">Marcus Aurelius Was Not an Emotionless Stoic</a>)</li>
-  <li><strong>Ben Felix:</strong> Data-driven case that all-time highs in stock indices are not predictive of future negative returns — using total return indices (with dividends), ~30% of months since 1970 are ATHs, and 1-year returns following ATHs are actually slightly higher than other months (momentum effect). The real risk flag is valuation (CAPE ratio), which does have a noisy but real relationship with 10-year forward returns. (<a href="https://www.youtube.com/watch?v=WEClhtPD5Ko">The Truth About Investing at All-Time Highs</a>)</li>
+  <li><strong>Peter Attia:</strong> Rebroadcast AMA on muscle mass and strength for longevity — specific claim: low VO2 max (bottom quartile vs. top 2%) represents a 5x increase in all-cause mortality; low muscle mass (bottom vs. middle quartile) carries a 2.3x hazard ratio, exceeding type 2 diabetes (1.4x) and uncontrolled hypertension (1.6x). Strength is the causal variable; muscle mass is the best practical proxy. (<a href="https://www.youtube.com/watch?v=CqNqfb37gig">Building strength and muscle mass: optimize training & nutrition for longevity</a>)</li>
+  <li><strong>Stronger by Science (RSS):</strong> New analysis argues hypertrophy contributes more to early strength gains in novice lifters than prior studies suggested — but the relationship is noisier than it appears and far from deterministic. (<a href="https://www.strongerbyscience.com/correlation-strength-hypertrophy/">Is the Correlation Between Hypertrophy and Strength Gains Stronger Than We Realized?</a>)</li>
+  <li><strong>Renaissance Periodization:</strong> Pushback on an 8-year, 12,000-person study linking artificial sweeteners to cognitive decline — argues classic reverse causality: metabolic syndrome and obesity drive both artificial sweetener use and cognitive decline, and every randomized controlled trial on sweeteners has failed to show the causal link the observational study implies. (<a href="https://www.youtube.com/shorts/2UiklyALUUY">Artificial Sweeteners = Cognitive Decline?</a>)</li>
+  <li><strong>Dr. Sten Ekberg:</strong> Makes the case that isolated antioxidant supplements (beta-carotene, vitamin E as alpha-tocopherol only, high-dose vitamin C) are not just useless but actively harmful — two separate RCTs were stopped early when beta-carotene increased cancer by 28%, and a 68-study meta-analysis of 230,000 people found beta-carotene, vitamin A, and vitamin E supplements all increased mortality. The mechanism: exogenous antioxidants neutralize free radicals that are intentional cellular signals, suppressing NRF2 activation and blunting the body's own catalase/SOD/glutathione response. Exception noted: R-alpha lipoic acid, which recycles endogenous antioxidants rather than displacing them. (<a href="https://www.youtube.com/watch?v=GPUAvyW2C88">#1 Worst SUPPLEMENT You Should NEVER Take</a>)</li>
+  <li><strong>Thomas DeLauer (interview with Dr. Clay Moss):</strong> Lean physician runs a high-protein Mediterranean template (~160g protein/day at 182 lbs), zero carbs at breakfast, intermittent fasting periodically, fasted morning training. Discussion of G-Flux (energy flux): the more energy moving through a system — eating and burning more — the greater net total expenditure, which is why extreme caloric restriction backfires. Also: cheat meals become proportionally more damaging as BMR adapts down, so their size should shrink proportionally to deficit depth. (<a href="https://www.youtube.com/watch?v=ou9idb1mbU4">This Doctor's Diet to Get Under 10% Bodyfat</a>)</li>
+  <li><strong>Andrew Huberman / Dr. Kyle Gillett:</strong> Male hormone optimization overview — key points: creatine slightly raises total testosterone and increases T→DHT conversion but does not meaningfully accelerate hair loss beyond natural male baseline; vigorous training sessions beyond ~60 minutes are hormonally counterproductive; carnivore or strict vegan diets in early 20s likely reduce free androgens significantly; caloric restriction raises SHBG and lowers free androgens even in lean individuals. (<a href="https://www.youtube.com/watch?v=O-groYMqrQw">Essentials: Tools for Hormone Optimization in Males</a>)</li>
+  <li><strong>Nick Norwitz:</strong> Aged garlic compound S1PC shown in a human controlled trial (25mg dose) to increase NAMPT via fat cell exocytosis, raising NAD levels in the brain — with downstream effects on muscle function and frailty reduction in animals. Intriguing mechanistic chain but trial is small; he flags it as promising, not definitive. (<a href="https://www.youtube.com/shorts/sYfksLLGnYk">Garlic Has No Business Being This Interesting!</a>)</li>
+  <li><strong>ModernWisdom:</strong> Two short clips worth noting: (1) pain avoidance piece argues that shielding kids from feeling bad removes the signal function of failure — "feeling bad is not bad, it's a signal to change" — and that deferring reality contact means paying it back with interest later; (2) a discussion of how schools teach simplified-but-wrong versions first and whether front-loading the "gnarly version" to young kids is counterproductive to building optimism and agency. (<a href="https://www.youtube.com/shorts/J1U5ATtR1P0">The Problem With Avoiding Pain</a> · <a href="https://www.youtube.com/watch?v=tK1ctEZjF4w">Everything You Learned In School Is A Lie</a>)</li>
+  <li><strong>Ken Berry MD:</strong> Short clip: for type 2 diabetics, total carbohydrate count on the label is the only number that matters — ADA approval logos on packaging are marketing, not medicine. (<a href="https://www.youtube.com/shorts/_WOtoBMBXkI">Choose foods that don't need a Nutrition Facts label</a>)</li>
+  <li><strong>Donald Robertson (RSS):</strong> Excerpt from his Marcus Aurelius biography arguing the emperor was not emotionally detached — the Stoic ideal is not suppression but appropriate emotional response, and Aurelius's own writing shows grief, frustration, and affection. (<a href="https://donaldrobertson.substack.com/p/marcus-aurelius-was-not-an-emotionless">Marcus Aurelius Was Not an Emotionless Stoic</a>)</li>
 </ul>
 
-<h2>₿ Bitcoin & Macro</h2>
-
-<div class="story">
-  <h3><a href="https://bitcoinmagazine.com/markets/bitcoin-exchange-inflows-spike-to-49000">Bitcoin Exchange Inflows Spike to 49,000 BTC in a Day</a></h3>
-  <p>CryptoQuant reported a single-day spike of 49,000 BTC flowing onto exchanges on June 30 — a historically rare event that has preceded heightened volatility and, more often than not, downside price action. Worth watching as a sentiment/positioning signal even if it doesn't predict direction with certainty.</p>
-  <p class="meta">Bitcoin Magazine</p>
-</div>
-
-<div class="story">
-  <h3><a href="https://bitcoinmagazine.com/news/metaplanet-adds-2823-bitcoin-reaches-43000">Metaplanet Reaches 43,000 BTC — World's Third-Largest Corporate Treasury</a></h3>
-  <p>Metaplanet added 2,823 BTC in Q2 to reach 43,000 BTC, now sitting behind only Strategy (MicroStrategy) and Twenty One Capital. The Saylor playbook continues to propagate internationally — a Japanese company now holds more Bitcoin than almost any institution on earth.</p>
-  <p class="meta">Bitcoin Magazine</p>
-</div>
+---
 
 <h2>🧬 Health & Science</h2>
 
 <div class="story">
-  <h3>Antioxidant Supplements: The ORAC Framework Was Wrong</h3>
-  <p>Dr. Sten Ekberg's video synthesizes a body of RCT evidence that antioxidant supplements don't just fail to help — they can actively harm. The FDA quietly removed ORAC values from its databases in 2012. The mechanism: free radicals are intracellular signals that activate NRF2, which triggers the body's own catalase/SOD/glutathione system (capable of neutralizing millions of radicals per molecule, vs. the 1-for-1 ratio of supplement antioxidants). Flooding the system externally suppresses that signal. The two most damning data points: beta-carotene supplementation showed a 28% <em>increase</em> in cancer across two stopped-early trials; a meta-analysis of 68 RCTs (230,000 people) found beta-carotene, vitamin A, and vitamin E supplements all increased mortality. Exception: R-alpha lipoic acid, which recycles endogenous antioxidants rather than displacing them. Separately, isolated alpha-tocopherol (the standard vitamin E pill) actively competes with and depletes gamma-tocopherol — the other critical form — making supplementation counterproductive even if antioxidants were useful.</p>
-  <p class="meta"><a href="https://www.youtube.com/watch?v=GPUAvyW2C88">Dr. Sten Ekberg</a></p>
+  <h3>Antioxidant Supplements: The Evidence Against</h3>
+  <p>Dr. Ekberg's video (above) is worth treating as a standalone health item because the data is specific and counterintuitive enough to warrant attention. The FDA removed ORAC values from its databases in 2012 after finding no meaningful relationship between ORAC scores and health outcomes. Two RCTs on beta-carotene were stopped early due to a 28% increase in cancer incidence; a 68-study meta-analysis of 230,000 people confirmed that beta-carotene, vitamin A, and vitamin E supplements all increased all-cause mortality. The mechanistic explanation: free radicals are intentional intracellular signals that activate NRF2, which upregulates catalase, superoxide dismutase, and glutathione — flooding the system with exogenous antioxidants suppresses this entire cascade. Isolated synthetic alpha-tocopherol also displaces gamma-tocopherol (one of eight natural vitamin E forms), creating a net deficiency in the displaced fraction. Exception: R-alpha lipoic acid, which recycles rather than replaces endogenous antioxidant enzymes.</p>
+  <p class="meta">Source: <a href="https://www.youtube.com/watch?v=GPUAvyW2C88">Dr. Sten Ekberg</a></p>
 </div>
 
 <div class="story">
-  <h3>Watermelon as a Performance and Recovery Tool: Actual Mechanisms</h3>
-  <p>Thomas DeLauer's video covers real data: a <em>Food and Nutrition Research</em> study on 21 amateur runners found that 500ml of watermelon juice pre-race kept plasma lactate significantly lower (more aerobic at the same effort), preserved jump performance post-race while placebo group dropped 9–10%, and produced 95% zero-soreness at 72 hrs vs. 67% placebo. The mechanisms are citrulline → arginine → nitric oxide (vasodilation + ammonia clearance via urea cycle) and a glucose-delivery pathway during exercise that bypasses insulin signaling entirely (contraction-activated GLUT4 translocation via calcium/AMPK/NO). Practical: eat flesh near the rind (highest citrulline concentration), add sea salt (sodium is the strongest individual driver of fluid retention), and consider it during exercise as an insulin-independent carb source — particularly relevant for insulin-resistant individuals.</p>
-  <p class="meta"><a href="https://www.youtube.com/watch?v=C1bFh9W7MwE">Thomas DeLauer</a></p>
+  <h3>Strength & Hypertrophy: The Correlation Revisited</h3>
+  <p>The Stronger by Science analysis argues that prior studies underestimated how much muscle growth drives early strength gains in novice lifters — likely because short study durations captured neural adaptation as the dominant signal before hypertrophy had time to accrue. However, the relationship is described as "nowhere near as strong as it appears at first glance" once confounders are controlled, meaning the two adaptations remain meaningfully separable in programming terms. Practical implication: volume work that drives hypertrophy in beginners may be doing more for strength than the "neural adaptation first" framing suggests, but this shouldn't collapse the distinction between hypertrophy and strength programming at intermediate and advanced levels.</p>
+  <p class="meta">Source: <a href="https://www.strongerbyscience.com/correlation-strength-hypertrophy/">Stronger by Science</a></p>
 </div>
 
 <div class="story">
-  <h3><a href="https://peterattiamd.com/metformin-and-cancer/">Metformin and Cancer: Active Surveillance Needed</a></h3>
-  <p>Peter Attia's piece reviews metformin's track record across cancer contexts — it failed in prostate cancer and several other tumor types, but exceptions exist. The core argument is that "metformin for cancer" is too blunt a framing; what matters is which cancer, which mechanism, and which patient. A useful corrective against the recent hype around metformin as a broad anti-cancer longevity drug.</p>
-  <p class="meta"><a href="https://peterattiamd.com/metformin-and-cancer/">Peter Attia MD</a></p>
+  <h3>Metformin and Cancer: Precision Over Optimism</h3>
+  <p>Peter Attia's piece on metformin argues that after failing in prostate cancer trials and showing mixed results across other cancers, the drug's reputation as a broad cancer-protective agent deserves scrutiny. The key framing: metformin may have real benefit in specific cancer contexts (particularly those driven by hyperinsulinemia or mTOR overactivation) but the exceptions don't validate the general claim, and "active surveillance" — not enthusiasm — is the right posture for a drug that still lacks convincing RCT evidence for cancer prevention in non-diabetics.</p>
+  <p class="meta">Source: <a href="https://peterattiamd.com/metformin-and-cancer/">Peter Attia MD</a></p>
 </div>
 
-<div class="story">
-  <h3>Fasting + Chemotherapy: The Differential Killing Mechanism</h3>
-  <p>Peter Attia's short clip articulates the core logic clearly: the challenge in cancer treatment is never killing cancer cells (easy) — it's differential killing. Fasting ≥24 hrs shifts healthy cells into maintenance/repair mode (reduced chemo sensitivity) while tumor cells, unable to downregulate growth due to mutated tumor suppressors, become relatively more vulnerable. Clinical trials have shown water-only fasting reduces chemo side effects, which in practice means patients can tolerate higher doses and complete more treatment cycles — itself a meaningful survival lever.</p>
-  <p class="meta"><a href="https://www.youtube.com/shorts/DQwRmE6lmW4">Peter Attia MD</a></p>
-</div>
+---
 
 <h2>💡 Worth Reading</h2>
 
 <div class="story">
-  <h3><a href="https://www.astralcodexten.com/p/the-ai-superforecasters-are-here">The AI Superforecasters Are Here</a></h3>
-  <p>Scott Alexander examines AI systems that are now outperforming human superforecasters on prediction markets and calibration benchmarks. Worth reading for what it implies about the quality of AI reasoning on uncertain, real-world questions — not just structured tasks — and what it means for epistemic humility when models are better-calibrated than experts.</p>
-  <p class="meta">Astral Codex Ten</p>
-</div>
-
-<div class="story">
-  <h3><a href="https://marginalrevolution.com/marginalrevolution/2026/07/a-scientific-benefit-and-cost-of-ai-innovation.html">A Scientific Benefit (and Cost) of AI Innovation</a></h3>
-  <p>Tyler Cowen makes an under-discussed point: AI has collapsed the cost of preliminary intellectual exploration — sketching an argument, finding the first serious objections, and reaching a provisional verdict now takes an afternoon rather than a fortnight. The concern is that this might change what kinds of thinking we actually do, not just how fast we do existing thinking. Worth sitting with as a mental model for how AI changes the texture of intellectual work.</p>
-  <p class="meta">Marginal Revolution</p>
-</div>
-
-<div class="story">
-  <h3><a href="https://jamanetwork.com/journals/jamapsychiatry/fullarticle/2846478">Efficacy and Safety of Psilocybin in Treatment-Resistant Major Depression</a></h3>
-  <p>JAMA Psychiatry RCT on psilocybin for treatment-resistant major depression — a condition where most interventions fail. Worth bookmarking for the data quality (JAMA, RCT design) rather than the hype. If you follow longevity and mental health research, this is the actual primary literature on a topic that generates a lot of noise.</p>
-  <p class="meta"><a href="https://news.ycombinator.com/item?id=">HN Discussion</a> · JAMA Psychiatry</p>
+  <h3><a href="https://intextbooks.science.uu.nl/workshop2026/files/itb26_s1s2.pdf">New AI Tutor Achieves 0.71–1.30 SD Effect Size in Dartmouth Course</a></h3>
+  <p>An AI tutoring system deployed in an actual Dartmouth course produced learning gains of 0.71 to 1.30 standard deviations — a range that, if it holds up, would represent among the largest effect sizes ever recorded for an educational intervention. For context, Bloom's "2-sigma problem" (1984) showed one-on-one human tutoring produces ~2 SD gains vs. classroom instruction; most ed-tech produces 0.2–0.4 SD. This is a single study and should be read carefully, but the signal is large enough to be worth tracking.</p>
+  <p class="meta"><a href="https://news.ycombinator.com/item?id=">HN Discussion</a> · Source: Utrecht University Workshop 2026</p>
 </div>
 
 <div class="story">
   <h3><a href="https://donaldrobertson.substack.com/p/marcus-aurelius-was-not-an-emotionless">Marcus Aurelius Was Not an Emotionless Stoic</a></h3>
-  <p>Donald Robertson (the leading biographer of Marcus Aurelius) makes the case that the popular image of Stoic emotional detachment is a misreading — Marcus grieved, feared, and felt frustration acutely, and the <em>Meditations</em> are evidence of active psychological struggle, not serene transcendence. The distinction matters practically: Stoicism as a toolkit for processing emotion is very different from Stoicism as a prescription for suppression.</p>
-  <p class="meta"><a href="https://donaldrobertson.substack.com/p/marcus-aurelius-was-not-an-emotionless">Donald Robertson / Substack</a></p>
+  <p>Donald Robertson, the leading popular biographer of Marcus Aurelius, pushes back on the common misreading of Stoicism as emotional suppression. The Meditations contain genuine grief, love, frustration, and self-criticism — none of which Marcus treated as failures. The Stoic goal is appropriate emotional response calibrated to what actually matters, not the elimination of feeling. Short excerpt, but useful corrective to the "Stoic = robot" pop-culture framing.</p>
+  <p class="meta">Source: <a href="https://donaldrobertson.substack.com/p/marcus-aurelius-was-not-an-emotionless">Donald Robertson / Substack</a></p>
 </div>
+
+<div class="story">
+  <h3><a href="https://figsinwintertime.substack.com/p/the-lion-man-and-the-birth-of-the">The Lion-Man and the Birth of the Impossible</a></h3>
+  <p>Massimo Pigliucci (Stoic philosopher, City University of New York) examines what a 40,000-year-old figurine — a human body with a lion's head — tells us about the cognitive leap that makes Homo sapiens distinct: the ability to conceive of things that do not and cannot exist. This capacity for "impossible thinking" is the root of both mythology and science. Short but philosophically interesting as a piece on what distinguishes human cognition.</p>
+  <p class="meta">Source: <a href="https://figsinwintertime.substack.com/p/the-lion-man-and-the-birth-of-the">Figs in Winter (Pigliucci)</a></p>
+</div>
+
+---
 
 <h2>🤖 AI Capability Watch</h2>
 
 <div class="story">
-  <h3><a href="https://www.anthropic.com/news/claude-sonnet-5">Introducing Claude Sonnet 5</a></h3>
-  <p>Anthropic has released Claude Sonnet 5, a new model in their lineup. No transcript details available on specific capability claims, but a named Sonnet-tier release from Anthropic represents a meaningful step in their model family rather than a minor variant update.</p>
-  <p class="meta">Anthropic</p>
+  <h3><a href="https://www.anthropic.com/news/claude-science-ai-workbench">Claude Science: An AI Workbench for Scientists</a></h3>
+  <p>Anthropic launched a dedicated product called Claude Science — a structured AI environment built specifically for scientific research workflows (data analysis, literature synthesis, experimental design). This is a new product category aimed at professional researchers, not just a model update, and represents Anthropic moving into specialized vertical tooling for high-stakes knowledge work.</p>
+  <p class="meta">Source: <a href="https://www.anthropic.com/news/claude-science-ai-workbench">Anthropic</a></p>
 </div>
 
 <div class="story">
-  <h3><a href="https://www.anthropic.com/news/claude-science-ai-workbench">Claude Science — AI Workbench for Scientists</a></h3>
-  <p>Anthropic launched Claude Science, a dedicated product for scientific research workflows — a new product category beyond the general-purpose Claude interface. If it delivers on domain-specific scientific reasoning (literature synthesis, hypothesis generation, experimental design), this is a meaningful capability expansion for researchers rather than a UI reskin.</p>
-  <p class="meta">Anthropic</p>
+  <h3><a href="https://www.anthropic.com/news/claude-sonnet-5">Claude Sonnet 5 Released</a></h3>
+  <p>Anthropic released Claude Sonnet 5, a new model in the Sonnet tier — positioned between Haiku (fast/cheap) and Opus (most capable). No detailed capability breakdown in the announcement summary, but a new named model release from Anthropic's primary product line is worth noting as the lineup continues to evolve rapidly alongside the "Fable" series mentioned elsewhere in the feed.</p>
+  <p class="meta">Source: <a href="https://www.anthropic.com/news/claude-sonnet-5">Anthropic</a></p>
 </div>
 </body>
 </html>
