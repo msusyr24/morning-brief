@@ -1,110 +1,98 @@
 === HACKER NEWS ===
-1. [766 pts] OpenPrinter
-   https://www.opentools.studio/
+1. [352 pts] Fable turned reMarkable into Tom Riddle's diary from Harry Potter
+   https://github.com/MaximeRivest/Riddle
 
-2. [237 pts] GPT-5.6 Sol Ultra will be in Codex
-   https://twitter.com/thsottiaux/status/2073933490513752151
+2. [542 pts] OpenWrt One – Open Hardware Router
+   https://openwrt.org/toh/openwrt/one
 
-3. [8 pts] When AI Costs More Than the Engineer
-   https://tomtunguz.com/ai-spend-breakeven-2029/
+3. [457 pts] CoMaps – FOSS Offline Maps
+   https://www.comaps.app/
 
-4. [237 pts] Has_not_been_viewed_much
-   https://iamwillwang.com/notes/has-not-been-viewed-much/
+4. [326 pts] GLM 5.2 and the coming AI margin collapse
+   https://martinalderson.com/posts/the-upcoming-ai-margin-collapse-part-1-glm-5-2/
 
-5. [925 pts] Organic Maps
-   https://organicmaps.app/
+5. [154 pts] How to sequence your own DNA at home
+   https://bradleywoolf.com/links-1/sequencing-my-own-dna-at-home
 
-6. [88 pts] Building relationships with customers through support didn't turn out as hoped
-   https://www.uncommonapps.nyc/p/castro-podcasts-things-i-got-wrong-support
+6. [102 pts] Small AI Models Gain Traction In places with unreliable networks
+   https://spectrum.ieee.org/small-language-models-ai-pharmaceuticals
 
-7. [164 pts] Show HN: Homegames. An open-source game platform I've been making for 8 years
-   https://homegames.io
+7. [178 pts] Ternlight – 7 MB embedding model that runs in browser (WASM)
+   https://ternlight-demo.vercel.app/
 
-8. [437 pts] It's not about physical vs. digital games, it's about ownership
-   https://popcar.bearblog.dev/its-about-ownership/
+8. [344 pts] A global workspace in language models
+   https://www.anthropic.com/research/global-workspace
 
-9. [105 pts] Does code cleanliness affect coding agents? A controlled minimal-pair study
-   https://arxiv.org/abs/2605.20049
+9. [87 pts] Pruning RAG context down to what the answer actually needs
+   https://www.kapa.ai/blog/how-we-prune-rag-context
 
-10. [3 pts] Generate parametric, manufacturable 3D models in seconds
-   https://kyrall.com/
+10. [570 pts] Resetting Xbox
+   https://news.xbox.com/en-us/2026/07/06/resetting-xbox/
 
-11. [49 pts] The Age of Personalized Hardware Is Coming
-   https://geastack.com/blog-the-age-of-personalized-hardware-is-coming
+11. [311 pts] AMD Ryzen AI Halo – $4k AI Dev Kit
+   https://www.lttlabs.com/articles/2026/07/06/amd-ryzen-ai-halo
 
-12. [87 pts] The Private Capture of Public Genius
-   https://www.wysr.xyz/p/the-private-capture-of-public-genius
+12. [132 pts] Linux on the Atari Jaguar
+   https://cakehonolulu.github.io/linux-for-jaguar/
 
-13. [189 pts] Completing a computer science degree on Coursera
-   https://notesbylex.com/completing-a-computer-science-degree-on-coursera
+13. [63 pts] OpenSSH 10.4/10.4p1 Released
+   https://www.openssh.org/txt/release-10.4
 
-14. [214 pts] Starring the Computer
-   https://www.starringthecomputer.com/computers.html
+14. [54 pts] Acronym Fatigue Series Introduction: why I'm wary of acronyms
+   https://devz.cl/posts/acryonym-fatigue-series-why-i-m-wary-of-engineering-acronyms/
 
-15. [198 pts] Zuckerberg says AI agent development going slower than expected
-   https://www.reuters.com/business/zuckerberg-says-ai-agent-development-going-slower-than-expected-2026-07-02/
+15. [36 pts] A 2048-spin bulk acoustic wave Ising machine for number partitioning and Sudoku
+   https://arxiv.org/abs/2607.02112
 
-16. [304 pts] The future of Flipper Zero development
-   https://blog.flipper.net/future-of-flipper-zero-development/
+16. [161 pts] OfficeCLI: Office suite for AI agents to read and edit Microsoft Office files
+   https://github.com/iOfficeAI/OfficeCLI
 
-17. [160 pts] New AI tutor achieves 0.71-1.30 SD effect size in Dartmouth course [pdf]
-   https://intextbooks.science.uu.nl/workshop2026/files/itb26_s1s2.pdf
+17. [19 pts] Tiny-C Reference Manual Excerpt
+   https://permacomputer.solarpunk.au/?p=204
 
-18. [4 pts] Show HN: Visualize Model Spikiness in 3D
-   https://www.modelmap.tech/
+18. [57 pts] Poly/ML – A Standard ML Implementation
+   https://github.com/polyml/polyml
 
-19. [167 pts] Mr. Baby Paint and accidentally discovering a new cellular automata
-   https://tekstien-marginaalien-keskus.aalto.fi/residenssi/heikki/blog/004-december-2/
+19. [264 pts] Aluminum foil (2021)
+   https://dernocua.github.io/notes/aluminum-foil.html
 
-20. [85 pts] Composite Video on the NES: Why's it so wobbly?
-   https://nicole.express/2026/phase-altering-by-line.html
+20. [1 pts] Stealth robotics startup (YC S26) is hiring principal engineers (Palo Alto)
+   https://news.ycombinator.com/item?id=48806976
 
-21. [53 pts] DNSGlobe – Rust TUI to watch DNS propagate around the world
-   https://github.com/514-labs/dnsglobe
+21. [62 pts] Full Writeup of the Windows GDID
+   https://github.com/SmtimesIWndr/gdid-reversal
 
-22. [116 pts] Delta flight hit by firework while landing at Midway Airport on Fourth of July
-   https://www.nbcchicago.com/news/local/delta-flight-hit-by-firework-while-landing-at-midway-airport-on-fourth-of-july/3957451/
+22. [5 pts] Dolosse – a South African invention used over the world
+   https://thisbugslife.com/2021/11/21/dolosse-a-south-african-invention-used-over-the-world/
 
-23. [172 pts] The great blogging collapse: What happened to 100 successful blogs?
-   https://danielstanica.com/posts/Great-Blogging-Collapse
+23. [165 pts] Learning to code is still worthwhile
+   https://stevekrouse.com/learn-to-code
 
-24. [10 pts] Modernizing a 25-year-old minimal C++ unit testing framework (Part 2)
-   https://freshsources.com/code-capsules/test-part2/
+24. [100 pts] Rotman Lens
+   https://en.wikipedia.org/wiki/Rotman_lens
 
-25. [50 pts] The Sneakerweb
-   https://sneakerweb.org/
+25. [57 pts] M/PC – A Concatenative OS
+   https://wiki.xxiivv.com/site/m_pc.html
 
-26. [84 pts] Cursed circuits #5: capacitance multiplier
-   https://lcamtuf.substack.com/p/cursed-circuits-capacitance-multiplier
+26. [95 pts] Januscape: Guest-to-Host Escape in KVM/x86 [CVE-2026-53359]
+   https://github.com/V4bel/Januscape
 
-27. [59 pts] Dungeon Proof Crawler: learn how to write proofs with RPG
-   https://dhilst.github.io/algae/game/index.html
+27. [80 pts] NSA and IETF: Fairness
+   https://blog.cr.yp.to/20260706-fairness.html
 
-28. [79 pts] You need a webring
-   https://shub.club/writings/2026/july/you-need-a-webring/
+28. [138 pts] Kani: A Model Checker for Rust
+   https://arxiv.org/abs/2607.01504
 
-29. [38 pts] Connections in Math: the two kinds of random
-   https://stillthinking.net/posts/connections-in-math-two-kinds-of-random/
+29. [36 pts] EndBASIC 0.14: Are we multimedia yet?
+   https://www.endbasic.dev/2026/07/endbasic-0.14.html
 
-30. [36 pts] The Writers Who Wrote the Most in History
-   https://brennan.day/compulsion-the-writers-who-wrote-the-most-in-history/
+30. [33 pts] Evaluation order and nontermination in query languages
+   https://www.rntz.net/post/2026-06-11-datalog-nontermination.html
 
 
 === RSS ===
-[ai] Anthropic News: More details on Fable 5’s cyber safeguards and our jailbreak framework
-  https://www.anthropic.com/news/fable-safeguards-jailbreak-framework
-
-[ai] Anthropic News: Claude Science, an AI workbench for scientists, is now available
-  https://www.anthropic.com/news/claude-science-ai-workbench
-
-[ai] Anthropic News: Introducing Claude Sonnet 5
-  https://www.anthropic.com/news/claude-sonnet-5
-
-[ai] Anthropic News: Redeploying Fable 5
-  https://www.anthropic.com/news/redeploying-fable-5
-
-[ai] Anthropic News: Introducing Claude Tag
-  https://www.anthropic.com/news/introducing-claude-tag
+[ai] Simon Willison: tencent/Hy3
+  https://simonwillison.net/2026/Jul/6/hy3/#atom-everything
 
 [ai] Simon Willison: sqlite-utils 4.0rc3
   https://simonwillison.net/2026/Jul/6/sqlite-utils/#atom-everything
@@ -118,29 +106,23 @@
 [ai] Simon Willison: Building a World Map with only 500 bytes
   https://simonwillison.net/2026/Jul/4/building-a-world-map-with-only-500-bytes/#atom-everything
 
-[ai] Simon Willison: Better Models: Worse Tools
-  https://simonwillison.net/2026/Jul/4/better-models-worse-tools/#atom-everything
+[ai] Anthropic News: Government of Alberta uses Claude to find and fix cybersecurity vulnerabilities across government systems
+  https://www.anthropic.com/news/alberta-government-claude-cybersecurity
 
-[ideas] Marginal Revolution: The history of heat deaths in Europe (from my email)
-  https://marginalrevolution.com/marginalrevolution/2026/07/the-history-of-heat-deaths-in-europe-from-my-email.html?utm_source=rss&utm_medium=rss&utm_campaign=the-history-of-heat-deaths-in-europe-from-my-email
+[ai] Anthropic News: More details on Fable 5’s cyber safeguards and our jailbreak framework
+  https://www.anthropic.com/news/fable-safeguards-jailbreak-framework
 
-[ideas] Marginal Revolution: *What Makes a Great Composer?: A Data-Driven Exploration of Music History*
-  https://marginalrevolution.com/marginalrevolution/2026/07/what-makes-a-great-composer-a-data-driven-exploration-of-music-history.html?utm_source=rss&utm_medium=rss&utm_campaign=what-makes-a-great-composer-a-data-driven-exploration-of-music-history
+[ai] Anthropic News: Claude Science, an AI workbench for scientists, is now available
+  https://www.anthropic.com/news/claude-science-ai-workbench
 
-[ideas] Marginal Revolution: Sunday assorted links
-  https://marginalrevolution.com/marginalrevolution/2026/07/sunday-assorted-links-574.html?utm_source=rss&utm_medium=rss&utm_campaign=sunday-assorted-links-574
+[ai] Anthropic News: Introducing Claude Sonnet 5
+  https://www.anthropic.com/news/claude-sonnet-5
 
-[ideas] Marginal Revolution: What should I ask Michael Moritz?
-  https://marginalrevolution.com/marginalrevolution/2026/07/what-should-i-ask-michael-moritz.html?utm_source=rss&utm_medium=rss&utm_campaign=what-should-i-ask-michael-moritz
+[ai] Anthropic News: Redeploying Fable 5
+  https://www.anthropic.com/news/redeploying-fable-5
 
-[ideas] Marginal Revolution: Tyler, Nabeel, and Jackson on French thinkers
-  https://marginalrevolution.com/marginalrevolution/2026/07/tyler-nabeel-and-jackson-on-french-thinkers.html?utm_source=rss&utm_medium=rss&utm_campaign=tyler-nabeel-and-jackson-on-french-thinkers
-
-[health] Peter Attia: Building strength and muscle mass: how to optimize training, nutrition, and more for longevity (AMA #71 rebroadcast)
-  https://peterattiamd.com/strengthandmuscle/
-
-[health] Peter Attia: Metformin and cancer: active surveillance needed
-  https://peterattiamd.com/metformin-and-cancer/
+[ideas] Astral Codex Ten: Open Thread 441
+  https://www.astralcodexten.com/p/open-thread-441
 
 [ideas] Paul Graham: How to Earn a Billion Dollars
   https://paulgraham.com/earn.html
@@ -148,11 +130,8 @@
 [ideas] Paul Graham: How to Convert Between Wealth and Income Tax
   https://paulgraham.com/winc.html
 
-[wisdom] Donald Robertson: Marcus Aurelius Was Not an Emotionless Stoic
-  https://donaldrobertson.substack.com/p/marcus-aurelius-was-not-an-emotionless
-
-[wisdom] Donald Robertson: The Rivalry of Athens and Sparta
-  https://donaldrobertson.substack.com/p/the-rivalry-of-athens-and-sparta
+[wisdom] Figs in Winter (Pigliucci): Beyond the Inner Citadel
+  https://figsinwintertime.substack.com/p/beyond-the-inner-citadel
 
 [wisdom] Figs in Winter (Pigliucci): In the media
   https://figsinwintertime.substack.com/p/in-the-media-bbe
@@ -160,91 +139,60 @@
 [wisdom] Figs in Winter (Pigliucci): On miracles
   https://figsinwintertime.substack.com/p/on-miracles
 
-[wisdom] Figs in Winter (Pigliucci): The Lion-Man and the birth of the impossible
-  https://figsinwintertime.substack.com/p/the-lion-man-and-the-birth-of-the
+[health] Peter Attia: Building strength and muscle mass: how to optimize training, nutrition, and more for longevity (AMA #71 rebroadcast)
+  https://peterattiamd.com/strengthandmuscle/
+
+[health] Peter Attia: Metformin and cancer: active surveillance needed
+  https://peterattiamd.com/metformin-and-cancer/
+
+[wisdom] Donald Robertson: Marcus Aurelius Was Not an Emotionless Stoic
+  https://donaldrobertson.substack.com/p/marcus-aurelius-was-not-an-emotionless
+
+[wisdom] Donald Robertson: The Rivalry of Athens and Sparta
+  https://donaldrobertson.substack.com/p/the-rivalry-of-athens-and-sparta
+
+[bitcoin] Bitcoin Magazine: Trump-Backed American Bitcoin (ABTC) Pushes Treasury Past 8,000 BTC
+  https://bitcoinmagazine.com/news/trump-backed-american-bitcoin-abtc
+
+[bitcoin] Bitcoin Magazine: USDT Returns to Bitcoin: RGB and UTEXO Enable Private Lightning Settlements
+  https://bitcoinmagazine.com/business/usdt-returns-to-bitcoin-rgb-and-utexo-enable-private-lightning-settlements
+
+[bitcoin] Bitcoin Magazine: President Trump Signals Openness to Bitcoin in Trump Accounts, Calls Himself ‘a Big Fan of Crypto’
+  https://bitcoinmagazine.com/news/president-trump-signals-openness-bitcoin
+
+[bitcoin] Bitcoin Magazine: Russian-Sberbank Plans Crypto Wallet and Digital Depository by December
+  https://bitcoinmagazine.com/news/russian-sberbank-plans-crypto-wallet
+
+[bitcoin] Bitcoin Magazine: Strive (ASST) Adds 17.76 Bitcoin as Falling Prices Boost Its Quarterly Yield
+  https://bitcoinmagazine.com/news/strive-asst-adds-17-76-bitcoin
+
+[bitcoin] Bitcoin Magazine: Strategy (MSTR) Sells 3,588 Bitcoin to Cover Preferred Dividends
+  https://bitcoinmagazine.com/news/strategy-mstr-sells-3588-bitcoin
+
+[bitcoin] The Pomp Letter: The Best Idea From Washington Puts Money In Children’s Pockets
+  https://pomp.substack.com/p/the-best-idea-from-washington-puts
+
+[ideas] Marginal Revolution: Wiesbaden notes
+  https://marginalrevolution.com/marginalrevolution/2026/07/wiesbaden-notes.html?utm_source=rss&utm_medium=rss&utm_campaign=wiesbaden-notes
+
+[ideas] Marginal Revolution: Ilya Somin defends the American Revolution
+  https://marginalrevolution.com/marginalrevolution/2026/07/ilya-somin-defends-the-american-revolution.html?utm_source=rss&utm_medium=rss&utm_campaign=ilya-somin-defends-the-american-revolution
+
+[ideas] Marginal Revolution: Monday assorted links
+  https://marginalrevolution.com/marginalrevolution/2026/07/monday-assorted-links-567.html?utm_source=rss&utm_medium=rss&utm_campaign=monday-assorted-links-567
+
+[ideas] Marginal Revolution: Capital Gains Can Be Labor Income
+  https://marginalrevolution.com/marginalrevolution/2026/07/capital-gains-can-be-labor-income.html?utm_source=rss&utm_medium=rss&utm_campaign=capital-gains-can-be-labor-income
+
+[ideas] Marginal Revolution: The Troubled History of Government Equity in Technology
+  https://marginalrevolution.com/marginalrevolution/2026/07/the-troubled-history-of-government-equity-in-technology.html?utm_source=rss&utm_medium=rss&utm_campaign=the-troubled-history-of-government-equity-in-technology
 
 [health] Stronger by Science: Is the Correlation Between Hypertrophy and Strength Gains Stronger Than We Realized?
   https://www.strongerbyscience.com/correlation-strength-hypertrophy/
 
 
 === YOUTUBE ===
-Ken Berry MD: Better yet, choose foods that don't need a Nutrition Facts label at all. #carnivoredoctor
-  https://www.youtube.com/shorts/_WOtoBMBXkI
-  Transcript: yes
-
-Paul Saladino MD: The best way to wash fruit
-  https://www.youtube.com/shorts/GNMPY6oXhGM
-  Transcript: yes
-
-Anthony Chaffee MD: How To Grill The PERFECT Steak #shorts #short #shortvideo
-  https://www.youtube.com/shorts/D7wFQ9-hOUk
-  Transcript: NO
-
-GTO Wizard: How Pros Actually Study PLO
-  https://www.youtube.com/watch?v=G5k4cXNbiB0
-  Transcript: yes
-
-GTO Lab: You're betting too small on ace-high boards. Population is calling the same range anyway.
-  https://www.youtube.com/shorts/ZAT49VVD_w0
-  Transcript: yes
-
-Nick Norwitz: Garlic Has No Business Being This Interesting!
-  https://www.youtube.com/shorts/sYfksLLGnYk
-  Transcript: yes
-
-Joe Rogan: Joe Rogan Experience #2522 - Tony Hinchcliffe
-  https://www.youtube.com/watch?v=inrnVpGsKN4
-  Transcript: yes
-
-Thomas DeLauer: This Doctor’s Diet to Get Under 10% Bodyfat is So Simple, it’s Almost Crazy
-  https://www.youtube.com/watch?v=ou9idb1mbU4
-  Transcript: yes
-
-Lex Fridman: The Rise and Fall of the Roman Empire and the Byzantine Empire | Lex Fridman Podcast #498
-  https://www.youtube.com/watch?v=pv1TUJSEM2k
-  Transcript: yes
-
-Jared Alderman: Kindness: What You Need vs. What Is True #shorts
-  https://www.youtube.com/shorts/mrtB6OMIPG4
-  Transcript: yes
-
-Dr. Sten Ekberg: #1 Worst SUPPLEMENT You Should NEVER Take
-  https://www.youtube.com/watch?v=GPUAvyW2C88
-  Transcript: yes
-
-Renaissance Periodization: Artificial Sweetners = Cognitive Decline? (Study Analysis)
-  https://www.youtube.com/shorts/2UiklyALUUY
-  Transcript: yes
-
-Peter Attia: Building strength and muscle mass: optimize training & nutrition for longevity (AMA #71 rebroadcast)
-  https://www.youtube.com/watch?v=CqNqfb37gig
-  Transcript: yes
-
-ThinkingPoker: Bankroll Management - Thinking Poker
-  https://www.youtube.com/watch?v=6w8amkDkeVw
-  Transcript: yes
-
-Ben Felix: The Truth About Investing at All-Time Highs
-  https://www.youtube.com/watch?v=WEClhtPD5Ko
-  Transcript: yes
-
-Andrew Huberman: Essentials: Tools for Hormone Optimization in Males | Dr. Kyle Gillett
-  https://www.youtube.com/watch?v=O-groYMqrQw
-  Transcript: yes
-
-ModernWisdom: The Problem With Avoiding Pain
-  https://www.youtube.com/shorts/J1U5ATtR1P0
-  Transcript: yes
-
-ModernWisdom: Stolen Valor
-  https://www.youtube.com/shorts/umBKM9iGAUs
-  Transcript: yes
-
-ModernWisdom: Everything You Learned In School Is A Lie
-  https://www.youtube.com/watch?v=tK1ctEZjF4w
-  Transcript: yes
-
-Mind The Game: LeBron and Steph on Teaming Up for Team USA’s 2024 Gold Medal Run
-  https://www.youtube.com/watch?v=V_tqh3elTDQ
+Thomas DeLauer: This 2-Day Meal Plan Got Me to 9% Body Fat (here’s what I ate)
+  https://www.youtube.com/watch?v=UK1GfkX12gY
   Transcript: yes
 
