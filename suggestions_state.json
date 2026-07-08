@@ -1,11 +1,11 @@
 {
   "current_suggestion": {
-    "channel_name": "Odyssey of the Mind (William MacAskill / 80,000 Hours)",
-    "channel_id": "UCddiUEpeqJcYeBxX1IVBKvQ",
-    "youtube_handle": "@80000Hours",
-    "pitch": "Your philosophy and mental models interests are well-served on the Stoic/classical side, but 80,000 Hours steelmans the rigorous analytical ethics angle you're missing \u2014 effective altruism, moral uncertainty, and how to reason carefully about what actually matters. Their long-form interviews (often 2-3 hours) with philosophers, economists, and scientists treat ethics empirically rather than dogmatically, which pairs well with your Munger/Kahneman mental models interest. The depth rivals Lex Fridman but stays closer to philosophy and decision theory rather than tech celebrity."
+    "channel_name": "EconTalk",
+    "channel_id": "UCKAu-mTq7iZtKHK6QiBqKPA",
+    "youtube_handle": "@russroberts",
+    "pitch": "Roberts hosts EconTalk but his standalone channel covers the intersection of economics, philosophy, and what makes a good life \u2014 territory between Ben Felix's rigor and the Stoicism you care about, but through the lens of Hayek, Smith's 'Theory of Moral Sentiments,' and humility under uncertainty. His book 'How Adam Smith Can Change Your Life' gets more airtime here than anywhere else on YouTube. Solo essays and occasional conversations, typically 20\u201340 minutes, calm and intellectually honest in a way that resists the usual punditry."
   },
-  "shown_count": 3,
+  "shown_count": 1,
   "history": [
     "Brad Kearns",
     "Dr. Layne Norton",
@@ -37,6 +37,7 @@
     "betraisefoldmovie",
     "Exotic fishes ",
     "Naval",
-    "Odyssey of the Mind (William MacAskill / 80,000 Hours)"
+    "Odyssey of the Mind (William MacAskill / 80,000 Hours)",
+    "EconTalk"
   ]
 }

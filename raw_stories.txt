@@ -1,128 +1,107 @@
 === HACKER NEWS ===
-1. [352 pts] Fable turned reMarkable into Tom Riddle's diary from Harry Potter
-   https://github.com/MaximeRivest/Riddle
+1. [87 pts] How to Build a Minimal ZFS NAS Without Synology, QNAP, TrueNAS (2024)
+   https://neil.computer/notes/how-to-setup-minimal-zfs-nas-without-truenas/
 
-2. [542 pts] OpenWrt One – Open Hardware Router
-   https://openwrt.org/toh/openwrt/one
+2. [126 pts] Tenda firmware (multiple versions) contains hidden authentication backdoor
+   https://kb.cert.org/vuls/id/213560
 
-3. [457 pts] CoMaps – FOSS Offline Maps
-   https://www.comaps.app/
+3. [173 pts] GAO: DOE Is Prematurely Excluding Less Expensive Options for Nuclear Cleanup
+   https://www.gao.gov/products/gao-26-108193
 
-4. [326 pts] GLM 5.2 and the coming AI margin collapse
-   https://martinalderson.com/posts/the-upcoming-ai-margin-collapse-part-1-glm-5-2/
+4. [19 pts] Copy That Floppy – Cambridge guide for preserving data from fragile floppy disks
+   https://www.digipres.org/the-floppy-guide/
 
-5. [154 pts] How to sequence your own DNA at home
-   https://bradleywoolf.com/links-1/sequencing-my-own-dna-at-home
+5. [108 pts] Structure and Interpretation of Computer Programs Video Lectures (1986)
+   https://ocw.mit.edu/courses/6-001-structure-and-interpretation-of-computer-programs-spring-2005/video_galleries/video-lectures/
 
-6. [102 pts] Small AI Models Gain Traction In places with unreliable networks
-   https://spectrum.ieee.org/small-language-models-ai-pharmaceuticals
+6. [99 pts] Canada's only watchmaking school still ticking after 80 years
+   https://www.cbc.ca/news/canada/montreal/canada-s-only-watchmaking-school-9.7254211
 
-7. [178 pts] Ternlight – 7 MB embedding model that runs in browser (WASM)
-   https://ternlight-demo.vercel.app/
+7. [366 pts] Local, CPU-Friendly, High-Quality TTS (Text-to-Speech) with Kokoro
+   https://ariya.io/2026/03/local-cpu-friendly-high-quality-tts-text-to-speech-with-kokoro/
 
-8. [344 pts] A global workspace in language models
-   https://www.anthropic.com/research/global-workspace
+8. [543 pts] Chat Control 1.0 and 2.0 Explained
+   https://fightchatcontrol.eu/chat-control-overview
 
-9. [87 pts] Pruning RAG context down to what the answer actually needs
-   https://www.kapa.ai/blog/how-we-prune-rag-context
+9. [113 pts] Is The Economist Always Wrong?
+   https://www.economist.com/interactive/finance-and-economics/2026/07/02/is-the-economist-always-wrong
 
-10. [570 pts] Resetting Xbox
-   https://news.xbox.com/en-us/2026/07/06/resetting-xbox/
+10. [88 pts] GPT-5.6 Sol, along with Terra and Luna, will launch publicly this Thursday
+   https://twitter.com/OpenAI/status/2074704958419792299
 
-11. [311 pts] AMD Ryzen AI Halo – $4k AI Dev Kit
-   https://www.lttlabs.com/articles/2026/07/06/amd-ryzen-ai-halo
+11. [29 pts] Show HN: Neil the Seal Game
+   https://neiltheseal.app/
 
-12. [132 pts] Linux on the Atari Jaguar
-   https://cakehonolulu.github.io/linux-for-jaguar/
+12. [448 pts] 30papers.com – Ilya's 30 essential ML papers, in a beginner friendly format
+   https://30papers.com/
 
-13. [63 pts] OpenSSH 10.4/10.4p1 Released
-   https://www.openssh.org/txt/release-10.4
+13. [13 pts] The difference between "today's task" and "accretive work"
+   https://pluralistic.net/2026/07/02/canonization/
 
-14. [54 pts] Acronym Fatigue Series Introduction: why I'm wary of acronyms
-   https://devz.cl/posts/acryonym-fatigue-series-why-i-m-wary-of-engineering-acronyms/
+14. [234 pts] Herdr: One terminal to rule them all
+   https://herdr.dev/
 
-15. [36 pts] A 2048-spin bulk acoustic wave Ising machine for number partitioning and Sudoku
-   https://arxiv.org/abs/2607.02112
+15. [265 pts] Show HN: Davit, a Apple Containers UI
+   https://davit.app
 
-16. [161 pts] OfficeCLI: Office suite for AI agents to read and edit Microsoft Office files
-   https://github.com/iOfficeAI/OfficeCLI
+16. [27 pts] Pure-Python symbolic regression that rediscovered Kepler's law from 8 data point
+   https://github.com/ariel95500-create/gp-elite
 
-17. [19 pts] Tiny-C Reference Manual Excerpt
-   https://permacomputer.solarpunk.au/?p=204
+17. [37 pts] Show HN: Chiptune Radio
+   https://chiptune-radio.alephvoid.com/
 
-18. [57 pts] Poly/ML – A Standard ML Implementation
-   https://github.com/polyml/polyml
+18. [127 pts] l: A new runtime for k and q
+   https://lv1.sh/
 
-19. [264 pts] Aluminum foil (2021)
-   https://dernocua.github.io/notes/aluminum-foil.html
+19. [21 pts] LineageOS Statistics
+   https://stats.lineageos.org
 
-20. [1 pts] Stealth robotics startup (YC S26) is hiring principal engineers (Palo Alto)
-   https://news.ycombinator.com/item?id=48806976
+20. [135 pts] Show HN: Rowboat – Open-source, local-first alternative to Claude Desktop
+   https://github.com/rowboatlabs/rowboat
 
-21. [62 pts] Full Writeup of the Windows GDID
-   https://github.com/SmtimesIWndr/gdid-reversal
+21. [139 pts] We're extending access to Fable 5 on all paid plans through July 12
+   https://twitter.com/claudeai/status/2074548242386178258
 
-22. [5 pts] Dolosse – a South African invention used over the world
-   https://thisbugslife.com/2021/11/21/dolosse-a-south-african-invention-used-over-the-world/
+22. [523 pts] Every new car sold in the European Union must include a driver monitoring camera
+   https://allaboutcookies.org/eu-mandatory-distracted-driver-system
 
-23. [165 pts] Learning to code is still worthwhile
-   https://stevekrouse.com/learn-to-code
+23. [50 pts] Scheme Is a Hoot
+   https://gracefulliberty.com/notes/scheme-is-a-hoot/
 
-24. [100 pts] Rotman Lens
-   https://en.wikipedia.org/wiki/Rotman_lens
+24. [54 pts] IEEE Rolls Out Large Language Models Training Course
+   https://spectrum.ieee.org/large-language-models-ieee-course
 
-25. [57 pts] M/PC – A Concatenative OS
-   https://wiki.xxiivv.com/site/m_pc.html
+25. [220 pts] Why skilled workers come to Germany and then leave again
+   https://www.dw.com/en/germany-migrants-skilled-workers-integration-labor-market-bureaucracy-language-housing/a-77853162
 
-26. [95 pts] Januscape: Guest-to-Host Escape in KVM/x86 [CVE-2026-53359]
-   https://github.com/V4bel/Januscape
+26. [162 pts] Jim's TrueType QR Code Font
+   https://github.com/jimparis/qr-font
 
-27. [80 pts] NSA and IETF: Fairness
-   https://blog.cr.yp.to/20260706-fairness.html
+27. [109 pts] Notes on Software Quality
+   https://anthonyhobday.com/blog/20260410
 
-28. [138 pts] Kani: A Model Checker for Rust
-   https://arxiv.org/abs/2607.01504
+28. [730 pts] StreetComplete: Fixing OpenStreetMap, one tiny quest at a time
+   https://streetcomplete.app/
 
-29. [36 pts] EndBASIC 0.14: Are we multimedia yet?
-   https://www.endbasic.dev/2026/07/endbasic-0.14.html
+29. [163 pts] Why we built yet another Postgres connection pooler
+   https://pgdog.dev/blog/why-yet-another-connection-pooler
 
-30. [33 pts] Evaluation order and nontermination in query languages
-   https://www.rntz.net/post/2026-06-11-datalog-nontermination.html
+30. [102 pts] AI Meets Cryptography 1: What AI Found in Cloudflare's Circl
+   https://blog.zksecurity.xyz/posts/circl-bugs/
 
 
 === RSS ===
-[ai] Simon Willison: tencent/Hy3
-  https://simonwillison.net/2026/Jul/6/hy3/#atom-everything
+[wisdom] Donald Robertson: Stoicism is not unemotional
+  https://donaldrobertson.substack.com/p/stoicism-is-not-unemotional
 
-[ai] Simon Willison: sqlite-utils 4.0rc3
-  https://simonwillison.net/2026/Jul/6/sqlite-utils/#atom-everything
+[wisdom] Donald Robertson: Marcus Aurelius Was Not an Emotionless Stoic
+  https://donaldrobertson.substack.com/p/marcus-aurelius-was-not-an-emotionless
 
-[ai] Simon Willison: sqlite-utils 4.0rc2, mostly written by Claude Fable (for about $149.25)
-  https://simonwillison.net/2026/Jul/5/sqlite-utils-fable/#atom-everything
+[wisdom] Donald Robertson: The Rivalry of Athens and Sparta
+  https://donaldrobertson.substack.com/p/the-rivalry-of-athens-and-sparta
 
-[ai] Simon Willison: sqlite-utils 4.0rc2
-  https://simonwillison.net/2026/Jul/5/sqlite-utils/#atom-everything
-
-[ai] Simon Willison: Building a World Map with only 500 bytes
-  https://simonwillison.net/2026/Jul/4/building-a-world-map-with-only-500-bytes/#atom-everything
-
-[ai] Anthropic News: Government of Alberta uses Claude to find and fix cybersecurity vulnerabilities across government systems
-  https://www.anthropic.com/news/alberta-government-claude-cybersecurity
-
-[ai] Anthropic News: More details on Fable 5’s cyber safeguards and our jailbreak framework
-  https://www.anthropic.com/news/fable-safeguards-jailbreak-framework
-
-[ai] Anthropic News: Claude Science, an AI workbench for scientists, is now available
-  https://www.anthropic.com/news/claude-science-ai-workbench
-
-[ai] Anthropic News: Introducing Claude Sonnet 5
-  https://www.anthropic.com/news/claude-sonnet-5
-
-[ai] Anthropic News: Redeploying Fable 5
-  https://www.anthropic.com/news/redeploying-fable-5
-
-[ideas] Astral Codex Ten: Open Thread 441
-  https://www.astralcodexten.com/p/open-thread-441
+[health] Peter Attia: Building strength and muscle mass: how to optimize training, nutrition, and more for longevity (AMA #71 rebroadcast)
+  https://peterattiamd.com/strengthandmuscle/
 
 [ideas] Paul Graham: How to Earn a Billion Dollars
   https://paulgraham.com/earn.html
@@ -139,60 +118,108 @@
 [wisdom] Figs in Winter (Pigliucci): On miracles
   https://figsinwintertime.substack.com/p/on-miracles
 
-[health] Peter Attia: Building strength and muscle mass: how to optimize training, nutrition, and more for longevity (AMA #71 rebroadcast)
-  https://peterattiamd.com/strengthandmuscle/
+[ideas] Astral Codex Ten: Open Thread 441
+  https://www.astralcodexten.com/p/open-thread-441
 
-[health] Peter Attia: Metformin and cancer: active surveillance needed
-  https://peterattiamd.com/metformin-and-cancer/
+[ideas] Stratechery: A Script for Mark Zuckerberg
+  https://stratechery.com/2026/a-script-for-mark-zuckerberg/
 
-[wisdom] Donald Robertson: Marcus Aurelius Was Not an Emotionless Stoic
-  https://donaldrobertson.substack.com/p/marcus-aurelius-was-not-an-emotionless
+[ideas] Marginal Revolution: Can AI models consent to their own constitutions?
+  https://marginalrevolution.com/marginalrevolution/2026/07/can-ai-models-consent-to-their-own-constitutions.html?utm_source=rss&utm_medium=rss&utm_campaign=can-ai-models-consent-to-their-own-constitutions
 
-[wisdom] Donald Robertson: The Rivalry of Athens and Sparta
-  https://donaldrobertson.substack.com/p/the-rivalry-of-athens-and-sparta
+[ideas] Marginal Revolution: Why we stopped making land
+  https://marginalrevolution.com/marginalrevolution/2026/07/why-we-stopped-making-land.html?utm_source=rss&utm_medium=rss&utm_campaign=why-we-stopped-making-land
 
-[bitcoin] Bitcoin Magazine: Trump-Backed American Bitcoin (ABTC) Pushes Treasury Past 8,000 BTC
-  https://bitcoinmagazine.com/news/trump-backed-american-bitcoin-abtc
+[ideas] Marginal Revolution: Tuesday assorted links
+  https://marginalrevolution.com/marginalrevolution/2026/07/tuesday-assorted-links-576.html?utm_source=rss&utm_medium=rss&utm_campaign=tuesday-assorted-links-576
 
-[bitcoin] Bitcoin Magazine: USDT Returns to Bitcoin: RGB and UTEXO Enable Private Lightning Settlements
-  https://bitcoinmagazine.com/business/usdt-returns-to-bitcoin-rgb-and-utexo-enable-private-lightning-settlements
+[ideas] Marginal Revolution: From Prediction Markets to Decision Markets and Beyond!
+  https://marginalrevolution.com/marginalrevolution/2026/07/from-prediction-markets-to-decision-markets-and-beyond.html?utm_source=rss&utm_medium=rss&utm_campaign=from-prediction-markets-to-decision-markets-and-beyond
 
-[bitcoin] Bitcoin Magazine: President Trump Signals Openness to Bitcoin in Trump Accounts, Calls Himself ‘a Big Fan of Crypto’
-  https://bitcoinmagazine.com/news/president-trump-signals-openness-bitcoin
+[ideas] Marginal Revolution: What should I ask Liaquat Ahamed?
+  https://marginalrevolution.com/marginalrevolution/2026/07/what-should-i-ask-liaquat-ahamed.html?utm_source=rss&utm_medium=rss&utm_campaign=what-should-i-ask-liaquat-ahamed
 
-[bitcoin] Bitcoin Magazine: Russian-Sberbank Plans Crypto Wallet and Digital Depository by December
-  https://bitcoinmagazine.com/news/russian-sberbank-plans-crypto-wallet
+[ai] Anthropic News: Government of Alberta uses Claude to find and fix cybersecurity vulnerabilities across government systems
+  https://www.anthropic.com/news/alberta-government-claude-cybersecurity
 
-[bitcoin] Bitcoin Magazine: Strive (ASST) Adds 17.76 Bitcoin as Falling Prices Boost Its Quarterly Yield
-  https://bitcoinmagazine.com/news/strive-asst-adds-17-76-bitcoin
+[ai] Anthropic News: More details on Fable 5’s cyber safeguards and our jailbreak framework
+  https://www.anthropic.com/news/fable-safeguards-jailbreak-framework
 
-[bitcoin] Bitcoin Magazine: Strategy (MSTR) Sells 3,588 Bitcoin to Cover Preferred Dividends
-  https://bitcoinmagazine.com/news/strategy-mstr-sells-3588-bitcoin
+[ai] Anthropic News: Claude Science, an AI workbench for scientists, is now available
+  https://www.anthropic.com/news/claude-science-ai-workbench
 
-[bitcoin] The Pomp Letter: The Best Idea From Washington Puts Money In Children’s Pockets
-  https://pomp.substack.com/p/the-best-idea-from-washington-puts
+[ai] Anthropic News: Introducing Claude Sonnet 5
+  https://www.anthropic.com/news/claude-sonnet-5
 
-[ideas] Marginal Revolution: Wiesbaden notes
-  https://marginalrevolution.com/marginalrevolution/2026/07/wiesbaden-notes.html?utm_source=rss&utm_medium=rss&utm_campaign=wiesbaden-notes
+[ai] Anthropic News: Redeploying Fable 5
+  https://www.anthropic.com/news/redeploying-fable-5
 
-[ideas] Marginal Revolution: Ilya Somin defends the American Revolution
-  https://marginalrevolution.com/marginalrevolution/2026/07/ilya-somin-defends-the-american-revolution.html?utm_source=rss&utm_medium=rss&utm_campaign=ilya-somin-defends-the-american-revolution
+[ai] Simon Willison: sqlite-utils 4.0, now with database schema migrations
+  https://simonwillison.net/2026/Jul/7/sqlite-utils-4/#atom-everything
 
-[ideas] Marginal Revolution: Monday assorted links
-  https://marginalrevolution.com/marginalrevolution/2026/07/monday-assorted-links-567.html?utm_source=rss&utm_medium=rss&utm_campaign=monday-assorted-links-567
+[ai] Simon Willison: sqlite-migrate 0.2
+  https://simonwillison.net/2026/Jul/7/sqlite-migrate/#atom-everything
 
-[ideas] Marginal Revolution: Capital Gains Can Be Labor Income
-  https://marginalrevolution.com/marginalrevolution/2026/07/capital-gains-can-be-labor-income.html?utm_source=rss&utm_medium=rss&utm_campaign=capital-gains-can-be-labor-income
+[ai] Simon Willison: github-code Web Component
+  https://simonwillison.net/2026/Jul/7/github-code-component/#atom-everything
 
-[ideas] Marginal Revolution: The Troubled History of Government Equity in Technology
-  https://marginalrevolution.com/marginalrevolution/2026/07/the-troubled-history-of-government-equity-in-technology.html?utm_source=rss&utm_medium=rss&utm_campaign=the-troubled-history-of-government-equity-in-technology
+[ai] Simon Willison: sqlite-utils 4.0
+  https://simonwillison.net/2026/Jul/7/sqlite-utils/#atom-everything
+
+[ai] Simon Willison: sqlite-utils 4.0rc4
+  https://simonwillison.net/2026/Jul/7/sqlite-utils-2/#atom-everything
+
+[bitcoin] Bitcoin Magazine: Polymarket Turns On Instant Bitcoin Deposits Via Lightning Network, Powered by Spark
+  https://bitcoinmagazine.com/news/polymarket-turns-instant-bitcoin-deposits
+
+[bitcoin] Bitcoin Magazine: Kraken Seeks Final Judgment After $22 Million Award Against Former Auditor
+  https://bitcoinmagazine.com/news/kraken-seeks-final-judgment-after-22
+
+[bitcoin] Bitcoin Magazine: Vanguard Warms to Crypto With Search for Digital Assets Chief
+  https://bitcoinmagazine.com/news/vanguard-warms-to-crypto-hiring
+
+[bitcoin] Bitcoin Magazine: New Hampshire’s $100 Million Bitcoin-Backed Bond Faces Final Vote
+  https://bitcoinmagazine.com/news/new-hampshires-100-million-bitcoin-backed
+
+[bitcoin] Bitcoin Magazine: SpaceX Nasdaq-100 Entry Brings Bitcoin Exposure to Passive Index Investors
+  https://bitcoinmagazine.com/bitcoin-for-corporations/spacex-nasdaq-bitcoin
+
+[bitcoin] Bitcoin Magazine: Tether Invests $20 Million in Brazil’s Mercado Bitcoin
+  https://bitcoinmagazine.com/news/tether-invests-20-million-mercado-bitcoin
+
+[bitcoin] Bitcoin Magazine: U.S. Bitcoin Reserve Stalls as Treasury and Commerce Vie for Control: Report
+  https://bitcoinmagazine.com/news/u-s-bitcoin-reserve-stalls-control-report
+
+[bitcoin] Bitcoin Magazine: Bitcoin Suisse Wins Abu Dhabi License, Extends Digital Asset Push into the UAE
+  https://bitcoinmagazine.com/news/bitcoin-suisse-wins-abu-dhabi-license
+
+[ai] OpenAI Blog: Australian Payments Plus moves faster with ChatGPT and Codex
+  https://openai.com/index/australian-payments-plus
+
+[ai] OpenAI Blog: MUFG aims to become AI-native with OpenAI
+  https://openai.com/index/mufg
 
 [health] Stronger by Science: Is the Correlation Between Hypertrophy and Strength Gains Stronger Than We Realized?
   https://www.strongerbyscience.com/correlation-strength-hypertrophy/
 
+[bitcoin] The Pomp Letter: The Best Idea From Washington Puts Money In Children’s Pockets
+  https://pomp.substack.com/p/the-best-idea-from-washington-puts
+
 
 === YOUTUBE ===
-Thomas DeLauer: This 2-Day Meal Plan Got Me to 9% Body Fat (here’s what I ate)
-  https://www.youtube.com/watch?v=UK1GfkX12gY
+Joe Rogan: Joe Rogan Experience #2523 - Ali Siddiq
+  https://www.youtube.com/watch?v=uk2h9oBZctc
+  Transcript: yes
+
+GTO Lab: Your HU simplifications are leaks. Someone with more reps already knows what they are.
+  https://www.youtube.com/shorts/AgZaOyhQYo8
+  Transcript: yes
+
+GTO Lab: You're overcomplicating sizing exploits. The edge is simpler than you think.
+  https://www.youtube.com/shorts/0b2mElOVb6Q
+  Transcript: NO
+
+Mind The Game: LeBron on Battling Cooper Flagg at Team USA's Olympic Training Camp
+  https://www.youtube.com/watch?v=ff1H2mgn4aE
   Transcript: yes
 
