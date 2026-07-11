@@ -1,11 +1,11 @@
 {
   "current_suggestion": {
-    "channel_name": "EconTalk",
-    "channel_id": "UCKAu-mTq7iZtKHK6QiBqKPA",
-    "youtube_handle": "@russroberts",
-    "pitch": "Roberts hosts EconTalk but his standalone channel covers the intersection of economics, philosophy, and what makes a good life \u2014 territory between Ben Felix's rigor and the Stoicism you care about, but through the lens of Hayek, Smith's 'Theory of Moral Sentiments,' and humility under uncertainty. His book 'How Adam Smith Can Change Your Life' gets more airtime here than anywhere else on YouTube. Solo essays and occasional conversations, typically 20\u201340 minutes, calm and intellectually honest in a way that resists the usual punditry."
+    "channel_name": "CrushlivePoker",
+    "channel_id": "UC1VHy2sl-Wbp26KzPjk7N1g",
+    "youtube_handle": "@crushlivepoker",
+    "pitch": "Your poker diet is heavily GTO-focused (GTO Wizard, GTO Lab, Jared Alderman), but Bart Hansen's Crush Live Poker channel steelmans the exploitative, live-game angle that pure GTO content largely ignores \u2014 specifically how population tendencies, player reads, and bet sizing deviate from solver outputs in real-world cash games. He does solo hand breakdowns and call-in shows where he works through specific live situations with callers, giving you a grounded counterweight to the theoretical framework you're already building. The depth is serious and practical without being beginner-level."
   },
-  "shown_count": 3,
+  "shown_count": 1,
   "history": [
     "Brad Kearns",
     "Dr. Layne Norton",
@@ -38,6 +38,7 @@
     "Exotic fishes ",
     "Naval",
     "Odyssey of the Mind (William MacAskill / 80,000 Hours)",
-    "EconTalk"
+    "EconTalk",
+    "CrushlivePoker"
   ]
 }
