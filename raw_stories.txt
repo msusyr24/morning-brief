@@ -1,93 +1,93 @@
 === HACKER NEWS ===
-1. [180 pts] Einstein's relativity rules chemical bonds in heavy elements, new research shows
-   https://www.brown.edu/news/2026-07-09/chemical-bonds-relativity
+1. [73 pts] We Know Simple Fluids Can Flow. Turns Out, Some Can Fracture
+   https://www.quantamagazine.org/we-know-simple-fluids-can-flow-turns-out-some-can-fracture-20260710/
 
-2. [519 pts] QuadRF can spot drones and see WiFi through my wall
-   https://www.jeffgeerling.com/blog/2026/quadrf-can-spot-drones-and-see-wifi-through-my-wall/
+2. [209 pts] What xAI's Grok Build CLI Actually Sends to xAI
+   https://gist.github.com/cereblab/dc9a40bc26120f4540e4e09b75ffb547
 
-3. [831 pts] Apple sues OpenAI, accuses ex-employees of stealing trade secrets
-   https://9to5mac.com/2026/07/10/apple-sues-openai-trade-secret-theft/
+3. [177 pts] Mesh LLM: distributed AI computing on iroh
+   https://www.iroh.computer/blog/mesh-llm
 
-4. [65 pts] An iroh powered smart fan
-   https://www.iroh.computer/blog/an-iroh-powered-smart-fan
+4. [224 pts] Show HN: Ant – A JavaScript runtime and ecosystem
+   https://antjs.org
 
-5. [144 pts] An update on residential proxies and the scraper situation
-   https://lwn.net/SubscriberLink/1080822/990a8a5e2d379085/
+5. [100 pts] RISCBoy is an open-source portable games console, designed from scratch
+   https://github.com/Wren6991/RISCBoy
 
-6. [134 pts] SpaceX wants to launch 100k more Starlink satellites for 100x the bandwidth
-   https://www.zdnet.com/home-and-office/networking/spacex-wants-to-launch-100000-more-starlink-satellites/
+6. [41 pts] I Did Not Kill Stanley Lieber: How to Draw (With 9front)
+   https://triapul.cz/automa/i_did_not_kill_stanley_lieber
 
-7. [408 pts] GPT-5.6 Sol Ultra produces proof of the Cycle Double Cover Conjecture [pdf]
-   https://cdn.openai.com/pdf/04d1d1e4-bc75-476a-97cf-49055cd98d31/cdc_proof.pdf
+7. [9 pts] Text Art Tools
+   https://hlnet.notion.site/text-art-tools
 
-8. [347 pts] Late Bronze Age Collapse
-   https://acoup.blog/2026/01/30/collections-the-late-bronze-age-collapse-a-very-brief-introduction/
+8. [216 pts] Nvidia, CoreWeave, and Nebius: Inside the Circular Financing of the GPU Boom
+   https://io-fund.com/ai-stocks/nvidia-coreweave-nebius-circular-financing-gpu-boom
 
-9. [147 pts] Combustion engine web-based simulator
-   https://combustionlab.net
+9. [99 pts] An agent in 100 lines of Lisp
+   https://thebeach.dev/posts/lisp-agent/
 
-10. [389 pts] Good Tools Are Invisible
-   https://www.gingerbill.org/article/2026/07/10/good-tools-are-invisible/
+10. [23 pts] Why Write Code in 2026
+   https://softwaredoug.com/blog/2026/07/09/write-code.html
 
-11. [31 pts] The footgun of right-to-left decorative characters
-   https://blog.alexbeals.com/posts/the-footgun-of-right-to-left-decorative-characters
+11. [74 pts] A pure scheme web programming tool
+   https://goeteia.dev
 
-12. [207 pts] AI 2040: Plan A
-   https://ai-2040.com/
+12. [17 pts] The Energetic Costs of Cellular Computation (2012)
+   https://arxiv.org/abs/1203.5426
 
-13. [198 pts] The tech of 'Terminator 2' – an oral history (2017)
-   https://vfxblog.com/2017/08/23/the-tech-of-terminator-2-an-oral-history/
+13. [12 pts] EF Core 11 makes your split queries faster
+   https://steven-giesel.com/blogPost/d4401fd0-805a-4703-9d9e-5fe3b57c25ea
 
-14. [62 pts] Inference Optimization for MiMo v2.5: Pushing Hybrid SWA Efficiency to the Limit
-   https://mimo.xiaomi.com/blog/mimo-v2-5-inference
+14. [79 pts] Billions of Sketches Reveal Hidden Cultural Variation in Human Concepts
+   https://arxiv.org/abs/2607.07267
 
-15. [486 pts] New York City to ban deceptive subscription practices
-   https://www.theguardian.com/us-news/2026/jul/10/new-york-city-deceptive-subscriptions-ban
+15. [53 pts] A Erlang style pure Scheme Webserver and further
+   https://igropyr.com
 
-16. [32 pts] Silent speech with ultrasound
-   https://alephneuro.com/blog/silent-speech
+16. [20 pts] Jellyfish Undersea Roundabout
+   https://visitfaroeislands.com/en/plan-your-stay/getting-around/world-first-under-sea-roundabout
 
-17. [172 pts] Snails' teeth beats spider silk as nature's strongest material (2015)
-   https://www.smithsonianmag.com/smart-news/spider-silk-loses-top-spot-natures-strongest-material-snails-teeth-180954346/
+17. [143 pts] UPI: Anatomy of a Payment Transaction
+   https://timeseriesofindia.com/economy/reads/upi-architecture/
 
-18. [110 pts] Computation as a universal and fundamental concept
-   https://ergo.org/courses/computation-as-a-universal-and-fundamental-concept
+18. [196 pts] We scaled PgBouncer to 4x throughput
+   https://clickhouse.com/blog/pgbouncer-clickhouse-managed-postgres
 
-19. [125 pts] Alternate clock designs and time systems
-   https://serialc.github.io/altClocks/
+19. [93 pts] Long Covid May Physically Damage the Nerves That Control the Stomach
+   https://www.ijidonline.com/article/S1201-9712(26)00608-9/fulltext
 
-20. [106 pts] After 7 years in production, Scarf has reluctantly moved away from Haskell
-   https://avi.press/posts/2026-07-10-after-7-years-in-production-scarf-has-reluctantly-moved-away-from-haskell.html
+20. [26 pts] Fixed three bugs that made Qwen3.5-122B a daily driver on Mac Studio
+   https://mrzk.io/posts/qmlx-maximising-ai-psychosis-minmaxing-mac-studio/
 
-21. [22 pts] Preemption is GC for memory reordering (2019)
-   https://pvk.ca/Blog/2019/01/09/preemption-is-gc-for-memory-reordering/
+21. [108 pts] The early History of the Singular Value Decomposition (1993) [pdf]
+   https://www.math.ucdavis.edu/~saito/courses/229A/stewart-svd.pdf
 
-22. [138 pts] War Atlas: An interactive cartography of every named war in human history
-   https://waratlas.org
+22. [60 pts] A dock that wakes up reliably
+   https://fabiensanglard.net/tb4/index.html
 
-23. [1 pts] Moss (YC F25) Is Hiring
-   https://www.ycombinator.com/companies/moss/jobs/52LnqLQ-software-engineer-sdk
+23. [252 pts] Prefer strict tables in SQLite
+   https://evanhahn.com/prefer-strict-tables-in-sqlite/
 
-24. [143 pts] A love letter to flashcards
-   https://lesleylai.info/en/flashcards/
+24. [125 pts] Biff.graph: structure your Clojure codebase as a queryable graph
+   https://github.com/jacobobryant/biff/tree/v2.x/libs/graph
 
-25. [171 pts] Lost city discovered beneath Egypt's desert with ancient church
-   https://www.dailymail.com/sciencetech/article-15956159/Incredible-lost-city-discovered-Egypts-desert.html
+25. [29 pts] Optimization Solver as a Service
+   https://www.quicopt.com/developer/getting-started/
 
-26. [59 pts] GhostLock, a stack-UAF that has existed in ALL Linux distributions for 15 years
-   https://nebusec.ai/research/ionstack-part-2/
+26. [122 pts] Doctors die. It's not like the rest of us, but it should be (2016)
+   https://archive.cancerworld.net/featured/how-doctors-die/
 
-27. [71 pts] Show HN: Wyrm – Solve algebra by touch, built on an open-source soundness engine
-   https://github.com/dicroce/wyrm_math
+27. [148 pts] Show HN: Learn by rebuilding Redis, Git, a database from scratch
+   https://shipthatcode.com
 
-28. [4 pts] The Lindy Effect in Software
-   https://www.clemsau.com/posts/the-lindy-effect-in-software/
+28. [64 pts] Martha Lillard, last US polio patient using iron lung, dies at 78 in Oklahoma
+   https://abcnews.com/US/wireStory/martha-lillard-us-polio-patient-iron-lung-dies-134668491
 
-29. [842 pts] Show HN: Getting GLM 5.2 running on my slow computer
-   https://github.com/JustVugg/colibri
+29. [28 pts] Show HN: Sqlsure – deterministic semantic checks for AI-generated SQL
+   https://github.com/sqlsure/sqlsure
 
-30. [204 pts] Successful Companies Go Blind
-   https://ianreppel.org/how-successful-companies-go-blind/
+30. [70 pts] Show HN: Orbit – AR satellite tracker, watch 15k+ objects
+   https://nagylukas.github.io/orbit.html
 
 
 === RSS ===
@@ -106,17 +106,14 @@
 [ai] Anthropic News: Government of Alberta uses Claude to find and fix cybersecurity vulnerabilities across government systems
   https://www.anthropic.com/news/alberta-government-claude-cybersecurity
 
-[ideas] Stratechery: 2026.28: XBOX On the Rocks
-  https://stratechery.com/2026/xbox-on-the-rocks/
+[ideas] Paul Graham: How to Earn a Billion Dollars
+  https://paulgraham.com/earn.html
 
-[ideas] Stratechery: Muse Image, Grok 4.5, Alex Karp on CNBC
-  https://stratechery.com/2026/muse-image-grok-4-5-alex-karp-on-cnbc/
+[ideas] Paul Graham: How to Convert Between Wealth and Income Tax
+  https://paulgraham.com/winc.html
 
-[ideas] Stratechery: XBOX Cuts; Bundling and the Internet Solvent; Transaction, Coordination, and Sunk Costs
-  https://stratechery.com/2026/xbox-cuts-bundling-and-the-internet-solvent-transaction-coordination-and-sunk-costs/
-
-[wisdom] Farnam Street: The Best Summary of Atlas Shrugged
-  https://fs.blog/atlas-shrugged-summary/
+[ai] Simon Willison: sqlite-utils 4.1
+  https://simonwillison.net/2026/Jul/11/sqlite-utils/#atom-everything
 
 [ai] Simon Willison: Quoting Nilay Patel
   https://simonwillison.net/2026/Jul/10/nilay-patel/#atom-everything
@@ -130,41 +127,11 @@
 [ai] Simon Willison: Introducing Muse Spark 1.1
   https://simonwillison.net/2026/Jul/9/muse-spark-1-1/#atom-everything
 
-[ai] Simon Willison: llm-meta-ai 0.1
-  https://simonwillison.net/2026/Jul/9/llm-meta-ai/#atom-everything
+[wisdom] Farnam Street: The Best Summary of Atlas Shrugged
+  https://fs.blog/atlas-shrugged-summary/
 
-[bitcoin] The Pomp Letter: The Fed Thinks Home Prices Rose Because Of Illegal Immigration
-  https://pomp.substack.com/p/the-fed-thinks-home-prices-rose-because
-
-[wisdom] Figs in Winter (Pigliucci): The Hard Problem is a category mistake
-  https://figsinwintertime.substack.com/p/the-hard-problem-is-a-category-mistake
-
-[wisdom] Figs in Winter (Pigliucci): Beyond the Inner Citadel
-  https://figsinwintertime.substack.com/p/beyond-the-inner-citadel
-
-[wisdom] Figs in Winter (Pigliucci): In the media
-  https://figsinwintertime.substack.com/p/in-the-media-bbe
-
-[ideas] Paul Graham: How to Earn a Billion Dollars
-  https://paulgraham.com/earn.html
-
-[ideas] Paul Graham: How to Convert Between Wealth and Income Tax
-  https://paulgraham.com/winc.html
-
-[ideas] Marginal Revolution: Progress against dementia
-  https://marginalrevolution.com/marginalrevolution/2026/07/progress-against-dementia.html?utm_source=rss&utm_medium=rss&utm_campaign=progress-against-dementia
-
-[ideas] Marginal Revolution: Friday assorted links
-  https://marginalrevolution.com/marginalrevolution/2026/07/friday-assorted-links-580.html?utm_source=rss&utm_medium=rss&utm_campaign=friday-assorted-links-580
-
-[ideas] Marginal Revolution: Andrew Hall is on a roll
-  https://marginalrevolution.com/marginalrevolution/2026/07/andrew-hall-is-on-a-roll.html?utm_source=rss&utm_medium=rss&utm_campaign=andrew-hall-is-on-a-roll
-
-[ideas] Marginal Revolution: Redux of my Homer’s Odyssey essay
-  https://marginalrevolution.com/marginalrevolution/2026/07/redux-of-my-homers-odyssey-essay.html?utm_source=rss&utm_medium=rss&utm_campaign=redux-of-my-homers-odyssey-essay
-
-[ideas] Marginal Revolution: My Conversation with the excellent Joel Mokyr
-  https://marginalrevolution.com/marginalrevolution/2026/07/my-conversation-with-the-excellent-joel-mokyr.html?utm_source=rss&utm_medium=rss&utm_campaign=my-conversation-with-the-excellent-joel-mokyr
+[health] Peter Attia: Does losing sleep mean losing lifespan?
+  https://peterattiamd.com/does-losing-sleep-mean-losing-lifespan/
 
 [bitcoin] Bitcoin Magazine: U.S. Representatives Urge Senate to Vote on CLARITY Act in July, Address Ethics Concerns
   https://bitcoinmagazine.com/news/u-s-house-urge-senate-vote-clarity-act
@@ -190,11 +157,29 @@
 [bitcoin] Bitcoin Magazine: BitGo Adds Quantum-Risk Controls to Bitcoin Custody
   https://bitcoinmagazine.com/news/bitgo-adds-quantum-risk-controls-bitcoin
 
-[wisdom] Donald Robertson: Stoicism is not unemotional
-  https://donaldrobertson.substack.com/p/stoicism-is-not-unemotional
+[ideas] Marginal Revolution: New space policy Substack from Mercatus
+  https://marginalrevolution.com/marginalrevolution/2026/07/new-space-policy-substack-from-mercatus.html?utm_source=rss&utm_medium=rss&utm_campaign=new-space-policy-substack-from-mercatus
 
-[wisdom] Donald Robertson: Marcus Aurelius Was Not an Emotionless Stoic
-  https://donaldrobertson.substack.com/p/marcus-aurelius-was-not-an-emotionless
+[ideas] Marginal Revolution: Mental health sentences to ponder
+  https://marginalrevolution.com/marginalrevolution/2026/07/mental-health-sentences-to-ponder.html?utm_source=rss&utm_medium=rss&utm_campaign=mental-health-sentences-to-ponder
+
+[ideas] Marginal Revolution: Saturday assorted links
+  https://marginalrevolution.com/marginalrevolution/2026/07/saturday-assorted-links-569.html?utm_source=rss&utm_medium=rss&utm_campaign=saturday-assorted-links-569
+
+[ideas] Marginal Revolution: Winston Marshall podcasts with me on AI
+  https://marginalrevolution.com/marginalrevolution/2026/07/winston-marshall-podcasts-with-me-on-ai.html?utm_source=rss&utm_medium=rss&utm_campaign=winston-marshall-podcasts-with-me-on-ai
+
+[ideas] Marginal Revolution: Progress against dementia
+  https://marginalrevolution.com/marginalrevolution/2026/07/progress-against-dementia.html?utm_source=rss&utm_medium=rss&utm_campaign=progress-against-dementia
+
+[wisdom] Figs in Winter (Pigliucci): Suggested Readings
+  https://figsinwintertime.substack.com/p/suggested-readings-d10
+
+[wisdom] Figs in Winter (Pigliucci): The Hard Problem is a category mistake
+  https://figsinwintertime.substack.com/p/the-hard-problem-is-a-category-mistake
+
+[wisdom] Figs in Winter (Pigliucci): Beyond the Inner Citadel
+  https://figsinwintertime.substack.com/p/beyond-the-inner-citadel
 
 [ai] OpenAI Blog: How Deutsche Telekom is rewiring telecommunications with AI
   https://openai.com/index/deutsche-telekom
@@ -214,112 +199,97 @@
 [ideas] Astral Codex Ten: Introducing Plan A
   https://www.astralcodexten.com/p/introducing-plan-a
 
-[ideas] Astral Codex Ten: Your Book Review: The Book Of Abraham
-  https://www.astralcodexten.com/p/your-book-review-the-book-of-abraham
+[ideas] Stratechery: 2026.28: XBOX On the Rocks
+  https://stratechery.com/2026/xbox-on-the-rocks/
+
+[ideas] Stratechery: Muse Image, Grok 4.5, Alex Karp on CNBC
+  https://stratechery.com/2026/muse-image-grok-4-5-alex-karp-on-cnbc/
 
 [health] Stronger by Science: Is the Correlation Between Hypertrophy and Strength Gains Stronger Than We Realized?
   https://www.strongerbyscience.com/correlation-strength-hypertrophy/
 
+[wisdom] Donald Robertson: Stoicism is not unemotional
+  https://donaldrobertson.substack.com/p/stoicism-is-not-unemotional
+
+[wisdom] Donald Robertson: Marcus Aurelius Was Not an Emotionless Stoic
+  https://donaldrobertson.substack.com/p/marcus-aurelius-was-not-an-emotionless
+
 
 === YOUTUBE ===
-Anthony Chaffee MD: 25 Years in the ICU What Every Patient Should Know!
-  https://www.youtube.com/watch?v=8kIQMWJcmLU
-  Transcript: yes
-
-Anthony Chaffee MD: There Are No Experiments Showing That Cholesterol Causes Heart Disease.
-  https://www.youtube.com/shorts/0Xh25p2lJBE
-  Transcript: yes
-
-Paul Saladino MD: Now We Know WHY Burger King hid their ingredients...
-  https://www.youtube.com/watch?v=dAfFI6B0Jc8
+Anthony Chaffee MD: Why I Never Eat Vegetables As A Doctor
+  https://www.youtube.com/shorts/6Dgj_MKNDwA
   Transcript: yes
 
 Ken Berry MD: Real butter has been blamed for decades. What's your favorite way to enjoy real butter?
   https://www.youtube.com/shorts/CqFDAlubIvg
   Transcript: yes
 
-Ken Berry MD: Monday Night Live with Dr. Berry & Nurse Neisha
-  https://www.youtube.com/watch?v=BNZNv6djUaw
-  Transcript: NO
-
-Ken Berry MD: I'm glad to see artificial food dyes being removed from some cereals. BUT the real issue is SUGAR!
-  https://www.youtube.com/shorts/vkpWJq3U4og
-  Transcript: yes
-
-Ken Berry MD: Have you ever been told your cholesterol was "too high" What did your doctor recommend?
-  https://www.youtube.com/shorts/C7gUxGnLs1k
-  Transcript: yes
-
 GTO Wizard: The Complexity of PLO
   https://www.youtube.com/shorts/t9QeAlU6wcw
   Transcript: yes
 
-Nick Norwitz: Can Sunlight Really Increase Testosterone?
-  https://www.youtube.com/shorts/AA0a518X6aA
-  Transcript: yes
-
-Jared Alderman: Uri Peleg's Mindset for his Students #shorts
-  https://www.youtube.com/shorts/VhLtNwSqArM
+Paul Saladino MD: Now We Know WHY Burger King hid their ingredients...
+  https://www.youtube.com/watch?v=dAfFI6B0Jc8
   Transcript: yes
 
 Joe Rogan: JRE MMA Show #182 - Protect Ya Neck
   https://www.youtube.com/watch?v=X6jH7wMaDxk
   Transcript: yes
 
-GTO Lab: In soft MTT fields, skip the check-raise if no one's no-equity bluffing you.
-  https://www.youtube.com/shorts/Wa4IOnyDHT8
+GTO Lab: Ponakovs isn't lost on the math. He knows the equilibrium.
+  https://www.youtube.com/shorts/tdEKHqgT7u8
+  Transcript: yes
+
+Nick Norwitz: The Metabolic Leak That Might Be Sabotaging Your Body
+  https://www.youtube.com/shorts/R8R3kO3RCz8
+  Transcript: yes
+
+Jared Alderman: Uri Peleg's Mindset for his Students #shorts
+  https://www.youtube.com/shorts/VhLtNwSqArM
+  Transcript: yes
+
+Thomas DeLauer: This Plant Increased Testosterone 37% and Dropped Cortisol 16%
+  https://www.youtube.com/watch?v=4MCYhF_bte8
   Transcript: yes
 
 Lex Fridman: The Rise and Fall of the Roman Empire and the Byzantine Empire | Lex Fridman Podcast #498
   https://www.youtube.com/watch?v=pv1TUJSEM2k
   Transcript: yes
 
-Thomas DeLauer: Most People Avoid Rice - This Type of White Rice DOES NOT Spike Insulin
-  https://www.youtube.com/watch?v=u1WAf8SYrJ0
-  Transcript: yes
-
-Thomas DeLauer: The Hidden Danger of Brazil Nuts (this is a VERY real thing)
-  https://www.youtube.com/watch?v=Rus1Umgq01g
-  Transcript: yes
-
-Renaissance Periodization: Exercise Scientist Critiques Mike Tyson’s Brutal Training
-  https://www.youtube.com/watch?v=nhSGmVt9Ebs
-  Transcript: yes
-
-Renaissance Periodization: Why You Should Always Train Arms
-  https://www.youtube.com/shorts/AVjiflab3AY
+Renaissance Periodization: This Natural Bodybuilder is Unbelievable
+  https://www.youtube.com/shorts/nQG2G6r69g8
   Transcript: yes
 
 Dr. Sten Ekberg: Old Food Pyramid Was A Lie - Is RFK Jr's Any Better?
   https://www.youtube.com/watch?v=ruUCNmofdbQ
   Transcript: yes
 
-Andrew Huberman: The Science & Treatment of Obsessive Compulsive Disorder (OCD) | Huberman Lab Essentials
-  https://www.youtube.com/watch?v=AtU3EvMzZDY
-  Transcript: yes
-
-ThinkingPoker: Bankroll Management - Thinking Poker
-  https://www.youtube.com/watch?v=6w8amkDkeVw
-  Transcript: yes
-
-ModernWisdom: Superior Grip
-  https://www.youtube.com/shorts/7kdo07ngR5Q
-  Transcript: yes
-
-ModernWisdom: Why Gen Z Can’t Get Jobs
-  https://www.youtube.com/shorts/svRXt-c532s
-  Transcript: yes
-
-ModernWisdom: The Stupid Reason More Income Won’t Fix Your Debt - Caleb Hammer
-  https://www.youtube.com/watch?v=110TkoGDyC8
-  Transcript: yes
-
 Peter Attia: Your grip strength could predict your lifespan
   https://www.youtube.com/shorts/anE1dSrnK9g
   Transcript: yes
 
+ModernWisdom: The Uncommon Path Is Lonely
+  https://www.youtube.com/shorts/IrtjpGlBoE0
+  Transcript: yes
+
+ModernWisdom: Are Extroverts Happier Than Introverts?
+  https://www.youtube.com/shorts/Iv5Cq2KImsU
+  Transcript: yes
+
+ModernWisdom: Why The AI Doomers Might Be Right - Robert Wright
+  https://www.youtube.com/watch?v=TNCZJTduDpQ
+  Transcript: yes
+
+Andrew Huberman: The Science & Treatment of Obsessive Compulsive Disorder (OCD) | Huberman Lab Essentials
+  https://www.youtube.com/watch?v=AtU3EvMzZDY
+  Transcript: yes
+
 Ben Felix: The Truth About Investing at All-Time Highs
   https://www.youtube.com/watch?v=WEClhtPD5Ko
+  Transcript: yes
+
+ThinkingPoker: Bankroll Management - Thinking Poker
+  https://www.youtube.com/watch?v=6w8amkDkeVw
   Transcript: yes
 
 Mind The Game: LeBron on Battling Cooper Flagg at Team USA's Olympic Training Camp
