@@ -1,11 +1,11 @@
 {
   "current_suggestion": {
-    "channel_name": "CrushlivePoker",
-    "channel_id": "UC1VHy2sl-Wbp26KzPjk7N1g",
-    "youtube_handle": "@crushlivepoker",
-    "pitch": "Your poker diet is heavily GTO-focused (GTO Wizard, GTO Lab, Jared Alderman), but Bart Hansen's Crush Live Poker channel steelmans the exploitative, live-game angle that pure GTO content largely ignores \u2014 specifically how population tendencies, player reads, and bet sizing deviate from solver outputs in real-world cash games. He does solo hand breakdowns and call-in shows where he works through specific live situations with callers, giving you a grounded counterweight to the theoretical framework you're already building. The depth is serious and practical without being beginner-level."
+    "channel_name": "Robin Hanson",
+    "channel_id": "UC03gepY3d8nZz3kGHa6DJgQ",
+    "youtube_handle": "@robinhanson",
+    "pitch": "Hanson applies rigorous economic and evolutionary thinking to questions your current channels touch \u2014 decision-making, signaling, health behavior, AI capabilities \u2014 but from a perspective none of them occupy: he consistently argues that our stated reasons for doing things are not the real reasons, which is a direct steelman against the earnest first-principles framing you get from Huberman, Attia, and Lex. His content is mostly solo lectures and occasional interviews, dense and short-form, with specific testable claims rather than inspiration. If you find Kahneman and Munger useful, Hanson's 'elephant in the brain' lens on medicine and self-improvement is a productive irritant."
   },
-  "shown_count": 3,
+  "shown_count": 1,
   "history": [
     "Brad Kearns",
     "Dr. Layne Norton",
@@ -39,6 +39,7 @@
     "Naval",
     "Odyssey of the Mind (William MacAskill / 80,000 Hours)",
     "EconTalk",
-    "CrushlivePoker"
+    "CrushlivePoker",
+    "Robin Hanson"
   ]
 }
