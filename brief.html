@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>Morning Brief — Saturday, July 18, 2026</title>
+<title>Morning Brief — Sunday, July 19, 2026</title>
 <style>
   body {
     font-family: Georgia, serif;
@@ -92,19 +92,19 @@
 })();
 </script>
 <h1>Morning Brief</h1>
-<p class="date">Saturday, July 18, 2026</p>
+<p class="date">Sunday, July 19, 2026</p>
 
 <div class="anchor">
   <h2>☀️ Today's Anchor</h2>
   <div class="anchor-block">
-    <p class="quote">"The ultimate measure of a man is not where he stands in moments of comfort and convenience, but where he stands at times of challenge and controversy."</p>
-    <p class="author">— Martin Luther King Jr.</p>
-    <p class="context">Strength to Love (1963). King wrote this while his movement faced violence and his own life was threatened daily.</p>
+    <p class="quote">"It is not the critic who counts; not the man who points out how the strong man stumbles... the credit belongs to the man who is actually in the arena."</p>
+    <p class="author">— Theodore Roosevelt</p>
+    <p class="context">'Citizenship in a Republic' speech, Paris 1910. Known as 'The Man in the Arena.' Roosevelt was defending public service against armchair critics.</p>
   </div>
   <div class="anchor-block">
     <p class="model-label">Mental Model · Psychology</p>
-    <p class="model-name">Deprival Super-Reaction</p>
-    <p class="context">Losing $100 feels worse than finding $100 feels good — by about 2x, per Kahneman's research. Munger calls this 'deprival super-reaction.' It explains stock-market panics, breakup grief, and why people fight harder to keep what they have than to acquire what they don't. Knowing this, you can price losses more rationally.</p>
+    <p class="model-name">Authority-Misinfluence Tendency</p>
+    <p class="context">We defer to perceived authority, often past the point of sense. Milgram's experiments: subjects delivered 'lethal' shocks because a lab coat said to. Real-world: pilots crashing planes because captains made errors first-officers wouldn't challenge. Defense: evaluate the claim, not the credential.</p>
   </div>
 </div>
 
@@ -115,7 +115,7 @@
   <p class="spotlight-instructions">Interested? Copy the line below into <code>YOUTUBE_CHANNELS</code> in <code>brief.py</code> and save:</p>
   <pre class="spotlight-snippet" id="snippet">    "Farnam Street": "UCq11K8nOjPFqavdEu5-6YwQ",</pre>
   <button class="copy-btn" onclick="navigator.clipboard.writeText(document.getElementById('snippet').innerText.trim()); this.innerText='✅ Copied'; setTimeout(()=>this.innerText='📋 Copy snippet', 2000);">📋 Copy snippet</button>
-  <p class="spotlight-meta">showing for 2 more days. If you don't add it, a new channel will be suggested.</p>
+  <p class="spotlight-meta">showing for 1 more day. If you don't add it, a new channel will be suggested.</p>
 </div>
 <h2>🎥 From People I Follow</h2>
 
@@ -123,131 +123,103 @@
 
 <div class="story">
   <h3>GTO Wizard</h3>
-  <p>Deep breakdown of Brin Kenny vs. Adrien Mateos in a 250k super high roller heads-up match. The core analysis: Kenny overbet pocket eights on turn and river (120% and 130% pot) deviating from the solver's check-behind recommendation, operating on the assumption that Mateos's checking range was capped and wouldn't contain strong hands. GTO Wizard walked through exactly what assumptions Kenny's play requires to be profitable — specifically, that top pair, two pair, and straights wouldn't check-call the turn — and showed that even under those node-locked assumptions, the river bet was still a ~2.5 BB EV loss. Mateos's side was equally interesting: he check-called a straight on the turn (a deviation the solver rates as never correct), apparently building a counter-strategy on the fly to Brin's unexpectedly polar range. The separate short on "Why Broad Skills Make More Money" makes a clean point: table selection is your highest-EV edge, and executing it requires competence across formats (tournaments, cash, various stack depths) rather than deep specialization.</p>
-  <p class="meta">Videos: <a href="https://www.youtube.com/watch?v=ViZj96jEbZY">When Pros Deviate from GTO</a> · <a href="https://www.youtube.com/shorts/fMZ-dgTg2GY">Why Broad Skills Make More Money</a></p>
+  <p>Deep breakdown of a 250k super high roller heads-up hand between Brin Kenny and Adrien Mateos. Kenny overbets pocket eights twice — first on the turn (~pot+), then on the river (~130% pot) — deviating from GTO's recommendation to check behind 100% on the river. The analysis shows Kenny's play requires multiple specific assumptions to be correct simultaneously: that Mateos won't check strong hands, won't check-raise the turn, and will call the river light. GTO Wizard quantifies the river overbet as a 5+ big blind mistake versus checking. Mateos' check-call with the turned straight was itself a deviation from optimal (solver says raise or fold), but it worked out — he held the nuts and won a massive pot. The key lesson: when you overbet based on assumptions about opponent tendencies, your EV loss compounds if any single assumption is wrong.</p>
+  <p class="meta">Videos: <a href="https://www.youtube.com/watch?v=ViZj96jEbZY">When Pros Deviate from GTO</a></p>
 </div>
 
 <div class="story">
-  <h3>GTO Lab</h3>
-  <p>Three focused tournament strategy shorts this period. The most substantive: the "inequal stacks create overlay" concept shows that when you shove with shorter stacks behind, the caller faces ICM pressure from those stacks potentially reshuffling the prize equity, forcing tighter calls than equal-stack scenarios — which means you can shove wider. A second short makes a real-game-theory point: if a player has been raise-heavy preflop (not limping), their in-position range is weighted toward worse hands on certain boards, meaning they may need to check boards where the solver would range-bet. Preflop drill mode is now live in GTO Lab — worth knowing if you use the tool.</p>
-  <p class="meta">Videos: <a href="https://www.youtube.com/shorts/gYj5bqlnhvI">Inequal stacks create overlay</a> · <a href="https://www.youtube.com/shorts/rTVGjGRjd3w">Your real button strategy changes your flop strategy</a> · <a href="https://www.youtube.com/shorts/C7ayC63CHKw">Preflop Drills now in GTO Lab</a></p>
-</div>
-
-<div class="story">
-  <h3>Jared Alderman</h3>
-  <p>Two pieces worth noting. The bluff-catching short makes a subtle but important meta-game point: when you call to gather information, you'll see the archetypical value hand the majority of the time — that's what <em>should</em> happen. The mistake is letting those expected outcomes shut down your information-gathering entirely. The rare times you catch someone off-script are worth more than all the expected outcomes combined, and the more you call in well-chosen spots, the better your calibration becomes. The longer conversation with Corey Eyring and Abby Merk covers how both built poker content channels, with the more interesting thread being Corey's 600K sub Rainbow Six channel that he abandoned when he lost passion for the game — a real example of intrinsic motivation mattering more than sunk-cost audience size.</p>
-  <p class="meta">Videos: <a href="https://www.youtube.com/shorts/47ZwgTjLtCA">The bluff-catching mistake costing you information</a> · <a href="https://www.youtube.com/watch?v=BWgfko3vqNw">Corey Eyring & Abby Merk on What it Takes to Build a Following</a></p>
-</div>
-
-<div class="story">
-  <h3>Renaissance Periodization (Dr. Mike)</h3>
-  <p>Two videos with real training substance. The Dragon Ball Z breakdown is more than a gimmick — Dr. Mike pulls out legitimate points: weighted clothing creates a specificity problem (you practice moving slowly, then your lighter movements become spastic); doing 50,000 reps of anything trains endurance not max force output; and Goku's philosophy — finding joy in increasing difficulty, eating and sleeping as recovery tools — is actually the superior athlete template versus Vegeta's grind-through-pain approach. The 225 bench test video is a detailed periodization case study: four months of prep, alternating a muscle-growth day (cambered bar, 15-20 reps) with a technique-practice day (one heavy set near 225, then assistance work), then transitioning in months 3-4 to lead each session with a heavy bar set before cambered work. He also notes using a warm-up set heavier than the test weight (275 for 4) to make 225 feel psychologically lighter. Result: 30 reps on test day, beating his 24-rep prediction. The shoulder short is compact and correct: pressing builds front delts and triceps; visual shoulder width ("the pop") comes from side delts, requiring lateral raise variations at 2-4 sessions/week, 5-7 sets per session.</p>
-  <p class="meta">Videos: <a href="https://www.youtube.com/watch?v=b93nZ9I7iXc">Exercise Scientist Critiques Dragon Ball Z Training</a> · <a href="https://www.youtube.com/watch?v=UouY10BIETc">People Think Dr. Mike Is Weak. We Tested Him</a> · <a href="https://www.youtube.com/shorts/80YS21KJmGA">Why Pressing Isn't Enough for Big Shoulders</a></p>
+  <h3>Anthony Chaffee MD</h3>
+  <p>Long-form argument that dementia and neurodegeneration are largely the result of dietary deprivation and toxicity, not inevitable aging. Key specific claims: the human brain has shrunk 10–17% over the last several thousand years in parallel with the shift away from animal fat toward grains; chimpanzees don't experience age-related brain shrinkage on their natural diet while humans do; a 2008 Oxford study found B12 levels in the "normal" range still correlated with 2.5–5% brain volume loss over 5 years; and a 2012 withdrawal/rechallenge study in 18 Alzheimer's patients showed statin discontinuation improved cognition scores, which reversed when statins were restarted (FDA now requires cognitive warning labels on statins). He argues the brain preferentially runs on ketones over glucose when both are available (PET scan evidence), and cites randomized trials showing ketogenic diets outperform every drug ever trialed for Alzheimer's, as well as significant improvements in Parkinson's, epilepsy, and MS. Also flags a Stanford finding that up to 96% of Alzheimer's brains at autopsy contained the oral bacterium P. gingivalis, which he links to sugar-driven dysbiosis.</p>
+  <p class="meta">Videos: <a href="https://www.youtube.com/watch?v=aihX4L7za6k">The REAL Cause Of Dementia</a> · <a href="https://www.youtube.com/watch?v=2mSMRLbtg0A">Carnivore LIVE Q&A July 19, 2026</a></p>
 </div>
 
 <div class="story">
   <h3>Nick Norwitz</h3>
-  <p>Covers ATX-304, a compound in Phase 2 human trials that activates AMPK — the cell's fuel gauge — to pull glucose into muscles independent of insulin. This matters because normally insulin is the key that unlocks muscle glucose uptake; AMPK is the "back door" that exercise uses, and ATX-304 flips that switch without exercise. In animals with Type 1 diabetes (no insulin at all), it normalized blood sugar, protected against obesity, and improved endurance performance. Worth watching given the metabolic/insulin-resistance focus you have across multiple channels.</p>
-  <p class="meta">Video: <a href="https://www.youtube.com/shorts/OFTw26U_dUU">The Molecule Mimics Part of Exercise</a></p>
+  <p>A new Nature Communications paper used directed evolution — the Nobel Prize-winning technique of forcing proteins to evolve at accelerated speed toward a specific function — to create an enzyme called CMLase that erases a specific glycation signature (CML) on aging tissue. This matters because CML is a form of "molecular rust" where sugars bond permanently to proteins in the extracellular matrix — previously considered irreversible. In old human arteries, over 70% of the CML signature was erased. The same effect was demonstrated in skin and eye tissue. Norwitz is careful to note this doesn't mean aging is reversed, but it's a proof-of-concept that directed evolution can be weaponized against specific aging biomarkers that were previously considered permanent.</p>
+  <p class="meta">Videos: <a href="https://www.youtube.com/shorts/A3iBi7noXjM">Scientists Just Reversed a Hallmark of Aging</a></p>
 </div>
 
 <div class="story">
-  <h3>Thomas DeLauer</h3>
-  <p>Two substantive health videos. First: a 66-compound screen published in <em>Advanced Science</em> (2025) tested natural compounds for anti-aging activity; apigenin (found in parsley, ~30mg per 2 tbsp) was the clear winner — not because it kills senescent cells (senolytic), but because it suppresses the inflammatory SASP secretions those cells broadcast, including IL-6, IL-8, and CXCL10, before they reach gene expression. In irradiated mice with induced premature aging, apigenin reversed fur graying, restored muscle strength, and improved lung/spleen tissue. Separately, apigenin inhibits CD38 (an enzyme that degrades NAD as we age), complementing NMN/NR supplementation by cutting degradation rather than just boosting production. DeLauer also stacks spermidine (taken fasted, earlier in day) for mitophagy, and notes apigenin is better absorbed with fat. Second video: interview with a clinical doctor making the case that 16:8 fasting doesn't move insulin enough to access visceral fat — less than 24 hours is insufficient to deplete glycogen and normalize insulin, which is the gatekeeper for lipolysis. His clinical protocol: 36-hour fasts once weekly for 6 weeks, with reported results of 50% reduction in body fat mass and 60% reduction in visceral fat, with only ~2% muscle loss (most clients gaining 1-2 lbs muscle). The mechanism: visceral fat is hormonally active, worsens insulin resistance, and is specifically targeted when insulin finally normalizes during extended fasting.</p>
-  <p class="meta">Videos: <a href="https://www.youtube.com/watch?v=OnyFfqsNZRI">They Studied 66 Compounds for Longevity - Here's the Winner</a> · <a href="https://www.youtube.com/watch?v=qQbrb9LGJOU">Insulin Resistance Doctor: Stop 16:8 Fasting Now</a></p>
+  <h3>Renaissance Periodization</h3>
+  <p>Two short-form clips making complementary points: (1) Consistency is the only variable that matters before anything else — split, rep ranges, exercise selection are all moot if you aren't training 4x/week with regularity, because the body requires a sustained, repeated stimulus to adapt and immediately begins reverting when that stimulus stops. (2) On the size-strength relationship: muscle size is the biggest predictor of strength, with technical/neural factors and genetics as secondary contributors. Most jacked people are roughly as strong as you'd expect — the outliers in both directions exist but aren't the norm.</p>
+  <p class="meta">Videos: <a href="https://www.youtube.com/shorts/BckWwwsJuSXQ">Consistency Beats Your Perfect Split</a> · <a href="https://www.youtube.com/shorts/HOQUA33rLW4">Bigger Muscles = Stronger Muscles</a></p>
+</div>
+
+<div class="story">
+  <h3>GTO Lab</h3>
+  <p>Short but sharp: in a three-way spot on the stone bubble, the big blind has a strong incentive to over-fold rather than overcall, even when the button's opening range is wide. The reason is the interaction of two opposing forces — you're up against one very tight range (the short-stack opener) AND one loose range (the button), but your risk premium as the opener's target makes passive play mandatory. The common mistake is that players see the button's looseness and infer they can call lighter, when in reality the tight range creates a major constraint on BB's calling frequency.</p>
+  <p class="meta">Videos: <a href="https://www.youtube.com/shorts/VyrXqj03UoU">The big blind cannot overcall loose just because the button is wide</a></p>
 </div>
 
 <p><strong>Also posted:</strong></p>
 <ul>
-  <li><strong>Stronger by Science (RSS):</strong> New analysis on whether hypertrophy and strength gains are more correlated than previously thought — finding: yes, especially in newer lifters, but the relationship is much weaker than surface-level data implies once confounds are controlled. (<a href="https://www.strongerbyscience.com/correlation-strength-hypertrophy/">Is the Correlation Between Hypertrophy and Strength Gains Stronger Than We Realized?</a>)</li>
-  <li><strong>Ken Berry MD:</strong> Short cooking clip promoting a grass-fed beef supplier; no substantive content. (<a href="https://www.youtube.com/shorts/OjlFvO-1sRk">Steak for breakfast</a>)</li>
-  <li><strong>Paul Saladino MD:</strong> Hot takes rapid-fire: fasting overrated (cortisol/glucagon stress, prefers eating at breakfast), EG1 overrated (heavy metals), hyperbaric oxygen overrated (not convinced it lengthens telomeres — may just kill short-telomere cells), olive oil properly rated (organic, cold-pressed, glass, don't heat), mouth taping properly rated. (<a href="https://www.youtube.com/shorts/7BFLibkaf0Q">Fasting is overrated</a>) <em>[Flagged as most recent, not new]</em></li>
-  <li><strong>Dr. Sten Ekberg:</strong> 10 early signs of insulin resistance that appear before blood glucose rises — includes hunger 1-2 hours post-meal, energy crashes, brain fog, expanding waistline, inability to lose weight, high triglycerides/low HDL, rising blood pressure, disrupted sleep, elevated uric acid, and elevated fasting insulin with normal glucose (HOMA-IR). The strongest point: glucose is a controlled variable and lags the problem by up to 20 years; fasting insulin is the better marker but is rarely tested. (<a href="https://www.youtube.com/watch?v=EbA55VlgofE">10 Signs You're Becoming Insulin Resistant Even With Normal Blood Sugar</a>)</li>
-  <li><strong>Peter Attia:</strong> Short clip on Alzheimer's monoclonal antibodies — a patient on lecanemab cleared amyloid AND subsequently showed no tau on tau scan, a remarkable outcome Attia says he can barely believe; notes downstream tau reduction is seen across multiple monoclonals even though they target amyloid. Also covers pipeline improvements (pills, home administration, reduced ARIA risk). (<a href="https://www.youtube.com/shorts/70fAHybr9ME">Monoclonal antibodies for dementia</a>)</li>
+  <li><strong>Peter Attia:</strong> Heat training may provide real aerobic adaptation — cautious optimism based on recent evidence. (<a href="https://peterattiamd.com/does-heat-training-build-a-better-engine/">Does heat training build a better engine?</a>) Also: a short clip featuring Dr. Gayatri Devi on monoclonal antibodies for Alzheimer's, including a remarkable case where a patient on lecanemab cleared both amyloid AND tau on follow-up imaging. (<a href="https://www.youtube.com/shorts/70fAHybr9ME">Monoclonal antibodies for dementia</a>)</li>
+  <li><strong>Dr. Sten Ekberg:</strong> 10 early signs of insulin resistance that appear before blood glucose becomes abnormal — including post-meal hunger/energy crashes (from insulin overshoot), expanding waistline even at stable weight, high triglycerides/low HDL, creeping blood pressure, and elevated uric acid. Argues the HOMA-IR formula (glucose × insulin ÷ 405) is far more diagnostic than glucose alone, and that insulin is rarely tested despite being the earliest signal. (<a href="https://www.youtube.com/watch?v=EbA55VlgofE">10 Signs You're Becoming Insulin Resistant Even With Normal Blood Sugar</a>)</li>
+  <li><strong>Paul Saladino MD:</strong> Quick takes in short-form: fasting is overrated (creates cortisol/glucagon stress), hyperbaric oxygen is overrated (may just cull short-telomere cells rather than truly lengthening them), olive oil is fine if cold-pressed/single-source/glass bottle, mouth taping is legit. (<a href="https://www.youtube.com/shorts/7BFLibkaf0Q">Fasting is overrated</a>)</li>
+  <li><strong>Thomas DeLauer:</strong> Sodium bicarbonate (baking soda) as a performance buffer — detailed mechanism explanation with an internal medicine physician. At the right dose (~0.3g/kg), it acts as an extracellular buffer pulling hydrogen ions out of muscle cells, improving contractile function. Main risk is GI distress from over-dosing. Micro-dosing (<1g, every 4–6 hours) may help people with chronic low-grade metabolic acidosis from poor metabolic health or high stress. (<a href="https://www.youtube.com/watch?v=Arbd2gfvMI4">This Powder Outperforms Peptides, Creatine and Some Steroids</a>)</li>
+  <li><strong>Donald Robertson:</strong> New interview on Stoicism and modern psychology — covers emotional resilience and the practical pursuit of wisdom. Also: a piece arguing Stoicism is not about emotional suppression but about having healthy, rational emotions. (<a href="https://donaldrobertson.substack.com/p/watch-this-new-in-depth-interview">Watch this New In-Depth Interview About Stoicism</a> · <a href="https://donaldrobertson.substack.com/p/stoicism-is-not-unemotional">Stoicism is not unemotional</a>)</li>
 </ul>
-
----
 
 <h2>₿ Bitcoin & Macro</h2>
 
 <div class="story">
-  <h3><a href="https://bitcoinmagazine.com/markets/bitcoin-price-falls-under-63000">Bitcoin Falls Below $63K on US-Iran Strikes and China Tensions</a></h3>
-  <p>Bitcoin dropped below $63,000 as geopolitical risk-off selling hit broad markets, triggered by U.S. strikes on Iran and renewed U.S.-China trade tension. Analysts cited resilient on-chain data (buyers stepping in) as a counterpoint to the price move. Worth monitoring as a macro stress test of Bitcoin's correlation to risk assets under genuine geopolitical shocks.</p>
+  <h3><a href="https://bitcoinmagazine.com/markets/bitcoin-price-falls-under-63000">Bitcoin drops below $63K on U.S.-Iran strikes and China tensions</a></h3>
+  <p>Bitcoin fell below $63,000 as U.S. military strikes on Iran combined with renewed U.S.-China trade tensions triggered a broad risk-off move. On-chain analysts flagged resilient buyer activity at these levels, suggesting the drawdown was macro-driven rather than a deterioration in structural demand. Worth watching as a case study in Bitcoin's continued sensitivity to geopolitical shocks despite the "digital gold" narrative.</p>
   <p class="meta">Bitcoin Magazine</p>
 </div>
 
 <div class="story">
   <h3><a href="https://bitcoinmagazine.com/news/fed-chair-warsh-no-bailout-for-crypto">Fed Chair Warsh: No Bailout for Crypto Industry in Crisis</a></h3>
-  <p>New Fed Chair Kevin Warsh stated explicitly that the Federal Reserve will not backstop failing crypto firms, drawing a hard line as the GENIUS Act (stablecoin regulation) moves through Congress. This is a meaningful Saylor-relevant data point: the "no implicit Fed put" stance means crypto firms bear their own tail risk, which arguably strengthens the case for Bitcoin's uncorrelated store-of-value thesis relative to leveraged crypto infrastructure.</p>
+  <p>New Fed Chair Kevin Warsh drew a firm line: the Federal Reserve will not backstop failing crypto firms, and the industry must bear its own risks while regulators finalize rules under the GENIUS Act. This is a meaningful signal for anyone thinking about systemic risk assumptions in the space — the implicit "Fed put" that applied to banks in 2008 does not extend here, and Warsh is explicitly saying so while the regulatory framework is still being written.</p>
   <p class="meta">Bitcoin Magazine</p>
 </div>
-
----
 
 <h2>🧬 Health & Science</h2>
 
 <div class="story">
-  <h3>Apigenin: Top Compound in 66-Natural-Compound Longevity Screen</h3>
-  <p>A 2025 paper in <em>Advanced Science</em> screened 66 natural compounds for anti-aging activity using human cell cultures and found apigenin (abundant in parsley) as the standout — not by killing senescent cells, but by suppressing SASP (senescence-associated secretory phenotype), the inflammatory signal cascade those cells broadcast (specifically IL-6, IL-8, CXCL10). In irradiated mice with induced premature aging, apigenin reversed fur graying, restored muscle strength, and improved lung and spleen tissue without eliminating the senescent cells themselves (which still perform useful functions). A complementary mechanism: apigenin inhibits CD38, the enzyme that degrades NAD with age, meaning it addresses both the inflammatory-noise problem and the NAD-depletion problem simultaneously. Practical dose signal: ~30mg from 2 tbsp fresh flat-leaf parsley with a fat-containing meal (improves absorption), or 50-100mg supplement. Pair with spermidine in a fasted window for mitophagy benefit.</p>
-  <p class="meta">Via <a href="https://www.youtube.com/watch?v=OnyFfqsNZRI">Thomas DeLauer</a></p>
+  <h3>FDA Approves First Oral PCSK9 Inhibitor</h3>
+  <p>The FDA approved the first oral PCSK9 inhibitor for lowering LDL cholesterol in adults — a meaningful delivery shift since all previous PCSK9 inhibitors (like evolocumab/Repatha) were injectable biologics requiring twice-monthly shots. PCSK9 inhibitors work by blocking a protein that degrades LDL receptors in the liver, allowing the liver to clear more LDL from the blood — they're among the most effective LDL-lowering agents available, with trials showing 50–60% reductions. An oral version substantially lowers the barrier to use, which matters for the large patient population that doesn't tolerate or won't adhere to injections. This is worth tracking given the ongoing debate about how aggressively LDL should be treated and with what tools.</p>
+  <p class="meta"><a href="https://www.fda.gov/news-events/press-announcements/fda-approves-first-oral-pcsk9-inhibitor-lower-ldl-cholesterol-adults-high-cholesterol">FDA Announcement</a> · <a href="https://news.ycombinator.com/item?id=">HN Discussion</a></p>
 </div>
 
 <div class="story">
-  <h3>Extended Fasting (36hr) vs. 16:8 for Insulin Resistance and Visceral Fat</h3>
-  <p>Clinical argument from a practicing physician: intermittent fasting windows under 24 hours fail to deplete glycogen sufficiently to normalize insulin, which means lipolysis from visceral fat (the hormonally active, metabolically damaging fat depot) is never properly unlocked. The mechanism is specific — insulin inactivates hormone-sensitive lipase (HSL), the enzyme that liberates stored fat from fat cells, meaning you can be in a calorie deficit and still be in "storage mode." His 6-week clinical protocol (36-hour fast, once weekly) reportedly produces 50% reduction in body fat mass and 60% reduction in visceral fat with negligible muscle loss (~2%), because the target isn't calorie deficit per se but normalization of the insulin-glucagon axis. This is meaningfully different from conventional calorie restriction, which triggers metabolic adaptation without addressing the hormonal environment. The acute-vs-chronic stress distinction also matters: acute fasting stress is adaptive; chronic mild restriction is not.</p>
-  <p class="meta">Via <a href="https://www.youtube.com/watch?v=qQbrb9LGJOU">Thomas DeLauer</a></p>
-</div>
-
-<div class="story">
-  <h3>AMPK Activation Without Exercise: ATX-304 in Phase 2 Trials</h3>
-  <p>ATX-304 is a compound that activates AMPK — the intracellular "fuel gauge" that exercise normally flips — driving glucose into muscles without requiring insulin. In Type 1 diabetic animals (no insulin production whatsoever), it normalized blood glucose, protected against obesity, and improved endurance. It's currently in Phase 2 human trials and reportedly being used recreationally. This is relevant to anyone interested in metabolic health and insulin resistance: it suggests AMPK-pathway activation is a viable independent lever, separate from both insulin and GLP-1 mechanisms.</p>
-  <p class="meta">Via <a href="https://www.youtube.com/shorts/OFTw26U_dUU">Nick Norwitz</a></p>
-</div>
-
-<div class="story">
-  <h3>Insulin Resistance Precedes Blood Glucose Elevation by ~20 Years</h3>
-  <p>Dr. Ekberg's breakdown of 10 pre-diagnostic signs of insulin resistance is worth having on your radar: the HOMA-IR formula (glucose × insulin ÷ 405) can reveal someone is 3.4x more insulin resistant than baseline while their glucose reads nearly identical (90 vs. 92 mg/dL). Fasting insulin is the sensitive early marker; fasting glucose is a controlled variable the body defends for decades. Early warning signs include high triglycerides + low HDL (the classic dyslipidemia pattern), creeping blood pressure (insulin causes renal sodium retention), elevated uric acid (impaired kidney excretion), and post-meal hunger 1-2 hours later (insulin overshoot causing rapid drop, triggering hunger response). Clinically underutilized: uric acid as an early-warning marker that often shifts before lipids or glucose.</p>
-  <p class="meta">Via <a href="https://www.youtube.com/watch?v=EbA55VlgofE">Dr. Sten Ekberg</a></p>
-</div>
-
-<div class="story">
-  <h3>Hypertrophy–Strength Correlation Stronger in New Lifters Than Previously Estimated</h3>
-  <p>Stronger by Science's new analysis revisits the relationship between muscle growth and strength gains, finding the correlation is probably larger in novice lifters than prior studies indicated — muscle growth contributes more to early strength development than the field had assumed. However, the headline finding is tempered: the relationship is nowhere near as strong as it appears on the surface once statistical confounds are accounted for, meaning muscle size and strength remain meaningfully separate training outcomes even for beginners.</p>
+  <h3>Stronger by Science: Does Hypertrophy Drive Strength Gains More Than We Thought?</h3>
+  <p>A new analysis from Stronger by Science revisits the correlation between muscle size gains and strength gains across studies. The conclusion: hypertrophy likely contributes more to strength gains in novice and intermediate lifters than prior research suggested — earlier studies may have underestimated this because they used training protocols too short to detect meaningful size changes. However, the relationship is far from deterministic — neural adaptations, motor learning, and individual genetic factors all create substantial variance. Practically, this reinforces training for size as a legitimate path to long-term strength, while cautioning against assuming bigger always means proportionally stronger.</p>
   <p class="meta"><a href="https://www.strongerbyscience.com/correlation-strength-hypertrophy/">Stronger by Science</a></p>
 </div>
-
----
 
 <h2>💡 Worth Reading</h2>
 
 <div class="story">
-  <h3><a href="https://localnewsmatters.org/2026/07/15/kaiser-nurses-say-ai-workplace-surveillance-are-making-their-jobs-and-patient-care-worse/">Kaiser Nurses Say AI and Workplace Surveillance Are Making Jobs and Care Worse</a></h3>
-  <p>Frontline healthcare workers at Kaiser reporting that AI monitoring tools and algorithmic scheduling are degrading both their work experience and patient outcomes — a grounded real-world data point on AI deployment friction in high-stakes settings. The tension here is between top-down productivity optimization and the judgment-intensive, relational nature of care work. Worth thinking about as a case study in where AI capability fails to translate to real-world value.</p>
-  <p class="meta"><a href="https://news.ycombinator.com/item?id=48945241">HN Discussion</a></p>
+  <h3><a href="https://old.reddit.com/r/math/comments/1uxj3cy/after_openais_cdc_proof_announcement_gpt56_used_a/">GPT-5.6 used a prompt to close a 30-year gap in convex optimization</a></h3>
+  <p>Following OpenAI's announcement of a CDC proof, a separate case emerged where GPT-5.6 reportedly used a specific prompting approach to advance a long-standing problem in convex optimization — a field central to machine learning, economics, and engineering. The companion piece analyzing GPT-5.6 against an NP-Hard problem explores whether goal-framing prompts ("fable 5 /goal") materially change model reasoning on hard problems. The signal here isn't benchmark hype — it's that frontier models are now contributing to open mathematical problems in ways that require expert evaluation to even assess. Worth reading if you want a concrete example of what "AI does science" actually looks like at the capability frontier.</p>
+  <p class="meta"><a href="https://old.reddit.com/r/math/comments/1uxj3cy/">Reddit thread</a> · <a href="https://charlesazam.com/blog/fable-5-gpt-5-6-sol-goal/">Related analysis</a></p>
 </div>
 
 <div class="story">
-  <h3><a href="https://improvesomething.today/responses-to-problems/">Three Ways People Respond to a Problem (Other Than Solving It)</a></h3>
-  <p>A short framework piece on the non-solving responses to problems: denial/minimization, blame-shifting, and workaround-without-fixing. It's the kind of mental model that's simple enough to stick and useful for recognizing your own avoidance patterns — especially relevant in decision-making under pressure and organizational contexts. Short read, worth 5 minutes.</p>
-  <p class="meta"><a href="https://news.ycombinator.com/item?id=48949551">HN Discussion</a></p>
+  <h3><a href="https://figsinwintertime.substack.com/p/five-allegedly-bad-isms-part-i">Five Allegedly Bad "Isms" — Massimo Pigliucci</a></h3>
+  <p>Pigliucci (philosopher of science and practicing Stoic) takes on positivism, scientism, and related "-isms" he's been accused of holding. This is a two-part series worth reading for anyone interested in what it actually means to be "pro-science" without sliding into scientism — a distinction that matters a lot in the health/nutrition space where the line between "following the evidence" and "treating science as ideology" is constantly blurred. Pigliucci writes clearly and without posturing.</p>
+  <p class="meta"><a href="https://figsinwintertime.substack.com/p/five-allegedly-bad-isms-part-i">Part I</a> · <a href="https://figsinwintertime.substack.com/p/five-allegedly-bad-isms-part-ii">Part II</a> — Figs in Winter</p>
 </div>
 
 <div class="story">
-  <h3><a href="https://www.isomorphiclabs.com/articles/the-isomorphic-labs-drug-design-engine-unlocks-a-new-frontier">Isomorphic Labs Drug Design Engine: Beyond AlphaFold</a></h3>
-  <p>Isomorphic Labs (Google DeepMind spinout) is announcing a drug design engine that goes past protein structure prediction into actual therapeutic molecule design — using AI to generate candidate drug molecules rather than just fold proteins. AlphaFold showed us the shape of proteins; this is the next step of using that understanding to design drugs that interact with them. Still early, but this is a real-world AI capability expansion with concrete medical implications.</p>
-  <p class="meta"><a href="https://news.ycombinator.com/item?id=48945241">HN Discussion</a> · Isomorphic Labs</p>
+  <h3><a href="https://ludic.mataroa.blog/blog/ai-mania-is-eviscerating-global-decision-making/#fnref:3">AI Mania Is Eviscerating Global Decision-Making</a></h3>
+  <p>Consultant Nik Suresh writes from inside large organizations about what AI mania looks like at the executive level: decisions being made not because AI is the right tool, but because not mentioning AI in a strategy deck is now career-limiting. One anecdote: an executive admitted in a meeting that they didn't understand the AI solution they'd approved, but felt they had no choice. The piece isn't anti-AI — it's a specific critique of how institutional panic around missing the wave is degrading the quality of organizational decision-making. Relevant to anyone thinking about AI adoption as a mental model problem rather than a capability problem.</p>
+  <p class="meta"><a href="https://news.ycombinator.com/item?id=">HN Discussion</a> · Mataroa Blog</p>
+</div>
+
+<h2>🤖 AI Capability Watch</h2>
+
+<div class="story">
+  <h3><a href="https://old.reddit.com/r/math/comments/1uxj3cy/after_openais_cdc_proof_announcement_gpt56_used_a/">GPT-5.6 closes a 30-year gap in convex optimization</a></h3>
+  <p>GPT-5.6 (OpenAI's current frontier model) was used to make meaningful progress on an open mathematical problem in convex optimization that had resisted solution for roughly three decades — verified by domain experts. This is distinct from "AI solves a benchmark": it's a case of a model contributing to real open research in a field that underpins modern ML training itself. The companion piece on NP-Hard problem solving with goal-framing prompts suggests the prompting strategy used may be systematically replicable.</p>
+  <p class="meta"><a href="https://old.reddit.com/r/math/comments/1uxj3cy/">Reddit</a> · <a href="https://charlesazam.com/blog/fable-5-gpt-5-6-sol-goal/">Analysis</a></p>
 </div>
 
 <div class="story">
-  <h3><a href="https://donaldrobertson.substack.com/p/stoicism-is-not-unemotional">Stoicism Is Not Unemotional</a></h3>
-  <p>Donald Robertson (Marcus Aurelius biographer) pushes back on the popular misconception that Stoicism requires emotional suppression or being "like a man made of oak or stone." The Stoics distinguished between unhealthy passions (driven by false judgments) and healthy emotions (eupatheiai) — the Stoic sage still experiences joy, caution, and wishing, just not fear, lust, or distress. This matters practically: the goal isn't emotional flatness, it's emotional accuracy. Useful framing for anyone applying Stoicism to real adversity rather than performing detachment.</p>
-  <p class="meta"><a href="https://donaldrobertson.substack.com/p/stoicism-is-not-unemotional">Donald Robertson / Substack</a></p>
-</div>
-
-<div class="story">
-  <h3><a href="https://fs.blog/knowledge-project-podcast/kaz-nejatian/">Truth Over Feelings: Inside Opendoor's Massive Turnaround</a></h3>
-  <p>Farnam Street's Knowledge Project with Kaz Nejatian, who took over Opendoor when it was months from bankruptcy and rebuilt it. The headline framing — "no company decides to fail, it drifts there one comfortable lie at a time" — is the kind of insight that compounds across leadership, decision-making, and organizational psychology contexts. The actual turnaround mechanics (what he changed, how he diagnosed the lies) are likely where the real value is; members-only now, public July 21.</p>
-  <p class="meta"><a href="https://fs.blog/knowledge-project-podcast/kaz-nejatian/">Farnam Street</a></p>
+  <h3><a href="https://github.com/moonshine-ai/moonshine/tree/main/micro">Speech Recognition and TTS in under 500KB</a></h3>
+  <p>Moonshine Micro is a speech recognition and text-to-speech model that runs in under 500 kilobytes — small enough to run on microcontrollers and embedded devices with no internet connection. The practical implication: always-on voice interfaces become possible in contexts where cloud APIs are unavailable, cost-prohibitive, or privacy-sensitive (medical devices, industrial sensors, offline tools). This is a meaningful shift in where voice AI can physically live.</p>
+  <p class="meta"><a href="https://github.com/moonshine-ai/moonshine/tree/main/micro">GitHub</a></p>
 </div>
 </body>
 </html>

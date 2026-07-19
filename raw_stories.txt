@@ -1,96 +1,102 @@
 === HACKER NEWS ===
-1. [422 pts] Kaiser nurses say AI, workplace surveillance are making their jobs, care worse
-   https://localnewsmatters.org/2026/07/15/kaiser-nurses-say-ai-workplace-surveillance-are-making-their-jobs-and-patient-care-worse/
+1. [321 pts] Transcribe.cpp
+   https://workshop.cjpais.com/projects/transcribe-cpp
 
-2. [1116 pts] AWS: Inaccurate Estimated Billing Data – $1.7 billion
-   https://news.ycombinator.com/item?id=48945241
+2. [382 pts] Speech Recognition and TTS in less than 500kb
+   https://github.com/moonshine-ai/moonshine/tree/main/micro
 
-3. [471 pts] Thanks HN for 15 years of support and helping me find my life's work
-   https://news.ycombinator.com/item?id=48949551
+3. [53 pts] FDA approves new kind of cholesterol pill
+   https://www.fda.gov/news-events/press-announcements/fda-approves-first-oral-pcsk9-inhibitor-lower-ldl-cholesterol-adults-high-cholesterol
 
-4. [33 pts] Reviving a 15-year-old netbook with Arch Linux
-   https://parksb.github.io/en/article/41.html
+4. [113 pts] Better and Cheaper Than IPTV
+   https://github.com/stupside/castor
 
-5. [410 pts] First atmosphere found on Earth-like planet in habitable zone of distant star
-   https://www.bbc.com/news/articles/cy4kdd1e0ejo
+5. [57 pts] Mathematicians still don't know the fastest way to multiply numbers
+   https://www.scientificamerican.com/article/mathematicians-still-dont-know-the-fastest-way-to-multiply-numbers/
 
-6. [193 pts] The Zilog Z80 has turned 50
-   https://goliath32.com/blog/z80.html
+6. [28 pts] LLM-Integrated Multivariable Calculus Course
+   https://calculus.academa.ai/
 
-7. [29 pts] Moonstone: Modern, cross-platform Lua runtime and package manager written in Zig
-   https://moonstone.sh/
+7. [94 pts] Classic Amiga titles, free to download
+   https://amigafreeware.downer.tech/
 
-8. [20 pts] Shipping OpenStrike: A Counter-Strike-Shaped FPS on a 2004 Handheld
-   https://pocketjs.dev/blog/shipping-openstrike/
+8. [25 pts] A Visual Catalog of Retro Macintosh Software
+   https://www.marciot.com/mac68k-visual-catalog/
 
-9. [37 pts] I Started a "Dirt Notebook"
-   https://pinewind.bearblog.dev/i-started-a-dirt-notebook/
+9. [540 pts] GPT-5.6 used a prompt to close a 30-year gap in convex optimization
+   https://old.reddit.com/r/math/comments/1uxj3cy/after_openais_cdc_proof_announcement_gpt56_used_a/
 
-10. [71 pts] TP-Link Kasa cameras leaked home GPS via unauthenticated UDP for 6 years
-   https://github.com/BadChemical/IoT-Vulnerability-Research-Public/blob/main/TP-Link_Kasa_EC71/Kasa_EC71.md
+10. [345 pts] If You Build It, They Will Come
+   https://www.benlandautaylor.com/p/if-you-build-it-they-will-come
 
-11. [204 pts] Learning a few things about running SQLite
-   https://jvns.ca/blog/2026/07/17/learning-about-running-sqlite/
+11. [3 pts] Scrying the AMD GFX1250 LLVM Tea Leaves
+   https://chipsandcheese.com/p/scrying-the-amd-gfx1250-llvm-tea
 
-12. [57 pts] The Isomorphic Labs Drug Design Engine unlocks a new frontier beyond AlphaFold
-   https://www.isomorphiclabs.com/articles/the-isomorphic-labs-drug-design-engine-unlocks-a-new-frontier
+12. [10 pts] Making Software: How to make a font
+   https://www.makingsoftware.com/chapters/how-to-make-a-font
 
-13. [304 pts] Kimi K3, and what we can still learn from the pelican benchmark
-   https://simonwillison.net/2026/Jul/16/kimi-k3/
+13. [129 pts] I'm Making Strandfall, a Solarpunk Orienteering Larp
+   https://mssv.net/2026/04/29/im-making-strandfall-a-solarpunk-orienteering-larp/
 
-14. [28 pts] Stenchill: 3D Printable Solder Paste Stencil Generator
-   https://www.stenchill.com/en/
+14. [390 pts] Mayor Mamdani Says Landlords Can't Use AI Images to Advertise
+   https://petapixel.com/2026/07/16/mayor-mamdani-says-landlords-cant-secretly-use-ai-images-to-advertise-properties/
 
-15. [1 pts] DrDroid (YC W23) Is Hiring
-   https://www.ycombinator.com/companies/drdroid/jobs/w45QcNV-product-engineer-assignment-mandatory
+15. [122 pts] Hardcore IndieWeb: Run your own website 100% independently for only $0.01/day
+   https://www.neatnik.net/hardcore-indieweb
 
-16. [120 pts] Vāgdhenu: A Sanskrit Chanting TTS System
-   https://prathosh.in/vagdhenu/
+16. [135 pts] AI Mania Is Eviscerating Global Decision-Making
+   https://ludic.mataroa.blog/blog/ai-mania-is-eviscerating-global-decision-making/#fnref:3
 
-17. [28 pts] An Update on Igalia's Layer Based SVG Engine in WebKit (Reducing Layer Overhead)
-   https://blogs.igalia.com/nzimmermann/posts/2026-07-14-lbse-conditional-layers/
+17. [13 pts] Deepsec
+   https://github.com/vercel-labs/deepsec
 
-18. [79 pts] Static search trees: 40x faster than binary search (2024)
-   https://curiouscoding.nl/posts/static-search-tree/
+18. [11 pts] I built a browser-based P2P file transfer tool using WebRTC
+   https://airdows.com/
 
-19. [84 pts] Open Book Touch: open-source e-reader
-   https://www.crowdsupply.com/oddly-specific-objects/open-book-touch
+19. [54 pts] Co-evolution of self-replication and function in a digital primordial soup
+   https://arxiv.org/abs/2607.09211
 
-20. [92 pts] Lego building instructions through time
-   https://www.lego.com/en-us/history/articles/d-lego-building-instructions-through-time
+20. [12 pts] Parsoid
+   https://www.mediawiki.org/wiki/Parsoid
 
-21. [72 pts] Painting the sides of railroad rails white to reduce derailment
-   https://www.up.com/news/safety/Tracking-Rail-Heat-260608
+21. [211 pts] Is this the end of the once-mighty GoPro?
+   https://amateurphotographer.com/latest/photo-news/going-going-gone-is-this-the-end-of-the-once-mighty-gopro/
 
-22. [20 pts] Mac gaming is finally getting the overpowered upgrade it deserves
-   https://www.macworld.com/article/3189951/apples-latest-game-porting-toolkit-beta-changed-how-i-think-about-mac-gaming.html
+22. [232 pts] Fable 5 vs. GPT-5.6 Sol on an NP-Hard Problem: Does /goal help?
+   https://charlesazam.com/blog/fable-5-gpt-5-6-sol-goal/
 
-23. [4 pts] Battery packs: Let's talk about crates, baby
-   https://smallcultfollowing.com/babysteps/blog/2026/07/15/battery-packs/
+23. [212 pts] Setting up your spare Mac for Claude Code to control, a step-by-step guide
+   https://ykdojo.github.io/claude-controls-mac/
 
-24. [405 pts] The state of open source AI
-   https://stateofopensource.ai/
+24. [19 pts] Developing an Intuitive Sense of Scale
+   https://magworld.pw
 
-25. [95 pts] Frank Lloyd Wright’s first home
-   https://www.architecturaldigest.com/story/frank-lloyd-wright-home-and-studio-everything-you-need-to-know
+25. [223 pts] Gleam Is Now on Tangled
+   https://tangled.org/gleam.run/gleam
 
-26. [73 pts] Show HN: A zoomable timeline of 4M Wikipedia events
-   https://app.everything.diena.co/
+26. [205 pts] Elixir-lang.org has a new design
+   https://elixir-lang.org/
 
-27. [158 pts] FAA lets Boeing sign off on 737 MAX, 787 airworthiness certificates again
-   https://www.cnbc.com/2026/07/17/faa-boeing-737-max-787.html
+27. [1078 pts] LG monitors silently install software through Windows Update without consent
+   https://videocardz.com/newz/lg-monitors-silently-install-software-through-windows-update-without-user-consent
 
-28. [6 pts] Regressive JPEGs
-   https://maurycyz.com/projects/bad_jpeg/
+28. [79 pts] Show HN: Q3Edit – Edit and play Quake 3 maps in the browser
+   https://q3edit.com
 
-29. [217 pts] Three ways people respond to a problem (other than solving it)
-   https://improvesomething.today/responses-to-problems/
+29. [84 pts] A Second-Grade Teacher Revived a Beloved Video Game
+   https://www.nytimes.com/2026/07/13/style/backyard-baseball-video-game-teacher.html
 
-30. [150 pts] Show HN: Watch bots interact with an SSH honeypot in real time
-   https://honeypotlive.cc/
+30. [121 pts] Codex Resets
+   https://codex-resets.com/
 
 
 === RSS ===
+[wisdom] Farnam Street: Truth Over Feelings: Inside Opendoor’s Massive Turnaround
+  https://fs.blog/knowledge-project-podcast/kaz-nejatian/
+
+[ideas] Stratechery: 2026.29: Mainframes and Main Characters
+  https://stratechery.com/2026/mainframes-and-main-characters/
+
 [ai] Anthropic News: Anthropic commits $10 million to Canadian AI research
   https://www.anthropic.com/news/canadian-ai-research
 
@@ -106,44 +112,11 @@
 [ai] Anthropic News: UST is bringing Claude to physical AI
   https://www.anthropic.com/news/ust-claude
 
-[ai] Simon Willison: nascheme/quixote
-  https://simonwillison.net/2026/Jul/18/quixote/#atom-everything
+[health] Peter Attia: Does heat training build a better engine?
+  https://peterattiamd.com/does-heat-training-build-a-better-engine/
 
-[ai] Simon Willison: Quoting Kimi K3
-  https://simonwillison.net/2026/Jul/17/kimi-k3/#atom-everything
-
-[ai] Simon Willison: LLM cliché highlighter
-  https://simonwillison.net/2026/Jul/17/llm-cliche-highlighter/#atom-everything
-
-[ai] Simon Willison: Spot birds not golf
-  https://simonwillison.net/2026/Jul/17/spot-birds-not-golf/#atom-everything
-
-[ai] Simon Willison: Firefox in WebAssembly
-  https://simonwillison.net/2026/Jul/16/firefox-in-webassembly/#atom-everything
-
-[ideas] Stratechery: 2026.29: Mainframes and Main Characters
-  https://stratechery.com/2026/mainframes-and-main-characters/
-
-[ideas] Stratechery: IBM Misses, IBM’s Mainframe Moat, IBM’s Many AI Problems
-  https://stratechery.com/2026/ibm-misses-ibms-mainframe-moat-ibms-many-ai-problems/
-
-[ideas] Paul Graham: How to Earn a Billion Dollars
-  https://paulgraham.com/earn.html
-
-[ideas] Paul Graham: How to Convert Between Wealth and Income Tax
-  https://paulgraham.com/winc.html
-
-[wisdom] Farnam Street: Truth Over Feelings: Inside Opendoor’s Massive Turnaround
-  https://fs.blog/knowledge-project-podcast/kaz-nejatian/
-
-[bitcoin] The Pomp Letter: The Inflation Data Is Telling A Different Story Than What People Are Feeling
-  https://pomp.substack.com/p/the-inflation-data-is-telling-a-different
-
-[wisdom] Donald Robertson: Watch this New In-Depth Interview About Stoicism and the Art of Living
-  https://donaldrobertson.substack.com/p/watch-this-new-in-depth-interview
-
-[wisdom] Donald Robertson: Stoicism is not unemotional
-  https://donaldrobertson.substack.com/p/stoicism-is-not-unemotional
+[wisdom] Figs in Winter (Pigliucci): In the media
+  https://figsinwintertime.substack.com/p/in-the-media-bb0
 
 [wisdom] Figs in Winter (Pigliucci): Five allegedly bad “isms” – Part II
   https://figsinwintertime.substack.com/p/five-allegedly-bad-isms-part-ii
@@ -151,23 +124,41 @@
 [wisdom] Figs in Winter (Pigliucci): Five allegedly bad “isms” – Part I
   https://figsinwintertime.substack.com/p/five-allegedly-bad-isms-part-i
 
-[wisdom] Figs in Winter (Pigliucci): Suggested Readings
-  https://figsinwintertime.substack.com/p/suggested-readings-d10
+[ai] Simon Willison: AI Mania Is Eviscerating Global Decision-Making
+  https://simonwillison.net/2026/Jul/19/ai-mania/#atom-everything
+
+[ai] Simon Willison: Claude Code uses Bun written in Rust now
+  https://simonwillison.net/2026/Jul/19/claude-code-in-bun-in-rust/#atom-everything
+
+[ai] Simon Willison: SQLite Query Explainer
+  https://simonwillison.net/2026/Jul/18/sqlite-query-explainer/#atom-everything
+
+[ai] Simon Willison: Claude make Fable 5 permanent
+  https://simonwillison.net/2026/Jul/18/claude-make-fable-5-permanent/#atom-everything
+
+[ai] Simon Willison: nascheme/quixote
+  https://simonwillison.net/2026/Jul/18/quixote/#atom-everything
+
+[ideas] Marginal Revolution: How does social media change people?
+  https://marginalrevolution.com/marginalrevolution/2026/07/how-does-social-media-change-people.html?utm_source=rss&utm_medium=rss&utm_campaign=how-does-social-media-change-people
+
+[ideas] Marginal Revolution: Saturday assorted links
+  https://marginalrevolution.com/marginalrevolution/2026/07/saturday-assorted-links-570.html?utm_source=rss&utm_medium=rss&utm_campaign=saturday-assorted-links-570
+
+[ideas] Marginal Revolution: Trial Lawyers Lobby Against Autonomous Vehicles
+  https://marginalrevolution.com/marginalrevolution/2026/07/trial-lawyers-lobby-against-autonomous-vehicles.html?utm_source=rss&utm_medium=rss&utm_campaign=trial-lawyers-lobby-against-autonomous-vehicles
+
+[ideas] Marginal Revolution: What should I ask Luis Garicano?
+  https://marginalrevolution.com/marginalrevolution/2026/07/what-should-i-ask-luis-garicano.html?utm_source=rss&utm_medium=rss&utm_campaign=what-should-i-ask-luis-garicano
 
 [ideas] Marginal Revolution: The small business boom
   https://marginalrevolution.com/marginalrevolution/2026/07/the-small-business-boom.html?utm_source=rss&utm_medium=rss&utm_campaign=the-small-business-boom
 
-[ideas] Marginal Revolution: *The Odyssey*, the movie (no real spoilers)
-  https://marginalrevolution.com/marginalrevolution/2026/07/the-odyssey-the-movie-no-real-spoilers.html?utm_source=rss&utm_medium=rss&utm_campaign=the-odyssey-the-movie-no-real-spoilers
+[wisdom] Donald Robertson: Watch this New In-Depth Interview About Stoicism and the Art of Living
+  https://donaldrobertson.substack.com/p/watch-this-new-in-depth-interview
 
-[ideas] Marginal Revolution: Friday assorted links
-  https://marginalrevolution.com/marginalrevolution/2026/07/friday-assorted-links-581.html?utm_source=rss&utm_medium=rss&utm_campaign=friday-assorted-links-581
-
-[ideas] Marginal Revolution: Cataloging Growth: A Re-Evaluation of 1900–1990
-  https://marginalrevolution.com/marginalrevolution/2026/07/cataloging-growth-a-re-evaluation-of-1900-1990.html?utm_source=rss&utm_medium=rss&utm_campaign=cataloging-growth-a-re-evaluation-of-1900-1990
-
-[ideas] Marginal Revolution: A Phone is a Cow
-  https://marginalrevolution.com/marginalrevolution/2026/07/a-phone-is-a-cow.html?utm_source=rss&utm_medium=rss&utm_campaign=a-phone-is-a-cow
+[wisdom] Donald Robertson: Stoicism is not unemotional
+  https://donaldrobertson.substack.com/p/stoicism-is-not-unemotional
 
 [ai] OpenAI Blog: A scorecard for the AI age
   https://openai.com/index/a-scorecard-for-the-ai-age
@@ -175,14 +166,11 @@
 [ai] OpenAI Blog: Why teens deserve access to safe AI
   https://openai.com/index/why-teens-deserve-access-safe-ai
 
-[ai] OpenAI Blog: How Cars24 scales conversations and builds faster with OpenAI
-  https://openai.com/index/cars24
+[ideas] Paul Graham: How to Earn a Billion Dollars
+  https://paulgraham.com/earn.html
 
-[ai] OpenAI Blog: The US is advancing AI safety through state and federal action
-  https://openai.com/index/advancing-ai-safety-through-state-and-federal-action
-
-[ai] OpenAI Blog: GPT-Red: Unlocking Self-Improvement for Robustness
-  https://openai.com/index/unlocking-self-improvement-gpt-red
+[ideas] Paul Graham: How to Convert Between Wealth and Income Tax
+  https://paulgraham.com/winc.html
 
 [bitcoin] Bitcoin Magazine: Bitcoin Sentiment Is Turning Bullish — But It’s Too Early to Celebrate: Report
   https://bitcoinmagazine.com/markets/bitcoin-sentiment-is-bullish-coinshares
@@ -217,124 +205,89 @@
 [ideas] Astral Codex Ten: Against "Stochastic Terrorism"
   https://www.astralcodexten.com/p/against-stochastic-terrorism
 
-[ideas] Astral Codex Ten: Six Slightly Skew Boogeymen
-  https://www.astralcodexten.com/p/six-slightly-skew-boogeymen
-
 
 === YOUTUBE ===
+Paul Saladino MD: Fasting is overrated
+  https://www.youtube.com/shorts/7BFLibkaf0Q
+  Transcript: yes
+
 Ken Berry MD: Steak for breakfast is hard to beat. 🥩 Check out 3C Joppa Cattle Company.
   https://www.youtube.com/shorts/OjlFvO-1sRk
-  Transcript: yes
-
-Ken Berry MD: Monday Night Live with Dr. Berry & Nurse Neisha
-  https://www.youtube.com/watch?v=IdcC2D052GI
-  Transcript: NO
-
-GTO Wizard: When Pros Deviate from GTO
-  https://www.youtube.com/watch?v=ViZj96jEbZY
-  Transcript: yes
-
-GTO Wizard: Why Broad Skills Make More Money
-  https://www.youtube.com/shorts/fMZ-dgTg2GY
   Transcript: yes
 
 Anthony Chaffee MD: Carnivore LIVE Q&A with Dr Anthony Chaffee, July 19, 2026
   https://www.youtube.com/watch?v=2mSMRLbtg0A
   Transcript: NO
 
-Paul Saladino MD: Fasting is overrated
-  https://www.youtube.com/shorts/7BFLibkaf0Q
+Anthony Chaffee MD: The REAL Cause Of Dementia
+  https://www.youtube.com/watch?v=aihX4L7za6k
+  Transcript: yes
+
+GTO Wizard: When Pros Deviate from GTO
+  https://www.youtube.com/watch?v=ViZj96jEbZY
   Transcript: yes
 
 Joe Rogan: Joe Rogan Experience #2527 - MrBeast
   https://www.youtube.com/watch?v=rTKu9wxEFFo
   Transcript: yes
 
-Nick Norwitz: The Molecule Mimics Part of Exercise
-  https://www.youtube.com/shorts/OFTw26U_dUU
+GTO Lab: The big blind cannot overcall loose just because the button is wide.
+  https://www.youtube.com/shorts/VyrXqj03UoU
   Transcript: yes
 
-GTO Lab: Your real button strategy changes your flop strategy.
-  https://www.youtube.com/shorts/rTVGjGRjd3w
-  Transcript: yes
-
-GTO Lab: Summer Sale is Live! And 39 drills just landed in Tournament Savagery. 🎯
-  https://www.youtube.com/shorts/BWhhY9YmO4g
-  Transcript: yes
-
-GTO Lab: Core Concept: inequal stacks can create overlay.
-  https://www.youtube.com/shorts/gYj5bqlnhvI
-  Transcript: yes
-
-GTO Lab: Preflop Drills are now available in GTO LAB
-  https://www.youtube.com/shorts/C7ayC63CHKw
+Jared Alderman: Why Corey Eyring and Abby Merk started vlogging #shorts
+  https://www.youtube.com/shorts/1O8kGh2L_LE
   Transcript: yes
 
 Lex Fridman: The Rise and Fall of the Roman Empire and the Byzantine Empire | Lex Fridman Podcast #498
   https://www.youtube.com/watch?v=pv1TUJSEM2k
   Transcript: yes
 
-Jared Alderman: Corey Eyring & Abby Merk on What it Takes to Build a Following
-  https://www.youtube.com/watch?v=BWgfko3vqNw
+Renaissance Periodization: Consistency Beats Your Perfect Split
+  https://www.youtube.com/shorts/BckWwsJuSXQ
   Transcript: yes
 
-Jared Alderman: The bluff-catching mistake costing you information
-  https://www.youtube.com/shorts/47ZwgTjLtCA
+Renaissance Periodization: Bigger Muscles = Stronger Muscles
+  https://www.youtube.com/shorts/HOQUA33rLW4
   Transcript: yes
 
-Thomas DeLauer: They Studied 66 Compounds for Longevity - Here's the Winner (and it's free)
-  https://www.youtube.com/watch?v=OnyFfqsNZRI
+Nick Norwitz: Scientists Just Reversed a Hallmark of Aging
+  https://www.youtube.com/shorts/A3iBi7noXjM
   Transcript: yes
 
-Thomas DeLauer: Insulin Resistance Doctor: Stop 16:8 Fasting Now (Do This Fasting Instead)
-  https://www.youtube.com/watch?v=qQbrb9LGJOU
-  Transcript: yes
-
-Renaissance Periodization: Exercise Scientist Critiques Dragon Ball Z Training
-  https://www.youtube.com/watch?v=b93nZ9I7iXc
-  Transcript: yes
-
-Renaissance Periodization: Why Pressing Isn’t Enough for Big Shoulders
-  https://www.youtube.com/shorts/80YS21KJmGA
-  Transcript: yes
-
-Renaissance Periodization: People Think Dr. Mike Is Weak. We Tested Him
-  https://www.youtube.com/watch?v=UouY10BIETc
-  Transcript: yes
-
-Peter Attia: Monoclonal antibodies for dementia | Gayatri Devi, M.D.
-  https://www.youtube.com/shorts/70fAHybr9ME
-  Transcript: yes
-
-Dr. Sten Ekberg: 10 Signs You’re Becoming Insulin Resistant Even With Normal Blood Sugar
-  https://www.youtube.com/watch?v=EbA55VlgofE
-  Transcript: yes
-
-Ben Felix: Renting vs. Buying a Home: The Case for Owning
-  https://www.youtube.com/watch?v=16eA5ebWMQQ
-  Transcript: yes
-
-ModernWisdom: The Height Preference Paradox
-  https://www.youtube.com/shorts/fIFltlP9Bs8
-  Transcript: yes
-
-ModernWisdom: High Earners Lifestyle Inflate Into Debt
-  https://www.youtube.com/shorts/WgNt8BsqokQ
-  Transcript: yes
-
-ModernWisdom: This Is The Most Evil Bioweapon Ever Created - Annie Jacobsen
-  https://www.youtube.com/watch?v=ibtTcdyMc5Q
-  Transcript: yes
-
-ThinkingPoker: Bankroll Management - Thinking Poker
-  https://www.youtube.com/watch?v=6w8amkDkeVw
+Thomas DeLauer: This Powder Outperforms Peptides, Creatine and Some Steroids
+  https://www.youtube.com/watch?v=Arbd2gfvMI4
   Transcript: yes
 
 Andrew Huberman: The Science & Treatment of Bipolar Disorder | Huberman Lab Essentials
   https://www.youtube.com/watch?v=UTB5gAkjevk
   Transcript: yes
 
+ModernWisdom: Should Trillionaires Exist?
+  https://www.youtube.com/shorts/m05ImM8FBH0
+  Transcript: yes
+
+ModernWisdom: The True Story Of The Odyssey (and why it matters) - Alex Petkas
+  https://www.youtube.com/watch?v=cVsepqYjXQM
+  Transcript: yes
+
+Peter Attia: Monoclonal antibodies for dementia | Gayatri Devi, M.D.
+  https://www.youtube.com/shorts/70fAHybr9ME
+  Transcript: yes
+
+ThinkingPoker: Bankroll Management - Thinking Poker
+  https://www.youtube.com/watch?v=6w8amkDkeVw
+  Transcript: yes
+
+Ben Felix: Renting vs. Buying a Home: The Case for Owning
+  https://www.youtube.com/watch?v=16eA5ebWMQQ
+  Transcript: yes
+
 Mind The Game: Jordan from NY wasn't afraid to ask the real question. 🤣Presented by @claude #ad
   https://www.youtube.com/shorts/t7cg_qbjUWE
+  Transcript: yes
+
+Dr. Sten Ekberg: 10 Signs You’re Becoming Insulin Resistant Even With Normal Blood Sugar
+  https://www.youtube.com/watch?v=EbA55VlgofE
   Transcript: yes
 
