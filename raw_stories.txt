@@ -1,125 +1,104 @@
 === HACKER NEWS ===
-1. [2010 pts] Show HN: I replaced a $120k bowling center system with $1,600 in ESP32s
-   https://news.ycombinator.com/item?id=48968606
+1. [85 pts] Incremental – A library for incremental computations
+   https://github.com/janestreet/incremental
 
-2. [90 pts] Moonshine: Lets you stream games from your PC to any device running Moonlight
-   https://github.com/hgaiser/moonshine
+2. [486 pts] Who's afraid of Chinese models?
+   https://stratechery.com/2026/whos-afraid-of-chinese-models/
 
-3. [14 pts] LoRA Speedrun – a public wall-clock leaderboard for fine-tuning techniques
-   https://github.com/Saivineeth147/lora-speedrun
+3. [29 pts] Running Doom on Our Custom CPU and Going Viral
+   https://www.armaangomes.com/blogs/doom/
 
-4. [61 pts] Power companies are using eminent domain to seize land for data centers
-   https://fortune.com/2026/07/19/data-center-eminent-domain-public-use/
+4. [30 pts] Do we just want slaves?
+   https://www.yashthapliyal.com/blog/do-we-just-want-slaves
 
-5. [466 pts] Claude Code uses Bun written in Rust now
-   https://simonwillison.net/2026/Jul/19/claude-code-in-bun-in-rust/
+5. [22 pts] A Koi Pond Mosaic Made from 10 Pounds of 3D Printer Waste
+   https://www.instructables.com/A-Koi-Pond-Mosaic-Made-From-10-Pounds-of-3D-Printe/
 
-6. [25 pts] Korg PS-3300 is back
-   https://www.korg.co.uk/blogs/updates/ps3300
+6. [13 pts] Show HN: Ex Situ – open-source spatial index of displaced cultural artifacts
+   https://exsitu.app/map
 
-7. [149 pts] Orion Browser by Kagi
-   https://orionbrowser.com/
+7. [132 pts] Five US tech giants' hidden debts soar to $1.65T on opaque AI funding
+   https://asia.nikkei.com/business/technology/five-us-tech-giants-hidden-debts-soar-to-1.65tn-on-opaque-ai-funding
 
-8. [242 pts] Claude Fable produced a counterexample to the Jacobian Conjecture
-   https://xcancel.com/__alpoge__/status/2079028340955197566
+8. [486 pts] Kimi Work
+   https://www.kimi.com/products/kimi-work
 
-9. [9 pts] Xiaomi-Robotics-1
-   https://robotics.xiaomi.com/xiaomi-robotics-1.html
+9. [420 pts] Jelly UI: Soft-body physics for native HTML form controls
+   https://jelly-ui.com/
 
-10. [7 pts] Self-Powered Trailers Promise Leaner Freight Runs
-   https://spectrum.ieee.org/self-powered-trailers-freight-decarbonization
+10. [289 pts] Human mathematicians are being outcounterexampled
+   https://xenaproject.wordpress.com/2026/07/20/human-mathematicians-are-being-outcounterexampled/
 
-11. [460 pts] What I learned selling 2,500 MIDI recorders: Hardware is not so hard
-   https://chipweinberger.com/articles/20260719-hardware-is-not-so-hard
+11. [292 pts] Flock Credibility Lost as It Repeatedly Lies to City Councils, Police, & Public
+   https://www.aclu.org/news/privacy-technology/tracking-alpr-cameras/flock-safety-credibility-lost-as-it-repeatedly-lies-to-city-councils-police-departments-and-public-across-the-country
 
-12. [147 pts] The Zen of Parallel Programming
-   https://smolnero.com/posts/the-zen-of-parallel-programming
+12. [238 pts] Nativ: Run frontier open models locally on your Mac
+   https://blaizzy.github.io/nativ/
 
-13. [293 pts] Minecraft: Java Edition now uses SDL3
-   https://www.minecraft.net/en-us/article/minecraft-26-3-snapshot-4
+13. [197 pts] Jellyfin founder Andrew leaves team
+   https://forum.jellyfin.org/t-project-leadership-changes
 
-14. [62 pts] Biggest Probabilistic Computer Turns Noise into Answers
-   https://spectrum.ieee.org/biggest-probabilistic-computer
+14. [134 pts] Show HN: Immersive Gaussian Splat tour of grace cathedral, San Francisco
+   https://vincentwoo.com/3d/grace_cathedral/
 
-15. [62 pts] Who Is America's Homer?
-   https://www.plough.com/articles/who-is-americas-homer
+15. [7 pts] Reverse-engineering is cheap now
+   https://simonwillison.net/2026/Jul/20/cheap-reverse-engineering/
 
-16. [147 pts] Bananas sprout in Rayleigh Garden UK after 15 years
-   https://www.bbc.com/news/articles/cvg8edqq5g5o
+16. [103 pts] I wrote an bash enumerator because I was sick of xargs
+   https://numerlab.org/2025/07/20/bashumerate-enumerator/
 
-17. [49 pts] 11,700 Free Photos from John Margolies' Archive of Americana Architecture
-   https://www.openculture.com/2026/07/free-photos-from-john-margolies-archive-of-americana-architecture.html
+17. [9 pts] Flight Planning with Little Navmap
+   https://tech.marksblogg.com/little-navmap-flight-planning.html
 
-18. [842 pts] Qwen 3.8
-   https://twitter.com/Alibaba_Qwen/status/2078759124914098291
+18. [164 pts] Agent swarms and the new model economics
+   https://cursor.com/blog/agent-swarm-model-economics
 
-19. [90 pts] HomeLab #1: MikroTik as a Home Router
-   https://justsomebody.dev/blog/mikrotik-home-router
+19. [79 pts] Launch HN: Bloomy (YC S26) – AI-powered mastery learning for K-12
+   https://news.ycombinator.com/item?id=48981136
 
-20. [42 pts] Big Tech Is Now Targeting Native American Land for Data Centers
-   https://www.nytimes.com/2026/07/09/us/data-centers-native-american-tribes.html
+20. [1044 pts] China’s open-weights AI strategy is winning
+   https://werd.io/american-ai-is-locked-down-and-proprietary-its-losing/
 
-21. [70 pts] A new Intel Itanium (IA-64) emulator that boots Windows
-   https://raymii.org/s/blog/Intel_Itanium_IA-64-Emulator_that_boots_Windows.html
+21. [72 pts] The Psychology of Software Teams
+   https://www.routledge.com/The-Psychology-of-Software-Teams/Hicks/p/book/9781032963389
 
-22. [36 pts] Talk: The Art of Braiding Algorithms
-   https://pgadey.ca/notes/talk-relatorium-2026/
+22. [79 pts] The Power of Awareness: Overcoming Surveillance Capitalism
+   https://www.scottrlarson.com/presentations/overcoming-surveillance-capitalism-with-awareness/
 
-23. [184 pts] I joined the IndieWeb, here's what I learned
-   https://en.andros.dev/blog/0b8e451e/i-joined-the-indieweb-heres-what-i-learned/
+23. [57 pts] My two year old taught me constraint solving
+   https://thecomputersciencebook.com/posts/how-my-2yo-taught-me-constraint-solving/
 
-24. [67 pts] C64 Basic Dungeon Crawler: Goblin Attack (C64 Basic Part 8)
-   https://retrogamecoders.com/c64-basic-dungeon-part8/
+24. [160 pts] Corners Don't Look Like That: Regarding Screenspace Ambient Occlusion (2012)
+   https://nothings.org/gamedev/ssao/
 
-25. [68 pts] HMD Touch 4G
-   https://www.hmd.com/en_int/hmd-touch-4g
+25. [223 pts] Perfection is not over-engineering
+   https://var0.xyz/posts/perfection-is-not-over-engineering.html
 
-26. [89 pts] Cagire: Live Coding in Forth
-   https://cagire.raphaelforment.fr
+26. [620 pts] Hacker wipes Romania's land registry database
+   https://news.risky.biz/risky-bulletin-hacker-wipes-romanias-entire-land-registry-database/
 
-27. [117 pts] I burned all my tokens researching how to save tokens
-   https://quesma.com/blog/custom-deep-research-pipeline/
+27. [102 pts] You only need the frontier model for one single edit
+   https://stencil.so/blog/prewalk
 
-28. [79 pts] Dupes took over the world
-   https://www.vox.com/podcasts/493930/dupe-culture-fender-ugg-quince-tiktok-amazon-online-shopping
+28. [190 pts] Shinjuku Station in 3D
+   https://satoshi7190.github.io/Shinjuku-indoor-threejs-demo/
 
-29. [24 pts] Big Tech Needs to Justify AI Spending as Investors Dump Stocks
-   https://www.bloomberg.com/news/articles/2026-07-19/big-tech-needs-to-justify-ai-spending-as-investors-dump-stocks
+29. [208 pts] How we measured AI writing across arXiv, and where the measurement breaks
+   https://unslop.run/blog/measuring-ai-writing-on-arxiv
 
-30. [14 pts] How proprietary formats have become Microsoft’s main tool for lock-in
-   https://blog.documentfoundation.org/blog/2026/07/17/microsofts-main-tool-for-lock-in/
+30. [69 pts] 85.3 GFlops: Optimizing FP32 Matrix Multiplication on a Single AMD Zen 3 Core
+   https://github.com/houslast3/85.30-GFLOPS-Single-Core-FP32-Matrix-Multiplication-on-AMD-Zen-3
 
 
 === RSS ===
-[wisdom] Figs in Winter (Pigliucci): In the media
-  https://figsinwintertime.substack.com/p/in-the-media-bb0
+[ideas] Stratechery: Who’s Afraid of Chinese Models?
+  https://stratechery.com/2026/whos-afraid-of-chinese-models/
 
-[wisdom] Figs in Winter (Pigliucci): Five allegedly bad “isms” – Part II
-  https://figsinwintertime.substack.com/p/five-allegedly-bad-isms-part-ii
+[bitcoin] The Pomp Letter: Did The Fed Change Their Inflation Target?
+  https://pomp.substack.com/p/did-the-fed-change-their-inflation
 
-[wisdom] Figs in Winter (Pigliucci): Five allegedly bad “isms” – Part I
-  https://figsinwintertime.substack.com/p/five-allegedly-bad-isms-part-i
-
-[ai] Simon Willison: Quoting Sam Altman
-  https://simonwillison.net/2026/Jul/20/sam-altman/#atom-everything
-
-[ai] Simon Willison: AI Mania Is Eviscerating Global Decision-Making
-  https://simonwillison.net/2026/Jul/19/ai-mania/#atom-everything
-
-[ai] Simon Willison: Claude Code uses Bun written in Rust now
-  https://simonwillison.net/2026/Jul/19/claude-code-in-bun-in-rust/#atom-everything
-
-[ai] Simon Willison: SQLite Query Explainer
-  https://simonwillison.net/2026/Jul/18/sqlite-query-explainer/#atom-everything
-
-[ai] Simon Willison: Claude make Fable 5 permanent
-  https://simonwillison.net/2026/Jul/18/claude-make-fable-5-permanent/#atom-everything
-
-[health] Peter Attia: #400 ‒ AMA #87: Environmental pollution and longevity: air pollution, noise, light, EMFs, and practical strategies to mitigate health risks
-  https://peterattiamd.com/ama87/
-
-[health] Peter Attia: Does heat training build a better engine?
-  https://peterattiamd.com/does-heat-training-build-a-better-engine/
+[ai] Anthropic News: Apply for Anthropic’s AI for Science rare disease research grants
+  https://www.anthropic.com/news/rare-disease-research-grants
 
 [ai] Anthropic News: Anthropic commits $10 million to Canadian AI research
   https://www.anthropic.com/news/canadian-ai-research
@@ -133,8 +112,47 @@
 [ai] Anthropic News: Ben Bernanke appointed to Anthropic’s Long-Term Benefit Trust
   https://www.anthropic.com/news/ben-bernanke
 
-[ai] Anthropic News: UST is bringing Claude to physical AI
-  https://www.anthropic.com/news/ust-claude
+[ideas] Paul Graham: How to Earn a Billion Dollars
+  https://paulgraham.com/earn.html
+
+[ideas] Paul Graham: How to Convert Between Wealth and Income Tax
+  https://paulgraham.com/winc.html
+
+[health] Peter Attia: #400 ‒ AMA #87: Environmental pollution and longevity: air pollution, noise, light, EMFs, and practical strategies to mitigate health risks
+  https://peterattiamd.com/ama87/
+
+[health] Peter Attia: Does heat training build a better engine?
+  https://peterattiamd.com/does-heat-training-build-a-better-engine/
+
+[ideas] Astral Codex Ten: Open Thread 443
+  https://www.astralcodexten.com/p/open-thread-443
+
+[wisdom] Figs in Winter (Pigliucci): In the media
+  https://figsinwintertime.substack.com/p/in-the-media-bb0
+
+[wisdom] Figs in Winter (Pigliucci): Five allegedly bad “isms” – Part II
+  https://figsinwintertime.substack.com/p/five-allegedly-bad-isms-part-ii
+
+[wisdom] Figs in Winter (Pigliucci): Five allegedly bad “isms” – Part I
+  https://figsinwintertime.substack.com/p/five-allegedly-bad-isms-part-i
+
+[ai] Simon Willison: Reverse-engineering is cheap now
+  https://simonwillison.net/2026/Jul/20/cheap-reverse-engineering/#atom-everything
+
+[ai] Simon Willison: Who’s Afraid of Chinese Models?
+  https://simonwillison.net/2026/Jul/20/afraid-of-chinese-models/#atom-everything
+
+[ai] Simon Willison: Quoting Sam Altman
+  https://simonwillison.net/2026/Jul/20/sam-altman/#atom-everything
+
+[ai] Simon Willison: AI Mania Is Eviscerating Global Decision-Making
+  https://simonwillison.net/2026/Jul/19/ai-mania/#atom-everything
+
+[ai] Simon Willison: Claude Code uses Bun written in Rust now
+  https://simonwillison.net/2026/Jul/19/claude-code-in-bun-in-rust/#atom-everything
+
+[wisdom] Donald Robertson: How to Think Like a Roman Emperor: A Talk and Book Signing in Montreal’s West Island
+  https://donaldrobertson.substack.com/p/how-to-think-like-a-roman-emperor-454
 
 [wisdom] Donald Robertson: Watch this New In-Depth Interview About Stoicism and the Art of Living
   https://donaldrobertson.substack.com/p/watch-this-new-in-depth-interview
@@ -142,61 +160,74 @@
 [wisdom] Donald Robertson: Stoicism is not unemotional
   https://donaldrobertson.substack.com/p/stoicism-is-not-unemotional
 
-[ideas] Paul Graham: How to Earn a Billion Dollars
-  https://paulgraham.com/earn.html
+[ideas] Marginal Revolution: Is America ruled by an oligarchy?
+  https://marginalrevolution.com/marginalrevolution/2026/07/is-america-ruled-by-an-oligarchy.html?utm_source=rss&utm_medium=rss&utm_campaign=is-america-ruled-by-an-oligarchy
 
-[ideas] Paul Graham: How to Convert Between Wealth and Income Tax
-  https://paulgraham.com/winc.html
+[ideas] Marginal Revolution: Words of wisdom on Chinese AI and our responses
+  https://marginalrevolution.com/marginalrevolution/2026/07/words-of-wisdom-on-chinese-ai-and-our-responses.html?utm_source=rss&utm_medium=rss&utm_campaign=words-of-wisdom-on-chinese-ai-and-our-responses
 
-[ideas] Stratechery: 2026.29: Mainframes and Main Characters
-  https://stratechery.com/2026/mainframes-and-main-characters/
+[ideas] Marginal Revolution: Monday assorted links
+  https://marginalrevolution.com/marginalrevolution/2026/07/monday-assorted-links-569.html?utm_source=rss&utm_medium=rss&utm_campaign=monday-assorted-links-569
 
-[ideas] Astral Codex Ten: Your Book Review: Great And Desperate Cures
-  https://www.astralcodexten.com/p/your-book-review-great-and-desperate
-
-[bitcoin] Bitcoin Magazine: Bitcoin Sentiment Is Turning Bullish — But It’s Too Early to Celebrate: Report
-  https://bitcoinmagazine.com/markets/bitcoin-sentiment-is-bullish-coinshares
-
-[bitcoin] Bitcoin Magazine: Ocean Mining VP Jason Hughes: BIP-110 on Track to Fail as Miner Signaling Stays Below 1%
-  https://bitcoinmagazine.com/bitcoin-mining/ocean-mining-vp-jason-hughes-bip-110-on-track-to-fail-as-miner-signaling-stays-below-1
-
-[bitcoin] Bitcoin Magazine: SBI Holdings Takes Majority Stake in Singapore’s Coinhako After MAS Approval
-  https://bitcoinmagazine.com/news/sbi-holdings-takes-majority-stake-coinhako
-
-[bitcoin] Bitcoin Magazine: Bitcoin Mining Giant Foundry Asks Miners To Vote on BIP-110 Soft Fork
-  https://bitcoinmagazine.com/news/foundry-asks-bitcoin-miners-vote-bip-110
-
-[bitcoin] Bitcoin Magazine: Bitcoin Price Falls Under $63,000 on U.S.-Iran Strikes and Trump’s China Charge, but Onchain Data Points to Buyers
-  https://bitcoinmagazine.com/markets/bitcoin-price-falls-under-63000
+[ideas] Marginal Revolution: Whit Stillman’s *Metropolitan* (that was then, this is now)
+  https://marginalrevolution.com/marginalrevolution/2026/07/whit-stillmans-metropolitan-that-was-then-this-is-now.html?utm_source=rss&utm_medium=rss&utm_campaign=whit-stillmans-metropolitan-that-was-then-this-is-now
 
 [ideas] Marginal Revolution: Democrats are more politically segregated than are Republicans
   https://marginalrevolution.com/marginalrevolution/2026/07/democrats-are-more-politically-segregated-than-are-republicans.html?utm_source=rss&utm_medium=rss&utm_campaign=democrats-are-more-politically-segregated-than-are-republicans
 
-[ideas] Marginal Revolution: Emergent Ventures winners, 56th cohort
-  https://marginalrevolution.com/marginalrevolution/2026/07/emergent-ventures-winners-56th-cohort.html?utm_source=rss&utm_medium=rss&utm_campaign=emergent-ventures-winners-56th-cohort
-
-[ideas] Marginal Revolution: Markets in everything?
-  https://marginalrevolution.com/marginalrevolution/2026/07/markets-in-everything-78.html?utm_source=rss&utm_medium=rss&utm_campaign=markets-in-everything-78
-
-[ideas] Marginal Revolution: Sunday assorted links
-  https://marginalrevolution.com/marginalrevolution/2026/07/sunday-assorted-links-576.html?utm_source=rss&utm_medium=rss&utm_campaign=sunday-assorted-links-576
-
-[ideas] Marginal Revolution: Building luxury homes is good for the poor
-  https://marginalrevolution.com/marginalrevolution/2026/07/building-luxury-homes-is-good-for-the-poor.html?utm_source=rss&utm_medium=rss&utm_campaign=building-luxury-homes-is-good-for-the-poor
-
-[ai] OpenAI Blog: A scorecard for the AI age
-  https://openai.com/index/a-scorecard-for-the-ai-age
+[ai] OpenAI Blog: Safety and alignment in an era of long-horizon models
+  https://openai.com/index/safety-alignment-long-horizon-models
 
 [health] Stronger by Science: Is the Correlation Between Hypertrophy and Strength Gains Stronger Than We Realized?
   https://www.strongerbyscience.com/correlation-strength-hypertrophy/
 
+[bitcoin] Bitcoin Magazine: Bitcoin Miner Hut 8 Shares Jump on $9.8 Billion AI Data Center Deal
+  https://bitcoinmagazine.com/news/bitcoin-miner-hut-8-shares-jump-on-ai-deal
+
+[bitcoin] Bitcoin Magazine: Metaplanet’s Bitcoin Japan Announces Plan to Scoop Up Coins Despite Market Downturn
+  https://bitcoinmagazine.com/news/bitcoin-japan-to-buy-bitcoin
+
+[bitcoin] Bitcoin Magazine: Bitcoin-Treasury Capital B Plans 10-for-1 Reverse Stock Split for September
+  https://bitcoinmagazine.com/news/bitcoin-treasury-capital-b-plans-10-for-1
+
+[bitcoin] Bitcoin Magazine: Coinbase Executive Says Clarity Act Has ‘Tremendous Momentum’ in the Senate
+  https://bitcoinmagazine.com/news/coinbase-executive-clarity-act-support
+
+[bitcoin] Bitcoin Magazine: Russia Moves to Rein In Crypto Fraud With New Legislation
+  https://bitcoinmagazine.com/news/russia-to-regulate-crypto-with-legislation
+
+[bitcoin] Bitcoin Magazine: New Onramp Report Makes the Case for Spot Bitcoin Over Paper Claims as Price Sits at Half Its Peak
+  https://bitcoinmagazine.com/news/onramp-report-makes-case-spot-bitcoin
+
+[bitcoin] Bitcoin Magazine: Strive (ASST) Adds 21 Bitcoin as Treasury Reaches 19,921 BTC and Cash Climbs to $157 Million
+  https://bitcoinmagazine.com/news/strive-asst-adds-21-bitcoin
+
+[bitcoin] Bitcoin Magazine: Strategy (MSTR) Sells $263.5 Million in MSTR Shares, Skips Bitcoin Purchase as USD Reserve Tops $3.2 Billion
+  https://bitcoinmagazine.com/news/strategy-sells-263-5-million-in-mstr
+
 
 === YOUTUBE ===
-Nick Norwitz: Scientists Just Reversed a Hallmark of Aging
-  https://www.youtube.com/shorts/A3iBi7noXjM
+Anthony Chaffee MD: Your Brain Needs KETONES! #shorts
+  https://www.youtube.com/shorts/9BoedPYl9JM
   Transcript: yes
 
-Thomas DeLauer: This Has Just Become the Most Powerful Breakfast Food
-  https://www.youtube.com/watch?v=Fv1RLn0ZIxE
+Anthony Chaffee MD: Carnivore LIVE Q&A with Dr Anthony Chaffee, July 19, 2026
+  https://www.youtube.com/watch?v=2mSMRLbtg0A
+  Transcript: yes
+
+Jared Alderman: Corey Eyring on Suceeding Across Domains #shorts
+  https://www.youtube.com/shorts/hGvtWyToB5c
+  Transcript: yes
+
+Jared Alderman: The fear isn't about the hand. It's a memory. #poker #mentalgame #shorts
+  https://www.youtube.com/shorts/QjKVh_ApSSs
+  Transcript: yes
+
+Lex Fridman: The Rise and Fall of the Roman Empire and the Byzantine Empire | Lex Fridman Podcast #498
+  https://www.youtube.com/watch?v=pv1TUJSEM2k
+  Transcript: yes
+
+Andrew Huberman: Accelerate Learning & Increase Cognitive Capacity | Dr. Tommy Wood
+  https://www.youtube.com/watch?v=bPd9NnOzx78
   Transcript: yes
 
