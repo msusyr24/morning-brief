@@ -1,11 +1,11 @@
 {
   "current_suggestion": {
-    "channel_name": "Dave Smith",
-    "channel_id": "UCEfe80CP2cs1eLRNQazffZw",
-    "youtube_handle": "@PartOfTheProblem",
-    "pitch": "Your current channels give you Peter Attia's longevity framing and Michael Saylor's Bitcoin maximalism, but nobody in your lineup steelmans a principled anti-state philosophical framework \u2014 Dave Smith combines Stoic-adjacent personal responsibility ethics with Austrian economics and Bitcoin monetary theory in a way that would pressure-test assumptions you're forming elsewhere. He covers monetary policy, individual sovereignty, and epistemics around consensus narratives (including health and media) from a libertarian philosophy angle that's distinct from Rogan's broader eclecticism. Format is a solo podcast monologue plus occasional long-form interviews, consistently analytical rather than sensationalist."
+    "channel_name": "Poker Strategy",
+    "channel_id": "UCCv9HMlA1R0rZqjdz6WVy5Q",
+    "youtube_handle": "@betRaiseFoldPoker",
+    "pitch": "Your poker diet is heavy on GTO theory (GTO Wizard, GTO Lab, Alderman) but lighter on the live cash game and exploitative adjustment layer that separates theory from profit at real tables. Jonathan Fargo and the BRF crew focus specifically on live no-limit hold'em with a solver-informed but exploitative lens \u2014 how to adapt GTO principles to player pools that aren't playing GTO. Format is a mix of hand history breakdowns, solo analysis, and coaching content at a level of rigor that matches your existing channels without drifting into beginner material."
   },
-  "shown_count": 3,
+  "shown_count": 1,
   "history": [
     "Brad Kearns",
     "Dr. Layne Norton",
@@ -42,6 +42,7 @@
     "CrushlivePoker",
     "Robin Hanson",
     "Farnam Street",
-    "Dave Smith"
+    "Dave Smith",
+    "Poker Strategy"
   ]
 }
