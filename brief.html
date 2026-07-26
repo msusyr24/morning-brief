@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>Morning Brief — Saturday, July 25, 2026</title>
+<title>Morning Brief — Sunday, July 26, 2026</title>
 <style>
   body {
     font-family: Georgia, serif;
@@ -92,120 +92,164 @@
 })();
 </script>
 <h1>Morning Brief</h1>
-<p class="date">Saturday, July 25, 2026</p>
+<p class="date">Sunday, July 26, 2026</p>
 
 <div class="anchor">
   <h2>☀️ Today's Anchor</h2>
   <div class="anchor-block">
-    <p class="quote">"Price is what you pay. Value is what you get."</p>
-    <p class="author">— Warren Buffett</p>
-    <p class="context">Berkshire letter, 2008. Buffett's distillation of value investing into one line.</p>
+    <p class="quote">"Volatility is not risk. Volatility is opportunity."</p>
+    <p class="author">— Charlie Munger</p>
+    <p class="context">Daily Journal shareholder meeting. Munger's pushback against modern portfolio theory's conflation of the two.</p>
   </div>
   <div class="anchor-block">
-    <p class="model-label">Mental Model · Math</p>
-    <p class="model-name">Permutations and Combinations</p>
-    <p class="context">The number of possible arrangements grows explosively. In business: small product differences create exponentially different customer experiences. In investing: portfolios of uncorrelated bets dominate concentrated ones over time, mathematically. Munger uses this to argue for breadth of mental models.</p>
+    <p class="model-label">Mental Model · Math/Statistics</p>
+    <p class="model-name">Law of Large Numbers</p>
+    <p class="context">Over many trials, averages converge to expected values — but in the short run, anything can happen. Casinos know this; gamblers forget it. Applied to life: don't judge strategies by single outcomes. A good decision can have a bad result, and vice versa.</p>
   </div>
 </div>
 
 <div class="spotlight">
   <h2>🧭 Channel Spotlight</h2>
-  <p class="spotlight-name">Poker Strategy</p>
-  <p class="spotlight-pitch">Your poker diet is heavy on GTO theory (GTO Wizard, GTO Lab, Alderman) but lighter on the live cash game and exploitative adjustment layer that separates theory from profit at real tables. Jonathan Fargo and the BRF crew focus specifically on live no-limit hold'em with a solver-informed but exploitative lens — how to adapt GTO principles to player pools that aren't playing GTO. Format is a mix of hand history breakdowns, solo analysis, and coaching content at a level of rigor that matches your existing channels without drifting into beginner material.</p>
+  <p class="spotlight-name">Jonathan Jaffe</p>
+  <p class="spotlight-pitch">Your poker content skews heavily GTO and solver-based; Jaffe adds a missing layer by grounding high-level theory in live and tournament contexts with explicit reasoning about population tendencies and exploitative adjustments. He covers hand history breakdowns, ICM pressure, and mental game elements that connect directly to your interest in decision-making under pressure. Format is mostly solo analysis and coaching sessions, pitched at mid-to-high stakes players who already understand GTO concepts but want to know when and why to deviate.</p>
   <p class="spotlight-instructions">Interested? Copy the line below into <code>YOUTUBE_CHANNELS</code> in <code>brief.py</code> and save:</p>
-  <pre class="spotlight-snippet" id="snippet">    "Poker Strategy": "UCCv9HMlA1R0rZqjdz6WVy5Q",</pre>
+  <pre class="spotlight-snippet" id="snippet">    "Jonathan Jaffe": "UCFNTM3IoJnSRMYFOaRD0ANA",</pre>
   <button class="copy-btn" onclick="navigator.clipboard.writeText(document.getElementById('snippet').innerText.trim()); this.innerText='✅ Copied'; setTimeout(()=>this.innerText='📋 Copy snippet', 2000);">📋 Copy snippet</button>
-  <p class="spotlight-meta">showing for 1 more day. If you don't add it, a new channel will be suggested.</p>
+  <p class="spotlight-meta">showing for 3 more days. If you don't add it, a new channel will be suggested.</p>
 </div>
 <h2>🎥 From People I Follow</h2>
 
 <p><strong>Worth your time:</strong></p>
 
 <div class="story">
-  <h3>Mind The Game (LeBron James & Tyrese Haliburton)</h3>
-  <p>Season finale live episode from Fanatics Fest NYC covered LeBron's departure from the Lakers after 8 years and his upcoming free agency (Warriors, Philly, and Miami mentioned as destinations), plus a sharp breakdown of the Knicks' championship run — LeBron and Tyrese credit Mike Brown's offensive diversification (using KAT as a hub at the pinch post rather than pure Brunson pick-and-roll) and the depth contributions of Alvarado, Robinson, and OG Anobi as the decisive differences from last year. Claude was used live on stage for a stat segment: Tyrese's 4 game-winners in the 2025 playoffs would rank him 4th all-time in career playoff game-winners since 1996-97 — and his game-winner rate of 13% of career playoff games more than doubles the next-best players (Khris Middleton at 5%, Lillard at 4.6%). Tyrese is also returning from a 13-month rehab, says he's back to full 5-on-5 play and is ready for the season.</p>
-  <p class="meta">Videos: <a href="https://www.youtube.com/watch?v=37CC6uX6Kug">LeBron on His Free Agency Decision | Season Finale</a> · <a href="https://www.youtube.com/shorts/3Y8AcQbdeEI">Tyrese's 2025 playoff game-winners stat breakdown</a></p>
+  <h3>GTO Lab</h3>
+  <p>The standout this week is GTO Lab's Triton One breakdown on multiway pot play. The core insight: solver strategies in 3+ way pots are essentially irrelevant — what matters are general heuristics and exploitative reads. Specific tactical points: out-of-position check-raising should be rare on connected boards (T97 rainbow makes 107s a bad check-raise candidate because it blocks top pair, doesn't cooler overpairs, and becomes uncomfortable on almost any turn); button should bet ~35-40% of range with only a 33% size on that texture; and the min-raise preflop meaningfully expands the big blind's connected offsuit holdings, which changes equity distributions on coordinated boards. They also note that when you're the "dominant aggressor" at the table, you should bet more linearly and not slow-play, because opponents won't check-raise bluff into you frequently enough to justify trapping. The bounty/PKO short discusses an underappreciated limping strategy when you cover everyone — limping to play more hands cheaply lets you hunt more bounties without over-risking chips.</p>
+  <p class="meta">Videos: <a href="https://www.youtube.com/watch?v=yCZI5Knywac">Why the Best Players Get LOST in Multiway Pots (Triton One Breakdown)</a> · <a href="https://www.youtube.com/shorts/iae8To6igus">Big bets show up on specific board classes</a> · <a href="https://www.youtube.com/shorts/fy3-SxEuN2c">Covering the table changes how you VPIP</a></p>
 </div>
 
 <div class="story">
-  <h3>Anthony Chaffee MD</h3>
-  <p>Three shorts making the carnivore case via neuroscience and evolutionary biology. On B12: Oxford published data showing that B12 levels in the "normal" range still predicted 2.5–5.5% brain volume loss over 5 years, and maternal B12 in the bottom 10th percentile (still "normal") correlated with worse vocabulary, speech, and math scores in children for at least 14 years. He argues the current normal ranges are population-averaged against a largely plant-eating public, effectively hiding deficiency. On dementia: Chaffee claims the human brain has shrunk 10–17% in both sexes in parallel with the shift to grain-based diets, and that grain-fed pigs show 18% smaller brains than wild boars — arguing neurodegeneration is dietary, not inevitable. On brain fuel: cites PET scan data showing that when ketones are available the brain preferentially uses them (up to 60–70% of energy), with glucose uptake falling measurably on scans even when blood glucose is normal, and that neonatal brains are built for a ketogenic environment.</p>
-  <p class="meta">Videos: <a href="https://www.youtube.com/shorts/9bQN4jMHWbo">Your Brain Is Dying Without These Nutrients</a> · <a href="https://www.youtube.com/shorts/xF5wJjiscfc">The Real Causes Of Dementia</a> · <a href="https://www.youtube.com/shorts/gX0Aq6bETlY">You Need Meat To Live</a></p>
+  <h3>Jared Alderman</h3>
+  <p>Two compact but useful clips. The downswing advice clip (featuring Abby Merk) makes a clean point about calibration: losing 5 buy-ins over 6 sessions is not a downswing by any meaningful standard, and getting perspective from someone who actually understands variance (Ryan Laplante DMing unprompted) is more valuable than social media sympathy. The second clip addresses the "bad players" trap — specifically, calling opponents bad becomes a problem when it's used as a justification for lazy studying OR for making strategically indefensible plays (e.g., an extremely tight fold dressed up as a "he's not bluffing here" read). Concise and applicable.</p>
+  <p class="meta">Videos: <a href="https://www.youtube.com/shorts/UN0DQu9bkOY">The advice Abby Merk got during a downswing</a> · <a href="https://www.youtube.com/shorts/tzAIQ3gVSLM">Stop Blaming Bad Players: Are YOU the Problem?</a></p>
+</div>
+
+<div class="story">
+  <h3>Renaissance Periodization (Dr. Mike)</h3>
+  <p>Three good clips with real substance. On rep ranges: the muscle stimulus is determined by load (how loud you're talking) and reps (how many times you say it) — anything from 5 to 30 reps taken near failure produces comparable hypertrophy; the 5 vs. 30 distinction is arbitrary, not biological. On arm training: direct arm work is necessary for maximal arm growth, compound movements are insufficient — framed entertainingly but the underlying point is valid and evidence-backed. On rest days: two consecutive days off produces a disproportionate psychological recovery benefit (motivation reset), and muscle growth happens during rest; training 5 days with adequate volume beats 7 days with distributed volume partly because the "oomph" resource depletes with daily training.</p>
+  <p class="meta">Videos: <a href="https://www.youtube.com/shorts/LlbXfAm5Blw">Stop Worshiping Low Reps</a> · <a href="https://www.youtube.com/shorts/1ytgE_3bZ4I">Compound Lifts Won't Make Your Arms Big</a> · <a href="https://www.youtube.com/shorts/O7OqJIguE-0">No Days Off Is Dumb</a> · <a href="https://www.youtube.com/watch?v=qwTTbKO5iO8">Exercise Scientist Critiques the Strongest Human Alive</a></p>
+</div>
+
+<div class="story">
+  <h3>Thomas DeLauer</h3>
+  <p>DeLauer's protein timing video is the most substantive of the batch. The core argument draws on the protein leverage hypothesis: your appetite is chasing a protein target, not a calorie target — when that target goes unmet, hunger persists regardless of total calories consumed, which explains why many people eat more on "high protein" diets if they're just adding protein on top of existing fat/carb intake rather than front-loading it. The specific tactic: concentrate 30–50% of daily protein in the morning meal (he uses 96% lean ground beef + sardines + olive oil for ~75g protein), which triggers a stronger GLP-1/PYY satiety response than the same protein spread throughout the day. The study he cites: simply doubling protein from 15% to 30% of calories dropped spontaneous intake by 440 calories/day (AJCN). He also references an 800-cal/day RCT showing resistance training participants grew muscle fiber even in severe deficit — arguing this is what GLP-1 drugs can't do (they preserve calories but sacrifice muscle). The walking video makes a solid mechanistic case for post-meal walks: 2–5 minutes post-meal blunts glucose spikes by activating muscle glucose uptake independently of insulin signaling, and a 15-minute after-dinner walk was as effective as a 45-minute daily walk for overnight glucose normalization (Diabetes Care). The sleep/visceral fat video cites a Mayo Clinic RCT (JACC): 4 hours of sleep vs. 9 hours produced an 11% increase in visceral fat in healthy young adults over 2 weeks, with no meaningful scale weight change — a striking finding that fat can redistribute to dangerous depots without any detectable weight gain.</p>
+  <p class="meta">Videos: <a href="https://www.youtube.com/watch?v=Rtb-rMwqStU">I Changed HOW I Eat Protein, and My Hunger Disappeared</a> · <a href="https://www.youtube.com/watch?v=EkFezybBZZM">If You Want To Easily Burn Fat Walking, Watch This First</a> · <a href="https://www.youtube.com/watch?v=7HrLNnEET3U">Every Night You Do This, Belly Fat TRIPLES Around Your Organs</a> · <a href="https://www.youtube.com/watch?v=CJPCQofUdAk">This Weird Breakfast Got Me Below 15% Body Fat</a></p>
+</div>
+
+<div class="story">
+  <h3>Nick Norwitz</h3>
+  <p>The fasting video is worth flagging: a 7-day water-only fast study tracking 3,000 proteins found that the majority of the significant molecular changes (linked to longevity, cardiovascular, and brain health pathways) didn't appear until day three — suggesting that the most commonly practiced 16–24 hour fasts may not cross the threshold for many of fasting's purported biological benefits beyond calorie restriction. The dihexa clip debunks the "10 million times stronger than BDNF" claim (traced to a single retracted study) while acknowledging the mechanism is real — it stabilizes angiotensin IV to survive long enough to reach the brain and promote synaptic sprouting via HGF/c-Met. Human evidence remains thin.</p>
+  <p class="meta">Videos: <a href="https://www.youtube.com/shorts/CPzp1qP_7A0">Most People End Their Fast Too Soon</a> · <a href="https://www.youtube.com/shorts/sPSLLVPuDBE">Dihexa: Miracle Brain Peptide or Internet Myth?</a></p>
 </div>
 
 <p><strong>Also posted:</strong></p>
 <ul>
-  <li><strong>Lex Fridman:</strong> Long-form conversation with Byzantine historian Anthony Kaldellis on the Roman Empire's full 2,200-year arc — argues the "Byzantine Empire" label is a modern historiographical fiction, covers the Edict of Caracalla's radical extension of citizenship, the Hippodrome as perpetual political referendum, and why 46% of Constantinople's emperors were violently overthrown yet the system still held for a millennium. Exceptional content but flagged as "most recent, not new." (<a href="https://www.youtube.com/watch?v=pv1TUJSEM2k">The Rise and Fall of the Roman Empire and the Byzantine Empire | Ep. #498</a>)</li>
-  <li><strong>Ben Felix:</strong> Nuanced rent-vs-buy case FOR ownership in Canada — argues housing functions as a long-term inflation hedge on your specific local cost of living, and that the math favors buying most strongly for: long-horizon residents (10+ years), high-income taxable investors who've maxed registered accounts (TFSA/RRSP), and conservative (60/40) asset allocators whose after-tax opportunity cost on home equity shrinks to ~1.4% above real estate appreciation. Flagged as "most recent, not new." (<a href="https://www.youtube.com/watch?v=16eA5ebWMQQ">Renting vs. Buying a Home: The Case for Owning</a>)</li>
-  <li><strong>Paul Saladino MD:</strong> Short-form content only, no substantive transcript available. (<a href="https://www.youtube.com/shorts/eGKS-h-Wkhc">Still using dryer sheets?</a>)</li>
+  <li><strong>Anthony Chaffee MD:</strong> Live Q&A covering carnivore transition logistics (can go straight in vs. gradual), ferritin/iron interpretation (elevated ferritin ≠ iron deposition disease; inflammation raises ferritin independently), and anemia of chronic disease in autoimmune contexts — specifically arguing lectins as the causative trigger for autoimmune damage rather than self-attack. Recommends strict beef/lamb/water ("lion diet") for autoimmune cases, with grass-fed preferred. (<a href="https://www.youtube.com/watch?v=cc_b1BN-6eo">Carnivore LIVE Q&A July 24, 2026</a>)</li>
+  <li><strong>Ken Berry MD:</strong> Multiple shorts pushing carnivore/low-carb basics: optimal body fat ranges (10–20% men, 15–25% women), meat/eggs for blood sugar control (fatty ground beef can lower post-meal glucose), average American eating 250–400g carbs/day unknowingly, GLP-1 drugs paired with plant-based diets as a "nutrient deficiency accelerant," and fiber as gut irritant rather than cleanser. (<a href="https://www.youtube.com/shorts/hAta_Ylc-YQ">Metabolic health vs. leanness</a> + 5 more)</li>
+  <li><strong>Dr. Sten Ekberg:</strong> Detailed mechanistic walkthrough of why low-fat dietary advice backfired: fat slows gastric emptying → removing it causes rapid glucose spikes → insulin roller coaster → increased hunger → more calories consumed → insulin resistance → visceral fat accumulation → metabolic disease. Cites obesity/T2D tripling since 1980 as the outcome. Also covers omega-6/omega-3 ratios in different animal fats (conventional chicken: 30:1; grass-fed beef: 2:1 or better). (<a href="https://www.youtube.com/watch?v=f3FtRYR7Xcw">#1 Most Dangerous Habit You Were Told Was Healthy</a>)</li>
+  <li><strong>Peter Attia:</strong> Short clips on sleep environment: chronic background noise activates the sympathetic nervous system during sleep (raising glucose, heart rate, blood pressure) even when you stop consciously noticing it — linked to hypertension, ischemic heart disease, and stroke. On blue light: the evidence has been overstated; total light intensity matters more than wavelength, and blue-light blocking glasses don't solve the problem if overall brightness and stimulation remain high. Full AMA on environmental pollution and longevity (air, noise, light, EMF) available to members. (<a href="https://www.youtube.com/shorts/e_0uwGpgyJ4">Noise in your sleep environment</a> · <a href="https://www.youtube.com/shorts/A7FQzbbJq8E">Blue light and sleep</a> · <a href="https://www.youtube.com/watch?v=sDxAiqfy4-g">Environmental pollution AMA sneak peek</a>)</li>
+  <li><strong>Stronger by Science (RSS):</strong> New analysis argues hypertrophy contributes more to strength gains in novice lifters than prior studies suggested, but the correlation is nowhere near as strong as initial data implied — methodological nuance required. (<a href="https://www.strongerbyscience.com/correlation-strength-hypertrophy/">Is the Correlation Between Hypertrophy and Strength Gains Stronger Than We Realized?</a>)</li>
+  <li><strong>Modern Wisdom:</strong> Polyvagal theory explainer with Dr. Stephen Porges (the theory's author) — three-tier autonomic hierarchy (dorsal vagal shutdown, sympathetic fight-flight, ventral vagal social engagement), why the system is adaptive but misaligned with modern life, and why ignoring body signals destroys neurophysiological feedback loops. Also: postpartum depression in new fathers occurs at ~10% prevalence (double general population rate), and the social gatekeeping around the term is counterproductive because paternal mental health directly predicts maternal mental health. (<a href="https://www.youtube.com/watch?v=V5A9q4HZ1Ro">Polyvagal Theory: Why You Feel So Anxious All The Time</a> · <a href="https://www.youtube.com/watch?v=WmRkGYB0xm0">People Really Hate New Dads With Depression</a>)</li>
+  <li><strong>Figs in Winter / Massimo Pigliucci (RSS):</strong> Essay on Stoic role ethics from Panaetius to Epictetus — how the framework of playing one's assigned roles (citizen, parent, philosopher) evolved across the tradition. (<a href="https://figsinwintertime.substack.com/p/two-masks-one-stage">Two masks, one stage</a>)</li>
+  <li><strong>Donald Robertson (RSS):</strong> New in-depth interview on Stoicism, modern psychology, and emotional resilience — covers practical applications of Stoic philosophy to contemporary life. (<a href="https://donaldrobertson.substack.com/p/watch-this-new-in-depth-interview">Watch this New In-Depth Interview About Stoicism and the Art of Living</a>)</li>
+  <li><strong>Farnam Street (RSS):</strong> Outliers episode on Rockefeller's principles — specifically how he thought about competition, efficiency, and building durable systems. Members only currently. (<a href="https://fs.blog/knowledge-project-podcast/outliers-john-d-rockefeller/">John D. Rockefeller: The Principles Behind The Greatest Fortune in History</a>)</li>
 </ul>
+
+---
 
 <h2>₿ Bitcoin & Macro</h2>
 
 <div class="story">
   <h3><a href="https://pomp.substack.com/p/6040-is-dead-what-can-you-do-now">60/40 is dead. What can you do now?</a></h3>
-  <p>Pomp argues the traditional 60/40 portfolio (stocks/bonds) has broken down as bonds no longer provide the negative correlation to equities they historically did, particularly in inflationary environments. The implied thesis is that assets like Bitcoin serve as the new diversifier — consistent with the macro case that hard assets outperform when real rates are suppressed or monetary policy is expansionary.</p>
+  <p>Anthony Pompliano argues the traditional 60% stocks / 40% bonds portfolio construction is broken in a structurally higher inflation and higher rate environment where bonds no longer provide the negative correlation hedge they historically did. The piece frames Bitcoin as a candidate for the diversification role that bonds can no longer play — the Saylor-adjacent thesis that hard assets belong in the portfolio as a hedge against monetary debasement. No specific data cited in the summary, but the macro framing is consistent with the broader institutional Bitcoin thesis.</p>
   <p class="meta">The Pomp Letter</p>
 </div>
 
 <div class="story">
   <h3><a href="https://bitcoinmagazine.com/news/morgan-stanley-bitcoin-etf-400-million">Morgan Stanley Bitcoin ETF Nearly Notches $400M in Assets</a></h3>
-  <p>Morgan Stanley's spot Bitcoin ETF is approaching $400M AUM even during a week when broader Bitcoin ETF flows were net negative — suggesting institutional allocation to Bitcoin is becoming a distinct, sticky category rather than a retail momentum trade. This is notable as further evidence of the "Bitcoin as treasury reserve" trend moving into wealth management channels.</p>
+  <p>Morgan Stanley's spot Bitcoin ETF is approaching $400M in AUM — notable because this is a wirehouse channel (financial advisors with retail clients) rather than self-directed retail, suggesting institutional distribution infrastructure for Bitcoin is maturing. The timing is interesting given broader ETF outflows this week, implying Morgan Stanley clients were net buyers against the trend.</p>
   <p class="meta">Bitcoin Magazine</p>
 </div>
+
+---
 
 <h2>🧬 Health & Science</h2>
 
 <div class="story">
-  <h3><a href="https://www.strongerbyscience.com/correlation-strength-hypertrophy/">Is the Correlation Between Hypertrophy and Strength Gains Stronger Than We Realized?</a></h3>
-  <p>Stronger by Science digs into new data suggesting hypertrophy contributes more to strength gains in novice lifters than prior studies indicated — but with an important caveat: the apparent correlation is inflated by methodological issues (regression to the mean, measurement error), so the real relationship is meaningfully weaker than the raw numbers suggest. Practically, this means you shouldn't assume that training purely for size will translate proportionally into strength gains, especially in more trained athletes.</p>
-  <p class="meta">Stronger by Science</p>
+  <h3>Day-Three Fasting Threshold — Protein Mechanisms in Prolonged Fasting</h3>
+  <p>A study tracking 3,000 proteins across a 7-day water-only fast in 12 healthy subjects found that the largest cluster of changes — involving longevity, cardiovascular, and brain health pathways — didn't emerge until day three. The implication is that most intermittent fasting protocols (16:8, 24-hour fasts) may primarily deliver calorie restriction effects rather than the distinct molecular benefits of extended fasting. This challenges the common assumption that any fast length produces the same qualitative biological effects at lower magnitude. Nick Norwitz covered this and noted that some targeted lifestyle strategies (and specific molecules) may be able to accelerate similar pathways without full multi-day fasting.</p>
+  <p class="meta"><a href="https://www.youtube.com/shorts/CPzp1qP_7A0">Nick Norwitz — Most People End Their Fast Too Soon</a></p>
 </div>
 
 <div class="story">
-  <h3><a href="https://peterattiamd.com/organic-food-and-your-health/">Should you choose organic food?</a></h3>
-  <p>Attia's team investigates the actual evidence across pesticide residue risk, GMO safety, nutrient content differences, and antibiotic exposure — framing it as a data question rather than a values question. Worth reading for the specific findings on where the organic premium is justified vs. where conventional food is substantively equivalent.</p>
-  <p class="meta">Peter Attia MD</p>
+  <h3>Sleep Deprivation and Visceral Fat: Mayo Clinic RCT</h3>
+  <p>A randomized controlled trial published in JACC compared healthy young adults sleeping 4 hours vs. 9 hours in a controlled lab setting over 2 weeks. The 4-hour group accumulated 11% more visceral fat (measured by CT scan) despite gaining almost no scale weight. This is a mechanistically important finding: visceral fat accumulation — the metabolically dangerous depot linked to cardiovascular disease, diabetes, and inflammation — can increase substantially without any signal in body weight, making it invisible without imaging. The gene expression data from a separate chronobiology study showed that late eating (same food, same calories, just timed 4 hours later) shifted fat tissue gene expression toward storage over release.</p>
+  <p class="meta"><a href="https://www.youtube.com/watch?v=7HrLNnEET3U">Thomas DeLauer — Every Night You Do This, Belly Fat TRIPLES Around Your Organs</a></p>
 </div>
+
+<div class="story">
+  <h3>Protein Leverage Hypothesis: Appetite Targets Protein, Not Calories</h3>
+  <p>Research across multiple species (including humans) consistently shows that animals regulate protein intake more tightly than carbohydrate or fat intake — when dietary protein is diluted, total caloric consumption increases until the protein target is met. A human study in AJCN found that simply doubling protein from 15% to 30% of calories caused participants to spontaneously reduce intake by 440 calories/day without any calorie restriction instruction. The practical implication: front-loading protein early in the day (hitting 30–50% of daily target at the first meal) creates a stronger GLP-1/PYY satiety response and reduces total-day food noise more effectively than distributing the same protein across meals.</p>
+  <p class="meta"><a href="https://www.youtube.com/watch?v=Rtb-rMwqStU">Thomas DeLauer — I Changed HOW I Eat Protein</a></p>
+</div>
+
+<div class="story">
+  <h3>Lithium and Alzheimer's — LATTICE Trial</h3>
+  <p>Peter Attia covers a negative clinical trial (LATTICE) examining lithium as an Alzheimer's intervention. The trial failed to show benefit, though Attia notes the result leaves open mechanistic questions rather than closing the door — prior observational and small RCT data had suggested low-dose lithium might have neuroprotective effects through tau phosphorylation and BDNF pathways. The failure of translation from mechanism to clinical outcome in dementia trials is a recurring pattern worth tracking for anyone following longevity research.</p>
+  <p class="meta"><a href="https://peterattiamd.com/lithium-and-alzheimers-disease/">Peter Attia — Lithium and Alzheimer's disease: what to weave of this LATTICE?</a></p>
+</div>
+
+<div class="story">
+  <h3>Hypertrophy-Strength Correlation: Stronger by Science Reanalysis</h3>
+  <p>A new analysis from Stronger by Science argues that prior studies underestimated how much muscle growth contributes to strength gains in novice lifters — but adds an important methodological caveat: the relationship appears much stronger than it actually is due to statistical artifacts (shared variance, measurement issues). The real-world takeaway is nuanced: hypertrophy matters more for novice strength gains than previously measured, but it's still not the dominant driver, and the correlation is inflated by how both variables were assessed.</p>
+  <p class="meta"><a href="https://www.strongerbyscience.com/correlation-strength-hypertrophy/">Stronger by Science — Is the Correlation Between Hypertrophy and Strength Gains Stronger Than We Realized?</a></p>
+</div>
+
+---
 
 <h2>💡 Worth Reading</h2>
 
 <div class="story">
-  <h3><a href="https://ptrchm.com/posts/nothing-works-and-everyone-is-euphoric/">If coding has been solved, why does software keep getting worse?</a></h3>
-  <p>A pointed essay arguing that despite AI coding tools reaching apparent competence, software quality is degrading rather than improving — raising the question of whether the bottleneck was never raw code generation but architecture, judgment, and accountability. The central tension (AI solves the easy part, exposes the hard part) is a genuinely interesting frame worth sitting with.</p>
-  <p class="meta"><a href="https://news.ycombinator.com/item?id=44673000">Discussion</a> · 673 points on HN</p>
+  <h3><a href="https://www.science.org/content/blog-post/clinical-failure-rates-over-decades-yikes">Clinical failure rates over the decades: yikes</a></h3>
+  <p>A Science blog post examining how drug clinical trial failure rates have evolved — the data is apparently concerning enough to warrant the "yikes" in the title. This is relevant context for anyone tracking longevity research or metabolic interventions: the gap between promising mechanisms and successful human trials is enormous and getting worse, not better. Worth reading as a calibration check on any supplement or drug pipeline excitement.</p>
+  <p class="meta"><a href="https://news.ycombinator.com/item?id=83pts">HN Discussion</a> · Science.org</p>
 </div>
 
 <div class="story">
-  <h3><a href="https://figsinwintertime.substack.com/p/two-masks-one-stage">Two masks, one stage — Stoic role ethics from Panaetius to Epictetus</a></h3>
-  <p>Massimo Pigliucci traces the Stoic doctrine of "roles" (personae) from Panaetius through Cicero to Epictetus — the idea that each of us plays multiple overlapping roles (human being, citizen, professional, family member) and that living well means understanding which role takes precedence in a given situation. Directly practical for thinking about how to act when duties conflict.</p>
-  <p class="meta">Figs in Winter (Pigliucci)</p>
+  <h3><a href="https://marginalrevolution.com/marginalrevolution/2026/07/a-natural-experiment-in-economics.html">A natural experiment in economics — academic word suppression</a></h3>
+  <p>A study exploiting the 2025 U.S. government "blacklist" of flagged words as a natural experiment: the publication of this list caused a sharp, immediate reduction in the use of those terms in academic papers. This is a clean demonstration of how political environment shapes academic output even without explicit mandate — a finding with implications for how we should read and weight social science research produced under political pressure.</p>
+  <p class="meta">Marginal Revolution</p>
 </div>
 
 <div class="story">
-  <h3><a href="https://donaldrobertson.substack.com/p/watch-this-new-in-depth-interview">New In-Depth Interview: Stoicism and the Art of Living</a></h3>
-  <p>Donald Robertson in a wide-ranging conversation covering Stoicism, modern cognitive behavioral therapy's Stoic roots, emotional resilience, and the practical pursuit of wisdom — Robertson is one of the clearest bridges between ancient Stoic practice and modern psychology, so this is worth an hour if you haven't heard him recently.</p>
-  <p class="meta">Donald Robertson (Substack)</p>
+  <h3><a href="https://martin.janiczek.cz/2026/07/24/systems-and-delays.html">Systems and Delays</a></h3>
+  <p>An essay on how delays between action and feedback distort our understanding of complex systems — a mental models piece that connects to Senge-style systems thinking. The core insight is that when feedback is delayed, we systematically misattribute cause and effect, overshoot corrections, and build false confidence in interventions that haven't had time to fail yet. Relevant to anyone thinking about training programming, dietary experiments, or investment theses where the feedback loop is months to years long.</p>
+  <p class="meta"><a href="https://news.ycombinator.com/item?id=50pts">HN Discussion</a></p>
 </div>
 
 <div class="story">
-  <h3><a href="https://fs.blog/knowledge-project-podcast/outliers-john-d-rockefeller/">John D. Rockefeller: The Principles Behind The Greatest Fortune in History</a></h3>
-  <p>Farnam Street's Outliers series on Rockefeller — framed not as hagiography but as an analysis of the mental models and competitive principles that compounded into history's largest fortune. Shane Parrish's framing tends to extract the decision-making architecture rather than the biography, which puts this in useful mental-models territory.</p>
-  <p class="meta">Farnam Street / The Knowledge Project</p>
+  <h3><a href="https://www.harvardmagazine.com/research/harvard-human-evolution-genes-selective-pressure">Humans haven't stopped evolving</a></h3>
+  <p>Harvard research identifying ongoing selective pressure in contemporary human populations — specific genes showing evidence of recent selection. The finding challenges the common assumption that modern medicine and agriculture have halted human evolution; instead, selection continues on traits related to disease resistance, metabolism, and reproduction. Relevant backdrop for anyone thinking about ancestral health frameworks and whether "what we evolved to eat/do" arguments have a fixed endpoint.</p>
+  <p class="meta"><a href="https://news.ycombinator.com/item?id=49pts">HN Discussion</a> · Harvard Magazine</p>
 </div>
+
+---
 
 <h2>🤖 AI Capability Watch</h2>
 
 <div class="story">
-  <h3><a href="https://www.anthropic.com/news/claude-opus-5">Claude Opus 5</a></h3>
-  <p>Anthropic's new flagship model, currently ranked #1 on the Artificial Analysis intelligence leaderboard — Anthropic describes it as their most capable and least prompt-injectable model to date, with red-teaming and internal evals showing it is significantly harder to manipulate into ignoring its instructions than prior models. The prompt injection resistance is the standout capability claim: this is the first time a major lab has foregrounded adversarial robustness (not just benchmark scores) as a headline differentiator, which matters practically for anyone using Claude in agentic or multi-step workflows.</p>
-  <p class="meta"><a href="https://news.ycombinator.com/item?id=44660000">Discussion</a> · Anthropic</p>
-</div>
-
-<div class="story">
-  <h3><a href="https://openai.com/index/health-in-chatgpt">Launching Health in ChatGPT</a></h3>
-  <p>ChatGPT now lets eligible U.S. users connect their medical records and Apple Health data to get personalized health insights directly in the chat interface. This is a new product category — AI as a personal health interpreter with access to your actual clinical data — rather than a feature update, and represents a meaningful step toward AI as a functional health advisor rather than a general-purpose question-answerer.</p>
-  <p class="meta">OpenAI</p>
+  <h3><a href="https://www.anthropic.com/news/claude-opus-5">Claude Opus 5 Released</a></h3>
+  <p>Anthropic's most capable model to date, described as a "thoughtful and proactive" model approaching frontier performance. The capability most worth flagging for end users: it is reportedly Anthropic's least prompt-injectable model yet — meaning it is significantly harder to manipulate into ignoring its instructions via adversarial prompts embedded in documents or user messages. For anyone using Claude for agentic tasks or document processing where inputs aren't fully trusted, this is a meaningful safety-adjacent capability improvement, not just a benchmark story.</p>
+  <p class="meta"><a href="https://www.anthropic.com/news/claude-opus-5">Anthropic</a></p>
 </div>
 </body>
 </html>
