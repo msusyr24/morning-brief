@@ -1,104 +1,110 @@
 === HACKER NEWS ===
-1. [414 pts] PGSimCity - How PostgreSQL Works
-   https://nikolays.github.io/PGSimCity/
+1. [706 pts] Our position on open-weights models
+   https://www.anthropic.com/news/position-open-weights-models
 
-2. [219 pts] Show HN: Physically accurate black hole you can put in your room
-   https://blackhole.plav.in
+2. [178 pts] Using an open model feels surprisingly good
+   https://matthewsaltz.com/blog/using-an-open-model-feels-surprisingly-good/
 
-3. [284 pts] Decker, a platform that builds on the legacy of Hypercard and classic macOS
-   https://beyondloom.com/decker/
+3. [101 pts] A $500 RL fine-tune of a 9B open model beat frontier models on catalog review
+   https://fermisense.com/when-machines-take-the-wheel/
 
-4. [109 pts] Scriptc by Vercel: TypeScript-to-Native compiler, no JavaScript engine in binary
-   https://github.com/vercel-labs/scriptc
+4. [15 pts] Neutrino-1 8B
+   https://www.fermionresearch.com/models/neutrino-8b/
 
-5. [290 pts] French firefighters face 'pyrocumulonimbus' for first time
-   https://www.france24.com/en/live-news/20260726-french-firefighters-face-pyrocumulonimbus-for-first-time
+5. [218 pts] Benchmarking Opus 5 on SlopCodeBench
+   https://github.com/humanlayer/advanced-context-engineering-for-coding-agents/blob/main/benchmarking-opus-5-on-slop-code-bench.md
 
-6. [531 pts] US citizen charged after GrapheneOS phone wipes during airport search
-   https://www.techspot.com/news/113236-us-prosecutors-charge-atlanta-man-after-grapheneos-phone.html
+6. [24 pts] Why do we think we understand the world more than we actually do?
+   https://thedecisionlab.com/biases/the-illusion-of-explanatory-depth
 
-7. [139 pts] We have proof automation now
-   https://www.imperialviolet.org/2026/07/26/zstd-lean.html
+7. [6 pts] Ars Astronomica – English translations of rare Hebrew and Latin astronomy texts
+   https://arsastronomica.com/
 
-8. [76 pts] I wanted a clock that never needed setting. Things escalated
-   https://arstechnica.com/gadgets/2026/07/i-wanted-a-clock-that-never-needed-setting-things-escalated/
+8. [74 pts] RTX 2080 Ti Memory Upgrade to 22 GB
+   https://gpusolutions.net/rbservices/graphics-card-upgrade/
 
-9. [412 pts] Htmx 4.0, the first JavaScript library to release exclusively on the Game Boy
-   https://swag.htmx.org/en-cad/products/htmx-4-the-game
+9. [60 pts] Residential Proxies Are a National Security Threat
+   https://jacob.gold/posts/residential-proxies-are-a-national-security-threat/
 
-10. [153 pts] Introduction to Data-Oriented Design [pdf]
-   https://www.gamedevs.org/uploads/introduction-to-data-oriented-design.pdf
+10. [194 pts] Watching Go's new garbage collector move through the heap
+   https://theconsensus.dev/p/2026/07/19/observing-gos-garbage-collector-old-and-new.html
 
-11. [110 pts] Simulate cassette tape audio profiles using FFmpeg
-   https://github.com/AARomanov1985/Audio-Cassette-Simulation
+11. [49 pts] EYG: A Programming Language for Humans
+   https://crowdhailer.me/2026-06-08/a-programming-language-for-humans/
 
-12. [229 pts] Design is compromise
-   https://stephango.com/design-is-compromise
+12. [155 pts] Astronauts describe persistent 'observer' sensation after 6 month missions
+   https://spacedaily.com/sd-v-astronauts-returning-from-six-month-missions-describe-a-persistent-observer-sensation-the-feeling-of-watching-their-own-lives-from-a-half-step-outside-the-frame-weeks-after-theyr/
 
-13. [42 pts] Fonts In Use – Find out where a font is used
-   https://fontsinuse.com/
+13. [7 pts] PyTorch: A Reference Language
+   https://docs.pytorch.org/devlogs/compiler/2026-07-25-pytorch-a-reference-language/
 
-14. [123 pts] Show HN: CheapSecurity – Lightweight, Self-Hosted CCTV for Linux SBCs
-   https://github.com/gmrandazzo/CheapSecurity
+14. [70 pts] DConf 2026 in London
+   https://dconf.org/2026/index.html
 
-15. [54 pts] The Usefulness of Useless Knowledge (1939) [pdf]
-   https://faculty.lsu.edu/kharms/files/flexner_1939.pdf
+15. [43 pts] Show HN: Yap – OSS on-device voice dictation for macOS with no model to download
+   https://github.com/FrigadeHQ/yap
 
-16. [110 pts] How to write English prose (2023)
-   https://thelampmagazine.com/blog/how-to-write-english-prose
+16. [45 pts] C/C++ projects packaged for Zig
+   https://github.com/allyourcodebase
 
-17. [198 pts] Go Analysis Framework: modular static analysis by go team
-   https://pkg.go.dev/golang.org/x/tools/go/analysis
+17. [66 pts] Launch HN: Rise Reforming (YC S26) – Turning Waste Gases into Valuable Chemicals
+   https://www.rise-reforming.com
 
-18. [16 pts] Why care about programming languages
-   https://ebellani.github.io/blog/2026/why-care-about-programming-languages/
+18. [13 pts] The age of token efficiency, the age of libraries
+   https://golemui.com/blog/the-age-of-token-efficiency/
 
-19. [191 pts] Show HN: Reverse Minesweeper
-   https://sunflowersgame.com/
+19. [44 pts] Vehicle Motion Cues
+   https://support.apple.com/guide/iphone/iphone-comfortably-riding-a-vehicle-iph55564cb22/ios
 
-20. [188 pts] The New AI Superpowers: Focus and Followthrough
-   https://www.rickmanelius.com/p/the-new-ai-superpowers-focus-and
+20. [13 pts] PCI DSS DMARC Requirement: What Section 5.4.1 Requires
+   https://dmarcguard.io/blog/pci-dss/
 
-21. [182 pts] The relay market powering token resellers and fraud
-   https://vectoral.com/blog/token-relay-market
+21. [38 pts] Three Theses on the Literacy Crisis
+   https://trevoraleo.substack.com/p/three-theses-on-the-literacy-crisis
 
-22. [3 pts] The Zen of Parallel Programming: The Posture of a Kernel
-   https://smolnero.com/posts/the-zen-of-parallel-programming-the-posture-of-a-kernel
+22. [165 pts] Glue bonds to nonstick surfaces and wipes clean with ethanol
+   https://cen.acs.org/materials/adhesives/glue-bonds-nonstick-surfaces-wipes-clean/104/web/2026/07
 
-23. [74 pts] Teaching Kids Forth
-   https://gracefulliberty.com/articles/teaching-kids-forth/
+23. [29 pts] An Uncomplicated Man
+   https://www.lrb.co.uk/the-paper/v48/n14/emily-wilson/an-uncomplicated-man
 
-24. [923 pts] Kill The Cookie Banner
-   https://killthecookiebanner.eu/
+24. [18 pts] A Dying Art: The last of the morticians
+   https://harpers.org/archive/2026/08/a-dying-art-john-semley-mortuary-sciences-competition/
 
-25. [22 pts] History of John Backus's functional programming project (draft)
-   https://softwarepreservation.computerhistory.org/FP/
+25. [130 pts] Self-contained highly-portable Python distributions
+   https://gregoryszorc.com/docs/python-build-standalone/main/
 
-26. [54 pts] Plasma Tunnels Reveal How Dying Satellites Fall to Earth
-   https://spectrum.ieee.org/space-debris-atmosphere-burn-up
+26. [33 pts] Some combinatorial applications of spacefilling curves
+   https://www2.isye.gatech.edu/~jjb/research/mow/mow.html
 
-27. [96 pts] How to Block Some of the Bots
-   https://nochan.net/b/Internet-Crap/20260606-How-To-Block-Some-Of-The-Bots/
+27. [92 pts] Ray tracing massive amounts of animated geometry using tetrahedral cages
+   https://gpuopen.com/learn/ray-tracing-massive-amounts-animated-geometry/
 
-28. [195 pts] I learned PCB design, 3D printing and C just to listen to music
-   https://pentaton.app/blog/2026-07-12-introducing-pentaton-lp/
+28. [81 pts] Securing Services with Rootless Containers
+   https://blog.coderspirit.xyz/blog/2026/07/06/securing-services-with-rootless-containers/
 
-29. [148 pts] Some more things about Django I've been enjoying
-   https://jvns.ca/blog/2026/07/21/more-nice-django-things/
+29. [1 pts] UpCodes (YC S17) is hiring remote AE's to help make buildings cheaper
+   https://up.codes/careers?utm_source=HN
 
-30. [179 pts] What's Under Your Feet in New York City?
-   https://practical.engineering/blog/2026/7/21/whats-under-your-feet-in-new-york-city
+30. [29 pts] The Burau representation of the braid group is faithful for n = 4
+   https://arxiv.org/abs/2607.05283
 
 
 === RSS ===
-[wisdom] Figs in Winter (Pigliucci): Suggested Readings
-  https://figsinwintertime.substack.com/p/suggested-readings-830
+[ideas] Stratechery: Vacation: Week of July 27
+  https://stratechery.com/2026/vacation-week-of-july-27/
 
-[wisdom] Figs in Winter (Pigliucci): Two masks, one stage
-  https://figsinwintertime.substack.com/p/two-masks-one-stage
+[health] Peter Attia: #401 ‒ How curiosity transforms medicine: extraordinary discoveries that changed modern healthcare
+  https://peterattiamd.com/medicalbreakthroughs/
 
-[wisdom] Figs in Winter (Pigliucci): On self-determination and the limits of pacifism
-  https://figsinwintertime.substack.com/p/on-self-determination-and-the-limits
+[health] Peter Attia: Lithium and Alzheimer’s disease: what to weave of this LATTICE?
+  https://peterattiamd.com/lithium-and-alzheimers-disease/
+
+[ai] Anthropic News: Cognizant and Anthropic expand their partnership to bring Claude to enterprise clients
+  https://www.anthropic.com/news/cognizant-anthropic
+
+[ai] Anthropic News: Our position on open-weights models
+  https://www.anthropic.com/news/position-open-weights-models
 
 [ai] Anthropic News: Introducing Claude Opus 5
   https://www.anthropic.com/news/claude-opus-5
@@ -108,75 +114,6 @@
 
 [ai] Anthropic News: A research agenda for the Economic Futures Research Fund
   https://www.anthropic.com/news/economic-futures-research-fund-agenda
-
-[ai] Anthropic News: Anthropic is donating another $20 million to Public First Action
-  https://www.anthropic.com/news/donation-public-first-action
-
-[ai] Anthropic News: Apply for Anthropic’s AI for Science rare disease research grants
-  https://www.anthropic.com/news/rare-disease-research-grants
-
-[health] Peter Attia: #401 ‒ How curiosity transforms medicine: extraordinary discoveries that changed modern healthcare
-  https://peterattiamd.com/medicalbreakthroughs/
-
-[health] Peter Attia: Lithium and Alzheimer’s disease: what to weave of this LATTICE?
-  https://peterattiamd.com/lithium-and-alzheimers-disease/
-
-[ideas] Marginal Revolution: The Decline in the Transmission of Scientific Ideas
-  https://marginalrevolution.com/marginalrevolution/2026/07/the-decline-in-the-transmission-of-scientific-ideas.html?utm_source=rss&utm_medium=rss&utm_campaign=the-decline-in-the-transmission-of-scientific-ideas
-
-[ideas] Marginal Revolution: In relative terms, maybe children do not cost more than before?
-  https://marginalrevolution.com/marginalrevolution/2026/07/in-relative-terms-maybe-children-do-not-cost-more-than-before.html?utm_source=rss&utm_medium=rss&utm_campaign=in-relative-terms-maybe-children-do-not-cost-more-than-before
-
-[ideas] Marginal Revolution: Further progress in South America
-  https://marginalrevolution.com/marginalrevolution/2026/07/further-progress-in-south-america.html?utm_source=rss&utm_medium=rss&utm_campaign=further-progress-in-south-america
-
-[ideas] Marginal Revolution: Sunday assorted links
-  https://marginalrevolution.com/marginalrevolution/2026/07/sunday-assorted-links-577.html?utm_source=rss&utm_medium=rss&utm_campaign=sunday-assorted-links-577
-
-[ideas] Marginal Revolution: The Rug Belt Atlas and Quiz
-  https://marginalrevolution.com/marginalrevolution/2026/07/oriental-rugs-atlas-and-quiz.html?utm_source=rss&utm_medium=rss&utm_campaign=oriental-rugs-atlas-and-quiz
-
-[ai] Simon Willison: An Inside Look at the Relay Market Powering Token Resellers and Fraud
-  https://simonwillison.net/2026/Jul/26/relay-market/#atom-everything
-
-[ai] Simon Willison: Ruff v0.16.0
-  https://simonwillison.net/2026/Jul/25/ruff/#atom-everything
-
-[ai] Simon Willison: Quoting Boris Cherny
-  https://simonwillison.net/2026/Jul/25/boris-cherny/#atom-everything
-
-[ai] Simon Willison: Introducing Claude Opus 5
-  https://simonwillison.net/2026/Jul/24/introducing-claude-opus-5/#atom-everything
-
-[ideas] Stratechery: 2026.30: The Copium Wars
-  https://stratechery.com/2026/the-copium-wars/
-
-[ideas] Astral Codex Ten: Your Book Review: Breakdown In Pakistan
-  https://www.astralcodexten.com/p/breakdown-in-pakistan
-
-[bitcoin] The Pomp Letter: 60/40 is dead. What can you do now?
-  https://pomp.substack.com/p/6040-is-dead-what-can-you-do-now
-
-[bitcoin] Bitcoin Magazine: Morgan Stanley Bitcoin ETF Nearly Notches $400M in Assets
-  https://bitcoinmagazine.com/news/morgan-stanley-bitcoin-etf-400-million
-
-[bitcoin] Bitcoin Magazine: $7 Trillion Investment Giant Fidelity Backs New Crypto Clarity Act
-  https://bitcoinmagazine.com/news/fidelity-backs-crypto-clarity-act
-
-[bitcoin] Bitcoin Magazine: State Department to Debut Freedom Tech Program with Bitcoin Policy Institute, Palantir as Founding Partners
-  https://bitcoinmagazine.com/news/state-department-tech-program-with-bitcoin
-
-[bitcoin] Bitcoin Magazine: National Fraternal Order of Police Gives Green Light to Clarity Act in Latest Support for Crypto Bill
-  https://bitcoinmagazine.com/news/fraternal-order-police-support-clarity-act
-
-[bitcoin] Bitcoin Magazine: Sealed in Foil: BMAG’s New Focus on Trading Cards
-  https://bitcoinmagazine.com/culture/sealed-in-foil-bmags-new-focus-on-trading-cards
-
-[bitcoin] Bitcoin Magazine: Top Crypto Industry Groups Pen Letter to Senate Leaders Urging Them To Support the Clarity Act
-  https://bitcoinmagazine.com/news/crypto-industry-groups-support-the-clarity
-
-[bitcoin] Bitcoin Magazine: Democrats Push Back on GOP Ethics Text as Thune Doubts a Pre-Recess Clarity Vote
-  https://bitcoinmagazine.com/news/democrats-push-back-on-clarity-ethics-text
 
 [ideas] Paul Graham: How to Earn a Billion Dollars
   https://paulgraham.com/earn.html
@@ -190,104 +127,68 @@
 [wisdom] Donald Robertson: Watch this New In-Depth Interview About Stoicism and the Art of Living
   https://donaldrobertson.substack.com/p/watch-this-new-in-depth-interview
 
+[ai] Simon Willison: moonshotai/Kimi-K3
+  https://simonwillison.net/2026/Jul/27/kimi-k3/#atom-everything
+
+[ai] Simon Willison: An opinionated guide to which AI to use to do stuff
+  https://simonwillison.net/2026/Jul/27/an-opinionated-guide-to-which-ai-to-use-to-do-stuff/#atom-everything
+
+[ai] Simon Willison: An Inside Look at the Relay Market Powering Token Resellers and Fraud
+  https://simonwillison.net/2026/Jul/26/relay-market/#atom-everything
+
+[ai] Simon Willison: Ruff v0.16.0
+  https://simonwillison.net/2026/Jul/25/ruff/#atom-everything
+
+[ai] OpenAI Blog: How AI is expanding what people do at work
+  https://openai.com/index/how-ai-is-expanding-what-people-do-at-work
+
+[wisdom] Figs in Winter (Pigliucci): Suggested Readings
+  https://figsinwintertime.substack.com/p/suggested-readings-830
+
+[wisdom] Figs in Winter (Pigliucci): Two masks, one stage
+  https://figsinwintertime.substack.com/p/two-masks-one-stage
+
+[wisdom] Figs in Winter (Pigliucci): On self-determination and the limits of pacifism
+  https://figsinwintertime.substack.com/p/on-self-determination-and-the-limits
+
+[ideas] Astral Codex Ten: Open Thread 444
+  https://www.astralcodexten.com/p/open-thread-444
+
+[bitcoin] The Pomp Letter: 4 Charts That Show The A.I. Bubble Is A Myth
+  https://pomp.substack.com/p/4-charts-that-show-the-ai-bubble
+
+[bitcoin] Bitcoin Magazine: Coinbase Chief Policy Officer Praises Crypto Clarity Act as “Extraordinarily Bipartisan”
+  https://bitcoinmagazine.com/news/coinbase-policy-officer-praises-clarity
+
+[bitcoin] Bitcoin Magazine: Republicans Hope For Democratic Support on Crypto Clarity Act
+  https://bitcoinmagazine.com/news/republicans-want-democrats-clarity-support
+
+[bitcoin] Bitcoin Magazine: Bitcoin ETFs Bled Nearly Half a Billion Dollars End of Last Week, Reversing Sentiment
+  https://bitcoinmagazine.com/markets/bitcoin-etfs-see-investor-reversal
+
+[bitcoin] Bitcoin Magazine: Russia’s Sberbank Sets December Deadline for Crypto Buildout: Report
+  https://bitcoinmagazine.com/news/russia-to-build-out-crypto-infrastructure
+
+[bitcoin] Bitcoin Magazine: Strategy Skips Bitcoin Again, Buys Back $25M of STRC Stock
+  https://bitcoinmagazine.com/news/strategy-skips-bitcoin-buy-again
+
+[ideas] Marginal Revolution: The Confucian fertility paradox
+  https://marginalrevolution.com/marginalrevolution/2026/07/the-confucian-fertility-paradox.html?utm_source=rss&utm_medium=rss&utm_campaign=the-confucian-fertility-paradox
+
+[ideas] Marginal Revolution: *Liberal Worlds: James Bryce and the Democratic Intellect*
+  https://marginalrevolution.com/marginalrevolution/2026/07/liberal-worlds-james-bryce-and-the-democratic-intellect-2.html?utm_source=rss&utm_medium=rss&utm_campaign=liberal-worlds-james-bryce-and-the-democratic-intellect-2
+
+[ideas] Marginal Revolution: Monday assorted links
+  https://marginalrevolution.com/marginalrevolution/2026/07/monday-assorted-links-570.html?utm_source=rss&utm_medium=rss&utm_campaign=monday-assorted-links-570
+
+[ideas] Marginal Revolution: Could our preoccupation with mental health be part of the problem?
+  https://marginalrevolution.com/marginalrevolution/2026/07/could-our-preoccupation-with-mental-health-be-part-of-the-problem.html?utm_source=rss&utm_medium=rss&utm_campaign=could-our-preoccupation-with-mental-health-be-part-of-the-problem
+
+[ideas] Marginal Revolution: The Decline in the Transmission of Scientific Ideas
+  https://marginalrevolution.com/marginalrevolution/2026/07/the-decline-in-the-transmission-of-scientific-ideas.html?utm_source=rss&utm_medium=rss&utm_campaign=the-decline-in-the-transmission-of-scientific-ideas
+
 [health] Stronger by Science: Is the Correlation Between Hypertrophy and Strength Gains Stronger Than We Realized?
   https://www.strongerbyscience.com/correlation-strength-hypertrophy/
 
 
 === YOUTUBE ===
-Anthony Chaffee MD: Meats Ranked - Nutrition Tier List
-  https://www.youtube.com/watch?v=wjRiZhV9jtk
-  Transcript: yes
-
-Anthony Chaffee MD: Carnivore LIVE Q&A with Dr Anthony Chaffee, August 1, 2026
-  https://www.youtube.com/watch?v=0IB4TiXtZ6s
-  Transcript: NO
-
-Ken Berry MD: The goal isn't to be as lean as  possible. The goal is to be metabolically healthy.
-  https://www.youtube.com/shorts/hAta_Ylc-YQ
-  Transcript: yes
-
-GTO Wizard: Joey Ingram on Big Blind Defense (PLO)
-  https://www.youtube.com/shorts/9_BjQ-xMFrk
-  Transcript: NO
-
-Paul Saladino MD: Avoid these personal care products at all costs
-  https://www.youtube.com/shorts/wlFIDWndvP8
-  Transcript: yes
-
-Jared Alderman: The advice Abby Merk got during a downswing #shorts
-  https://www.youtube.com/shorts/UN0DQu9bkOY
-  Transcript: yes
-
-GTO Lab: Big bets show up on specific board classes.
-  https://www.youtube.com/shorts/iae8To6igus
-  Transcript: yes
-
-Joe Rogan: Joe Rogan Experience #2530 - Timothy Alberino
-  https://www.youtube.com/watch?v=uob3BtMixuo
-  Transcript: yes
-
-Nick Norwitz: When Fiber Harms the Gut (And Meat Heals It)
-  https://www.youtube.com/shorts/uVau5TH9z9w
-  Transcript: yes
-
-Lex Fridman: The Rise and Fall of the Roman Empire and the Byzantine Empire | Lex Fridman Podcast #498
-  https://www.youtube.com/watch?v=pv1TUJSEM2k
-  Transcript: yes
-
-Dr. Sten Ekberg: #1 Most Dangerous Habit You Were Told Was Healthy
-  https://www.youtube.com/watch?v=f3FtRYR7Xcw
-  Transcript: yes
-
-Renaissance Periodization: Strong Bench = Punching Power
-  https://www.youtube.com/shorts/2pA_803X_fs
-  Transcript: yes
-
-Renaissance Periodization: Recovery Hacks Won't Fix Easy Workouts
-  https://www.youtube.com/shorts/4Gwt-CXZtQQ
-  Transcript: yes
-
-Thomas DeLauer: 1 Scoop Does WAY More than Build Muscle, Drop Fat and Lower Inflammation (new findings)
-  https://www.youtube.com/watch?v=Z3nfgVwkjOc
-  Transcript: yes
-
-Thomas DeLauer: The Absolute Best Fat Loss Peptide has Been Discovered (SLU-PP 332)
-  https://www.youtube.com/watch?v=jmvWH_ECPIg
-  Transcript: yes
-
-ModernWisdom: July 26, 2026
-  https://www.youtube.com/shorts/MtCih3iEk8I
-  Transcript: yes
-
-ModernWisdom: The Research That Changed Biosecurity
-  https://www.youtube.com/shorts/96ZKwcKM2Vg
-  Transcript: yes
-
-ModernWisdom: The Biggest Financial Dating Red Flags
-  https://www.youtube.com/shorts/SKbXRm1PMhs
-  Transcript: NO
-
-ModernWisdom: Nietzsche’s Brutal Psychology Of Losers
-  https://www.youtube.com/watch?v=3dqtuk828_I
-  Transcript: yes
-
-Peter Attia: Noise in your sleep environment | Peter Attia, M.D.
-  https://www.youtube.com/shorts/e_0uwGpgyJ4
-  Transcript: yes
-
-ThinkingPoker: Bankroll Management - Thinking Poker
-  https://www.youtube.com/watch?v=6w8amkDkeVw
-  Transcript: yes
-
-Ben Felix: The Biggest Myths in Personal Finance
-  https://www.youtube.com/watch?v=3u-mP3C26mg
-  Transcript: yes
-
-Mind The Game: A quick reminder of what Tyrese pulled off last postseason. 😮‍💨 Presented by @claude  #ad
-  https://www.youtube.com/shorts/3Y8AcQbdeEI
-  Transcript: yes
-
-Andrew Huberman: Essentials: Using Meditation to Focus, View Consciousness & Expand Your Mind | Dr. Sam Harris
-  https://www.youtube.com/watch?v=LQI8tl8S2PE
-  Transcript: yes
-
