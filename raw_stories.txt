@@ -1,104 +1,131 @@
 === HACKER NEWS ===
-1. [706 pts] Our position on open-weights models
-   https://www.anthropic.com/news/position-open-weights-models
+1. [56 pts] More Tailscale tricks for your jailbroken Kindle
+   https://tailscale.com/blog/jailbroken-kindle-proxy-tun-modes
 
-2. [178 pts] Using an open model feels surprisingly good
-   https://matthewsaltz.com/blog/using-an-open-model-feels-surprisingly-good/
+2. [48 pts] User Interfaces of the Demo Scene
+   https://www.datagubbe.se/scenegui/
 
-3. [101 pts] A $500 RL fine-tune of a 9B open model beat frontier models on catalog review
-   https://fermisense.com/when-machines-take-the-wheel/
+3. [449 pts] Codex Security
+   https://github.com/openai/codex-security
 
-4. [15 pts] Neutrino-1 8B
-   https://www.fermionresearch.com/models/neutrino-8b/
+4. [129 pts] LearnVector – Andrew Ng's AI company building one‑to‑one learning experiences
+   https://learnvector.ai/
 
-5. [218 pts] Benchmarking Opus 5 on SlopCodeBench
-   https://github.com/humanlayer/advanced-context-engineering-for-coding-agents/blob/main/benchmarking-opus-5-on-slop-code-bench.md
+5. [18 pts] Cracking Windows Open: Porting RADV to Win32
+   https://www.collabora.com/news-and-blog/news-and-events/cracking-windows-open-porting-radv-to-win32.html
 
-6. [24 pts] Why do we think we understand the world more than we actually do?
-   https://thedecisionlab.com/biases/the-illusion-of-explanatory-depth
+6. [26 pts] Transformer Transformer: A Unified Model for Motion-Conditioned Robot Co-Design
+   https://transformer-transformer.github.io/
 
-7. [6 pts] Ars Astronomica – English translations of rare Hebrew and Latin astronomy texts
-   https://arsastronomica.com/
+7. [224 pts] Show HN: I was tired of opening 2 tabs for every HN link, so I made a userscript
+   https://github.com/twalichiewicz/HNewhere
 
-8. [74 pts] RTX 2080 Ti Memory Upgrade to 22 GB
-   https://gpusolutions.net/rbservices/graphics-card-upgrade/
+8. [480 pts] Substack writers, you need a website
+   https://elizabethtai.com/2026/06/10/substack-writers-you-need-a-website/
 
-9. [60 pts] Residential Proxies Are a National Security Threat
-   https://jacob.gold/posts/residential-proxies-are-a-national-security-threat/
+9. [202 pts] Half-Life ported to Mac OS 9
+   https://mac-classic.com/news/half-life-ported-to-mac-os-9/
 
-10. [194 pts] Watching Go's new garbage collector move through the heap
-   https://theconsensus.dev/p/2026/07/19/observing-gos-garbage-collector-old-and-new.html
+10. [68 pts] Truth is not a direction: a Tarski attack on LLM probes
+   https://abeljansma.nl/2026/07/10/truth-is-not-a-direction.html
 
-11. [49 pts] EYG: A Programming Language for Humans
-   https://crowdhailer.me/2026-06-08/a-programming-language-for-humans/
+11. [78 pts] Multiple Mouse Cursors in Wayland
+   https://blinry.org/multi-seat-wayland/
 
-12. [155 pts] Astronauts describe persistent 'observer' sensation after 6 month missions
-   https://spacedaily.com/sd-v-astronauts-returning-from-six-month-missions-describe-a-persistent-observer-sensation-the-feeling-of-watching-their-own-lives-from-a-half-step-outside-the-frame-weeks-after-theyr/
+12. [83 pts] Hubble: Open-source notetaking app for you and your agents
+   https://www.hubble.md/
 
-13. [7 pts] PyTorch: A Reference Language
-   https://docs.pytorch.org/devlogs/compiler/2026-07-25-pytorch-a-reference-language/
+13. [82 pts] ReFrame – The EPaper Camera
+   https://reframe.camera/
 
-14. [70 pts] DConf 2026 in London
-   https://dconf.org/2026/index.html
+14. [99 pts] Teach yourself programming in ten years (1998)
+   https://www.norvig.com/21-days.html
 
-15. [43 pts] Show HN: Yap – OSS on-device voice dictation for macOS with no model to download
-   https://github.com/FrigadeHQ/yap
+15. [366 pts] Kimi K3 Architecture Overview and Notes
+   https://sebastianraschka.com/blog/2026/kimi-k3-architecture-notes.html
 
-16. [45 pts] C/C++ projects packaged for Zig
-   https://github.com/allyourcodebase
+16. [216 pts] Steel Bank Common Lisp version 2.6.7
+   https://sbcl.org/all-news.html?2.6.7
 
-17. [66 pts] Launch HN: Rise Reforming (YC S26) – Turning Waste Gases into Valuable Chemicals
-   https://www.rise-reforming.com
+17. [23 pts] Beyond Greece and Rome
+   https://aeon.co/essays/uncovering-a-global-ancient-history-beyond-greece-and-rome
 
-18. [13 pts] The age of token efficiency, the age of libraries
-   https://golemui.com/blog/the-age-of-token-efficiency/
+18. [19 pts] Hooray for the Sockets Interface
+   https://blog.apnic.net/2026/07/28/hooray-for-the-sockets-interface/
 
-19. [44 pts] Vehicle Motion Cues
-   https://support.apple.com/guide/iphone/iphone-comfortably-riding-a-vehicle-iph55564cb22/ios
+19. [268 pts] Delayed Gratification – Proud to Be 'Last to Breaking News'
+   https://www.slow-journalism.com/
 
-20. [13 pts] PCI DSS DMARC Requirement: What Section 5.4.1 Requires
-   https://dmarcguard.io/blog/pci-dss/
+20. [5 pts] 60 Years Ago, a Submerged Submarine Circled the Globe for the First Time (2020)
+   https://www.popularmechanics.com/military/weapons/a32009109/operation-sandblast-sumbarine-circumnavigation/
 
-21. [38 pts] Three Theses on the Literacy Crisis
-   https://trevoraleo.substack.com/p/three-theses-on-the-literacy-crisis
+21. [28 pts] Log is non-monotonic in PHP and Lua
+   https://purplesyringa.moe/blog/log-is-non-monotonic-in-php-and-lua/
 
-22. [165 pts] Glue bonds to nonstick surfaces and wipes clean with ethanol
-   https://cen.acs.org/materials/adhesives/glue-bonds-nonstick-surfaces-wipes-clean/104/web/2026/07
+22. [158 pts] The iPhone Upgrade Program is being replaced by Apple Upgrade
+   https://www.apple.com/shop/iphone/iphone-upgrade-program
 
-23. [29 pts] An Uncomplicated Man
-   https://www.lrb.co.uk/the-paper/v48/n14/emily-wilson/an-uncomplicated-man
+23. [48 pts] Interview with Boris Cherny [video]
+   https://www.youtube.com/watch?v=qyPCVqFUyDo
 
-24. [18 pts] A Dying Art: The last of the morticians
-   https://harpers.org/archive/2026/08/a-dying-art-john-semley-mortuary-sciences-competition/
+24. [218 pts] Zig's Incremental Compilation Internals
+   https://mlugg.co.uk/posts/incremental-compilation-internals/
 
-25. [130 pts] Self-contained highly-portable Python distributions
-   https://gregoryszorc.com/docs/python-build-standalone/main/
+25. [11 pts] Show HN: Lean4 Datalog DSL Based on Google Zanzibar for AI Projects
+   https://github.com/jagg-ix/zil-lean
 
-26. [33 pts] Some combinatorial applications of spacefilling curves
-   https://www2.isye.gatech.edu/~jjb/research/mow/mow.html
+26. [168 pts] Una GPS smart watch – Repairable, USB-C charging, developer-friendly
+   https://unawatch.com/
 
-27. [92 pts] Ray tracing massive amounts of animated geometry using tetrahedral cages
-   https://gpuopen.com/learn/ray-tracing-massive-amounts-animated-geometry/
+27. [140 pts] Now is the time to give LLMs access to the ACM digital library
+   https://cacm.acm.org/opinion/now-is-the-time-to-give-llms-access-to-the-acm-digital-library/
 
-28. [81 pts] Securing Services with Rootless Containers
-   https://blog.coderspirit.xyz/blog/2026/07/06/securing-services-with-rootless-containers/
+28. [21 pts] Lightweight Spring Boot Monitoring Without Prometheus and Grafana
+   https://pvrlabs.xyz/articles/lightweight-spring-boot-monitoring.html
 
-29. [1 pts] UpCodes (YC S17) is hiring remote AE's to help make buildings cheaper
-   https://up.codes/careers?utm_source=HN
+29. [613 pts] New HIV vaccine shows unprecedented success in preclinical study
+   https://www.lji.org/news-events/news/post/new-hiv-vaccine-shows-unprecedented-success-in-preclinical-study/
 
-30. [29 pts] The Burau representation of the braid group is faithful for n = 4
-   https://arxiv.org/abs/2607.05283
+30. [200 pts] Discovering Cryptographic Weaknesses with Claude
+   https://www.anthropic.com/research/discovering-cryptographic-weaknesses
 
 
 === RSS ===
-[ideas] Stratechery: Vacation: Week of July 27
-  https://stratechery.com/2026/vacation-week-of-july-27/
+[ideas] Paul Graham: How to Earn a Billion Dollars
+  https://paulgraham.com/earn.html
 
-[health] Peter Attia: #401 ‒ How curiosity transforms medicine: extraordinary discoveries that changed modern healthcare
-  https://peterattiamd.com/medicalbreakthroughs/
+[ideas] Paul Graham: How to Convert Between Wealth and Income Tax
+  https://paulgraham.com/winc.html
 
-[health] Peter Attia: Lithium and Alzheimer’s disease: what to weave of this LATTICE?
-  https://peterattiamd.com/lithium-and-alzheimers-disease/
+[ai] Simon Willison: Discovering cryptographic weaknesses with Claude
+  https://simonwillison.net/2026/Jul/28/discovering-cryptographic-weaknesses-with-claude/#atom-everything
+
+[ai] Simon Willison: Quoting Akshat Bubna
+  https://simonwillison.net/2026/Jul/28/akshat-bubna/#atom-everything
+
+[ai] Simon Willison: uv 0.12.0
+  https://simonwillison.net/2026/Jul/28/uv/#atom-everything
+
+[ai] Simon Willison: Anatomy of a Frontier Lab Agent Intrusion: A Technical Timeline of the July 2026 Incident
+  https://simonwillison.net/2026/Jul/28/anatomy-of-a-frontier-lab-agent-intrusion/#atom-everything
+
+[ai] Simon Willison: moonshotai/Kimi-K3
+  https://simonwillison.net/2026/Jul/27/kimi-k3/#atom-everything
+
+[wisdom] Donald Robertson: Introducing The Stoic Mind
+  https://donaldrobertson.substack.com/p/introducing-the-stoic-mind
+
+[wisdom] Donald Robertson: How to Think Like a Roman Emperor: A Talk and Book Signing in Montreal’s West Island
+  https://donaldrobertson.substack.com/p/how-to-think-like-a-roman-emperor-454
+
+[wisdom] Figs in Winter (Pigliucci): On contentment
+  https://figsinwintertime.substack.com/p/on-contentment
+
+[wisdom] Figs in Winter (Pigliucci): Suggested Readings
+  https://figsinwintertime.substack.com/p/suggested-readings-830
+
+[wisdom] Figs in Winter (Pigliucci): Two masks, one stage
+  https://figsinwintertime.substack.com/p/two-masks-one-stage
 
 [ai] Anthropic News: Cognizant and Anthropic expand their partnership to bring Claude to enterprise clients
   https://www.anthropic.com/news/cognizant-anthropic
@@ -115,80 +142,123 @@
 [ai] Anthropic News: A research agenda for the Economic Futures Research Fund
   https://www.anthropic.com/news/economic-futures-research-fund-agenda
 
-[ideas] Paul Graham: How to Earn a Billion Dollars
-  https://paulgraham.com/earn.html
-
-[ideas] Paul Graham: How to Convert Between Wealth and Income Tax
-  https://paulgraham.com/winc.html
-
-[wisdom] Donald Robertson: How to Think Like a Roman Emperor: A Talk and Book Signing in Montreal’s West Island
-  https://donaldrobertson.substack.com/p/how-to-think-like-a-roman-emperor-454
-
-[wisdom] Donald Robertson: Watch this New In-Depth Interview About Stoicism and the Art of Living
-  https://donaldrobertson.substack.com/p/watch-this-new-in-depth-interview
-
-[ai] Simon Willison: moonshotai/Kimi-K3
-  https://simonwillison.net/2026/Jul/27/kimi-k3/#atom-everything
-
-[ai] Simon Willison: An opinionated guide to which AI to use to do stuff
-  https://simonwillison.net/2026/Jul/27/an-opinionated-guide-to-which-ai-to-use-to-do-stuff/#atom-everything
-
-[ai] Simon Willison: An Inside Look at the Relay Market Powering Token Resellers and Fraud
-  https://simonwillison.net/2026/Jul/26/relay-market/#atom-everything
-
-[ai] Simon Willison: Ruff v0.16.0
-  https://simonwillison.net/2026/Jul/25/ruff/#atom-everything
-
-[ai] OpenAI Blog: How AI is expanding what people do at work
-  https://openai.com/index/how-ai-is-expanding-what-people-do-at-work
-
-[wisdom] Figs in Winter (Pigliucci): Suggested Readings
-  https://figsinwintertime.substack.com/p/suggested-readings-830
-
-[wisdom] Figs in Winter (Pigliucci): Two masks, one stage
-  https://figsinwintertime.substack.com/p/two-masks-one-stage
-
-[wisdom] Figs in Winter (Pigliucci): On self-determination and the limits of pacifism
-  https://figsinwintertime.substack.com/p/on-self-determination-and-the-limits
+[ideas] Astral Codex Ten: Psychology Research Is Mostly Fine
+  https://www.astralcodexten.com/p/psychology-research-is-mostly-fine
 
 [ideas] Astral Codex Ten: Open Thread 444
   https://www.astralcodexten.com/p/open-thread-444
 
+[ideas] Stratechery: Vacation: Week of July 27
+  https://stratechery.com/2026/vacation-week-of-july-27/
+
+[ideas] Marginal Revolution: You will learn to love AI writing
+  https://marginalrevolution.com/marginalrevolution/2026/07/you-will-learn-to-love-ai-writing.html?utm_source=rss&utm_medium=rss&utm_campaign=you-will-learn-to-love-ai-writing
+
+[ideas] Marginal Revolution: Congratulations to Ross D. and others
+  https://marginalrevolution.com/marginalrevolution/2026/07/congratulations-to-ross-d-and-others.html?utm_source=rss&utm_medium=rss&utm_campaign=congratulations-to-ross-d-and-others
+
+[ideas] Marginal Revolution: Tuesday assorted links
+  https://marginalrevolution.com/marginalrevolution/2026/07/tuesday-assorted-links-579.html?utm_source=rss&utm_medium=rss&utm_campaign=tuesday-assorted-links-579
+
+[ideas] Marginal Revolution: The Apples and Oranges Tribunal
+  https://marginalrevolution.com/marginalrevolution/2026/07/the-apples-and-oranges-tribunal.html?utm_source=rss&utm_medium=rss&utm_campaign=the-apples-and-oranges-tribunal
+
+[ideas] Marginal Revolution: The AEA presidential election
+  https://marginalrevolution.com/marginalrevolution/2026/07/the-aea-presidential-election.html?utm_source=rss&utm_medium=rss&utm_campaign=the-aea-presidential-election
+
+[bitcoin] Bitcoin Magazine: SEC Chairman Says He’s ‘Committed’ to Helping Advance Crypto Clarity Act
+  https://bitcoinmagazine.com/news/sec-chair-paul-atkins-supports-clarity-act
+
+[bitcoin] Bitcoin Magazine: Dubai-Based Emirates Airline Adds Bitcoin and Crypto Payments
+  https://bitcoinmagazine.com/news/dubai-based-emirates-adds-bitcoin-payments
+
+[bitcoin] Bitcoin Magazine: Bitcoin Dips As Crypto Clarity Act Hopes Fade
+  https://bitcoinmagazine.com/bitcoin-mining/bitcoin-price-dips-clarity-act
+
+[bitcoin] Bitcoin Magazine: I Scanned the Entire Bitcoin Blockchain for Images. What I Found Will Shock You
+  https://bitcoinmagazine.com/guides/i-scanned-the-entire-bitcoin-blockchain-for-images-what-i-found-will-shock-you
+
+[bitcoin] Bitcoin Magazine: Quick Maths On STRC Buybacks: The Truth About Net Bitcoin Per Share and Accretion
+  https://bitcoinmagazine.com/bitcoin-for-corporations/on-strc-buybacks
+
+[bitcoin] Bitcoin Magazine: Core Scientific Adds More Bitcoin To Balance Sheet in Q2 Despite Selling Strategy
+  https://bitcoinmagazine.com/news/core-scientific-adds-more-bitcoin
+
+[bitcoin] Bitcoin Magazine: Bank of Russia Creates New Rules For Crypto Trading
+  https://bitcoinmagazine.com/news/bank-of-russia-drops-crypto-trading-rules
+
+[bitcoin] Bitcoin Magazine: Hyperscale Ups Bitcoin Stash, Bridging Holdings to Over 1,106 Coins
+  https://bitcoinmagazine.com/news/hyperscale-ups-bitcoin-stash
+
+[health] Peter Attia: #401 ‒ How curiosity transforms medicine: extraordinary discoveries that changed modern healthcare
+  https://peterattiamd.com/medicalbreakthroughs/
+
+[bitcoin] The Pomp Letter: This Is The Biggest Threat For Investors Over Next 20 Years
+  https://pomp.substack.com/p/this-is-the-biggest-threat-for-investors
+
 [bitcoin] The Pomp Letter: 4 Charts That Show The A.I. Bubble Is A Myth
   https://pomp.substack.com/p/4-charts-that-show-the-ai-bubble
 
-[bitcoin] Bitcoin Magazine: Coinbase Chief Policy Officer Praises Crypto Clarity Act as “Extraordinarily Bipartisan”
-  https://bitcoinmagazine.com/news/coinbase-policy-officer-praises-clarity
+[ai] OpenAI Blog: Scientific computing in the age of agentic AI
+  https://openai.com/index/scientific-computing-agentic-ai
 
-[bitcoin] Bitcoin Magazine: Republicans Hope For Democratic Support on Crypto Clarity Act
-  https://bitcoinmagazine.com/news/republicans-want-democrats-clarity-support
-
-[bitcoin] Bitcoin Magazine: Bitcoin ETFs Bled Nearly Half a Billion Dollars End of Last Week, Reversing Sentiment
-  https://bitcoinmagazine.com/markets/bitcoin-etfs-see-investor-reversal
-
-[bitcoin] Bitcoin Magazine: Russia’s Sberbank Sets December Deadline for Crypto Buildout: Report
-  https://bitcoinmagazine.com/news/russia-to-build-out-crypto-infrastructure
-
-[bitcoin] Bitcoin Magazine: Strategy Skips Bitcoin Again, Buys Back $25M of STRC Stock
-  https://bitcoinmagazine.com/news/strategy-skips-bitcoin-buy-again
-
-[ideas] Marginal Revolution: The Confucian fertility paradox
-  https://marginalrevolution.com/marginalrevolution/2026/07/the-confucian-fertility-paradox.html?utm_source=rss&utm_medium=rss&utm_campaign=the-confucian-fertility-paradox
-
-[ideas] Marginal Revolution: *Liberal Worlds: James Bryce and the Democratic Intellect*
-  https://marginalrevolution.com/marginalrevolution/2026/07/liberal-worlds-james-bryce-and-the-democratic-intellect-2.html?utm_source=rss&utm_medium=rss&utm_campaign=liberal-worlds-james-bryce-and-the-democratic-intellect-2
-
-[ideas] Marginal Revolution: Monday assorted links
-  https://marginalrevolution.com/marginalrevolution/2026/07/monday-assorted-links-570.html?utm_source=rss&utm_medium=rss&utm_campaign=monday-assorted-links-570
-
-[ideas] Marginal Revolution: Could our preoccupation with mental health be part of the problem?
-  https://marginalrevolution.com/marginalrevolution/2026/07/could-our-preoccupation-with-mental-health-be-part-of-the-problem.html?utm_source=rss&utm_medium=rss&utm_campaign=could-our-preoccupation-with-mental-health-be-part-of-the-problem
-
-[ideas] Marginal Revolution: The Decline in the Transmission of Scientific Ideas
-  https://marginalrevolution.com/marginalrevolution/2026/07/the-decline-in-the-transmission-of-scientific-ideas.html?utm_source=rss&utm_medium=rss&utm_campaign=the-decline-in-the-transmission-of-scientific-ideas
+[ai] OpenAI Blog: How AI is expanding what people do at work
+  https://openai.com/index/how-ai-is-expanding-what-people-do-at-work
 
 [health] Stronger by Science: Is the Correlation Between Hypertrophy and Strength Gains Stronger Than We Realized?
   https://www.strongerbyscience.com/correlation-strength-hypertrophy/
 
 
 === YOUTUBE ===
+Anthony Chaffee MD: Meats Ranked - Nutrition Tier List
+  https://www.youtube.com/watch?v=wjRiZhV9jtk
+  Transcript: yes
+
+Joe Rogan: Joe Rogan Experience #2531 - Forrest Galante
+  https://www.youtube.com/watch?v=EvnLN8WETlM
+  Transcript: yes
+
+Nick Norwitz: How To Heal 20 Years of Gut Damage in 30 Days
+  https://www.youtube.com/watch?v=ndEfyeoq95w
+  Transcript: yes
+
+Thomas DeLauer: 1 Tbsp is the Strongest Detox Food on Earth
+  https://www.youtube.com/watch?v=PqLBy7QtFU0
+  Transcript: yes
+
+Thomas DeLauer: Why McDonalds Stopped Frying in Tallow (and what happened afterwards)
+  https://www.youtube.com/watch?v=x05FZR3UtpQ
+  Transcript: yes
+
+Thomas DeLauer: What Scientists Just Discovered About Red Light Rewrites Everything
+  https://www.youtube.com/watch?v=b3BWU41jZ6Q
+  Transcript: yes
+
+Thomas DeLauer: 400mg Repairs Insulin Receptors (stops insulin resistance)
+  https://www.youtube.com/watch?v=tfa-OB4Z_N0
+  Transcript: yes
+
+Renaissance Periodization: Your Form Isn't the Problem
+  https://www.youtube.com/shorts/BSecBHvG-DM
+  Transcript: yes
+
+Renaissance Periodization: Hunter Labrada Got Cooked By Bodyweight Squats
+  https://www.youtube.com/shorts/KjGc3jDww4w
+  Transcript: yes
+
+Renaissance Periodization: Who Is Stronger?: The CrossFit GOAT vs Dr. Mike
+  https://www.youtube.com/watch?v=Dfjwk-TOvWs
+  Transcript: yes
+
+Renaissance Periodization: These Half Reps Actually Work
+  https://www.youtube.com/shorts/wZvfTmJzHCI
+  Transcript: yes
+
+Andrew Huberman: Your Top Health Questions Answered
+  https://www.youtube.com/watch?v=ssP31IenzYA
+  Transcript: yes
+
+ThinkingPoker: Bankroll Management - Thinking Poker
+  https://www.youtube.com/watch?v=6w8amkDkeVw
+  Transcript: yes
+
