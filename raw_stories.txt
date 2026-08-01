@@ -1,102 +1,96 @@
 === HACKER NEWS ===
-1. [67 pts] The session you cannot take with you
-   https://earendil.com/posts/session-portability/
+1. [1117 pts] Elevators
+   https://john.fun/elevators
 
-2. [128 pts] The AI trade now runs on borrowed money, and the lenders are repricing it
-   https://greyswansignals.com/?theme=dark
+2. [56 pts] Flint: A Visualization Language for the AI Era
+   https://microsoft.github.io/flint-chart/
 
-3. [578 pts] Stacked PRs are now live on GitHub
-   https://github.blog/changelog/2026-07-30-stacked-pull-requests-are-now-in-public-preview/
+3. [113 pts] How to Exist
+   https://www.raptitude.com/2026/07/how-to-exist/
 
-4. [23 pts] Where USB Memory Sticks Are Born
-   https://www.bunniestudios.com/blog/2013/where-usb-memory-sticks-are-born/
+4. [49 pts] The development pipeline is a production system
+   https://sundry.jerryorr.com/2026/07/31/development-pipeline-is-a-production-system
 
-5. [276 pts] Agent Skill to Force Docs in ASD-STE100 Simplified Technical English
-   https://github.com/AminBlg/SimpleEnglish
+5. [524 pts] qm – Multiplayer agent harness for work
+   https://github.com/yc-software/qm
 
-6. [151 pts] I flagged two research papers for fake authors and both were accepted as orals
-   https://geospatialml.com/posts/reviewing-ai-slop/
+6. [15 pts] What Liberal Arts Education Is for (2024)
+   https://innig.net/teaching/liberal-arts-manifesto
 
-7. [526 pts] Gemini Robotics 2 brings whole body intelligence to robots
-   https://deepmind.google/blog/gemini-robotics-2-brings-whole-body-intelligence-to-robots/
+7. [160 pts] BMW Spider-Man in-car advertising
+   https://consumerrights.wiki/w/BMW_Spider-Man_in-car_advertising
 
-8. [13 pts] JEP 401: Value Objects (Preview) merged to OpenJDK master
-   https://github.com/openjdk/jdk/pull/31120
+8. [27 pts] A Week in Matrix
+   https://piegames.de/dumps/a-week-in-matrix/
 
-9. [108 pts] The bond market isn't buying what Fed Chair Warsh is selling
-   https://www.reuters.com/commentary/reuters-open-interest/bond-market-isnt-buying-what-fed-chair-warsh-is-selling-2026-07-30/
+9. [128 pts] Progressive Web Components
+   https://arielsalminen.com/2026/progressive-web-components/
 
-10. [121 pts] A California aquifer may have crossed the point of no return
-   https://www.science.org/content/article/california-aquifer-may-have-crossed-point-no-return
+10. [71 pts] Software for One
+   https://www.ajwaxman.com/writing/software-for-one
 
-11. [666 pts] Read this before you buy that TV streaming stick
-   https://krebsonsecurity.com/2026/07/read-this-before-you-buy-that-tv-streaming-stick/
+11. [129 pts] June in Servo: real world compat, media queries, SharedWorker, and more
+   https://servo.org/blog/2026/07/31/june-in-servo/
 
-12. [157 pts] Investigating three real-world incidents in our cybersecurity evaluations
-   https://www.anthropic.com/news/investigating-incidents-cybersecurity-evals
+12. [205 pts] Run Kimi K3 using 29 GB of RAM at 0.50 tok/s
+   https://github.com/sqliteai/waste
 
-13. [5 pts] Human Honeypot
-   https://human2llm.pages.dev/
+13. [169 pts] Getting 25 Gbps Thunderbolt Ethernet on My Mac Studio
+   https://www.jeffgeerling.com/blog/2026/getting-25g-ethernet-mac-thunderbolt/
 
-14. [266 pts] The AI Aesthetic
-   https://blog.jim-nielsen.com/2026/ai-aesthetic/
+14. [216 pts] Big Food vs. the People
+   https://www.lighthousereports.com/investigation/big-food-vs-the-people/
 
-15. [80 pts] The Religion of Speed
-   https://graybeard.ing/the-religion-of-speed/
+15. [37 pts] How far can you push the range of Wi-Fi connectivity in an ideal environment?
+   https://www.phidgets.com/?view=articles&article=LongRangeWifi
 
-16. [4 pts] Show HN: What should the GUI for AI agents look like?
-   https://marbleos.com/demo
+16. [47 pts] Demystifying DRAM Read Disturbance: RowHammer and RowPress Phenomena
+   https://arxiv.org/abs/2607.28233
 
-17. [41 pts] The American Grilled Cheese Sandwich Essay (2024)
-   https://buttondown.com/theswordandthesandwich/archive/the-best-american-grilled-cheese-sandwich-essay/
+17. [87 pts] Let's make the worst Htmx
+   https://zserge.com/posts/worst-htmx-ever/
 
-18. [200 pts] Physicists Solve a Muon Mystery. Now, Old Results Don't Add Up
-   https://www.quantamagazine.org/physicists-solve-a-muon-mystery-now-old-results-dont-add-up-20260729/
+18. [513 pts] Tailscale didn't stop the Hugging Face intrusion
+   https://tailscale.com/blog/hugging-face-intrusion
 
-19. [73 pts] Rune 1.1: adds Python, an Emacs editor, a symbol index and is now free
-   https://rune.build/blog/rune-1-1-release
+19. [168 pts] The most official water costs $120k a gallon
+   https://signoregalilei.com/2026/07/26/the-most-official-water-costs-120000-a-gallon/
 
-20. [227 pts] The Economic Benefit of Refactoring
-   https://martinfowler.com/articles/exploring-gen-ai/refactoring-economic-benefit.html
+20. [100 pts] Show HN: I worked on a new browser for 2 years, today it passed Acid 3
+   https://code.intellios.ai/cwbrowser/
 
-21. [156 pts] CodePen 2.0
-   https://chriscoyier.net/2026/07/30/codepen-2-0/
+21. [81 pts] The Absurdity of Albert Camus
+   https://www.historytoday.com/archive/portrait-author-historian/absurdity-albert-camus
 
-22. [91 pts] Bad Apple but It's Traceroute
-   https://jssfr.de/2026-07-27-bad-apple-but-traceroute.html
+22. [217 pts] Twenty-five years ago it was cryptography, today it's model weights
+   https://weeraman.com/because-we-can/
 
-23. [4 pts] The mean means nothing: data visualization to debug a latency problem
-   https://fzakaria.com/2026/07/27/the-mean-means-nothing
+23. [1 pts] Loops (YC W22) Is Hiring a Product Educator
+   https://www.ycombinator.com/companies/loops/jobs/zqUnwqB-product-educator-technical-content-creator
 
-24. [915 pts] UEFA and its national associations will not participate in FIFA competitions
-   https://www.uefa.com/news-media/news/02a7-213a92896eb0-54dfbf454e3b-1000--statement-on-behalf-of-uefa-and-its-55-national-associations/
+24. [37 pts] The First Transatlantic Telegraph Cable Was a Bold, Beautiful Failure
+   https://spectrum.ieee.org/the-first-transatlantic-telegraph-cable-was-a-bold-beautiful-failure
 
-25. [273 pts] GCC steering committee announces AI policy
-   https://lwn.net/Articles/1086041/
+25. [7 pts] Attention Decode on AMD MI450 GPUs: A Gluon Kernel Optimization Guide
+   https://rocm.blogs.amd.com/software-tools-optimization/gluon-attention-decode-mi450/README.html
 
-26. [46 pts] Saber-toothed cats became inbred–and struggled to move–before they went extinct
-   https://www.science.org/content/article/saber-toothed-cats-became-inbred-and-struggled-move-they-went-extinct
+26. [141 pts] Is AI reasoning right for the wrong reasons?
+   https://www.quantamagazine.org/is-ai-reasoning-right-for-the-wrong-reasons-20260731/
 
-27. [64 pts] Memo-1: A 6502 computer built from scratch, using a Minitel as its terminal
-   https://github.com/MemoireMorte/Memo-1
+27. [64 pts] Using the railway network as a flatbed scanner [video]
+   https://media.ccc.de/v/emf2026-74-1-using-the-railway-network-as-a-flatbed-scanner
 
-28. [156 pts] The lost civic life of movie rental stores
-   https://thereader.mitpress.mit.edu/the-lost-civic-life-of-movie-rental-stores/
+28. [70 pts] Authorize, don't authenticate
+   https://blog.marcua.net/2026/07/31/authorize-dont-authenticate.html
 
-29. [109 pts] Show HN: Distilling DeepSeek into GPT-OSS doesn't transfer censorship. Try it
-   https://www.ctgt.ai/research/distillation-censorship-transfer
+29. [142 pts] Golang proposal: container/: generic collection types
+   https://github.com/golang/go/issues/80590
 
-30. [1 pts] Rise Reforming (YC S26) Is Hiring
-   https://www.ycombinator.com/companies/rise-reforming/jobs/wJ9Q9nv-senior-chemical-process-engineer
+30. [110 pts] Everyone is building LLM routers, we deprecated ours
+   https://manifest.build/blog/why-we-deprecated-our-llm-router/
 
 
 === RSS ===
-[wisdom] Donald Robertson: Introducing The Stoic Mind
-  https://donaldrobertson.substack.com/p/introducing-the-stoic-mind
-
-[wisdom] Donald Robertson: How to Think Like a Roman Emperor: A Talk and Book Signing in Montreal’s West Island
-  https://donaldrobertson.substack.com/p/how-to-think-like-a-roman-emperor-454
-
 [ai] Anthropic News: Investigating three real-world incidents in our cybersecurity evaluations
   https://www.anthropic.com/news/investigating-incidents-cybersecurity-evals
 
@@ -112,68 +106,20 @@
 [ai] Anthropic News: Ask Claude about the Anthropic Economic Index
   https://www.anthropic.com/news/anthropic-economic-index-connector
 
-[ideas] Paul Graham: How to Earn a Billion Dollars
-  https://paulgraham.com/earn.html
+[ai] Simon Willison: deepseek-ai/DeepSeek-V4-Flash-0731
+  https://simonwillison.net/2026/Jul/31/deepseek-v4-flash-0731/#atom-everything
 
-[ideas] Collaborative Fund (Morgan Housel): Philanthropy's other third wave
-  https://collabfund.substack.com/p/philanthropys-other-third-wave
+[ai] Simon Willison: Stateless MCP has recaptured my interest (and inspired mcp-explorer and datasette-mcp)
+  https://simonwillison.net/2026/Jul/31/stateless-mcp/#atom-everything
 
-[wisdom] Farnam Street: The Psychology Behind Building Billion-Dollar Companies | Brad Jacobs
-  https://fs.blog/knowledge-project-podcast/brad-jacobs-2/
+[ai] Simon Willison: llm-mcp-client 0.1a0
+  https://simonwillison.net/2026/Jul/31/llm-mcp-client/#atom-everything
 
-[bitcoin] The Pomp Letter: The AI Trade Isn’t Over, So Investors Will BTFD
-  https://pomp.substack.com/p/the-ai-trade-isnt-over-so-investors
+[ai] Simon Willison: Oxide and Friends: The Open Weight Revolution with Simon Willison
+  https://simonwillison.net/2026/Jul/31/oxide-and-friends/#atom-everything
 
-[bitcoin] The Pomp Letter: This Is The Biggest Threat For Investors Over Next 20 Years
-  https://pomp.substack.com/p/this-is-the-biggest-threat-for-investors
-
-[ai] Simon Willison: Advancing the price-performance frontier with GPT‑5.6
-  https://simonwillison.net/2026/Jul/30/luna-price-drop/#atom-everything
-
-[ai] Simon Willison: Investigating three real-world incidents in our cybersecurity evaluations
-  https://simonwillison.net/2026/Jul/30/three-real-world-incidents/#atom-everything
-
-[ai] Simon Willison: llm 0.32rc2
-  https://simonwillison.net/2026/Jul/30/llm-rc2/#atom-everything
-
-[ai] Simon Willison: Quoting Bruce Schneier
-  https://simonwillison.net/2026/Jul/30/bruce-schneier/#atom-everything
-
-[ai] Simon Willison: llm-chat-completions-server 0.1a0
-  https://simonwillison.net/2026/Jul/30/llm-chat-completions-server/#atom-everything
-
-[bitcoin] Bitcoin Magazine: ‘Bitcoin Senator’ Cynthia Lummis Blasts Democrats For Stalling Crypto Clarity Act
-  https://bitcoinmagazine.com/news/cynthia-lummis-blasts-democrats-on-clarity
-
-[bitcoin] Bitcoin Magazine: Bitcoin Treasury Strategy Posts $8.2B Loss As BTC Price Suffered
-  https://bitcoinmagazine.com/news/bitcoin-treasury-strategy-posts-loss
-
-[bitcoin] Bitcoin Magazine: Legendary Investor Ray Dalio Still Holds Bitcoin — But Only 1% of His Portfolio
-  https://bitcoinmagazine.com/news/ray-dalio-prefers-gold-over-bitcoin
-
-[bitcoin] Bitcoin Magazine: Treasury Secretary Scott Bessent Urges Lawmakers to Vote on Clarity Act, Quotes Satoshi Nakamoto
-  https://bitcoinmagazine.com/news/scott-bessent-urges-vote-on-clarity-act
-
-[bitcoin] Bitcoin Magazine: Professional Law Enforcement Group Backs Crypto’s CLARITY Act, Adding Pressure Before August Recess
-  https://bitcoinmagazine.com/news/law-enforcement-group-backs-clarity-act
-
-[bitcoin] Bitcoin Magazine: NYSE-Listed AI Company Taps Lightning Network to Pay Employees In Bitcoin
-  https://bitcoinmagazine.com/news/ai-company-pays-employees-in-bitcoin
-
-[bitcoin] Bitcoin Magazine: Spanish Bank Banco Santander Reveals $4.3M Bitcoin Investment
-  https://bitcoinmagazine.com/news/spanish-bank-banco-santander-buys-bitcoin
-
-[bitcoin] Bitcoin Magazine: Bitchat Mesh App Defies India Cybercrime Notice After Protesters Use It During Network Restrictions
-  https://bitcoinmagazine.com/politics/bitchat-mesh-app-defies-india-cybercrime-notice-after-protesters-use-it-during-network-restrictions
-
-[ideas] Astral Codex Ten: Links For July 2026 (Part 2)
-  https://www.astralcodexten.com/p/links-for-july-2026-part-2
-
-[ideas] Astral Codex Ten: Highlights From The Discourse On The Hugging Face Incident
-  https://www.astralcodexten.com/p/highlights-from-the-discourse-on
-
-[ideas] Astral Codex Ten: Hidden Open Thread 444.5
-  https://www.astralcodexten.com/p/hidden-open-thread-4445
+[ai] Simon Willison: smevals - a small eval suite for evaluating models, prompts, and harnesses
+  https://simonwillison.net/2026/Jul/31/smevals/#atom-everything
 
 [wisdom] Figs in Winter (Pigliucci): Vitamin H: the science of happiness is weaker than you think
   https://figsinwintertime.substack.com/p/vitamin-h-the-science-of-happiness
@@ -184,38 +130,244 @@
 [wisdom] Figs in Winter (Pigliucci): Suggested Readings
   https://figsinwintertime.substack.com/p/suggested-readings-830
 
-[ideas] Marginal Revolution: The wisdom of Eli Dourado
-  https://marginalrevolution.com/marginalrevolution/2026/07/the-wisdom-of-eli-dourado.html?utm_source=rss&utm_medium=rss&utm_campaign=the-wisdom-of-eli-dourado
+[ideas] Paul Graham: How to Earn a Billion Dollars
+  https://paulgraham.com/earn.html
 
-[ideas] Marginal Revolution: The Anatomy of Cyber Risk
-  https://marginalrevolution.com/marginalrevolution/2026/07/the-anatomy-of-cyber-risk.html?utm_source=rss&utm_medium=rss&utm_campaign=the-anatomy-of-cyber-risk
+[bitcoin] The Pomp Letter: The most important chart in the stock market has nothing to do with AI
+  https://pomp.substack.com/p/the-most-important-chart-in-the-stock
 
-[ideas] Marginal Revolution: Thursday assorted links
-  https://marginalrevolution.com/marginalrevolution/2026/07/thursday-assorted-links-563.html?utm_source=rss&utm_medium=rss&utm_campaign=thursday-assorted-links-563
+[bitcoin] The Pomp Letter: The AI Trade Isn’t Over, So Investors Will BTFD
+  https://pomp.substack.com/p/the-ai-trade-isnt-over-so-investors
 
-[ideas] Marginal Revolution: The Endangered Species Act Reduces Housing
-  https://marginalrevolution.com/marginalrevolution/2026/07/the-endangered-species-act-reduces-housing.html?utm_source=rss&utm_medium=rss&utm_campaign=the-endangered-species-act-reduces-housing
+[ideas] Astral Codex Ten: Your Book Review: The Epic Of Gilgamesh
+  https://www.astralcodexten.com/p/your-book-review-the-epic-of-gilgamesh
 
-[ideas] Marginal Revolution: An experiment for our schools
-  https://marginalrevolution.com/marginalrevolution/2026/07/an-experiment-for-our-schools.html?utm_source=rss&utm_medium=rss&utm_campaign=an-experiment-for-our-schools
+[ideas] Astral Codex Ten: Links For July 2026 (Part 2)
+  https://www.astralcodexten.com/p/links-for-july-2026-part-2
+
+[ideas] Astral Codex Ten: Highlights From The Discourse On The Hugging Face Incident
+  https://www.astralcodexten.com/p/highlights-from-the-discourse-on
+
+[ideas] Collaborative Fund (Morgan Housel): Philanthropy's other third wave
+  https://collabfund.substack.com/p/philanthropys-other-third-wave
+
+[wisdom] Donald Robertson: Introducing The Stoic Mind
+  https://donaldrobertson.substack.com/p/introducing-the-stoic-mind
+
+[wisdom] Donald Robertson: How to Think Like a Roman Emperor: A Talk and Book Signing in Montreal’s West Island
+  https://donaldrobertson.substack.com/p/how-to-think-like-a-roman-emperor-454
+
+[bitcoin] Bitcoin Magazine: Coldcard Bitcoin Thief Likely Used Top Blockchain Services Provider: Report
+  https://bitcoinmagazine.com/news/coldcard-thief-used-blockchain-service
+
+[bitcoin] Bitcoin Magazine: Younger Democrats Understand Clarity Act And Bill Should Pass, Says Coinbase’s Chief Policy Officer
+  https://bitcoinmagazine.com/news/clarity-act-should-pass-says-coinbase
+
+[bitcoin] Bitcoin Magazine: Coinkite Releases Fixed Firmware After Coldcard Bug; AI Likely Involved In The Breach
+  https://bitcoinmagazine.com/business/coinkite-releases-fixed-firmware-after-coldcard-bug-ai-likely-involved-in-the-hack
+
+[bitcoin] Bitcoin Magazine: US Closes in on Iran’s Strait of Hormuz Bitcoin Insurance Policy, Sanctions Companies
+  https://bitcoinmagazine.com/news/us-sanctions-iran-companies-using-bitcoin
+
+[bitcoin] Bitcoin Magazine: COLDCARD SECURITY RISK: IMMEDIATE ACTION REQUIRED
+  https://bitcoinmagazine.com/news/coldcard-security-risk-immediate-action-required
+
+[bitcoin] Bitcoin Magazine: Coldcard Wallet Flaw Exposes Years of Bitcoin Seeds After $70M in BTC Stolen
+  https://bitcoinmagazine.com/news/coldcard-wallet-exposed-after-bitcoin-hack
+
+[bitcoin] Bitcoin Magazine: ‘Bitcoin Senator’ Cynthia Lummis Blasts Democrats For Stalling Crypto Clarity Act
+  https://bitcoinmagazine.com/news/cynthia-lummis-blasts-democrats-on-clarity
+
+[bitcoin] Bitcoin Magazine: Bitcoin Treasury Strategy Posts $8.2B Loss As BTC Price Suffered
+  https://bitcoinmagazine.com/news/bitcoin-treasury-strategy-posts-loss
+
+[ai] OpenAI Blog: Advancing responsible AI across Europe
+  https://openai.com/index/advancing-responsible-ai-across-europe
+
+[ai] OpenAI Blog: Building abundant intelligence
+  https://openai.com/index/building-abundant-intelligence
+
+[ai] OpenAI Blog: Univé builds an AI-ready workforce
+  https://openai.com/index/unive
+
+[ai] OpenAI Blog: Disrupting a Criminal Scam Operation
+  https://openai.com/index/disrupting-malicious-uses-of-ai-criminal-scam-operation
 
 [ai] OpenAI Blog: Advancing the price-performance frontier with GPT-5.6
   https://openai.com/index/advancing-the-price-performance-frontier-with-gpt-5-6
 
-[ai] OpenAI Blog: How avatarin built a 24/7 retail agent with GPT-Realtime
-  https://openai.com/index/avatarin
+[wisdom] Farnam Street: The Psychology Behind Building Billion-Dollar Companies | Brad Jacobs
+  https://fs.blog/knowledge-project-podcast/brad-jacobs-2/
 
-[ai] OpenAI Blog: How enabling two settings tripled our scores on the ARC-AGI-3 benchmark
-  https://openai.com/index/how-two-settings-tripled-our-arc-agi-3-scores
+[ideas] Marginal Revolution: Emergent Ventures India, 18th cohort
+  https://marginalrevolution.com/marginalrevolution/2026/08/emergent-ventures-india-18th-cohort.html?utm_source=rss&utm_medium=rss&utm_campaign=emergent-ventures-india-18th-cohort
 
-[ai] OpenAI Blog: Accelerating scientific discovery with ChatGPT for Academic Researchers
-  https://openai.com/index/chatgpt-for-academic-researchers
+[ideas] Marginal Revolution: *Redefining Global Health in the 21st Century*
+  https://marginalrevolution.com/marginalrevolution/2026/07/redefining-global-health-in-the-21st-century.html?utm_source=rss&utm_medium=rss&utm_campaign=redefining-global-health-in-the-21st-century
 
-[ai] OpenAI Blog: How GPT-5.6 fuses frontier intelligence with frontier efficiency
-  https://openai.com/index/gpt-5-6-frontier-intelligence-efficiency
+[ideas] Marginal Revolution: Friday assorted links
+  https://marginalrevolution.com/marginalrevolution/2026/07/friday-assorted-links-583.html?utm_source=rss&utm_medium=rss&utm_campaign=friday-assorted-links-583
+
+[ideas] Marginal Revolution: An unprecedented weapon?
+  https://marginalrevolution.com/marginalrevolution/2026/07/an-unprecedented-weapon.html?utm_source=rss&utm_medium=rss&utm_campaign=an-unprecedented-weapon
+
+[ideas] Marginal Revolution: The wisdom of Eli Dourado
+  https://marginalrevolution.com/marginalrevolution/2026/07/the-wisdom-of-eli-dourado.html?utm_source=rss&utm_medium=rss&utm_campaign=the-wisdom-of-eli-dourado
 
 [health] Stronger by Science: Is the Correlation Between Hypertrophy and Strength Gains Stronger Than We Realized?
   https://www.strongerbyscience.com/correlation-strength-hypertrophy/
 
 
 === YOUTUBE ===
+Anthony Chaffee MD: Carnivore LIVE Q&A with Dr Anthony Chaffee, August 1, 2026
+  https://www.youtube.com/watch?v=0IB4TiXtZ6s
+  Transcript: NO
+
+Ken Berry MD: Monday Night Live with Dr. Berry & Nurse Neisha
+  https://www.youtube.com/watch?v=LUdCke0FuM8
+  Transcript: NO
+
+Ken Berry MD: Carnivore on a Tight Budget: 10 Cheap Foods That Still Deliver Nutrition
+  https://www.youtube.com/watch?v=GE3YSy2dbPU
+  Transcript: NO
+
+Ken Berry MD: How Big pharma Turns Healthy People Into Lifelong Customers
+  https://www.youtube.com/watch?v=2LqmlWpaiEE
+  Transcript: yes
+
+Ken Berry MD: What's your favorite fat to cook with? Mine? A big spoonful of bacon grease. #Eatyourmeat
+  https://www.youtube.com/shorts/Dmaf5_R-kiA
+  Transcript: yes
+
+Ken Berry MD: Monday Night Live Q&A with Dr. Ken Berry & @NeishaSalasBerry
+  https://www.youtube.com/watch?v=aeeo_GFJy68
+  Transcript: yes
+
+GTO Wizard: When Pros Deviate from The Optimal Play
+  https://www.youtube.com/shorts/pfVJcOhXvcc
+  Transcript: yes
+
+GTO Wizard: Joey Ingram on Big Blind Defense (PLO)
+  https://www.youtube.com/shorts/9_BjQ-xMFrk
+  Transcript: NO
+
+Nick Norwitz: Ranking Brain Health Supplements (S to F-Tier)
+  https://www.youtube.com/shorts/mKBz0xN1zxo
+  Transcript: yes
+
+Jared Alderman: Is there only one right answer?
+  https://www.youtube.com/shorts/5OfoGVYi8O0
+  Transcript: yes
+
+Jared Alderman: Surviving the WSOP Main Event | Brock Wilson
+  https://www.youtube.com/watch?v=7OdiWO3HdhM
+  Transcript: yes
+
+Jared Alderman: Can You Trust Your Poker Results?
+  https://www.youtube.com/watch?v=_NN3J2sn7Yk
+  Transcript: yes
+
+Jared Alderman: Uri Peleg on what mistakes matter #shorts
+  https://www.youtube.com/shorts/DXOQpjG-zWE
+  Transcript: yes
+
+Thomas DeLauer: Exercise Physicist: The Simplest Way to Build Muscle and get Stronger is NOT More Volume
+  https://www.youtube.com/watch?v=G5k0swuA0qw
+  Transcript: yes
+
+Thomas DeLauer: 3g Before Exercise DOUBLES the Rate of Fat Loss (don't skip it)
+  https://www.youtube.com/watch?v=aX5o4FzHPF0
+  Transcript: yes
+
+Thomas DeLauer: You Don't Need Fiber - 1 Scoop Stops Wrinkles and Repairs Gut Cells
+  https://www.youtube.com/watch?v=uOF7JqB3Q-c
+  Transcript: yes
+
+Thomas DeLauer: 21 Things Blocking Belly Fat Loss You Never Would Expect
+  https://www.youtube.com/watch?v=TbmUlYGa5PM
+  Transcript: yes
+
+Joe Rogan: Joe Rogan Experience #2534 - Annie Jacobsen
+  https://www.youtube.com/watch?v=ZACmIrFbfPU
+  Transcript: yes
+
+Joe Rogan: Joe Rogan Experience #2533 - Diana Pasulka
+  https://www.youtube.com/watch?v=wo6K0Bav3K0
+  Transcript: yes
+
+Joe Rogan: Joe Rogan Experience #2532 - Tim Robbins
+  https://www.youtube.com/watch?v=ur_-7JONZlY
+  Transcript: yes
+
+GTO Lab: Some heads-up hands are too weak to limp-call and too good to limp-fold.
+  https://www.youtube.com/shorts/Wn6sj_p4KU4
+  Transcript: yes
+
+GTO Lab: Alex Kulev is back inside GTO LAB PRO with a new 4-part series.
+  https://www.youtube.com/shorts/DMw28oREyWg
+  Transcript: yes
+
+GTO Lab: A small turn donk is information, not a reason to panic.
+  https://www.youtube.com/shorts/pqsxrdnsCMQ
+  Transcript: yes
+
+GTO Lab: Mystery Bounty: Covering both blinds changes the button's VPIP strategy.
+  https://www.youtube.com/shorts/21gdpZ0RyaE
+  Transcript: yes
+
+GTO Lab: Micro-stack spots can look too loose and still be printing.
+  https://www.youtube.com/shorts/9e5oJ09cRtw
+  Transcript: yes
+
+Peter Attia: Women & fitness after 50: balancing zone 2 and lifting
+  https://www.youtube.com/shorts/fZC-MIO6zNI
+  Transcript: yes
+
+Peter Attia: How people over 65 can reduce their fall risk
+  https://www.youtube.com/shorts/tHZ59dM1mcw
+  Transcript: yes
+
+Renaissance Periodization: 99% of Lifters Prioritize Shoulders WRONG
+  https://www.youtube.com/shorts/rC7avGttb9Q
+  Transcript: yes
+
+Renaissance Periodization: How Hany Rambod Changed the Tren Twins
+  https://www.youtube.com/shorts/kxrjn-ms_c0
+  Transcript: yes
+
+Renaissance Periodization: Exercise Scientist Critiques Hany Rambod: The Greatest Bodybuilding Coach Ever?
+  https://www.youtube.com/watch?v=TpUhvFstH8c
+  Transcript: yes
+
+Renaissance Periodization: The Mirror Knows You're Lying
+  https://www.youtube.com/shorts/_0SepToFviw
+  Transcript: yes
+
+Renaissance Periodization: Huge Bulks Are A Disaster
+  https://www.youtube.com/shorts/jcvVMmLWr10
+  Transcript: yes
+
+Renaissance Periodization: Most People Would Quit Training After This
+  https://www.youtube.com/shorts/4j86_dLY8DY
+  Transcript: NO
+
+Renaissance Periodization: The Military’s Steroid Soldier Plan: Smart or Insane?
+  https://www.youtube.com/watch?v=_PGJPasgNCU
+  Transcript: yes
+
+Andrew Huberman: My book Protocols releases September 15th
+  https://www.youtube.com/shorts/vmRWUqkTtKA
+  Transcript: yes
+
+Andrew Huberman: Essentials: How to Become Resilient, Forge Your Identity & Lead Others | Jocko Willink
+  https://www.youtube.com/watch?v=lxDf8uEypJU
+  Transcript: yes
+
+ThinkingPoker: Bankroll Management - Thinking Poker
+  https://www.youtube.com/watch?v=6w8amkDkeVw
+  Transcript: yes
+
+Ben Felix: The Biggest Myths in Personal Finance
+  https://www.youtube.com/watch?v=3u-mP3C26mg
+  Transcript: yes
+
