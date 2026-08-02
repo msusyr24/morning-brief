@@ -1,93 +1,93 @@
 === HACKER NEWS ===
-1. [1117 pts] Elevators
-   https://john.fun/elevators
+1. [68 pts] Running Kimi K3 on MI355X at Better Performance per Dollar Than B300
+   https://www.wafer.ai/blog/kimi-k3-mi355x
 
-2. [56 pts] Flint: A Visualization Language for the AI Era
-   https://microsoft.github.io/flint-chart/
+2. [130 pts] Go 1.27 Interactive Tour
+   https://victoriametrics.com/blog/go-1-27/index.html
 
-3. [113 pts] How to Exist
-   https://www.raptitude.com/2026/07/how-to-exist/
+3. [37 pts] MkLinux and the pimped-out Apple Workgroup Server 9150
+   http://oldvcr.blogspot.com/2026/08/mklinux-and-pimped-out-apple-workgroup.html
 
-4. [49 pts] The development pipeline is a production system
-   https://sundry.jerryorr.com/2026/07/31/development-pipeline-is-a-production-system
+4. [262 pts] Seedance 2.5
+   https://seed.bytedance.com/en/blog/one-take-creation-flexible-referencing-introducing-seedance-2-5
 
-5. [524 pts] qm – Multiplayer agent harness for work
-   https://github.com/yc-software/qm
+5. [268 pts] Diátaxis
+   https://diataxis.fr/
 
-6. [15 pts] What Liberal Arts Education Is for (2024)
-   https://innig.net/teaching/liberal-arts-manifesto
+6. [41 pts] ASRock BC-250: Building the Budget Steam Machine
+   https://plug-world.com/posts/2026/asrock-bc250-the-budget-steam-machine/
 
-7. [160 pts] BMW Spider-Man in-car advertising
-   https://consumerrights.wiki/w/BMW_Spider-Man_in-car_advertising
+7. [92 pts] Linux desktop market share has hit over 10% in North America
+   https://old.reddit.com/r/linux/comments/1vcpk8i/linux_desktop_market_share_has_hit_over_10_in/
 
-8. [27 pts] A Week in Matrix
-   https://piegames.de/dumps/a-week-in-matrix/
+8. [63 pts] Unraveling the mysteries of habit formation
+   https://www.kyoto-u.ac.jp/en/research-news/2026-07-28
 
-9. [128 pts] Progressive Web Components
-   https://arielsalminen.com/2026/progressive-web-components/
+9. [50 pts] RFC 10015: Deprecating Obsolete Key Exchange Methods in TLS 1.2 and DTLS 1.2
+   https://www.rfc-editor.org/rfc/rfc10015.html
 
-10. [71 pts] Software for One
-   https://www.ajwaxman.com/writing/software-for-one
+10. [22 pts] When random.bytes() runs but doesn't work
+   https://insider.btcpp.dev/p/when-randombytes-runs-but-doesnt
 
-11. [129 pts] June in Servo: real world compat, media queries, SharedWorker, and more
-   https://servo.org/blog/2026/07/31/june-in-servo/
+11. [252 pts] AI financial advice is surprisingly good, especially if you ask right questions
+   https://mitsloan.mit.edu/ideas-made-to-matter/ai-financial-advice-surprisingly-good-especially-if-you-ask-right-questions
 
-12. [205 pts] Run Kimi K3 using 29 GB of RAM at 0.50 tok/s
-   https://github.com/sqliteai/waste
+12. [78 pts] Show HN: I'm a 15 Year Old Wannabe Engineer, This Is a Cycloidal Gearbox I Built
+   https://github.com/tom-ilan/cycloidal_gearbox
 
-13. [169 pts] Getting 25 Gbps Thunderbolt Ethernet on My Mac Studio
-   https://www.jeffgeerling.com/blog/2026/getting-25g-ethernet-mac-thunderbolt/
+13. [138 pts] Postmortem for Kernel Soundness Bug #14576
+   https://leodemoura.github.io/blog/2026-8-1-postmortem-for-kernel-soundness-bug-14576/
 
-14. [216 pts] Big Food vs. the People
-   https://www.lighthousereports.com/investigation/big-food-vs-the-people/
+14. [21 pts] Four Time Scales for Technology Development and Deployment
+   https://rodneybrooks.com/four-time-scales-for-technology-development-and-deployment/
 
-15. [37 pts] How far can you push the range of Wi-Fi connectivity in an ideal environment?
-   https://www.phidgets.com/?view=articles&article=LongRangeWifi
+15. [30 pts] Deep-sea vehicles spot 'alien' sharks deep beneath the waves in the Pacific
+   https://www.science.org/content/article/deep-sea-vehicles-spot-alien-sharks-deep-beneath-waves-pacific#
 
-16. [47 pts] Demystifying DRAM Read Disturbance: RowHammer and RowPress Phenomena
-   https://arxiv.org/abs/2607.28233
+16. [82 pts] But can your calculator run Linux?
+   https://raymii.org/s/articles/But_can_your_calculator_run_Linux.html
 
-17. [87 pts] Let's make the worst Htmx
-   https://zserge.com/posts/worst-htmx-ever/
+17. [215 pts] The Art of 64-bit Assembly
+   https://nostarch.com/art-64-bit-assembly-v2
 
-18. [513 pts] Tailscale didn't stop the Hugging Face intrusion
-   https://tailscale.com/blog/hugging-face-intrusion
+18. [42 pts] Atom is better than RSS, in ways that matter
+   https://chrismorgan.info/atom%3Erss
 
-19. [168 pts] The most official water costs $120k a gallon
-   https://signoregalilei.com/2026/07/26/the-most-official-water-costs-120000-a-gallon/
+19. [32 pts] We accidentally built an LLVM compiler for Jax
+   https://iza.ac/posts/2026/07/accidental-llvm-compiler-for-jax/
 
-20. [100 pts] Show HN: I worked on a new browser for 2 years, today it passed Acid 3
-   https://code.intellios.ai/cwbrowser/
+20. [1 pts] Morph (YC S23) Is Hiring Member of Technical Staff
+   https://www.ycombinator.com/companies/morph/jobs/0Z8vI3K-member-of-technical-staff
 
-21. [81 pts] The Absurdity of Albert Camus
-   https://www.historytoday.com/archive/portrait-author-historian/absurdity-albert-camus
+21. [486 pts] How Google helped destroy adoption of RSS feeds (2023)
+   https://openrss.org/blog/how-google-helped-destroy-adoption-of-rss-feeds
 
-22. [217 pts] Twenty-five years ago it was cryptography, today it's model weights
-   https://weeraman.com/because-we-can/
+22. [13 pts] Show HN: CostPerPrompt – Live AI API pricing and real-workload cost calculators
+   https://costperprompt.com/
 
-23. [1 pts] Loops (YC W22) Is Hiring a Product Educator
-   https://www.ycombinator.com/companies/loops/jobs/zqUnwqB-product-educator-technical-content-creator
+23. [4 pts] The Cipher Behind QSYRUPWD: Reconstructing IBM i Password Hashes
+   https://blog.silentsignal.eu/2026/07/28/the-cipher-behind-qsyrupwd-reconstructing-ibm-i-password-hashes/
 
-24. [37 pts] The First Transatlantic Telegraph Cable Was a Bold, Beautiful Failure
-   https://spectrum.ieee.org/the-first-transatlantic-telegraph-cable-was-a-bold-beautiful-failure
+24. [4 pts] P[drive failure]: how reliable is your NAS?
+   https://khz.ac/low-voltage/drive-failure.html
 
-25. [7 pts] Attention Decode on AMD MI450 GPUs: A Gluon Kernel Optimization Guide
-   https://rocm.blogs.amd.com/software-tools-optimization/gluon-attention-decode-mi450/README.html
+25. [130 pts] Kenji/Serious Eats – 30-Min Pressure Cooker Pho Ga
+   https://www.seriouseats.com/30-minute-pressure-cooker-pho-ga-recipe
 
-26. [141 pts] Is AI reasoning right for the wrong reasons?
-   https://www.quantamagazine.org/is-ai-reasoning-right-for-the-wrong-reasons-20260731/
+26. [66 pts] Nyctography: A substituton cypher by Lewis Carroll
+   https://en.wikipedia.org/wiki/Nyctography
 
-27. [64 pts] Using the railway network as a flatbed scanner [video]
-   https://media.ccc.de/v/emf2026-74-1-using-the-railway-network-as-a-flatbed-scanner
+27. [82 pts] Plug-in solar is coming. Plug-in batteries should follow
+   https://www.regen.co.uk/insights/plug-in-solar-is-coming-plug-in-batteries-should-follow
 
-28. [70 pts] Authorize, don't authenticate
-   https://blog.marcua.net/2026/07/31/authorize-dont-authenticate.html
+28. [254 pts] NetBSD 11.0
+   https://blog.netbsd.org/tnf/entry/netbsd_11_0_released
 
-29. [142 pts] Golang proposal: container/: generic collection types
-   https://github.com/golang/go/issues/80590
+29. [92 pts] Explorative modeling: Train on the best of K guesses
+   https://alexiglad.github.io/blog/2026/explorative_modeling/
 
-30. [110 pts] Everyone is building LLM routers, we deprecated ours
-   https://manifest.build/blog/why-we-deprecated-our-llm-router/
+30. [86 pts] CISA Alert: Water Sector PLC Targeting
+   https://censys.com/blog/cisa-alert-water-tower-plc-targeting/
 
 
 === RSS ===
@@ -106,56 +106,17 @@
 [ai] Anthropic News: Ask Claude about the Anthropic Economic Index
   https://www.anthropic.com/news/anthropic-economic-index-connector
 
-[ai] Simon Willison: deepseek-ai/DeepSeek-V4-Flash-0731
-  https://simonwillison.net/2026/Jul/31/deepseek-v4-flash-0731/#atom-everything
+[health] Peter Attia: Zero coronary calcium does not mean zero cardiovascular risk
+  https://peterattiamd.com/why-zero-coronary-calcium-does-not-mean-zero-risk/
 
-[ai] Simon Willison: Stateless MCP has recaptured my interest (and inspired mcp-explorer and datasette-mcp)
-  https://simonwillison.net/2026/Jul/31/stateless-mcp/#atom-everything
-
-[ai] Simon Willison: llm-mcp-client 0.1a0
-  https://simonwillison.net/2026/Jul/31/llm-mcp-client/#atom-everything
-
-[ai] Simon Willison: Oxide and Friends: The Open Weight Revolution with Simon Willison
-  https://simonwillison.net/2026/Jul/31/oxide-and-friends/#atom-everything
-
-[ai] Simon Willison: smevals - a small eval suite for evaluating models, prompts, and harnesses
-  https://simonwillison.net/2026/Jul/31/smevals/#atom-everything
-
-[wisdom] Figs in Winter (Pigliucci): Vitamin H: the science of happiness is weaker than you think
-  https://figsinwintertime.substack.com/p/vitamin-h-the-science-of-happiness
-
-[wisdom] Figs in Winter (Pigliucci): On contentment
-  https://figsinwintertime.substack.com/p/on-contentment
-
-[wisdom] Figs in Winter (Pigliucci): Suggested Readings
-  https://figsinwintertime.substack.com/p/suggested-readings-830
-
-[ideas] Paul Graham: How to Earn a Billion Dollars
-  https://paulgraham.com/earn.html
+[ideas] Collaborative Fund (Morgan Housel): Philanthropy's other third wave
+  https://collabfund.substack.com/p/philanthropys-other-third-wave
 
 [bitcoin] The Pomp Letter: The most important chart in the stock market has nothing to do with AI
   https://pomp.substack.com/p/the-most-important-chart-in-the-stock
 
 [bitcoin] The Pomp Letter: The AI Trade Isn’t Over, So Investors Will BTFD
   https://pomp.substack.com/p/the-ai-trade-isnt-over-so-investors
-
-[ideas] Astral Codex Ten: Your Book Review: The Epic Of Gilgamesh
-  https://www.astralcodexten.com/p/your-book-review-the-epic-of-gilgamesh
-
-[ideas] Astral Codex Ten: Links For July 2026 (Part 2)
-  https://www.astralcodexten.com/p/links-for-july-2026-part-2
-
-[ideas] Astral Codex Ten: Highlights From The Discourse On The Hugging Face Incident
-  https://www.astralcodexten.com/p/highlights-from-the-discourse-on
-
-[ideas] Collaborative Fund (Morgan Housel): Philanthropy's other third wave
-  https://collabfund.substack.com/p/philanthropys-other-third-wave
-
-[wisdom] Donald Robertson: Introducing The Stoic Mind
-  https://donaldrobertson.substack.com/p/introducing-the-stoic-mind
-
-[wisdom] Donald Robertson: How to Think Like a Roman Emperor: A Talk and Book Signing in Montreal’s West Island
-  https://donaldrobertson.substack.com/p/how-to-think-like-a-roman-emperor-454
 
 [bitcoin] Bitcoin Magazine: Coldcard Bitcoin Thief Likely Used Top Blockchain Services Provider: Report
   https://bitcoinmagazine.com/news/coldcard-thief-used-blockchain-service
@@ -181,6 +142,21 @@
 [bitcoin] Bitcoin Magazine: Bitcoin Treasury Strategy Posts $8.2B Loss As BTC Price Suffered
   https://bitcoinmagazine.com/news/bitcoin-treasury-strategy-posts-loss
 
+[wisdom] Figs in Winter (Pigliucci): Video: How to be a (happy) Skeptic
+  https://figsinwintertime.substack.com/p/video-how-to-be-a-happy-skeptic
+
+[wisdom] Figs in Winter (Pigliucci): Vitamin H: the science of happiness is weaker than you think
+  https://figsinwintertime.substack.com/p/vitamin-h-the-science-of-happiness
+
+[wisdom] Figs in Winter (Pigliucci): On contentment
+  https://figsinwintertime.substack.com/p/on-contentment
+
+[ideas] Paul Graham: How to Earn a Billion Dollars
+  https://paulgraham.com/earn.html
+
+[ai] OpenAI Blog: Ten advances in mathematics and theoretical computer science
+  https://openai.com/index/ten-advances-in-mathematics
+
 [ai] OpenAI Blog: Advancing responsible AI across Europe
   https://openai.com/index/advancing-responsible-ai-across-europe
 
@@ -193,181 +169,205 @@
 [ai] OpenAI Blog: Disrupting a Criminal Scam Operation
   https://openai.com/index/disrupting-malicious-uses-of-ai-criminal-scam-operation
 
-[ai] OpenAI Blog: Advancing the price-performance frontier with GPT-5.6
-  https://openai.com/index/advancing-the-price-performance-frontier-with-gpt-5-6
-
 [wisdom] Farnam Street: The Psychology Behind Building Billion-Dollar Companies | Brad Jacobs
   https://fs.blog/knowledge-project-podcast/brad-jacobs-2/
 
-[ideas] Marginal Revolution: Emergent Ventures India, 18th cohort
-  https://marginalrevolution.com/marginalrevolution/2026/08/emergent-ventures-india-18th-cohort.html?utm_source=rss&utm_medium=rss&utm_campaign=emergent-ventures-india-18th-cohort
+[wisdom] Donald Robertson: Introducing The Stoic Mind
+  https://donaldrobertson.substack.com/p/introducing-the-stoic-mind
 
-[ideas] Marginal Revolution: *Redefining Global Health in the 21st Century*
-  https://marginalrevolution.com/marginalrevolution/2026/07/redefining-global-health-in-the-21st-century.html?utm_source=rss&utm_medium=rss&utm_campaign=redefining-global-health-in-the-21st-century
+[wisdom] Donald Robertson: How to Think Like a Roman Emperor: A Talk and Book Signing in Montreal’s West Island
+  https://donaldrobertson.substack.com/p/how-to-think-like-a-roman-emperor-454
 
-[ideas] Marginal Revolution: Friday assorted links
-  https://marginalrevolution.com/marginalrevolution/2026/07/friday-assorted-links-583.html?utm_source=rss&utm_medium=rss&utm_campaign=friday-assorted-links-583
+[ideas] Marginal Revolution: Mexico (Taiwan) fact of the day
+  https://marginalrevolution.com/marginalrevolution/2026/08/mexico-taiwan-fact-of-the-day.html?utm_source=rss&utm_medium=rss&utm_campaign=mexico-taiwan-fact-of-the-day
 
-[ideas] Marginal Revolution: An unprecedented weapon?
-  https://marginalrevolution.com/marginalrevolution/2026/07/an-unprecedented-weapon.html?utm_source=rss&utm_medium=rss&utm_campaign=an-unprecedented-weapon
+[ideas] Marginal Revolution: Rothko show in Florence
+  https://marginalrevolution.com/marginalrevolution/2026/08/rothko-show-in-florence.html?utm_source=rss&utm_medium=rss&utm_campaign=rothko-show-in-florence
 
-[ideas] Marginal Revolution: The wisdom of Eli Dourado
-  https://marginalrevolution.com/marginalrevolution/2026/07/the-wisdom-of-eli-dourado.html?utm_source=rss&utm_medium=rss&utm_campaign=the-wisdom-of-eli-dourado
+[ideas] Marginal Revolution: Saturday assorted links
+  https://marginalrevolution.com/marginalrevolution/2026/08/saturday-assorted-links-572.html?utm_source=rss&utm_medium=rss&utm_campaign=saturday-assorted-links-572
+
+[ideas] Marginal Revolution: More math breakthroughs from  GPT models
+  https://marginalrevolution.com/marginalrevolution/2026/08/more-math-breakthroughs-from-gpt-models.html?utm_source=rss&utm_medium=rss&utm_campaign=more-math-breakthroughs-from-gpt-models
+
+[ideas] Marginal Revolution: Immigration and Macroeconomic Outcomes in OECD Countries
+  https://marginalrevolution.com/marginalrevolution/2026/08/immigration-and-macroeconomic-outcomes-in-oecd-countries.html?utm_source=rss&utm_medium=rss&utm_campaign=immigration-and-macroeconomic-outcomes-in-oecd-countries
+
+[ai] Simon Willison: Open letters about AI development
+  https://simonwillison.net/2026/Aug/2/open-letters/#atom-everything
+
+[ai] Simon Willison: July 2026 newsletter
+  https://simonwillison.net/2026/Aug/2/july-newsletter/#atom-everything
+
+[ai] Simon Willison: Quoting Greg Brockman
+  https://simonwillison.net/2026/Aug/1/greg-brockman/#atom-everything
+
+[ai] Simon Willison: datasette-apps 0.2a0
+  https://simonwillison.net/2026/Aug/1/datasette-apps/#atom-everything
+
+[ai] Simon Willison: Ten advances in mathematics and theoretical computer science
+  https://simonwillison.net/2026/Aug/1/ten-advances-in-mathematics/#atom-everything
+
+[ideas] Astral Codex Ten: Your Book Review: The Epic Of Gilgamesh
+  https://www.astralcodexten.com/p/your-book-review-the-epic-of-gilgamesh
+
+[ideas] Astral Codex Ten: Links For July 2026 (Part 2)
+  https://www.astralcodexten.com/p/links-for-july-2026-part-2
 
 [health] Stronger by Science: Is the Correlation Between Hypertrophy and Strength Gains Stronger Than We Realized?
   https://www.strongerbyscience.com/correlation-strength-hypertrophy/
 
 
 === YOUTUBE ===
-Anthony Chaffee MD: Carnivore LIVE Q&A with Dr Anthony Chaffee, August 1, 2026
-  https://www.youtube.com/watch?v=0IB4TiXtZ6s
-  Transcript: NO
-
 Ken Berry MD: Monday Night Live with Dr. Berry & Nurse Neisha
   https://www.youtube.com/watch?v=LUdCke0FuM8
   Transcript: NO
 
 Ken Berry MD: Carnivore on a Tight Budget: 10 Cheap Foods That Still Deliver Nutrition
   https://www.youtube.com/watch?v=GE3YSy2dbPU
+  Transcript: yes
+
+Anthony Chaffee MD: Plants Are Medicine, Not Food #shorts
+  https://www.youtube.com/shorts/PY_DVQrnSPo
+  Transcript: yes
+
+Anthony Chaffee MD: Carnivore LIVE Q&A with Dr Anthony Chaffee, August 1, 2026
+  https://www.youtube.com/watch?v=0IB4TiXtZ6s
   Transcript: NO
-
-Ken Berry MD: How Big pharma Turns Healthy People Into Lifelong Customers
-  https://www.youtube.com/watch?v=2LqmlWpaiEE
-  Transcript: yes
-
-Ken Berry MD: What's your favorite fat to cook with? Mine? A big spoonful of bacon grease. #Eatyourmeat
-  https://www.youtube.com/shorts/Dmaf5_R-kiA
-  Transcript: yes
-
-Ken Berry MD: Monday Night Live Q&A with Dr. Ken Berry & @NeishaSalasBerry
-  https://www.youtube.com/watch?v=aeeo_GFJy68
-  Transcript: yes
 
 GTO Wizard: When Pros Deviate from The Optimal Play
   https://www.youtube.com/shorts/pfVJcOhXvcc
   Transcript: yes
 
-GTO Wizard: Joey Ingram on Big Blind Defense (PLO)
-  https://www.youtube.com/shorts/9_BjQ-xMFrk
-  Transcript: NO
-
-Nick Norwitz: Ranking Brain Health Supplements (S to F-Tier)
-  https://www.youtube.com/shorts/mKBz0xN1zxo
+Paul Saladino MD: These foods will change your life
+  https://www.youtube.com/shorts/dhzkUFzkyFI
   Transcript: yes
 
-Jared Alderman: Is there only one right answer?
-  https://www.youtube.com/shorts/5OfoGVYi8O0
+Paul Saladino MD: The truth about sunlight
+  https://www.youtube.com/shorts/r51Xq80FRwY
   Transcript: yes
 
-Jared Alderman: Surviving the WSOP Main Event | Brock Wilson
-  https://www.youtube.com/watch?v=7OdiWO3HdhM
+Paul Saladino MD: 20 years old McDonald’s!?
+  https://www.youtube.com/shorts/nxVQf7TkRUQ
   Transcript: yes
 
-Jared Alderman: Can You Trust Your Poker Results?
-  https://www.youtube.com/watch?v=_NN3J2sn7Yk
+Paul Saladino MD: Top 10 Sam's Club Foods on a Budget (Animal-Based)
+  https://www.youtube.com/watch?v=bATEplYVR08
   Transcript: yes
 
-Jared Alderman: Uri Peleg on what mistakes matter #shorts
-  https://www.youtube.com/shorts/DXOQpjG-zWE
-  Transcript: yes
-
-Thomas DeLauer: Exercise Physicist: The Simplest Way to Build Muscle and get Stronger is NOT More Volume
-  https://www.youtube.com/watch?v=G5k0swuA0qw
-  Transcript: yes
-
-Thomas DeLauer: 3g Before Exercise DOUBLES the Rate of Fat Loss (don't skip it)
-  https://www.youtube.com/watch?v=aX5o4FzHPF0
-  Transcript: yes
-
-Thomas DeLauer: You Don't Need Fiber - 1 Scoop Stops Wrinkles and Repairs Gut Cells
-  https://www.youtube.com/watch?v=uOF7JqB3Q-c
-  Transcript: yes
-
-Thomas DeLauer: 21 Things Blocking Belly Fat Loss You Never Would Expect
-  https://www.youtube.com/watch?v=TbmUlYGa5PM
+Paul Saladino MD: Dogs know something we’ve forgotten
+  https://www.youtube.com/shorts/2Yn9y-9qJYE
   Transcript: yes
 
 Joe Rogan: Joe Rogan Experience #2534 - Annie Jacobsen
   https://www.youtube.com/watch?v=ZACmIrFbfPU
   Transcript: yes
 
-Joe Rogan: Joe Rogan Experience #2533 - Diana Pasulka
-  https://www.youtube.com/watch?v=wo6K0Bav3K0
-  Transcript: yes
-
-Joe Rogan: Joe Rogan Experience #2532 - Tim Robbins
-  https://www.youtube.com/watch?v=ur_-7JONZlY
+Nick Norwitz: Ranking Brain Health Supplements (S to F-Tier)
+  https://www.youtube.com/shorts/mKBz0xN1zxo
   Transcript: yes
 
 GTO Lab: Some heads-up hands are too weak to limp-call and too good to limp-fold.
   https://www.youtube.com/shorts/Wn6sj_p4KU4
   Transcript: yes
 
-GTO Lab: Alex Kulev is back inside GTO LAB PRO with a new 4-part series.
-  https://www.youtube.com/shorts/DMw28oREyWg
+Lex Fridman: Gary Gallagher: American Civil War, Slavery, Lincoln, Grant & Lee | Lex Fridman Podcast #499
+  https://www.youtube.com/watch?v=XyXBwO5jYpw
   Transcript: yes
 
-GTO Lab: A small turn donk is information, not a reason to panic.
-  https://www.youtube.com/shorts/pqsxrdnsCMQ
+Thomas DeLauer: This Increased Visceral Fat 11% in Literally Days (Stop Doing it)
+  https://www.youtube.com/watch?v=oTqrhFq6gc4
   Transcript: yes
 
-GTO Lab: Mystery Bounty: Covering both blinds changes the button's VPIP strategy.
-  https://www.youtube.com/shorts/21gdpZ0RyaE
+Dr. Sten Ekberg: #1 Best Protein Hack To Lose Weight & Belly Fat
+  https://www.youtube.com/watch?v=5DMGMFjsDZk
   Transcript: yes
 
-GTO Lab: Micro-stack spots can look too loose and still be printing.
-  https://www.youtube.com/shorts/9e5oJ09cRtw
+Jared Alderman: What does disarming bombs and poker have in common? #shorts
+  https://www.youtube.com/shorts/1GIC1ZGO_kA
   Transcript: yes
 
 Peter Attia: Women & fitness after 50: balancing zone 2 and lifting
   https://www.youtube.com/shorts/fZC-MIO6zNI
   Transcript: yes
 
-Peter Attia: How people over 65 can reduce their fall risk
-  https://www.youtube.com/shorts/tHZ59dM1mcw
-  Transcript: yes
-
-Renaissance Periodization: 99% of Lifters Prioritize Shoulders WRONG
-  https://www.youtube.com/shorts/rC7avGttb9Q
-  Transcript: yes
-
-Renaissance Periodization: How Hany Rambod Changed the Tren Twins
-  https://www.youtube.com/shorts/kxrjn-ms_c0
-  Transcript: yes
-
-Renaissance Periodization: Exercise Scientist Critiques Hany Rambod: The Greatest Bodybuilding Coach Ever?
-  https://www.youtube.com/watch?v=TpUhvFstH8c
-  Transcript: yes
-
-Renaissance Periodization: The Mirror Knows You're Lying
-  https://www.youtube.com/shorts/_0SepToFviw
-  Transcript: yes
-
-Renaissance Periodization: Huge Bulks Are A Disaster
-  https://www.youtube.com/shorts/jcvVMmLWr10
-  Transcript: yes
-
-Renaissance Periodization: Most People Would Quit Training After This
-  https://www.youtube.com/shorts/4j86_dLY8DY
-  Transcript: NO
-
-Renaissance Periodization: The Military’s Steroid Soldier Plan: Smart or Insane?
-  https://www.youtube.com/watch?v=_PGJPasgNCU
+Renaissance Periodization: This Is Why Hany Rambod Is the GOAT Coach
+  https://www.youtube.com/shorts/wMe-jXI7ws8
   Transcript: yes
 
 Andrew Huberman: My book Protocols releases September 15th
   https://www.youtube.com/shorts/vmRWUqkTtKA
   Transcript: yes
 
-Andrew Huberman: Essentials: How to Become Resilient, Forge Your Identity & Lead Others | Jocko Willink
-  https://www.youtube.com/watch?v=lxDf8uEypJU
+ModernWisdom: The Mindset That Changes Your Life
+  https://www.youtube.com/shorts/agUV7cIGfJc
   Transcript: yes
 
-ThinkingPoker: Bankroll Management - Thinking Poker
-  https://www.youtube.com/watch?v=6w8amkDkeVw
+ModernWisdom: Setting The Bar Unrealistically High Does Not Increase Your Performance
+  https://www.youtube.com/shorts/xcw8DQcXFOw
+  Transcript: yes
+
+ModernWisdom: Why The Odyssey Still Matters Today
+  https://www.youtube.com/shorts/m_h01cD2vxk
+  Transcript: yes
+
+ModernWisdom: Ex-Military Hacker: The Secret World Of Government Surveillance - Bill Thompson
+  https://www.youtube.com/watch?v=cx4e3FaInA4
+  Transcript: NO
+
+ModernWisdom: Billionaires Have An Escape Plan
+  https://www.youtube.com/shorts/F3ZIMhRO5Ew
+  Transcript: yes
+
+ModernWisdom: The Curse Of Psychological Strength
+  https://www.youtube.com/shorts/6co6gnAcBCU
+  Transcript: yes
+
+ModernWisdom: Why Unsuccessful People Chase Virtues
+  https://www.youtube.com/shorts/m0zi6XsyTtA
+  Transcript: yes
+
+ModernWisdom: The Amish Trick Everyone Falls For
+  https://www.youtube.com/watch?v=Cb1F97YYLJ0
+  Transcript: yes
+
+ModernWisdom: What Used To Make A Man Acceptable Now Makes You Extraordinary
+  https://www.youtube.com/shorts/8_p4zXTmqlU
+  Transcript: yes
+
+ModernWisdom: Why Success Is So Lonely
+  https://www.youtube.com/shorts/i02fc1hOPiU
+  Transcript: yes
+
+ModernWisdom: Proof That The Lonely Chapter Works - Jett Franzen
+  https://www.youtube.com/watch?v=D60hHjROMts
+  Transcript: yes
+
+ModernWisdom: The Reality Of Growing Up With Autism
+  https://www.youtube.com/shorts/h3YYG29C1mo
+  Transcript: yes
+
+ModernWisdom: The Elimination Of Alternatives
+  https://www.youtube.com/shorts/IKOHf608_c8
+  Transcript: yes
+
+ModernWisdom: The Free Fuel That Makes Discipline Easy
+  https://www.youtube.com/watch?v=0GISrdSHUuk
+  Transcript: yes
+
+ModernWisdom: The Shocking Change For Modern Day Dads
+  https://www.youtube.com/shorts/ZPyy02eyuPU
   Transcript: yes
 
 Ben Felix: The Biggest Myths in Personal Finance
   https://www.youtube.com/watch?v=3u-mP3C26mg
+  Transcript: yes
+
+Mind The Game: Weeks before making his decision, LeBron gave the 76ers their flowers. Now add JB and The King. 😳
+  https://www.youtube.com/shorts/0E99aloV2ws
+  Transcript: yes
+
+ThinkingPoker: Bankroll Management - Thinking Poker
+  https://www.youtube.com/watch?v=6w8amkDkeVw
   Transcript: yes
 

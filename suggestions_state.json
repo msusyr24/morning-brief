@@ -1,11 +1,11 @@
 {
   "current_suggestion": {
-    "channel_name": "Jonathan Little - Poker Coaching",
-    "channel_id": "UCOWqXBOz_hoBtaqwWN_kaQQ",
-    "youtube_handle": "@JonathanLittlePoker",
-    "pitch": "You already follow GTO Wizard and GTO Lab for solver-based theory, but Jonathan Little's channel fills a gap by bridging GTO concepts with live and tournament poker exploits \u2014 a perspective your current lineup underweights. His hand history reviews and coaching sessions show how to apply theoretical frameworks against population tendencies rather than assuming a solver-perfect opponent, which is a meaningful strategic layer. Format is primarily solo analysis and hand breakdowns, with enough rigor to complement rather than duplicate what GTO Wizard covers."
+    "channel_name": "TEDx Talks \u2013 Russ Roberts (EconTalk host solo appearances)",
+    "channel_id": "UCnUYZLuoy1rq1aVMwx4aTzw",
+    "youtube_handle": "@RussRoberts",
+    "pitch": "Roberts approaches economics, philosophy, and decision-making through a lens explicitly informed by Adam Smith's 'The Theory of Moral Sentiments' \u2014 not just 'Wealth of Nations' \u2014 which means he bridges monetary/macro thinking with Stoic-adjacent questions about virtue, what makes a good life, and how to act under uncertainty. His solo channel is separate from EconTalk and features shorter-form essays and talks on humility in reasoning, the limits of data, and meaning \u2014 territory your current channels (Ben Felix for finance, Huberman for health, Lex for philosophy) each touch but nobody owns. Calm, rigorous, no culture-war bait."
   },
-  "shown_count": 3,
+  "shown_count": 1,
   "history": [
     "Brad Kearns",
     "Dr. Layne Norton",
@@ -46,6 +46,7 @@
     "Poker Strategy",
     "Jonathan Jaffe",
     "Oral Lee Brown (use: 'William Green \u2013 Richer Wiser Happier')",
-    "Jonathan Little - Poker Coaching"
+    "Jonathan Little - Poker Coaching",
+    "TEDx Talks \u2013 Russ Roberts (EconTalk host solo appearances)"
   ]
 }
