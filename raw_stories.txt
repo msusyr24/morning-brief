@@ -1,93 +1,93 @@
 === HACKER NEWS ===
-1. [68 pts] Running Kimi K3 on MI355X at Better Performance per Dollar Than B300
-   https://www.wafer.ai/blog/kimi-k3-mi355x
+1. [392 pts] Qwen3.8-Max: A New Bar for Coding and Cowork
+   https://qwen.ai/blog?id=qwen3.8
 
-2. [130 pts] Go 1.27 Interactive Tour
-   https://victoriametrics.com/blog/go-1-27/index.html
+2. [12 pts] Don't Be a Meat Proxy
+   https://gruhn.me/blog/2026-08-03/
 
-3. [37 pts] MkLinux and the pimped-out Apple Workgroup Server 9150
-   http://oldvcr.blogspot.com/2026/08/mklinux-and-pimped-out-apple-workgroup.html
+3. [167 pts] Show HN: Isopolis – Isometric pixel map of SF
+   https://sf.isopolis.city/
 
-4. [262 pts] Seedance 2.5
-   https://seed.bytedance.com/en/blog/one-take-creation-flexible-referencing-introducing-seedance-2-5
+4. [534 pts] Karpathy’s Pelican
+   https://twitter.com/karpathy/status/2083749667410727319
 
-5. [268 pts] Diátaxis
-   https://diataxis.fr/
+5. [28 pts] AI migrated legacy COBOL programs to Java, bugs included
+   https://arxiv.org/abs/2607.28271
 
-6. [41 pts] ASRock BC-250: Building the Budget Steam Machine
-   https://plug-world.com/posts/2026/asrock-bc250-the-budget-steam-machine/
+6. [58 pts] CP/M-386 – CP/M for 386 protected mode, derived from CP/M‑68K
+   https://github.com/johnsonjh/cpm386
 
-7. [92 pts] Linux desktop market share has hit over 10% in North America
-   https://old.reddit.com/r/linux/comments/1vcpk8i/linux_desktop_market_share_has_hit_over_10_in/
+7. [27 pts] Why we write our own C and C++ inference engines
+   https://localai.io/blog/why-we-write-our-own-engines/
 
-8. [63 pts] Unraveling the mysteries of habit formation
-   https://www.kyoto-u.ac.jp/en/research-news/2026-07-28
+8. [14 pts] Convergence Is Not Enough
+   https://www.inkandswitch.com/livelymerge/notebook/lm-02/
 
-9. [50 pts] RFC 10015: Deprecating Obsolete Key Exchange Methods in TLS 1.2 and DTLS 1.2
-   https://www.rfc-editor.org/rfc/rfc10015.html
+9. [92 pts] Autoregressive Language Model on the 6502 Processor
+   https://mattbeton.com/blog/bitnet-6502.html
 
-10. [22 pts] When random.bytes() runs but doesn't work
-   https://insider.btcpp.dev/p/when-randombytes-runs-but-doesnt
+10. [208 pts] Show HN: Kakehashi – Experimental userspace to run macOS binaries on Linux ARM
+   https://github.com/wie-project/kakehashi
 
-11. [252 pts] AI financial advice is surprisingly good, especially if you ask right questions
-   https://mitsloan.mit.edu/ideas-made-to-matter/ai-financial-advice-surprisingly-good-especially-if-you-ask-right-questions
+11. [90 pts] Show HN: ssh ssh.place
+   https://ssh.place
 
-12. [78 pts] Show HN: I'm a 15 Year Old Wannabe Engineer, This Is a Cycloidal Gearbox I Built
-   https://github.com/tom-ilan/cycloidal_gearbox
+12. [173 pts] Note-Taking and Personal Knowledge Management
+   https://unattributed.cc/note-taking-and-personal-knowledge-management
 
-13. [138 pts] Postmortem for Kernel Soundness Bug #14576
-   https://leodemoura.github.io/blog/2026-8-1-postmortem-for-kernel-soundness-bug-14576/
+13. [190 pts] Developers are attached to tools because tools encode trust
+   https://stackoverflow.blog/2026/07/29/developers-are-attached-to-tools-because-tools-encode-trust/
 
-14. [21 pts] Four Time Scales for Technology Development and Deployment
-   https://rodneybrooks.com/four-time-scales-for-technology-development-and-deployment/
+14. [165 pts] SwiftUI After 7 Years
+   https://ykvm.com/2026/07/swiftui-a-story-of-mediocrity/
 
-15. [30 pts] Deep-sea vehicles spot 'alien' sharks deep beneath the waves in the Pacific
-   https://www.science.org/content/article/deep-sea-vehicles-spot-alien-sharks-deep-beneath-waves-pacific#
+15. [80 pts] The myth of Snow Leopard
+   https://www.rubenerd.au/the-myth-of-snow-leopard/
 
-16. [82 pts] But can your calculator run Linux?
-   https://raymii.org/s/articles/But_can_your_calculator_run_Linux.html
+16. [73 pts] Show HN: A Handwritten Blogging Platform
+   https://handwritten.blog/
 
-17. [215 pts] The Art of 64-bit Assembly
-   https://nostarch.com/art-64-bit-assembly-v2
+17. [53 pts] The Computational Theory of Mind (2015)
+   https://plato.stanford.edu/entries/computational-mind/
 
-18. [42 pts] Atom is better than RSS, in ways that matter
-   https://chrismorgan.info/atom%3Erss
+18. [27 pts] RFC 9851: TLS 1.2 is in Feature Freeze
+   https://www.rfc-editor.org/rfc/rfc9851.html
 
-19. [32 pts] We accidentally built an LLVM compiler for Jax
-   https://iza.ac/posts/2026/07/accidental-llvm-compiler-for-jax/
+19. [208 pts] How the words we teach English language learners changed
+   https://pudding.cool/2026/07/essential-words/
 
-20. [1 pts] Morph (YC S23) Is Hiring Member of Technical Staff
-   https://www.ycombinator.com/companies/morph/jobs/0Z8vI3K-member-of-technical-staff
+20. [17 pts] Cro – elegant reactive services in Raku
+   https://cro.raku.org/
 
-21. [486 pts] How Google helped destroy adoption of RSS feeds (2023)
-   https://openrss.org/blog/how-google-helped-destroy-adoption-of-rss-feeds
+21. [130 pts] My personal AI benchmark: “Generate an SVG of a frog with a Habsburg jaw”
+   https://frogs.vaguespac.es/
 
-22. [13 pts] Show HN: CostPerPrompt – Live AI API pricing and real-workload cost calculators
-   https://costperprompt.com/
+22. [71 pts] Show HN: Make your Framework 12 sound like a creaky door
+   https://github.com/ArcaEge/creakwork12
 
-23. [4 pts] The Cipher Behind QSYRUPWD: Reconstructing IBM i Password Hashes
-   https://blog.silentsignal.eu/2026/07/28/the-cipher-behind-qsyrupwd-reconstructing-ibm-i-password-hashes/
+23. [112 pts] Show HN: NixOS-DGX-Spark – Nix and NixOS on the DGX Spark
+   https://github.com/graham33/nixos-dgx-spark
 
-24. [4 pts] P[drive failure]: how reliable is your NAS?
-   https://khz.ac/low-voltage/drive-failure.html
+24. [129 pts] When transit passes were designed by hand (2022)
+   https://letterformarchive.org/news/milwaukee-transit-passes/
 
-25. [130 pts] Kenji/Serious Eats – 30-Min Pressure Cooker Pho Ga
-   https://www.seriouseats.com/30-minute-pressure-cooker-pho-ga-recipe
+25. [100 pts] Rooting, firmware analysis and persistent credentials of TP-Link TL-841N
+   https://blog.juni-mp4.com/posts/42/rooting-the-tplink-tl841n-pt1/
 
-26. [66 pts] Nyctography: A substituton cypher by Lewis Carroll
-   https://en.wikipedia.org/wiki/Nyctography
+26. [128 pts] Fasttracker II clone in C using SDL 2
+   https://16-bits.org/ft2.php
 
-27. [82 pts] Plug-in solar is coming. Plug-in batteries should follow
-   https://www.regen.co.uk/insights/plug-in-solar-is-coming-plug-in-batteries-should-follow
+27. [126 pts] Show HN: Shitty – fast terminal. Memory-unsafe and faster than yours
+   https://github.com/pg83/shitty
 
-28. [254 pts] NetBSD 11.0
-   https://blog.netbsd.org/tnf/entry/netbsd_11_0_released
+28. [188 pts] Meshdiff – visually compare two STL versions in the browser, client-side
+   https://meshdiff.com/
 
-29. [92 pts] Explorative modeling: Train on the best of K guesses
-   https://alexiglad.github.io/blog/2026/explorative_modeling/
+29. [86 pts] Read the novels and forget everything else
+   https://hedgehogreview.com/web-features/thr/posts/read-the-novels-and-forget-everything-else
 
-30. [86 pts] CISA Alert: Water Sector PLC Targeting
-   https://censys.com/blog/cisa-alert-water-tower-plc-targeting/
+30. [47 pts] TinyNES Review – A Super Niche NES Console
+   https://blog.lon.tv/2023/02/05/tinynes-review-a-super-niche-nes-console/
 
 
 === RSS ===
@@ -106,17 +106,59 @@
 [ai] Anthropic News: Ask Claude about the Anthropic Economic Index
   https://www.anthropic.com/news/anthropic-economic-index-connector
 
+[health] Peter Attia: #402 ‒ NMR blood analysis: how heart disease risk, insulin resistance, inflammation, and mortality risk can be assessed from a single blood sample | Jim Otvos, Ph.D.
+  https://peterattiamd.com/jimotvos/
+
 [health] Peter Attia: Zero coronary calcium does not mean zero cardiovascular risk
   https://peterattiamd.com/why-zero-coronary-calcium-does-not-mean-zero-risk/
+
+[ideas] Paul Graham: How to Earn a Billion Dollars
+  https://paulgraham.com/earn.html
+
+[wisdom] Donald Robertson: Introducing The Stoic Mind
+  https://donaldrobertson.substack.com/p/introducing-the-stoic-mind
+
+[wisdom] Donald Robertson: How to Think Like a Roman Emperor: A Talk and Book Signing in Montreal’s West Island
+  https://donaldrobertson.substack.com/p/how-to-think-like-a-roman-emperor-454
 
 [ideas] Collaborative Fund (Morgan Housel): Philanthropy's other third wave
   https://collabfund.substack.com/p/philanthropys-other-third-wave
 
-[bitcoin] The Pomp Letter: The most important chart in the stock market has nothing to do with AI
-  https://pomp.substack.com/p/the-most-important-chart-in-the-stock
+[wisdom] Figs in Winter (Pigliucci): Video: How to be a (happy) Skeptic
+  https://figsinwintertime.substack.com/p/video-how-to-be-a-happy-skeptic
 
-[bitcoin] The Pomp Letter: The AI Trade Isn’t Over, So Investors Will BTFD
-  https://pomp.substack.com/p/the-ai-trade-isnt-over-so-investors
+[wisdom] Figs in Winter (Pigliucci): Vitamin H: the science of happiness is weaker than you think
+  https://figsinwintertime.substack.com/p/vitamin-h-the-science-of-happiness
+
+[wisdom] Figs in Winter (Pigliucci): On contentment
+  https://figsinwintertime.substack.com/p/on-contentment
+
+[ai] OpenAI Blog: Ten advances in mathematics and theoretical computer science
+  https://openai.com/index/ten-advances-in-mathematics
+
+[ai] OpenAI Blog: Advancing responsible AI across Europe
+  https://openai.com/index/advancing-responsible-ai-across-europe
+
+[ai] OpenAI Blog: Building abundant intelligence
+  https://openai.com/index/building-abundant-intelligence
+
+[ai] OpenAI Blog: Univé builds an AI-ready workforce
+  https://openai.com/index/unive
+
+[ai] Simon Willison: condense-json 1.0
+  https://simonwillison.net/2026/Aug/2/condense-json/#atom-everything
+
+[ai] Simon Willison: Open letters about AI development
+  https://simonwillison.net/2026/Aug/2/open-letters/#atom-everything
+
+[ai] Simon Willison: July 2026 newsletter
+  https://simonwillison.net/2026/Aug/2/july-newsletter/#atom-everything
+
+[ai] Simon Willison: Quoting Greg Brockman
+  https://simonwillison.net/2026/Aug/1/greg-brockman/#atom-everything
+
+[ai] Simon Willison: datasette-apps 0.2a0
+  https://simonwillison.net/2026/Aug/1/datasette-apps/#atom-everything
 
 [bitcoin] Bitcoin Magazine: Coldcard Bitcoin Thief Likely Used Top Blockchain Services Provider: Report
   https://bitcoinmagazine.com/news/coldcard-thief-used-blockchain-service
@@ -136,238 +178,49 @@
 [bitcoin] Bitcoin Magazine: Coldcard Wallet Flaw Exposes Years of Bitcoin Seeds After $70M in BTC Stolen
   https://bitcoinmagazine.com/news/coldcard-wallet-exposed-after-bitcoin-hack
 
-[bitcoin] Bitcoin Magazine: ‘Bitcoin Senator’ Cynthia Lummis Blasts Democrats For Stalling Crypto Clarity Act
-  https://bitcoinmagazine.com/news/cynthia-lummis-blasts-democrats-on-clarity
+[ideas] Marginal Revolution: *Rome’s Age of Revolution*
+  https://marginalrevolution.com/marginalrevolution/2026/08/romes-age-of-revolution.html?utm_source=rss&utm_medium=rss&utm_campaign=romes-age-of-revolution
 
-[bitcoin] Bitcoin Magazine: Bitcoin Treasury Strategy Posts $8.2B Loss As BTC Price Suffered
-  https://bitcoinmagazine.com/news/bitcoin-treasury-strategy-posts-loss
+[ideas] Marginal Revolution: Sunday assorted links
+  https://marginalrevolution.com/marginalrevolution/2026/08/sunday-assorted-links-578.html?utm_source=rss&utm_medium=rss&utm_campaign=sunday-assorted-links-578
 
-[wisdom] Figs in Winter (Pigliucci): Video: How to be a (happy) Skeptic
-  https://figsinwintertime.substack.com/p/video-how-to-be-a-happy-skeptic
+[ideas] Marginal Revolution: On the Acemoglu-Autor et.al. fertility result
+  https://marginalrevolution.com/marginalrevolution/2026/08/on-the-acemoglu-autor-et-al-fertility-result.html?utm_source=rss&utm_medium=rss&utm_campaign=on-the-acemoglu-autor-et-al-fertility-result
 
-[wisdom] Figs in Winter (Pigliucci): Vitamin H: the science of happiness is weaker than you think
-  https://figsinwintertime.substack.com/p/vitamin-h-the-science-of-happiness
-
-[wisdom] Figs in Winter (Pigliucci): On contentment
-  https://figsinwintertime.substack.com/p/on-contentment
-
-[ideas] Paul Graham: How to Earn a Billion Dollars
-  https://paulgraham.com/earn.html
-
-[ai] OpenAI Blog: Ten advances in mathematics and theoretical computer science
-  https://openai.com/index/ten-advances-in-mathematics
-
-[ai] OpenAI Blog: Advancing responsible AI across Europe
-  https://openai.com/index/advancing-responsible-ai-across-europe
-
-[ai] OpenAI Blog: Building abundant intelligence
-  https://openai.com/index/building-abundant-intelligence
-
-[ai] OpenAI Blog: Univé builds an AI-ready workforce
-  https://openai.com/index/unive
-
-[ai] OpenAI Blog: Disrupting a Criminal Scam Operation
-  https://openai.com/index/disrupting-malicious-uses-of-ai-criminal-scam-operation
-
-[wisdom] Farnam Street: The Psychology Behind Building Billion-Dollar Companies | Brad Jacobs
-  https://fs.blog/knowledge-project-podcast/brad-jacobs-2/
-
-[wisdom] Donald Robertson: Introducing The Stoic Mind
-  https://donaldrobertson.substack.com/p/introducing-the-stoic-mind
-
-[wisdom] Donald Robertson: How to Think Like a Roman Emperor: A Talk and Book Signing in Montreal’s West Island
-  https://donaldrobertson.substack.com/p/how-to-think-like-a-roman-emperor-454
+[ideas] Marginal Revolution: Taiwan fact of the day
+  https://marginalrevolution.com/marginalrevolution/2026/08/taiwan-fact-of-the-day-3.html?utm_source=rss&utm_medium=rss&utm_campaign=taiwan-fact-of-the-day-3
 
 [ideas] Marginal Revolution: Mexico (Taiwan) fact of the day
   https://marginalrevolution.com/marginalrevolution/2026/08/mexico-taiwan-fact-of-the-day.html?utm_source=rss&utm_medium=rss&utm_campaign=mexico-taiwan-fact-of-the-day
 
-[ideas] Marginal Revolution: Rothko show in Florence
-  https://marginalrevolution.com/marginalrevolution/2026/08/rothko-show-in-florence.html?utm_source=rss&utm_medium=rss&utm_campaign=rothko-show-in-florence
-
-[ideas] Marginal Revolution: Saturday assorted links
-  https://marginalrevolution.com/marginalrevolution/2026/08/saturday-assorted-links-572.html?utm_source=rss&utm_medium=rss&utm_campaign=saturday-assorted-links-572
-
-[ideas] Marginal Revolution: More math breakthroughs from  GPT models
-  https://marginalrevolution.com/marginalrevolution/2026/08/more-math-breakthroughs-from-gpt-models.html?utm_source=rss&utm_medium=rss&utm_campaign=more-math-breakthroughs-from-gpt-models
-
-[ideas] Marginal Revolution: Immigration and Macroeconomic Outcomes in OECD Countries
-  https://marginalrevolution.com/marginalrevolution/2026/08/immigration-and-macroeconomic-outcomes-in-oecd-countries.html?utm_source=rss&utm_medium=rss&utm_campaign=immigration-and-macroeconomic-outcomes-in-oecd-countries
-
-[ai] Simon Willison: Open letters about AI development
-  https://simonwillison.net/2026/Aug/2/open-letters/#atom-everything
-
-[ai] Simon Willison: July 2026 newsletter
-  https://simonwillison.net/2026/Aug/2/july-newsletter/#atom-everything
-
-[ai] Simon Willison: Quoting Greg Brockman
-  https://simonwillison.net/2026/Aug/1/greg-brockman/#atom-everything
-
-[ai] Simon Willison: datasette-apps 0.2a0
-  https://simonwillison.net/2026/Aug/1/datasette-apps/#atom-everything
-
-[ai] Simon Willison: Ten advances in mathematics and theoretical computer science
-  https://simonwillison.net/2026/Aug/1/ten-advances-in-mathematics/#atom-everything
-
 [ideas] Astral Codex Ten: Your Book Review: The Epic Of Gilgamesh
   https://www.astralcodexten.com/p/your-book-review-the-epic-of-gilgamesh
-
-[ideas] Astral Codex Ten: Links For July 2026 (Part 2)
-  https://www.astralcodexten.com/p/links-for-july-2026-part-2
 
 [health] Stronger by Science: Is the Correlation Between Hypertrophy and Strength Gains Stronger Than We Realized?
   https://www.strongerbyscience.com/correlation-strength-hypertrophy/
 
+[bitcoin] The Pomp Letter: The most important chart in the stock market has nothing to do with AI
+  https://pomp.substack.com/p/the-most-important-chart-in-the-stock
+
 
 === YOUTUBE ===
-Ken Berry MD: Monday Night Live with Dr. Berry & Nurse Neisha
-  https://www.youtube.com/watch?v=LUdCke0FuM8
-  Transcript: NO
-
-Ken Berry MD: Carnivore on a Tight Budget: 10 Cheap Foods That Still Deliver Nutrition
-  https://www.youtube.com/watch?v=GE3YSy2dbPU
-  Transcript: yes
-
-Anthony Chaffee MD: Plants Are Medicine, Not Food #shorts
-  https://www.youtube.com/shorts/PY_DVQrnSPo
-  Transcript: yes
-
-Anthony Chaffee MD: Carnivore LIVE Q&A with Dr Anthony Chaffee, August 1, 2026
-  https://www.youtube.com/watch?v=0IB4TiXtZ6s
-  Transcript: NO
-
-GTO Wizard: When Pros Deviate from The Optimal Play
-  https://www.youtube.com/shorts/pfVJcOhXvcc
-  Transcript: yes
-
-Paul Saladino MD: These foods will change your life
-  https://www.youtube.com/shorts/dhzkUFzkyFI
-  Transcript: yes
-
-Paul Saladino MD: The truth about sunlight
-  https://www.youtube.com/shorts/r51Xq80FRwY
-  Transcript: yes
-
-Paul Saladino MD: 20 years old McDonald’s!?
-  https://www.youtube.com/shorts/nxVQf7TkRUQ
-  Transcript: yes
-
-Paul Saladino MD: Top 10 Sam's Club Foods on a Budget (Animal-Based)
-  https://www.youtube.com/watch?v=bATEplYVR08
-  Transcript: yes
-
-Paul Saladino MD: Dogs know something we’ve forgotten
-  https://www.youtube.com/shorts/2Yn9y-9qJYE
-  Transcript: yes
-
-Joe Rogan: Joe Rogan Experience #2534 - Annie Jacobsen
-  https://www.youtube.com/watch?v=ZACmIrFbfPU
-  Transcript: yes
-
-Nick Norwitz: Ranking Brain Health Supplements (S to F-Tier)
-  https://www.youtube.com/shorts/mKBz0xN1zxo
-  Transcript: yes
-
-GTO Lab: Some heads-up hands are too weak to limp-call and too good to limp-fold.
-  https://www.youtube.com/shorts/Wn6sj_p4KU4
-  Transcript: yes
-
-Lex Fridman: Gary Gallagher: American Civil War, Slavery, Lincoln, Grant & Lee | Lex Fridman Podcast #499
-  https://www.youtube.com/watch?v=XyXBwO5jYpw
-  Transcript: yes
-
-Thomas DeLauer: This Increased Visceral Fat 11% in Literally Days (Stop Doing it)
-  https://www.youtube.com/watch?v=oTqrhFq6gc4
-  Transcript: yes
-
-Dr. Sten Ekberg: #1 Best Protein Hack To Lose Weight & Belly Fat
-  https://www.youtube.com/watch?v=5DMGMFjsDZk
-  Transcript: yes
-
 Jared Alderman: What does disarming bombs and poker have in common? #shorts
   https://www.youtube.com/shorts/1GIC1ZGO_kA
   Transcript: yes
 
-Peter Attia: Women & fitness after 50: balancing zone 2 and lifting
-  https://www.youtube.com/shorts/fZC-MIO6zNI
-  Transcript: yes
-
-Renaissance Periodization: This Is Why Hany Rambod Is the GOAT Coach
-  https://www.youtube.com/shorts/wMe-jXI7ws8
-  Transcript: yes
-
-Andrew Huberman: My book Protocols releases September 15th
-  https://www.youtube.com/shorts/vmRWUqkTtKA
-  Transcript: yes
-
-ModernWisdom: The Mindset That Changes Your Life
-  https://www.youtube.com/shorts/agUV7cIGfJc
-  Transcript: yes
-
-ModernWisdom: Setting The Bar Unrealistically High Does Not Increase Your Performance
-  https://www.youtube.com/shorts/xcw8DQcXFOw
-  Transcript: yes
-
-ModernWisdom: Why The Odyssey Still Matters Today
-  https://www.youtube.com/shorts/m_h01cD2vxk
-  Transcript: yes
-
-ModernWisdom: Ex-Military Hacker: The Secret World Of Government Surveillance - Bill Thompson
-  https://www.youtube.com/watch?v=cx4e3FaInA4
+Thomas DeLauer: 1 Handful Drives Up Testosterone 50% Over Age 40
+  https://www.youtube.com/watch?v=BUP5aws-Im8
   Transcript: NO
 
-ModernWisdom: Billionaires Have An Escape Plan
-  https://www.youtube.com/shorts/F3ZIMhRO5Ew
+Thomas DeLauer: This Drops 2x More Belly Fat From Fasting (takes 8 minutes)
+  https://www.youtube.com/watch?v=8xN7I46Z6o4
   Transcript: yes
 
-ModernWisdom: The Curse Of Psychological Strength
-  https://www.youtube.com/shorts/6co6gnAcBCU
+Peter Attia: 402 ‒ NMR blood analysis: how mortality risk and more can be assessed from a single blood sample
+  https://www.youtube.com/watch?v=IMbghqZ1iXI
   Transcript: yes
 
-ModernWisdom: Why Unsuccessful People Chase Virtues
-  https://www.youtube.com/shorts/m0zi6XsyTtA
-  Transcript: yes
-
-ModernWisdom: The Amish Trick Everyone Falls For
-  https://www.youtube.com/watch?v=Cb1F97YYLJ0
-  Transcript: yes
-
-ModernWisdom: What Used To Make A Man Acceptable Now Makes You Extraordinary
-  https://www.youtube.com/shorts/8_p4zXTmqlU
-  Transcript: yes
-
-ModernWisdom: Why Success Is So Lonely
-  https://www.youtube.com/shorts/i02fc1hOPiU
-  Transcript: yes
-
-ModernWisdom: Proof That The Lonely Chapter Works - Jett Franzen
-  https://www.youtube.com/watch?v=D60hHjROMts
-  Transcript: yes
-
-ModernWisdom: The Reality Of Growing Up With Autism
-  https://www.youtube.com/shorts/h3YYG29C1mo
-  Transcript: yes
-
-ModernWisdom: The Elimination Of Alternatives
-  https://www.youtube.com/shorts/IKOHf608_c8
-  Transcript: yes
-
-ModernWisdom: The Free Fuel That Makes Discipline Easy
-  https://www.youtube.com/watch?v=0GISrdSHUuk
-  Transcript: yes
-
-ModernWisdom: The Shocking Change For Modern Day Dads
-  https://www.youtube.com/shorts/ZPyy02eyuPU
-  Transcript: yes
-
-Ben Felix: The Biggest Myths in Personal Finance
-  https://www.youtube.com/watch?v=3u-mP3C26mg
-  Transcript: yes
-
-Mind The Game: Weeks before making his decision, LeBron gave the 76ers their flowers. Now add JB and The King. 😳
-  https://www.youtube.com/shorts/0E99aloV2ws
-  Transcript: yes
-
-ThinkingPoker: Bankroll Management - Thinking Poker
-  https://www.youtube.com/watch?v=6w8amkDkeVw
+Dr. Sten Ekberg: #1 Best Protein Hack To Lose Weight & Belly Fat
+  https://www.youtube.com/watch?v=5DMGMFjsDZk
   Transcript: yes
 
