@@ -1,137 +1,125 @@
 === HACKER NEWS ===
-1. [181 pts] Nashville uses eminent domain to block data center near zoo
-   https://www.costar.com/article/970809918/nashville-council-approves-eminent-domain-action-to-halt-data-center-project
+1. [487 pts] AMD acquires Taalas to boost inference performance by etching models in silicon
+   https://www.theregister.com/systems/2026/08/06/amd-acquires-ai-chip-startup-taalas-to-boost-inference-performance-by-etching-models-into-silicon/5284344
 
-2. [678 pts] Discovery Loop
-   https://www.discoveryloop.com/
+2. [43 pts] Hackers Stalked Me by Hijacking a Smartwatch for Kids
+   https://www.wired.com/story/hackers-stalked-me-by-hijacking-a-smartwatch-for-kids/
 
-3. [583 pts] Changes at Google DeepMind: Demis Hassabis from CEO to Chair, Jeff Dean departs
-   https://blog.google/company-news/inside-google/message-ceo/next-chapter-ai-momentum/
+3. [945 pts] Mario Meets Pareto
+   https://www.mayerowitz.io/blog/mario-meets-pareto
 
-4. [358 pts] Zed DeltaDB
-   https://zed.dev/deltadb
+4. [184 pts] Scientists discover Kelvin-Helmholtz Instability on the surface of the Sun
+   https://nso.edu/press-release/nsf-inouye-solar-telescope-enables-major-discovery-of-a-hidden-solar-process/
 
-5. [213 pts] The title cards in Blade Runner are amazing
-   https://randsinrepose.com/archives/blade-runner-title-cards/
+5. [291 pts] Taste Is All That's Left
+   https://notashelf.dev/posts/taste-is-all-thats-left
 
-6. [97 pts] Branchless Rust: Making a Filter 4x Faster by Removing an If
-   https://www.greyblake.com/blog/branchless-rust/
+6. [115 pts] Welcoming the Nepalese Government to Have I Been Pwned
+   https://www.troyhunt.com/welcoming-the-nepalese-government-to-have-i-been-pwned/
 
-7. [225 pts] Muse Code and Muse Spark 1.2
-   https://research.meta.ai/blog/introducing-muse-code-and-muse-spark-1-2
+7. [81 pts] Bioengineered chewing gum may offer a way to fight HPV and other microbes
+   https://www.sciencedaily.com/releases/2026/08/260803080917.htm
 
-8. [13 pts] Quantego: A Family of Lego Models of IBM Quantum Computers
-   https://quantego.org/
+8. [186 pts] Improving GPT‑5.6 Sol in ChatGPT, expanding GPT‑5.6 Luna access for free users
+   https://openai.com/index/improving-gpt-5-6-sol-in-chatgpt/
 
-9. [272 pts] Beating GPT-5.6 Sol on retrieval with 100x cheaper open models
-   https://neon.com/blog/how-castform-neon-beats-frontier-models-on-price-and-efficiency
+9. [360 pts] GitHub Actions and Pages are experiencing degraded availability
+   https://www.githubstatus.com/incidents/qcvjkzcs7j74
 
-10. [198 pts] Born Against, or why hobby programming communities are against LLM usage
-   https://blog.fogus.me/llm/born-against.html
+10. [308 pts] Almost no skill required to cook a steak
+   https://blog.sydorets.com/en/posts/almost-no-skill-required-to-cook-a-steak/
 
-11. [151 pts] Prime Agent: A self-improving RLM agent
-   https://www.primeintellect.ai/blog/prime-agent
+11. [175 pts] Herdr is joining Y Combinator. The runtime stays open
+   https://herdr.dev/blog/herdr-is-joining-y-combinator/
 
-12. [525 pts] Cloudflare OS: an open platform for agents, apps, and work
-   https://blog.cloudflare.com/cloudflare-os/
+12. [190 pts] Launch HN: ProvenMetal (YC S26) delivers circuit boards in days instead of weeks
+   https://provenmetal.com
 
-13. [202 pts] Atlassian Rovo Exfiltrates Data, Bypassing Controls
-   https://www.promptarmor.com/resources/atlassian-rovo-exfiltrates-data
+13. [35 pts] Why Estonians invite strangers into their back gardens each summer
+   https://www.bbc.com/travel/article/20260731-why-estonians-invite-strangers-into-their-backyards-each-summer
 
-14. [112 pts] NVIDIA’s Vera Whitepaper Has a Thread Loose
-   https://chipsandcheese.com/p/nvidias-vera-whitepaper-has-a-thread
+14. [119 pts] I stopped trusting USB-C cable labels and started testing them
+   https://www.makeuseof.com/i-stopped-trusting-usb-c-cable-labels-started-testing-with-meter-instead/
 
-15. [161 pts] GNU Hurd News 2026-Q2
-   https://www.gnu.org/software/hurd/news/2026-q2.html
+15. [128 pts] Meta Ordered to Pay $942M to Address Harm to Kids from Social Media
+   https://www.wsj.com/tech/meta-ordered-to-pay-942-million-to-address-harm-to-kids-from-social-media-8ba5aab7
 
-16. [186 pts] Celld: Self-hosted, distributed Durable Objects
-   https://github.com/denoland/celld
+16. [57 pts] Retired man plants trees on forgotten land, now it's Sao Paulo's largest park
+   https://timesofindia.indiatimes.com/world/rest-of-world/in-2003-a-retired-man-planted-trees-on-forgotten-land-alone-20-years-later-it-had-become-one-of-sao-paulos-largest-urban-forests/articleshow/132761848.cms
 
-17. [10 pts] Show HN: Wallfacer – A terminal session manager for Claude Code, and more
-   https://github.com/pradipta/wallfacer
+17. [273 pts] Humans missed 1 in 3 threats approving AI agent commands across 40k game runs
+   https://scalex.dev/blog/ai-agent-permissions-stats/
 
-18. [105 pts] I'll be stepping back from leading product for X
-   https://twitter.com/nikitabier/status/2085105586966827343/
+18. [33 pts] STV: A full-motion video codec for the Atari ST
+   https://medium.com/@jonas.eschenburg/stv-a-video-codec-for-the-atari-st-6e46355c50e4
 
-19. [265 pts] I'm switching my phone from Android to Linux
-   https://runarcn.no/android-to-linux/
+19. [105 pts] My phone detects going on a run as “someone snatching my phone and running off”
+   https://mastodon.gamedev.place/@rygorous/117047697255584965
 
-20. [4 pts] Ship Safe, an open source security scanner for coding agents
-   https://github.com/asamassekou10/ship-safe
+20. [247 pts] Quake – 30th Anniversary Update
+   https://slayersclub.bethesda.net/en-US/news/quake-30th-anniversary-update
 
-21. [4 pts] Decimen Optical Transfer: fountain-coded QR file transfer
-   https://github.com/bashalarmistalt/decimen-optical-transfer
+21. [121 pts] Learn how chips are made with this Rollercoaster Tycoon-inspired animation
+   https://laurentiugabriel.github.io/ChipTycoon/
 
-22. [262 pts] Position: LLMs Can't Jump
-   https://openreview.net/challenge?redirect=%2Fforum%3Fid%3DklU4737opt
+22. [26 pts] The Sylvester–Gallai Theorem
+   https://www.futilitycloset.com/2026/07/26/the-sylvester-gallai-theorem/
 
-23. [80 pts] Goodhart's Law Comes for Every Benchmark You Trust
-   https://cacm.acm.org/blogcacm/goodharts-law-comes-for-every-benchmark-you-trust/
+23. [94 pts] Show HN: The Channels SDK – Bring Any Agent to Any Channel (Slack, MS Teams)
+   https://github.com/CopilotKit/channels-sdk
 
-24. [95 pts] Sycophantic AI Decreases Prosocial Intentions and Promotes Dependence (2025)
-   https://arxiv.org/abs/2510.01395
+24. [75 pts] Can you reverse engineer an ASIC?
+   https://blog.janestreet.com/can-you-reverse-engineer-an-asic/
 
-25. [47 pts] Exact, parallel 2D Delaunay triangulation for int32 coordinates
-   https://github.com/morishuz/delaunay32
+25. [80 pts] Inside vLLM: Anatomy of a High-Throughput LLM Inference System (2025)
+   https://www.aleksagordic.com/blog/vllm
 
-26. [24 pts] The Origins of Vintage Comics Part 1
-   https://www.truegrittexturesupply.com/blogs/news/origins-of-the-vintage-comics-aesthetic-part-1
+26. [108 pts] The simple elegance of the integrated timing belt loopback fastener
+   https://danielmangum.com/posts/integrated-timing-belt-loopback-fastener/
 
-27. [121 pts] Discovery of a multicomponent alloy forged by the Hiroshima atomic blast
-   https://www.science.org/doi/10.1126/sciadv.aeg8299
+27. [6 pts] Learning to fly FPV drones with AI flight coach
+   https://blog.divyendusingh.com/p/learning-to-fly-fpv-drones-with-ai
 
-28. [93 pts] Online Friends Are Real Friends
-   https://toska.bearblog.dev/re-online-friends-are-real-friends/
+28. [231 pts] Pareto Front
+   https://en.wikipedia.org/wiki/Pareto_front
 
-29. [117 pts] The Entropy of a Markov Chain
-   https://chillphysicsenjoyer.substack.com/p/the-entropy-of-a-markov-chain
+29. [73 pts] Building Progressively Enhanced Forms Using htmx
+   https://www.rafa.ee/articles/progressive-enhanced-forms-htmx/
 
-30. [38 pts] Pushing the limits of RISC-V emulation
-   https://shuklaayu.sh/blog/riscv-recompiler
+30. [3 pts] Shades of Meaning (2018)
+   https://mag.uchicago.edu/arts-humanities/shades-meaning
 
 
 === RSS ===
+[ai] Simon Willison: datasette 1.0a38
+  https://simonwillison.net/2026/Aug/6/datasette/#atom-everything
+
+[ai] Simon Willison: datasette 0.65.3
+  https://simonwillison.net/2026/Aug/6/datasette-2/#atom-everything
+
+[ai] Simon Willison: Simon Willison on Technical Blogging
+  https://simonwillison.net/2026/Aug/6/simon-willison-on-technical-blogging/#atom-everything
+
 [ai] Simon Willison: An AI model from Meta also hacked another company during testing
   https://simonwillison.net/2026/Aug/6/an-ai-model-from-meta/#atom-everything
 
 [ai] Simon Willison: Introducing Muse Code and Muse Spark 1.2
   https://simonwillison.net/2026/Aug/5/muse-code-and-muse-spark-12/#atom-everything
 
-[ai] Simon Willison: Third-party cyber evaluations involving OpenAI models
-  https://simonwillison.net/2026/Aug/5/third-party-cyber-evaluations/#atom-everything
+[ideas] Stratechery: Google Earnings, The Frontier Case, Amazon Earnings
+  https://stratechery.com/2026/google-earnings-the-frontier-case-amazon-earnings/
 
-[ai] Simon Willison: Incident Report: unsanctioned agent behaviour during cyber testing
-  https://simonwillison.net/2026/Aug/5/incident-report/#atom-everything
-
-[ai] Simon Willison: One-shotting a Raccoon Heist game using Claude Fable 5
-  https://simonwillison.net/2026/Aug/5/raccoon-heist/#atom-everything
-
-[wisdom] Figs in Winter (Pigliucci): The river and the labyrinth – part I
-  https://figsinwintertime.substack.com/p/the-river-and-the-labyrinth-part
-
-[wisdom] Figs in Winter (Pigliucci): Video: How to be a (happy) Skeptic
-  https://figsinwintertime.substack.com/p/video-how-to-be-a-happy-skeptic
-
-[wisdom] Figs in Winter (Pigliucci): Vitamin H: the science of happiness is weaker than you think
-  https://figsinwintertime.substack.com/p/vitamin-h-the-science-of-happiness
-
-[ideas] Marginal Revolution: Will U.S. cities face a knock-on fiscal crisis from the feds?
-  https://marginalrevolution.com/marginalrevolution/2026/08/will-u-s-cities-face-a-knock-on-fiscal-crisis-from-the-feds.html?utm_source=rss&utm_medium=rss&utm_campaign=will-u-s-cities-face-a-knock-on-fiscal-crisis-from-the-feds
-
-[ideas] Marginal Revolution: Who Pays for Unions?
-  https://marginalrevolution.com/marginalrevolution/2026/08/who-pays-for-unions.html?utm_source=rss&utm_medium=rss&utm_campaign=who-pays-for-unions
-
-[ideas] Marginal Revolution: Wednesday assorted links
-  https://marginalrevolution.com/marginalrevolution/2026/08/wednesday-assorted-links-565.html?utm_source=rss&utm_medium=rss&utm_campaign=wednesday-assorted-links-565
-
-[ideas] Marginal Revolution: Dominant Assurance Contract aka Refund Bonus Explainer
-  https://marginalrevolution.com/marginalrevolution/2026/08/dominant-assurance-contract-aka-refund-bonus-explainer.html?utm_source=rss&utm_medium=rss&utm_campaign=dominant-assurance-contract-aka-refund-bonus-explainer
-
-[ideas] Marginal Revolution: Is this why China finds it so hard to inflate producer prices?
-  https://marginalrevolution.com/marginalrevolution/2026/08/is-this-why-china-finds-it-so-hard-to-inflate-producer-prices.html?utm_source=rss&utm_medium=rss&utm_campaign=is-this-why-china-finds-it-so-hard-to-inflate-producer-prices
+[ideas] Stratechery: Microsoft Earnings, Microsoft vs. Meta, The Efficiency Payoff
+  https://stratechery.com/2026/microsoft-earnings-microsoft-vs-meta-the-efficiency-payoff/
 
 [ideas] Paul Graham: How to Earn a Billion Dollars
   https://paulgraham.com/earn.html
+
+[ideas] Collaborative Fund (Morgan Housel): Philanthropy's other third wave
+  https://collabfund.substack.com/p/philanthropys-other-third-wave
+
+[ai] Anthropic News: Improving Fable 5's biology safeguards
+  https://www.anthropic.com/news/improving-fable-5-s-biology-safeguards
 
 [ai] Anthropic News: Mariano-Florentino (Tino) Cuéllar to join Anthropic as Chief Global Affairs Officer
   https://www.anthropic.com/news/tino-cuellar
@@ -145,68 +133,17 @@
 [ai] Anthropic News: Our position on open-weights models
   https://www.anthropic.com/news/position-open-weights-models
 
-[ai] Anthropic News: Introducing Claude Opus 5
-  https://www.anthropic.com/news/claude-opus-5
+[ai] OpenAI Blog: Improving GPT‑5.6 Sol in ChatGPT—and expanding access to GPT-5.6 Luna for free users
+  https://openai.com/index/improving-gpt-5-6-sol-in-chatgpt
 
-[ideas] Collaborative Fund (Morgan Housel): Philanthropy's other third wave
-  https://collabfund.substack.com/p/philanthropys-other-third-wave
+[ai] OpenAI Blog: Working with the American Psychological Association on youth mental health and AI
+  https://openai.com/index/openai-and-apa-partner-to-advance-responsible-ai
 
-[wisdom] Donald Robertson: Introducing The Stoic Mind
-  https://donaldrobertson.substack.com/p/introducing-the-stoic-mind
-
-[ideas] Astral Codex Ten: Open Questions On Open Weights
-  https://www.astralcodexten.com/p/open-questions-on-open-weights
-
-[ideas] Astral Codex Ten: Hidden Open Thread 445.5
-  https://www.astralcodexten.com/p/hidden-open-thread-4455
-
-[ideas] Astral Codex Ten: The Beauty Of Settled Science
-  https://www.astralcodexten.com/p/the-beauty-of-settled-science
-
-[ideas] Stratechery: Google Earnings, The Frontier Case, Amazon Earnings
-  https://stratechery.com/2026/google-earnings-the-frontier-case-amazon-earnings/
-
-[ideas] Stratechery: Microsoft Earnings, Microsoft vs. Meta, The Efficiency Payoff
-  https://stratechery.com/2026/microsoft-earnings-microsoft-vs-meta-the-efficiency-payoff/
-
-[ideas] Stratechery: Meta Earnings, Meta’s Timing Problems, The Financial Tail
-  https://stratechery.com/2026/meta-earnings-metas-timing-problems-the-financial-tail/
-
-[bitcoin] Bitcoin Magazine: White House Now Reviewing Crypto Clarity Act Ethics Text Ahead of August Deadline: Report
-  https://bitcoinmagazine.com/news/white-house-reviewing-crypto-clarity-act
-
-[bitcoin] Bitcoin Magazine: Bitcoin Red Team Finds 85 Critical Flaws Across 390 Open Source Repos After Coldcard Exploit
-  https://bitcoinmagazine.com/business/bitcoin-red-team-finds-85-critical-flaws-across-390-open-source-repos-after-coldcard-exploit
-
-[bitcoin] Bitcoin Magazine: Russia Passes Law to Regulate Crypto Exchanges, Keeps Payment Ban in Place
-  https://bitcoinmagazine.com/news/russia-keeps-payment-ban-in-place
-
-[bitcoin] Bitcoin Magazine: ‘If Clarity Dies, Democrats Killed It’: Lummis Urges Senate to Act on Crypto Bill Before Recess
-  https://bitcoinmagazine.com/news/cynthia-lummis-urges-clarity-act-speed
-
-[bitcoin] Bitcoin Magazine: Bitcoin Treasury Firm Strategy Pledges $250 a Year to Employee Trump Accounts
-  https://bitcoinmagazine.com/news/strategy-to-help-employee-trump-accounts
-
-[bitcoin] Bitcoin Magazine: Self Custody Is Dead. Long Live Self Custody
-  https://bitcoinmagazine.com/culture/self-custody-is-dead-long-live-self-custody
-
-[bitcoin] Bitcoin Magazine: SEC Commissioner Hester ‘Crypto Mom’ Peirce Optimistic About Clarity Act
-  https://bitcoinmagazine.com/news/hester-peirce-hopeful-about-clarity-act
-
-[bitcoin] Bitcoin Magazine: Asset Manager 3iQ to Manage Bhutan’s Bitcoin Reserves
-  https://bitcoinmagazine.com/news/3iq-to-manage-bhutan-bitcoin-reserves
+[ai] OpenAI Blog: From asking to doing: How the world is putting ChatGPT to work
+  https://openai.com/index/how-the-world-is-putting-chatgpt-to-work
 
 [ai] OpenAI Blog: Third-party cyber evaluations involving OpenAI models
   https://openai.com/index/third-party-cyber-evaluations-involving-openai-models
-
-[ai] OpenAI Blog: New ways to learn and teach with ChatGPT Work and Codex
-  https://openai.com/index/learn-teach-chatgpt-work-codex
-
-[ai] OpenAI Blog: Apple is getting this wrong
-  https://openai.com/index/apple-is-getting-this-wrong
-
-[ai] OpenAI Blog: How we built a realtime system for responsive voice AI in six months
-  https://openai.com/index/continuous-voice-interaction-with-gpt-live
 
 [bitcoin] The Pomp Letter: The biggest companies in history are betting every dollar they have on AI
   https://pomp.substack.com/p/the-biggest-companies-in-history
@@ -214,15 +151,79 @@
 [bitcoin] The Pomp Letter: The Best Way To Learn About A Current Event In Financial Markets
   https://pomp.substack.com/p/the-best-way-to-learn-about-a-current
 
-[bitcoin] The Pomp Letter: What To Know About The $100 Million Hack of Bitcoin Cold Storage Product
-  https://pomp.substack.com/p/what-to-know-about-the-100-million
+[bitcoin] Bitcoin Magazine: “We Need Clarity,” Says Former New York Governor Andrew Cuomo
+  https://bitcoinmagazine.com/news/andrew-cuomo-urges-clarity-act-action
+
+[bitcoin] Bitcoin Magazine: Breez Announces Glow, an Open Source Bitcoin to Stablecoins Progressive Web App
+  https://bitcoinmagazine.com/business/breez-announces-glow-an-open-source-bitcoin-to-stablecoins-progressive-web-app
+
+[bitcoin] Bitcoin Magazine: Senate Whip Barrasso Becomes Latest Lawmaker to Support Crypto Clarity Act, But Time May Be Running Out
+  https://bitcoinmagazine.com/news/barrasso-supports-clarity-act
+
+[bitcoin] Bitcoin Magazine: The End of the Closed-Source Era Is at Hand: Obscurity Was Never Security
+  https://bitcoinmagazine.com/technical/the-end-of-the-closed-source-era-is-at-hand-obscurity-was-never-security
+
+[bitcoin] Bitcoin Magazine: Breez Drops New Bitcoin App Which Doubles As Wallet and Developer Toolkit
+  https://bitcoinmagazine.com/news/breez-drops-new-bitcoin-app
+
+[bitcoin] Bitcoin Magazine: Bitcoin ETF Inflows Surge Following $130M Coldcard Hack
+  https://bitcoinmagazine.com/news/bitcoin-etf-inflows-surge-following-hack
+
+[bitcoin] Bitcoin Magazine: Circuit, DaLand Give Credit Unions a Direct Path to Bitcoin
+  https://bitcoinmagazine.com/news/circuit-daland-give-credit-unions-bitcoin
+
+[bitcoin] Bitcoin Magazine: White House Now Reviewing Crypto Clarity Act Ethics Text Ahead of August Deadline: Report
+  https://bitcoinmagazine.com/news/white-house-reviewing-crypto-clarity-act
+
+[wisdom] Figs in Winter (Pigliucci): The river and the labyrinth – part II
+  https://figsinwintertime.substack.com/p/the-river-and-the-labyrinth-part-841
+
+[wisdom] Figs in Winter (Pigliucci): The river and the labyrinth – part I
+  https://figsinwintertime.substack.com/p/the-river-and-the-labyrinth-part
+
+[wisdom] Figs in Winter (Pigliucci): Video: How to be a (happy) Skeptic
+  https://figsinwintertime.substack.com/p/video-how-to-be-a-happy-skeptic
+
+[wisdom] Donald Robertson: Be mindful not to injure your own character...
+  https://donaldrobertson.substack.com/p/be-mindful-not-to-injure-your-own
+
+[wisdom] Donald Robertson: Introducing The Stoic Mind
+  https://donaldrobertson.substack.com/p/introducing-the-stoic-mind
+
+[ideas] Astral Codex Ten: MacGregor The Bridge Builder
+  https://www.astralcodexten.com/p/macgregor-the-bridge-builder
+
+[ideas] Astral Codex Ten: Open Questions On Open Weights
+  https://www.astralcodexten.com/p/open-questions-on-open-weights
+
+[ideas] Astral Codex Ten: Hidden Open Thread 445.5
+  https://www.astralcodexten.com/p/hidden-open-thread-4455
+
+[ideas] Marginal Revolution: Solve for the (Refine) equilibrium
+  https://marginalrevolution.com/marginalrevolution/2026/08/solve-for-the-refine-equilibrium.html?utm_source=rss&utm_medium=rss&utm_campaign=solve-for-the-refine-equilibrium
+
+[ideas] Marginal Revolution: Thursday assorted links
+  https://marginalrevolution.com/marginalrevolution/2026/08/thursday-assorted-links-564.html?utm_source=rss&utm_medium=rss&utm_campaign=thursday-assorted-links-564
+
+[ideas] Marginal Revolution: The Binmen of Birmingham
+  https://marginalrevolution.com/marginalrevolution/2026/08/the-binmen-of-birmingham.html?utm_source=rss&utm_medium=rss&utm_campaign=the-binmen-of-birmingham
+
+[ideas] Marginal Revolution: Will U.S. cities face a knock-on fiscal crisis from the feds?
+  https://marginalrevolution.com/marginalrevolution/2026/08/will-u-s-cities-face-a-knock-on-fiscal-crisis-from-the-feds.html?utm_source=rss&utm_medium=rss&utm_campaign=will-u-s-cities-face-a-knock-on-fiscal-crisis-from-the-feds
+
+[ideas] Marginal Revolution: Who Pays for Unions?
+  https://marginalrevolution.com/marginalrevolution/2026/08/who-pays-for-unions.html?utm_source=rss&utm_medium=rss&utm_campaign=who-pays-for-unions
 
 [health] Stronger by Science: Is the Correlation Between Hypertrophy and Strength Gains Stronger Than We Realized?
   https://www.strongerbyscience.com/correlation-strength-hypertrophy/
 
 
 === YOUTUBE ===
-Ben Felix: The Biggest Myths in Personal Finance
-  https://www.youtube.com/watch?v=3u-mP3C26mg
+Anthony Chaffee MD: This Doesn't Happen Anywhere Else
+  https://www.youtube.com/shorts/j8a-hBug2QA
+  Transcript: yes
+
+Lex Fridman: Gary Gallagher: American Civil War, Slavery, Lincoln, Grant & Lee | Lex Fridman Podcast #499
+  https://www.youtube.com/watch?v=XyXBwO5jYpw
   Transcript: yes
 
