@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>Morning Brief — Sunday, August 09, 2026</title>
+<title>Morning Brief — Monday, August 10, 2026</title>
 <style>
   body {
     font-family: Georgia, serif;
@@ -92,19 +92,19 @@
 })();
 </script>
 <h1>Morning Brief</h1>
-<p class="date">Sunday, August 09, 2026</p>
+<p class="date">Monday, August 10, 2026</p>
 
 <div class="anchor">
   <h2>☀️ Today's Anchor</h2>
   <div class="anchor-block">
-    <p class="quote">"Honesty is the first chapter in the book of wisdom."</p>
-    <p class="author">— Thomas Jefferson</p>
-    <p class="context">Letter to Nathaniel Macon, 1819. Jefferson as elder statesman reflecting on what he'd learned.</p>
+    <p class="quote">"Simplicity is the ultimate sophistication."</p>
+    <p class="author">— Leonardo da Vinci (attribution disputed)</p>
+    <p class="context">Attributed to da Vinci, though the earliest sourced version is from Clare Boothe Luce in the 1930s. Apple later adopted it.</p>
   </div>
   <div class="anchor-block">
-    <p class="model-label">Mental Model · Economics/Business</p>
-    <p class="model-name">Moats / Competitive Advantage</p>
-    <p class="context">Buffett's word for what prevents competitors from stealing profits. Brand (Coca-Cola), switching costs (SAP), network effects (Visa), scale (Walmart), regulation (utilities). Without a moat, profits get competed to zero. Munger's question on any business: what's the moat, and is it widening or narrowing?</p>
+    <p class="model-label">Mental Model · Economics</p>
+    <p class="model-name">Marginal Utility</p>
+    <p class="context">Each additional unit of something is usually worth less than the previous. The first slice of pizza beats the tenth. Applied: diminishing returns govern almost every effort — study, exercise, relationships. At some point, more input produces less output. Know where that point is for your main endeavors.</p>
   </div>
 </div>
 
@@ -115,150 +115,127 @@
   <p class="spotlight-instructions">Interested? Copy the line below into <code>YOUTUBE_CHANNELS</code> in <code>brief.py</code> and save:</p>
   <pre class="spotlight-snippet" id="snippet">    "William Green | Richer, Wiser, Happier": "UC6HsvOjTBR6_fikGZaDEYew",</pre>
   <button class="copy-btn" onclick="navigator.clipboard.writeText(document.getElementById('snippet').innerText.trim()); this.innerText='✅ Copied'; setTimeout(()=>this.innerText='📋 Copy snippet', 2000);">📋 Copy snippet</button>
-  <p class="spotlight-meta">showing for 2 more days. If you don't add it, a new channel will be suggested.</p>
+  <p class="spotlight-meta">showing for 1 more day. If you don't add it, a new channel will be suggested.</p>
 </div>
 <h2>🎥 From People I Follow</h2>
 
 <p><strong>Worth your time:</strong></p>
 
 <div class="story">
-  <h3>Mind The Game (LeBron James & JJ Redick)</h3>
-  <p>Steve Nash tells the story of how Steph Curry effectively ended his career — Nash was playing hurt in a preseason game, Steph dropped 45-50 points in the first quarter alone on him, and Nash called Mitch Kupchak three days later to retire. Beyond the anecdote, Steph discusses the origin of his shooting form: his father Dell and coach Brandon Payne pushed him to abandon his high-school slingshot release, which he resisted, but the transformation enabled his one-piece off-the-dribble motion that works regardless of balance or hand position. Nash observes that Steph's shot is unusual precisely because he almost never fully stops — it's a continuous-motion flick that preserves all his leg power and makes it nearly unblockable at 6'3".</p>
-  <p class="meta">Videos: <a href="https://www.youtube.com/watch?v=bgSixq0dOKs">The Hilarious Story Behind How Steph Made Steve Nash Retire</a></p>
+  <h3>GTO Wizard / GTO Lab / Jared Alderman</h3>
+  <p>Jared Alderman makes a point that's easy to miss: the real value of studying solvers isn't memorizing the theoretical strategy, it's understanding the <em>EV gap</em> between decisions. When two actions are separated by a massive EV difference, your live-game reads almost never justify deviating — he illustrated this with a client who folded two pair facing a near-certain set, then node-locked the sim at 98% sets and showed a call was still correct because the price made it +EV regardless. GTO Lab demonstrates a complementary concept: blockers can flip a thin hand into a bet under ICM pressure, specifically showing how holding the king of spades (blocking the nut flush) makes a marginal king-high hand "extremely betterable" when combined with a heart blocker. The GTO Wizard short on Bryn Kenney vs. Adrian Mateos explores how elite players deviate from solver optima and whether those deviations are justified.</p>
+  <p class="meta">Videos: <a href="https://www.youtube.com/shorts/PJQEKw-x7lM">Jared Alderman: What to learn from solvers</a> · <a href="https://www.youtube.com/shorts/ccbgG5h0YQ0">GTO Lab: Blockers under ICM</a> · <a href="https://www.youtube.com/shorts/pfVJcOhXvcc">GTO Wizard: When Pros Deviate</a></p>
 </div>
 
 <div class="story">
-  <h3>Joe Rogan / David Sinclair</h3>
-  <p>Sinclair reports that human clinical trials are currently underway for his OSK gene-reprogramming technology — three Yamanaka genes delivered via engineered viral capsules injected into glaucoma patients' eyes, with "nothing bad to report" so far. The core claim: aging cells lose their epigenetic identity (tracked via DNA methylation "clocks"), and OSK safely rewinds that clock roughly 75-80% toward youth without dedifferentiating cells into identity-less stem cells, as demonstrated in mice where cells from 92-year-olds reset to ~25-year-old signatures. He also discloses that AI compressed what would have been 160 years of drug-candidate screening into two months by computationally docking a trillion molecules against target enzymes, yielding 200 candidates now being tested in human cells — and separately flags an emerging concern that GLP-1 drugs appear to roughly double rates of NAION (a form of sudden, painless vision loss), citing a Harvard researcher's work showing an ~8-fold increased risk in affected patients.</p>
-  <p class="meta">Videos: <a href="https://www.youtube.com/watch?v=hxid7FofhMw">Joe Rogan Experience #2537 - David Sinclair</a></p>
+  <h3>Peter Attia</h3>
+  <p>Attia does a framework episode on peptides, and it's actually useful as a general drug-evaluation template. His five questions: Is there a viable mechanism? Is there human evidence of meaningful benefit? Do we understand safety, dosing, and PK? Does benefit justify risk for this person? Is there a better-characterized alternative? He then runs BPC-157 through this framework and finds it fails on nearly every count: the alleged parent protein has never been fully characterized, the discoverer deliberately withholds the screening method, 80%+ of positive studies come from one academic group with IP interests, there are zero published human RCTs after three decades, and the pro-angiogenic mechanisms proposed (VEGF, nitric oxide) should actually increase concern rather than decrease it for anyone worried about tumor growth. He also revisits protein restriction and kidney function, noting the case for limiting protein was built on older nephrology assumptions that don't hold up well under modern scrutiny.</p>
+  <p class="meta">Videos: <a href="https://www.youtube.com/watch?v=Km_01CLEkYU">Peptides: separating scientific promise from marketing hype</a> · RSS: <a href="https://peterattiamd.com/peptides/">Peptides AMA</a> · <a href="https://peterattiamd.com/protein-and-renal-function/">Protein and renal function</a></p>
 </div>
 
 <div class="story">
-  <h3>Stronger by Science</h3>
-  <p>A new analysis suggests hypertrophy contributes more to early strength gains than prior studies indicated — prior work likely underestimated the relationship because cross-sectional muscle size measurements miss fiber-type composition and architectural changes. However, SBS cautions that the correlation is still far from deterministic: neural adaptations dominate in new lifters, individual variability is large, and the finding doesn't change programming recommendations in any clear way.</p>
-  <p class="meta">RSS: <a href="https://www.strongerbyscience.com/correlation-strength-hypertrophy/">Is the Correlation Between Hypertrophy and Strength Gains Stronger Than We Realized?</a></p>
+  <h3>Renaissance Periodization</h3>
+  <p>Mike Israetel's short makes a point worth internalizing: Brad Pitt's Fight Club physique — the cultural benchmark for "in great shape" — is achievable with two dumbbells and an adjustable bench at home. Leanness is almost entirely diet, and the muscle required isn't that much. He distinguishes between "great shape for a regular person" and "your genetic maximum," and argues most people conflate the two when they're actually chasing the former.</p>
+  <p class="meta">Videos: <a href="https://www.youtube.com/shorts/hjIeoysbvbw">You Can Build a Brad Pitt Body at Home</a></p>
 </div>
 
 <div class="story">
-  <h3>Peter Attia (RSS + YouTube)</h3>
-  <p>Attia's blog challenges the decades-old dogma of protein restriction for kidney patients, arguing that the original evidence was built in an era before modern CKD management and doesn't hold up for most patients today. Separately, in a short clip, Jim Otvos (NMR inventor) directly refutes the "fluffy, buoyant LDL" narrative: large LDL particle size does not confer protection — patients with familial hypercholesterolemia, who die of heart attacks in their 30s, have large LDL particles. High LDL particle number (e.g., >2,000 nmol/L) is the risk factor regardless of size, and the "I'm pattern A so I'm safe" framing is called "specious" with supporting data.</p>
-  <p class="meta">RSS: <a href="https://peterattiamd.com/protein-and-renal-function/">Does protein restriction still make sense in modern kidney care?</a> · YouTube: <a href="https://www.youtube.com/shorts/Ee1PuwnX5Tw">Fluffy LDL particles and cardiovascular risk</a></p>
+  <h3>Stronger by Science (RSS)</h3>
+  <p>A new analysis revisits the correlation between hypertrophy and strength gains. The finding: hypertrophy probably contributes more to strength in newer lifters than prior studies suggested, but the relationship is nowhere near as clean as it looks at first glance — the correlation is inflated by confounders and methodological artifacts. Practical implication: you can't assume that because muscle is growing, strength will follow proportionally, especially in trained individuals.</p>
+  <p class="meta"><a href="https://www.strongerbyscience.com/correlation-strength-hypertrophy/">Is the Correlation Between Hypertrophy and Strength Gains Stronger Than We Realized?</a></p>
 </div>
 
 <div class="story">
-  <h3>Donald Robertson (Stoicism)</h3>
-  <p>Two pieces this week: a commentary on Epictetus Handbook §38 on the theme of not injuring your own character through petty judgments of others — the Stoic point being that harsh criticism of others damages the critic more than the criticized. Also launching "The Stoic Mind," a structured five-week course delivering one Stoic anxiety-management technique at a time, rooted in Epictetus.</p>
-  <p class="meta">RSS: <a href="https://donaldrobertson.substack.com/p/be-mindful-not-to-injure-your-own">Be mindful not to injure your own character</a> · <a href="https://donaldrobertson.substack.com/p/introducing-the-stoic-mind">Introducing The Stoic Mind</a></p>
-</div>
-
-<div class="story">
-  <h3>GTO Wizard</h3>
-  <p>The short examines deviations from GTO play by elite players — specifically the Bryn Kenney vs. Adrian Mateos 250k Super High Roller hand — framing the question of when and why pros exploit population tendencies rather than play theoretically optimal lines. No transcript available beyond the setup.</p>
-  <p class="meta">Videos: <a href="https://www.youtube.com/shorts/pfVJcOhXvcc">When Pros Deviate from The Optimal Play</a></p>
-</div>
-
-<div class="story">
-  <h3>GTO Lab</h3>
-  <p>A short clip on small c-bets — the argument being that players over-anchor to small sizing because of familiarity, not because of solver justification. No full transcript available.</p>
-  <p class="meta">Videos: <a href="https://www.youtube.com/shorts/H9Eyu2NR91M">The small c-bet feels comfortable because players see it so often</a></p>
+  <h3>Mind The Game (LeBron & Steve Nash)</h3>
+  <p>Nash recounts how Steph Curry — during a preseason game Nash played through a broken tib-fib joint and nerve damage in his 18th training camp — essentially put up 45-50 in the first quarter against him, confirming that it was time to retire. More substantively, Curry talks about his shooting form: his "one-piece" shot developed naturally and isn't something he consciously engineered; it allows him to shoot off balance, from either hand, off the dribble, without resetting — the absence of wasted motion is what makes it unguardable at 6'3". He also credits Dell's influence on his quick release while consciously separating his own form, and traces his pass-first instincts to watching Nash in his rookie year.</p>
+  <p class="meta"><a href="https://www.youtube.com/watch?v=bgSixq0dOKs">The Hilarious Story Behind How Steph Made Steve Nash Retire</a></p>
 </div>
 
 <p><strong>Also posted:</strong></p>
 <ul>
-  <li><strong>Nick Norwitz:</strong> Resistant starch (found in green bananas, available as a powder supplement) reduced visceral fat in double-blind RCT data even when calories were controlled — the mechanism runs through gut microbiome fermentation triggering a signaling cascade. (<a href="https://www.youtube.com/shorts/tr7X4rTvzoU">The Strange Carb That Shrinks Your Beer Belly</a>)</li>
-  <li><strong>Thomas DeLauer:</strong> Ghrelin (the hunger hormone) preserves muscle via growth hormone stimulation, protects neurons, promotes dopamine, triggers autophagy, and improves cardiovascular function — arguing for strategic use of mild hunger windows rather than extended fasting, stacked with fasted zone-2 cardio and compounds like black seed oil (thymoquinone activates AMPK/SIRT1 similarly to ghrelin). (<a href="https://www.youtube.com/watch?v=sJhgocfimhM">How to Lose 2-3X More Belly Fat WITHOUT Fasting</a>)</li>
-  <li><strong>Renaissance Periodization:</strong> To fix a bad sleep schedule, manipulate wake time (not bedtime) — set an early alarm regardless of when you fell asleep, accumulate sleep pressure, and by night two the 10pm bedtime becomes effortless. (<a href="https://www.youtube.com/shorts/irVFF49fu4Y">Fix Your Sleep by Waking Up Earlier</a>)</li>
-  <li><strong>ModernWisdom (Chris Williamson):</strong> On the recurring "lonely cycle" of ambition: the doubt and isolation of pursuing a new summit doesn't end after first success — it resets on every subsequent goal, and often hits hardest after a first success because you've discovered the summit wasn't what you wanted. (<a href="https://www.youtube.com/shorts/3_7idh_L0lo">The Lonely Cycle Of Each Success</a> + <a href="https://www.youtube.com/shorts/DHQCHiePyqM">What Outside Forces Are Influencing Your Behavior</a>)</li>
-  <li><strong>Ken Berry MD:</strong> Protein chips and similar fortified snack products are nutritionally negligible; meaningful protein is in meat, eggs, and canned fish. (<a href="https://www.youtube.com/shorts/69xr0wmNcF4">Stop eating fake protein</a>)</li>
-  <li><strong>Paul Saladino MD:</strong> LED lights strip out the infrared spectrum present in natural sunlight, which (per the video's electrical engineer guest) is responsible for mitochondrial melatonin synthesis and acts as an antioxidant counterbalancing the oxidative load of blue light — the claim being that living primarily under LEDs may constitute a light-spectrum nutrient deficiency. Cites Huberman Lab researcher describing LED-induced mitochondrial decline in animal retinal tissue as "a public health issue on the level of asbestos." (<a href="https://www.youtube.com/watch?v=XAcCJ5PHMHs">This Invisible Light Restores Your Mitochondria</a>)</li>
-  <li><strong>Andrew Huberman:</strong> Overview of the four key neuromodulators (dopamine, epinephrine, serotonin, acetylcholine), their natural daily rhythms across three phases of the day, and behavioral/supplement levers — including caffeine's effect on D2/D3 receptor upregulation and L-tyrosine/phenylethylamine for acute dopamine spikes. (<a href="https://www.youtube.com/watch?v=xKvlK7OqZso">Control Your Brain Chemistry for Focus, Motivation & Well-Being</a>)</li>
-  <li><strong>Ben Felix:</strong> Debunks 10 personal finance myths with actual data, including: life-cycle theory argues against maximizing savings when young (consumption smoothing matters more), GDP growth has historically been negatively correlated with stock returns, dividend income doesn't "add" to returns it just reclassifies capital, and actively managed funds underperform index funds so badly that a plain index ETF would have been top-quartile over 20 years. (<a href="https://www.youtube.com/watch?v=3u-mP3C26mg">The Biggest Myths in Personal Finance</a>)</li>
-  <li><strong>Anthony Chaffee MD:</strong> Crooked teeth and underdeveloped jaws attributed to dietary nutrient deficiency — specifically vitamin K2 (fat-soluble, animal-sourced only; K1 from plants converts at ~1%) and inadequate mechanical stimulation from soft foods. Pre-agricultural skulls had wide jaws and full wisdom teeth. (<a href="https://www.youtube.com/shorts/j8a-hBug2QA">This Doesn't Happen Anywhere Else</a>)</li>
-  <li><strong>Dr. Sten Ekberg:</strong> Distinguishes rheumatoid arthritis (autoimmune/cytokine-driven, treated with immune suppression) from osteoarthritis (metabolic, driven by insulin resistance and glycation/AGEs degrading cartilage) and argues dietary levers — particularly blood sugar control — are a much larger driver of OA progression than exogenous dietary AGEs from cooking. (<a href="https://www.youtube.com/watch?v=w3o-5uy9fkY">Top 10 Foods To Avoid If You Have Arthritis</a>)</li>
-  <li><strong>Jared Alderman:</strong> Short on what to actually extract from solvers — no transcript available. (<a href="https://www.youtube.com/shorts/PJQEKw-x7lM">What to learn from solvers #poker</a>)</li>
+  <li><strong>Paul Saladino MD:</strong> Cites a 2026 study of 39,000 people finding 1+ egg/day associated with 27%+ lower Alzheimer's risk, mirroring a 2024 study, attributing the effect to choline, phospholipids, B12, and folate. (<a href="https://www.youtube.com/shorts/RJttYyyhv8Y">The best food for brain health?</a>)</li>
+  <li><strong>Nick Norwitz:</strong> Covers a microbiome study where a low-protein diet increased total energy expenditure by ~20% (600 cal/day) across three controlled trials, traced to gut microbes nudging fat cells toward thermogenesis; researchers then identified a four-microbe cocktail that replicates the effect. (<a href="https://www.youtube.com/shorts/2MfqBphZUpc">How We Could Hack the Microbiome To Increase Calorie Burn</a>)</li>
+  <li><strong>Thomas DeLauer / Chris Masterjohn:</strong> Masterjohn's answer to "what's the most basic health-promoting diet?" is steak and potatoes — red meat for bioavailable iron, zinc, carnitine, creatine, and carnosine; potatoes for potassium (which is genuinely hard to get in bulk from other sources). He recommends adding liver/kidney and shellfish if going carnivore, as steak alone misses some micronutrients. (<a href="https://www.youtube.com/watch?v=XR20UoNuyWs">The Simplest Diet in Existence</a>)</li>
+  <li><strong>Anthony Chaffee MD:</strong> Argues crooked teeth and underdeveloped jaws are nutritional rather than genetic — specifically deficiency in vitamin K2, which is fat-soluble and only meaningfully available from animal foods (conversion from plant-based K1 is ~1%). (<a href="https://www.youtube.com/shorts/j8a-hBug2QA">This Doesn't Happen Anywhere Else</a>)</li>
+  <li><strong>Ken Berry MD:</strong> Short debunking "protein chips" and similar processed snacks with added whey — argues real protein comes from meat, eggs, and canned fish, and the processed versions are "junk maxing" not protein maxing. (<a href="https://www.youtube.com/shorts/69xr0wmNcF4">Stop eating fake protein</a>)</li>
+  <li><strong>Joe Rogan / David Sinclair:</strong> Wide-ranging longevity discussion; highlights include Sinclair's OSK gene therapy (now in human trials for glaucoma/blindness), AI-assisted drug discovery completing in 2 months what would have taken 160+ years, a reported doubling of sudden blindness (NAION) associated with GLP-1 drugs, and a drink/pill cocktail reversing aging markers in mice within 4 weeks. Long and sprawling — the glaucoma trial and NAION data are the most concrete items. (<a href="https://www.youtube.com/watch?v=hxid7FofhMw">JRE #2537 - David Sinclair</a>)</li>
+  <li><strong>Dr. Sten Ekberg:</strong> Distinguishes rheumatoid arthritis (autoimmune, cytokine-driven) from osteoarthritis (metabolic, insulin resistance-driven), and argues dietary AGEs from blood sugar are a far larger driver of cartilage damage than dietary AGEs from cooking — only ~10% of ingested AGEs absorb, and reducing dietary AGEs in studies didn't reduce total body AGE load. (<a href="https://www.youtube.com/watch?v=w3o-5uy9fkY">Top 10 Foods To Avoid If You Have Arthritis</a>)</li>
+  <li><strong>Andrew Huberman:</strong> Essentials recap on neuromodulators: dopamine/epinephrine dominate hours 0-9 post-waking (phase 1), serotonin rises hours 9-16 (phase 2). Morning sunlight increases dopamine receptor density; caffeine (100-250mg) upregulates D2/D3 receptors. Acute dopamine boosters covered: L-tyrosine (variable sensitivity, 15-45 min onset), phenylethylamine (300-600mg, faster and more potent). (<a href="https://www.youtube.com/watch?v=xKvlK7OqZso">Control Your Brain Chemistry</a>)</li>
+  <li><strong>Ben Felix:</strong> Debunks 10 personal finance myths; strongest points: (1) saving maximally when young ignores that marginal utility of spending is highest when income is lowest — consumption smoothing is the correct framework; (2) economic growth and stock returns are historically uncorrelated or slightly inverse; (3) index funds deliver top-quartile returns, not average returns — 0% of top-quartile active funds remain top-quartile 5 years later. (<a href="https://www.youtube.com/watch?v=3u-mP3C26mg">The Biggest Myths in Personal Finance</a>)</li>
 </ul>
 
 <h2>₿ Bitcoin & Macro</h2>
 
 <div class="story">
   <h3><a href="https://bitcoinmagazine.com/news/coldcard-victims-report-median-loss-1btc">Coldcard Bitcoin Hack: $111M+ Stolen, Median Loss 1 BTC</a></h3>
-  <p>A firmware exploit in certain Coldcard hardware wallets has resulted in confirmed losses of at least $111M (likely $130M+), with a median victim loss of 1 BTC. Notably, Bitcoin ETFs absorbed nearly $800M in inflows in the same week — suggesting institutional buyers treated the security story as irrelevant to macro Bitcoin demand. The episode has reignited debate about self-custody operational security and whether the hardware wallet threat model is well-understood by most holders.</p>
+  <p>A firmware exploit in certain Coldcard hardware wallets resulted in confirmed losses of $111M (likely $130M+), with a median loss of 1 BTC per victim. The market shrugged — Bitcoin ETFs absorbed nearly $800M in net inflows in the immediate aftermath, suggesting institutional buyers used the negative headline as a buying opportunity rather than a reason to exit. The story is a meaningful data point on self-custody operational risk vs. the ETF custodian model.</p>
   <p class="meta">Bitcoin Magazine</p>
 </div>
 
 <div class="story">
   <h3><a href="https://bitcoinmagazine.com/technical/bitcoins-bip110-moment-three-possible-scenarios">Bitcoin's BIP110 Moment: Three Possible Scenarios</a></h3>
-  <p>Aaron van Wirdum outlines three paths for BIP110: failure/rejection, activation, or a chain split — the last being the scenario that historically defines Bitcoin governance crises. Worth tracking if you care about Bitcoin's protocol-level stability and the political dynamics of consensus changes.</p>
+  <p>Aaron van Wirdum lays out the three paths for BIP110: failure (no activation), activation with consensus, or a chain split. Worth tracking as a protocol-level development — Bitcoin governance disputes are rare and historically consequential when they occur.</p>
   <p class="meta">Bitcoin Magazine</p>
 </div>
 
 <h2>🧬 Health & Science</h2>
 
 <div class="story">
-  <h3>Sinclair Lab: OSK Gene Therapy in Human Clinical Trial</h3>
-  <p>The first human age-reversal trial is actively dosing patients with an OSK gene cocktail (three Yamanaka factors delivered via AAV-like capsules) targeting glaucoma and NAION (sudden blindness). The mechanism: OSK removes aberrant DNA methylation marks that accumulate with aging, resetting the epigenetic "clock" without dedifferentiating cells — in mice, this restored vision, regrew optic nerve fibers, improved cognition and memory, and reversed fatty liver disease. Sinclair separately reports that AI-enabled computational docking screened a trillion drug candidates in two months to find 200 molecules that may replicate OSK's effects orally, now entering cell-based testing.</p>
+  <h3>Taxi Drivers Rarely Die of Alzheimer's — Spatial Reasoning as Neuroprotection</h3>
+  <p>A piece in The Conversation (226 HN points) covers research showing taxi drivers — who build and continuously use complex mental maps — have unusually low rates of Alzheimer's. The mechanism proposed is that sustained spatial reasoning and hippocampal activation creates structural changes that provide meaningful cognitive reserve. This dovetails with the egg/Alzheimer's data from Saladino's short (39,000-person study, 27%+ risk reduction from 1+ egg/day) — both pointing toward modifiable inputs with outsized effects on dementia risk.</p>
+  <p class="meta"><a href="https://theconversation.com/taxi-drivers-rarely-die-of-alzheimers-how-complex-mental-maps-and-spatial-reasoning-protect-your-brain-286650">The Conversation</a> · <a href="https://news.ycombinator.com/item?id=49233423">HN Discussion</a></p>
 </div>
 
 <div class="story">
-  <h3>LDL Particle Size: "Fluffy LDL" Is Not Protective</h3>
-  <p>Jim Otvos (inventor of NMR LipoProfile) states clearly that large LDL particle size does not confer cardiovascular protection. Key evidence: FH patients — who suffer fatal heart attacks in their 30s-40s — have predominantly large LDL particles. The actual risk variable is LDL particle number (ApoB), not size. The "pattern A vs. pattern B" framing, often used to dismiss high LDL-P, is described as "completely specious."</p>
+  <h3>Peter Attia: BPC-157 Fails Every Criterion for a Legitimate Peptide</h3>
+  <p>Attia's framework-based takedown of BPC-157 is the clearest synthesis I've seen on why this peptide specifically warrants skepticism despite wide use: no characterized parent protein, deliberately withheld discovery methodology, 80%+ of studies from one conflicted lab, zero human RCTs in 30 years, unknown human PK and bioavailability, and pro-angiogenic mechanisms that should increase cancer-risk concern rather than dismiss it. His bucket system (unsupported / plausible but unproven / scientifically legitimate) is a reusable scaffold for evaluating any compound someone recommends.</p>
+  <p class="meta"><a href="https://peterattiamd.com/peptides/">Peter Attia MD</a></p>
 </div>
 
 <div class="story">
-  <h3>Protein Restriction in Kidney Disease: Outdated Evidence?</h3>
-  <p>Peter Attia's piece argues the standard advice to restrict protein for CKD patients was established before modern nephrology management (dialysis quality, ACE inhibitors, GFR staging) and that current evidence does not support blanket restriction for most patients — and may actively harm them by accelerating sarcopenia. The post reviews the mechanistic and clinical literature distinguishing true progression risk from the historical assumptions.</p>
-  <p class="meta"><a href="https://peterattiamd.com/protein-and-renal-function/">Does protein restriction still make sense in modern kidney care?</a> · Peter Attia MD</p>
-</div>
-
-<div class="story">
-  <h3>Melatonin Impairs Morning Cognition in Healthy Young Adults</h3>
-  <p>A study published in <em>Sleep</em> (cited on HN) found that melatonin supplementation measurably impairs cognitive performance the following morning in healthy young adults — a counterintuitive finding given how widely melatonin is used as a sleep aid. Relevant for anyone using it regularly and expecting to perform cognitively the next day.</p>
-  <p class="meta"><a href="https://academic.oup.com/sleep/article/46/Supplement_1/A34/7181621">Melatonin impairs morning cognition in healthy young adults</a> · <em>Sleep</em> journal</p>
-</div>
-
-<div class="story">
-  <h3>Resistant Starch and Visceral Fat</h3>
-  <p>Nick Norwitz cites double-blind RCT data showing that resistant starch (RS) — found in green bananas, available as supplement powder — reduces visceral fat even in calorie-controlled conditions. The mechanism: RS bypasses small intestine digestion, feeds colonic microbiota, which produce short-chain fatty acids that signal systemic metabolic changes including visceral adiposity reduction. The effect appears independent of total caloric intake.</p>
+  <h3>Nick Norwitz: Microbiome Cocktail Replicates 600-Calorie/Day Metabolic Boost</h3>
+  <p>Three separate controlled human trials found low-protein diets increased total energy expenditure by ~20% (~600 cal/day). Researchers traced the mechanism to gut microbiome shifts that cause fat cells to "leak" energy as heat rather than store it (increased thermogenesis). They then identified the specific microbiome signature and synthesized a four-microbe probiotic cocktail that replicates the effect in animal models — a potential "calorie-burning probiotic" now in early development. Replication in humans at scale is the outstanding question.</p>
+  <p class="meta"><a href="https://www.youtube.com/shorts/2MfqBphZUpc">Nick Norwitz</a></p>
 </div>
 
 <h2>💡 Worth Reading</h2>
 
 <div class="story">
-  <h3><a href="https://paulgraham.com/earn.html">How to Earn a Billion Dollars</a></h3>
-  <p>Paul Graham's new essay on what actually generates billion-dollar outcomes. PG essays are reliably worth 15 minutes — he tends to identify the underlying structure of a phenomenon that seems obvious in hindsight but isn't articulated anywhere clearly.</p>
-  <p class="meta">Paul Graham</p>
+  <h3><a href="https://www.theatlantic.com/technology/2026/05/ai-wearable-surveillance-countermeasures/687203/">Everything You Do Is Being Recorded</a></h3>
+  <p>The Atlantic piece on AI wearables and surveillance — 244 HN points suggests it struck a nerve. The core argument is that always-on AI wearables (glasses, pins, earbuds) are normalizing ambient recording of private interactions, and the asymmetry between those who opt in and those who don't is a structural privacy problem that individual countermeasures can't solve. Worth sitting with given how quickly this is becoming a default consumer category.</p>
+  <p class="meta"><a href="https://news.ycombinator.com/item?id=49233423">HN Discussion</a></p>
 </div>
 
 <div class="story">
-  <h3><a href="https://collabfund.substack.com/p/philanthropys-other-third-wave">Philanthropy's Other Third Wave</a></h3>
-  <p>Morgan Housel argues that the best charity of the next 50 years may be a company — the thesis being that scalable, self-sustaining enterprises that solve real problems do more measurable good than traditional philanthropy. A short, provocative reframe of where impact actually comes from.</p>
-  <p class="meta">Collaborative Fund</p>
+  <h3><a href="https://www.economist.com/britain/2026/08/06/the-tragedy-of-the-commons-ai-edition">The Tragedy of the Commons, AI Edition</a></h3>
+  <p>The Economist applies the commons framework to AI — when everyone uses AI to generate content, communicate, and fill the information environment, the shared resource being depleted is signal itself: authentic human expression, reliable information, the ability to distinguish what's real. Not a technical argument but a structural one worth taking seriously as a mental model for where this ends up.</p>
+  <p class="meta">The Economist</p>
 </div>
 
 <div class="story">
-  <h3><a href="https://figsinwintertime.substack.com/p/the-river-and-the-labyrinth-part">The River and the Labyrinth (Parts I & II)</a></h3>
-  <p>Massimo Pigliucci's two-part series contrasts process philosophy (Whitehead) with Heraclitean flux — arguing that Heraclitus's original insight about change and identity is philosophically richer and more defensible than Whitehead's technical metaphysical system. If you find Stoic cosmology or the philosophy of time interesting, this is the kind of careful comparative philosophy Pigliucci does well.</p>
-  <p class="meta"><a href="https://figsinwintertime.substack.com/p/the-river-and-the-labyrinth-part">Part I</a> · <a href="https://figsinwintertime.substack.com/p/the-river-and-the-labyrinth-part-841">Part II</a> · Figs in Winter</p>
+  <h3><a href="https://laurentiugabriel.github.io/blog/articles/how-i-use-llms-to-learn/">How I Use LLMs to Learn Complex Topics</a></h3>
+  <p>517 HN points on a piece about using LLMs as Socratic tutors rather than answer machines — the author's framework centers on asking for explanations at different levels, generating analogies, and having the model probe your understanding back. Given your interest in learning frameworks generally, the meta-question here (how do you use a tool that can explain anything to actually learn rather than just consume) is the interesting one.</p>
+  <p class="meta"><a href="https://news.ycombinator.com/item?id=49233423">HN Discussion</a></p>
 </div>
 
 <div class="story">
-  <h3><a href="https://www.science.org/content/blog-post/preventing-misfolding-preventing-folding">Preventing Protein Misfolding by Preventing Folding</a></h3>
-  <p>A research note on a potentially novel approach to diseases caused by misfolded proteins (Alzheimer's, Parkinson's, prion diseases): rather than trying to catch misfolding after the fact, the strategy involves preventing the folding process itself in specific contexts. Early-stage but conceptually interesting given the scale of neurodegeneration research.</p>
-  <p class="meta"><a href="https://news.ycombinator.com/item?id=">HN Discussion</a> · Science.org</p>
+  <h3><a href="https://figsinwintertime.substack.com/p/the-river-and-the-labyrinth-part">Pigliucci: The River and the Labyrinth (Parts I & II)</a></h3>
+  <p>Massimo Pigliucci's two-part series contrasts process philosophy (Whitehead) with Heraclitean flux — arguing Whitehead's framework gets tangled in its own abstractions while Heraclitus captures something truer: reality is continuous change, but change has structure (the Logos). Part II explicitly returns to Heraclitus as the cleaner foundation. For anyone thinking about impermanence, identity over time, or how Stoic physics relates to modern philosophy of change, this is directly relevant.</p>
+  <p class="meta"><a href="https://figsinwintertime.substack.com/p/the-river-and-the-labyrinth-part">Figs in Winter</a> · <a href="https://figsinwintertime.substack.com/p/the-river-and-the-labyrinth-part-841">Part II</a></p>
+</div>
+
+<div class="story">
+  <h3><a href="https://donaldrobertson.substack.com/p/introducing-the-stoic-mind">Donald Robertson: The Stoic Mind — Five Techniques for Managing Anxiety</a></h3>
+  <p>Robertson is launching a structured series teaching five specific Stoic techniques for anxiety, one at a time. His commentary on Epictetus Handbook #38 this week covers the injunction to be mindful not to injure your own character — the idea that how you respond to others' behavior determines your character more than their behavior does. Robertson is one of the more rigorous modern interpreters (cognitive-behavioral framing of Stoicism); this series is worth following sequentially.</p>
+  <p class="meta"><a href="https://donaldrobertson.substack.com/p/introducing-the-stoic-mind">Donald Robertson</a> · <a href="https://donaldrobertson.substack.com/p/be-mindful-not-to-injure-your-own">Handbook #38 Commentary</a></p>
 </div>
 
 <h2>🤖 AI Capability Watch</h2>
 
 <div class="story">
-  <h3><a href="https://simonwillison.net/2026/Aug/7/moonlight-mayhem/">GPT-5.6 Sol Ultra One-Shots a Full Playable Game</a></h3>
-  <p>Simon Willison tested GPT-5.6 Sol Ultra (OpenAI's current top model) against the same "Raccoon Heist game" prompt he had used with Claude Fable 5, with both models producing fully working games in a single pass from a natural-language premise. This is a useful real-world capability benchmark: full working interactive software from a paragraph of description, no iteration — a meaningful step beyond the code-assist framing of a year ago.</p>
-  <p class="meta"><a href="https://simonwillison.net/2026/Aug/7/moonlight-mayhem/">Simon Willison</a></p>
-</div>
-
-<div class="story">
-  <h3><a href="https://openai.com/index/improving-gpt-5-6-sol-in-chatgpt">GPT-5.6 Sol Upgraded; GPT-5.6 Luna Expanded to Free Users</a></h3>
-  <p>OpenAI has updated GPT-5.6 Sol with improved accuracy and consistency, and is rolling out GPT-5.6 Luna (their mid-tier model) to free ChatGPT users with unlimited everyday chat access. The practical upshot: ChatGPT free tier is now meaningfully more capable for everyday use than it was six months ago, closing some of the gap with paid plans for most users.</p>
-  <p class="meta"><a href="https://openai.com/index/improving-gpt-5-6-sol-in-chatgpt">OpenAI Blog</a></p>
+  <h3><a href="https://www.anthropic.com/news/improving-fable-5-s-biology-safeguards">Claude "Fable 5" and "Mythos 5" — New Model Names Signal Major Release</a></h3>
+  <p>Anthropic's system prompt and safety announcements this week reveal model names "Claude Fable 5" and "Claude Mythos 5," first released June 9, 2026, temporarily suspended under U.S. export controls, and restored July 1. The biology safeguards post and cybersecurity evaluations post both reference Fable 5 specifically — suggesting this is a meaningfully new model generation with capabilities significant enough to trigger export control review, not just a minor update. The capability bar that triggers Commerce Department intervention is worth noting.</p>
+  <p class="meta"><a href="https://www.anthropic.com/news/improving-fable-5-s-biology-safeguards">Anthropic</a> · <a href="https://simonwillison.net/2026/Aug/9/claude-opus-5-system-prompt/">Simon Willison</a></p>
 </div>
 </body>
 </html>
