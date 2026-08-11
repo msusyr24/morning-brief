@@ -1,96 +1,126 @@
 === HACKER NEWS ===
-1. [116 pts] What Happened to HackerOne?
-   https://blog.teknogeek.io/posts/what-happened-to-hackerone/
+1. [411 pts] The UK's War on Anonymity Has Come to America
+   https://www.effort.news/uk-lobby
 
-2. [23 pts] Auto mode is now the default in Claude Code
-   https://claude.com/blog/auto-mode-default-in-claude-code
+2. [104 pts] H3-metal – Native MiniMax-H3 inference for Apple Silicon
+   https://github.com/antirez/h3.c
 
-3. [517 pts] How I use LLMs to learn complex topics
-   https://laurentiugabriel.github.io/blog/articles/how-i-use-llms-to-learn/
+3. [105 pts] Chicken Scheme 6.0
+   https://code.call-cc.org/releases/6.0.0/NEWS
 
-4. [19 pts] Show HN: Voice driven murder mystery, Interview AI suspects with your voice
-   https://www.whodunnitai.com/
+4. [33 pts] Recycle – Floppydisks
+   https://www.floppydisk.com/recycle
 
-5. [13 pts] Long-Run Effects of H-1B Immigration on the U.S. Economy (July 2026)
-   https://www.nber.org/papers/w35560
+5. [121 pts] Show HN: Scroll through all 43252003274489856000 Rubik's Cube states
+   https://everycube.alen.is/
 
-6. [21 pts] Turn satellite imagery into a paper globe you fold yourself
-   https://foldingglobes.com/
+6. [83 pts] The “mechanical miracle” that ruined Mark Twain’s life
+   https://resobscura.substack.com/p/the-mechanical-miracle-that-ruined
 
-7. [10 pts] Run Android ARM64 VR APKs on Apple Vision Pro
-   https://github.com/shinyquagsire23/Klepton
+7. [233 pts] Show HN: Needle2: 14MB agentic LLM for phones, wearables, smart home and robots
+   https://cactuscompute.com/needle
 
-8. [55 pts] How We Pushed CDC into Postgres
-   https://www.snowflake.com/en/blog/engineering/postgres-to-snowflake-replication-mirroring/
+8. [25 pts] Hyperspace
+   https://hypercritical.co/hyperspace/
 
-9. [226 pts] Taxi drivers rarely die of Alzheimer's
-   https://theconversation.com/taxi-drivers-rarely-die-of-alzheimers-how-complex-mental-maps-and-spatial-reasoning-protect-your-brain-286650
+9. [423 pts] Mark Zuckerberg attacks 'closed' AI rivals as Meta returns to open models
+   https://www.ft.com/content/4e3957f8-ea7c-4c46-a3de-cdce8e526878
 
-10. [205 pts] Ask HN: What are you working on? (August 2026)
-   https://news.ycombinator.com/item?id=49233423
+10. [153 pts] Rust SIMD on the GPU
+   https://www.vectorware.com/blog/simd-on-gpu/
 
-11. [30 pts] ATProto for Distributed Systems Engineers
-   https://atproto.com/articles/atproto-for-distsys-engineers
+11. [177 pts] Stowaway – Take the window seat on any plane or satellite overhead
+   https://stowaway.live/
 
-12. [35 pts] Picophysics: Single file physics for games on platforms like N64, PSX, DC
-   https://gitlab.com/Kazade/picophysics
+12. [334 pts] Sonic Pi v5
+   https://www.patreon.com/samaaron/posts/sonic-pi-v5-166001392
 
-13. [68 pts] Tuxedo No. 2 – Cocktail recipes
-   https://tuxedono2.com
+13. [76 pts] World Train Map – 1247 train routes around the world
+   https://worldtrainmap.com/
 
-14. [211 pts] Cool URIs Don't Change (1998)
-   https://www.w3.org/Provider/Style/URI
+14. [77 pts] Publishing Schematics Before “Open Source” Was a Word
+   https://fabscene.medium.com/publishing-schematics-before-open-source-was-a-word-55-years-of-akizuki-denshi-japans-be7ca9629704
 
-15. [45 pts] "The Persian MâR-Nâmeh Or, the Book for Taking Omens from Snakes" (1892)
-   https://publicdomainreview.org/collection/marnameh/
+15. [80 pts] Confessions of a Long-Distance Sailor
+   https://arachnoid.com/lutusp/sailbook.html
 
-16. [92 pts] The tragedy of the commons, AI edition
-   https://www.economist.com/britain/2026/08/06/the-tragedy-of-the-commons-ai-edition
+16. [1068 pts] Muse Glimmer: 30B-parameter model optimized for always-on local agent workflows
+   https://research.meta.ai/blog/introducing-muse-glimmer-open-agentic-model
 
-17. [5 pts] Nearest Pint
-   https://knowwhereconsulting.co.uk/maps/pubs/
+17. [182 pts] Humanising LLM Outputs Is Dumb
+   https://kuber.studio/blog/Reflections/Humanising-LLM-Outputs-is-Actually-Dumb
 
-18. [92 pts] New Zealand lost its music media, and what we're building to replace it
-   https://propelmusic.co.nz/articles/the-sound-went-quiet-nz-music-media
+18. [238 pts] Squeak 6.1
+   https://squeak.org/release_notes/6.1/
 
-19. [244 pts] Everything you do is being recorded
-   https://www.theatlantic.com/technology/2026/05/ai-wearable-surveillance-countermeasures/687203/
+19. [11 pts] Updated GPG Key for Signing Firefox and Thunderbird Releases
+   https://blog.mozilla.org/security/2026/08/10/updated-gpg-key-for-signing-firefox-and-thunderbird-releases/
 
-20. [41 pts] Andrew Wiles on proving Fermat’s Last Theorem (1995) [video]
-   https://www.youtube.com/watch?v=GS7CxAtV5Ks
+20. [145 pts] Exploiting System Management Mode with a very long interrupt
+   https://github.com/xoreaxeaxeax/smiiiiiiiiiiiiiiii
 
-21. [125 pts] OpenChamber: An Agentic Development Environment
-   https://openchamber.dev/
+21. [95 pts] What's the best programming language for coding agents?
+   http://danluu.com/pl-tokens/
 
-22. [72 pts] Japanese court overturns Red RAW video patent
-   https://www.dpreview.com/news/panasonic-did-what-apple-sony-and-nikon-couldnt-overturn-a-red-raw-video-patent/
+22. [10 pts] Choral: Choreographic Programming for Java
+   https://www.choral-lang.org/
 
-23. [20 pts] The German Mittelstand
-   https://kieranvelasquez.substack.com/p/on-the-german-mittelstand
+23. [70 pts] Launch HN: Stoa Markets (YC S26) – A Marketplace for GPUs and AI Servers
+   https://www.stoaexchange.com
 
-24. [437 pts] Windows 11's built-in Weather app wastes more than 1 GB of RAM
-   https://www.notebookcheck.net/Windows-11-s-built-in-Weather-app-wastes-more-than-1-GB-of-RAM.1364205.0.html
+24. [19 pts] The Story of Mac: A Just-So Story
+   https://gigamonkeys.com/book/macros-defining-your-own
 
-25. [110 pts] Show HN: A Project Oberon System version running on RISC-V instead of RISC-5
-   https://github.com/rochus-keller/OberonSystem/tree/op2-rv32
+25. [205 pts] Parametron: 50s Japanese computer that uses neither transistors nor vacuum tubes
+   https://ethw.org/Milestones:Parametron,_1954
 
-26. [18 pts] The Ambition Project
-   https://www.betonit.ai/p/the-ambition-project
+26. [10 pts] Why My Father Is Wrong: A Defense of Guitar Hero
+   https://whatever.scalzi.com/2026/08/10/why-my-father-is-wrong-a-defense-of-guitar-hero/
 
-27. [135 pts] Reviving a four year old reMarkable 2
-   https://oskrim.github.io/hardware/2026/08/09/remarkable-over-ssh.html
+27. [165 pts] Ask HN: In your experience, what are sound conventions for e-ink UI development?
+   https://news.ycombinator.com/item?id=49213660
 
-28. [51 pts] How Golden Is Silence, Actually?
-   https://www.newyorker.com/magazine/2026/08/10/silence-kate-mcloughlin-book-review
+28. [102 pts] Letter to Governor Abbott on responsible AI infrastructure in Texas
+   https://openai.com/index/responsible-ai-infrastructure-texas/
 
-29. [26 pts] Taylor Farms recalls salsa and guacamole over salmonella risk
-   https://www.cnbc.com/2026/08/09/taylor-farms-recalls-salsa-and-guacamole-over-salmonella-risk.html
+29. [90 pts] The Psychedelic Toad of the Sonoran Desert
+   https://en.wikipedia.org/wiki/Bufo_Alvarius:_the_Psychedelic_Toad_of_the_Sonoran_Desert
 
-30. [19 pts] Touring the Consensus, Six Months In
-   https://theconsensus.dev/blog/2026/08/05/touring-the-consensus-six-months-in.html
+30. [128 pts] Exploring Claude/GPT Knowledge Cutoffs and Pre-Training Timelines
+   https://blog.sshh.io/p/exploring-claudegpt-knowledge-cutoffs
 
 
 === RSS ===
+[ideas] Marginal Revolution: Who enters Congress?
+  https://marginalrevolution.com/marginalrevolution/2026/08/who-enters-congress.html?utm_source=rss&utm_medium=rss&utm_campaign=who-enters-congress
+
+[ideas] Marginal Revolution: Brian Chau at work
+  https://marginalrevolution.com/marginalrevolution/2026/08/brian-chau-at-work.html?utm_source=rss&utm_medium=rss&utm_campaign=brian-chau-at-work
+
+[ideas] Marginal Revolution: Monday assorted links
+  https://marginalrevolution.com/marginalrevolution/2026/08/monday-assorted-links-572.html?utm_source=rss&utm_medium=rss&utm_campaign=monday-assorted-links-572
+
+[ideas] Marginal Revolution: Do Faculty Affect Student Partisanship?
+  https://marginalrevolution.com/marginalrevolution/2026/08/do-faculty-affect-student-partisanship.html?utm_source=rss&utm_medium=rss&utm_campaign=do-faculty-affect-student-partisanship
+
+[ideas] Marginal Revolution: Act like it is science
+  https://marginalrevolution.com/marginalrevolution/2026/08/act-like-it-is-science.html?utm_source=rss&utm_medium=rss&utm_campaign=act-like-it-is-science
+
+[ideas] Collaborative Fund (Morgan Housel): Philanthropy's other third wave
+  https://collabfund.substack.com/p/philanthropys-other-third-wave
+
+[ideas] Paul Graham: How to Earn a Billion Dollars
+  https://paulgraham.com/earn.html
+
+[health] Peter Attia: #403 ‒ Peptides: separating scientific promise from marketing hype
+  https://peterattiamd.com/peptides/
+
+[health] Peter Attia: Does protein restriction still make sense in modern kidney care?
+  https://peterattiamd.com/protein-and-renal-function/
+
+[ai] Simon Willison: Introducing Muse Glimmer
+  https://simonwillison.net/2026/Aug/10/introducing-muse-glimmer/#atom-everything
+
 [ai] Simon Willison: Quoting OpenClaw
   https://simonwillison.net/2026/Aug/10/openclaw/#atom-everything
 
@@ -103,20 +133,8 @@
 [ai] Simon Willison: SQLite compressed text-history prototypes
   https://simonwillison.net/2026/Aug/9/sqlite-text-history-prototype/#atom-everything
 
-[ai] Simon Willison: Auto mode is now the default in Claude Code for Pro, Max, and Team plans
-  https://simonwillison.net/2026/Aug/8/auto-mode/#atom-everything
-
-[health] Peter Attia: #403 ‒ Peptides: separating scientific promise from marketing hype
-  https://peterattiamd.com/peptides/
-
-[health] Peter Attia: Does protein restriction still make sense in modern kidney care?
-  https://peterattiamd.com/protein-and-renal-function/
-
-[ideas] Collaborative Fund (Morgan Housel): Philanthropy's other third wave
-  https://collabfund.substack.com/p/philanthropys-other-third-wave
-
-[ideas] Paul Graham: How to Earn a Billion Dollars
-  https://paulgraham.com/earn.html
+[bitcoin] The Pomp Letter: This Major AI Breakthrough Will Improve Your Portfolio
+  https://pomp.substack.com/p/this-major-ai-breakthrough-will-improve
 
 [ai] Anthropic News: Improving Fable 5's biology safeguards
   https://www.anthropic.com/news/improving-fable-5-s-biology-safeguards
@@ -127,20 +145,50 @@
 [ai] Anthropic News: Investigating three real-world incidents in our cybersecurity evaluations
   https://www.anthropic.com/news/investigating-incidents-cybersecurity-evals
 
-[ideas] Marginal Revolution: Act like it is science
-  https://marginalrevolution.com/marginalrevolution/2026/08/act-like-it-is-science.html?utm_source=rss&utm_medium=rss&utm_campaign=act-like-it-is-science
+[wisdom] Donald Robertson: Be mindful not to injure your own character...
+  https://donaldrobertson.substack.com/p/be-mindful-not-to-injure-your-own
 
-[ideas] Marginal Revolution: Sunday assorted links
-  https://marginalrevolution.com/marginalrevolution/2026/08/sunday-assorted-links-579.html?utm_source=rss&utm_medium=rss&utm_campaign=sunday-assorted-links-579
+[wisdom] Donald Robertson: Introducing The Stoic Mind
+  https://donaldrobertson.substack.com/p/introducing-the-stoic-mind
 
-[ideas] Marginal Revolution: JFK’s AI Voice
-  https://marginalrevolution.com/marginalrevolution/2026/08/jfks-ai-voice.html?utm_source=rss&utm_medium=rss&utm_campaign=jfks-ai-voice
+[ideas] Stratechery: Apple Earnings, More on Amazon’s Earnings
+  https://stratechery.com/2026/apple-earnings-more-on-amazons-earnings/
 
-[ideas] Marginal Revolution: Pressure
-  https://marginalrevolution.com/marginalrevolution/2026/08/pressure.html?utm_source=rss&utm_medium=rss&utm_campaign=pressure
+[bitcoin] Bitcoin Magazine: Blockstream Debuts Swaps, Allowing Bitcoiners to Move Between Lightning and Main Network With Ease
+  https://bitcoinmagazine.com/news/blockstream-debuts-bitcoin-swaps-lightning
 
-[ideas] Marginal Revolution: One of the better pro-natalist Lieder
-  https://marginalrevolution.com/marginalrevolution/2026/08/one-of-the-better-pro-natalist-lieder.html?utm_source=rss&utm_medium=rss&utm_campaign=one-of-the-better-pro-natalist-lieder
+[bitcoin] Bitcoin Magazine: BTCPay Server Offers a 3 Bitcoin Bounty for Recovery of Stolen Funds After Wallet Exploit
+  https://bitcoinmagazine.com/news/btcpay-server-offers-bitcoin-bounty
+
+[bitcoin] Bitcoin Magazine: Bitcoin Exchange-Traded Funds See Spike In Inflows Following Huge Hack
+  https://bitcoinmagazine.com/news/bitcoin-etfs-see-biggest-flows-since-april
+
+[bitcoin] Bitcoin Magazine: TD Cowen Gives Crypto Clarity Act a 25% Chance of Passing This Fall
+  https://bitcoinmagazine.com/news/td-cowen-gives-clarity-act-25-of-passing
+
+[bitcoin] Bitcoin Magazine: Strategy Sells Bitcoin Again For Cash Buffer, STRC Buyback
+  https://bitcoinmagazine.com/news/strategy-sells-more-bitcoin-for-cash-pile
+
+[bitcoin] Bitcoin Magazine: BIP-110 Fork Stalls at Two Blocks as Bitcoin Miners Refuse to Follow
+  https://bitcoinmagazine.com/news/bip110-stalls-bitcoin-miners-do-not-follow
+
+[ideas] Astral Codex Ten: Open Thread 446
+  https://www.astralcodexten.com/p/open-thread-446
+
+[ai] OpenAI Blog: OpenAI’s letter to Governor Abbott on responsible AI infrastructure in Texas
+  https://openai.com/index/responsible-ai-infrastructure-texas
+
+[ai] OpenAI Blog: Model ML completes finance work more efficiently with GPT-5.6 Sol
+  https://openai.com/index/model-ml
+
+[ai] OpenAI Blog: What building an AI-native finance function taught me
+  https://openai.com/index/building-an-ai-native-finance-function
+
+[ai] OpenAI Blog: Expanding Daybreak as the Cyber Defense Window Narrows
+  https://openai.com/index/expanding-daybreak-as-the-cyber-defense-window-narrows
+
+[ai] OpenAI Blog: Putting frontier cyber models in more trusted hands
+  https://openai.com/index/putting-frontier-cyber-models-in-more-trusted-hands
 
 [wisdom] Figs in Winter (Pigliucci): Suggested Readings
   https://figsinwintertime.substack.com/p/suggested-readings-e8e
@@ -151,135 +199,13 @@
 [wisdom] Figs in Winter (Pigliucci): The river and the labyrinth – part I
   https://figsinwintertime.substack.com/p/the-river-and-the-labyrinth-part
 
-[ideas] Stratechery: 2026.32: Earnings and Learnings
-  https://stratechery.com/2026/earnings-and-learnings/
-
-[bitcoin] The Pomp Letter: The Reindustrialization of America
-  https://pomp.substack.com/p/the-reindustrialization-of-america
-
-[bitcoin] Bitcoin Magazine: Trump Media Pulls Back From Crypto Deals: Report
-  https://bitcoinmagazine.com/news/trump-media-pulls-back-from-crypto-deals
-
-[bitcoin] Bitcoin Magazine: Senators Cynthia Lummis and Angela Alsobrooks Say Bipartisan Work on Clarity Act Continues Despite Delays
-  https://bitcoinmagazine.com/news/lummis-alsobrooks-work-on-clarity-act
-
-[bitcoin] Bitcoin Magazine: Coldcard Bitcoin Hack: Victims Report Median Loss of 1 BTC as Theft Tops $111 Million
-  https://bitcoinmagazine.com/news/coldcard-victims-report-median-loss-1btc
-
-[bitcoin] Bitcoin Magazine: Bitcoin Shrugs off Coldcard Hack and Clarity Act Delays, Price Chops Higher as Investors Buy ETFs
-  https://bitcoinmagazine.com/news/bitcoin-price-shrugs-off-coldcard-hack
-
-[bitcoin] Bitcoin Magazine: Bitcoin ETFs Add Nearly $800 Million in the Wake of Coldcard Exploit
-  https://bitcoinmagazine.com/news/bitcoin-etfs-800-million-coldcard
-
-[bitcoin] Bitcoin Magazine: Crucial Vote On Crypto Clarity Act Delayed Until September, Trump Says More People Are Paying in Bitcoin: Reports
-  https://bitcoinmagazine.com/news/clarity-act-vote-delayed-trump-bitcoin
-
-[bitcoin] Bitcoin Magazine: Bitcoin’s BIP110 Moment: Three Possible Scenarios
-  https://bitcoinmagazine.com/technical/bitcoins-bip110-moment-three-possible-scenarios
-
-[ai] OpenAI Blog: Responding to the next frontier of critical cyber capabilities
-  https://openai.com/index/responding-next-frontier-critical-cyber-capabilities
-
-[ai] OpenAI Blog: How HSP GRUPPE builds AI capabilities for tax advisory
-  https://openai.com/index/hsp-gruppe
-
-[wisdom] Donald Robertson: Be mindful not to injure your own character...
-  https://donaldrobertson.substack.com/p/be-mindful-not-to-injure-your-own
-
-[wisdom] Donald Robertson: Introducing The Stoic Mind
-  https://donaldrobertson.substack.com/p/introducing-the-stoic-mind
-
-[health] Stronger by Science: Is the Correlation Between Hypertrophy and Strength Gains Stronger Than We Realized?
-  https://www.strongerbyscience.com/correlation-strength-hypertrophy/
-
 
 === YOUTUBE ===
-Anthony Chaffee MD: This Doesn't Happen Anywhere Else
-  https://www.youtube.com/shorts/j8a-hBug2QA
-  Transcript: yes
-
-Paul Saladino MD: The best food for brain health?
-  https://www.youtube.com/shorts/RJttYyyhv8Y
-  Transcript: yes
-
-GTO Wizard: When Pros Deviate from The Optimal Play
-  https://www.youtube.com/shorts/pfVJcOhXvcc
-  Transcript: yes
-
-Ken Berry MD: Stop eating fake protein. If you want protein, eat meat.
-  https://www.youtube.com/shorts/69xr0wmNcF4
-  Transcript: yes
-
-Nick Norwitz: How We Could Hack the Microbiome To Increase Calorie Burn
-  https://www.youtube.com/shorts/2MfqBphZUpc
-  Transcript: yes
-
-Joe Rogan: Joe Rogan Experience #2537 - David Sinclair
-  https://www.youtube.com/watch?v=hxid7FofhMw
-  Transcript: yes
-
-Jared Alderman: What to learn from solvers #poker
-  https://www.youtube.com/shorts/PJQEKw-x7lM
-  Transcript: yes
-
-Thomas DeLauer: The Simplest Diet in Existence is Also the Healthiest (drops bodyfat and builds muscle)
-  https://www.youtube.com/watch?v=XR20UoNuyWs
-  Transcript: yes
-
-Lex Fridman: Gary Gallagher: American Civil War, Slavery, Lincoln, Grant & Lee | Lex Fridman Podcast #499
-  https://www.youtube.com/watch?v=XyXBwO5jYpw
-  Transcript: yes
-
-GTO Lab: Blockers can turn a thin hand into a bet under ICM.
-  https://www.youtube.com/shorts/ccbgG5h0YQ0
-  Transcript: yes
-
-GTO Lab: The small c-bet feels comfortable because players see it so often.
-  https://www.youtube.com/shorts/H9Eyu2NR91M
-  Transcript: NO
-
 Peter Attia: 403 ‒ Peptides: separating scientific promise from marketing hype
   https://www.youtube.com/watch?v=Km_01CLEkYU
   Transcript: yes
 
-Renaissance Periodization: You Can Build a Brad Pitt Body at Home
-  https://www.youtube.com/shorts/hjIeoysbvbw
-  Transcript: yes
-
-Dr. Sten Ekberg: Top 10 Foods To Avoid If You Have Arthritis
-  https://www.youtube.com/watch?v=w3o-5uy9fkY
-  Transcript: yes
-
-ModernWisdom: What’s The True Size Of The United States
-  https://www.youtube.com/shorts/a0Qq6pgEQxg
-  Transcript: yes
-
-ModernWisdom: What’s The Biggest Irrational Fear That You Have Besides Being Unsuccessful?
-  https://www.youtube.com/shorts/NwQDsCB6Nkg
-  Transcript: yes
-
-ModernWisdom: The Two Shows A Night Rule
-  https://www.youtube.com/shorts/DaXnApYW8kw
-  Transcript: yes
-
-ModernWisdom: She Wants Sex, Just Not From You
-  https://www.youtube.com/watch?v=_ZMYDb86DzY
-  Transcript: yes
-
 Ben Felix: The Biggest Myths in Personal Finance
   https://www.youtube.com/watch?v=3u-mP3C26mg
-  Transcript: yes
-
-Andrew Huberman: Control Your Brain Chemistry for Focus, Motivation & Well-Being | Huberman Lab Essentials
-  https://www.youtube.com/watch?v=xKvlK7OqZso
-  Transcript: yes
-
-ThinkingPoker: Bankroll Management - Thinking Poker
-  https://www.youtube.com/watch?v=6w8amkDkeVw
-  Transcript: yes
-
-Mind The Game: The Hilarious Story Behind How Steph Made Steve Nash Retire
-  https://www.youtube.com/watch?v=bgSixq0dOKs
   Transcript: yes
 
