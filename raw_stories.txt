@@ -1,98 +1,110 @@
 === HACKER NEWS ===
-1. [380 pts] Compression is prediction
-   https://ngrok.com/blog/compression-is-prediction
+1. [820 pts] DeepSeek V4 Pro 0813
+   https://openrouter.ai/deepseek/deepseek-v4-pro-0813
 
-2. [74 pts] The hardest working font in Manhattan (2025)
-   https://aresluna.org/the-hardest-working-font-in-manhattan/
+2. [900 pts] Tailscale Traces Database Corruption to 16y/o SQLite WAL-Reset Bug
+   https://tailscale.com/blog/sqlite-wal-reset-bug
 
-3. [39 pts] The lifesaving secret hidden inside a horseshoe crab's blue blood
-   https://whdh.com/news/the-lifesaving-secret-hidden-inside-a-horseshoe-crabs-blue-blood-and-the-race-to-protect-the-species/
+3. [463 pts] Delta
+   https://zed.dev/blog/introducing-delta
 
-4. [169 pts] WorldClaw Agentic 3D open-world generation at scale
-   https://tencent-hunyuan.github.io/Hunyuan3D-WorldClaw/
+4. [548 pts] Qwen3.8-2.4T
+   https://huggingface.co/Qwen/Qwen3.8-2.4T-A95B
 
-5. [199 pts] Nvidia Nemotron 3.5 Lightning and NeMo Switchyard
-   https://blogs.nvidia.com/blog/nemotron-lightning-switchyard-rtx-dgx/
+5. [96 pts] Principia Mathematica is modern and insightful
+   https://okmij.org/ftp/Computation/Impressions/PrincipiaMathematica.html
 
-6. [557 pts] Stealing Reasoning Traces from Proprietary LLM APIs
-   https://stolen-thoughts.com/
+6. [30 pts] Antiqua–Fraktur dispute
+   https://en.wikipedia.org/wiki/Antiqua%E2%80%93Fraktur_dispute
 
-7. [337 pts] Mojo 1.0
-   https://www.modular.com/blog/modular-26-5-mojo-1-0-is-here
+7. [65 pts] Build Wide, Ship Narrow
+   https://adapt.com/blog/build-wide-ship-narrow
 
-8. [27 pts] The Human Is the Loop
-   https://brentfitzgerald.com/posts/the-human-is-the-loop/
+8. [49 pts] Happy 45th Birthday to the IBM PC and Model F/XT
+   https://sharktastica.co.uk/articles/pc-fxt-45
 
-9. [348 pts] OpenAI’s head of ethics leaves less than a year after joining
-   https://www.ft.com/content/e49dfb75-f841-4466-a577-f7aaff8779a0
+9. [464 pts] 2026 Eclipse Webcams
+   https://jonty.github.io/2026_eclipse_webcams/
 
-10. [88 pts] Company Offering '100% Human-Written, Never AI' Medical Research Is 100% AI
-   https://www.404media.co/company-offering-100-human-written-never-ai-peer-review-is-entirely-ai/
+10. [249 pts] Tim King, AmigaDOS developer, has died
+   https://amiga-news.de/en/news/AN-2026-08-00070-EN.html
 
-11. [111 pts] New Bedford police officer accused of using Flock cameras to track ex-partner
-   https://newbedfordlight.org/new-bedford-police-officer-accused-of-using-flock-cameras-to-track-and-follow-ex-romantic-partner/
+11. [61 pts] Why Target Common Lisp for Code Generation?
+   http://funcall.blogspot.com/2026/08/why-vibe-code-in-lisp.html
 
-12. [208 pts] Grok Bot
-   https://x.ai/bot
+12. [171 pts] HTML over WebSockets: real-time SPAs with barely any JavaScript
+   https://en.andros.dev/blog/ef4968f5/html-over-websockets-real-time-spas-with-barely-any-javascript/
 
-13. [135 pts] Making holograms with a pen plotter
-   https://blog.jordan.matelsky.com/Penplotter-holography/
+13. [466 pts] Grok 4.6
+   https://x.ai/news/grok-4-6
 
-14. [22 pts] Neutrinos from Deep Inside Earth Provide a New Picture of the Mantle
-   https://www.quantamagazine.org/neutrinos-from-deep-inside-earth-provide-a-new-picture-of-the-mantle-20260807/
+14. [367 pts] uBlock Origin Is Giving Up the Fight to Keep Ads Off Facebook
+   https://digitalescapetools.com/2026/08/ublock-origin-stops-chasing-facebook-ads.html
 
-15. [239 pts] Show HN: iPhone app takes simultaneous images from 2 lenses, fuses into 1 photo
-   https://photosynthesis.camera
+15. [6 pts] From rubber boots to Copa: When MicroProse Soccer revolutionized football
+   https://spillhistorie.no/2026/08/08/fra-gummistovler-til-copa-da-microprose-soccer-revolusjonerte-fotballen/
 
-16. [44 pts] Show HN: Tamron Lens Utility Alternative on Linux
-   https://github.com/yikerman/tamron-lens-control
+16. [19 pts] Probabilistic Estimation for Localizing a Radioactive Source in an Urban Setting
+   https://repository.lib.ncsu.edu/items/451b001d-e63a-4968-866d-3fb3a599b1e7
 
-17. [46 pts] Show HN: Line9 – A Mermaid rendering engine with its own layout
-   https://line9.ai/diagram
+17. [128 pts] Launch HN: Discovered Materials (YC P26) – AI agents to discover new materials
+   https://discoveredmaterials.com/research/
 
-18. [311 pts] Go is an ideal language for AI-assisted software engineering
-   https://developers.googleblog.com/why-go-is-an-ideal-language-for-ai-assisted-software-engineering/
+18. [276 pts] Why tiny JPEGs look different in Chrome
+   https://guillaumetech.github.io/posts/jpg-scaling-chrome/
 
-19. [170 pts] Jolt: Clojure compiler implemented with Chez Scheme
-   https://jolt-lang.github.io
+19. [26 pts] Show HN: Ballet – Workflow automation that writes integrations against any API
+   https://www.ballet.dev/
 
-20. [503 pts] England set to be one of the first countries to eliminate hepatitis C
-   https://www.bbc.com/news/articles/c75gk620r22o
+20. [255 pts] Someone is running mass vulnerability scans, spoofing AI bots like ClaudeBot
+   https://knownagents.com/insights
 
-21. [266 pts] London Underground begins scanning passengers' faces
-   https://www.btp.police.uk/news/btp/news/england/btp-expands-live-facial-recognition-lfr-trial-into-london-underground-stations/
+21. [76 pts] Thanks to social media, canned sardines are a scarcity on the supermarket shelf
+   https://corneroffifth.studio/why-cant-you-find-canned-sardines-right-now/
 
-22. [123 pts] How we used to get jobs: A newspaper classifieds story
-   https://ironicsans.ghost.io/how-we-used-to-get-jobs/
+22. [120 pts] Pixel Watch 5
+   https://blog.google/products-and-platforms/devices/pixel/pixel-watch-5/
 
-23. [3 pts] Show HN: Find stale, orphaned, deleted-but-retrievable RAG vectors
-   https://github.com/rimironenko/rag-staleness-check
+23. [165 pts] Shade Map
+   https://shademap.app
 
-24. [316 pts] Nvidia's Risky Business
-   https://stratechery.com/2026/nvidias-risky-business/
+24. [111 pts] Lovable raises $400M Series C
+   https://lovable.dev/blog/series-c
 
-25. [45 pts] pg_clickhouse v0.10: Subquery pushdown and 1000x faster TPC-H queries
-   https://clickhouse.com/blog/pg_clickhouse-whats-new-july-2026
+25. [795 pts] AI is removing the middle class of software engineering?
+   https://blog.florianherrengt.com/ai-removing-middle-class-software-engineering.html
 
-26. [95 pts] CSS properties you should know for better text designs
-   https://master.dev/blog/typographic-css-tricks/
+26. [81 pts] A Tale of Dynamic Programming (2022)
+   https://iagoleal.com/posts/dynamic-programming/
 
-27. [145 pts] Manus will return to operating as an independent company
-   https://manus.im/blog/a-note-to-our-users
+27. [248 pts] What sort of maths are LLMs good at?
+   https://gowers.wordpress.com/2026/08/12/what-sort-of-maths-are-llms-good-at/
 
-28. [43 pts] Emergent Introspective Awareness in Large Language Models
-   https://arxiv.org/abs/2601.01828
+28. [1 pts] Reflex (YC W23) Is hiring Growth and GTM Roles
+   https://www.ycombinator.com/companies/reflex/jobs/71x5GFb-growth-engineer
 
-29. [144 pts] Show HN: Git-knife – Edit commit messages, authors, and dates like a spreadsheet
-   https://github.com/TheRealYT/git-knife
+29. [41 pts] Process as a Proxy for Motivation
+   https://bengodfrey.dev/blog/process/
 
-30. [38 pts] RSI Simulator
-   https://www.paradigm.xyz/writing/rsi-simulator
+30. [271 pts] Show HN: Woxi - Open-source Mathematica / Wolfram Language reimplementation
+   https://woxi.ad-si.com
 
 
 === RSS ===
-[health] Peter Attia: #403 ‒ Peptides: separating scientific promise from marketing hype
-  https://peterattiamd.com/peptides/
+[ai] Simon Willison: DeepSeek V4 Pro 0813 (on OpenRouter)
+  https://simonwillison.net/2026/Aug/12/deepseek-v4-pro-0813/
+
+[ai] Simon Willison: alchemy-utils 0.1a0
+  https://simonwillison.net/2026/Aug/12/alchemy-utils/
+
+[ai] Simon Willison: Quoting Florian Herrengt
+  https://simonwillison.net/2026/Aug/12/florian-herrengt/
+
+[ai] Simon Willison: There are no lossless transformations of natural-language text
+  https://simonwillison.net/2026/Aug/11/there-are-no-lossless-transformations-of-natural-language-text/
+
+[ai] Simon Willison: Stealing Reasoning Traces from Proprietary LLM APIs
+  https://simonwillison.net/2026/Aug/11/stealing-reasoning-traces/
 
 [ai] Anthropic News: Improving Fable 5's biology safeguards
   https://www.anthropic.com/news/improving-fable-5-s-biology-safeguards
@@ -100,98 +112,17 @@
 [ai] Anthropic News: Mariano-Florentino (Tino) Cuéllar to join Anthropic as Chief Global Affairs Officer
   https://www.anthropic.com/news/tino-cuellar
 
-[ai] Anthropic News: Investigating three real-world incidents in our cybersecurity evaluations
-  https://www.anthropic.com/news/investigating-incidents-cybersecurity-evals
-
-[ai] Simon Willison: There are no lossless transformations of natural-language text
-  https://simonwillison.net/2026/Aug/11/there-are-no-lossless-transformations-of-natural-language-text/#atom-everything
-
-[ai] Simon Willison: Stealing Reasoning Traces from Proprietary LLM APIs
-  https://simonwillison.net/2026/Aug/11/stealing-reasoning-traces/#atom-everything
-
-[ai] Simon Willison: Introducing Muse Glimmer
-  https://simonwillison.net/2026/Aug/10/introducing-muse-glimmer/#atom-everything
-
-[ai] Simon Willison: Quoting OpenClaw (running Opus 4.6)
-  https://simonwillison.net/2026/Aug/10/openclaw/#atom-everything
-
-[ai] Simon Willison: Quoting Claude Opus 5 system prompt
-  https://simonwillison.net/2026/Aug/9/claude-opus-5-system-prompt/#atom-everything
-
 [ideas] Paul Graham: How to Earn a Billion Dollars
   https://paulgraham.com/earn.html
 
-[ideas] Marginal Revolution: Immigrant Earnings Assimilation, 1981–2021
-  https://marginalrevolution.com/marginalrevolution/2026/08/immigrant-earnings-assimilation-1981-2021.html?utm_source=rss&utm_medium=rss&utm_campaign=immigrant-earnings-assimilation-1981-2021
-
-[ideas] Marginal Revolution: How much will cybersecurity costs rise?
-  https://marginalrevolution.com/marginalrevolution/2026/08/how-much-will-cybersecurity-costs-rise.html?utm_source=rss&utm_medium=rss&utm_campaign=how-much-will-cybersecurity-costs-rise
-
-[ideas] Marginal Revolution: Tuesday assorted links
-  https://marginalrevolution.com/marginalrevolution/2026/08/tuesday-assorted-links-581.html?utm_source=rss&utm_medium=rss&utm_campaign=tuesday-assorted-links-581
-
-[ideas] Marginal Revolution: Impedimenta Developerum!
-  https://marginalrevolution.com/marginalrevolution/2026/08/impedimenta-developerum.html?utm_source=rss&utm_medium=rss&utm_campaign=impedimenta-developerum
-
-[ideas] Marginal Revolution: How well does AI peer review work?
-  https://marginalrevolution.com/marginalrevolution/2026/08/how-well-does-ai-peer-review-work.html?utm_source=rss&utm_medium=rss&utm_campaign=how-well-does-ai-peer-review-work
+[ideas] Stratechery: Anthropic’s Watermarking, How It (Probably) Works, Worse Than It Seems
+  https://stratechery.com/2026/anthropics-watermarking-how-it-probably-works-worse-than-it-seems/
 
 [ideas] Stratechery: Nvidia’s Risky Business
   https://stratechery.com/2026/nvidias-risky-business/
 
 [ideas] Stratechery: Apple Earnings, More on Amazon’s Earnings
   https://stratechery.com/2026/apple-earnings-more-on-amazons-earnings/
-
-[ideas] Astral Codex Ten: Open Thread 446
-  https://www.astralcodexten.com/p/open-thread-446
-
-[bitcoin] Bitcoin Magazine: Regulators To Push Pro-Crypto Initiatives Following Clarity Act Delay
-  https://bitcoinmagazine.com/news/regulators-push-pro-crypto-clarity-act
-
-[bitcoin] Bitcoin Magazine: Should Bitcoin Companies Build USD Reserves? Understanding The Truth
-  https://bitcoinmagazine.com/bitcoin-for-corporations/bitcoin-companies-usd
-
-[bitcoin] Bitcoin Magazine: CFTC Charges Goliath Ventures With $400M Bitcoin Fraud
-  https://bitcoinmagazine.com/news/cftc-charges-goliath-in-bitcoin-fraud
-
-[bitcoin] Bitcoin Magazine: Casa CEO Nick Neuman: 233k BTC Moved To Safety After Coldcard Exploit Proves Self-Custody Resilience
-  https://bitcoinmagazine.com/news/casa-ceo-nick-neuman-233k-btc-moved-to-safety-after-coldcard-exploit-proves-self-custody-resilience
-
-[bitcoin] Bitcoin Magazine: Twenty One to Become ‘More Than a Bitcoin Treasury,’ Says New CEO
-  https://bitcoinmagazine.com/news/bitcoin-treasury-twenty-one-writes-letter
-
-[bitcoin] Bitcoin Magazine: Bank of Russia Approves Bitcoin Trading For Retail Investors
-  https://bitcoinmagazine.com/news/russia-bank-approves-bitcoin-trading
-
-[bitcoin] Bitcoin Magazine: Luke Dashjr Removed as Bitcoin BIP Editor Following (BIP)-110 Fork Failure
-  https://bitcoinmagazine.com/news/luke-dashjr-removed-as-bitcoin-bip-editor
-
-[bitcoin] Bitcoin Magazine: Blockstream Debuts Swaps, Allowing Bitcoiners to Move Between Lightning and Main Network With Ease
-  https://bitcoinmagazine.com/news/blockstream-debuts-bitcoin-swaps-lightning
-
-[ideas] Collaborative Fund (Morgan Housel): Philanthropy's other third wave
-  https://collabfund.substack.com/p/philanthropys-other-third-wave
-
-[wisdom] Donald Robertson: How to Detach from Anxious Thoughts
-  https://donaldrobertson.substack.com/p/how-to-detach-from-anxious-thoughts
-
-[wisdom] Donald Robertson: Be mindful not to injure your own character...
-  https://donaldrobertson.substack.com/p/be-mindful-not-to-injure-your-own
-
-[ai] OpenAI Blog: Testing ads in ChatGPT
-  https://openai.com/index/testing-ads-in-chatgpt
-
-[ai] OpenAI Blog: Daybreak models are now available on AWS
-  https://openai.com/index/daybreak-models-are-now-available-on-aws
-
-[ai] OpenAI Blog: OpenAI’s letter to Governor Abbott on responsible AI infrastructure in Texas
-  https://openai.com/index/responsible-ai-infrastructure-texas
-
-[ai] OpenAI Blog: Model ML completes finance work more efficiently with GPT-5.6 Sol
-  https://openai.com/index/model-ml
-
-[ai] OpenAI Blog: What building an AI-native finance function taught me
-  https://openai.com/index/building-an-ai-native-finance-function
 
 [wisdom] Figs in Winter (Pigliucci): The ancient contrast between otium and negotium
   https://figsinwintertime.substack.com/p/the-ancient-contrast-between-otium
@@ -202,12 +133,74 @@
 [wisdom] Figs in Winter (Pigliucci): The river and the labyrinth – part II
   https://figsinwintertime.substack.com/p/the-river-and-the-labyrinth-part-841
 
+[ideas] Marginal Revolution: Mistakes in financial economics
+  https://marginalrevolution.com/marginalrevolution/2026/08/mistakes-in-financial-economics.html?utm_source=rss&utm_medium=rss&utm_campaign=mistakes-in-financial-economics
+
+[ideas] Marginal Revolution: Wednesday assorted links
+  https://marginalrevolution.com/marginalrevolution/2026/08/wednesday-assorted-links-566.html?utm_source=rss&utm_medium=rss&utm_campaign=wednesday-assorted-links-566
+
+[ideas] Marginal Revolution: Fast Company covers New Aesthetics
+  https://marginalrevolution.com/marginalrevolution/2026/08/fast-company-covers-new-aesthetics.html?utm_source=rss&utm_medium=rss&utm_campaign=fast-company-covers-new-aesthetics
+
+[ideas] Marginal Revolution: What makes people happy?
+  https://marginalrevolution.com/marginalrevolution/2026/08/what-makes-people-happy.html?utm_source=rss&utm_medium=rss&utm_campaign=what-makes-people-happy
+
+[ideas] Marginal Revolution: Immigrant Earnings Assimilation, 1981–2021
+  https://marginalrevolution.com/marginalrevolution/2026/08/immigrant-earnings-assimilation-1981-2021.html?utm_source=rss&utm_medium=rss&utm_campaign=immigrant-earnings-assimilation-1981-2021
+
+[ai] OpenAI Blog: From assistance to execution: How enterprises put AI to work
+  https://openai.com/index/how-enterprises-put-ai-to-work
+
+[ai] OpenAI Blog: How RingCentral builds AI-native work from engineering to ops
+  https://openai.com/index/ringcentral
+
+[ai] OpenAI Blog: Testing ads in ChatGPT
+  https://openai.com/index/testing-ads-in-chatgpt
+
+[ai] OpenAI Blog: Daybreak models are now available on AWS
+  https://openai.com/index/daybreak-models-are-now-available-on-aws
+
+[ai] OpenAI Blog: OpenAI’s letter to Governor Abbott on responsible AI infrastructure in Texas
+  https://openai.com/index/responsible-ai-infrastructure-texas
+
+[wisdom] Donald Robertson: How to Detach from Anxious Thoughts
+  https://donaldrobertson.substack.com/p/how-to-detach-from-anxious-thoughts
+
+[wisdom] Donald Robertson: Be mindful not to injure your own character...
+  https://donaldrobertson.substack.com/p/be-mindful-not-to-injure-your-own
+
 [bitcoin] The Pomp Letter: This Major AI Breakthrough Will Improve Your Portfolio
   https://pomp.substack.com/p/this-major-ai-breakthrough-will-improve
 
+[bitcoin] Bitcoin Magazine: Bitcoin Price May Be Battered, but Structural Adoption Story Still Intact: Grayscale
+  https://bitcoinmagazine.com/news/bitcoin-price-down-but-adoption-to-grow
+
+[bitcoin] Bitcoin Magazine: Goldman Sachs to Acquire NEOS Investments in $2.25B Deal, Adding Bitcoin Income ETFs to Lineup
+  https://bitcoinmagazine.com/news/goldman-sachs-to-acquire-neos-investments
+
+[bitcoin] Bitcoin Magazine: Bitcoin Flashes Bottom Signals as “Digital Gold” Narrative Returns
+  https://bitcoinmagazine.com/news/bitcoin-flashes-bottom-signal-digital-gold
+
+[bitcoin] Bitcoin Magazine: OCC Says It’s ‘Open for Business’ as Crypto Firms Line Up for Bank Charters
+  https://bitcoinmagazine.com/news/occ-ready-to-approve-banking-charters
+
+[bitcoin] Bitcoin Magazine: Bitcoin Yawns As Fed’s Favorite Inflation Gauge Eases
+  https://bitcoinmagazine.com/news/bitcoin-yawns-as-us-inflation-eases
+
+[bitcoin] Bitcoin Magazine: AI Hyperscalers Are Pricing Bitcoin Miners Off the Grid— Here’s Why Its a Massive Win-Win
+  https://bitcoinmagazine.com/bitcoin-for-corporations/ai-hyperscalers-are-pricing-bitcoin-miners-off-the-grid-heres-why-its-a-massive-win-win
+
+[bitcoin] Bitcoin Magazine: Regulators To Push Pro-Crypto Initiatives Following Clarity Act Delay
+  https://bitcoinmagazine.com/news/regulators-push-pro-crypto-clarity-act
+
+[bitcoin] Bitcoin Magazine: Should Bitcoin Companies Build USD Reserves? Understanding The Truth
+  https://bitcoinmagazine.com/bitcoin-for-corporations/bitcoin-companies-usd
+
+[ideas] Astral Codex Ten: The Quest For Caffeine You Can Have At Night
+  https://www.astralcodexten.com/p/the-quest-for-caffeine-you-can-have
+
+[ideas] Astral Codex Ten: Open Thread 446
+  https://www.astralcodexten.com/p/open-thread-446
+
 
 === YOUTUBE ===
-Ben Felix: The Biggest Myths in Personal Finance
-  https://www.youtube.com/watch?v=3u-mP3C26mg
-  Transcript: yes
-
