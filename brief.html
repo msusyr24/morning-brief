@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>Morning Brief — Monday, August 17, 2026</title>
+<title>Morning Brief — Tuesday, August 18, 2026</title>
 <style>
   body {
     font-family: Georgia, serif;
@@ -92,30 +92,30 @@
 })();
 </script>
 <h1>Morning Brief</h1>
-<p class="date">Monday, August 17, 2026</p>
+<p class="date">Tuesday, August 18, 2026</p>
 
 <div class="anchor">
   <h2>☀️ Today's Anchor</h2>
   <div class="anchor-block">
-    <p class="quote">"The purpose of life is not to be happy. It is to be useful, to be honorable, to be compassionate, to have it make some difference that you have lived and lived well."</p>
-    <p class="author">— Ralph Waldo Emerson (attribution disputed)</p>
-    <p class="context">Attributed to Emerson, though no source exists in his published writings. Widely quoted regardless.</p>
+    <p class="quote">"A man is a success if he gets up in the morning and gets to bed at night, and in between does what he wants to do."</p>
+    <p class="author">— Bob Dylan</p>
+    <p class="context">From a 1991 interview. Dylan's deadpan definition of success — by far the most subversive one on this list.</p>
   </div>
   <div class="anchor-block">
-    <p class="model-label">Mental Model · Logic</p>
-    <p class="model-name">Occam's Razor</p>
-    <p class="context">When multiple explanations fit the evidence, prefer the simplest one. Not because simple is always right — because simple is easier to test and refute. Overcomplicated theories usually survive only because they're hard to disprove, not because they're true.</p>
+    <p class="model-label">Mental Model · Epistemics</p>
+    <p class="model-name">Hanlon's Razor</p>
+    <p class="context">Never attribute to malice what can be adequately explained by incompetence or inattention. The world has vastly more incompetent people than evil ones. Most perceived slights are accidents. Before assuming conspiracy, assume bandwidth limits.</p>
   </div>
 </div>
 
 <div class="spotlight">
   <h2>🧭 Channel Spotlight</h2>
-  <p class="spotlight-name">Machine Learning Street Talk</p>
-  <p class="spotlight-pitch">Your AI consumption skews toward capability showcases and end-user applications (Huberman, Lex, Rogan), which means you're missing rigorous interrogation of *why* models behave as they do — the mechanistic and scientific layer just above infrastructure. Machine Learning Street Talk interviews researchers who explain what's actually happening inside models at a conceptual level: emergent capabilities, alignment, scaling limits, and what those mean for what AI can and can't do next. It's long-form and technically honest without being a dev-tooling channel, making it the missing middle ground between Lex's philosophy-leaning conversations and pure benchmark noise.</p>
+  <p class="spotlight-name">Dario Amodei / Anthropic (Dwarkesh-style: use 'Curt Jaimungal – Theories of Everything')</p>
+  <p class="spotlight-pitch">Curt Jaimungal interviews physicists, philosophers, and AI researchers at a level of rigor that sits between Lex Fridman's breadth and a pure academic channel — he pushes on the actual structure of arguments rather than just letting guests monologue. Your current lineup covers AI capabilities and philosophy separately; Curt regularly bridges them through conversations on consciousness, decision theory, and what intelligence actually is, which is a gap your channels leave open. Long-form solo and interview format, typically 2-4 hours, with unusually precise follow-up questions.</p>
   <p class="spotlight-instructions">Interested? Copy the line below into <code>YOUTUBE_CHANNELS</code> in <code>brief.py</code> and save:</p>
-  <pre class="spotlight-snippet" id="snippet">    "Machine Learning Street Talk": "UCMLtBahI5DMrt0NPvDSoIRQ",</pre>
+  <pre class="spotlight-snippet" id="snippet">    "Dario Amodei / Anthropic (Dwarkesh-style: use 'Curt Jaimungal – Theories of Everything')": "UCdWIQh9DGG6uhJk8eyIFl1w",</pre>
   <button class="copy-btn" onclick="navigator.clipboard.writeText(document.getElementById('snippet').innerText.trim()); this.innerText='✅ Copied'; setTimeout(()=>this.innerText='📋 Copy snippet', 2000);">📋 Copy snippet</button>
-  <p class="spotlight-meta">showing for 1 more day. If you don't add it, a new channel will be suggested.</p>
+  <p class="spotlight-meta">showing for 3 more days. If you don't add it, a new channel will be suggested.</p>
 </div>
 <h2>🎥 From People I Follow</h2>
 
@@ -123,105 +123,115 @@
 
 <div class="story">
   <h3>GTO Wizard</h3>
-  <p>Tom Boss 21 makes a compelling empirical case for late registration in MTTs that goes beyond the usual ICM theory. The core finding: using actual WSOP data, late registrants saw 10–15% ROI boosts — larger than most players assumed. He then controlled for skill using Triton data (2025–26, ~8,000 bullets), comparing each player's late entries against their own earlier bullets, and found that later entries still outperformed by 10–13%. Critically, ICM-predicted variance doesn't increase with late reg, meaning the risk-adjusted return genuinely improves — which inverts the conventional wisdom that you need a bigger bankroll to max late reg. He also isolates a specific failure mode: at bullet 5+, ROI collapses to roughly –40%, which he attributes to tilt rather than any structural disadvantage.</p>
+  <p>Tom Boss 21 makes a rigorous empirical case for late registration in MTTs that goes well beyond the usual ICM theory. The core finding: late-entering with ~50% of the field remaining gives a stack roughly 10–15% more ICM value than one purchased at the start — because your probability of finishing in paid positions increases while your first-place equity stays constant. Crucially, he shows this isn't just theory: Triton data (8,000 bullets, 2025–26) confirms late entrants cash at ~19% vs. ~15% for day-one players, and controlling for player skill, people outperform their own earlier bullets when re-entering late. Perhaps most counterintuitively, variance does not increase for late entrants — meaning the risk-adjusted return actually improves, implying you need a <em>smaller</em> bankroll to shot-take big tournaments via late reg. His practical corollary: after firing four bullets in one tournament, do not fire the fifth — the data shows bullet five-plus players crater at roughly –40% ROI, likely pure tilt.</p>
   <p class="meta">Videos: <a href="https://www.youtube.com/watch?v=swBBxNXzrqM">The Truth About Late Registration</a></p>
 </div>
 
 <div class="story">
   <h3>Jared Alderman</h3>
-  <p>A concise framework for multiway spots: before looking at your hand, classify the board as one that <em>punishes betting</em> or <em>punishes checking</em>. On dry, high-card boards (e.g., A72) where your range is condensed and opponents are unlikely to lead enough, checking costs you less — so you can afford to be selective about what you bet. On connected, low boards (e.g., 876) where opponents are likely to under-lead their correct frequency, betting into unchecked aggression gets worse, meaning you need stronger incentives to bet and should be more precise about hand selection.</p>
-  <p class="meta">Videos: <a href="https://www.youtube.com/shorts/SJJ9r-jv2_E">Simple... ish help for multiway spots</a></p>
+  <p>Deep interview with 2026 WSOP Main Event champion Lucas Jumalon, 22 years old. The most interesting through-line is the psychology: Jumalon describes going through a genuine breaking point — crying outside a card room in Austin after 25–30 buy-ins of losses, questioning whether he was built for poker — and the shift he made heading into the Main: a deliberate decision to stop protecting himself emotionally and just go for it ("if we die, we die"). He credits this acceptance-based reframe, borrowed loosely from Jared's mindset work, as what freed him to play aggressively under pressure at the final table. He also notes that getting his first bluff through on the main feature table — and not caring what viewers thought of his play — was the moment he settled in. Worth watching for anyone interested in the mental game intersection of acceptance, pressure, and peak performance.</p>
+  <p class="meta">Videos: <a href="https://www.youtube.com/watch?v=TrtbcyfvHpw">"Job's Not Finished" - How Lucas Jumalon Won the 2026 WSOP Main Event</a></p>
 </div>
 
 <div class="story">
-  <h3>Peter Attia (The Drive)</h3>
-  <p>Attia interviews psychiatrist Lionus (35 years in practice) on the gap between symptom reduction and full restoration of the human experience — his framing for why patients resist continuing effective medications even after dramatic improvement. The conversation digs into the pharmacology of SSRIs vs. SNRIs in practical terms: raising serotonin suppresses dopamine and norepinephrine, which is why even successful SSRI trials often leave patients feeling blunted or "not quite there" despite objective improvement. The guest argues psychiatry lacks measurable biomarkers entirely, making diagnosis and drug selection more of a hypothesis-driven art, and that the information from adverse drug responses should be treated as permanently actionable clinical data. He's also exploring the intersection of endocrinology (estradiol, thyroid) with psychiatric conditions — the thesis being that hormones are underweighted in standard psychiatric practice.</p>
-  <p class="meta">Videos: <a href="https://www.youtube.com/watch?v=fs89fhQCfj4">404 ‒ Mental health beyond neurotransmitters: hormones in psychiatry, psychedelic therapies, & more</a></p>
+  <h3>Peter Attia</h3>
+  <p>Attia interviews psychiatrist Linus Abrams (35 years in practice) on a thesis that runs against the mainstream: psychiatry optimizes for symptom reduction, not restoration of full human experience — and patients feel this gap even when medications objectively work, which is why adherence is so hard even in successful cases. Abrams makes a sharp mechanistic point about SSRIs: raising serotonin tends to suppress dopamine and norepinephrine (via receptor downregulation), which explains why patients on SSRIs often report feeling "better but blunted" — less anxious or depressed, but also less vital, motivated, or sexually engaged. He argues this is why SSRIs are arguably more effective for anxiety than depression, and that the "antidepressant" label is a marketing artifact. The second half pivots toward the role of hormones (especially estradiol) in psychiatric symptoms — a lens almost no psychiatrists are trained in — as the new direction of his practice.</p>
+  <p class="meta">Videos: <a href="https://www.youtube.com/watch?v=fs89fhQCfj4">404 ‒ Mental health beyond neurotransmitters</a> · <a href="https://peterattiamd.com/linusabrams/">Podcast page</a></p>
 </div>
 
 <p><strong>Also posted:</strong></p>
 <ul>
-  <li><strong>Ken Berry MD:</strong> Cooking demo with Chris Cooking Nashville showcasing carnivore-adapted recipes (chicken fried steak, white gravy with heavy cream/cream cheese, carnivore "cornbread," homemade seed-oil-free mayo for ~$2 in 5 minutes). Chris's personal arc: ~130 lbs lost over 3 years on carnivore after regaining weight post-wedding; notable testimonial on cognitive/mood shift within 2 weeks of going carnivore. (<a href="https://www.youtube.com/watch?v=ta7TIzLvmAE">EAT YOUR MEAT AND LOVE YOUR LIFE</a>)</li>
-  <li><strong>Anthony Chaffee MD:</strong> Claims the cholesterol-heart disease model was seeded by sugar industry payments to researchers including Ancel Keys and three Harvard professors — cites a 2016 JAMA paper documenting the payments (~$6,500 in 1960s dollars, ~$55K today) and argues this represents a historical crime against public health. (<a href="https://www.youtube.com/shorts/n23X78iTka8">Cholesterol Was Just A Scape Goat For The Sugar Companies</a>)</li>
-  <li><strong>Nick Norwitz:</strong> Explains why breast milk can't be fully replicated: human milk oligosaccharides (HMOs) are indigestible by infants — they're food for gut bacteria, not the baby — making breast milk a simultaneous infant food and microbiome-seeding system. It also delivers maternal antibodies, living immune cells, hormones, growth factors, and dynamically reformulates based on infant age, premature birth status, and illness. (<a href="https://www.youtube.com/shorts/iV26p6O1g5s">Why Science Still Can't Fully Replicate Breast Milk</a>)</li>
-  <li><strong>Renaissance Periodization:</strong> Short clip of someone breaking the Norwegian military strict weighted pull-up record (25 lbs added, strict ROM) — previous record was 23 reps, new effort clears it. RP's commentary: the combination of high force summation and endurance is genuinely rare and mostly genetic. (<a href="https://www.youtube.com/shorts/z5APXjefsqc">These Might Be the Cleanest Record Breaking Pull Ups Ever</a>)</li>
-  <li><strong>Thomas DeLauer:</strong> Makes the case for baking soda mouth rinse: cites an RCT (BDJ Open) finding sodium bicarbonate removed significantly more plaque than conventional toothpaste (p<0.0001), with the biggest advantage in lingual interproximal areas (~50% more plaque removed). Mechanism: raises oral pH, disrupting the biofilm that acid-tolerant decay bacteria thrive in, without killing the full oral microbiome the way antiseptic mouthwash does. Protocol: half tsp in a full glass of water, swish 30 seconds, especially post-acidic meals. (<a href="https://www.youtube.com/watch?v=ZoAA8mIWNig">This Natural Mouth Rinse Stops Tooth Decay, Gingivitis and Restores PH</a>)</li>
-  <li><strong>Ben Felix:</strong> Argues health investment should be framed exactly like portfolio investing — small consistent inputs compound invisibly until the result is irreversible (in either direction). Specific claims: low cardiorespiratory fitness doubles all-cause mortality risk vs. top quartile, with risk comparable to or exceeding smoking (JAMA 2018); 5 healthy lifestyle factors (no smoking, healthy BMI, 30 min exercise, moderate alcohol, high diet quality) extend healthy lifespan 12–14 years (2018 study); muscle mass starts declining in your 30s and the decline compounds. Disclosed his own testicular cancer diagnosis at under 40 despite living healthily — uses it to make the uncertainty-but-still-act point. (<a href="https://www.youtube.com/watch?v=skc2T5fcoLY">When Compounding Works Against You</a>)</li>
-  <li><strong>Mind The Game (LeBron/Steph pod):</strong> Steve Nash recounts how a single preseason game against Steph Curry — while Nash was playing hurt with nerve damage and a back spasm — effectively ended his career. Steph's team dropped ~45–50 in the first quarter with Nash unable to recover. Steph's section: attributes his one-piece shooting motion (no true pause) to natural development, says he'd actually teach Klay's technically perfect form to beginners, and traces his pass-first instincts to watching Nash as a child. (<a href="https://www.youtube.com/watch?v=bgSixq0dOKs">The Hilarious Story Behind How Steph Made Steve Nash Retire</a>)</li>
+  <li><strong>Paul Saladino MD:</strong> Practical consumer guide to egg quality at grocery stores — ranks labels (pasture-raised organic > free-range > outdoor access > cage-free), explains that yolk height and white thickness are better quality proxies than yolk color (which manufacturers game with marigold pigment), and confirms UC Davis data that ~89% of avocado oils on shelves are adulterated with seed oils (sunflower, safflower) — recommends switching to butter, tallow, ghee, or verified EVOO. (<a href="https://www.youtube.com/watch?v=biaZgPq4Uw0">Avoid These Egg Brands</a>) +2 more</li>
+  <li><strong>Anthony Chaffee MD:</strong> Claims the cholesterol-heart disease hypothesis was deliberately seeded by sugar industry payments to researchers including Ancel Keys — cites 2016 JAMA paper documenting contracts worth ~$6,500 (≈$55K today). Short-form, no new data beyond the 2016 disclosure. (<a href="https://www.youtube.com/shorts/n23X78iTka8">Cholesterol Was Just A Scapegoat</a>)</li>
+  <li><strong>Ben Felix:</strong> Makes the case that health investment compounds just like financial investment — citing a 2018 JAMA study that low cardiorespiratory fitness carries mortality risk comparable to or exceeding smoking, and a 12–14 year longevity gap between those who maintain healthy lifestyle factors vs. those who don't. Frames exercise, nutrition, sleep, and social connection as the "index fund" of health — not optimal, but consensus-backed and sufficient. Disclosed his own testicular cancer diagnosis (caught early, now fine) as context. (<a href="https://www.youtube.com/watch?v=skc2T5fcoLY">When Compounding Works Against You</a>)</li>
+  <li><strong>Lex Fridman:</strong> Long-form with Khabib Nurmagomedov — covers Dagestani wrestling culture, his father's training philosophy (3 sessions/day, mandatory reading of a 193-country geography book paid per country memorized), and Khabib's framing of championship mentality as "hatred of losing" rather than love of winning. Rich on resilience, coaching systems, and what separates obsession from ordinary drive. (<a href="https://www.youtube.com/watch?v=l6USUAIKJls">Khabib Nurmagomedov: Dagestan, MMA, UFC</a>)</li>
+  <li><strong>Andrew Huberman:</strong> Conversation with Caltech neuroscientist Ralph Adolphs on the functional definition of emotions — argues emotions are intermediate control states between reflexes and deliberate planning, characterized by priority (interrupt behavior), valence, scalability, and temporal persistence. Notable: emotions persist independently of memory, demonstrated in amnesia patients who remained sad after forgetting they'd watched sad films. (<a href="https://www.youtube.com/watch?v=P-h5WSQG1Sw">Neuroscience of Emotions & Tools for Emotion Regulation</a>)</li>
 </ul>
 
 <h2>₿ Bitcoin & Macro</h2>
 
 <div class="story">
-  <h3><a href="https://bitcoinmagazine.com/news/abu-dhabi-funds-keep-big-bitcoin-positions">Abu Dhabi Sovereign Wealth Funds Keep Big Bitcoin Positions</a></h3>
-  <p>Mubadala Investment Company disclosed a $490 million stake in Bitcoin per regulatory filings, making Bitcoin the most important asset in two of Abu Dhabi's sovereign wealth funds. This is notable not as speculation but as sovereign balance sheet allocation — the same thesis Saylor has made for corporations now playing out at the nation-state institutional level.</p>
+  <h3><a href="https://bitcoinmagazine.com/news/jane-street-bitcoin-position">Jane Street Reveals Nearly $1B Bitcoin Position</a></h3>
+  <p>Jane Street — one of the most sophisticated quantitative trading firms on Wall Street — has disclosed a ~$1B Bitcoin position via spot ETFs. This is notable not for the dollar amount but for the signal: Jane Street does not make sentimental bets. Their entry via the ETF wrapper confirms institutional demand for the product is coming from the most analytically rigorous end of the market, not just retail or macro tourists.</p>
   <p class="meta">Bitcoin Magazine</p>
 </div>
 
 <div class="story">
-  <h3><a href="https://bitcoinmagazine.com/news/edelman-financial-reveals-bitcoin-positio">Edelman Financial, Tudor Investment Reveal Significant Bitcoin Holdings</a></h3>
-  <p>Two large traditional investment firms — Edelman Financial (major RIA) and Tudor Investment (Paul Tudor Jones's hedge fund) — disclosed significant Bitcoin positions. Tudor has been publicly bullish on Bitcoin as an inflation hedge for years; Edelman's disclosure signals the RIA channel is genuinely allocating, not just offering exposure.</p>
+  <h3><a href="https://bitcoinmagazine.com/news/losses-top-115-million-in-coldcard-hack">Losses Top $115M In Coldcard Bitcoin Hack: Galaxy Research</a></h3>
+  <p>Galaxy Research confirms $115M in Bitcoin stolen in the Coldcard-related hack — a significant self-custody security event. No detail yet on the specific attack vector, but the scale matters: this is among the largest cold storage compromises on record and will likely accelerate scrutiny of hardware wallet firmware and supply chain security.</p>
   <p class="meta">Bitcoin Magazine</p>
 </div>
 
 <div class="story">
-  <h3><a href="https://bitcoinmagazine.com/takes/what-the-clarity-act-actually-does-for-bitcoin">What the CLARITY Act Actually Does for Bitcoin</a></h3>
-  <p>A 256-page regulatory overhaul, the CLARITY Act is framed here as more about protection than price catalyst — establishing clearer legal status for Bitcoin that reduces regulatory risk for institutions. The Citi CEO also separately called for a "good bill" to pass, signaling broad financial sector desire for legal clarity even if imperfect.</p>
+  <h3><a href="https://bitcoinmagazine.com/news/strategy-goes-another-week-without-buying">Strategy Goes Another Week Without Buying — Or Selling — Bitcoin</a></h3>
+  <p>Strategy (Saylor's company) sold ~$333M in MSTR shares last week and did not deploy any of it into Bitcoin, building its cash reserve. The "no sell" discipline holds, but the pause in accumulation after an extended buying streak is worth watching — either a tactical pause waiting for better prices, or a sign that capital markets access for BTC purchases is being managed more carefully.</p>
   <p class="meta">Bitcoin Magazine</p>
 </div>
 
 <h2>🧬 Health & Science</h2>
 
 <div class="story">
-  <h3>Peter Attia: Multifactorial Trials — What They Can and Can't Prove</h3>
-  <p>Attia's piece addresses a critical methodological issue in health research: multifactorial trials test a bundle of interventions simultaneously (e.g., diet + exercise + medication), which can show that the bundle works but can't isolate which component is driving the effect. This matters because it leads to widespread over-attribution — a trial showing "lifestyle intervention X" improved outcomes tells you almost nothing about which part of X to actually adopt. He argues this distinction is underappreciated both by researchers and the public consuming the results.</p>
-  <p class="meta"><a href="https://peterattiamd.com/multifactorial-trials/">Peter Attia MD</a></p>
+  <h3>Peter Attia / Linus Abrams: The SSRI Dopamine Suppression Mechanism</h3>
+  <p>The specific mechanistic claim worth noting from the Attia-Abrams episode: SSRIs raise serotonin, but serotonin and dopamine compete for the same monoamine substrate and there is receptor cross-regulation — so net dopamine and norepinephrine often fall as serotonin rises. This creates the clinical paradox where a patient has objective symptom reduction but subjectively feels "blunted" — reduced libido, reduced motivation, less vitality. Abrams argues this is not a side effect bug but an inherent feature of serotonin-selective targeting, and is part of why even successful pharmacologic outcomes leave patients ambivalent about continuing treatment. His proposed lens: psychiatry should be tracking restoration of full function (hormonal, motivational, relational), not just symptom scores.</p>
+  <p class="meta"><a href="https://peterattiamd.com/linusabrams/">Peter Attia #404</a></p>
 </div>
 
 <div class="story">
-  <h3>Peter Attia Podcast: Hormones in Psychiatry — Specific Mechanisms</h3>
-  <p>From the Drive episode transcript: SSRIs suppress dopamine and norepinephrine as a downstream effect of raising serotonin (via receptor upregulation/downregulation), which explains the "feeling better but blunted" phenomenon that makes long-term compliance difficult even in successful cases. The guest distinguishes "pure" SSRIs (escitalopram/Lexapro) from those with secondary pharmacology (sertraline/Zoloft also mildly blocks dopamine reuptake). Lexapro is more effective for anxiety disorders than commonly recognized, and was originally developed for dysthymia (chronic low-grade depression) rather than major depressive episodes — a distinction with real clinical implications.</p>
-  <p class="meta"><a href="https://www.youtube.com/watch?v=fs89fhQCfj4">The Drive Podcast #404</a></p>
+  <h3>Avocado Oil Adulteration: UC Davis Data</h3>
+  <p>Paul Saladino cites UC Davis testing finding 89% of retail avocado oils — including major brands like Chosen Foods, Primal Kitchen, and Siete — were adulterated with seed oils (sunflower, safflower). This replicates 2020 and 2023 studies finding 70–80% adulteration rates. The practical upshot: avocado oil currently cannot be trusted as a seed-oil alternative at retail; butter, tallow, ghee, and verified extra-virgin olive oil are the more reliable options until regulatory standards tighten.</p>
+  <p class="meta"><a href="https://www.youtube.com/shorts/1zNYieUeXUc">Paul Saladino — Avoid These "Healthy" Brands</a></p>
+</div>
+
+<div class="story">
+  <h3>Peter Attia: Multifactorial Trials — What They Can and Can't Prove</h3>
+  <p>Attia's written piece on multifactorial clinical trials (the "kitchen sink" approach — intervening on diet, exercise, sleep, and medication simultaneously) makes a methodological point with real implications for how you read longevity research: when a trial bundles multiple interventions, it can tell you the package works but cannot isolate which component drove the effect or by how much. This matters when reading studies like PREDIMED or the FINGER trial — the headline result may be real, but the attribution to any single behavior (say, olive oil vs. exercise) is not established by the trial design.</p>
+  <p class="meta"><a href="https://peterattiamd.com/multifactorial-trials/">Peter Attia MD</a></p>
 </div>
 
 <h2>💡 Worth Reading</h2>
 
 <div class="story">
-  <h3><a href="https://w4g1.dev/blog/models-are-getting-dumber-on-purpose">Models Are Getting Dumber on Purpose</a></h3>
-  <p>The argument: AI labs are deliberately deploying less capable versions of their best models — either for cost reasons, safety theater, or to preserve upsell tiers — and the benchmarks being cited don't capture the real capability regression users are experiencing. If accurate, this is a direct challenge to the narrative that frontier models are on an unbroken improvement curve, and relevant to anyone using AI as a daily productivity tool.</p>
-  <p class="meta"><a href="https://news.ycombinator.com/item?id=49322107">HN Discussion</a></p>
+  <h3><a href="https://www.wiz.io/blog/red-agent-snowflake-copilot-cicd-bug">AI-Generated GitHub Copilot "Autofix" Allowed Compromise of Snowflake's Jira</a></h3>
+  <p>Security firm Wiz documents a real-world attack chain where GitHub Copilot's AI-generated "Autofix" code suggestion introduced a vulnerability into a CI/CD pipeline that was then exploited to access Snowflake's Jira instance. This is notable as a concrete, confirmed case of AI-generated code creating a supply chain security failure — not a theoretical risk. The attack surface here (AI suggestions accepted without adversarial review) is one that many engineering teams have already normalized, making this worth flagging.</p>
+  <p class="meta"><a href="https://news.ycombinator.com/item?id=49331033">HN Discussion</a> · Wiz Security</p>
 </div>
 
 <div class="story">
-  <h3><a href="https://www.astralcodexten.com/p/your-book-review-the-escape-artist">Your Book Review: The Escape Artist</a></h3>
-  <p>Finalist in Scott Alexander's annual book review contest — these are consistently excellent long-form takes on books worth knowing about. Worth checking for the ideas regardless of whether you'd read the original book.</p>
-  <p class="meta">Astral Codex Ten</p>
+  <h3><a href="https://www.rickmanelius.com/p/aidr-ai-didnt-read">AI;DR — AI Didn't Read</a></h3>
+  <p>A high-scoring HN piece (673 pts) arguing that the proliferation of AI-generated summaries is creating a new epistemic problem: people increasingly consume AI-compressed versions of content without reading originals, eroding the ability to detect when the compression lost something important. The piece is worth sitting with if you think about information quality and how AI is changing the nature of reading and understanding at scale.</p>
+  <p class="meta"><a href="https://news.ycombinator.com/item?id=49331033">HN Discussion</a></p>
 </div>
 
 <div class="story">
-  <h3><a href="https://figsinwintertime.substack.com/p/forget-the-good-life-try-the-good">Forget the Good Life, Try the Good Day</a></h3>
-  <p>Massimo Pigliucci (Figs in Winter) on a Stoic reframe: instead of optimizing for "the good life" as some distant achievement, focus on the good day as the only unit of time you actually control. The argument draws on Seneca's observation that we lose the present by constantly projecting into the future — and that the discipline of well-executed days is both the means and the end.</p>
-  <p class="meta"><a href="https://figsinwintertime.substack.com/p/forget-the-good-life-try-the-good">Figs in Winter</a></p>
+  <h3><a href="https://responsiblestatecraft.org/israel-influence-chatgpt/">Israel Creates Fake Think Tank in Likely Attempt to Dupe AI Chatbots</a></h3>
+  <p>Reported case of a state actor creating a fabricated think tank with the apparent goal of seeding the web with sources that AI language models will cite as authoritative — a concrete example of adversarial manipulation targeting the training data and retrieval pipelines of AI systems rather than human readers directly. This is an early and important instance of AI-specific information warfare: the target audience isn't people, it's the models people ask questions to.</p>
+  <p class="meta">Responsible Statecraft · <a href="https://news.ycombinator.com/item?id=49331033">HN</a></p>
 </div>
 
 <div class="story">
-  <h3><a href="https://donaldrobertson.substack.com/p/the-stoic-taxonomy-of-anger">The Stoic Taxonomy of Anger</a></h3>
-  <p>Donald Robertson lays out how the Stoics (primarily Seneca in <em>De Ira</em>) classified anger — distinguishing between the initial involuntary passion (a proto-emotion or "propathe"), the judgment that assents to it, and the full-blown emotion that results. The practical payoff: the Stoics weren't asking you to suppress the initial flinch, only to not ratify it with a value judgment. This is more actionable than most modern anger management advice and maps surprisingly well onto CBT.</p>
-  <p class="meta"><a href="https://donaldrobertson.substack.com/p/the-stoic-taxonomy-of-anger">Donald Robertson / Substack</a></p>
+  <h3><a href="https://figsinwintertime.substack.com/p/forget-the-good-life-try-the-good">Forget the Good Life, Try the Good Day — Massimo Pigliucci</a></h3>
+  <p>Pigliucci argues that the Stoic unit of moral analysis isn't a lifetime or a career but a single day — and that this reframe is practically powerful: the good life is just a long series of good days, meaning virtue and right action are always immediately available, not deferred to some future state. This is a useful corrective to the kind of long-horizon goal-setting that leaves people perpetually preparing to live rather than actually living. Clean, well-argued, worth 10 minutes.</p>
+  <p class="meta"><a href="https://figsinwintertime.substack.com/p/forget-the-good-life-try-the-good">Figs in Winter (Pigliucci)</a></p>
 </div>
 
 <div class="story">
-  <h3><a href="https://www.anthropic.com/news/claude-text-watermark">How Claude's Text Watermark Works</a></h3>
-  <p>Anthropic explains the mechanism behind their text watermarking system — embedding statistical signals in Claude's outputs that allow detection of AI-generated content without visible markers. Relevant for anyone thinking about authenticity, provenance, and the coming arms race between AI detection and generation at scale.</p>
-  <p class="meta">Anthropic</p>
+  <h3><a href="https://donaldrobertson.substack.com/p/the-stoic-taxonomy-of-anger">The Stoic Taxonomy of Anger — Donald Robertson</a></h3>
+  <p>Robertson breaks down how the Stoics classified anger — distinguishing the initial involuntary "proto-passion" (the flinch, the spike) from the full emotion that requires our assent to a judgment ("this person wronged me and I should retaliate"). The practical implication: you are not responsible for the first movement, only for whether you endorse and amplify it. Pairs well with the Adolphs/Huberman neuroscience framing of emotions as functional states you can observe before acting on.</p>
+  <p class="meta"><a href="https://donaldrobertson.substack.com/p/the-stoic-taxonomy-of-anger">Donald Robertson</a></p>
 </div>
 
 <h2>🤖 AI Capability Watch</h2>
 
 <div class="story">
-  <h3><a href="https://platform.claude.com/docs/en/release-notes/system-prompts">Claude: System Prompts — Release Notes</a></h3>
-  <p>Anthropic published detailed release notes on Claude's system prompt behavior, including how Claude handles conflicts between system prompt instructions and user requests, and what constraints apply. The high point count (574) suggests this surfaced something practitioners found meaningfully clarifying about what Claude will and won't do — relevant if you're relying on Claude for any workflow with sensitive instructions.</p>
-  <p class="meta">Anthropic / HN</p>
+  <h3><a href="https://blog.roboflow.com/openai-gpt-5-6/">GPT-5.6 Sol: Best Vision Model OpenAI Has Released</a></h3>
+  <p>GPT-5.6 Sol is OpenAI's new flagship vision model — capable of understanding images, diagrams, documents, and visual data at a level meaningfully beyond prior versions. Roboflow's testing calls it the best vision model OpenAI has shipped, and it launched alongside a 50% price cut on OpenRouter, making it accessible for practical use. If you use AI for anything involving images — documents, charts, photos, screenshots — this is a real capability upgrade worth testing.</p>
+  <p class="meta"><a href="https://openrouter.ai/openai/gpt-5.6-sol">OpenRouter pricing</a> · Roboflow</p>
+</div>
+
+<div class="story">
+  <h3><a href="https://www.anthropic.com/news/claude-text-watermark">How Claude's Text Watermark Works</a></h3>
+  <p>Anthropic has deployed an imperceptible text watermarking system in Claude's outputs — a way to statistically identify AI-generated text even after minor editing. This is a meaningful capability development in both directions: it enables detection of AI-generated content at scale, and its existence will accelerate efforts to defeat or strip watermarks. The technical write-up is worth reading if you care about AI attribution, content authenticity, or the arms race around AI detection.</p>
+  <p class="meta"><a href="https://www.anthropic.com/news/claude-text-watermark">Anthropic</a></p>
 </div>
 </body>
 </html>

@@ -1,11 +1,11 @@
 {
   "current_suggestion": {
-    "channel_name": "Machine Learning Street Talk",
-    "channel_id": "UCMLtBahI5DMrt0NPvDSoIRQ",
-    "youtube_handle": "@MachineLearningStreetTalk",
-    "pitch": "Your AI consumption skews toward capability showcases and end-user applications (Huberman, Lex, Rogan), which means you're missing rigorous interrogation of *why* models behave as they do \u2014 the mechanistic and scientific layer just above infrastructure. Machine Learning Street Talk interviews researchers who explain what's actually happening inside models at a conceptual level: emergent capabilities, alignment, scaling limits, and what those mean for what AI can and can't do next. It's long-form and technically honest without being a dev-tooling channel, making it the missing middle ground between Lex's philosophy-leaning conversations and pure benchmark noise."
+    "channel_name": "Dario Amodei / Anthropic (Dwarkesh-style: use 'Curt Jaimungal \u2013 Theories of Everything')",
+    "channel_id": "UCdWIQh9DGG6uhJk8eyIFl1w",
+    "youtube_handle": "@TheoriesOfEverything",
+    "pitch": "Curt Jaimungal interviews physicists, philosophers, and AI researchers at a level of rigor that sits between Lex Fridman's breadth and a pure academic channel \u2014 he pushes on the actual structure of arguments rather than just letting guests monologue. Your current lineup covers AI capabilities and philosophy separately; Curt regularly bridges them through conversations on consciousness, decision theory, and what intelligence actually is, which is a gap your channels leave open. Long-form solo and interview format, typically 2-4 hours, with unusually precise follow-up questions."
   },
-  "shown_count": 3,
+  "shown_count": 1,
   "history": [
     "Brad Kearns",
     "Dr. Layne Norton",
@@ -51,6 +51,7 @@
     "Wealth Group",
     "William Green | Richer, Wiser, Happier",
     "Sweet Arts on Main",
-    "Machine Learning Street Talk"
+    "Machine Learning Street Talk",
+    "Dario Amodei / Anthropic (Dwarkesh-style: use 'Curt Jaimungal \u2013 Theories of Everything')"
   ]
 }
