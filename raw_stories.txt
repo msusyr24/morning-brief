@@ -1,122 +1,182 @@
 === HACKER NEWS ===
-1. [706 pts] OpenRouter is joining Stripe
-   https://openrouter.ai/blog/announcements/openrouter-is-joining-stripe/
+1. [105 pts] AI companies destroy physical books – let's scan rare books before it's too late
+   https://annas-archive.gl/blog/physical-destruction.html
 
-2. [498 pts] Go 1.27
-   https://go.dev/blog/go1.27
+2. [380 pts] The August 17 outage
+   https://github.blog/news-insights/company-news/the-august-17-outage-and-the-work-ahead/
 
-3. [41 pts] Turns are Better than Radians
-   https://www.computerenhance.com/p/turns-are-better-than-radians
+3. [611 pts] I like 'em thick: an apology to my English teachers
+   https://www.experimental-history.com/p/i-like-em-thick
 
-4. [36 pts] A faster way to calculate the day of the week
-   https://www.benjoffe.com/fast-day-of-week
+4. [625 pts] HTML Can Do That
+   https://chrisburnell.com/html-can-do-that/
 
-5. [349 pts] Google replaced Git tags for certain source code with obtaining via Google Drive
-   https://grapheneos.social/@GrapheneOS/117057099753905023
+5. [418 pts] Malicious Rust crate Arrayref runs a build-time payload
+   https://safedep.io/arrayref-proc-macro1-rust-build-time-malware/
 
-6. [64 pts] Manabu Kosaka's Handmade Paper Sculptures
-   https://coca11272000.wixsite.com/manabukosaka
+6. [208 pts] I should have loved biology (2020)
+   https://jsomers.net/i-should-have-loved-biology/
 
-7. [157 pts] Unlocking a locked/deactivated e-waste Cricut Maker
-   https://sprocketfox.io/xssfox/2026/07/01/cricut-unlock/
+7. [18 pts] Make a 6-Tesla-class high-temperature superconducting dipole magnet at 4.2 K
+   https://journals.aps.org/prab/abstract/10.1103/4nhs-bkwh
 
-8. [796 pts] A joke domain purchase turned in geopolitical warfare
-   https://sprocketfox.io/xssfox/2026/08/19/sondehub-and-war/
+8. [40 pts] There's no such thing as a small software team anymore
+   https://jacob.gold/posts/theres-no-such-thing-as-a-small-software-team/
 
-9. [199 pts] Unsloth Dynamic 3.0 GGUFs
-   https://unsloth.ai/docs/basics/dynamic-3.0-ggufs
+9. [368 pts] CIA funding helped keep NeXT afloat in the 80s
+   https://www.wsj.com/tech/steve-jobs-apple-next-cia-161b65f9?st=NWWds1&reflink=desktopwebshare_permalink
 
-10. [94 pts] Sol Loves to Cheat
-   https://jumploops.com/blog/sol-loves-to-cheat/
+10. [109 pts] Why aren't smart people happier? (2022)
+   https://www.experimental-history.com/p/why-arent-smart-people-happier
 
-11. [297 pts] Casio F-B100W-1A
-   https://www.casio.com/uk/watches/casio/product.F-B100W-1A/
+11. [533 pts] Show HN: I trained a 125M model to autocomplete piano on-device
+   https://simedw.com/2026/08/20/midi-autocomplete/
 
-12. [57 pts] Os8088.com: IBM XT OS now has a Browser, CP/M 2.2 with Z80 core and MS Word 1.1a
-   https://os8088.com/spotlight/
+12. [5 pts] Codex on AWS bedrock bug causing 10x charges
+   https://github.com/openai/codex/issues/37674
 
-13. [426 pts] Geolocating a random island using geometry and CUDA programming
-   https://yassa9.github.io/osint/gralhix-004/
+13. [11 pts] Captain Zilog
+   https://www.zilog.com/captain_zilog/
 
-14. [37 pts] Simulacra and Simulation
-   https://en.wikipedia.org/wiki/Simulacra_and_Simulation
+14. [204 pts] Vomit: Clean up Claude 5's token output with a separate LLM
+   https://github.com/zachahn/vomit
 
-15. [159 pts] Feature Request: Support AGENTS.md
-   https://github.com/anthropics/claude-code/issues/6235
+15. [239 pts] Show HN: Huzzah – a novel approach to coding with AI
+   https://www.danielvaughn.dev/posts/huzzah/
 
-16. [87 pts] The little-known winstart.bat batch file
-   https://devblogs.microsoft.com/oldnewthing/20260811-00/?p=112605
+16. [210 pts] Linux 7.2
+   https://www.igalia.com/2026/08/19/Linux-72-Released.html
 
-17. [321 pts] PostgreSQL for Everything
-   https://www.raphaelbauer.com:443/posts/postgresql-everything/
+17. [922 pts] AliExpress runs silent WebAudio fingerprinting that breaks Bluetooth multipoint
+   https://blog.laserphile.com/2026/08/aliexpress-webpage-keeping-multipoint.html
 
-18. [61 pts] Launch HN: OneCLI (YC S26) – OSS sandboxed agent harness for teams
-   https://github.com/onecli/onecli
+18. [358 pts] Mojo is now open source
+   https://www.modular.com/blog/mojo-open-source
 
-19. [199 pts] fx :Tiny, open, native coding agent.
-   https://fx.sh
+19. [253 pts] Consumer Rights Wiki
+   https://consumerrights.wiki/w/Main_Page
 
-20. [130 pts] Mathematics in the age of AI
-   https://arxiv.org/abs/2608.16753
+20. [29 pts] Speeding Up (Small) Ruby Hashes
+   https://byroot.github.io/ruby/performance/2026/08/13/speeding-up-ruby-hashes.html
 
-21. [31 pts] Pixel 11 Pro Fold feels like the end of an era
-   https://www.theverge.com/tech/981956/google-pixel-11-pro-fold-review
+21. [64 pts] SpacetimeDB: A Short Technical Review
+   https://strn.cat/posts/spacetime/
 
-22. [77 pts] DFlash 2: Keep Drafting Parallel
-   https://inco.ai/blog/dflash2/
+22. [129 pts] How to compromise your system with a job interview
+   https://www.codedge.de/posts/how-to-compromise-your-system-with-a-job-interview
 
-23. [176 pts] Ornith-1.5: From Self-Scaffolding to Self-Improvement
-   https://ornith.ai/ornith_1_5.html
+23. [128 pts] Anti-AI fonts are useless and harmful
+   https://blog.yaros.ae/anti-ai-fonts-are-useless-and-harmful/
 
-24. [55 pts] Pressed Penny Machine Map
-   https://pennypresses.net/home/map.php
+24. [294 pts] Git at any scale
+   https://cursor.com/blog/git-at-any-scale
 
-25. [259 pts] Air Theremin – A browser theremin you play by waving at your webcam
-   https://theremin.bizibah.com/
+25. [1174 pts] Aaron Swartz was prosecuted for scraping, while Meta does it without consequence
+   https://blog.curiousquail.com/im-upset-again-about-a-co-creator-of-rss-being-prosecuted-for-something-meta-is-doing-with-little-consequence/
 
-26. [55 pts] Xorshift Generators
-   https://www.alanzucconi.com/2026/08/15/xorshift-generators/
+26. [26 pts] Artificial Intelligence Policy
+   https://www.law.berkeley.edu/academics/registrar/academic-rules/artificial-intelligence-policy/
 
-27. [136 pts] Pacing model development in an era of cyber-critical capabilities
-   https://openai.com/index/pacing-model-development-cyber-capabilities/
+27. [1 pts] Sixtyfour (YC P25) Is Hiring
+   https://www.ycombinator.com/companies/sixtyfour/jobs/39SkSrA-software-engineering-intern
 
-28. [120 pts] Extensible Software in the age of LLMs
-   https://jeremymorrell.dev/blog/extensible-software-in-the-age-of-llms/
+28. [199 pts] Stop Anthropomorphizing Intermediate Tokens as Reasoning/Thinking Traces
+   https://arxiv.org/abs/2504.09762
 
-29. [13 pts] Universality of Gradient Descent Neural Network Training
-   https://arxiv.org/abs/2007.13664
+29. [139 pts] DiffusionGemma Technical Report
+   https://arxiv.org/abs/2608.00146
 
-30. [533 pts] Remote workers report the highest well-being in study of 7,700 employees
-   https://www.colorado.edu/today/2026/08/12/remote-workers-report-highest-well-being-study-7700-employees
+30. [84 pts] Every Model Cheats
+   https://dreadnode.io/research/every-model-cheats-prompt-level-mitigation-of-cheating-on-offensive-cyber-tasks/
 
 
 === RSS ===
-[ideas] Marginal Revolution: Declining Occupations and Career Outcomes in the United States
-  https://marginalrevolution.com/marginalrevolution/2026/08/declining-occupations-and-career-outcomes-in-the-united-states.html?utm_source=rss&utm_medium=rss&utm_campaign=declining-occupations-and-career-outcomes-in-the-united-states
+[ideas] Marginal Revolution: Indian documentary covers EV winners
+  https://marginalrevolution.com/marginalrevolution/2026/08/indian-documentary-covers-ev-winners.html?utm_source=rss&utm_medium=rss&utm_campaign=indian-documentary-covers-ev-winners
 
-[ideas] Marginal Revolution: Wednesday assorted links
-  https://marginalrevolution.com/marginalrevolution/2026/08/wednesday-assorted-links-567.html?utm_source=rss&utm_medium=rss&utm_campaign=wednesday-assorted-links-567
+[ideas] Marginal Revolution: Thursday assorted links
+  https://marginalrevolution.com/marginalrevolution/2026/08/thursday-assorted-links-566.html?utm_source=rss&utm_medium=rss&utm_campaign=thursday-assorted-links-566
 
-[ideas] Marginal Revolution: How much can you consistently care about animal welfare?
-  https://marginalrevolution.com/marginalrevolution/2026/08/how-much-can-you-consistently-care-about-animal-welfare.html?utm_source=rss&utm_medium=rss&utm_campaign=how-much-can-you-consistently-care-about-animal-welfare
+[ideas] Marginal Revolution: There are now eight episodes
+  https://marginalrevolution.com/marginalrevolution/2026/08/there-are-now-eight-episodes.html?utm_source=rss&utm_medium=rss&utm_campaign=there-are-now-eight-episodes
 
-[ideas] Marginal Revolution: Capitalizing untethered AI agents
-  https://marginalrevolution.com/marginalrevolution/2026/08/capitalizing-untethered-ai-agents.html?utm_source=rss&utm_medium=rss&utm_campaign=capitalizing-untethered-ai-agents
+[ideas] Marginal Revolution: Did UBI make people happier?
+  https://marginalrevolution.com/marginalrevolution/2026/08/did-ubi-make-people-happier.html?utm_source=rss&utm_medium=rss&utm_campaign=did-ubi-make-people-happier
 
-[ideas] Marginal Revolution: Some fertility and AI forecasts
-  https://marginalrevolution.com/marginalrevolution/2026/08/some-fertility-and-ai-forecasts.html?utm_source=rss&utm_medium=rss&utm_campaign=some-fertility-and-ai-forecasts
+[ideas] Marginal Revolution: My excellent Conversation with Luke Burgis
+  https://marginalrevolution.com/marginalrevolution/2026/08/my-excellent-conversation-with-luke-burgis.html?utm_source=rss&utm_medium=rss&utm_campaign=my-excellent-conversation-with-luke-burgis
+
+[ideas] Stratechery: Apple Settles With E.U., U.S. App Store Fees, ATT Rules in Germany
+  https://stratechery.com/2026/apple-settles-with-e-u-u-s-app-store-fees-att-rules-in-germany/
+
+[ideas] Stratechery: Nvidia Backs OpenAI Data Center, Anthropic News, Google Buys Spirit Airlines Data
+  https://stratechery.com/2026/nvidia-backs-openai-data-center-anthropic-news-google-buys-spirit-airlines-data/
+
+[ai] Anthropic News: How Claude’s text watermark works
+  https://www.anthropic.com/news/claude-text-watermark
 
 [ideas] Paul Graham: How to Earn a Billion Dollars
   https://paulgraham.com/earn.html
-
-[health] Peter Attia: #404 ‒ Mental health beyond neurotransmitters: the role of hormones in psychiatry, why symptom reduction isn’t enough, and the future of psychedelic therapies | Linus Abrams, M.D.
-  https://peterattiamd.com/linusabrams/
 
 [bitcoin] The Pomp Letter: The Highest Level of Intelligence at the Lowest Cost Possible
   https://pomp.substack.com/p/the-highest-level-of-intelligence
 
 [bitcoin] The Pomp Letter: Drop The “Blockchain” If You Want To Win
   https://pomp.substack.com/p/drop-the-blockchain-if-you-want-to
+
+[wisdom] Figs in Winter (Pigliucci): How to travel with Herodotus & friends
+  https://figsinwintertime.substack.com/p/how-to-travel-with-herodotus-and
+
+[wisdom] Figs in Winter (Pigliucci): Leo XIV’s encyclical on AI
+  https://figsinwintertime.substack.com/p/leo-xivs-encyclical-on-ai
+
+[wisdom] Figs in Winter (Pigliucci): Suggested Readings
+  https://figsinwintertime.substack.com/p/suggested-readings-383
+
+[ideas] Astral Codex Ten: College EA Meetups Everywhere: Call For Organizers
+  https://www.astralcodexten.com/p/college-ea-meetups-everywhere-call
+
+[ideas] Astral Codex Ten: Why I'm Staying Out Of The Substack Religion Debate
+  https://www.astralcodexten.com/p/why-im-staying-out-of-the-substack
+
+[wisdom] Donald Robertson: How to Live in Accord with your Values
+  https://donaldrobertson.substack.com/p/how-to-live-in-accord-with-your-values
+
+[wisdom] Donald Robertson: How to Mentally Rehearse Coping
+  https://donaldrobertson.substack.com/p/how-to-mentally-rehearse-coping
+
+[wisdom] Donald Robertson: The Stoic Taxonomy of Anger
+  https://donaldrobertson.substack.com/p/the-stoic-taxonomy-of-anger
+
+[bitcoin] Bitcoin Magazine: Bitcoin Could Attract More Buyers As Fast Money Is Washed Out, Says Lyn Alden
+  https://bitcoinmagazine.com/news/bitcoin-price-to-rise-says-lyn-alden
+
+[bitcoin] Bitcoin Magazine: Open Source vs. Source-Available: What the Coldcard Failure Teaches About Bitcoin Software Incentives
+  https://bitcoinmagazine.com/culture/open-source-vs-source-available-what-the-coldcard-failure-teaches-about-bitcoin-software-incentives
+
+[bitcoin] Bitcoin Magazine: Iranian Hacking Crew Charged in Sprawling Theft Case — Including $6M Bitcoin Ransom
+  https://bitcoinmagazine.com/news/iran-hackers-hit-with-criminal-charges
+
+[bitcoin] Bitcoin Magazine: Bitcoin ETFs Add Over $1B as Investor Sentiment Turns Bullish
+  https://bitcoinmagazine.com/news/bitcoin-etfs-receive-over-1-billion
+
+[bitcoin] Bitcoin Magazine: Coinbase CEO Brian Armstrong Says Bitcoin Will Likely Hit $400,000 By 2030
+  https://bitcoinmagazine.com/news/coinbase-ceo-says-bitcoin-will-hit-300000
+
+[bitcoin] Bitcoin Magazine: Bitcoin Rockets Past $72,000 After Trump Pushes For Clarity Act
+  https://bitcoinmagazine.com/news/bitcoin-price-rockets-past-72000
+
+[bitcoin] Bitcoin Magazine: Trump Urges Senate to Pass Crypto’s CLARITY Act, Teases More Bitcoin Buys
+  https://bitcoinmagazine.com/news/trump-teases-bitcoin-buys
+
+[bitcoin] Bitcoin Magazine: Bitcoin Shortsellers Get Destroyed With $1.7B in Positions Liquidated Following BTC Price Jump
+  https://bitcoinmagazine.com/news/bitcoin-shortsellers-get-destroyed
+
+[ai] OpenAI Blog: Introducing AI Futures
+  https://openai.com/index/introducing-ai-futures
+
+[ai] OpenAI Blog: Stampli cuts launch hours by 68% using ChatGPT Work
+  https://openai.com/index/stampli
 
 [ai] OpenAI Blog: Offering Zero Data Retention for frontier models
   https://openai.com/index/offering-zero-data-retention-for-frontier-models
@@ -127,11 +187,11 @@
 [ai] OpenAI Blog: ChatGPT Ads expands across Europe
   https://openai.com/index/chatgpt-ads-expands-across-europe
 
-[ai] OpenAI Blog: Strengthening democratic oversight in national security
-  https://openai.com/index/strengthening-democratic-oversight-in-national-security
+[ai] Simon Willison: ChatGPT search now uses the site:operator at scale
+  https://simonwillison.net/2026/Aug/20/chatgpt-search-now-uses-the-siteoperator-at-scale/
 
-[ai] OpenAI Blog: Partnering with CodeAI to prepare the first AI generation
-  https://openai.com/index/partnering-with-codeai
+[ai] Simon Willison: A shot-scraper-style JSON API on Bun 1.4's new Bun.WebView
+  https://simonwillison.net/2026/Aug/20/bun-webview-json-api/
 
 [ai] Simon Willison: smolmachines / smolvm as a sandbox for untrusted Python & JavaScript
   https://simonwillison.net/2026/Aug/19/smolmachines-untrusted-sandbox/
@@ -142,109 +202,8 @@
 [ai] Simon Willison: Conceptual integrity and counting lines of code
   https://simonwillison.net/2026/Aug/19/conceptual-integrity-and-counting-lines-of-code/
 
-[ai] Simon Willison: Mojo🔥 is now open source
-  https://simonwillison.net/2026/Aug/18/mojo-is-now-open-source/
-
-[ai] Simon Willison: Qwen 3.8 27B scores 52 on the Artificial Analysis Intelligence Index
-  https://simonwillison.net/2026/Aug/17/qwen-38-27b-scores-52/
-
-[ideas] Stratechery: Apple Settles With E.U., U.S. App Store Fees, ATT Rules in Germany
-  https://stratechery.com/2026/apple-settles-with-e-u-u-s-app-store-fees-att-rules-in-germany/
-
-[ideas] Stratechery: Nvidia Backs OpenAI Data Center, Anthropic News, Google Buys Spirit Airlines Data
-  https://stratechery.com/2026/nvidia-backs-openai-data-center-anthropic-news-google-buys-spirit-airlines-data/
-
-[ideas] Stratechery: Stripe Acquiring OpenRouter, Aggregating AI?, Flipping the Business Model
-  https://stratechery.com/2026/stripe-acquiring-openrouter-aggregating-ai-flipping-the-business-model/
-
-[ai] Anthropic News: How Claude’s text watermark works
-  https://www.anthropic.com/news/claude-text-watermark
-
-[ai] Anthropic News: Improving Fable 5's biology safeguards
-  https://www.anthropic.com/news/improving-fable-5-s-biology-safeguards
-
-[bitcoin] Bitcoin Magazine: Trump Urges Senate to Pass Crypto’s CLARITY Act, Teases More Bitcoin Buys
-  https://bitcoinmagazine.com/news/trump-teases-bitcoin-buys
-
-[bitcoin] Bitcoin Magazine: Bitcoin Shortsellers Get Destroyed With $1.7B in Positions Liquidated Following BTC Price Jump
-  https://bitcoinmagazine.com/news/bitcoin-shortsellers-get-destroyed
-
-[bitcoin] Bitcoin Magazine: President Trump To Host Crypto Execs at White House
-  https://bitcoinmagazine.com/news/trump-to-host-crypto-execs
-
-[bitcoin] Bitcoin Magazine: Bitcoin Blasts Past $68,000 After US Treasury Doubles Debt Buybacks
-  https://bitcoinmagazine.com/news/bitcoin-blasts-past-68000
-
-[bitcoin] Bitcoin Magazine: Bitcoin’s Volatility May Be Down But Expect a ‘Meaningful Move’ Soon, Says Fidelity
-  https://bitcoinmagazine.com/news/bitcoin-volatility-is-down-says-fidelity
-
-[bitcoin] Bitcoin Magazine: BitBox Warns Bitcoiners After Discovering ‘Severe’ Vulnerability In Firmware
-  https://bitcoinmagazine.com/news/bitbox-warns-users-about-vulnerability
-
-[bitcoin] Bitcoin Magazine: SEC Proposes Crypto Rulebook as Clarity Act Stalls
-  https://bitcoinmagazine.com/news/sec-proposes-crypto-rules
-
-[bitcoin] Bitcoin Magazine: Bitcoin’s Wild Swings Go Quiet, Even as the Bears Won’t Let Go
-  https://bitcoinmagazine.com/news/bitcoin-volatility-dampens-vaneck
-
-[ideas] Astral Codex Ten: Why I'm Staying Out Of The Substack Religion Debate
-  https://www.astralcodexten.com/p/why-im-staying-out-of-the-substack
-
-[ideas] Astral Codex Ten: Open Thread 447
-  https://www.astralcodexten.com/p/open-thread-447
-
-[wisdom] Donald Robertson: How to Mentally Rehearse Coping
-  https://donaldrobertson.substack.com/p/how-to-mentally-rehearse-coping
-
-[wisdom] Donald Robertson: The Stoic Taxonomy of Anger
-  https://donaldrobertson.substack.com/p/the-stoic-taxonomy-of-anger
-
-[wisdom] Donald Robertson: Book Review: The Practicing Stoic by Ward Farnsworth
-  https://donaldrobertson.substack.com/p/book-review-the-practicing-stoic-by-ward-farnsworth-45c1c54b530a
-
-[wisdom] Figs in Winter (Pigliucci): Leo XIV’s encyclical on AI
-  https://figsinwintertime.substack.com/p/leo-xivs-encyclical-on-ai
-
-[wisdom] Figs in Winter (Pigliucci): Suggested Readings
-  https://figsinwintertime.substack.com/p/suggested-readings-383
-
-[wisdom] Figs in Winter (Pigliucci): Forget the good life, try the good day
-  https://figsinwintertime.substack.com/p/forget-the-good-life-try-the-good
-
 
 === YOUTUBE ===
-Lex Fridman: Khabib Nurmagomedov: Dagestan, MMA, UFC, Islam, Conor, Fedor & Football | Lex Fridman Podcast #500
-  https://www.youtube.com/watch?v=l6USUAIKJls
-  Transcript: yes
-
-Renaissance Periodization: Dr. Mike Made a Huge Push Up Mistake
-  https://www.youtube.com/shorts/rt1Hm4IHLUw
-  Transcript: yes
-
-Renaissance Periodization: How to Build Back Strength Like a Rock Climber
-  https://www.youtube.com/shorts/053byeIkrIY
-  Transcript: yes
-
-Renaissance Periodization: The 1.5-Mile Run Broke Dr. Mike
-  https://www.youtube.com/shorts/-2cJVWJyczE
-  Transcript: yes
-
-Renaissance Periodization: A Giant Failed This Grip Challenge... Then a Climber Tried It
-  https://www.youtube.com/shorts/c5ElnQx697g
-  Transcript: yes
-
-Renaissance Periodization: Dr Mike Tried to Beat an Air Force Guy in Pullups
-  https://www.youtube.com/shorts/6x94QcfH_Dw
-  Transcript: yes
-
-Renaissance Periodization: Exercise Scientist vs The Brutal Air Force Fitness Test
-  https://www.youtube.com/watch?v=bp26MpiyZC4
-  Transcript: yes
-
-Renaissance Periodization: This Climber Nearly Got Stuck in a Cave Called Hell Hole
-  https://www.youtube.com/shorts/xgPuUEIx09k
-  Transcript: yes
-
 Ben Felix: When Compounding Works Against You
   https://www.youtube.com/watch?v=skc2T5fcoLY
   Transcript: yes

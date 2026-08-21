@@ -1,11 +1,11 @@
 {
   "current_suggestion": {
-    "channel_name": "Dario Amodei / Anthropic (Dwarkesh-style: use 'Curt Jaimungal \u2013 Theories of Everything')",
-    "channel_id": "UCdWIQh9DGG6uhJk8eyIFl1w",
-    "youtube_handle": "@TheoriesOfEverything",
-    "pitch": "Curt Jaimungal interviews physicists, philosophers, and AI researchers at a level of rigor that sits between Lex Fridman's breadth and a pure academic channel \u2014 he pushes on the actual structure of arguments rather than just letting guests monologue. Your current lineup covers AI capabilities and philosophy separately; Curt regularly bridges them through conversations on consciousness, decision theory, and what intelligence actually is, which is a gap your channels leave open. Long-form solo and interview format, typically 2-4 hours, with unusually precise follow-up questions."
+    "channel_name": "David Sklansky",
+    "channel_id": "UCh3YIW2oYk7PbNmvFbgCtJA",
+    "youtube_handle": "@sklarskyandfriends",
+    "pitch": "David Sklansky is the foundational theorist whose mathematical thinking underpins much of what GTO Wizard and GTO Lab build on \u2014 watching him reason through poker problems from first principles gives you the 'why' beneath the solver outputs your current channels take for granted. He covers game theory, probability, and decision-making in a raw, unpolished format that rewards people who want to think rather than be handed ranges. Format is informal conversation and Q&A, which means you get his actual reasoning process rather than produced content."
   },
-  "shown_count": 3,
+  "shown_count": 1,
   "history": [
     "Brad Kearns",
     "Dr. Layne Norton",
@@ -52,6 +52,7 @@
     "William Green | Richer, Wiser, Happier",
     "Sweet Arts on Main",
     "Machine Learning Street Talk",
-    "Dario Amodei / Anthropic (Dwarkesh-style: use 'Curt Jaimungal \u2013 Theories of Everything')"
+    "Dario Amodei / Anthropic (Dwarkesh-style: use 'Curt Jaimungal \u2013 Theories of Everything')",
+    "David Sklansky"
   ]
 }
