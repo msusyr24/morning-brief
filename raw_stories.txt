@@ -1,128 +1,131 @@
 === HACKER NEWS ===
-1. [105 pts] AI companies destroy physical books – let's scan rare books before it's too late
-   https://annas-archive.gl/blog/physical-destruction.html
+1. [135 pts] There's no reason for software to be slow anymore
+   https://danluu.com/perf-opt/
 
-2. [380 pts] The August 17 outage
-   https://github.blog/news-insights/company-news/the-august-17-outage-and-the-work-ahead/
+2. [577 pts] Felony Bench
+   https://www.felonybench.com/
 
-3. [611 pts] I like 'em thick: an apology to my English teachers
-   https://www.experimental-history.com/p/i-like-em-thick
+3. [456 pts] Kobo can run apps now
+   https://bandarlabs.github.io/Cobalt/
 
-4. [625 pts] HTML Can Do That
-   https://chrisburnell.com/html-can-do-that/
+4. [69 pts] Rust Glancer: Rust LSP using 100x less RAM
+   https://rust-glancer.github.io/blog/hello-world/
 
-5. [418 pts] Malicious Rust crate Arrayref runs a build-time payload
-   https://safedep.io/arrayref-proc-macro1-rust-build-time-malware/
+5. [30 pts] Initial focus for our partnership with Motorola is a regular non-folding device
+   https://grapheneos.social/@GrapheneOS/117136278553665985
 
-6. [208 pts] I should have loved biology (2020)
-   https://jsomers.net/i-should-have-loved-biology/
+6. [84 pts] Three important steps in my maturation process
+   https://thomasdullien.github.io/posts/2026-08-21-three-important-steps-in-my-maturation-process/
 
-7. [18 pts] Make a 6-Tesla-class high-temperature superconducting dipole magnet at 4.2 K
-   https://journals.aps.org/prab/abstract/10.1103/4nhs-bkwh
+7. [162 pts] Scientists release biggest 2D map of the universe
+   https://newscenter.lbl.gov/2026/08/10/scientists-release-biggest-2d-map-of-the-universe/
 
-8. [40 pts] There's no such thing as a small software team anymore
-   https://jacob.gold/posts/theres-no-such-thing-as-a-small-software-team/
+8. [1042 pts] Kagi added a setting for removing paywalled links from search results
+   https://kagi.com/changelog#11296
 
-9. [368 pts] CIA funding helped keep NeXT afloat in the 80s
-   https://www.wsj.com/tech/steve-jobs-apple-next-cia-161b65f9?st=NWWds1&reflink=desktopwebshare_permalink
+9. [628 pts] Felony charges for citizen deleting phone data at US Border
+   https://www.nytimes.com/2026/08/21/us/politics/samuel-tunick-deleted-phone-felony.html
 
-10. [109 pts] Why aren't smart people happier? (2022)
-   https://www.experimental-history.com/p/why-arent-smart-people-happier
+10. [52 pts] Show HN: OzBrain, a shared brain for knowledge between agents and your team
+   https://ozbrain.com
 
-11. [533 pts] Show HN: I trained a 125M model to autocomplete piano on-device
-   https://simedw.com/2026/08/20/midi-autocomplete/
+11. [475 pts] I accidentally logged hundreds of thousands of phone calls to military bases
+   https://lina.sh/blog/hijacking-e164-arpa
 
-12. [5 pts] Codex on AWS bedrock bug causing 10x charges
-   https://github.com/openai/codex/issues/37674
+12. [11 pts] Ozone: The fault is not in our trees, but in ourselves
+   https://www.science.org/content/blog-post/fault-not-our-trees-ourselves
 
-13. [11 pts] Captain Zilog
-   https://www.zilog.com/captain_zilog/
+13. [55 pts] OTel isn't going well (and I made a spreadsheet about it)
+   https://matduggan.com/otel-isnt-going-well-and-i-made-a-spreadsheet-about-it/
 
-14. [204 pts] Vomit: Clean up Claude 5's token output with a separate LLM
-   https://github.com/zachahn/vomit
+14. [256 pts] AI boosted homework scores, then exam scores dropped: study
+   https://www.economist.com/graphic-detail/2026/08/18/does-ai-stop-children-from-learning
 
-15. [239 pts] Show HN: Huzzah – a novel approach to coding with AI
-   https://www.danielvaughn.dev/posts/huzzah/
+15. [102 pts] People of ACM – Russ Cox
+   https://www.acm.org/articles/people-of-acm/2026/russ-cox
 
-16. [210 pts] Linux 7.2
-   https://www.igalia.com/2026/08/19/Linux-72-Released.html
+16. [8 pts] Early Humans Likely Ate Carbs and Sugary Foods
+   https://www.history.com/articles/early-human-ancestors-diet-sugar-carbs
 
-17. [922 pts] AliExpress runs silent WebAudio fingerprinting that breaks Bluetooth multipoint
-   https://blog.laserphile.com/2026/08/aliexpress-webpage-keeping-multipoint.html
+17. [26 pts] HN: The Good Parts (2016)
+   https://danluu.com/hn-comments/
 
-18. [358 pts] Mojo is now open source
-   https://www.modular.com/blog/mojo-open-source
+18. [221 pts] Claudette: Make Claude stop talking like a BuzzFeed article
+   https://github.com/adnanakil/nobuzz/blob/main/README.md
 
-19. [253 pts] Consumer Rights Wiki
-   https://consumerrights.wiki/w/Main_Page
+19. [118 pts] How we made a text-to-speech model respond in sub-50 ms
+   https://nari-labs.com/blog/qwen3-tts-speed-cost-frontier/
 
-20. [29 pts] Speeding Up (Small) Ruby Hashes
-   https://byroot.github.io/ruby/performance/2026/08/13/speeding-up-ruby-hashes.html
+20. [1 pts] SalesPatriot (YC W25) Is Hiring Forward Deployed Engineers
+   https://www.ycombinator.com/companies/salespatriot/jobs/M46X6YX-forward-deployed-engineer
 
-21. [64 pts] SpacetimeDB: A Short Technical Review
-   https://strn.cat/posts/spacetime/
+21. [59 pts] Early-life stress leaves a 'scar' inside brain cells in mice
+   https://medicine.washu.edu/news/how-early-life-stress-leaves-a-scar-inside-brain-cells/
 
-22. [129 pts] How to compromise your system with a job interview
-   https://www.codedge.de/posts/how-to-compromise-your-system-with-a-job-interview
+22. [106 pts] A look under our trunk: what's in our compute
+   https://waymo.com/blog/2026/08/look-under-our-trunk/
 
-23. [128 pts] Anti-AI fonts are useless and harmful
-   https://blog.yaros.ae/anti-ai-fonts-are-useless-and-harmful/
+23. [32 pts] Autolith: A programming agent with a live runtime
+   https://www.lambda-symbolics.com/autolith
 
-24. [294 pts] Git at any scale
-   https://cursor.com/blog/git-at-any-scale
+24. [211 pts] New Worlds: We are living in the future of J.G. Ballard or William Gibson
+   https://precastreinforced.co.uk/2026/08/16/new-worlds/
 
-25. [1174 pts] Aaron Swartz was prosecuted for scraping, while Meta does it without consequence
-   https://blog.curiousquail.com/im-upset-again-about-a-co-creator-of-rss-being-prosecuted-for-something-meta-is-doing-with-little-consequence/
+25. [17 pts] Show HN: Rex, a parallel functional language for scientific workflows
+   https://github.com/peterkelly/rex
 
-26. [26 pts] Artificial Intelligence Policy
-   https://www.law.berkeley.edu/academics/registrar/academic-rules/artificial-intelligence-policy/
+26. [51 pts] Everyone says assembly is untyped—everyone is wrong
+   https://www.gingerbill.org/article/2026/08/20/designing-odins-inline-asm/
 
-27. [1 pts] Sixtyfour (YC P25) Is Hiring
-   https://www.ycombinator.com/companies/sixtyfour/jobs/39SkSrA-software-engineering-intern
+27. [65 pts] Tumble Forth – from assembly to OS with C compiler (2023)
+   https://tumbleforth.hardcoded.net/
 
-28. [199 pts] Stop Anthropomorphizing Intermediate Tokens as Reasoning/Thinking Traces
-   https://arxiv.org/abs/2504.09762
+28. [296 pts] I'm becoming AI-blind
+   https://cymerys.com/w/im-becoming-ai-blind
 
-29. [139 pts] DiffusionGemma Technical Report
-   https://arxiv.org/abs/2608.00146
+29. [39 pts] GitHub, autoscaling, and the component substitution fallacy
+   https://surfingcomplexity.blog/2026/08/19/github-autoscaling-and-the-component-substitution-fallacy/
 
-30. [84 pts] Every Model Cheats
-   https://dreadnode.io/research/every-model-cheats-prompt-level-mitigation-of-cheating-on-offensive-cyber-tasks/
+30. [169 pts] The coolest anti-surveillance tools at Defcon [video]
+   https://www.youtube.com/watch?v=-2uAsJ5EPAw
 
 
 === RSS ===
-[ideas] Marginal Revolution: Indian documentary covers EV winners
-  https://marginalrevolution.com/marginalrevolution/2026/08/indian-documentary-covers-ev-winners.html?utm_source=rss&utm_medium=rss&utm_campaign=indian-documentary-covers-ev-winners
-
-[ideas] Marginal Revolution: Thursday assorted links
-  https://marginalrevolution.com/marginalrevolution/2026/08/thursday-assorted-links-566.html?utm_source=rss&utm_medium=rss&utm_campaign=thursday-assorted-links-566
-
-[ideas] Marginal Revolution: There are now eight episodes
-  https://marginalrevolution.com/marginalrevolution/2026/08/there-are-now-eight-episodes.html?utm_source=rss&utm_medium=rss&utm_campaign=there-are-now-eight-episodes
-
-[ideas] Marginal Revolution: Did UBI make people happier?
-  https://marginalrevolution.com/marginalrevolution/2026/08/did-ubi-make-people-happier.html?utm_source=rss&utm_medium=rss&utm_campaign=did-ubi-make-people-happier
-
-[ideas] Marginal Revolution: My excellent Conversation with Luke Burgis
-  https://marginalrevolution.com/marginalrevolution/2026/08/my-excellent-conversation-with-luke-burgis.html?utm_source=rss&utm_medium=rss&utm_campaign=my-excellent-conversation-with-luke-burgis
+[ideas] Stratechery: 2026.34: App Snore
+  https://stratechery.com/2026/app-snore/
 
 [ideas] Stratechery: Apple Settles With E.U., U.S. App Store Fees, ATT Rules in Germany
   https://stratechery.com/2026/apple-settles-with-e-u-u-s-app-store-fees-att-rules-in-germany/
 
-[ideas] Stratechery: Nvidia Backs OpenAI Data Center, Anthropic News, Google Buys Spirit Airlines Data
-  https://stratechery.com/2026/nvidia-backs-openai-data-center-anthropic-news-google-buys-spirit-airlines-data/
-
 [ai] Anthropic News: How Claude’s text watermark works
   https://www.anthropic.com/news/claude-text-watermark
+
+[ideas] Astral Codex Ten: Your Book Review: A Residence Of 21 Years In The Sandwich Islands
+  https://www.astralcodexten.com/p/your-book-review-a-residence-of-21
+
+[ideas] Astral Codex Ten: College EA Meetups Everywhere: Call For Organizers
+  https://www.astralcodexten.com/p/college-ea-meetups-everywhere-call
+
+[ideas] Astral Codex Ten: Why I'm Staying Out Of The Substack Religion Debate
+  https://www.astralcodexten.com/p/why-im-staying-out-of-the-substack
 
 [ideas] Paul Graham: How to Earn a Billion Dollars
   https://paulgraham.com/earn.html
 
-[bitcoin] The Pomp Letter: The Highest Level of Intelligence at the Lowest Cost Possible
-  https://pomp.substack.com/p/the-highest-level-of-intelligence
+[ideas] Marginal Revolution: This brew, at least, is from Ashburn, Virginia
+  https://marginalrevolution.com/marginalrevolution/2026/08/this-brew-at-least-is-from-ashburn-virginia.html?utm_source=rss&utm_medium=rss&utm_campaign=this-brew-at-least-is-from-ashburn-virginia
 
-[bitcoin] The Pomp Letter: Drop The “Blockchain” If You Want To Win
-  https://pomp.substack.com/p/drop-the-blockchain-if-you-want-to
+[ideas] Marginal Revolution: Friday assorted links
+  https://marginalrevolution.com/marginalrevolution/2026/08/friday-assorted-links-586.html?utm_source=rss&utm_medium=rss&utm_campaign=friday-assorted-links-586
+
+[ideas] Marginal Revolution: Breaking Ground: Can Refund Bonuses Solve the Holdout Problem?
+  https://marginalrevolution.com/marginalrevolution/2026/08/breaking-ground-can-refund-bonuses-solve-the-holdout-problem.html?utm_source=rss&utm_medium=rss&utm_campaign=breaking-ground-can-refund-bonuses-solve-the-holdout-problem
+
+[ideas] Marginal Revolution: Rick Rubin podcasts with me
+  https://marginalrevolution.com/marginalrevolution/2026/08/rick-rubin-podcasts-with-me-3.html?utm_source=rss&utm_medium=rss&utm_campaign=rick-rubin-podcasts-with-me-3
+
+[ideas] Marginal Revolution: Green shoots for the UK?
+  https://marginalrevolution.com/marginalrevolution/2026/08/green-shoots-for-the-uk.html?utm_source=rss&utm_medium=rss&utm_campaign=green-shoots-for-the-uk
 
 [wisdom] Figs in Winter (Pigliucci): How to travel with Herodotus & friends
   https://figsinwintertime.substack.com/p/how-to-travel-with-herodotus-and
@@ -133,44 +136,26 @@
 [wisdom] Figs in Winter (Pigliucci): Suggested Readings
   https://figsinwintertime.substack.com/p/suggested-readings-383
 
-[ideas] Astral Codex Ten: College EA Meetups Everywhere: Call For Organizers
-  https://www.astralcodexten.com/p/college-ea-meetups-everywhere-call
+[ai] Simon Willison: llm 0.32.1
+  https://simonwillison.net/2026/Aug/21/llm/
 
-[ideas] Astral Codex Ten: Why I'm Staying Out Of The Substack Religion Debate
-  https://www.astralcodexten.com/p/why-im-staying-out-of-the-substack
+[ai] Simon Willison: llm-openrouter 0.7
+  https://simonwillison.net/2026/Aug/21/llm-openrouter/
 
-[wisdom] Donald Robertson: How to Live in Accord with your Values
-  https://donaldrobertson.substack.com/p/how-to-live-in-accord-with-your-values
+[ai] Simon Willison: Stop Making TUIs
+  https://simonwillison.net/2026/Aug/21/stop-making-tuis/
 
-[wisdom] Donald Robertson: How to Mentally Rehearse Coping
-  https://donaldrobertson.substack.com/p/how-to-mentally-rehearse-coping
+[ai] Simon Willison: Quoting Matt Webb
+  https://simonwillison.net/2026/Aug/21/matt-webb/
 
-[wisdom] Donald Robertson: The Stoic Taxonomy of Anger
-  https://donaldrobertson.substack.com/p/the-stoic-taxonomy-of-anger
+[ai] Simon Willison: ChatGPT search now uses the site:operator at scale
+  https://simonwillison.net/2026/Aug/20/chatgpt-search-now-uses-the-siteoperator-at-scale/
 
-[bitcoin] Bitcoin Magazine: Bitcoin Could Attract More Buyers As Fast Money Is Washed Out, Says Lyn Alden
-  https://bitcoinmagazine.com/news/bitcoin-price-to-rise-says-lyn-alden
+[bitcoin] The Pomp Letter: Bitcoin Is Ready To Make A Comeback
+  https://pomp.substack.com/p/bitcoin-is-ready-to-make-a-comeback
 
-[bitcoin] Bitcoin Magazine: Open Source vs. Source-Available: What the Coldcard Failure Teaches About Bitcoin Software Incentives
-  https://bitcoinmagazine.com/culture/open-source-vs-source-available-what-the-coldcard-failure-teaches-about-bitcoin-software-incentives
-
-[bitcoin] Bitcoin Magazine: Iranian Hacking Crew Charged in Sprawling Theft Case — Including $6M Bitcoin Ransom
-  https://bitcoinmagazine.com/news/iran-hackers-hit-with-criminal-charges
-
-[bitcoin] Bitcoin Magazine: Bitcoin ETFs Add Over $1B as Investor Sentiment Turns Bullish
-  https://bitcoinmagazine.com/news/bitcoin-etfs-receive-over-1-billion
-
-[bitcoin] Bitcoin Magazine: Coinbase CEO Brian Armstrong Says Bitcoin Will Likely Hit $400,000 By 2030
-  https://bitcoinmagazine.com/news/coinbase-ceo-says-bitcoin-will-hit-300000
-
-[bitcoin] Bitcoin Magazine: Bitcoin Rockets Past $72,000 After Trump Pushes For Clarity Act
-  https://bitcoinmagazine.com/news/bitcoin-price-rockets-past-72000
-
-[bitcoin] Bitcoin Magazine: Trump Urges Senate to Pass Crypto’s CLARITY Act, Teases More Bitcoin Buys
-  https://bitcoinmagazine.com/news/trump-teases-bitcoin-buys
-
-[bitcoin] Bitcoin Magazine: Bitcoin Shortsellers Get Destroyed With $1.7B in Positions Liquidated Following BTC Price Jump
-  https://bitcoinmagazine.com/news/bitcoin-shortsellers-get-destroyed
+[bitcoin] The Pomp Letter: The Highest Level of Intelligence at the Lowest Cost Possible
+  https://pomp.substack.com/p/the-highest-level-of-intelligence
 
 [ai] OpenAI Blog: Introducing AI Futures
   https://openai.com/index/introducing-ai-futures
@@ -184,27 +169,50 @@
 [ai] OpenAI Blog: Replit expands access to software creation with GPT-5.6 Luna
   https://openai.com/index/replit
 
-[ai] OpenAI Blog: ChatGPT Ads expands across Europe
-  https://openai.com/index/chatgpt-ads-expands-across-europe
+[bitcoin] Bitcoin Magazine: Smart Money Helping Support Bitcoin Rebound, Says Pantera Capital
+  https://bitcoinmagazine.com/news/pantera-capital-says-bitcoin-to-go-higher
 
-[ai] Simon Willison: ChatGPT search now uses the site:operator at scale
-  https://simonwillison.net/2026/Aug/20/chatgpt-search-now-uses-the-siteoperator-at-scale/
+[bitcoin] Bitcoin Magazine: Legendary Investor Ray Dalio Touts Bitcoin — With Gold — To Hedge Against Incoming Debt Crisis
+  https://bitcoinmagazine.com/news/ray-dalio-touts-bitcoin
 
-[ai] Simon Willison: A shot-scraper-style JSON API on Bun 1.4's new Bun.WebView
-  https://simonwillison.net/2026/Aug/20/bun-webview-json-api/
+[bitcoin] Bitcoin Magazine: Bitcoin Has Its Best Week Since 2023 as Shortsellers Continue To Get Wiped Out
+  https://bitcoinmagazine.com/markets/bitcoin-has-best-week-since-2023
 
-[ai] Simon Willison: smolmachines / smolvm as a sandbox for untrusted Python & JavaScript
-  https://simonwillison.net/2026/Aug/19/smolmachines-untrusted-sandbox/
+[bitcoin] Bitcoin Magazine: Pakistan’s Crypto Pitch: “Come Build Here” as Virtual Assets Act Moves Forward
+  https://bitcoinmagazine.com/news/pakistan-tells-companies-to-build-there
 
-[ai] Simon Willison: Quoting Jeremy Morrell
-  https://simonwillison.net/2026/Aug/19/jeremy-morrell/
+[bitcoin] Bitcoin Magazine: Bitcoin Price Roars Towards $80,000 Following Positive Regulatory News, US Buyback Pledge
+  https://bitcoinmagazine.com/news/bitcoin-surges-towards-80000
 
-[ai] Simon Willison: Conceptual integrity and counting lines of code
-  https://simonwillison.net/2026/Aug/19/conceptual-integrity-and-counting-lines-of-code/
+[bitcoin] Bitcoin Magazine: Bitcoin Could Attract More Buyers As Fast Money Is Washed Out, Says Lyn Alden
+  https://bitcoinmagazine.com/news/bitcoin-price-to-rise-says-lyn-alden
+
+[bitcoin] Bitcoin Magazine: Open Source vs. Source-Available: What the Coldcard Failure Teaches About Bitcoin Software Incentives
+  https://bitcoinmagazine.com/culture/open-source-vs-source-available-what-the-coldcard-failure-teaches-about-bitcoin-software-incentives
+
+[bitcoin] Bitcoin Magazine: Iranian Hacking Crew Charged in Sprawling Theft Case — Including $6M Bitcoin Ransom
+  https://bitcoinmagazine.com/news/iran-hackers-hit-with-criminal-charges
+
+[wisdom] Donald Robertson: How to Live in Accord with your Values
+  https://donaldrobertson.substack.com/p/how-to-live-in-accord-with-your-values
+
+[wisdom] Donald Robertson: How to Mentally Rehearse Coping
+  https://donaldrobertson.substack.com/p/how-to-mentally-rehearse-coping
+
+[wisdom] Donald Robertson: The Stoic Taxonomy of Anger
+  https://donaldrobertson.substack.com/p/the-stoic-taxonomy-of-anger
 
 
 === YOUTUBE ===
+Lex Fridman: Khabib Nurmagomedov: Dagestan, MMA, UFC, Islam, Conor, Fedor & Football | Lex Fridman Podcast #500
+  https://www.youtube.com/watch?v=l6USUAIKJls
+  Transcript: yes
+
 Ben Felix: When Compounding Works Against You
   https://www.youtube.com/watch?v=skc2T5fcoLY
+  Transcript: yes
+
+Mind The Game: The Hilarious Story Behind How Steph Made Steve Nash Retire
+  https://www.youtube.com/watch?v=bgSixq0dOKs
   Transcript: yes
 
