@@ -1,101 +1,101 @@
 === HACKER NEWS ===
-1. [294 pts] iCloud+ Hide My Email addresses will remain on icloud.com
-   https://developer.apple.com/news/?id=1ptvdtcm
+1. [1025 pts] Apple introduces M6 and M5 Ultra
+   https://www.apple.com/newsroom/2026/08/apple-introduces-m6-and-m5-ultra-for-a-big-leap-in-performance-and-ai-compute/
 
-2. [766 pts] Xiaomi: New CPU matches Apple cores single threaded, much faster multithreaded
-   https://twitter.com/lemire/status/2091894299289874926
+2. [320 pts] FDA authorizes first wearable device that monitors ketone and blood sugar levels
+   https://www.fda.gov/news-events/press-announcements/fda-authorizes-first-wearable-device-continuously-monitors-both-ketone-levels-and-blood-sugar
 
-3. [601 pts] MS Paint and Photos inivisibly watermark even locally generated output with GUID
-   https://xusheng.dev/posts/reversing/mspaint_invisible_watermark/main/
+3. [379 pts] OpenAI Jalapeño: Better than Nvidia Blackwell
+   https://newsletter.semianalysis.com/p/openai-jalapeno-better-than-nvidia
 
-4. [45 pts] How Universities Should Prepare Founders
-   https://paulgraham.com/prepare.html
+4. [724 pts] New Mac Studio with M5 Max and M5 Ultra
+   https://www.apple.com/newsroom/2026/08/apple-introduces-new-mac-studio-with-m5-max-and-m5-ultra/
 
-5. [120 pts] Moon (2024)
-   https://ciechanow.ski/moon/
+5. [47 pts] Queryable Executables
+   https://fzakaria.com/2026/08/24/actually-queryable-executables
 
-6. [33 pts] Was Modern Art a CIA Psy-Op? (2020)
-   https://daily.jstor.org/was-modern-art-really-a-cia-psy-op/
+6. [47 pts] Maiao: Gerrit-style code review workflow for GitHub, GitLab, Gitea, others
+   https://github.com/runetes/maiao
 
-7. [1112 pts] How Europe is killing makers and micro-entrepreneurs
-   https://lectronz.com/u/lectronz/articles/how-europe-is-killing-makers-and-micro-entrepreneurs
+7. [212 pts] Black hole singularity is a surface not a point
+   https://arxiv.org/abs/2608.21590
 
-8. [379 pts] The entire city of San Francisco as a video game
-   https://sf.thijs.gg/
+8. [456 pts] New Mac mini, featuring M6 and M5 Pro
+   https://www.apple.com/newsroom/2026/08/apple-unveils-a-more-powerful-mac-mini-featuring-the-all-new-m6-and-m5-pro/
 
-9. [57 pts] Bookshelf – Self-hosted eBook library that runs on object storage
-   https://github.com/murerkinn/bookshelf
+9. [85 pts] When str.lower() is a security vulnerability in Python – Seth Larson
+   https://sethmlarson.dev/when-str-lower-is-a-security-vulnerability
 
-10. [186 pts] Where did all the public bathrooms go?
-   https://daily.jstor.org/where-did-all-the-public-bathrooms-go/
+10. [105 pts] C2PA Cameras Do Not Survive Contact with Reality
+   https://www.da.vidbuchanan.co.uk/blog/android-c2pa.html
 
-11. [188 pts] Jabber/XMPP: 25 Years of Digital Independence
-   https://gultsch.de/posts/25-years-of-digital-independence/
+11. [8 pts] Agentic Context Management: Memory and Cost as Architecture Problems
+   https://arxiv.org/abs/2607.21503
 
-12. [68 pts] Vintage Artificial Intelligence: Before It Got Awkward
-   https://blog.archive.org/2026/08/16/vintage-artificial-intelligence-before-it-got-awkward/
+12. [68 pts] Show HN: TeXbrain, a LaTeX editor that runs pdfTeX in the browser via WASM
+   https://github.com/swimmingbrain/texbrain
 
-13. [41 pts] Thomson Reuters Launches Its Own Frontier Model
-   https://www.thomsonreuters.com/en/press-releases/2026/august/thomson-reuters-leverages-its-world-class-data-assets-to-launch-its-own-frontier-model
+13. [717 pts] Nitter and XCancel receive cease and desist notices
+   https://github.com/zedeus/nitter/issues/1442
 
-14. [99 pts] Octopus intelligence may be related to never-before-seen mutation
-   https://www.smithsonianmag.com/smart-news/why-are-some-octopuses-so-smart-the-answer-might-lie-in-a-never-before-seen-mutation-that-helps-them-accurately-build-proteins-180989319/
+14. [15 pts] Ask HN: What is one simple thing LLMs are insanely bad at?
+   https://news.ycombinator.com/item?id=49443820
 
-15. [144 pts] One corner of China’s internet is insisting that the Tang Dynasty never existed
-   https://www.cnn.com/2026/08/19/style/china-tang-dynasty-never-existed-hoax-intl-hnk
+15. [287 pts] Bomb fishing is wreaking havoc on Indonesia's coral reefs
+   https://e360.yale.edu/digest/bomb-fishing-coral-reefs
 
-16. [111 pts] LLMs could control their host machines by exploiting inference engines
-   https://boydkane.com/essays/llms-could-control-their-host-machines-by-exploiting-inference-engines
+16. [138 pts] Run OpenBSD on DigitalOcean for $4/month
+   https://nil.wallyjones.com/run-openbsd-on-digitalocean-for-4month/
 
-17. [108 pts] Peppermint oil reduces blood pressure by 8.48 mmHg in small study
-   https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0344538
+17. [292 pts] Building a backyard office, the build and cost breakdown
+   https://www.imkylelambert.com/articles/building-a-backyard-office-the-build-and-cost-breakdown
 
-18. [175 pts] SeL4 security proofs now complete on AArch64
-   https://proofcraft.systems/news-2026/#2026-08-21
+18. [133 pts] Tooltips need a delay, and then they need to skip it
+   https://blog.master.dev/tooltips-need-a-delay-and-then-they-need-to-skip-it/
 
-19. [447 pts] Oceans hit highest temperature on record
-   https://www.bbc.com/news/articles/c62m4gpnp78o
+19. [126 pts] Show HN: LatticeDB – Like SQLite but for graph databases
+   https://github.com/jeffhajewski/latticedb
 
-20. [337 pts] IPFS Maintainers Winding Down
-   https://ipshipyard.com/blog/2026-the-end-of-ipfs-at-shipyard/
+20. [324 pts] Don't Wordle
+   https://dontwordle.com/
 
-21. [60 pts] Fences, Not Sandboxes
-   https://yegge.ai/essays/fences-not-sandboxes/
+21. [1324 pts] Dolly Parton has died
+   https://www.theguardian.com/music/2026/aug/25/dolly-parton-country-singer-dead
 
-22. [104 pts] Show HN: PicoMQ – Durable Streams over HTTP, on object storage
-   https://picomq.com/
+22. [117 pts] Show HN: I made a Raspberry with Qwen my local car AI
+   https://github.com/ThinkOffApp/CarWatch
 
-23. [3 pts] Ask HN: Good large format (>20 inches) touchscreen E-Paper display options?
-   https://news.ycombinator.com/item?id=49428842
+23. [50 pts] A brief history of federal lift ticket regulation
+   https://zakpodmore.substack.com/p/a-brief-history-of-federal-lift-ticket
 
-24. [1 pts] Autostep (YC P26) Is Hiring AI/Fullstack Engineers and a Chief of Staff
-   https://app.dover.com/Autostep/careers/e9510e3b-a854-4e48-9e5d-c89796acaed4
+24. [484 pts] My Friend Aaron
+   https://rorz.io/writing/my-friend-aaron
 
-25. [84 pts] Hot Chips 2026: CUDA Targets RISC-V – By Chester Lam
-   https://chipsandcheese.com/p/hot-chips-2026-cuda-targets-risc
+25. [1 pts] Clara (YC P26) is hiring a growth engineer to bring AI doctors to market
+   https://www.ycombinator.com/companies/clara-2/jobs/8snci6k-founding-full-stack-growth-engineer
 
-26. [527 pts] I were 17, I'd learn how to build LLMs from scratch
-   https://twitter.com/paulg/status/2091544343589060625
+26. [311 pts] Firefox 157 will include JPEG XL by default on all platforms
+   https://groups.google.com/a/mozilla.org/g/dev-platform/c/3YMV4MS34KA?pli=1
 
-27. [63 pts] Characterizing Agentic Flooding of Government Services
-   https://arxiv.org/abs/2608.16603
+27. [63 pts] The brain may be about to have its Ozempic moment
+   https://www.economist.com/science-and-technology/2026/08/11/the-brain-may-be-about-to-have-its-ozempic-moment
 
-28. [62 pts] Removed all counters, replies, following/ers, timestamps, from textlog
-   https://textlog.cc/post/2059
+28. [92 pts] Visualizing Binary Files
+   https://movq.de/blog/postings/2026-08-05/0/POSTING-en.html
 
-29. [186 pts] Show HN: A techno machine in one HTML file, with verifiable renders
-   https://ssx360.github.io/rack-02/?src=hn
+29. [27 pts] Show HN: I built self-hosted deployment automation tool for Windows and IIS
+   https://fdeploy.com/
 
-30. [314 pts] OpenAI: GPT 5.6 Sol price reduction (until at least Nov 21)
-   https://developers.openai.com/api/docs/pricing
+30. [95 pts] Tracking Costco gas prices
+   https://www.jack.bio/blog/costco-gas-tracking
 
 
 === RSS ===
-[health] Peter Attia: #405 ‒ AMA #88: Metabolic liver health: how to assess risk, catch dysfunction early, and prevent or reverse liver disease
-  https://peterattiamd.com/ama88/
+[ideas] Stratechery: Netflix to Sell Streaming Services?, Streamers as Aggregators, Revisiting Roku
+  https://stratechery.com/2026/netflix-to-sell-streaming-services-streamers-as-aggregators-revisiting-roku/
 
-[health] Peter Attia: Gum recession: a common oral health issue that often goes unnoticed
-  https://peterattiamd.com/gum-recession/
+[ideas] Stratechery: Autonomy and Innovation
+  https://stratechery.com/2026/autonomy-and-innovation/
 
 [ideas] Paul Graham: How Universities Should Prepare Founders
   https://paulgraham.com/prepare.html
@@ -103,47 +103,32 @@
 [ideas] Paul Graham: How to Earn a Billion Dollars
   https://paulgraham.com/earn.html
 
+[bitcoin] The Pomp Letter: It is not Bessent vs Druckenmiller….it is Bessent AND Druckenmiller.
+  https://pomp.substack.com/p/it-is-not-bessent-vs-druckenmillerit
+
+[wisdom] Figs in Winter (Pigliucci): What philosophy promises
+  https://figsinwintertime.substack.com/p/what-philosophy-promises
+
 [wisdom] Figs in Winter (Pigliucci): From the Archive
   https://figsinwintertime.substack.com/p/from-the-archive-bb9
 
 [wisdom] Figs in Winter (Pigliucci): How to travel with Herodotus & friends
   https://figsinwintertime.substack.com/p/how-to-travel-with-herodotus-and
 
-[wisdom] Figs in Winter (Pigliucci): Leo XIV’s encyclical on AI
-  https://figsinwintertime.substack.com/p/leo-xivs-encyclical-on-ai
+[wisdom] Donald Robertson: A New Research Guide to the Stoic Attitudes and Behaviours Scale
+  https://donaldrobertson.substack.com/p/a-new-research-guide-to-the-stoic
 
-[bitcoin] Bitcoin Magazine: Cypher Tank Returns to Lugano, Expanding Its Bet on Bitcoin Founders
-  https://bitcoinmagazine.com/news/cypher-tank-bitcoin-event-returns
+[wisdom] Donald Robertson: How to Live in Accord with your Values
+  https://donaldrobertson.substack.com/p/how-to-live-in-accord-with-your-values
 
-[bitcoin] Bitcoin Magazine: UK Banks Still Blocking Bitcoin, Policy Group Tells Parliament
-  https://bitcoinmagazine.com/news/uk-banks-blocking-bitcoin
+[wisdom] Donald Robertson: How to Mentally Rehearse Coping
+  https://donaldrobertson.substack.com/p/how-to-mentally-rehearse-coping
 
-[bitcoin] Bitcoin Magazine: Strive Stock Soars After 1,110 Bitcoin Buy
-  https://bitcoinmagazine.com/news/strive-stock-soars-after-bitcoin-buy
+[health] Peter Attia: #405 ‒ AMA #88: Metabolic liver health: how to assess risk, catch dysfunction early, and prevent or reverse liver disease
+  https://peterattiamd.com/ama88/
 
-[bitcoin] Bitcoin Magazine: Bitcoin Rally Accelerates, With $80,000 in Sight After ETFs Have Stellar Week
-  https://bitcoinmagazine.com/markets/bitcoin-nears-80000-after-etf-action
-
-[bitcoin] Bitcoin Magazine: Strategy Again Skips Bitcoin Buy And Establishes USD Cash Dollar Reserve
-  https://bitcoinmagazine.com/news/strategy-establishes-new-usd-cash-reserve
-
-[ideas] Marginal Revolution: Common sense in charge
-  https://marginalrevolution.com/marginalrevolution/2026/08/common-sense-in-charge.html?utm_source=rss&utm_medium=rss&utm_campaign=common-sense-in-charge
-
-[ideas] Marginal Revolution: Monday assorted links
-  https://marginalrevolution.com/marginalrevolution/2026/08/monday-assorted-links-574.html?utm_source=rss&utm_medium=rss&utm_campaign=monday-assorted-links-574
-
-[ideas] Marginal Revolution: Childhood Exposure to Joint Custody Reforms and Adult Family Formation
-  https://marginalrevolution.com/marginalrevolution/2026/08/childhood-exposure-to-joint-custody-reforms-and-adult-family-formation.html?utm_source=rss&utm_medium=rss&utm_campaign=childhood-exposure-to-joint-custody-reforms-and-adult-family-formation
-
-[ideas] Marginal Revolution: I DJ for Rick Rubin about music and patriotism
-  https://marginalrevolution.com/marginalrevolution/2026/08/i-dj-for-rick-rubin-about-music-and-patriotism.html?utm_source=rss&utm_medium=rss&utm_campaign=i-dj-for-rick-rubin-about-music-and-patriotism
-
-[ideas] Marginal Revolution: Sunday assorted links
-  https://marginalrevolution.com/marginalrevolution/2026/08/sunday-assorted-links-581.html?utm_source=rss&utm_medium=rss&utm_campaign=sunday-assorted-links-581
-
-[ideas] Stratechery: Autonomy and Innovation
-  https://stratechery.com/2026/autonomy-and-innovation/
+[ai] Simon Willison: EVE Online: The Move to Python 3 Begins!
+  https://simonwillison.net/2026/Aug/25/eve-online-move-to-python-3/
 
 [ai] Simon Willison: llm-anthropic 0.27
   https://simonwillison.net/2026/Aug/24/llm-anthropic/
@@ -157,23 +142,68 @@
 [ai] Simon Willison: Quoting Drew Breunig
   https://simonwillison.net/2026/Aug/23/drew-breunig/
 
-[ai] Simon Willison: Quoting Linus Torvalds
-  https://simonwillison.net/2026/Aug/22/linus-torvalds/
+[ideas] Marginal Revolution: Dolly Parton, RIP
+  https://marginalrevolution.com/marginalrevolution/2026/08/dolly-parton-rip.html?utm_source=rss&utm_medium=rss&utm_campaign=dolly-parton-rip
 
-[wisdom] Donald Robertson: How to Live in Accord with your Values
-  https://donaldrobertson.substack.com/p/how-to-live-in-accord-with-your-values
+[ideas] Marginal Revolution: Tuesday assorted links
+  https://marginalrevolution.com/marginalrevolution/2026/08/tuesday-assorted-links-583.html?utm_source=rss&utm_medium=rss&utm_campaign=tuesday-assorted-links-583
 
-[wisdom] Donald Robertson: How to Mentally Rehearse Coping
-  https://donaldrobertson.substack.com/p/how-to-mentally-rehearse-coping
+[ideas] Marginal Revolution: AI and constitutions (from my email)
+  https://marginalrevolution.com/marginalrevolution/2026/08/ai-and-constitutions-from-my-email.html?utm_source=rss&utm_medium=rss&utm_campaign=ai-and-constitutions-from-my-email
 
-[wisdom] Donald Robertson: The Stoic Taxonomy of Anger
-  https://donaldrobertson.substack.com/p/the-stoic-taxonomy-of-anger
+[ideas] Marginal Revolution: Towards a New House of Lords
+  https://marginalrevolution.com/marginalrevolution/2026/08/towards-a-new-house-of-lords.html?utm_source=rss&utm_medium=rss&utm_campaign=towards-a-new-house-of-lords
+
+[ideas] Marginal Revolution: Do Minimum Wages Help Workers in Poor and Low-Income Families?
+  https://marginalrevolution.com/marginalrevolution/2026/08/do-minimum-wages-help-worker-in-poor-and-low-income-families.html?utm_source=rss&utm_medium=rss&utm_campaign=do-minimum-wages-help-worker-in-poor-and-low-income-families
+
+[ai] Anthropic News: Funding better evaluations of AI’s impact on wellbeing
+  https://www.anthropic.com/news/wellbeing-research-grants
 
 [ai] Anthropic News: How Claude’s text watermark works
   https://www.anthropic.com/news/claude-text-watermark
 
+[bitcoin] Bitcoin Magazine: Is Bitcoin Out of Its Bear Market? These Analysts Think So
+  https://bitcoinmagazine.com/news/is-bitcoin-out-of-bear-market
+
+[bitcoin] Bitcoin Magazine: Bitcoin Breakout Could Be Around the Corner as Asset Is No Longer Oversold: Fairlead Strategies’ Katie Stockton
+  https://bitcoinmagazine.com/news/bitcoin-no-longer-oversold
+
+[bitcoin] Bitcoin Magazine: Kraken Says ‘Dust Attack’ From Sanctioned HTX Wallet Locked Out Customers
+  https://bitcoinmagazine.com/news/kraken-says-users-were-dust-attacked
+
+[bitcoin] Bitcoin Magazine: US Opens a New Front Against Iran’s Crypto Economy
+  https://bitcoinmagazine.com/news/us-sanctions-iran-crypto-economy
+
+[bitcoin] Bitcoin Magazine: The Human Rights Foundation Announces Support for 16 Projects Worldwide
+  https://bitcoinmagazine.com/news/human-rights-foundation-issues-more-grants
+
+[bitcoin] Bitcoin Magazine: Bitcoin Tops $81,000 — Is the Debasement Trade Back?
+  https://bitcoinmagazine.com/markets/bitcoin-surges-is-debasement-trade-back
+
+[bitcoin] Bitcoin Magazine: Cypher Tank Returns to Lugano, Expanding Its Bet on Bitcoin Founders
+  https://bitcoinmagazine.com/news/cypher-tank-bitcoin-event-returns
+
+[bitcoin] Bitcoin Magazine: UK Banks Still Blocking Bitcoin, Policy Group Tells Parliament
+  https://bitcoinmagazine.com/news/uk-banks-blocking-bitcoin
+
+[ai] OpenAI Blog: The full stack behind abundant intelligence
+  https://openai.com/index/the-full-stack-behind-abundant-intelligence
+
+[ai] OpenAI Blog: Jalapeño’s first results show industry-leading speed and efficiency in AI inference
+  https://openai.com/index/jalapeno-first-results
+
+[ai] OpenAI Blog: Disrupting a new covert influence campaign from Russia
+  https://openai.com/index/disrupting-malicious-uses-of-ai-influence-campaign-russia
+
+[ai] OpenAI Blog: Introducing the Admin plugin for ChatGPT Work and Codex
+  https://openai.com/index/introducing-admin-plugin
+
 [ai] OpenAI Blog: Advancing price-performance for developers with GPT‑5.6 in Kiro
   https://openai.com/index/gpt-5-6-in-kiro
+
+[ideas] Astral Codex Ten: Highlights From The Comments On The Substack Religion Debate
+  https://www.astralcodexten.com/p/highlights-from-the-comments-on-the-491
 
 [ideas] Astral Codex Ten: Re: Re: Re: Pritchard On Liberal Happiness
   https://www.astralcodexten.com/p/re-re-re-pritchard-on-liberal-happiness
@@ -183,11 +213,79 @@
 
 
 === YOUTUBE ===
-GTO Lab: Made hands with backup equity play bigger out of position.
-  https://www.youtube.com/shorts/JR-7ikleyVU
+Anthony Chaffee MD: Do You Need To Fast?
+  https://www.youtube.com/shorts/3a-1NpuX_XE
   Transcript: yes
 
-Lex Fridman: Khabib Nurmagomedov: Dagestan, MMA, UFC, Islam, Conor, Fedor & Football | Lex Fridman Podcast #500
-  https://www.youtube.com/watch?v=l6USUAIKJls
+Joe Rogan: Joe Rogan Experience #2545 - Jesse Michels
+  https://www.youtube.com/watch?v=33Fc_mLqY90
+  Transcript: yes
+
+Jared Alderman: BANNED From Caesar's? Card Counting EXPLAINED! #shorts
+  https://www.youtube.com/shorts/dNEy-2USano
+  Transcript: yes
+
+Jared Alderman: My Dad Is My ROCK! Unbreakable Father-Son Bond Revealed #shorts
+  https://www.youtube.com/shorts/bcIM6bZzK94
+  Transcript: yes
+
+Thomas DeLauer: This Nutrient Deficiency Wakes You up at 2AM (can't fall back asleep)
+  https://www.youtube.com/watch?v=sUrw12Lz_kQ
+  Transcript: yes
+
+Thomas DeLauer: 5 Things Your Thyroid is Starving For (and your doctor isn't checking)
+  https://www.youtube.com/watch?v=wWSZaZLJUYo
+  Transcript: yes
+
+Thomas DeLauer: This Insulin Trick Shrinks Fat Cells Even When You Eat Carbs
+  https://www.youtube.com/watch?v=XuXJLI2byKo
+  Transcript: yes
+
+Renaissance Periodization: Tom Hardy Didn't Gain 28 Pounds of Muscle
+  https://www.youtube.com/shorts/j8OzYk1uM78
+  Transcript: yes
+
+Renaissance Periodization: Looking Better Can Heal You
+  https://www.youtube.com/shorts/XUMImRd65tY
+  Transcript: yes
+
+Renaissance Periodization: What's the Cheapest and Healthiest Protein Source Actually
+  https://www.youtube.com/watch?v=odAeRYuVqTw
+  Transcript: yes
+
+ModernWisdom: Do Special Forces Use Drugs To Perform Better
+  https://www.youtube.com/shorts/O7EhJvnW6pY
+  Transcript: yes
+
+ModernWisdom: When Are You Going To Arrive?
+  https://www.youtube.com/shorts/kDh66K-jyJc
+  Transcript: yes
+
+ModernWisdom: What Gets You Rolled Off The Yard
+  https://www.youtube.com/shorts/JZd5mUPg1XM
+  Transcript: yes
+
+ModernWisdom: “We Studied The Sexual Preferences Of High Income Women”
+  https://www.youtube.com/watch?v=YkKQL7BCo8A
+  Transcript: yes
+
+ModernWisdom: The Minimum Viable Wedding
+  https://www.youtube.com/shorts/o1UpPX8JIvI
+  Transcript: yes
+
+ModernWisdom: Controversial Take
+  https://www.youtube.com/shorts/RcCmqEd_W6Q
+  Transcript: yes
+
+ModernWisdom: What British Guys Do That Turns Women Off
+  https://www.youtube.com/shorts/YaaE-Dp-W58
+  Transcript: yes
+
+ModernWisdom: “Age Reversal Is Coming.” Everything You Need To Know - Dr David Sinclair
+  https://www.youtube.com/watch?v=edbIJ7PpVlc
+  Transcript: yes
+
+Mind The Game: The Hilarious Story Behind How Steph Made Steve Nash Retire
+  https://www.youtube.com/watch?v=bgSixq0dOKs
   Transcript: yes
 
