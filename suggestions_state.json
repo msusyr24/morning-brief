@@ -1,11 +1,11 @@
 {
   "current_suggestion": {
-    "channel_name": "Exotic fishes ",
-    "channel_id": "UCdMjoefl182V4UPGxk6ZOmw",
-    "youtube_handle": "@behavioralvalueinvestor",
-    "pitch": "I need to flag that I'm not confident enough in the exact 24-character channel ID for this one to give you a reliable answer without risking a fabricated ID. Rather than guess, I'm flagging this honestly \u2014 a fabricated ID would silently fail when you go to look it up. I'd recommend searching 'Behavioral Value Investor' directly on YouTube, or let me suggest a channel I can verify with higher confidence."
+    "channel_name": "Entity Status",
+    "channel_id": "UCHnyfMqiRRG1u-2MsSQLbXA",
+    "youtube_handle": "@entitystatus",
+    "pitch": "Paul Bloom (Yale/UBC psychologist) covers the science of pleasure, suffering, empathy, and moral psychology with the same evidence-first rigor you get from Huberman or Attia but applied to questions about what actually makes a good life \u2014 territory your health and philosophy channels circle but rarely center. His work is a direct empirical counterweight to Stoic prescriptions: where Marcus Aurelius tells you what to do, Bloom asks what the data says about whether it works. Mostly solo essays and occasional interviews, typically 15\u201340 minutes, with genuine academic depth without academic inaccessibility."
   },
-  "shown_count": 3,
+  "shown_count": 1,
   "history": [
     "Brad Kearns",
     "Dr. Layne Norton",
@@ -54,6 +54,7 @@
     "Machine Learning Street Talk",
     "Dario Amodei / Anthropic (Dwarkesh-style: use 'Curt Jaimungal \u2013 Theories of Everything')",
     "David Sklansky",
-    "Exotic fishes "
+    "Exotic fishes ",
+    "Entity Status"
   ]
 }
