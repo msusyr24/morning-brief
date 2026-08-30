@@ -1,143 +1,101 @@
 === HACKER NEWS ===
-1. [83 pts] Samsung's Processing-in-Memory (PIM)
+1. [10 pts] Longest Straight Line Paths on Water or Land on the Earth (2018)
+   https://arxiv.org/abs/1804.07389
+
+2. [153 pts] RISC-V is now officially supported by CPython
+   https://blog.python.org/2026/08/riscv-now-officially-supported/
+
+3. [294 pts] Hy4 preview
+   https://www.tencent.com/tencent-releases-and-open-sources-tencent-hy4-preview/
+
+4. [246 pts] Bug Blindness
+   https://danluu.com/bug-blind/
+
+5. [5 pts] Xcena and Samsung's Near Memory Compute CXL Device
+   https://chipsandcheese.com/p/hot-chips-2026-xcena-and-samsungs
+
+6. [264 pts] California lawmakers unanimously pass Linux exemption from age-verification law
+   https://www.tomshardware.com/software/linux/california-lawmakers-unanimously-pass-linux-exemption-from-age-verification-law-software-distributed-under-the-gpl-mit-bsd-and-apache-licenses-are-exempt
+
+7. [92 pts] FreeCORE TrueNAS Core – Continued
+   https://freecore.org/
+
+8. [456 pts] Tether: iMessage, SMS, etc. on Linux
+   https://zackbartel.com/blog/2026/08/tether/
+
+9. [59 pts] Benjamin Franklin's Alter Egos Gave Him the Most Freedom
+   https://www.smithsonianmag.com/history/among-all-great-things-benjamin-franklin-invented-discovered-alter-egos-gave-him-most-freedom-180988824/
+
+10. [15 pts] The Einstein-Szilard Refrigerator
+   https://invention.si.edu/invention-stories/einstein-szilard-refrigerator
+
+11. [192 pts] Nancy Grace Roman Space Telescope
+   https://science.nasa.gov/mission/roman-space-telescope/
+
+12. [44 pts] Benchmarking Pocket-Scale Inference
+   https://artificialanalysis.ai/hardware-inference-stack/mobile-phones
+
+13. [40 pts] Creating Teensy ELF Executables for Linux (Or, "Size Is Everything") (1999)
+   https://www.muppetlabs.com/~breadbox/software/tiny/teensy.html
+
+14. [294 pts] Lawmakers added $1 to car insurance policies. That money paid for Flock cameras
+   https://www.texastribune.org/2026/08/28/texas-flock-cameras-auto-insurance-fee-mvcpa-grants/
+
+15. [210 pts] SQLite as a Document Database (2020)
+   https://dgl.cx/2020/06/sqlite-json-support
+
+16. [99 pts] The Rise and Fall of Agent Civilizations
+   https://www.dwarkesh.com/p/openai-huggingface
+
+17. [11 pts] Iceland rejects reopening talks on EU entry
+   https://www.ft.com/content/53b5abd8-2919-4dc6-8dd6-81fc054e8b6f
+
+18. [87 pts] Functional State Machines in Rust: Typestate and Newtype Patterns
+   https://dl.acm.org/doi/10.1145/3830438.3830958
+
+19. [36 pts] Open Oscar Server: open-source server compatible with AIM and ICQ clients
+   https://github.com/mk6i/open-oscar-server
+
+20. [352 pts] EVE Online moves to Python 3
+   https://www.eveonline.com/news/view/the-move-to-python-3-begins
+
+21. [297 pts] Glacier Mice
+   https://en.wikipedia.org/wiki/Glacier_mice
+
+22. [13 pts] Pop-2000, a lingua-franca POP-2 dialect
+   https://hitogata.neocities.org/POP-2000
+
+23. [45 pts] Is it safe to call print in a Python signal handler?
+   https://iafisher.com/2026/08/sigprint
+
+24. [157 pts] Calibrate Before You Accelerate: Bias Toward Action in a New Role
+   https://tucker.wales/writing/bias-towards-action/
+
+25. [64 pts] Show HN: I missed the moving blocks, so I built a real Linux disk defragmenter
+   https://github.com/gbin/defragger
+
+26. [260 pts] Samsung's Processing-in-Memory (PIM)
    https://chipsandcheese.com/p/hot-chips-2026-samsungs-processing
 
-2. [39 pts] Europe's last regular standard-gauge steam passenger service
-   https://parowozowniawolsztyn.pl/?page_id=2141
+27. [74 pts] Algorithmic rent-pricing litigation expands under new state and local laws
+   https://www.morganlewis.com/pubs/2026/08/algorithmic-rent-pricing-litigation-expands-under-new-state-and-local-laws
 
-3. [806 pts] GUIs should be fully keyboard-driven
-   https://ckardaris.com/blog/2026/08/28/keyboard-driven-guis.html
-
-4. [270 pts] Boot a Virtual iPhone via Apple's Virtualization.framework
+28. [400 pts] Boot a Virtual iPhone via Apple's Virtualization.framework
    https://github.com/Lakr233/vphone-cli
 
-5. [15 pts] Hunting Down a Go Runtime Bug on 32-Bit Embedded Systems
-   https://sigma-star.at/blog/2026/08/go-runtime-netpoll-bug/
+29. [383 pts] Good Culture Is the Biggest Productivity Hack, Not AI
+   https://newsletter.eng-leadership.com/p/good-culture-is-the-biggest-productivity
 
-6. [102 pts] TurboKV: Insanely fast Rust key-value store
-   https://github.com/kingroryg/turbokv
-
-7. [657 pts] Htmx 4.0
-   https://four.htmx.org/announcements/2026-08-28-htmx-4.0.0-is-released
-
-8. [18 pts] You Know GDPR Is Good Based on Who Hates It
-   https://matduggan.com/you-know-gdpr-is-good-based-on-who-hates-it/
-
-9. [156 pts] I accidentally turned LLM memory into program analysis
-   https://pwning.systems/posts/llm-memory-program-analysis/
-
-10. [600 pts] U.S. sanctions against the A/I Collective
-   https://www.inventati.org/
-
-11. [99 pts] StemDeck, a free, open-source and local AI stem separator
-   https://github.com/stemdeckapp/stemdeck
-
-12. [24 pts] e is a customizable self-aware Emacs-like editor written in Chez Scheme
-   https://github.com/paveluv/e
-
-13. [318 pts] Just the rumour of a bug is enough to find an exploit these days
-   https://anil.recoil.org/notes/rumour-is-the-exploit
-
-14. [502 pts] Inception-style curved map for turn-by-turn directions
-   https://www.orbify.eu/demo/
-
-15. [100 pts] Does the Sumerian King List Align with Paleoclimate Events?
-   https://www.vectorian.be/articles/2026-06-07/sumerian-king-list-paleoclimate-alignment-explorer/
-
-16. [525 pts] Our decision on Cursor following its acquisition by SpaceX
-   https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex/
-
-17. [54 pts] Kumander Linux – A Linux Distro with a Windows 7 Desktop
-   https://www.kumander.org/
-
-18. [59 pts] Autistici/inventati: Manifesto – who we are and what do we want (2002)
-   https://www.inventati.org/who/manifesto
-
-19. [18 pts] Queen Caroline turned King Arthur into an 18C royal PR strategy
-   https://theconversation.com/how-queen-caroline-turned-king-arthur-into-an-18th-century-royal-pr-strategy-288244
-
-20. [79 pts] Monzo Stand-In
-   https://monzo.com/blog/tolerating-full-cloud-outages-with-monzo-stand-in
-
-21. [130 pts] 9th Circuit sides with states in Kalshi gambling fight
-   https://azmirror.com/2026/08/28/9th-circuit-sides-with-states-in-kalshi-gambling-fight-potentially-reviving-arizonas-prosecution/
-
-22. [51 pts] Experiments with Plotter Art
-   https://sometimes.digital/posts/experiments-with-plotter-art/
-
-23. [19 pts] Box of 300 Love Letters Showed Up, What Whimsical WWII Soldier Who Wrote Them?
-   https://www.smithsonianmag.com/history/this-box-of-300-love-letters-showed-up-out-of-the-blue-who-was-the-whimsical-world-war-ii-soldier-who-wrote-them-180989300/
-
-24. [118 pts] Curvature Beziers: Improving on a timeless recipe
-   https://acko.net/blog/curvature-beziers/
-
-25. [267 pts] The Twelve-Factor App (2025)
-   https://12factor.net/
-
-26. [154 pts] EasyEffects can improve laptop speaker sound quality
-   https://www.osnews.com/story/145883/easyeffects-should-be-part-of-every-linux-distribution-and-desktop-environment-to-massively-improve-laptop-speaker-sound-quality/
-
-27. [696 pts] GLM-5.3 is now open-weight
-   https://huggingface.co/zai-org/GLM-5.3
-
-28. [137 pts] Verschlimmbesserung: The Word Your Software Updates Need
-   https://geekyschmidt.com/post/2026-08-25-verschlimmbesserung/
-
-29. [84 pts] Visual Analysis of Binary Files
-   https://binvis.io/#/
-
-30. [104 pts] Autonomous Mathematical Discovery in an Open-World Multi-Agent Environment
-   https://arxiv.org/abs/2608.23691
+30. [14 pts] A few feral cats in an ALGOL trenchcoat.
+   https://wiki.xxiivv.com/site/pop2.html
 
 
 === RSS ===
-[ai] Anthropic News: Expanding our support for scientists
-  https://www.anthropic.com/news/expanding-support-for-scientists
-
-[ai] Anthropic News: Previewing the Model Hardware Standard
-  https://www.anthropic.com/news/model-hardware-standard-research-preview
-
-[ai] Anthropic News: Funding better evaluations of AI’s impact on wellbeing
-  https://www.anthropic.com/news/wellbeing-research-grants
-
-[bitcoin] The Pomp Letter: 5 Charts To Kick Off The Bitcoin Bull Market
-  https://pomp.substack.com/p/5-charts-to-kick-off-the-bitcoin
-
-[ai] Simon Willison: Just a rumour of a bug is enough to find a security exploit these days
-  https://simonwillison.net/2026/Aug/28/just-a-rumour-of-a-bug/
-
-[ai] Simon Willison: Breaking Claude Code Opus 5 Auto Mode
-  https://simonwillison.net/2026/Aug/27/breaking-claude-code-opus-5-auto-mode/
-
-[ai] Simon Willison: Qwen3.8-Flash-Next
-  https://simonwillison.net/2026/Aug/26/qwen38-flash-next/
-
-[ideas] Marginal Revolution: Costco facts of the day
-  https://marginalrevolution.com/marginalrevolution/2026/08/costco-facts-of-the-day.html?utm_source=rss&utm_medium=rss&utm_campaign=costco-facts-of-the-day
-
-[ideas] Marginal Revolution: *Visions from San Francisco Bay*
-  https://marginalrevolution.com/marginalrevolution/2026/08/visions-from-san-francisco-bay.html?utm_source=rss&utm_medium=rss&utm_campaign=visions-from-san-francisco-bay
-
-[ideas] Marginal Revolution: Tysons Corner (Alaska) fact of the day
-  https://marginalrevolution.com/marginalrevolution/2026/08/tysons-corner-alaska-fact-of-the-day.html?utm_source=rss&utm_medium=rss&utm_campaign=tysons-corner-alaska-fact-of-the-day
-
-[ideas] Marginal Revolution: Friday assorted links
-  https://marginalrevolution.com/marginalrevolution/2026/08/friday-assorted-links-587.html?utm_source=rss&utm_medium=rss&utm_campaign=friday-assorted-links-587
-
-[ideas] Marginal Revolution: A Big Bet on Explosive AI-Driven Growth
-  https://marginalrevolution.com/marginalrevolution/2026/08/a-big-bet-on-explosive-ai-driven-growth.html?utm_source=rss&utm_medium=rss&utm_campaign=a-big-bet-on-explosive-ai-driven-growth
+[wisdom] Farnam Street: Steve Jobs in Exile
+  https://fs.blog/knowledge-project-podcast/geoffrey-cain/
 
 [ideas] Stratechery: 2026.35: Internet Hype and Real World Change
   https://stratechery.com/2026/internet-hype-and-real-world-change/
-
-[ideas] Paul Graham: How Universities Should Prepare Founders
-  https://paulgraham.com/prepare.html
-
-[ideas] Paul Graham: How to Earn a Billion Dollars
-  https://paulgraham.com/earn.html
-
-[wisdom] Farnam Street: Steve Jobs in Exile
-  https://fs.blog/knowledge-project-podcast/geoffrey-cain/
 
 [wisdom] Figs in Winter (Pigliucci): Video: How to have willpower
   https://figsinwintertime.substack.com/p/video-how-to-have-willpower
@@ -147,6 +105,45 @@
 
 [wisdom] Figs in Winter (Pigliucci): What philosophy promises
   https://figsinwintertime.substack.com/p/what-philosophy-promises
+
+[health] Peter Attia: A better way to think about Zone 2
+  https://peterattiamd.com/a-better-way-to-think-about-zone-2/
+
+[ai] OpenAI Blog: Our decision on Cursor following its acquisition by SpaceX
+  https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex
+
+[ai] OpenAI Blog: Supporting Thailand’s next generation of AI startups
+  https://openai.com/index/supporting-next-generation-ai-startups-thailand
+
+[ai] Anthropic News: Expanding our support for scientists
+  https://www.anthropic.com/news/expanding-support-for-scientists
+
+[ai] Anthropic News: Previewing the Model Hardware Standard
+  https://www.anthropic.com/news/model-hardware-standard-research-preview
+
+[ai] Anthropic News: Funding better evaluations of AI’s impact on wellbeing
+  https://www.anthropic.com/news/wellbeing-research-grants
+
+[ai] Simon Willison: Introducing Hy4 Preview
+  https://simonwillison.net/2026/Aug/29/hy4/
+
+[ai] Simon Willison: Just a rumour of a bug is enough to find a security exploit these days
+  https://simonwillison.net/2026/Aug/28/just-a-rumour-of-a-bug/
+
+[ai] Simon Willison: Breaking Claude Code Opus 5 Auto Mode
+  https://simonwillison.net/2026/Aug/27/breaking-claude-code-opus-5-auto-mode/
+
+[bitcoin] The Pomp Letter: 5 Charts To Kick Off The Bitcoin Bull Market
+  https://pomp.substack.com/p/5-charts-to-kick-off-the-bitcoin
+
+[wisdom] Donald Robertson: A New Research Guide to the Stoic Attitudes and Behaviours Scale
+  https://donaldrobertson.substack.com/p/a-new-research-guide-to-the-stoic
+
+[wisdom] Donald Robertson: How to Live in Accord with your Values
+  https://donaldrobertson.substack.com/p/how-to-live-in-accord-with-your-values
+
+[wisdom] Donald Robertson: How to Mentally Rehearse Coping
+  https://donaldrobertson.substack.com/p/how-to-mentally-rehearse-coping
 
 [bitcoin] Bitcoin Magazine: Bitcoin Cools Off After $3 Billion ETF-Driven Surge
   https://bitcoinmagazine.com/news/bitcoin-cools-following-etf-investment
@@ -172,29 +169,26 @@
 [bitcoin] Bitcoin Magazine: Japanese Bitcoin Industry Unveils ‘Aurora’ to Let Global Anime Fans Support $2 Trillion Yen Space
   https://bitcoinmagazine.com/news/japanese-bitcoin-industry-unveils-aurora
 
-[health] Peter Attia: GLP-1 medications beyond weight loss: how far could their benefits extend?
-  https://peterattiamd.com/glp-1-medications-beyond-weight-loss/
+[ideas] Marginal Revolution: *Finding Emily*
+  https://marginalrevolution.com/marginalrevolution/2026/08/finding-emily.html?utm_source=rss&utm_medium=rss&utm_campaign=finding-emily
 
-[ai] OpenAI Blog: Our decision on Cursor following its acquisition by SpaceX
-  https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex
+[ideas] Marginal Revolution: China fact of the day
+  https://marginalrevolution.com/marginalrevolution/2026/08/china-fact-of-the-day-81.html?utm_source=rss&utm_medium=rss&utm_campaign=china-fact-of-the-day-81
 
-[ai] OpenAI Blog: Supporting Thailand’s next generation of AI startups
-  https://openai.com/index/supporting-next-generation-ai-startups-thailand
+[ideas] Marginal Revolution: Saturday assorted links
+  https://marginalrevolution.com/marginalrevolution/2026/08/saturday-assorted-links-576.html?utm_source=rss&utm_medium=rss&utm_campaign=saturday-assorted-links-576
 
-[ai] OpenAI Blog: Better answers, broader thinking: What students gain from ChatGPT and critical-thinking training
-  https://openai.com/index/what-students-gain-from-chatgpt-critical-thinking-training
+[ideas] Marginal Revolution: Interviewing Yiyang Zhuge (Zhong Shu)
+  https://marginalrevolution.com/marginalrevolution/2026/08/interviewing-yiyang-zhuge-zhong-shu.html?utm_source=rss&utm_medium=rss&utm_campaign=interviewing-yiyang-zhuge-zhong-shu
 
-[ai] OpenAI Blog: Expanding OpenAI’s presence in Brazil
-  https://openai.com/index/expanding-our-presence-in-brazil
+[ideas] Marginal Revolution: Scholar Data
+  https://marginalrevolution.com/marginalrevolution/2026/08/scholar-data.html?utm_source=rss&utm_medium=rss&utm_campaign=scholar-data
 
-[wisdom] Donald Robertson: A New Research Guide to the Stoic Attitudes and Behaviours Scale
-  https://donaldrobertson.substack.com/p/a-new-research-guide-to-the-stoic
+[ideas] Paul Graham: How Universities Should Prepare Founders
+  https://paulgraham.com/prepare.html
 
-[wisdom] Donald Robertson: How to Live in Accord with your Values
-  https://donaldrobertson.substack.com/p/how-to-live-in-accord-with-your-values
-
-[wisdom] Donald Robertson: How to Mentally Rehearse Coping
-  https://donaldrobertson.substack.com/p/how-to-mentally-rehearse-coping
+[ideas] Paul Graham: How to Earn a Billion Dollars
+  https://paulgraham.com/earn.html
 
 [ideas] Astral Codex Ten: Your Book Review: Thomas Urquhart’s Translation Of Rabelais
   https://www.astralcodexten.com/p/your-book-review-thomas-urquharts
@@ -202,22 +196,23 @@
 [ideas] Astral Codex Ten: Hidden Open Thread 448.5
   https://www.astralcodexten.com/p/hidden-open-thread-4485
 
-[ideas] Astral Codex Ten: Take The 2026 ACX Survey
-  https://www.astralcodexten.com/p/take-the-2026-acx-survey
-
 
 === YOUTUBE ===
+GTO Wizard: I Got Texted "Wanna Play $500K Heads Up?"
+  https://www.youtube.com/watch?v=J-f0LVIxs_w
+  Transcript: yes
+
+Ken Berry MD: And of course... eat your meat. 🥩
+  https://www.youtube.com/shorts/ADlM0sw9d0o
+  Transcript: yes
+
 Anthony Chaffee MD: Do You Need To Fast?
   https://www.youtube.com/shorts/3a-1NpuX_XE
   Transcript: yes
 
-Paul Saladino MD: You won’t believe what’s in your tap water
-  https://www.youtube.com/shorts/rXVPOtdPnFE
-  Transcript: yes
-
-GTO Wizard: I Got Texted "Wanna Play $500K Heads Up?"
-  https://www.youtube.com/watch?v=J-f0LVIxs_w
-  Transcript: yes
+Paul Saladino MD: Edible Biscuits Made Out of Plastic? Anything but Meat. Macroplastics Are SO On Brand for 2026x
+  https://www.youtube.com/shorts/peLjFJ7fWOE
+  Transcript: NO
 
 Joe Rogan: Joe Rogan Experience #2547 - Daniel Everett
   https://www.youtube.com/watch?v=EmgKSK-YMOU
@@ -227,67 +222,67 @@ Nick Norwitz: The #1 Heart Factor They Don’t Teach in Med School
   https://www.youtube.com/shorts/lew7kT8Q_5A
   Transcript: yes
 
-Ken Berry MD: And of course... eat your meat. 🥩
-  https://www.youtube.com/shorts/ADlM0sw9d0o
+Thomas DeLauer: The New Era of Building Muscle, Dropping Fat and Getting Stronger
+  https://www.youtube.com/watch?v=5ZAeCkTnPVQ
   Transcript: yes
 
-Ken Berry MD: The Proper Human Diet has never been about chasing the latest pill. #Eatyourmeat
-  https://www.youtube.com/shorts/Bw4EYA_5xxk
-  Transcript: yes
-
-GTO Lab: When the flop checks through, you do not need to force the turn into one clean size.
-  https://www.youtube.com/shorts/aN8Dg_QlEjM
+Thomas DeLauer: The Biggest Cause of High Cortisol and Low Thyroid
+  https://www.youtube.com/watch?v=Umy87XayO7E
   Transcript: yes
 
 Jared Alderman: The #1 Psychological Leak Costing You Huge in Poker
   https://www.youtube.com/watch?v=yDm1NUv_FK8
   Transcript: yes
 
-Thomas DeLauer: 3g Mimics Fasting within Hours (autophagy, fat loss, mitochondria)
-  https://www.youtube.com/watch?v=d4pRLXIYEmE
-  Transcript: yes
-
 Lex Fridman: DHH: Future of Programming, AI, Agentic Engineering, Vibe Coding & Linux | Lex Fridman Podcast #501
   https://www.youtube.com/watch?v=NYFGCESmikA
   Transcript: yes
 
-Renaissance Periodization: Exercise Scientist Critiques the Most Terrifying Arm Wrestler: Levan Saginashvili
-  https://www.youtube.com/watch?v=mx9BCEbqJwQ
-  Transcript: yes
-
-Peter Attia: Metabolic liver health: how to assess risk, catch dysfunction early, and more (AMA 88 sneak peek)
-  https://www.youtube.com/watch?v=9FMwKc4DfSM
-  Transcript: yes
-
-ModernWisdom: Would Veterans Enjoy Going Back On Tour
-  https://www.youtube.com/shorts/9MFQBFUnzxY
-  Transcript: yes
-
-ModernWisdom: There’s No Perfect Way To Live Your 20’s
-  https://www.youtube.com/shorts/p6pB_OsPA4A
-  Transcript: yes
-
-ModernWisdom: How To Know When God Is Speaking To You
-  https://www.youtube.com/shorts/OlzCjjVzjL4
-  Transcript: yes
-
-Andrew Huberman: Essentials: Diet & Nutrition for Mental Health | Dr. Chris Palmer
-  https://www.youtube.com/watch?v=E56LSFCNdkI
+Renaissance Periodization: The Best Cardio For Rapid Fat Loss
+  https://www.youtube.com/shorts/JFCG2QkdE6g
   Transcript: yes
 
 Dr. Sten Ekberg: #1 Walking Trick Proven To Help You Burn Fat Faster
   https://www.youtube.com/watch?v=KL9G5WC1xF8
   Transcript: yes
 
-Ben Felix: When Compounding Works Against You
-  https://www.youtube.com/watch?v=skc2T5fcoLY
+Andrew Huberman: Essentials: Diet & Nutrition for Mental Health | Dr. Chris Palmer
+  https://www.youtube.com/watch?v=E56LSFCNdkI
+  Transcript: yes
+
+ModernWisdom: What Does Real Strength Look Like
+  https://www.youtube.com/shorts/bJ0mMRiNCxI
+  Transcript: yes
+
+ModernWisdom: Negatives Will Stack Against You
+  https://www.youtube.com/shorts/JJsCeh79FxA
+  Transcript: yes
+
+ModernWisdom: What Happens To Protein Your Body Can't Store
+  https://www.youtube.com/shorts/jGHomcaz5Hc
+  Transcript: yes
+
+ModernWisdom: Mexican Batman, Britain’s Downfall, Mr Bean’s Comeback & Jimmy Carr - Rabbit Hole #5
+  https://www.youtube.com/watch?v=KP77cRMzKAg
   Transcript: yes
 
 ThinkingPoker: Bankroll Management - Thinking Poker
   https://www.youtube.com/watch?v=6w8amkDkeVw
   Transcript: yes
 
+Peter Attia: Metabolic liver health: how to assess risk, catch dysfunction early, and more (AMA 88 sneak peek)
+  https://www.youtube.com/watch?v=9FMwKc4DfSM
+  Transcript: yes
+
+Ben Felix: When Compounding Works Against You
+  https://www.youtube.com/watch?v=skc2T5fcoLY
+  Transcript: yes
+
 Mind The Game: The Hilarious Story Behind How Steph Made Steve Nash Retire
   https://www.youtube.com/watch?v=bgSixq0dOKs
+  Transcript: yes
+
+GTO Lab: When the flop checks through, you do not need to force the turn into one clean size.
+  https://www.youtube.com/shorts/aN8Dg_QlEjM
   Transcript: yes
 

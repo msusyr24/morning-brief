@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>Morning Brief — Saturday, August 29, 2026</title>
+<title>Morning Brief — Sunday, August 30, 2026</title>
 <style>
   body {
     font-family: Georgia, serif;
@@ -92,30 +92,30 @@
 })();
 </script>
 <h1>Morning Brief</h1>
-<p class="date">Saturday, August 29, 2026</p>
+<p class="date">Sunday, August 30, 2026</p>
 
 <div class="anchor">
   <h2>☀️ Today's Anchor</h2>
   <div class="anchor-block">
-    <p class="quote">"The unexamined life is not worth living."</p>
+    <p class="quote">"I know that I know nothing."</p>
     <p class="author">— Socrates</p>
-    <p class="context">Said at his trial, per Plato's Apology. Socrates chose death over exile rather than stop philosophizing.</p>
+    <p class="context">The foundation of Western epistemology. Socrates' point: recognizing ignorance is the first step toward wisdom.</p>
   </div>
   <div class="anchor-block">
-    <p class="model-label">Mental Model · Economics/Productivity</p>
-    <p class="model-name">Pareto Principle (80/20)</p>
-    <p class="context">Roughly 80% of effects come from 20% of causes, across almost every domain. 80% of sales from 20% of customers, 80% of crime from 20% of criminals, 80% of your happiness from 20% of your activities. The skill: identifying the 20% before wasting effort on the 80%.</p>
+    <p class="model-label">Mental Model · Problem-solving</p>
+    <p class="model-name">Five Whys</p>
+    <p class="context">Toyota's technique: when a problem surfaces, ask 'why?' five times. Each answer gets you closer to root cause. The first answer is always a symptom, not a cause. Munger uses this in business analysis: 'Why is this company losing money?' → five layers deep, you usually find a cultural or strategic issue, not an operational one.</p>
   </div>
 </div>
 
 <div class="spotlight">
   <h2>🧭 Channel Spotlight</h2>
-  <p class="spotlight-name">Entity Status</p>
-  <p class="spotlight-pitch">Paul Bloom (Yale/UBC psychologist) covers the science of pleasure, suffering, empathy, and moral psychology with the same evidence-first rigor you get from Huberman or Attia but applied to questions about what actually makes a good life — territory your health and philosophy channels circle but rarely center. His work is a direct empirical counterweight to Stoic prescriptions: where Marcus Aurelius tells you what to do, Bloom asks what the data says about whether it works. Mostly solo essays and occasional interviews, typically 15–40 minutes, with genuine academic depth without academic inaccessibility.</p>
+  <p class="spotlight-name">CrushlivePoker</p>
+  <p class="spotlight-pitch">Wait — let me correct course. Here is a genuine suggestion: 'Quantitative Science' is too niche. Instead: Matt Gresia (Run It Once Poker) covers solver-based GTO content from a live poker angle that your GTO Wizard and GTO Lab channels miss — specifically the translation problem of how GTO theory degrades in practice against non-GTO opponents, which is a real conceptual gap. Solo breakdowns and hand reviews with explicit reasoning chains, moderate depth.</p>
   <p class="spotlight-instructions">Interested? Copy the line below into <code>YOUTUBE_CHANNELS</code> in <code>brief.py</code> and save:</p>
-  <pre class="spotlight-snippet" id="snippet">    "Entity Status": "UCHnyfMqiRRG1u-2MsSQLbXA",</pre>
+  <pre class="spotlight-snippet" id="snippet">    "CrushlivePoker": "UC1VHy2sl-Wbp26KzPjk7N1g",</pre>
   <button class="copy-btn" onclick="navigator.clipboard.writeText(document.getElementById('snippet').innerText.trim()); this.innerText='✅ Copied'; setTimeout(()=>this.innerText='📋 Copy snippet', 2000);">📋 Copy snippet</button>
-  <p class="spotlight-meta">showing for 1 more day. If you don't add it, a new channel will be suggested.</p>
+  <p class="spotlight-meta">showing for 3 more days. If you don't add it, a new channel will be suggested.</p>
 </div>
 <h2>🎥 From People I Follow</h2>
 
@@ -123,115 +123,120 @@
 
 <div class="story">
   <h3>GTO Wizard</h3>
-  <p>Daniel "Jungleman" Cates recaps a wild heads-up series against Aussie Colola that swung from losing millions to winning €17M+ in a single night. The hand review is rich: on a 666 board, GTO Wizard shows that Jungleman's check-call with A10 is essentially a cooler against quads, but the solver also surfaces a counterintuitive bluffing range including J4-suited on the check-raise turn — the kinds of combos that have back-door equity and can rep quads on the river. The broader lesson is that solver recommendations don't change with the size of the money at stake, and Jungleman's commitment to reviewing his play even after a career-night win reflects genuine process discipline.</p>
+  <p>Daniel "Jungle Man" Cate reviews hands from a historic heads-up match against Aussie Colla that swung from -3M to +15M euros. The most instructive spot: on a 6-6-6 board, Cate flops air, turns a full house with ace-ten, and gets it in against quads — solver confirms it's essentially a cooler, though there's a marginal raise option on the flop. A second hand shows Cate running a clean three-street bluff with 5-3 diamonds on an ace-queen-ten board after Colla checks top pair, exploiting the read that Colla wouldn't be aggressive. Key meta-point from the session: even at 5M-euro stakes, the solver output doesn't change — the math is the math regardless of size. Also notable: Cate discusses how sleep deprivation visibly degraded Colla's play, and how he stayed disciplined on stake size even as Colla kept bumping it up.</p>
   <p class="meta">Videos: <a href="https://www.youtube.com/watch?v=J-f0LVIxs_w">I Got Texted "Wanna Play $500K Heads Up?"</a></p>
 </div>
 
 <div class="story">
   <h3>Jared Alderman</h3>
-  <p>Dylan (PLO coach) makes a sharp point about the difference between fear-based and expectation-based analysis: most players ask "what's the worst thing that can happen?" whereas top-level thinking asks "what should be happening across all scenarios, and what's actually happening here?" Dylan also discusses how teaching PLO tournament material forced him to unify disparate heuristics into a single "shape of a range" framework — particularly useful in PLO where you can't enumerate individual hand combos and must reason about range structures instead. He notes that making an introductory course is harder than an advanced one precisely because it requires genuine first-principles compression.</p>
+  <p>Alderman interviews a high-stakes PLO tournament specialist (Dylan) who just released a 30+ hour PLO tournament course on Upswing — five years in the making, built from materials he'd developed coaching 100+ private students. The core pedagogical insight: in PLO, ranges are too combinatorially complex to enumerate hand-by-hand, so the right mental model is "shapes" — overall range structures that repeat across different board textures and stack depths, with frequencies adjusted per context. The course covers all stack depths (100bb down to 10bb), multi-way post-flop (described as the "secret sauce"), and ICM — and Dylan argues you can't teach this material well until you understand it deeply enough to compress it, which is why the course didn't exist two years ago. Also discussed: the psychological angle — Dylan describes PLO as a "fear-based game" where most players default to asking "what's the worst that can happen?" rather than "what should be happening vs. what is actually happening?"</p>
   <p class="meta">Videos: <a href="https://www.youtube.com/watch?v=yDm1NUv_FK8">The #1 Psychological Leak Costing You Huge in Poker</a></p>
 </div>
 
 <div class="story">
-  <h3>GTO Lab</h3>
-  <p>After a flop checks through, GTO Lab argues against forcing a single bet size on the turn — you're actually in one of poker's most favorable spots, where you can bet small with your weakest made hands, big with your strongest, and split bluffs across both sizes without meaningful exploitation risk at most player pools. The core insight: don't oversimplify to a single size just because it feels cleaner; the solver allows legitimate multi-sizing here, so use it.</p>
-  <p class="meta">Videos: <a href="https://www.youtube.com/shorts/aN8Dg_QlEjM">When the flop checks through, you do not need to force the turn into one clean size.</a></p>
+  <h3>Peter Attia</h3>
+  <p>Two pieces from Attia this period. On Zone 2: the central argument is that Zone 2 training is a balancing act between accumulated volume and fatigue — more isn't always better if recovery is compromised, and the frame should be "sustainable dose" rather than "maximum dose." On metabolic liver health (AMA preview): Attia frames the liver as the canary in the coal mine for systemic metabolic dysfunction — fatty liver disease (now called MASLD) affects an estimated 38% of the world's adult population and the leading cause of death in those patients is cardiovascular disease, not liver failure. He walks through a four-stage progression: metabolic stress → steatosis (fat accumulation) → steatohepatitis (inflammation + cell death) → fibrosis (scarring), with only the fourth stage being largely irreversible. A key mechanistic insight: selective hepatic insulin resistance means the liver keeps releasing glucose even when blood sugar is high, while simultaneously continuing to make new fat — the worst of both worlds.</p>
+  <p class="meta">Videos: <a href="https://peterattiamd.com/a-better-way-to-think-about-zone-2/">A better way to think about Zone 2</a> · <a href="https://www.youtube.com/watch?v=9FMwKc4DfSM">Metabolic liver health: AMA 88 sneak peek</a></p>
 </div>
 
 <div class="story">
-  <h3>Mind The Game</h3>
-  <p>Steve Nash tells the story of guarding Steph Curry in a preseason game with a broken nerve-damaged back — Steph dropped 45-50 in the first quarter, and Nash retired three days later. Steph then breaks down his shot mechanics: his one-piece motion was largely natural, not engineered, but the transformation from a slingshot form in high school to his current release was driven by his father Dell calling it out as inadequate for the NBA. Key insight on his range extension: because his shot requires no stopping motion, he retains full power at any distance from any catch angle, which is why his range is functionally unlimited.</p>
+  <h3>Andrew Huberman (ft. Dr. Chris Palmer)</h3>
+  <p>Palmer's thesis: nutrition — specifically ketogenic diets — can function as a serious treatment for severe psychiatric illness, not just mood optimization. His most striking case: a 33-year-old man with schizoaffective disorder who had failed 17 medications and had daily hallucinations and paranoid delusions. Within 6–8 weeks of a ketogenic diet, his psychotic symptoms spontaneously resolved; he later completed a certificate program, performed improv in front of a live audience, and moved out of his father's home. Palmer's mechanistic claim: the brain benefits appear tied to ketosis specifically, not just carb reduction — patients who tried the diet without achieving measurable ketones typically didn't respond clinically. His target blood ketone levels: >0.8 mmol for depression, >1.5 mmol for psychotic and bipolar disorders. He's careful to note this doesn't replace medication and that coming off psychiatric meds requires professional supervision.</p>
+  <p class="meta">Videos: <a href="https://www.youtube.com/watch?v=E56LSFCNdkI">Essentials: Diet & Nutrition for Mental Health</a></p>
+</div>
+
+<div class="story">
+  <h3>Mind The Game (LeBron James & JJ Redick)</h3>
+  <p>Steve Nash recounts how a preseason game against Steph Curry effectively ended his career — he was already playing through a broken tib-fib nerve injury, Curry dropped what felt like 50 in the first quarter, and Nash spent the next three days deciding to retire. Steph's contribution to the story: he had no idea. The more substantive portion covers Steph's shooting mechanics — his one-piece shot was partly natural, partly a high-school form overhaul his father Dell pushed for. The key insight from JJ: Steph's shot is unusual because he barely stops — it's a continuous motion, which is why his range is effectively unlimited off the dribble. Steph credits watching Nash closely as a young point guard for his pass-first instincts, and Reggie Miller for his off-ball movement.</p>
   <p class="meta">Videos: <a href="https://www.youtube.com/watch?v=bgSixq0dOKs">The Hilarious Story Behind How Steph Made Steve Nash Retire</a></p>
 </div>
 
 <p><strong>Also posted:</strong></p>
 <ul>
-  <li><strong>Peter Attia:</strong> Deep AMA on metabolic liver disease — covers the four-stage progression from caloric surplus → steatosis → MASH → fibrosis, explains selective hepatic insulin resistance (why the liver keeps releasing glucose but also keeps making fat simultaneously), and argues MASLD affects 38% of the world's adults. (<a href="https://www.youtube.com/watch?v=9FMwKc4DfSM">Metabolic liver health: how to assess risk, catch dysfunction early</a>) +1 more (RSS: <a href="https://peterattiamd.com/glp-1-medications-beyond-weight-loss/">GLP-1 medications beyond weight loss</a>)</li>
-  <li><strong>Nick Norwitz:</strong> Flags clonal hematopoiesis — mutant immune cells born in bone marrow that migrate to arteries and drive cardiovascular inflammation — as an underappreciated heart disease risk factor. Claims exercise and sleep are the two evidence-based interventions to slow it. (<a href="https://www.youtube.com/shorts/lew7kT8Q_5A">The #1 Heart Factor They Don't Teach in Med School</a>)</li>
-  <li><strong>Andrew Huberman (featuring Dr. Chris Palmer):</strong> Palmer argues ketogenic diets can reduce or eliminate psychiatric symptoms in treatment-resistant patients — including a case of schizoaffective disorder where hallucinations and delusions remitted on keto after 17 failed medications. His hypothesis: ketosis activates the same metabolic machinery as fasting, correcting the mitochondrial dysfunction underlying some mental illness. (<a href="https://www.youtube.com/watch?v=E56LSFCNdkI">Essentials: Diet & Nutrition for Mental Health</a>)</li>
-  <li><strong>Thomas DeLauer:</strong> Makes the case that butyrate (produced by gut bacteria fermenting soluble fiber from asparagus, leeks, onions, artichokes) activates AMPK and PGC-1α — the same fat-oxidation cascade triggered by fasting — and cites animal studies showing increased fat burning and brown fat activation. Recommends 5–10g of rotating inulin-rich vegetables rather than loading total fiber, to avoid feeding a single bacterial strain. (<a href="https://www.youtube.com/watch?v=d4pRLXIYEmE">3g Mimics Fasting within Hours</a>)</li>
-  <li><strong>Anthony Chaffee MD:</strong> Short clip arguing that "fasting metabolism" is a misnomer — fat-burning is the primary metabolic state for most animals, and you can eat 5,000 calories of ribeye and remain in that state. The real driver of metabolic dysfunction is insulin from carbohydrates, not meal timing. (<a href="https://www.youtube.com/shorts/3a-1NpuX_XE">Do You Need To Fast?</a>)</li>
-  <li><strong>Dr. Sten Ekberg:</strong> Detailed breakdown of fat-oxidation zones: walking at low intensity uses ~80% fat vs. ~20% carbs; running flips that ratio. Key hormonal argument — running spikes cortisol and glucagon, driving post-workout carb cravings and compensatory eating, while walking suppresses ghrelin gently with no hard rebound. For insulin-resistant individuals, low-carb-adapted athletes can shift their fat-max zone upward by roughly twofold. (<a href="https://www.youtube.com/watch?v=KL9G5WC1xF8">#1 Walking Trick Proven To Help You Burn Fat Faster</a>)</li>
-  <li><strong>Renaissance Periodization (Dr. Mike):</strong> Entertaining breakdown of arm wrestler Levan Saginashvili's training — 400 lbs, 20.5" forearms, 24" biceps. Key exercise science point: cheat curls and extreme-load movements are sport-specific for arm wrestling because they develop the tendon strength and positional strength needed when an opponent is actively trying to tear your bicep off its insertion. Pull-ups at bodyweight scale appropriately with body mass for the sport. (<a href="https://www.youtube.com/watch?v=mx9BCEbqJwQ">Exercise Scientist Critiques the Most Terrifying Arm Wrestler</a>)</li>
-  <li><strong>Ben Felix:</strong> Argues health and finances compound identically — muscle mass is like a retirement portfolio you draw down with age (sarcopenia starts in your 30s), VO2 max below average for your age doubles all-cause mortality risk (comparable to smoking), and the "best diet" is the one you can sustain, same as the best portfolio. Disclosed his own testicular cancer diagnosis and recommends men self-check. (<a href="https://www.youtube.com/watch?v=skc2T5fcoLY">When Compounding Works Against You</a>)</li>
-  <li><strong>Joe Rogan (featuring Daniel Everett):</strong> Linguist who spent 40 years with the Pirahã people of the Amazon — a tribe with no numbers, no color words, no recursion in grammar, no creation myth, and no concept of God — and whose findings directly challenged Chomsky's universal grammar theory. Rich exploration of ego in academia, and how Chomsky went from writing Everett letters of recommendation to calling him a charlatan after Everett's findings threatened his core theory. Fascinating but outside your core interests. (<a href="https://www.youtube.com/watch?v=EmgKSK-YMOU">JRE #2547 - Daniel Everett</a>)</li>
-  <li><strong>Ken Berry MD:</strong> Two short clips: (1) "Fatty 15" supplement (C15 fatty acid) costs $1.30–$1.50/capsule but a tablespoon of butter contains an equivalent amount for ~10 cents. (2) 10,000 steps/day is an arbitrary number — the best exercise is whatever you'll actually sustain long-term. (<a href="https://www.youtube.com/shorts/Bw4EYA_5xxk">The Proper Human Diet</a> · <a href="https://www.youtube.com/shorts/ADlM0sw9d0o">And of course... eat your meat.</a>)</li>
-  <li><strong>ModernWisdom:</strong> Three shorts: veterans overwhelmingly volunteer for dangerous assignments (97% response rate when asked); a sharp framing on your 20s as a forced trade-off between living them up and working them up, with no do-overs; and a clip on distinguishing spiritual guidance from impulsivity by checking against scripture rather than gut feeling. (<a href="https://www.youtube.com/shorts/9MFQBFUnzxY">Would Veterans Enjoy Going Back On Tour</a> · <a href="https://www.youtube.com/shorts/p6pB_OsPA4A">There's No Perfect Way To Live Your 20's</a>)</li>
+  <li><strong>GTO Lab:</strong> On spots where the flop checks through: use multiple sizes on the turn — bet small with weak made hands, large with strong hands, and mix bluffs across both sizes freely, because opponents at medium stakes won't exploit the sizing tell. (<a href="https://www.youtube.com/shorts/aN8Dg_QlEjM">When the flop checks through...</a>)</li>
+  <li><strong>Nick Norwitz:</strong> Highlights clonal hematopoiesis — mutant immune cells originating in bone marrow that migrate to arteries and drive cardiovascular inflammation — as an underappreciated heart disease risk factor; two evidence-based countermeasures are exercise and quality sleep. (<a href="https://www.youtube.com/shorts/lew7kT8Q_5A">The #1 Heart Factor They Don't Teach in Med School</a>)</li>
+  <li><strong>Thomas DeLauer:</strong> Two videos: one on chronic stress suppressing active thyroid hormone (T3) even when TSH labs look normal — citing a JRSM cardiovascular disease study showing ~38% of CVD patients had reduced T3 — and one on exercise science myths (cardio before lifting doesn't kill gains; lifting belts can be used strategically to build core strength; flat-back dogma ignores individual anthropometrics). (<a href="https://www.youtube.com/watch?v=Umy87XayO7E">The Biggest Cause of High Cortisol and Low Thyroid</a> + <a href="https://www.youtube.com/watch?v=5ZAeCkTnPVQ">The New Era of Building Muscle</a>)</li>
+  <li><strong>Renaissance Periodization:</strong> Argues the elliptical at 110–130 bpm is the best cardio modality for fat loss with minimal muscle interference — distributes load across upper and lower body, keeping intensity low enough that muscle catabolism is minimal while calories still accumulate meaningfully. (<a href="https://www.youtube.com/shorts/JFCG2QkdE6g">The Best Cardio For Rapid Fat Loss</a>)</li>
+  <li><strong>Dr. Sten Ekberg:</strong> Makes the case that walking burns more usable fat than running for most metabolically compromised people — running spikes cortisol, glucagon, and ghrelin rebound hunger, while walking keeps all three low, allowing longer duration and no compensatory overeating; on a low-carb diet, the fat oxidation curve shifts dramatically, potentially up to 80–90% of max intensity. (<a href="https://www.youtube.com/watch?v=KL9G5WC1xF8">#1 Walking Trick Proven To Help You Burn Fat Faster</a>)</li>
+  <li><strong>ModernWisdom:</strong> Three shorts: (1) real strength includes emotional courage — someone who can run 100 miles but can't have a hard conversation with their partner is selectively tough; (2) negative life events only compound into spirals if you let one affect your behavior in the next domain; (3) excess protein you can't use gets converted to fat — the body cannot store protein. (<a href="https://www.youtube.com/shorts/bJ0mMRiNCxI">What Does Real Strength Look Like</a> · <a href="https://www.youtube.com/shorts/JJsCeh79FxA">Negatives Will Stack Against You</a> · <a href="https://www.youtube.com/shorts/jGHomcaz5Hc">What Happens To Protein Your Body Can't Store</a>)</li>
+  <li><strong>Ben Felix:</strong> Argues that health compounds exactly like money — muscle mass, cardiorespiratory fitness (low VO2 max linked to 2x all-cause mortality risk, comparable to smoking), and sleep quality are all subject to irreversible compounding decay if neglected; the analogy: build muscle early like a retirement portfolio you'll eventually draw down from. (<a href="https://www.youtube.com/watch?v=skc2T5fcoLY">When Compounding Works Against You</a>)</li>
+  <li><strong>Anthony Chaffee MD:</strong> Argues "fasting metabolism" is a misnomer — it's actually the primary metabolic state of most animals (carnivores and herbivores alike run on fat and protein), and on carnivore you can be in this state while eating 5,000 calories; OMAD and fasting are useful mainly for lowering insulin, not inherently required. (<a href="https://www.youtube.com/shorts/3a-1NpuX_XE">Do You Need To Fast?</a>)</li>
+  <li><strong>Ken Berry MD:</strong> The 10,000-steps target is entirely arbitrary; his preferred exercise prescription is "go outside and play" — whatever you enjoy, because adherence is the only thing that produces long-term benefit. (<a href="https://www.youtube.com/shorts/ADlM0sw9d0o">And of course... eat your meat.</a>)</li>
+  <li><strong>Lex Fridman (ft. DHH):</strong> DHH describes his transition from skeptic to full AI convert — he now ships a Linux distribution (Omarchy Quattro) written 100% by AI agents, has written C++ and Rust apps without looking at a single line of code, and argues the productivity ceiling only breaks when one person interacts with agents directly without human intermediaries; also argues agents are now capable of genuine creative thought, not just regurgitation. (Excluded from "Worth your time" as this is primarily dev/programming content — flagged here in case the philosophy of human-AI collaboration interests you.) (<a href="https://www.youtube.com/watch?v=NYFGCESmikA">DHH: Future of Programming, AI, Agentic Engineering</a>)</li>
 </ul>
 
 <h2>₿ Bitcoin & Macro</h2>
 
 <div class="story">
-  <h3><a href="https://bitcoinmagazine.com/markets/bitcoin-shrugs-off-fed-chair-comments">Bitcoin Drops Before Shrugging Off Fed Chair's Inflation Comments</a></h3>
-  <p>New Fed Chair Kevin Warsh gave his first major speech saying he has "more work to do" on inflation — Bitcoin dipped initially then recovered, suggesting the market is pricing in continued monetary tightening as ultimately bullish for hard assets. This is the first real signal of Warsh's policy posture and how crypto markets read it.</p>
+  <h3><a href="https://bitcoinmagazine.com/news/debasement-trade-to-benefit-bitcoin">Debasement Trade Is Here Thanks to Government Debt — And Bitcoin Will Benefit: Grayscale</a></h3>
+  <p>Grayscale's research team argues the "debasement trade" — historically expressed through gold — is now actively benefiting Bitcoin as government debt levels make currency debasement increasingly inevitable. The thesis aligns with the Saylor framework: sovereign debt creates structural pressure toward inflation, and hard-capped assets absorb capital fleeing that dynamic.</p>
   <p class="meta">Bitcoin Magazine</p>
 </div>
 
 <div class="story">
-  <h3><a href="https://bitcoinmagazine.com/news/debasement-trade-to-benefit-bitcoin">Debasement Trade Is Here Thanks to Government Debt — And Bitcoin Will Benefit: Grayscale</a></h3>
-  <p>Grayscale's research team argues that the structural "debasement trade" — buying hard assets as governments inflate away debt — is now actively underway and Bitcoin is a primary beneficiary. This is the core Saylor thesis playing out in institutional research: sovereign debt loads make currency debasement inevitable, and Bitcoin is the escape valve.</p>
+  <h3><a href="https://bitcoinmagazine.com/markets/bitcoin-shrugs-off-fed-chair-comments">Bitcoin Drops Before Shrugging Off Fed Chair's Inflation Comments</a></h3>
+  <p>New Fed Chair Kevin Warsh gave his first major speech saying he has "more work to do" on inflation — Bitcoin initially sold off then recovered, suggesting the market is treating hawkish Fed rhetoric as less threatening than it once did. Worth noting: this is Warsh's first major public statement as chair, and his inflation posture matters for the macro environment Bitcoin is priced in.</p>
   <p class="meta">Bitcoin Magazine</p>
 </div>
 
 <h2>🧬 Health & Science</h2>
 
 <div class="story">
-  <h3>Clonal Hematopoiesis: The Cardiovascular Risk Factor You've Never Heard Of</h3>
-  <p>Nick Norwitz highlights emerging research on clonal hematopoiesis — where mutant bone marrow cells accumulate with age, migrate to arterial tissue, and drive chronic inflammation linked to heart attack risk. The mechanism is distinct from cholesterol: it's an immune dysfunction originating in the bone marrow. Two evidence-based interventions shown to slow it: regular exercise and adequate sleep. Worth tracking as this enters clinical cardiology risk assessment.</p>
-  <p class="meta"><a href="https://www.youtube.com/shorts/lew7kT8Q_5A">Nick Norwitz — The #1 Heart Factor They Don't Teach in Med School</a></p>
+  <h3>Clonal Hematopoiesis: The Cardiovascular Risk Factor Nobody Talks About</h3>
+  <p>Nick Norwitz flagged an emerging risk factor: clonal hematopoiesis, where mutant immune cells generated in bone marrow accumulate with age, travel to arterial tissue, and drive cardiovascular inflammation — contributing to heart attack risk independent of cholesterol. It's described as "a cousin of cancer" because the mutant cells can eventually crowd out healthy cells. Two free interventions with evidence behind them: regular exercise and quality sleep. Worth tracking as this enters mainstream cardiology discussion.</p>
+  <p class="meta"><a href="https://www.youtube.com/shorts/lew7kT8Q_5A">Nick Norwitz</a></p>
 </div>
 
 <div class="story">
-  <h3>Dr. Chris Palmer: Ketogenic Diet Remitting Treatment-Resistant Psychosis</h3>
-  <p>Palmer describes a patient with schizoaffective disorder — 17 failed medications, daily hallucinations, paranoid delusions for years — who experienced near-complete remission of psychotic symptoms on a ketogenic diet within 6–8 weeks, with no medication changes. His mechanistic hypothesis: many psychiatric disorders involve mitochondrial dysfunction, and ketosis corrects the same energy-sensing pathways (AMPK, PGC-1α) that are impaired. He targets blood ketones >1.5 mmol for psychotic/bipolar disorders and >0.8 mmol for depression, and stresses this should be done with medical supervision alongside (not instead of) existing treatment.</p>
-  <p class="meta"><a href="https://www.youtube.com/watch?v=E56LSFCNdkI">Huberman Lab — Diet & Nutrition for Mental Health ft. Dr. Chris Palmer</a></p>
+  <h3>Selective Hepatic Insulin Resistance: Why Fatty Liver Accelerates Everything Else</h3>
+  <p>Peter Attia's AMA on liver health contains a mechanistically important insight often missed in popular health content: insulin resistance doesn't hit the liver uniformly. The liver loses the "stop releasing glucose" signal before it loses the "make new fat" signal — so it continues dumping glucose into an already-high-sugar bloodstream while the pancreas responds with more insulin, which keeps driving fat production. This is why metabolic liver disease directly amplifies atherosclerosis risk: the liver overproduces ApoB-containing particles (LDL, VLDL) throughout this process. Steatosis (stage 2) is largely reversible; fibrosis (stage 4) largely is not — making early detection critical.</p>
+  <p class="meta"><a href="https://www.youtube.com/watch?v=9FMwKc4DfSM">Peter Attia AMA 88 sneak peek</a></p>
 </div>
 
 <div class="story">
-  <h3>Peter Attia: Liver as the Canary for Metabolic Dysfunction</h3>
-  <p>Attia's AMA makes a strong case that MASLD (formerly NAFLD) affects an estimated 38% of the world's adult population and that the leading cause of death in liver disease patients isn't liver failure — it's cardiovascular disease, because a metabolically stressed liver overproduces ApoB-containing particles and amplifies systemic insulin resistance. The four-stage progression (metabolic stress → steatosis → MASH → fibrosis) is largely reversible until the fibrosis stage, which is the actual mortality predictor. His key mechanistic point: selective hepatic insulin resistance means the liver simultaneously keeps releasing glucose into a high-blood-sugar environment AND keeps producing fat — a particularly destructive combination that conventional "insulin resistance" framing undersells.</p>
-  <p class="meta"><a href="https://www.youtube.com/watch?v=9FMwKc4DfSM">Peter Attia — Metabolic Liver Health AMA 88 sneak peek</a></p>
+  <h3>Ketogenic Diet as Psychiatric Treatment: Specific Targets and Cases</h3>
+  <p>From the Huberman/Palmer conversation: Palmer's clinical protocol uses blood ketone levels as the dosing metric — >0.8 mmol for depression, >1.5 mmol for psychotic and bipolar disorders — and he reports that patients who attempted the diet without achieving measurable ketosis typically showed no clinical benefit. His most striking data point is the schizoaffective case (17 prior medication failures, daily hallucinations) where symptoms resolved within 6–8 weeks of sustained ketosis. Palmer also notes that the worst foods metabolically — and likely psychiatrically — are those high in both sugar and fat simultaneously (ultra-processed foods), and that even partial dietary improvements (eliminating junk food) can meaningfully move mood disorder outcomes.</p>
+  <p class="meta"><a href="https://www.youtube.com/watch?v=E56LSFCNdkI">Huberman Lab Essentials ft. Dr. Chris Palmer</a></p>
+</div>
+
+<div class="story">
+  <h3>Cortisol → T3 Suppression: The Stress-Metabolism Link with Human Data</h3>
+  <p>Thomas DeLauer summarizes a JRSM Cardiovascular Disease study comparing cardiovascular disease patients to healthy controls: nearly 40% of CVD patients had elevated cortisol and ~38% had reduced active thyroid hormone (T3). The mechanism: chronic cortisol elevation downregulates the enzymes that convert inactive T4 to active T3, effectively turning down the metabolic volume knob — producing fatigue that doesn't match sleep, cold intolerance, insulin resistance, and brain fog, even when standard TSH labs look normal (TSH is often the last marker to shift, while T3 is the first signal the body actually feels). Practical implication: if fat loss feels stuck despite effort, the problem may be hormonal downregulation, not caloric math.</p>
+  <p class="meta"><a href="https://www.youtube.com/watch?v=Umy87XayO7E">Thomas DeLauer</a></p>
 </div>
 
 <h2>💡 Worth Reading</h2>
 
 <div class="story">
-  <h3><a href="https://arxiv.org/abs/2608.23691">Autonomous Mathematical Discovery in an Open-World Multi-Agent Environment</a></h3>
-  <p>Researchers built a multi-agent system that autonomously discovers new mathematical results in an open-ended environment — not solving posed problems, but generating novel conjectures and proofs without human direction. If the claims hold up, this is a meaningful step toward AI as a genuine scientific collaborator rather than a tool, particularly relevant to the broader question of whether AI can produce genuinely new ideas (which DHH also addresses in his Lex interview below).</p>
-  <p class="meta"><a href="https://news.ycombinator.com/item?id=">Hacker News discussion</a> · arXiv</p>
-</div>
-
-<div class="story">
-  <h3><a href="https://marginalrevolution.com/marginalrevolution/2026/08/a-big-bet-on-explosive-ai-driven-growth.html">A Big Bet on Explosive AI-Driven Growth</a></h3>
-  <p>Economist Ben Moll has placed a public bet that U.S. real GDP per capita will grow by at least 15% within a single year before end of 2033 — a level of growth that would be historically unprecedented in peacetime. Tyler Cowen frames this as a serious economist putting skin in the game on near-term AI-driven transformation, not just vibes. Worth sitting with as a concrete, falsifiable claim about what the AI optimists are actually predicting.</p>
-  <p class="meta"><a href="https://marginalrevolution.com/marginalrevolution/2026/08/a-big-bet-on-explosive-ai-driven-growth.html">Marginal Revolution</a></p>
-</div>
-
-<div class="story">
-  <h3><a href="https://donaldrobertson.substack.com/p/how-to-mentally-rehearse-coping">How to Mentally Rehearse Coping — Donald Robertson</a></h3>
-  <p>Robertson (Stoic Mind series) lays out the Stoic practice of negative visualization as a pre-commitment strategy: mentally rehearsing adversity in advance so that when it arrives, you have a prepared response rather than a reactive one. This is the ancient version of what modern sports psychology calls "if-then planning" — and Robertson grounds it in specific Epictetan exercises rather than abstract philosophy.</p>
-  <p class="meta"><a href="https://donaldrobertson.substack.com/p/how-to-mentally-rehearse-coping">Donald Robertson — Stoic Mind Miniseries</a></p>
+  <h3><a href="https://donaldrobertson.substack.com/p/how-to-live-in-accord-with-your-values">How to Live in Accord with Your Values — Donald Robertson</a></h3>
+  <p>Robertson lays out the Stoic framework for virtue not as an abstract ideal but as a practice of exercising and strengthening specific dispositions — the idea that you become just by practicing just acts, courageous by practicing courage, etc. Useful as a practical companion to Marcus Aurelius's repeated emphasis on action over intention in the <em>Meditations</em>.</p>
+  <p class="meta">Donald Robertson / Substack</p>
 </div>
 
 <div class="story">
   <h3><a href="https://figsinwintertime.substack.com/p/what-philosophy-promises">What Philosophy Promises — Massimo Pigliucci on Epictetus 1.15</a></h3>
-  <p>Pigliucci works through a specific passage from Epictetus's Discourses on what philosophy actually delivers — not certainty, not happiness on demand, but a reliable method for evaluating impressions and choosing responses. The practical upshot: philosophy promises to change what you do with your mind, not what happens to you. Brief but worth the read.</p>
-  <p class="meta"><a href="https://figsinwintertime.substack.com/p/what-philosophy-promises">Figs in Winter</a></p>
+  <p>Pigliucci works through Discourses 1.15, where Epictetus argues philosophy doesn't promise external goods — it promises something harder and more valuable: clarity about what is and isn't in your control, and a framework for acting rightly regardless of outcome. Short but worth sitting with if you're working through Epictetus.</p>
+  <p class="meta">Figs in Winter / Substack</p>
+</div>
+
+<div class="story">
+  <h3><a href="https://figsinwintertime.substack.com/p/video-how-to-have-willpower">How to Have Willpower — Massimo Pigliucci</a></h3>
+  <p>Episode 26 of Pigliucci's "Ars Vivendi" series covers willpower through a Stoic and contemporary psychological lens — the distinction between willpower as brute force vs. willpower as building systems and habits that reduce the need for moment-to-moment self-control. Pairs well with the Robertson piece above.</p>
+  <p class="meta">Figs in Winter / Substack</p>
+</div>
+
+<div class="story">
+  <h3><a href="https://www.smithsonianmag.com/history/among-all-great-things-benjamin-franklin-invented-discovered-alter-egos-gave-him-most-freedom-180988824/">Benjamin Franklin's Alter Egos Gave Him the Most Freedom</a></h3>
+  <p>Franklin used pen names and fictional personas — most famously "Poor Richard" but also others — not just for anonymity but as a tool for thinking and writing that he couldn't do under his own name. The piece makes a subtle point about how persona-adoption enables intellectual risk-taking, and how some of his most honest observations about human nature came through characters rather than as "Benjamin Franklin." Relevant to anyone thinking about how identity and social accountability shape what ideas you're willing to explore.</p>
+  <p class="meta">Smithsonian Magazine · <a href="https://news.ycombinator.com/item?id=">HN Discussion</a></p>
 </div>
 
 <h2>🤖 AI Capability Watch</h2>
 
 <div class="story">
-  <h3><a href="https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex">OpenAI Cuts Off Cursor Following SpaceX Acquisition</a></h3>
-  <p>OpenAI is winding down its model contract with Cursor after SpaceX acquired the company — a significant capability event because Cursor is one of the most widely used AI coding tools, and this decision will force millions of developers to migrate to alternative model providers (Anthropic, etc.) or new tools. This is the first major example of AI lab policy directly reshaping which AI capabilities are available in mainstream developer tools.</p>
-  <p class="meta"><a href="https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex">OpenAI Blog</a></p>
-</div>
-
-<div class="story">
-  <h3><a href="https://simonwillison.net/2026/Aug/27/breaking-claude-code-opus-5-auto-mode/">Claude Code's "Auto Mode" Prompt Injection Defense Broken</a></h3>
-  <p>Security researcher Johann Rehberger broke through Claude Code Opus 5's auto mode — Anthropic's flagship defense against prompt injection in agentic coding workflows. Anthropic had made this the default and made strong public claims about its effectiveness; the break matters because agentic AI systems running autonomously on your codebase are only as safe as their injection defenses, and this suggests those defenses remain immature even in top-tier models.</p>
-  <p class="meta"><a href="https://simonwillison.net/2026/Aug/27/breaking-claude-code-opus-5-auto-mode/">Simon Willison</a></p>
+  <h3><a href="https://www.tencent.com/tencent-releases-and-open-sources-tencent-hy4-preview/">Tencent Hy4: A 770B-parameter open-weight model with 1M token context</a></h3>
+  <p>Tencent released Hy4, an open-weight text model with 770B total parameters (49B active via mixture-of-experts), a 1 million token context window, and weights available on Hugging Face — a significant jump from their prior Hy3 (295B total, 256K context). The practical implication: a very large open-weight model with a context window long enough to ingest entire codebases or book-length documents is now freely downloadable, though at 1.56TB it requires serious hardware to run locally.</p>
+  <p class="meta"><a href="https://simonwillison.net/2026/Aug/29/hy4/">Simon Willison's summary</a></p>
 </div>
 </body>
 </html>

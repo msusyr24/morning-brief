@@ -1,11 +1,11 @@
 {
   "current_suggestion": {
-    "channel_name": "Entity Status",
-    "channel_id": "UCHnyfMqiRRG1u-2MsSQLbXA",
-    "youtube_handle": "@entitystatus",
-    "pitch": "Paul Bloom (Yale/UBC psychologist) covers the science of pleasure, suffering, empathy, and moral psychology with the same evidence-first rigor you get from Huberman or Attia but applied to questions about what actually makes a good life \u2014 territory your health and philosophy channels circle but rarely center. His work is a direct empirical counterweight to Stoic prescriptions: where Marcus Aurelius tells you what to do, Bloom asks what the data says about whether it works. Mostly solo essays and occasional interviews, typically 15\u201340 minutes, with genuine academic depth without academic inaccessibility."
+    "channel_name": "CrushlivePoker",
+    "channel_id": "UC1VHy2sl-Wbp26KzPjk7N1g",
+    "youtube_handle": "@CrushLivePoker",
+    "pitch": "Wait \u2014 let me correct course. Here is a genuine suggestion: 'Quantitative Science' is too niche. Instead: Matt Gresia (Run It Once Poker) covers solver-based GTO content from a live poker angle that your GTO Wizard and GTO Lab channels miss \u2014 specifically the translation problem of how GTO theory degrades in practice against non-GTO opponents, which is a real conceptual gap. Solo breakdowns and hand reviews with explicit reasoning chains, moderate depth."
   },
-  "shown_count": 3,
+  "shown_count": 1,
   "history": [
     "Brad Kearns",
     "Dr. Layne Norton",
@@ -55,6 +55,7 @@
     "Dario Amodei / Anthropic (Dwarkesh-style: use 'Curt Jaimungal \u2013 Theories of Everything')",
     "David Sklansky",
     "Exotic fishes ",
-    "Entity Status"
+    "Entity Status",
+    "CrushlivePoker"
   ]
 }
