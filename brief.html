@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>Morning Brief — Tuesday, September 01, 2026</title>
+<title>Morning Brief — Wednesday, September 02, 2026</title>
 <style>
   body {
     font-family: Georgia, serif;
@@ -92,30 +92,30 @@
 })();
 </script>
 <h1>Morning Brief</h1>
-<p class="date">Tuesday, September 01, 2026</p>
+<p class="date">Wednesday, September 02, 2026</p>
 
 <div class="anchor">
   <h2>☀️ Today's Anchor</h2>
   <div class="anchor-block">
-    <p class="quote">"Whereof one cannot speak, thereof one must be silent."</p>
-    <p class="author">— Ludwig Wittgenstein</p>
-    <p class="context">The closing line of the Tractatus. Wittgenstein meant this literally — some things language cannot capture.</p>
+    <p class="quote">"He who has a why to live for can bear almost any how."</p>
+    <p class="author">— Friedrich Nietzsche</p>
+    <p class="context">Twilight of the Idols. Later used by Viktor Frankl as the thesis of Man's Search for Meaning, written in a concentration camp.</p>
   </div>
   <div class="anchor-block">
-    <p class="model-label">Mental Model · Statistics</p>
-    <p class="model-name">Regression to the Mean</p>
-    <p class="context">Extreme outcomes tend to be followed by more average ones. The best quarter is usually followed by a worse one. The worst employee review is usually followed by improvement. Don't mistake regression to the mean for real change — or for the failure of it.</p>
+    <p class="model-label">Mental Model · Systems/History</p>
+    <p class="model-name">Path Dependence</p>
+    <p class="context">Where you are now depends on the path you took to get here, not just your endpoint. QWERTY keyboards, VHS vs. Betamax, English as lingua franca. Once a path is established, switching costs often preserve it against better alternatives. Look for what's locked in by history, not optimality.</p>
   </div>
 </div>
 
 <div class="spotlight">
   <h2>🧭 Channel Spotlight</h2>
-  <p class="spotlight-name">CrushlivePoker</p>
-  <p class="spotlight-pitch">Wait — let me correct course. Here is a genuine suggestion: 'Quantitative Science' is too niche. Instead: Matt Gresia (Run It Once Poker) covers solver-based GTO content from a live poker angle that your GTO Wizard and GTO Lab channels miss — specifically the translation problem of how GTO theory degrades in practice against non-GTO opponents, which is a real conceptual gap. Solo breakdowns and hand reviews with explicit reasoning chains, moderate depth.</p>
+  <p class="spotlight-name">Solve Channel TV</p>
+  <p class="spotlight-pitch">You consume GTO content from Wizard and GTO Lab but Solve For Why — wait, this is on your exclusion list. Let me correct: Matt Berkey's channel covers the exploitative, live-game, population-reads side of poker that pure GTO channels systematically underweight, giving you the steelman for why solver outputs alone are insufficient at real tables. Format is a mix of hand breakdowns, solo theory, and roundtable discussion with high-stakes live players. The depth assumes a serious student and avoids beginner-padding.</p>
   <p class="spotlight-instructions">Interested? Copy the line below into <code>YOUTUBE_CHANNELS</code> in <code>brief.py</code> and save:</p>
-  <pre class="spotlight-snippet" id="snippet">    "CrushlivePoker": "UC1VHy2sl-Wbp26KzPjk7N1g",</pre>
+  <pre class="spotlight-snippet" id="snippet">    "Solve Channel TV": "UCPGByBP41-pHPtJHZeuXX7g",</pre>
   <button class="copy-btn" onclick="navigator.clipboard.writeText(document.getElementById('snippet').innerText.trim()); this.innerText='✅ Copied'; setTimeout(()=>this.innerText='📋 Copy snippet', 2000);">📋 Copy snippet</button>
-  <p class="spotlight-meta">showing for 1 more day. If you don't add it, a new channel will be suggested.</p>
+  <p class="spotlight-meta">showing for 3 more days. If you don't add it, a new channel will be suggested.</p>
 </div>
 <h2>🎥 From People I Follow</h2>
 
@@ -123,121 +123,110 @@
 
 <div class="story">
   <h3>Nick Norwitz</h3>
-  <p>Norwitz covers a genuinely compelling new Nature study: "clonal hematopoiesis" — the accumulation of mutant, inflammatory immune cells in bone marrow as you age — is a major, underappreciated driver of atherosclerosis. The mechanism is striking: these mutant clones migrate from bone marrow into artery walls and fire up inflammation. A 90,000-person dataset showed more physical activity tracks with less clonal hematopoiesis, and mouse experiments showed exercise <em>stopped</em> clone expansion entirely for certain mutants while sleep disruption accelerated it. Crucially, these weren't redundant effects — exercise and sleep act through separate, complementary pathways. The human payoff: a randomized controlled trial (130 adults, published in Nature Metabolism) showed one year of exercise caused a 7% regression of arterial plaque on imaging, while the GLP-1 drug group showed no statistically significant benefit — leading the authors to conclude exercise is "more sensitive" to vascular benefit than the drug.</p>
-  <p class="meta">Video: <a href="https://www.youtube.com/watch?v=uG166N0pVy0">Reverse Heart Disease in 1 Year (Proven in RCT)</a></p>
-</div>
-
-<div class="story">
-  <h3>GTO Wizard</h3>
-  <p>Daniel "Jungleman" Cates reviews hands from a massive heads-up match (eventually reaching €6M stakes) against Aussie Collah, using GTO Wizard to audit his decisions. Key spot: on a 6-6-6 flop, the solver shows Cates' ace-ten is close in EV between checking and raising, with roughly an 8 big blind per 100 difference — meaningful at any stakes. The more instructive lesson is the turn check-raise with top full house (10s full of 6s): Cates discusses how to select bluffs in that rare node — the solver uses hands like king-five suited and jack-four suited that have backdoor flush draws, not the intuitive overcards. Cates also runs a three-street bluff with five-three of diamonds on an ace-queen-ten board against a passive opponent, noting the check-raise frequency in theory is low enough that leading a weak flush draw is defensible, and that situational reads about opponent tendencies matter more than pure combo counting when spots are rare.</p>
-  <p class="meta">Video: <a href="https://www.youtube.com/watch?v=J-f0LVIxs_w">I Got Texted "Wanna Play $500K Heads Up?"</a></p>
-</div>
-
-<div class="story">
-  <h3>GTO Lab</h3>
-  <p>Short but useful clip on limp-node strategy: the core point is that limping in position is only as exploitative as the opponent's response allows. If villain is folding too much to raises AND not putting enough money in when limping themselves, the correct adjustment is simply to raise more — get that extra big blind in pre-flop so you can bet larger on the flop and build the pot more reliably. The takeaway is a clean anchor: if you have a good hand and your opponent isn't putting money in, you should put it in yourself rather than trying to get clever with limps.</p>
-  <p class="meta">Video: <a href="https://www.youtube.com/shorts/mBSprLEa1C8">Limp nodes are only as useful as villain's response</a></p>
+  <p>Norwitz breaks down a genuinely surprising Nature paper: clonal hematopoiesis — mutant bone marrow stem cells that expand with age, skew inflammatory, and migrate into artery walls to drive atherosclerosis — is far more common than most people realize, and may be a more important driver of heart disease than cholesterol. The key finding is that exercise and sleep act as "cellular snipers," suppressing the expansion of these specific mutant clones in the bone marrow AND reprogramming their inflammatory behavior once they reach arteries — through two distinct, complementary mechanisms. In a human RCT just published in Nature Metabolism (130 adults, 4 groups), one year of exercise produced a statistically significant 7% regression of arterial plaque on imaging; the GLP-1 drug alone group showed no significant benefit. His bottom line: exercise and sleep aren't just good habits — they're the only known free interventions that reach into your bone marrow and selectively target the cells that quietly drive your cardiovascular risk as you age.</p>
+  <p class="meta">Videos: <a href="https://www.youtube.com/watch?v=uG166N0pVy0">Reverse Heart Disease in 1 Year (Proven in RCT)</a></p>
 </div>
 
 <div class="story">
   <h3>Jared Alderman</h3>
-  <p>Alderman's episode (with executive coach Dylan) is primarily about the psychological course he built for Upswing — five years of internal client materials compressed into a 15-hour PLO tournament course. The most substantive poker insight is about how PLO ranges are better understood as "shapes" than enumerated hand classes: because PLO combos are so numerous, you learn the overall polar or linear shape of a range, then adjust frequencies within that shape rather than memorizing individual hands. Dylan notes that in ICM spots against a chip leader, ranges tend to go polar with very few flats — once you internalize the shape, you can solve nodes in real time without rote memorization. He also identifies that making the introductory version of a course is harder than the advanced version: you must compress to true first principles, which is itself a test of whether you actually understand the material.</p>
-  <p class="meta">Video: <a href="https://www.youtube.com/watch?v=yDm1NUv_FK8">The #1 Psychological Leak Costing You Huge in Poker</a></p>
+  <p>Alderman sits down with Dylan (an executive coach and high-stakes PLO tournament player) to discuss the psychological edge and the gap between knowing the theoretically correct play and trusting your in-the-moment read on a specific opponent. Dylan describes his new Upswing PLO tournament course — five years in the making, covering every stack depth from 100bb to push-fold, ICM, and crucially multi-way post-flop (which he kept private until now because the sim work was so computationally intensive). The most transferable insight: in PLO you can't enumerate individual hands, so you learn to think in "shapes" of ranges — recognizing that the same structural shape (e.g., polar vs. condensed) recurs across different stack depths and street textures, letting you solve spots on the fly by pattern rather than memorization. Dylan also describes how the process of teaching distilled his understanding to first principles, sharpening rather than just reviewing what he already knew.</p>
+  <p class="meta">Videos: <a href="https://www.youtube.com/watch?v=yDm1NUv_FK8">The #1 Psychological Leak Costing You Huge in Poker</a></p>
 </div>
 
 <div class="story">
-  <h3>Peter Attia</h3>
-  <p>Attia interviews headache specialist Brian Grosberg for a thorough orientation to the primary headache landscape. Key distinctions worth knowing: tension-type headache (bilateral, mild-moderate, no nausea, may have light OR sound but not both) is the most common but rarely brings people to a specialist; migraine requires ≥5 lifetime attacks lasting 4–72 hours, and up to 40% of migraineurs have bilateral (not unilateral) pain — most don't know this. A clinically important but underappreciated phenomenon: allodynia, present in ~65-70% of migraineurs, where normal stimuli (hair brushing, glasses on the nose) become uncomfortable during an attack. This matters because if patients develop allodynia and then use triptans, the window for treatment efficacy may have closed. Grosberg also notes that headache gets shockingly little curriculum time in medical school, which partly explains why it's undertreated.</p>
-  <p class="meta">Video: <a href="https://www.youtube.com/watch?v=uiNEP8A34SE">406 ‒ Migraine, cluster headache, and tension headache</a></p>
+  <h3>GTO Wizard</h3>
+  <p>A full final table review of the 2026 WSOP Main Event with Espen Jorstad — no transcript available, but this is exactly the high-level tournament analysis content worth watching if you play tournament poker. Jorstad is a former Main Event champion and a rigorous GTO thinker.</p>
+  <p class="meta">Videos: <a href="https://www.youtube.com/watch?v=uEza3SdANQs">WSOP 2026 Main Event Final Table Review with Espen Jorstad</a></p>
 </div>
 
 <div class="story">
-  <h3>Renaissance Periodization</h3>
-  <p>Dr. Mike runs a systematic comparison of five cheap training modalities ranked by cost-effectiveness. The key findings: bodyweight-only training is the most oversold option in fitness — the promise that you'll get "amazing results" is largely a commercial fiction, and the inability to train pulling muscles (gravity only goes one direction) and isolation movements is a hard ceiling. Bands rank fourth because the resistance curve is backwards for hypertrophy (hardest at peak contraction, easiest at stretch — opposite of what you want), and adherence is poor in practice. Calisthenics in a park ranks third — good for vertical pulling and psychology, but weather-dependent. Dumbbells + adjustable bench ranks highest among budget options because the stimulus-to-fatigue ratio is genuinely high enough to build serious muscle, isolation is possible, and the setup can disappear into a closet.</p>
-  <p class="meta">Videos: <a href="https://www.youtube.com/watch?v=V9NA-ECl9f8">What's the Best Workout for the Least Money?</a> · <a href="https://www.youtube.com/shorts/2cO15WmYy-E">Dr. Mike Predicted 25 Pull-Ups...</a></p>
-</div>
-
-<div class="story">
-  <h3>Thomas DeLauer</h3>
-  <p>DeLauer covers BDNF (brain-derived neurotrophic factor) as a muscle-to-pancreas signaling molecule — a mechanism most people haven't heard framed this way. The key finding: skeletal muscle cells produce and secrete BDNF when they contract, and pancreatic beta cells have dedicated BDNF receptors. When BDNF docks, it amplifies insulin secretion specifically when glucose is elevated — not at baseline, so it's not causing hypoglycemia. A 2020 Nature Communications study showed knocking out BDNF specifically in skeletal muscle caused significant glucose intolerance. A meta-analysis of 16 studies found circulating BDNF averages 1.12 ng/mL lower in people with insulin resistance. Practical levers: vigorous exercise requiring lactate (the "burn") spikes BDNF acutely; fasting elevated BDNF 47% in a 29-day Ramadan study even without exercise; food sources include fatty fish, dark berries, 85%+ dark chocolate, green tea (EGCG takes 2–3 weeks of consistency), and extra-virgin olive oil. DeLauer also covers the walking vs. running fat-burning question with actual mechanism detail — the cortisol spike, glucagon surge, and ghrelin rebound from running all push you toward post-exercise carb cravings and compensatory eating, while walking keeps all three hormones more stable.</p>
-  <p class="meta">Videos: <a href="https://www.youtube.com/watch?v=DIIaY5I7zAc">Your Body Already Makes the Molecule That Fixes Insulin Resistance</a> · <a href="https://www.youtube.com/watch?v=KL9G5WC1xF8">#1 Walking Trick Proven To Help You Burn Fat Faster</a> (Ekberg, linked separately)</p>
-</div>
-
-<div class="story">
-  <h3>Mind The Game (Steph Curry + Steve Nash)</h3>
-  <p>Nash tells the story of his retirement being triggered by one preseason game guarding Curry — back was wrecked, nerves shot from a prior tib-fib fracture, and Golden State put up 45+ in the first quarter. Nash describes dragging around the court while Kerr kept sending him into every action, looked over at Steve Kerr laughing at him, and decided within days it was time. The basketball substance is in the shot-mechanics discussion: Curry explains his one-piece shooting motion was not designed but natural, developed during a high-school form change his father pushed. Nash argues what makes Curry's range truly unique is that unlike Klay Thompson (textbook stop-and-set, great teaching model), Curry barely stops — the ball reaches his shooting pocket while he's still in motion, converting his momentum into power rather than losing it. Nash calls it effectively a flick regardless of where the catch comes from, which is what allows infinite range extension.</p>
-  <p class="meta">Video: <a href="https://www.youtube.com/watch?v=bgSixq0dOKs">The Hilarious Story Behind How Steph Made Steve Nash Retire</a></p>
+  <h3>Mind The Game (LeBron James & JJ Redick)</h3>
+  <p>Steve Nash tells the story of how Steph Curry's preseason performance — Steph dropped ~45–50 points in the first quarter on Nash, who was playing hurt with nerve damage from a broken tib-fib — was the direct catalyst for Nash's retirement decision three days later. Nash describes chasing after loose balls while his back seized up while Steph ran freely through every action, and realizing he simply couldn't compete anymore. Beyond the anecdote, Steph explains his shooting mechanics: his one-piece shot developed naturally rather than by design, and it's precisely the lack of a traditional "gather" or stop that lets him shoot off the dribble at full power from any angle and any distance. He also discusses how his father Dell had to push him to shoot more as a kid — he was a pass-first point guard by instinct — and how Nash was a primary model for how he wanted to play.</p>
+  <p class="meta">Videos: <a href="https://www.youtube.com/watch?v=bgSixq0dOKs">The Hilarious Story Behind How Steph Made Steve Nash Retire</a></p>
 </div>
 
 <p><strong>Also posted:</strong></p>
 <ul>
-  <li><strong>Paul Saladino MD:</strong> 2-hour Q&A from an Animal Based Gathering in Costa Rica covering longevity questions; notable specific claims include forefoot striking as the correct running motor pattern for longevity (citing Harvard research on barefoot-raised children), and testosterone as a "check engine light" rather than something to directly replace — for men the functional range is ~700–1,200 ng/dL, for women ~35–70 ng/dL. Also a short clip on TPO (trimethylbenzoyldiphenyl phosphine oxide) — a gel nail polish ingredient now banned in the EU for potential fertility effects, not yet banned in the US. (<a href="https://www.youtube.com/watch?v=avRHghsBkB8">Answering Your Hardest Longevity Questions</a> + <a href="https://www.youtube.com/shorts/TbmwPJZ0SuY">Europe bans nail polish ingredient</a>)</li>
-  <li><strong>Ken Berry MD:</strong> Live show on subtle post-40 symptoms not to ignore: new-onset anything (headaches, bowel changes, rashes), activities becoming harder over weeks (not years), new nocturia, and lower-extremity edema (which can signal heart, liver, OR kidney issues — not just heart failure). Conversational format with his wife Neisha; content is practical but light on data. (<a href="https://www.youtube.com/watch?v=5IF8pbp6m0s">Don't Ignore These 7 After Age 40</a>)</li>
-  <li><strong>Anthony Chaffee MD:</strong> Patient testimony from a couple (Dean and Jody) about Jody's early-onset Alzheimer's diagnosis at 58 and their journey to carnivore diet — largely anecdotal, tracing their research path through Bredesen, Mary Newport (MCT oil for Alzheimer's), and eventually carnivore. (<a href="https://www.youtube.com/watch?v=VvfcTTLczgA">No. 1 Dementia Treatment</a>)</li>
-  <li><strong>Ben Felix:</strong> Thoughtful video framing health investment like portfolio investing — exercise's VO2 max is shown to have mortality risk comparable to or greater than smoking, muscle mass should be built like a retirement fund (draw-down starts in your 30s), and nutrition research suffers from the same correlational problems as financial economics. Personal context: Felix was diagnosed with testicular cancer at under 40 despite being in good shape. (<a href="https://www.youtube.com/watch?v=skc2T5fcoLY">When Compounding Works Against You</a>)</li>
-  <li><strong>ModernWisdom:</strong> Three shorts: one on belief vs. action ("self-belief is overrated — generate evidence"), one on the psychology of obesity (engineered hyperpalatable food as the dominant driver; exercise poor for weight loss but critical for preventing gain), and one on a gang member's conversion to Christianity and the reframe that turning the other cheek was actually harder than pulling a trigger. (<a href="https://www.youtube.com/shorts/O1xpbApU8A4">What Comes First?</a> · <a href="https://www.youtube.com/shorts/izzxZ56E6wI">Why Is Obesity So Common?</a> · <a href="https://www.youtube.com/shorts/MuF2unxpOXo">How Hard Was It To Become Christian</a>)</li>
-  <li><strong>Joe Rogan / Daniel Everett:</strong> Long conversation with linguist Daniel Everett about the Pirahã people of the Amazon, who lack numbers, color words, recursion in their language, and a concept of God — directly challenging Chomsky's universal grammar thesis. The intellectual drama (Chomsky calling Everett a "charlatan" after once praising him, MIT/Stanford experiments confirming Everett's findings, Chomsky refusing field work) is a useful case study in how ego corrupts even brilliant scientists. (<a href="https://www.youtube.com/watch?v=EmgKSK-YMOU">JRE #2547 - Daniel Everett</a>) — <em>flagged as most recent/not new</em></li>
-  <li><strong>Lex Fridman / DHH:</strong> DHH on the agentic programming transition — interesting perspective from a 25-year craftsman who now ships 100% AI-written code for his Linux distro (Omarchy Quattro). Core claim: the bottleneck in large organizations isn't implementation speed but vision, taste, and human approval layers. For solo builders, agents remove the ceiling on ambition. The Ruby code beauty argument: still matters because tokens are scarce and coherent architecture makes the next agent iteration cheaper, but this is a transitional argument that erodes as context windows and intelligence scale. (<a href="https://www.youtube.com/watch?v=NYFGCESmikA">Lex Fridman #501 - DHH</a>) — <em>flagged as most recent/not new</em></li>
-  <li><strong>Thomas DeLauer (Ekberg collab):</strong> Dr. Sten Ekberg's walking video (posted on DeLauer's channel context) — covered in DeLauer entry above.</li>
+  <li><strong>Peter Attia:</strong> Deep clinical episode on headache medicine with neurologist Brian Grosberg — covers the diagnostic criteria distinguishing migraine (≥5 attacks, 4–72 hrs, one-sided/pulsating, with nausea OR light+sound sensitivity) from tension-type headache, the phenomenon of allodynia (present in ~67% of migraineurs), and how attack profile shapes treatment choice. (<a href="https://www.youtube.com/watch?v=uiNEP8A34SE">Episode 406</a>)</li>
+  <li><strong>Ken Berry MD:</strong> Argues that steel-cut oats — not just instant oatmeal — spike blood sugar equivalently because the starch breaks down to glucose the same way; recommends wearing a CGM after eating oats with banana and honey to verify. (<a href="https://www.youtube.com/shorts/_jrlIM1vq-g">Pay attention to what happens to your blood sugar after that "healthy" bowl of oatmeal</a>)</li>
+  <li><strong>Anthony Chaffee MD:</strong> Long patient testimonial — a nurse practitioner diagnosed with early-onset Alzheimer's at 58 whose husband researched carnivore/ketogenic diet as a possible intervention; anecdotal reversal of symptoms after dietary change. No RCT data cited. (<a href="https://www.youtube.com/watch?v=VvfcTTLczgA">No. 1 Dementia Treatment | Dean & Jodie</a>)</li>
+  <li><strong>Thomas DeLauer:</strong> Covers a 121-person RCT finding that allulose (4–7g twice daily) reduced body fat and abdominal fat vs. sucralose at identical caloric intake; proposed mechanism is downregulation of intestinal fatty acid transport proteins (reducing dietary fat absorption) and GLP-1 stimulation. (<a href="https://www.youtube.com/watch?v=tyeA0UchHmE">1 Tbsp of This Sweetener Drops Body Fat</a>)</li>
+  <li><strong>Dr. Sten Ekberg:</strong> Explains why walking burns more fat than running for most people: fat oxidation peaks at ~60–65% VO2 max (roughly 75% max heart rate), and running overshoots this while also spiking cortisol and ghrelin rebound hunger; walking keeps cortisol low and glycogen intact, reducing post-exercise compensatory eating. (<a href="https://www.youtube.com/watch?v=KL9G5WC1xF8">#1 Walking Trick Proven To Help You Burn Fat Faster</a>)</li>
+  <li><strong>Ben Felix:</strong> Frames health investment using the same compounding logic as personal finance — small deficits in exercise, sleep, and nutrition compound invisibly until they're irreversible; highlights that low VO2 max carries mortality risk comparable to or exceeding smoking (JAMA 2018), and that muscle mass should be treated like a retirement portfolio: accumulate early because the drawdown starts in your 30s. Includes a personal cancer diagnosis disclosure. (<a href="https://www.youtube.com/watch?v=skc2T5fcoLY">When Compounding Works Against You</a>)</li>
+  <li><strong>GTO Lab:</strong> Short on risk premium scaling with stack depth in covered-stack situations — no transcript available. (<a href="https://www.youtube.com/shorts/ibIuwCkfzkM">Risk premium scales with stack depth</a>)</li>
+  <li><strong>Renaissance Periodization:</strong> Quick take: you can eat McDonald's daily and remain in "good health" if overall calories and protein are managed, but it's not compatible with optimal body composition or feeling your best. (<a href="https://www.youtube.com/shorts/GXjImqLLkBU">You Can Be Healthy Eating McDonald's Everyday</a>)</li>
 </ul>
 
 <h2>₿ Bitcoin & Macro</h2>
 
 <div class="story">
-  <h3><a href="https://bitcoinmagazine.com/news/bitcoin-treasury-strategy-opposes-msci">Strategy Opposes MSCI Proposal, Says Bitcoin Treasury Firms Are Being Targeted</a></h3>
-  <p>MicroStrategy/Strategy is pushing back against Morgan Stanley Capital International's proposal to exclude it from Global Investable Market Indexes — calling it "misguided." This matters because MSCI index inclusion is what forces passive funds to hold a stock; exclusion would remove automatic buying pressure from index trackers worldwide, a meaningful structural headwind for the corporate Bitcoin treasury model that Saylor pioneered. The framing of "being targeted a second time" signals Strategy views this as a coordinated institutional pushback against the Bitcoin treasury company structure, not a neutral index methodology decision.</p>
+  <h3><a href="https://bitcoinmagazine.com/news/bitcoin-has-its-third-best-august-ever">Bitcoin Defies Seasonal Slump With Third-Best August Ever</a></h3>
+  <p>Bitcoin posted its third-strongest August on record despite the historically weak seasonal pattern, a data point worth noting given the typical summer lull. Separately, BlackRock's iShares Bitcoin Trust (IBIT) is now outperforming Vanguard's S&P 500 ETF on a returns basis — a comparison that would have seemed absurd three years ago and is increasingly relevant to the portfolio allocation conversation BlackRock itself has been making to institutional clients. BlackRock also re-published internal analysis concluding that even modest Bitcoin allocations historically improved risk-adjusted returns in traditional portfolios.</p>
   <p class="meta">Bitcoin Magazine</p>
 </div>
 
 <div class="story">
-  <h3><a href="https://bitcoinmagazine.com/news/strategy-resumes-bitcoin-buys">Strategy Resumes Bitcoin Buying After 10-Week Hiatus</a></h3>
-  <p>Strategy spent ~$370M on Bitcoin last week after a 10-week pause to rebalance cash reserves — the longest buying gap since the treasury strategy began. Separately, Strive Asset Management became the fifth-largest corporate Bitcoin treasury with 23,156 BTC after a $143M purchase. The pattern of multiple public companies now competing to accumulate Bitcoin on balance sheets is becoming a structural demand story independent of retail sentiment.</p>
+  <h3><a href="https://bitcoinmagazine.com/news/bitcoin-treasury-strategy-opposes-msci">Strategy Opposes MSCI Proposal to Exclude Bitcoin Treasury Firms from Global Indexes</a></h3>
+  <p>Strategy (formerly MicroStrategy) is pushing back on a Morgan Stanley Capital International proposal that would effectively exclude Bitcoin treasury companies from the MSCI Global Investable Market Indexes, calling it "misguided." This is a meaningful institutional battleground: if MSCI excludes these firms, it removes them from passive index fund flows globally — a structural headwind to the Bitcoin treasury company model that Saylor pioneered. Strive has meanwhile become the fifth-largest corporate Bitcoin treasury with 23,156 BTC after a $143M purchase.</p>
   <p class="meta">Bitcoin Magazine</p>
 </div>
 
 <h2>🧬 Health & Science</h2>
 
 <div class="story">
-  <h3>Clonal Hematopoiesis: The Bone Marrow Driver of Heart Disease You Haven't Heard Of</h3>
-  <p>Nick Norwitz's breakdown of a new Nature study introduces a mechanism that deserves wider attention: with age, certain stem cells in bone marrow acquire mutations that give them a survival edge, causing them to expand and crowd out normal cell lineages. These mutant clones are disproportionately inflammatory, and they migrate from bone marrow → blood → artery walls, where they fire up atherosclerosis. The study's key finding across 90,000+ people: more moderate-to-vigorous physical activity correlates with less clonal hematopoiesis, even after adjusting for BMI. In mouse experiments, 12 weeks of exercise halted expansion of certain mutant clones entirely; sleep disruption accelerated expansion and produced significantly more inflammatory mutants than sedentary controls. The mechanism is specific: exercise activates brainstem neurons that release hormones (including adrenaline) that bind immune cell receptors and suppress inflammatory signaling — a second-hit effect beyond just slowing clone production. The human RCT payoff: 7% plaque regression in one year from exercise alone, vs. no significant benefit in the GLP-1 drug group, published in Nature Metabolism 2024.</p>
+  <h3>Clonal Hematopoiesis: The Hidden Cardiovascular Risk Factor Exercise and Sleep Directly Target</h3>
+  <p>Nick Norwitz's breakdown (see YouTube section above) is the most substantive health science item today. The core mechanism: with age, stem cells in your bone marrow accumulate mutations that give them a replication advantage. These clonal lineages are inflammatory, they expand and crowd out diverse healthy lineages, and then they migrate into artery walls and drive atherosclerosis. This is not a rare exotic condition — it becomes increasingly prevalent each decade of life and is likely present in a large fraction of older adults with no awareness. The Nature paper Norwitz covers found that exercise selectively suppressed specific inflammatory clones (not blood cell production generally) in both human observational data (90,000+ in UK Biobank and All of Us) and mouse experiments, while sleep disruption accelerated clone expansion and made the clones already in arteries more inflammatory. The human RCT confirmation (Nature Metabolism, 2026): exercise → 7% plaque regression over 1 year; GLP-1 alone → no significant effect. The practical implication is that sleep and exercise aren't just risk-reducers in a vague sense — they're operating on a specific, newly characterized molecular pathway that no drug currently targets.</p>
 </div>
 
 <div class="story">
-  <h3>BDNF as a Muscle-to-Pancreas Insulin Signal</h3>
-  <p>Thomas DeLauer covers a mechanism connecting muscle contraction to pancreatic function: skeletal muscle cells produce and secrete BDNF (brain-derived neurotrophic factor) during exercise, and pancreatic beta cells express dedicated TrkB receptors for it. A 2020 Nature Communications study showed BDNF amplifies insulin secretion specifically when blood glucose is elevated — not at baseline — meaning it's a glucose-sensitive signal, not a hypoglycemia risk. When researchers knocked out BDNF specifically in skeletal muscle in mice, the animals developed significant glucose intolerance. A 16-study meta-analysis found people with insulin resistance have circulating BDNF averaging 1.12 ng/mL lower than healthy controls. Practical implication: the BDNF pathway could be a key mechanism by which exercise improves insulin sensitivity beyond simple glucose uptake, and it's activated by lactate-generating vigorous activity (not gentle walking). Separately, a 29-day Ramadan fasting study showed BDNF rose 47% from fasting alone, suggesting fasting and vigorous exercise hit the pathway through complementary mechanisms.</p>
-</div>
-
-<div class="story">
-  <h3>Walking vs. Running: The Hormonal Case for Lower Intensity Fat Loss</h3>
-  <p>Ekberg's analysis goes beyond "fat burning zone" percentages to explain <em>why</em> walking often outperforms running for fat loss in practice via three hormonal mechanisms: (1) Cortisol spikes sharply with running, upregulating carbohydrate use and increasing post-exercise cravings; walking keeps cortisol near baseline. (2) Glucagon surges 4–6x higher during running vs. walking, depleting glycogen and creating a strong "refuel" signal post-workout. (3) Ghrelin (hunger hormone) rebounds hard after running suppression but stays stable during and after walking. The practical consequence: runners often compensate calorically in ways walkers don't. An important nuance: these ratios shift dramatically on a low-carb or keto-adapted diet — fat oxidation can extend to 80–90% of max intensity in adapted individuals, compared to ~50% at the "fat max" for carb-adapted people.</p>
-</div>
-
-<div class="story">
-  <h3>Peter Attia on Migraine: Clinical Distinctions Worth Knowing</h3>
-  <p>From the Grosberg interview: the diagnostic criteria for migraine require ≥5 attacks lasting 4–72 hours plus two of four features (unilateral pain, throbbing, moderate-to-severe intensity, aggravated by activity) AND either nausea/vomiting or photo+phonophobia. Up to 40% of migraineurs have bilateral pain — widely misunderstood as ruling out migraine. Allodynia (uncomfortable sensation to normally neutral stimuli like hairbrushing or glasses) is present in ~65–70% of migraineurs and is clinically important: once allodynia sets in during an attack, triptans lose efficacy, making early intervention critical. Medication overuse headache is a secondary cause that can masquerade as worsening primary headache — caffeine withdrawal is another secondary cause, neither requiring imaging to diagnose.</p>
+  <h3>Allulose: Mechanisms Behind the Body Composition Findings</h3>
+  <p>Thomas DeLauer covers data worth knowing if you're thinking about sweeteners. The 121-person RCT (3 months, sucralose vs. low/high allulose at identical calories) showed the high-allulose group (7g twice daily) had significantly lower body fat percentage, BMI, and subcutaneous and abdominal fat. The proposed mechanisms go beyond "low calorie" in two directions: (1) allulose stimulates GLP-1, reducing insulin response by ~33% and slowing gastric emptying; (2) more unusually, rodent data shows allulose downregulates three key intestinal fatty acid transport proteins, meaning less dietary fat is absorbed — excess fat passes through to stool. The liver effect is separate: allulose also downregulates hepatic fatty acid synthase and storage enzymes, reducing both the synthesis and import of liver fat. The practical application he suggests: take it with higher-fat meals (eggs, fatty proteins) since that's when the fat transport reduction is most mechanistically relevant. Allulose is classified as a rare sugar, not an artificial sweetener, and is found naturally in small amounts in figs and raisins.</p>
 </div>
 
 <h2>💡 Worth Reading</h2>
 
 <div class="story">
-  <h3><a href="https://datacolada.org/138">Evidence of Fraud in an Influential Study About Procrastination</a></h3>
-  <p>DataColada — the same team that exposed the Harvard Business School dishesty research fraud — presents evidence of data fabrication in a widely-cited procrastination study. This matters beyond the specific finding because procrastination research has been heavily used to build productivity interventions and self-help frameworks; if the foundational data is fraudulent, the downstream applications built on it are suspect. DataColada has an excellent track record on these investigations.</p>
-  <p class="meta"><a href="https://news.ycombinator.com/item?id=">Hacker News</a> · Source: DataColada</p>
+  <h3><a href="https://danluu.com/zitron/">How Accurate Have Ed Zitron's AI Skeptic Predictions Been?</a></h3>
+  <p>Dan Luu systematically audits the track record of prominent AI skeptic Ed Zitron's public predictions — the kind of careful retrospective accountability that almost never happens in tech commentary. With 653 points on HN, this is clearly striking a nerve; given how much AI discourse is shaped by confident contrarians, an empirical scorecard of who was right and wrong (and why) is genuinely useful for calibrating whose skepticism deserves weight going forward.</p>
+  <p class="meta"><a href="https://news.ycombinator.com/item?id=49522897">Discussion</a> · Dan Luu</p>
 </div>
 
 <div class="story">
-  <h3><a href="https://paulgraham.com/prepare.html">How Universities Should Prepare Founders</a></h3>
-  <p>Paul Graham's latest essay argues universities are optimized for the wrong outputs when it comes to entrepreneurship — producing people who are good at following instructions and impressing gatekeepers rather than people who can identify real problems and act under uncertainty. Worth reading for the specific argument structure even if you've absorbed Graham's general worldview, because it's less about "startups are good" and more about what intellectual habits actually transfer.</p>
-  <p class="meta">Paul Graham</p>
-</div>
-
-<div class="story">
-  <h3><a href="https://marginalrevolution.com/marginalrevolution/2026/09/more-optimistic-results-on-ai-and-job-markets.html">AI and Employment: More Optimistic Results</a></h3>
-  <p>Tyler Cowen flags a Census Bureau / World Bank paper finding that while generative AI adoption has reached ~16% of businesses by late 2025 (up from 3.7% in 2023), aggregate labor market disruption is not yet visible in the data. Workers perceive substantial displacement risk, but actual job loss patterns remain diffuse. The interesting tension: DHH's Lex interview this week describes 100% AI-written code shipping in production — so either the disruption is highly concentrated in tech and not yet macroeconomically measurable, or there's a lag effect. Worth holding both data points simultaneously.</p>
+  <h3><a href="https://marginalrevolution.com/marginalrevolution/2026/09/the-college-wage-premium-in-the-generative-ai-era.html">The College Wage Premium in the Generative AI Era</a></h3>
+  <p>A new paper using Current Population Survey data through 2026 finds the U.S. college wage premium has dropped sharply from 0.626 in 2022 to 0.575 in 2026 — a contraction after four decades of expansion — and that standard supply-and-demand accounting can't explain the pace of decline, pointing toward AI as a contributing factor. This is one of the first data points suggesting AI may be compressing the returns to credentialed knowledge work in ways that are already showing up in wage data, not just in speculative projections.</p>
   <p class="meta">Marginal Revolution</p>
 </div>
 
 <div class="story">
-  <h3><a href="https://jasontucker.blog/how-
+  <h3><a href="https://donaldrobertson.substack.com/p/how-to-decatastrophize-the-worst">How to Decatastrophize the Worst-Case Scenario</a></h3>
+  <p>Donald Robertson (author of <em>How to Think Like a Roman Emperor</em>) covers the Stoic practice of premeditatio malorum — deliberately imagining worst-case outcomes not to induce anxiety but to defuse the catastrophizing that makes adversity feel unbearable before it arrives. The specific technique: ask whether the feared outcome is truly as bad as it feels, whether you could cope with it, and whether your judgment of it is driven by the event itself or by your interpretation of it. A short, practical piece rather than a survey article.</p>
+  <p class="meta">Donald Robertson / Substack</p>
+</div>
+
+<div class="story">
+  <h3><a href="https://figsinwintertime.substack.com/p/video-how-to-have-willpower">Video: How to Have Willpower — Massimo Pigliucci</a></h3>
+  <p>Episode 26 of Pigliucci's Ars Vivendi series, focused on the practical philosophy of willpower through a Stoic lens. Pigliucci is consistently one of the clearest academic-to-accessible bridges on Stoicism and this series has been worth following; worth watching if you engage with his written work.</p>
+  <p class="meta"><a href="https://figsinwintertime.substack.com/p/video-how-to-have-willpower">Figs in Winter</a></p>
+</div>
+
+<h2>🤖 AI Capability Watch</h2>
+
+<div class="story">
+  <h3><a href="https://www.anthropic.com/claude-fable-and-mythos-5-1">Claude Fable 5.1 and Claude Mythos 5.1</a></h3>
+  <p>Anthropic released two new flagship models: Fable 5.1, positioned as the coding and knowledge-work model ("sets a new standard for long-running problem-solving"), and Mythos 5.1. Notably, Fable scored 52.6% on Terminal-Bench-Science — a new benchmark for autonomous scientific research tasks — and DHH's Lex Fridman interview (in YouTube feeds) describes Fable/Opus 5 as the point where he stopped needing to direct agents toward solutions and could instead just describe problems, with the model choosing the approach. Simon Willison independently confirmed Fable 5.1's capability jump with a coding test. This appears to be a meaningful generational step for autonomous task completion, not a minor version bump.</p>
+  <p class="meta"><a href="https://news.ycombinator.com/item?id=49522897">Discussion</a> · Anthropic</p>
+</div>
+
+<div class="story">
+  <h3><a href="https://openai.com/index/chatgpt-connects-health-records-and-healthcare-sources">ChatGPT Can Now Connect to EHR and Healthcare Data</a></h3>
+  <p>OpenAI announced that healthcare organizations can now connect Electronic Health Records and other clinical data sources directly to ChatGPT, allowing clinicians to query patient context alongside medical research in a single interface. This is a new product category for ChatGPT — moving from general-purpose assistant to a system that can ingest and reason over live, institution-specific patient data — with real implications for how physicians access information at the point of care.</p>
+  <p class="meta">OpenAI Blog</p>
+</div>
+
+<div class="story">
+  <h3><a href="https://www.worldlabs.ai/blog/atlas">Atlas: A World Model for Spatial Intelligence</a></h3>
+  <p>World Labs (Fei-Fei Li's company) released Atlas, described as a world model for spatial intelligence — a model that can understand and reason about 3D spatial relationships, not just 2D images or text. World models that can represent physical space are a prerequisite for robotics and embodied AI; this is an early but notable step from a serious research lab in a capability area that has been lagging behind language and image models.</p>
+  <p class="meta"><a href="https://news.ycombinator.com/item?id=49522897">Discussion</a> · World Labs</p>
+</div>
 </body>
 </html>

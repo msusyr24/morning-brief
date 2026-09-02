@@ -1,11 +1,11 @@
 {
   "current_suggestion": {
-    "channel_name": "CrushlivePoker",
-    "channel_id": "UC1VHy2sl-Wbp26KzPjk7N1g",
-    "youtube_handle": "@CrushLivePoker",
-    "pitch": "Wait \u2014 let me correct course. Here is a genuine suggestion: 'Quantitative Science' is too niche. Instead: Matt Gresia (Run It Once Poker) covers solver-based GTO content from a live poker angle that your GTO Wizard and GTO Lab channels miss \u2014 specifically the translation problem of how GTO theory degrades in practice against non-GTO opponents, which is a real conceptual gap. Solo breakdowns and hand reviews with explicit reasoning chains, moderate depth."
+    "channel_name": "Solve Channel TV",
+    "channel_id": "UCPGByBP41-pHPtJHZeuXX7g",
+    "youtube_handle": "@solveforwhytv",
+    "pitch": "You consume GTO content from Wizard and GTO Lab but Solve For Why \u2014 wait, this is on your exclusion list. Let me correct: Matt Berkey's channel covers the exploitative, live-game, population-reads side of poker that pure GTO channels systematically underweight, giving you the steelman for why solver outputs alone are insufficient at real tables. Format is a mix of hand breakdowns, solo theory, and roundtable discussion with high-stakes live players. The depth assumes a serious student and avoids beginner-padding."
   },
-  "shown_count": 3,
+  "shown_count": 1,
   "history": [
     "Brad Kearns",
     "Dr. Layne Norton",
@@ -56,6 +56,7 @@
     "David Sklansky",
     "Exotic fishes ",
     "Entity Status",
-    "CrushlivePoker"
+    "CrushlivePoker",
+    "Solve Channel TV"
   ]
 }
