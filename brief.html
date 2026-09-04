@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>Morning Brief — Thursday, September 03, 2026</title>
+<title>Morning Brief — Friday, September 04, 2026</title>
 <style>
   body {
     font-family: Georgia, serif;
@@ -92,19 +92,19 @@
 })();
 </script>
 <h1>Morning Brief</h1>
-<p class="date">Thursday, September 03, 2026</p>
+<p class="date">Friday, September 04, 2026</p>
 
 <div class="anchor">
   <h2>☀️ Today's Anchor</h2>
   <div class="anchor-block">
-    <p class="quote">"Man is the only creature who refuses to be what he is."</p>
-    <p class="author">— Albert Camus</p>
-    <p class="context">The Rebel. Camus saw rebellion against absurdity — not acceptance of it — as the authentic response.</p>
+    <p class="quote">"The cave you fear to enter holds the treasure you seek."</p>
+    <p class="author">— Joseph Campbell</p>
+    <p class="context">The Hero with a Thousand Faces. Campbell's summary of why mythic heroes across cultures face what they dread.</p>
   </div>
   <div class="anchor-block">
-    <p class="model-label">Mental Model · Physics/Systems</p>
-    <p class="model-name">Phase Transitions</p>
-    <p class="context">Gradual change often produces sudden transformation — ice to water, liquid to gas, dissatisfaction to revolution. Munger on markets: they look stable until they don't, because the underlying conditions were changing gradually all along. Don't be fooled by apparent stability.</p>
+    <p class="model-label">Mental Model · Psychology</p>
+    <p class="model-name">Hedonic Adaptation</p>
+    <p class="context">We return to a baseline happiness level after most positive or negative events. Lottery winners are no happier a year later; paraplegics are not as unhappy as you'd predict. Implication: structural changes to daily life matter more than peak events. Optimize for the day-to-day, not the milestones.</p>
   </div>
 </div>
 
@@ -115,121 +115,117 @@
   <p class="spotlight-instructions">Interested? Copy the line below into <code>YOUTUBE_CHANNELS</code> in <code>brief.py</code> and save:</p>
   <pre class="spotlight-snippet" id="snippet">    "Solve Channel TV": "UCPGByBP41-pHPtJHZeuXX7g",</pre>
   <button class="copy-btn" onclick="navigator.clipboard.writeText(document.getElementById('snippet').innerText.trim()); this.innerText='✅ Copied'; setTimeout(()=>this.innerText='📋 Copy snippet', 2000);">📋 Copy snippet</button>
-  <p class="spotlight-meta">showing for 2 more days. If you don't add it, a new channel will be suggested.</p>
+  <p class="spotlight-meta">showing for 1 more day. If you don't add it, a new channel will be suggested.</p>
 </div>
 <h2>🎥 From People I Follow</h2>
 
 <p><strong>Worth your time:</strong></p>
 
 <div class="story">
-  <h3>GTO Wizard — Espen Jorstad</h3>
-  <p>Espen reviews nine hands from the 2026 WSOP Main Event final table using GTO Wizard's new preflop ICM solver (not yet live, expected within weeks). The key insight throughout: GTO theory at ICM final tables demands significantly tighter ranges than people expect — even pocket queens is mostly a flat in certain stack configurations, and getting it in pre requires kings or ace-king plus. Espen also demonstrates "node locking" as a practical tool: you substitute your read on what realistic villain ranges actually look like (e.g., stripping out unlikely flats and mixed 3-bets at a live final table) and re-solve to see whether a call is profitable against those adjusted ranges, rather than against theoretically correct villain play. The new ICM solver comes pre-loaded with major tournament final table payout structures so you can jump straight into hand review.</p>
-  <p class="meta">Videos: <a href="https://www.youtube.com/watch?v=uEza3SdANQs">WSOP 2026 Main Event Final Table Review with Espen Jorstad</a></p>
+  <h3>GTO Wizard (Andrew Brokos)</h3>
+  <p>Andrew Brokos delivers a genuinely rigorous framework for understanding when and why to bet. The core insight: betting accomplishes two things — growing the pot and denying equity/EV — and every hand sits on a spectrum between deriving value primarily from one or the other. The counterintuitive takeaway is that Ace-Four of hearts (top pair + nut flush draw) bets less frequently than it seems it should, because it doesn't benefit much from folds (already ahead) and doesn't barrel enough turns to justify growing the pot on the flop. Queen-Nine of hearts, by contrast, bets more because it has many profitable turn barrels (flush draw pickups, backdoor outs), making pot-growth valuable even without showdown equity. Medium-strength hands like pocket queens are the least frequent betters — they gain little from folds and don't want a large pot either. GTO Lab's short reinforces this by noting the importance of reading equity distribution tiers before studying solver actions.</p>
+  <p class="meta">Videos: <a href="https://www.youtube.com/watch?v=WtodbhpsCgo">This Betting Mistake Ruins Your Win Rate</a> · <a href="https://www.youtube.com/shorts/4E_qttkQSJg">Solver actions get clearer when you study the equity distribution first</a> · <a href="https://www.youtube.com/shorts/j8kQpNG6ZEo">A new way to explore PLO</a></p>
 </div>
 
 <div class="story">
-  <h3>Jared Alderman</h3>
-  <p>Jared discusses a benchmark test where GTO Wizard AI (Rusé) played heads-up against top LLMs and top human players — and annihilated both. The striking detail: Rusé used single-sizing strategies and still beat the second-best AI by 19 big blinds per 100, which Jared argues reveals how finely calibrated perfect play truly is and how much edge exists that humans don't perceive. He also makes a practical case for letting solvers self-select to appropriate sizings by running long convergence times rather than forcing a couple of sizes and calling it done — knowing the correct sizing for a spot frees up cognitive bandwidth for the actually hard in-game decisions (reads, opponent tendencies, live tells). In a separate short, he highlights watching elite live players like a specific Triton regular execute with pure in-the-moment intuition at the highest stakes — a reminder that the goal isn't just to approximate the solver's answer but to find the real correct answer given the actual humans at the table.</p>
-  <p class="meta">Videos: <a href="https://www.youtube.com/watch?v=dtPoqS7hGtE">You Are Not Aware of Just How Many Edges Exist</a> · <a href="https://www.youtube.com/shorts/kX44H5kP1DY">Poker Intuition: High-Stakes Execution Beyond Computers</a></p>
-</div>
-
-<div class="story">
-  <h3>Nick Norwitz</h3>
-  <p>Norwitz covers a new Nature paper showing that sleep and exercise suppress "clonal hematopoiesis" — the age-related expansion of mutant, inflammatory blood cell lineages born in the bone marrow that migrate into artery walls and drive atherosclerosis. Key mechanism: exercise activates brainstem neurons that alter hormones (adrenaline) which then bind receptors on immune cells and suppress inflammatory signaling; sleep deprivation does the opposite, increasing a receptor on mutant clones that triggers inflammatory cascades in artery walls. The most striking human data comes from a 2025 Nature Metabolism RCT (n=130) where exercise alone caused a 7% regression in atherosclerotic plaque on imaging over one year, while the GLP-1 drug alone showed no statistically significant benefit — the authors explicitly concluded exercise's hemodynamic and anti-inflammatory effects outperformed the GLP-1 for vascular outcomes. The dual mechanism matters: exercise and sleep each work in two ways independently — slowing clone expansion in bone marrow AND reprogramming clone behavior once in the artery wall, making them genuinely non-redundant.</p>
-  <p class="meta">Videos: <a href="https://www.youtube.com/watch?v=uG166N0pVy0">Reverse Heart Disease in 1 Year (Proven in RCT)</a></p>
+  <h3>Dr. Sten Ekberg</h3>
+  <p>Ekberg makes the case — with actual metabolic mechanisms — for why walking often outperforms running for fat loss specifically (not calorie burn generally). At low intensity (~56% max heart rate), the body burns roughly 80% fat and 20% carbs; at 80% max heart rate, that flips to ~25% fat and 75% carbs. More importantly, running triggers sharp cortisol spikes (which increase cravings and suppress fat oxidation), a large glucagon surge that depletes glycogen and signals the body to refuel aggressively, and a hard ghrelin rebound post-workout. Walking produces minimal versions of all three responses, meaning fewer post-exercise cravings and better dietary adherence. Critically, people on low-carb/high-fat diets can shift their fat-max zone dramatically upward — potentially maintaining fat dominance even at 80–90% max intensity — so the optimal intensity is highly individual and best calibrated by monitoring hunger and cravings response.</p>
+  <p class="meta">Video: <a href="https://www.youtube.com/watch?v=KL9G5WC1xF8">#1 Walking Trick Proven To Help You Burn Fat Faster</a></p>
 </div>
 
 <div class="story">
   <h3>Renaissance Periodization</h3>
-  <p>Two quick but substantive shorts from Mike Israetel. On training splits: full-body daily becomes problematic for high-frequency, high-volume trainees primarily due to joint and connective tissue stress, not just fatigue — making upper/lower or push-pull-legs splits genuinely beneficial at that training age, not just a preference. On failure training: Jay Cutler reportedly never trained to failure in his career, and Israetel confirms this is consistent with the research showing stopping a few reps shy of failure produces equivalent hypertrophy with fewer downsides, directly challenging the cult of Mentzer/Yates-style failure training.</p>
-  <p class="meta">Videos: <a href="https://www.youtube.com/shorts/tJiYts-Yhxw">When You Actually Need A Workout Split</a> · <a href="https://www.youtube.com/shorts/VW9hnJL9UZE">Jay Cutler Never Trained to Failure</a></p>
+  <p>Two quick but substantive clips. First: diet vs. exercise for body composition is not 50/50 — RP puts it closer to 80-90% diet, 10-20% exercise, particularly for body weight control. Second: on Jay Cutler's 26-set chest day — RP clarifies that only 8–15 of those are true working sets, which is actually within normal productive range. Training a muscle once a week at high volume makes sense because you need to drive the growth stimulus high enough that it recovers and peaks in the following 4–5 days; low-frequency training demands higher per-session volume to compensate.</p>
+  <p class="meta">Videos: <a href="https://www.youtube.com/shorts/3MGAD_0o3so">Diet VS Exercise: Which is More Important?</a> · <a href="https://www.youtube.com/shorts/P-jx5R0QT-A">Why Jay Cutler Did 26 Chest Sets</a></p>
+</div>
+
+<div class="story">
+  <h3>Thomas DeLauer</h3>
+  <p>A UC Davis study tested 54 avocado oil products (mayo, chips, dressings) using gas chromatography and plant sterol fingerprinting — two independent tests. 48 of 54 showed adulteration with seed oils, and the researchers deliberately required >10% variance before flagging a product. One product was 100% soybean oil. The "database is outdated" defense doesn't hold: avocados have a stable fatty acid and phytosterol profile regardless of cultivar or year, and the researchers confirmed the methodology by heating confirmed avocado oil and showing its profile didn't change. Unlike olive oil (which is regulated), avocado oil has almost no regulatory oversight. The guest scientist notes this is primarily an ethics/cheating problem enabled by a few upstream suppliers, analogous to the chocolate/cadmium contamination pattern.</p>
+  <p class="meta">Video: <a href="https://www.youtube.com/watch?v=InzYw9ZKKVw">The Avocado Oil Scandal Just Got 10x Worse</a></p>
+</div>
+
+<div class="story">
+  <h3>Jared Alderman</h3>
+  <p>A brief but pointed take on the feel vs. theory debate in high-stakes poker: Alderman's position is that the highest skill ceiling comes from combining deep theoretical grounding with genuine in-the-moment presence and feel — not from treating them as competing approaches.</p>
+  <p class="meta">Video: <a href="https://www.youtube.com/shorts/xRPaLxpJxsg">Poker Pros: The Feel vs. Theory Debate</a></p>
+</div>
+
+<div class="story">
+  <h3>Mind the Game (LeBron & JJ Redick)</h3>
+  <p>Steve Nash tells the story of Steph Curry's preseason performance during Nash's final Lakers training camp — Steph was putting up ~45-50 points in the first quarter while Nash was dragging around on a broken nerve, and the experience crystallized his retirement decision. More substantively: Steph reveals he was actually a pass-first point guard growing up (his father had to tell him to shoot more), and that his unorthodox one-piece shooting motion — which he didn't design consciously — is what enables his range off the dribble. He draws an explicit contrast with Klay Thompson: Klay has a "perfect" textbook two-piece shot he'd teach to any beginner, but Steph's continuous-motion shot is what allows him to shoot accurately without a full stop, from any angle, with no wasted motion.</p>
+  <p class="meta">Video: <a href="https://www.youtube.com/watch?v=bgSixq0dOKs">The Hilarious Story Behind How Steph Made Steve Nash Retire</a></p>
 </div>
 
 <p><strong>Also posted:</strong></p>
 <ul>
-  <li><strong>Ken Berry MD:</strong> Argues that even plain steel-cut oats spike blood sugar equivalently to instant oatmeal for metabolically compromised people (diabetes, hypertension, fatty liver, obesity) — the starch breaks down to glucose regardless of processing; recommends CGM verification. (<a href="https://www.youtube.com/shorts/_jrlIM1vq-g">Pay attention to what happens to your blood sugar after that "healthy" bowl of oatmeal</a>)</li>
-  <li><strong>Paul Saladino MD:</strong> Raw egg whites contain avidin, which binds and blocks absorption of biotin (a B vitamin); the yolk contains biotin but the avidin from a raw whole egg can block it — solution is to cook the white, raw yolk is fine. Also posted a salad-skeptic short (no transcript). (<a href="https://www.youtube.com/shorts/G2pD7Q9a200">Raw egg whites are robbing you of nutrients</a> + 1 more)</li>
-  <li><strong>Anthony Chaffee MD:</strong> Long-form patient story: a nurse practitioner diagnosed with early-onset Alzheimer's at 58 and her husband's journey through conventional medicine (Bredesen protocol, Mediterranean diet, MCT oil) before landing on carnivore — anecdotal improvement reported but no clinical outcomes data cited. (<a href="https://www.youtube.com/watch?v=VvfcTTLczgA">No. 1 Dementia Treatment | Dean & Jodie</a>)</li>
-  <li><strong>Thomas DeLauer:</strong> Covers the mechanism by which 3g glycine before bed accelerates entry into non-REM sleep architecture — the stage that precedes the first REM episode by ~90 minutes and triggers luteinizing hormone pulsatility and Leydig cell testosterone synthesis; also covers a cortisol-Leydig cell suppression mechanism (cortisol drops testosterone at the testicular level even when LH remains normal). Second video breaks down nap lengths by function: 5-7 min for creativity (hypnagogic state), 20-26 min NASA nap for alertness reset (34% task performance improvement in pilots), 90 min for memory consolidation equivalent to a full night's sleep for learned skills. (<a href="https://www.youtube.com/watch?v=IVacxL0UkNM">1 Scoop Makes You Sleep Deep, Lifts Testosterone, and Rebalances Cortisol</a> · <a href="https://www.youtube.com/watch?v=yytEqYLzbho">5 Minutes in the Afternoon Literally Drops Brain Inflammation</a>)</li>
-  <li><strong>Dr. Sten Ekberg:</strong> Explains why walking often burns more fat than running for metabolically compromised individuals: fat oxidation peaks around 60-65% of VO2 max (~76% max heart rate); running triggers cortisol spikes (reducing fat oxidation and increasing cravings), large glucagon surges (depleting glycogen and signaling carb compensation), and ghrelin rebound post-exercise — all of which walking avoids. Low-carb/fat-adapted individuals can shift the fat-burning curve upward by roughly 2x, maintaining fat dominance up to ~80-90% of max intensity. (<a href="https://www.youtube.com/watch?v=KL9G5WC1xF8">#1 Walking Trick Proven To Help You Burn Fat Faster</a>)</li>
-  <li><strong>Ben Felix:</strong> Argues health and finances share the same compounding logic — muscle mass, VO2 max, and sleep habits compound (or deteriorate) invisibly for years before outcomes appear, making them "foundation regrets." Cites the JAMA finding that low cardiorespiratory fitness carries mortality risk comparable to or exceeding smoking. Notably personal: Felix disclosed a testicular cancer diagnosis at under 40 despite being fit, using it to illustrate that healthy habits improve the distribution of outcomes without guaranteeing them. (<a href="https://www.youtube.com/watch?v=skc2T5fcoLY">When Compounding Works Against You</a>)</li>
-  <li><strong>Mind The Game (LeBron/Curry):</strong> Steve Nash recounts how a preseason game against Steph Curry — whom he couldn't guard due to nerve damage and a broken tib-fib — was the direct trigger for his retirement decision; Steph discusses how his shooting form evolved from a slingshot release his father identified as unscalable to the one-piece motion he has now. (<a href="https://www.youtube.com/watch?v=bgSixq0dOKs">The Hilarious Story Behind How Steph Made Steve Nash Retire</a>)</li>
+  <li><strong>Anthony Chaffee MD:</strong> Extended testimonial from a couple (Dean and Jody) in which Jody, a cardiology NP, was diagnosed with early-onset Alzheimer's at 58 and the family's journey through carnivore diet adoption as an intervention — anecdotal but detailed, covering the Bredesen protocol, MCT oil, and ketogenic/carnivore transition. (<a href="https://www.youtube.com/watch?v=VvfcTTLczgA">No. 1 Dementia Treatment | Dean & Jodie</a>)</li>
+  <li><strong>Ken Berry MD:</strong> Short clip arguing to buy 70/30 ground beef over lean (cheaper, more fat-soluble vitamins), whole eggs over egg whites, and bone-in skin-on chicken thighs/legs over boneless skinless breast. (<a href="https://www.youtube.com/shorts/bPWF2zFXA_I">The fattier cuts are often CHEAPER</a>)</li>
+  <li><strong>Paul Saladino MD:</strong> Raw egg whites contain avidin, which binds and blocks absorption of biotin (B vitamin for hair/skin/nails); cooking denatures avidin. Raw yolks are fine — biotin is in the yolk. (<a href="https://www.youtube.com/shorts/G2pD7Q9a200">Raw egg whites are robbing you of nutrients</a>)</li>
+  <li><strong>Nick Norwitz:</strong> Stanford researchers identified lac-phe (a molecule that spikes after intense exercise) as suppressing appetite ~50% in obese mice; AI was used to design drug candidates based on this molecule's chemistry, and phase one human trials just completed positively. (<a href="https://www.youtube.com/shorts/59msNHXacCU">AI Created an Exercise Pill</a>)</li>
+  <li><strong>Andrew Huberman / Dr. Gina Poe:</strong> Deep dive on sleep architecture — the first 90-minute cycle's growth hormone bolus is time-locked to circadian rhythm (not just sleep onset), so shifting bedtime later means missing it even if you sleep the same duration. Alcohol suppresses REM and stage 2 sleep spindles (which transfer memories from hippocampus to cortex). Later sleep cycles are increasingly REM-dominant and associated with creativity and schema-building. Consistent bedtime is one of the best markers of long-term neurological health. (<a href="https://www.youtube.com/watch?v=f1NNmiz547U">Essentials: Use Sleep to Enhance Learning, Memory & Emotional State</a>)</li>
+  <li><strong>Ben Felix:</strong> Frames health investment using the same compounding logic as financial investing — cardiorespiratory fitness (VO2 max) has mortality risk comparable to or greater than smoking; muscle mass should be treated like a retirement portfolio (accumulate early, because you'll be drawing it down via sarcopenia from your 30s onward). Acknowledges nutrition evidence is genuinely messy and the best diet is the one you can adhere to. (<a href="https://www.youtube.com/watch?v=skc2T5fcoLY">When Compounding Works Against You</a>)</li>
 </ul>
-
----
 
 <h2>₿ Bitcoin & Macro</h2>
 
 <div class="story">
-  <h3><a href="https://bitcoinmagazine.com/news/bitcoin-defies-seasonal-slump">Bitcoin Defies Seasonal Slump With Third-Best August Ever</a></h3>
-  <p>Bitcoin posted its third-best August on record, bucking the typical summer lull that analysts have historically flagged. This runs counter to the seasonal weakness narrative and is worth noting as a data point against simple cyclical models.</p>
+  <h3><a href="https://bitcoinmagazine.com/news/bitcoin-gold-correlation-soars">Bitcoin-Gold Correlation Hits Six-Year High as Debasement Fears Mount</a></h3>
+  <p>Bitcoin is trading in tight correlation with gold at a six-year high — a pattern that historically appears when investors are losing confidence in fiat currency and seeking debasement hedges rather than risk assets. This is meaningful because it suggests Bitcoin is being priced as a monetary hedge (Saylor's thesis) rather than a speculative tech bet, which tends to happen during dollar credibility concerns.</p>
   <p class="meta">Bitcoin Magazine</p>
 </div>
 
 <div class="story">
-  <h3><a href="https://bitcoinmagazine.com/news/when-banks-dont-work-bitcoin-does-cornell">When the Banks Don't Work, Bitcoin Does: Cornell University's Adoption Index</a></h3>
-  <p>Cornell surveyed 25,880 people on Bitcoin usage and found adoption is driven primarily by banking system failure — where conventional financial infrastructure doesn't reach or function, Bitcoin fills the gap. Most users don't need to understand the technology for it to be useful, which is consistent with the Saylor-adjacent thesis that Bitcoin adoption is a function of fiat system weakness rather than crypto enthusiasm.</p>
+  <h3><a href="https://bitcoinmagazine.com/news/bitcoin-bear-market-not-over-says-fidelity">Bitcoin Bear Market May Not Yet Be Over, Says Fidelity</a></h3>
+  <p>Fidelity's analysis suggests Bitcoin may have bottomed in July, but their on-chain and macro indicators leave open the possibility of a new lower low later this year. Worth tracking as an institutional read on where we are in the cycle.</p>
   <p class="meta">Bitcoin Magazine</p>
 </div>
-
----
 
 <h2>🧬 Health & Science</h2>
 
 <div class="story">
-  <h3>Clonal Hematopoiesis: The Mutant Blood Cells Driving Heart Disease — And How Exercise & Sleep Fight Them</h3>
-  <p>Nick Norwitz's video (detailed above in YouTube section) is the most substantive health science item in today's inputs. The core finding from a new Nature paper: age-related mutations in bone marrow stem cells produce inflammatory blood cell clones that migrate to artery walls and accelerate atherosclerosis. Exercise and sleep suppress these clones through two non-redundant mechanisms each — slowing their expansion at the source and reprogramming their inflammatory behavior once circulating. The 2025 Nature Metabolism RCT (n=130) then provides the human payoff: exercise produced 7% plaque regression on arterial imaging at one year; GLP-1 alone did not reach statistical significance for the same outcome. The actionable takeaway is not that GLP-1s are useless but that exercise does something metabolic drugs currently don't — it reaches the immune cell origin story of atherosclerosis, not just the lipid surface layer.</p>
-  <p class="meta"><a href="https://www.youtube.com/watch?v=uG166N0pVy0">Nick Norwitz — Reverse Heart Disease in 1 Year</a></p>
+  <h3>GLP-1s Linked to Fewer Serious Infections, Including TB</h3>
+  <p>Emerging data is associating GLP-1 receptor agonists (Ozempic/semaglutide class) with reduced rates of serious infections, including tuberculosis — a finding that goes well beyond their metabolic effects and suggests possible immunomodulatory mechanisms. This is early but striking given TB's global burden. The mechanism isn't established but researchers speculate it may relate to reduced inflammation or changes in metabolic state that affect pathogen replication.</p>
+  <p class="meta"><a href="https://gizmodo.com/ozempic-and-other-glp-1s-are-being-linked-to-fewer-serious-infections-including-tb-2000806796">Gizmodo</a> · <a href="https://news.ycombinator.com/item?id=49548600">HN Discussion</a></p>
 </div>
 
 <div class="story">
-  <h3>Aging Brains Blend Memories Rather Than Erase Them</h3>
-  <p>A new study finds that older brains don't simply lose memories — they merge similar ones together, creating false composites rather than gaps. This reframes age-related memory decline: it's not erasure but a failure of pattern separation, where memories that should be distinct become fused. Mechanistically this implicates the hippocampus's ability to encode and retrieve episodic specificity, which declines with age and is a known target for exercise and sleep interventions.</p>
-  <p class="meta"><a href="https://studyfinds.com/aging-brains-blend-memories-together-instead-of-forgetting-them-study-finds/">Study Finds</a> · <a href="https://news.ycombinator.com/item?id=49543530">HN Discussion</a></p>
+  <h3>Avocado Oil Adulteration: UC Davis Study</h3>
+  <p>(See Thomas DeLauer section above for full breakdown.) The key scientific point: dual independent testing methods (fatty acid profile via gas chromatography + phytosterol fingerprinting) both shifted away from avocado oil signatures in 48 of 54 products tested, with >10% variance required to flag a product. The methodology was validated by showing that heating confirmed avocado oil doesn't alter its profile. Avocado oil has essentially no federal regulation, unlike olive oil.</p>
 </div>
 
----
+<div class="story">
+  <h3>AI-Designed Exercise Molecule: Lac-Phe Phase 1 Trial</h3>
+  <p>(See Nick Norwitz section above.) Stanford's 2022 discovery that intense exercise (especially sprinting) spikes a molecule called lac-phe — which suppressed appetite ~50% and caused weight loss in obese mice — has now led to AI-assisted drug design. Phase 1 human trials completed with positive results. The significance is methodological: AI parsing metabolic pathways to identify and modify endogenous exercise signals into pharmacological candidates.</p>
+  <p class="meta"><a href="https://www.youtube.com/shorts/59msNHXacCU">Nick Norwitz</a></p>
+</div>
 
 <h2>💡 Worth Reading</h2>
 
 <div class="story">
-  <h3><a href="https://trellner.com/reports/manufactured-sources-behind-ai-recommendations/">Three sites made 215,128 "best software" pages for AI. Perplexity cites them.</a></h3>
-  <p>An investigation into how AI recommendation systems (specifically Perplexity) are being gamed: three sites programmatically generated over 215,000 "best software" pages that AI systems then treat as legitimate sources and cite in responses. This is a concrete instance of the AI citation pollution problem — not theoretical, but measured and named. Worth understanding because it explains why AI-generated recommendations for software, products, or services are increasingly unreliable even when sourced-looking.</p>
-  <p class="meta"><a href="https://news.ycombinator.com/item?id=49543530">HN Discussion</a></p>
+  <h3><a href="https://anyhumanever.com/">Any Human Ever — One life, drawn at random from all who have ever lived</a></h3>
+  <p>An interactive piece that generates a random human life from across all of history — a genuine philosophical gut-punch about perspective, survivorship, and what "normal" human existence has actually looked like across time. The kind of thing that makes Stoic memento mori feel concrete rather than abstract.</p>
+  <p class="meta"><a href="https://news.ycombinator.com/item?id=49548600">HN Discussion</a> · 563 points</p>
 </div>
 
 <div class="story">
-  <h3><a href="https://turtlespace.blog/p/exit-the-cave">Exit the Cave</a></h3>
-  <p>An essay riffing on Plato's allegory — but the angle is worth noting given the day's other content: the difficulty of updating your priors when your entire environment reinforces them. Well-timed alongside the DHH interview's observation that even sophisticated technologists couldn't see what was obvious to early AI adopters until they'd personally experienced the output. The cave isn't ignorance so much as the absence of the right kind of experience.</p>
-  <p class="meta"><a href="https://news.ycombinator.com/item?id=49543530">HN Discussion</a> (250 pts)</p>
+  <h3><a href="https://www.discoverwildlife.com/animal-facts/artificial-beaver-dams-california">Artificial Beaver Dams Raised Juvenile Coho Salmon Survival from 8% to 60%</a></h3>
+  <p>A striking ecological finding: installing simple artificial structures mimicking beaver dams in California streams produced a 7.5x improvement in juvenile coho salmon survival rates. Beyond the conservation result, it's a compelling case study in how replicating natural systems (rather than engineering novel solutions) can produce outsized outcomes — relevant to anyone thinking about biomimicry or second-order ecological effects.</p>
+  <p class="meta"><a href="https://news.ycombinator.com/item?id=49548600">HN Discussion</a> · 237 points</p>
 </div>
 
 <div class="story">
-  <h3><a href="https://donaldrobertson.substack.com/p/how-to-decatastrophize-the-worst">How to Decatastrophize the Worst-Case Scenario</a></h3>
-  <p>Donald Robertson (Stoic scholar and CBT practitioner) covers the Stoic technique of <em>premeditatio malorum</em> — deliberately rehearsing worst-case scenarios to reduce their emotional charge. The key Stoic insight he draws on: what makes a bad outcome catastrophic is almost always our judgment of it, not the event itself. Useful paired with Seneca's distinction between what we fear and what is actually harmful.</p>
-  <p class="meta"><a href="https://donaldrobertson.substack.com/p/how-to-decatastrophize-the-worst">Donald Robertson / The Stoic Mind</a></p>
+  <h3><a href="https://babyloniantwins.com/blog/porting-a-1993-amiga-game-to-godot/">Porting a 1993 Amiga Game to Godot Using an LLM to Read 68000 Assembly</a></h3>
+  <p>A developer used an LLM to interpret raw 68000 assembly code from a 1993 game and assist in porting it to a modern engine. This is a concrete, non-hype demonstration of a real AI capability: comprehending legacy low-level code that no one alive may fully remember writing, and translating it into a modern context. Worth noting as an example of AI as a tool for cultural/software preservation.</p>
+  <p class="meta"><a href="https://news.ycombinator.com/item?id=49548600">HN Discussion</a> · 272 points</p>
 </div>
-
-<div class="story">
-  <h3><a href="https://www.nature.com/articles/s41562-026-02550-0">The Shrinking Landscape of Linguistic Diversity in the Age of LLMs</a></h3>
-  <p>A Nature paper examining how large language models are compressing linguistic diversity — since LLMs are trained overwhelmingly on English and a handful of other high-resource languages, their widespread use may accelerate the decline of minority languages and dialects by making dominant-language outputs the default for everything from education to commerce. This is the cultural version of the monopoly concern around AI: not political censorship but homogenization of thought through homogenization of language.</p>
-  <p class="meta"><a href="https://news.ycombinator.com/item?id=49543530">HN Discussion</a> (132 pts)</p>
-</div>
-
----
 
 <h2>🤖 AI Capability Watch</h2>
 
 <div class="story">
-  <h3><a href="https://blog.google/innovation-and-ai/models-and-research/gemini-models/3-8-flash-and-3-8-flash-cyber/">Gemini 3.8 Flash and 3.8 Flash Cyber</a></h3>
-  <p>Google released Gemini 3.8 Flash, a new model in its frontier family with configurable "thinking" levels (low/medium/high). The Cyber variant is notable: it's specifically capability-flagged for cybersecurity — finding and chaining security vulnerabilities — which Google treats as a reason for additional safeguards, mirroring Anthropic's handling of its Astra model. The practical implication is that AI is now good enough at offensive security research that labs are treating it as a distinct risk category requiring special release protocols, not just another model feature.</p>
-  <p class="meta"><a href="https://blog.google/innovation-and-ai/models-and-research/gemini-models/3-8-flash-and-3-8-flash-cyber/">Google Blog</a> · <a href="https://news.ycombinator.com/item?id=49543530">HN Discussion</a> (983 pts)</p>
-</div>
-
-<div class="story">
-  <h3><a href="https://openai.com/index/chatgpt-connects-health-records-and-healthcare-sources">ChatGPT can now connect to EHR and healthcare industry data</a></h3>
-  <p>OpenAI is enabling healthcare organizations to connect electronic health records and other clinical data sources directly to ChatGPT, so clinicians can query patient context alongside medical literature in a single interface. This is a new product category — AI with live access to your actual patient data rather than just general medical knowledge — and represents a meaningful step toward AI as a clinical decision-support layer rather than a search tool.</p>
-  <p class="meta"><a href="https://openai.com/index/chatgpt-connects-health-records-and-healthcare-sources">OpenAI Blog</a></p>
+  <h3><a href="https://openai.com/index/gpt-6-astra/">GPT-6 Astra — OpenAI's New Flagship Model</a></h3>
+  <p>OpenAI has released GPT-6 Astra, rolling out now to ChatGPT Plus/Pro/Business/Enterprise users. Early real-world results: a legal tech firm (Legora) used it to review 41 documents in minutes, find all four planted errors, and improve workflow performance by ~40%; a game studio (Playco) built three themed game prototypes from a single foundation with 50% fewer manual fixes than the prior model. Notably, OpenAI classified it as reaching the "Critical" level of cybersecurity capability under their Preparedness Framework — the first model to do so — which they say required additional safeguards before release.</p>
+  <p class="meta"><a href="https://openai.com/index/gpt-6-astra/">OpenAI</a> · <a href="https://simonwillison.net/2026/Sep/3/gpt6-astra/">Simon Willison's Notes</a></p>
 </div>
 </body>
 </html>
