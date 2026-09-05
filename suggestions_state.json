@@ -1,11 +1,11 @@
 {
   "current_suggestion": {
-    "channel_name": "Solve Channel TV",
-    "channel_id": "UCPGByBP41-pHPtJHZeuXX7g",
-    "youtube_handle": "@solveforwhytv",
-    "pitch": "You consume GTO content from Wizard and GTO Lab but Solve For Why \u2014 wait, this is on your exclusion list. Let me correct: Matt Berkey's channel covers the exploitative, live-game, population-reads side of poker that pure GTO channels systematically underweight, giving you the steelman for why solver outputs alone are insufficient at real tables. Format is a mix of hand breakdowns, solo theory, and roundtable discussion with high-stakes live players. The depth assumes a serious student and avoids beginner-padding."
+    "channel_name": "Garrett Adelstein",
+    "channel_id": "UCDwfMOCLpM00rgsSg3ZsUYg",
+    "youtube_handle": "@garrettadelstein",
+    "pitch": "You're getting GTO theory from Wizard and GTO Lab, but Garrett covers the live high-stakes psychology layer that purely solver-driven content misses \u2014 reads, table dynamics, mental game at the highest cash game levels, and how to think under real pressure when GTO is only part of the equation. He posts hand breakdowns and direct commentary on live play decisions that complement rather than duplicate what solver-focused channels produce. Format is solo analysis and conversational, with the introspective depth of someone who has played millions at stake and thought seriously about the mental side of the game."
   },
-  "shown_count": 3,
+  "shown_count": 1,
   "history": [
     "Brad Kearns",
     "Dr. Layne Norton",
@@ -57,6 +57,7 @@
     "Exotic fishes ",
     "Entity Status",
     "CrushlivePoker",
-    "Solve Channel TV"
+    "Solve Channel TV",
+    "Garrett Adelstein"
   ]
 }
