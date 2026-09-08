@@ -1,11 +1,11 @@
 {
   "current_suggestion": {
-    "channel_name": "Garrett Adelstein",
-    "channel_id": "UCDwfMOCLpM00rgsSg3ZsUYg",
-    "youtube_handle": "@garrettadelstein",
-    "pitch": "You're getting GTO theory from Wizard and GTO Lab, but Garrett covers the live high-stakes psychology layer that purely solver-driven content misses \u2014 reads, table dynamics, mental game at the highest cash game levels, and how to think under real pressure when GTO is only part of the equation. He posts hand breakdowns and direct commentary on live play decisions that complement rather than duplicate what solver-focused channels produce. Format is solo analysis and conversational, with the introspective depth of someone who has played millions at stake and thought seriously about the mental side of the game."
+    "channel_name": "TEDx Talks",
+    "channel_id": "UCsT0YIqwnpJCM-mx7-gSA4Q",
+    "youtube_handle": "@TEDx",
+    "pitch": "Tim Urban is the author of Wait But Why and one of the clearest long-form thinkers alive on topics you care about \u2014 mental models, AI capabilities (his 'AI Revolution' posts remain foundational), and how humans reason under uncertainty. His visual essay format is distinct from anything in your current lineup: slow, methodical, often funny, and built around first-principles frameworks rather than expert interviews. His work on procrastination, social hierarchies, and the 'Elon' book research covers the 'inner game' and decision-making angle from a direction Huberman and Fridman don't touch."
   },
-  "shown_count": 3,
+  "shown_count": 1,
   "history": [
     "Brad Kearns",
     "Dr. Layne Norton",
@@ -58,6 +58,7 @@
     "Entity Status",
     "CrushlivePoker",
     "Solve Channel TV",
-    "Garrett Adelstein"
+    "Garrett Adelstein",
+    "TEDx Talks"
   ]
 }

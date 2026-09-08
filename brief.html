@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>Morning Brief — Monday, September 07, 2026</title>
+<title>Morning Brief — Tuesday, September 08, 2026</title>
 <style>
   body {
     font-family: Georgia, serif;
@@ -92,146 +92,143 @@
 })();
 </script>
 <h1>Morning Brief</h1>
-<p class="date">Monday, September 07, 2026</p>
+<p class="date">Tuesday, September 08, 2026</p>
 
 <div class="anchor">
   <h2>☀️ Today's Anchor</h2>
   <div class="anchor-block">
-    <p class="quote">"The obstacle is the way."</p>
-    <p class="author">— Marcus Aurelius (paraphrased)</p>
-    <p class="context">Marcus wrote: 'What stands in the way becomes the way.' Ryan Holiday made the paraphrase famous in a book of the same name.</p>
+    <p class="quote">"Hard choices, easy life. Easy choices, hard life."</p>
+    <p class="author">— Jerzy Gregorek</p>
+    <p class="context">Polish-American weightlifter and poet. The line encapsulates why short-term discipline compounds into long-term freedom.</p>
   </div>
   <div class="anchor-block">
-    <p class="model-label">Mental Model · Strategy/Military</p>
-    <p class="model-name">OODA Loop</p>
-    <p class="context">Colonel John Boyd's framework: Observe, Orient, Decide, Act — then repeat, faster than your opponent. The faster your loop, the more control you have. Applies to fighter pilots, startups, and personal decisions. Most people are stuck in 'Orient' — paralyzed by analysis — while faster actors run circles around them.</p>
+    <p class="model-label">Mental Model · Strategy</p>
+    <p class="model-name">Maginot Line Thinking</p>
+    <p class="context">France's WWI-era defense, designed against the last war, was simply bypassed in WWII. Generals always fight the last war. Companies always defend the last market. Individuals always prepare for the last threat. Ask: what if the threat doesn't come from where I'm defending?</p>
   </div>
 </div>
 
 <div class="spotlight">
   <h2>🧭 Channel Spotlight</h2>
-  <p class="spotlight-name">Garrett Adelstein</p>
-  <p class="spotlight-pitch">You're getting GTO theory from Wizard and GTO Lab, but Garrett covers the live high-stakes psychology layer that purely solver-driven content misses — reads, table dynamics, mental game at the highest cash game levels, and how to think under real pressure when GTO is only part of the equation. He posts hand breakdowns and direct commentary on live play decisions that complement rather than duplicate what solver-focused channels produce. Format is solo analysis and conversational, with the introspective depth of someone who has played millions at stake and thought seriously about the mental side of the game.</p>
+  <p class="spotlight-name">TEDx Talks</p>
+  <p class="spotlight-pitch">Tim Urban is the author of Wait But Why and one of the clearest long-form thinkers alive on topics you care about — mental models, AI capabilities (his 'AI Revolution' posts remain foundational), and how humans reason under uncertainty. His visual essay format is distinct from anything in your current lineup: slow, methodical, often funny, and built around first-principles frameworks rather than expert interviews. His work on procrastination, social hierarchies, and the 'Elon' book research covers the 'inner game' and decision-making angle from a direction Huberman and Fridman don't touch.</p>
   <p class="spotlight-instructions">Interested? Copy the line below into <code>YOUTUBE_CHANNELS</code> in <code>brief.py</code> and save:</p>
-  <pre class="spotlight-snippet" id="snippet">    "Garrett Adelstein": "UCDwfMOCLpM00rgsSg3ZsUYg",</pre>
+  <pre class="spotlight-snippet" id="snippet">    "TEDx Talks": "UCsT0YIqwnpJCM-mx7-gSA4Q",</pre>
   <button class="copy-btn" onclick="navigator.clipboard.writeText(document.getElementById('snippet').innerText.trim()); this.innerText='✅ Copied'; setTimeout(()=>this.innerText='📋 Copy snippet', 2000);">📋 Copy snippet</button>
-  <p class="spotlight-meta">showing for 1 more day. If you don't add it, a new channel will be suggested.</p>
+  <p class="spotlight-meta">showing for 3 more days. If you don't add it, a new channel will be suggested.</p>
 </div>
 <h2>🎥 From People I Follow</h2>
 
 <p><strong>Worth your time:</strong></p>
 
 <div class="story">
+  <h3>Nick Norwitz</h3>
+  <p>Norwitz breaks down a new <em>Nature Aging</em> study that took the most detailed molecular snapshot of aging muscle ever — 24,000+ gene readouts, 135 metabolites, 1,383 lipids across young, trained older, normally active older, and physically impaired older adults. The headline finding: highly trained older adults had <strong>57% of age-related gene expression changes simply absent</strong> — not slowed, gone. The preserved gains were concentrated specifically in mitochondrial energy machinery (NAD metabolism, electron transport chain complexes 1 and 4), suggesting exercise isn't just building a reserve you spend later, it's keeping the cellular engine running on a younger blueprint. Qualification: "trained" in this study meant ≥3 sessions/week, ≥1 hour each — about 3 hours/week total, a realistic bar. He also flags that chronically elevated blood sugar makes muscles less able to remodel in response to exercise (via glycation, inflammation, impaired angiogenesis) — a mechanism explaining why some people are "exercise non-responders."</p>
+  <p class="meta">Videos: <a href="https://www.youtube.com/watch?v=GvA7sEKlmpU">Exercise Erases 57% of Muscle Aging</a></p>
+</div>
+
+<div class="story">
   <h3>Jared Alderman</h3>
-  <p>Two sharp shorts on AI poker bots dominating humans. The key insight: GTO Wizard AI tested LLMs and human benchmarks against Ruse, and top human players are getting annihilated — not by an exploitative bot, but by one playing pure theoretical GTO. More striking: Ruse beat the second-best AI for 19 big blinds per 100, which Alderman uses to make the point that people dramatically underestimate how finely calibrated perfect play is. There's almost certainly a ceiling much higher than anything currently visible, and the gap between "good AI" and "perfect AI" is enormous.</p>
-  <p class="meta">Videos: <a href="https://www.youtube.com/shorts/btZCBZFPHec">AI Poker Bots DOMINATE Top Humans</a> · <a href="https://www.youtube.com/shorts/TrshIWD8I70">Poker AI: The Unseen Edge in Perfect Play</a></p>
+  <p>Short but sharp PLO theory clip: the core insight is that when holding the current nuts (e.g., 8-9 on a J-T-7 board without a flush draw), the right question isn't "do I have the best hand now?" but "what's the probability this hand is still the nuts by the river?" Without backup equity, the solver actually checks back nut straights at a frequency — because betting to protect a hand that has a high chance of being counterfeited is a fear-based pattern, not an EV-maximizing one. Top set bets more than a naked straight because top set retains equity even when called by sets that improve. Classic case of solver output running counter to instinct.</p>
+  <p class="meta">Videos: <a href="https://www.youtube.com/shorts/9249E0EWTRM">Betting Scared</a></p>
 </div>
 
 <div class="story">
   <h3>GTO Lab</h3>
-  <p>Concrete look at how equity advantage is opponent-dependent, specifically comparing UTG vs. BB versus UTG vs. SB ranges. The global in-position equity for UTG vs. BB averages 60%, with high boards reaching into the high 60s — many textures where the opener dominates so severely that piling money in immediately (king-nine type boards) is correct. The point is that c-betting strategy shifts dramatically based on which opponent you're facing, and the equity differential is often much larger than players account for.</p>
-  <p class="meta">Videos: <a href="https://www.youtube.com/shorts/axovKWbNHFA">Equity advantage is opponent-dependent.</a></p>
+  <p>Quick tournament spots video focused on shallow single-raise-pot BB check-raises: the takeaway is that players consistently play too tight in these spots, failing to include hands with backdoor equity (e.g., T3s or 84s with a backdoor flush draw). Even without immediate equity, the backdoor draw provides enough "protection" from being levered on later streets to justify a check-raise frequency higher than most players guess. Button should respond by floating fairly wide — including KJ, KT, ace-highs, and even suited connectors.</p>
+  <p class="meta">Videos: <a href="https://www.youtube.com/shorts/hGkcSzShQGI">Shallow BB check-raises need more backdoor-equity hands than comfort suggests</a></p>
 </div>
 
 <div class="story">
-  <h3>Nick Norwitz</h3>
-  <p>Covers a 6-month randomized controlled trial comparing a low-carb ketogenic diet vs. Mediterranean vs. low-fat plant-based diet, with all three arms designed to produce equal weight loss. Despite matched caloric outcomes, the keto group saw larger improvements across liver fat, inflammation, blood triglycerides, and insulin resistance scores. The researchers' own conclusion: "A very low-carb diet has greater cardiometabolic benefits than a matched Mediterranean or low-fat plant-based diet in people with obesity." Worth noting this is an RCT, not epidemiology.</p>
-  <p class="meta">Videos: <a href="https://www.youtube.com/shorts/Ou1Lh99J6bA">New Study Pit Keto Against the Mediterranean Diet. Keto Won</a></p>
-</div>
-
-<div class="story">
-  <h3>Renaissance Periodization</h3>
-  <p>Two tight clips. First: women typically train with better technique and smarter programming than men, but chronically leave too many reps in reserve — often 5+ when working sets should be 0-3 RIR. The fix is simple: add weight to the bar and force proximity to failure. Second: calories matter, counting them doesn't — if you reduce portions of carbs and fats by half visually while keeping protein high, you will eat fewer calories without tracking. The actual number going down is what drives fat loss; the mechanism of tracking it is optional.</p>
-  <p class="meta">Videos: <a href="https://www.youtube.com/shorts/vXgPyEOp2fc">Women Lift With Better Technique, Here's Why</a> · <a href="https://www.youtube.com/shorts/qV1LP88h8Bs">Calories Matter... Counting Them Doesn't</a></p>
-</div>
-
-<div class="story">
-  <h3>ModernWisdom</h3>
-  <p>One short with a genuinely clean mental model from James Clear: "It doesn't make sense to continue wanting something if you're not willing to do what it takes to get it. To crave the result but not the process is to guarantee disappointment." If you don't want to live the lifestyle, release yourself from the desire. That's the whole thing — but it's worth sitting with.</p>
-  <p class="meta">Videos: <a href="https://www.youtube.com/shorts/fjT_dZ8KdfY">Don't Just Desire The Result</a></p>
+  <h3>Mind The Game (Steph Curry & LeBron)</h3>
+  <p>Steve Nash tells the story of his final preseason game guarding Steph Curry — Curry's Warriors put up ~45-50 in the first quarter, Nash was dragging a nerve-damaged back around every screen, and within days Nash called Mitch Kupchak to retire. The more substantive basketball content: Nash and Steph discuss how Steph's one-piece shot (no discernible gather or set point) works specifically because it doesn't require a full stop — he generates full power mid-motion, making it nearly impossible to time. Nash notes this is "unorthodox" as a teaching model but gives Steph a massive advantage off the dribble at 6'3". Steph credits his father Dell's quick release as an influence but says he had to own a different form — and resisted changing his high-school slingshot form until it became clear it would get blocked at the next level.</p>
+  <p class="meta">Videos: <a href="https://www.youtube.com/watch?v=bgSixq0dOKs">The Hilarious Story Behind How Steph Made Steve Nash Retire</a></p>
 </div>
 
 <p><strong>Also posted:</strong></p>
 <ul>
-  <li><strong>Ken Berry MD:</strong> Five clinical lessons from 25,000 patients — fasting insulin predicts type 2 diabetes 5-15 years out (flag anything above 15), hunger always beats willpower so diet design matters more than discipline, body measurements and labs are better progress markers than scale weight, and dietary monotony (beef/butter/bacon/eggs for 90 days) helps break food-as-pleasure conditioning. (<a href="https://www.youtube.com/watch?v=1dTsUd73FRc">5 Things I Learned From 25,000 Patients</a>)</li>
-  <li><strong>Dr. Sten Ekberg:</strong> Makes a compelling case that pulse pressure (systolic minus diastolic) is the overlooked blood pressure metric — a difference over 50 indicates arterial stiffness, reduced aortic elasticity, and increased coronary artery disease and stroke risk. The 2025 guidelines still don't mention it. Critically, insulin resistance drives both elevated BP and atherosclerosis, so medicating the number without addressing metabolic root cause is a partial fix. (<a href="https://www.youtube.com/watch?v=8u4iQbR4AyQ">Blood Pressure Number You Should NEVER Ignore</a>)</li>
-  <li><strong>Paul Saladino MD:</strong> Raw egg whites contain avidin, which binds and blocks absorption of biotin (a B vitamin). Cook the whites; if you want raw egg, the yolk is fine. (<a href="https://www.youtube.com/shorts/G2pD7Q9a200">Raw egg whites are robbing you of nutrients</a>)</li>
-  <li><strong>Thomas DeLauer:</strong> Post-10-years-of-low-carb update — now eating 100–175g carbs/day, focused on resistant starches (retrograded corn tortillas, cooled-then-reheated potatoes, mildly unripe bananas), amylase-inhibiting berries, Manuka honey, and butternut squash. Carbs skewed toward evening to keep insulin low during daytime activity. (<a href="https://www.youtube.com/watch?v=RwY-P8Pg79M">I Started Eating Carbs After 10 Years Avoiding Them</a>)</li>
-  <li><strong>Andrew Huberman / Dr. Gina Poe:</strong> Sleep architecture deep dive — the first 90-minute cycle is when the major growth hormone bolus is released, and skipping it (by going to bed later than usual) loses that pulse even if total sleep time is maintained, because cells are clock-synchronized to respond to GH at a specific time. Alcohol suppresses REM sleep and stage 2 sleep spindles, which are the mechanism for moving memories from hippocampus to cortex. Late-night REM cycles (second half of sleep) are when creativity and schema-building happen. (<a href="https://www.youtube.com/watch?v=f1NNmiz547U">Essentials: Use Sleep to Enhance Learning, Memory & Emotional State</a>)</li>
-  <li><strong>Peter Attia:</strong> Full AMA rebroadcast on blood pressure measurement and management — covers the SPRINT trial (intensive treatment to &lt;120 systolic vs. standard &lt;140), why home measurement beats office readings, lifestyle interventions ranked by effect size, and medication classes. Substantive but overlaps heavily with the Ekberg piece above. (<a href="https://www.youtube.com/watch?v=n42zMaH2Jgc">Blood pressure: how to measure, manage, and treat high blood pressure</a>)</li>
-  <li><strong>Ben Felix:</strong> Health-as-compounding framework — VO2 max in the bottom quartile carries double the all-cause mortality risk of the top quartile, comparable to or greater than smoking. Muscle mass loss (sarcopenia) starts in your 30s and compounds like portfolio drawdown. Sleep under 6 hours is associated with increased cardiac events. Strong social relationships are among the most reliable longevity predictors per the Harvard Adult Development Study. Disclosed testicular cancer diagnosis at &lt;40 as the personal motivation. (<a href="https://www.youtube.com/watch?v=skc2T5fcoLY">When Compounding Works Against You</a>)</li>
-  <li><strong>Mind The Game (Steph Curry + LeBron):</strong> Steve Nash explains that Steph Curry's preseason performance against him (mid-40s points in a quarter) was the direct trigger for his retirement decision — and Curry's shot mechanics breakdown is legitimately interesting: his one-piece motion from catch through release means he never fully stops, which is what enables his range off the dribble without losing power. (<a href="https://www.youtube.com/watch?v=bgSixq0dOKs">The Hilarious Story Behind How Steph Made Steve Nash Retire</a>)</li>
-  <li><strong>Anthony Chaffee MD:</strong> Patient testimony episode about Alzheimer's reversal via carnivore diet — anecdotal, no controls. Not enough to flag clinically but worth knowing the story is circulating. (<a href="https://www.youtube.com/watch?v=VvfcTTLczgA">No. 1 Dementia Treatment | Dean & Jodie</a>)</li>
+  <li><strong>Anthony Chaffee MD:</strong> Long testimonial episode featuring a couple (Dean & Jody) where Jody, a nurse practitioner, received an Alzheimer's diagnosis at 58 and experienced significant cognitive improvement after transitioning to carnivore diet — the episode traces their path from standard American diet through keto to carnivore, citing ketone metabolism, MCT oil research (Dr. Mary Newport's work with her husband), and the Bredesen protocol as influences. (<a href="https://www.youtube.com/watch?v=VvfcTTLczgA">No. 1 Dementia Treatment | Dean & Jodie</a>)</li>
+  <li><strong>Ken Berry MD:</strong> Five clinical lessons from 25,000 patients: fasting insulin predicts type 2 diabetes 5-10 years out (flag at >15); hunger always beats willpower on an inadequate diet; body measurements and fasting insulin are better short-term progress markers than scale weight; and dietary monotony for 90 days is underrated for severe metabolic dysfunction because food variety drives overeating. (<a href="https://www.youtube.com/watch?v=1dTsUd73FRc">5 Things I Learned From 25,000 Patients</a>)</li>
+  <li><strong>Paul Saladino MD:</strong> Specific and practical: raw egg whites contain avidin, which binds and blocks absorption of biotin (B vitamin); eating a fully raw egg means the avidin in the white can block the biotin in the yolk. Fix: cook the white, eat the yolk raw if desired. (<a href="https://www.youtube.com/shorts/G2pD7Q9a200">Raw egg whites are robbing you of nutrients</a>)</li>
+  <li><strong>Dr. Sten Ekberg:</strong> Makes the case that <em>pulse pressure</em> (systolic minus diastolic) is a more important and overlooked cardiovascular marker than the headline BP numbers — ideal is 30-40, above 50 enters concerning territory, above 70 is dangerous. A reading of 115/55 (PP=60) is worse than 128/88 (PP=40) despite looking better to most patients. Mechanism: arterial stiffness from elastin degradation (glycation, inflammation, calcification) forces the heart to work harder, enlarges the left ventricle, reduces coronary perfusion, and creates abrupt pressure waves that damage kidneys and brain. Not mentioned once in the 2025 blood pressure guidelines. (<a href="https://www.youtube.com/watch?v=8u4iQbR4AyQ">Blood Pressure Number You Should NEVER Ignore</a>)</li>
+  <li><strong>Renaissance Periodization (Dr. Mike):</strong> Two shorts — Mike candidly says steroids are "poison" and he takes them anyway out of "vanity," with calculated bloodwork-monitored tradeoffs and an explicit acknowledgment it reduces his odds of reaching old age. Separately, argues Mike O'Hearn at 275 lbs will have shortened longevity not because of muscle per se, but because body weight above ~200-225 lbs on his frame overburdens joints, heart, liver, and kidneys — the longevity problem is load, not muscle quality. (<a href="https://www.youtube.com/shorts/j83bF92zR-g">Dr. Mike Calls Steroids Poison</a> · <a href="https://www.youtube.com/shorts/trbkS6Vfyfg">Mike O'Hearn is TOO BIG for Health</a>)</li>
+  <li><strong>Thomas DeLauer:</strong> Argues that the <em>variety</em> of resistant starch types (RS1 from legumes, RS2 from green bananas/raw potato, RS3 from cooled cooked starches) matters more than quantity — because different types ferment at different rates and locations, and combining them extends fermentation and butyrate production down to the distal colon, which is where most colorectal issues develop. Single-source resistant starch feeds only a narrow bacterial population. (<a href="https://www.youtube.com/watch?v=m8olsOIVhTY">The Best food for Colon Health is not Fiber, it's 1/4 cup of This</a>)</li>
+  <li><strong>Ben Felix:</strong> Frames health investment using the same compounding logic as personal finance — small lifestyle deficits compound invisibly until they're largely irreversible. Cites a JAMA 2018 study showing low cardiorespiratory fitness carries comparable or greater all-cause mortality risk than smoking. Also notes he was diagnosed with testicular cancer at under 40 despite being in good health — used to prompt male viewers to self-check. (<a href="https://www.youtube.com/watch?v=skc2T5fcoLY">When Compounding Works Against You</a>)</li>
+  <li><strong>Peter Attia:</strong> AMA rebroadcast on blood pressure covering measurement accuracy (office readings vs. home), the SPRINT trial (intensive <120 vs. standard <140 systolic), and the three primary cardiovascular risk factors: smoking, apoB, and blood pressure. (<a href="https://www.youtube.com/watch?v=n42zMaH2Jgc">Blood pressure AMA #48 rebroadcast</a>)</li>
+  <li><strong>Andrew Huberman:</strong> Deep-dive conversation with mitochondrial biologist Dr. Jared Rutter on how mitochondria originated (endosymbiotic bacteria), why they degrade with age (damage accumulation, reactive oxygen species from energy surplus), and why "metabolism" is really the sum of 30 trillion individual cellular metabolisms rather than a single body-level rate. (<a href="https://www.youtube.com/watch?v=bv56Cuq-fyY">How Mitochondria Control Your Metabolism | Dr. Jared Rutter</a>)</li>
 </ul>
+
+---
 
 <h2>₿ Bitcoin & Macro</h2>
 
 <div class="story">
-  <h3><a href="https://bitcoinmagazine.com/markets/bitcoin-dips-on-strong-jobs-report">Bitcoin Dips Below $80,000 on Strong US Jobs Report</a></h3>
-  <p>Bitcoin fell below $80K on news that a strong jobs report raises the probability of a Federal Reserve rate hike this month. This is the standard risk-asset inverse relationship with rate expectations — tighter monetary policy raises the opportunity cost of holding non-yielding assets. Notable as a data point that BTC is still trading like a risk asset rather than a monetary hedge in short-term macro reactions.</p>
+  <h3><a href="https://bitcoinmagazine.com/news/liquid-gets-3400-btc-back-after-on-chain-talks-white-hats-keep-598-5-btc">Liquid Network Security Incident: 4,000 BTC Withdrawn, 3,400 Returned</a></h3>
+  <p>A self-described white-hat party withdrew ~4,000 BTC (~$300M) from Blockstream's Liquid Network federation wallet — the reserve backing L-BTC on the sidechain — apparently exploiting a vulnerability in bridge nodes. After Blockstream patched the nodes and negotiated on-chain, 3,400 BTC was returned; the white-hats retained ~598.5 BTC (~$47M) as a bounty. This is a meaningful stress test for Bitcoin layer-2 / sidechain trust models: Liquid relies on a federated multi-sig, and this incident surfaced a live vulnerability in that federation infrastructure while the sidechain was paused.</p>
   <p class="meta">Bitcoin Magazine</p>
 </div>
 
-<div class="story">
-  <h3><a href="https://bitcoinmagazine.com/news/alleged-white-hat-hackers-withdraw-4000-bitcoin-from-blockstreams-liquid-network-federation-reserves">Alleged White-Hat Hackers Withdraw 4,000 BTC from Liquid Network</a></h3>
-  <p>Purported white-hat hackers withdrew ~4,000 bitcoin (~$320M at recent prices) from the federation wallet backing Liquid's L-BTC sidechain. Bridge nodes are disabled and the sidechain is paused. This is a significant operational security event for Blockstream's federated sidechain model — the federation structure is supposed to be the security guarantee, and this compromises it directly.</p>
-  <p class="meta">Bitcoin Magazine</p>
-</div>
+---
 
 <h2>🧬 Health & Science</h2>
 
 <div class="story">
-  <h3>Pulse Pressure: The Blood Pressure Metric Your Doctor Isn't Tracking</h3>
-  <p>Both Ekberg and Attia's content this cycle touch on blood pressure, but Ekberg's specific point on pulse pressure is the most actionable and underreported: the difference between systolic and diastolic (not just the absolute numbers) reflects arterial elasticity. A pulse pressure over 50 (e.g., 120/70 — which most people would call excellent) signals arterial stiffness. The mechanism: elastin, formed mostly in utero and the first years of life, is never meaningfully replaced. Inflammation, glycation from high blood glucose, and calcification all degrade it over time. The clinical consequence is left ventricular hypertrophy (the heart enlarges to compensate for resistance), reduced coronary artery blood flow during diastole, and sharper pressure waves that damage the brain and kidneys. Crucially, the 2025 blood pressure guidelines don't mention pulse pressure at all, and insulin resistance — which drives both BP elevation and atherosclerotic plaque — is rarely measured alongside BP in standard care.</p>
+  <h3>Pulse Pressure: The Blood Pressure Number Doctors Aren't Measuring</h3>
+  <p>Multiple sources this cycle converged on an under-discussed cardiovascular marker. Dr. Sten Ekberg made the clearest case: pulse pressure (systolic − diastolic) reflects arterial elasticity, and a PP of 30-40 is ideal — a 115/55 reading (PP=60) is <em>worse</em> than 128/88 (PP=40) despite looking better by conventional metrics. The mechanism: stiff arteries (from elastin degradation via glycation, inflammation, mechanical fatigue over ~3 billion heartbeats) force the heart to pump harder, creating left ventricular hypertrophy, reducing coronary artery perfusion (which happens during diastole, fed by aortic rebound), and sending abrupt pressure waves to kidneys and brain. Notably, the 2025 blood pressure guidelines didn't mention pulse pressure at all, focusing entirely on absolute numbers and earlier drug intervention. Peter Attia's rebroadcast reinforced the broader point: blood pressure is one of only three primary causes of atherosclerosis (alongside apoB and smoking), and most people either don't know their numbers or measure them incorrectly (office readings are unreliable; the SPRINT trial used a 5-minute seated rest protocol with three consecutive readings).</p>
 </div>
 
 <div class="story">
-  <h3>Keto vs. Mediterranean: RCT Results (Nick Norwitz)</h3>
-  <p>A 6-month randomized controlled trial (not epidemiology) with equal weight loss across arms found the ketogenic diet group outperformed Mediterranean and low-fat plant-based diets on liver fat reduction, inflammatory markers, blood triglycerides, and insulin resistance scores. The researchers' stated conclusion was that keto has "greater cardiometabolic benefits" in people with obesity. The equal-weight-loss design is the key methodological strength — it isolates macronutrient composition from total caloric deficit.</p>
+  <h3>Exercise Preserves Mitochondrial Youth at the Gene Expression Level</h3>
+  <p>Nick Norwitz's breakdown of the <em>Nature Aging</em> paper is the most compelling health finding in this cycle. The study found 57% of age-related gene expression changes in muscle were absent in highly trained older adults — specifically in mitochondrial energy metabolism genes (NAD biosynthesis, electron transport chain complexes). This reframes the exercise-longevity story: it's not primarily about building a muscle reserve that you draw down, it's about maintaining the quality and function of cellular energy systems. Andrew Huberman's mitochondria episode with Dr. Jared Rutter provides the mechanistic backdrop: mitochondria generate reactive oxygen species when overpowered with excess energy (from overfeeding or metabolic dysfunction), leading to genomic damage and protein damage — one of the core drivers of the aging process at the cellular level. The convergence: the same mitochondria that degrade with sedentary aging are specifically preserved by exercise.</p>
 </div>
 
 <div class="story">
-  <h3>Fasting Insulin as a 10-Year Predictive Marker (Ken Berry)</h3>
-  <p>Berry's clinical claim from 25,000 patients: a fasting insulin above 15 can predict type 2 diabetes 5-15 years before diagnosis — far earlier than fasting glucose or HbA1c, which typically only flag pre-diabetes 2-3 years out. He extends this to fatty liver, hypertension, and metabolic syndrome — all visible through fasting insulin before clinical diagnosis. For fat loss specifically, he argues insulin needs to drop to roughly 10 or below before stored fat can be meaningfully mobilized, which is why scale weight often doesn't move even when body composition is improving.</p>
+  <h3>Fasting Insulin as a Leading Indicator — A Clinician's Perspective</h3>
+  <p>Ken Berry's clinical observation is worth flagging as a standalone health data point: a fasting insulin above 15 can predict type 2 diabetes 5-15 years before it manifests, well before fasting glucose or HbA1c enter pre-diabetic ranges. Dr. Sten Ekberg's blood pressure video reinforced this with a specific example: a patient with BP of 135/85 and an A1C of 5.6 (below pre-diabetic threshold) could have a fasting insulin of 12-14 and a HOMA-IR (homeostatic model of insulin resistance) of ~2.0, indicating significant insulin resistance and likely subclinical atherosclerosis — yet standard guidelines would only flag the blood pressure and prescribe medication. The argument across both sources: treating blood pressure pharmacologically without addressing insulin resistance as the underlying driver is a band-aid that misses the actual causal mechanism.</p>
 </div>
 
-<div class="story">
-  <h3>Sleep Timing and Growth Hormone (Huberman / Dr. Gina Poe)</h3>
-  <p>The large growth hormone bolus that supports protein synthesis and memory consolidation occurs during the first 90-minute sleep cycle's slow-wave phase — and it is time-locked to your circadian clock, not just to sleep onset. Going to bed 90 minutes later than usual means missing that GH pulse even if you sleep the same total duration, because cells are synchronized to respond to GH at a specific circadian time relative to melatonin onset. Alcohol before bed suppresses REM sleep and stage 2 sleep spindles — the spindles being the specific mechanism by which memories transfer from hippocampus (RAM) to cortex (hard disk). Late-night REM cycles (second half of sleep) are disproportionately important for creativity and schema integration.</p>
-</div>
+---
 
 <h2>💡 Worth Reading</h2>
 
 <div class="story">
-  <h3><a href="https://openai.com/index/an-alien-mind">An Alien Mind</a></h3>
-  <p>OpenAI Chief Scientist Jakub Pachocki reflects on what he calls RSI — Recursive Self-Improvement — which appears to be OpenAI's framing for their current AGI-tier system. The essay grapples with the philosophical and alignment implications of AI that is qualitatively different from humans in how it thinks, not just quantitatively faster. Simon Willison notes that "RSI" is used without expansion in the piece, suggesting it's an internal term now going public. Worth reading as a primary-source document on how OpenAI's own scientists are framing what they've built.</p>
-  <p class="meta"><a href="https://news.ycombinator.com/item?id=49577129">Discussion</a> · OpenAI</p>
+  <h3><a href="https://deepmind.google/science/weathernext/">WeatherNext 3 — Google DeepMind</a></h3>
+  <p>DeepMind's latest weather forecasting model, which represents a meaningful step in AI's ability to do useful physical-world prediction at scale. Weather forecasting is one of the cleaner "AI vs. traditional numerical simulation" benchmarks, and successive WeatherNext versions have materially outperformed decades-old physics-based models on medium-range forecast accuracy. Worth watching as a proxy for how quickly AI is displacing domain-specific simulation in science.</p>
+  <p class="meta">DeepMind</p>
 </div>
 
 <div class="story">
-  <h3><a href="https://openai.com/index/research-acceleration-view-inside-openai">Research Acceleration: The View Inside OpenAI</a></h3>
-  <p>Internal data on how coding agents are changing the pace of AI research at OpenAI itself — experiment velocity, agent usage rates, and task complexity handled autonomously. The meta-point is that AI is now accelerating AI research, which is precisely the recursive loop that makes near-term forecasting so difficult. Read alongside "An Alien Mind" for the full picture of what OpenAI believes it has.</p>
-  <p class="meta"><a href="https://news.ycombinator.com/item?id=49583440">Discussion</a> · OpenAI</p>
+  <h3><a href="https://www.ox.ac.uk/news/2026-08-28-scientists-observe-einsteins-gravity-in-the-quantum-world">Scientists Observe Einstein's Gravity in the Quantum World</a></h3>
+  <p>Oxford researchers report direct experimental observation of gravitational effects at the quantum scale — a domain where general relativity and quantum mechanics have historically been incompatible frameworks. If this holds up, it represents one of the most significant experimental results in fundamental physics in decades, potentially opening pathways to a unified theory. Still worth holding with appropriate skepticism pending peer replication.</p>
+  <p class="meta"><a href="https://news.ycombinator.com/item?id=">HN Discussion</a> · University of Oxford</p>
 </div>
 
 <div class="story">
-  <h3><a href="https://figsinwintertime.substack.com/p/pro-academia">Pro Academia — Figs in Winter (Massimo Pigliucci)</a></h3>
-  <p>Pigliucci defends academic philosophy against what he calls a misguided Pyrrhonist critique, channeling Cicero's own self-defense of philosophical inquiry. The underlying question — whether philosophy can produce genuine knowledge or only suspend judgment — is perennial and directly relevant to how one approaches Stoicism as a practical framework vs. an intellectual exercise.</p>
-  <p class="meta">Figs in Winter / Substack</p>
+  <h3><a href="https://openai.com/index/an-alien-mind">An Alien Mind — Jakub Pachocki (OpenAI)</a></h3>
+  <p>OpenAI's chief scientist reflects on increasingly capable AI and makes an argument that's worth sitting with: the strongest case for continuing to rapidly train more powerful models is that we need advanced, aligned AI as a defensive system against the dangers posed by other AI — to secure infrastructure and defend against rogue agents in real time. This is the lab-internal version of an argument that justifies speed-over-safety-pause, and it deserves scrutiny as a piece of reasoning rather than dismissal as corporate PR.</p>
+  <p class="meta">OpenAI Blog</p>
 </div>
 
 <div class="story">
   <h3><a href="https://donaldrobertson.substack.com/p/how-to-decatastrophize-the-worst">How to Decatastrophize the Worst-Case Scenario — Donald Robertson</a></h3>
-  <p>Robertson unpacks the Stoic technique of premeditatio malorum — deliberately imagining the worst-case scenario not to induce anxiety but to drain it of its catastrophic charge. The core move: once you've genuinely confronted the worst outcome and found you could survive or accept it, the fear of that outcome loses its grip. Practical companion to Marcus Aurelius's repeated exercise of imagining loss before it arrives.</p>
+  <p>Robertson, one of the best modern interpreters of Stoic practice, covers the technique of <em>premeditatio malorum</em> — the premeditation of adversity — but specifically through the lens of decatastrophizing rather than just steeling oneself. The Stoic move isn't to expect the worst but to robustly examine whether the worst is as bad as fear makes it seem, and to separate what you control in your response from the outcome itself. Pairs well with the Epictetus Handbook commentary he's been serializing.</p>
   <p class="meta">Donald Robertson / Substack</p>
 </div>
+
+---
 
 <h2>🤖 AI Capability Watch</h2>
 
 <div class="story">
-  <h3><a href="https://openai.com/index/an-alien-mind">GPT-6 "Astra" Released for Developers + OpenAI RSI Announcement</a></h3>
-  <p>OpenAI appears to have released GPT-6 Astra to developers (noted by Simon Willison, with a sighting in a demo video at 1m59s), while simultaneously publishing essays by Chief Scientist Pachocki and internally circulating references to "RSI" — Recursive Self-Improvement — as the apparent framing for their newest system. If RSI is what it sounds like, this would be a qualitative threshold claim, not just a benchmark improvement. The pairing of a new model release with philosophical essays about "alien minds" and alignment urgency is itself a signal worth tracking.</p>
-  <p class="meta"><a href="https://simonwillison.net/2026/Sep/5/introducing-gpt-6-astra-for-developers/">Simon Willison</a> · OpenAI</p>
+  <h3><a href="https://simonwillison.net/2026/Sep/7/jakub-pachocki/">GPT-6 Astra — New OpenAI Model</a></h3>
+  <p>Simon Willison's tooling release notes mention a new OpenAI model called <strong>gpt-6-astra</strong>, which is the "GPT-6 Astra" model now accessible via API. This appears to be a significant new model generation from OpenAI — GPT-6 would represent the next major capability jump from GPT-4/4o. Minimal detail available yet on benchmark performance or specific capability changes, but a new numbered GPT generation is a meaningful threshold event worth tracking.</p>
+  <p class="meta">Simon Willison</p>
+</div>
+
+<div class="story">
+  <h3><a href="https://openai.com/index/research-acceleration-view-inside-openai">Coding Agents Reshaping AI Research at OpenAI</a></h3>
+  <p>OpenAI published internal data on how coding agents are changing the pace of their own AI research: experiment velocity has increased, agent usage is growing across the research org, and agents are taking on increasingly complex tasks. This is notable not as a product announcement but as a data point — the lab making frontier AI is now reporting that AI agents are materially accelerating their own research pipeline, which is the early signal of the recursive improvement dynamic that matters long-term.</p>
+  <p class="meta">OpenAI Blog</p>
 </div>
 </body>
 </html>
