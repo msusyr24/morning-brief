@@ -1,128 +1,98 @@
 === HACKER NEWS ===
-1. [155 pts] DeepSeek v4.1 Flash
-   https://twitter.com/deepseek_ai/status/2097930608790167907
+1. [242 pts] Astra for Coding: Why Are We Doing This Again?
+   https://lucumr.pocoo.org/2026/9/7/astra-why/
 
-2. [1165 pts] iPhone Duo
+2. [1009 pts] Shopify is moving from React Native back to Swift and Kotlin
+   https://shopify.engineering/back-to-native
+
+3. [36 pts] The Gemini app is now available for Windows
+   https://blog.google/innovation-and-ai/products/gemini-app/gemini-app-now-on-windows/
+
+4. [26 pts] We Replaced MMAP with Io_uring in Our Rust Query Engine. It Got Slower
+   https://www.conviva.ai/resource/we-replaced-mmap-with-io_uring-in-our-rust-query-engine-it-got-slower/
+
+5. [473 pts] Don't let anyone take away your big box of cables
+   https://blog.jim-nielsen.com/2026/hands-off-my-cables/
+
+6. [74 pts] Nine coding harnesses vs. your laptop
+   https://nasutton.notion.site/Nine-coding-harnesses-vs-your-laptop-3d139990182b80d59fa3cf500f0450ba?pvs=74
+
+7. [243 pts] OpenAI Agents API
+   https://developers.openai.com/api/docs/guides/agents-api/overview
+
+8. [25 pts] Working with Git Worktrees in Magit
+   https://emacsredux.com/blog/2026/09/02/working-with-git-worktrees-in-magit/
+
+9. [180 pts] Mexican student creates an acoustic fire extinguisher to put out fire in seconds
+   https://www.upsocl.com/en/16-year-old-mexican-student-creates-an-acoustic-fire-extinguisher-that-uses-sound-waves-to-put-out-fires-in-seconds/
+
+10. [157 pts] The Deathray: A simple way for an untrusted site to freeze a Mac
+   https://auberon.xyz/blog/posts/deathray/
+
+11. [324 pts] Technique for Manipulating Satellite Photos Now Reveals Ancient Images (2025)
+   https://spinoff.nasa.gov/Manipulating_Satellite_Photos_Now_Reveals_Ancient_Images
+
+12. [91 pts] Thelio Mira AI Linux Workstation: 192 GB GPU Memory
+   https://system76.com/workstations/thelio-mira-ai
+
+13. [96 pts] NTSB issues investigative update on B-767 runway excursion accident in Miami
+   https://www.ntsb.gov:443/news/press-releases/Pages/NR20260909.aspx
+
+14. [405 pts] Cognition launches new SWE-2 model, Rivaling Fable 5.1 and GPT-Astra
+   https://cognition.com/blog/swe-2
+
+15. [1445 pts] iPhone Duo
    https://www.apple.com/iphone-duo/
 
-3. [263 pts] Show HN: What if the speed of light was 5 km/h?
-   https://rivendell.dmitrybrant.com/relativity/
+16. [790 pts] More questions about whether researchers can trust OpenAI with unpublished math
+   https://mathstodon.xyz/@andreasthom/117240535270608201
 
-4. [41 pts] Larger Pacific Striped Octopus
-   https://en.wikipedia.org/wiki/Larger_Pacific_striped_octopus
+17. [215 pts] Music Theory for the 21st-Century Classroom
+   https://musictheory.pugetsound.edu/mt21c/MusicTheory.html
 
-5. [1010 pts] Shopify acquires Tailwind
-   https://tailwindcss.com/blog/tailwind-is-joining-shopify
+18. [5 pts] Testing race conditions with mem access tracing and stack-based delay injection
+   https://projectzero.google/2026/09/maccconc-race-condition.html
 
-6. [501 pts] What do Visa and Mastercard do? An intro to card networks
-   https://tautology.town/2026/06/01/card-networks.html
+19. [174 pts] Forgejo <=16.0.3 Critical RCE
+   https://codeberg.org/forgejo/forgejo/src/branch/forgejo/release-notes-published/16.0.4.md
 
-7. [326 pts] Growing proof that autonomous cars save lives
-   https://spectrum.ieee.org/are-self-driving-cars-safe
+20. [237 pts] Neki – Sharded Postgres
+   https://planetscale.com/blog/introducing-neki
 
-8. [126 pts] All grown-ups were once children, but only few of them remember it
-   https://mathstodon.xyz/@tao/117244102901892965
+21. [100 pts] Proof of Capture: Apple Reference Image, but open source and using steganography
+   https://merybenavente.me/blog/proof-of-capture
 
-9. [367 pts] No Man's Sky Cosmos
-   https://www.nomanssky.com/cosmos-update/
+22. [36 pts] What Comes After Git
+   https://ersc.io/blog/what-comes-after-git
 
-10. [444 pts] AirPods 5
-   https://www.apple.com/newsroom/2026/09/apple-introduces-airpods-5-with-best-in-class-open-ear-active-noise-cancellation/
+23. [12 pts] Stop making swap partitions–use swap files instead
+   https://gist.github.com/joshenders/c4960cec9c63a7b7d68ffa9543356c43
 
-11. [405 pts] GPT-6 Astra, looped transformers, and hidden reasoning
-   https://magazine.sebastianraschka.com/p/gpt-6-astra-looped-transformers-and
+24. [660 pts] Rust is tier-1 language at Microsoft
+   https://rustfoundation.org/media/guest-post-rust-is-tier-1-language-at-microsoft/
 
-12. [351 pts] iPhone 18 Pro and iPhone 18 Pro Max
-   https://www.apple.com/newsroom/2026/09/apple-debuts-iphone-18-pro-and-iphone-18-pro-max/
+25. [84 pts] Exercise intensity is associated with cardiometabolic health
+   https://www.cell.com/cell-reports-medicine/fulltext/S2666-3791(26)00405-2
 
-13. [60 pts] Training a 3.8B LLM to 0.384 CORE for $998
-   https://hugovergnes.github.io/little-lm-3-8b/
+26. [123 pts] Detecting and countering misuse of AI: September 2026
+   https://www.anthropic.com/threat-intelligence-report-september-2026
 
-14. [76 pts] Show HN: Compute polynomials twice as fast
-   https://thomasahle.com/fast-polynomials/
+27. [85 pts] YuE2 · Frontier Music with Symbolic Planning
+   https://map-yue2.github.io/
 
-15. [229 pts] Automattic's board forces CEO Matt Mullenweg into leave of absence
-   https://techcrunch.com/2026/09/09/automattics-board-forces-ceo-matt-mullenweg-into-leave-of-absence/
+28. [171 pts] Douglas Hofstadter: Analogy as the Core of Cognition [video]
+   https://www.youtube.com/watch?v=n8m7lFQ3njk
 
-16. [66 pts] A Stupid Idea for AI Alignment We Came with by Looking at Specification Gaming
-   https://slimemoldtimemold.com/2026/08/05/a-stupid-idea-for-ai-alignment-we-came-up-with-by-looking-at-the-list-of-specification-gaming-behaviours/
+29. [306 pts] Hitachi launches CO2 heat pump water heaters with solar-friendly tariff controls
+   https://www.pv-magazine.com/2026/09/07/hitachi-launches-co2-heat-pump-water-heaters-with-solar-friendly-tariff-controls/
 
-17. [179 pts] OpenAI might have stolen another major proof
-   https://twitter.com/ValerioCapraro/status/2097791836269977996
-
-18. [75 pts] Version control second coming
-   https://psantosl.github.io/posts/version-control-second-coming/
-
-19. [7 pts] Samsung Debuts zHBM Prototype, Stacking Memory Directly on AI Accelerators
-   https://www.thelec.net/news/articleView.html?idxno=12835
-
-20. [85 pts] ESP32 Bit Pirate Hardware Hacking Kit with Web Tools That Speaks Every Protocol
-   https://geo-tp.github.io/ESP32-Bit-Pirate/
-
-21. [84 pts] Factoring RSA 260
-   https://cognition.com/blog/factoring-rsa-260
-
-22. [208 pts] Qwen 3.8 follows GPT-5.5 Pro reasoning prefills
-   https://gist.github.com/wsxiaoys/e0286dc6bb624ff5fdf49e7f4c528ba3
-
-23. [435 pts] Desert Ant Labs: local, fast models that run on device
-   https://desertant.com/blog/introducing-desert-ant-labs/
-
-24. [39 pts] Aardman (Wallace and Gromit) Is Selling Its Original Movie Puppets
-   https://gizmodo.com/aardman-is-selling-its-original-movie-puppets-this-month-2000807968
-
-25. [250 pts] Apple Watch Series 12
-   https://www.apple.com/newsroom/2026/09/introducing-apple-watch-series-12-with-the-all-new-health-sensing-system/
-
-26. [396 pts] How I advertise malicious software on Google Ads
-   https://xlii.space/eng/malicious-software-on-google-ads/
-
-27. [71 pts] Rivian's gambit for full autonomy
-   https://spectrum.ieee.org/rivian-self-driving
-
-28. [87 pts] The UN challenges five centuries of cartography
-   https://www.not-ship.com/united-nations-map/
-
-29. [197 pts] GNU Radio in the browser
-   https://gnuradioworld.com/
-
-30. [174 pts] Planet Labs' open satellite feed
-   https://tech.marksblogg.com/planet-labs-open-satellite-feed.html
+30. [17 pts] DeepSeek v4.1 Flash Uncensored
+   https://huggingface.co/dealignai/DeepSeek-V4.1-Flash-UNCENSORED-FP8
 
 
 === RSS ===
-[ideas] Marginal Revolution: Ricardo Reis and the IMF?
-  https://marginalrevolution.com/marginalrevolution/2026/09/ricardo-reis-and-the-imf.html?utm_source=rss&utm_medium=rss&utm_campaign=ricardo-reis-and-the-imf
-
-[ideas] Marginal Revolution: My very interesting Conversation with Jared Diamond
-  https://marginalrevolution.com/marginalrevolution/2026/09/my-very-interesting-conversation-with-jared-diamond.html?utm_source=rss&utm_medium=rss&utm_campaign=my-very-interesting-conversation-with-jared-diamond
-
-[ideas] Marginal Revolution: What should I ask Kevin Roose?
-  https://marginalrevolution.com/marginalrevolution/2026/09/what-should-i-ask-kevin-roose.html?utm_source=rss&utm_medium=rss&utm_campaign=what-should-i-ask-kevin-roose
-
-[ideas] Marginal Revolution: Wednesday assorted links
-  https://marginalrevolution.com/marginalrevolution/2026/09/wednesday-assorted-links-570.html?utm_source=rss&utm_medium=rss&utm_campaign=wednesday-assorted-links-570
-
-[ideas] Marginal Revolution: Next Wins Appeal
-  https://marginalrevolution.com/marginalrevolution/2026/09/next-wins-appeal.html?utm_source=rss&utm_medium=rss&utm_campaign=next-wins-appeal
-
 [ideas] Paul Graham: How Universities Should Prepare Founders
   https://paulgraham.com/prepare.html
-
-[ai] Anthropic News: Developing Enterprise Frontier Safeguards with our customers
-  https://www.anthropic.com/news/enterprise-frontier-safeguards
-
-[ai] Anthropic News: Improving our alignment and security efforts
-  https://www.anthropic.com/news/improving-alignment-security-efforts
-
-[ideas] Stratechery: OpenAI Does Math, Reward-Hacking, Meta Launches Personal Agent
-  https://stratechery.com/2026/openai-does-math-reward-hacking-meta-launches-personal-agent/
-
-[ideas] Stratechery: Write Things Down
-  https://stratechery.com/2026/write-things-down/
-
-[bitcoin] The Pomp Letter: The Bitcoin Bulls Are Now In Charge
-  https://pomp.substack.com/p/the-bitcoin-bulls-are-now-in-charge
 
 [wisdom] Donald Robertson: Stoicism versus Daoism
   https://donaldrobertson.substack.com/p/stoicism-versus-daoism
@@ -133,38 +103,35 @@
 [wisdom] Donald Robertson: Base your needs on the requirements of a healthy body...
   https://donaldrobertson.substack.com/p/base-your-needs-on-the-requirements
 
+[ai] Anthropic News: Developing Enterprise Frontier Safeguards with our customers
+  https://www.anthropic.com/news/enterprise-frontier-safeguards
+
+[ai] Anthropic News: Improving our alignment and security efforts
+  https://www.anthropic.com/news/improving-alignment-security-efforts
+
+[wisdom] Farnam Street: Tobi Lütke: AI Agents, Better Decisions, and the Future of Work
+  https://fs.blog/knowledge-project-podcast/tobi-lutke-3/
+
+[bitcoin] The Pomp Letter: The Bitcoin Bulls Are Now In Charge
+  https://pomp.substack.com/p/the-bitcoin-bulls-are-now-in-charge
+
+[wisdom] Figs in Winter (Pigliucci): What kinds of things are living organisms?
+  https://figsinwintertime.substack.com/p/what-kinds-of-things-are-living-organisms
+
 [wisdom] Figs in Winter (Pigliucci): How to find happiness with Cicero
   https://figsinwintertime.substack.com/p/how-to-find-happiness-with-cicero
 
 [wisdom] Figs in Winter (Pigliucci): Suggested Readings
   https://figsinwintertime.substack.com/p/suggested-readings-d20
 
-[wisdom] Figs in Winter (Pigliucci): The idea of a university (and that of a professor)
-  https://figsinwintertime.substack.com/p/the-idea-of-a-university-and-that
+[ai] Simon Willison: Datasette 1.0a39 and 0.65.4 security releases
+  https://simonwillison.net/2026/Sep/11/datasette-security/
 
-[bitcoin] Bitcoin Magazine: US Treasury Secretary Scott Bessent ‘Strongly Urges’ Senate To Pass Clarity Act
-  https://bitcoinmagazine.com/news/scott-bessent-urges-clarity-act-action
+[ai] Simon Willison: Any Nix package, live in your browser
+  https://simonwillison.net/2026/Sep/10/trynix/
 
-[bitcoin] Bitcoin Magazine: Jack Dorsey’s Block Becomes Latest Bitcoin-Focused Company To Apply for Banking Charter
-  https://bitcoinmagazine.com/news/block-applies-for-banking-charter
-
-[bitcoin] Bitcoin Magazine: Steak ‘n Shake Says Sales Grew Double Digits Since Bitcoin Adoption
-  https://bitcoinmagazine.com/news/steak-n-shake-says-sales-grew
-
-[bitcoin] Bitcoin Magazine: Iran Continues Using Bitcoin To Keep Economy Stable: Report
-  https://bitcoinmagazine.com/news/iran-still-using-bitcoin-to-help-economy
-
-[bitcoin] Bitcoin Magazine: VerifiedX Launches $15 Million Financing Round to Deploy Institutional Bitcoin Infrastructure
-  https://bitcoinmagazine.com/news/cantor-fitzgerald-working-with-verifiedx
-
-[bitcoin] Bitcoin Magazine: Lummis Blasts Democrats Ahead of Clarity Act Vote — But Adds Bill Can Get Passed
-  https://bitcoinmagazine.com/news/lummis-blasts-democrats-on-clarity-act
-
-[bitcoin] Bitcoin Magazine: CoinCorner Launches Lloyd’s-Insured Multisig Bitcoin Vault with AnchorWatch
-  https://bitcoinmagazine.com/news/coincorner-debuts-multisig-vault
-
-[bitcoin] Bitcoin Magazine: Capital B Buys 376 Bitcoins in Its Biggest Purchase of 2026
-  https://bitcoinmagazine.com/news/capital-b-makes-biggest-2026-buy
+[ai] Simon Willison: Native is now the future of mobile at Shopify
+  https://simonwillison.net/2026/Sep/10/shopify-react-native/
 
 [ai] Simon Willison: Quoting Calif Research
   https://simonwillison.net/2026/Sep/10/calif-research/
@@ -172,43 +139,77 @@
 [ai] Simon Willison: .blend URL Viewer
   https://simonwillison.net/2026/Sep/9/blender-viewer/
 
-[ai] Simon Willison: Quoting Terence Tao
-  https://simonwillison.net/2026/Sep/9/terence-tao/
+[ideas] Marginal Revolution: My AI podcast with James Pethokoukis
+  https://marginalrevolution.com/marginalrevolution/2026/09/my-ai-podcast-with-james-pethokoukis.html?utm_source=rss&utm_medium=rss&utm_campaign=my-ai-podcast-with-james-pethokoukis
 
-[ai] Simon Willison: On the Navier–Stokes Millennium Prize Problem
-  https://simonwillison.net/2026/Sep/8/on-navier-stokes/
+[ideas] Marginal Revolution: Markets do respond to AGI news
+  https://marginalrevolution.com/marginalrevolution/2026/09/markets-do-respond-to-agi-news.html?utm_source=rss&utm_medium=rss&utm_campaign=markets-do-respond-to-agi-news
 
-[ai] Simon Willison: Introducing ChatGPT Images 2.5
-  https://simonwillison.net/2026/Sep/8/introducing-chatgpt-images-25/
+[ideas] Marginal Revolution: Is there now a better trend in youth mental health?
+  https://marginalrevolution.com/marginalrevolution/2026/09/is-there-now-a-better-trend-in-youth-mental-health.html?utm_source=rss&utm_medium=rss&utm_campaign=is-there-now-a-better-trend-in-youth-mental-health
 
-[ai] OpenAI Blog: The AI policy window is open. We need to act.
-  https://openai.com/index/ai-policy-window
+[ideas] Marginal Revolution: My short interview with Julia Willemyns
+  https://marginalrevolution.com/marginalrevolution/2026/09/my-short-interview-with-julia-willemyns.html?utm_source=rss&utm_medium=rss&utm_campaign=my-short-interview-with-julia-willemyns
 
-[ai] OpenAI Blog: GPT-6 Astra: The next generation in intelligence for work
-  https://openai.com/index/gpt-6-astra-next-generation-work
+[ideas] Marginal Revolution: Thursday assorted links
+  https://marginalrevolution.com/marginalrevolution/2026/09/thursday-assorted-links-569.html?utm_source=rss&utm_medium=rss&utm_campaign=thursday-assorted-links-569
 
-[ai] OpenAI Blog: Paul Christiano joins OpenAI Foundation Board
-  https://openai.com/index/paul-christiano-joins-openai-foundation-board
+[ai] OpenAI Blog: How a researcher uses Codex and ChatGPT to search for new antimicrobial molecules
+  https://openai.com/index/using-codex-chatgpt-to-search-for-new-antimicrobials
 
-[ai] OpenAI Blog: How GPT-5.6 Sol helps run quantum computing experiments
-  https://openai.com/index/codex-quantum-computing-experiments
+[ai] OpenAI Blog: Now everyone can put data to work
+  https://openai.com/index/put-data-to-work
 
-[ai] OpenAI Blog: The Work Now Within Reach
-  https://openai.com/index/the-work-now-within-reach
+[ai] OpenAI Blog: Introducing ChatGPT for Financial Services
+  https://openai.com/index/introducing-chatgpt-financial-services
+
+[ai] OpenAI Blog: Expanding AI access and cyber defense for federal, state, local, and tribal governments
+  https://openai.com/index/expanding-ai-access-us-government
+
+[ai] OpenAI Blog: Introducing the Agents API
+  https://openai.com/index/introducing-the-agents-api
+
+[ideas] Stratechery: The iPhone Duo, The Intelligent Personal Hub, Apple Watch Audio Intelligence
+  https://stratechery.com/2026/the-iphone-duo-the-intelligent-personal-hub-apple-watch-audio-intelligence/
+
+[ideas] Stratechery: OpenAI Does Math, Reward-Hacking, Meta Launches Personal Agent
+  https://stratechery.com/2026/openai-does-math-reward-hacking-meta-launches-personal-agent/
+
+[ideas] Stratechery: Write Things Down
+  https://stratechery.com/2026/write-things-down/
+
+[ideas] Astral Codex Ten: Royce On San Francisco
+  https://www.astralcodexten.com/p/royce-on-san-francisco
 
 [ideas] Astral Codex Ten: God Help Us, Let’s Try To Learn About Mechanistic Interpretability Techniques
   https://www.astralcodexten.com/p/god-help-us-lets-try-to-learn-about
 
+[bitcoin] Bitcoin Magazine: Ringleader of $245M Crypto Theft Pleads Guilty
+  https://bitcoinmagazine.com/news/ringleader-in-bitcoin-theft-guilty
+
+[bitcoin] Bitcoin Magazine: Trezor Reveals Another Data Breach After Scammers Target Marketing Platform
+  https://bitcoinmagazine.com/news/trezor-reveals-another-data-breach
+
+[bitcoin] Bitcoin Magazine: Updated Crypto Clarity Act Starts Circulating Days Before Key Vote
+  https://bitcoinmagazine.com/news/updated-clarity-act-starts-circulating
+
+[bitcoin] Bitcoin Magazine: Nasdaq Invests $100M in Kraken Parent Company: Report
+  https://bitcoinmagazine.com/news/nasdaq-invests-in-kraken
+
+[bitcoin] Bitcoin Magazine: Bitcoin Suffers On Renewed US-Iran Fighting
+  https://bitcoinmagazine.com/markets/bitcoin-price-drops-on-us-iran-fighting
+
+[bitcoin] Bitcoin Magazine: Coinbase CEO Brian Armstrong Says Clarity Act Will Pass — And That Bitcoin Bottom Is In
+  https://bitcoinmagazine.com/news/bitcoin-bottom-is-in-says-brian-armstrong
+
+[bitcoin] Bitcoin Magazine: The Quantum Issue: WTF Is Quantum Computing?
+  https://bitcoinmagazine.com/print/the-quantum-issue-wtf-is-quantum-computing
+
+[bitcoin] Bitcoin Magazine: US Treasury Secretary Scott Bessent ‘Strongly Urges’ Senate To Pass Clarity Act
+  https://bitcoinmagazine.com/news/scott-bessent-urges-clarity-act-action
+
 
 === YOUTUBE ===
-Paul Saladino MD: Raw egg whites are robbing you of nutrients
-  https://www.youtube.com/shorts/G2pD7Q9a200
-  Transcript: yes
-
-Anthony Chaffee MD: No. 1 Dementia Treatment | Dean & Jodie
-  https://www.youtube.com/watch?v=VvfcTTLczgA
-  Transcript: yes
-
 Ken Berry MD: Type 2 diabetes doesn’t suddenly show up. That’s why I want people to understand fasting insulin.
   https://www.youtube.com/shorts/u5RnugGpInw
   Transcript: yes
@@ -217,152 +218,84 @@ GTO Wizard: A new way to explore PLO
   https://www.youtube.com/shorts/j8kQpNG6ZEo
   Transcript: NO
 
-Nick Norwitz: Exercise Erases 57% of Muscle Aging
-  https://www.youtube.com/watch?v=GvA7sEKlmpU
+Paul Saladino MD: Raw egg whites are robbing you of nutrients
+  https://www.youtube.com/shorts/G2pD7Q9a200
   Transcript: yes
 
-Joe Rogan: Joe Rogan Experience #2551 - Daniel Kokotajlo
-  https://www.youtube.com/watch?v=hSQ1iVqEZO4
+Joe Rogan: Joe Rogan Experience #2552 - Ehsan Ahmad & Deric Poston
+  https://www.youtube.com/watch?v=Jw2lg96Wl1o
   Transcript: yes
 
-Joe Rogan: Joe Rogan Experience #2550 - Rick Springfield
-  https://www.youtube.com/watch?v=BAhcDwMGKYU
+Anthony Chaffee MD: No. 1 Dementia Treatment | Dean & Jodie
+  https://www.youtube.com/watch?v=VvfcTTLczgA
+  Transcript: yes
+
+Nick Norwitz: Hack Your Vagus Nerve for Gut and Mental Health.
+  https://www.youtube.com/shorts/-79SDdfmZCU
   Transcript: yes
 
 GTO Lab: Confidence can get a poker player through the door. The game still asks for proof.
   https://www.youtube.com/shorts/XnxffAvMbng
   Transcript: yes
 
-GTO Lab: What Solvers Still Can’t Teach You | Podcast ep.28: Jonathan Jaffe
-  https://www.youtube.com/watch?v=akC7_34e5_c
+Jared Alderman: The Key Poker Leak That's Keeping You Stuck
+  https://www.youtube.com/watch?v=LVspYCP5DXE
   Transcript: yes
 
-GTO Lab: New release, the ML ICM Engine is live in the LAB.
-  https://www.youtube.com/shorts/GM4juMZEepE
-  Transcript: NO
-
-Jared Alderman: Ruz Convergence: A Breakthrough in Sizing Strategy
-  https://www.youtube.com/shorts/xMue0uBC1qg
+Jared Alderman: Meditation's True Depth: Beyond Calmness and Positive Feelings #shorts
+  https://www.youtube.com/shorts/7WAYjynWbjI
   Transcript: yes
 
-Jared Alderman: Meditation: Closer To Your Own Experience
-  https://www.youtube.com/shorts/3lhI75-8nqQ
+Thomas DeLauer: I Wish I Did This for Insulin Resistance 13 Years Ago (2 days per week - no diet)
+  https://www.youtube.com/watch?v=EwdxrUaU6NE
+  Transcript: yes
+
+Thomas DeLauer: 2 Drops in Your Coffee Instantly Drops Glucose and Insulin
+  https://www.youtube.com/watch?v=a5NPKKG4azk
   Transcript: yes
 
 Lex Fridman: DHH: Future of Programming, AI, Agentic Engineering, Vibe Coding & Linux | Lex Fridman Podcast #501
   https://www.youtube.com/watch?v=NYFGCESmikA
   Transcript: yes
 
-Thomas DeLauer: The 10g Honey Rule Has just Been Confirmed by Scientists
-  https://www.youtube.com/watch?v=IKF3ZBuXiZQ
+Renaissance Periodization: Why Dr. Mike Doesn't Touch Caffeine or Alcohol... At All.
+  https://www.youtube.com/shorts/roGIoUzEesI
   Transcript: yes
 
-Thomas DeLauer: 1,000mg Stops Fatty Liver (and Visceral Fat) in its Tracks
-  https://www.youtube.com/watch?v=5857TtbU7_4
+Renaissance Periodization: Mike O’Hearn Says Supersets “Destroy Your Body”
+  https://www.youtube.com/shorts/WF6HJfZ9GNg
   Transcript: yes
 
-Thomas DeLauer: 1 Scoop Makes You Sleep 6 Hours Straight (and recover like it's 8 hours)
-  https://www.youtube.com/watch?v=sLgedZYPju8
+ModernWisdom: The Lonely Chapter Nobody Warns You About
+  https://www.youtube.com/shorts/gHG5GYFGiik
   Transcript: yes
 
-Renaissance Periodization: Joe Rogan Was Right About Bread?
-  https://www.youtube.com/shorts/Bw_wrasD8Yk
+ModernWisdom: You're Supposed To Outgrow Them
+  https://www.youtube.com/shorts/SsP1AIhRykM
   Transcript: yes
 
-Renaissance Periodization: Stop Letting Your Grip Limit Your Back Work
-  https://www.youtube.com/shorts/jyx3TGX84kA
-  Transcript: yes
-
-Renaissance Periodization: Eddie Hall Punches Twice as Hard as a Pro Boxer?
-  https://www.youtube.com/shorts/R1Nih0VcxNA
-  Transcript: yes
-
-Renaissance Periodization: You’re Training the Wrong Muscles to Attract Women (According to Science)
-  https://www.youtube.com/watch?v=_65DPfOIdLk
-  Transcript: yes
-
-Renaissance Periodization: Mike O’Hearn Called Dr. Mike “The Little Fat Guy”
-  https://www.youtube.com/shorts/-jbSjHPV9K4
-  Transcript: yes
-
-ModernWisdom: How Are Psychopaths Created?
-  https://www.youtube.com/shorts/qR_d5rn18oA
-  Transcript: yes
-
-ModernWisdom: Why You Must Live For Yourself
-  https://www.youtube.com/shorts/uw-h3TsKz28
-  Transcript: yes
-
-ModernWisdom: The Crazy Theory On Overpopulation
-  https://www.youtube.com/shorts/2XEMbXCSfnE
-  Transcript: yes
-
-ModernWisdom: "Women Are The Problem" - Why A Female Psychopath Can't Relate To Her Audience
-  https://www.youtube.com/watch?v=6pF6UuxSoT0
-  Transcript: yes
-
-ModernWisdom: Your Brain Needs To Feel Pressure
-  https://www.youtube.com/shorts/IXG_m-TVHkM
-  Transcript: yes
-
-ModernWisdom: How Trump Is Redrawing The Canadian Border
-  https://www.youtube.com/shorts/WtYzFJi8c6k
-  Transcript: yes
-
-ModernWisdom: “The Wars in Iran & Ukraine Will Merge Very Soon”
-  https://www.youtube.com/watch?v=d1BAL1623v4
-  Transcript: yes
-
-ModernWisdom: What's The Biggest Irrational Fear You Have?
-  https://www.youtube.com/shorts/HPrxhoKz_mI
-  Transcript: NO
-
-ModernWisdom: The Hidden Psychology Of Highly Sensitive People - Dr Sasha Hamdani
-  https://www.youtube.com/watch?v=MB_5DKSmOls
-  Transcript: yes
-
-ModernWisdom: Don't Just Desire The Result
-  https://www.youtube.com/shorts/fjT_dZ8KdfY
-  Transcript: yes
-
-ModernWisdom: Psychiatrist: “Everyone Is Wrong About The Lindsay Clancy Case”
-  https://www.youtube.com/watch?v=wOtNDXOypQg
-  Transcript: yes
-
-ModernWisdom: Can You Guess These Victorian Slang Words?
-  https://www.youtube.com/shorts/gGSHee8BWkA
-  Transcript: yes
-
-ModernWisdom: How To Approach Your Love Life
-  https://www.youtube.com/shorts/73F6gyg5xwo
-  Transcript: yes
-
-ModernWisdom: Is Reading & Writing Going Extinct?
-  https://www.youtube.com/shorts/Il53UHCjZ4E
-  Transcript: yes
-
-ModernWisdom: Couples Therapist: Why Your Brain Turns Your Partner Into An Enemy - Stan Tatkin
-  https://www.youtube.com/watch?v=NzNI5B-E-74
-  Transcript: yes
-
-Peter Attia: Blood pressure: how to measure, manage, and treat high blood pressure (AMA #48 rebroadcast)
-  https://www.youtube.com/watch?v=n42zMaH2Jgc
+ModernWisdom: Health Hacks Big Pharma Doesn’t Want You To Know - Biohacking Roundtable
+  https://www.youtube.com/watch?v=8MxG6tOkdNY
   Transcript: yes
 
 Dr. Sten Ekberg: Blood Pressure Number You Should NEVER Ignore
   https://www.youtube.com/watch?v=8u4iQbR4AyQ
   Transcript: yes
 
-Andrew Huberman: How Mitochondria Control Your Metabolism | Dr. Jared Rutter
-  https://www.youtube.com/watch?v=bv56Cuq-fyY
+Peter Attia: Exercise for preserving cognitive function | Peter Attia, M.D.
+  https://www.youtube.com/shorts/1RYoai-ec_8
   Transcript: yes
 
-Ben Felix: When Compounding Works Against You
-  https://www.youtube.com/watch?v=skc2T5fcoLY
+Andrew Huberman: Essentials: Genes & the Inheritance of Memories Across Generations | Dr. Oded Rechavi
+  https://www.youtube.com/watch?v=1_iNTFSw4Nc
   Transcript: yes
 
 ThinkingPoker: Bankroll Management - Thinking Poker
   https://www.youtube.com/watch?v=6w8amkDkeVw
+  Transcript: yes
+
+Ben Felix: When Compounding Works Against You
+  https://www.youtube.com/watch?v=skc2T5fcoLY
   Transcript: yes
 
 Mind The Game: The Hilarious Story Behind How Steph Made Steve Nash Retire
