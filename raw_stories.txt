@@ -1,104 +1,140 @@
 === HACKER NEWS ===
-1. [356 pts] google.com/goto: Google's anti-scraping update
-   https://www.autom.dev/blog/google-search-goto-links
+1. [154 pts] Why are AI agents lying, cheating and coordinating?
+   https://yoshuabengio.org/en/publication/why-are-ai-agents-lying-cheating-and-coordinating
 
-2. [112 pts] Navier-Stokes Announcement
-   https://www.claymath.org/news/navier-stokes-announcement/
+2. [101 pts] The Interim Computer Museum
+   https://icm.museum/
 
-3. [856 pts] A misalignment of AI in mathematics
-   https://mathandai.org/
+3. [438 pts] Make your first edit to OpenStreetMap
+   https://high5apps.github.io/josm-plugin-website-wizard/
 
-4. [46 pts] Usenet rewind archive search engine
-   https://www.usenet-rewind.com/
+4. [8 pts] JetKVM Mini
+   https://jetkvm.com/blog/introducing-jetkvm-mini
 
-5. [480 pts] I spent $220 on Google app ads and 60% of the installs were robots
-   https://dayzlegame.com/blog/google-ads-bot-farm/
+5. [60 pts] I Added a Non-Wi-Fi Mitsubishi AC to Home Assistant
+   https://medium.com/@ivangomezarnedo/how-i-added-a-non-wi-fi-mitsubishi-ac-to-home-assistant-22770661dd77
 
-6. [55 pts] Great Lakes sturgeon may be 400 years old:Scientists rethinking how to save them
-   https://www.cbc.ca/news/canada/ontario-great-lakes-sturgeon-lifespan-study-9.7329250
+6. [34 pts] Aligned to whom?
+   https://hyperbo.la/w/aligned-to-whom/
 
-7. [258 pts] A Design Space Exploration of Async/Await
-   https://cel.cs.brown.edu/blog/design-space-async-await/
+7. [467 pts] Nvidia is the central bank of AI
+   https://www.economist.com/interactive/briefing/2026/09/03/nvidia-is-the-central-bank-of-ai
 
-8. [218 pts] Show HN: Bodily Oddities
-   https://vester.si/bodily-oddities/
+8. [198 pts] Apple iPod Engraver (2019)
+   https://dunstanorchard.com/apple-ipod-engraver/
 
-9. [24 pts] Designing for Dual Screen and Foldable Devices with CSS (2023)
-   https://blog.stephaniestimac.com/posts/2023/05/design-foldable-devices/
+9. [28 pts] A succession crisis that tore England apart (2023)
+   https://www.historytoday.com/archive/feature/succession-crisis-tore-england-apart
 
-10. [637 pts] OpenAI agents carried out an undisclosed attack on RubyGems
-   https://www.rubyhack.ai/
+10. [179 pts] Stabilizing Rust's Never Type
+   https://lwn.net/SubscriberLink/1091015/d9e48318ed242b41/
 
-11. [269 pts] Logo Programming
-   https://el.media.mit.edu/logo-foundation/what_is_logo/logo_programming.html
+11. [411 pts] Everyone should slow down AI development except for me
+   https://xeiaso.net/notes/2026/everyone-slowdown-but-me/
 
-12. [13 pts] Inverse Kinematics and Foot Locking
-   https://theorangeduck.com/page/inverse-kinematics-foot-locking
+12. [105 pts] Don't be the out of touch Kung Fu master
+   https://twitter.com/ID_AA_Carmack/status/2098443262214230095
 
-13. [82 pts] Project Blinkenlights
-   https://blinkenlights.de/en/
+13. [45 pts] AgentsDock: An IDE designed for agentic AI research
+   https://agentsdock.net/
 
-14. [12 pts] WeWorm: Zero-Click WeChat Worm
-   https://calif.io/research/weworm
+14. [13 pts] A wandering black hole caught feeding on the run
+   https://phys.org/news/2026-08-black-hole-caught.html
 
-15. [127 pts] Litelm: LiteLLM Without the Bloat
-   https://github.com/kennethwolters/litelm
+15. [70 pts] P(doom)
+   https://lucumr.pocoo.org/2026/9/12/pdoom/
 
-16. [268 pts] GrapheneOS' rewritten Messages app is released
-   https://github.com/GrapheneOS/Messaging/releases/tag/13
+16. [17 pts] Durable execution without history replay
+   https://trigora.dev/blog/durable-execution-without-history-replay/
 
-17. [145 pts] Mind-altering drugs played key role in rise of Andean civilization
-   https://www.science.org/content/article/mind-altering-drugs-played-key-role-rise-andean-civilization
+17. [58 pts] Vintage Scientific Papers with LaTeX
+   https://github.com/Foadsf/vintage-latex
 
-18. [206 pts] I've operated petabyte-scale ClickHouse clusters for 5 years
-   https://www.tinybird.co/blog/what-i-learned-operating-clickhouse
+18. [3 pts] Operation Smart Kettle – Börzels Blog
+   https://blog.boerzel.de/de/blog/operation-smart-kettle
 
-19. [139 pts] Λ Snap – An inviting programming language for kids and adults for CS study
-   https://snap.berkeley.edu/
+19. [509 pts] LG denies TV spying claims, says tracking and snooping concerns 'not true'
+   https://www.tomshardware.com/tech-industry/big-tech/lg-strongly-denies-tv-security-claims-says-tracking-and-snooping-concerns-not-true-online-investigation-claims-216-000-000-spy-tvs-record-audio
 
-20. [56 pts] Show HN: ResolveHQ – A Helpdesk Built on Cloudflare Workers, D1, R2 and Queues
-   https://github.com/mirza-rizvi/ResolveHQ
+20. [34 pts] Liesegang Rings
+   https://chillphysicsenjoyer.substack.com/p/liesegang-rings
 
-21. [82 pts] AlphaGenome maps 9B DNA variants
-   https://spectrum.ieee.org/alphagenome-atlas
+21. [134 pts] Getting 50 GB/S Back from the Apple Neural Engine
+   https://eiln.github.io/posts/ane-dma.html
 
-22. [176 pts] Rune is now open source
-   https://rune.build/blog/rune-is-now-open-source
+22. [629 pts] We must pace the frontier
+   https://darioamodei.com/post/we-must-pace-the-frontier
 
-23. [44 pts] Testing Race Conditions
-   https://projectzero.google/2026/09/maccconc-race-condition.html
+23. [59 pts] After Math
+   https://terrytao.wordpress.com/2026/09/12/after-math/
 
-24. [448 pts] The EPA is planning to scrap public review rules for data center pollution
-   https://capitalbnews.org/data-centers-permit-rules-epa/
+24. [8 pts] Why So Many AI Researchers Think the Machines Could Kill Everyone
+   https://www.wired.com/story/why-so-many-ai-researchers-think-the-machines-could-kill-everyone/
 
-25. [631 pts] Claude is only available to people over 18 years
-   https://support.claude.com/en/articles/15171100-age-assurance-on-claude
+25. [96 pts] Will there be a 7G?
+   https://arxiv.org/abs/2609.01877
 
-26. [341 pts] Google will buy half the electricity from one of Finland's nuclear power plants
-   https://www.bbc.com/news/articles/c8r6y4me2g6o
+26. [233 pts] Real-SWE: Benchmarking AI models on private, real-world, enterprise codebases
+   https://withspecific.com/benchmarks/real-swe
 
-27. [51 pts] How we rebuilt complex permissions without migrating to Zanzibar
-   https://infisical.com/blog/folder-based-rbac
+27. [124 pts] I made a build visualizer to understand Bun's compile times
+   https://lalitm.com/post/buildprof/
 
-28. [157 pts] RTK reports token savings, but our cost benchmarks disagree
-   https://quesma.com/blog/does-rtk-make-ai-coding-cheaper/
+28. [105 pts] Microcode in Intel's 8087 floating-point chip: the scale instruction
+   https://www.righto.com/2026/09/8087-microcode-reverse-engineering-fscale.html
 
-29. [45 pts] Another way to leak traffic on Android has been discovered
-   https://mullvad.net/en/blog/another-way-to-leak-traffic-on-android-has-been-discovered
+29. [29 pts] When anyone can build software, who decides what not to build?
+   https://architectureintel.com/when-anyone-can-build-software-who-decides-what-not-to-build-ae07fdb370e4
 
-30. [113 pts] How the Chorleywood Bread Process transformed British bread
-   https://edconway.substack.com/p/the-little-holes-in-your-bread-are
+30. [287 pts] Linux Zoom client proactively reading everything written to X11 clipboard
+   https://hachyderm.io/@simontatham/117201594980991062
 
 
 === RSS ===
-[wisdom] Figs in Winter (Pigliucci): What kinds of things are living organisms?
-  https://figsinwintertime.substack.com/p/what-kinds-of-things-are-living-organisms
+[ideas] Paul Graham: How Universities Should Prepare Founders
+  https://paulgraham.com/prepare.html
 
-[wisdom] Figs in Winter (Pigliucci): How to find happiness with Cicero
-  https://figsinwintertime.substack.com/p/how-to-find-happiness-with-cicero
+[ai] Simon Willison: Generating running routes with GPT-6 Astra and ChatGPT Work
+  https://simonwillison.net/2026/Sep/12/astra-running-routes/
 
-[wisdom] Figs in Winter (Pigliucci): Suggested Readings
-  https://figsinwintertime.substack.com/p/suggested-readings-d20
+[ai] Simon Willison: California Brown Pelican
+  https://simonwillison.net/2026/Sep/12/sighting-399708714/
+
+[ai] Simon Willison: Quoting Paul Ford
+  https://simonwillison.net/2026/Sep/12/paul-ford/
+
+[ai] Simon Willison: OpenAI agents attacked RubyGems back in May
+  https://simonwillison.net/2026/Sep/12/openai-agents-rubygems/
+
+[ai] Simon Willison: So you want to use OpenRouter?
+  https://simonwillison.net/2026/Sep/11/so-you-want-to-use-openrouter/
+
+[health] Peter Attia: Nearsightedness is rising. Are screens to blame?
+  https://peterattiamd.com/nearsightednessandscreens/
+
+[ai] Anthropic News: Developing Enterprise Frontier Safeguards with our customers
+  https://www.anthropic.com/news/enterprise-frontier-safeguards
+
+[ai] Anthropic News: Improving our alignment and security efforts
+  https://www.anthropic.com/news/improving-alignment-security-efforts
+
+[ideas] Marginal Revolution: A simple model of AI-aided economic growth
+  https://marginalrevolution.com/marginalrevolution/2026/09/a-simple-model-of-ai-aided-economic-growth.html?utm_source=rss&utm_medium=rss&utm_campaign=a-simple-model-of-ai-aided-economic-growth
+
+[ideas] Marginal Revolution: The mathematicians rebel against AI
+  https://marginalrevolution.com/marginalrevolution/2026/09/the-mathematicians-rebel-against-ai.html?utm_source=rss&utm_medium=rss&utm_campaign=the-mathematicians-rebel-against-ai
+
+[ideas] Marginal Revolution: Dario Calls for a Pause
+  https://marginalrevolution.com/marginalrevolution/2026/09/dario-calls-for-a-pause.html?utm_source=rss&utm_medium=rss&utm_campaign=dario-calls-for-a-pause
+
+[ideas] Marginal Revolution: UK fact of the day
+  https://marginalrevolution.com/marginalrevolution/2026/09/uk-fact-of-the-day-8.html?utm_source=rss&utm_medium=rss&utm_campaign=uk-fact-of-the-day-8
+
+[ideas] Marginal Revolution: The Prediction Archive
+  https://marginalrevolution.com/marginalrevolution/2026/09/the-prediction-archive.html?utm_source=rss&utm_medium=rss&utm_campaign=the-prediction-archive
+
+[ideas] Astral Codex Ten: Royce On San Francisco
+  https://www.astralcodexten.com/p/royce-on-san-francisco
 
 [wisdom] Farnam Street: Tobi Lütke: AI Agents, Better Decisions, and the Future of Work
   https://fs.blog/knowledge-project-podcast/tobi-lutke-3/
@@ -112,71 +148,14 @@
 [wisdom] Donald Robertson: Base your needs on the requirements of a healthy body...
   https://donaldrobertson.substack.com/p/base-your-needs-on-the-requirements
 
-[ai] Simon Willison: OpenAI agents attacked RubyGems back in May
-  https://simonwillison.net/2026/Sep/12/openai-agents-rubygems/
+[wisdom] Figs in Winter (Pigliucci): Video: How to travel
+  https://figsinwintertime.substack.com/p/video-how-to-travel
 
-[ai] Simon Willison: So you want to use OpenRouter?
-  https://simonwillison.net/2026/Sep/11/so-you-want-to-use-openrouter/
+[wisdom] Figs in Winter (Pigliucci): What kinds of things are living organisms?
+  https://figsinwintertime.substack.com/p/what-kinds-of-things-are-living-organisms
 
-[ai] Simon Willison: Quoting Boris Cherny
-  https://simonwillison.net/2026/Sep/11/boris-cherny/
-
-[ai] Simon Willison: Feeling sad about AI
-  https://simonwillison.net/2026/Sep/11/feeling-sad-about-ai/
-
-[ai] Simon Willison: Quoting huggingface.co/security.txt
-  https://simonwillison.net/2026/Sep/11/hugging-face-security/
-
-[ai] Anthropic News: Developing Enterprise Frontier Safeguards with our customers
-  https://www.anthropic.com/news/enterprise-frontier-safeguards
-
-[ai] Anthropic News: Improving our alignment and security efforts
-  https://www.anthropic.com/news/improving-alignment-security-efforts
-
-[ai] OpenAI Blog: Perplexity trusts GPT-6 Astra with end-to-end systems
-  https://openai.com/index/perplexity-improving-accuracy-with-astra
-
-[ai] OpenAI Blog: Rapidly scaling online storage to serve over 1 billion ChatGPT users
-  https://openai.com/index/scaling-storage-one-billion-users-part-one
-
-[ai] OpenAI Blog: Cognition helps Devin test its own work with GPT‑6 Astra
-  https://openai.com/index/cognition-devin-testing-with-astra
-
-[ai] OpenAI Blog: How a researcher uses Codex and ChatGPT to search for new antimicrobial molecules
-  https://openai.com/index/using-codex-chatgpt-to-search-for-new-antimicrobials
-
-[ai] OpenAI Blog: Now everyone can put data to work
-  https://openai.com/index/put-data-to-work
-
-[ideas] Paul Graham: How Universities Should Prepare Founders
-  https://paulgraham.com/prepare.html
-
-[ideas] Marginal Revolution: Labor reallocation during the Industrial Revolution
-  https://marginalrevolution.com/marginalrevolution/2026/09/labor-reallocation-during-the-industrial-revolution.html?utm_source=rss&utm_medium=rss&utm_campaign=labor-reallocation-during-the-industrial-revolution
-
-[ideas] Marginal Revolution: The excess pessimism of early nuclear bomb designers
-  https://marginalrevolution.com/marginalrevolution/2026/09/the-excess-pessimism-of-early-nuclear-bomb-designers.html?utm_source=rss&utm_medium=rss&utm_campaign=the-excess-pessimism-of-early-nuclear-bomb-designers
-
-[ideas] Marginal Revolution: The Allocative Cost of War
-  https://marginalrevolution.com/marginalrevolution/2026/09/the-allocative-cost-of-war.html?utm_source=rss&utm_medium=rss&utm_campaign=the-allocative-cost-of-war
-
-[ideas] Marginal Revolution: Friday assorted links
-  https://marginalrevolution.com/marginalrevolution/2026/09/friday-assorted-links-590.html?utm_source=rss&utm_medium=rss&utm_campaign=friday-assorted-links-590
-
-[ideas] Marginal Revolution: My AI podcast with James Pethokoukis
-  https://marginalrevolution.com/marginalrevolution/2026/09/my-ai-podcast-with-james-pethokoukis.html?utm_source=rss&utm_medium=rss&utm_campaign=my-ai-podcast-with-james-pethokoukis
-
-[ideas] Stratechery: 2026.37: Duo Threats
-  https://stratechery.com/2026/duo-threats/
-
-[ideas] Stratechery: The iPhone Duo, The Intelligent Personal Hub, Apple Watch Audio Intelligence
-  https://stratechery.com/2026/the-iphone-duo-the-intelligent-personal-hub-apple-watch-audio-intelligence/
-
-[ideas] Stratechery: OpenAI Does Math, Reward-Hacking, Meta Launches Personal Agent
-  https://stratechery.com/2026/openai-does-math-reward-hacking-meta-launches-personal-agent/
-
-[ideas] Astral Codex Ten: Royce On San Francisco
-  https://www.astralcodexten.com/p/royce-on-san-francisco
+[wisdom] Figs in Winter (Pigliucci): How to find happiness with Cicero
+  https://figsinwintertime.substack.com/p/how-to-find-happiness-with-cicero
 
 [bitcoin] Bitcoin Magazine: Bitcoin’s ‘Unusual Mix’: Bearish Inflation Print, Bullish Buyback Failure
   https://bitcoinmagazine.com/news/bitcoin-has-unusual-mix-says-coinshares
@@ -202,26 +181,35 @@
 [bitcoin] Bitcoin Magazine: Updated Crypto Clarity Act Starts Circulating Days Before Key Vote
   https://bitcoinmagazine.com/news/updated-clarity-act-starts-circulating
 
+[ai] OpenAI Blog: Perplexity trusts GPT-6 Astra with end-to-end systems
+  https://openai.com/index/perplexity-improving-accuracy-with-astra
+
+[ai] OpenAI Blog: Rapidly scaling online storage to serve over 1 billion ChatGPT users
+  https://openai.com/index/scaling-storage-one-billion-users-part-one
+
+[ai] OpenAI Blog: Cognition helps Devin test its own work with GPT‑6 Astra
+  https://openai.com/index/cognition-devin-testing-with-astra
+
+[ai] OpenAI Blog: How a researcher uses Codex and ChatGPT to search for new antimicrobial molecules
+  https://openai.com/index/using-codex-chatgpt-to-search-for-new-antimicrobials
+
+[ai] OpenAI Blog: Now everyone can put data to work
+  https://openai.com/index/put-data-to-work
+
+[ideas] Stratechery: 2026.37: Duo Threats
+  https://stratechery.com/2026/duo-threats/
+
+[ideas] Stratechery: The iPhone Duo, The Intelligent Personal Hub, Apple Watch Audio Intelligence
+  https://stratechery.com/2026/the-iphone-duo-the-intelligent-personal-hub-apple-watch-audio-intelligence/
+
 
 === YOUTUBE ===
-Paul Saladino MD: Raw egg whites are robbing you of nutrients
-  https://www.youtube.com/shorts/G2pD7Q9a200
+Paul Saladino MD: This is how you lose weight for good
+  https://www.youtube.com/shorts/gTz031S7eaQ
   Transcript: yes
 
 Ken Berry MD: 7 WAYS FACTORY FOOD DESTROYS YOUR HEALTH + Q&A 📱
   https://www.youtube.com/watch?v=E-L44aaTnwk
-  Transcript: yes
-
-Ken Berry MD: 7 WAYS FACTORY FOOD DESTROYS YOUR HEALTH + Q&A
-  https://www.youtube.com/watch?v=PDrOFcPHJxc
-  Transcript: yes
-
-Ken Berry MD: One of the biggest questions I get about carnivore is: is it actually safe long term?
-  https://www.youtube.com/shorts/1cbmr4gpTGw
-  Transcript: yes
-
-Ken Berry MD: I Answered the Most Common Carnivore Questions While Cooking
-  https://www.youtube.com/watch?v=LL9wlKSyMeY
   Transcript: yes
 
 GTO Wizard: A new way to explore PLO
@@ -240,71 +228,67 @@ Nick Norwitz: Hack Your Vagus Nerve for Gut and Mental Health.
   https://www.youtube.com/shorts/-79SDdfmZCU
   Transcript: yes
 
-GTO Lab: Ten-high can look like an easy give-up until you ask what your range has left.
-  https://www.youtube.com/shorts/FMpjNdxrBPA
-  Transcript: NO
-
 Jared Alderman: How The Founder of StockX is Revolutionizing Poker
   https://www.youtube.com/watch?v=lFRLz-eSvyU
-  Transcript: yes
-
-Thomas DeLauer: They Were Wrong About HIIT - Walking is The KING of Fat Loss
-  https://www.youtube.com/watch?v=zeObj4HP-no
-  Transcript: yes
-
-Lex Fridman: DHH: Future of Programming, AI, Agentic Engineering, Vibe Coding & Linux | Lex Fridman Podcast #501
-  https://www.youtube.com/watch?v=NYFGCESmikA
-  Transcript: yes
-
-Renaissance Periodization: Most Home Gyms Become Clothing Racks
-  https://www.youtube.com/shorts/UVq53GtCL4U
-  Transcript: yes
-
-Renaissance Periodization: Exercise Scientist Critiques Chris Hemsworth’s Training
-  https://www.youtube.com/watch?v=sQgwT7o8i0w
-  Transcript: yes
-
-Renaissance Periodization: Mike O'Hearn Didn't Know Bryan Johnson, Yet Called Him FRAIL
-  https://www.youtube.com/shorts/yT8gd2K1yng
   Transcript: yes
 
 Dr. Sten Ekberg: Top 10 Foods That DESTROY Your Liver Silently
   https://www.youtube.com/watch?v=irR3DGThJHE
   Transcript: yes
 
+Lex Fridman: DHH: Future of Programming, AI, Agentic Engineering, Vibe Coding & Linux | Lex Fridman Podcast #501
+  https://www.youtube.com/watch?v=NYFGCESmikA
+  Transcript: yes
+
 Peter Attia: Why healthspan is a crucial component of longevity | Peter Attia, M.D.
   https://www.youtube.com/watch?v=y3AZbVMcE20
   Transcript: yes
 
-ThinkingPoker: Bankroll Management - Thinking Poker
-  https://www.youtube.com/watch?v=6w8amkDkeVw
+Thomas DeLauer: The High Protein Craze has Created Some Massive Problems
+  https://www.youtube.com/watch?v=chYi7SC5WF0
   Transcript: yes
 
 Andrew Huberman: Essentials: Genes & the Inheritance of Memories Across Generations | Dr. Oded Rechavi
   https://www.youtube.com/watch?v=1_iNTFSw4Nc
   Transcript: yes
 
-ModernWisdom: How Do People Become Emotionally Sensitive?
-  https://www.youtube.com/shorts/Tx89KH8JzbY
+Renaissance Periodization: Jay Cutler's "Feel Set" is Brilliant!
+  https://www.youtube.com/shorts/qdg8ph3GyUE
   Transcript: yes
 
-ModernWisdom: Why You Need To Just Work
-  https://www.youtube.com/shorts/71g-MIALgKk
+Renaissance Periodization: Are Janitor Anatoly’s Weights Real? 🤔
+  https://www.youtube.com/shorts/Ysl9PoWFUCw
   Transcript: yes
 
-ModernWisdom: The Perfect Way To Live Your 20s
-  https://www.youtube.com/shorts/bKo6LaTurYs
+ThinkingPoker: Bankroll Management - Thinking Poker
+  https://www.youtube.com/watch?v=6w8amkDkeVw
   Transcript: yes
 
-ModernWisdom: Insane Biohack Devices That Actually Work
-  https://www.youtube.com/watch?v=fK2HwzPff4E
+Mind The Game: The Hilarious Story Behind How Steph Made Steve Nash Retire
+  https://www.youtube.com/watch?v=bgSixq0dOKs
   Transcript: yes
 
 Ben Felix: When Compounding Works Against You
   https://www.youtube.com/watch?v=skc2T5fcoLY
   Transcript: yes
 
-Mind The Game: The Hilarious Story Behind How Steph Made Steve Nash Retire
-  https://www.youtube.com/watch?v=bgSixq0dOKs
+GTO Lab: Ten-high can look like an easy give-up until you ask what your range has left.
+  https://www.youtube.com/shorts/FMpjNdxrBPA
+  Transcript: NO
+
+ModernWisdom: Why Your Life Feels So Hard
+  https://www.youtube.com/shorts/T7vtLCw6TJw
+  Transcript: yes
+
+ModernWisdom: How To Know Something Is Valuable
+  https://www.youtube.com/shorts/SLdbVulRws8
+  Transcript: yes
+
+ModernWisdom: Raccoon Wars, Lindsay Clancy, NFL Scammers & Past Crimes - Matt McCusker
+  https://www.youtube.com/watch?v=17T2bc9HEEA
+  Transcript: yes
+
+ModernWisdom: Who Could You Be Without Your Doubt?
+  https://www.youtube.com/shorts/n4gyYHXp3EU
   Transcript: yes
 
