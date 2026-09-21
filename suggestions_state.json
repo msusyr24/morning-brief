@@ -1,11 +1,11 @@
 {
   "current_suggestion": {
-    "channel_name": "Aswath Damodaran",
-    "channel_id": "UCLvnJL8htRR1T9cbSccaoVw",
-    "youtube_handle": "@AswathDamodaran",
-    "pitch": "Your Ben Felix interest covers evidence-based personal finance, but Damodaran steelmans the valuation and macroeconomic reasoning layer underneath asset prices \u2014 including how to think rigorously about Bitcoin and monetary assets using first-principles corporate finance logic rather than ideology. He posts solo lecture-style videos and course sessions from his NYU Stern classes, going deep on intrinsic value, risk, and narrative-versus-numbers thinking in a way that directly complements Munger/Kahneman mental models you already value. The format is dense and unfiltered \u2014 no production polish, just a professor at a whiteboard who has thought harder about asset valuation than almost anyone on YouTube."
+    "channel_name": "Robert Miles AI Safety",
+    "channel_id": "UCLB7AzTwc6VFZrBsO2ucBMg",
+    "youtube_handle": "@RobertMilesAI",
+    "pitch": "Your AI interests focus on capability \u2014 what can it do \u2014 but Robert Miles covers the complementary question of what happens as capabilities scale, which is increasingly relevant to anyone tracking AI seriously. His content is solo explainer format, technically honest without being developer-focused, and sits at the intersection of AI capability limits, alignment problems, and long-term trajectory \u2014 a perspective none of your current channels (Lex, Huberman, Rogan) cover with rigor. Videos are dense, citation-grounded, and reward slow watching rather than background listening."
   },
-  "shown_count": 3,
+  "shown_count": 1,
   "history": [
     "Brad Kearns",
     "Dr. Layne Norton",
@@ -62,6 +62,7 @@
     "TEDx Talks",
     "UCxxxx",
     "Jonathan Little - Poker Coaching",
-    "Aswath Damodaran"
+    "Aswath Damodaran",
+    "Robert Miles AI Safety"
   ]
 }

