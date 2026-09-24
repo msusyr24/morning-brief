@@ -1,11 +1,11 @@
 {
   "current_suggestion": {
-    "channel_name": "Robert Miles AI Safety",
-    "channel_id": "UCLB7AzTwc6VFZrBsO2ucBMg",
-    "youtube_handle": "@RobertMilesAI",
-    "pitch": "Your AI interests focus on capability \u2014 what can it do \u2014 but Robert Miles covers the complementary question of what happens as capabilities scale, which is increasingly relevant to anyone tracking AI seriously. His content is solo explainer format, technically honest without being developer-focused, and sits at the intersection of AI capability limits, alignment problems, and long-term trajectory \u2014 a perspective none of your current channels (Lex, Huberman, Rogan) cover with rigor. Videos are dense, citation-grounded, and reward slow watching rather than background listening."
+    "channel_name": "TEDx Talks \u2013 Russ Roberts (EconTalk host solo appearances)",
+    "channel_id": "UCnUYZLuoy1rq1aVMwx4aTzw",
+    "youtube_handle": "@MichaelMauboussin",
+    "pitch": "Mauboussin is a serious investor and researcher who sits at the intersection of mental models, decision science, and base-rate thinking \u2014 covering exactly the Kahneman/Munger territory you care about but with rigorous application to real forecasting and probabilistic reasoning. His content steelmans the 'outside view' and reference class forecasting in ways that complement your current diet of Lex/Huberman/Attia epistemics without the self-help veneer. Format is a mix of lecture-style solo content and structured interviews, typically 30\u201360 minutes with genuine analytical depth."
   },
-  "shown_count": 3,
+  "shown_count": 1,
   "history": [
     "Brad Kearns",
     "Dr. Layne Norton",
@@ -63,6 +63,7 @@
     "UCxxxx",
     "Jonathan Little - Poker Coaching",
     "Aswath Damodaran",
-    "Robert Miles AI Safety"
+    "Robert Miles AI Safety",
+    "TEDx Talks \u2013 Russ Roberts (EconTalk host solo appearances)"
   ]
 }
