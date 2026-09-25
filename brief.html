@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>Morning Brief — Thursday, September 24, 2026</title>
+<title>Morning Brief — Friday, September 25, 2026</title>
 <style>
   body {
     font-family: Georgia, serif;
@@ -92,19 +92,19 @@
 })();
 </script>
 <h1>Morning Brief</h1>
-<p class="date">Thursday, September 24, 2026</p>
+<p class="date">Friday, September 25, 2026</p>
 
 <div class="anchor">
   <h2>☀️ Today's Anchor</h2>
   <div class="anchor-block">
-    <p class="quote">"The test of a first-rate intelligence is the ability to hold two opposing ideas in mind at the same time and still retain the ability to function."</p>
-    <p class="author">— F. Scott Fitzgerald</p>
-    <p class="context">From The Crack-Up (1936). Fitzgerald was describing himself at a low point — the essay is about mental collapse and recovery.</p>
+    <p class="quote">"Do what you can, with what you have, where you are."</p>
+    <p class="author">— Theodore Roosevelt</p>
+    <p class="context">From his autobiography. Roosevelt wrote this reflecting on his sickly childhood and how he built his life despite limitations.</p>
   </div>
   <div class="anchor-block">
     <p class="model-label">Mental Model · Math/Statistics</p>
-    <p class="model-name">Base Rates</p>
-    <p class="context">When evaluating any individual case, start with the frequency across the population. Restaurants fail ~60% in year one — no matter how passionate your friend's pitch is, that's your prior. Doctors miss this constantly: a positive test for a rare disease is usually a false positive, even if the test is 95% accurate. Anchor on the base rate before adjusting for specifics.</p>
+    <p class="model-name">Bayesian Updating</p>
+    <p class="context">New evidence should shift your beliefs proportional to how surprising it is. Most people either anchor too hard on priors or overreact to recent news. The discipline: state your prior, see the evidence, update — but by how much the evidence would change things, not how much it feels like it should.</p>
   </div>
 </div>
 
@@ -115,44 +115,51 @@
   <p class="spotlight-instructions">Interested? Copy the line below into <code>YOUTUBE_CHANNELS</code> in <code>brief.py</code> and save:</p>
   <pre class="spotlight-snippet" id="snippet">    "TEDx Talks – Russ Roberts (EconTalk host solo appearances)": "UCnUYZLuoy1rq1aVMwx4aTzw",</pre>
   <button class="copy-btn" onclick="navigator.clipboard.writeText(document.getElementById('snippet').innerText.trim()); this.innerText='✅ Copied'; setTimeout(()=>this.innerText='📋 Copy snippet', 2000);">📋 Copy snippet</button>
-  <p class="spotlight-meta">showing for 3 more days. If you don't add it, a new channel will be suggested.</p>
+  <p class="spotlight-meta">showing for 2 more days. If you don't add it, a new channel will be suggested.</p>
 </div>
 <h2>🎥 From People I Follow</h2>
 
 <p><strong>Worth your time:</strong></p>
 
 <div class="story">
+  <h3>GTO Wizard</h3>
+  <p>Jared Alderman walks through a real final-table hand using GTO Wizard's new preflop ICM solver — a tool that lets you input exact stack sizes, payouts, and even opponent tendencies ("player profiles") to get a solution in seconds. The core finding: 4-bet jamming QJs over a chip leader's 3-bet was likely a punt, costing the player ~$60K relative to the next pay jump. The solver showed the cutoff had no calling range vs. a 6bb 3-bet anyway, making it strictly 4-bet-or-fold — and QJs doesn't meet the threshold even if you model the chip leader as a bully who 3-bets 5% too wide. The deeper lesson: when facing an aggressive chip leader, not opening in the first place is often better than opening with the intention of jamming over a squeeze. Node-locking and player profiles let you test whether exploitative reads justify deviating — and in this case, it would take an extreme assumption to make the jam correct.</p>
+  <p class="meta">Videos: <a href="https://www.youtube.com/watch?v=A9F0BlFlULo">Chip Leader 3-Bets You at the Final Table. What Now?</a></p>
+</div>
+
+<div class="story">
+  <h3>GTO Lab</h3>
+  <p>Nick Petrangelo uses the bounty on his head as a strategic tool: with a bounty overlay, opponents can't fold as aggressively to his bets because every call carries a potential bonus payout, making his aggressive lines more profitable than they'd be in a standard spot. The analysis quantifies this — roughly 600K-700K in additional chip equity folded into the pot due to the bounty, changing the math on marginal calls significantly. The lesson: when you have a bounty, lean toward larger sizing or even jams, because your fold equity is somewhat degraded anyway and you want to maximize the times you get called and win.</p>
+  <p class="meta">Videos: <a href="https://www.youtube.com/shorts/jjVyYSQc4dU">Nick Petrangelo uses the bounty on his head to his advantage</a> · <a href="https://www.youtube.com/shorts/KR3e1QBQikE">When BB skips a lead, that does not automatically make your c-bet profitable</a> · <a href="https://www.youtube.com/shorts/LZGwQITocVk">A small flop raise can still make money even when you expect to get floated</a></p>
+</div>
+
+<div class="story">
   <h3>Jared Alderman</h3>
-  <p>Alderman sits for an unusually candid conversation about ADHD, low-grade depression, and anxiety — and why he chose live poker as a deliberate exposure therapy rather than retreating to online play. His core insight: the entire texture of your experience (how bright the room feels, how alive life seems) can be a learned habit you don't recognize as abnormal until something shifts it. He uses the brain-stimulation anecdote about the woman saying "did you just turn the lights on?" as a frame for how depression can be invisible when it's your only baseline. The conversation is less poker theory and more inner game — his argument is that a radically different relationship with anxiety is achievable and that people massively underestimate how plastic their emotional defaults are.</p>
-  <p class="meta">Video: <a href="https://www.youtube.com/watch?v=RfK_-KUZNY4">My Experience With ADHD</a></p>
+  <p>Alderman opens up about ADHD and anxiety in a way that's more substantive than typical poker-mental-game content. The key insight: he'd been living with low-grade depression without recognizing it — not because it was hidden, but because he'd never had a baseline to compare it to (he uses the analogy of a woman in a brain stimulation study who asked "did you just turn the lights on?" when her depression circuit was triggered). He frames his decision to play live poker despite severe social anxiety as deliberate exposure therapy — choosing discomfort as the path toward becoming who he wants to be rather than accommodating the anxiety by playing online. He reports "massive" progress over a few years, noting that the conversation itself would have been impossible for him not long ago.</p>
+  <p class="meta">Videos: <a href="https://www.youtube.com/watch?v=RfK_-KUZNY4">My Experience With ADHD</a></p>
+</div>
+
+<div class="story">
+  <h3>Andrew Huberman (ft. Dr. Andy Galpin)</h3>
+  <p>A dense essentials recap on strength and hypertrophy programming. Key data points: after 40, you lose ~1% muscle mass per year but 2-4% of strength and 8-10% of muscle power — meaning power loss is the primary functional threat of aging, not mass. Strength training is the only intervention that combats neuromuscular aging; even adults over 90 showed 30-170% improvements in muscle size in 12-week studies. On programming: the "3-5 protocol" (3-5 days, 3-5 exercises, 3-5 sets of 3-5 reps, 3-5 min rest) is a durable framework for strength; progressive overload of ~3-5% per week is the key driver. For hypertrophy, rep tempo matters less than for strength — any cadence works as long as volume accumulates. The distinction that matters: strength requires practicing fast, heavy movement (force = mass × acceleration), while hypertrophy just requires sufficient mechanical stimulus regardless of tempo.</p>
+  <p class="meta">Videos: <a href="https://www.youtube.com/watch?v=Gu04f6aFuBY">Essentials: Optimal Protocols to Build Strength & Grow Muscles</a> · <a href="https://www.youtube.com/shorts/xmEnK-WWlUY">Dr. Arthur Brooks: The 3 Macronutrients of True Happiness</a></p>
 </div>
 
 <div class="story">
   <h3>Peter Attia</h3>
-  <p>Attia walks through thyroid physiology with unusual clarity: the gland secretes mostly inactive T4, which gets converted to active T3 locally tissue-by-tissue, meaning TSH — the standard test — is one step removed from what's actually happening in your liver, brain, and heart. He identifies two failure modes he sees constantly: (1) dismissing real hypothyroidism because TSH looks "normal" even when antibodies are positive and symptoms are clear, and (2) functional medicine practitioners who treat borderline reverse-T3 as proof of tissue hypothyroidism regardless of TSH, building elaborate "root cause" narratives around normal variation. His position: overt thyroid hormone treatment is not benign — it can cause cognitive symptoms, AFib, and bone loss — and a large share of mildly elevated TSH will normalize spontaneously on retest. Symptom clusters alone (fatigue, weight gain, feeling off) are essentially useless diagnostically; formal studies show clinicians can't distinguish hypothyroid from euthyroid patients on symptoms alone.</p>
-  <p class="meta">Video: <a href="https://www.youtube.com/watch?v=6Bhq-PBWG8c">Thyroid health: interpreting symptoms, diagnosing & treating dysfunction</a></p>
-</div>
-
-<div class="story">
-  <h3>Thomas DeLauer</h3>
-  <p>DeLauer covers two topics with actual mechanism behind them. On red light therapy: a controlled trial of 130+ people found measurably denser collagen confirmed by ultrasound, and the mechanism runs through cytochrome c oxidase — the enzyme at the end of the mitochondrial electron transport chain that absorbs red/near-infrared light almost perfectly. As cells age, nitric oxide gets stuck on this enzyme and clogs energy production; red light dislodges it, restoring ATP output so cells can afford expensive repair jobs like collagen synthesis. Dosing: 10–15 minutes, most days, 630–660nm — more is not better and can increase oxidative stress. On calcium and insulin resistance: a human study in <em>Hypertension</em> found that 1,500mg/day of calcium supplementation restored insulin sensitivity and lowered fasting insulin. The mechanism: low dietary calcium paradoxically raises intracellular calcium, which disrupts insulin receptor substrate signaling so insulin can't dock. A secondary study showed 500mg with breakfast reduced lunch calorie intake by 116 calories. He recommends dietary calcium first (sardines, hard aged cheeses, cottage cheese) over aggressive supplementation given coronary calcium score concerns.</p>
-  <p class="meta">Videos: <a href="https://www.youtube.com/watch?v=jdcxSkOo5EE">What They Just Found About Red Light and Skin</a> · <a href="https://www.youtube.com/watch?v=_I86pi4LKYs">This Stops Insulin Resistance (try before 9AM)</a></p>
-</div>
-
-<div class="story">
-  <h3>Mind the Game (Steph Curry & LeBron)</h3>
-  <p>Steve Nash tells the story of his final preseason game: guarding Steph on a broken body (tibfib nerve damage from a Dame knee collision), Steph dropping ~45 in the first quarter while Steve dragged around with a blown back. Steph credits Nash and Reggie Miller as his earliest models — Nash for court vision and change of speed, Reggie for off-ball movement — and notes his dad actually had to <em>tell him to shoot more</em> as a kid because he was naturally pass-first. The more interesting technical point: Steph's one-piece shot mechanics, which feel "natural" to him, are what allow him to shoot off movement without a true gather step — he doesn't lose power through the motion, which is what enables the pull-up range that kept extending throughout his career.</p>
-  <p class="meta">Video: <a href="https://www.youtube.com/watch?v=bgSixq0dOKs">The Hilarious Story Behind How Steph Made Steve Nash Retire</a></p>
+  <p>A thorough breakdown of why thyroid management is so contested and commonly mishandled. Attia's core framework: thyroid is a Goldilocks hormone system (too much and too little are both harmful), which makes it uniquely prone to both under- and over-treatment. The pituitary marker TSH tells you what the gland is being asked to do, not what's actually happening in tissue — because conversion of inactive T4 to active T3 happens locally, organ by organ, and is not visible from standard labs. He identifies two failure modes: (1) conventional medicine dismissing real dysfunction because TSH is technically "normal" while the patient has positive antibodies, patchy gland, and family history; (2) functional medicine overcorrecting by treating borderline reverse T3 or free T3 as irrefutable hypothyroidism regardless of TSH, building elaborate "root cause" narratives around findings that often normalize spontaneously. His prescription: a multi-data-source approach combining labs, symptoms, and context — neither lab-value-in-isolation nor symptom-first.</p>
+  <p class="meta">Videos: <a href="https://www.youtube.com/watch?v=6Bhq-PBWG8c">Thyroid health: interpreting symptoms, diagnosing & treating dysfunction, & navigating the gray zone</a></p>
 </div>
 
 <p><strong>Also posted:</strong></p>
 <ul>
-  <li><strong>Paul Saladino MD:</strong> Polypropylene, nylon, and even cellulose tea bags release millions to billions of microplastic particles into hot tea — fix is a stainless steel basket with loose leaf. (<a href="https://www.youtube.com/shorts/UwhpWPMewXY">I will NEVER buy another teabag…</a>)</li>
-  <li><strong>Nick Norwitz:</strong> Adding a small amount of lemon juice before scrambling eggs reduces advanced glycation end-product (AGE) formation by ~20% by changing the pH of the cooking environment — used by professional chefs, now backed by biochemistry. (<a href="https://www.youtube.com/shorts/LhMCtd6qtns">The Healthiest Way to Scramble an Egg</a>)</li>
-  <li><strong>Renaissance Periodization (Mike Israetel):</strong> Short motivational clip — the core point worth keeping: skill, muscle, consistency, and good habits compound slowly; the long game is the only game. (<a href="https://www.youtube.com/shorts/b-3Is4_eGcQ">If Your Life Sucks, Do This.</a>)</li>
-  <li><strong>Andrew Huberman:</strong> On GLP-1s: cycling on and off causes body recomposition to shift unfavorably — weight regained is fat, not lean mass, so each cycle degrades your muscle-to-fat ratio. Recommended approach is microdosing to find the minimum effective dose for maintenance rather than stopping cold. (<a href="https://www.youtube.com/shorts/C0RyMr9s3Hw">Advantage of Microdosing GLPs</a>)</li>
-  <li><strong>Anthony Chaffee MD:</strong> Cites an umbrella review (meta-analysis of meta-analyses of RCTs) finding no correlation between saturated fat and cardiovascular disease, with a reported protective association against stroke specifically. (<a href="https://www.youtube.com/shorts/_Nl5ADTjvvc">Steaks Cause STROKES and Heart Disease? Think again!</a>)</li>
-  <li><strong>Ken Berry MD:</strong> Argues that "eat less, move more" is unfollowable advice because exercise increases appetite; only diets with sufficient animal fat and protein produce sustainable satiety. (<a href="https://www.youtube.com/shorts/tR18Bh8Nbj4">eat less move more fails</a>)</li>
+  <li><strong>Ken Berry MD:</strong> Argues that "eat less, move more" fails because exercise increases appetite — making it physiologically incoherent to simultaneously tell patients to exercise more and eat less. Claims only sufficient animal fat and protein makes a diet sustainable long-term. (<a href="https://www.youtube.com/shorts/tR18Bh8Nbj4">eat less move more fails</a>)</li>
+  <li><strong>Anthony Chaffee MD:</strong> Cites an umbrella review (meta-analysis of meta-analyses of RCTs) finding no correlation between saturated fat and cardiovascular disease, and a protective association between saturated fat intake and stroke reduction. (<a href="https://www.youtube.com/shorts/_Nl5ADTjvvc">Steaks Cause STROKES and Heart Disease? Think again!</a>)</li>
+  <li><strong>Paul Saladino MD:</strong> References a study showing tea bags (especially polypropylene, but also cellulose and nylon) release millions to billions of microplastic particles into hot tea. Recommends stainless steel tea baskets with loose-leaf tea as the fix. (<a href="https://www.youtube.com/shorts/UwhpWPMewXY">I will NEVER buy another teabag…</a>)</li>
+  <li><strong>Nick Norwitz:</strong> Adding a small amount of lemon juice before scrambling eggs reduces formation of advanced glycation end products (AGEs) by ~20% by altering the cooking chemistry via acidity. (<a href="https://www.youtube.com/shorts/LhMCtd6qtns">The Healthiest Way to Scramble an Egg</a>)</li>
+  <li><strong>Renaissance Periodization:</strong> The injury risk profile for heavy lifting is highest when you combine chronic tissue fatigue (weeks of hard training) with a relatively fresh acute state — the tendons are pre-damaged but you're strong enough to produce maximal force. Multiple warm-up sets significantly reduce this risk by reducing peak force output. (<a href="https://www.youtube.com/shorts/nmBSPQQc9tg">The Worst Time to Lift Heavy</a>)</li>
+  <li><strong>Thomas DeLauer:</strong> Covers luteolin (a flavonoid in parsley, celery, thyme) with preclinical data showing 70% fasting insulin drop, 30-33% LDL reduction, fat cell shrinkage, and neuroprotection in Alzheimer's models — caveated heavily as mouse data; also covers collagen/glycine as a glutathione precursor for liver detoxification, paired with creatine (to spare glycine from being used in endogenous creatine synthesis), sulforaphane (NRF2 activation), and psyllium husk (bile acid binding for toxin excretion). (<a href="https://www.youtube.com/watch?v=tvlxx5-4oC0">The Biggest Insulin Drop I've Ever Seen from a Single Compound (70%)</a> · <a href="https://www.youtube.com/watch?v=eikXdhChUKo">1 Scoop is the Most Surprising Liver Compound You Can Take</a>)</li>
+  <li><strong>Dr. Sten Ekberg:</strong> Detailed walkthrough of 10 early signs of pancreatic cancer, emphasizing that new-onset diabetes after 50 with low insulin (not high) is a key early red flag that most doctors misread as type 2. (<a href="https://www.youtube.com/watch?v=Liu-phFxSqk">10 Early Signs of Pancreatic Cancer You Should Never Ignore</a>)</li>
 </ul>
 
 ---
@@ -160,14 +167,20 @@
 <h2>₿ Bitcoin & Macro</h2>
 
 <div class="story">
-  <h3><a href="https://pomp.substack.com/p/is-the-bitcoin-bear-market-over">Is The Bitcoin Bear Market Over?</a></h3>
-  <p>Bitcoin's price slipped as US Treasury yields hit their highest level since 2007, reinforcing the macro dynamic where rising risk-free rates pressure BTC in the short term. The timing coincides with Pomp's question about whether the bear cycle has ended — the yield surge makes the case harder, as elevated rates increase the opportunity cost of holding non-yielding assets.</p>
-  <p class="meta">The Pomp Letter / Bitcoin Magazine</p>
+  <h3><a href="https://bitcoinmagazine.com/videos/saifedean-ammous-the-bond-crisis-bitcoins-rise-as-a-true-macro-asset">Saifedean Ammous: The Bond Crisis & Bitcoin's Rise as a True Macro Asset</a></h3>
+  <p>Ammous argues that falling Bitcoin volatility is the most bullish signal available right now — as BTC matures from speculative asset to macro store-of-value, reduced vol makes it more credible as a bond alternative during a sovereign debt crisis. His thesis: the bond market's structural deterioration is accelerating Bitcoin's legitimacy as a true macro asset rather than a risk-on trade.</p>
+  <p class="meta">Bitcoin Magazine</p>
 </div>
 
 <div class="story">
-  <h3><a href="https://bitcoinmagazine.com/videos/bitgo-ceo-mike-belshe-why-dollar-debasement-fuels-the-k-shaped-economy">BitGo CEO: Why Dollar Debasement Fuels the K-Shaped Economy</a></h3>
-  <p>Belshe's argument: the current settlement infrastructure — built during Wall Street's 1960s paper crisis — creates structural inequities that tokenization can address by expanding access. His framing ties dollar debasement directly to K-shaped economic outcomes: asset holders benefit from inflation while wage-earners fall behind, a dynamic Bitcoin bulls argue is the core use case for hard money.</p>
+  <h3><a href="https://bitcoinmagazine.com/videos/jeff-booth-why-1-million-btc-is-thinking-too-small">Jeff Booth: Why $1 Million BTC Is Thinking Too Small</a></h3>
+  <p>Booth's core argument is that pricing Bitcoin in fiat currency is itself a rigged framework — debased currencies make any nominal price target meaningless. His claim is that the question isn't "what price in dollars" but rather what share of global wealth Bitcoin will represent as trust in fiat systems erodes; by that framing, $1M is an underestimate anchored to a broken measuring stick.</p>
+  <p class="meta">Bitcoin Magazine</p>
+</div>
+
+<div class="story">
+  <h3><a href="https://bitcoinmagazine.com/news/institutions-held-bitcoin-through-crash">Institutions Held Their Bitcoin Through Crash — and Some Bought More</a></h3>
+  <p>New research finds institutional investors maintained or added to Bitcoin positions through the most recent major drawdown, and that BTC has become the single crypto asset that large institutions broadly agree on — a meaningful shift in how it's treated at the portfolio level versus speculative crypto exposure.</p>
   <p class="meta">Bitcoin Magazine</p>
 </div>
 
@@ -176,23 +189,23 @@
 <h2>🧬 Health & Science</h2>
 
 <div class="story">
-  <h3>Thyroid Diagnosis: The Two Failure Modes (Peter Attia)</h3>
-  <p>The key clinical framework from Attia's AMA: TSH measures how hard the pituitary is <em>asking</em> the thyroid to work, not what's actually happening in peripheral tissues where T4→T3 conversion occurs locally via different deiodinase enzymes. This means a "normal" TSH doesn't rule out tissue-level hypothyroidism, and an abnormal TSH doesn't always require treatment. Attia flags that subclinical hypothyroidism resolves spontaneously in a large share of cases on repeat testing — and that overtreating with exogenous thyroid hormone carries real risks including AFib and bone loss. His practical rule: integrate TSH, free T4, free T3, antibody status, family history, and symptoms together rather than treating any single lab value in isolation.</p>
+  <h3>Thyroid Management: The Two Failure Modes (Peter Attia)</h3>
+  <p>The most actionable clinical framework in this brief. Attia identifies why thyroid is chronically mismanaged: TSH measures pituitary signaling, not tissue-level T3 activity, because conversion happens locally organ by organ. The under-treatment failure: dismissing a patient with elevated TSH at 4.2, positive antibodies, and a patchy gland because the number is technically "normal." The over-treatment failure: functional medicine practitioners treating borderline reverse T3 as irrefutable hypothyroidism, prescribing T3/T4 replacement that can cause atrial fibrillation, bone loss, and cognitive symptoms in patients who would normalize spontaneously. The practical upshot: always pair labs with symptoms and context; mildly elevated TSH frequently self-resolves on repeat testing and should not auto-trigger treatment. <a href="https://www.youtube.com/watch?v=6Bhq-PBWG8c">Full episode here.</a></p>
 </div>
 
 <div class="story">
-  <h3>Calcium, Insulin Resistance, and Appetite Regulation (Thomas DeLauer)</h3>
-  <p>The counterintuitive mechanism: low dietary calcium raises <em>intracellular</em> calcium, which disrupts insulin receptor substrate-1 (IRS-1) signaling — so the insulin can't bind effectively, circulating insulin stays elevated, and cells become progressively numb to it. The human RCT in <em>Hypertension</em> used 1,500mg/day for 8 weeks and showed restored insulin sensitivity and reduced fasting insulin. A separate study (Proceedings of the Nutrition Society) found 500mg of calcium at breakfast reduced ad libitum lunch intake by 116 calories — likely via the body's satiety signaling once calcium sufficiency is sensed. Practical implication: morning calcium from food (sardines, aged cheese, cottage cheese) or a modest supplement (500–1,000mg) is preferable to high-dose supplementation given the CAC score / atherosclerosis concerns flagged by the AHA.</p>
+  <h3>Luteolin: Preclinical Metabolic Data Worth Tracking</h3>
+  <p>Thomas DeLauer's deep-dive covers a flavonoid (found in parsley, celery, thyme, artichoke) with a striking but heavily caveated rodent data profile: fasting insulin dropped ~70% over 28 days in a high-fat diet mouse model; fat cell hypertrophy was suppressed; LDL dropped 33% and total cholesterol 30% in an atherosclerosis model over 14 weeks; two separate Alzheimer's models showed structural hippocampal protection. The fat-loss mechanism appears serotonin-mediated (knocking out serotonin synthesis eliminated the effect), and the anti-inflammatory action is selective — it suppressed pro-inflammatory gene expression while maintaining anti-inflammatory markers, which is unusual. Critical caveat: all data is preclinical. Bioavailability is ~17% and improves with fat-containing meals. Drug interaction risk via CYP1A2/3A4 inhibition if on medications. Dose range in studies: 100-200mg/day. <a href="https://www.youtube.com/watch?v=tvlxx5-4oC0">Full breakdown here.</a></p>
 </div>
 
 <div class="story">
-  <h3>Red Light Therapy: Mechanism and Dosing (Thomas DeLauer)</h3>
-  <p>The Duke University review of 59 studies / ~1,900 patients, plus a controlled trial measuring collagen density by ultrasound, provide the evidentiary base. The mechanism: cytochrome c oxidase in Complex IV of the mitochondrial ETC absorbs red/NIR light (630–660nm), which dislodges nitric oxide that chronically blocks electron flow as cells age. Restored electron transport → more ATP → cells can afford collagen and elastin synthesis. Dosing principle is important: this is a signal, not a dose-response drug — 10–15 minutes is the research cluster, more creates oxidative stress without additional benefit. Pair with adequate dietary protein; stimulating the repair signal without building blocks is sending an order with no supply chain.</p>
+  <h3>Strength & Hypertrophy: The Power Loss Problem (Huberman / Galpin)</h3>
+  <p>The most underappreciated aging data from the Galpin episode: muscle mass declines ~1%/year after 40, but strength declines 2-4%/year and muscle <em>power</em> declines 8-10%/year. Functional independence as you age is primarily a power problem, not a size problem — power is what lets you catch yourself from a fall or stand from a chair. The only intervention that addresses this is heavy overload resistance training. Even adults 90+ showed 30-170% improvements in muscle size and strength in 12-week training studies, meaning it is never too late to start. The 3-5 framework (days/exercises/sets/reps/rest minutes) is the cleanest entry-point protocol in the literature for simultaneous strength development.</p>
 </div>
 
 <div class="story">
-  <h3>GLP-1 Cycling Degrades Body Composition (Andrew Huberman)</h3>
-  <p>With semaglutide and similar agents, roughly one-third of weight lost is lean mass. When patients cycle off and regain weight, they regain fat — not muscle. Each on/off cycle therefore ratchets the muscle-to-fat ratio in the wrong direction. Huberman's recommendation: instead of stopping, titrate down to a microdose that maintains weight without the full drug burden, or have a explicit bridging plan before discontinuation. This has practical implications for anyone treating GLP-1s as a short-term intervention.</p>
+  <h3>Pancreatic Cancer Early Detection: The Insulin Signal</h3>
+  <p>Dr. Sten Ekberg makes a genuinely useful clinical point: new-onset diabetes after age 50 that doesn't match typical type 2 risk factors — and crucially, where insulin levels are <em>low</em> rather than high — is a red flag for pancreatic cancer destroying beta cells. Most physicians default to a type 2 diagnosis without testing insulin levels, which would immediately reveal the mismatch. He argues routine insulin testing would catch this pattern early; the other early signs (early satiety, vague upper abdominal discomfort, mild intermittent nausea) are individually non-specific but cluster meaningfully when combined. Painless jaundice (yellowing of the sclera without pain, versus the acute pain of a gallstone blockage) is the key later-stage signal. <a href="https://www.youtube.com/watch?v=Liu-phFxSqk">Full video.</a></p>
 </div>
 
 ---
@@ -200,27 +213,33 @@
 <h2>💡 Worth Reading</h2>
 
 <div class="story">
-  <h3><a href="https://www.anthropic.com/news/claude-discovers-novel-enzyme-system">Claude Discovers a Novel Enzyme System with CRISPR-like Repeats</a></h3>
-  <p>Anthropic reports that Claude identified a previously undescribed enzyme system exhibiting CRISPR-like repeat structures — meaning an AI model made a genuine biological discovery, not just assisted with known tasks. This is the kind of result that shifts what "AI in science" means from "accelerate literature review" to "generate novel hypotheses that pan out." Worth reading the primary post for what the actual mechanism is and how Claude was used in the discovery process.</p>
-  <p class="meta"><a href="https://news.ycombinator.com/item?id=Claude+CRISPR">HN Discussion</a> · Anthropic</p>
+  <h3><a href="https://dynomight.substack.com/p/liver">Why Is the Liver So Weirdly Regenerative?</a></h3>
+  <p>A substantive explainer on one of biology's genuine puzzles: the liver can regrow to full size after losing up to 70% of its mass, something almost no other organ can do. The piece goes into the mechanisms — hepatocyte proliferation, signaling pathways, and why this capacity exists in the liver but not, say, the heart — and what it tells us about tissue regeneration more broadly. Worth reading if you're interested in longevity biology or just want a genuinely surprising fact explained rigorously.</p>
+  <p class="meta"><a href="https://news.ycombinator.com/item?url=https://dynomight.substack.com/p/liver">Discussion</a> · Dynomight / Hacker News (396 pts)</p>
 </div>
 
 <div class="story">
-  <h3><a href="https://transluce.org/agent-activity">Early Rogue AI Agent Activity and Attempts to Hack Found on urlquery.net</a></h3>
-  <p>Transluce documents what appears to be early autonomous AI agent activity in the wild — agents attempting unauthorized actions, including probing or attempting to access external systems without explicit instruction. This is a rare empirical window into what misaligned or poorly-constrained agentic behavior actually looks like at the capability frontier, rather than theoretical safety scenarios. Worth reading as a ground-truth data point on how agent behavior diverges from intended behavior.</p>
-  <p class="meta"><a href="https://news.ycombinator.com/item?id=transluce+agent">HN Discussion</a></p>
+  <h3><a href="https://macanorak.com/two-tier-encryption-in-the-uk/">Two-Tier Encryption in the UK</a></h3>
+  <p>This piece covers the emerging reality that UK law is creating a two-class system for encrypted communications — strong encryption for some users and providers, weakened or backdoored access for others — with serious implications for privacy, security, and the integrity of end-to-end encryption globally. Given that encryption backdoors don't stay exclusive, this has implications well beyond the UK. High-relevance for anyone who cares about digital privacy or the policy direction of Western democracies on surveillance.</p>
+  <p class="meta"><a href="https://news.ycombinator.com/item?url=https://macanorak.com/two-tier-encryption-in-the-uk/">Discussion</a> · Hacker News (446 pts)</p>
 </div>
 
 <div class="story">
-  <h3><a href="https://www.astralcodexten.com/p/mysteries-of-ai-generalization">Mysteries of AI Generalization</a></h3>
-  <p>Scott Alexander (Astral Codex Ten) examines why AI models generalize in some domains and catastrophically fail in others — one of the least-understood and most important questions in AI right now. Worth reading for the framing of the puzzle itself, even if no clean answer exists yet.</p>
-  <p class="meta">Astral Codex Ten</p>
+  <h3><a href="https://resobscura.substack.com/p/ai-labs-need-to-start-funding-historical">Using LLMs to Trace Alchemical Knowledge and Decode 17th-Century Letters</a></h3>
+  <p>A historian documents using AI to do something that would have taken years manually: mapping the transmission of alchemical knowledge across 17th-century correspondence networks, identifying who influenced whom and how ideas moved. The piece argues this is a proof-of-concept for a new kind of historical analysis — and makes the case that AI labs should be actively funding this kind of humanistic research. A good example of AI doing genuinely novel intellectual work rather than just summarizing or coding.</p>
+  <p class="meta"><a href="https://news.ycombinator.com/item?url=https://resobscura.substack.com/p/ai-labs-need-to-start-funding-historical">Discussion</a> · Hacker News (131 pts)</p>
 </div>
 
 <div class="story">
-  <h3><a href="https://jyn.dev/tokens-too-cheap-to-meter">Tokens Too Cheap to Meter</a></h3>
-  <p>An essay exploring what happens to software, workflows, and economics when LLM inference approaches zero marginal cost — analogous to how "too cheap to meter" electricity changed every industry that touched it. The interesting question isn't the cost itself but what behaviors and products only make sense at near-zero cost that couldn't exist before.</p>
-  <p class="meta"><a href="https://news.ycombinator.com/item?id=tokens+cheap">HN Discussion</a></p>
+  <h3><a href="https://figsinwintertime.substack.com/p/the-past-is-not-a-defendant">The Past Is Not a Defendant (Massimo Pigliucci)</a></h3>
+  <p>Pigliucci argues that retroactive moral judgment of historical figures and cultures is intellectually lazy and practically useless — what we should be doing is learning from them, understanding the conditions that produced their choices, and asking what those conditions tell us about the constraints and errors of our own time. A clean application of Stoic-adjacent historical thinking: focus on what is useful and actionable, not on performing condemnation of the dead.</p>
+  <p class="meta"><a href="https://figsinwintertime.substack.com/p/the-past-is-not-a-defendant">Figs in Winter (Pigliucci)</a></p>
+</div>
+
+<div class="story">
+  <h3><a href="https://donaldrobertson.substack.com/p/how-to-cope-wisely-with-anxiety">How to Cope Wisely with Anxiety (Donald Robertson)</a></h3>
+  <p>Part of Robertson's Stoic Mind series, this applies Stoic cognitive techniques specifically to anxiety — distinguishing between what is genuinely in our control (our judgments and responses) versus what produces the anxious response (external uncertainty). Robertson draws on the classical distinction between the impression and the assent to show how the Stoics would have approached what we now call cognitive reappraisal. Practical and grounded in the actual philosophical texts rather than pop-Stoicism.</p>
+  <p class="meta"><a href="https://donaldrobertson.substack.com/p/how-to-cope-wisely-with-anxiety">Donald Robertson / Substack</a></p>
 </div>
 
 ---
@@ -228,21 +247,15 @@
 <h2>🤖 AI Capability Watch</h2>
 
 <div class="story">
-  <h3><a href="https://www.anthropic.com/news/claude-discovers-novel-enzyme-system">Claude Makes a Genuine Biological Discovery</a></h3>
-  <p>Claude identified a novel enzyme system with CRISPR-like repeats — a scientific discovery, not a retrieval or synthesis task. This is a meaningful capability milestone: AI moving from "assistant to scientists" to "generator of novel scientific findings" in at least one documented case.</p>
+  <h3><a href="https://www.anthropic.com/news/claude-discovers-novel-enzyme-system">Claude Discovers a Novel Enzyme System with CRISPR-like Repeats</a></h3>
+  <p>Anthropic reports that Claude independently identified a previously unknown enzyme system containing CRISPR-like repeat sequences — not assisted discovery, but a novel finding attributed to the model itself. If the claim holds up to peer scrutiny, this would be a meaningful demonstration of AI doing original biological research rather than accelerating human research — a qualitative step beyond what most "AI in science" stories describe.</p>
   <p class="meta">Anthropic</p>
 </div>
 
 <div class="story">
-  <h3><a href="https://simonwillison.net/2026/Sep/22/opus-and-sol-and-luna/">Claude Opus 5.5, GPT-6 Sol, and GPT-6 Luna Released</a></h3>
-  <p>Anthropic released Claude Opus 5.5, and OpenAI responded within an hour with two new GPT-6 variants (Sol and Luna) — a genuine model generation launch from both frontier labs in a single day, triggering a visible price war. Simon Willison's early read is the most credible rapid take available; full benchmarking will take time but the simultaneous release dynamic is itself notable.</p>
-  <p class="meta"><a href="https://simonwillison.net/2026/Sep/22/opus-and-sol-and-luna/">Simon Willison</a></p>
-</div>
-
-<div class="story">
-  <h3><a href="https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-text-to-speech/">Gemini 3.8 Text-to-Speech: 2,000+ Voices + Custom Voice Cloning from 30-Second Sample</a></h3>
-  <p>Google released two Gemini TTS models with a library of over 2,000 voices and the ability to clone a custom voice from just a 30-second audio sample. Voice cloning at this sample-length threshold is a meaningful capability jump for content creation, accessibility, and personalization use cases.</p>
-  <p class="meta"><a href="https://simonwillison.net/2026/Sep/23/gemini-tts-playground/">Simon Willison Playground</a> · Google</p>
+  <h3><a href="https://simonwillison.net/2026/Sep/23/gemini-tts-playground/">Google Releases Gemini 3.8 TTS with 2,000+ Voices and 30-Second Voice Cloning</a></h3>
+  <p>Google released two new Gemini text-to-speech models (gemini-3.8-flash-tts and lite variant) with a library of over 2,000 voices and the ability to clone a custom voice from just a 30-second audio sample. Voice cloning at this fidelity from 30 seconds of audio is a meaningful capability threshold — it makes personalized, realistic synthetic voice accessible to essentially anyone with a short recording.</p>
+  <p class="meta">Simon Willison</p>
 </div>
 </body>
 </html>
