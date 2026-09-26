@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>Morning Brief — Friday, September 25, 2026</title>
+<title>Morning Brief — Saturday, September 26, 2026</title>
 <style>
   body {
     font-family: Georgia, serif;
@@ -92,19 +92,19 @@
 })();
 </script>
 <h1>Morning Brief</h1>
-<p class="date">Friday, September 25, 2026</p>
+<p class="date">Saturday, September 26, 2026</p>
 
 <div class="anchor">
   <h2>☀️ Today's Anchor</h2>
   <div class="anchor-block">
-    <p class="quote">"Do what you can, with what you have, where you are."</p>
-    <p class="author">— Theodore Roosevelt</p>
-    <p class="context">From his autobiography. Roosevelt wrote this reflecting on his sickly childhood and how he built his life despite limitations.</p>
+    <p class="quote">"A year from now you may wish you had started today."</p>
+    <p class="author">— Karen Lamb</p>
+    <p class="context">Often misattributed online. Lamb is a motivational writer; the line became famous through repetition.</p>
   </div>
   <div class="anchor-block">
-    <p class="model-label">Mental Model · Math/Statistics</p>
-    <p class="model-name">Bayesian Updating</p>
-    <p class="context">New evidence should shift your beliefs proportional to how surprising it is. Most people either anchor too hard on priors or overreact to recent news. The discipline: state your prior, see the evidence, update — but by how much the evidence would change things, not how much it feels like it should.</p>
+    <p class="model-label">Mental Model · Math</p>
+    <p class="model-name">Compound Interest</p>
+    <p class="context">Einstein allegedly called it the eighth wonder of the world. More important: the same math governs skills, relationships, reputation, and physical decline. Small daily inputs compound into massive differences over decades. Munger: 'The first rule of compounding: never interrupt it unnecessarily.'</p>
   </div>
 </div>
 
@@ -115,7 +115,7 @@
   <p class="spotlight-instructions">Interested? Copy the line below into <code>YOUTUBE_CHANNELS</code> in <code>brief.py</code> and save:</p>
   <pre class="spotlight-snippet" id="snippet">    "TEDx Talks – Russ Roberts (EconTalk host solo appearances)": "UCnUYZLuoy1rq1aVMwx4aTzw",</pre>
   <button class="copy-btn" onclick="navigator.clipboard.writeText(document.getElementById('snippet').innerText.trim()); this.innerText='✅ Copied'; setTimeout(()=>this.innerText='📋 Copy snippet', 2000);">📋 Copy snippet</button>
-  <p class="spotlight-meta">showing for 2 more days. If you don't add it, a new channel will be suggested.</p>
+  <p class="spotlight-meta">showing for 1 more day. If you don't add it, a new channel will be suggested.</p>
 </div>
 <h2>🎥 From People I Follow</h2>
 
@@ -123,139 +123,142 @@
 
 <div class="story">
   <h3>GTO Wizard</h3>
-  <p>Jared Alderman walks through a real final-table hand using GTO Wizard's new preflop ICM solver — a tool that lets you input exact stack sizes, payouts, and even opponent tendencies ("player profiles") to get a solution in seconds. The core finding: 4-bet jamming QJs over a chip leader's 3-bet was likely a punt, costing the player ~$60K relative to the next pay jump. The solver showed the cutoff had no calling range vs. a 6bb 3-bet anyway, making it strictly 4-bet-or-fold — and QJs doesn't meet the threshold even if you model the chip leader as a bully who 3-bets 5% too wide. The deeper lesson: when facing an aggressive chip leader, not opening in the first place is often better than opening with the intention of jamming over a squeeze. Node-locking and player profiles let you test whether exploitative reads justify deviating — and in this case, it would take an extreme assumption to make the jam correct.</p>
+  <p>A deep-dive into GTO Wizard's preflop ICM solver using a real final-table hand as the case study. The core finding: a player who min-raised QJs from the cutoff then 4-bet jammed over a chip leader's 3-bet to 7.5bb was almost certainly making a significant error — even when the chip leader is modeled as a "bully" with a +5% raise frequency. The solver shows cutoff's best response to an aggressive 3-bettor is actually to <em>tighten</em> opening range and shift toward open-jamming (avoiding the raise-fold-or-jam problem entirely) rather than min-raising with the intent to snap off. Node-locking experiments showed that even giving the cutoff a 25% calling range against the 3-bet doesn't prompt the small blind to prefer a 7.5bb size — it shifts them toward outright shoving instead. A clear example of why ICM dramatically narrows the range of correct actions vs. chip-EV play.</p>
   <p class="meta">Videos: <a href="https://www.youtube.com/watch?v=A9F0BlFlULo">Chip Leader 3-Bets You at the Final Table. What Now?</a></p>
 </div>
 
 <div class="story">
-  <h3>GTO Lab</h3>
-  <p>Nick Petrangelo uses the bounty on his head as a strategic tool: with a bounty overlay, opponents can't fold as aggressively to his bets because every call carries a potential bonus payout, making his aggressive lines more profitable than they'd be in a standard spot. The analysis quantifies this — roughly 600K-700K in additional chip equity folded into the pot due to the bounty, changing the math on marginal calls significantly. The lesson: when you have a bounty, lean toward larger sizing or even jams, because your fold equity is somewhat degraded anyway and you want to maximize the times you get called and win.</p>
-  <p class="meta">Videos: <a href="https://www.youtube.com/shorts/jjVyYSQc4dU">Nick Petrangelo uses the bounty on his head to his advantage</a> · <a href="https://www.youtube.com/shorts/KR3e1QBQikE">When BB skips a lead, that does not automatically make your c-bet profitable</a> · <a href="https://www.youtube.com/shorts/LZGwQITocVk">A small flop raise can still make money even when you expect to get floated</a></p>
-</div>
-
-<div class="story">
   <h3>Jared Alderman</h3>
-  <p>Alderman opens up about ADHD and anxiety in a way that's more substantive than typical poker-mental-game content. The key insight: he'd been living with low-grade depression without recognizing it — not because it was hidden, but because he'd never had a baseline to compare it to (he uses the analogy of a woman in a brain stimulation study who asked "did you just turn the lights on?" when her depression circuit was triggered). He frames his decision to play live poker despite severe social anxiety as deliberate exposure therapy — choosing discomfort as the path toward becoming who he wants to be rather than accommodating the anxiety by playing online. He reports "massive" progress over a few years, noting that the conversation itself would have been impossible for him not long ago.</p>
-  <p class="meta">Videos: <a href="https://www.youtube.com/watch?v=RfK_-KUZNY4">My Experience With ADHD</a></p>
+  <p>Interview with a high-stakes online reg (playing up to 40K on Coin/ACR) focused on what separates players who climb stakes from those who bust. His core thesis: work ethic is the #1 separator, not raw intelligence — most people drawn to poker have the pattern recognition and game theory aptitude, but lack the emotional toughness to absorb six months of negative results and keep showing up. He also makes a practical point about high-volume grinding: playing 40 hours/week of truly competitive high-stakes cash is a different and arguably harder cognitive load than multi-tabling at lower stakes, because every spot demands real deliberation.</p>
+  <p class="meta">Videos: <a href="https://www.youtube.com/watch?v=ifac36wXFu8">Do You Have What it Takes to Be a Poker Pro?</a></p>
 </div>
 
 <div class="story">
-  <h3>Andrew Huberman (ft. Dr. Andy Galpin)</h3>
-  <p>A dense essentials recap on strength and hypertrophy programming. Key data points: after 40, you lose ~1% muscle mass per year but 2-4% of strength and 8-10% of muscle power — meaning power loss is the primary functional threat of aging, not mass. Strength training is the only intervention that combats neuromuscular aging; even adults over 90 showed 30-170% improvements in muscle size in 12-week studies. On programming: the "3-5 protocol" (3-5 days, 3-5 exercises, 3-5 sets of 3-5 reps, 3-5 min rest) is a durable framework for strength; progressive overload of ~3-5% per week is the key driver. For hypertrophy, rep tempo matters less than for strength — any cadence works as long as volume accumulates. The distinction that matters: strength requires practicing fast, heavy movement (force = mass × acceleration), while hypertrophy just requires sufficient mechanical stimulus regardless of tempo.</p>
-  <p class="meta">Videos: <a href="https://www.youtube.com/watch?v=Gu04f6aFuBY">Essentials: Optimal Protocols to Build Strength & Grow Muscles</a> · <a href="https://www.youtube.com/shorts/xmEnK-WWlUY">Dr. Arthur Brooks: The 3 Macronutrients of True Happiness</a></p>
+  <h3>GTO Lab</h3>
+  <p>A crisp conceptual distinction between equity advantage and nuts advantage as the two components of range advantage. The key takeaway: equity advantage tells you who should be doing the betting, but nuts advantage is what licenses large bets. If your range is ahead in equity but lacks nut hands, you can bet — but you generally cannot size up. Both players betting occurs when equity is close to even and nuts advantage is also split. Simple but foundational for sizing decisions.</p>
+  <p class="meta">Videos: <a href="https://www.youtube.com/shorts/NQl6wpmEZ_U">Your range can be ahead without supporting a big bet.</a></p>
 </div>
 
 <div class="story">
-  <h3>Peter Attia</h3>
-  <p>A thorough breakdown of why thyroid management is so contested and commonly mishandled. Attia's core framework: thyroid is a Goldilocks hormone system (too much and too little are both harmful), which makes it uniquely prone to both under- and over-treatment. The pituitary marker TSH tells you what the gland is being asked to do, not what's actually happening in tissue — because conversion of inactive T4 to active T3 happens locally, organ by organ, and is not visible from standard labs. He identifies two failure modes: (1) conventional medicine dismissing real dysfunction because TSH is technically "normal" while the patient has positive antibodies, patchy gland, and family history; (2) functional medicine overcorrecting by treating borderline reverse T3 or free T3 as irrefutable hypothyroidism regardless of TSH, building elaborate "root cause" narratives around findings that often normalize spontaneously. His prescription: a multi-data-source approach combining labs, symptoms, and context — neither lab-value-in-isolation nor symptom-first.</p>
-  <p class="meta">Videos: <a href="https://www.youtube.com/watch?v=6Bhq-PBWG8c">Thyroid health: interpreting symptoms, diagnosing & treating dysfunction, & navigating the gray zone</a></p>
+  <h3>Anthony Chaffee MD</h3>
+  <p>Extended Q&A covering carnivore dietary management of autoimmune disease, particularly MS. Chaffee's central claim is that MS symptoms and even lesion burden may be driven by plant lectins triggering immune responses at neural tissue — not the body attacking itself. He cited a patient case where strict lion diet (beef, lamb, water) plus optimized B12, D3, vitamin A, choline, creatine, carnitine, taurine, DHA/EPA over 8 months produced a 40% reduction in MRI lesion load, which her neurologist said he'd never seen. He also flagged that lab reference ranges for B12 are largely arbitrary (four Perth labs give four different ranges) and argued optimal B12 is 800–1200 pmol/L, well above most lab upper limits. On histamine reactivity: fresh lamb tends to be better tolerated than hung beef; egg whites are a common autoimmune trigger; soy-free pasture-raised eggs are meaningfully different from standard pasture eggs.</p>
+  <p class="meta">Videos: <a href="https://www.youtube.com/watch?v=h_gT1FB0SOs">Carnivore Livestream with Dr Anthony Chaffee | Sept 25th, 2026</a></p>
+</div>
+
+<div class="story">
+  <h3>Renaissance Periodization (Dr. Mike)</h3>
+  <p>Two pieces worth noting together. On sets of 5 vs. sets of 15: the evidence is clear that they produce roughly equivalent hypertrophy — the preference for heavy low-rep sets is largely ego-driven (more weight, less burn, shorter suffering). Sets of 15 are appropriate when joints are beat up, when injury risk management matters, or when a muscle simply responds better to higher reps. Separately, the Planet Fitness breakdown is mostly entertainment, but one substantive point: the "intimidation" justification for banning experienced lifters has essentially no statistical basis — assault and verbal intimidation by big lifters in gyms is vanishingly rare, and the real harm of the model is restricting effective training modalities (deadlifts, overhead press, supersets) from people who want to actually get stronger.</p>
+  <p class="meta">Videos: <a href="https://www.youtube.com/watch?v=NbufBbwSRCM">Exercise Scientist Critiques Planet Fitness</a> · <a href="https://www.youtube.com/shorts/q31Fq_hJj00">Sets of 5 VS Sets of 15</a></p>
+</div>
+
+<div class="story">
+  <h3>Mind The Game (LeBron James)</h3>
+  <p>LeBron's explanation of why he chose Philadelphia over returning to the Lakers. His relationship with Tyrese Maxey was the primary pull — Maxey called him immediately upon becoming a free agent. His stated goal is to be the piece that helps Joel Embiid win his first championship, framing Embiid as someone who has "everything" (MVP, gold medal, signature shoes, city on his back for 10+ years) except a ring. He also described his retirement decision framework: he will keep playing as long as he can honestly commit to the full preparation process (training, recovery, film) without cheating it — the moment that integrity breaks down, he's done. Tribute to Don Nelson was genuine and detailed.</p>
+  <p class="meta">Videos: <a href="https://www.youtube.com/watch?v=rGGq11K40Gw">LeBron James on Leaving LA and Choosing Philly</a> · <a href="https://www.youtube.com/shorts/GFyrgi9av3o">The respect was real long before the decision was made.</a> · <a href="https://www.youtube.com/shorts/oSJXEJncX1Y">Why Philly?</a></p>
 </div>
 
 <p><strong>Also posted:</strong></p>
 <ul>
-  <li><strong>Ken Berry MD:</strong> Argues that "eat less, move more" fails because exercise increases appetite — making it physiologically incoherent to simultaneously tell patients to exercise more and eat less. Claims only sufficient animal fat and protein makes a diet sustainable long-term. (<a href="https://www.youtube.com/shorts/tR18Bh8Nbj4">eat less move more fails</a>)</li>
-  <li><strong>Anthony Chaffee MD:</strong> Cites an umbrella review (meta-analysis of meta-analyses of RCTs) finding no correlation between saturated fat and cardiovascular disease, and a protective association between saturated fat intake and stroke reduction. (<a href="https://www.youtube.com/shorts/_Nl5ADTjvvc">Steaks Cause STROKES and Heart Disease? Think again!</a>)</li>
-  <li><strong>Paul Saladino MD:</strong> References a study showing tea bags (especially polypropylene, but also cellulose and nylon) release millions to billions of microplastic particles into hot tea. Recommends stainless steel tea baskets with loose-leaf tea as the fix. (<a href="https://www.youtube.com/shorts/UwhpWPMewXY">I will NEVER buy another teabag…</a>)</li>
-  <li><strong>Nick Norwitz:</strong> Adding a small amount of lemon juice before scrambling eggs reduces formation of advanced glycation end products (AGEs) by ~20% by altering the cooking chemistry via acidity. (<a href="https://www.youtube.com/shorts/LhMCtd6qtns">The Healthiest Way to Scramble an Egg</a>)</li>
-  <li><strong>Renaissance Periodization:</strong> The injury risk profile for heavy lifting is highest when you combine chronic tissue fatigue (weeks of hard training) with a relatively fresh acute state — the tendons are pre-damaged but you're strong enough to produce maximal force. Multiple warm-up sets significantly reduce this risk by reducing peak force output. (<a href="https://www.youtube.com/shorts/nmBSPQQc9tg">The Worst Time to Lift Heavy</a>)</li>
-  <li><strong>Thomas DeLauer:</strong> Covers luteolin (a flavonoid in parsley, celery, thyme) with preclinical data showing 70% fasting insulin drop, 30-33% LDL reduction, fat cell shrinkage, and neuroprotection in Alzheimer's models — caveated heavily as mouse data; also covers collagen/glycine as a glutathione precursor for liver detoxification, paired with creatine (to spare glycine from being used in endogenous creatine synthesis), sulforaphane (NRF2 activation), and psyllium husk (bile acid binding for toxin excretion). (<a href="https://www.youtube.com/watch?v=tvlxx5-4oC0">The Biggest Insulin Drop I've Ever Seen from a Single Compound (70%)</a> · <a href="https://www.youtube.com/watch?v=eikXdhChUKo">1 Scoop is the Most Surprising Liver Compound You Can Take</a>)</li>
-  <li><strong>Dr. Sten Ekberg:</strong> Detailed walkthrough of 10 early signs of pancreatic cancer, emphasizing that new-onset diabetes after 50 with low insulin (not high) is a key early red flag that most doctors misread as type 2. (<a href="https://www.youtube.com/watch?v=Liu-phFxSqk">10 Early Signs of Pancreatic Cancer You Should Never Ignore</a>)</li>
+  <li><strong>Dr. Sten Ekberg:</strong> Four mechanisms behind waking at 3am — blood sugar crash (adrenaline/cortisol surge from glucose drop, driven by insulin resistance), sleep apnea micro-arousals, chronic stress/racing mind (cortisol baseline elevated, compounded by the natural cortisol rise starting ~3am), and emotional/psychological triggers. Each has specific interventions; root cause for #1 is reducing insulin resistance. (<a href="https://www.youtube.com/watch?v=K3NZX4JmQkw">What Happens At 3 AM That Wakes You Up Every Night?</a>)</li>
+  <li><strong>Nick Norwitz:</strong> Covers natural short sleepers (DEC2/NPSR1 gene variants, <1% of population), suggesting that if scientists could replicate this genetically or pharmacologically, the intervention would be larger than Ozempic in impact. (<a href="https://www.youtube.com/shorts/2IeupP_AvWc">The Next Ozempic Could Be a Sleep Drug</a>)</li>
+  <li><strong>Thomas DeLauer:</strong> Avocado deep-dive with actual trial data: 163 people eating one avocado/day for 12 weeks showed lower blood glucose and insulin; same salad with avocado produced 15x more beta-carotene absorption vs. fat-free dressing; contains manoheptulose (a rare sugar that inhibits hepatic glucokinase, blunting glucose response); beta-sitosterol content (132mg per avocado vs. ~3mg in most fruit) inhibits 5-alpha reductase — same enzyme targeted by finasteride. (<a href="https://www.youtube.com/watch?v=rdLJcQmHq6s">163 People Ate 4oz Per Day - All Metabolic Markers Changed</a>)</li>
+  <li><strong>Paul Saladino MD:</strong> Polypropylene, nylon, and even cellulose tea bags release millions to billions of microplastic particles in hot water — simple fix is a stainless steel tea basket with loose leaf tea. (<a href="https://www.youtube.com/shorts/UwhpWPMewXY">I will NEVER buy another teabag…</a>)</li>
+  <li><strong>Peter Attia:</strong> Subclinical hypothyroidism (high-normal TSH, normal free T4, no symptoms, negative antibodies) — key clinical point is that TSH upper limit of normal rises ~1 point per decade, so a TSH of 8 is essentially normal for an 80-year-old. Empirical treatment warranted when TSH is dramatically elevated (e.g., 50) even with normal T4; gray-zone cases require trending, family history, and possibly ultrasound for early Hashimoto's. (<a href="https://www.youtube.com/shorts/6KXdPnGLQrM">Navigating subclinical hypothyroidism</a>)</li>
+  <li><strong>ModernWisdom (Dr. K):</strong> Gambling addiction among young men driven by a widening gap between societal expectations and male capability — men gamble as a fast-path to status and security they can't reach through traditional meritocracy, which is itself breaking down. Also covers GLP-1 agonists reducing alcohol/nicotine cravings but apparently worsening pornography use, and the broader thesis that society's resources have never been higher while human suffering (loneliness, mental illness, body dysmorphia) is also at peaks. (<a href="https://www.youtube.com/watch?v=y8JLzsgp5XU">Why Men Are Gambling Away Their Futures On Polymarket</a> + <a href="https://www.youtube.com/shorts/VWGWkfmJCq8">Take The Time To Enjoy Your Life</a> + 1 more)</li>
+  <li><strong>Andrew Huberman (Dr. Arthur Brooks):</strong> Three "macronutrients" of happiness: enjoyment (distinct from pleasure — pleasure seeking is "the secret to rehab"), satisfaction (joy from accomplishment after struggle), and meaning (the why of existence). (<a href="https://www.youtube.com/shorts/xmEnK-WWlUY">The 3 Macronutrients of True Happiness</a>)</li>
+  <li><strong>Lex Fridman:</strong> Historian of psychiatry Andrew Scull on the full arc of the field — asylums, eugenics, lobotomy (Walter Freeman's ice-pick technique, 20-30 procedures per afternoon, Nobel Prize awarded to Moniz in 1949), insulin coma therapy, and the DSM's shift from psychoanalytic to symptom-based diagnosis. Core critique: after $20B+ in NIMH funding chasing biological/genetic explanations, Thomas Insel admitted the lot of the mentally ill had "improved not one bit." (<a href="https://www.youtube.com/watch?v=s7d2d8FhevU">Psychiatry, Insane Asylums, Mental Illness, ECT, Lobotomies, Freud & Jung | Lex Fridman Podcast #502</a>)</li>
+  <li><strong>Ken Berry MD:</strong> No transcript available. (<a href="https://www.youtube.com/watch?v=saiKeOOWOQ0">Monday Night Live with Dr. Berry & Nurse Neisha</a>)</li>
 </ul>
-
----
 
 <h2>₿ Bitcoin & Macro</h2>
 
 <div class="story">
-  <h3><a href="https://bitcoinmagazine.com/videos/saifedean-ammous-the-bond-crisis-bitcoins-rise-as-a-true-macro-asset">Saifedean Ammous: The Bond Crisis & Bitcoin's Rise as a True Macro Asset</a></h3>
-  <p>Ammous argues that falling Bitcoin volatility is the most bullish signal available right now — as BTC matures from speculative asset to macro store-of-value, reduced vol makes it more credible as a bond alternative during a sovereign debt crisis. His thesis: the bond market's structural deterioration is accelerating Bitcoin's legitimacy as a true macro asset rather than a risk-on trade.</p>
+  <h3><a href="https://bitcoinmagazine.com/news/bitcoin-etfs-bring-in-nearly-3-billion">Bitcoin ETFs Extend Winning Streak With Nearly $3B in Inflows</a></h3>
+  <p>Over six consecutive days, Bitcoin ETFs attracted $2.8 billion in net inflows — a signal of sustained institutional demand. This kind of persistent streak matters more as a behavioral indicator than any single day's number, suggesting this isn't noise but a directional bid from allocators.</p>
   <p class="meta">Bitcoin Magazine</p>
 </div>
 
 <div class="story">
-  <h3><a href="https://bitcoinmagazine.com/videos/jeff-booth-why-1-million-btc-is-thinking-too-small">Jeff Booth: Why $1 Million BTC Is Thinking Too Small</a></h3>
-  <p>Booth's core argument is that pricing Bitcoin in fiat currency is itself a rigged framework — debased currencies make any nominal price target meaningless. His claim is that the question isn't "what price in dollars" but rather what share of global wealth Bitcoin will represent as trust in fiat systems erodes; by that framing, $1M is an underestimate anchored to a broken measuring stick.</p>
+  <h3><a href="https://bitcoinmagazine.com/videos/mitchell-askew-explains-what-15m-inactive-btc-means-for-bitcoins-next-move">What 15M Inactive BTC Means for Bitcoin's Next Move</a></h3>
+  <p>On-chain analyst Mitchell Askew flags that 15 million BTC has been dormant for extended periods — interpreted as long-term holder conviction and seller exhaustion. The argument: when supply held by long-term holders is this large and inactive, it structurally constrains available sell-side, which historically precedes upward price moves even against macro headwinds.</p>
   <p class="meta">Bitcoin Magazine</p>
 </div>
 
 <div class="story">
-  <h3><a href="https://bitcoinmagazine.com/news/institutions-held-bitcoin-through-crash">Institutions Held Their Bitcoin Through Crash — and Some Bought More</a></h3>
-  <p>New research finds institutional investors maintained or added to Bitcoin positions through the most recent major drawdown, and that BTC has become the single crypto asset that large institutions broadly agree on — a meaningful shift in how it's treated at the portfolio level versus speculative crypto exposure.</p>
+  <h3><a href="https://bitcoinmagazine.com/news/strategy-proposes-daily-dividends">Bitcoin Treasury Strategy Proposes Daily Dividends For Preferred Stocks</a></h3>
+  <p>Strategy (Saylor's firm) is seeking shareholder approval to pay daily dividends on four preferred share classes (STRF, STRC, STRK, STRD). This is a financial engineering move — daily compounding dividends on preferred equity funded by Bitcoin treasury operations — and reflects the continued evolution of the Strategy capital structure model that others are beginning to replicate.</p>
   <p class="meta">Bitcoin Magazine</p>
 </div>
-
----
 
 <h2>🧬 Health & Science</h2>
 
 <div class="story">
-  <h3>Thyroid Management: The Two Failure Modes (Peter Attia)</h3>
-  <p>The most actionable clinical framework in this brief. Attia identifies why thyroid is chronically mismanaged: TSH measures pituitary signaling, not tissue-level T3 activity, because conversion happens locally organ by organ. The under-treatment failure: dismissing a patient with elevated TSH at 4.2, positive antibodies, and a patchy gland because the number is technically "normal." The over-treatment failure: functional medicine practitioners treating borderline reverse T3 as irrefutable hypothyroidism, prescribing T3/T4 replacement that can cause atrial fibrillation, bone loss, and cognitive symptoms in patients who would normalize spontaneously. The practical upshot: always pair labs with symptoms and context; mildly elevated TSH frequently self-resolves on repeat testing and should not auto-trigger treatment. <a href="https://www.youtube.com/watch?v=6Bhq-PBWG8c">Full episode here.</a></p>
+  <h3>The Lab Reference Range Problem (Chaffee)</h3>
+  <p>Worth flagging as a standalone point: Chaffee documented that four major labs in a single city (Perth) give four completely different reference ranges for B12 — one sets deficiency below 140 pmol/L, another below 330. A patient with B12 of 250 is "fine" at three labs and "deficient" at the fourth. His argument, backed by some literature, is that optimal B12 is 800–1,200 pmol/L, which sits above the upper limit of most lab ranges entirely. The practical implication: treating "within normal range" as a health target is a category error when the ranges themselves are averages of a population that may be systematically deficient.</p>
+  <p class="meta"><a href="https://www.youtube.com/watch?v=h_gT1FB0SOs">Anthony Chaffee MD Livestream</a></p>
 </div>
 
 <div class="story">
-  <h3>Luteolin: Preclinical Metabolic Data Worth Tracking</h3>
-  <p>Thomas DeLauer's deep-dive covers a flavonoid (found in parsley, celery, thyme, artichoke) with a striking but heavily caveated rodent data profile: fasting insulin dropped ~70% over 28 days in a high-fat diet mouse model; fat cell hypertrophy was suppressed; LDL dropped 33% and total cholesterol 30% in an atherosclerosis model over 14 weeks; two separate Alzheimer's models showed structural hippocampal protection. The fat-loss mechanism appears serotonin-mediated (knocking out serotonin synthesis eliminated the effect), and the anti-inflammatory action is selective — it suppressed pro-inflammatory gene expression while maintaining anti-inflammatory markers, which is unusual. Critical caveat: all data is preclinical. Bioavailability is ~17% and improves with fat-containing meals. Drug interaction risk via CYP1A2/3A4 inhibition if on medications. Dose range in studies: 100-200mg/day. <a href="https://www.youtube.com/watch?v=tvlxx5-4oC0">Full breakdown here.</a></p>
+  <h3>Avocado's Non-Fat Mechanisms (DeLauer)</h3>
+  <p>Three specific mechanisms beyond "healthy fats": (1) Carotenoid absorption — oleic acid is particularly effective at packaging fat-soluble carotenoids into micelles; the same salad with avocado vs. fat-free dressing produced 15.3x more beta-carotene absorption in a Journal of Nutrition crossover trial. (2) Manoheptulose — a rare sugar in avocado that inhibits hepatic glucokinase, slowing liver glucose processing independently of fat and fiber content; a Journal of Nutrients dose-response study found both half and whole avocado produced significantly lower 6-hour glucose and insulin vs. a calorie-matched carb meal. (3) Gut microbiome — the 163-person, 12-week RCT found increases in Faecalibacterium, Lachnospira, and Alistipes, bacteria associated with anti-inflammatory effects and butyrate production, with downstream improvement in insulin sensitivity markers.</p>
+  <p class="meta"><a href="https://www.youtube.com/watch?v=rdLJcQmHq6s">Thomas DeLauer</a></p>
 </div>
 
 <div class="story">
-  <h3>Strength & Hypertrophy: The Power Loss Problem (Huberman / Galpin)</h3>
-  <p>The most underappreciated aging data from the Galpin episode: muscle mass declines ~1%/year after 40, but strength declines 2-4%/year and muscle <em>power</em> declines 8-10%/year. Functional independence as you age is primarily a power problem, not a size problem — power is what lets you catch yourself from a fall or stand from a chair. The only intervention that addresses this is heavy overload resistance training. Even adults 90+ showed 30-170% improvements in muscle size and strength in 12-week training studies, meaning it is never too late to start. The 3-5 framework (days/exercises/sets/reps/rest minutes) is the cleanest entry-point protocol in the literature for simultaneous strength development.</p>
+  <h3>The 3am Wake Mechanism (Ekberg)</h3>
+  <p>A mechanistically clean explanation worth having: the natural cortisol nadir is 1–3am, after which cortisol begins rising as part of the dawn phenomenon. Deep sleep also shifts to lighter stages around 3am. If your baseline cortisol is already elevated (chronic stress, racing mind) or you've created a blood glucose instability (late high-carb dinner, alcohol), the cortisol uptick at 3am crosses a threshold and tips you into wakefulness. Alcohol specifically impairs gluconeogenesis by occupying the liver, removing the buffer against blood glucose drops, AND its breakdown product acetaldehyde directly stimulates the sympathetic nervous system. The fix for blood sugar-driven waking is earlier/lighter dinners with more fat and protein; the fix for stress-driven waking involves training the parasympathetic system through daily slow-breath practice (4-5s in, 5-6s out), which he frames as literal neuroplastic strengthening of parasympathetic nuclei.</p>
+  <p class="meta"><a href="https://www.youtube.com/watch?v=K3NZX4JmQkw">Dr. Sten Ekberg</a></p>
 </div>
-
-<div class="story">
-  <h3>Pancreatic Cancer Early Detection: The Insulin Signal</h3>
-  <p>Dr. Sten Ekberg makes a genuinely useful clinical point: new-onset diabetes after age 50 that doesn't match typical type 2 risk factors — and crucially, where insulin levels are <em>low</em> rather than high — is a red flag for pancreatic cancer destroying beta cells. Most physicians default to a type 2 diagnosis without testing insulin levels, which would immediately reveal the mismatch. He argues routine insulin testing would catch this pattern early; the other early signs (early satiety, vague upper abdominal discomfort, mild intermittent nausea) are individually non-specific but cluster meaningfully when combined. Painless jaundice (yellowing of the sclera without pain, versus the acute pain of a gallstone blockage) is the key later-stage signal. <a href="https://www.youtube.com/watch?v=Liu-phFxSqk">Full video.</a></p>
-</div>
-
----
 
 <h2>💡 Worth Reading</h2>
 
 <div class="story">
-  <h3><a href="https://dynomight.substack.com/p/liver">Why Is the Liver So Weirdly Regenerative?</a></h3>
-  <p>A substantive explainer on one of biology's genuine puzzles: the liver can regrow to full size after losing up to 70% of its mass, something almost no other organ can do. The piece goes into the mechanisms — hepatocyte proliferation, signaling pathways, and why this capacity exists in the liver but not, say, the heart — and what it tells us about tissue regeneration more broadly. Worth reading if you're interested in longevity biology or just want a genuinely surprising fact explained rigorously.</p>
-  <p class="meta"><a href="https://news.ycombinator.com/item?url=https://dynomight.substack.com/p/liver">Discussion</a> · Dynomight / Hacker News (396 pts)</p>
+  <h3><a href="https://terrytao.wordpress.com/2026/09/24/were-gonna-need-a-lot-more-mathematicians/">We're gonna need a lot more mathematicians</a></h3>
+  <p>Terry Tao — one of the most decorated living mathematicians — argues that AI is beginning to make mathematical research scalable in ways that will require a significant expansion of the mathematical workforce to direct, verify, and use the output. This is a capability-level claim from someone with direct knowledge of where AI math tools actually are. Worth reading as a counterpoint to the "AI replaces mathematicians" narrative.</p>
+  <p class="meta"><a href="https://news.ycombinator.com/item?id=49848955">Discussion</a></p>
 </div>
 
 <div class="story">
-  <h3><a href="https://macanorak.com/two-tier-encryption-in-the-uk/">Two-Tier Encryption in the UK</a></h3>
-  <p>This piece covers the emerging reality that UK law is creating a two-class system for encrypted communications — strong encryption for some users and providers, weakened or backdoored access for others — with serious implications for privacy, security, and the integrity of end-to-end encryption globally. Given that encryption backdoors don't stay exclusive, this has implications well beyond the UK. High-relevance for anyone who cares about digital privacy or the policy direction of Western democracies on surveillance.</p>
-  <p class="meta"><a href="https://news.ycombinator.com/item?url=https://macanorak.com/two-tier-encryption-in-the-uk/">Discussion</a> · Hacker News (446 pts)</p>
+  <h3><a href="https://www.quantamagazine.org/gravity-seems-holographic-what-does-that-mean-for-reality-20260925/">Gravity seems holographic. What does that mean for reality?</a></h3>
+  <p>Quanta Magazine piece on the holographic principle — the idea that the physics of a volume of space can be fully encoded on its boundary surface. Recent evidence apparently strengthens the case that gravity specifically exhibits this property. The implications are genuinely strange: if true, our three-dimensional experience of spacetime may be a kind of projection from a 2D surface. Worth the read if you care about what reality actually is.</p>
+  <p class="meta"><a href="https://news.ycombinator.com/item?id=49848955">HN Discussion</a></p>
 </div>
 
 <div class="story">
-  <h3><a href="https://resobscura.substack.com/p/ai-labs-need-to-start-funding-historical">Using LLMs to Trace Alchemical Knowledge and Decode 17th-Century Letters</a></h3>
-  <p>A historian documents using AI to do something that would have taken years manually: mapping the transmission of alchemical knowledge across 17th-century correspondence networks, identifying who influenced whom and how ideas moved. The piece argues this is a proof-of-concept for a new kind of historical analysis — and makes the case that AI labs should be actively funding this kind of humanistic research. A good example of AI doing genuinely novel intellectual work rather than just summarizing or coding.</p>
-  <p class="meta"><a href="https://news.ycombinator.com/item?url=https://resobscura.substack.com/p/ai-labs-need-to-start-funding-historical">Discussion</a> · Hacker News (131 pts)</p>
+  <h3><a href="https://www.jezebel.com/flock-cameras-data-innocent-woman-arrested-lindsey-isaacs-palm-beach-florida-lawsuit-vehicular-homicide">One Piece of Flock Camera Data Put This Innocent Woman in Jail for 13 Days</a></h3>
+  <p>A woman in Florida was jailed for 13 days for a vehicular homicide she didn't commit, based solely on automated license plate reader data from Flock cameras. The case illustrates the real-world failure mode of over-reliance on surveillance infrastructure: single-source evidence treated as sufficient for arrest, with no mechanism to quickly correct errors. A concrete example of the privacy/due process stakes of ubiquitous camera networks.</p>
+  <p class="meta"><a href="https://news.ycombinator.com/item?id=49848955">HN Discussion</a></p>
 </div>
 
 <div class="story">
-  <h3><a href="https://figsinwintertime.substack.com/p/the-past-is-not-a-defendant">The Past Is Not a Defendant (Massimo Pigliucci)</a></h3>
-  <p>Pigliucci argues that retroactive moral judgment of historical figures and cultures is intellectually lazy and practically useless — what we should be doing is learning from them, understanding the conditions that produced their choices, and asking what those conditions tell us about the constraints and errors of our own time. A clean application of Stoic-adjacent historical thinking: focus on what is useful and actionable, not on performing condemnation of the dead.</p>
-  <p class="meta"><a href="https://figsinwintertime.substack.com/p/the-past-is-not-a-defendant">Figs in Winter (Pigliucci)</a></p>
+  <h3><a href="https://sunilsadasivan.com/writing/first-principles-thinking/">First Principles Thinking</a></h3>
+  <p>A high-upvote HN piece on first-principles reasoning — breaking problems down to foundational truths rather than reasoning by analogy. Worth scanning to see if the framing adds anything to the Munger/Musk versions of this idea you've likely already internalized. Flagging because it's squarely in your mental models interest and the HN signal (256 points) suggests it has some novel angle.</p>
+  <p class="meta"><a href="https://news.ycombinator.com/item?id=49848955">HN Discussion</a></p>
+</div>
+
+<div class="story">
+  <h3><a href="https://figsinwintertime.substack.com/p/the-past-is-not-a-defendant">The past is not a defendant (Massimo Pigliucci)</a></h3>
+  <p>Pigliucci argues that criticizing earlier cultures by contemporary moral standards is intellectually lazy and practically useless — the Stoic-inflected view is that we should extract what's learnable from historical figures and cultures rather than prosecuting them. A short, direct piece that pushes back on a very common contemporary reflex. Relevant if you're reading Seneca or Marcus and occasionally bump into the "but he owned slaves" objection.</p>
+  <p class="meta"><a href="https://figsinwintertime.substack.com/p/the-past-is-not-a-defendant">Figs in Winter</a></p>
 </div>
 
 <div class="story">
   <h3><a href="https://donaldrobertson.substack.com/p/how-to-cope-wisely-with-anxiety">How to Cope Wisely with Anxiety (Donald Robertson)</a></h3>
-  <p>Part of Robertson's Stoic Mind series, this applies Stoic cognitive techniques specifically to anxiety — distinguishing between what is genuinely in our control (our judgments and responses) versus what produces the anxious response (external uncertainty). Robertson draws on the classical distinction between the impression and the assent to show how the Stoics would have approached what we now call cognitive reappraisal. Practical and grounded in the actual philosophical texts rather than pop-Stoicism.</p>
-  <p class="meta"><a href="https://donaldrobertson.substack.com/p/how-to-cope-wisely-with-anxiety">Donald Robertson / Substack</a></p>
+  <p>Part of Robertson's Stoic Mind Miniseries — he's probably the most rigorous contemporary practitioner at the intersection of Stoicism and cognitive behavioral techniques. Worth reading as a practical toolkit rather than philosophy-for-philosophy's-sake: Robertson consistently grounds Stoic exercises in what we now understand about anxiety neuroscience and CBT.</p>
+  <p class="meta"><a href="https://donaldrobertson.substack.com/p/how-to-cope-wisely-with-anxiety">The Stoic Mind</a></p>
 </div>
-
----
 
 <h2>🤖 AI Capability Watch</h2>
 
 <div class="story">
-  <h3><a href="https://www.anthropic.com/news/claude-discovers-novel-enzyme-system">Claude Discovers a Novel Enzyme System with CRISPR-like Repeats</a></h3>
-  <p>Anthropic reports that Claude independently identified a previously unknown enzyme system containing CRISPR-like repeat sequences — not assisted discovery, but a novel finding attributed to the model itself. If the claim holds up to peer scrutiny, this would be a meaningful demonstration of AI doing original biological research rather than accelerating human research — a qualitative step beyond what most "AI in science" stories describe.</p>
+  <h3><a href="https://www.anthropic.com/news/claude-discovers-novel-enzyme-system">Claude discovers a novel enzyme system with CRISPR-like repeats</a></h3>
+  <p>Claude independently identified a previously unknown enzyme system containing CRISPR-like repeat sequences — meaning an AI system made a genuine biological discovery, not just assisted a human making one. If the claim holds up to scrutiny, this is a meaningful milestone: AI moving from research assistant to research contributor in molecular biology.</p>
   <p class="meta">Anthropic</p>
 </div>
 
 <div class="story">
-  <h3><a href="https://simonwillison.net/2026/Sep/23/gemini-tts-playground/">Google Releases Gemini 3.8 TTS with 2,000+ Voices and 30-Second Voice Cloning</a></h3>
-  <p>Google released two new Gemini text-to-speech models (gemini-3.8-flash-tts and lite variant) with a library of over 2,000 voices and the ability to clone a custom voice from just a 30-second audio sample. Voice cloning at this fidelity from 30 seconds of audio is a meaningful capability threshold — it makes personalized, realistic synthetic voice accessible to essentially anyone with a short recording.</p>
-  <p class="meta">Simon Willison</p>
-</div>
+  <h3><a href="https://www.bloomberg.com/news/articles/2026-09-25/microsoft-abandons-personal-ai-chatbot-race-with-copilot-reboot">Microsoft abandons personal AI chatbot race with Copilot reboot</a></h3>
+  <p>Microsoft is pulling back from competing in the consumer AI assistant market and repositioning Copilot — significant because it signals that the "everyone gets a personal AI" category may be consolidating faster than expected, with Microsoft ceding that space rather than fighting for it. The strategic implication is that enterprise/productivity AI and consumer AI may be diverging into different competitive landscapes.</p>
+  <p
 </body>
 </html>
