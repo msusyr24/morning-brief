@@ -1,128 +1,98 @@
 === HACKER NEWS ===
-1. [459 pts] Revealing the details of how OpenAI agents hacked Hugging Face
-   https://swarmtraces.org/
+1. [101 pts] OpenAI Feared "Optics" of what might appear on Hacker News
+   https://authorsguild.org/news/ag-v-openai-top-execs-knew-mass-book-piracy-was-illegal/
 
-2. [56 pts] A single function Jev-like wrapper for LLMs, including vision models
-   http://allanrbo.blogspot.com/2026/09/a-jev-like-wrapper-for-llms-including.html
+2. [328 pts] Does Georgism work? Five years later
+   https://www.astralcodexten.com/p/does-georgism-work-five-years-later
 
-3. [102 pts] We're gonna need a lot more mathematicians
-   https://terrytao.wordpress.com/2026/09/24/were-gonna-need-a-lot-more-mathematicians/
+3. [62 pts] Flip Fluid on Flip Dots
+   https://mitxela.com/projects/flipflip
 
-4. [293 pts] Plan mode is dead
-   https://www.aymannadeem.com/artificial/intelligence,/developer/tools/2026/09/24/plan-mode-is-dead.html
+4. [213 pts] Go Concurrency Distilled
+   https://antonz.org/go-concurrency-distilled/
 
-5. [434 pts] Ollaya – Ollama for open-source, Jev-style decision models
-   https://ollaya.dev/
+5. [18 pts] Meta Blocks President Lula's Facebook Page, Campaign Ads 2 Weeks from Election
+   https://www.reddit.com/r/worldnews/comments/1wr3id3/meta_blocks_president_lulas_facebook_page_and/
 
-6. [193 pts] Show HN: Jev Plays Pokémon Red
-   https://jev-pokemon.vercel.app/
+6. [410 pts] PipePipe: NewPipe hard fork implementing SponsorBlock
+   https://github.com/InfinityLoop1308/PipePipe
 
-7. [183 pts] What even is an OS now?
-   https://sockpuppet.org/blog/2026/09/25/what-even-is-an-os-now/
+7. [37 pts] Improving site performance by shipping more CSS
+   https://github.blog/engineering/architecture-optimization/improving-site-performance-by-shipping-more-css/
 
-8. [65 pts] How I changed teaching after AI managed to do all my homework assignments
+8. [238 pts] DeepSeek Elastic Compute (DSec)
+   https://arxiv.org/abs/2609.22978
+
+9. [297 pts] Show HN: Reladraw – A diagram language where you decide where to place things
+   https://github.com/reladraw/reladraw
+
+10. [23 pts] C's Flexible Integer Sizes Were Not a Design Mistake
+   https://pikuma.com/blog/c-integer-sizes-not-a-mistake
+
+11. [47 pts] Real-time feedback: My closing move in every interview
+   https://mgrebler.substack.com/p/real-time-feedback-my-closing-move
+
+12. [172 pts] A searchable library of forgotten public-domain film clips from 1915 onward
+   https://www.movingimagearchive.com/
+
+13. [66 pts] Biology might not be quantum, but its math is quantumlike
+   https://www.quantamagazine.org/biology-might-not-be-quantum-but-its-math-is-quantumlike-20260923/
+
+14. [161 pts] What is the size of Yemen? (2024)
+   https://theborys.substack.com/p/what-is-the-size-of-yemen
+
+15. [393 pts] Fifteen years later, the Apple Cards origin story
+   https://lexontech.org/fifteen-years-later-the-apple-cards-origin-story
+
+16. [272 pts] ASML says it sold 'absolutely nothing' in Europe in 2026
+   https://www.tomshardware.com/tech-industry/semiconductors/asml-says-its-sells-absolutely-nothing-in-europe-calls-on-eu-to-help-create-demand
+
+17. [3 pts] LP Voting and Investor Consent for AIFs
+   https://taghash.io/blog/lp-voting-and-investor-consent-for-aifs-a-practical-workflow
+
+18. [78 pts] Reverse-engineering the Intel 8087's tangent algorithm: more than CORDIC
+   https://www.righto.com/2026/09/8087-tangent-cordic.html
+
+19. [144 pts] Drawgent: Coding agent on a live Excalidraw canvas
+   https://tangled.org/yanndegat.tngl.sh/drawgent
+
+20. [29 pts] Exploding variance of means of exponentials: least-squares to the rescue
+   https://francisbach.com/spectral_log_density_estimation/
+
+21. [92 pts] An agent used DNS to reach an external chatbot
+   https://alignment.openai.com/misalignment-reports/an-agent-used-dns-to-reach-an-external-chatbot/
+
+22. [91 pts] Turning GLM-5.3-Flash into a Jev-like decision model
+   https://www.privatemode.ai/blog/system-one-from-glm-flash
+
+23. [200 pts] How I changed teaching after AI managed to do all my homework assignments
    https://thelastsoftwareengineer.substack.com/p/how-i-changed-teaching-after-ai-managed
 
-9. [37 pts] The Murky History of Soviet-Born Tetris
-   https://thereader.mitpress.mit.edu/the-bizarre-murky-history-of-soviet-born-tetris/
+24. [55 pts] Promising discoveries about the potential for life on one of Saturn’s icy moons
+   https://www.fu-berlin.de/en/presse/informationen/fup/2026/fup_26_116-enceladus-cassini-mikroben-science-postberg/index.html
 
-10. [207 pts] Jury finds Facebook liable for deceiving users in Cambridge Analytica case
-   https://www.cbsnews.com/news/facebook-liable-deceiving-users-cambridge-analytica/
+25. [223 pts] How to keep enjoying programming in a world of LLMs
+   https://discourse.haskell.org/t/how-to-keep-enjoying-programming-in-a-world-of-llms/14705
 
-11. [70 pts] Postgres SELECT DISTINCT Does Not Scale
-   https://www.dbos.dev/blog/postgres-select-distinct-does-not-scale
+26. [43 pts] Snap Wants to be a State Actor??–Kansas v. Snap
+   https://blog.ericgoldman.org/archives/2026/09/snap-wants-to-be-a-state-actor-kansas-v-snap.htm
 
-12. [189 pts] Gravity seems holographic. What does that mean for reality?
-   https://www.quantamagazine.org/gravity-seems-holographic-what-does-that-mean-for-reality-20260925/
+27. [7 pts] Bob Mackie dressed stars–if they were brave enough
+   https://www.economist.com/obituary/2026/09/24/bob-mackie-dressed-stars-if-they-were-brave-enough
 
-13. [112 pts] Ask HN: Who's still keeping a DOS machine up because the business depends on it?
-   https://news.ycombinator.com/item?id=49848955
+28. [89 pts] Evolving programming languages in the AI era
+   https://dashbit.co/blog/evolving-ai-era
 
-14. [7 pts] Scientists build most accurate atomic clock
-   https://phys.org/news/2026-09-scientists-world-accurate-atomic-clock.html
+29. [172 pts] Modern Object Pascal Introduction for Programmers
+   https://castle-engine.io/modern_pascal
 
-15. [36 pts] Fourier Analysis: Drawing Llamas with Circles
-   https://adekau.github.io/posts/2020/llamas.html
-
-16. [20 pts] A new world airport and its baggage
-   https://computer.rip/2026-09-20-denver-baggage.html
-
-17. [57 pts] Show HN: Hacker Atlas - A map of what Hacker News talks about
-   https://hackeratlas.com/
-
-18. [168 pts] One Piece of Flock Camera Data Put This Innocent Woman in Jail for 13 Days
-   https://www.jezebel.com/flock-cameras-data-innocent-woman-arrested-lindsey-isaacs-palm-beach-florida-lawsuit-vehicular-homicide
-
-19. [177 pts] Excel now supports multiple values in a single cell
-   https://techcommunity.microsoft.com/blog/microsoft365insiderblog/put-multiple-values-in-one-cell-with-lists-and-arrays-in-excel/4559395
-
-20. [12 pts] From Thin Air to Bootable Images: The Tine Build System
-   https://amutable.com/blog/tine-build-system
-
-21. [42 pts] Lab on a Contact Lens Can Measure Stress Through Serotonin
-   https://spectrum.ieee.org/serotonin-stress-smart-contact-lens
-
-22. [34 pts] Two and a half years without a gallbladder
-   https://tracydurnell.com/2026/09/16/two-and-a-half-years-without-a-gallbladder/
-
-23. [27 pts] HomelabFest will be in St. Louis in September 2027
-   https://www.homelabfest.org
-
-24. [68 pts] I wrote a ray tracer in Brainfuck
-   https://epestr.com/blog/writing-a-ray-tracer-in-brainfuck/
-
-25. [256 pts] First Principles Thinking
-   https://sunilsadasivan.com/writing/first-principles-thinking/
-
-26. [14 pts] Alberta's image as world's only rat-free region shattered by discovery of rat
-   https://www.theguardian.com/world/2026/sep/25/alberta-canada-rat-patrol
-
-27. [441 pts] U.S. appeals court upholds designation of Anthropic as supply chain risk
-   https://www.cnbc.com/2026/09/25/pentagon-anthropic-ai-risk-appeals-court.html
-
-28. [85 pts] Remembering Johannes Doerfert
-   https://blog.llvm.org/posts/2026-09-24-rememberingjohannesdoerfert/
-
-29. [120 pts] Microsoft abandons personal AI chatbot race with Copilot reboot
-   https://www.bloomberg.com/news/articles/2026-09-25/microsoft-abandons-personal-ai-chatbot-race-with-copilot-reboot
-
-30. [124 pts] How video games inspire great UX (2019)
-   https://jenson.org/games/
+30. [42 pts] We Should Be Able to Change Our Languages
+   http://jimmyhmiller.com/change-our-languages
 
 
 === RSS ===
-[ideas] Stratechery: 2026.39: Begun, the Aggregator Wars Have
-  https://stratechery.com/2026/begun-the-aggregator-wars-have/
-
-[ideas] Stratechery: An Interview with Colossus EIC Jeremy Stern About Profiling Mark Zuckerberg
-  https://stratechery.com/2026/an-interview-with-colossus-eic-jeremy-stern-about-profiling-mark-zuckerberg/
-
-[ideas] Stratechery: More on Muse, Amazon, and Walmart; Muse and Expedia; Whither Google?
-  https://stratechery.com/2026/more-on-muse-amazon-and-walmart-muse-and-expedia-whither-google/
-
-[wisdom] Figs in Winter (Pigliucci): The past is not a defendant
-  https://figsinwintertime.substack.com/p/the-past-is-not-a-defendant
-
-[wisdom] Figs in Winter (Pigliucci): Early Socratic dialogues: Hippias Major
-  https://figsinwintertime.substack.com/p/early-socratic-dialogues-hippias
-
-[wisdom] Figs in Winter (Pigliucci): In the Media
-  https://figsinwintertime.substack.com/p/in-the-media-5f2
-
-[wisdom] Donald Robertson: Ancient Lessons in Resilience from Ukraine
-  https://donaldrobertson.substack.com/p/ancient-lessons-in-resilience-from
-
-[wisdom] Donald Robertson: How to Cope Wisely with Anxiety
-  https://donaldrobertson.substack.com/p/how-to-cope-wisely-with-anxiety
-
-[ai] Anthropic News: Claude discovers a novel enzyme system with CRISPR-like repeats
-  https://www.anthropic.com/news/claude-discovers-novel-enzyme-system
-
-[ai] Anthropic News: Partnering with Accenture on embedded evaluation
-  https://www.anthropic.com/news/accenture-embedded-evaluation
-
-[ai] Anthropic News: Introducing the Life Sciences Verification Program
-  https://www.anthropic.com/news/life-sciences-verification-program
+[ai] Simon Willison: Kākāpō Party
+  https://simonwillison.net/2026/Sep/26/kakapo-party/
 
 [ai] Simon Willison: Quoting John Gruber
   https://simonwillison.net/2026/Sep/25/john-gruber/
@@ -136,11 +106,53 @@
 [ai] Simon Willison: commit-rewriter 0.2
   https://simonwillison.net/2026/Sep/24/commit-rewriter/
 
-[ai] Simon Willison: datasette 1.0a41
-  https://simonwillison.net/2026/Sep/24/datasette/
+[ai] Anthropic News: Claude discovers a novel enzyme system with CRISPR-like repeats
+  https://www.anthropic.com/news/claude-discovers-novel-enzyme-system
+
+[ai] Anthropic News: Partnering with Accenture on embedded evaluation
+  https://www.anthropic.com/news/accenture-embedded-evaluation
+
+[ai] Anthropic News: Introducing the Life Sciences Verification Program
+  https://www.anthropic.com/news/life-sciences-verification-program
+
+[health] Peter Attia: Prioritizing health interventions
+  https://peterattiamd.com/prioritizing-interventions/
+
+[wisdom] Figs in Winter (Pigliucci): Video: How to feel
+  https://figsinwintertime.substack.com/p/video-how-to-feel
+
+[wisdom] Figs in Winter (Pigliucci): The past is not a defendant
+  https://figsinwintertime.substack.com/p/the-past-is-not-a-defendant
+
+[wisdom] Figs in Winter (Pigliucci): Early Socratic dialogues: Hippias Major
+  https://figsinwintertime.substack.com/p/early-socratic-dialogues-hippias
 
 [wisdom] Farnam Street: Bill Ackman: The Biggest Fight of His Life
   https://fs.blog/knowledge-project-podcast/bill-ackman-2/
+
+[ai] OpenAI Blog: Proaction boosts sales 60% and saves 75+ hours with Codex
+  https://openai.com/index/proaction
+
+[ideas] Marginal Revolution: Earth fact of the day, #2
+  https://marginalrevolution.com/marginalrevolution/2026/09/earth-fact-of-the-day-2-2.html?utm_source=rss&utm_medium=rss&utm_campaign=earth-fact-of-the-day-2-2
+
+[ideas] Marginal Revolution: The Federal Lands: An Economic Property Rights Perspective
+  https://marginalrevolution.com/marginalrevolution/2026/09/the-federal-lands-an-economic-property-rights-perspective.html?utm_source=rss&utm_medium=rss&utm_campaign=the-federal-lands-an-economic-property-rights-perspective
+
+[ideas] Marginal Revolution: What should I ask Terence Tao?
+  https://marginalrevolution.com/marginalrevolution/2026/09/what-should-i-ask-terence-tao.html?utm_source=rss&utm_medium=rss&utm_campaign=what-should-i-ask-terence-tao
+
+[ideas] Marginal Revolution: Saturday assorted links
+  https://marginalrevolution.com/marginalrevolution/2026/09/saturday-assorted-links-580.html?utm_source=rss&utm_medium=rss&utm_campaign=saturday-assorted-links-580
+
+[ideas] Marginal Revolution: Should you text more?
+  https://marginalrevolution.com/marginalrevolution/2026/09/should-you-text-more.html?utm_source=rss&utm_medium=rss&utm_campaign=should-you-text-more
+
+[wisdom] Donald Robertson: Ancient Lessons in Resilience from Ukraine
+  https://donaldrobertson.substack.com/p/ancient-lessons-in-resilience-from
+
+[wisdom] Donald Robertson: How to Cope Wisely with Anxiety
+  https://donaldrobertson.substack.com/p/how-to-cope-wisely-with-anxiety
 
 [ideas] Paul Graham: Making Startups Powerful
   https://paulgraham.com/powerful.html
@@ -148,44 +160,20 @@
 [ideas] Paul Graham: How Universities Should Prepare Founders
   https://paulgraham.com/prepare.html
 
-[ai] OpenAI Blog: Proaction boosts sales 60% and saves 75+ hours with Codex
-  https://openai.com/index/proaction
+[bitcoin] Bitcoin Magazine: Samourai Letter #7: Notes From The Inside
+  https://bitcoinmagazine.com/culture/samourai-letter-7-notes-from-the-inside
 
-[ai] OpenAI Blog: Two years of OpenAI Academy
-  https://openai.com/index/two-years-of-openai-academy
+[bitcoin] Bitcoin Magazine: An Austrian Economist Explains Why AI Will Make Everyone an Entrepreneur w/ Per Bylund
+  https://bitcoinmagazine.com/videos/an-austrian-economist-explains-why-ai-will-make-everyone-an-entrepreneur-w-per-bylund
 
-[ai] OpenAI Blog: OpenAI extends cyber access to Ukraine for civilian defense
-  https://openai.com/index/openai-extends-cyber-access-to-ukraine-for-civilian-defense
+[bitcoin] Bitcoin Magazine: TECHNICAL ANALYSIS: BTC to Cross Key Price Level Against Gold
+  https://bitcoinmagazine.com/videos/technical-analysis-btc-to-cross-key-price-level-against-gold
 
-[ai] OpenAI Blog: Sam Altman’s remarks at the United Nations Security Council
-  https://openai.com/index/sam-altman-un-security-council-remarks
+[bitcoin] Bitcoin Magazine: Katie Stockton: $93K BTC is the Key Price Level for the Bull Market
+  https://bitcoinmagazine.com/videos/katie-stockton-93k-btc-is-the-key-price-level-for-the-bull-market
 
-[ai] OpenAI Blog: Harvey turns legal context into stronger drafts with GPT-6 Astra
-  https://openai.com/index/harvey-from-context-to-confidence-with-astra
-
-[ideas] Marginal Revolution: Should you text more?
-  https://marginalrevolution.com/marginalrevolution/2026/09/should-you-text-more.html?utm_source=rss&utm_medium=rss&utm_campaign=should-you-text-more
-
-[ideas] Marginal Revolution: A doomsday scenario for American AI
-  https://marginalrevolution.com/marginalrevolution/2026/09/a-doomsday-scenario-for-american-ai.html?utm_source=rss&utm_medium=rss&utm_campaign=a-doomsday-scenario-for-american-ai
-
-[ideas] Marginal Revolution: Good points from James Gilliland
-  https://marginalrevolution.com/marginalrevolution/2026/09/good-points-from-james-gilliland.html?utm_source=rss&utm_medium=rss&utm_campaign=good-points-from-james-gilliland
-
-[ideas] Marginal Revolution: Friday assorted links
-  https://marginalrevolution.com/marginalrevolution/2026/09/friday-assorted-links-592.html?utm_source=rss&utm_medium=rss&utm_campaign=friday-assorted-links-592
-
-[ideas] Marginal Revolution: *My Dreadful Body*
-  https://marginalrevolution.com/marginalrevolution/2026/09/my-dreadful-body.html?utm_source=rss&utm_medium=rss&utm_campaign=my-dreadful-body
-
-[ideas] Astral Codex Ten: Your Book Review: Lee Kuan Yew's Memoirs
-  https://www.astralcodexten.com/p/your-book-review-lee-kuan-yews-memoirs
-
-[ideas] Astral Codex Ten: Fall Meetups 2026 - Call For Meetup Organizers
-  https://www.astralcodexten.com/p/fall-meetups-2026-call-for-meetup
-
-[ideas] Astral Codex Ten: The Specter Of Neuralese
-  https://www.astralcodexten.com/p/the-specter-of-neuralese
+[bitcoin] Bitcoin Magazine: Grant Cardone: Real Estate “Armageddon” Is Here – Why BITCOIN is the Hedge
+  https://bitcoinmagazine.com/news/grant-cardone-real-estate-armageddon-is-here-why-bitcoin-is-the-hedge
 
 [bitcoin] Bitcoin Magazine: North Korean Hackers Linked to $388M Bitget Crypto Exchange Theft: CEO
   https://bitcoinmagazine.com/news/north-korea-linked-to-bitget-hack
@@ -196,20 +184,20 @@
 [bitcoin] Bitcoin Magazine: Bitcoin Treasury Strategy Proposes Daily Dividends For Preferred Stocks
   https://bitcoinmagazine.com/news/strategy-proposes-daily-dividends
 
-[bitcoin] Bitcoin Magazine: Is US Defence Secretary Pete Hegseth a Bitcoiner? This Is What His Accounts Say
-  https://bitcoinmagazine.com/news/is-us-defence-secretary-pete-hegseth-a-bitcoiner-this-is-what-his-accounts-say
+[ideas] Astral Codex Ten: Your Book Review: Lee Kuan Yew's Memoirs
+  https://www.astralcodexten.com/p/your-book-review-lee-kuan-yews-memoirs
 
-[bitcoin] Bitcoin Magazine: Mitchell Askew Explains What 15M Inactive BTC Means for Bitcoin’s Next Move
-  https://bitcoinmagazine.com/videos/mitchell-askew-explains-what-15m-inactive-btc-means-for-bitcoins-next-move
+[ideas] Astral Codex Ten: Fall Meetups 2026 - Call For Meetup Organizers
+  https://www.astralcodexten.com/p/fall-meetups-2026-call-for-meetup
 
-[bitcoin] Bitcoin Magazine: Nearly $352M Moved From Crypto Exchange Bitget Wallets in Suspected Hack
-  https://bitcoinmagazine.com/news/bitget-suffers-352-million-hack
+[ideas] Astral Codex Ten: The Specter Of Neuralese
+  https://www.astralcodexten.com/p/the-specter-of-neuralese
 
-[bitcoin] Bitcoin Magazine: New York Sues Polymarket, Calling Prediction Market an Illegal Gambling Operation
-  https://bitcoinmagazine.com/news/new-york-sues-polymarket
+[ideas] Stratechery: 2026.39: Begun, the Aggregator Wars Have
+  https://stratechery.com/2026/begun-the-aggregator-wars-have/
 
-[bitcoin] Bitcoin Magazine: SEC Commissioner Hester ‘Crypto Mom’ Peirce Advocates Privacy-Preserving Tech
-  https://bitcoinmagazine.com/news/hester-peirce-advocates-privacy-tech
+[ideas] Stratechery: An Interview with Colossus EIC Jeremy Stern About Profiling Mark Zuckerberg
+  https://stratechery.com/2026/an-interview-with-colossus-eic-jeremy-stern-about-profiling-mark-zuckerberg/
 
 
 === YOUTUBE ===
@@ -221,28 +209,32 @@ Anthony Chaffee MD: Carnivore Livestream with Dr Anthony Chaffee | Sept 25th, 20
   https://www.youtube.com/watch?v=h_gT1FB0SOs
   Transcript: yes
 
+Paul Saladino MD: This is intoxicating your home
+  https://www.youtube.com/shorts/-hK0BzzRWTg
+  Transcript: yes
+
 GTO Wizard: Chip Leader 3-Bets You at the Final Table. What Now?
   https://www.youtube.com/watch?v=A9F0BlFlULo
-  Transcript: yes
-
-Joe Rogan: Joe Rogan Experience #2558 - Tyler Engle
-  https://www.youtube.com/watch?v=ruVJE9po3-U
-  Transcript: yes
-
-Paul Saladino MD: I will NEVER buy another teabag…
-  https://www.youtube.com/shorts/UwhpWPMewXY
   Transcript: yes
 
 Nick Norwitz: The Next Ozempic Could Be a Sleep Drug
   https://www.youtube.com/shorts/2IeupP_AvWc
   Transcript: yes
 
-Jared Alderman: Do You Have What it Takes to Be a Poker Pro?
-  https://www.youtube.com/watch?v=ifac36wXFu8
+Joe Rogan: Joe Rogan Experience #2558 - Tyler Engle
+  https://www.youtube.com/watch?v=ruVJE9po3-U
   Transcript: yes
 
 GTO Lab: Your range can be ahead without supporting a big bet.
   https://www.youtube.com/shorts/NQl6wpmEZ_U
+  Transcript: yes
+
+Thomas DeLauer: You’ll Never do 16:8 Fasting Again - This Works 3x Better for Insulin Resistance (full plan)
+  https://www.youtube.com/watch?v=euFjdwEMCOc
+  Transcript: yes
+
+Jared Alderman: Do You Have What it Takes to Be a Poker Pro?
+  https://www.youtube.com/watch?v=ifac36wXFu8
   Transcript: yes
 
 Lex Fridman: Psychiatry, Insane Asylums, Mental Illness, ECT, Lobotomies, Freud & Jung | Lex Fridman Podcast #502
@@ -253,55 +245,43 @@ Dr. Sten Ekberg: What Happens At 3 AM That Wakes You Up Every Night?
   https://www.youtube.com/watch?v=K3NZX4JmQkw
   Transcript: yes
 
-ModernWisdom: How Important Is Diversification When Investing?
-  https://www.youtube.com/shorts/nsUgn1rXAyk
-  Transcript: yes
-
-ModernWisdom: Take The Time To Enjoy Your Life
-  https://www.youtube.com/shorts/VWGWkfmJCq8
-  Transcript: yes
-
-ModernWisdom: Why Men Are Gambling Away Their Futures On Polymarket - Dr K
-  https://www.youtube.com/watch?v=y8JLzsgp5XU
-  Transcript: yes
-
-Renaissance Periodization: Exercise Scientist Critiques Planet Fitness: Is It Really That Bad?
-  https://www.youtube.com/watch?v=NbufBbwSRCM
-  Transcript: yes
-
-Renaissance Periodization: Sets of 5 VS Sets of 15: What's Better?
-  https://www.youtube.com/shorts/q31Fq_hJj00
-  Transcript: yes
-
 Peter Attia: Navigating subclinical hypothyroidism | Peter Attia, M.D.
   https://www.youtube.com/shorts/6KXdPnGLQrM
   Transcript: yes
 
-Andrew Huberman: Dr. Arthur Brooks: The 3 Macronutrients of True Happiness
-  https://www.youtube.com/shorts/xmEnK-WWlUY
+Renaissance Periodization: Is Cardio Really Killing Your Gains?
+  https://www.youtube.com/shorts/QNRWUNGQ3BY
+  Transcript: yes
+
+Renaissance Periodization: Muscle Beach: Can You Really Train Here?
+  https://www.youtube.com/shorts/dMAPHqSUULQ
   Transcript: yes
 
 ThinkingPoker: Bankroll Management - Thinking Poker
   https://www.youtube.com/watch?v=6w8amkDkeVw
   Transcript: yes
 
-Mind The Game: The respect was real long before the decision was made. 🤝
-  https://www.youtube.com/shorts/GFyrgi9av3o
+ModernWisdom: How Do You Pace A Full Habit Reset?
+  https://www.youtube.com/shorts/k1iQI4GKfyo
   Transcript: yes
 
-Mind The Game: The question everyone’s been asking all summer finally has an answer... Why Philly?
-  https://www.youtube.com/shorts/oSJXEJncX1Y
+ModernWisdom: Life hack: Sniff Your Dessert
+  https://www.youtube.com/shorts/SUkKgvR0jzk
   Transcript: yes
 
-Mind The Game: LeBron James on Leaving LA and Choosing Philly
-  https://www.youtube.com/watch?v=rGGq11K40Gw
+ModernWisdom: How To Win The Algorithm, Even If You Hate It - Dylan Gossett (Live Performance)
+  https://www.youtube.com/watch?v=HC6-yqH_axA
+  Transcript: yes
+
+Andrew Huberman: Dr. Arthur Brooks: The 3 Macronutrients of True Happiness
+  https://www.youtube.com/shorts/xmEnK-WWlUY
   Transcript: yes
 
 Ben Felix: Who You Marry Is a Financial Decision
   https://www.youtube.com/watch?v=TdKK1f21xvA
   Transcript: yes
 
-Thomas DeLauer: 163 People Ate 4oz Per Day - All Metabolic Markers Changed
-  https://www.youtube.com/watch?v=rdLJcQmHq6s
+Mind The Game: Even during his rookie year, V.J. Edgecombe already had a veteran presence. 👀
+  https://www.youtube.com/shorts/Zrd3pRqPqK4
   Transcript: yes
 
