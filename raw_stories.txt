@@ -1,111 +1,96 @@
 === HACKER NEWS ===
-1. [101 pts] OpenAI Feared "Optics" of what might appear on Hacker News
-   https://authorsguild.org/news/ag-v-openai-top-execs-knew-mass-book-piracy-was-illegal/
+1. [677 pts] Owed a billion dollars in Nvidia stock
+   https://colo.to/nvidia-stock-narrative.html
 
-2. [328 pts] Does Georgism work? Five years later
-   https://www.astralcodexten.com/p/does-georgism-work-five-years-later
+2. [73 pts] Prompting Claude Opus 5.5
+   https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/prompting-claude-opus-5-5
 
-3. [62 pts] Flip Fluid on Flip Dots
-   https://mitxela.com/projects/flipflip
+3. [97 pts] Thinking fast and slow in AI: The role of metacognition (2021)
+   https://arxiv.org/abs/2110.01834
 
-4. [213 pts] Go Concurrency Distilled
-   https://antonz.org/go-concurrency-distilled/
+4. [459 pts] Ember-1
+   https://fireworks.ai/blog/ember-1
 
-5. [18 pts] Meta Blocks President Lula's Facebook Page, Campaign Ads 2 Weeks from Election
-   https://www.reddit.com/r/worldnews/comments/1wr3id3/meta_blocks_president_lulas_facebook_page_and/
+5. [1287 pts] When did Google get so weird?
+   https://sancho.bearblog.dev/google-weird/
 
-6. [410 pts] PipePipe: NewPipe hard fork implementing SponsorBlock
-   https://github.com/InfinityLoop1308/PipePipe
+6. [56 pts] Nissan's third generation e-POWER powertrain
+   https://www.nissan-global.com/EN/INNOVATION/TECHNOLOGY/ARCHIVE/E_POWER_GEN3/
 
-7. [37 pts] Improving site performance by shipping more CSS
-   https://github.blog/engineering/architecture-optimization/improving-site-performance-by-shipping-more-css/
+7. [89 pts] Malleable software: Restoring user agency in a world of locked-down apps (2025)
+   https://www.inkandswitch.com/essay/malleable-software/
 
-8. [238 pts] DeepSeek Elastic Compute (DSec)
-   https://arxiv.org/abs/2609.22978
+8. [19 pts] Footguns with Postgres "at time zone 'UTC'"
+   https://bookofrevenue.com/blog/6ab81e9a97a13f0001f7e4e1/postgres-at-time-zone-u-does-not-do-what-you-think-it-does
 
-9. [297 pts] Show HN: Reladraw – A diagram language where you decide where to place things
-   https://github.com/reladraw/reladraw
+9. [32 pts] Maybe don't let Muse run your Facebook Marketplace account
+   https://www.threads.com/@matt.j.robb/post/DdxwAJnDhNy
 
-10. [23 pts] C's Flexible Integer Sizes Were Not a Design Mistake
-   https://pikuma.com/blog/c-integer-sizes-not-a-mistake
+10. [16 pts] Made by Mechanical Means
+   https://felixrieseberg.com/made-by-mechanical-means/
 
-11. [47 pts] Real-time feedback: My closing move in every interview
-   https://mgrebler.substack.com/p/real-time-feedback-my-closing-move
+11. [28 pts] Functional Mechanical Sympathy [video]
+   https://www.youtube.com/watch?v=jSHmDnUZCm8
 
-12. [172 pts] A searchable library of forgotten public-domain film clips from 1915 onward
-   https://www.movingimagearchive.com/
+12. [131 pts] Alan Kay's answer to “Did the ENIAC have a BIOS”?
+   https://www.quora.com/Did-the-ENIAC-have-a-BIOS/answer/Alan-Kay-11
 
-13. [66 pts] Biology might not be quantum, but its math is quantumlike
-   https://www.quantamagazine.org/biology-might-not-be-quantum-but-its-math-is-quantumlike-20260923/
+13. [193 pts] Self-Hosting on the Dark Web
+   https://david.alvarezrosa.com/posts/self-hosting-on-the-dark-web/
 
-14. [161 pts] What is the size of Yemen? (2024)
-   https://theborys.substack.com/p/what-is-the-size-of-yemen
+14. [81 pts] Guitar amp and effects pedal built on the Waveshare ESP32-S3-Touch-AMOLED-2.06
+   https://github.com/dashersw/coyopedal
 
-15. [393 pts] Fifteen years later, the Apple Cards origin story
-   https://lexontech.org/fifteen-years-later-the-apple-cards-origin-story
+15. [71 pts] Lunar Terminator Paradox
+   https://notes.secretsauce.net/notes/2026/09/27_lunar-terminator-paradox.html
 
-16. [272 pts] ASML says it sold 'absolutely nothing' in Europe in 2026
-   https://www.tomshardware.com/tech-industry/semiconductors/asml-says-its-sells-absolutely-nothing-in-europe-calls-on-eu-to-help-create-demand
+16. [154 pts] The state of SIMD in Rust in 2026
+   https://shnatsel.github.io/state-of-simd-rust-2026/
 
-17. [3 pts] LP Voting and Investor Consent for AIFs
-   https://taghash.io/blog/lp-voting-and-investor-consent-for-aifs-a-practical-workflow
+17. [62 pts] Was silent reading unusual during Augustine's time?
+   https://www.historyofinformation.com/detail.php?entryid=4341
 
-18. [78 pts] Reverse-engineering the Intel 8087's tangent algorithm: more than CORDIC
-   https://www.righto.com/2026/09/8087-tangent-cordic.html
+18. [241 pts] Don't couple your Go code to GitHub
+   https://iain.rocks/blog/dont-couple-your-go-code-to-github
 
-19. [144 pts] Drawgent: Coding agent on a live Excalidraw canvas
-   https://tangled.org/yanndegat.tngl.sh/drawgent
+19. [36 pts] Deterministic Concurrency [video]
+   https://www.youtube.com/watch?v=25x0UuSCKuU
 
-20. [29 pts] Exploding variance of means of exponentials: least-squares to the rescue
-   https://francisbach.com/spectral_log_density_estimation/
+20. [244 pts] In an $80 motel room, a discovery to shed light on the origins of life
+   https://www.nytimes.com/2026/09/26/science/motel-science-discovery.html
 
-21. [92 pts] An agent used DNS to reach an external chatbot
-   https://alignment.openai.com/misalignment-reports/an-agent-used-dns-to-reach-an-external-chatbot/
+21. [137 pts] There is more to code review than (automatable) detection
+   https://www.adaptivecapacitylabs.com/2026/08/24/there-is-more-to-code-review-than-automatable-detection/
 
-22. [91 pts] Turning GLM-5.3-Flash into a Jev-like decision model
-   https://www.privatemode.ai/blog/system-one-from-glm-flash
+22. [107 pts] What I did at Recurse Center
+   https://thill.me/2026/09/11/what-i-did-at-rc.html
 
-23. [200 pts] How I changed teaching after AI managed to do all my homework assignments
-   https://thelastsoftwareengineer.substack.com/p/how-i-changed-teaching-after-ai-managed
+23. [76 pts] Imp is a full port of DSPy to the BEAM
+   https://github.com/deepfates/imp
 
-24. [55 pts] Promising discoveries about the potential for life on one of Saturn’s icy moons
-   https://www.fu-berlin.de/en/presse/informationen/fup/2026/fup_26_116-enceladus-cassini-mikroben-science-postberg/index.html
+24. [174 pts] Replacing the old battery on rechargeable bike lights
+   https://jvns.ca/blog/2026/09/27/replacing-the-old-battery-on-rechargeable-bike-lights/
 
-25. [223 pts] How to keep enjoying programming in a world of LLMs
-   https://discourse.haskell.org/t/how-to-keep-enjoying-programming-in-a-world-of-llms/14705
+25. [246 pts] Show HN: Lofi Cities – Pixel-art city nights with browser-generated lofi
+   https://loficities.com/
 
-26. [43 pts] Snap Wants to be a State Actor??–Kansas v. Snap
-   https://blog.ericgoldman.org/archives/2026/09/snap-wants-to-be-a-state-actor-kansas-v-snap.htm
+26. [46 pts] Reading’s Bayeux Tapestry
+   https://diamondgeezer.blogspot.com/2026/09/readings-bayeux-tapestry.html
 
-27. [7 pts] Bob Mackie dressed stars–if they were brave enough
-   https://www.economist.com/obituary/2026/09/24/bob-mackie-dressed-stars-if-they-were-brave-enough
+27. [90 pts] Previously unheard recordings of John Coltrane, captured by Frank Tiberi
+   https://www.jazzwise.com/content/news/john-coltrane-centenary-celebrations-see-impulse-records-release-the-legendary-tiberi-tapes
 
-28. [89 pts] Evolving programming languages in the AI era
-   https://dashbit.co/blog/evolving-ai-era
+28. [155 pts] Writing Efficient C++ Code (2013)
+   https://asawicki.info/articles/writing_efficient_cpp_code.php
 
-29. [172 pts] Modern Object Pascal Introduction for Programmers
-   https://castle-engine.io/modern_pascal
+29. [77 pts] Oral history of John Chowning, inventor of FM synthesis [video]
+   https://www.youtube.com/watch?v=e1Xn3030IvM
 
-30. [42 pts] We Should Be Able to Change Our Languages
-   http://jimmyhmiller.com/change-our-languages
+30. [21 pts] Packing Binary Is Fun
+   https://hereticpleb.vercel.app/blog/packing-binary-is-fun-actually
 
 
 === RSS ===
-[ai] Simon Willison: Kākāpō Party
-  https://simonwillison.net/2026/Sep/26/kakapo-party/
-
-[ai] Simon Willison: Quoting John Gruber
-  https://simonwillison.net/2026/Sep/25/john-gruber/
-
-[ai] Simon Willison: Northern Gannet, Great Blue Heron, California Brown Pelican
-  https://simonwillison.net/2026/Sep/25/sighting-403293902/
-
-[ai] Simon Willison: Note on 24th September 2026
-  https://simonwillison.net/2026/Sep/24/harder/
-
-[ai] Simon Willison: commit-rewriter 0.2
-  https://simonwillison.net/2026/Sep/24/commit-rewriter/
-
 [ai] Anthropic News: Claude discovers a novel enzyme system with CRISPR-like repeats
   https://www.anthropic.com/news/claude-discovers-novel-enzyme-system
 
@@ -115,8 +100,62 @@
 [ai] Anthropic News: Introducing the Life Sciences Verification Program
   https://www.anthropic.com/news/life-sciences-verification-program
 
+[ideas] Marginal Revolution: Bundesrepublik Deutschland
+  https://marginalrevolution.com/marginalrevolution/2026/09/bundesrepublik-deutschland.html?utm_source=rss&utm_medium=rss&utm_campaign=bundesrepublik-deutschland
+
+[ideas] Marginal Revolution: AI in science
+  https://marginalrevolution.com/marginalrevolution/2026/09/ai-in-science.html?utm_source=rss&utm_medium=rss&utm_campaign=ai-in-science
+
+[ideas] Marginal Revolution: Sunday assorted links
+  https://marginalrevolution.com/marginalrevolution/2026/09/sunday-assorted-links-584.html?utm_source=rss&utm_medium=rss&utm_campaign=sunday-assorted-links-584
+
+[ideas] Marginal Revolution: Earth fact of the day, #2
+  https://marginalrevolution.com/marginalrevolution/2026/09/earth-fact-of-the-day-2-2.html?utm_source=rss&utm_medium=rss&utm_campaign=earth-fact-of-the-day-2-2
+
+[ideas] Marginal Revolution: The Federal Lands: An Economic Property Rights Perspective
+  https://marginalrevolution.com/marginalrevolution/2026/09/the-federal-lands-an-economic-property-rights-perspective.html?utm_source=rss&utm_medium=rss&utm_campaign=the-federal-lands-an-economic-property-rights-perspective
+
+[ideas] Astral Codex Ten: Your Book Review: Lee Kuan Yew's Memoirs
+  https://www.astralcodexten.com/p/your-book-review-lee-kuan-yews-memoirs
+
+[ai] Simon Willison: Quoting Muse AI Agent
+  https://simonwillison.net/2026/Sep/28/muse-ai-agent/
+
+[ai] Simon Willison: 2026 in LLMs (so far)
+  https://simonwillison.net/2026/Sep/27/2026-in-llms-so-far/
+
+[ai] Simon Willison: S3 Is the Future, S3 Is the Past
+  https://simonwillison.net/2026/Sep/27/hn-49871741/
+
+[ai] Simon Willison: Bluesky reply bot checker
+  https://simonwillison.net/2026/Sep/27/bluesky-bot-check/
+
+[ai] Simon Willison: Kākāpō Party
+  https://simonwillison.net/2026/Sep/26/kakapo-party/
+
+[health] Peter Attia: #409 ‒ Inside modern drug development: the science, economics, and regulatory hurdles behind bringing new medicines to patients | Lloyd Klickstein, M.D., Ph.D.
+  https://peterattiamd.com/lloydklickstein2/
+
 [health] Peter Attia: Prioritizing health interventions
   https://peterattiamd.com/prioritizing-interventions/
+
+[ideas] Paul Graham: Making Startups Powerful
+  https://paulgraham.com/powerful.html
+
+[ideas] Paul Graham: How Universities Should Prepare Founders
+  https://paulgraham.com/prepare.html
+
+[ideas] Stratechery: 2026.39: Begun, the Aggregator Wars Have
+  https://stratechery.com/2026/begun-the-aggregator-wars-have/
+
+[ai] OpenAI Blog: Proaction boosts sales 60% and saves 75+ hours with Codex
+  https://openai.com/index/proaction
+
+[wisdom] Donald Robertson: Ancient Lessons in Resilience from Ukraine
+  https://donaldrobertson.substack.com/p/ancient-lessons-in-resilience-from
+
+[wisdom] Donald Robertson: How to Cope Wisely with Anxiety
+  https://donaldrobertson.substack.com/p/how-to-cope-wisely-with-anxiety
 
 [wisdom] Figs in Winter (Pigliucci): Video: How to feel
   https://figsinwintertime.substack.com/p/video-how-to-feel
@@ -126,39 +165,6 @@
 
 [wisdom] Figs in Winter (Pigliucci): Early Socratic dialogues: Hippias Major
   https://figsinwintertime.substack.com/p/early-socratic-dialogues-hippias
-
-[wisdom] Farnam Street: Bill Ackman: The Biggest Fight of His Life
-  https://fs.blog/knowledge-project-podcast/bill-ackman-2/
-
-[ai] OpenAI Blog: Proaction boosts sales 60% and saves 75+ hours with Codex
-  https://openai.com/index/proaction
-
-[ideas] Marginal Revolution: Earth fact of the day, #2
-  https://marginalrevolution.com/marginalrevolution/2026/09/earth-fact-of-the-day-2-2.html?utm_source=rss&utm_medium=rss&utm_campaign=earth-fact-of-the-day-2-2
-
-[ideas] Marginal Revolution: The Federal Lands: An Economic Property Rights Perspective
-  https://marginalrevolution.com/marginalrevolution/2026/09/the-federal-lands-an-economic-property-rights-perspective.html?utm_source=rss&utm_medium=rss&utm_campaign=the-federal-lands-an-economic-property-rights-perspective
-
-[ideas] Marginal Revolution: What should I ask Terence Tao?
-  https://marginalrevolution.com/marginalrevolution/2026/09/what-should-i-ask-terence-tao.html?utm_source=rss&utm_medium=rss&utm_campaign=what-should-i-ask-terence-tao
-
-[ideas] Marginal Revolution: Saturday assorted links
-  https://marginalrevolution.com/marginalrevolution/2026/09/saturday-assorted-links-580.html?utm_source=rss&utm_medium=rss&utm_campaign=saturday-assorted-links-580
-
-[ideas] Marginal Revolution: Should you text more?
-  https://marginalrevolution.com/marginalrevolution/2026/09/should-you-text-more.html?utm_source=rss&utm_medium=rss&utm_campaign=should-you-text-more
-
-[wisdom] Donald Robertson: Ancient Lessons in Resilience from Ukraine
-  https://donaldrobertson.substack.com/p/ancient-lessons-in-resilience-from
-
-[wisdom] Donald Robertson: How to Cope Wisely with Anxiety
-  https://donaldrobertson.substack.com/p/how-to-cope-wisely-with-anxiety
-
-[ideas] Paul Graham: Making Startups Powerful
-  https://paulgraham.com/powerful.html
-
-[ideas] Paul Graham: How Universities Should Prepare Founders
-  https://paulgraham.com/prepare.html
 
 [bitcoin] Bitcoin Magazine: Samourai Letter #7: Notes From The Inside
   https://bitcoinmagazine.com/culture/samourai-letter-7-notes-from-the-inside
@@ -184,23 +190,12 @@
 [bitcoin] Bitcoin Magazine: Bitcoin Treasury Strategy Proposes Daily Dividends For Preferred Stocks
   https://bitcoinmagazine.com/news/strategy-proposes-daily-dividends
 
-[ideas] Astral Codex Ten: Your Book Review: Lee Kuan Yew's Memoirs
-  https://www.astralcodexten.com/p/your-book-review-lee-kuan-yews-memoirs
-
-[ideas] Astral Codex Ten: Fall Meetups 2026 - Call For Meetup Organizers
-  https://www.astralcodexten.com/p/fall-meetups-2026-call-for-meetup
-
-[ideas] Astral Codex Ten: The Specter Of Neuralese
-  https://www.astralcodexten.com/p/the-specter-of-neuralese
-
-[ideas] Stratechery: 2026.39: Begun, the Aggregator Wars Have
-  https://stratechery.com/2026/begun-the-aggregator-wars-have/
-
-[ideas] Stratechery: An Interview with Colossus EIC Jeremy Stern About Profiling Mark Zuckerberg
-  https://stratechery.com/2026/an-interview-with-colossus-eic-jeremy-stern-about-profiling-mark-zuckerberg/
-
 
 === YOUTUBE ===
+Paul Saladino MD: This is intoxicating your home
+  https://www.youtube.com/shorts/-hK0BzzRWTg
+  Transcript: yes
+
 Ken Berry MD: Monday Night Live with Dr. Berry & Nurse Neisha
   https://www.youtube.com/watch?v=saiKeOOWOQ0
   Transcript: NO
@@ -209,28 +204,20 @@ Anthony Chaffee MD: Carnivore Livestream with Dr Anthony Chaffee | Sept 25th, 20
   https://www.youtube.com/watch?v=h_gT1FB0SOs
   Transcript: yes
 
-Paul Saladino MD: This is intoxicating your home
-  https://www.youtube.com/shorts/-hK0BzzRWTg
-  Transcript: yes
-
 GTO Wizard: Chip Leader 3-Bets You at the Final Table. What Now?
   https://www.youtube.com/watch?v=A9F0BlFlULo
-  Transcript: yes
-
-Nick Norwitz: The Next Ozempic Could Be a Sleep Drug
-  https://www.youtube.com/shorts/2IeupP_AvWc
   Transcript: yes
 
 Joe Rogan: Joe Rogan Experience #2558 - Tyler Engle
   https://www.youtube.com/watch?v=ruVJE9po3-U
   Transcript: yes
 
-GTO Lab: Your range can be ahead without supporting a big bet.
-  https://www.youtube.com/shorts/NQl6wpmEZ_U
+Nick Norwitz: Don’t Eat Bananas Until You Know This.
+  https://www.youtube.com/shorts/gp88ijS_kAs
   Transcript: yes
 
-Thomas DeLauer: You’ll Never do 16:8 Fasting Again - This Works 3x Better for Insulin Resistance (full plan)
-  https://www.youtube.com/watch?v=euFjdwEMCOc
+GTO Lab: Your range can be ahead without supporting a big bet.
+  https://www.youtube.com/shorts/NQl6wpmEZ_U
   Transcript: yes
 
 Jared Alderman: Do You Have What it Takes to Be a Poker Pro?
@@ -241,47 +228,51 @@ Lex Fridman: Psychiatry, Insane Asylums, Mental Illness, ECT, Lobotomies, Freud 
   https://www.youtube.com/watch?v=s7d2d8FhevU
   Transcript: yes
 
+Thomas DeLauer: The Only Sweetener GOOD For Insulin Resistance (and which to avoid)
+  https://www.youtube.com/watch?v=ZwCYotQ6DRI
+  Transcript: yes
+
+Renaissance Periodization: Ab Training ≠ Belly Fat Loss
+  https://www.youtube.com/shorts/z7nbXmWNTW4
+  Transcript: yes
+
 Dr. Sten Ekberg: What Happens At 3 AM That Wakes You Up Every Night?
   https://www.youtube.com/watch?v=K3NZX4JmQkw
   Transcript: yes
 
-Peter Attia: Navigating subclinical hypothyroidism | Peter Attia, M.D.
-  https://www.youtube.com/shorts/6KXdPnGLQrM
+ModernWisdom: Fatherhood Felt Like Clocking Out
+  https://www.youtube.com/shorts/eugbQ8eBOK8
   Transcript: yes
 
-Renaissance Periodization: Is Cardio Really Killing Your Gains?
-  https://www.youtube.com/shorts/QNRWUNGQ3BY
+ModernWisdom: A very slow training session with Zac Efron.
+  https://www.youtube.com/watch?v=5k-BbXf2lMo
   Transcript: yes
 
-Renaissance Periodization: Muscle Beach: Can You Really Train Here?
-  https://www.youtube.com/shorts/dMAPHqSUULQ
-  Transcript: yes
-
-ThinkingPoker: Bankroll Management - Thinking Poker
-  https://www.youtube.com/watch?v=6w8amkDkeVw
-  Transcript: yes
-
-ModernWisdom: How Do You Pace A Full Habit Reset?
-  https://www.youtube.com/shorts/k1iQI4GKfyo
-  Transcript: yes
-
-ModernWisdom: Life hack: Sniff Your Dessert
-  https://www.youtube.com/shorts/SUkKgvR0jzk
-  Transcript: yes
-
-ModernWisdom: How To Win The Algorithm, Even If You Hate It - Dylan Gossett (Live Performance)
-  https://www.youtube.com/watch?v=HC6-yqH_axA
-  Transcript: yes
+ModernWisdom: Don't Ask For Something You Aren't Willing To Work For
+  https://www.youtube.com/shorts/3YkWHE_VDwo
+  Transcript: NO
 
 Andrew Huberman: Dr. Arthur Brooks: The 3 Macronutrients of True Happiness
   https://www.youtube.com/shorts/xmEnK-WWlUY
   Transcript: yes
 
-Ben Felix: Who You Marry Is a Financial Decision
-  https://www.youtube.com/watch?v=TdKK1f21xvA
+Peter Attia: 409 ‒ Inside modern drug development: the science, economics, and regulatory hurdles
+  https://www.youtube.com/watch?v=GoNjdK-I0Bc
   Transcript: yes
 
-Mind The Game: Even during his rookie year, V.J. Edgecombe already had a veteran presence. 👀
-  https://www.youtube.com/shorts/Zrd3pRqPqK4
+Peter Attia: The nuances of diagnosing and treating thyroid dysfunction | Peter Attia, M.D.
+  https://www.youtube.com/shorts/TM90xQSGxHI
+  Transcript: yes
+
+Ben Felix: The Truth About Leveraged ETFs
+  https://www.youtube.com/watch?v=E7pl0tqzIUQ
+  Transcript: yes
+
+Mind The Game: New system, new mindset for LeBron. And he's ALL IN. 😤 Tap in to watch the brand new episode!
+  https://www.youtube.com/shorts/WAGmDV1-bw0
+  Transcript: yes
+
+ThinkingPoker: Bankroll Management - Thinking Poker
+  https://www.youtube.com/watch?v=6w8amkDkeVw
   Transcript: yes
 
