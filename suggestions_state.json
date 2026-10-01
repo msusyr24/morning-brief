@@ -1,9 +1,9 @@
 {
   "current_suggestion": {
-    "channel_name": "Andrew Huberman",
-    "channel_id": "UC2D2CMWXMOVWx7giW1n3LIg",
-    "youtube_handle": "@hubermanlab",
-    "pitch": "Your poker channels cover GTO theory well but none give serious attention to the behavioral and cognitive science of decision-making under uncertainty at the table \u2014 Phil Hellmuth's mindset failures, tilt, and opponent modeling. Nate Meyvis and Tom Crowley on Thinking Poker come closest but their format is episode-based. A strong complement is 'Smart Poker Study' with Sky Matsuhashi, who covers hand history review, study methodology, and deliberate practice frameworks for poker improvement \u2014 the meta-skill of how to actually get better, not just what the solver says."
+    "channel_name": "Better Ideas",
+    "channel_id": "UCtUId5WFnN82GdDy7DgaQ7w",
+    "youtube_handle": "@betterideas",
+    "pitch": "Your current channels cover the mechanics of discipline and health science rigorously, but Better Ideas covers the phenomenology of motivation, identity, and meaning-making in a way that complements Stoic philosophy without recycling hustle-culture platitudes. Joey writes and narrates personal essays \u2014 genuinely long-form in spirit even when short in runtime \u2014 exploring why people struggle to act on what they already know, drawing on philosophy, psychology, and lived experience. The tone is closer to Seneca than to a productivity influencer, and his video on 'being a fair witness to yourself' is the kind of thing that sits with you."
   },
   "shown_count": 1,
   "history": [
@@ -66,6 +66,7 @@
     "Robert Miles AI Safety",
     "TEDx Talks \u2013 Russ Roberts (EconTalk host solo appearances)",
     "Curt Jaimungal",
-    "Andrew Huberman"
+    "Andrew Huberman",
+    "Better Ideas"
   ]
 }
