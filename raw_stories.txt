@@ -1,104 +1,131 @@
 === HACKER NEWS ===
-1. [1268 pts] Pi 1.0
-   https://earendil.com/posts/pi-1-0/
+1. [32 pts] Understanding Frontier Artificial Intelligence
+   https://casp.ac/reports/intelligence-explosion
 
-2. [96 pts] Shimano Bicycle Museum Review
-   https://inrng.com/2026/10/shimano-bicycle-museum/
+2. [201 pts] Newgrounds.com – A community of games, music, and art
+   https://www.newgrounds.com/
 
-3. [159 pts] How Singapore's government-run dating service works
-   https://www.singapore-samizdat.com/p/how-singapores-government-run-dating-service-firstdate-works
+3. [619 pts] Court agrees with EFF: Utah's VPN law demands a technical impossibility
+   https://www.eff.org/deeplinks/2026/10/court-agrees-eff-utahs-vpn-law-demands-technical-impossibility
 
-4. [299 pts] Several vulnerabilities have been discovered in the Linux kernel
-   https://lwn.net/Articles/1097401/
+4. [413 pts] Apple Pass Designer
+   https://developer.apple.com/pass-designer/
 
-5. [510 pts] Clef: Open-weight decision models, and new RL fine-tuning platform
-   https://blog.cloudflare.com/clef-decision-models/
+5. [451 pts] Mike Tomlin spent 12 years building a Minecraft city
+   https://www.nytimes.com/athletic/7648198/2026/10/01/mike-tomlin-minecraft-nfl-coach/
 
-6. [233 pts] DeepSeek Harness Desktop for macOS and Windows
-   https://www.deepseek.com/en/harness/
+6. [67 pts] Cloudflare OHTTP gateway
+   https://blog.cloudflare.com/announcing-cloudflare-ohttp-gateway/
 
-7. [274 pts] SvelteKit 3
-   https://svelte.dev/blog/sveltekit-3-is-here
+7. [205 pts] The Forgetful CPU (Linux on M4)
+   https://yuka.dev/blog-2026-10-02-linux-m4.html
 
-8. [376 pts] Pi Durable
-   https://earendil.com/posts/pi-durable/
+8. [275 pts] A 12-year sequence of telescope images of a star and four planets orbiting
+   https://bsky.app/profile/theplanetaryguy.com/post/3mwucf5ert22f
 
-9. [202 pts] Ask HN: Who is hiring? (October 2026)
-   https://news.ycombinator.com/item?id=49922569
+9. [38 pts] An Update on Orion for Linux and Windows
+   https://blog.kagi.com/update-orion-linux-windows
 
-10. [8 pts] Show HN: Audionaut – an open-source cross-platform multitrack audio editor
-   https://github.com/kvoltmer/Audionaut
+10. [27 pts] Barcodes are about to go extinct
+   https://thehustle.co/originals/why-barcodes-are-about-to-go-extinct
 
-11. [188 pts] Automatic Transmission – a data-privacy study of connected vehicles
-   https://automatictransmission.khoury.northeastern.edu/index.html
+11. [279 pts] Extra Big Ass Intelligence
+   https://www.extrabigassintelligence.com/
 
-12. [566 pts] StreetComplete on iOS is now in public beta
-   https://github.com/streetcomplete/StreetComplete/issues/5421
+12. [254 pts] Loss of cell identity drives human aging: Two new papers
+   https://erictopol.substack.com/p/loss-of-cell-identity-drives-human
 
-13. [371 pts] Git 3.0's upcoming SHA-256 default will be a costly mistake
-   https://blog.gitbutler.com/git-3-sha-256
+13. [237 pts] Greg Kroah-Hartman – Security in the LLM Age [video]
+   https://www.youtube.com/watch?v=NnV_cWeoo5Q
 
-14. [145 pts] Using Opus 5.5 to discover a new eyewitness record of the dodo
-   https://resobscura.substack.com/p/using-opus-55-to-discover-a-new-eyewitness
+14. [232 pts] From the creator of Redis; run LLM locally with ds4
+   https://dwarfstar.sh/
 
-15. [164 pts] Frog and Toad and the Increasingly Capable Machines
-   https://www.frogandtoad.ai/
+15. [342 pts] FLUX 3 Image
+   https://bfl.ai/models/flux-3-image
 
-16. [95 pts] Turbo Haskell
-   https://comonad.com/reader/2026/turbo-haskell/
+16. [214 pts] With most information hidden, the game Stratego had stumped AI until now
+   https://arstechnica.com/science/2026/10/ai-finally-beat-the-best-stratego-player-in-history-and-did-it-on-a-budget/
 
-17. [325 pts] RIP, vector database
-   https://turbopuffer.com/blog/rip-vector-database
+17. [190 pts] Muse Gadgets
+   https://gadgets.muse.ai
 
-18. [107 pts] CSS Bed: Classless CSS themes to use as starting points in web development
-   https://www.cssbed.com
+18. [193 pts] Updates to Full Disk Access in macOS
+   https://developer.apple.com/news/?id=p6zjojqw
 
-19. [116 pts] ArXiv's Updated Rate Limit Policy
-   https://blog.arxiv.org/2026/10/01/updated-rate-limit-policy/
+19. [272 pts] Show HN: Giving Opus 5.5 a simulated paint canvas
+   https://stillwet.art/
 
-20. [222 pts] Various Projects Find Hidden SDR Capabilities in ESP32 Microcontrollers
-   https://www.rtl-sdr.com/various-projects-independently-find-hidden-sdr-capabilities-in-esp32-microcontrollers/
+20. [154 pts] One month coding with GLM 5.3 Flash
+   https://wagtail.org/blog/one-month-on-glm-53-flash/
 
-21. [142 pts] Vote on which of Hacker News' challenges for AI have been met
-   https://stoppels.ch/goalposts/
+21. [264 pts] Sites in ChatGPT
+   https://chatgpt.com/features/sites/
 
-22. [73 pts] To grieve, or not to grieve?
-   https://xenaproject.wordpress.com/2026/10/01/to-grieve-or-not-to-grieve/
+22. [277 pts] The Legend of von Neumann (1973) [pdf]
+   https://gwern.net/doc/math/1973-halmos.pdf
 
-23. [75 pts] Show HN: Janus – Go binary that runs GGUF models via Vulkan on AMD/Intel/Nvidia
-   https://github.com/Vibra-Ingenn/Janus
+23. [6 pts] More like SC-Forth-thousand, am I right?
+   https://www.leadedsolder.com/2026/10/01/rc2026-10-sg1000-forth-port.html
 
-24. [240 pts] Cloudflare K2: serverless event streams
-   https://blog.cloudflare.com/cloudflare-k2-streams/
+24. [20 pts] Why should I have to pay more for buses if I don't use a smartphone?
+   https://www.theguardian.com/money/2026/oct/02/why-should-i-have-to-pay-more-for-buses-if-i-dont-use-a-smartphone
 
-25. [100 pts] Oxygen-deprived underwater zones may not be “dead zones” but clue to early life
-   https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2026AV002570
+25. [35 pts] The Nintendo 64 Partner-N64 Development Kit
+   https://www.behindthecode.ca/partner-n64pc-dev-kit/
 
-26. [144 pts] Context Language Models
-   https://arxiv.org/abs/2609.37725
+26. [4 pts] Programming the ENIAC(2011)
+   https://www.columbia.edu/cu/computinghistory/eniac.html
 
-27. [254 pts] How to speed up the Rust compiler in September 2026
-   https://nnethercote.github.io/2026/09/30/how-to-speed-up-the-rust-compiler-in-september-2026.html
+27. [29 pts] OKI Develops 124-Layer PCB Technology
+   https://www.oki.com/global/press/2025/z25006e.html
 
-28. [48 pts] Butterflies use optical illusions to dodge predators
-   https://www.essex.ac.uk/news/2026/09/30/butterflies-use-optical-illusions-to-dodge-predators
+28. [117 pts] Venice’s failed war against Constantinople led to the first bond market
+   https://bigthink.com/books/a-fabulous-debt/
 
-29. [143 pts] RacketCon Is Saturday
-   https://con.racket-lang.org/
+29. [41 pts] Billions of triangles redux
+   https://zeux.io/2026/09/30/billions-of-triangles-redux/
 
-30. [178 pts] GPT-Synopsys: Frontier Intelligence to Revolutionize Chip Design
-   https://news.synopsys.com/2026-09-30-OpenAI-and-Synopsys-Announce-GPT-Synopsys-Frontier-Intelligence-to-Revolutionize-Chip-Design
+30. [113 pts] Show HN: Made an open-source Lego AI generator
+   https://github.com/anteloc/ldraw-nova
 
 
 === RSS ===
-[health] Peter Attia: The end of Alzheimer’s?
-  https://peterattiamd.com/end-of-alzheimers/
+[ideas] Stratechery: 2026.40: Dots and Question Marks
+  https://stratechery.com/2026/dots-and-question-marks/
 
-[ideas] Paul Graham: Making Startups Powerful
-  https://paulgraham.com/powerful.html
+[ideas] Stratechery: An Interview with Jason Del Rey About Muse, Amazon, and Walmart
+  https://stratechery.com/2026/an-interview-with-jason-del-rey-about-muse-amazon-and-walmart/
 
-[ideas] Paul Graham: How Universities Should Prepare Founders
-  https://paulgraham.com/prepare.html
+[ideas] Stratechery: OpenAI Dev Day, Dot and OpenAI’s Product Transition, Sign In With ChatGPT
+  https://stratechery.com/2026/openai-dev-day-dot-and-openais-product-transition-sign-in-with-chatgpt/
+
+[ideas] Marginal Revolution: Words to live by?
+  https://marginalrevolution.com/marginalrevolution/2026/10/words-to-live-by-2.html?utm_source=rss&utm_medium=rss&utm_campaign=words-to-live-by-2
+
+[ideas] Marginal Revolution: New issue of Econ Journal Watch
+  https://marginalrevolution.com/marginalrevolution/2026/10/new-issue-of-econ-journal-watch-17.html?utm_source=rss&utm_medium=rss&utm_campaign=new-issue-of-econ-journal-watch-17
+
+[ideas] Marginal Revolution: Supply is elastic, installment #1637
+  https://marginalrevolution.com/marginalrevolution/2026/10/supply-is-elastic-installment-1637-2.html?utm_source=rss&utm_medium=rss&utm_campaign=supply-is-elastic-installment-1637-2
+
+[ideas] Marginal Revolution: Friday assorted links
+  https://marginalrevolution.com/marginalrevolution/2026/10/friday-assorted-links-593.html?utm_source=rss&utm_medium=rss&utm_campaign=friday-assorted-links-593
+
+[ideas] Marginal Revolution: A Normal Debate?
+  https://marginalrevolution.com/marginalrevolution/2026/10/a-normal-debate.html?utm_source=rss&utm_medium=rss&utm_campaign=a-normal-debate
+
+[wisdom] Farnam Street: [Outliers] Charlie Munger’s Interview with Todd Combs
+  https://fs.blog/knowledge-project-podcast/outliers-munger-combs/
+
+[ai] Anthropic News: Anthropic invests $100 million to train 10,000 engineers and tackle the enterprise AI talent gap
+  https://www.anthropic.com/news/claude-frontier-academy
+
+[ai] Anthropic News: Barclays scales Claude to upgrade operations and improve client experience
+  https://www.anthropic.com/news/barclays-scales-claude
+
+[ai] Anthropic News: Claude discovers a novel enzyme system with CRISPR-like repeats
+  https://www.anthropic.com/news/claude-discovers-novel-enzyme-system
 
 [wisdom] Figs in Winter (Pigliucci): Reading Greek, missing the point – part II
   https://figsinwintertime.substack.com/p/reading-greek-missing-the-point-part-869
@@ -109,65 +136,26 @@
 [wisdom] Figs in Winter (Pigliucci): Video: How to feel
   https://figsinwintertime.substack.com/p/video-how-to-feel
 
-[ideas] Marginal Revolution: What should I ask Tom Griffiths?
-  https://marginalrevolution.com/marginalrevolution/2026/10/what-should-i-ask-tom-griffiths.html?utm_source=rss&utm_medium=rss&utm_campaign=what-should-i-ask-tom-griffiths
-
-[ideas] Marginal Revolution: My excellent Conversation with Luis Garicano
-  https://marginalrevolution.com/marginalrevolution/2026/10/my-excellent-conversation-with-luis-garicano.html?utm_source=rss&utm_medium=rss&utm_campaign=my-excellent-conversation-with-luis-garicano
-
-[ideas] Marginal Revolution: Alvin Roth to the rescue, the polity that is Singapore
-  https://marginalrevolution.com/marginalrevolution/2026/10/alvin-roth-to-the-rescue-the-polity-that-is-singapore.html?utm_source=rss&utm_medium=rss&utm_campaign=alvin-roth-to-the-rescue-the-polity-that-is-singapore
-
-[ideas] Marginal Revolution: Thursday assorted links
-  https://marginalrevolution.com/marginalrevolution/2026/10/thursday-assorted-links-572.html?utm_source=rss&utm_medium=rss&utm_campaign=thursday-assorted-links-572
-
-[ideas] Marginal Revolution: What should I ask Moxie Marlinspike?
-  https://marginalrevolution.com/marginalrevolution/2026/10/what-should-i-ask-moxie-marlinspike.html?utm_source=rss&utm_medium=rss&utm_campaign=what-should-i-ask-moxie-marlinspike
-
-[wisdom] Farnam Street: [Outliers] Charlie Munger’s Interview with Todd Combs
-  https://fs.blog/knowledge-project-podcast/outliers-munger-combs/
-
-[ideas] Stratechery: An Interview with Jason Del Rey About Muse, Amazon, and Walmart
-  https://stratechery.com/2026/an-interview-with-jason-del-rey-about-muse-amazon-and-walmart/
-
-[ideas] Stratechery: OpenAI Dev Day, Dot and OpenAI’s Product Transition, Sign In With ChatGPT
-  https://stratechery.com/2026/openai-dev-day-dot-and-openais-product-transition-sign-in-with-chatgpt/
-
-[ideas] Stratechery: One More Note on Agents, Meta Connect, Meta Enterprise Platform
-  https://stratechery.com/2026/one-more-note-on-agents-meta-connect-meta-enterprise-platform/
-
-[ai] Anthropic News: Barclays scales Claude to upgrade operations and improve client experience
-  https://www.anthropic.com/news/barclays-scales-claude
-
-[ai] Anthropic News: Claude discovers a novel enzyme system with CRISPR-like repeats
-  https://www.anthropic.com/news/claude-discovers-novel-enzyme-system
-
-[bitcoin] The Pomp Letter: I am now a software engineer
-  https://pomp.substack.com/p/i-am-now-a-software-engineer
-
-[ai] Simon Willison: Quoting Matthew Green
-  https://simonwillison.net/2026/Oct/1/matthew-green/
-
-[ai] Simon Willison: He Built This City
-  https://simonwillison.net/2026/Sep/30/he-built-this-city/
-
-[ai] Simon Willison: Quoting Anthropic Frontier Red Team
-  https://simonwillison.net/2026/Sep/29/anthropic-frontier-red-team/
-
-[ai] Simon Willison: GPT 6.1 Sol: Near-Astra intelligence for a fifth of the price
-  https://simonwillison.net/2026/Sep/29/hn-49898129/
-
-[ai] Simon Willison: Photo Scrubber — local face blur & metadata removal
-  https://simonwillison.net/2026/Sep/29/photo-scrubber/
-
-[ideas] Astral Codex Ten: Our AI Midwife
-  https://www.astralcodexten.com/p/our-ai-midwife
-
 [wisdom] Donald Robertson: How to Find Strength in Your Own Character
   https://donaldrobertson.substack.com/p/how-to-find-strength-in-your-own
 
 [wisdom] Donald Robertson: Ancient Lessons in Resilience from Ukraine
   https://donaldrobertson.substack.com/p/ancient-lessons-in-resilience-from
+
+[bitcoin] The Pomp Letter: I am now a software engineer
+  https://pomp.substack.com/p/i-am-now-a-software-engineer
+
+[ideas] Paul Graham: Making Startups Powerful
+  https://paulgraham.com/powerful.html
+
+[ideas] Paul Graham: How Universities Should Prepare Founders
+  https://paulgraham.com/prepare.html
+
+[ai] OpenAI Blog: A model guide for the GPT-6 family
+  https://openai.com/index/practical-guide-building-gpt-6
+
+[ai] OpenAI Blog: Chatham scales its capital markets expertise with OpenAI
+  https://openai.com/index/chatham-financial
 
 [ai] OpenAI Blog: The eternal complement
   https://openai.com/index/the-eternal-complement
@@ -178,11 +166,29 @@
 [ai] OpenAI Blog: The Den frees up 10-15 hours a week to grow with ChatGPT Work
   https://openai.com/index/the-den-family-social
 
-[ai] OpenAI Blog: Disrupting a coordinated model-distillation campaign
-  https://openai.com/index/disrupting-a-coordinated-model-distillation-campaign
+[ai] Simon Willison: Quoting Matthew Green
+  https://simonwillison.net/2026/Oct/1/matthew-green/
 
-[ai] OpenAI Blog: Helping small businesses put AI to work
-  https://openai.com/index/helping-small-businesses-put-ai-to-work
+[ai] Simon Willison: He Built This City
+  https://simonwillison.net/2026/Sep/30/he-built-this-city/
+
+[ideas] Astral Codex Ten: Our AI Midwife
+  https://www.astralcodexten.com/p/our-ai-midwife
+
+[bitcoin] Bitcoin Magazine: IMF Praises El Salvador — But Still Tries To Scale Back Its Bitcoin Project
+  https://bitcoinmagazine.com/news/imf-praises-el-salvador-but-blasts-bitcoin
+
+[bitcoin] Bitcoin Magazine: When the Banks Don’t Work, Bitcoin Does: Cornell University’s Adoption Index
+  https://bitcoinmagazine.com/news/when-banks-dont-work-bitcoin-does-cornell
+
+[bitcoin] Bitcoin Magazine: South Africa’s Absa Becomes First Bank on the Continent to Custody Bitcoin: Report
+  https://bitcoinmagazine.com/news/absa-first-african-bank-to-custody-bitcoin
+
+[bitcoin] Bitcoin Magazine: Bitcoin Price Surges Above $87,000 on Softer-Than-Expected Jobs Data
+  https://bitcoinmagazine.com/markets/bitcoin-price-surges-on-soft-jobs-data
+
+[bitcoin] Bitcoin Magazine: Impacts of Daily Dividends on Digital Credit
+  https://bitcoinmagazine.com/bitcoin-for-corporations/impacts-of-daily-dividends-on-digital-credit
 
 [bitcoin] Bitcoin Magazine: Frank Holmes: They Will Print $100 Trillion – Why to Buy Bitcoin & Gold
   https://bitcoinmagazine.com/videos/frank-holmes-they-will-print-100-trillion-why-to-buy-bitcoin-gold
@@ -193,108 +199,105 @@
 [bitcoin] Bitcoin Magazine: Darius Dale: Will Global Liquidity Send Bitcoin Higher in 2027?
   https://bitcoinmagazine.com/videos/darius-dale-will-global-liquidity-send-bitcoin-higher-in-2027
 
-[bitcoin] Bitcoin Magazine: SEC Proposes New Rules On Crypto Custody
-  https://bitcoinmagazine.com/news/sec-proposes-crypto-custody-rules
-
-[bitcoin] Bitcoin Magazine: Sazmining Launches the Wild Sats Club, a Loyalty Program That Discounts Mining Management Fees as Customer Hashrate Grows
-  https://bitcoinmagazine.com/press-releases/sazmining-launches-the-wild-sats-club-a-loyalty-program-that-discounts-mining-management-fees-as-customer-hashrate-grows
-
-[bitcoin] Bitcoin Magazine: Jack Dorsey’s Block Launches Campaign To Get People Spending Bitcoin
-  https://bitcoinmagazine.com/news/block-launches-bitcoin-campaign
-
-[bitcoin] Bitcoin Magazine: Republican Senator Steve Daines Releases Text of Proposed Crypto Tax Plan
-  https://bitcoinmagazine.com/news/republican-releases-crypto-tax-plan
-
-[bitcoin] Bitcoin Magazine: Peter Todd Joins MARA to Lead Private Mempool Slipstream
-  https://bitcoinmagazine.com/news/peter-todd-joins-mara-to-lead-slipstream
-
 
 === YOUTUBE ===
-GTO Wizard: How I Almost Won 10 Million with Han Feng & Joey Ingram
-  https://www.youtube.com/watch?v=82EUwl_Kb5M
+Paul Saladino MD: I Started Making This Instead of Bread (Now I’m Hooked)
+  https://www.youtube.com/watch?v=lyetKsv-IbU
   Transcript: yes
 
-Paul Saladino MD: This is intoxicating your home
-  https://www.youtube.com/shorts/-hK0BzzRWTg
+Ken Berry MD: Eat nutrient dense meat, eggs, and animal fats until you are comfortably stuffed.
+  https://www.youtube.com/shorts/fFqJv9K1hp4
   Transcript: yes
 
-Anthony Chaffee MD: Carnivore Livestream with Dr Anthony Chaffee | Sept 25th, 2026
-  https://www.youtube.com/watch?v=h_gT1FB0SOs
+Ken Berry MD: Want the full breakdown? Watch my full YouTube video, “How to Avoid a Heart Attack.”
+  https://www.youtube.com/shorts/hgSoOgpxk5A
+  Transcript: yes
+
+Ken Berry MD: Do you have the #1 heart attack risk… and not even know it?
+  https://www.youtube.com/shorts/fUvEu4xSb4w
   Transcript: yes
 
 Ken Berry MD: Monday Night Live with Dr. Berry & Nurse Neisha
   https://www.youtube.com/watch?v=mFu0WqoSMgI
   Transcript: NO
 
-Ken Berry MD: Your blood sugar can look “normal” while trouble is already brewing.
-  https://www.youtube.com/shorts/XBrFV_ZdXKw
+GTO Wizard: The Simplest Exploit in PLO Almost Feels Unfair
+  https://www.youtube.com/watch?v=5LJKelCWKRk
   Transcript: yes
 
 Joe Rogan: JRE MMA Show #186 with Sean Sharaf
   https://www.youtube.com/watch?v=n4fDgjTkY40
   Transcript: yes
 
-Jared Alderman: The Biggest Difference Between Online Crushers and Live Pros
-  https://www.youtube.com/watch?v=sQ8xG0aR4rw
+Anthony Chaffee MD: Carnivore Livestream with Dr Anthony Chaffee | Oct 2nd, 2026
+  https://www.youtube.com/watch?v=mvn10R4C5Xs
   Transcript: yes
 
-Nick Norwitz: Do You Feel Like You Have ADHD?
-  https://www.youtube.com/shorts/bz6JC4U3rWU
-  Transcript: yes
-
-GTO Lab: Nasty bounty spot from the recent $40K Mystery Bounty at @tritonpokerseries
-  https://www.youtube.com/shorts/3PjHWERdfws
-  Transcript: yes
-
-Thomas DeLauer: This Removes 71% of Plaque in a Single Brushing
-  https://www.youtube.com/watch?v=BC1GLdS2Fyk
-  Transcript: yes
-
-Thomas DeLauer: Scientists Discovered What Causes Belly Fat MORE Than Just Calories
-  https://www.youtube.com/watch?v=zUu3EAbhX-A
-  Transcript: yes
-
-Dr. Sten Ekberg: What Happens At 3 AM That Wakes You Up Every Night?
-  https://www.youtube.com/watch?v=K3NZX4JmQkw
+Nick Norwitz: Fermented Foods vs. Fiber—Who Wins?
+  https://www.youtube.com/shorts/ejwujHhcPXc
   Transcript: yes
 
 Lex Fridman: Psychiatry, Insane Asylums, Mental Illness, ECT, Lobotomies, Freud & Jung | Lex Fridman Podcast #502
   https://www.youtube.com/watch?v=s7d2d8FhevU
   Transcript: yes
 
-Renaissance Periodization: Nobody’s Impressed by Your Half Reps
-  https://www.youtube.com/shorts/6l_aT2hBiIo
+Thomas DeLauer: The Literal Best Exercise for Insulin Resistance and Blood Pressure (Better than Walking and HIIT)
+  https://www.youtube.com/watch?v=ep-I8rRNXL4
   Transcript: yes
 
-Renaissance Periodization: What Alcohol Actually Does to Your Recovery
-  https://www.youtube.com/shorts/tc_CF2pvisw
+Jared Alderman: The Biggest Difference Between Online Crushers and Live Pros
+  https://www.youtube.com/watch?v=sQ8xG0aR4rw
+  Transcript: yes
+
+GTO Lab: Nasty bounty spot from the recent $40K Mystery Bounty at @tritonpokerseries
+  https://www.youtube.com/shorts/3PjHWERdfws
   Transcript: yes
 
 Peter Attia: Risks associated with thyroid supplements | Peter Attia, M.D.
   https://www.youtube.com/shorts/ySqrXczYpVg
   Transcript: yes
 
+ModernWisdom: Why Women Make Great Judges
+  https://www.youtube.com/shorts/jaPEUFyz8ec
+  Transcript: yes
+
+ModernWisdom: 10 Years Of Therapy In One Minute
+  https://www.youtube.com/shorts/oVblLn8NYr4
+  Transcript: yes
+
+ModernWisdom: The Craziest Prenup A Divorce Attorney Has Ever Seen
+  https://www.youtube.com/watch?v=JknW36rmBDI
+  Transcript: yes
+
+Renaissance Periodization: You Don’t Need Deadlifts to Grow Your Back
+  https://www.youtube.com/shorts/zVkWBTGkMUE
+  Transcript: yes
+
+Renaissance Periodization: Exercise Scientist Critiques the Internet’s Final Boss of Lifting
+  https://www.youtube.com/watch?v=kikIOn-kuaE
+  Transcript: yes
+
+Renaissance Periodization: Study: 1 in 5 Young Men Built Zero Muscle in 12 Weeks
+  https://www.youtube.com/shorts/zQCD9WL-mAA
+  Transcript: yes
+
+Dr. Sten Ekberg: #1 Best Way To Prevent A Stroke
+  https://www.youtube.com/watch?v=vkbWSQ79HpM
+  Transcript: yes
+
 Andrew Huberman: Tools to Improve Your Focus & Concentration | Huberman Lab Essentials
   https://www.youtube.com/watch?v=8e3RC1L5V_Y
-  Transcript: yes
-
-ModernWisdom: How Do You Know When To Leave?
-  https://www.youtube.com/shorts/9ujMSTS52ZM
-  Transcript: yes
-
-ModernWisdom: How To Go Hard, Even When You Don’t Want To - Sam Sulek
-  https://www.youtube.com/watch?v=_yfuSo5N2dc
-  Transcript: yes
-
-ThinkingPoker: Bankroll Management - Thinking Poker
-  https://www.youtube.com/watch?v=6w8amkDkeVw
   Transcript: yes
 
 Ben Felix: The Truth About Leveraged ETFs
   https://www.youtube.com/watch?v=E7pl0tqzIUQ
   Transcript: yes
 
-Mind The Game: No outside noise. No distractions. Just the work. 🔒
-  https://www.youtube.com/shorts/Fz9oyWzR63U
+ThinkingPoker: Bankroll Management - Thinking Poker
+  https://www.youtube.com/watch?v=6w8amkDkeVw
+  Transcript: yes
+
+Mind The Game: That 2020 @lakers parade would've went crazy. 😳
+  https://www.youtube.com/shorts/-2TWyaOwQIM
   Transcript: yes
 

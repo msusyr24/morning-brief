@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>Morning Brief — Friday, October 02, 2026</title>
+<title>Morning Brief — Saturday, October 03, 2026</title>
 <style>
   body {
     font-family: Georgia, serif;
@@ -92,19 +92,19 @@
 })();
 </script>
 <h1>Morning Brief</h1>
-<p class="date">Friday, October 02, 2026</p>
+<p class="date">Saturday, October 03, 2026</p>
 
 <div class="anchor">
   <h2>☀️ Today's Anchor</h2>
   <div class="anchor-block">
-    <p class="quote">"Watch your thoughts, they become words; watch your words, they become actions; watch your actions, they become habits; watch your habits, they become character; watch your character, it becomes your destiny."</p>
-    <p class="author">— Frank Outlaw (commonly misattributed to Lao Tzu)</p>
-    <p class="context">Actually from a 1970s American supermarket executive. The chain of causation holds regardless of source.</p>
+    <p class="quote">"The ultimate measure of a man is not where he stands in moments of comfort and convenience, but where he stands at times of challenge and controversy."</p>
+    <p class="author">— Martin Luther King Jr.</p>
+    <p class="context">Strength to Love (1963). King wrote this while his movement faced violence and his own life was threatened daily.</p>
   </div>
   <div class="anchor-block">
-    <p class="model-label">Mental Model · Physics</p>
-    <p class="model-name">Entropy / Second Law of Thermodynamics</p>
-    <p class="context">Systems tend toward disorder without energy input. Gardens return to weeds, teams drift toward dysfunction, code rots. Munger: 'Reality has a relentless downhill slope; you have to pedal constantly just to stay in place.' Applied to any endeavor: what's eroding, and what energy am I spending to hold it together?</p>
+    <p class="model-label">Mental Model · Physics/Economics</p>
+    <p class="model-name">Equilibrium</p>
+    <p class="context">Systems settle into balances where forces cancel. Markets find price equilibrium; ecosystems find predator-prey balance; workplaces find culture equilibrium. Shifting equilibrium requires changing underlying forces, not fighting symptoms. Munger applies this to regulation: treat symptoms and you'll return to equilibrium; change incentives and the new equilibrium shifts.</p>
   </div>
 </div>
 
@@ -115,145 +115,133 @@
   <p class="spotlight-instructions">Interested? Copy the line below into <code>YOUTUBE_CHANNELS</code> in <code>brief.py</code> and save:</p>
   <pre class="spotlight-snippet" id="snippet">    "Better Ideas": "UCtUId5WFnN82GdDy7DgaQ7w",</pre>
   <button class="copy-btn" onclick="navigator.clipboard.writeText(document.getElementById('snippet').innerText.trim()); this.innerText='✅ Copied'; setTimeout(()=>this.innerText='📋 Copy snippet', 2000);">📋 Copy snippet</button>
-  <p class="spotlight-meta">showing for 2 more days. If you don't add it, a new channel will be suggested.</p>
+  <p class="spotlight-meta">showing for 1 more day. If you don't add it, a new channel will be suggested.</p>
 </div>
 <h2>🎥 From People I Follow</h2>
 
 <p><strong>Worth your time:</strong></p>
 
 <div class="story">
-  <h3>GTO Wizard — Han Feng deep dive</h3>
-  <p>Han Feng (who made the final table of the WSOP Main Event in a "pink onesie" run that captivated the poker world) joins Joey Ingram to review key hands using GTO Wizard's new pre-flop ICM solver. The core lesson: at a six-handed final table with large pay jumps, risk premium differentials can swing as wide as 20%, which means a hand like Ace-Jack that would be a trivial chip-EV call becomes a solver fold when ICM pressure is correctly calculated. Han demonstrates live how to input stack sizes, per-player antes, and actual payout spots into the ICM lab — and then node-lock an opponent's range to see how quickly the EV of your hand collapses when villain isn't jamming the bottom of their range. A secondary theme throughout: Han traces a bad Day 2 call to overriding his physical intuition with verbal logic ("my body didn't want to call, my brain talked me into it"), raising the question of when embodied read should override GTO default.</p>
-  <p class="meta">Videos: <a href="https://www.youtube.com/watch?v=82EUwl_Kb5M">How I Almost Won 10 Million with Han Feng & Joey Ingram</a></p>
+  <h3>GTO Wizard</h3>
+  <p>Sharp exploit video on PLO: the core argument is that loose-passive players don't meaningfully differentiate between small and large bet sizes — they decide based on hand strength and draw potential, not pot odds. Therefore, sizing down against them (common instinct when you have a strong hand) is a mistake that costs you significant EV. The solver confirms this: when you node-lock the big blind to play like a loose-passive, the IP strategy shifts from frequent half-pot bets to mostly large sizing, and the optimal betting frequency actually drops (fewer weak bluffs, more polar value). The practical upshot: bet your strong hands large on flop AND turn against these players, and on tough rivers where you rarely get called, target the infrequent strong hands with a big sizing rather than sizing down to chase calls from air.</p>
+  <p class="meta">Videos: <a href="https://www.youtube.com/watch?v=5LJKelCWKRk">The Simplest Exploit in PLO Almost Feels Unfair</a></p>
 </div>
 
 <div class="story">
-  <h3>Jared Alderman — Online crushers vs. live pros</h3>
-  <p>Alderman's central thesis: live players make exploitative deviations all the time (folding what is a solver jam, for instance) but have no calibrated sense of <em>how large</em> the deviation is. He walks through a hand — HJ opens A8s in a $1/$3 game, flops top two on A-K-3-8 rainbow, bets, gets min-raised on the turn, and folds — where the solver says calling was worth roughly +$50 in EV. The live player's justification ("I'm pretty sure he has a set") isn't wrong as a read, but even if villain has a set 75% of the time, the pot odds and remaining equity (boat outs) still make folding a significant mistake. Jared's broader point: live players use "I have a read" as a blanket excuse to skip math entirely, which quietly bleeds money in spots where the read is correct but the price still demands a call.</p>
+  <h3>Jared Alderman</h3>
+  <p>A live NLH hand dissection with a genuinely useful conceptual point: live players systematically undersize their deviations from GTO — they don't know how big a mistake they're making, or how big the exploit against them should be. The specific hand (A8s, flop top two on AK3, turn brings 8 for two-pair, faces a min-raise from a tight reg) illustrates how even when a player correctly reads "he probably has a set," folding is still wrong because the price is good and boats are live. The broader heuristic: when a player's mistake is calling too much, cut your weak bluffs and build pots hard with value — don't size down. The conversation also lands on why live players rationalize not studying by claiming read-based exploits, which Jared largely dismisses.</p>
   <p class="meta">Videos: <a href="https://www.youtube.com/watch?v=sQ8xG0aR4rw">The Biggest Difference Between Online Crushers and Live Pros</a></p>
 </div>
 
 <div class="story">
-  <h3>Renaissance Periodization</h3>
-  <p>Two tight shorts: (1) On partial reps — RP's argument is purely social: the lifters whose opinion you'd actually value will silently judge you for partials, so if impressing people is the goal, perfect technique is the better path. (2) On alcohol and recovery — five discrete mechanisms summarized crisply: direct biochemical toxicity, interference with muscle protein synthesis via hormonal pathways, disruption of other anabolic hormones, dehydration, and degraded sleep architecture even when alcohol helps you fall asleep.</p>
-  <p class="meta">Videos: <a href="https://www.youtube.com/shorts/6l_aT2hBiIo">Nobody's Impressed by Your Half Reps</a> · <a href="https://www.youtube.com/shorts/tc_CF2pvisw">What Alcohol Actually Does to Your Recovery</a></p>
+  <h3>Thomas DeLauer</h3>
+  <p>A large British Journal of Sports Medicine meta-analysis (15,000+ participants, 270+ RCTs) ranked exercise types by blood pressure reduction — isometric exercise, specifically wall sits, came out on top. Wall sits reduced systolic BP by ~11 mmHg and diastolic by ~5 mmHg, roughly double the effect of HIIT (~4 mmHg) and aerobic exercise (~5 mmHg). The mechanism: sustained muscle contraction compresses blood vessels, then the release drives nitric oxide production and vascular adaptation over time. A separate clinical hypertension study found a 12.9 mmHg systolic drop after just one week of wall squats. The secondary benefit is insulin-independent glucose disposal: sustained isometric contraction activates AMPK, which triggers GLUT4 translocation to cell membranes, pulling glucose into muscle without requiring insulin — making a 2-minute wall sit 15-30 minutes post-meal a meaningful intervention for insulin resistance. Practical protocol: work up to 2-minute holds, 2-3x/week until you hit the target, then drop to once weekly for maintenance.</p>
+  <p class="meta">Videos: <a href="https://www.youtube.com/watch?v=ep-I8rRNXL4">The Literal Best Exercise for Insulin Resistance and Blood Pressure</a></p>
 </div>
 
 <div class="story">
-  <h3>ModernWisdom — Sam Sulek on training mentality</h3>
-  <p>Sulek's core framework: "practice without striving" — going as hard as you possibly can, but wanting that maximum effort to feel seamless and automatic rather than forced. He argues the most underrated training principle is simply <em>going harder</em>, and that exercise-science optimization is valuable but ranks second to intensity; he'd rather train maximally than train optimally. He's also skeptical that study populations (sedentary average Americans) map cleanly onto serious trainees, so he discounts optimal-rep-range findings when they conflict with his own effort-first heuristic. His full-day-of-eating example is instructive: he ranks protein sources in tiers (beef/chicken/fish/eggs = S-tier; rice protein = D-tier, not worth counting) and is hyper-granular about macros even at a steak dinner.</p>
-  <p class="meta">Videos: <a href="https://www.youtube.com/watch?v=_yfuSo5N2dc">How To Go Hard, Even When You Don't Want To</a></p>
+  <h3>Nick Norwitz</h3>
+  <p>Cites a Stanford RCT comparing high-fiber vs. high-fermented-food diets for gut health. Fermented foods won: they produced more consistent reductions in inflammatory markers and greater microbiome diversity, while fiber responses were heterogeneous — some people saw inflammation decrease, others saw it increase. Practical starting point: one serving of something like sauerkraut daily, gradually increasing to six servings. Other options: kefir, kimchi, yogurt, natto.</p>
+  <p class="meta">Videos: <a href="https://www.youtube.com/shorts/ejwujHhcPXc">Fermented Foods vs. Fiber—Who Wins?</a></p>
+</div>
+
+<div class="story">
+  <h3>Paul Saladino MD</h3>
+  <p>Cooking demo with embedded Q&A, so the useful content is the Q&A. On fasting: Saladino is skeptical of extended fasting protocols, arguing most people already carry enough allostatic load, and that cortisol/catecholamines/glucagon elevation during fasting creates stress rather than benefit — he personally noticed irritability after a year of OMAD. On folate in pregnancy: strong against folic acid supplements (poorly metabolized, unmetabolized folic acid linked to other issues); recommends methylfolate or tetrahydrofolate, and prioritizes liver and egg yolks as food sources, noting folate from animal sources is more bioavailable than from plants like asparagus or avocado. On transitioning from carnivore to animal-based: start with honey (1 tbsp/day), give the body 48-72 hours to re-express carbohydrate-processing machinery, then gradually add fruit — begin with low-glycemic options like blueberries.</p>
+  <p class="meta">Videos: <a href="https://www.youtube.com/watch?v=lyetKsv-IbU">I Started Making This Instead of Bread (Now I'm Hooked)</a></p>
+</div>
+
+<div class="story">
+  <h3>Renaissance Periodization</h3>
+  <p>Two substantive data points buried in otherwise entertaining content. First: studies consistently show roughly 1 in 5 college-age males (18-22) demonstrate zero detectable muscle growth by DEXA after 12-16 weeks of resistance training — Dr. Mike attributes this partly to under-sleeping and under-eating protein, but notes a genuine tail of non-responders with weak cellular hypertrophic signaling. Second (from the shorts): you don't need deadlifts to build your back — machine exercises can produce equivalent hypertrophy if trained hard with progressive overload. The criterion is whether an exercise hits the target muscle well, doesn't cause bad pain, and allows progression.</p>
+  <p class="meta">Videos: <a href="https://www.youtube.com/shorts/zQCD9WL-mAA">Study: 1 in 5 Young Men Built Zero Muscle in 12 Weeks</a> · <a href="https://www.youtube.com/shorts/zVkWBTGkMUE">You Don't Need Deadlifts to Grow Your Back</a> · <a href="https://www.youtube.com/watch?v=kikIOn-kuaE">Exercise Scientist Critiques the Internet's Final Boss of Lifting</a></p>
 </div>
 
 <p><strong>Also posted:</strong></p>
 <ul>
-  <li><strong>Ken Berry MD:</strong> Makes a sharp clinical point: fasting insulin is a far earlier warning signal for type 2 diabetes than fasting glucose or A1C — an elevated fasting insulin (>15) can flag future T2D a decade or more before diagnosis, and applies equally to fatty liver, hypertension, and metabolic syndrome. (<a href="https://www.youtube.com/shorts/XBrFV_ZdXKw">Your blood sugar can look "normal" while trouble is already brewing</a>)</li>
-  <li><strong>Nick Norwitz:</strong> Connects sleep deprivation to ADHD-like dopamine deficits — a 2026 study on 12,000 brain scans found stimulant medications work on the dopamine reward network, not the attention network, and the underslept brain mimics that same deficit pattern; first intervention should be sleep, not stimulants. (<a href="https://www.youtube.com/shorts/bz6JC4U3rWU">Do You Feel Like You Have ADHD?</a>)</li>
-  <li><strong>Thomas DeLauer:</strong> Covers two topics with actual mechanisms: (1) baking soda removes up to 71% of dental plaque in a single brushing per a 5-trial ADA-published meta-analysis (270+ patients), with the effect being dose-dependent and working via alkalinity, mild abrasion, and antibacterial action at higher concentrations; xylitol acts as a Trojan horse that streptococcus mutans absorbs but can't metabolize, halting acid production; antiseptic mouthwash kills the nitrate-reducing tongue bacteria that buffer oral pH and also measurably raises blood pressure. (2) Covers belly-fat signaling: two nights of 4-hour sleep drops leptin 18% and raises ghrelin 28%; orexin neurons (not ghrelin directly) are the actual "go eat" switch; leptin resistance functions as a volume-knob problem worsened by inflammation; gut bacteria producing short-chain fatty acids from fermented fiber are the upstream driver of endogenous GLP-1 production. (<a href="https://www.youtube.com/watch?v=BC1GLdS2Fyk">This Removes 71% of Plaque in a Single Brushing</a> + <a href="https://www.youtube.com/watch?v=zUu3EAbhX-A">Scientists Discovered What Causes Belly Fat MORE Than Just Calories</a>)</li>
-  <li><strong>Dr. Sten Ekberg:</strong> Four distinct mechanisms for 3 AM waking: (1) blood sugar crash triggered by insulin resistance + late/high-carb dinner, waking via adrenaline/cortisol surge; (2) sleep apnea micro-arousals from soft palate muscle collapse, worsened by low baseline muscle tone; (3) racing-mind chronic HPA axis elevation coinciding with the natural cortisol rise that begins around 3 AM; (4) emotional/psychological rumination. Practical fix for #1: lighter, earlier, lower-carb dinner with more protein and fat. (<a href="https://www.youtube.com/watch?v=K3NZX4JmQkw">What Happens At 3 AM That Wakes You Up Every Night?</a>)</li>
-  <li><strong>Andrew Huberman:</strong> Essentials recap of focus neuroscience: epinephrine (alertness/shaft of arrow), acetylcholine (directed focus/arrowhead), dopamine (sustained motivation) are the three-neurochemical stack. Key practical points: 90-minute ultradian cycles are the natural unit of deep work; expect a 5–10 minute warm-up before focus peaks; fasted state improves focus but only if not thinking about food; post-meal blood diversion to gut degrades focus; caffeine 100–400mg works but cuts sleep quality if taken within 8–12 hours of bed. 13-minute daily meditation over 8 weeks measurably improved concentration in Wendy Suzuki's NYU lab. (<a href="https://www.youtube.com/watch?v=8e3RC1L5V_Y">Tools to Improve Your Focus & Concentration</a>)</li>
-  <li><strong>Peter Attia:</strong> Flags a serious supplement safety issue: researchers analyzing 10 commercial "thyroid support" supplements found 9 contained actual T3 and 5 contained T4 — several at doses exceeding standard prescription starting doses — with none disclosing this. Documented cases of thyrotoxicity and at least one fatality linked to weight-loss supplements adulterated with thyroid hormones. (<a href="https://www.youtube.com/shorts/ySqrXczYpVg">Risks associated with thyroid supplements</a>)</li>
-  <li><strong>Anthony Chaffee MD:</strong> Lengthy livestream Q&A covering carnivore protocols for MS (patient case: 8 months on lion diet + optimized B12/D3/vitamin A → 40% lesion shrinkage on MRI, neurologist had "never seen anything like it"), histamine issues on carnivore (fresh lamb > aged beef; egg whites problematic in autoimmunity), and the arbitrariness of standard lab reference ranges (four Perth labs have B12 cutoffs ranging from 140 to 330 pmol/L as the deficiency threshold — a more than 2x spread). (<a href="https://www.youtube.com/watch?v=h_gT1FB0SOs">Carnivore Livestream</a>)</li>
-  <li><strong>Lex Fridman:</strong> Long-form history of psychiatry with Andrew Scull: covers the arc from asylums to lobotomy (Walter Freeman's "Lobotomobile" teaching ice-pick lobotomy at state hospitals; Egas Moniz won the 1949 Nobel Prize for it) to insulin shock therapy to antipsychotics, with Scull's central argument that psychiatry has only symptomatic treatments — no cures — and that after Thomas Insel spent $20 billion at NIMH on neuroscience-first research, he admitted on exit that "the lot of the mentally ill has improved not one bit." DSM diagnostic reliability vs. validity problem explained clearly. (<a href="https://www.youtube.com/watch?v=s7d2d8FhevU">Psychiatry, Insane Asylums, Mental Illness, ECT, Lobotomies, Freud & Jung</a>)</li>
-  <li><strong>Ben Felix:</strong> Rigorous framework on leveraged ETFs: the theoretical case for young investors using 2x leverage (human capital as a bond-like asset per Samuelson/Merton) is real but fragile — high-income households often see income and stock portfolios fall simultaneously, forcing asset sales at the worst time. The "volatility decay" argument against daily-reset leveraged ETFs is mathematically overstated (rebalancing frequency cancels out in the drag equation unless returns have serial correlation). A $10K investment in UPRO at launch in 2009 is worth $1.3M today — but a live 2x S&P fund underperformed the plain index for decades through the dot-com bust. (<a href="https://www.youtube.com/watch?v=E7pl0tqzIUQ">The Truth About Leveraged ETFs</a>)</li>
-  <li><strong>Paul Saladino MD:</strong> Short: removes fragrance products from Airbnb on arrival, citing phthalates and parabens as endocrine disruptors absorbed through skin and clothes. (<a href="https://www.youtube.com/shorts/-hK0BzzRWTg">This is intoxicating your home</a>)</li>
+  <li><strong>Ken Berry MD:</strong> Multiple shorts and a Monday Night Live covering carnivore as a "weight optimization" (not just weight loss) diet, the diet-heart/lipid hypothesis and why doctors over-focus on LDL, and undiagnosed type 2 diabetes as the top heart attack risk factor. (<a href="https://www.youtube.com/shorts/fFqJv9K1hp4">Carnivore for weight optimization</a> + 2 more)</li>
+  <li><strong>Anthony Chaffee MD:</strong> Livestream Q&A covering carnivore for rare blood conditions (CHIP), weaning off reflux medication, and a historical case for meat-based nutrition citing Sir William Osler's 1900 textbook treating diabetes as "a disease of nutrition." (<a href="https://www.youtube.com/watch?v=mvn10R4C5Xs">Carnivore Livestream Oct 2nd</a>)</li>
+  <li><strong>Dr. Sten Ekberg:</strong> Detailed explainer on the four types of stroke (thrombotic, embolic, dissecting, hemorrhagic) with mortality rates for each; argues insulin resistance is the primary upstream driver of the three ischemic types, and clarifies that chiropractors blamed for dissecting strokes are experiencing a temporal, not causal, relationship. (<a href="https://www.youtube.com/watch?v=vkbWSQ79HpM">#1 Best Way To Prevent A Stroke</a>)</li>
+  <li><strong>Peter Attia:</strong> Short warning on thyroid support supplements: when researchers analyzed 10 commercial products by chromatography, 9 of 10 contained actual T3 and 5 contained T4, several at doses exceeding standard starting prescription doses — with none disclosing this on the label. (<a href="https://www.youtube.com/shorts/ySqrXczYpVg">Risks associated with thyroid supplements</a>)</li>
+  <li><strong>ModernWisdom:</strong> A divorce attorney interview with some genuinely interesting content on prenup dynamics, the history of marital contracts, and how women judges often treat female litigants more harshly than male judges do — though much of the episode drifts into off-topic banter. (<a href="https://www.youtube.com/watch?v=JknW36rmBDI">The Craziest Prenup A Divorce Attorney Has Ever Seen</a>)</li>
+  <li><strong>Mind The Game:</strong> LeBron on the 2020 Lakers championship and the absence of a parade due to COVID — rates the lost parade a "20 out of 10" on the disappointment scale. (<a href="https://www.youtube.com/shorts/-2TWyaOwQIM">That 2020 Lakers parade would've went crazy</a>)</li>
+  <li><strong>Joe Rogan (JRE MMA):</strong> Interview with UFC heavyweight Sean Sharaf after his 12-second knockout of heavy favorite Gable Stevenson — described as possibly the biggest upset in UFC heavyweight history by odds (Gable was a -2400 favorite). Sharaf discusses living out of his car during fight camp, sleeping on a mat, self-funding training, and now contemplating retirement after achieving his goal. (<a href="https://www.youtube.com/watch?v=n4fDgjTkY40">JRE MMA Show #186 with Sean Sharaf</a>)</li>
+  <li><strong>Lex Fridman:</strong> Long-form history of psychiatry with historian Andrew Scull — covers the asylum era, lobotomy (Freeman's ice-pick method, Nobel-prize-winning Moniz), insulin coma therapy, the DSM's evolution from psychodynamic to symptom-based diagnosis, $20B of NIMH neuroscience investment that improved patient outcomes "not one bit" per Thomas Insel's own assessment, and the current crisis of no new drug mechanisms since the 1950s. Fascinating but outside your core interest areas. (<a href="https://www.youtube.com/watch?v=s7d2d8FhevU">Psychiatry, Insane Asylums, Mental Illness, ECT, Lobotomies</a>)</li>
+  <li><strong>Ben Felix:</strong> Framework for leveraged ETFs: the theoretical case (Samuelson-Merton: young people with bond-like human capital should lever up into equities), the practical caution (high-income households often have stock-correlated income, sell assets during downturns, undermining the theory), and a correction on "volatility decay" — mathematically, daily rebalancing frequency doesn't inherently destroy value; it depends on realized serial correlation in returns. (<a href="https://www.youtube.com/watch?v=E7pl0tqzIUQ">The Truth About Leveraged ETFs</a>)</li>
 </ul>
-
----
 
 <h2>₿ Bitcoin & Macro</h2>
 
 <div class="story">
-  <h3><a href="https://bitcoinmagazine.com/videos/darius-dale-will-global-liquidity-send-bitcoin-higher-in-2027">Darius Dale: Will Global Liquidity Send Bitcoin Higher in 2027?</a></h3>
-  <p>Macro analyst Darius Dale argues near-term global liquidity is tightening, which could produce Bitcoin chop or downside in the coming months. His base case calls for a significant 12-to-18-month rally beginning if/when liquidity reverses in 2027 — framing Bitcoin as a high-beta expression of global M2. The thesis is macro-driven rather than Bitcoin-specific: Bitcoin goes where liquidity goes, with amplification.</p>
+  <h3><a href="https://bitcoinmagazine.com/markets/bitcoin-price-surges-on-soft-jobs-data">Bitcoin Price Surges Above $87,000 on Softer-Than-Expected Jobs Data</a></h3>
+  <p>Bitcoin moved above $87K on softer US jobs data (unemployment ticking up), with ETF inflows cited as a sustained tailwind. The macro read here is the familiar one: weaker labor market = more dovish Fed expectations = risk asset bid. Worth noting alongside the Darius Dale piece, which argues near-term global liquidity tightening could create Bitcoin chop before a potential 12-18 month rally if liquidity returns in 2027.</p>
   <p class="meta">Bitcoin Magazine</p>
 </div>
 
 <div class="story">
-  <h3><a href="https://bitcoinmagazine.com/videos/nico-lechuga-bitcoin-will-revolutionize-the-4t-private-equity-industry">Nico Lechuga: Bitcoin Will Revolutionize the $4T Private Equity Industry</a></h3>
-  <p>Ego Death Capital's Nico Lechuga makes the case that traditional PE's 5-7 year forced exit timeline misaligns with building durable companies, and that Bitcoin treasury holdings paired with permanent capital structures give founders a genuinely different option — no forced liquidation, no IRR pressure distorting decisions. Interesting as a Saylor-adjacent "Bitcoin as balance sheet" thesis applied to the VC/PE layer rather than public companies.</p>
+  <h3><a href="https://bitcoinmagazine.com/news/when-banks-dont-work-bitcoin-does-cornell">When the Banks Don't Work, Bitcoin Does: Cornell University's Adoption Index</a></h3>
+  <p>Cornell surveyed 25,880 people on Bitcoin usage. The key finding: adoption correlates strongly with banking system failure — people without reliable access to traditional financial infrastructure are the most active users, not tech enthusiasts. This is the organic utility-driven adoption thesis rather than the speculative one.</p>
   <p class="meta">Bitcoin Magazine</p>
 </div>
 
----
+<div class="story">
+  <h3><a href="https://bitcoinmagazine.com/news/absa-first-african-bank-to-custody-bitcoin">South Africa's Absa Becomes First Bank on the Continent to Custody Bitcoin</a></h3>
+  <p>Absa, one of Africa's largest banks (Johannesburg-based), is now custodying Bitcoin for institutional clients — the first African bank to do so. Incremental institutional infrastructure expansion, but notable as a geographic milestone for regulated custody.</p>
+  <p class="meta">Bitcoin Magazine</p>
+</div>
 
 <h2>🧬 Health & Science</h2>
 
 <div class="story">
-  <h3>Peter Attia: Alzheimer's Prevention Trial</h3>
-  <p>Attia flags that a prevention-focused clinical trial for Alzheimer's is now underway — framing it as a potential inflection point, since virtually all prior drug development targeted symptomatic or late-stage disease rather than prevention in cognitively normal individuals. No specific drug or mechanism is named in the summary, but the significance is the shift from treatment to prevention paradigm.</p>
-  <p class="meta"><a href="https://peterattiamd.com/end-of-alzheimers/">The end of Alzheimer's?</a> — Peter Attia MD</p>
+  <h3>Cell Identity Loss as a Driver of Human Aging — Eric Topol</h3>
+  <p>Two new papers covered by Eric Topol (Substack) argue that aging is partly driven by loss of cell identity — cells drifting from their specialized states, becoming less distinctly "what they are." This is a mechanistic claim distinct from the standard telomere/oxidative stress narrative, and points toward epigenetic reprogramming as a potential intervention target. Worth reading if you follow longevity science seriously.</p>
+  <p class="meta"><a href="https://erictopol.substack.com/p/loss-of-cell-identity-drives-human">Eric Topol Substack</a> · <a href="https://news.ycombinator.com/item?id=254">HN Discussion</a></p>
 </div>
 
 <div class="story">
-  <h3>Fasting insulin as an early warning biomarker (Ken Berry)</h3>
-  <p>A fasting insulin above 15 µIU/mL can identify future type 2 diabetics 10-15 years before fasting glucose or A1C becomes abnormal — because insulin resistance raises insulin first, while glucose is still compensated. The same marker is an early signal for fatty liver, hypertension, and metabolic syndrome. This is a clinically actionable point most people aren't getting from routine labs, since fasting insulin is not part of standard panels and many doctors don't order it.</p>
-  <p class="meta"><a href="https://www.youtube.com/shorts/XBrFV_ZdXKw">Your blood sugar can look "normal" while trouble is already brewing</a> — Ken Berry MD</p>
+  <h3>Isometric Exercise for Blood Pressure and Insulin Resistance (Thomas DeLauer summary)</h3>
+  <p>See the DeLauer entry above — the underlying data is strong enough to flag here too. Key numbers: wall sits reduce systolic BP by ~11 mmHg (vs. ~5 for aerobic, ~4 for HIIT) per a 270-RCT meta-analysis. A clinical trial found 12.9 mmHg systolic reduction after one week. The glucose mechanism (AMPK → GLUT4 translocation, insulin-independent) is well-established and particularly relevant for anyone managing post-meal glucose spikes.</p>
+  <p class="meta"><a href="https://www.youtube.com/watch?v=ep-I8rRNXL4">Source video</a></p>
 </div>
-
-<div class="story">
-  <h3>Baking soda removes up to 71% of dental plaque in a single brushing (Thomas DeLauer)</h3>
-  <p>A five-trial pooled analysis published in the Journal of the American Dental Association (270+ patients) found baking soda toothpastes outperformed regular toothpaste significantly on whole-mouth plaque removal, with a dose-response relationship — more baking soda, more effect. Three simultaneous mechanisms: mild abrasion lifts biofilm, alkalinity neutralizes bacterial acid output, and at high enough concentration it has direct antibacterial action. Xylitol acts as a metabolic Trojan horse — streptococcus mutans uptakes it as if it were sugar, then gets trapped in an energy-wasting dead-end loop that halts acid production; however, resistance can build, so intermittent use (a few times per week) is better than daily. Conventional antiseptic mouthwash (chlorhexidine) kills the nitrate-reducing tongue bacteria responsible for oral and systemic nitric oxide production; 7 days of use measurably raises salivary lactate and systemic blood pressure.</p>
-  <p class="meta"><a href="https://www.youtube.com/watch?v=BC1GLdS2Fyk">This Removes 71% of Plaque in a Single Brushing</a> — Thomas DeLauer</p>
-</div>
-
-<div class="story">
-  <h3>Thyroid supplement fraud: actual hormones found in OTC products (Peter Attia)</h3>
-  <p>Chromatography analysis of 10 commercial "thyroid support" supplements found 9 of 10 contained T3 and 5 of 10 contained T4 — several at doses exceeding standard prescription starting doses — with none of the products disclosing hormone content on the label. Documented cases of thyrotoxicity and a fatal outcome linked to hormone-adulterated weight-loss supplements exist in the literature. Kelp-based supplements independently trigger hyperthyroidism in people with autonomous nodules by flooding the system with iodine.</p>
-  <p class="meta"><a href="https://www.youtube.com/shorts/ySqrXczYpVg">Risks associated with thyroid supplements</a> — Peter Attia MD</p>
-</div>
-
-<div class="story">
-  <h3>Carnivore/lion diet and MS: a notable case and the lectin hypothesis (Anthony Chaffee)</h3>
-  <p>Chaffee describes a patient with MS who followed a strict lion diet (beef, lamb, water only) for 8 months while optimizing B12, D3, vitamin A, omega-3s, and ketosis — resulting in near-complete symptom resolution and a 40% reduction in lesion size on MRI, which her neurologist described as unprecedented. The mechanistic hypothesis he invokes (argued since the 1980s) is that plant lectins bind to nerve tissue and trigger immune crossfire, and that removing dietary lectins halts the autoimmune attack. He also notes that optimal B12 reference ranges in the literature (800–1,200 pmol/L) often exceed the upper end of standard lab ranges, making "normal" results meaningless for this population.</p>
-  <p class="meta"><a href="https://www.youtube.com/watch?v=h_gT1FB0SOs">Carnivore Livestream — Sept 25th, 2026</a> — Anthony Chaffee MD</p>
-</div>
-
----
 
 <h2>💡 Worth Reading</h2>
 
 <div class="story">
-  <h3><a href="https://resobscura.substack.com/p/using-opus-55-to-discover-a-new-eyewitness">Using Opus 5.5 to discover a new eyewitness record of the dodo</a></h3>
-  <p>A researcher used Claude Opus 5.5 to systematically search historical archives and surface a previously unknown firsthand account of the dodo — an extinct bird with very sparse contemporaneous documentation. This is a clean example of AI as a research multiplier for humanities scholarship: the model isn't generating content, it's finding something real that humans had missed in existing archives. Worth reading as a concrete demonstration of AI's value in non-obvious domains.</p>
-  <p class="meta">Res Obscura · <a href="https://news.ycombinator.com/item?id=49922569">HN Discussion</a></p>
+  <h3><a href="https://figsinwintertime.substack.com/p/reading-greek-missing-the-point-part">Reading Greek, Missing the Point (Parts I & II) — Massimo Pigliucci</a></h3>
+  <p>Pigliucci (Figs in Winter) argues that classicists like Mary Beard and Emily Wilson, however brilliant as translators and scholars, fundamentally misread Stoicism because they approach it as a historical artifact rather than a living philosophy. The claim: knowing the Greek text is not the same as knowing the philosophy — you can read every word of the Meditations and still miss what Marcus was actually doing. Two-part series worth reading if you take Stoicism seriously as practice rather than as intellectual history.</p>
+  <p class="meta"><a href="https://figsinwintertime.substack.com/p/reading-greek-missing-the-point-part">Part I</a> · <a href="https://figsinwintertime.substack.com/p/reading-greek-missing-the-point-part-869">Part II</a></p>
 </div>
 
 <div class="story">
-  <h3><a href="https://www.anthropic.com/news/claude-discovers-novel-enzyme-system">Claude discovers a novel enzyme system with CRISPR-like repeats</a></h3>
-  <p>Anthropic reports that Claude autonomously identified a previously undescribed enzyme system featuring CRISPR-like repeat sequences — meaning the model contributed to an original scientific finding in molecular biology, not just summarized existing literature. If the claim holds up, this is meaningful: it moves AI from literature synthesis to genuine discovery. The mechanism and full details are in the Anthropic writeup.</p>
-  <p class="meta"><a href="https://www.anthropic.com/news/claude-discovers-novel-enzyme-system">Anthropic News</a></p>
+  <h3><a href="https://fs.blog/knowledge-project-podcast/outliers-munger-combs/">Charlie Munger's Previously Unreleased Interview with Todd Combs (2022) — Farnam Street</a></h3>
+  <p>A 2022 conversation between Munger and Todd Combs (Berkshire Hathaway CEO) that Farnam Street is releasing publicly now. Munger conversations are reliably dense with first-principles thinking and mental models — the kind of content you care about. Worth sitting with when you have 90 minutes.</p>
+  <p class="meta">Farnam Street / Knowledge Project</p>
 </div>
 
 <div class="story">
-  <h3><a href="https://figsinwintertime.substack.com/p/reading-greek-missing-the-point-part">Massimo Pigliucci: What classicists get wrong about Stoicism (Parts I & II)</a></h3>
-  <p>Pigliucci argues that classical scholars like Mary Beard and Emily Wilson read Stoic texts with the tools of philology and cultural history but miss the philosophy — they know what the words say and when they were written but don't engage with whether the arguments are sound or the practices livable. Knowing a text and knowing a philosophy are different skills, and the academy systematically rewards the former. Part II apparently extends this into what it actually means to practice Stoicism versus study it.</p>
-  <p class="meta"><a href="https://figsinwintertime.substack.com/p/reading-greek-missing-the-point-part">Figs in Winter (Pigliucci)</a> · <a href="https://figsinwintertime.substack.com/p/reading-greek-missing-the-point-part-869">Part II</a></p>
+  <h3><a href="https://donaldrobertson.substack.com/p/how-to-find-strength-in-your-own">How to Find Strength in Your Own Character — Donald Robertson</a></h3>
+  <p>Part 4 of Robertson's Stoic Mind Miniseries, focusing on character as a resource — the Stoic idea that your values and responses to events are the one domain fully under your control, and that this is where resilience actually lives. Robertson is one of the best modern interpreters of Stoic practice (author of <em>How to Think Like a Roman Emperor</em>), so this is worth the read.</p>
+  <p class="meta">Donald Robertson Substack</p>
 </div>
 
 <div class="story">
-  <h3><a href="https://fs.blog/knowledge-project-podcast/outliers-munger-combs/">[Outliers] Charlie Munger's Previously Unreleased 2022 Interview with Todd Combs</a></h3>
-  <p>Farnam Street is releasing a 2022 conversation between Munger and Todd Combs (Berkshire portfolio manager) that was never previously made public. Any Munger conversation is worth at least scanning; Farnam Street notes the subjects range "both deep and wide." Public release is October 6th — members have it now.</p>
-  <p class="meta"><a href="https://fs.blog/knowledge-project-podcast/outliers-munger-combs/">Farnam Street</a></p>
+  <h3><a href="https://www.anthropic.com/news/claude-discovers-novel-enzyme-system">Claude Discovers a Novel Enzyme System with CRISPR-like Repeats</a></h3>
+  <p>Anthropic reports Claude identified a previously unknown enzyme system featuring CRISPR-like repeat sequences — a genuine scientific discovery, not a reformatting task. This is notable as an example of AI doing original biological research rather than assisting human researchers, and sits alongside AlphaFold-style capability expansion into wet lab science.</p>
+  <p class="meta">Anthropic</p>
 </div>
-
-<div class="story">
-  <h3><a href="https://automatictransmission.khoury.northeastern.edu/index.html">Automatic Transmission — data privacy study of connected vehicles</a></h3>
-  <p>Northeastern University researchers published a systematic study of what modern connected cars actually collect, transmit, and share. Given that vehicles are now essentially mobile data centers with GPS, microphones, and behavioral tracking, the specifics of what's being sent where and to whom have real privacy implications for anyone who drives. Worth knowing what the researchers found if you own a late-model vehicle.</p>
-  <p class="meta">Northeastern University · <a href="https://news.ycombinator.com/item?id=49922569">HN Discussion</a></p>
-</div>
-
----
 
 <h2>🤖 AI Capability Watch</h2>
 
 <div class="story">
-  <h3><a href="https://www.anthropic.com/news/claude-discovers-novel-enzyme-system">Claude autonomously discovers a novel enzyme system</a></h3>
-  <p>Anthropic reports Claude identified a previously unknown enzyme system with CRISPR-like repeats — a genuine scientific discovery, not literature summarization. If reproducible, this is a meaningful step: AI moving from research assistant to research contributor in biology.</p>
-  <p class="meta">Anthropic News</p>
+  <h3><a href="https://bfl.ai/models/flux-3-image">FLUX 3 Image</a></h3>
+  <p>Black Forest Labs (the team behind the leading open-weight image generation models) has released FLUX 3 — a new major version of their image generation model. FLUX has been the highest-quality open-weights image model available; a new major version likely represents a meaningful quality jump for anyone using AI image generation seriously.</p>
+  <p class="meta">Black Forest Labs · <a href="https://news.ycombinator.com/item?id=342">HN Discussion</a></p>
 </div>
 
 <div class="story">
-  <h3><a href="https://resobscura.substack.com/p/
+  <h3><a href="https://arstechnica.com/science/2026/10/ai-finally-beat-the-best-stratego-player-in-history-and-did-it-on-a-budget/">AI Beats the Best Stratego Player in History</a></h3>
+  <p>Stratego — unlike chess or Go — involves almost completely hidden information (you never see your opponent's pieces), making it a fundamentally different problem than games AI has previously mastered. Cracking it required reasoning under radical uncertainty without a complete game state, which is the kind of capability that transfers to real-world imperfect-information domains beyond games.</p>
+  <p class="meta">Ars Technica · <a href="https://news.ycombinator.com/item?id=214">HN Discussion</a></p>
+</div>
 </body>
 </html>
