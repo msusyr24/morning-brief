@@ -1,11 +1,11 @@
 {
   "current_suggestion": {
-    "channel_name": "Better Ideas",
-    "channel_id": "UCtUId5WFnN82GdDy7DgaQ7w",
-    "youtube_handle": "@betterideas",
-    "pitch": "Your current channels cover the mechanics of discipline and health science rigorously, but Better Ideas covers the phenomenology of motivation, identity, and meaning-making in a way that complements Stoic philosophy without recycling hustle-culture platitudes. Joey writes and narrates personal essays \u2014 genuinely long-form in spirit even when short in runtime \u2014 exploring why people struggle to act on what they already know, drawing on philosophy, psychology, and lived experience. The tone is closer to Seneca than to a productivity influencer, and his video on 'being a fair witness to yourself' is the kind of thing that sits with you."
+    "channel_name": "Starting Strength",
+    "channel_id": "UC5FaqTBy0c1jlRUHKu4SuXQ",
+    "youtube_handle": "@startingstrength",
+    "pitch": "Rippetoe is the intellectual counterweight to Renaissance Periodization's volume-and-hypertrophy framing \u2014 he argues from first principles that strength is the foundational physical adaptation, and his case is more rigorous and philosophically grounded than most give him credit for. Where RP optimizes accessory work and periodization for aesthetics, Rippetoe focuses on barbell training as a biological stressor with a specific stress-recovery-adaptation logic that differs meaningfully from hypertrophy-first thinking. Format is a mix of short solo lectures, Q&A, and coaching breakdowns \u2014 dense and opinionated, not motivational."
   },
-  "shown_count": 3,
+  "shown_count": 1,
   "history": [
     "Brad Kearns",
     "Dr. Layne Norton",
@@ -67,6 +67,7 @@
     "TEDx Talks \u2013 Russ Roberts (EconTalk host solo appearances)",
     "Curt Jaimungal",
     "Andrew Huberman",
-    "Better Ideas"
+    "Better Ideas",
+    "Starting Strength"
   ]
 }
