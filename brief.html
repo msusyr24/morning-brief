@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>Morning Brief — Sunday, October 04, 2026</title>
+<title>Morning Brief — Monday, October 05, 2026</title>
 <style>
   body {
     font-family: Georgia, serif;
@@ -92,19 +92,19 @@
 })();
 </script>
 <h1>Morning Brief</h1>
-<p class="date">Sunday, October 04, 2026</p>
+<p class="date">Monday, October 05, 2026</p>
 
 <div class="anchor">
   <h2>☀️ Today's Anchor</h2>
   <div class="anchor-block">
-    <p class="quote">"It is not the critic who counts; not the man who points out how the strong man stumbles... the credit belongs to the man who is actually in the arena."</p>
-    <p class="author">— Theodore Roosevelt</p>
-    <p class="context">'Citizenship in a Republic' speech, Paris 1910. Known as 'The Man in the Arena.' Roosevelt was defending public service against armchair critics.</p>
+    <p class="quote">"Be the change you wish to see in the world."</p>
+    <p class="author">— Mahatma Gandhi (paraphrase; original is different)</p>
+    <p class="context">Gandhi never said this exactly. His actual line: 'If we could change ourselves, the tendencies in the world would also change.' Same idea, less tidy.</p>
   </div>
   <div class="anchor-block">
     <p class="model-label">Mental Model · Biology</p>
-    <p class="model-name">Evolution by Natural Selection</p>
-    <p class="context">Variation + selection + inheritance produces adaptation over time, with no designer. Applies beyond biology: successful companies aren't designed — they're selected from thousands of variations that failed. Industries evolve. Ideas evolve. Your own career evolves the same way, whether you acknowledge it or not.</p>
+    <p class="model-name">Niches / Ecosystems</p>
+    <p class="context">Organisms specialize to exploit specific conditions. Same in business: dominant companies usually own a niche, not a 'market.' Munger on See's Candies: it didn't try to beat Hershey's; it owned the boxed-chocolate-as-gift niche. Ask: what's my niche, and what erodes it?</p>
   </div>
 </div>
 
@@ -115,7 +115,7 @@
   <p class="spotlight-instructions">Interested? Copy the line below into <code>YOUTUBE_CHANNELS</code> in <code>brief.py</code> and save:</p>
   <pre class="spotlight-snippet" id="snippet">    "Starting Strength": "UC5FaqTBy0c1jlRUHKu4SuXQ",</pre>
   <button class="copy-btn" onclick="navigator.clipboard.writeText(document.getElementById('snippet').innerText.trim()); this.innerText='✅ Copied'; setTimeout(()=>this.innerText='📋 Copy snippet', 2000);">📋 Copy snippet</button>
-  <p class="spotlight-meta">showing for 3 more days. If you don't add it, a new channel will be suggested.</p>
+  <p class="spotlight-meta">showing for 2 more days. If you don't add it, a new channel will be suggested.</p>
 </div>
 <h2>🎥 From People I Follow</h2>
 
@@ -123,102 +123,130 @@
 
 <div class="story">
   <h3>GTO Wizard</h3>
-  <p>Solid exploitative strategy breakdown for PLO against loose-passive players. The core insight: recreational players don't differentiate between a half-pot bet and a 2/3-pot bet — they decide based on hand strength and whether they can improve, not pot odds. So sizing down with strong hands (as most players instinctively do) just gives them a better price without changing their calling range. The solver confirms this: against a node-locked loose-passive strategy, GTO shifts from mixed small/large sizing to almost exclusively large sizing with value hands, and actually <em>reduces</em> betting frequency on bluffs (no need to protect the betting range when villain isn't adjusting). Practical upshot: on a K97 flop with a set, bet large on flop, continue large on turn, and on rivers where you block villain's calling range, target the infrequent strong hands with large sizing rather than sizing down hoping to get called by nothing.</p>
+  <p>Solid exploitative PLO lesson: against loose-passive players, the core mistake is sizing down with strong hands. The key insight is that recreational players don't differentiate between a half-pot bet and a 75% bet — their calling range is essentially fixed regardless of sizing — so you're just giving them better odds for free. The solver confirms this: when you node-lock the opponent to a loose-passive calling frequency, it shifts dramatically toward large sizing with value hands. A secondary finding is that you should also cut bluffing frequency against these players, since they're making mistakes by calling, not by folding — so thin bluffs become dead money. Concretely, the example shows a pot that grows from 33bb to 61bb just by using large sizing on flop and turn instead of small.</p>
   <p class="meta">Videos: <a href="https://www.youtube.com/watch?v=5LJKelCWKRk">The Simplest Exploit in PLO Almost Feels Unfair</a></p>
 </div>
 
 <div class="story">
   <h3>Jared Alderman</h3>
-  <p>Alderman and a co-host dissect a live 1/3 hand where villain folds A8 two-pair on a turn minraise — the main thesis being that live players consistently underestimate the size of exploits they're making by "making dead reads." The hand in question had a theoretical folding cost of ~$50 EV. The broader point: live players justify not studying by claiming superior reads, but that heuristic breaks down when you're still getting the right price to call even if the read is correct (e.g., set of threes) because you have boat outs and blocking equity. The key distinction Alderman draws: online crushers have internalized pot odds as non-negotiable math; live players treat it as something to override with a story.</p>
+  <p>Good discussion of the biggest gap between online crushers and live pros: online players have a calibrated sense of how large a deviation they're making from theory, while live players often make huge folds or calls based on gut reads without understanding the EV cost. The example hand — folding two pair on the turn to a minraise in a live 1/3 game — was theoretically worth about $50 in EV to call, even granting the opponent has a set a large percentage of the time. Alderman's broader point: live players justify not studying by saying "I have live reads," but that's often a rationalization, and understanding pot odds and frequency is not optional for serious play. He also touches on how the tank-then-click line is actually slightly less set-weighted than an instant click, because the tank suggests the player is uncomfortable with their hand.</p>
   <p class="meta">Videos: <a href="https://www.youtube.com/watch?v=sQ8xG0aR4rw">The Biggest Difference Between Online Crushers and Live Pros</a></p>
 </div>
 
 <div class="story">
-  <h3>Angela Duckworth (Modern Wisdom)</h3>
-  <p>Duckworth's new book argues that "try harder" is an incomplete heuristic — the real finding from behavioral science is that highly disciplined people aren't using more willpower, they're designing situations that require less of it (laying out gym clothes the night before, removing friction). The more interesting meta-point Chris Williamson surfaces: self-help advice has a selection effect — "advice hyperresponders" already grinding themselves into the ground will hear "try harder" and over-apply it, while the people who actually need it are impervious. Duckworth's correction: when effort isn't paying off, the instinct to try harder can be actively wrong; the situation itself may need changing, not the effort level. Her example of laying out gym clothes is trivial-sounding but backed by the principle that visual cues and environmental design drive behavior more than conscious will.</p>
-  <p class="meta">Videos: <a href="https://www.youtube.com/watch?v=sX1S_GIfXgs">Willpower Expert: The Secret To Effortless Discipline</a></p>
+  <h3>Renaissance Periodization</h3>
+  <p>Mike Israetel delivers a quick reality check on muscle gain rates: 5 lbs of muscle in a year is a realistic, solid outcome — not 15. Key practical point: sets of 15-20 reps taken close to failure are just as effective for hypertrophy as heavier work, which matters for people managing joint concerns. Volume guidelines cited: 2-10 sets per muscle group per session, training a muscle 2-4x per week; higher frequency (up to 4x/week at ~10 sets) can accelerate growth for a few months but isn't sustainable long-term.</p>
+  <p class="meta">Videos: <a href="https://www.youtube.com/shorts/YJa6ScVoWP8">Muscle Gain is Harder Than You Think</a></p>
+</div>
+
+<div class="story">
+  <h3>Nick Norwitz</h3>
+  <p>Summarizes a landmark Stanford RCT comparing high-fiber vs. high-fermented-food diets for gut health: fermented foods won on consistency. Fiber produced heterogeneous responses — some people saw inflammation markers drop, others saw them rise. Fermented foods produced a more reliable signal: greater microbiome diversity and lower inflammatory markers across the board. Practical starting point he recommends: one serving per day of something like sauerkraut, working up to six servings; good options include kefir, kimchi, yogurt, and natto.</p>
+  <p class="meta">Videos: <a href="https://www.youtube.com/shorts/ejwujHhcPXc">Fermented Foods vs. Fiber—Who Wins?</a></p>
 </div>
 
 <p><strong>Also posted:</strong></p>
 <ul>
-  <li><strong>Ken Berry MD:</strong> Two nearly identical videos on 7 early warning signs of metabolic syndrome — the actionable markers being expanding waistline (visceral fat), fasting insulin above 15 μU/mL (hyperinsulinemia), triglycerides above 150, HDL below 50, fatty liver on scan, skin tags, and elevated blood pressure. Berry argues these are all one disease (metabolic syndrome) being treated as seven separate diseases by physicians who have no single drug to prescribe for it. Also posted a short on the 10-fold increase in pediatric type 2 diabetes (2.37 to 22.3 cases per 100k from 2002–2023, Colorado Diabetes Registry), calling for routine fasting insulin screening in children — a test most pediatricians don't order. (<a href="https://www.youtube.com/watch?v=X1YlAU1biXI">7 Early Warning Signs</a> · <a href="https://www.youtube.com/watch?v=loInkjVsnoM">Type 2 Diabetes In Kids Exploded 10-Fold</a>)</li>
-  <li><strong>Anthony Chaffee MD:</strong> Livestream Q&A covering a viewer question on CHIP (clonal hematopoiesis) and carnivore — Chaffee's honest answer is he doesn't know specifically, but frames carnivore as removing potential harms and optimizing mitochondrial function, which may help neoplastic conditions broadly. Also covers reflux medication dependency and the historical case (Sir William Osler's 1900 textbook, Dr. Sydenham's 1600s protocols) that diabetes was recognized as a disease of nutrition — treated with meat and carbohydrate restriction — 20 years before insulin was discovered. (<a href="https://www.youtube.com/watch?v=mvn10R4C5Xs">Carnivore Livestream Oct 2nd</a>)</li>
-  <li><strong>Nick Norwitz:</strong> Summarizes a Stanford RCT comparing high-fiber vs. high-fermented-food diets — fermented foods won on consistency, producing greater microbiome diversity and lower inflammatory markers across the board, while fiber produced mixed results (some saw inflammation decrease, others increase). Practical recommendation: start with one serving/day of sauerkraut, scale toward six servings/day; kefir, kimchi, yogurt, and natto also qualify. (<a href="https://www.youtube.com/shorts/ejwujHhcPXc">Fermented Foods vs. Fiber</a>)</li>
-  <li><strong>Peter Attia:</strong> Short warning on "thyroid support" supplements — when researchers analyzed 10 commercial products by chromatography, 9 of 10 contained actual T3 and 5 contained T4 hormone, with several exceeding standard prescription starting doses, none of which was disclosed on the label. Fatal cases of thyrotoxicity from adulterated weight-loss supplements documented. Also flags iodine-rich kelp ingredients that can independently trigger hyperthyroidism in people with undiagnosed autonomous nodules. Separately: a longer-form piece on myostatin inhibitors (via RSS) noting the paradox of drugs that increase lean mass without improving strength. (<a href="https://www.youtube.com/shorts/ySqrXczYpVg">Risks of Thyroid Supplements</a>)</li>
-  <li><strong>Thomas DeLauer:</strong> Makes a cortisol-first case for low testosterone in men over 40 — the thesis being that the machinery is fine but cortisol suppresses steroidogenesis at three levels (hypothalamic GnRH pulsatility, pituitary LH sensitivity, and direct testicular Leydig cell suppression). Cites an RCT of 57 overweight men: ashwagandha for 16 weeks raised testosterone 14.7% and DHEA 18% vs. placebo — the DHEA finding being the tell that cortisol suppression on the whole adrenal cascade was lifted, not just testosterone boosted. Layers in tongkat ali as a second-stage protocol (37% testosterone increase, 16% cortisol drop in a 63-person study) via LH stimulation and aromatase inhibition. (<a href="https://www.youtube.com/watch?v=nVLRzgANepg">This Compound Skyrocketed Testosterone 14.7%</a>)</li>
-  <li><strong>Renaissance Periodization:</strong> Short on beginner training frequency — 3 sessions/week for several months, then add a 4th after 6 months, 5th after another 6, and 6x/week only after 2 years; emphasizes that beginners are maximally sensitive to low stimulus and commonly overtrain early. (<a href="https://www.youtube.com/shorts/hGq5GVejFcU">Beginners Should Train This Many Times / Week</a>)</li>
-  <li><strong>Lex Fridman:</strong> Long-form history of psychiatry with Andrew Scull — covers the asylum era, eugenics, lobotomy (Walter Freeman's "Lobotomobile," ice-pick technique, Nobel Prize awarded to Moniz in 1949), insulin coma therapy, malaria treatment for syphilitic psychosis (another Nobel Prize), DSM evolution, and the NIMH's $20B investment in neuroscience that Thomas Insel himself later called producing zero improvement in patient outcomes. Dense and substantive if psychiatric history is your thing. (<a href="https://www.youtube.com/watch?v=s7d2d8FhevU">Psychiatry, Insane Asylums, Mental Illness, ECT, Lobotomies</a>)</li>
-  <li><strong>Ben Felix:</strong> Thorough treatment of leveraged ETFs — covers the theoretical case for leverage for young investors (Samuelson-Merton human capital as safe bond), the empirical findings from lifecycle simulation papers suggesting 2x leverage declining over time, and the mathematical argument that volatility decay is rebalancing-frequency-agnostic (drag formula cancels out). Honest about the psychological and behavioral risks: 2x S&P fell ~80% in 2008, 3x fell ~80% at COVID onset. Worth the full watch if you've ever thought about this. (<a href="https://www.youtube.com/watch?v=E7pl0tqzIUQ">The Truth About Leveraged ETFs</a>)</li>
-  <li><strong>Dr. Sten Ekberg:</strong> Detailed breakdown of four stroke types (thrombotic 45%, embolic 40%, dissecting 2%, hemorrhagic 13%) with distinct mechanisms and fatality rates (hemorrhagic kills 38% vs. thrombotic 8%). Argues insulin resistance is the primary root cause of the metabolic/vascular strokes (thrombotic + embolic), with inflammation and oxidative stress as proximate drivers of plaque. Covers the chiropractor-stroke temporal vs. causal distinction at length. (<a href="https://www.youtube.com/watch?v=vkbWSQ79HpM">#1 Best Way To Prevent A Stroke</a>)</li>
-  <li><strong>Andrew Huberman:</strong> Essentials repost on focus — covers the epinephrine (alertness) → acetylcholine (direction) → dopamine (sustained motivation) neurochemical model, 90-minute ultradian cycles as optimal focus bouts, the U-shaped glucose curve (fasted is good for focus, overfed is bad, moderately fed is fine), caffeine dosing (100–400mg, cutoff 8–10 hours before bed), and the 13-minute daily meditation protocol from Wendy Suzuki's lab that improved focus after 8 weeks. (<a href="https://www.youtube.com/watch?v=8e3RC1L5V_Y">Tools to Improve Focus & Concentration</a>)</li>
+  <li><strong>Peter Attia:</strong> Deep conversation with OB/GYN physician-scientist Dr. Kathryn Gray on the physiology of pregnancy — plasma volume expands 50% by 28 weeks, driving relative anemia; pregnancy functions as a cardiovascular and metabolic stress test that can unmask predispositions to diabetes, hypertension, and cardiac disease; covers gestational diabetes, preeclampsia, and the GDF-15 gene's role in hyperemesis. (<a href="https://www.youtube.com/watch?v=KIFD0Y6UVE0">Episode 410</a>)</li>
+  <li><strong>Thomas DeLauer:</strong> Makes the case for whey protein as a liver health tool specifically via glutathione precursor (cysteine); cites a 12-week RCT showing whey isolate significantly raised glutathione vs. maltodextrin control in chemotherapy patients, and a 2023 Frontiers in Medicine paper linking low hepatic glutathione to fatty liver and insulin resistance. Also covers NAC, NRF2-activating foods (broccoli sprouts, garlic), selenium for glutathione recycling, and seed oils as glutathione depleters. (<a href="https://www.youtube.com/watch?v=vB5w1sgSKZE">30g of This Powder Stops Fatty Liver</a>)</li>
+  <li><strong>Andrew Huberman:</strong> Essentials recap on focus neuroscience — epinephrine provides arousal (necessary but not sufficient), acetylcholine provides directional focus, dopamine sustains it; 90-minute ultradian cycles as the ideal focus bout length; argues being slightly fasted improves focus acuity while overeating kills it; caffeine 100-200mg effective but cuts off 10-12 hours before sleep. (<a href="https://www.youtube.com/watch?v=8e3RC1L5V_Y">Tools to Improve Your Focus & Concentration</a>)</li>
+  <li><strong>Anthony Chaffee MD:</strong> Livestream Q&A covering carnivore for rare conditions (CHIP, blood dyscrasias), long-term PPI risks (cancer, malabsorption), and a historical lecture on diabetes treatment — citing Sir William Osler's 1900 textbook defining diabetes as "a disease of nutrition" and recommending meat-based, low-carb diets 21 years before insulin was discovered. (<a href="https://www.youtube.com/watch?v=mvn10R4C5Xs">Carnivore Livestream Oct 2nd</a>)</li>
+  <li><strong>Dr. Sten Ekberg:</strong> Detailed breakdown of the four stroke types (thrombotic 45%, embolic 40%, dissecting 2%, hemorrhagic 13%) with fatality rates and mechanisms; argues insulin resistance is the primary root cause of the metabolic/vascular strokes, and defends chiropractors against causal blame for dissecting strokes (temporal vs. causal relationship). (<a href="https://www.youtube.com/watch?v=vkbWSQ79HpM">#1 Best Way To Prevent A Stroke</a>)</li>
+  <li><strong>Lex Fridman:</strong> Long conversation with psychiatry historian Andrew Scull tracing the field's failures — asylum overcrowding, forced sterilization (60,000+ in the US), lobotomy (Freeman's "Lobotomobile," Nobel Prize for Moniz in 1949), insulin coma therapy, the DSM's reliability-over-validity problem, and NIMH director Thomas Insel's admission that $20 billion in neuroscience research improved patient outcomes "not one bit." (<a href="https://www.youtube.com/watch?v=s7d2d8FhevU">Psychiatry, Insane Asylums, Mental Illness | #502</a>)</li>
+  <li><strong>Ben Felix:</strong> Rigorous look at leveraged ETFs — covers the academic case for leverage for young investors (Samuelson/Merton, life-cycle portfolio theory), the human capital assumption and why it may not hold, and correctly rebuts the common "volatility decay" critique by showing mathematically that rebalancing frequency doesn't change drag when returns are serially uncorrelated. Key data point: a 3x S&P 500 ETF launched in 2009 turned $10K into $1.3M — but also fell 80% during COVID and GFC. (<a href="https://www.youtube.com/watch?v=E7pl0tqzIUQ">The Truth About Leveraged ETFs</a>)</li>
+  <li><strong>Ken Berry MD:</strong> Type 2 diabetes in children aged 10-19 has increased nearly 10x from 2002 (2.37/100K) to 2023 (22.3/100K), with the rate of increase itself accelerating from 2.9%/year (2002-2013) to 4.7%/year (2014-2023). (<a href="https://www.youtube.com/shorts/DUjlUXqQa4Y">Type 2 Diabetes in Kids Just Exploded 10-Fold</a>)</li>
+  <li><strong>Paul Saladino MD:</strong> Short-form claim that acid reflux is caused by dysbiosis and lower esophageal sphincter dysfunction — not excess acid — and that PPIs (100M+ prescriptions/year) increase dementia and infection risk. (<a href="https://www.youtube.com/shorts/UA2X-ZpLO_8">If you have acid reflux, don't do this…</a>)</li>
+  <li><strong>Mind The Game:</strong> LeBron James on the 2020 Lakers championship and the emotional weight of not getting a parade due to COVID. (<a href="https://www.youtube.com/shorts/-2TWyaOwQIM">That 2020 Lakers parade would've went crazy</a>)</li>
 </ul>
+
+---
 
 <h2>₿ Bitcoin & Macro</h2>
 
 <div class="story">
   <h3><a href="https://bitcoinmagazine.com/markets/bitcoin-price-surges-on-soft-jobs-data">Bitcoin Surges Above $87,000 on Softer-Than-Expected Jobs Data</a></h3>
-  <p>Bitcoin broke $87K on Friday after a jobs report showed unemployment ticking up, reinforcing the macro thesis that weakening labor data puts pressure on the Fed and increases risk-asset appetite. ETF inflows were cited as a concurrent driver, suggesting institutional accumulation continues at these levels regardless of short-term macro noise.</p>
+  <p>Bitcoin broke $87K on a weaker-than-expected US jobs report showing unemployment ticking up — the macro read being that soft labor data reduces pressure on the Fed to stay restrictive. The move was also supported by continued ETF inflows, suggesting institutional demand is providing a persistent bid beneath price.</p>
   <p class="meta">Bitcoin Magazine</p>
 </div>
 
 <div class="story">
-  <h3><a href="https://bitcoinmagazine.com/videos/darius-dale-will-global-liquidity-send-bitcoin-higher-in-2027">Darius Dale: Will Global Liquidity Send Bitcoin Higher in 2027?</a></h3>
-  <p>Dale's macro framework: near-term global liquidity is tightening, which may cause Bitcoin to chop or consolidate through the rest of 2026. His forward-looking thesis is a major 12-to-18-month rally if liquidity conditions rotate back into expansion in 2027 — consistent with the Bitcoin four-year cycle aligning to global M2 expansion cycles. Worth watching if you're calibrating entry timing versus long-term conviction holding.</p>
+  <h3><a href="https://bitcoinmagazine.com/news/absa-first-african-bank-to-custody-bitcoin">South Africa's Absa Becomes First African Bank to Custody Bitcoin</a></h3>
+  <p>Absa, one of South Africa's largest banks, is now custodying Bitcoin for institutional clients — the first bank on the African continent to do so. This continues the pattern of regulated financial institutions normalizing Bitcoin custody as ETF infrastructure and regulatory clarity mature globally.</p>
   <p class="meta">Bitcoin Magazine</p>
 </div>
 
 <div class="story">
-  <h3><a href="https://bitcoinmagazine.com/news/imf-praises-el-salvador-but-blasts-bitcoin">IMF Praises El Salvador — But Still Tries To Scale Back Its Bitcoin Project</a></h3>
-  <p>The IMF approved a $139M disbursement to El Salvador while simultaneously pressuring the country to reduce its Bitcoin commitments — the clearest illustration yet of international financial institutions using debt leverage to constrain sovereign monetary experimentation. El Salvador has been the primary real-world test case for Bitcoin as legal tender since 2021; IMF opposition despite economic praise is a meaningful signal about institutional resistance to the asset's sovereign adoption path.</p>
+  <h3><a href="https://bitcoinmagazine.com/news/imf-praises-el-salvador-but-blasts-bitcoin">IMF Approves $139M for El Salvador While Still Pushing to Scale Back Bitcoin</a></h3>
+  <p>The IMF disbursed another tranche of its loan to El Salvador but continues to condition support on reducing Bitcoin's role in the economy — a revealing tension between the institution's lending mandate and its ideological resistance to sovereign Bitcoin adoption. El Salvador has largely maintained its Bitcoin legal tender framework despite the pressure.</p>
   <p class="meta">Bitcoin Magazine</p>
 </div>
+
+---
 
 <h2>🧬 Health & Science</h2>
 
 <div class="story">
-  <h3>Myostatin Inhibitors: Larger But Weaker Muscles</h3>
-  <p>Peter Attia covers an emerging paradox in drugs targeting myostatin (a protein that limits muscle growth): they reliably increase lean mass, but fail to produce commensurate strength gains. The mechanism appears to be that myostatin inhibition drives muscle fiber hypertrophy without the corresponding neural and contractile adaptations that underlie functional strength. This is a meaningful cautionary note for anyone tracking the GLP-1/muscle-preservation space — mass and strength are not the same variable, and drugs that optimize one may not move the other.</p>
-  <p class="meta"><a href="https://peterattiamd.com/myostatin-inhibitors-and-larger-but-weaker-muscles/">Peter Attia MD</a></p>
+  <h3>Fermented Foods Beat Fiber in Stanford RCT — Consistently</h3>
+  <p>Nick Norwitz summarized a landmark randomized human study from Stanford comparing high-fiber vs. high-fermented-food dietary interventions. Fiber produced heterogeneous outcomes — inflammatory markers went down in some participants and up in others. Fermented foods produced a consistent positive signal: greater microbiome diversity and lower systemic inflammatory markers across participants. This is notable because fiber has long been the default recommendation for gut health, and this study suggests that signal may be far noisier than assumed. Practical implication: start with one daily serving of sauerkraut, kefir, kimchi, or similar and work up to six.</p>
 </div>
 
 <div class="story">
-  <h3>Pediatric Type 2 Diabetes: 10-Fold Increase (2002–2023)</h3>
-  <p>Data from the Colorado Diabetes Registry: incidence of T2D in kids aged 10–19 went from 2.37 per 100,000 in 2002 to 22.3 per 100,000 in 2023 — nearly a 10x increase, and the rate of increase itself accelerated from 2.9%/year (2002–2013) to 4.7%/year (2014–2023). Ken Berry's clinical argument: the standard pediatric screening protocol (fasting glucose + HbA1c) misses early hyperinsulinemia by years. A healthy child's fasting insulin should be under 5 μU/mL pre-puberty, rising to ~11-14 during puberty; anything above 13 in a child signals hyperinsulinemia that predates A1C elevation by potentially years. His call to action: demand a fasting insulin test at the same time as A1c, and cut added sugar and refined carbohydrates before the A1C crosses into pre-diabetes territory.</p>
-  <p class="meta"><a href="https://www.youtube.com/watch?v=loInkjVsnoM">Ken Berry MD</a></p>
+  <h3>Whey Protein as a Hepatic Glutathione Precursor (Thomas DeLauer)</h3>
+  <p>DeLauer cites a 12-week RCT (Journal of Medicinal Food) showing whey protein isolate significantly raised glutathione levels in chemotherapy patients versus a maltodextrin control — with the mechanism being whey's high cysteine content, the rate-limiting amino acid in glutathione synthesis. A 2023 Frontiers in Medicine paper found that low hepatic glutathione is a defining feature of non-alcoholic fatty liver disease and correlates directly with insulin resistance, not just oxidative stress. The implication is that whey isn't just a muscle protein — 30g+ may have a meaningful liver-protective effect via this pathway, especially in metabolically compromised individuals. He also notes that NAC (600mg 3x daily) showed significant reductions in fasting glucose and CRP in an 8-week RCT.</p>
 </div>
 
 <div class="story">
-  <h3>Fermented Foods vs. Fiber: Stanford RCT Result</h3>
-  <p>Nick Norwitz summarizes a landmark Stanford randomized human trial: a high-fermented-food diet (up to 6 servings/day of kefir, sauerkraut, kimchi, yogurt, natto) produced consistent reductions in inflammatory markers and increases in microbiome diversity across subjects, while a high-fiber diet produced heterogeneous results — some subjects improved, others saw inflammatory markers increase. The practical implication: if you're adding one intervention for gut health, fermented foods have a more reliable signal than fiber alone, and the response to fiber may depend on existing microbiome composition in ways that are hard to predict without testing.</p>
-  <p class="meta"><a href="https://www.youtube.com/shorts/ejwujHhcPXc">Nick Norwitz</a></p>
+  <h3>Type 2 Diabetes in Children: Nearly 10x Increase in Two Decades</h3>
+  <p>CDC data cited by Ken Berry MD shows pediatric type 2 diabetes incidence in ages 10-19 rose from 2.37 per 100,000 in 2002 to 22.3 per 100,000 in 2023 — a ~9.4x increase. More alarming: the rate of acceleration is itself increasing, from 2.9% annually (2002-2013) to 4.7% annually (2014-2023). The clinical significance is that a child developing type 2 diabetes at age 10 has far more time to accumulate end-organ damage than someone diagnosed at 50 — making this a compounding public health catastrophe, not a static one.</p>
 </div>
+
+<div class="story">
+  <h3>Pregnancy as Metabolic and Cardiovascular Stress Test (Peter Attia / Dr. Kathryn Gray)</h3>
+  <p>Plasma volume expands by 50% by 28 weeks of pregnancy, creating a relative anemia (the red cell mass doesn't keep pace) and placing extraordinary demand on cardiac output — women with significant cardiopulmonary disease literally cannot tolerate pregnancy. Insulin resistance increases substantially in the second trimester, which is why pregnancy unmasks latent predispositions to type 2 diabetes and metabolic dysfunction. The GDF-15 gene appears to be a key driver of hyperemesis gravidarum (severe pregnancy nausea), not hCG as was long assumed — a finding that's now opening therapeutic targets. The overall framing: pregnancy functions as a full-body physiologic audit that can expose vulnerabilities that would otherwise remain hidden for decades.</p>
+</div>
+
+<div class="story">
+  <h3>Myostatin Inhibitors: Larger Muscles, Less Strength (Peter Attia)</h3>
+  <p>A Peter Attia piece flags a counterintuitive finding about drugs that block myostatin (a protein that limits muscle growth): they produce measurable increases in lean mass but fail to produce corresponding strength gains — and in some cases may reduce functional strength. The paradox suggests that myostatin-driven hypertrophy may not recapitulate the neuromuscular adaptations that produce actual force output, which has implications for anyone considering these compounds for longevity or performance.</p>
+  <p class="meta"><a href="https://peterattiamd.com/myostatin-inhibitors-and-larger-but-weaker-muscles/">Myostatin inhibitors and the paradox of larger but weaker muscles</a></p>
+</div>
+
+---
 
 <h2>💡 Worth Reading</h2>
 
 <div class="story">
-  <h3><a href="https://simonwillison.net/2026/Oct/3/default-hard-budget-caps/">We're Going to Need Default Hard Budget Caps on Pretty Much Everything</a></h3>
-  <p>Simon Willison argues that as AI agents and agentic workflows scale, the absence of hard spending caps on API-based services is a systemic risk — not just a billing inconvenience. The case: agents running amok (whether through bugs, prompt injection, or user error) can generate enormous costs before any human notices, and soft limits or warnings don't cut it. He calls for hard stops that return errors rather than continue spending, and argues this should be a default, not an opt-in feature. A narrow piece but the underlying principle — that agentic systems need circuit breakers built in, not bolted on — applies broadly to any infrastructure that charges by usage.</p>
-  <p class="meta"><a href="https://news.ycombinator.com/item?id=49949438">Discussion</a> · Simon Willison</p>
-</div>
-
-<div class="story">
-  <h3><a href="https://figsinwintertime.substack.com/p/reading-greek-missing-the-point-part">Reading Greek, Missing the Point (Parts I & II) — Massimo Pigliucci</a></h3>
-  <p>Pigliucci takes on Mary Beard and Emily Wilson — two celebrated classicists — arguing that deep knowledge of the Greek text does not translate into philosophical understanding of Stoicism. The distinction he draws: knowing what a Stoic philosopher <em>wrote</em> and knowing what the philosophy <em>demands of you</em> are entirely different projects. Parts I and II together make the case that academic classics training can actually be an obstacle to living the philosophy, by substituting textual mastery for the harder work of appropriating the ideas. Worth reading if you follow his Figs in Winter newsletter — this is him at his sharpest on the theory/practice gap in Stoic study.</p>
-  <p class="meta"><a href="https://figsinwintertime.substack.com/p/reading-greek-missing-the-point-part">Figs in Winter</a> · <a href="https://figsinwintertime.substack.com/p/reading-greek-missing-the-point-part-869">Part II</a></p>
+  <h3><a href="https://figsinwintertime.substack.com/p/reading-greek-missing-the-point-part">Reading Greek, Missing the Point — Massimo Pigliucci on Mary Beard, Emily Wilson, and Stoicism</a></h3>
+  <p>Pigliucci argues that classical scholars — even brilliant ones like Mary Beard and Emily Wilson — tend to know Stoic texts deeply as literature but systematically miss what Stoicism actually is: a practical philosophy of how to live. Knowing the Greek is not the same as having internalized the philosophy. This is a two-part piece, and the core provocation is that expertise in a text can become a barrier to understanding the thing the text is about. Worth sitting with if you engage with primary Stoic sources.</p>
+  <p class="meta"><a href="https://figsinwintertime.substack.com/p/reading-greek-missing-the-point-part-869">Part II</a> · Figs in Winter (Pigliucci)</p>
 </div>
 
 <div class="story">
   <h3><a href="https://donaldrobertson.substack.com/p/how-to-find-strength-in-your-own">How to Find Strength in Your Own Character — Donald Robertson</a></h3>
-  <p>Lesson 4 of Robertson's Stoic Mind Miniseries, focused on the Stoic practice of drawing resilience from one's own character rather than external circumstances. Robertson's core argument (consistent across his work) is that the Stoics didn't preach passive acceptance — they trained a specific cognitive skill of identifying what is genuinely yours (judgment, response, character) versus what isn't (outcomes, reputation, others' behavior), and leaning into the former under pressure. Practical and short-form; useful as a daily-practice framing.</p>
-  <p class="meta"><a href="https://donaldrobertson.substack.com/p/how-to-find-strength-in-your-own">The Stoic Mind</a></p>
+  <p>Part 4 of Robertson's Stoic Mind miniseries, focused on using character strengths as an internal resource under adversity — the Stoic move of turning inward when external circumstances are unfavorable. Robertson is one of the best modern interpreters of Marcus Aurelius and consistently grounds his writing in the actual therapeutic techniques of ancient Stoicism rather than pop philosophy versions of it.</p>
+  <p class="meta">Donald Robertson / Substack</p>
 </div>
+
+<div class="story">
+  <h3><a href="https://www.anthropic.com/news/claude-discovers-novel-enzyme-system">Claude Discovers a Novel Enzyme System with CRISPR-like Repeats</a></h3>
+  <p>Anthropic reports that Claude autonomously identified a previously unknown enzyme system containing CRISPR-like repeat sequences during biological research — not as a search tool, but apparently contributing to a genuine scientific discovery. If accurate and independently verified, this is a meaningful data point for AI's potential role in wet-lab biology, not just literature synthesis. Details are sparse and this deserves skeptical scrutiny, but it clears the bar for attention.</p>
+  <p class="meta"><a href="https://www.anthropic.com/news/claude-discovers-novel-enzyme-system">Anthropic</a></p>
+</div>
+
+<div class="story">
+  <h3><a href="https://marginalrevolution.com/marginalrevolution/2026/10/does-costco-cause-cancer.html">Does Costco Cause Cancer? — On Replication and Motivated Epidemiology</a></h3>
+  <p>Marginal Revolution covers a Harvard Environmental Health paper claiming cancer incidence rises near nuclear power plants in Massachusetts — followed by a second paper making a similar claim. The post appears to scrutinize the methodology and the broader pattern of researchers finding what they're looking for in observational environmental health data. A useful case study in how prestige institutions can launder motivated reasoning through epidemiology, relevant to anyone evaluating health science claims.</p>
+  <p class="meta">Marginal Revolution</p>
+</div>
+
+---
 
 <h2>🤖 AI Capability Watch</h2>
 
 <div class="story">
-  <h3><a href="https://www.anthropic.com/news/claude-discovers-novel-enzyme-system">Claude Discovers a Novel Enzyme System with CRISPR-like Repeats</a></h3>
-  <p>Anthropic reports that Claude autonomously identified a previously undescribed enzyme system featuring CRISPR-like repeat sequences — a finding in actual biological research, not a benchmark. If the claim holds up to peer scrutiny, this is an early concrete example of an AI model making a genuinely novel scientific discovery rather than accelerating human-directed work, which is the threshold that matters for evaluating AI's role in science.</p>
-  <p class="meta"><a href="https://www.anthropic.com/news/claude-discovers-novel-enzyme-system">Anthropic</a></p>
+  <h3><a href="https://openai.com/index/practical-guide-building-gpt-6">OpenAI GPT-6 Family — Model Guide Published</a></h3>
+  <p>OpenAI has published a practical guide for the GPT-6 model family, indicating GPT-6 is live or imminently launching. This is a new model generation from OpenAI — not a variant update — covering how to select between models in the family, tune reasoning effort, and structure production workflows. Watch for capability comparisons vs. Claude and Gemini as real-world evals emerge.</p>
+  <p class="meta"><a href="https://openai.com/index/practical-guide-building-gpt-6">OpenAI</a></p>
 </div>
 </body>
 </html>
