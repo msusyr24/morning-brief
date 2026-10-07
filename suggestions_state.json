@@ -1,11 +1,11 @@
 {
   "current_suggestion": {
-    "channel_name": "Starting Strength",
-    "channel_id": "UC5FaqTBy0c1jlRUHKu4SuXQ",
-    "youtube_handle": "@startingstrength",
-    "pitch": "Rippetoe is the intellectual counterweight to Renaissance Periodization's volume-and-hypertrophy framing \u2014 he argues from first principles that strength is the foundational physical adaptation, and his case is more rigorous and philosophically grounded than most give him credit for. Where RP optimizes accessory work and periodization for aesthetics, Rippetoe focuses on barbell training as a biological stressor with a specific stress-recovery-adaptation logic that differs meaningfully from hypertrophy-first thinking. Format is a mix of short solo lectures, Q&A, and coaching breakdowns \u2014 dense and opinionated, not motivational."
+    "channel_name": "Elijah Cheng",
+    "channel_id": "UChnI_wYo_biExyngiV9Jo2g",
+    "youtube_handle": "@elijahchiang",
+    "pitch": "Elijah Chiang is a poker solver-focused content creator who sits in the gap between GTO Wizard's tool-based content and the high-level strategic reasoning of Jared Alderman \u2014 he does deep, structured breakdowns of solver outputs with a clear pedagogical framework, often covering spots your other poker channels skip. His approach is methodical and concept-driven rather than hand-history storytelling, which sharpens the 'why' behind GTO decisions in a way that complements what you're already watching. Solo video format, typically 15\u201330 minutes, consistently posted."
   },
-  "shown_count": 3,
+  "shown_count": 1,
   "history": [
     "Brad Kearns",
     "Dr. Layne Norton",
@@ -68,6 +68,7 @@
     "Curt Jaimungal",
     "Andrew Huberman",
     "Better Ideas",
-    "Starting Strength"
+    "Starting Strength",
+    "Elijah Cheng"
   ]
 }
