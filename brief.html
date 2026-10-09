@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>Morning Brief — Thursday, October 08, 2026</title>
+<title>Morning Brief — Friday, October 09, 2026</title>
 <style>
   body {
     font-family: Georgia, serif;
@@ -92,19 +92,19 @@
 })();
 </script>
 <h1>Morning Brief</h1>
-<p class="date">Thursday, October 08, 2026</p>
+<p class="date">Friday, October 09, 2026</p>
 
 <div class="anchor">
   <h2>☀️ Today's Anchor</h2>
   <div class="anchor-block">
-    <p class="quote">"The stock market is a device for transferring money from the impatient to the patient."</p>
+    <p class="quote">"Risk comes from not knowing what you're doing."</p>
     <p class="author">— Warren Buffett</p>
-    <p class="context">Berkshire shareholder meeting. Buffett's view: time horizon, not intelligence, is the primary differentiator among investors.</p>
+    <p class="context">Shareholder Q&A. Buffett's rebuttal to quantitative definitions of risk — his definition is epistemic, not statistical.</p>
   </div>
   <div class="anchor-block">
     <p class="model-label">Mental Model · Economics</p>
-    <p class="model-name">Opportunity Cost</p>
-    <p class="context">The true cost of any choice is the best alternative you gave up. Munger: 'Intelligent people make decisions based on opportunity costs.' If your money earns 8% elsewhere, a 6% opportunity is actually a loss of 2%. Applied broadly: every yes to one thing is a no to others.</p>
+    <p class="model-name">Comparative Advantage</p>
+    <p class="context">Each party should focus on what they're relatively best at, and trade. Ricardo's 1817 insight that still governs global trade. Personal application: don't do what you're merely good at — do what you're best at relative to others, and delegate the rest.</p>
   </div>
 </div>
 
@@ -115,118 +115,156 @@
   <p class="spotlight-instructions">Interested? Copy the line below into <code>YOUTUBE_CHANNELS</code> in <code>brief.py</code> and save:</p>
   <pre class="spotlight-snippet" id="snippet">    "Elijah Cheng": "UChnI_wYo_biExyngiV9Jo2g",</pre>
   <button class="copy-btn" onclick="navigator.clipboard.writeText(document.getElementById('snippet').innerText.trim()); this.innerText='✅ Copied'; setTimeout(()=>this.innerText='📋 Copy snippet', 2000);">📋 Copy snippet</button>
-  <p class="spotlight-meta">showing for 2 more days. If you don't add it, a new channel will be suggested.</p>
+  <p class="spotlight-meta">showing for 1 more day. If you don't add it, a new channel will be suggested.</p>
 </div>
 <h2>🎥 From People I Follow</h2>
 
 <p><strong>Worth your time:</strong></p>
 
 <div class="story">
-  <h3>GTO Wizard (Espen)</h3>
-  <p>Espen walks through six hands from the Triton 200K final table using GTO Wizard's new real-time ICM preflop solver — the key feature being that you can input any final table stack/payout structure and get solutions on the fly without pre-running sims. The most instructive spots: (1) Pocket jacks in a squeeze spot is a "snap fold" — it blocks bluffs and fold equity from the opener, making suited aces (like A5s) strictly better as the 4-bet jam since you unblock the folds you need. (2) With 46BB on the button into two short stacks (21 and 13BB), the solver prefers open-jamming most of the range rather than raising smaller — Seth Davies' standard raise left him in an awkward spot with T9o facing a 21BB jam. (3) The blocker concept is front and center: in narrow-value 4-bet spots, your bluffing range must be tiny, and off-suit hands like pocket 6s-9s are effectively zero-frequency plays even though they appear in the solver output.</p>
-  <p class="meta">Videos: <a href="https://www.youtube.com/watch?v=6PqMSznyIrQ">Espen - $200K Triton Invitational Final Table Review</a></p>
+  <h3>GTO Wizard — Espen</h3>
+  <p>Espen reviews six hands from the Triton $200K final table using GTO Wizard's new ICM preflop solver, which lets you plug in any final table payout structure and get spot-specific solutions on the fly without pre-running sims. Key findings: Queen-jack off is a break-even-to-fold open from the low jack under ICM pressure; pocket jacks is a clear fold in a 4-bet-heavy spot because it blocks more folds and bluffs than it wants to (wheel aces with blockers are preferred as the bluff-jam vehicle); and the collision effect — where short stacks are likely to bust each other — makes chip-leading positions more conservative, not more aggressive. Seth Davies' choice to open-raise rather than jam a 46BB stack into short-stacked blinds gets scrutinized: the solver strongly prefers open-jams for most of that range to deny playability advantages.</p>
+  <p class="meta">Video: <a href="https://www.youtube.com/watch?v=6PqMSznyIrQ">Espen - $200K Triton Invitational Final Table Review</a></p>
 </div>
 
 <div class="story">
   <h3>Jared Alderman</h3>
-  <p>The core argument: live players systematically underestimate how large their exploitative deviations are, which makes them unable to accurately assess EV. The illustrative hand — folding two pair on a A-K-3-8 board facing a min-raise — had a calling EV of +$50 according to solver. The live player's reasoning ("he probably has a set") may even be correct in terms of hand-reading, but the pot odds and remaining outs (to a boat) still make the fold a significant error. Jared's broader point: the "live read" narrative is often used to justify not studying, but even when the read is right, you still need to price it correctly against pot odds and equity.</p>
-  <p class="meta">Videos: <a href="https://www.youtube.com/watch?v=sQ8xG0aR4rw">The Biggest Difference Between Online Crushers and Live Pros</a></p>
+  <p>Jared works through a hand where a live player folds two pair on the turn to a min-click after bet-calling the flop — a spot theory says is worth ~$50 in EV to call. His broader point: live players make massive deviations and have no calibrated sense of how large the error is. They often think in binary ("I know he has a set, so I fold") rather than in frequencies and pot odds. He distinguishes between accurate read (yes, this player has a set a high % of the time) and correct action (you're still getting a price that demands a call at reasonable frequencies). The online-vs-live gap isn't reads — it's that online players have internalized that even likely-bad spots can be profitable calls because of price.</p>
+  <p class="meta">Video: <a href="https://www.youtube.com/watch?v=sQ8xG0aR4rw">The Biggest Difference Between Online Crushers and Live Pros</a></p>
 </div>
 
 <div class="story">
-  <h3>Renaissance Periodization (Mike Israetel)</h3>
-  <p>Two substantive items: First, the FDA just approved apitegromab (Scholar Rock), the first myostatin inhibitor for public prescription. In trials, it preserved 55% more lean mass versus tirzepatide alone during aggressive fat loss (3.4 lb lost vs. 7.6 lb), without any reduction in fat loss — actually a slight improvement. The massive catch: it's hospital-infusion only and costs ~$350,000/year. Oral or self-injectable versions are in development; RP estimates 3-5 years before those hit. Second, a practical genetics point via Markus Rühl: even elite-level effort and full program variation cannot overcome genuinely poor muscle-building genetics in a specific body part — his triceps were a career-long weak point despite trying everything, and he eventually injured them from overreaching.</p>
-  <p class="meta">Videos: <a href="https://www.youtube.com/watch?v=HuEQ0hEWI7Y">The First FDA Approved Muscle Growth Drug Is Here</a> · <a href="https://www.youtube.com/shorts/NdXh2e7VSJM">Markus Rühl's Biceps Outgrew His Triceps</a></p>
+  <h3>GTO Lab</h3>
+  <p>Short but substantive: explains the "collision effect" in tournament ICM — when two or more shorter stacks are likely to clash against each other or the blinds, a player with a medium stack gains value passively just by surviving, which means their chip EV of calling or getting involved goes down even holding strong hands. The takeaway is that ICM pressure compounds from multiple directions simultaneously, not just from the pay jump.</p>
+  <p class="meta">Video: <a href="https://www.youtube.com/shorts/WKoCMB-IIqg">Collision Effect Short</a></p>
+</div>
+
+<div class="story">
+  <h3>Dr. Sten Ekberg</h3>
+  <p>Ekberg argues that the famous Lustig "fructose goes straight to the liver" mechanism — cited by health professionals for 17 years — was overturned by a 2018 mouse study showing the small intestine processes fructose first, clearing ~90% of low doses before it reaches the liver. The liver is the backup, not the primary processor. The key dose-dependent threshold in humans is estimated at 10–25g of fructose per sitting; below that (especially with fiber, slower eating, or as part of a meal), the liver is largely spared. Above it — triggered quickly by liquid sugar, empty stomach, or high-fructose corn syrup — the overflow hits the liver and drives fat synthesis. Practical numbers: a regular soda has ~21g fructose, apple juice ~14g, a single Medjool date ~32g per 100g. Fructose also suppresses ghrelin (satiety hormone) far less than glucose or fat/protein, doesn't trigger a meaningful insulin response, and causes brain reward centers to light up more strongly — creating a feedback loop for overconsumption even when the liver is being partially spared.</p>
+  <p class="meta">Video: <a href="https://www.youtube.com/watch?v=XaaPjdRU490">#1 The Most Famous Sugar Video Ever Was WRONG</a></p>
+</div>
+
+<div class="story">
+  <h3>Nick Norwitz</h3>
+  <p>Norwitz flags a counterintuitive finding: GLP-1 drugs activate hunger neurons (AgRP neurons), yet still cause weight loss. The key is that these neurons have a dual function — new research shows GLP-1 causes them to shift fuel burning from carbohydrates toward fat (similar to a ketogenic metabolic state). When researchers chemically blocked these neurons in animals, initial weight loss occurred but body fat rebounded aggressively even with sustained calorie restriction — the hunger neurons' fat-burning function was lost. This suggests GLP-1's durability depends less on appetite suppression alone and more on a metabolic substrate shift.</p>
+  <p class="meta">Video: <a href="https://www.youtube.com/shorts/G90OAXgxe9U">The Weirdest GLP-1 Weight-Loss Paradox</a></p>
 </div>
 
 <div class="story">
   <h3>Thomas DeLauer</h3>
-  <p>Deep dive on allulose with specific human RCT data. Key findings: (1) At 10g alongside 50g sugar, insulin was 33% lower within 30 minutes (Journal of Functional Foods, n=14); (2) In a 12-week RCT (n=121), the high-allulose group (7g twice daily) showed significant reductions in BMI, belly fat, and subcutaneous fat vs. sucralose control at identical caloric intake; (3) A single dose shifted substrate oxidation measurably toward fat-burning and away from carb-burning. Three mechanisms: GLUT2 receptor competitive blocking (reduces intestinal glucose absorption), hepatic glucokinase translocation (liver soaks up more blood glucose into glycogen), and GLP-1 stimulation. Practical dosing: 5-10g with a carb-containing meal to blunt glucose, or taken alone for GLP-1/metabolic effects.</p>
-  <p class="meta">Videos: <a href="https://www.youtube.com/watch?v=9zTwRW1Tm2g">Stevia is Dead - This Sweetener Shrinks Fat Cells and Drops Insulin 33%</a></p>
+  <p>DeLauer makes a detailed case for allulose as a metabolically active sweetener rather than a passive sugar substitute. Four human RCTs he cites: (1) 10g allulose alongside 50g sugar reduced blood glucose and insulin significantly within 30 minutes in a dose-dependent fashion; (2) in insulin-resistant subjects, 10g allulose reduced glucose AUC by 8% vs. fructose (no effect); (3) insulin was 33% lower when allulose was added to sucrose vs. sucrose alone; (4) a 12-week trial with 7g twice daily showed significant reductions in body fat, BMI, and visceral fat vs. sucralose control at the same caloric intake. The proposed mechanisms are three-pronged: (a) allulose occupies GLUT2 transporters in the gut wall, limiting glucose absorption; (b) it translocates glucokinase from liver cell nuclei to the cytoplasm, activating glucose uptake and glycogen storage; (c) it promotes GLP-1 release. A single-dose study also found a measurable shift toward fat oxidation and away from carb oxidation after one serving.</p>
+  <p class="meta">Video: <a href="https://www.youtube.com/watch?v=9zTwRW1Tm2g">Stevia is Dead - This Sweetener Shrinks Fat Cells and Drops Insulin 33%</a></p>
+</div>
+
+<div class="story">
+  <h3>Andrew Huberman — Dr. Andy Galpin (Strength & Hypertrophy Essentials)</h3>
+  <p>Galpin's key practical claims: strength loss with aging (~2–4%/year) outpaces muscle loss (~1%/year), and power loss (~8–10%/year) is the real functional threat — the ability to catch a fall, not just bicep size. The 3-to-5 framework (3–5 days, 3–5 exercises, 3–5 sets, 3–5 reps, 3–5 min rest) is the simplest actionable starting point, with 3–5% load increases per week as the progressive overload target. On cadence: for strength, intentional speed of movement is critical because force = mass × acceleration — slow eccentrics reduce acceleration and limit strength gains; for hypertrophy, cadence is relatively flexible and falls in the 80/20 rule (minor variable). He also emphasizes that adherence + progressive overload outweigh exercise selection by a wide margin. A second essentials episode on fitness assessment covers nine distinct adaptations (skill, speed, power, strength, hypertrophy, muscular endurance, anaerobic capacity, aerobic capacity, long-duration endurance) with specific self-tests: broad jump ≥ body height for power, dead hang ≥ 30–60 seconds for grip/strength, and a joint-by-joint movement screen for symmetry and stability.</p>
+  <p class="meta">Videos: <a href="https://www.youtube.com/watch?v=Gu04f6aFuBY">Optimal Protocols to Build Strength & Grow Muscles</a> · <a href="https://www.youtube.com/watch?v=VjaPWC4VPPU">How to Assess & Improve All Aspects of Your Fitness</a></p>
+</div>
+
+<div class="story">
+  <h3>Andrew Huberman — Dr. Arthur Brooks (Happiness)</h3>
+  <p>Brooks argues happiness is not a feeling but a composite of three macronutrients: enjoyment (pleasure elevated by people and memory, managed rather than consuming), satisfaction (the specific joy that comes after struggle — not comfort), and meaning (your why). The critical and underappreciated point: unhappiness lives inside all three macronutrients — discontent and frustration are features, not bugs, and people who spend their lives avoiding suffering paradoxically miss happiness. The distinction between pleasure (limbic, animal, dopamine-driven, manageable into addiction) and enjoyment (pleasure plus social connection plus memory plus voluntary executive control) is his sharpest conceptual line. High-achievers specifically tend to confuse wanting to be special with wanting to be happy, which causes them to deprioritize the enjoyment macronutrient entirely.</p>
+  <p class="meta">Videos: <a href="https://www.youtube.com/watch?v=Gk2ArbsrZwE">The Art of True Happiness</a> · <a href="https://www.youtube.com/shorts/xmEnK-WWlUY">The 3 Macronutrients of True Happiness</a></p>
 </div>
 
 <p><strong>Also posted:</strong></p>
 <ul>
-  <li><strong>GTO Lab (Seth Davies):</strong> Seth announces he's joining GTO Lab as a coach, emphasizing live-session play-and-explain videos for experienced tournament players rather than systematic curriculum content. (<a href="https://www.youtube.com/shorts/ArLNQJUZZag">Seth Davies is joining GTO LAB</a>)</li>
-  <li><strong>Nick Norwitz:</strong> Explains a counterintuitive GLP-1 finding: the drugs activate hunger neurons (AgRP neurons), but this isn't a bug — those same neurons have a secondary function of increasing fat oxidation over carb oxidation, which is what drives sustained fat loss rather than appetite suppression alone. Blocking those neurons causes initial weight loss but then aggressive weight regain. (<a href="https://www.youtube.com/shorts/G90OAXgxe9U">The Weirdest GLP-1 Weight-Loss Paradox</a>)</li>
-  <li><strong>Paul Saladino MD:</strong> Practical framework for staying lean: 0.8-1g protein/lb bodyweight from animal foods, carbs scaled to activity (he eats 250-300g/day from fruit/honey), fat from butter/cheese for satiety, and the "great-grandmother rule" for packaged foods. Makes the specific case that going too low-carb (keto) suppresses thyroid, raises cortisol, and drops basal metabolic rate — counterproductive for long-term leanness. Sleep (8-9 hrs) and muscle mass via progressive overload cited as the two underrated fat loss levers. (<a href="https://www.youtube.com/watch?v=pNG2rLgI0Gw">How I Stay Below 12% Body Fat at 49</a>)</li>
-  <li><strong>Ken Berry MD:</strong> Short: argues children need unrestricted animal protein and fat, but should eliminate sugar and processed simple carbs to prevent early-onset type 2 diabetes. No calorie restriction, no fasting for growing children. (<a href="https://www.youtube.com/shorts/dP4wejO__uM">Growing children need plenty of protein</a>)</li>
-  <li><strong>Anthony Chaffee MD:</strong> Short: reframes "processed food" as a plant-based industry problem — a standard McDonald's meal is ~90% plant-derived calories (bun, fries, seed-oil sauces). (<a href="https://www.youtube.com/shorts/6u8p-bJHae0">Processed Meats Are NOT The Real Problem!</a>)</li>
-  <li><strong>Modern Wisdom:</strong> Conversation on addiction and habit breaking — the counterintuitive technique of fully engaging with a habit (with complete presence and awareness) rather than resisting it, because most compulsive behavior is escape from an emotional state, and presence dissolves the automaticity. Neuroscience framing: the anterior cingulate cortex turns off habitual brain patterns when awareness is engaged. (<a href="https://www.youtube.com/watch?v=AhPZcfTLhuk">Why Watching Porn Ruins Your Brain</a> + <a href="https://www.youtube.com/shorts/21VyLj-1UGM">How To Break An Addiction</a>)</li>
-  <li><strong>Renaissance Periodization:</strong> Short on caffeine: safe upper limit is 1,000mg/day; practical advice is to stop intake by noon to protect sleep quality. (<a href="https://www.youtube.com/shorts/_PtlVNhzy14">Your Afternoon Caffeine Has a Cost</a>)</li>
-  <li><strong>Peter Attia:</strong> Long interview on pregnancy physiology — plasma volume expands 50% by 28 weeks (causing relative anemia), the ovary-to-placenta hormone handoff occurs at 8-10 weeks, hyperemesis gravidarum is now linked to GDF-15 gene variants (not hCG as previously assumed), and severe cardiac/pulmonary disease can make pregnancy life-threatening. (<a href="https://www.youtube.com/watch?v=KIFD0Y6UVE0">The biology of pregnancy</a>)</li>
-  <li><strong>Mind The Game (LeBron):</strong> LeBron reflects on his Lakers tenure — rates not having a championship parade a "20 out of 10" regret; discusses what makes "superteams" succeed or fail, emphasizing career stage, ego sublimation, and the need for explicit accountability agreements over raw talent accumulation. (<a href="https://www.youtube.com/watch?v=zyCb0wa8Twk">LeBron Revisits His Time With The Los Angeles Lakers</a>)</li>
+  <li><strong>Ken Berry MD:</strong> Interview clip with Dr. Isabella Cooper on osteocalcin from maternal bone crossing into the fetus in utero — it patterns the baby's pancreas, stimulates hippocampal neurogenesis, and inhibits apoptosis of new neurons; gestational diabetes (low maternal osteocalcin) is associated with lower IQ and elevated anxiety/depression in animal models. (+1 short on eating carnivore while traveling.) (<a href="https://www.youtube.com/shorts/5N-k5MsZbeg">Osteocalcin Clip</a>)</li>
+  <li><strong>Anthony Chaffee MD:</strong> Short arguing that fast food meals like a Big Mac combo are ~90% plant-derived calories by macros, making "processed meat causes obesity" framing misleading — the caloric load is seed oils, buns, sugary sauces, and fries. (<a href="https://www.youtube.com/shorts/6u8p-bJHae0">Processed Meats Are NOT The Real Problem</a>)</li>
+  <li><strong>Renaissance Periodization:</strong> Short on Markus Rühl noting that his triceps were genuinely resistant to growth despite trying every variable (volume, frequency, rep range, exercise selection) — used as a real-world example of inter-individual muscle response variation. (<a href="https://www.youtube.com/shorts/NdXh2e7VSJM">Markus Rühl's Biceps Outgrew His Triceps</a>)</li>
+  <li><strong>Andrew Huberman — Dr. Elissa Epel:</strong> Stress essentials episode covering the threat vs. challenge stress response distinction — the challenge response (higher cardiac output, less vasoconstriction, lower inflammation, longer telomeres in studies) vs. threat response (vasoconstriction, slower recovery) can be deliberately shifted via mindset reappraisal ("I have what it takes") and body-based strategies. (<a href="https://www.youtube.com/watch?v=RqMWvhvt0DQ">Manage Stress & Build Resilience</a>)</li>
+  <li><strong>Andrew Huberman — Dr. Gina Poe:</strong> Sleep essentials covering why the first 90-min cycle's slow-wave sleep is critical for a bolus of growth hormone release (tied to circadian timing, not just sleep architecture — missing your normal bedtime loses it); alcohol suppresses REM and stage 2 sleep spindles specifically; and REM sleep in later cycles may be the primary site for creative schema-building and memory consolidation. (<a href="https://www.youtube.com/watch?v=f1NNmiz547U">Use Sleep to Enhance Learning, Memory & Emotional State</a>)</li>
+  <li><strong>Andrew Huberman — Dr. Jared Rutter:</strong> Mitochondria episode covering the endosymbiotic origin of mitochondria, how mitochondrial dysfunction (declining energy production, excess reactive oxygen species from overpowered mitochondria) underlies aging, and why "metabolism" is actually the sum of all individual cell metabolisms rather than a single system. (<a href="https://www.youtube.com/watch?v=bv56Cuq-fyY">How Mitochondria Control Your Metabolism</a>)</li>
+  <li><strong>Mind The Game:</strong> LeBron James on his Lakers tenure — characterizes coming to LA as a genuine competitive challenge (not Hollywood tourism), still bothered at a "20 out of 10" by the lack of a COVID championship parade, and discusses what makes multi-star teams work (shared mission, ego for the collective, accountability structures). (+discussion of superteam definitions.) (<a href="https://www.youtube.com/watch?v=zyCb0wa8Twk">LeBron Revisits His Time With The Lakers</a>)</li>
+  <li><strong>Ben Felix:</strong> Detailed framework on leveraged ETFs — covers the theoretical case for leverage for young investors (Samuelson/Merton human capital = bond argument), the critical caveat that young people's human capital may be more stock-like than assumed, why volatility drag (daily rebalancing) is actually rebalancing-frequency-neutral mathematically (unless returns have serial correlation), and real-world risks: 2x levered S&P fell ~80% in 2008, 3x fell ~80% at COVID onset. (<a href="https://www.youtube.com/watch?v=E7pl0tqzIUQ">The Truth About Leveraged ETFs</a>)</li>
 </ul>
+
+---
 
 <h2>₿ Bitcoin & Macro</h2>
 
 <div class="story">
-  <h3><a href="https://bitcoinmagazine.com/markets/bitcoin-price-falls-under-83000">Bitcoin Falls Under $83,000 on Oil Spike, Rising US Borrowing Costs</a></h3>
-  <p>Bitcoin dropped ~4% as broader risk assets sold off on an oil price spike and rising US Treasury borrowing costs — a macro correlation story worth noting. The simultaneous move in oil and yields suggests a supply-shock or fiscal credibility narrative rather than crypto-specific pressure, which is more consistent with the Saylor thesis that BTC responds to real monetary stress signals than with pure risk-on/risk-off sentiment.</p>
+  <h3><a href="https://bitcoinmagazine.com/markets/bitcoin-price-slide-continues-below-81000">Bitcoin Falls Below $81,000 as Oil Spikes, Fed Talks Tough</a></h3>
+  <p>Bitcoin dropped below $81K driven by oil price spikes and renewed Fed hawkishness — the market read being that sticky inflation from energy prices reduces the probability of near-term rate cuts, which has historically correlated with risk-asset pressure. No Saylor thesis content this cycle, but the macro backdrop (Fed holding firm + energy inflation) is the specific driver flagged.</p>
   <p class="meta">Bitcoin Magazine</p>
 </div>
 
 <div class="story">
-  <h3><a href="https://bitcoinmagazine.com/bitcoin-for-corporations/robinhood-adds-bitcoin-to-its-balance-sheet-a-strategic-signal-from-a-100b-fintech">Robinhood Adds Bitcoin to Its Balance Sheet</a></h3>
-  <p>Robinhood added $25M (~294 BTC) as its first corporate treasury holding — modest in absolute terms but meaningful as a signal from a $100B fintech whose entire business is retail financial participation. The pattern of corporate treasury adoption continues to broaden beyond pure tech companies.</p>
+  <h3><a href="https://bitcoinmagazine.com/bitcoin-for-corporations/digital-money-digital-yield">Understanding Digital Money and Digital Yield</a></h3>
+  <p>An overview of nascent business models built on top of Bitcoin treasury strategies — specifically the "preferred securities" layer emerging around corporate Bitcoin balance sheets, covering how companies are generating yield-like structures from BTC holdings. Relevant if you follow the Strategy/MicroStrategy corporate treasury thesis.</p>
   <p class="meta">Bitcoin Magazine</p>
 </div>
+
+---
 
 <h2>🧬 Health & Science</h2>
 
 <div class="story">
-  <h3>GLP-1 Drugs Activate Hunger Neurons to Drive Fat Oxidation (Nick Norwitz)</h3>
-  <p>New research finding: GLP-1 receptor agonists turn on AgRP "hunger neurons," which seems paradoxical for a drug that suppresses appetite. When those neurons are chemically blocked in animal models, the drugs initially cause weight loss but the weight rebounds aggressively even with continued caloric restriction. The explanation: AgRP neurons have a second function — shifting metabolism from carbohydrate oxidation to fat oxidation, essentially mimicking a ketogenic metabolic state. It's this fat-burning shift, not appetite suppression alone, that produces durable fat loss. Implication: the neurological machinery of hunger regulation is inseparable from metabolic substrate selection.</p>
+  <h3>GLP-1 Body Composition Problem: The Cycling Risk</h3>
+  <p>From an Huberman short with a physician guest: cycling on and off GLP-1 drugs (like semaglutide) creates a ratcheting body composition problem. Roughly 1/3 of weight lost on GLP-1s is lean mass (muscle). When patients stop and regain weight, they regain fat — not lean mass. Each on/off cycle therefore shifts body composition toward a higher fat-to-muscle ratio. The proposed solution is either microdosing (finding the lowest dose that maintains weight without continued lean mass loss) or having a structured bridging plan before discontinuation. This is a clinically significant point for anyone considering GLP-1s.</p>
+  <p class="meta">Andrew Huberman (<a href="https://www.youtube.com/shorts/C0RyMr9s3Hw">Advantage of Microdosing GLPs</a>)</p>
 </div>
 
 <div class="story">
-  <h3>Allulose: Four Human RCTs Pointing in the Same Direction (Thomas DeLauer)</h3>
-  <p>Beyond DeLauer's coverage (summarized above), the mechanism worth noting separately: allulose is structurally near-identical to fructose but stimulates GLP-1 release, blocks GLUT2 glucose transporters, and promotes hepatic glucokinase translocation — three distinct pathways, none of which other sweeteners share. The 12-week body composition RCT showing fat loss at identical caloric intake (only variable: sweetener) is the most striking finding, if replicated. Current FDA classification as a "rare sugar" (not artificial sweetener) means it counts toward carbohydrate grams on labels but is largely unabsorbed.</p>
+  <h3>ADHD as a Circadian Rhythm Disorder</h3>
+  <p>A 2025 paper in Frontiers in Psychiatry (307 HN points) argues ADHD should be understood as primarily a circadian rhythm disorder, not just a dopamine/attention disorder. The implication is that "chronotherapy" — timing interventions (light, sleep schedule, medication) to align with circadian biology — could be a meaningful treatment lever that's currently underutilized. This reframing has practical consequences for when medications are administered and how sleep hygiene is prioritized in ADHD treatment.</p>
+  <p class="meta"><a href="https://www.frontiersin.org/journals/psychiatry/articles/10.3389/fpsyt.2025.1697900/full">Frontiers in Psychiatry</a> · <a href="https://news.ycombinator.com/item?id=49985548">HN Discussion</a></p>
 </div>
 
 <div class="story">
-  <h3>Myostatin Inhibitor (Apitegromab) — First FDA-Approved, With Major Caveats (Renaissance Periodization)</h3>
-  <p>The drug demonstrated 55% lean mass preservation versus tirzepatide alone in a 24-week dieting trial, with no reduction in fat loss. The physiological mechanism is real: myostatin is a brake on skeletal muscle growth that evolved to prevent runaway muscle hypertrophy under caloric scarcity conditions; blocking it allows near-maximal muscle protein synthesis. The practical barrier right now is delivery (hospital IV infusion only) and cost (~$350K/year). The signal from this approval is that the class works; the race is now to develop subcutaneous injectable or oral small-molecule versions, which multiple companies have in pipeline.</p>
+  <h3>Peter Attia — Biology of Pregnancy as a Stress Test</h3>
+  <p>In a conversation with OB/GYN researcher Dr. Katie Harbath, Attia frames pregnancy as one of the most extreme physiologic stress tests a body undergoes: plasma volume expands 50% by 28 weeks (causing relative anemia, not compensatory hemoglobin increase); the placenta takes over sex hormone production from the ovaries at ~8–10 weeks; insulin resistance rises substantially in the second half of pregnancy and can unmask underlying metabolic predisposition. Women with severe enough cardiac or pulmonary disease literally cannot tolerate the 50% plasma expansion — it would cause heart failure. The episode covers GDF-15 as the likely driver of hyperemesis gravidarum (rather than hCG as previously assumed), which is now a therapeutic target in trials.</p>
+  <p class="meta"><a href="https://www.youtube.com/watch?v=KIFD0Y6UVE0">The Biology of Pregnancy — Peter Attia</a></p>
 </div>
+
+<div class="story">
+  <h3>$1.8B Global Commitment for AI-Ready Biological Data</h3>
+  <p>A coalition has committed $1.8B toward creating AI-ready biological datasets — standardized, high-quality, machine-readable biological data to fuel biomedical AI. The specific focus on data quality and standardization (rather than model building) is the interesting piece: most AI-in-biology efforts fail on data infrastructure before they get to the modeling problem.</p>
+  <p class="meta"><a href="https://biohub.org/news/virtual-biology-initiative-expansion/">Chan Zuckerberg Biohub</a> · <a href="https://news.ycombinator.com/item?id=49985548">HN Discussion</a></p>
+</div>
+
+---
 
 <h2>💡 Worth Reading</h2>
 
 <div class="story">
-  <h3><a href="https://openai.com/index/sharing-ai-progress-in-mathematics">Sharing AI Progress in Mathematics</a></h3>
-  <p>OpenAI published results from an internal frontier model on open problems in mathematics, including apparent progress toward a quasi-Riemann hypothesis result, with Lean proof formalizations released publicly on GitHub. This is worth reading alongside Scott Aaronson's related piece ("The Mathocalypse") and Terence Tao's post on how mathematical progress needs to be evaluated more holistically — together they sketch a picture of AI beginning to make genuine (not just benchmark) contributions to hard math, while the community debates what "progress" even means when the proof is machine-generated.</p>
-  <p class="meta"><a href="https://news.ycombinator.com/item?id=">Discussion</a> · OpenAI Blog · See also: <a href="https://scottaaronson.blog/?p=10169">Aaronson's "The Mathocalypse"</a> and <a href="https://mathstodon.xyz/@tao/117395269325940185">Tao on Math 2.0</a></p>
+  <h3><a href="https://www.dgt.is/blog/2026-10-07-deepseek-freek-out/">Why isn't the industry freaking out about DeepSeek 4.1 Flash?</a></h3>
+  <p>High-engagement HN piece (780 pts) examining why DeepSeek's latest model release isn't generating the same panic as the original DeepSeek-R1 moment. Worth reading if you want a calibrated take on whether the competitive dynamics have actually changed or whether the industry has simply normalized rapid capability escalation from Chinese labs.</p>
+  <p class="meta"><a href="https://news.ycombinator.com/item?id=49985548">HN Discussion</a></p>
 </div>
 
 <div class="story">
-  <h3><a href="https://worksinprogress.co/issue/the-seven-vices-of-highly-effective-victorians/">Why Were Victorian Elites So Effective?</a></h3>
-  <p>Samuel Hughes in Works in Progress argues that Victorian British elites succeeded not despite their apparent vices (late rising, heavy drinking, constant socializing) but through a specific form of networked trust and accountability built through those social rituals. Their schools were academically weak and STEM-light, yet they produced outsized institutional builders — the argument being that character, loyalty networks, and comfort with responsibility were the actual outputs being cultivated. A genuinely interesting counterpoint to modern meritocratic assumptions about what elite formation should look like.</p>
-  <p class="meta"><a href="https://marginalrevolution.com/marginalrevolution/2026/10/how-and-why-did-the-victorians-succeed.html">Marginal Revolution</a> · Also on <a href="https://news.ycombinator.com/">HN</a></p>
+  <h3><a href="https://karagila.org/2026/openai-pp/">OpenAI, the Partition Principle, and Mathematics</a></h3>
+  <p>Alongside the HN item noting OpenAI has withdrawn three mathematical results, this piece examines what the "Partition Principle" episode reveals about AI-generated mathematical work — specifically the gap between plausible-looking proofs and verified proofs. The Terence Tao blog post ("What should we tell our students?") is also circulating in this context, raising questions about how mathematicians should relate to AI-generated work.</p>
+  <p class="meta"><a href="https://news.ycombinator.com/item?id=49985548">HN Discussion</a> · Related: <a href="https://terrytao.wordpress.com/2026/10/08/what-should-we-tell-our-students/">Tao's post</a> · <a href="https://twitter.com/danintheory/status/2108065033070789090">OpenAI withdraws results</a></p>
 </div>
 
 <div class="story">
-  <h3><a href="https://www.nytimes.com/2026/10/07/science/first-nuclear-clocks-thorium-229.html">In Vienna and Beijing, the First Nuclear Clocks Begin to Tick</a></h3>
-  <p>The first operational thorium-229 nuclear clocks have been demonstrated — clocks that use a nuclear transition (rather than an electron transition in atomic clocks) as their oscillator. They promise precision orders of magnitude beyond current atomic clocks, with implications for GPS, fundamental physics tests, and dark matter detection. A genuine scientific milestone that's been theorized for decades.</p>
-  <p class="meta">NYT Science · <a href="https://news.ycombinator.com/">HN Discussion</a></p>
+  <h3><a href="https://www.reddit.com/r/ClaudeAI/s/mbe5IY2LF9">I think I found a planet nobody knew existed. I used Claude Code to find it.</a></h3>
+  <p>A Reddit post (188 HN points) claiming a user used Claude Code to analyze astronomical data and identify a previously unknown planetary candidate. If accurate, it's a concrete example of AI enabling a non-specialist to do discovery-level scientific work — the kind of capability shift worth paying attention to regardless of the technical details.</p>
+  <p class="meta"><a href="https://news.ycombinator.com/item?id=49985548">HN Discussion</a></p>
 </div>
 
 <div class="story">
-  <h3><a href="https://figsinwintertime.substack.com/p/stoicism-and-wealth">Stoicism and Wealth (Massimo Pigliucci)</a></h3>
-  <p>Pigliucci works through the genuine tension in Stoic thought between Epictetus (who was enslaved and poor, deeply suspicious of wealth) and Seneca (fabulously wealthy, who argued money is a "preferred indifferent" — fine to have, as long as you're not enslaved to it). The resolution isn't "wealth is fine" but something more demanding: that you must be genuinely willing to lose it without your character or equanimity changing. A useful framework for anyone thinking about the relationship between financial success and what the Stoics call the "good life."</p>
-  <p class="meta"><a href="https://figsinwintertime.substack.com/p/stoicism-and-wealth">Figs in Winter</a></p>
+  <h3><a href="https://figsinwintertime.substack.com/p/stoicism-and-wealth">Stoicism and Wealth</a></h3>
+  <p>Massimo Pigliucci (Figs in Winter) examines the genuine tension in Stoic thought between the doctrine that externals like wealth are "preferred indifferents" (not truly good or bad, but reasonably preferred) and the way luxury and wealth practically corrupt character. The Stoics were not ascetics, but they were deeply suspicious of attachment to externals — a distinction worth sitting with if you're building wealth while trying to maintain equanimity.</p>
+  <p class="meta">Figs in Winter · <a href="https://figsinwintertime.substack.com/p/stoicism-and-wealth">Substack</a></p>
 </div>
+
+<div class="story">
+  <h3><a href="https://donaldrobertson.substack.com/p/stoic-cost-benefit-analysis">Stoic Cost-Benefit Analysis</a></h3>
+  <p>Donald Robertson explains how the Stoics evaluated actions not just by outcome but by cost to character — what it does to your inner state, not just your external situation. The practical framing: before an action, ask not only "what do I gain?" but "what does this cost my character if I do it, or if I don't?" A useful mental model for decisions under pressure.</p>
+  <p class="meta">Donald Robertson · <a href="https://donaldrobertson.substack.com/p/stoic-cost-benefit-analysis">Substack</a></p>
+</div>
+
+---
 
 <h2>🤖 AI Capability Watch</h2>
 
 <div class="story">
-  <h3><a href="https://openai.com/index/gpt-6-for-everyone">GPT-6 and Intelligent UI Rolling Out in ChatGPT</a></h3>
-  <p>OpenAI is rolling out GPT-6 globally in ChatGPT alongside a new "Intelligent UI" — described as responses that include visuals and interactive elements you can explore and act on directly within the chat interface, rather than just text. This is a meaningful product-layer change: the interface itself becomes dynamic and task-capable rather than purely conversational, which is the kind of end-user capability shift worth tracking.</p>
-  <p class="meta">OpenAI Blog · <a href="https://news.ycombinator.com/">HN Discussion</a></p>
-</div>
-
-<div class="story">
-  <h3><a href="https://www.anthropic.com/claude-haiku-5-5">Claude Haiku 5.5</a></h3>
-  <p>Anthropic released Haiku 5.5, replacing a model that was nearly a year old and had aged poorly on price-performance. The new version is substantially cheaper than its predecessor and brings it current with the rest of the Claude 5 family in capability terms — relevant if you use Claude-powered apps or build with the API, since this is the fast/cheap tier that most consumer-facing products run on.</p>
-  <p class="meta">Anthropic · <a href="https://news.ycombinator.com/">HN Discussion</a></p>
-</div>
+  <h3><a href="https://simonwillison.net/2026/Oct/7/claude-haiku-5-5/">Claude Haiku 5.5</a></h3>
+  <p>Anthropic released
 </body>
 </html>
