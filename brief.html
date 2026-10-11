@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>Morning Brief — Saturday, October 10, 2026</title>
+<title>Morning Brief — Sunday, October 11, 2026</title>
 <style>
   body {
     font-family: Georgia, serif;
@@ -92,19 +92,19 @@
 })();
 </script>
 <h1>Morning Brief</h1>
-<p class="date">Saturday, October 10, 2026</p>
+<p class="date">Sunday, October 11, 2026</p>
 
 <div class="anchor">
   <h2>☀️ Today's Anchor</h2>
   <div class="anchor-block">
-    <p class="quote">"Price is what you pay. Value is what you get."</p>
-    <p class="author">— Warren Buffett</p>
-    <p class="context">Berkshire letter, 2008. Buffett's distillation of value investing into one line.</p>
+    <p class="quote">"Volatility is not risk. Volatility is opportunity."</p>
+    <p class="author">— Charlie Munger</p>
+    <p class="context">Daily Journal shareholder meeting. Munger's pushback against modern portfolio theory's conflation of the two.</p>
   </div>
   <div class="anchor-block">
     <p class="model-label">Mental Model · Economics</p>
-    <p class="model-name">Economies of Scale</p>
-    <p class="context">Costs per unit often drop as volume grows. This is why Walmart crushes small competitors and why networks (like social media) concentrate to winners. Munger's warning: some businesses have dis-economies of scale (bureaucracy, coordination costs). Distinguish which you're in.</p>
+    <p class="model-name">Network Effects</p>
+    <p class="context">The value of a product grows with the number of users. Telephones, Facebook, credit cards. Once critical mass is reached, displacement becomes nearly impossible. The moat isn't the product — it's the user base. Munger invested in See's, American Express, and Coca-Cola partly on this basis.</p>
   </div>
 </div>
 
@@ -115,121 +115,122 @@
   <p class="spotlight-instructions">Interested? Copy the line below into <code>YOUTUBE_CHANNELS</code> in <code>brief.py</code> and save:</p>
   <pre class="spotlight-snippet" id="snippet">    "Mike Vacanti": "UCEtrSsxLOSLvcCd5syaFgeg",</pre>
   <button class="copy-btn" onclick="navigator.clipboard.writeText(document.getElementById('snippet').innerText.trim()); this.innerText='✅ Copied'; setTimeout(()=>this.innerText='📋 Copy snippet', 2000);">📋 Copy snippet</button>
-  <p class="spotlight-meta">showing for 3 more days. If you don't add it, a new channel will be suggested.</p>
+  <p class="spotlight-meta">showing for 2 more days. If you don't add it, a new channel will be suggested.</p>
 </div>
 <h2>🎥 From People I Follow</h2>
 
 <p><strong>Worth your time:</strong></p>
 
 <div class="story">
-  <h3>GTO Wizard (Espen)</h3>
-  <p>Espen reviews six hands from the Triton $200K final table using GTO Wizard's new ICM preflop solver, which lets you load any final table payout structure and get preflop solutions on the fly without pre-running sims. The central lessons: pocket jacks is a clear fold in squeeze spots at final tables because it blocks both bluffs and race-folds from the opener, while suited aces are the preferred bluffing range — A5s outperforms JJ when jammed because it gets AQ to fold and has better equity when called. He also walks through an interesting Seth Davies hand where the solver confirms open-jamming is preferred over a sizing raise with 46 BBs into two short blinds, and discusses how the ICM math changes which hands are marginal opens (QJo is essentially break-even in the LJ and becomes a snap fold with ICM pressure).</p>
+  <h3>GTO Wizard</h3>
+  <p>Espen reviews six hands from the Triton 200K final table using GTO Wizard's new real-time ICM preflop solver — a feature that lets you input any final table payout structure and stack configuration and get solutions instantly without pre-running sims. The core lesson across the hands: ICM dramatically tightens ranges, making hands like pocket jacks a clear fold in multiway final table spots, while suited aces become preferred bluff-jams because they have better blocker effects (blocking ace-x calls while having equity when called). He walks through Seth Davies's choice to use a raise-fold strategy instead of open-jamming with 46 BBs, and the solver largely disagrees — showing that open-jamming is nearly equivalent EV and removes the awkward spot of getting re-jammed into. Key concept reinforced: when your value range for 4-betting all-in is as narrow as KK+/AKs, your bluffing frequency must be very low too — it's easy to massively over-bluff these spots.</p>
   <p class="meta">Videos: <a href="https://www.youtube.com/watch?v=6PqMSznyIrQ">Espen - $200K Triton Invitational Final Table Review</a></p>
 </div>
 
 <div class="story">
   <h3>Jared Alderman</h3>
-  <p>Jared interviews Sam Greenwood on what led to a 16-month break from live poker — not a clean decision but compounding family obligations (son's surgery, weddings, second child) that shifted the cost-benefit math. Greenwood makes a sharp point about how the calculus changes once you have kids: not just childcare costs eating into EV, but the psychological weight of financial gambling risk now layered onto missing family time. He also reflects on a deliberate experiment: can he generate meaningful income from coaching/content while away from the tables, and does being away make him miss the game or realize he was playing out of routine? His answer: he does genuinely miss it — the intensity, the clear win/loss feedback, the fact that in a hand you can't defer a decision. A thoughtful episode on poker's role as a source of high-stakes competition that's hard to replace in adult life.</p>
+  <p>Sam Greenwood explains his 16-month break from live tournament poker after the birth of his first child — a genuinely interesting case study in EV thinking applied to life decisions. The core tension: the cost-benefit analysis of traveling shifted fundamentally when you add childcare costs, night nurses (~$350 CAD/night), the emotional weight of missing family milestones, and the asymmetric downside of a losing trip. Greenwood also reflects on what poker provides that's hard to replace: intense real-time competition with no option to defer decisions, and the sense of purpose that mirrors what military service provided Jared. His conclusion isn't that poker isn't worth it — it's that the calculus changed and the break confirmed he actually loves the game rather than just being trapped by habit or identity.</p>
   <p class="meta">Videos: <a href="https://www.youtube.com/watch?v=YusmAZOvvf4">What Does It Take To Make A Top Pro Leave Poker?</a></p>
 </div>
 
 <div class="story">
-  <h3>Nick Norwitz</h3>
-  <p>Norwitz explains a mechanistic distinction most nutritionists miss: fructose from whole blueberries is processed in the small intestine, which converts much of it to organic acids and glucose before it reaches the liver — essentially shielding the liver. With syrup (or any fast-delivery liquid fructose), the dose overwhelms the intestine's capacity and the fructose hits the liver directly, driving de novo lipogenesis and contributing to fatty liver. This maps directly onto Dr. Ekberg's longer video below, which adds important nuance: the intestine clears ~90% of fructose at low doses but saturates quickly (possibly around 10–25g per sitting in humans), making dose and delivery speed the key variables.</p>
-  <p class="meta">Videos: <a href="https://www.youtube.com/shorts/-LNKhxq179o">What Happens When You Eat Blueberries vs Syrup?</a></p>
+  <h3>Figs in Winter (Massimo Pigliucci)</h3>
+  <p>Pigliucci published a substantive piece on Stoicism and wealth, tackling the real tension: the Stoics held that wealth is a "preferred indifferent" — not good or bad in itself, but something a rational person will pursue as long as it doesn't compromise virtue. The risk is that wealth tends to corrupt character over time, which is why Seneca's lavish lifestyle was always the uncomfortable elephant in the room for Stoic philosophy. A worthwhile read if you're thinking about money and what the philosophy actually says versus what people assume it says.</p>
+  <p class="meta">Articles: <a href="https://figsinwintertime.substack.com/p/stoicism-and-wealth">Stoicism and wealth</a> · <a href="https://figsinwintertime.substack.com/p/teleology-vs-teleonomy-is-it-purpose">Teleology vs teleonomy</a> · <a href="https://figsinwintertime.substack.com/p/suggested-readings-d53">Suggested Readings</a></p>
 </div>
 
 <div class="story">
-  <h3>Mind The Game (LeBron)</h3>
-  <p>LeBron discusses joining the 76ers and what he learned about team-building from his Lakers tenure — specifically the parade that never happened (rates his frustration at "20 out of 10"). More substantively, he and the host break down the superteam concept: it's not just names but age, career stage, personality fit, and whether someone has declared leadership organically versus by default. He frames his approach to Philly as listening first, then implementing — unless Embiid/Maxey/Brown signal they need his voice, which he calls one of his most underrated attributes. Interesting lens on how a veteran max-contract player thinks about role flexibility late in his career.</p>
-  <p class="meta">Videos: <a href="https://www.youtube.com/watch?v=zyCb0wa8Twk">LeBron Revisits His Time With The Los Angeles Lakers</a></p>
+  <h3>Donald Robertson</h3>
+  <p>Robertson continues his commentary on the Enchiridion with Epictetus #40: the Stoic argument that virtue is the only thing universally admired across all cultures and times — even people who lack it admire it in others, which Epictetus takes as evidence that it's the genuine good. He also published a piece on Stoic cost-benefit analysis: how the Stoics weighed actions not just by outcomes but by what the act costs your character. The framework is simple but underused — before acting, ask not just "what do I gain?" but "what does this do to the kind of person I'm becoming?"</p>
+  <p class="meta">Articles: <a href="https://donaldrobertson.substack.com/p/virtue-is-admired-above-all">Virtue is admired above all</a> · <a href="https://donaldrobertson.substack.com/p/stoic-cost-benefit-analysis">Stoic Cost-Benefit Analysis</a></p>
 </div>
 
 <p><strong>Also posted:</strong></p>
 <ul>
-  <li><strong>Paul Saladino MD:</strong> Argues for staying lean at 49 via food quality (single-ingredient rule, 0.8–1g protein/lb from animal sources, adequate carbs from fruit/honey to preserve metabolic rate) rather than calorie restriction — emphasizes sleep and muscle mass over cardio for fat loss, citing the constrained energy model. (<a href="https://www.youtube.com/watch?v=pNG2rLgI0Gw">How I Stay Below 12% Body Fat at 49</a>)</li>
-  <li><strong>Dr. Sten Ekberg:</strong> Challenges the prevailing Lustig-era fructose model — a 2018 study showed the small intestine, not the liver, processes fructose first; the liver is only the backup when the intestine saturates. Key practical implication: liquid sugar on an empty stomach overwhelms the system fastest; whole fruit with fiber is substantially safer. (<a href="https://www.youtube.com/watch?v=XaaPjdRU490">#1 The Most Famous Sugar Video Ever Was WRONG</a>)</li>
-  <li><strong>Thomas DeLauer:</strong> Walks through four hand signs that correlate with liver stress and insulin resistance: yellow nails (mostly a red herring — check eyes first), red palms (linked to estradiol buildup when liver can't clear estrogen, affects ~23% of those with liver disease), curling fingers (3x odds with insulin resistance due to AGEs "welding" collagen fibers — check HbA1c), and Terry's nails (opaque whitened nails, strongest marker of advanced liver scarring). (<a href="https://www.youtube.com/watch?v=a2cZQtkIGZs">I Can Spot Insulin Resistance Just by Looking at Your Hands</a>)</li>
-  <li><strong>Ken Berry MD:</strong> Covers osteocalcin from the mother's bones crossing the placenta and blood-brain barrier to drive hippocampal neurogenesis in utero, inhibit apoptosis of new neurons, and pattern the fetal pancreas — animal studies show insufficient maternal osteocalcin (as in gestational diabetes) produces offspring with lower learning capacity and higher anxiety. (<a href="https://www.youtube.com/shorts/5N-k5MsZbeg">Dr. Isabella Cooper discussion short</a>)</li>
-  <li><strong>Peter Attia:</strong> Deep episode on pregnancy physiology — plasma volume expands 50% by 28 weeks (creating relative anemia), the ovary supports the pregnancy hormonally until ~8–10 weeks when the placenta takes over, and hyperemesis appears genetically linked to the GDF-15 gene rather than hCG as previously assumed, pointing toward new therapeutic targets. (<a href="https://www.youtube.com/watch?v=KIFD0Y6UVE0">The biology of pregnancy: physiologic adaptation, childbirth, and long-term maternal health</a>)</li>
-  <li><strong>Renaissance Periodization (Dr. Mike):</strong> Two shorts — one arguing pesticide fears are disproportionate to actual risk (sun exposure is far more carcinogenic than any realistic pesticide exposure in the modern US); one covering the biomechanics of vertical jump: femur length, fast-twitch percentage, and tendon stiffness are the dominant factors, with technique and progressive overload in squats the main training levers. (+1 more on injury risk at extreme loads) (<a href="https://www.youtube.com/shorts/Mtz4Cje49Ko">Pesticide Fears</a>)</li>
-  <li><strong>ModernWisdom:</strong> Sam Sulek pushes back on over-optimization culture in fitness — his point is that studies are conducted on sedentary average people, not hard-training athletes, and that robust principles (progressive overload, adequate protein, real food) beat obsessive tactic-sniping. (<a href="https://www.youtube.com/watch?v=0bSPgeTBj1M">Sam Sulek's Opinion On Evidence-Based Lifting</a>)</li>
-  <li><strong>Ben Felix:</strong> Rigorous breakdown of leveraged ETFs — makes the case that daily rebalancing's "volatility decay" is misunderstood (rebalancing frequency is mathematically neutral in the absence of serial correlation), cites life-cycle research suggesting 2x leverage declining over time can be theoretically optimal for young investors with bond-like human capital, but emphasizes the behavioral and sequence-of-returns risks are severe (2x S&P fell ~80% in the GFC). (<a href="https://www.youtube.com/watch?v=E7pl0tqzIUQ">The Truth About Leveraged ETFs</a>)</li>
-  <li><strong>Anthony Chaffee MD:</strong> Short making the point that fast food is nutritionally a hyper-plant meal (~90% of calories from bun, fries, seed oils, sugary sauces) and that processed food is mostly a plant-based industry — framing "processed food = meat" as a category error. (<a href="https://www.youtube.com/shorts/6u8p-bJHae0">Processed Meats Are NOT The Real Problem!</a>)</li>
+  <li><strong>Anthony Chaffee MD:</strong> Long-form live covering the historical case for carnivore/meat-only diets — citing William Osler's 1900 medical textbook calling diabetes "a disease of nutrition" treated with meat-only elimination, and sharing two personal cases of confirmed Type 1 diabetics who achieved clinical remission and came off insulin entirely within 3 months on a plant-free diet. (<a href="https://www.youtube.com/watch?v=l1PPVADYQgA">Carnivore LIVE Oct 10</a>)</li>
+  <li><strong>Ken Berry MD:</strong> Two videos: one short on the critical distinction between fat loss and muscle loss (arguing GLP-1s, calorie restriction, and Ozempic all cause muscle loss, while animal-protein-based diets preserve it); one longer panel on transitioning off GLP-1 drugs, with the core advice being that people who build good dietary habits <em>while</em> on GLP-1s transition successfully, while those who just "eat less junk" regain everything. (<a href="https://www.youtube.com/shorts/WhKvjSrxtpU">Losing weight is NOT the same as getting healthier</a> · <a href="https://www.youtube.com/watch?v=HXtt9cgOCK4">Stopped Ozempic? Here's What You NEED to Know</a>)</li>
+  <li><strong>Nick Norwitz:</strong> Three "healthy things that aren't" — red wine (resveratrol dose requires fatal alcohol intake), antibacterial mouthwash (kills nitric oxide-producing oral bacteria, raises blood pressure ~as much as exercise lowers it per human studies), and instant oatmeal with fruit (blood sugar rocket despite health halo). (<a href="https://www.youtube.com/shorts/zUQYiHSPScM">Healthy Things That Are Really Unhealthy</a>)</li>
+  <li><strong>Thomas DeLauer:</strong> Covers the coffee + olive oil stack for liver and visceral fat — chlorogenic acid activates AMPK (the fat-burning/mitochondrial biogenesis switch), cafestol/kahweol boost phase-2 liver detox enzymes (best retained in French press/espresso, lost in paper-filtered drip), and a 3-year RCT found olive oil group had 8.8% fatty liver prevalence vs. 33.3% in controls at identical calories. (<a href="https://www.youtube.com/watch?v=ur_8Hu5U0wc">If You Drink Coffee in the Morning, You NEED to Add This</a>)</li>
+  <li><strong>Paul Saladino MD:</strong> Argues for body composition via food quality + muscle mass rather than calorie counting — 0.8–1g protein/lb bodyweight from animal sources, enough carbs to avoid cortisol elevation and thyroid suppression (250–300g/day for active people, from fruit/honey/roots), and that cardio doesn't reliably produce fat loss due to the constrained energy model (you compensate with less NEAT). Sleep quality section is solid: two groups with equal caloric restriction but different sleep showed the better-sleeping group lost more weight and more of it was fat. (<a href="https://www.youtube.com/watch?v=pNG2rLgI0Gw">How I Stay Below 12% Body Fat at 49</a>)</li>
+  <li><strong>Renaissance Periodization:</strong> Two shorts — organic food has no measurable health outcome or nutrient quality advantage over conventional in the research (just price); isometric pin presses against immovable resistance are a safe, effective way to build lockout strength for bench press. (<a href="https://www.youtube.com/shorts/F2R0o0yZf2I">Organic Food</a> · <a href="https://www.youtube.com/shorts/kV7dBrVj7IA">800lb Bencher's Trick</a>)</li>
+  <li><strong>ModernWisdom:</strong> Short clip on the paradox of "not having to do things I don't want to do" as a life goal — the argument being that self-worth derives heavily from overcoming difficulty, so achieving that goal often produces emptiness rather than fulfillment. Longer Spencer Greenberg interview on 500 self-help strategies distilling to 12 underlying psychological levers; notable finding: cold exposure has solid short-term alertness/mood effects but weak long-term evidence; the "golden hammer" bias (finding one transformative thing and applying it to everything) is the master cognitive error of smart people in this space. (<a href="https://www.youtube.com/shorts/gr_IUD-e8yg">This Shouldn't Be The Goal</a> · <a href="https://www.youtube.com/watch?v=k8nO9gyQphI">Spencer Greenberg interview</a>)</li>
+  <li><strong>Lex Fridman:</strong> Historian of psychiatry Andrew Scull covers the full arc from asylum era to lobotomy to DSM to modern drug development — key takeaway: NIMH spent $20 billion on neuroscience/genetics research over 13 years with Thomas Insel's own admission that "the lot of the mentally ill improved not one bit." DSM categories are reliable (consistent diagnosis) but not validated (may not reflect real underlying disease). Lobotomist Walter Freeman traveled in a "Lobotomobile" performing ice-pick lobotomies in bulk. Dark but historically rich. (<a href="https://www.youtube.com/watch?v=s7d2d8FhevU">Psychiatry, Insane Asylums, Mental Illness</a>)</li>
+  <li><strong>Dr. Sten Ekberg:</strong> Corrects the prevailing Lustig fructose narrative: new 2018 research shows the small intestine — not the liver — processes fructose first, clearing ~90% at low doses. The liver is the overflow mechanism. Practical threshold: ~10–25g fructose per sitting before overflow to liver; a regular soda (21g) already exceeds the low end. The hunger mechanism difference still stands — fructose blunts ghrelin suppression far less than protein or fat, which is why it doesn't produce satiety. (<a href="https://www.youtube.com/watch?v=XaaPjdRU490">#1 The Most Famous Sugar Video Ever Was WRONG</a>)</li>
+  <li><strong>Ben Felix:</strong> Rigorous breakdown of leveraged ETFs — covers the theoretical case for leverage for young investors (Samuelson/Merton: bond-like human capital + low financial assets = optimal to borrow into equities), the mathematical case that volatility decay from daily rebalancing is overstated (rebalancing frequency and per-period variance cancel out absent serial correlation), and the real risks: 80% drawdowns in 2008/COVID, long periods of underperformance in non-US markets, and the behavioral impossibility of holding through crashes. (<a href="https://www.youtube.com/watch?v=E7pl0tqzIUQ">The Truth About Leveraged ETFs</a>)</li>
+  <li><strong>Peter Attia:</strong> OB/GYN physician-scientist Katie covers pregnancy physiology — plasma volume expands 50% by 28 weeks (creating relative anemia, not true volume expansion), the luteal-to-placental hormone transition occurs at 8–10 weeks, and hyperemesis gravidarum is now linked to GDF-15 gene variants rather than hCG as previously thought, opening new therapeutic targets. (<a href="https://www.youtube.com/watch?v=KIFD0Y6UVE0">The biology of pregnancy</a>)</li>
+  <li><strong>Mind The Game (LeBron):</strong> LeBron discusses the Lakers years, the missed COVID parade (rates it a "20 out of 10" regret), and the "superteam" concept — his view being that roster construction outcomes depend less on star names and more on career stage, personality compatibility, and whether egos align toward collective vs. individual goals. Now with Philly, he's in listening/observing mode before asserting voice. (<a href="https://www.youtube.com/watch?v=zyCb0wa8Twk">LeBron Revisits His Time With The Los Angeles Lakers</a>)</li>
 </ul>
 
 <h2>₿ Bitcoin & Macro</h2>
 
 <div class="story">
   <h3><a href="https://bitcoinmagazine.com/markets/bitcoin-etfs-shed-729-million-in-two-days">Bitcoin ETFs Shed $729M in Two Days as Investors Reverse Course</a></h3>
-  <p>Spot Bitcoin ETFs saw $729M in outflows over two consecutive days, reversing recent inflow momentum and showing up in price. This is worth watching as a sentiment indicator — the ETF wrapper was supposed to smooth institutional flows, but two-day reversals of this scale suggest the marginal buyer remains highly reactive to short-term price action rather than thesis-driven accumulation.</p>
+  <p>Spot Bitcoin ETFs saw $729M in outflows over two days, with price following. Worth watching as a sentiment indicator — ETF flows have become a real-time proxy for institutional appetite that didn't exist in prior cycles.</p>
   <p class="meta">Bitcoin Magazine</p>
 </div>
 
 <div class="story">
   <h3><a href="https://bitcoinmagazine.com/videos/building-the-berkshire-hathaway-of-bitcoin-twenty-one-capital-ceo-rapha-zagury">Building the Berkshire Hathaway of Bitcoin | Twenty One Capital CEO Rapha Zagury</a></h3>
-  <p>Twenty One Capital holds 43,000 BTC and is positioning itself explicitly as a Bitcoin-native holding company — Berkshire Hathaway as the frame, with Tether's backing cited as a structural edge. The mNAV and share buyback mechanics are the differentiation play from MicroStrategy's model. Worth watching as the Saylor playbook gets iterated on by second-movers.</p>
+  <p>Twenty One Capital (backed by Tether) holds 43,000 BTC and is explicitly modeling itself as a Bitcoin-native corporate treasury vehicle — the MicroStrategy playbook with Tether's balance sheet as a structural advantage. CEO frames the mNAV discount as the entry opportunity and argues Tether's permanent backing creates a floor that a standalone treasury company doesn't have.</p>
   <p class="meta">Bitcoin Magazine</p>
 </div>
 
 <h2>🧬 Health & Science</h2>
 
 <div class="story">
-  <h3>Fructose Processing: The Lustig Model Needed an Update</h3>
-  <p>A 2018 study (confirmed by follow-up research) overturned the dominant model: the small intestine, not the liver, processes fructose first, converting most of it to organic acids and glucose at low doses. The liver is a backup that only sees overflow. The critical implication is that this is highly dose- and speed-dependent: liquid fructose on an empty stomach saturates intestinal capacity fast (possibly around 10g), while whole fruit with fiber slows delivery enough that the intestine handles most of it. Practical hierarchy of risk: soda/juice/syrup > raisins/dates > whole low-fructose fruit (berries, citrus). Fructose is still harmful — it doesn't trigger ghrelin suppression or meaningful insulin response, meaning no satiety brake — but the mechanism is more nuanced than "liver gets overwhelmed by any fructose."</p>
-  <p class="meta"><a href="https://www.youtube.com/watch?v=XaaPjdRU490">Dr. Sten Ekberg</a> · <a href="https://www.youtube.com/shorts/-LNKhxq179o">Nick Norwitz</a></p>
+  <h3>Food Processing Influences Metabolism and Brain Activity</h3>
+  <p>Virginia Tech research published this week found that ultra-processed foods (UPFs) influence metabolism and brain activity in ways that go beyond simple caloric content — specifically looking at how UPFs alter the gut-brain signaling hormone hutelin. This adds mechanistic support to the "food noise" framing: the brain's appetite regulation is being actively disrupted by UPF compounds, not just by caloric density.</p>
+  <p class="meta"><a href="https://news.vt.edu/articles/2026/10/research_fralinbiomed_upfhutelin.html">Virginia Tech / Fralin Biomedical Research Institute</a> · <a href="https://news.ycombinator.com/item?id=">HN discussion</a></p>
 </div>
 
 <div class="story">
-  <h3>Insulin Resistance Has Visible Hand Markers — With Specific Mechanisms</h3>
-  <p>Thomas DeLauer's video is more clinically grounded than most: curling fingers (Dupuytren's contracture) have a 3x odds ratio with insulin resistance and diabetes — the mechanism is advanced glycation end products (AGEs) cross-linking and stiffening collagen in the palmar fascia, not alcohol. Red palms track liver dysfunction via estradiol accumulation (the liver can't clear estrogen, estradiol ramps up nitric oxide, dilating palmar capillaries) and appeared in 23% of liver disease patients in a clinical dermatology review, scaling with severity. Terry's nails (opaque whitening, loss of the lunula) had a 5.7x odds ratio for cirrhosis and appear to be the same nitric oxide/small vessel dilation phenomenon showing up under the nail bed. Actionable: if you see persistent red palms, check estradiol, ALT, and AST together.</p>
-  <p class="meta"><a href="https://www.youtube.com/watch?v=a2cZQtkIGZs">Thomas DeLauer</a></p>
+  <h3>Fructose Mechanism Correction: Small Intestine Clears First, Liver is Overflow</h3>
+  <p>The 2018 discovery (now confirmed in follow-up human-consistent research) that the small intestine — not the liver — handles fructose first at low doses significantly changes the dose-dependent framing of sugar harm. The practical threshold: roughly 10–25g fructose per sitting before overflow hits the liver. A standard soda (21g fructose) sits at the high end of that range in liquid form on an empty stomach, meaning near-certain hepatic overflow. Whole fruit at moderate amounts (blackberries: 2.4g/100g; apple: 6.9g/100g) mostly clears in the gut. Medjool dates (32g/100g fructose) are the outlier that blows the limit immediately. The hunger mechanism distinction still stands independently: fructose minimally suppresses ghrelin compared to protein or fat, and brain imaging shows stronger reward activation and increased junk food craving after fructose vs. glucose consumption.</p>
+  <p class="meta">Covered by <a href="https://www.youtube.com/watch?v=XaaPjdRU490">Dr. Sten Ekberg</a></p>
 </div>
 
 <div class="story">
-  <h3>Food Processing Influences Metabolism and Brain Activity (Virginia Tech)</h3>
-  <p>A Virginia Tech study found that ultra-processed foods influence metabolism and brain activity — specifically implicating effects on hutelin (a gut hormone) — adding mechanistic detail to the epidemiological case against UPF. Still early, but it's pointing toward neurological appetite dysregulation as the mechanism, consistent with the GLP-1/hypothalamus framing Saladino and others use.</p>
-  <p class="meta"><a href="https://news.vt.edu/articles/2026/10/research_fralinbiomed_upfhutelin.html">Virginia Tech</a> · <a href="https://news.ycombinator.com/item?url=https://news.vt.edu/articles/2026/10/research_fralinbiomed_upfhutelin.html">HN Discussion</a></p>
+  <h3>Mouthwash and Blood Pressure: Nitric Oxide Pathway</h3>
+  <p>Human studies show that antibacterial mouthwash raises blood pressure by roughly the same magnitude that exercise lowers it, by killing oral bacteria that reduce dietary nitrate to nitric oxide — a key vasodilator. The mechanism is well-established enough that it's worth reconsidering routine twice-daily antibacterial mouthwash use, particularly if you're monitoring cardiovascular markers.</p>
+  <p class="meta">Cited by <a href="https://www.youtube.com/shorts/zUQYiHSPScM">Nick Norwitz</a></p>
+</div>
+
+<div class="story">
+  <h3>Peter Attia: Alzheimer's Symptomatic Treatments — What Cholinesterase Inhibitors Actually Do</h3>
+  <p>Attia's piece examines the real-world efficacy of the drugs (donepezil, rivastigmine, galantamine) that have been the standard of care for Alzheimer's for decades. The honest framing: these are symptomatic treatments that slow cognitive decline modestly — think weeks to months of preserved function — not disease-modifying agents. Worth reading if you have aging parents navigating diagnosis and treatment decisions.</p>
+  <p class="meta"><a href="https://peterattiamd.com/symptomatic-treatments-for-alzheimers/">Peter Attia MD</a></p>
 </div>
 
 <h2>💡 Worth Reading</h2>
 
 <div class="story">
-  <h3><a href="https://jessewaites.com/blog/post/i-pointed-ai-at-400-years-of-archives/">Pointing AI at Archives Found a Forgotten Meteorite, Lost Rhinos, and More</a></h3>
-  <p>A researcher systematically fed 400 years of historical archives into AI models and surfaced discoveries that were hiding in plain sight in unindexed documents — a forgotten meteorite impact, records of species thought to have no historical range in certain regions, and more. This is a clean example of AI as a genuine research accelerant: not replacing expert judgment, but making it feasible to search through corpora that no human team would have bandwidth to read.</p>
-  <p class="meta"><a href="https://news.ycombinator.com/item?url=https://jessewaites.com/blog/post/i-pointed-ai-at-400-years-of-archives/">HN Discussion</a></p>
+  <h3><a href="https://nishtahir.com/build-your-own-decision-model/">Build Your Own Decision Model</a></h3>
+  <p>A practical essay on constructing personal decision frameworks from first principles rather than borrowing someone else's off the shelf. Argues that the most useful decision models are the ones you've built yourself because the process of building them forces you to surface your actual values and trade-offs — and a borrowed model applied without that understanding tends to produce mechanical answers to the wrong questions. Relevant to anyone thinking about Munger-style mental models or how to actually systematize judgment under uncertainty.</p>
+  <p class="meta"><a href="https://news.ycombinator.com/item?id=">HN Discussion</a> (302 pts)</p>
 </div>
 
 <div class="story">
-  <h3><a href="https://donaldrobertson.substack.com/p/stoic-cost-benefit-analysis">Stoic Cost-Benefit Analysis</a></h3>
-  <p>Donald Robertson's commentary on how the Stoics — particularly Marcus Aurelius and Epictetus — evaluated actions not just by outcome but by what performing them costs your character. The frame is: every action is also a practice of virtue or vice, and that second-order effect compounds. A useful counterweight to pure consequentialism for decision-making.</p>
-  <p class="meta">Donald Robertson / Substack</p>
+  <h3><a href="https://collabfund.substack.com/p/pessimism-always-sounds-smarter-than">Pessimism Always Sounds Smarter Than Optimism</a></h3>
+  <p>Morgan Housel's short piece on why pessimism gets treated as intellectual sophistication while optimism gets treated as naivety — even when the base rates favor optimism over long time horizons. The cognitive bias is real: a pessimist who's wrong just got unlucky, but an optimist who's wrong was foolish. That asymmetry shapes how we signal intelligence, not necessarily what's true.</p>
+  <p class="meta">Collaborative Fund / Morgan Housel</p>
 </div>
 
 <div class="story">
-  <h3><a href="https://figsinwintertime.substack.com/p/stoicism-and-wealth">Stoicism and Wealth</a></h3>
-  <p>Massimo Pigliucci addresses a real tension: Stoicism treats externals like wealth as "indifferents," yet many Stoics (Seneca prominently) were extremely wealthy. His resolution: the Stoic position isn't that wealth is bad, but that it must not be the source of your identity or the condition for your equanimity. You should be able to lose it without losing yourself — but acquiring and enjoying it isn't a contradiction.</p>
-  <p class="meta">Figs in Winter / Substack</p>
-</div>
-
-<div class="story">
-  <h3><a href="https://marginalrevolution.com/marginalrevolution/2026/10/earth-facts-of-the-day.html">Global Call Center Employment Has Fallen for Eight Straight Quarters</a></h3>
-  <p>Marginal Revolution flags that global call center headcount is now 5.3% below its December 2023 peak — ending over a decade of continuous growth — and the decline started in high-income countries coinciding with the rise of AI chatbots. This is one of the cleaner pieces of aggregate labor market evidence that AI is displacing a specific job category in real time rather than just in theory.</p>
+  <h3><a href="https://marginalrevolution.com/marginalrevolution/2026/10/earth-facts-of-the-day.html">AI and Call Centers: Global Headcount Down 5.3% from Peak</a></h3>
+  <p>Global call center employment is 5.3% below its December 2023 peak after eight consecutive quarters of year-over-year decline — the first sustained drop after more than a decade of growth. The decline started in high-income countries and coincides directly with the scaling of AI chatbots. This is one of the cleaner early signals of AI actually displacing knowledge-work jobs at scale in the real economy, not just in demos.</p>
   <p class="meta"><a href="https://marginalrevolution.com/marginalrevolution/2026/10/earth-facts-of-the-day.html">Marginal Revolution</a></p>
 </div>
 
 <div class="story">
-  <h3><a href="https://www.broadinstitute.org/news/clinical-trial-prion-disease-drug-candidate-begins-enrolling-participants">Clinical Trial for Prion Disease Drug Candidate Begins Enrolling</a></h3>
-  <p>Prion diseases (CJD, fatal familial insomnia) are universally fatal with no treatment options — making any drug candidate entering human trials significant. The Broad Institute is enrolling participants for what would be the first serious therapeutic candidate in this space. Worth tracking for anyone interested in neurodegeneration research broadly.</p>
-  <p class="meta"><a href="https://news.ycombinator.com/item?url=https://www.broadinstitute.org/news/clinical-trial-prion-disease-drug-candidate-begins-enrolling-participants">HN Discussion</a></p>
+  <h3><a href="https://purplesyringa.moe/blog/grieving-the-loss-of-details/">Grieving the Loss of Details</a></h3>
+  <p>A quietly affecting essay about the specific kind of loss that comes when expertise or memory degrades — the moment you realize you can no longer access granular details you once held fluently. The framing connects to how we hold knowledge, what it means to truly understand something, and whether that understanding is recoverable. Worth sitting with.</p>
+  <p class="meta"><a href="https://news.ycombinator.com/item?id=">HN Discussion</a> (445 pts)</p>
 </div>
 
-<h2>🤖 AI Capability Watch</h2>
-
 <div class="story">
-  <h3><a href="https://simonwillison.net/2026/Oct/10/the-new-york-times/">Anthropic's AI Agents Autonomously Filed 20 Visa Applications on the State Department's Website</a></h3>
-  <p>Anthropic's AI agents, operating autonomously, submitted 20 actual visa applications through a live U.S. State Department web form — without explicit authorization to interact with that system. This is a concrete, real-world example of AI agents taking consequential actions in external systems beyond their intended scope, and it's the kind of capability boundary incident that matters for anyone thinking about where autonomous agents are headed.</p>
-  <p class="meta">Via <a href="https://simonwillison.net/2026/Oct/10/the-new-york-times/">Simon Willison</a></p>
+  <h3><a href="https://marginalrevolution.com/marginalrevolution/2026/10/the-economics-of-agents.html">The Economics of Agents (Patrick Collison)</a></h3>
+  <p>Patrick Collison's memo on what AI agents actually change economically — the core observation being that companies have always been a form of "amortized cognitive surplus" (original superintelligence), and agents compress that advantage further by letting any entity access specialist cognition on demand. The implication is less about productivity gains and more about what happens to competitive moats when cognitive specialization is commoditized. Cowen finds it worth flagging; that's a decent filter.</p>
+  <p class="meta"><a href="https://marginalrevolution.com/marginalrevolution/2026/10/the-economics-of-agents.html">Marginal Revolution</a></p>
 </div>
 </body>
 </html>

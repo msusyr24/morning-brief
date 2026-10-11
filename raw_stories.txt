@@ -1,161 +1,119 @@
 === HACKER NEWS ===
-1. [424 pts] REA Reverse – Engineer Anything
-   https://rea.tools/
+1. [86 pts] LineageOS 24.0
+   https://lineageos.org/Changelog-32/
 
-2. [174 pts] Telegram Desktop vulnerability allowed any user's file to be stolen
-   https://beaksec.github.io/posts/telegram-desktop-one-click-account-takeover/
+2. [302 pts] Build your own decision model
+   https://nishtahir.com/build-your-own-decision-model/
 
-3. [1230 pts] Cloudflare acquires Deno
-   https://deno.com/blog/cloudflare
+3. [474 pts] 2D Vehicles
+   https://patkerr.co.uk/2d-vehicles/
 
-4. [969 pts] Triple-A Minesweeper
-   https://minesweeper.mikelacher.com/
+4. [344 pts] A city-building game in which the city would prefer you didn't
+   https://housing.over.pizza/
 
-5. [76 pts] Computers Cannot Make Decisions
-   https://wiki.cateat.fish/art:computers_cannot_make_decisions
+5. [32 pts] How big is a Git commit?
+   https://ratfactor.com/cards/git-commit-size
 
-6. [158 pts] Eye of Sauron: Long-Range Hidden Spy Camera Detection
-   https://www.usenix.org/conference/usenixsecurity24/presentation/zhang-qibo
+6. [419 pts] The Lightbulb Computer
+   https://lightbulbcomputer.com/
 
-7. [14 pts] Cube Type – Isometric Typography Generator
-   https://typeincube.com/
+7. [88 pts] PSPi 6 – Raspberry Pi in a PSP
+   https://github.com/othermod/PSPi-Version-6
 
-8. [29 pts] Food processing influences metabolism and brain activity
+8. [65 pts] Decade-old RAM is making a comeback
+   https://www.theverge.com/games/1009140/ram-shortage-intel-amd-ddr4-comeback
+
+9. [65 pts] Retrofitting language models to operate over bytes
+   https://www.nature.com/articles/s41586-026-11111-4
+
+10. [198 pts] Nix wrote half of my debugger
+   https://fzakaria.com/2026/10/07/nix-wrote-half-of-my-debugger
+
+11. [190 pts] 3rd Yandex Cloud Data Center Was Hit
+   https://status.yandex.cloud/en/incidents/2136
+
+12. [44 pts] Show HN: Happy Hangul Day! An RNN for Generating Korean Handwriting Strokes
+   https://hangul.ink/blog/hangul-day
+
+13. [40 pts] European Alternatives
+   https://buy-european.net/en/alternatives
+
+14. [294 pts] Talorys – A self-hosted personal AI agent on Cloudflare's free tier
+   https://github.com/rociiu/talorys
+
+15. [194 pts] Knuth reward check
+   https://www.thomas-huehn.com/knuth-reward-check/
+
+16. [34 pts] I wish you the best in the Offline
+   https://daverupert.com/2026/09/i-wish-you-the-best-in-the-offline/
+
+17. [135 pts] Five months treating bugs like patients and coding agents like a medical team
+   https://www.cockroachlabs.com/blog/experiment-running-hospital-code/
+
+18. [192 pts] Mxc: Microsoft Execution Containers version 1.0.0
+   https://blogs.windows.com/windowsdeveloper/2026/10/07/microsoft-execution-containers-policy-driven-containment-for-ai-agents/
+
+19. [5 pts] Cyril Hilsum invented the flat-screen displays that hold us in thrall
+   https://www.economist.com/obituary/2026/10/08/cyril-hilsum-invented-the-flat-screen-displays-that-hold-us-in-thrall
+
+20. [6 pts] The Marriage That Captures a High Point of American Art
+   https://www.theatlantic.com/culture/2026/10/jackson-pollock-lee-krasner-met-review/688916
+
+21. [22 pts] Deterministic Simulation Testing in Celld
+   https://celld.dev/docs/engineering/deterministic-simulation-testing/
+
+22. [49 pts] Show HN: Diffle, a keyboard-centric diff viewer with LSP support
+   https://github.com/moritzwilksch/diffle
+
+23. [148 pts] OpenSCAD the Programmers Solid 3D CAD Modeller
+   https://openscad.org/
+
+24. [162 pts] Unikernels were hard. key word: were
+   https://ghuntley.com/unikernels/
+
+25. [94 pts] GameBoy on E-Paper ESP32 at 30FPS [video]
+   https://www.youtube.com/watch?v=XiZmM6hwwAU
+
+26. [155 pts] Food processing influences metabolism and brain activity
    https://news.vt.edu/articles/2026/10/research_fralinbiomed_upfhutelin.html
 
-9. [88 pts] Can you use autoregressive diffusion to generate market data?
-   https://blog.janestreet.com/can-you-use-autoregressive-diffusion-to-generate-market-data/
+27. [150 pts] C for Rust programmers
+   https://bd103.dev/blog/2026-10-07-c-for-rust-programmers/
 
-10. [8 pts] WSL3 Performance is about 5-60% faster than WSL2 depending on the workload
-   https://tonym.us/wsl2-vs-wsl3-benchmarks.html
+28. [78 pts] Getting old Macromedia Director Games to run on modern Hardware
+   https://werwolv.net/posts/macromedia_copy_protection/
 
-11. [32 pts] How to head into VR without wearing a headset
-   https://www.kyushu-u.ac.jp/en/researches/view/414/
+29. [445 pts] Grieving the loss of details
+   https://purplesyringa.moe/blog/grieving-the-loss-of-details/
 
-12. [375 pts] Typesafe AI raises $870M at $7.5B
-   https://typesafe.ai/blog/series-ai
-
-13. [323 pts] Show HN: Carrier-Explode: iPhone, Pixel and Galaxy carrier settings decoded
-   https://carrierexplode.com/
-
-14. [79 pts] Compiling Rust to readable C with Eurydice
-   https://lwn.net/Articles/1055211/
-
-15. [22 pts] I tried to move my notes out of Emacs. I failed. Again
-   https://baty.net/posts/2026/10/i-tried-to-move-my-notes-out-of-emacs-i-failed/
-
-16. [70 pts] Clinical trial of a prion disease drug candidate begins enrolling participants
-   https://www.broadinstitute.org/news/clinical-trial-prion-disease-drug-candidate-begins-enrolling-participants
-
-17. [147 pts] Pointing AI at archives found a forgotten meteorite, lost rhinos, and more
-   https://jessewaites.com/blog/post/i-pointed-ai-at-400-years-of-archives/
-
-18. [117 pts] What mathematicians should know about the Lean Theorem Prover: reliability & AI
-   https://terrytao.wordpress.com/2026/10/09/what-mathematicians-should-know-about-the-lean-theorem-proverquestions-of-reliability-and-ai/
-
-19. [83 pts] Show HN: Proton Drive for Linux
-   https://oss.lsantos.dev/proton-drive-linux-fs/
-
-20. [121 pts] Scam American companies are using to manipulate ingredient lists
-   https://twitter.com/WallStreetApes/status/2108594998656807078
-
-21. [575 pts] YouTuber Says Cops Visited Him After He Built a Flock-Style Camera to Track Cops
-   https://gizmodo.com/youtuber-says-cops-paid-him-a-visit-after-he-built-flock-style-camera-to-track-cops-2000824306
-
-22. [213 pts] 'Wallace and Gromit,' 90% Alone
-   https://animationobsessive.substack.com/p/wallace-and-gromit-90-alone
-
-23. [659 pts] Our $445M Series D
-   https://oxide.computer/blog/our-445m-series-d
-
-24. [83 pts] The role of cat eye narrowing movements in cat–human communication (2020)
-   https://www.nature.com/articles/s41598-020-73426-0
-
-25. [14 pts] Vegetative Electron Microscopy WTF? (2025)
-   https://www.sciencebase.com/science-blog/vegetative-electron-microscopy.html
-
-26. [17 pts] Communication Between the Compiler, the Build System, and Beyond
-   https://shrub.industries/words/problem.html
-
-27. [900 pts] Sorry, I'm in a meeting
-   https://iminafleeting.com/
-
-28. [130 pts] Show HN: The rarest tech books and docs you've probably never read
-   https://readrare.com/
-
-29. [70 pts] 100+ reactions to 100+ solutions
-   https://proofsandprompts.com/2026/10/08/100-reactions-to-100-solutions/
-
-30. [217 pts] Programming Isn't Special
-   https://blog.glyph.im/2026/10/programming-isnt-special.html
+30. [94 pts] 500B Tokens Later: Letting AI Agents Decompile a First-Person Shooter
+   https://momo5502.com/posts/2026-10-09-game-decompilation/
 
 
 === RSS ===
-[ideas] Paul Graham: Making Startups Powerful
-  https://paulgraham.com/powerful.html
+[wisdom] Figs in Winter (Pigliucci): Suggested Readings
+  https://figsinwintertime.substack.com/p/suggested-readings-d53
 
-[ideas] Paul Graham: How Universities Should Prepare Founders
-  https://paulgraham.com/prepare.html
+[wisdom] Figs in Winter (Pigliucci): Stoicism and wealth
+  https://figsinwintertime.substack.com/p/stoicism-and-wealth
 
-[ai] Simon Willison: Quoting The New York Times
-  https://simonwillison.net/2026/Oct/10/the-new-york-times/
+[wisdom] Figs in Winter (Pigliucci): Teleology vs teleonomy: is it purpose, or does it just look like it?
+  https://figsinwintertime.substack.com/p/teleology-vs-teleonomy-is-it-purpose
 
-[ai] Simon Willison: Deno is joining Cloudflare
-  https://simonwillison.net/2026/Oct/9/deno-is-joining-cloudflare/
+[ideas] Marginal Revolution: What should I ask Fuchsia Dunlop?
+  https://marginalrevolution.com/marginalrevolution/2026/10/what-should-i-ask-fuchsia-dunlop-2.html?utm_source=rss&utm_medium=rss&utm_campaign=what-should-i-ask-fuchsia-dunlop-2
 
-[ai] Simon Willison: Quoting Matthew Green
-  https://simonwillison.net/2026/Oct/9/matthew-green/
+[ideas] Marginal Revolution: The economics of agents
+  https://marginalrevolution.com/marginalrevolution/2026/10/the-economics-of-agents.html?utm_source=rss&utm_medium=rss&utm_campaign=the-economics-of-agents
 
-[ai] Simon Willison: A new feature for my blog, built using my voice
-  https://simonwillison.net/2026/Oct/9/built-using-my-voice/
-
-[ai] Simon Willison: ttok 1.0
-  https://simonwillison.net/2026/Oct/9/ttok/
+[ideas] Marginal Revolution: Saturday assorted links
+  https://marginalrevolution.com/marginalrevolution/2026/10/saturday-assorted-links-582.html?utm_source=rss&utm_medium=rss&utm_campaign=saturday-assorted-links-582
 
 [ideas] Marginal Revolution: Earth facts of the day
   https://marginalrevolution.com/marginalrevolution/2026/10/earth-facts-of-the-day.html?utm_source=rss&utm_medium=rss&utm_campaign=earth-facts-of-the-day
 
 [ideas] Marginal Revolution: California in-migration and out-migration
   https://marginalrevolution.com/marginalrevolution/2026/10/california-in-migration-and-out-migration.html?utm_source=rss&utm_medium=rss&utm_campaign=california-in-migration-and-out-migration
-
-[ideas] Marginal Revolution: The origin of risk
-  https://marginalrevolution.com/marginalrevolution/2026/10/the-origin-of-risk.html?utm_source=rss&utm_medium=rss&utm_campaign=the-origin-of-risk
-
-[ideas] Marginal Revolution: Ethiopia update
-  https://marginalrevolution.com/marginalrevolution/2026/10/ethiopia-update.html?utm_source=rss&utm_medium=rss&utm_campaign=ethiopia-update
-
-[ideas] Marginal Revolution: Friday assorted links
-  https://marginalrevolution.com/marginalrevolution/2026/10/friday-assorted-links-594.html?utm_source=rss&utm_medium=rss&utm_campaign=friday-assorted-links-594
-
-[ideas] Stratechery: 2026.41: It’s Not You, It’s Me
-  https://stratechery.com/2026/its-not-you-its-me/
-
-[ideas] Stratechery: An Interview with Katie Harbath About Disrupting Politics at Facebook
-  https://stratechery.com/2026/an-interview-with-katie-harbath-about-disrupting-politics-at-facebook/
-
-[ideas] Stratechery: Apple and LG, The House For Everyone Else, Agent Standards and Amazon
-  https://stratechery.com/2026/apple-and-lg-the-house-for-everyone-else-agent-standards-and-amazon/
-
-[ideas] Astral Codex Ten: Your Book Review: We Present Television
-  https://www.astralcodexten.com/p/your-book-review-we-present-television
-
-[ideas] Astral Codex Ten: Ballots Everywhere: Times & Places
-  https://www.astralcodexten.com/p/ballots-everywhere-times-and-places-673
-
-[ideas] Astral Codex Ten: Top Forecasters On The Plague
-  https://www.astralcodexten.com/p/top-forecasters-on-the-plague
-
-[wisdom] Donald Robertson: Virtue is admired above all...
-  https://donaldrobertson.substack.com/p/virtue-is-admired-above-all
-
-[wisdom] Donald Robertson: Montreal: Stoicism talk at Indigo Pointe-Claire this Sunday
-  https://donaldrobertson.substack.com/p/montreal-stoicism-talk-at-indigo
-
-[wisdom] Donald Robertson: Stoic Cost-Benefit Analysis
-  https://donaldrobertson.substack.com/p/stoic-cost-benefit-analysis
-
-[wisdom] Farnam Street: Ryan Serhant: How to Get People to Say Yes
-  https://fs.blog/knowledge-project-podcast/ryan-serhant/
 
 [ai] Anthropic News: Building on our commitment to American scientific discovery
   https://www.anthropic.com/news/genesis-mission-commitment
@@ -172,29 +130,32 @@
 [ai] Anthropic News: Anthropic invests $100 million to train 10,000 engineers and tackle the enterprise AI talent gap
   https://www.anthropic.com/news/claude-frontier-academy
 
-[ai] OpenAI Blog: Sophos cuts threat investigation time by 96% with OpenAI Daybreak
-  https://openai.com/index/sophos
+[ai] Simon Willison: Dwarf Fortress uses version control now
+  https://simonwillison.net/2026/Oct/11/dwarf-fortress/
 
-[ai] OpenAI Blog: Asana cuts model costs 76x in browser tests with GPT-6.1 Sol
-  https://openai.com/index/asana-browser-agent
+[ai] Simon Willison: Python 3.15.0 added to actions/python-versions
+  https://simonwillison.net/2026/Oct/10/python-actions/
 
-[ai] OpenAI Blog: How Oracle turns days of work into minutes with ChatGPT and Codex
-  https://openai.com/index/oracle
+[ai] Simon Willison: Quoting The New York Times
+  https://simonwillison.net/2026/Oct/10/the-new-york-times/
 
-[ai] OpenAI Blog: Pollo AI turns creative ideas into campaigns with OpenAI
-  https://openai.com/index/pollo-ai
+[ai] Simon Willison: Deno is joining Cloudflare
+  https://simonwillison.net/2026/Oct/9/deno-is-joining-cloudflare/
 
-[ai] OpenAI Blog: LegalOn halves Codex costs while maintaining development speed
-  https://openai.com/index/legalon-halves-codex-costs
+[ai] Simon Willison: Quoting Matthew Green
+  https://simonwillison.net/2026/Oct/9/matthew-green/
 
-[wisdom] Figs in Winter (Pigliucci): Stoicism and wealth
-  https://figsinwintertime.substack.com/p/stoicism-and-wealth
+[ideas] Paul Graham: Making Startups Powerful
+  https://paulgraham.com/powerful.html
 
-[wisdom] Figs in Winter (Pigliucci): Teleology vs teleonomy: is it purpose, or does it just look like it?
-  https://figsinwintertime.substack.com/p/teleology-vs-teleonomy-is-it-purpose
+[ideas] Paul Graham: How Universities Should Prepare Founders
+  https://paulgraham.com/prepare.html
 
-[wisdom] Figs in Winter (Pigliucci): Video: How to find happiness
-  https://figsinwintertime.substack.com/p/video-how-to-find-happiness
+[ideas] Astral Codex Ten: Your Book Review: We Present Television
+  https://www.astralcodexten.com/p/your-book-review-we-present-television
+
+[ideas] Astral Codex Ten: Ballots Everywhere: Times & Places
+  https://www.astralcodexten.com/p/ballots-everywhere-times-and-places-673
 
 [bitcoin] Bitcoin Magazine: Bitcoin Life Insurer Meanwhile Raises $37.5M as Wealthy Families Look to Pass On Their BTC
   https://bitcoinmagazine.com/news/meanwhile-bitcoin-raises-37-million
@@ -220,66 +181,103 @@
 [bitcoin] Bitcoin Magazine: Building the Berkshire Hathaway of Bitcoin | Twenty One Capital CEO Rapha Zagury
   https://bitcoinmagazine.com/videos/building-the-berkshire-hathaway-of-bitcoin-twenty-one-capital-ceo-rapha-zagury
 
+[ideas] Collaborative Fund (Morgan Housel): Pessimism always sounds smarter than optimism.
+  https://collabfund.substack.com/p/pessimism-always-sounds-smarter-than
+
+[health] Peter Attia: How much do symptomatic treatments for Alzheimer’s disease help?
+  https://peterattiamd.com/symptomatic-treatments-for-alzheimers/
+
+[ai] OpenAI Blog: Sophos cuts threat investigation time by 96% with OpenAI Daybreak
+  https://openai.com/index/sophos
+
+[ai] OpenAI Blog: Asana cuts model costs 76x in browser tests with GPT-6.1 Sol
+  https://openai.com/index/asana-browser-agent
+
+[ai] OpenAI Blog: How Oracle turns days of work into minutes with ChatGPT and Codex
+  https://openai.com/index/oracle
+
+[ai] OpenAI Blog: Pollo AI turns creative ideas into campaigns with OpenAI
+  https://openai.com/index/pollo-ai
+
+[ai] OpenAI Blog: LegalOn halves Codex costs while maintaining development speed
+  https://openai.com/index/legalon-halves-codex-costs
+
+[ideas] Stratechery: 2026.41: It’s Not You, It’s Me
+  https://stratechery.com/2026/its-not-you-its-me/
+
+[wisdom] Donald Robertson: Virtue is admired above all...
+  https://donaldrobertson.substack.com/p/virtue-is-admired-above-all
+
+[wisdom] Donald Robertson: Montreal: Stoicism talk at Indigo Pointe-Claire this Sunday
+  https://donaldrobertson.substack.com/p/montreal-stoicism-talk-at-indigo
+
+[wisdom] Donald Robertson: Stoic Cost-Benefit Analysis
+  https://donaldrobertson.substack.com/p/stoic-cost-benefit-analysis
+
 
 === YOUTUBE ===
-Ken Berry MD: Dr. Isabella Cooper and I discuss this and much more in our full conversation. Check it out!
-  https://www.youtube.com/shorts/5N-k5MsZbeg
+Anthony Chaffee MD: Carnivore LIVE with Dr Anthony Chaffee | Oct 10, 2026
+  https://www.youtube.com/watch?v=l1PPVADYQgA
   Transcript: yes
 
-GTO Wizard: Espen - $200K Triton Invitational Final Table Review
-  https://www.youtube.com/watch?v=6PqMSznyIrQ
+Ken Berry MD: Losing weight is NOT the same as getting healthier.
+  https://www.youtube.com/shorts/WhKvjSrxtpU
+  Transcript: yes
+
+Ken Berry MD: Stopped Ozempic? Here's What You NEED to Know
+  https://www.youtube.com/watch?v=HXtt9cgOCK4
   Transcript: yes
 
 Paul Saladino MD: How I Stay Below 12% Body Fat at 49 (without dieting)
   https://www.youtube.com/watch?v=pNG2rLgI0Gw
   Transcript: yes
 
-Anthony Chaffee MD: Processed Meats Are NOT The Real Problem!
-  https://www.youtube.com/shorts/6u8p-bJHae0
+GTO Wizard: Espen - $200K Triton Invitational Final Table Review
+  https://www.youtube.com/watch?v=6PqMSznyIrQ
   Transcript: yes
 
 Joe Rogan: Joe Rogan Experience #2563 - Dan Richards
   https://www.youtube.com/watch?v=cLm9Vu2iNQU
   Transcript: yes
 
+Nick Norwitz: Healthy Things That Are Really Unhealthy
+  https://www.youtube.com/shorts/zUQYiHSPScM
+  Transcript: yes
+
+Thomas DeLauer: If You Drink Coffee in the Morning, You NEED to Add This (shrinks visceral fat)
+  https://www.youtube.com/watch?v=ur_8Hu5U0wc
+  Transcript: yes
+
 GTO Lab: Mystery bounty library
   https://www.youtube.com/shorts/ueLOSxlQcKk
   Transcript: NO
-
-Nick Norwitz: What Happens When You Eat Blueberries vs Syrup?
-  https://www.youtube.com/shorts/-LNKhxq179o
-  Transcript: yes
 
 Jared Alderman: What Does It Take To Make A Top Pro Leave Poker?
   https://www.youtube.com/watch?v=YusmAZOvvf4
   Transcript: yes
 
-Thomas DeLauer: I Can Spot Insulin Resistance Just by Looking at Your Hands
-  https://www.youtube.com/watch?v=a2cZQtkIGZs
+Renaissance Periodization: Organic Food is NOT Worth The Extra $$
+  https://www.youtube.com/shorts/F2R0o0yZf2I
+  Transcript: yes
+
+Renaissance Periodization: 800lb Bencher's Weird Trick To Get Stronger
+  https://www.youtube.com/shorts/kV7dBrVj7IA
   Transcript: yes
 
 Lex Fridman: Psychiatry, Insane Asylums, Mental Illness, ECT, Lobotomies, Freud & Jung | Lex Fridman Podcast #502
   https://www.youtube.com/watch?v=s7d2d8FhevU
   Transcript: yes
 
-Renaissance Periodization: Why Pesticide Fears Are So Frustrating
-  https://www.youtube.com/shorts/Mtz4Cje49Ko
-  Transcript: yes
-
-Renaissance Periodization: Exercise Scientist Critiques IShowSpeed’s Insane Athleticism
-  https://www.youtube.com/watch?v=n1-KuZ9aOHM
-  Transcript: yes
-
-Renaissance Periodization: Even The Strongest People Get Hurt...
-  https://www.youtube.com/shorts/28EyUrBKKr8
-  Transcript: yes
-
 Dr. Sten Ekberg: #1 The Most Famous Sugar Video Ever Was WRONG
   https://www.youtube.com/watch?v=XaaPjdRU490
   Transcript: yes
 
-Peter Attia: 410 ‒ The biology of pregnancy: physiologic adaptation, childbirth, and long-term maternal health
-  https://www.youtube.com/watch?v=KIFD0Y6UVE0
+ModernWisdom: This Shouldn’t Be The Goal In Life
+  https://www.youtube.com/shorts/gr_IUD-e8yg
+  Transcript: yes
+
+ModernWisdom: "I Read 500 Self-Help Books So You Don’t Have To" - Spencer Greenberg
+  https://www.youtube.com/watch?v=k8nO9gyQphI
   Transcript: yes
 
 Andrew Huberman: THANK YOU! To all of you who are reading or listening to PROTOCOLS
@@ -290,19 +288,15 @@ ThinkingPoker: Bankroll Management - Thinking Poker
   https://www.youtube.com/watch?v=6w8amkDkeVw
   Transcript: yes
 
-ModernWisdom: How To Set Boundaries In A Relationship
-  https://www.youtube.com/shorts/cj5mVvSyFFI
+Ben Felix: The Truth About Leveraged ETFs
+  https://www.youtube.com/watch?v=E7pl0tqzIUQ
   Transcript: yes
 
-ModernWisdom: Sam Sulek’s Opinion On Evidence-Based Lifting
-  https://www.youtube.com/watch?v=0bSPgeTBj1M
+Peter Attia: 410 ‒ The biology of pregnancy: physiologic adaptation, childbirth, and long-term maternal health
+  https://www.youtube.com/watch?v=KIFD0Y6UVE0
   Transcript: yes
 
 Mind The Game: LeBron Revisits His Time With The Los Angeles Lakers
   https://www.youtube.com/watch?v=zyCb0wa8Twk
-  Transcript: yes
-
-Ben Felix: The Truth About Leveraged ETFs
-  https://www.youtube.com/watch?v=E7pl0tqzIUQ
   Transcript: yes
 
