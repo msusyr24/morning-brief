@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>Morning Brief — Wednesday, October 14, 2026</title>
+<title>Morning Brief — Thursday, October 15, 2026</title>
 <style>
   body {
     font-family: Georgia, serif;
@@ -92,19 +92,19 @@
 })();
 </script>
 <h1>Morning Brief</h1>
-<p class="date">Wednesday, October 14, 2026</p>
+<p class="date">Thursday, October 15, 2026</p>
 
 <div class="anchor">
   <h2>☀️ Today's Anchor</h2>
   <div class="anchor-block">
-    <p class="quote">"Comparison is the thief of joy."</p>
-    <p class="author">— Theodore Roosevelt (attribution disputed)</p>
-    <p class="context">Widely attributed to Roosevelt. No primary source has been found, but the observation is devastatingly accurate.</p>
+    <p class="quote">"Everything we hear is an opinion, not a fact. Everything we see is a perspective, not the truth."</p>
+    <p class="author">— Marcus Aurelius</p>
+    <p class="context">Meditations. Marcus — the most powerful man alive at the time — reminding himself of his own epistemic limits.</p>
   </div>
   <div class="anchor-block">
-    <p class="model-label">Mental Model · Business/Epistemics</p>
-    <p class="model-name">Circle of Competence</p>
-    <p class="context">Buffett: 'Know the edge of your competence, and stay within it.' The edge matters more than the size. A small, well-understood circle beats a large, fuzzy one. Munger's addition: most investment disasters come from people who didn't know where their circle ended.</p>
+    <p class="model-label">Mental Model · Business/Risk</p>
+    <p class="model-name">Margin of Safety</p>
+    <p class="context">Ben Graham's principle: buy with enough buffer that you're right even if you're somewhat wrong. Applied to bridge engineering: engineers specify 4x the load the bridge will ever see. Applied to life: leave room for error — in financial reserves, in timing, in relationships. The world is less predictable than we think.</p>
   </div>
 </div>
 
@@ -115,7 +115,7 @@
   <p class="spotlight-instructions">Interested? Copy the line below into <code>YOUTUBE_CHANNELS</code> in <code>brief.py</code> and save:</p>
   <pre class="spotlight-snippet" id="snippet">    "Sigma Nutrition Radio Archive": "UCEjYKQOVZ3uGvyekP-UEBQg",</pre>
   <button class="copy-btn" onclick="navigator.clipboard.writeText(document.getElementById('snippet').innerText.trim()); this.innerText='✅ Copied'; setTimeout(()=>this.innerText='📋 Copy snippet', 2000);">📋 Copy snippet</button>
-  <p class="spotlight-meta">showing for 2 more days. If you don't add it, a new channel will be suggested.</p>
+  <p class="spotlight-meta">showing for 1 more day. If you don't add it, a new channel will be suggested.</p>
 </div>
 <h2>🎥 From People I Follow</h2>
 
@@ -123,120 +123,108 @@
 
 <div class="story">
   <h3>GTO Wizard — Espen</h3>
-  <p>Espen reviews six hands from the Triton $200K final table using GTO Wizard's new ICM preflop solver, which lets you input any final table payout structure and stack sizes and get solutions on the fly without pre-running sims. The central insight across multiple spots: ICM dramatically tightens ranges compared to chip-EV, and blocker effects become outsized — pocket jacks folded to a 3-bet/jam is correct because jacks block the bluff-folds you need (villain is less likely to be bluffing with suited aces when you hold jacks), whereas suited ace-wheel hands are the preferred 4-bet bluffs precisely because they have the right blockers and pick up equity when called. On Seth Davies's button-vs-two-short-stacks spot, the solver mostly recommends open-jamming rather than a sizing raise — Seth's 3.3x open led to an awkward spot where he had to race-fold vs. the 21BB stack but race-call vs. the 13BB, a situation Espen says he'd have avoided by just jamming from the start.</p>
+  <p>Espen reviews six hands from the Triton $200K final table using GTO Wizard's new ICM preflop solver, which lets you input any final table payout structure and stack configuration and get solutions on the fly — no pre-running sims required. The central lesson across hands: ICM dramatically tightens ranges and inverts some intuitions — pocket jacks is a "snap fold" in a squeeze spot where A5-suited is the preferred jam, because jacks block too many folds and too many bluffs from opponents, while suited aces unblock those and have better equity when snapped. Seth Davies's decision to open rather than jam with 46BB into two short blinds is discussed: the solver mostly prefers open-jamming suited aces and small pairs from that spot rather than raising, to avoid the awkward race-fold scenario Davies found himself in with T-off. Blocker awareness and ICM pressure on deep-ish stacks near a pay jump are the recurring themes — hands that are clearly +EV in ChipEV can be clear folds in ICM contexts.</p>
   <p class="meta">Videos: <a href="https://www.youtube.com/watch?v=6PqMSznyIrQ">Espen - $200K Triton Invitational Final Table Review</a></p>
 </div>
 
 <div class="story">
+  <h3>Thomas DeLauer</h3>
+  <p>In his fat loss protocol video, DeLauer's most interesting claims: (1) 18–20g of pure whey protein pre-workout (zero fat, zero carbs) can meaningfully elevate resting metabolic rate for the following 24 hours more than the same calories from carbs — he credits Dr. Bill Campbell's research for this; (2) he's shifted from daily 16:8 to 1–2 hard 20–24 hour fasts per week, arguing the metabolic "punch" from a genuine fast outperforms the slow grind of a perpetual deficit; (3) he treats glucagon — not insulin — as the key fat-burning lever, and protects it by never snacking between meals; (4) he supplements collagen specifically for connective tissue protein synthesis, which he argues is a separate process from muscle protein synthesis and often ignored. In the artery/heart disease interview with a cardiologist (Dr. Anthony J.), the core claim is that the heart preferentially burns fats (staying ~85–95% in beta-oxidation even at elevated heart rates), that insulin resistance starves the heart of its preferred fuel causing it to absorb lipids into artery walls, and that a 28,000-person study found insulin resistance at a 6.4x hazard ratio for early heart attacks versus LDL at only 1.38x — a gap the medical system largely ignores in favor of statin prescriptions. On LP(a): the doctor argues it functions as a "street sweeper" binding oxidized byproducts, not a primary cause of plaque, and that PCSK9 inhibitors (which lower LP(a)) showed higher cardiac death rates vs. placebo in a reanalysis of the FOURIER trial data.</p>
+  <p class="meta">Videos: <a href="https://www.youtube.com/watch?v=H5w9D2Kx1VI">I Study Fat Loss for a Living - Here's What I do to Stay Under 10%</a> · <a href="https://www.youtube.com/watch?v=8FJDIznfDsY">Artery Doctor: This Just Changed Everything About Plaque and Heart Disease</a></p>
+</div>
+
+<div class="story">
   <h3>Peter Attia</h3>
-  <p>In this AMA reflection episode, Attia walks through how several of his core views have changed. Most significantly: he no longer believes ketogenic diets work primarily through insulin suppression — he now thinks they work the same way most restrictive diets work, by making it easier to control energy intake and increasing satiety. The corollary is that hyperinsulinemia is downstream of energy imbalance, not the primary driver — fixing insulin without fixing energy balance won't resolve metabolic dysfunction. On extended fasting, he did quarterly 7–10 day fasts plus monthly 3-day fasts for years, motivated by autophagy research showing ~3 days of fasting meaningfully elevates autophagy above what exercise alone produces; he's since wound this down, citing the cost-to-benefit tradeoff as the evidence base matured. His current position: protein target (≥1.4g/kg) matters more than the dietary strategy used to hit it.</p>
-  <p class="meta">Videos: <a href="https://www.youtube.com/watch?v=6DR8E5QJoCY">Strong convictions, loosely held: how Peter's views on fasting, keto, exercise, & more have changed</a> · <a href="https://peterattiamd.com/ama90/">AMA #90 (RSS)</a></p>
+  <p>In a 400-episode reflection, Attia walks through how his views have materially shifted on keto and extended fasting. On keto: he no longer believes it works primarily through insulin suppression — he now thinks it works the same way most restrictive diets work, by making it easier to control energy intake and increasing satiety through food type. On extended fasting: he spent three years doing quarterly 7–10 day fasts targeting autophagy, believing ~3 days were needed to "juice" autophagy beyond what exercise achieves — but has since pulled back, citing the cost (primarily muscle loss risk) relative to uncertain human evidence. He's now far less dogmatic about dietary strategy as long as protein targets (~1.4g/kg minimum) are met. The "strong convictions, loosely held" framing he applies: his views change from literature, patient outcomes, and podcast conversations with domain experts — not from ideology.</p>
+  <p class="meta">Videos: <a href="https://www.youtube.com/watch?v=6DR8E5QJoCY">Strong convictions, loosely held: how Peter's views on fasting, keto, exercise, & more have changed</a></p>
 </div>
 
 <div class="story">
-  <h3>Nick Norwitz</h3>
-  <p>Norwitz unpacks a study published in Cell showing that stimulant medications (Adderall, Ritalin) don't improve attention networks at all — brain imaging of ~12,000 children found stimulants acted on sensory/motor and reward networks, not the attention circuitry everyone assumed they were repairing. The key implication: for many children, stimulants appear to be compensating for chronic sleep deprivation rather than treating a neurological attention deficit — well-rested kids who took stimulants got no academic benefit, while underslept kids did. The mechanism involves circadian clock biology: true ADHD is heavily co-morbid with delayed sleep phase disorder (some studies put it as high as 80%), and chronic sleep debt produces the exact checklist of ADHD symptoms. His practical upshot: prioritizing sleep quality and circadian alignment should come before assuming a stimulant gap — and the Yerkes-Dodson arousal curve explains why stimulants harm performance in already-optimally-aroused individuals.</p>
-  <p class="meta">Videos: <a href="https://www.youtube.com/watch?v=DRffW43GmbA">The Focus Trick I Wish I Knew Sooner</a></p>
-</div>
-
-<div class="story">
-  <h3>Jared Alderman — Thinking Poker (Sam Greenwood interview)</h3>
-  <p>Sam Greenwood, 16 months into a break from live tournament poker, explains the specific calculus that changed: with one child and a second born in May 2025, the cost-benefit of traveling shifted — child care costs alone (~$350 CAD/night for a night nurse) could represent 10–20% of expected trip EV on a smaller Triton field, making marginal trips genuinely –EV when you account for lifestyle costs. More interesting is his framing of poker as one of the few adult venues that provides genuine inescapable intensity — the hand forces a decision no matter what, you can't defer. Greenwood also ran an informal personal experiment: stay in the poker world (coaching, writing, content) but remove the financial gambling stress, and see how much that changes mood, family presence, and relationship with the game. His conclusion after 16 months: he misses it, which he treats as signal that he loves the game rather than just being addicted to identity — a distinction worth sitting with.</p>
+  <h3>Jared Alderman</h3>
+  <p>Interview with Sam Greenwood, who took 16+ months off high-stakes tournament poker after his second child. The most interesting thread: Greenwood frames the decision in EV terms — childcare costs, night nurses (~$350 CAD/night), and emotional cost of absence now materially reduce trip EV, especially when a 5–10% ROI on $1M in buyins can get eaten by logistics. The deeper insight is his question of whether he was playing out of routine vs. genuine desire — deliberately testing this by stepping away. He and Jared discuss how poker provides something rare for adult men: genuine high-stakes competition with no escape hatch (you must decide something, even if it's fold), which scratches the same itch as military service or contact sports. Jared served as a Navy EOD tech and connects this explicitly — the sense of purpose, irreversibility, and camaraderie are hard to replicate.</p>
   <p class="meta">Videos: <a href="https://www.youtube.com/watch?v=YusmAZOvvf4">What Does It Take To Make A Top Pro Leave Poker?</a></p>
 </div>
 
 <div class="story">
-  <h3>Mind The Game — LeBron James & Steve Nash</h3>
-  <p>LeBron and Nash do a full 2026–27 season preview. The Knicks won the championship and the in-season tournament, and Nash's read is that Karl-Anthony Towns's mid-season comment about being lost in the offense was actually the turning point — by the Finals, the offense became more egalitarian and Towns became a true hub rather than an awkward fit. On OKC: both push back hard against the narrative that they've been passed by, noting they went to seven games against San Antonio without Jaylen Williams healthy and without Shai playing his best basketball, and that Shai still delivered in Game 7. Wembanyama MVP case: LeBron says he had a case last year on totality of impact, but the traditional closer narrative (ball in your hands at the end) has historically defined MVP, and WBY isn't always that guy — they couldn't name a clear precedent for an MVP winner who wasn't a closer in the traditional sense.</p>
-  <p class="meta">Videos: <a href="https://www.youtube.com/watch?v=zNaVP54W_VY">LeBron James and Steve Nash's 2026-27 NBA Season Preview</a></p>
-</div>
-
-<div class="story">
-  <h3>Dr. Sten Ekberg</h3>
-  <p>Ekberg corrects a widely-cited claim from Robert Lustig's viral sugar lecture (25M+ views): the mechanism that fructose goes straight to the liver and can only be processed there is wrong based on a 2018 discovery. The small intestine actually processes fructose first — at low doses (~10–25g per sitting in humans, extrapolated from mouse data), the gut handles ~90% of fructose, converting it to glucose and lactate, with the liver only handling overflow. The dose and speed of consumption determine how much reaches the liver: liquid fructose on an empty stomach overwhelms the gut quickly (~10g threshold), while fructose consumed slowly with fiber raises the ceiling (~25g). Critically, fructose is still damaging for other reasons — it doesn't suppress ghrelin the way protein/fat do, doesn't trigger an insulin response that signals satiety, and brain imaging shows stronger cravings and preference for high-calorie immediate rewards after fructose vs. glucose consumption. The practical upshot: a 20oz soda (36g fructose) or a medium fast food milkshake (25g fructose) will stress the liver; a serving of berries (~2.4–2.7g per 100g) probably won't.</p>
-  <p class="meta">Videos: <a href="https://www.youtube.com/watch?v=XaaPjdRU490">#1 The Most Famous Sugar Video Ever Was WRONG</a></p>
+  <h3>ModernWisdom — Robert Greene</h3>
+  <p>Greene argues that ignoring your "daemon" — the work that genuinely fits who you are — has real physiological costs: disengagement, weight gain, addictions, illness. His own example: at 35, he quit a stable Hollywood TV job his mother begged him to keep, went back to being a "loser," and wrote 48 Laws of Power at 39. He distinguishes this from romanticized risk-taking: it's about the physical discomfort of doing work that isn't yours versus the flow of work that is. On scale and the sublime: he argues that genuinely sitting with the vastness of time (13.8 billion years, you live 80) produces two simultaneous feelings — terror at your insignificance and exhilaration at being the kind of being that can comprehend it — and that this dual feeling is what children naturally have and adults mostly lose, and its loss is partly why adult life narrows.</p>
+  <p class="meta">Videos: <a href="https://www.youtube.com/watch?v=gMOurQuERVs">"I Was A Loser Until I Was 39" - Robert Greene</a></p>
 </div>
 
 <p><strong>Also posted:</strong></p>
 <ul>
-  <li><strong>Ken Berry MD:</strong> Conference talk arguing that keto treats (cookies, fat bombs, keto-branded snacks) are a useful transitional tool when starting keto but become a trap for experienced dieters — especially for sugar addicts, the sweet taste alone triggers enough reward circuitry to stall progress; his definition of "real keto" is a single-ingredient whole food that either grew in the dirt or grazed on what grew in it. Also: shorts on satiety hormones (exercise increases hunger hormones, making "move more, eat less" unreliable) and a claim that collagen peptides from a carnivore diet feed gut bacteria the same way fiber does via short-chain fatty acid production. (<a href="https://www.youtube.com/watch?v=gp33Kut6Jgs">Are Keto Treats Just Junk Food in Disguise?</a> + 2 more)</li>
-  <li><strong>Paul Saladino MD:</strong> Short arguing that meat (protein/leucine for mTOR activation), vitamin K2-rich aged cheeses (Gouda, Gruyère, Emmentaler — to prevent premature growth plate closure), and bioavailable zinc/iron from red meat are the key nutritional inputs for children reaching their full genetic height potential. (<a href="https://www.youtube.com/shorts/F-AfODqobXY">The secret to growing taller?</a>)</li>
-  <li><strong>Renaissance Periodization:</strong> Short on the psychological cost of a misloaded bar on a world record attempt — two effects: depleted psychic energy from the wasted arousal spike, and loss of confidence from "unstable conditions" breaking the assumption that everything in the environment is controlled and reliable. (<a href="https://www.youtube.com/shorts/CKRD5xQnfI8">They Misloaded A World Record Attempt...</a>)</li>
-  <li><strong>Thomas DeLauer:</strong> Argues for vitamin A (retinol, not beta-carotene) as a critical and underappreciated nutrient for preventing age-related macular degeneration — the JAMA Ophthalmology study he cites found 25–35% lower AMD risk in high-intake individuals over 20 years; the mechanism is vitamin A's role in regenerating rhodopsin in the visual cycle. Also flags an interaction: synthetic vitamin D3 supplements appear to reduce retinol activity by 35–50% (via receptor competition), suggesting cod liver oil — which delivers preformed A, D, and omega-3s together in their natural ratio — as a cleaner approach than standalone D3. (<a href="https://www.youtube.com/watch?v=1sgvz8uA1nw">900mcg Stops Vision Loss by Fixing Eye Mitochondria</a>)</li>
-  <li><strong>Ben Felix:</strong> Detailed framework on leveraged ETFs — the theoretical case for leverage for young investors (Samuelson/Merton lifecycle model: human capital is bond-like, so young people are underweight equities on a total-wealth basis and should borrow to invest), the key caveat (high-income households tend to sell equities during downturns to fund fixed expenses, making human capital more stock-like than assumed), and a correction of the "volatility decay" critique: mathematical analysis shows the cost of daily rebalancing is frequency-insensitive if returns lack serial correlation, making it an empirical rather than structural problem. A live 2x S&P 500 ETF underperformed for decades before recently pulling ahead. (<a href="https://www.youtube.com/watch?v=E7pl0tqzIUQ">The Truth About Leveraged ETFs</a>)</li>
-  <li><strong>Anthony Chaffee MD:</strong> Historical short on how Kellogg's and the 7th Day Adventist Church — motivated by the belief that meat causes lustful feelings and is therefore sinful — founded and shaped the processed food industry, including 20+ cereal companies and Sanitarium Foods (still the largest cereal producer in Australia, still church-owned). (<a href="https://www.youtube.com/shorts/2X3xtrGDw2E">'Meat Is SINFUL' - How Kellogg's Convinced You To STOP Eating Meat</a>)</li>
-  <li><strong>GTO Lab:</strong> Short on mystery bounty library — no transcript available. (<a href="https://www.youtube.com/shorts/ueLOSxlQcKk">Mystery bounty library</a>)</li>
+  <li><strong>Nick Norwitz:</strong> Argues that LP(a)'s clinical significance depends heavily on metabolic context — a major cardiology trial found lowering LP(a) didn't reduce heart attacks/strokes, and in people with low waist-to-hip ratios, high LP(a) is not significantly associated with cardiovascular risk. (<a href="https://www.youtube.com/shorts/vPbBZ6d4XfM">What People Get Wrong About Lp(a)</a>)</li>
+  <li><strong>Renaissance Periodization (Dr. Mike):</strong> Interview with Dr. Sean O'Mara, who tracks visceral fat via MRI as a primary health KPI, argues it predicts chronic disease better than most standard markers, and works primarily with executives using that metric. Separately, a short on Samoan football players as a model of raw strength development. (<a href="https://www.youtube.com/watch?v=2PteFkCroK4">Dr. Mike Questions the Doctor to America's Leaders</a> + 1 more)</li>
+  <li><strong>Dr. Sten Ekberg:</strong> Argues the prevailing explanation for why fructose is harmful (it can only be processed by the liver) is wrong per a 2018 finding — the small intestine actually clears up to 90% of fructose at low doses; the liver is the overflow backup. The dose-dependent threshold is roughly 10–25g fructose per sitting for humans; liquid sugar on an empty stomach hits the lower end fastest. Fructose is still harmful via other mechanisms (blunted ghrelin response, no satiety signal, heightened food cravings). (<a href="https://www.youtube.com/watch?v=XaaPjdRU490">#1 The Most Famous Sugar Video Ever Was WRONG</a>)</li>
+  <li><strong>Ben Felix:</strong> Deep dive on leveraged ETFs — makes the case that the "volatility decay" argument against daily-reset leveraged ETFs is mathematically incomplete (rebalancing frequency doesn't matter if returns are serially uncorrelated), and that theory supports young investors with bond-like human capital using ~2x leverage declining over time. Key warning: a 2x S&P ETF fell ~80% in 2008–09; behavioral survival through that is the real constraint. (<a href="https://www.youtube.com/watch?v=E7pl0tqzIUQ">The Truth About Leveraged ETFs</a>)</li>
+  <li><strong>Paul Saladino MD:</strong> Short on feeding kids meat, K2-rich aged cheeses, and eggs to support height potential via leucine/mTOR activation and growth plate timing. (<a href="https://www.youtube.com/shorts/F-AfODqobXY">The secret to growing taller?</a>)</li>
+  <li><strong>Ken Berry MD:</strong> Short arguing "eat less, move more" fails because exercise raises hunger hormones, making simultaneous caloric restriction unreliable — satiety-first eating is the right frame. (<a href="https://www.youtube.com/shorts/bqYyUlWFOeM">The Proper Human Diet isn't about starving yourself</a>)</li>
+  <li><strong>Mind The Game:</strong> Quick take on the new-look Miami Heat with Giannis, Bam, Dame, Klay, and Spoelstra — optimistic on spacing and defensive identity. (<a href="https://www.youtube.com/shorts/SCEHxW14Pyk">Palm Beach made some big moves</a>)</li>
 </ul>
 
 <h2>₿ Bitcoin & Macro</h2>
 
 <div class="story">
-  <h3><a href="https://bitcoinmagazine.com/news/quantum-defense-for-bitcoins-lightning">Researchers Build First Working Post-Quantum Defense for Bitcoin's Lightning Network</a></h3>
-  <p>A research team has implemented what they're calling the first functional post-quantum cryptographic defense for the Lightning Network specifically — addressing the concern that quantum computers could eventually break the ECDSA signatures that underpin both on-chain Bitcoin and Lightning channel security. This matters because second-layer solutions have distinct cryptographic exposure points (HTLCs, channel funding transactions) that require separate post-quantum treatment from base-layer Bitcoin.</p>
+  <h3><a href="https://bitcoinmagazine.com/markets/bitcoin-price-slips-on-cpi-inflation-data">Bitcoin Slips Below $83,000 After Hotter-Than-Expected US Inflation Data</a></h3>
+  <p>Bitcoin sold off after September CPI came in above expectations, driven largely by gasoline prices. The reaction illustrates Bitcoin's continued sensitivity to macro inflation prints — acting more like a risk asset than an inflation hedge in the short term, which cuts against the Saylor thesis of Bitcoin as a monetary escape valve.</p>
   <p class="meta">Bitcoin Magazine</p>
 </div>
 
 <div class="story">
-  <h3><a href="https://pomp.substack.com/p/we-are-spending-10x-more-on-seniors">We Are Spending 10x More On Seniors Than Children?</a></h3>
-  <p>Pomp flags data showing US government spending on seniors vs. children runs roughly 10:1 — the macro argument being that fiscal priorities are structurally skewed toward consumption (transfer payments to retirees) rather than investment (education, infrastructure for the young), with implications for long-run productivity and debt sustainability. This is the kind of structural fiscal argument that bears on the monetary debasement thesis.</p>
-  <p class="meta">The Pomp Letter</p>
+  <h3><a href="https://bitcoinmagazine.com/videos/blue-coin-capital-cio-mstrs-btc-buying-engine-is-about-to-ignite-mike-treidl">MSTR's BTC Buying Engine Is About to IGNITE — Mike Treidl</a></h3>
+  <p>Blue Coin Capital's CIO argues that MicroStrategy-style Bitcoin treasury firms are shifting to perpetual preferred equity as their financing instrument, which avoids default risk (unlike convertible debt) while creating a second, parallel BTC-acquisition engine. The structural claim: preferreds allow continuous capital raises to buy Bitcoin without the maturity/call risk that critics cite against MSTR's convertible note stack.</p>
+  <p class="meta">Bitcoin Magazine</p>
 </div>
 
 <h2>🧬 Health & Science</h2>
 
 <div class="story">
-  <h3>Fructose Mechanism Update — The Lustig Correction</h3>
-  <p>Dr. Sten Ekberg's detailed breakdown (summarized above in YouTube section) is worth flagging as a standalone finding: the 2018 discovery that the small intestine — not the liver — is the primary site of fructose processing at low doses rewrites the standard mechanism cited by health professionals for 17 years. The dose-dependence is the actionable part: the gut saturates quickly with liquid sugar (threshold ~10g fructose, roughly half a can of soda), after which overflow goes to the liver and the old Lustig mechanism kicks in. The practical hierarchy for fructose load: berries are fine (2.4–2.7g/100g), a single can of Coke hits 21g, a 20oz bottle hits 36g. Fructose's satiety-suppression via ghrelin and its lack of insulin response remain valid mechanisms independent of the liver-first claim.</p>
+  <h3>Insulin Resistance as Primary Cardiac Risk — Ignored in Favor of LDL</h3>
+  <p>From the Thomas DeLauer / Dr. Anthony J. interview: a study of 28,000 early-onset heart attack patients found insulin resistance had a hazard ratio of 6.4x — versus LDL at 1.38x and hypertension at 2.3x. The mechanistic claim is that the insulin-resistant heart loses its preferred fuel (fats) and begins absorbing lipids into arterial walls, with cholesterol appearing in autopsies as a consequence rather than a cause. The cardiologist argues the PCSK9 drug category (which lowers LDL and LP(a)) showed higher cardiac death rates vs. placebo in a reanalysis of the FOURIER trial, though this finding remains contested.</p>
 </div>
 
 <div class="story">
-  <h3>ADHD, Sleep, and Stimulants — Nick Norwitz's Cell Study Breakdown</h3>
-  <p>The Cell study Norwitz covers (detailed above) is a meaningful finding worth flagging separately: fMRI data on ~12,000 children shows ADHD stimulants don't touch attention networks and instead act on arousal and reward systems — effectively mimicking the effect of better sleep in underslept children, with no benefit in well-rested children. The prevalence estimate that only 48% of children in the study were getting recommended sleep, combined with the heavy overlap between delayed sleep phase disorder and ADHD diagnoses (up to 80% in some studies), raises a real question about how much diagnosed ADHD is actually chronic circadian misalignment being managed pharmacologically. The Yerkes-Dodson arousal curve explains both paradoxes: why underperformers improve on stimulants and why already-optimal performers get worse.</p>
+  <h3>Fructose Cleared by Small Intestine First — Not the Liver</h3>
+  <p>A 2018 finding (confirmed in follow-up human research) overturns the prevailing Lustig model: the small intestine clears ~90% of fructose at low doses, converting it to glucose and lactate, with the liver acting as overflow backup. The dose threshold is estimated at 10–25g fructose per sitting in humans, with liquid sugar on an empty stomach hitting saturation fastest (~10g, roughly half a can of soda). Above the threshold, the liver handles overflow via lipogenesis — so the old mechanism isn't wrong, just the anatomy of where it starts. Fructose remains harmful via separate pathways: blunted ghrelin response, absent insulin/satiety signal, and heightened craving for additional food vs. glucose.</p>
 </div>
 
 <div class="story">
-  <h3>Peter Attia — Keto Works, But Not How We Thought</h3>
-  <p>Attia's updated position (detailed above) is worth noting as a clean example of the "strong convictions, loosely held" principle applied to nutrition: he spent 3 years in tight ketosis (average morning BHB of 1.8–2.0 mmol/L), felt great, but now believes the mechanism was satiety and spontaneous calorie reduction — not insulin suppression. The clinical implication he draws: if hyperinsulinemia is downstream of energy imbalance rather than a root cause, then targeting insulin without fixing energy balance won't resolve metabolic disease. This cuts against the strong insulin-model-of-obesity framing that drove much of early low-carb advocacy.</p>
+  <h3>Peter Attia Revises Views on Ketosis and Extended Fasting</h3>
+  <p>Attia now believes keto works through satiety and energy intake control — not insulin suppression specifically — and that energy imbalance is the root cause of metabolic dysfunction (hyperinsulinemia is a fellow-traveler, not the driver). On extended fasting: he ran quarterly 7–10 day fasts for three years targeting autophagy, but has since stopped, citing insufficient human evidence that autophagy benefits in animal models translate meaningfully and questioning whether the muscle cost is worth it. His current position: dietary strategy matters less than hitting minimum protein (1.4g/kg), and he's agnostic on the vehicle.</p>
 </div>
 
 <h2>💡 Worth Reading</h2>
 
 <div class="story">
-  <h3><a href="https://www.bleepingcomputer.com/news/security/ledger-confirms-hardware-wallet-spy-implant-behind-crypto-thefts/">Ledger confirms spy chip implant behind wallet crypto thefts</a></h3>
-  <p>Ledger has confirmed that hardware wallets purchased through compromised supply chains contained physical spy chips that exfiltrated seed phrases, leading to direct theft of funds. This is a supply chain attack on hardware security devices — the exact category of product people buy precisely because they don't trust software-level security — and has prompted Trezor to audit and reduce its reseller network. The implication: for anyone holding meaningful Bitcoin in cold storage, provenance of the physical device now matters as much as the device's software security model.</p>
-  <p class="meta"><a href="https://news.ycombinator.com">Hacker News</a> (663 pts)</p>
+  <h3><a href="https://jjmaxwell4.com/writing/things-to-know-when-you-get-cancer/">Things to Know When You Get Cancer</a></h3>
+  <p>A personal essay from someone who went through cancer treatment, written specifically to be useful to others facing a diagnosis — the kind of practical, hard-won knowledge that doesn't appear in official patient materials. Scored 1,268 points on HN, suggesting unusually strong signal-to-noise. Worth reading before you need it, or sharing with someone who does.</p>
+  <p class="meta"><a href="https://news.ycombinator.com/item?id=50067325">Discussion</a></p>
 </div>
 
 <div class="story">
-  <h3><a href="https://news.mit.edu/2026/mit-class-project-turns-into-fda-cleared-treatment-for-tremors-1002">MIT class project turns into an FDA-cleared treatment for tremors</a></h3>
-  <p>A student project from an MIT engineering class has received FDA clearance as an actual treatment for tremors — a rare case of an academic prototype completing the full regulatory journey to clinical use. The specifics of the mechanism aren't in the summary, but the storyline of a class assignment becoming a cleared medical device is worth following for anyone interested in how applied engineering translates to health outcomes.</p>
-  <p class="meta"><a href="https://news.ycombinator.com">Hacker News</a> (204 pts)</p>
+  <h3><a href="https://mapwriting.substack.com/p/dentists">Do Dentists Know What They're Doing?</a></h3>
+  <p>A deep investigation into the evidence base (or lack thereof) behind common dental interventions — touching the same vein as the "medicine built on weak evidence" genre. With 655 HN points, it's clearly hitting a nerve. Directly relevant to decisions most people make routinely with minimal scrutiny.</p>
+  <p class="meta"><a href="https://news.ycombinator.com/item?id=50067325">Discussion</a></p>
 </div>
 
 <div class="story">
-  <h3><a href="https://yyhh.org/blog/2026/10/ai-is-a-tool/">AI is a tool and using it well takes skill</a></h3>
-  <p>A high-upvote HN piece (672 pts) making the argument that AI competency is an acquired skill, not a passive capability — the gap between people who get real leverage from AI and those who don't is largely about how they interact with it, not the underlying model. Worth reading as a framing piece if you want a clear articulation of why "AI didn't help me" is often a skill problem rather than a capability ceiling.</p>
-  <p class="meta"><a href="https://news.ycombinator.com">Hacker News</a> (672 pts)</p>
-</div>
-
-<div class="story">
-  <h3><a href="https://donaldrobertson.substack.com/p/putting-your-problems-into-perspective">Putting Your Problems into Perspective</a> & <a href="https://figsinwintertime.substack.com/p/stoicism-and-wealth">Stoicism and Wealth</a></h3>
-  <p>Donald Robertson posts Lesson 5 of his Stoic Mind series on perspective-taking — the classical Stoic technique of viewing your problems from a wider temporal and spatial frame (the "view from above") to reduce their felt urgency. Separately, Massimo Pigliucci writes on whether there's a genuine tension between Stoic philosophy and wealth, arguing the Stoic position is nuanced: externals like wealth are "preferred indifferents" — worth pursuing through virtuous means, not to be confused with the good, and not to be clung to. Both worth reading back-to-back as a pair on the Stoic relationship to outcomes.</p>
-  <p class="meta">Donald Robertson / Figs in Winter (Pigliucci)</p>
+  <h3><a href="https://www.dataforprogress.org/blog/2026/9/29/americans-social-activity-has-steeply-declined-in-the-past-30-years">Americans' Social Activity Has Steeply Declined in the Past 30 Years</a></h3>
+  <p>Data analysis showing a sharp multi-decade drop in social engagement across American life. The trend connects to the loneliness/meaning literature (Putnam's Bowling Alone updated), mental health research, and the Jared Alderman/Sam Greenwood conversation in this brief about how hard it is for adults to find genuine community and competition. Worth sitting with alongside the Robert Greene piece on purpose.</p>
+  <p class="meta">Data for Progress</p>
 </div>
 
 <h2>🤖 AI Capability Watch</h2>
 
 <div class="story">
-  <h3><a href="https://deepmind.google/models/gemini/">Gemini 4 Argon</a></h3>
-  <p>Google DeepMind has released Gemini 4 Argon, available via the Gemini API and as part of their $100/month subscription. Simon Willison's quick test found it produces excellent outputs across his standard benchmark (the "pelican" image generation test), consistent with Gemini's recent track record. This appears to be a meaningful new model release rather than a minor variant, though capability details beyond the API availability are sparse in today's coverage.</p>
-  <p class="meta"><a href="https://news.ycombinator.com">Hacker News</a> (1260 pts) · <a href="https://simonwillison.net/2026/Oct/13/llm-gemini/">Simon Willison</a></p>
+  <h3><a href="https://simonwillison.net/2026/Oct/14/ai-is-mass-decompiling-games/">AI Is Mass Decompiling Games</a></h3>
+  <p>AI tools are now capable of decompiling existing game code at scale, enabling both a wave of weird mashup projects and serious game preservation work — getting old games running on modern hardware without access to original source code. This is a genuinely new capability unlocked by code-fluent AI: automated reverse engineering that previously required rare human expertise is now accessible broadly, with real implications for intellectual property, modding culture, and digital archival.</p>
+  <p class="meta"><a href="https://simonwillison.net/2026/Oct/14/ai-is-mass-decompiling-games/">Simon Willison</a></p>
 </div>
 
 <div class="story">
-  <h3><a href="https://openai.com/index/higgsfield-longer-videos-voice">Higgsfield takes AI video from 1 minute to over 10</a></h3>
-  <p>Higgsfield, building on GPT-6 Astra and GPT-Image-2.5, has extended AI video generation from ~1 minute to over 10 minutes — a meaningful jump in the practical ceiling for AI-generated video content. Lex Fridman's Taiwan vlog (in today's YouTube section) actually includes a Higgsfield-generated video segment as an in-video ad, showing the technology being used in real creator content today.</p>
-  <p class="meta">OpenAI Blog</p>
+  <h3><a href="https://openai.com/index/amp-beyond-coding">Amp Puts AI Agents to Work Beyond Code</a></h3>
+  <p>Amp, built on OpenAI's GPT-6 family, is extending autonomous AI agents beyond software development into general knowledge work tasks. If this represents genuine multi-domain agentic capability rather than another coding assistant, it's a meaningful product category expansion — but the substance of what "beyond code" actually means in practice warrants scrutiny before treating it as a step-change.</p>
+  <p class="meta">OpenAI</p>
 </div>
 </body>
 </html>
