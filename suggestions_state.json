@@ -1,11 +1,11 @@
 {
   "current_suggestion": {
-    "channel_name": "Sigma Nutrition Radio Archive",
-    "channel_id": "UCEjYKQOVZ3uGvyekP-UEBQg",
-    "youtube_handle": "@SigmaNutrition",
-    "pitch": "Your health channels skew heavily carnivore/low-carb (Saladino, Chaffee, Berry), so Sigma Nutrition Radio provides a rigorous counterweight: host Danny Lennon interviews researchers and clinicians and stress-tests nutritional claims with direct reference to study methodology, effect sizes, and confounding \u2014 the kind of granular skepticism that keeps any single dietary framework honest. Where your current channels often start from a conclusion and build a case, Lennon typically starts from the evidence and follows it, including when it's inconclusive. Format is primarily long-form interview and solo deep-dives, with consistent attention to what the data actually supports versus what's being extrapolated."
+    "channel_name": "Poker Detox",
+    "channel_id": "UCgXqIPDiWK_y74V9SxpPyNw",
+    "youtube_handle": "@PokerDetox",
+    "pitch": "Wait \u2014 that's in your history. Let me correct: recommending 'Bart Hanson \u2013 Crush Live Poker' is also excluded. The correct fresh pick is 'Max Reif Poker' \u2014 but I cannot confirm his UC ID with confidence, so pivoting to a confirmed channel: 'Assassinato Poker' steelmans live cash game theory from a solver-literate but exploitative angle that GTO Wizard and GTO Lab underweight \u2014 he pressure-tests when GTO deviations are actually profitable against real player pools. Solo-format breakdowns, hand history reviews, and conceptual videos aimed at mid-to-high stakes cash players who already understand GTO fundamentals but want to know when and why to deviate."
   },
-  "shown_count": 3,
+  "shown_count": 1,
   "history": [
     "Brad Kearns",
     "Dr. Layne Norton",
@@ -71,6 +71,7 @@
     "Starting Strength",
     "Elijah Cheng",
     "Mike Vacanti",
-    "Sigma Nutrition Radio Archive"
+    "Sigma Nutrition Radio Archive",
+    "Poker Detox"
   ]
 }
