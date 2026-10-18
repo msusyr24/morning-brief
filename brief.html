@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>Morning Brief — Saturday, October 17, 2026</title>
+<title>Morning Brief — Sunday, October 18, 2026</title>
 <style>
   body {
     font-family: Georgia, serif;
@@ -92,19 +92,19 @@
 })();
 </script>
 <h1>Morning Brief</h1>
-<p class="date">Saturday, October 17, 2026</p>
+<p class="date">Sunday, October 18, 2026</p>
 
 <div class="anchor">
   <h2>☀️ Today's Anchor</h2>
   <div class="anchor-block">
-    <p class="quote">"Life can only be understood backwards; but it must be lived forwards."</p>
-    <p class="author">— Søren Kierkegaard</p>
-    <p class="context">From his journals, 1843. Kierkegaard's observation about the asymmetry between experience and reflection.</p>
+    <p class="quote">"The journey of a thousand miles begins with one step."</p>
+    <p class="author">— Lao Tzu</p>
+    <p class="context">Tao Te Ching. The original Chinese is often translated as 'begins beneath one's feet' — emphasizing presence over metaphor.</p>
   </div>
   <div class="anchor-block">
-    <p class="model-label">Mental Model · Business</p>
-    <p class="model-name">Cost-Benefit Analysis</p>
-    <p class="context">Sum expected benefits, subtract expected costs (including opportunity cost), proceed if positive. Obvious in principle, rarely done in practice — we substitute emotion, anchoring, or social proof. The discipline: actually write it down. Numbers on paper expose magical thinking.</p>
+    <p class="model-label">Mental Model · Philosophy of Science</p>
+    <p class="model-name">Falsifiability</p>
+    <p class="context">Karl Popper: a claim is scientific only if it could, in principle, be proven false. 'My theory explains everything' is a warning sign, not a strength. Munger uses this to evaluate business claims: if a strategy works in every conceivable market, it probably has no real mechanism.</p>
   </div>
 </div>
 
@@ -115,7 +115,7 @@
   <p class="spotlight-instructions">Interested? Copy the line below into <code>YOUTUBE_CHANNELS</code> in <code>brief.py</code> and save:</p>
   <pre class="spotlight-snippet" id="snippet">    "Poker Detox": "UCgXqIPDiWK_y74V9SxpPyNw",</pre>
   <button class="copy-btn" onclick="navigator.clipboard.writeText(document.getElementById('snippet').innerText.trim()); this.innerText='✅ Copied'; setTimeout(()=>this.innerText='📋 Copy snippet', 2000);">📋 Copy snippet</button>
-  <p class="spotlight-meta">showing for 2 more days. If you don't add it, a new channel will be suggested.</p>
+  <p class="spotlight-meta">showing for 1 more day. If you don't add it, a new channel will be suggested.</p>
 </div>
 <h2>🎥 From People I Follow</h2>
 
@@ -123,118 +123,126 @@
 
 <div class="story">
   <h3>GTO Wizard — Espen</h3>
-  <p>Espen reviews six hands from the Triton $200K final table using GTO Wizard's new real-time ICM preflop solver, which lets you input any final table payout structure and stack configuration and get solutions on the fly without pre-running sims. The key hands: QJo from the LJ is essentially a break-even open under ICM pressure — even queens mix folds. Pocket jacks facing a raise and 3-bet should fold cold, with A5s being a superior 4-bet bluff because it unblocks more folds and has better equity when snapped. Seth Davies' 3.3x open with 46BB into two short stacks (21BB and 13BB) was debated — the solver favors open-jamming most suited aces and small pairs rather than open-raising, to avoid the awkward race-call/race-fold tree; A10o is a clear race-fold when jammed on. Blocker construction at final tables matters enormously: your value range is so narrow that even small frequency bluffs with non-blockers constitute overluffing.</p>
+  <p>Espen does a live final table review of the Triton 200K using GTO Wizard's new ICM preflop solver, which lets you input any tournament payout structure and stack sizes and get solutions on the fly without pre-running sims. The key strategic insights: (1) Queen-jack offsuit from the low jack is barely a break-even open in chip EV, and with ICM pressure it's a snap fold — blockers matter enormously at final tables; (2) Pocket jacks in a squeeze spot facing a raise and 3-bet is a clear fold because it blocks more bluffs and race-folds from the opener than hands like A5s, which are actually preferred as 4-bet jams due to their blocker equity against the calling range; (3) With a 46-big-blind button vs. 13 and 21 in the blinds, the solver strongly prefers open-jamming over a min-raise — Seth Davies's racing strategy may reflect edge assumptions but the solver says jam. Worth watching if you want to see ICM preflop theory applied in real time with a usable tool.</p>
   <p class="meta">Videos: <a href="https://www.youtube.com/watch?v=6PqMSznyIrQ">$200K Triton Invitational Final Table Review</a></p>
 </div>
 
 <div class="story">
   <h3>Jared Alderman</h3>
-  <p>Alderman makes a conceptual case for passive lines that's worth sitting with: the bias toward betting as "taking control" is a psychological artifact, not a strategic one. Betting small doesn't guarantee taking down the pot — your opponent defends a wide range — and it costs you real equity in spots where a check-call line extracts more. More useful framing: even weak opponents play a structured game with internal rules (e.g., always check-raise top pair, never bluff certain boards), and labeling them one-dimensionally ("station," "aggro") blinds you to exploitable patterns. The smarter question is: what does this specific player never do, and what do they always do, and how does that reshape my line?</p>
+  <p>Jared makes a sharp point about the psychology of passive lines: players conflate aggression with agency and assume checking signals weakness or lack of control, when strategically checking is identical in weight to betting — it's just a different decision within the rules. The real trap he identifies is players paying a "betting premium" (like insurance) to end hands early rather than letting passive lines extract more value from opponents who will over-bluff or over-call in spots where a check-call is superior. He also warns against collapsing opponent reads into two-dimensional archetypes ("station," "aggro") when most players have very specific spots where they never bluff and others where they always over-bluff — and exploiting them requires mapping those contours precisely.</p>
   <p class="meta">Videos: <a href="https://www.youtube.com/watch?v=HWEPYdd3GlY">When To Explore Passive Lines</a></p>
 </div>
 
 <div class="story">
-  <h3>Dr. Sten Ekberg</h3>
-  <p>Ekberg covers a significant 2018 update to fructose metabolism that overturns the widely-cited Lustig "fructose only hits the liver" model. New finding: the small intestine processes fructose first, clearing ~90% of low-dose fructose into glucose and lactate before it ever reaches the liver — the liver is the backup, not the primary processor. The critical variable is dose and speed: the gut saturates quickly, estimated at roughly 10–25g of fructose per sitting in humans, with the lower end applying to liquid sugar consumed fast on an empty stomach. A single can of soda (~21g fructose) or a 20oz bottle (~36g) exceeds that threshold entirely. Below the threshold, the liver is largely spared; above it, the overflow gets converted to fat. The practical implication: whole fruit with fiber (blackberries at 2.4g/100g fructose, strawberries 2.7g) stays safely under the gut's capacity, but even OJ (~10g/8oz) hits the cusp. Medjool dates are the outlier at 32g fructose per 100g — a single serving overwhelms the system regardless of context. Fructose also fails to suppress ghrelin meaningfully, doesn't produce an insulin spike, and lights up brain reward circuits more than glucose — the hunger-suppression pathway simply doesn't fire.</p>
-  <p class="meta">Videos: <a href="https://www.youtube.com/watch?v=XaaPjdRU490">#1 The Most Famous Sugar Video Ever Was WRONG</a></p>
+  <h3>Renaissance Periodization</h3>
+  <p>Two tight, practical points from Mike Israetel: First, don't judge a workout before you're two working sets in — motivation is lowest right before the first warm-up set and often flips completely after the second; showing up is the intervention. Second, on deload structure: one week off every ~8 weeks (active deload), and at least once yearly take two full weeks of near-zero training to bring systemic cumulative fatigue back to baseline — something no amount of between-session recovery can accomplish.</p>
+  <p class="meta">Videos: <a href="https://www.youtube.com/shorts/a9kqcXncAes">You Don't Have to Feel Motivated First</a> · <a href="https://www.youtube.com/shorts/O0ss3fQA5IE">Skipping The Gym is Good Sometimes!</a></p>
 </div>
 
 <div class="story">
   <h3>Peter Attia</h3>
-  <p>In this 400-episode retrospective, Attia explicitly walks back his prior dogmatism on keto and extended fasting. On keto: he no longer believes the mechanism is insulin suppression — he now thinks it works for the same reason most restrictive diets work, which is that it reduces energy intake, often without deliberate calorie counting. Hyperinsulinemia travels with obesity but isn't the root cause; fixing insulin without fixing energy balance doesn't fix the problem, and you can gain weight on keto if you're in a caloric surplus. On extended fasting (he ran quarterly 7–10 day fasts for 3 years): the cost-benefit calculus shifted. The autophagy case relied on ~3 days being the threshold for meaningfully elevated autophagy beyond what exercise produces, but the evidence for clinical benefit in healthy humans never materialized to match the cost. His current framework: protein minimum (1.4g/kg bodyweight) is non-negotiable; dietary strategy beyond that is largely interchangeable as long as the protein target is met and energy balance is managed.</p>
-  <p class="meta">Videos: <a href="https://www.youtube.com/watch?v=6DR8E5QJoCY">Strong convictions, loosely held: how Peter's views on fasting, keto, exercise, & more have changed</a></p>
+  <p>In a 400-episode retrospective, Attia walks through his major view changes. Most significant: he no longer believes ketogenic diets work through insulin suppression — he now thinks they work the same way most restrictive diets work, by making energy control easier and increasing satiety, not by some special metabolic mechanism. He's tested this against the obvious falsifier: you can gain weight in ketosis if you're in caloric surplus, so hyperinsulinemia is "along for the ride," not the cause. On extended fasting: he did quarterly 7–10 day fasts for three years chasing autophagy benefits, but has since scaled back significantly, citing the evidence-to-cost ratio — the human data on autophagy is thin, the personal cost is high, and the signal he was chasing (roughly 3+ days to meaningfully elevate autophagy beyond exercise) never had a clean human measurement instrument behind it.</p>
+  <p class="meta">Videos: <a href="https://www.youtube.com/watch?v=6DR8E5QJoCY">Strong convictions, loosely held</a></p>
 </div>
 
 <div class="story">
-  <h3>Mind The Game — LaMelo to the Timberwolves</h3>
-  <p>LaMelo Ball joining Anthony Edwards gives Minnesota the high-level playmaking they lacked, but the trade cost them Naz Reid and Julius Randle — the physical, grind-you-down interior presence that defined their defensive identity over the past few seasons. The question is whether the team can replace that physicality and whether Kuminga (who showed real flashes in limited Golden State opportunity) and a heavier-responsibility McDaniels can fill structural gaps. Edwards–LaMelo as a backcourt pairing has genuine ceiling, but the team is meaningfully softer now.</p>
-  <p class="meta">Videos: <a href="https://www.youtube.com/shorts/lHSB5xlox0Y">Timberwolves breakdown</a></p>
+  <h3>Modern Wisdom</h3>
+  <p>Two distinct pieces worth flagging. The David Deutsch conversation (carried forward) digs into Popperian epistemology applied practically: certainty is not a virtue and the subjective feeling of being certain has zero correlation with truth — even a malevolent or ignorant person can hold the one truth that saves you, so judging ideas by authority or source is epistemically corrupt. The more practical short: Chris Williamson's team articulates "Frankl's inverse law" — a counterpart to the famous meaning-vs-pleasure quote. The argument is that people who struggle to experience pleasure often use the pursuit of meaning and delayed gratification as a rationalization ("happiness will come tomorrow"), which becomes a bank account you never withdraw from. Worth sitting with if you trend toward the overachieving-but-joyless end.</p>
+  <p class="meta">Videos: <a href="https://www.youtube.com/watch?v=WS3BZjtHpWw">Why Pessimism Makes Dumb Ideas Sound Smart - David Deutsch</a> · <a href="https://www.youtube.com/shorts/z7URpe7QlCQ">You Must Enjoy Your Life</a></p>
 </div>
 
 <p><strong>Also posted:</strong></p>
 <ul>
-  <li><strong>Ken Berry MD:</strong> Four shorts making the practical case for carnivore on a budget (Dollar General ground beef, Vienna sausages, potted meat) and arguing the #1 beginner mistake is eating too low fat — without dietary fat as fuel, protein can't substitute, and brain fog and fatigue persist. (<a href="https://www.youtube.com/shorts/4xMDZQJxqEM">Think carnivore is only for the wealthy?</a> + 3 more)</li>
-  <li><strong>Anthony Chaffee MD:</strong> Argues ruminant meat (beef, lamb) is superior to grain-fed pork/chicken because ruminants conjugate linoleic acid into CLA, while grain-fed monogastrics accumulate high linoleic acid — the plant omega-6 that's pro-oxidative and suppresses DHA/EPA. (<a href="https://www.youtube.com/shorts/UBqnj3HfEnI">Is BEEF Better Than Pork and Chicken?</a>)</li>
-  <li><strong>Nick Norwitz:</strong> Makes the case that extra virgin olive oil shots have real mechanistic backing — the polyphenol hydroxytyrosol inhibits tau aggregation and increases nitric oxide bioavailability — but only if the oil is high-polyphenol (recent press date, dark bottle, should make you cough from oleocanthal). (<a href="https://www.youtube.com/shorts/gbGXFc2bfHU">Why Are People Doing Olive Oil Shots?</a>)</li>
-  <li><strong>Renaissance Periodization:</strong> Dr. Mike critiques a guy who blasted tren + dbol + superdrol while drinking 24 drinks/day and not training, then competed in a natural bodybuilding show — useful for the underlying physiology point that steroids do stimulate muscle growth independently of training, though far less effectively and with serious health costs; body weight trend as the only honest calorie tracker also covered in a separate short. (<a href="https://www.youtube.com/watch?v=096QyLdeumI">Exercise Scientist Critiques the Bodybuilder Who Doesn't Train</a> + 2 more)</li>
-  <li><strong>Thomas DeLauer:</strong> Argues glutamine supplementation (5–10g/day under stress) supports GABA production via the glutamine → glutamate → GABA pathway, potentially reducing anxiety — especially relevant when overtrained, ill, or sleep-deprived, since immune cells consume glutamine aggressively and can deplete what's available to the brain. (<a href="https://www.youtube.com/watch?v=xwukeohmTpI">1 Scoop of This Powder Lowers Anxiety, Drops Cortisol, and Shrinks Visceral Fat</a>)</li>
-  <li><strong>ModernWisdom:</strong> Chris Williamson documents a disturbing situation: a voice on ElevenLabs' platform called "Archer" — their most popular British male default — sounds enough like him that friends couldn't distinguish it, and it was already being used to advertise products he never endorsed. ElevenLabs ran a similarity test scoring 0.28 (below 0.7 threshold) and declined to act; the voice was later removed, reasons unknown. The broader point about legal helplessness — no federal voice protection law, state right-of-publicity law is uncharted in AI contexts, no neutral referee — is the genuinely unsettling takeaway. (<a href="https://www.youtube.com/watch?v=lxDNHLgWInU">The ElevenLabs Situation Is Crazy</a>)</li>
-  <li><strong>Ben Felix:</strong> Rigorous framework on leveraged ETFs: theoretical case for young investors using 2x leverage (human capital as bond-like asset means portfolio is underweight equities early in life), but the assumption of safe human capital is fragile for young/high-income workers who sell stocks when income falls. Also debunks the "volatility decay kills long-term leveraged ETF returns" claim — mathematically, rebalancing frequency doesn't matter if returns lack serial correlation; it's an empirical question, not a structural death sentence. (<a href="https://www.youtube.com/watch?v=E7pl0tqzIUQ">The Truth About Leveraged ETFs</a>)</li>
-  <li><strong>Andrew Huberman (ft. Dr. Matt MacDougall):</strong> Neuralink's head neurosurgeon explains the current clinical goal — restoring digital control (mouse/keyboard) to quadriplegics by decoding motor intentions from cortex via sub-hair-width electrodes placed by robot — and why robotics are required (human hands aren't steady enough). First human augmentation use case (typing faster with BCI than with hands) is years away; near-term is purely medical. (<a href="https://www.youtube.com/watch?v=YdIJW8RTptU">Essentials: Neuralink & Technologies to Enhance Human Brains</a>)</li>
+  <li><strong>Paul Saladino MD:</strong> Covered a wide range of his standard animal-based diet claims across many shorts — the most substantively interesting was his discussion of folate bioavailability (animal-source folate vs. folic acid supplements, why he recommends methylfolate not folic acid for pregnancy), and his nuanced take on fasting: he's not a fan of extended fasts or OMAD, citing cortisol/catecholamine stress, and advocates eating when hungry with a natural overnight fast as sufficient. (<a href="https://www.youtube.com/watch?v=lyetKsv-IbU">Carnivore Buns Recipe + Q&A</a> · +9 more shorts)</li>
+  <li><strong>Dr. Sten Ekberg:</strong> Detailed breakdown of a 2018 finding that corrects a 17-year-old mechanism: fructose is NOT cleared primarily by the liver — the small intestine processes it first, handling ~90% at low doses. The liver is the overflow system. Practical upshot: dose and speed of consumption determine harm; a can of soda (~21g fructose) clearly overwhelms gut capacity, while a serving of berries (~2.5–5g) likely doesn't. Sugar is still bad, but for reasons beyond the old "liver-only" story. (<a href="https://www.youtube.com/watch?v=XaaPjdRU490">#1 The Most Famous Sugar Video Ever Was WRONG</a>)</li>
+  <li><strong>Thomas DeLauer:</strong> Conversation with Dr. Walter Longo on fasting-mimicking diet (FMD) mouse data: mice on a bad western diet who did 5 days/month of FMD showed complete restoration of longevity and metabolic health to healthy-diet controls — not a midpoint between bad and good diet, but a full reset. Longo's hypothesis: bad food may not cause daily harm but rather cumulatively tips a metabolic "switch," and FMD prevents that switch from ever flipping. Large 500-person Italian trial underway (every 3 months FMD) with results pending. (<a href="https://www.youtube.com/watch?v=jd6qitztyM0">Autophagy Doctor: Eat This for 4 Days...</a>)</li>
+  <li><strong>Nick Norwitz:</strong> Short on olive oil shots — argues extra virgin olive oil's benefit comes from phenolic compounds (e.g., hydroxytyrosol, oleocanthal), not just fat. Oleocanthal causes the throat-sting sensation in good EVOO and is the quality signal; no magical benefit to drinking it straight vs. using it on food. (<a href="https://www.youtube.com/shorts/gbGXFc2bfHU">Why Are People Doing Olive Oil Shots?</a>)</li>
+  <li><strong>Andrew Huberman (with Dr. Matt MacDougall):</strong> Carried-forward Neuralink episode — the neurosurgical head of Neuralink explains that the first clinical target is quadriplegics controlling a computer cursor with motor intention signals, not reconnecting limbs (that's further out). The robot is required because electrode threads are smaller than a human hair and placement precision exceeds what human hands can achieve. MacDougall also has a passive RFID chip in his hand that has unlocked doors and his house for years — a literal proof-of-concept for personal augmentation. (<a href="https://www.youtube.com/watch?v=YdIJW8RTptU">Neuralink & Technologies to Enhance Human Brains</a>)</li>
+  <li><strong>Ben Felix:</strong> Carried-forward deep dive on leveraged ETFs — the theoretical case for 2x leverage for young investors (per Samuelson/Merton: human capital is bond-like, so young people are underweight risk assets and should borrow to invest) is real but fragile; high-income households' income often correlates with markets and they sell stocks during downturns to cover fixed expenses, destroying the "safe human capital" assumption. Also corrects a common misconception: volatility decay from daily rebalancing is mathematically rebalancing-frequency-neutral absent serial correlation — the real risks are behavioral (80% drawdowns) and path-dependent underperformance in non-US markets. (<a href="https://www.youtube.com/watch?v=E7pl0tqzIUQ">The Truth About Leveraged ETFs</a>)</li>
+  <li><strong>Anthony Chaffee MD:</strong> Short arguing ruminants (beef, lamb) are superior to grain-fed pork/chicken because their digestive system conjugates linoleic acid into CLA rather than accumulating it, reducing pro-inflammatory omega-6 load. (<a href="https://www.youtube.com/shorts/UBqnj3HfEnI">Is BEEF Better Than Pork and Chicken?</a>)</li>
+  <li><strong>Mind The Game:</strong> Preview take on the Timberwolves — LaMelo + Ant as a backcourt should generate elite playmaking, but losing Naz Reid and Julius Randle removes the physical interior presence that defined their defensive identity; Kuminga and McDaniels are the wildcards to watch. (<a href="https://www.youtube.com/shorts/lHSB5xlox0Y">Timberwolves season preview</a>)</li>
 </ul>
+
+---
 
 <h2>₿ Bitcoin & Macro</h2>
 
 <div class="story">
   <h3><a href="https://bitcoinmagazine.com/news/deutsche-bank-will-debut-bitcoin-custody">Deutsche Bank To Debut Bitcoin Custody Within Weeks</a></h3>
-  <p>Deutsche Bank — one of Europe's largest and most conservative banks — is reportedly weeks away from launching a Bitcoin custody service. This is institutional infrastructure arriving at the sovereign bank level, not a crypto-native custodian. The significance is the legitimacy signal: when Germany's flagship bank offers BTC custody, it changes the conversation for institutional allocators in Europe who face compliance constraints.</p>
+  <p>Deutsche Bank — one of Europe's largest and most traditional financial institutions — is reportedly weeks away from launching a Bitcoin custody service. This is a meaningful signal of institutional infrastructure normalization: when legacy banks begin providing custody (rather than just offering ETF exposure), they lower the barrier for their existing wealth management client base to hold BTC directly. Watch for whether this triggers competitive moves from other European banks.</p>
   <p class="meta">Bitcoin Magazine</p>
 </div>
 
 <div class="story">
-  <h3><a href="https://bitcoinmagazine.com/news/bitcoin-under-pressure-says-coinshares">Hot Inflation Data Puts Bitcoin Under Pressure, but 'Difficult' Isn't 'Bearish': CoinShares</a></h3>
-  <p>Fresh inflation data is creating near-term headwinds for Bitcoin — higher-for-longer rate expectations reduce the appeal of non-yielding assets. CoinShares' framing is worth noting: the macro environment is "difficult" but not structurally bearish for long-term holders, as the underlying supply/demand dynamics haven't changed. A useful reminder that short-term Bitcoin price is still meaningfully correlated with rate expectations.</p>
+  <h3><a href="https://bitcoinmagazine.com/news/msci-could-exclude-strategy-from-index">MSCI May Exclude Strategy (MicroStrategy) From Global Equity Index</a></h3>
+  <p>MSCI has adopted new rules that could push Michael Saylor's Strategy (formerly MicroStrategy) out of global equity benchmarks, apparently because its primary economic exposure is now Bitcoin rather than operating business activity. This is a meaningful tension point in the Saylor playbook: the entire thesis of a Bitcoin treasury company trading at a premium to NAV depends partly on being included in indices that force passive fund inflows. Exclusion would reduce structural buy pressure on the stock.</p>
   <p class="meta">Bitcoin Magazine</p>
 </div>
 
 <div class="story">
-  <h3><a href="https://bitcoinmagazine.com/news/msci-could-exclude-strategy-from-index">MSCI To Move Forward With Proposal That Could Exclude Strategy From Index</a></h3>
-  <p>MSCI is adopting rules that could push Michael Saylor's Strategy (formerly MicroStrategy) out of global equity benchmarks due to its Bitcoin treasury model. This matters for Saylor's thesis: if passive index funds are forced to sell Strategy shares, it creates structural selling pressure regardless of Bitcoin's price direction. It also reveals the friction between the traditional index-construction framework and companies whose primary asset is Bitcoin.</p>
-  <p class="meta">Bitcoin Magazine</p>
+  <h3><a href="https://www.numismaticnews.net/gold-now-top-u-s-export">Gold is Now the Top U.S. Export</a></h3>
+  <p>Gold has overtaken everything else — including semiconductors and aircraft — to become the single largest U.S. export category. This is a striking macroeconomic data point: it reflects both the surge in gold prices and likely accelerated movement of physical gold to London and other vaults in response to tariff uncertainty. From a monetary policy and hard-money perspective, it also signals how much global capital is flowing into non-dollar stores of value.</p>
+  <p class="meta"><a href="https://news.ycombinator.com/item?id=gold-us-export">Discussion</a> · Hacker News (316 pts)</p>
 </div>
+
+---
 
 <h2>🧬 Health & Science</h2>
 
 <div class="story">
-  <h3>Fructose Metabolism Update: The Liver Is the Backup, Not the Primary Processor</h3>
-  <p>The 2018 finding (confirmed in follow-up human research) that the small intestine clears ~90% of low-dose fructose before it reaches the liver upends 17 years of conventional framing. The dose-dependence is the actionable insight: at roughly 10–25g fructose per sitting (lower end for liquid sugar on an empty stomach, higher end for whole fruit eaten slowly with fiber), the gut capacity saturates and overflow hits the liver for fat conversion. A regular can of soda at ~21g and a 20oz bottle at ~36g both exceed the threshold substantially. Whole fruit with fiber — especially berries (2.4–2.7g fructose/100g) — stays under it. Medjool dates (32g/100g) are uniquely problematic. The satiety mechanism compounds this: fructose doesn't suppress ghrelin, doesn't trigger insulin, and activates brain reward centers more intensely than glucose, driving cravings and impaired impulse control around food.</p>
-  <p class="meta">Via <a href="https://www.youtube.com/watch?v=XaaPjdRU490">Dr. Sten Ekberg</a></p>
+  <h3>Peter Attia: Why Keto Works (And It's Not Insulin)</h3>
+  <p>Attia's clearest statement yet on his view change: ketogenic diets work because they make caloric restriction easier and improve satiety — not because they suppress insulin in some special way. The falsifier is simple: you can gain weight in ketosis if you eat a surplus. He's now agnostic on dietary tactics as long as patients hit ≥1.4g/kg protein. The practical upshot: the mechanism debate (insulin vs. energy balance) matters less than adherence and protein adequacy, and anyone who held strong opinions about why low-carb works should update accordingly.</p>
+  <p>On fasting: after three years of quarterly 7–10 day fasts, he scaled back significantly. His core concern is that human autophagy data is thin — there's no clean measurement instrument, and the "3 days to significant autophagy" signal came from expert consensus and preclinical data, not human RCTs. The evidence-to-personal-cost ratio didn't hold up over time.</p>
 </div>
 
 <div class="story">
-  <h3>Peter Attia Revises Keto and Fasting Positions — With Mechanisms</h3>
-  <p>Attia's updated view: ketogenic diets work primarily through satiety and spontaneous calorie reduction, not through insulin suppression. The hyperinsulinemia model of obesity now strikes him as confusing cause and effect — energy imbalance drives hyperinsulinemia, not the reverse, and you can gain weight on keto in a caloric surplus. On extended fasting: the autophagy rationale required ~3 days minimum to meaningfully exceed exercise-induced autophagy levels, but clinical evidence for benefit in healthy humans never materialized to justify the cost (metabolic stress, muscle protein concerns, lifestyle disruption). His current non-negotiable: ≥1.4g protein/kg bodyweight; everything else is flexible.</p>
-  <p class="meta">Via <a href="https://www.youtube.com/watch?v=6DR8E5QJoCY">Peter Attia, The Drive</a></p>
+  <h3>Dr. Sten Ekberg: The 2018 Fructose Mechanism Update</h3>
+  <p>The prevailing model for 17 years (Robert Lustig's "fructose goes straight to liver, only liver processes it") was corrected by a 2018 finding: the small intestine processes fructose first and clears ~90% at low doses, with the liver acting as overflow. The critical variable is dose and speed: liquid fructose on an empty stomach saturates gut capacity fastest (threshold estimated ~10–25g/sitting in humans, still uncertain). Practical benchmarks: a can of Coke (~21g fructose) clearly overwhelms gut capacity; berries (~2.5–5g per serving) likely don't. Fructose is still harmful — separately, it fails to suppress ghrelin, doesn't trigger insulin-mediated satiety, and activates brain reward circuits more than glucose — but the mechanism is more nuanced than "liver poison."</p>
 </div>
+
+<div class="story">
+  <h3>Peter Attia: Gray-Market Peptides and Big Pharma's Fingerprints</h3>
+  <p>Attia's team traced the patent and development histories of 25 popular gray-market peptides (the kinds sold as "research chemicals") and found deep ties to pharmaceutical R&D — many were originally developed by or licensed from major pharma companies before being abandoned for commercial reasons and migrating to the gray market. The implication is that the "underground biohacker vs. evil pharma" framing around peptides is largely false; many of these compounds have surprisingly rigorous preclinical histories, which is both reassuring about mechanisms and concerning about the purity and dosing of what people are actually buying.</p>
+  <p class="meta"><a href="https://peterattiamd.com/gray-market-peptides-and-patents/">Peter Attia MD</a></p>
+</div>
+
+<div class="story">
+  <h3>Walter Longo / Thomas DeLauer: Fasting-Mimicking Diet Resets Metabolic Damage in Mice</h3>
+  <p>Middle-aged mice put on a western diet (high-fat, high-sugar) who also received 5 days/month of fasting-mimicking diet (FMD) showed complete restoration of metabolic health and longevity equivalent to a healthy-diet control group — not a partial improvement. Longo's hypothesis: bad food may not cause incremental daily damage but rather cumulatively tips a biological "switch," and FMD periodically prevents that switch from flipping. Key mechanistic candidate: reducing growth hormone / IGF-1 signaling, which Longo identifies as the master regulator blocking autophagy, stem cell activation, and metabolic reprogramming. A 500-person Italian trial testing quarterly (every 3 months) FMD is complete but results aren't yet published.</p>
+</div>
+
+---
 
 <h2>💡 Worth Reading</h2>
 
 <div class="story">
-  <h3><a href="https://www.mercor.com/research/labor-index/benchmark-map/">90% of US working hours are spent on tasks not covered well by AI benchmarks</a></h3>
-  <p>Mercor's labor index maps real working tasks against what current AI benchmarks actually measure and finds a massive gap: the benchmarks we use to evaluate AI capability systematically miss the vast majority of where humans actually spend their time at work. This reframes the "AI is passing the bar exam" discourse — capability on legible, scoreable tasks is not the same as capability on the actual distribution of work. A useful corrective for anyone tracking AI's real-world labor displacement trajectory.</p>
-  <p class="meta"><a href="https://news.ycombinator.com/item?id=">Hacker News</a> [482 pts]</p>
+  <h3><a href="https://marginalrevolution.com/marginalrevolution/2026/10/solving-for-the-equilibrium-2.html">16 AI Agents Given Bitcoin — Wealth Concentration Emerged Spontaneously</a></h3>
+  <p>Tyler Cowen flags an experiment: 16 AI agents were each given 1,000 satoshis of real Bitcoin and no instructions on how to use it. After 100 rounds of whatever they chose to do, four agents had roughly doubled their holdings, two were wiped out, and the three wealthiest held more than half of all the Bitcoin. No rules imposed this outcome — it emerged from agent behavior. The implied parallel to human economic outcomes and Pareto distributions is uncomfortable and worth sitting with.</p>
+  <p class="meta"><a href="https://marginalrevolution.com/marginalrevolution/2026/10/solving-for-the-equilibrium-2.html">Marginal Revolution</a></p>
 </div>
 
 <div class="story">
-  <h3><a href="https://marginalrevolution.com/marginalrevolution/2026/10/solving-for-the-equilibrium-2.html">AI Agents Given Bitcoin, Wealth Concentrates in Three</a></h3>
-  <p>Sixteen AI agents were each given 1,000 satoshis of real Bitcoin and told nothing about how to use it. After 100 rounds, four had roughly doubled their money, two were wiped out, and the three richest held more than half the total Bitcoin. No coordination was programmed — it emerged. This is a small but striking experiment at the intersection of AI agency, emergent economic behavior, and Bitcoin as a substrate for agent-to-agent value transfer. Worth sitting with as agentic AI systems proliferate.</p>
-  <p class="meta">Marginal Revolution</p>
+  <h3><a href="https://www.nature.com/articles/d41586-026-03266-x">Bleached Corals Recover Within Days by Touching Healthy Neighbors</a></h3>
+  <p>A Nature-published finding that bleached corals can recover their symbiotic algae within days simply through physical contact with healthy neighboring corals — a mechanism no one had documented before. The implication for reef restoration is significant: passive recovery through proximity may be far more powerful than assumed, and restoration strategies that focus only on transplanting healthy corals may be missing the value of maintaining physical contact networks within reefs.</p>
+  <p class="meta"><a href="https://news.ycombinator.com/item?id=bleached-corals">Discussion</a> · Hacker News (422 pts)</p>
 </div>
 
 <div class="story">
-  <h3><a href="https://donaldrobertson.substack.com/p/stoic-premeditation-of-anger">Stoic Premeditation of Anger</a></h3>
-  <p>Donald Robertson covers the Stoic technique of premeditation applied specifically to anger — anticipating the situations and provocations that trigger it before they arise, so the emotional response is less automatic. The frame is preventative therapy rather than reactive recovery: Seneca's argument that by the time anger arrives, reason has already lost the battle, so the only reliable intervention is upstream, before the trigger. Practically, this connects to the Stoic principle that we suffer more in imagination than in reality — but anger inverts this, hitting hardest in the moment.</p>
-  <p class="meta"><a href="https://donaldrobertson.substack.com/p/stoic-premeditation-of-anger">Donald Robertson, Substack</a></p>
+  <h3><a href="https://collabfund.substack.com/p/pessimism-always-sounds-smarter-than">Pessimism Always Sounds Smarter Than Optimism — Morgan Housel</a></h3>
+  <p>A short Housel piece on the asymmetric social costs of optimism vs. pessimism: pessimism signals sophistication and seriousness while optimism reads as naivety, even when the base rate of human progress favors optimism over long horizons. Worth reading alongside the David Deutsch Modern Wisdom conversation above, which makes the same case from an epistemological angle — defaulting to pessimism as a performance of intelligence is itself an epistemic error.</p>
+  <p class="meta"><a href="https://collabfund.substack.com/p/pessimism-always-sounds-smarter-than">Collaborative Fund</a></p>
 </div>
 
 <div class="story">
-  <h3><a href="https://figsinwintertime.substack.com/p/conceptual-stretching-why-everyone">Conceptual Stretching: Why Everyone You Dislike Is a Fascist, or a Communist, or Both</a></h3>
-  <p>Massimo Pigliucci (Figs in Winter) applies the political science concept of "conceptual stretching" — the habit of expanding the definition of a term until it loses analytical usefulness — to how people misuse "fascist" and "communist" as all-purpose insults. This is a mental models piece as much as a political one: when a concept's extension grows too large, it loses its intension, and you can no longer think clearly with it. The practical implication is about epistemic hygiene — sloppy political language produces sloppy political thinking.</p>
-  <p class="meta"><a href="https://figsinwintertime.substack.com/p/conceptual-stretching-why-everyone">Figs in Winter, Substack</a> (Parts I & II)</p>
-</div>
-
-<h2>🤖 AI Capability Watch</h2>
-
-<div class="story">
-  <h3><a href="https://starskirmish.com/bench/v0-2/">Gemini 4 Argon Plays StarCraft</a></h3>
-  <p>Google's Gemini 4 Argon is being benchmarked playing StarCraft II in real-time — a game that requires simultaneous strategic planning, micromanagement, and rapid decision-making under partial information. Real-time strategy game play at a high level has historically been a hard AI problem distinct from turn-based games like chess or Go; this is worth watching for what it signals about multi-step planning and real-time agency capability.</p>
-  <p class="meta"><a href="https://news.ycombinator.com/item?id=">Hacker News</a> [214 pts]</p>
+  <h3><a href="https://donaldrobertson.substack.com/p/stoic-premeditation-of-anger">Stoic Premeditation of Anger — Donald Robertson</a></h3>
+  <p>Robertson unpacks the Stoic technique of premeditation specifically applied to anger — not just the standard premeditatio malorum (imagining future adversity), but the therapeutic practice of anticipating your own anger triggers before they occur and pre-deciding your response. The key Stoic move: anger arises from an initial "impression" that a wrong has been done, and you can disrupt it before it escalates if you've pre-examined whether the impression is accurate. Pairs well with Marcus Aurelius on how the first moment of pause is where the entire battle is won or lost.</p>
+  <p class="meta"><a href="https://donaldrobertson.substack.com/p/stoic-premeditation-of-anger">Donald Robertson / Substack</a></p>
 </div>
 
 <div class="story">
-  <h3><a href="https://machinelearning.apple.com/research/mlx-distributed-inference">Apple ML Research: Muse Spark Open with MLX on Mac Studio</a></h3>
-  <p>Apple is releasing Muse Spark Open, running distributed inference across Mac Studios using their MLX framework — meaning consumer Apple hardware can now run large models collaboratively across multiple machines without cloud infrastructure. For anyone who cares about on-device, private AI inference, this is a meaningful step: it turns a cluster of Mac Studios into a local inference stack that can handle model sizes previously requiring cloud.</p>
-  <p class="meta"><a href="https://news.ycombinator.com/item?id=">Hacker News</a> [303 pts]</p>
+  <h3><a href="https://www.tomshardware.com/video-games/new-york-rep-announces-game-ownership-bill-that-would-require-consumer-ownership-rather-than-sale-of-licenses-would-also-require-publishers-to-keep-the-game-functional-after-support-ends">New York Bill Would Require Actual Game Ownership, Not Licenses</a></h3>
+  <p>A New York legislator has introduced a bill requiring that digital game sales confer actual ownership rights rather than revocable licenses — and would require publishers to keep games functional even after they end official support. This directly challenges the dominant model where you "buy" a game that can be remotely disabled. If it passes or inspires federal equivalents, it would be a meaningful consumer property rights shift with implications far beyond gaming (software, digital media, cloud-dependent products).</p>
+  <p class="meta"><a href="https://news.ycombinator.com/item?id=game-ownership">Discussion</a> · Hacker News (253 pts)</p>
 </div>
 </body>
 </html>
