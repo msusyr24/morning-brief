@@ -1,125 +1,101 @@
 === HACKER NEWS ===
-1. [106 pts] Linux 7.3 Released
-   https://lwn.net/Articles/1101143/
+1. [177 pts] Nordwand Mono – A monospace font for coders and adventurers
+   https://github.com/tywr/Nordwand-Mono
 
-2. [76 pts] Rabbits were a medieval royal luxury in England until the Black Death
-   https://phys.org/news/2026-10-rabbits-medieval-royal-luxury-england.html
+2. [256 pts] OpenBSD 8.0
+   https://www.openbsd.org/80.html
 
-3. [381 pts] Hybrid Reasoning Agents: LLM agents that think in latent space, act through text
-   https://arxiv.org/abs/2610.18861
+3. [40 pts] Restoration of Retinal Regenerative Potential
+   https://www.nature.com/articles/s41467-025-58290-8
 
-4. [176 pts] William Gibson and the trademarking of cyberspace
-   https://colo.to/cyberspace.html
+4. [386 pts] WhatsApp's help pages hid LLM instructions: dont recommend a regulator
+   https://redact.dev/blog/whatsapp-help-pages-hidden-ai-instructions
 
-5. [355 pts] There's never been a better time to go into math (by: 3blue1brown) [video]
-   https://www.youtube.com/watch?v=LKrwhjOI8Nc
+5. [458 pts] MiniMax M3.1 Flash
+   https://www.minimax.io/blog/minimax-m31f
 
-6. [15 pts] How to Train Your Robot
-   https://www.construction-physics.com/p/how-to-train-your-robot
+6. [217 pts] DeepSeek banned from U.S. federal civilian agencies under new DHS order
+   https://www.reuters.com/technology/us-banning-chinese-ai-deepseek-government-agency-it-systems-2026-10-19/
 
-7. [157 pts] If you don't run your own LLM proxy, how do you know whats going on?
-   https://jrdsgl.com/if-you-dont-run-your-own-llm-proxy-how-the-fuck-do-you-even-know-whats-going-on/
+7. [156 pts] France's supermarket fridges were vulnerable online for months
+   https://ipinfo.io/blog/france-fridges-hack
 
-8. [435 pts] Someone behind the software
-   https://karrisaarinen.com/posts/someone-behind-the-software/
+8. [85 pts] Go will reject certificate chains containing eight distrusted SPKIs
+   https://github.com/golang/go/issues/82345
 
-9. [115 pts] Laptop Based on 6502 CPU
-   https://www.maddox.pro/?p=448
+9. [188 pts] Weball: Play Katamari on Websites
+   https://www.funwithcomputervision.com/weball/
 
-10. [87 pts] Superlite: A Faster Alternatie to Superpowers
-   https://contextfirst.blog/superlite-hand-an-agent-a-spec/
+10. [527 pts] I built a drone with only one motor [video]
+   https://www.youtube.com/watch?v=Ndftcft6XhU
 
-11. [15 pts] Tmux and Claude Code: Sessions, Send-Keys, and the Ceiling
-   https://crystl.dev/guides/tmux-for-ai-agents/
+11. [186 pts] An ad-free Android TV
+   https://cretezy.com/2026/ad-free-android-tv
 
-12. [227 pts] Dogs seem to agree with humans that 'bouba' is round and 'kiki' is spiky
-   https://www.sciencealert.com/dogs-seem-to-agree-with-humans-that-bouba-is-round-and-kiki-is-spiky
+12. [558 pts] Wine ported to OpenBSD
+   https://marc.info/?l=openbsd-ports&m=179236125692175
 
-13. [388 pts] RepRapMicron
-   https://github.com/VikOlliver/RepRapMicron/wiki
+13. [585 pts] It's still ok to enjoy programming
+   https://chriskiehl.com/article/it-is-still-ok-to-enjoy-programming
 
-14. [4 pts] Lant – The Forgotten Resource
-   https://sites.udel.edu/materialmatters/2018/04/11/lant-the-forgotten-resource/
+14. [264 pts] Ukraine claims first drone evacuation of wounded soldier
+   https://www.nbcnews.com/world/ukraine/ukraine-first-drone-evacuation-wounded-soldier-frontlines-hexacopter-rcna604310
 
-15. [26 pts] Flatpak – An Insecurity Nightmare
-   https://oro.gay/posts/flatpak-an-insecurity-nightmare/
+15. [152 pts] OpenBSD 8.0 release will have inteldrm/radeondrm/amdgpu drivers from Linux 6.18
+   https://bsd.network/@brynet/117407035545900963
 
-16. [65 pts] The DNS Museum
-   https://dns.museum
+16. [60 pts] Maxwell: A new kind of model that sits between code and hardware
+   https://heymaxwell.ai/
 
-17. [94 pts] Verisign .com Domain Name Registry Consumer Class Action
-   https://www.hbsslaw.com/cases/verisign-com-domain-name-registry-consumer-class-action
+17. [191 pts] RuneScape Bench: MMOs for Agents [video]
+   https://www.youtube.com/watch?v=cNm4zyUtWj0
 
-18. [161 pts] Free Pascal compiler now supports dynamic packages
-   https://www.getlazarus.org/dynamic/
+18. [113 pts] How abliterated models can get you pwned
+   https://projectdiscovery.io/research/how-abliterated-models-can-get-you-pwned
 
-19. [58 pts] How Quickly Can the DoD Rebuild and Recast the Munitions Industrial Base?
-   https://www.csis.org/analysis/how-quickly-can-dod-rebuild-and-recast-munitions-industrial-base
+19. [439 pts] Starcraft: Ashfall
+   https://starcraft-shooter-2026.pages.dev/
 
-20. [104 pts] Show HN: WhatsApp MCP running free on Cloudflare
-   https://github.com/finereli/whatsapp-mcp
+20. [45 pts] How Do Fungi Keep the Planet Healthy?
+   https://www.quantamagazine.org/how-do-fungi-keep-the-planet-healthy-20261015/
 
-21. [177 pts] I built a programming language that LLMs can't use
-   https://blog.picheta.me/post/killswitch-lang/
+21. [99 pts] One Hash Bloom Filters
+   https://calabro.io/ohbf
 
-22. [125 pts] PalmOS Lemmings
-   https://github.com/ardiri/palmos-lemmings
+22. [422 pts] Ask HN: How to deal with shipping AI-written code you don't understand?
+   https://news.ycombinator.com/item?id=50151036
 
-23. [13 pts] How Postgres DELETE can actually scale
-   https://www.dbos.dev/blog/scaling-deletions-in-postgres
+23. [36 pts] Porting video games to VHS
+   https://gardinerbryant.com/what-if-video-games-came-on-vhs/
 
-24. [131 pts] DeepSeek V4.1 Flash 1017 (Max)
-   https://artificialanalysis.ai/models/deepseek-v4-1-flash-1017
+24. [228 pts] Putting Linux on my RTX Spark laptop because I don't have a Microsoft account
+   https://josie.lol/blog/linux-rtx-spark
 
-25. [77 pts] One parser, two bugs, many routers: Exploiting Broadcom WiFi across eCos, Linux
-   https://quentinkaiser.be/security/2026/10/16/one-parser-two-bugs/
+25. [14 pts] Refurb weekend II: Alpha Micro Eagle 300 and friends
+   http://oldvcr.blogspot.com/2026/10/refurb-weekend-ii-alpha-micro-eagle-300.html
 
-26. [77 pts] A new way to think about borrow checking (in reverse)
-   https://verdagon.dev/blog/reverse-borrow-checking
+26. [95 pts] Agentic Monitoring
+   https://benjamincongdon.me/blog/2026/10/19/Agentic-Monitoring/
 
-27. [166 pts] Java sealed classes and exhaustive pattern matching
-   https://neilmadden.blog/2026/04/24/java-sealed-classes-and-exhaustive-pattern-matching/
+27. [59 pts] Show HN: Death Plan Switch, a self-hosted dead man's switch for solo devs
+   https://deathplanswitch.com/
 
-28. [253 pts] macOS 15.8.2 Breaks OpenGL
-   https://developer.apple.com/forums/verify-human/verify.html?next=/forums/thread/850550
+28. [193 pts] Plex vulnerabilities being exploited in the wild to drop a cryptominer
+   http://www.boredhackerblog.info/2026/10/plex-vulnerabilities-being-exploited-in.html
 
-29. [175 pts] "I'm on a war footing": Terry Tao and the crisis in math
-   https://www.nytimes.com/2026/10/16/us/math-ai-terence-tao.html
+29. [140 pts] The fire retardant in the seafood chain
+   https://insideclimatenews.org/news/14102026/ethoxyquin-fire-retardant-in-seafood-chain/
 
-30. [194 pts] Open MicroManipulator – A sub-micrometer 3D motion control plattform
-   https://github.com/0x23/MicroManipulatorStepper
+30. [56 pts] Launch HN: Laminar (YC S24) – RL-trained model that finds errors in agent traces
+   https://news.ycombinator.com/item?id=50154029
 
 
 === RSS ===
-[ai] Simon Willison: llm-tools-datasette 0.1.1
-  https://simonwillison.net/2026/Oct/18/llm-tools-datasette/
+[ideas] Paul Graham: Making Startups Powerful
+  https://paulgraham.com/powerful.html
 
-[ai] Simon Willison: llm-echo 0.5
-  https://simonwillison.net/2026/Oct/18/llm-echo/
-
-[ai] Simon Willison: Inline rendering with document​.currentScript
-  https://simonwillison.net/2026/Oct/17/document-currentscript/
-
-[ai] Simon Willison: web-edit 0.1a2
-  https://simonwillison.net/2026/Oct/17/web-edit/
-
-[ai] Simon Willison: Quoting Addy Osmani, Morgan Westlee Lunt, and Qing Wang
-  https://simonwillison.net/2026/Oct/16/code-review/
-
-[ideas] Marginal Revolution: What I’ve been reading
-  https://marginalrevolution.com/marginalrevolution/2026/10/what-ive-been-reading-297.html?utm_source=rss&utm_medium=rss&utm_campaign=what-ive-been-reading-297
-
-[ideas] Marginal Revolution: *You Can See Everything* (no spoilers)
-  https://marginalrevolution.com/marginalrevolution/2026/10/you-can-see-everything-no-spoilers.html?utm_source=rss&utm_medium=rss&utm_campaign=you-can-see-everything-no-spoilers
-
-[ideas] Marginal Revolution: *This Beautiful Country*
-  https://marginalrevolution.com/marginalrevolution/2026/10/this-beautiful-country.html?utm_source=rss&utm_medium=rss&utm_campaign=this-beautiful-country
-
-[ideas] Marginal Revolution: Our fascination with screens, demand curves slope downward installment #1637
-  https://marginalrevolution.com/marginalrevolution/2026/10/our-fascination-with-screens-demand-curves-slope-downward-installment-1637.html?utm_source=rss&utm_medium=rss&utm_campaign=our-fascination-with-screens-demand-curves-slope-downward-installment-1637
-
-[ideas] Marginal Revolution: The archaeology tranche of Emergent Ventures
-  https://marginalrevolution.com/marginalrevolution/2026/10/the-archaeology-tranche-of-emergent-ventures.html?utm_source=rss&utm_medium=rss&utm_campaign=the-archaeology-tranche-of-emergent-ventures
+[ideas] Paul Graham: How Universities Should Prepare Founders
+  https://paulgraham.com/prepare.html
 
 [ai] Anthropic News: Investing in the public benefit
   https://www.anthropic.com/news/public-benefit-fund
@@ -136,6 +112,36 @@
 [ai] Anthropic News: Building on our commitment to American scientific discovery
   https://www.anthropic.com/news/genesis-mission-commitment
 
+[ideas] Marginal Revolution: The net fiscal impact of immigration should include gains from trade
+  https://marginalrevolution.com/marginalrevolution/2026/10/the-net-fiscal-impact-of-immigration-should-include-gains-from-trade.html?utm_source=rss&utm_medium=rss&utm_campaign=the-net-fiscal-impact-of-immigration-should-include-gains-from-trade
+
+[ideas] Marginal Revolution: On Brazilian food
+  https://marginalrevolution.com/marginalrevolution/2026/10/on-brazilian-food.html?utm_source=rss&utm_medium=rss&utm_campaign=on-brazilian-food
+
+[ideas] Marginal Revolution: The California billionaire tax is very likely a net revenue loser
+  https://marginalrevolution.com/marginalrevolution/2026/10/the-california-billionaire-tax.html?utm_source=rss&utm_medium=rss&utm_campaign=the-california-billionaire-tax
+
+[ideas] Marginal Revolution: Monday assorted links
+  https://marginalrevolution.com/marginalrevolution/2026/10/monday-assorted-links-582.html?utm_source=rss&utm_medium=rss&utm_campaign=monday-assorted-links-582
+
+[ideas] Marginal Revolution: No, DataCenters are Not Crowding-Out Other Investments
+  https://marginalrevolution.com/marginalrevolution/2026/10/no-datacenters-are-not-crowding-out-other-investments.html?utm_source=rss&utm_medium=rss&utm_campaign=no-datacenters-are-not-crowding-out-other-investments
+
+[ai] Simon Willison: My obituary for programming
+  https://simonwillison.net/2026/Oct/19/my-obituary-for-programming/
+
+[ai] Simon Willison: llm-tools-datasette 0.1.1
+  https://simonwillison.net/2026/Oct/18/llm-tools-datasette/
+
+[ai] Simon Willison: llm-echo 0.5
+  https://simonwillison.net/2026/Oct/18/llm-echo/
+
+[ai] Simon Willison: Inline rendering with document​.currentScript
+  https://simonwillison.net/2026/Oct/17/document-currentscript/
+
+[ai] Simon Willison: web-edit 0.1a2
+  https://simonwillison.net/2026/Oct/17/web-edit/
+
 [wisdom] Figs in Winter (Pigliucci): Video: How to be Stoic
   https://figsinwintertime.substack.com/p/video-how-to-be-stoic
 
@@ -145,29 +151,14 @@
 [wisdom] Figs in Winter (Pigliucci): Conceptual stretching: why everyone you dislike is a fascist, or a communist, or both – Part I
   https://figsinwintertime.substack.com/p/conceptual-stretching-why-everyone
 
-[ideas] Paul Graham: Making Startups Powerful
-  https://paulgraham.com/powerful.html
-
-[ideas] Paul Graham: How Universities Should Prepare Founders
-  https://paulgraham.com/prepare.html
-
-[ideas] Stratechery: 2026.42: Home At Last
-  https://stratechery.com/2026/home-at-last/
-
 [health] Peter Attia: #412 ‒ The evolving science of cancer: emerging approaches to prevention and early detection, and the advances reshaping treatment | Siddhartha Mukherjee, M.D., Ph.D.
   https://peterattiamd.com/sidmukherjee3/
 
 [health] Peter Attia: The [almost] unbelievable relationship between “big pharma” and gray-market peptides
   https://peterattiamd.com/gray-market-peptides-and-patents/
 
-[bitcoin] The Pomp Letter: Five Friday Charts: Where AI money really goes
-  https://pomp.substack.com/p/five-friday-charts-where-ai-money
-
-[ideas] Astral Codex Ten: Your Book Review: Storm Of Steel
-  https://www.astralcodexten.com/p/your-book-review-storm-of-steel
-
-[ai] OpenAI Blog: How Itaú is building generative AI for its entire customer base
-  https://openai.com/index/itau-generative-ai
+[ideas] Collaborative Fund (Morgan Housel): Pessimism always sounds smarter than optimism.
+  https://collabfund.substack.com/p/pessimism-always-sounds-smarter-than
 
 [wisdom] Donald Robertson: Stoic Premeditation of Anger
   https://donaldrobertson.substack.com/p/stoic-premeditation-of-anger
@@ -178,108 +169,137 @@
 [wisdom] Donald Robertson: Virtue is admired above all...
   https://donaldrobertson.substack.com/p/virtue-is-admired-above-all
 
-[ideas] Collaborative Fund (Morgan Housel): Pessimism always sounds smarter than optimism.
-  https://collabfund.substack.com/p/pessimism-always-sounds-smarter-than
+[ideas] Astral Codex Ten: Open Thread 456
+  https://www.astralcodexten.com/p/open-thread-456
 
-[bitcoin] Bitcoin Magazine: Poetic Justice: Scammer Lost $5M in Bitcoin After Being Targeted by Ledger Thieves
-  https://bitcoinmagazine.com/news/scammer-lost-bitcoin-to-ledger-thieves
+[bitcoin] Bitcoin Magazine: Now Accepting Bitcoin: Gyros, Cocas, and 219 Arizona Bitcoin Merchants
+  https://bitcoinmagazine.com/culture/pita-cafe-arizona-bitcoin
 
-[bitcoin] Bitcoin Magazine: BFFS26 Denver: Joseph Kelly on Bitcoin Custody and Credit; Alan Lane on Banking Lessons
-  https://bitcoinmagazine.com/press-releases/bffs26-denver-joseph-kelly-on-bitcoin-custody-and-credit-alan-lane-on-banking-lessons
+[bitcoin] Bitcoin Magazine: AnchorWatch Launches Nevada Trust Company, Caps Bitcoin Custody Fees at $10,000 a Month
+  https://bitcoinmagazine.com/news/anchorwatch-debuts-nevada-trust-company
 
-[bitcoin] Bitcoin Magazine: Sazmining Now Sells Jack Dorsey’s Proto Immersion Hashboards
-  https://bitcoinmagazine.com/news/sazmining-now-sells-proto-hashboards
+[bitcoin] Bitcoin Magazine: The Architecture of Money: Mapping Financial Power in the Age of Bitcoin
+  https://bitcoinmagazine.com/culture/the-architecture-of-money-mapping-financial-power-in-the-age-of-bitcoin
 
-[bitcoin] Bitcoin Magazine: Hot Inflation Data Puts Bitcoin Under Pressure, but ‘Difficult’ Isn’t ‘Bearish’: CoinShares
-  https://bitcoinmagazine.com/news/bitcoin-under-pressure-says-coinshares
+[bitcoin] Bitcoin Magazine: Super League Stockholders Approve Metaplanet’s 2,100 BTC Investment, Paving Way for ‘Superplanet’
+  https://bitcoinmagazine.com/news/metaplanet-super-league-deal-approved
 
-[bitcoin] Bitcoin Magazine: Deutsche Bank To Debut Bitcoin Custody Within Weeks: Report
-  https://bitcoinmagazine.com/news/deutsche-bank-will-debut-bitcoin-custody
+[bitcoin] Bitcoin Magazine: No ‘Uptober’ Yet: Bitcoin Slips 2% in a Month That’s Historically Bullish
+  https://bitcoinmagazine.com/markets/no-uptober-yet-as-bitcoin-slips
 
-[bitcoin] Bitcoin Magazine: MSCI To Move Forward With Proposal That Could Exclude Strategy From Index
-  https://bitcoinmagazine.com/news/msci-could-exclude-strategy-from-index
+[bitcoin] Bitcoin Magazine: Strategy Keeps Buying: Third Purchase This Month Brings October Spending to $73 Million
+  https://bitcoinmagazine.com/news/strategy-third-october-bitcoin-buy
 
-[bitcoin] Bitcoin Magazine: Crypto Analyst Lark Davis: The Bitcoin Bull Run has Begun
-  https://bitcoinmagazine.com/videos/crypto-analyst-lark-davis-the-bitcoin-bull-run-has-begun
+[bitcoin] Bitcoin Magazine: El Salvador’s National Bitcoin Office Hosts Five November Events Led by Herbert and Keiser
+  https://bitcoinmagazine.com/news/el-salvadors-national-bitcoin-office-hosts-five-november-events-led-by-herbert-and-keiser
 
-[bitcoin] Bitcoin Magazine: Math Professor Warns of Threat to Bitcoin from AI Pivot
-  https://bitcoinmagazine.com/videos/math-professor-warns-of-threat-to-bitcoin-from-ai-pivot
+[bitcoin] Bitcoin Magazine: Financial Repression in the Age of AI
+  https://bitcoinmagazine.com/videos/financial-repression-in-the-age-of-ai
+
+[ai] OpenAI Blog: Advancing coding in low‑resource programming languages
+  https://openai.com/index/low-resource-programming-languages
+
+[ideas] Stratechery: Do You Trust Apple?
+  https://stratechery.com/2026/do-you-trust-apple/
+
+[bitcoin] The Pomp Letter: Stock Market Crash Fears Are Surging. Here's Why Investors Are Wrong.
+  https://pomp.substack.com/p/stock-market-crash-fears-are-surging
 
 
 === YOUTUBE ===
-Ken Berry MD: Who grew up being told butter would clog your arteries?
-  https://www.youtube.com/shorts/N0f1BG-VtDc
+Anthony Chaffee MD: Carnivore Is NOT Expensive! - Low-Budget Carnivore Diet
+  https://www.youtube.com/shorts/LxMChL2HEgY
   Transcript: yes
 
-Ken Berry MD: Highly processed foods are designed to be easy to overeat.
-  https://www.youtube.com/shorts/eife30QuyFY
+Paul Saladino MD: Laundry Detergent that’s actually BANNED in New York State?!
+  https://www.youtube.com/shorts/mLM0pxJVbZA
   Transcript: yes
 
 Paul Saladino MD: Shoutout to Lineage Provisions for always keeping me STOCKED with the RAW ORGANIC 🍯
   https://www.youtube.com/shorts/GKJh5odSs0s
   Transcript: NO
 
-Anthony Chaffee MD: 25 Years Carnivore: Her Doctors Never Saw This Coming | Charlene Andersen
-  https://www.youtube.com/watch?v=oNx8KdPCzt0
-  Transcript: yes
-
 GTO Wizard: Espen - $200K Triton Invitational Final Table Review
   https://www.youtube.com/watch?v=6PqMSznyIrQ
+  Transcript: NO
+
+Joe Rogan: Joe Rogan Experience #2567 - Mariana van Zeller
+  https://www.youtube.com/watch?v=7SzYbqsUSog
+  Transcript: NO
+
+Nick Norwitz: How to Make Your Cells Immortal (I Couldn't Believe It!)
+  https://www.youtube.com/watch?v=h3Sav_SBYj4
   Transcript: yes
 
-Nick Norwitz: Eat Your Potatoes Cold
-  https://www.youtube.com/shorts/KKa-3eNYFp8
+Ken Berry MD: Stop blindly believing the modern medical myth. Eat your meat.
+  https://www.youtube.com/shorts/ExIDG9vl6Sc
   Transcript: yes
+
+Ken Berry MD: The weight doesn’t have to come back. Robert Sikes, the Keto Savage, shares his 3 best tips💪
+  https://www.youtube.com/shorts/rqohS4MYKeM
+  Transcript: yes
+
+GTO Lab: Mystery Bounties Solved, Live Webinar with Nick Petrangelo, Axel Hallay & Daniel Dvoress
+  https://www.youtube.com/watch?v=dAIfoFCqkgc
+  Transcript: NO
 
 GTO Lab: Mystery bounty library
   https://www.youtube.com/shorts/ueLOSxlQcKk
   Transcript: NO
 
-Joe Rogan: Joe Rogan Experience #2567 - Mariana van Zeller
-  https://www.youtube.com/watch?v=7SzYbqsUSog
-  Transcript: yes
-
 Jared Alderman: When To Explore Passive Lines
   https://www.youtube.com/watch?v=HWEPYdd3GlY
   Transcript: yes
 
-Thomas DeLauer: If You Eat Rice or Bread, You NEED to Add 4oz of This
-  https://www.youtube.com/watch?v=sRZvuGGrW_g
-  Transcript: yes
-
-Peter Attia: 412 ‒ The evolving science of cancer: emerging approaches to prevention and early detection, & more
-  https://www.youtube.com/watch?v=xKB5GTsaKKs
-  Transcript: yes
-
-Renaissance Periodization: You Don’t Have to Feel Motivated First
-  https://www.youtube.com/shorts/a9kqcXncAes
-  Transcript: yes
-
-Dr. Sten Ekberg: #1 The Most Famous Sugar Video Ever Was WRONG
-  https://www.youtube.com/watch?v=XaaPjdRU490
-  Transcript: yes
-
-ModernWisdom: The World Doesn’t Care About Your Intelligence - Shaan Puri
-  https://www.youtube.com/watch?v=dCy-RENaZnQ
+Thomas DeLauer: If You Eat 100g Protein Daily, You Need to See What They Discovered
+  https://www.youtube.com/watch?v=0BFl_xB56bk
   Transcript: NO
 
 Lex Fridman: Visiting Taiwan w/ Jensen Huang | Lex Fridman
   https://www.youtube.com/watch?v=FGCP2F_7rQk
   Transcript: yes
 
-Andrew Huberman: Essentials: Neuralink & Technologies to Enhance Human Brains | Dr. Matt MacDougall
-  https://www.youtube.com/watch?v=YdIJW8RTptU
+Peter Attia: 412 ‒ The evolving science of cancer: emerging approaches to prevention and early detection, & more
+  https://www.youtube.com/watch?v=xKB5GTsaKKs
   Transcript: yes
 
-Mind The Game: Are the @WashingtonWizards becoming a real threat in the East? 👀
-  https://www.youtube.com/shorts/mHNh3O4EB5k
+Andrew Huberman: What Makes Great Leaders & How to Live an Extraordinary Life | Dr. Jared Diamond
+  https://www.youtube.com/watch?v=2oqBvTRYcv0
+  Transcript: yes
+
+Dr. Sten Ekberg: #1 The Most Famous Sugar Video Ever Was WRONG
+  https://www.youtube.com/watch?v=XaaPjdRU490
+  Transcript: yes
+
+Renaissance Periodization: Dr. Mike Goes Vegan
+  https://www.youtube.com/watch?v=DQLC4Hr8tyg
+  Transcript: yes
+
+Renaissance Periodization: Why Dr. Mike Won't Rely on Cardio for Fat Loss
+  https://www.youtube.com/shorts/ye4XU3rTQ-I
+  Transcript: yes
+
+ThinkingPoker: Bankroll Management - Thinking Poker
+  https://www.youtube.com/watch?v=6w8amkDkeVw
+  Transcript: yes
+
+ModernWisdom: Don’t Quit Before Your Breakthrough
+  https://www.youtube.com/shorts/Za5QvlxjkEk
+  Transcript: yes
+
+ModernWisdom: The Most Hardcore Military Stories In History - The Fat Electrician
+  https://www.youtube.com/watch?v=zB6PhTxnj7U
+  Transcript: yes
+
+ModernWisdom: The World Doesn’t Care About Your Intelligence - Shaan Puri
+  https://www.youtube.com/watch?v=dCy-RENaZnQ
   Transcript: yes
 
 Ben Felix: Breaking Down My Investment Portfolio
   https://www.youtube.com/watch?v=h3ajVyC5vJc
   Transcript: yes
 
-ThinkingPoker: Bankroll Management - Thinking Poker
-  https://www.youtube.com/watch?v=6w8amkDkeVw
+Mind The Game: Are the @WashingtonWizards becoming a real threat in the East? 👀
+  https://www.youtube.com/shorts/mHNh3O4EB5k
   Transcript: yes
 
