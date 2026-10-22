@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>Morning Brief — Wednesday, October 21, 2026</title>
+<title>Morning Brief — Thursday, October 22, 2026</title>
 <style>
   body {
     font-family: Georgia, serif;
@@ -92,154 +92,155 @@
 })();
 </script>
 <h1>Morning Brief</h1>
-<p class="date">Wednesday, October 21, 2026</p>
+<p class="date">Thursday, October 22, 2026</p>
 
 <div class="anchor">
   <h2>☀️ Today's Anchor</h2>
   <div class="anchor-block">
-    <p class="quote">"The greatest glory in living lies not in never falling, but in rising every time we fall."</p>
-    <p class="author">— Ralph Waldo Emerson (attribution disputed)</p>
-    <p class="context">Often attributed to Emerson or Mandela; actual source unclear. Both men lived the sentiment.</p>
+    <p class="quote">"The truth will set you free, but first it will piss you off."</p>
+    <p class="author">— Joe Klaas (often misattributed to Gloria Steinem)</p>
+    <p class="context">From 'The Twelve Steps to Happiness' (1982). The blunter, truer modern version of the biblical line.</p>
   </div>
   <div class="anchor-block">
     <p class="model-label">Mental Model · Epistemics</p>
-    <p class="model-name">Hanlon's Razor</p>
-    <p class="context">Never attribute to malice what can be adequately explained by incompetence or inattention. The world has vastly more incompetent people than evil ones. Most perceived slights are accidents. Before assuming conspiracy, assume bandwidth limits.</p>
+    <p class="model-name">Chesterton's Fence</p>
+    <p class="context">Before removing a rule or system you don't understand, figure out why it was put there. Every rule was someone's solution to a problem. If you can't articulate the problem, you might be about to recreate it. Munger applies this to business reorganizations: understand the old structure first.</p>
   </div>
 </div>
 
 <div class="spotlight">
   <h2>🧭 Channel Spotlight</h2>
-  <p class="spotlight-name">News</p>
-  <p class="spotlight-pitch">Your poker diet is heavy on GTO solver content, but Galfond brings elite high-stakes live and online experience with an unusually honest, introspective lens — he talks openly about mental game, tilt, variance, and the psychological side of poker that GTO Wizard and GTO Lab don't cover. He also ran the famous Galfond Challenge, which produced real high-stakes heads-up data worth studying. Format is a mix of solo reflections, strategy breakdowns, and occasional interviews, typically thoughtful and long-form.</p>
+  <p class="spotlight-name">Andy Galpin</p>
+  <p class="spotlight-pitch">Galpin is a muscle physiology researcher who goes deeper into the mechanistic science of performance than Renaissance Periodization's practical programming focus or Peter Attia's longevity framing — he covers fiber type adaptation, fatigue, hydration, and recovery with primary-literature depth. His solo explainers and interviews with athletes fill the gap between 'what to do in the gym' and 'why the physiology actually works that way.' Format is a mix of solo breakdowns and long-form interviews, consistently at a graduate-level science register without losing applicability.</p>
   <p class="spotlight-instructions">Interested? Copy the line below into <code>YOUTUBE_CHANNELS</code> in <code>brief.py</code> and save:</p>
-  <pre class="spotlight-snippet" id="snippet">    "News": "UCYfdidRxbB8Qhf0Nx7ioOYw",</pre>
+  <pre class="spotlight-snippet" id="snippet">    "Andy Galpin": "UCe3R2e3zYxWwIhMKV36Qhkw",</pre>
   <button class="copy-btn" onclick="navigator.clipboard.writeText(document.getElementById('snippet').innerText.trim()); this.innerText='✅ Copied'; setTimeout(()=>this.innerText='📋 Copy snippet', 2000);">📋 Copy snippet</button>
-  <p class="spotlight-meta">showing for 1 more day. If you don't add it, a new channel will be suggested.</p>
+  <p class="spotlight-meta">showing for 3 more days. If you don't add it, a new channel will be suggested.</p>
 </div>
 <h2>🎥 From People I Follow</h2>
 
 <p><strong>Worth your time:</strong></p>
 
 <div class="story">
-  <h3>Thomas DeLauer</h3>
-  <p>DeLauer's fasting video with Joel Greene is the most intellectually interesting health content this cycle. Greene's core argument: fasting is beneficial partly because it feeds <em>Akkermansia muciniphila</em>, a gut bacterium that strengthens the mucus lining — but on a low-fiber or carnivore diet with extended fasting, Akkermansia has no polyphenols or resistant starch to eat, so it defaults to consuming the gut lining itself. A 2026 Swedish study (n=4,200) found elevated Akkermansia levels combined with low-fiber diets correlated with higher type 2 diabetes risk — the opposite of what most fasting advocates would expect. Greene frames this with a "U-shaped curve" and "time inversion effect" — the idea that most biological interventions are good in the Goldilocks zone but degrade over extended use, a useful framework applicable beyond fasting. His prescription: if you're going to fast and eat low-fiber, you're removing the check on Akkermansia's appetite.</p>
-  <p>DeLauer's protein video is also worth a skim: the key mechanism is leucine as the actual trigger for mTOR/muscle protein synthesis, requiring 2–3g per meal (roughly 20–25g high-quality animal protein). It's a threshold, not a dose-response — falling just short means the switch doesn't flip regardless of total daily protein. A study in <em>Journal of Physiology</em> showed that 80g of whey spaced as 20g every 3 hours produced 30–50% more muscle than the same protein taken as 10g every 90 min or 40g every 6 hours. For people over 40, "anabolic resistance" raises the leucine threshold — the fix isn't more total protein but more leucine per meal, or brief resistance training before eating to resensitize the pathway.</p>
-  <p class="meta">Videos: <a href="https://www.youtube.com/watch?v=LoY4qgAN31g">This Scientist Warns Against 16:8 Fasting</a> · <a href="https://www.youtube.com/watch?v=0BFl_xB56bk">If You Eat 100g Protein Daily, You Need to See What They Discovered</a></p>
-</div>
-
-<div class="story">
   <h3>GTO Wizard (Espen)</h3>
-  <p>Espen reviews six hands from the Triton $200K final table using GTO Wizard's new ICM preflop solver, which lets you input any final table payout structure and stack configuration and get real-time GTO ranges without pre-running sims. The key recurring insight: ICM dramatically tightens opening ranges in ways that are counterintuitive — Queen-Jack offsuit from the lowjack is essentially breakeven or a fold given ICM pressure, and pocket jacks is a snap fold facing a 3-bet + jam because it blocks more bluffs than it beats and performs worse than suited wheel aces (which retain blockers and fold equity). The blocker-heavy nature of 4-bet jamming ranges at final tables is the thread running through the analysis: Ace-5 suited is preferred over JJ for 4-bet bluffs specifically because it unblocks the calling range you want to fold. Seth Davies's decision to open-raise rather than jam with 46 BBs into short-stacked blinds is scrutinized — the solver shows open-jamming is nearly equivalent EV but simpler and reduces post-flop complexity where ICM punishes mistakes most.</p>
-  <p class="meta">Video: <a href="https://www.youtube.com/watch?v=6PqMSznyIrQ">$200K Triton Invitational Final Table Review</a></p>
+  <p>Espen reviews six hands from the Triton 200K final table using GTO Wizard's new real-time ICM preflop solver — a feature that lets you input any final table payout structure and stack configuration and get a solution in seconds, no pre-running required. The central strategic insight: ICM dramatically compresses opening ranges in late position, making hands like Q-J offsuit marginal-to-fold from the lowjack, and pocket jacks a clear fold facing a raise and three-bet given how blocker-heavy the jamming range needs to be. A key concept highlighted: suited aces (A5s, A7s) are often better jams than premium pairs like JJ because they block fewer bluffs from opponents and have better equity when called — the solver actually prefers sixes through nines over jacks in one spot. He also walks through Seth Davies' decision to open-raise vs. open-jam with 46 bigs into short stacks, arguing the solver favors open-jamming a wider range of suited aces to avoid awkward spots when jammed on.</p>
+  <p class="meta">Videos: <a href="https://www.youtube.com/watch?v=6PqMSznyIrQ">Espen - $200K Triton Invitational Final Table Review</a></p>
 </div>
 
 <div class="story">
   <h3>Jared Alderman</h3>
-  <p>Alderman makes a sharp conceptual point about passive lines: there's a psychological bias in poker where aggression feels like agency and checking feels like passivity, which causes players to bet small as "insurance" to try to end hands early — effectively paying a premium to avoid uncertainty rather than maximizing EV. His argument is that versus recreational players, the instinct to "establish control" by betting is often just fear of variance dressed up as competence. He also pushes back on overly simple opponent models — a player who "check-raises top pair every time" is playing aggressively but with no bluffs, and the correct response is categorically different from how you'd respond to a balanced aggressor. The diagnostic question: can you articulate the specific contours of your opponent's strategy, not just a one-word label?</p>
-  <p class="meta">Video: <a href="https://www.youtube.com/watch?v=HWEPYdd3GlY">When To Explore Passive Lines</a></p>
+  <p>Jared makes a crisp argument against the reflex toward aggression in poker: checking is not passivity, it's a decision equally within the rules, and the psychological bias toward "taking control" by betting often manifests as expensive insurance-buying — paying small amounts to end hands that would be more profitable to play through. His broader point is that opponent modeling needs to be multi-dimensional even for weak players; a player who check-raises top pair for value but never bluffs isn't simply "aggressive" — they have a specific, exploitable shape, and collapsing them to a one-word archetype prevents you from finding the right response.</p>
+  <p class="meta">Videos: <a href="https://www.youtube.com/watch?v=HWEPYdd3GlY">When To Explore Passive Lines</a></p>
 </div>
 
 <div class="story">
   <h3>Nick Norwitz</h3>
-  <p>Norwitz covers a new <em>Nature</em> study on bowhead whale longevity. The paradox: bowhead whales have ~1,000x more cells than humans, live 200+ years, and yet their individual cells become cancerous after <em>fewer</em> mutations than human cells require — they should be swimming tumors. The resolution: whales have dramatically superior DNA repair machinery, centered on a protein called CIRBP (cold-inducible RNA binding protein). When researchers genetically engineered flies to produce whale CIRBP and then blasted them with X-ray radiation, some flies survived 100% longer than controls. Critically, humans already produce CIRBP — just at much lower levels. The authors state explicitly that contrary to assumptions, DNA repair <em>can</em> be improved in humans, and the whale provides proof of concept. The translational path (gene editing, peptide therapies to upregulate CIRBP) is real and closer than most realize, with CRISPR already being used clinically for sickle cell disease.</p>
-  <p class="meta">Video: <a href="https://www.youtube.com/watch?v=h3Sav_SBYj4">How to Make Your Cells Immortal</a></p>
+  <p>Norwitz covers a new Nature study on bowhead whales — which live 200+ years and have 1,000x more cells than humans, yet get far less cancer — and the counterintuitive finding: whale cells actually become cancerous after <em>fewer</em> mutations than human cells, not more. The answer lies not in eliminating damaged cells but in repairing them faster. The key protein is CIRBP (cold-inducible RNA binding protein), which whales produce in much higher quantities; when flies were genetically engineered to produce it, they survived X-ray radiation damage at twice the rate of controls. Critically, humans already produce CIRBP — just less of it — meaning this isn't science fiction requiring wholly foreign machinery. He also covers the thymus and immune surveillance: new 2026 research shows adults with healthier thymic function develop cancer at measurably lower rates, and researchers are exploring growth hormone peptides (tesamorelin, CJC) to rejuvenate thymic function, though he's careful to note this isn't proven cancer prevention.</p>
+  <p class="meta">Videos: <a href="https://www.youtube.com/watch?v=h3Sav_SBYj4">How to Make Your Cells Immortal (I Couldn't Believe It!)</a></p>
 </div>
 
 <div class="story">
-  <h3>Peter Attia / Siddhartha Mukherjee</h3>
-  <p>Mukherjee's cancer landscape update is dense and worth the time. On prevention: no reliable biomarker exists yet for pro-carcinogenic inflammatory states (the "high cholesterol of cancer" is still missing), but polygenic risk scores for hereditary cancers are becoming meaningfully more accurate — BRCA1/2 are "shove" mutations but there's a large class of "nudge" mutations (hundreds of genes, each adding small risk) that together explain much of the remaining hereditary fraction. On early detection: liquid biopsy and blood-based cancer tests probably don't work on unselected populations (false positives, unnecessary biopsies), but may be valuable in high-risk subgroups. On treatment: immunotherapy now meaningfully extends survival in smoking-related lung cancer; CAR-T has produced 15-20 year remissions in some blood cancers; KRAS inhibitors (e.g., for pancreatic cancer) are producing survival extensions that were unthinkable a decade ago. Colorectal cancer rising in young people remains a genuine mystery.</p>
-  <p class="meta">Video: <a href="https://www.youtube.com/watch?v=xKB5GTsaKKs">412 — The Evolving Science of Cancer</a></p>
+  <h3>Peter Attia (The Drive)</h3>
+  <p>Attia interviews oncologist Siddhartha Mukherjee (author of <em>Emperor of All Maladies</em>) for a 15-years-later state of the field. Key updates: (1) the Vogelstein "bad luck" finding (roughly 2/3 of cancer mutations are random) holds, but the hereditary fraction is expanding as polygenic risk is better understood — many hereditary cancers aren't driven by one shove mutation like BRCA1 but by hundreds of "nudge" mutations in combination; (2) immunotherapy (checkpoint inhibitors, CAR-T) has genuinely extended life for some previously terminal cancers — e.g., smokers with lung cancer and patients with refractory leukemias now sometimes reach 15-year survival; (3) liquid biopsy blood tests for early detection probably don't work well in unselected populations (false positives, no mortality reduction) but may have real value in high-risk individuals; (4) colorectal cancer rising in young people remains unexplained — Mukherjee calls it a "complete mystery."</p>
+  <p class="meta">Videos: <a href="https://www.youtube.com/watch?v=xKB5GTsaKKs">412 ‒ The evolving science of cancer: emerging approaches to prevention and early detection</a></p>
+</div>
+
+<div class="story">
+  <h3>Renaissance Periodization</h3>
+  <p>Two distinct items worth noting. First, a short on a newly released drug called <strong>epitgram</strong> (a myostatin-inhibiting monoclonal antibody): in a 24-week trial alongside powerful weight loss drugs, it preserved 4 lbs more lean mass than the control — a 55% reduction in otherwise-lost muscle — without any resistance training. People on epitgram + GLP-1s also lost ~1 lb more fat than GLP-1s alone, because added muscle mass increases calorie burn. This is the "missing piece" framing: GLP-1s cause significant muscle loss, and this drug may patch that. Second, a detailed grocery store protein ranking by both cost-per-gram and protein-per-100-calories: tuna (StarKist pouches) wins both categories handily at 8.2¢/g protein and 21.3g protein per 100 calories; Core Power protein shakes are the best liquid option at 18.3g/100 cal; beef jerky is expensive and sugar-loaded; flavored yogurt, protein chips, and overnight oats score poorly on protein density despite health halos.</p>
+  <p class="meta">Videos: <a href="https://www.youtube.com/shorts/eTC4lA99vQ4">The Missing Piece of Weight Loss Drugs</a> · <a href="https://www.youtube.com/watch?v=gB_2LtnJ_uM">The Worst Ways to Buy Protein at the Grocery Store</a></p>
+</div>
+
+<div class="story">
+  <h3>Dr. Sten Ekberg</h3>
+  <p>Ekberg revisits Dr. Robert Lustig's famous fructose lecture (25M views, 17 years of influence) to flag a significant correction from a 2018 mouse study: fructose is <em>not</em> primarily metabolized by the liver first — it's cleared by the small intestine first, with the liver acting as overflow handler. At low doses (~10–25g of fructose per sitting in humans, though exact amounts uncertain), the gut handles ~90% of fructose; only the excess reaches the liver and gets converted to fat. This makes fructose metabolism <strong>dose-dependent and speed-dependent</strong>: liquid sugar on an empty stomach overwhelms the gut fast; fiber-buffered fruit eaten slowly may stay well under the threshold. Practical upshots: a can of Coke (21g fructose), apple juice (14g/8oz), and a medium fast-food milkshake (25g) all likely overflow to the liver in typical consumption conditions; whole berries and citrus probably don't. Fructose's other harms — blunted ghrelin response, heightened reward signaling, no insulin-mediated satiety — remain intact regardless.</p>
+  <p class="meta">Videos: <a href="https://www.youtube.com/watch?v=XaaPjdRU490">#1 The Most Famous Sugar Video Ever Was WRONG</a></p>
 </div>
 
 <p><strong>Also posted:</strong></p>
 <ul>
-  <li><strong>Ken Berry MD:</strong> A cluster of shorts covering carnivore-adjacent nutrition basics: honey contains more fructose than HFCS in Pepsi; protein-rich meals trigger endogenous GLP-1 (eggs specifically called out as "nature's GLP-1 trigger"); seafood argued as nutritionally irreplaceable for certain minerals unavailable from land animals; fatty ground beef defended as cheap and nutrient-dense. (<a href="https://www.youtube.com/shorts/FG_90bzj0wg">Honey & Fructose</a> + <a href="https://www.youtube.com/shorts/a2yhyK7vnmM">GLP-1 & Diet</a> + <a href="https://www.youtube.com/shorts/E44E0-x_6qc">Seafood on Carnivore</a> + 1 more)</li>
-  <li><strong>Renaissance Periodization:</strong> Two shorts: myostatin inhibitors in trials show muscle growth with "almost no side effects" and actually show health improvements — framed as potentially democratizing good muscle-building genetics. Also: once you can do 12 bodyweight pull-ups, start adding weight (even 2.5 lbs); after loaded sets, stripping weight and doing unloaded sets dramatically sharpens lat mind-muscle connection. (<a href="https://www.youtube.com/shorts/GUKm3zKy8PQ">Myostatin</a> · <a href="https://www.youtube.com/shorts/MG-RASW8CU4">Weighted Pull-Ups</a>)</li>
-  <li><strong>Dr. Sten Ekberg:</strong> Corrects the Lustig "fructose goes straight to the liver" mechanism — a 2018 study showed the small intestine processes fructose first (clearing ~90% at low doses in mice). The liver is the backup, not the first pass. Threshold estimated at 10–25g of fructose per sitting for humans, with liquid sugar and empty-stomach consumption lowering the threshold. Sugar is still bad; the mechanism is just different than the famous lecture claimed. (<a href="https://www.youtube.com/watch?v=XaaPjdRU490">The Most Famous Sugar Video Was WRONG</a>)</li>
-  <li><strong>ModernWisdom:</strong> Interview on desire, addiction, and the inner game — the guest's core point: "wanting" is itself an uncomfortable emotion most people flee immediately because it forces acknowledgment of non-control; the Buddhist frame that suffering comes from <em>reaction</em> to pain (and obsession from clinging to pleasure) is the methodology most therapists won't teach. (<a href="https://www.youtube.com/watch?v=iD-0Kbul_zE">How to Master The Urge That Ruins Men's Lives</a>)</li>
-  <li><strong>Mind The Game (LeBron + JJ):</strong> Post-championship Knicks breakdown — OG Anunoby named the most steady performer of the Finals run, Jalen Brunson credited for clutch leadership and "guarding his yard" without excuses. KAT's mid-season uncertainty ("I don't know what I'm doing in this offense") resolved into championship buy-in cited as a real-time example of trial-and-error team learning. (<a href="https://www.youtube.com/watch?v=UFo1-gDNvuo">LeBron on Why The Knicks Won't Be Content</a>)</li>
-  <li><strong>GTO Lab:</strong> Mystery bounty content — webinar with Nick Petrangelo, Axel Hallay, and Daniel Dvoress, plus a mystery bounty library short. No transcript available. (<a href="https://www.youtube.com/watch?v=dAIfoFCqkgc">Mystery Bounties Solved Webinar</a>)</li>
-  <li><strong>Joe Rogan / Ross Edgley:</strong> Long adventure-sports conversation — Edgley's 60-hour Loch Ness swim ended in hospitalization (hypothermia + cellulitis from freshwater bacteria); creatine kinase hit 19,000 during his Italian lake swim (vs. ~80 at rest, ~10,000 being the "rush to hospital" threshold); swam 1,000 miles around Iceland. Entertaining but not much you can apply. (<a href="https://www.youtube.com/watch?v=IsCQwOXi6XI">JRE #2568 — Ross Edgley</a>)</li>
-  <li><strong>Andrew Huberman / Jared Diamond:</strong> Leadership discussion — Diamond's main point: charisma is one of ~37 ways to be an effective leader, not a requirement (Stalin and Pinochet cited as highly effective but non-charismatic). Truman as the canonical "most unlikely successful president" case. More interesting for the biography of Diamond himself than the leadership content. (<a href="https://www.youtube.com/watch?v=2oqBvTRYcv0">What Makes Great Leaders</a>)</li>
-  <li><strong>Ben Felix:</strong> Portfolio breakdown — all-equity, globally diversified via Dimensional funds (small/value/profitability tilts), plus a significant private equity stake in his own firm. The more interesting part: research on income satiation suggests a correlation of only 0.09 between income and happiness, with a fourfold income increase having roughly the same happiness effect as a weekend — less than a third the effect of a headache. (<a href="https://www.youtube.com/watch?v=h3ajVyC5vJc">Breaking Down My Investment Portfolio</a>)</li>
-  <li><strong>Anthony Chaffee MD:</strong> Short on budget carnivore — fattier ground beef is cheaper and more nutritious (fat-soluble nutrients, essential fatty acids); liver is extremely cheap and nutrient-dense. (<a href="https://www.youtube.com/shorts/LxMChL2HEgY">Carnivore Is NOT Expensive</a>)</li>
-  <li><strong>ThinkingPoker:</strong> Introductory bankroll management video — 20–30 buy-in minimum for micro cash, 100+ for MTTs, take shots of only 4 buy-ins at the next level and drop back immediately if lost. Beginner-level content. (<a href="https://www.youtube.com/watch?v=6w8amkDkeVw">Bankroll Management</a>)</li>
+  <li><strong>Joe Rogan (JRE #2569):</strong> Long conversation with Bill Thompson covering performance under pressure — specifically the "closed loop vs. open loop" mental framework for high-stakes execution (e.g., talking yourself through an archery shot to prevent target panic), how hunting and physical hardship build pressure tolerance, and the serenity prayer as a practical anxiety framework. Rich on mental-game substance buried in a very long episode. (<a href="https://www.youtube.com/watch?v=vamsa0e8y4Y">JRE #2569 - Bill Thompson</a>)</li>
+  <li><strong>Thomas DeLauer:</strong> Covers black cumin seed oil (active compound: thymoquinone) with cited studies — a 12-month RCT showing 12% drop in fasting glucose and 5% HbA1c reduction vs. placebo in T2D patients; a comparison to metformin on glucose tolerance; appetite suppression data (44% hunger reduction, 19% satiety increase); and NRF2 / mitochondrial protection mechanisms. Recommends 1–3g/day with meals, cycling on and off, and avoiding combination with hypoglycemic meds. (<a href="https://www.youtube.com/watch?v=L5psw7Xh1h0">2 Drops of This Oil in Coffee Cuts Insulin Resistance</a>)</li>
+  <li><strong>Ken Berry MD:</strong> Two versions of the same "7 health foods causing diabetes" live stream — covers raisins (94g sugar/cup = 2.5 Cokes), fruit juice, flavored yogurt, Gatorade, and others using a consistent Coca-Cola benchmark framework. Also a short on fatty liver: argues composition matters more than calories — cutting carbs below 50g/day, eliminating liquid sugar and fructose for 90 days reverses it without calorie counting. (<a href="https://www.youtube.com/watch?v=LwHJXlgHThk">7 Health Foods Quietly Giving You Diabetes</a> + 2 more)</li>
+  <li><strong>ModernWisdom (The Fat Electrician):</strong> Telling the story of Pappy Gunn — a WWII-era civilian pilot in his 40s who, after his family was captured by the Japanese in the Philippines, commandeered Dutch bombers, robbed a supply sergeant at gunpoint, designed new strafer configurations (8x .50-cal nose guns) that the military later officially adopted, and helped sink an entire Japanese troop convoy at the Battle of the Bismarck Sea. Genuinely exceptional story about obsession, improvisation, and mission-driven problem solving. (<a href="https://www.youtube.com/watch?v=uOBZFhe2Kmc">"Japan Pissed Off The Wrong Guy" - The Fat Electrician</a>)</li>
+  <li><strong>Andrew Huberman (Jared Diamond):</strong> Discussion of leadership across political, religious, business, and sports domains — Diamond's main argument is that charisma is one of ~37 functional leadership styles, not a prerequisite, and that the standard biographical method for studying leaders is weak because identical facts support contradictory conclusions. Hitler case study used to show how a single individual can represent a genuine historical contingency point. (<a href="https://www.youtube.com/watch?v=2oqBvTRYcv0">What Makes Great Leaders & How to Live an Extraordinary Life</a>)</li>
+  <li><strong>Lex Fridman:</strong> Vlog-style video of Lex visiting Taiwan with Jensen Huang for Computex — includes a substantive conversation on Jensen's flywheel theory of tech leadership (technology dominance → economic wealth → R&D capacity → more dominance) and his view that export controls are counterproductive to this flywheel unless applied with extreme selectivity. More food tourism than intellectual substance. (<a href="https://www.youtube.com/watch?v=FGCP2F_7rQk">Visiting Taiwan w/ Jensen Huang</a>)</li>
+  <li><strong>Mind The Game (LeBron):</strong> Short clip — LeBron commenting on his NBA-record 1,229 wins and crediting early coaches for teaching him team-oriented winning habits from childhood. (<a href="https://www.youtube.com/shorts/8Oyv3QInxZE">THE NBA IS BACK</a>)</li>
+  <li><strong>Paul Saladino MD:</strong> Short on laundry detergent — argues fragranced detergents contain 1,4-dioxane (probable carcinogen, regulated in NY) and phthalates (endocrine disruptors); recommends plain white vinegar as a cheaper, cleaner alternative. (<a href="https://www.youtube.com/shorts/mLM0pxJVbZA">Laundry Detergent that's actually BANNED in New York State?!</a>)</li>
 </ul>
 
 <h2>₿ Bitcoin & Macro</h2>
 
 <div class="story">
-  <h3><a href="https://bitcoinmagazine.com/videos/michael-howell-bitcoin-as-the-apex-liquidity-asset">Michael Howell: Bitcoin as the Apex Liquidity Asset</a></h3>
-  <p>CrossBorder Capital's Michael Howell argues that global liquidity is the primary driver of asset prices across cycles, and Bitcoin is emerging as the highest-beta expression of that liquidity — the "apex asset" in a world of ongoing currency debasement. His framework positions Bitcoin not as a speculative tech asset but as a liquidity barometer and store-of-value in a system where every major central bank has a structural incentive to expand the money supply.</p>
-  <p class="meta">Bitcoin Magazine</p>
-</div>
-
-<div class="story">
-  <h3><a href="https://bitcoinmagazine.com/news/jpmorgan-says-bitcoin-could-outperform">Bitcoin Could Outperform Most Assets, JPMorgan Says — But the Bank Still Won't Recommend It</a></h3>
-  <p>JPMorgan's research team now says Bitcoin could outperform stocks and bonds over the next 10 years but declines to recommend it to clients, citing volatility. The gap between the analytical conclusion and the institutional recommendation is itself the signal — Wall Street's analytical and advisory functions are diverging on Bitcoin, which tracks the Sam Callahan / Pomp thesis that institutional capitulation is underway.</p>
-  <p class="meta">Bitcoin Magazine</p>
-</div>
-
-<div class="story">
-  <h3><a href="https://bitcoinmagazine.com/news/swiss-regulator-green-lights-bitcoin-etf">Swiss Financial Regulator Gives Green Light to Country's First Bitcoin ETF</a></h3>
-  <p>Switzerland's regulator has approved the country's first Bitcoin ETF available to retail investors (previously institutional-only). This continues the pattern of sovereign regulatory legitimization following the US spot ETF approval, extending Bitcoin's accessible investment surface in a historically conservative financial jurisdiction.</p>
-  <p class="meta">Bitcoin Magazine</p>
+  <h3><a href="https://pomp.substack.com/p/did-wall-street-just-capitulate-on">Did Wall Street Just Capitulate On Bitcoin?</a></h3>
+  <p>Pomp's framing: institutional resistance to Bitcoin as a balance sheet asset appears to be softening, with the piece pointing to Standard Chartered's move to acquire crypto custodian Zodia Custody and J.P. Morgan publishing its first-ever long-term Bitcoin price forecast in its Capital Market Assumptions report — projecting a 10% base case and 16% bull case annualized return through 2036, positioning Bitcoin as the top-performing asset class in the model. The Zodia acquisition specifically signals that a major global bank is now building direct custody infrastructure rather than routing around it.</p>
+  <p class="meta">The Pomp Letter / Bitcoin Magazine</p>
 </div>
 
 <h2>🧬 Health & Science</h2>
 
 <div class="story">
-  <h3>Fasting + Low-Fiber Diets: The Akkermansia Problem</h3>
-  <p>Joel Greene's argument (via DeLauer's channel) is the most nuanced fasting critique in a while and grounded in a real mechanism. <em>Akkermansia muciniphila</em> normally splits its food source between dietary polyphenols/resistant starch and gut mucus; remove the dietary sources via carnivore + extended fasting and you've created a monoculture that eats your gut lining with no competitive check. A 2026 Swedish study (n=4,200) found elevated Akkermansia + low-fiber diet correlated with increased type 2 diabetes risk — the opposite of what the "Akkermansia is always good" narrative predicts. The practical implication: if you're doing extended fasting on a very low-fiber diet, you may be degrading the gut lining over time even while other metabolic markers look good. Greene's proposed solution mirrors what ancestral foraging would have provided: active movement during fasting periods and periodic consumption of polyphenol-rich or resistant-starch foods to give Akkermansia an alternative food source.</p>
+  <h3>Bowhead Whale CIRBP Study (via Nick Norwitz)</h3>
+  <p>A new <em>Nature</em> paper identified CIRBP (cold-inducible RNA binding protein) as a key driver of bowhead whale longevity and cancer resistance. The paradox: whale cells become cancerous after <em>fewer</em> mutations than human cells — yet whales rarely get cancer. The mechanism is superior DNA repair, not cellular resistance to mutation initiation. When flies were engineered to express whale CIRBP, they survived X-ray-induced DNA damage at twice the rate of controls; human CIRBP (a lower-expression version of the same protein) also extended fly lifespan when expressed in higher quantities. The authors explicitly state: "DNA repair will be difficult or impossible to improve in humans" is incorrect — the bowhead whale disproves this. Gene editing and tissue-specific protein upregulation are identified as plausible intervention paths, and CRISPR applications for proteins like this are already in human clinical use (e.g., sickle cell).</p>
+  <p class="meta">Via <a href="https://www.youtube.com/watch?v=h3Sav_SBYj4">Nick Norwitz</a></p>
 </div>
 
 <div class="story">
-  <h3>Leucine Threshold for Muscle Protein Synthesis: The Actual Mechanism</h3>
-  <p>Thomas DeLauer synthesizes Don Layman's work cleanly: leucine specifically activates mTORC1 (the master switch for muscle building), and the threshold is approximately 2–3g per meal — a hard cutoff, not a dose-response curve. Below it, essentially no muscle protein synthesis is triggered regardless of other amino acids present. Whey protein has ~10–11g leucine per 100g protein vs. 8g for beef/chicken/eggs, which is why whey triggers the switch more efficiently per gram. The critical practical point: spreading the same 80g of protein as 20g every 3 hours produces 30–50% more muscle than grazing (10g/90 min) or infrequent large boluses (40g/6 hrs) — because you need to repeatedly hit the threshold and then let it reset. For people over 40, anabolic resistance raises the threshold, but brief resistance exercise before eating resensitizes the pathway, and adding leucine supplementation to lower-leucine meals can compensate for reduced muscle responsiveness.</p>
+  <h3>Epitgram (Myostatin Inhibitor) — Missing Piece for GLP-1 Users</h3>
+  <p>A new monoclonal antibody called epitgram, which inhibits myostatin (a muscle-growth suppressor), preserved 4 lbs more lean mass vs. control in a 24-week trial alongside aggressive weight loss drugs — a 55% reduction in muscle loss — with zero resistance training. Subjects also lost ~1 lb more fat, plausibly because added muscle mass increases total energy expenditure. The framing from Renaissance Periodization: GLP-1 drugs are highly effective for fat loss but carry significant muscle-wasting as a side effect; epitgram may be the pharmacological patch for that problem. This is a new drug category in development, not yet widely available.</p>
+  <p class="meta">Via <a href="https://www.youtube.com/shorts/eTC4lA99vQ4">Renaissance Periodization</a></p>
 </div>
 
 <div class="story">
-  <h3>Fructose Metabolism: The Liver-First Story Was Wrong</h3>
-  <p>Sten Ekberg covers a 2018 discovery (confirmed in follow-up studies) that overturns the Lustig framework: fructose is processed first by the small intestine, not the liver. At low doses (~10–25g per sitting in humans, though exact thresholds are uncertain), ~90% is cleared by the gut and converted to glucose and lactate. The liver only handles overflow. This makes the harm dose-dependent and speed-dependent — liquid fructose on an empty stomach saturates intestinal capacity at the low end of that range (~10g, or half a can of soda), while fructose in whole fruit with fiber and slower absorption can clear more without burdening the liver. The practical takeaway: fructose is still harmful at typical consumption levels (a 20oz soda delivers 36g, far above the threshold), and the satiety-disrupting mechanisms (ghrelin suppression failure, brain reward center activation, decision-making impairment vs. glucose) remain fully intact regardless of first-pass location.</p>
+  <h3>Fructose Metabolism Correction: Liver Is Backup, Not First Stop</h3>
+  <p>A 2018 study (confirmed by follow-up research) overturns the Lustig model: the small intestine clears roughly 90% of fructose at low doses, converting it to glucose and lactate; the liver only handles the overflow. This makes harm dose- and speed-dependent — liquid sugar on an empty stomach saturates gut capacity fast, flooding the liver; fiber-buffered fruit eaten slowly may stay below the threshold (~10–25g fructose per sitting estimated for humans, though not precisely established). Practical benchmarks from Ekberg: a 20oz soda delivers ~36g fructose (well over threshold); OJ is right at the edge at 10g/8oz; whole berries and citrus (2–5g/100g) likely stay under. The other harms of fructose — no ghrelin suppression, elevated reward signaling, no insulin-mediated satiety — are not affected by this revision.</p>
+  <p class="meta">Via <a href="https://www.youtube.com/watch?v=XaaPjdRU490">Dr. Sten Ekberg</a></p>
 </div>
 
 <div class="story">
-  <h3>Bowhead Whale DNA Repair: A New Path to Cancer Prevention</h3>
-  <p>A new <em>Nature</em> study (covered by Nick Norwitz) identifies CIRBP — cold-inducible RNA binding protein — as a key mechanism behind bowhead whales' cancer resistance despite having 1,000x more cells than humans and living 200+ years. The paradox: whale cells are individually <em>more</em> vulnerable to becoming cancerous (require fewer mutations) yet whales don't get cancer, because their superior DNA repair machinery catches errors before they accumulate. When flies were engineered to produce whale or even human CIRBP at higher levels and then irradiated, survival doubled. The authors directly challenge the assumption that DNA repair cannot be meaningfully improved in humans — we produce CIRBP already, just at lower levels. The thymus finding is a useful companion point: 2026 research shows adults with better-preserved thymic function have measurably lower cancer incidence, and thymus rejuvenation via growth hormone signaling pathways is an active research area.</p>
+  <h3>Cancer: What's Changed in 15 Years (Attia × Mukherjee)</h3>
+  <p>Key clinical updates from the conversation: colorectal cancer rising in young people is genuinely unexplained; breast cancer mortality gains have plateaued after two decades of improvement; liquid biopsies (ctDNA tests) appear to generate net harm in unselected populations via false positives but may be useful in high-risk genetic carriers. On treatment: immunotherapy (anti-PD-1/PD-L1) now meaningfully extends survival in lung cancer; CAR-T has produced 15-year survivors in previously untreatable leukemias; new small molecules like sotorasib (KRAS inhibitor) are producing months-to-years of extended survival in pancreatic cancer that spreads — previously near-impossible. On hereditary risk: "shove" mutations (BRCA1/2) are well-understood; the growing frontier is "nudge" mutations — hundreds of low-effect polymorphisms that cumulatively elevate risk significantly and are now detectable via polygenic risk scoring.</p>
+  <p class="meta">Via <a href="https://www.youtube.com/watch?v=xKB5GTsaKKs">Peter Attia / The Drive</a></p>
 </div>
 
 <h2>💡 Worth Reading</h2>
 
 <div class="story">
-  <h3><a href="https://www.thebeliever.net/the-other-epidemic/">The Other Epidemic: Trying to Get Off Benzodiazepines</a></h3>
-  <p>A long-form piece on benzodiazepine dependence and withdrawal — a genuine public health crisis that receives a fraction of the attention of opioids despite comparable difficulty discontinuing and severe withdrawal syndromes. Worth reading for anyone who has family members on long-term benzo prescriptions or is curious about how iatrogenic dependence gets normalized in clinical practice.</p>
-  <p class="meta"><a href="https://news.ycombinator.com/item?id=">Hacker News</a> · 175 points</p>
+  <h3><a href="https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities">Patch the Planet: AI Agents Coordinating Global Vulnerability Disclosure</a></h3>
+  <p>OpenAI is describing a system where AI agents proactively uncover critical security vulnerabilities across open source software and then coordinate disclosure and patching across security researchers, maintainers, and incident responders at scale. This is a meaningful capability shift — not a chatbot answering questions, but autonomous agents doing the work of vulnerability research and coordinating the human response infrastructure around it. Worth watching as a signal of where agentic AI is actually being deployed in the real world.</p>
+  <p class="meta"><a href="https://news.ycombinator.com/item?id=...">Discussion</a> (HN, 252 pts) · OpenAI</p>
 </div>
 
 <div class="story">
-  <h3><a href="https://emudhra.we-have-a-problem.com/">eMudhra Intermediate CA Compromise</a></h3>
-  <p>Eight eMudhra intermediate certificate authority private keys have been compromised — these chain to root certificates trusted by Mozilla, Microsoft, Apple, and Chrome. In plain terms: a compromised CA can issue fraudulent SSL certificates for any website, enabling man-in-the-middle attacks that appear legitimate to browsers. This is a critical infrastructure trust failure, not a routine security patch, and affects software that bundles these root stores (which is essentially everything).</p>
-  <p class="meta"><a href="https://news.ycombinator.com/item?id=">Discussion</a> · 902 points on HN</p>
+  <h3><a href="https://donaldrobertson.substack.com/p/stoic-premeditation-of-anger">Stoic Premeditation of Anger</a></h3>
+  <p>Donald Robertson covers the Stoic practice of premeditation applied specifically to anger — treating it as a preventative therapy rather than a reactive one. The Stoics (particularly Seneca) argued that anger, unlike most emotions, has a narrow window for interception before it becomes self-reinforcing; the practice involves mentally rehearsing provocations in advance so that when they arrive, you've already chosen your response. Pairs well with the "closed loop" mental frameworks discussed in the Rogan episode.</p>
+  <p class="meta"><a href="https://donaldrobertson.substack.com/p/stoic-premeditation-of-anger">Donald Robertson</a></p>
 </div>
 
 <div class="story">
-  <h3><a href="https://stevekrouse.com/ends">What Shall I Teach My Son?</a></h3>
-  <p>A thoughtful essay wrestling with what skills and values are worth passing on in a world where AI is rapidly devaluing many forms of technical knowledge. Resonates with the broader question of what "learning" is actually for when the outputs of learning are increasingly reproducible by machines — likely worth sitting with if you have kids or think about education and meaning.</p>
-  <p class="meta"><a href="https://news.ycombinator.com/item?id=">Discussion</a> · 380 points on HN</p>
+  <h3><a href="https://figsinwintertime.substack.com/p/on-the-indispensability-of-logic">On the Indispensability of Logic — Epictetus, Discourses 1.17</a></h3>
+  <p>Massimo Pigliucci unpacks Epictetus's argument that logic is not a mere intellectual game but the foundational tool for living well — you cannot assess what is truly good for you without the ability to reason clearly, and a person who cannot reason cannot be truly free. Epictetus is sharper here than Marcus or Seneca: he argues that even identifying which impressions to assent to requires a trained faculty of judgment, making logic a prerequisite for virtue rather than just an ornament of education.</p>
+  <p class="meta"><a href="https://figsinwintertime.substack.com/p/on-the-indispensability-of-logic">Figs in Winter (Pigliucci)</a></p>
 </div>
 
 <div class="story">
-  <h3><a href="https://e360.yale.edu/digest/deepwater-horizon-deep-sea-recovery">Sixteen Years After Deepwater Horizon, Deep Sea Life Shows Few Signs of Recovery</a></h3>
-  <p>Yale Environment 360 reports that deep-sea ecosystems in the Gulf, 16 years after the largest marine oil spill in US history, remain severely degraded with minimal recovery. The finding challenges assumptions that ocean ecosystems are resilient on decade timescales — deep-sea communities grow and reproduce so slowly that recovery may take centuries rather than decades.</p>
-  <p class="meta">Yale E360 · 262 points on HN</p>
+  <h3><a href="https://marginalrevolution.com/marginalrevolution/2026/10/one-reason-i-do-not-love-ai-writing-or-even-ai-assisted-writing.html">One reason I do not love AI writing, or even AI-assisted writing</a></h3>
+  <p>Tyler Cowen makes a point that's easy to miss: when he reads an author, part of the value is the optionality of a future relationship — meeting them, corresponding, building on the connection. AI-written content collapses that optionality to near zero. It's a subtle but genuinely interesting argument for why AI writing might be less valuable than it appears even when the surface content is equivalent — the relationship signal is gone.</p>
+  <p class="meta"><a href="https://marginalrevolution.com/marginalrevolution/2026/10/one-reason-i-do-not-love-ai-writing-or-even-ai-assisted-writing.html">Marginal Revolution</a></p>
+</div>
+
+<div class="story">
+  <h3><a href="https://collabfund.substack.com/p/pessimism-always-sounds-smarter-than">Pessimism always sounds smarter than optimism</a></h3>
+  <p>Morgan Housel's recurring observation: pessimism signals sophistication and earns social credibility, while optimism reads as naïve — even when the optimistic position is better supported by evidence. The asymmetry creates a systematic bias in how we consume forecasts and analysis. Short but worth the 3 minutes; a useful corrective frame when reading macro or health content.</p>
+  <p class="meta"><a href="https://collabfund.substack.com/p/pessimism-always-sounds-smarter-than">Collaborative Fund</a></p>
 </div>
 
 <h2>🤖 AI Capability Watch</h2>
 
 <div class="story">
-  <h3><a href="https://openai.com/index/terminal-x">GPT-6.1 Matches Senior Investor Judgment at 88.6%</a></h3>
-  <p>Terminal X, an investment analysis platform, reports that GPT-6.1 Sol grades investment outputs against a 54-criterion rubric at 88.6% agreement with senior investor judgment, and catches 25% more deviations from a fund's mandate than previous models. This is a concrete benchmark of professional-grade financial analysis performance — not a synthetic test but a real-world workflow comparison against expert humans.</p>
-  <p class="meta">
+  <h3><a href="https://claude.com/resources/articles/claude-now-works-in-google-docs-sheets-and-slides">Claude Now Works Natively Inside Google Docs, Sheets, and Slides</a></h3>
+  <p>Claude can now operate directly inside Google Workspace apps — reading, editing, and creating content within Docs, Sheets, and Slides without copy-pasting into a chat interface. For everyday users this closes the gap between AI and the actual place where knowledge work happens; it's no longer a separate tool you consult, it's inside the document itself.</p>
+  <p class="meta"><a href="https://news.ycombinator.com/item?id=...">HN Discussion</a> (37 pts) · Anthropic</p>
+</div>
 </body>
 </html>
