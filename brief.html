@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>Morning Brief — Friday, October 23, 2026</title>
+<title>Morning Brief — Saturday, October 24, 2026</title>
 <style>
   body {
     font-family: Georgia, serif;
@@ -92,19 +92,19 @@
 })();
 </script>
 <h1>Morning Brief</h1>
-<p class="date">Friday, October 23, 2026</p>
+<p class="date">Saturday, October 24, 2026</p>
 
 <div class="anchor">
   <h2>☀️ Today's Anchor</h2>
   <div class="anchor-block">
-    <p class="quote">"Facts do not cease to exist because they are ignored."</p>
-    <p class="author">— Aldous Huxley</p>
-    <p class="context">From his essays. Huxley's argument against willful blindness — a theme throughout his work from Brave New World onward.</p>
+    <p class="quote">"If you tell the truth, you don't have to remember anything."</p>
+    <p class="author">— Mark Twain</p>
+    <p class="context">Notebook entry, 1894. Twain's practical case for honesty: it's cognitively cheaper than lying.</p>
   </div>
   <div class="anchor-block">
     <p class="model-label">Mental Model · Epistemics</p>
-    <p class="model-name">Confirmation Bias</p>
-    <p class="context">We seek evidence that confirms what we already believe, and dismiss what doesn't. Charles Darwin's rule: when he encountered evidence against his pet theories, he'd immediately write it down, because he knew he'd forget it otherwise. Deliberate contrarian reading is the only known antidote.</p>
+    <p class="model-name">Survivorship Bias</p>
+    <p class="context">We see the winners and forget the losers who didn't make it. Successful entrepreneurs' advice is biased toward the strategies of survivors, ignoring the identical strategies of people who failed. WWII example: engineers wanted to armor the parts of returning planes with bullet holes — until Abraham Wald pointed out the planes that didn't return were hit elsewhere.</p>
   </div>
 </div>
 
@@ -115,121 +115,125 @@
   <p class="spotlight-instructions">Interested? Copy the line below into <code>YOUTUBE_CHANNELS</code> in <code>brief.py</code> and save:</p>
   <pre class="spotlight-snippet" id="snippet">    "Andy Galpin": "UCe3R2e3zYxWwIhMKV36Qhkw",</pre>
   <button class="copy-btn" onclick="navigator.clipboard.writeText(document.getElementById('snippet').innerText.trim()); this.innerText='✅ Copied'; setTimeout(()=>this.innerText='📋 Copy snippet', 2000);">📋 Copy snippet</button>
-  <p class="spotlight-meta">showing for 2 more days. If you don't add it, a new channel will be suggested.</p>
+  <p class="spotlight-meta">showing for 1 more day. If you don't add it, a new channel will be suggested.</p>
 </div>
 <h2>🎥 From People I Follow</h2>
 
 <p><strong>Worth your time:</strong></p>
 
 <div class="story">
-  <h3>GTO Wizard</h3>
-  <p>A deep and genuinely instructive PLO preflop breakdown. The core insight: PLO is soft because hand evaluation is hard — there are 270,000 starting hand combos vs. 1,300 in Hold'em, so even modest study creates large edges. The video introduces the concept of "harmony" (how well your four cards work together across multiple nut pathways) and demonstrates counterintuitive results: JT9s single-suited outperforms AK72 double-suited as an EP open because AK72 blocks the flush that pays you off, while the 7 and 2 rarely contribute to made straights. On suitedness, the "crappy" double-suited type — your two highest cards sharing one suit, two lowest sharing another — is worth roughly half the EV of the good types because you can only make low flushes and block your own payoffs. Connectivity analysis shows that middling, gapped cards (J975) actually make more straights than a top-of-deck run (AKQJ) because extremity cards have fewer wrap combinations.</p>
-  <p class="meta">Videos: <a href="https://www.youtube.com/watch?v=uSWTUDln92o">Preflop Mechanics in PLO</a> · <a href="https://www.youtube.com/shorts/0g2IttfuTKM">Is every hand playable? PLO Preflop mechanics #shorts</a></p>
+  <h3>Jared Alderman</h3>
+  <p>Uri Peleg makes a sharp point that reframes GTO balance in practice: the question isn't whether you're perfectly balanced, it's whether your opponent can <em>detect</em> that you're not. You can systematically over-bluff certain board textures and under-bluff others — as long as you're in the global ballpark of correct frequencies — and no opponent can practically discover the deviation unless you tell them. This reframes "hidden information" as a strategic asset: knowing where you are in your game tree when your opponent doesn't is a genuine edge. The conversation also touches on randomizing bet sizing as a way to make checkbacks more ambiguous, though Uri notes mastering a single-size game tree is hard enough for most players that multi-sizing remains more conceptual than practical at most levels.</p>
+  <p class="meta">Videos: <a href="https://www.youtube.com/watch?v=d18PasuKpnA">"Poker Doesn't Work Without Exploits" - Uri Peleg</a></p>
 </div>
 
 <div class="story">
   <h3>GTO Lab</h3>
-  <p>Nick Petrangelo, Daniel Dvoress, and Axel Hallay debut a mystery bounty library and make a strong case that almost no one has a real strategy for these tournaments. The key framework introduced is the "KO stack ratio" — bounty value divided by villain's stack — as a shortcut for adjusting call-off ranges in real time. At a KO:stack ratio above 2.0, you call any two cards regardless of ICM. Below that, the library shows how to separate hands into pure-yellow (KO EV only), pure-green (prize pool EV only), and blended EV — and the blended tab is the one that matters. The sims reveal that pushing ranges in mystery bounties are strange (sometimes tighter, sometimes high-card heavy) compared to vanilla MTTs, and that the same stack distribution at different bounty sizes produces dramatically different correct strategies — something impossible to derive intuitively.</p>
-  <p class="meta">Videos: <a href="https://www.youtube.com/watch?v=x7NOpv5AXbA">NOBODY KNEW HOW TO PLAY MYSTERY BOUNTIES — UNTIL NOW</a> · <a href="https://www.youtube.com/shorts/ueLOSxlQcKk">Mystery bounty library</a></p>
+  <p>Nick Petrangelo, Daniel Dvoress, and Axel Hallay walk through a new Mystery Bounty library with purpose-built sims — a format where almost nobody plays correctly because the game tree is so large and the bounty math so non-obvious. Key insight: you need to split EV into two components (KO pool EV vs. prize pool EV) and see how they blend — some hands that are clearly losing tournament chips are still profitable calls when you layer in the knockout value. Axel introduces the "KO stack ratio" (bounty value ÷ opponent's stack) as a practical shortcut: if the ratio exceeds 2, call any two cards. The library covers stages from 1,000 players left to the final table, showing how the push-pull between hunting bounties and playing for the prize pool shifts dramatically across stages — which is exactly why everyone's playing these wrong.</p>
+  <p class="meta">Videos: <a href="https://www.youtube.com/watch?v=x7NOpv5AXbA">NOBODY KNEW HOW TO PLAY MYSTERY BOUNTIES — UNTIL NOW | Nick Petrangelo, Daniel Dvoress & Axel Hallay</a></p>
 </div>
 
 <div class="story">
-  <h3>Jared Alderman</h3>
-  <p>Jared makes a nuanced argument that aggression is cognitively overvalued in poker because players conflate "agency" with "betting." The real point: checking is not passive, it's a strategic choice — and versus recreational players who have a structured (if exploitable) game, the correct counter is often to keep pots small rather than bet and win small amounts immediately. The mistake is paying a "premium" (losing extra EV in the pot) as insurance to take down a pot now, rather than trusting your ability to navigate streets. He also cautions against two-dimensional player modeling — labeling someone "aggro" or "station" misses the contours of their strategy, e.g., a player who check-raises top pair always but never bluffs is aggressive in one dimension and passive in another, and those two dimensions require different exploits.</p>
-  <p class="meta">Videos: <a href="https://www.youtube.com/watch?v=HWEPYdd3GlY">When To Explore Passive Lines</a></p>
+  <h3>Thomas DeLauer</h3>
+  <p>Two substantive metabolism videos this period. First: the post-meal timeline broken down hour by hour — the cephalic phase (your brain primes insulin, bile, and enzymes before the first bite via the vagus nerve, and distracted eating blunts this), the incretin effect (60% of your insulin response is triggered by gut hormones GLP-1 and GIP before blood sugar even rises), and a key finding from the American Journal of Physiology showing a 190-calorie snack eaten at 11pm significantly reduced overnight fat oxidation compared to the same snack at 10am — same food, same person, only the clock changed. His practical takeaways: eat fat/protein before carbs to prime incretins, walk 10-30 min post-meal for glucose (muscle contraction pulls glucose in without insulin), and finish eating 2-3 hours before bed to protect the overnight fat-burning window. Second video argues that habitual fasting at the same time each day trains ghrelin to spike anticipatorily via orexin neurons — making hunger a learned clock, not a fuel gauge. The fix: rotate your break-fast time within a 2-3 hour window to prevent the conditioned spike from consolidating, and ride out the 15-20 minute fade window when it does hit.</p>
+  <p class="meta">Videos: <a href="https://www.youtube.com/watch?v=yB5lduvitFY">This is What Happens in the First 24 Hours After Eating a Big Meal</a> · <a href="https://www.youtube.com/watch?v=zwwXLLC3iI4">Fasting as we Know it is Dead - This Changes Losing Belly Fat Forever</a></p>
+</div>
+
+<div class="story">
+  <h3>Peter Attia (The Drive)</h3>
+  <p>Conversation with oncologist Siddhartha Mukherjee (author of <em>The Emperor of All Maladies</em>) surveying 15 years of cancer progress. Most striking update: the Vogelstein framing of cancer mutations as ~5% hereditary / ~30% environmental / ~65% random ("bad luck") is being revised upward on the hereditary side — not because new single-gene mutations were found, but because polygenic "nudge mutations" (hundreds of small-effect genes stacking risk) account for a large fraction of hereditary cancers that BRCA1/2 alone couldn't explain. On treatment: immunotherapy now meaningfully extends survival in some lung cancer patients (something Mukherjee says he would not have believed possible 15 years ago), CAR-T has produced 15-year survivors in some leukemias/lymphomas, and the KRAS-targeting drug Adagrasib is generating real (not just weeks-long) survival gains in pancreatic cancer for the first time. On early detection: liquid biopsies (blood-based cancer tests) likely don't work well on unselected general populations due to false positive rates, but may be valuable in high-genetic-risk cohorts.</p>
+  <p class="meta">Videos: <a href="https://www.youtube.com/watch?v=xKB5GTsaKKs">412 ‒ The evolving science of cancer: emerging approaches to prevention and early detection</a></p>
+</div>
+
+<div class="story">
+  <h3>ModernWisdom / Dr. K (HealthyGamer)</h3>
+  <p>Dr. K (Alok Kanojia) recounts his path from failing out of college on 16-20 hours of gaming per day, to 90 days in an Indian ashram, to being told by his spiritual teacher to go back and "become exceptional in the material world first." The more philosophically interesting claim: he argues that futile work has underappreciated value — the process of failing persistently (depression, failed med school applications, grinding toward something that doesn't happen) builds a resilience that people who've never hit those walls don't have. He frames Sisyphus as "still racking up experience points." His rock-bottom moment was a meditation where he received what he describes as a quiet, certain "knowing" that medical school wasn't going to happen — and paradoxically felt relief alongside the grief, because the uncertainty ended.</p>
+  <p class="meta">Videos: <a href="https://www.youtube.com/watch?v=E3BAOkBaYOg">The Rock Bottom Moment That Almost Ruined Dr K</a></p>
 </div>
 
 <p><strong>Also posted:</strong></p>
 <ul>
-  <li><strong>Ken Berry MD:</strong> Argues that budget processed meats (SPAM, bologna, hot dogs, deviled ham, beef franks) meet carnivore/keto criteria — predominantly meat, under 1g carb per serving — and that ingredient list analysis rather than category labels ("processed") is the correct evaluative frame. (<a href="https://www.youtube.com/watch?v=qp4KSCyGicM">Processed Meats Will Kill You? I read every ingredient.</a>) +2 more.</li>
-  <li><strong>Nick Norwitz:</strong> Makes the philosophical/statistical point that LDL being "causal" for CVD does not mean it's the most important variable, sufficient on its own, or the correct thing to treat — causality and clinical significance are distinct, and conflating them distorts risk management. (<a href="https://www.youtube.com/shorts/jq8VqtFxc6s">Does LDL Really Cause Heart Disease?</a>)</li>
-  <li><strong>Dr. Sten Ekberg:</strong> Reviews the 2018 discovery that the small intestine — not the liver — processes fructose first, clearing up to 90% of low doses before any reaches the liver. The liver is the overflow system, not the primary processor, making the Lustig "fructose = alcohol on the liver" mechanism technically incorrect — though the conclusion (sugar is bad, especially in liquid/large doses) still holds, since the gut saturates quickly (perhaps ~10–25g per sitting) and high-dose fructose still causes the same downstream liver fat accumulation. (<a href="https://www.youtube.com/watch?v=XaaPjdRU490">#1 The Most Famous Sugar Video Ever Was WRONG</a>)</li>
-  <li><strong>Thomas DeLauer:</strong> Reviews cortisol-lowering food compounds (fermented foods via gut-GABA axis, taurine as GABA-A modulator, saffron's BDNF effect, dark chocolate's cortisol-to-cortisone enzyme inhibition) and identifies chronic undereating/overfasting as a major cortisol driver via sodium-potassium pump impairment — leading to 2-3am waking and hyperexcitability. (<a href="https://www.youtube.com/watch?v=nrMbjugu4u0">1/2 Cup of This Drops Cortisol and Shrinks Visceral Fat</a>)</li>
-  <li><strong>Peter Attia:</strong> Long-form interview with oncologist Siddhartha Mukherjee covering: the 2018 shift from Lustig-style "liver-first" fructose models (cancer prevention parallel), immunotherapy extending lung cancer survival in smokers, CAR-T achieving 15+ year remission in liquid cancers, and the Vogelstein "bad luck" mutation paper being updated — hereditary risk now involves polygenic "nudge" mutations alongside single-gene "shove" mutations like BRCA1. (<a href="https://www.youtube.com/watch?v=xKB5GTsaKKs">412 ‒ The evolving science of cancer</a>)</li>
-  <li><strong>Andrew Huberman:</strong> Framework for supplementation hierarchy: behavior → nutrition → supplements → prescription drugs. Specific sleep stack discussed: magnesium threonate or bisglycinate (crosses BBB, shortens sleep latency), apigenin (anxiety-lowering chamomile derivative), and theanine 100–400mg (but avoid if vivid dreams cause waking). Myo-inositol 900mg for middle-of-night waking specifically. (<a href="https://www.youtube.com/watch?v=eYSOabR3YP0">Essentials: Developing a Rational Approach to Supplementation</a>)</li>
-  <li><strong>Renaissance Periodization:</strong> Two shorts: debunks the 10,000 calorie Phelps myth (he said ~5,000 on high-volume days, which is plausible for a 220lb swimmer); and raises suspicion about Anatoly's viral gym prank videos based on consistent use of gray bumper plates that look heavier than they are to non-gym audiences. (<a href="https://www.youtube.com/shorts/iB_1cu4ddMQ">Nobody Really Eats 10,000 Calories a Day</a> · <a href="https://www.youtube.com/shorts/W1ej7_I5vrU">Something's Off About Anatoly's Weights</a>)</li>
+  <li><strong>Anthony Chaffee MD:</strong> Extended carnivore marathon livestream covering glyphosate safety concerns (citing the 3-month vs. lifespan rat study discrepancy), corruption of medical literature, trans fat history as a template for current food industry behavior, and ruminant digestion potentially filtering glyphosate better than monogastrics. (<a href="https://www.youtube.com/watch?v=AzSL_rr5fdQ">Carnivore LIVE Oct 23</a> · +2 more shorts)</li>
+  <li><strong>Paul Saladino MD:</strong> Citric acid in energy drinks like Celsius creates a pH of 2.8–3.2 (enamel erosion begins below 5.5) and chelates calcium directly from teeth — argues this is meaningfully worse than other acidic beverages. (<a href="https://www.youtube.com/shorts/YWkoCkcUv_8">Energy drinks are CRUSHING your tooth enamel</a>)</li>
+  <li><strong>Nick Norwitz:</strong> Argues that "LDL is causal for CVD" is technically true but misleading — causality in a chain doesn't mean the variable is the most important or that reducing it is always the right intervention. Calls out conflation of causality and clinical importance as a core problem in cholesterol science. (<a href="https://www.youtube.com/shorts/jq8VqtFxc6s">Does LDL Really Cause Heart Disease?</a>)</li>
+  <li><strong>Dr. Sten Ekberg:</strong> Walks through 10 ultra-processed food categories — coffee creamers, industrial bread (US vs. European fermentation differences, dough conditioners, glyphosate-tolerant wheat strains), fat-free yogurt reconstruction, margarine, processed cheese — arguing these represent a systematic replacement of single-ingredient foods with chemical reconstructions optimized for shelf life and margin, not nutrition. (<a href="https://www.youtube.com/watch?v=wV5DlmdfbiI">Top 10 Fake Foods You're Probably Buying Every Week</a>)</li>
+  <li><strong>Andrew Huberman:</strong> Explains entrainment: doing an activity at a consistent time for 2-3 days causes your nervous system to begin releasing the associated neurochemicals (adrenaline, norepinephrine, cortisol) 10-15 minutes <em>before</em> the activity starts — this is physiological, not just psychological, and can be deliberately engineered for workouts, focus sessions, and learning blocks. (<a href="https://www.youtube.com/shorts/gWtB3pmEkag">Entrainment Governs Your Energy & Focus</a>)</li>
+  <li><strong>Renaissance Periodization (Dr. Mike):</strong> Reviews Quint Stott's strength feats (500 lb jump onto a platform, 635 lb helicopter squat at ~210 lbs bodyweight, knuckle bench with 440 lbs) and uses them to make a clean point about the relationship between strength and athleticism — strength removes the limiting factor; coordination and speed are then what separate elite athletes, but becoming weaker makes anyone less athletic. (<a href="https://www.youtube.com/watch?v=4DcDuhmijIc">Exercise Scientist Critiques The Real Anatoly</a>)</li>
+  <li><strong>Ken Berry MD:</strong> Carnivore marathon final hour focused on diabetes; named the AMA, American Heart Association, and American Diabetes Association as institutions he believes are compromised by pharma/food industry funding — citing two studies where ketogenic diet outperformed the DASH diet on blood pressure reduction with no acknowledgment from the AHA. (<a href="https://www.youtube.com/watch?v=IEwjXK69ZbY">Healing Humanity Release: Final Hour of the 24-Hour Carnivore Marathon</a>)</li>
 </ul>
-
----
 
 <h2>₿ Bitcoin & Macro</h2>
 
 <div class="story">
-  <h3><a href="https://bitcoinmagazine.com/markets/bitcoin-slides-towards-81000">Bitcoin Slides Towards $81,000 as Oil Above $110 Revives Rate-Hike Bets</a></h3>
-  <p>Oil crossing $110/barrel is reigniting inflation fears and rate-hike expectations, weighing on Bitcoin during what is historically its strongest month ("Uptober"). The macro thesis here is the tension between Bitcoin's hard-money narrative (which benefits from loose monetary policy) and its current behavior as a risk asset sensitive to rate expectations. Worth watching as a stress test of whether BTC decouples from macro risk-off moves at this price level.</p>
+  <h3><a href="https://pomp.substack.com/p/five-friday-charts-what-to-take-from">Five Friday Charts: What to take from Asia market turmoil</a></h3>
+  <p>South Korea's KOSPI is down 40%+ from its June 2026 peak, and China has recorded 11 consecutive red weeks — Pomp frames this as an AI trade unwind with meaningful implications for global risk appetite. The question he's raising is whether this is isolated regional stress or leading-indicator pressure on Western risk assets, particularly Bitcoin ETF flows, which saw a single-day $635M outflow following an oil price spike this week.</p>
+  <p class="meta">The Pomp Letter</p>
+</div>
+
+<div class="story">
+  <h3><a href="https://bitcoinmagazine.com/news/franklin-templeton-clears-final-hurdle">Franklin Templeton Clears Final Hurdle For ETFs That Turn Stock Dividends Into Bitcoin</a></h3>
+  <p>Franklin Templeton ($1.7T AUM) registered two Nasdaq-listed funds structured as 95% U.S. equities / 5% Bitcoin, with all dividends automatically reinvested into Bitcoin. This is a structurally new product type — not a pure Bitcoin ETF, but a mechanism to route equity income streams into BTC accumulation — and represents institutional product innovation on the demand side worth watching.</p>
   <p class="meta">Bitcoin Magazine</p>
 </div>
 
 <div class="story">
-  <h3><a href="https://pomp.substack.com/p/where-will-new-demand-for-bitcoin">Where will new demand for bitcoin come from?</a></h3>
-  <p>Pomp frames Bitcoin's next leg as a demand-side question: the supply shock from the halving is priced in, so incremental price appreciation requires new buyer categories. The piece surveys institutional adoption curves, sovereign wealth fund speculation, and corporate treasury adoption as the most likely demand vectors — consistent with the Saylor thesis that corporate balance sheets represent the next large pool of untapped demand.</p>
-  <p class="meta">The Pomp Letter</p>
+  <h3><a href="https://bitcoinmagazine.com/news/bitcoin-core-ends-long-embargoes">Bitcoin Core Ends Long Embargoes for Bugs AI Can Rediscover</a></h3>
+  <p>Bitcoin Core is changing its vulnerability disclosure policy: bugs that AI systems could plausibly rediscover independently will no longer be held under long embargo. The reasoning is that a long embargo on a vulnerability an AI could find provides false security — once an AI discovers it, the assumption of secrecy collapses. This is a quiet but meaningful intersection of AI capability and Bitcoin's security model.</p>
+  <p class="meta">Bitcoin Magazine</p>
 </div>
-
----
 
 <h2>🧬 Health & Science</h2>
 
 <div class="story">
-  <h3>The Fructose Mechanism Update — What Lustig's Famous Lecture Got Wrong</h3>
-  <p>A 2018 study (confirmed in follow-up research) found that the small intestine — not the liver — is the primary processor of fructose, clearing up to 90% of low doses. The liver is a backup overflow system. This matters for dose-dependent decisions: liquid fructose on an empty stomach likely saturates the gut at ~10g per sitting, while fructose consumed slowly with fiber may allow up to ~25g before overflow reaches the liver. Practical upshot: a half-can of soda likely already overloads the system; whole fruit with fiber at moderate portions does not. The Lustig "alcohol without the buzz" comparison is mechanistically wrong even if the clinical warning still stands. Separately, fructose suppresses ghrelin (satiety hormone) less than glucose does, and unlike glucose produces almost no insulin response — meaning it provides no satiety signal while still delivering calories and driving cravings, a double problem independent of the liver question.</p>
-  <p class="meta">Dr. Sten Ekberg — <a href="https://www.youtube.com/watch?v=XaaPjdRU490">The Most Famous Sugar Video Ever Was WRONG</a></p>
+  <h3>Alzheimer's: 2 Hours of Sleep Restored Without Clearing Brain Plaques</h3>
+  <p>Researchers reported restoring approximately 2 hours of lost sleep in Alzheimer's model subjects without clearing amyloid plaques — the finding is significant because it challenges the assumed causal direction (plaques → sleep loss) and suggests sleep disruption in Alzheimer's may have a parallel, plaque-independent mechanism that could be targeted therapeutically. If replicated, this separates "fixing sleep" from "clearing plaques" as distinct intervention tracks.</p>
+  <p class="meta"><a href="https://www.sciencedaily.com/releases/2026/10/261018084421.htm">ScienceDaily</a> · <a href="https://news.ycombinator.com/item?id=">HN Discussion</a></p>
 </div>
 
 <div class="story">
-  <h3>Cortisol, Chronic Undereating, and the Sodium-Potassium Pump</h3>
-  <p>Thomas DeLauer's most substantive claim: chronically restricting calories depletes the minerals needed to run the sodium-potassium pump, which neurons rely on for stable electrical firing. When this pump is impaired, the brain stays hyperexcitable, cortisol rises to compensate, and early-morning waking (2–3am) follows. This creates a loop where the person thinks they need better sleep hygiene, when the root cause is metabolic stress from under-fueling. His recommended fix: target rough caloric maintenance over a 7-day rolling window rather than daily restriction, fasting 2–3 days/week but eating adequately on other days. The fermented-food-GABA mechanism he cites is from a Molecular Psychiatry study showing a 32% drop in perceived stress in a psychobiotic group vs. 17% control, with measurable shifts in tryptophan metabolism away from the neurotoxic kynurenine pathway toward serotonin.</p>
-  <p class="meta">Thomas DeLauer — <a href="https://www.youtube.com/watch?v=nrMbjugu4u0">1/2 Cup of This Drops Cortisol and Shrinks Visceral Fat</a></p>
+  <h3>Peter Attia × Mukherjee: Specific Cancer Prevention & Detection Takeaways</h3>
+  <p>Beyond the broad landscape summary: Mukherjee flags colorectal cancer rising in young people as a genuine mystery (alcohol and tobacco don't explain it), esophageal cancer rising (probably alcohol × tobacco synergy), and endometrial cancer rising likely due to obesity rates. On liquid biopsies: the problem isn't sensitivity, it's specificity in low-prevalence populations — false positives cascade into unnecessary procedures, so the near-term use case is high-risk (genetic mutation carriers, prior cancer history) rather than broad screening. On metabolic therapies: he flags early-stage science on exploiting cancer's metabolic differences from normal cells as a legitimate and underexplored treatment angle.</p>
+  <p class="meta"><a href="https://www.youtube.com/watch?v=xKB5GTsaKKs">The Drive Podcast</a></p>
 </div>
-
-<div class="story">
-  <h3>Cancer Prevention: Polygenic Risk, Inflammatory States, and the "Bad Luck" Revision</h3>
-  <p>Oncologist Siddhartha Mukherjee on Peter Attia's podcast updates several priors. On prevention: we lack a "high cholesterol equivalent" biomarker for cancer risk from inflammatory states, but we now know inflammatory states are pro-carcinogenic — the biomarker will come. On hereditary risk: Vogelstein's original 5% hereditary figure is outdated; we've since found that much of "unexplained" hereditary cancer is driven by hundreds of polygenic "nudge" mutations (each adding a small percentage of risk) rather than single "shove" mutations like BRCA1. On treatment: immunotherapy now meaningfully extends survival in smokers with lung cancer (something Mukherjee considered impossible 15 years ago), and CAR-T produces genuine long-term remission — not 5-year survival but 15-20 year survival — in responsive leukemias and lymphomas. The colorectal cancer rise in young people remains a genuine mystery with no established cause.</p>
-  <p class="meta">Peter Attia — <a href="https://www.youtube.com/watch?v=xKB5GTsaKKs">412 ‒ The evolving science of cancer</a></p>
-</div>
-
----
 
 <h2>💡 Worth Reading</h2>
 
 <div class="story">
-  <h3><a href="https://simedw.com/2026/10/21/world-model-terminal/">WorldTUI: I trained a 360M model to pretend to be a terminal</a></h3>
-  <p>A developer trained a 360-million-parameter world model to simulate the behavior of a Unix terminal — not to execute real commands, but to predict what a terminal would output as a generative model of system behavior. It's a genuinely interesting proof-of-concept for "world models" as simulators of deterministic environments rather than language generators, and raises questions about what you could do with a world model of a codebase, an API, or a business process.</p>
-  <p class="meta"><a href="https://news.ycombinator.com/item?id=50193416">Discussion</a></p>
-</div>
-
-<div class="story">
-  <h3><a href="https://www.astralcodexten.com/p/against-against-handover">Against Against Handover</a></h3>
-  <p>Scott Alexander engages with arguments against AI "handover" — the idea of eventually allowing AI systems to take over significant decision-making. Worth reading as a serious philosophical engagement with AI autonomy, not a culture-war piece, and relevant to anyone tracking the actual ethics debates happening inside the AI safety community right now.</p>
-  <p class="meta">Astral Codex Ten</p>
-</div>
-
-<div class="story">
-  <h3><a href="https://marginalrevolution.com/marginalrevolution/2026/10/will-bystander-economies-be-able-to-finance-their-governments.html">Will bystander economies be able to finance their governments?</a></h3>
-  <p>Economist Jesús Fernández-Villaverde's paper "Saving for the Machines" poses a pointed macro question: AI investment requires enormous capital formation, which crowds out consumption and compresses the tax base. Countries that are not at the AI frontier — "bystander economies" — may face a fiscal crisis as their labor income falls and capital flows toward the handful of countries building AI infrastructure. This is a concrete, structural argument rather than vague AI-disruption hand-waving.</p>
-  <p class="meta">Marginal Revolution</p>
-</div>
-
-<div class="story">
-  <h3><a href="https://www.anthropic.com/research/formal-verification">LLMs are making formal software verification feasible at a much larger scale</a></h3>
-  <p>Anthropic research finds that LLMs can now assist with formal verification — mathematically proving that code behaves correctly — at a scale previously impractical. Formal verification was historically too labor-intensive for most real software; if LLMs can automate the proof-writing step, this changes the security and reliability calculus for critical systems.</p>
-  <p class="meta"><a href="https://news.ycombinator.com/item?id=50193416">Discussion</a></p>
+  <h3><a href="https://stratechery.com/2026/an-interview-with-craig-moffett-about-spacex-and-bubbles/">An Interview with Craig Moffett About SpaceX and Bubbles</a></h3>
+  <p>Craig Moffett is one of the sharpest telecom analysts; this interview applies dot-com bubble lessons to the current AI/SpaceX investment environment. Worth reading if you're thinking about whether current AI valuations rhyme with 1999 — Moffett has a track record of calling these cycles correctly and his framework for distinguishing "real technology, wrong price" from "wrong technology, wrong price" is useful.</p>
+  <p class="meta">Stratechery</p>
 </div>
 
 <div class="story">
   <h3><a href="https://figsinwintertime.substack.com/p/gaius-blossiusthe-revolutionary-stoic">Gaius Blossius, the Revolutionary Stoic</a></h3>
-  <p>Massimo Pigliucci profiles Gaius Blossius — the Stoic philosopher who advised the reformer Tiberius Gracchus and later joined an armed revolt — as a corrective to the popular image of Stoicism as quietist or politically passive. The piece argues that for the Stoics, living according to virtue sometimes demanded active engagement with injustice rather than equanimous withdrawal. Useful for anyone who has wrestled with whether Stoic acceptance is compatible with action.</p>
+  <p>Massimo Pigliucci pushes back on the popular caricature of Stoicism as quietist or politically passive — Gaius Blossius was a Stoic philosopher who actively supported the Gracchan reforms and fled Rome rather than submit to what he saw as tyranny. The piece argues that Stoic ethics doesn't demand withdrawal from civic life but rather demands principled engagement with it. Useful corrective to the modern "just control your reactions" reduction of the philosophy.</p>
   <p class="meta">Figs in Winter (Pigliucci)</p>
 </div>
 
----
+<div class="story">
+  <h3><a href="https://donaldrobertson.substack.com/p/stoic-premeditation-of-anger">Stoic Premeditation of Anger</a></h3>
+  <p>Donald Robertson covers the Stoic practice of <em>premeditatio</em> applied specifically to anger — anticipating provocations in advance as a prophylactic rather than trying to suppress anger once it's already triggered. The core claim, rooted in Seneca, is that anger is far easier to prevent than to stop mid-stream, and that mentally rehearsing likely irritants reduces their impact when they arrive. Practical and well-sourced from the primary texts.</p>
+  <p class="meta">Donald Robertson Substack</p>
+</div>
+
+<div class="story">
+  <h3><a href="https://marginalrevolution.com/marginalrevolution/2026/10/protecting-americans-from-medicine.html">Protecting Americans from Medicine</a></h3>
+  <p>A brief but striking post: a man's mother had brain metastases from lung cancer; the drug with the best clinical evidence was approved in China but not the US, so he flew to Shanghai and bought it at a pharmacy. The post surfaces the often-invisible cost of regulatory delay — not just slower access in the abstract, but specific situations where the US approval lag has a name and a face. Worth sitting with if you think about FDA reform or drug access policy.</p>
+  <p class="meta">Marginal Revolution</p>
+</div>
 
 <h2>🤖 AI Capability Watch</h2>
 
 <div class="story">
-  <h3><a href="https://openai.com/index/decisions-api">OpenAI Decisions API</a></h3>
-  <p>OpenAI is shipping a dedicated low-latency API optimized specifically for high-frequency, low-cost classification and routing decisions within applications — a meaningfully different product from the general-purpose completions API. This matters because it enables cost-effective AI judgment at the kind of throughput (fraud detection, content routing, real-time personalization) where the general API was too expensive or slow to deploy at scale.</p>
-  <p class="meta">OpenAI Blog</p>
+  <h3><a href="https://www.kimi.ai/blog/kimi-k3-1-pro">Kimi K3.1 Pro and K3.1 Pro Highspeed</a></h3>
+  <p>Moonshot AI (China) released Kimi K3.1 Pro, a new frontier model landing on their API with a "Highspeed" variant running 2-3x faster at 2x the price. Full weights are promised by November 4, 2026, which would make it open-weight. High HN engagement (876 pts) suggests the community considers this a meaningful competitive model, not just a benchmark entry — worth watching when weights drop to assess real-world capability.</p>
+  <p class="meta"><a href="https://simonwillison.net/2026/Oct/23/kimi-k31-pro/">Simon Willison's notes</a></p>
+</div>
+
+<div class="story">
+  <h3><a href="https://block.xyz/dessa">Dessa: Conversation Model Trained Only on Speech</a></h3>
+  <p>Block's AI lab released Dessa, a conversational model trained exclusively on speech data rather than text — meaning it learns prosody, tone, and conversational flow from audio, not transcripts. If the approach works at scale, it represents a different architecture path for voice AI that could produce more natural spoken interaction than text-trained models with voice wrappers, which is the current default.</p>
+  <p class="meta">block.xyz · <a href="https://news.ycombinator.com/item?id=">HN Discussion</a></p>
 </div>
 </body>
 </html>
