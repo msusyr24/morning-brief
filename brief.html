@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>Morning Brief — Sunday, October 25, 2026</title>
+<title>Morning Brief — Monday, October 26, 2026</title>
 <style>
   body {
     font-family: Georgia, serif;
@@ -92,28 +92,28 @@
 })();
 </script>
 <h1>Morning Brief</h1>
-<p class="date">Sunday, October 25, 2026</p>
+<p class="date">Monday, October 26, 2026</p>
 
 <div class="anchor">
   <h2>☀️ Today's Anchor</h2>
   <div class="anchor-block">
-    <p class="quote">"Honesty is the first chapter in the book of wisdom."</p>
-    <p class="author">— Thomas Jefferson</p>
-    <p class="context">Letter to Nathaniel Macon, 1819. Jefferson as elder statesman reflecting on what he'd learned.</p>
+    <p class="quote">"Simplicity is the ultimate sophistication."</p>
+    <p class="author">— Leonardo da Vinci (attribution disputed)</p>
+    <p class="context">Attributed to da Vinci, though the earliest sourced version is from Clare Boothe Luce in the 1930s. Apple later adopted it.</p>
   </div>
   <div class="anchor-block">
     <p class="model-label">Mental Model · Decision-making</p>
-    <p class="model-name">Expected Value</p>
-    <p class="context">Probability-weighted outcomes. A 10% chance at $1M is worth more than a 90% chance at $100K — but most people grab the latter, fearing the 90% loss. Munger: 'If you can get comfortable with expected value, you'll make decisions 99% of people can't.'</p>
+    <p class="model-name">Asymmetric Bets</p>
+    <p class="context">Seek situations where downside is limited but upside is unbounded. Options trading, venture capital, writing a book. Conversely, avoid inverses: picking up pennies in front of a steamroller. Nassim Taleb's full framework, but Munger lived it before Taleb wrote about it.</p>
   </div>
 </div>
 
 <div class="spotlight">
   <h2>🧭 Channel Spotlight</h2>
-  <p class="spotlight-name">Renaissance Periodization</p>
-  <p class="spotlight-pitch">Wait — Israetel also posts solo under his own channel distinct from the RP brand, where he goes deeper on the philosophy of science in nutrition and training, steelmanning low-carb and carnivore critiques with actual mechanistic rigor rather than dismissing them. He covers the epistemology of how we know what we know in health science — a gap between your data-heavy channels like Attia and the more advocacy-oriented carnivore voices. Format is primarily solo essays and debates, often 20–60 minutes, at a level of scientific literacy that rewards close attention.</p>
+  <p class="spotlight-name">David Epstein</p>
+  <p class="spotlight-pitch">Epstein's work on the 'range vs. specialization' debate is a direct steelman against the deep-specialization assumptions embedded in Renaissance Periodization and Peter Attia's optimization-heavy approach to training and health. His content draws on sports science, cognitive science, and decision-making research — overlapping your interests in mental models, fitness evidence, and long-form ideas — while pushing back on the 'deliberate practice solves everything' narrative. Format is a mix of solo explanations and interviews, research-grounded and genuinely contrarian without being sensationalist.</p>
   <p class="spotlight-instructions">Interested? Copy the line below into <code>YOUTUBE_CHANNELS</code> in <code>brief.py</code> and save:</p>
-  <pre class="spotlight-snippet" id="snippet">    "Renaissance Periodization": "UCfQgsKhHjSyRLOp9mnffqVg",</pre>
+  <pre class="spotlight-snippet" id="snippet">    "David Epstein": "UCab3eZ-9h8YQU8qCQzZwCew",</pre>
   <button class="copy-btn" onclick="navigator.clipboard.writeText(document.getElementById('snippet').innerText.trim()); this.innerText='✅ Copied'; setTimeout(()=>this.innerText='📋 Copy snippet', 2000);">📋 Copy snippet</button>
   <p class="spotlight-meta">showing for 3 more days. If you don't add it, a new channel will be suggested.</p>
 </div>
@@ -122,132 +122,128 @@
 <p><strong>Worth your time:</strong></p>
 
 <div class="story">
-  <h3>Modern Wisdom – Martin Seligman</h3>
-  <p>Seligman, the founder of positive psychology, traces the field's origin to three blind spots that dominated psychology 60 years ago: the exclusive focus on misery, the exclusion of thinking/cognition, and hard determinism. His key empirical finding: when exposed to inescapable adversity, 5/8 of people become helpless and passive — but 3/8 don't, and the differentiator is optimism. Pessimists explain failure as permanent, global, and internal ("I'm stupid"); optimists explain it as temporary and situational ("I had a hangover"). Crucially, he argues optimism is learnable, not just inherited: specific cognitive techniques — identifying catastrophic automatic thoughts, disputing them with evidence — measurably shift explanatory style. His garden epiphany with his 5-year-old daughter reframed parenting and therapy: the goal isn't correcting errors down to zero, it's identifying and building on strengths.</p>
-  <p class="meta">Videos: <a href="https://www.youtube.com/watch?v=vf4t6tS44dw">Positive Psychology Founder: How To Stop Your Negative Thoughts</a></p>
+  <h3>Peter Attia</h3>
+  <p>Lisa Feldman Barrett makes a compelling case that emotions are not discrete, hardwired biological categories (fear, anger, sadness) but are instead <em>constructed predictions</em> — the brain's best guess at what sensory signals mean given context. The key evidence: when you look at actual data, there's no reliable physiological or facial signature that uniquely identifies any emotion. Anger produces scowling only ~35% of the time; the amygdala activates during "fear" only ~30% of the time. Variance is the norm, not the exception. This has real implications for emotional regulation: if emotions aren't happening <em>to</em> you but are being actively built by your brain, you have more leverage over them than the classical model suggests. Attia also posted a notable self-correction on Zone 2 training: the 80/20 (zone 2 / high intensity) split was derived from high-volume endurance athletes, and he now believes it doesn't apply to people training under ~4 hours/week of cardio — at low volumes, higher-intensity work likely produces better returns.</p>
+  <p class="meta">Videos: <a href="https://www.youtube.com/watch?v=0oNeFRTpvUE">The neuroscience of emotion — Lisa Feldman Barrett</a> · <a href="https://www.youtube.com/shorts/igeLOCTR1MM">Why Peter changed his mind on Zone 2</a> · <a href="https://www.youtube.com/shorts/o0CMaP3t-qM">How Peter's views have changed over 8 years</a></p>
 </div>
 
 <div class="story">
-  <h3>GTO Lab – Mystery Bounty Strategy</h3>
-  <p>Nick Petrangelo, Daniel Dvoress, and Axel Hallay walk through a new GTO Lab mystery bounty solver library — the core argument being that mystery bounty tournaments are massively +EV for studied players because almost nobody has correct preflop strategy, especially at mid-stages (100–1,000 players left). The key concept is the "KO stack ratio": bounty value divided by villain's stack size, which gives a fast in-game shortcut for how aggressively to hunt. They demonstrate that hands losing pure tournament EV (jack-ten offsuit, etc.) become clear calls once KO EV is layered in — and the tools visualize this split explicitly. Axel also built an Excel calculator for accurate bounty chip valuation that corrects the old "add chips to pot" approximation, which can be off by 2.5x. Petrangelo's honest summary: even after studying millions of hands, he had no idea how to play these spots before the library.</p>
-  <p class="meta">Videos: <a href="https://www.youtube.com/watch?v=x7NOpv5AXbA">NOBODY KNEW HOW TO PLAY MYSTERY BOUNTIES — UNTIL NOW</a></p>
+  <h3>Jared Alderman (with Uri Peleg)</h3>
+  <p>Jared opens with an interesting theoretical question: what if you randomized your <em>bet sizing</em> rather than just your frequency? Uri's response is characteristically sharp — practically speaking, you're already playing a one-size game tree that most players haven't fully mapped, so randomizing sizes adds complexity without proportional benefit. The more useful insight Uri draws out: <strong>your opponent doesn't know your game tree</strong>, which means you can systematically deviate from GTO frequencies across different board textures (over-bluff some, under-bluff others) as long as you're globally in the ballpark — there's no practical way for opponents to detect this. He illustrates with a heads-up example where he wasn't RNGing at all, and his opponent couldn't tell. The broader takeaway: hidden information is underutilized, and the gap between what you know about your own strategy and what your opponent can infer is a real, exploitable edge.</p>
+  <p class="meta">Video: <a href="https://www.youtube.com/watch?v=d18PasuKpnA">"Poker Doesn't Work Without Exploits" — Uri Peleg</a></p>
 </div>
 
 <div class="story">
-  <h3>Jared Alderman – Hidden Information & Exploits with Uri Peleg</h3>
-  <p>Uri Peleg opens with a sharp insight: it only matters if you bluff too much or too little if your opponent calls too much or too little — meaning global frequency errors are effectively invisible unless you telegraph them. He uses a chess analogy to frame GTO: each player maintains an invisible "board" (range construction), and exploitative play is making an informed guess about your opponent's board setup. On the practical question of whether elite players have systematic tendencies: Peleg argues that decision fatigue creates exploitable patterns, and that even small asymmetries (over-bluffing ace-high boards, under-bluffing king-high boards) are undetectable without disclosure. His core advice on randomizing bet sizes: theoretically interesting, practically irrelevant unless you've fully mastered the one-size game tree first. He also makes the point that not RNGing doesn't make you unbalanced if your opponent can't detect your pattern.</p>
-  <p class="meta">Videos: <a href="https://www.youtube.com/watch?v=d18PasuKpnA">"Poker Doesn't Work Without Exploits" - Uri Peleg</a></p>
+  <h3>Renaissance Periodization (Mike Israetel)</h3>
+  <p>Two sharp, concise clips. On GLP-1s (Ozempic/tirzepatide): without resistance training and high protein intake, weight loss on these drugs produces a "deflated" look rather than a body recomposition — muscle is lost alongside fat. The fix is simple: lift at least 2–4 days/week and prioritize protein, and the transformation becomes exceptional. On myostatin inhibitors: the current injectable versions cost an estimated $350K/year, making them impractical for anyone but elite athletes. The real milestone to watch for is an oral small-molecule myostatin inhibitor (none yet exist), which Israetel predicts will have the cultural uptake of Ozempic and provide a meaningful tool for preserving muscle during GLP-1-driven weight loss.</p>
+  <p class="meta">Videos: <a href="https://www.youtube.com/shorts/pgixBI3_od0">How to improve your shape on a GLP-1</a> · <a href="https://www.youtube.com/shorts/NTFWfB4TyTA">Would you pay $350K a year to get jacked?</a></p>
 </div>
 
 <div class="story">
-  <h3>Peter Attia – Cancer Science with Siddhartha Mukherjee</h3>
-  <p>Mukherjee updates the cancer landscape 15 years after <em>Emperor of All Maladies</em>: the most important shift is that immunotherapy now meaningfully extends survival in lung cancer (previously a near-death sentence), and CAR-T cell therapy produces genuine 15–20 year survivors in blood cancers. On the Vogelstein "bad luck" finding (≈66% of mutations are random): Mukherjee notes the 5% hereditary fraction is now outdated — polygenic "nudge mutations" (hundreds of small-effect variants stacking together) explain much of hereditary risk that single-gene models missed. On early detection: liquid biopsies (blood-based cancer tests) probably don't work in general populations due to false positives, but may be valuable in high-risk individuals. Colorectal cancer rising in young people remains a genuine mystery. The most exciting near-term treatment frontier is personalized cancer vaccines (neoantigen-based), with a phase III melanoma trial showing real signal.</p>
-  <p class="meta">Videos: <a href="https://www.youtube.com/watch?v=xKB5GTsaKKs">412 ‒ The evolving science of cancer</a></p>
+  <h3>Thomas DeLauer (with Dr. John Sheff)</h3>
+  <p>For people with severe metabolic dysfunction — fasting insulin >15, visceral fat index >10, evidence of fatty liver — Dr. Sheff argues standard intermittent fasting protocols (like 36-hour fasts) are the wrong tool. The liver is effectively "offline," meaning the system that governs gluconeogenesis, ketone production, and fat oxidation isn't working correctly. He observes patients fasting 2–3 days with fasting glucose that never drops below 100, because gluconeogenesis keeps running and cells remain glucose-dependent. His clinical protocol: <strong>3-day fasts, repeated every 3 weeks</strong>, until fasting glucose normalizes — a more aggressive "reboot" designed to force hepatic insulin resistance to resolve before optimization-level tools like shorter fasts can take effect. The distinction he draws is between a mainframe that's down vs. one that just needs a software update.</p>
+  <p class="meta">Video: <a href="https://www.youtube.com/watch?v=FEnwHJBJld0">Visceral Fat Doctor: Do This Every 3 Weeks to Drop Belly Fat</a></p>
 </div>
 
 <div class="story">
-  <h3>Thomas DeLauer – Sleep Doctor on Waking at 3AM</h3>
-  <p>Dr. Bruce (clinical psychologist and sleep specialist) explains the 3AM wake mechanism: core body temperature must rise between 1–3AM to prevent hypothermia, which pushes you into lighter sleep stages and lowers the arousal threshold. The problem isn't the waking — it's that frustration about being awake spikes anxiety, heart rate, and temperature, exactly the three things you need lowered to fall back asleep. His protocol: don't get up to pee unless you truly must (roll onto your back, count to 20 first — 70% of side sleepers feel false bladder pressure); don't look at the clock. For falling back asleep, he prescribes 4-7-8 breathing (inhale 4, hold 7, exhale 8) for 20 cycles, visualizing the numbers to block ruminative thought — the extended exhale specifically activates the parasympathetic nervous system. He distinguishes this from box breathing: the key is that the exhale must be longer than the hold. He recommends a ramp: 4-5-6 for a week, then 4-6-7, then 4-7-8.</p>
-  <p class="meta">Videos: <a href="https://www.youtube.com/watch?v=lYvL7l2QQuo">You'll Stop Waking Up at 3AM the First Night You Do This</a></p>
-</div>
-
-<div class="story">
-  <h3>ModernWisdom – Kobe's Achilles Post</h3>
-  <p>A short but exceptional clip: Kobe's raw 3:30AM Facebook post after rupturing his Achilles in 2013 — "Maybe this is how my book ends. Maybe father time has defeated me." Then the pivot: "Stop feeling sorry for yourself. Find the silver lining and get to work with the same belief, same drive, and same conviction as ever." Worth 90 seconds of your time as a piece of applied Stoicism and mental fortitude in writing.</p>
-  <p class="meta">Videos: <a href="https://www.youtube.com/shorts/bBjV-gbOA58">Kobe Bryant's Post After His Injury</a></p>
+  <h3>Figs in Winter (Massimo Pigliucci)</h3>
+  <p>Pigliucci profiles Gaius Blossius, a Stoic philosopher who was a close ally of Tiberius Gracchus and participated in his radical land reform movement — challenging the common perception that Stoicism is inherently quietist or politically passive. The piece raises the genuine philosophical question of when Stoic principles demand action rather than acceptance, and how the dichotomy of control doesn't necessarily counsel withdrawal from political life. A good counterweight to the "just meditate and endure" readings of the tradition.</p>
+  <p class="meta">Essays: <a href="https://figsinwintertime.substack.com/p/gaius-blossiusthe-revolutionary-stoic">Gaius Blossius, the Revolutionary Stoic</a> · <a href="https://figsinwintertime.substack.com/p/on-the-indispensability-of-logic">On the Indispensability of Logic (Epictetus 1.17)</a></p>
 </div>
 
 <p><strong>Also posted:</strong></p>
 <ul>
-  <li><strong>Anthony Chaffee MD:</strong> Live Q&A covering omega-3/6 ratios on carnivore (animal-sourced arachidonic acid is what matters, not plant ALA), ketogenic approaches to benign brain tumors, and air pollution / lead exposure as underappreciated causes of chronic disease. Also promotes the "Healing Humanity" carnivore documentary. (<a href="https://www.youtube.com/watch?v=AzSL_rr5fdQ">Carnivore LIVE Oct 23</a>)</li>
-  <li><strong>Ken Berry MD:</strong> Two shorts — one arguing skin tags are a clinical sign of hyperinsulinemia (fasting insulin >13 warrants concern; low-carb brings it down and tags resolve); one pushing back on "processed meat causes cancer" claims by challenging viewers to name the specific cancer-causing ingredient. (<a href="https://www.youtube.com/shorts/Vj9-im6OfBU">Skin Tags</a> · <a href="https://www.youtube.com/shorts/nkrqwr4Cz3I">Processed Meat</a>)</li>
-  <li><strong>Paul Saladino MD:</strong> Water filter comparison using a TDS meter: tap water (144 ppm), Brita blue filter (142 ppm — essentially no filtration), Berky/carbon under-sink (94 ppm — misses fluoride and arsenic), reverse osmosis (8 ppm — removes fluoride, arsenic, PFAS, microplastics). Recommends RO; dismisses "dead water" concern as overstated given mineral intake from food. (<a href="https://www.youtube.com/watch?v=vimEr84MNvA">Exposing The Most Popular Water Filters</a>)</li>
-  <li><strong>Nick Norwitz:</strong> Short noting that fructose can be converted into amino acids and used to synthesize glutathione (liver antioxidant), and that inulin fiber (chicory root, Jerusalem artichokes) may enhance this pathway. (<a href="https://www.youtube.com/shorts/771zI6E7Vs4">Your Body Can Do THIS to Sugar</a>)</li>
-  <li><strong>Andrew Huberman:</strong> Brief on entrainment — doing an activity at a consistent time for 2–3 days causes anticipatory neurochemical release (adrenaline, norepinephrine, cortisol) in the minutes before you'd normally start, meaningfully boosting energy and focus before you've done anything. (<a href="https://www.youtube.com/shorts/gWtB3pmEkag">Entrainment Governs Your Energy & Focus</a>)</li>
-  <li><strong>GTO Wizard:</strong> Short intro on PLO preflop mechanics — the core edge is that everyone plays too loose preflop because everything "looks" playable. (<a href="https://www.youtube.com/shorts/0g2IttfuTKM">Is Every Hand Playable? PLO Preflop</a>)</li>
-  <li><strong>Renaissance Periodization:</strong> Two shorts — Anatoly's actual competition lifts (330 bench, 640 deadlift, 460 squat) vs. the prank video weights, and a brief bit on arm size. (<a href="https://www.youtube.com/shorts/nIoD0SVmbQs">How Strong Is Anatoly ACTUALLY?</a>)</li>
-  <li><strong>Ben Felix:</strong> Detailed breakdown of his own portfolio: one Dimensional Global Equity fund (factor-tilted, ~1/3 Canada), no bonds (all-equity based on a 2025 paper supporting this over the life cycle), plus private equity in his firm. Strong argument that money-happiness correlation is weak (r=0.09; going from $15K to $250K income moves median happiness ~5 points on a 100-point scale). (<a href="https://www.youtube.com/watch?v=h3ajVyC5vJc">Breaking Down My Investment Portfolio</a>)</li>
-  <li><strong>Mind The Game:</strong> LeBron on LeBron's 1,229 career wins record — credits early coaches for teaching team-first basketball, rejects the narrative that Miami "made him a winner." (<a href="https://www.youtube.com/shorts/8Oyv3QInxZE">The NBA Is Back</a>)</li>
+  <li><strong>Anthony Chaffee MD:</strong> Argues that all meat — including cheap, lean cuts like chicken breast — is beneficial, and that even partial carnivore (adding meat, reducing plants) improves health. Featured "Maggie," an 82-year-old woman who has eaten exclusively meat for 65+ years and works as a ranching physical specimen. The anecdote is compelling but anecdotal. (<a href="https://www.youtube.com/watch?v=Ez0IXg3TUUY">The Amazing Maggie the 85-year Carnivore</a> · +1 short)</li>
+  <li><strong>Ken Berry MD:</strong> Claims that a carnivore/keto diet can put severe mental health conditions (bipolar disorder, clinical depression, schizophrenia) into remission, citing patient cases and a documentary he contributed to. Also argues antioxidant supplements are largely useless because the body produces superior endogenous antioxidants. (<a href="https://www.youtube.com/watch?v=V9L1tQJNR2A">22 Years as a Doctor — Then This Happened</a> · +1 short)</li>
+  <li><strong>Dr. Sten Ekberg:</strong> Runs through 10 ultra-processed food categories (coffee creamer, industrial bread, fruit yogurt, margarine, processed cheese, fruit drinks, etc.) explaining what's been removed, what's been added chemically, and why European bread is better tolerated — largely due to longer fermentation times, different wheat strains, and absence of dough conditioners. (<a href="https://www.youtube.com/watch?v=wV5DlmdfbiI">Top 10 Fake Foods You're Probably Buying Every Week</a>)</li>
+  <li><strong>Paul Saladino MD:</strong> Tested four water filtration methods with a TDS meter: tap (144 ppm), Brita (142 ppm — nearly useless), carbon filter/Grow Blue (94 ppm — misses fluoride and arsenic), reverse osmosis (8 ppm). Recommends RO and dismisses the "dead water" concern, arguing dietary minerals from food more than compensate. (<a href="https://www.youtube.com/watch?v=vimEr84MNvA">Exposing The Most Popular Water Filters</a>)</li>
+  <li><strong>ModernWisdom:</strong> Survey data showing men judge male and female cheating equally harshly, but young women judge female cheating more leniently — possibly explained by shared-fate reasoning or greater personal experience with being cheated on. Also a short clip on presence and gratitude practices. (<a href="https://www.youtube.com/watch?v=vFji6Fy_bqU">The Cheating Double Standard Nobody Talks About</a> · +1 short)</li>
+  <li><strong>Andrew Huberman:</strong> Explains entrainment — the physiological (not just psychological) mechanism by which consistent timing of workouts or focused work causes your body to pre-release alertness neurochemicals 10–15 minutes before the habitual start time. Practical implication: schedule consistency matters as much as what you do. (<a href="https://www.youtube.com/shorts/gWtB3pmEkag">Entrainment Governs Your Energy & Focus</a>)</li>
+  <li><strong>Donald Robertson:</strong> Posted Stoicon 2026 recordings and two practical essays — one on premeditation of anger (Stoic anticipatory therapy to defuse revenge-seeking), one on perspective-taking for problems. (<a href="https://donaldrobertson.substack.com/p/video-watch-stoicon-2026">Stoicon 2026</a> · +2 more)</li>
+  <li><strong>Nick Norwitz:</strong> Brief metabolic note: fructose can be converted to amino acids and used to synthesize glutathione (a liver antioxidant); inulin fiber (chicory root, Jerusalem artichokes) may improve this pathway. Interesting mechanism, very short clip. (<a href="https://www.youtube.com/shorts/771zI6E7Vs4">Your Body Can Do THIS to Sugar</a>)</li>
+  <li><strong>Ben Felix:</strong> Detailed breakdown of his actual portfolio: mostly one Dimensional Global Equity fund (tilted toward small-cap, value, and profitable stocks), no bonds, and a significant private equity stake in his own firm's parent company. Makes an honest case that money's relationship to happiness is real but weak — correlation 0.09, and the gap in median happiness between $15K and $250K household income is about 5 points on a 100-point scale. (<a href="https://www.youtube.com/watch?v=h3ajVyC5vJc">Breaking Down My Investment Portfolio</a>)</li>
 </ul>
+
+---
 
 <h2>₿ Bitcoin & Macro</h2>
 
 <div class="story">
-  <h3><a href="https://pomp.substack.com/p/five-friday-charts-what-to-take-from">Five Friday Charts: Asia Market Turmoil</a></h3>
-  <p>South Korea's KOSPI is down 40%+ from its June peak and China has logged 11 consecutive red weeks. Pomp frames this as an AI trade unwind with spillover implications for global risk assets including Bitcoin. Worth watching as a macro signal for BTC demand, which ties into his separate piece on where new Bitcoin demand will come from as the halving supply shock fades.</p>
-  <p class="meta">The Pomp Letter</p>
-</div>
-
-<div class="story">
-  <h3><a href="https://bitcoinmagazine.com/news/franklin-templeton-clears-final-hurdle">Franklin Templeton Clears Final Hurdle for Dividend-to-Bitcoin ETFs</a></h3>
-  <p>Franklin Templeton ($1.7T AUM) registered two Nasdaq-listed funds that hold a 95/5 split of US equities and Bitcoin, with all dividends automatically purchasing more BTC. This is a structurally new product category — passive equity investors who never intended to own Bitcoin will accumulate it automatically via dividends. A quiet but meaningful demand-side development.</p>
+  <h3><a href="https://bitcoinmagazine.com/news/bitcoin-etfs-lose-over-635-million">Bitcoin ETFs Lose Over $635M In One Day Following Oil Price Spike</a></h3>
+  <p>A single-day $635M outflow from Bitcoin ETFs correlated with an oil price spike — a macro correlation worth tracking if energy prices are starting to drive risk-off rotation. The contrast with earlier-week inflows suggests institutional holders are still treating Bitcoin as a risk asset that responds to macro shocks rather than a pure store-of-value hedge.</p>
   <p class="meta">Bitcoin Magazine</p>
 </div>
 
 <div class="story">
-  <h3><a href="https://bitcoinmagazine.com/news/bitcoin-core-ends-long-embargoes">Bitcoin Core Ends Long Embargoes for AI-Rediscoverable Bugs</a></h3>
-  <p>Bitcoin Core has changed its vulnerability disclosure policy: bugs that AI can easily rediscover no longer receive long embargo periods before public disclosure. The implicit acknowledgment is that AI lowers the effective secrecy of known vulnerabilities — a genuine security posture shift with broader implications for how open-source protocols handle responsible disclosure in the AI era.</p>
+  <h3><a href="https://bitcoinmagazine.com/news/franklin-templeton-clears-final-hurdle">Franklin Templeton Clears Final Hurdle for ETFs That Turn Stock Dividends Into Bitcoin</a></h3>
+  <p>Franklin Templeton ($1.7T AUM) registered two Nasdaq-listed ETFs structured as 95% US stocks / 5% Bitcoin, with all dividends automatically reinvested into Bitcoin. This is a new product structure — not a pure Bitcoin ETF, but a mechanism for passive equity investors to accumulate Bitcoin automatically via dividend flow, which could become a significant recurring demand channel if the category scales.</p>
   <p class="meta">Bitcoin Magazine</p>
 </div>
+
+<div class="story">
+  <h3><a href="https://bitcoinmagazine.com/news/bitcoin-core-ends-long-embargoes">Bitcoin Core Ends Long Embargoes for Bugs AI Can Rediscover</a></h3>
+  <p>Bitcoin Core changed its vulnerability disclosure policy: bugs that AI systems can easily rediscover now get fast-tracked for patching and public disclosure, ending the prior practice of long silent embargoes. The reasoning is sound — if an AI can find a bug, the assumption of secrecy is false. This is a meaningful security posture update for the network's most critical software layer.</p>
+  <p class="meta">Bitcoin Magazine</p>
+</div>
+
+---
 
 <h2>🧬 Health & Science</h2>
 
 <div class="story">
-  <h3>Personalized Cancer Vaccines — Phase III Melanoma Trial Signal</h3>
-  <p>Peter Attia's RSS feed flagged a phase III trial for personalized melanoma vaccination showing meaningful results. The approach (neoantigen-based mRNA vaccines tailored to individual tumor mutations) represents the leading edge of Mukherjee's point in the podcast about immunotherapy: instead of broadly unleashing the immune system, these vaccines train it against the specific mutational fingerprint of a patient's tumor. If the phase III results hold, this could become a template for post-surgical adjuvant therapy across multiple cancer types.</p>
+  <h3>Personalized Cancer Immunotherapy — Phase III Melanoma Vaccine Trial</h3>
+  <p>Peter Attia's newsletter covers a Phase III trial for a personalized melanoma vaccination approach — patient-specific mRNA vaccines targeting individual tumor antigens — showing meaningful clinical benefit. This is a genuine step toward "personalized medicine" in oncology, where treatment is tailored to the unique mutational signature of each patient's tumor rather than a one-size protocol. Early signal but Phase III data is the standard that moves things into clinical practice.</p>
   <p class="meta"><a href="https://peterattiamd.com/personalized-medicine-comes-to-cancer-immunotherapy/">Peter Attia MD</a></p>
 </div>
 
 <div class="story">
-  <h3>Skin Tags as Hyperinsulinemia Biomarker (Ken Berry)</h3>
-  <p>Berry's claim is clinically specific enough to flag: skin tags — especially multiple or larger ones — correlate with hyperinsulinemia, and he cites a fasting insulin threshold of 13–14 µIU/mL as "severely" elevated with increased cancer, cardiovascular, and stroke risk. He argues they resolve without removal when fasting insulin drops below 10 (ideally ~5) through carbohydrate restriction. This is consistent with published literature on acanthosis nigricans and insulin resistance as shared mechanisms, though the exact thresholds he cites are debated.</p>
-  <p class="meta"><a href="https://www.youtube.com/shorts/Vj9-im6OfBU">Ken Berry MD</a></p>
+  <h3>Lisa Feldman Barrett: Emotions Are Constructed, Not Hardwired — and That Changes How You Can Regulate Them</h3>
+  <p>The specific implication worth sitting with from the Attia interview: if emotions are predictions your brain constructs (not readouts of a hardwired circuit), then the Stoic project of modifying your judgments about events is mechanistically supported by modern neuroscience. Barrett's data shows that physiological and behavioral variance <em>within</em> a single emotion category is so high that there's no reliable "fear response" or "anger response" — context and appraisal shape the construction. The practical upshot: you can interrupt the construction process earlier than classical emotion theory would suggest, because the emotion isn't already there waiting to be triggered — it's being actively built.</p>
+  <p class="meta"><a href="https://peterattiamd.com/lisafeldmanbarrett/">Peter Attia Podcast #413</a></p>
 </div>
 
 <div class="story">
-  <h3>3AM Waking: Core Body Temperature as Primary Mechanism</h3>
-  <p>From the DeLauer/sleep doctor conversation: the mechanistic explanation for near-universal 1–3AM waking is thermoregulation, not cortisol or stress per se. Core temperature must rise to prevent hypothermia, which shifts sleep to lighter stages. The 4-7-8 breathing protocol works via two mechanisms: the extended exhale activates parasympathetic tone, and full lung inflation (all lobes) allows slower, more efficient oxygen distribution — meaning heart rate doesn't need to increase to compensate for shallow breathing. He cites that a heart rate above 60 BPM mechanically blocks the transition to unconsciousness for most people.</p>
-  <p class="meta"><a href="https://www.youtube.com/watch?v=lYvL7l2QQuo">Thomas DeLauer</a></p>
+  <h3>Zone 2 Recalibration: The 80/20 Rule Only Applies at High Training Volumes</h3>
+  <p>Attia's self-correction is worth internalizing: the 80% Zone 2 / 20% high-intensity split comes from elite endurance athlete research where total weekly volume is very high, and Zone 2 is used to accumulate work without exceeding recovery capacity. At under 4 hours/week of cardio — which describes most people — this logic inverts. Low-volume trainees should shift toward higher-intensity work because they're not at risk of overreaching. The exception: complete beginners, for whom any movement at any intensity is the right first step.</p>
+  <p class="meta"><a href="https://www.youtube.com/shorts/igeLOCTR1MM">Peter Attia — Zone 2 Short</a></p>
 </div>
+
+---
 
 <h2>💡 Worth Reading</h2>
 
 <div class="story">
-  <h3><a href="https://www.apricitas.io/p/ai-and-the-fall-of-the-creative-class">America Has Lost 200K Jobs in Media, Film, and the Arts. How Much Is AI?</a></h3>
-  <p>A data-driven analysis of employment in creative industries, attempting to isolate how much of a 200,000-job decline is attributable to AI versus other factors (streaming consolidation, strikes, post-COVID adjustment). High-signal piece because it uses actual BLS data rather than speculation — the question of creative labor displacement is one of the clearest early tests of AI's economic impact, and the answer matters for understanding where the next wave of disruption lands.</p>
-  <p class="meta"><a href="https://news.ycombinator.com/item?id=336">Discussion</a> · Apricitas Economics</p>
+  <h3><a href="https://lynchlab.net/llm-skin-cancer">A 10-Year-Old CNN Outperforms Frontier LLMs for Skin Cancer Diagnosis</a></h3>
+  <p>A simple convolutional neural network trained specifically on dermatology images beats GPT-4 class frontier models on skin cancer classification — a reminder that general intelligence doesn't automatically beat domain-specific tools at domain-specific tasks, and that the "one model to rule them all" narrative has real limits in high-stakes clinical settings. Worth understanding before assuming frontier LLMs displace specialized diagnostic tools.</p>
+  <p class="meta"><a href="https://news.ycombinator.com/item?id=">HN Discussion</a> · 545 points</p>
 </div>
 
 <div class="story">
-  <h3><a href="https://danluu.com/ambitious/">We Should Be More Ambitious With the Software We Build</a></h3>
-  <p>Dan Luu argues that software development has converged on a narrow, risk-averse set of patterns — and that the genuinely transformative projects of the past required ambitious bets that looked unreasonable at the time. The implicit tension with AI is interesting: as AI lowers the cost of building, does it enable more ambition, or does it accelerate the production of more of the same? Worth 20 minutes.</p>
-  <p class="meta"><a href="https://news.ycombinator.com/item?id=369">Discussion</a> · Dan Luu</p>
+  <h3><a href="https://minimaxir.com/2026/10/cheap-llms/">Why OpenAI and Anthropic Cut LLM Prices by Up to 80% in a Few Months</a></h3>
+  <p>An analysis of the structural reasons behind massive, rapid LLM price cuts — likely covering efficiency gains (inference optimization, smaller capable models) combined with competitive pressure from open-weight models that IBM's CEO is now openly calling "irresistibly good and cheap on-prem." The macro story: the cost floor for capable AI inference is collapsing, which changes the build-vs-buy calculus for enterprises and makes the API pricing moats of 2023–2024 look fragile.</p>
+  <p class="meta"><a href="https://news.ycombinator.com/item?id=">HN Discussion</a> · 295 points</p>
 </div>
 
 <div class="story">
-  <h3><a href="https://figsinwintertime.substack.com/p/gaius-blossiusthe-revolutionary-stoic">Gaius Blossius, the Revolutionary Stoic</a></h3>
-  <p>Pigliucci profiles a lesser-known Stoic who was advisor to Tiberius Gracchus and later supported an anti-Roman rebellion in Asia — making the case that Stoicism is not inherently quietist or politically passive. The argument: Stoic commitment to justice and the common good can demand action, not mere equanimity. Useful corrective to the popular misconception of Stoicism as purely inward-focused emotional regulation.</p>
-  <p class="meta">Figs in Winter (Massimo Pigliucci)</p>
+  <h3><a href="https://danluu.com/ambitious/">We Should Be More Ambitious with the Software We Build</a></h3>
+  <p>Dan Luu argues that the software industry systematically under-delivers relative to what's technically possible — not because of capability limits but because of cultural and incentive failures that reward incremental work. This is a long-form essay with specific examples worth reading if you think about what AI-augmented development should actually enable, not just what it currently does.</p>
+  <p class="meta"><a href="https://news.ycombinator.com/item?id=">HN Discussion</a> · 795 points</p>
 </div>
 
 <div class="story">
-  <h3><a href="https://figsinwintertime.substack.com/p/on-the-indispensability-of-logic">On the Indispensability of Logic — Epictetus Discourses 1.17</a></h3>
-  <p>Pigliucci unpacks Epictetus's argument that logic isn't a luxury or academic exercise but the tool by which we verify whether our impressions about what is "good" and "bad" are actually correct. Without it, we cannot trust our own reasoning about how to live. Pairs well with the Seligman conversation — both are fundamentally about the reliability of our automatic thought processes.</p>
-  <p class="meta">Figs in Winter (Massimo Pigliucci)</p>
+  <h3><a href="https://www.astralcodexten.com/p/your-book-review-the-ghost-in-my">Book Review: The Ghost in My Brain</a></h3>
+  <p>A finalist in Scott Alexander's book review contest covers a memoir about recovering from a traumatic brain injury — and the medical establishment's failure to adequately treat or even recognize post-concussion syndrome. Pairs interestingly with the Barrett neuroscience episode above; the brain's predictive and constructive nature is also what makes TBI so difficult to diagnose and treat from the outside.</p>
+  <p class="meta"><a href="https://www.astralcodexten.com/p/your-book-review-the-ghost-in-my">Astral Codex Ten</a></p>
 </div>
 
-<div class="story">
-  <h3><a href="https://donaldrobertson.substack.com/p/stoic-premeditation-of-anger">Stoic Premeditation of Anger — Preventative Therapy and the Desire for Revenge</a></h3>
-  <p>Robertson covers the Stoic technique of premeditation applied specifically to anger — rehearsing in advance the situations likely to trigger it so the emotional reaction is weaker when it arrives. The focus on revenge is interesting: the Stoics argued that the desire for revenge is self-defeating because it keeps you focused on externals and prolongs suffering. Practical and direct.</p>
-  <p class="meta">Donald Robertson</p>
-</div>
+---
 
 <h2>🤖 AI Capability Watch</h2>
 
 <div class="story">
-  <h3><a href="https://arxiv.org/abs/2610.29162">Why Is AI-Generated Language So Hard to Understand?</a></h3>
-  <p>A research paper investigating why readers find AI-generated text harder to comprehend than human-written text even when controlling for content and accuracy — pointing to subtle differences in sentence structure, cohesion, and information density that don't register as "wrong" but impede understanding. If the findings hold, this has direct implications for anyone relying on AI-written summaries, documents, or communications: legibility and comprehension are not the same as correctness.</p>
-  <p class="meta"><a href="https://news.ycombinator.com/item?id=191">Discussion</a> · arXiv</p>
+  <h3><a href="https://simonwillison.net/2026/Oct/23/quick-study-painter/">Quick Study — AI-Generated Photo Painting in Seconds</a></h3>
+  <p>Simon Willison prompted Claude Opus 5.5 to build an artifact that takes a photo and paints a canvas-simulated version of it in a few seconds using a simulated paintbrush — a small but concrete example of Claude generating functional interactive creative tools in a single prompt. The capability bar here (generating a working, visually interesting web app from a brief natural language description) represents where frontier models now sit for rapid creative prototyping.</p>
+  <p class="meta"><a href="https://simonwillison.net/2026/Oct/23/quick-study-painter/">Simon Willison</a></p>
 </div>
 </body>
 </html>
