@@ -1,11 +1,11 @@
 {
   "current_suggestion": {
-    "channel_name": "David Epstein",
-    "channel_id": "UCab3eZ-9h8YQU8qCQzZwCew",
-    "youtube_handle": "@davidepstein",
-    "pitch": "Epstein's work on the 'range vs. specialization' debate is a direct steelman against the deep-specialization assumptions embedded in Renaissance Periodization and Peter Attia's optimization-heavy approach to training and health. His content draws on sports science, cognitive science, and decision-making research \u2014 overlapping your interests in mental models, fitness evidence, and long-form ideas \u2014 while pushing back on the 'deliberate practice solves everything' narrative. Format is a mix of solo explanations and interviews, research-grounded and genuinely contrarian without being sensationalist."
+    "channel_name": "Michael Muthukrishna",
+    "channel_id": "UCwc1zvSgRKvUMRVK_XxU8gg",
+    "youtube_handle": "@mmuthukrishna",
+    "pitch": "Muthukrishna is a cultural evolutionary psychologist at LSE whose work sits at the intersection of collective intelligence, institutional design, and how societies make good decisions \u2014 a rigorous empirical counterweight to the Munger/Kahneman mental-models tradition you already consume. Where your current channels focus on individual cognition and decision-making, he zooms out to ask why some groups and cultures systematically think better than others, grounded in actual data. Format is a mix of lectures and long-form interviews, consistently high depth with no pop-psychology shortcuts."
   },
-  "shown_count": 3,
+  "shown_count": 1,
   "history": [
     "Brad Kearns",
     "Dr. Layne Norton",
@@ -76,6 +76,7 @@
     "News",
     "Andy Galpin",
     "Renaissance Periodization",
-    "David Epstein"
+    "David Epstein",
+    "Michael Muthukrishna"
   ]
 }
