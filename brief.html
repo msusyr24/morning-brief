@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>Morning Brief — Friday, October 30, 2026</title>
+<title>Morning Brief — Saturday, October 31, 2026</title>
 <style>
   body {
     font-family: Georgia, serif;
@@ -92,19 +92,19 @@
 })();
 </script>
 <h1>Morning Brief</h1>
-<p class="date">Friday, October 30, 2026</p>
+<p class="date">Saturday, October 31, 2026</p>
 
 <div class="anchor">
   <h2>☀️ Today's Anchor</h2>
   <div class="anchor-block">
-    <p class="quote">"The main thing is to keep the main thing the main thing."</p>
-    <p class="author">— Stephen Covey</p>
-    <p class="context">The 7 Habits of Highly Effective People. Covey's response to the tyranny of the urgent over the important.</p>
+    <p class="quote">"Those who have a 'why' to live, can bear with almost any 'how'."</p>
+    <p class="author">— Viktor Frankl (adapted from Nietzsche)</p>
+    <p class="context">Frankl used this line in Man's Search for Meaning to frame his observations from Auschwitz about who survived and who didn't.</p>
   </div>
   <div class="anchor-block">
-    <p class="model-label">Mental Model · Communication</p>
-    <p class="model-name">Framing</p>
-    <p class="context">How something is presented changes how it's received, even when content is identical. '10% fat' sells worse than '90% lean.' Surgery 'with a 90% survival rate' sells better than one 'with a 10% death rate.' Know this both to resist manipulation and to communicate more clearly.</p>
+    <p class="model-label">Mental Model · Economics/Business</p>
+    <p class="model-name">Principle-Agent Problem</p>
+    <p class="context">When one party (agent) acts on behalf of another (principal), their incentives rarely perfectly align. Lawyers bill by the hour, not by outcome. CEOs optimize for short-term stock price, not long-term company health. The discipline: in any relationship, ask whose incentives actually match yours.</p>
   </div>
 </div>
 
@@ -115,7 +115,7 @@
   <p class="spotlight-instructions">Interested? Copy the line below into <code>YOUTUBE_CHANNELS</code> in <code>brief.py</code> and save:</p>
   <pre class="spotlight-snippet" id="snippet">    "Michael Muthukrishna": "UCwc1zvSgRKvUMRVK_XxU8gg",</pre>
   <button class="copy-btn" onclick="navigator.clipboard.writeText(document.getElementById('snippet').innerText.trim()); this.innerText='✅ Copied'; setTimeout(()=>this.innerText='📋 Copy snippet', 2000);">📋 Copy snippet</button>
-  <p class="spotlight-meta">showing for 2 more days. If you don't add it, a new channel will be suggested.</p>
+  <p class="spotlight-meta">showing for 1 more day. If you don't add it, a new channel will be suggested.</p>
 </div>
 <h2>🎥 From People I Follow</h2>
 
@@ -123,133 +123,135 @@
 
 <div class="story">
   <h3>Jared Alderman</h3>
-  <p>Jared's conversation with high-stakes heads-up player Uri Peleg gets into one of the most underappreciated ideas in poker: your opponent's uncertainty about your game tree is itself a strategic resource. Uri's key point — "it only matters if I bluff too much or too little if my opponent calls too much or too little" — reframes balance as a practical, not purely theoretical, concern. He argues you can over-bluff certain boards and under-bluff others globally without being exploited, because there's no practical way for opponents to detect this pattern. They also explore the chess-as-hidden-chessboard analogy: GTO poker is setting up your pieces optimally given your opponent doesn't know your board, while exploitative poker is guessing how he's set up his. Uri notes that even top nosebleed players lack the game tree mapped out at a basic one-size level on the river, making the randomized-sizing idea Jared pitches theoretically interesting but practically secondary to mastering simpler structures deeply.</p>
+  <p>Jared and high-stakes heads-up specialist Uri Peleg dig into a genuinely underappreciated poker concept: the strategic value of hidden information about your own game tree. Uri's core point is that balance only matters if your opponent can detect and exploit imbalance — meaning you can systematically over-bluff certain boards and under-bluff others, and as long as your global frequencies are in the right ballpark, there's no practical way for opponents to discover this. He illustrates this with a real example: he told a shocked opponent "how can you know if I'm balanced?" when questioned about not RNG-ing. The conversation also covers the chess analogy of "invisible chessboards" — your range as a superposition of possible setups your opponent can't see — and how exploitative play is essentially making an informed guess about how your opponent's board is arranged and countering it specifically.</p>
   <p class="meta">Videos: <a href="https://www.youtube.com/watch?v=d18PasuKpnA">"Poker Doesn't Work Without Exploits" - Uri Peleg</a></p>
 </div>
 
 <div class="story">
   <h3>GTO Lab</h3>
-  <p>Nikki P and Danny D walk through their Mystery Bounty library with specialist coach Axel, who argues the single biggest leak in mystery bounty tournaments is playing too tight at bounty onset — players are so conditioned by vanilla MTT strategy that they under-adjust even when they know they should adjust more. The key analytical tool is the KO-to-stack ratio (bounty value divided by current stack), which Axel describes as the "golden ratio" that drives both preflop and postflop strategy. The library contains 240+ sims covering different stack depths, player counts, and bounty-to-stack ratios; a built-in calculator shows prize-pool EV vs. knockout EV separately so you can see when a call is negative in the regular tournament but profitable once the bounty is factored in. Axel's bottom line: in early bounty stages with short stacks, you're essentially playing a different game — some hands VPIP 100% from early position that you'd never touch in a regular MTT.</p>
+  <p>Nikki P, Danny D, and coach Axel walk through GTO Lab's new Mystery Bounty library (240+ sims and counting). The key insight Axel hammers: most players dramatically underestimate how different Mystery Bounty strategy is from regular tournament play — it's not "adjust a little," it's a fundamentally different game, especially when bounties first kick in. The "KO to stack ratio" (average bounty value ÷ current stack) is their central heuristic for calibrating how aggressively to bounty-hunt vs. protect tournament equity. Their tooling shows EV broken down into prize-pool EV (green) vs. KO EV (yellow), so you can see hands that are pure-yellow — only profitable because of the bounty, not the tournament — which makes the decision framework concrete. The most common mistake: players are too accustomed to vanilla tournament ICM and don't deviate nearly enough, leaving literal bounty money on the table.</p>
   <p class="meta">Videos: <a href="https://www.youtube.com/watch?v=jmPlsMbz3cc">Poker Is Soft Again: Mystery Bounty Tools, Live</a></p>
 </div>
 
 <div class="story">
-  <h3>Lex Fridman</h3>
-  <p>An emergency-format episode assembling three mathematicians to process OpenAI's release of claimed proofs on Navier-Stokes, a quasi-Riemann hypothesis result, the unique games conjecture, and hundreds of other problems. The guests resist calling this "solving math" and instead argue the AI is operating within the "semigroup generated by known moves" — not the derogatory "convex hull" (linear combinations of existing ideas), but a much larger space of what those moves can reach when composed at scale and breadth no human can match. The panel introduces the "doorman fallacy" as a framework: reducing a mathematician's job to "proving theorems" misses what they actually do (asking the right questions, building new conceptual structures, mentoring, curating what matters). The most sobering point: Terence Tao wrote that "one cannot explore a problem as profitably once aware of an existing solution," and the panelists acknowledge graduate students face a genuine crisis of meaning and professional blueprint — the old model of "take a problem people care about, improve it, get a paper" has been destabilized. On the optimistic side: AI has not yet generated a genuinely new mathematical definition or concept — it's combining, not extending the balloon's boundary.</p>
-  <p class="meta">Videos: <a href="https://www.youtube.com/watch?v=ZAzWPE9CItg">AI Crisis in Math: Navier-Stokes, Riemann Hypothesis & Complexity Theory | Lex Fridman Podcast #503</a></p>
+  <h3>Peter Attia</h3>
+  <p>Attia gives an honest, uncertain take on rapamycin for longevity. The mechanistic case is strong: mTOR inhibition extends life across all four eukaryotic model organisms (yeast, worms, flies, rodents), but there's zero human data proving it works in people. Even if you grant the mechanism transfers, the dose/frequency/timing questions are completely open — continuous dosing in mice may not map to the intermittent weekly protocols humans are using. He says he genuinely doesn't know whether the once-weekly protocol has a favorable enough benefit-to-risk ratio to justify current use, and is watching Matt Kaeberlein's dog study for better signal on intermittent dosing.</p>
+  <p class="meta">Videos: <a href="https://www.youtube.com/shorts/TvNnPreLcow">Peter's current thoughts on rapamycin</a></p>
 </div>
 
 <div class="story">
-  <h3>ModernWisdom</h3>
-  <p>A short but quotable clip on what makes a good man: "a guy who knows where he's going, is having fun while he's going there, and is comfortable in his own skin." The companion point is a Stoic-adjacent argument against speedrunning life stages — 18–24 is objectively a remarkable window, and spending it fixated on becoming something else means permanently floating through your present life. The tension between having a vision and having bills to pay is named directly, with the implicit argument that financial pressure compresses the horizon of thought in ways that are hard to see from inside.</p>
-  <p class="meta">Videos: <a href="https://www.youtube.com/shorts/DMH_0a3L36A">How To Live As A Young Man</a> · <a href="https://www.youtube.com/shorts/UeKdXQzoJgs">It's Hard To Have A Vision When You Have Bills To Pay</a></p>
+  <h3>Renaissance Periodization</h3>
+  <p>Mike Israetel (RP) makes a direct, practical point worth internalizing: most people who lift weights don't need to train more than 2–4x per week for 30–60 minutes a session, and the belief that serious results require massive time commitment is simply wrong. A consistent twice-weekly 30-minute routine produces "unbelievable benefits" — the barrier isn't hours, it's showing up. Separately, RP reviewed 19-year-old powerlifter Gentile Lifts (5'3", ~260–285 lbs, drug-free claim), whose numbers are legitimately freakish (175 lb dumbbell incline press for reps, 585 lb bench with slingshot for 10). Israetel's coaching note: leg press range of motion matters more than load — angling the body to get full quad stretch beats piling on weight with short ROM, and the joint cost is lower.</p>
+  <p class="meta">Videos: <a href="https://www.youtube.com/shorts/gYtJFRvmt9M">Two Short Workouts a Week Still Builds Muscle</a> · <a href="https://www.youtube.com/watch?v=JjPzRBkFe2E">Exercise Scientist Critiques the Strongest 19-Year-Old</a></p>
 </div>
 
 <div class="story">
-  <h3>ModernWisdom (Rob Kurzban)</h3>
-  <p>Evolutionary psychologist Rob Kurzban's core framework: emotions are measurement-and-motivation systems — they measure something adaptively relevant (glucose level, proximity of a threat, social comparison) and then move you toward action. The reason feelings have to feel like something, rather than just processing invisibly like a thermostat, is that organisms with many competing drives need a common currency to arbitrate which priority wins. He extends this to explain why modern emotional mismatch is so pervasive: envy systems calibrated for small tribes get overwhelmed by Instagram; road rage evolved for people you'd see again but fires at strangers you'll never encounter. His taxonomy covers five kingdoms of emotion, and he notes that for many basic feelings — yawning, itching — the research base is embarrassingly thin.</p>
-  <p class="meta">Videos: <a href="https://www.youtube.com/watch?v=BkXnpqgbl9Q">Why You Feel Bad When Nothing Is Wrong - Rob Kurzban</a></p>
+  <h3>Ken Berry MD (with Dr. Shawn Baker)</h3>
+  <p>Berry and Baker make the case that carnivore is essentially "the floor" for low-carb — lowest possible carbohydrate intake — and that's the primary mechanism for type 2 diabetes remission, with A1C improvements from 12+ down to the 4s or 5s possible within 3 months in some patients (though 6–12 months is common). Baker adds that some keto patients who stall switch to carnivore and improve further, possibly due to gut permeability or dysbiosis resolving without plant fiber. Berry makes a specific point about hyperpalatable carnivore foods: cheese and heavy cream override satiety signals even on an otherwise clean diet — he personally carried an extra 10–15 lbs until removing them, despite them being technically "carnivore." On food addiction, both argue the concept should be reframed as sugar/starch addiction specifically — no one presents with clinical food noise around ribeye or eggs, only sugar-containing foods.</p>
+  <p class="meta">Videos: <a href="https://www.youtube.com/watch?v=FvXAIRIKps8">Carnivore Diet Safe for Diabetics? with Dr Shawn Baker</a> · <a href="https://www.youtube.com/shorts/hp54ogZnxWo">If meat and eggs reversed type 2 diabetes...</a> · <a href="https://www.youtube.com/shorts/5Z8YFdzfMjU">Just because cheese & heavy cream are technically carnivore...</a> · <a href="https://www.youtube.com/shorts/HOoMGiA6bdQ">You're not addicted to food. You're addicted to sugar.</a></p>
+</div>
+
+<div class="story">
+  <h3>Thomas DeLauer</h3>
+  <p>DeLauer runs through several specific self-corrections worth noting. On fish oil: he overdid high-DHA megadosing, found it made cell membranes too fluid (fragile rather than functional), and now recommends ~2g/day in TG form rather than ethyl ester. On creatine: he moved from low-dose "nootropic" microdosing to 15g+/day and reports meaningfully better strength and energy, with initial water retention resolving after ~a month. On fasting: he abandoned random one-off fasts in favor of "burst fasting" — 3–4 consecutive days of 18-hour fasts followed by 4–5 days off — finding his body could find homeostasis within the block rather than being chronically disrupted. He also warns that growth hormone releasing peptides like Ipamorelin can meaningfully raise HbA1c, and he'd now run these only alongside strict carb restriction or keto.</p>
+  <p class="meta">Videos: <a href="https://www.youtube.com/watch?v=TICeT9yT0g4">I've Changed My Mind on Fish Oil, Creatine and Fasting</a></p>
 </div>
 
 <p><strong>Also posted:</strong></p>
 <ul>
-  <li><strong>Ken Berry MD:</strong> Three clips arguing: (1) "all things in moderation" is scientifically unsupported advice from doctors who have little nutrition training; (2) snacking raises insulin even on carnivore/keto foods, blocking fat loss — eat to satiety at discrete meals instead; (3) screens in the bedroom drive fatigue via dopamine disruption, and the phone is engineered like a slot machine. (<a href="https://www.youtube.com/shorts/HoXD2mI25uY">Moderation Myth</a> · <a href="https://www.youtube.com/shorts/tewr3DTX3v8">Stop Snacking</a> · <a href="https://www.youtube.com/shorts/WpR7-7srGxE">Screens in Bedroom</a>)</li>
-  <li><strong>Anthony Chaffee MD:</strong> Brief clip arguing raw liver tastes better than cooked and that 2–3 oz of liver three times a week functions as "nature's multivitamin" for those who need micronutrient density. (<a href="https://www.youtube.com/shorts/S1UtuVcwLhk">Can You Eat Liver On Carnivore?</a>)</li>
-  <li><strong>Nick Norwitz:</strong> Beetroot (~540mg dietary nitrate, roughly 1 cup) improves athletic performance in RCTs via the nitrate→nitrite→nitric oxide pathway — but mouthwash kills the oral bacteria that start the process, and some mouthwashes measurably raise blood pressure as a result. (<a href="https://www.youtube.com/shorts/kJzU39akt1U">Are Beets the Best Food for Blood Flow?</a>)</li>
-  <li><strong>Renaissance Periodization:</strong> Two science clips: creatine's "water weight" is predominantly intramuscular, not subcutaneous — 5 lbs gained visually looks close to 5 lbs of muscle; and a transient cortisol spike during training is actually a positive proxy for training intensity and correlates with greater hypertrophy in studies. (<a href="https://www.youtube.com/shorts/IfCIOFBykqE">Creatine Water Weight</a> · <a href="https://www.youtube.com/shorts/FGWF_OjPZC4">Workout Cortisol Spike</a>)</li>
-  <li><strong>Paul Saladino MD:</strong> Tested four water filters with a TDS meter: Brita barely reduces dissolved solids vs. tap, carbon filters (Berkey/Grow Blue) get to ~94 ppm but don't remove fluoride or arsenic, while reverse osmosis reaches ~8 ppm and removes fluoride, arsenic, microplastics, and PFAS — his recommendation is RO with optional salt remineralization. (<a href="https://www.youtube.com/watch?v=vimEr84MNvA">Exposing The Most Popular Water Filters</a>)</li>
-  <li><strong>Peter Attia:</strong> Candid reflection on rapamycin — mTOR inhibition extends life unequivocally across yeast, flies, worms, and rodents, but human dosing protocol (frequency, duration, when to start, on/off cycling) is entirely unknown; he genuinely doesn't know if his current once-weekly protocol clears the benefit/risk bar. (<a href="https://www.youtube.com/shorts/TvNnPreLcow">Peter's current thoughts on rapamycin</a>)</li>
-  <li><strong>Thomas DeLauer:</strong> Two clips — sunlight triggers endorphin release from skin cells and activates opioid receptors reducing "food noise" (the same mechanism GLP-1 agonists target), plus nitric oxide from skin nitrogen compounds; and MCT oil (C8/C10) improved cognition in an Alzheimer's Association study even when consumed with skim milk (carbs present), suggesting a direct brain-energetics effect independent of systemic ketosis. (+1 more: <a href="https://www.youtube.com/watch?v=BjEts8E-gW4">Tirzepatide/Sunlight</a> · <a href="https://www.youtube.com/watch?v=Bly0nXOqcyQ">MCT Oil Brain</a>)</li>
-  <li><strong>Dr. Sten Ekberg:</strong> Countdown of 10 ultra-processed foods, with the substantive points being: US industrial bread uses rapid fermentation (reducing tolerance vs. slow-fermented European bread), modern wheat hybridized for yield and glyphosate tolerance, plus dough conditioners and preservatives; and fruit yogurt made with skim milk requires engineers to reconstruct texture with gums/starches while still hitting 26g carbs per ¾ cup despite containing two artificial sweeteners. (<a href="https://www.youtube.com/watch?v=wV5DlmdfbiI">Top 10 Fake Foods</a>)</li>
-  <li><strong>GTO Wizard:</strong> Short clip on PLO preflop mechanics — no transcript available. (<a href="https://www.youtube.com/shorts/0g2IttfuTKM">Is every hand playable? PLO Preflop</a>)</li>
-  <li><strong>Mind The Game:</strong> LeBron on breaking the NBA wins record (1,229), crediting early coaches for teaching team-first winning culture. (<a href="https://www.youtube.com/shorts/8Oyv3QInxZE">LeBron on winning</a>)</li>
-  <li><strong>Andrew Huberman (Dr. Noam Sobel):</strong> Olfaction research: click friendships correlate with body odor similarity (confirmed by electronic nose), and handshaking is likely a covert olfactory sampling behavior — people unconsciously sniff the hand that shook within seconds, and nasal airflow confirms it. (<a href="https://www.youtube.com/watch?v=arMMF0ISRRM">How Smells Influence Hormones & Behavior</a>)</li>
+  <li><strong>Nick Norwitz:</strong> Nose breathing delivers nitric oxide from the paranasal sinuses directly to the lungs, widening blood vessels and improving oxygen uptake — and humming increases NO production further via acoustic vibrations. (<a href="https://www.youtube.com/shorts/Ktt1l56Ht8s">The #1 Reason To Nose Breath</a>)</li>
+  <li><strong>Paul Saladino MD:</strong> TDS meter comparison of tap, Brita, carbon filter (Berkey-equivalent), and reverse osmosis water — concludes RO is the clear winner for removing fluoride, arsenic, PFAs, and microplastics, and dismisses "dead water" concerns as overblown given mineral intake from food. (<a href="https://www.youtube.com/watch?v=vimEr84MNvA">Exposing The Most Popular Water Filters</a>)</li>
+  <li><strong>ModernWisdom:</strong> Short clip on friendship quality — the framing that real friends want you to win because you might take them with you, while bad friends fear you winning because you might leave them behind; test is how they react when you succeed. (<a href="https://www.youtube.com/shorts/BxH5CT6cUfM">How Should Real Friends React To Your Wins?</a>) +1 more (gender war / Gen Z political divide short).</li>
+  <li><strong>Lex Fridman:</strong> Emergency panel with three mathematicians on AI solving major open problems (Navier-Stokes, quasi-Riemann hypothesis, unique games conjecture). Key tensions: whether AI results are "in the convex hull" of existing math vs. genuinely expanding it; the "doorman fallacy" of reducing mathematicians to theorem-proving; and real concern about PhD pipelines and mentorship when the blueprint for a math career is suddenly broken. (<a href="https://www.youtube.com/watch?v=ZAzWPE9CItg">AI Crisis in Math: Navier-Stokes, Riemann Hypothesis & Complexity Theory</a>)</li>
+  <li><strong>Mind The Game:</strong> LeBron James on the occasion of his 1,229th NBA win credits youth coaches — Frank Walker Sr., Drew Joyce, Keith Dambrot — for instilling winning habits before his professional career. (<a href="https://www.youtube.com/shorts/8Oyv3QInxZE">THE NBA IS BACK.</a>)</li>
 </ul>
+
+---
 
 <h2>₿ Bitcoin & Macro</h2>
 
 <div class="story">
-  <h3><a href="https://bitcoinmagazine.com/news/bitcoin-price-slides-binance">Binance $5.8–6.3B Hack: Bitcoin Slides to $76,300</a></h3>
-  <p>A compromised employee laptop gave attackers access to Binance, with outflows reported between $5.6B and $6.3B — one of the largest exchange hacks ever. Tether and Circle froze approximately $1.8–2.4B in stablecoins on-chain; about $3B total has been frozen. North Korean state hackers (Lazarus Group) are attributed by The Guardian. Bitcoin briefly dropped to $76,300 on the news before partial recovery. The event will likely revive debates about exchange custody risk and the case for self-custody.</p>
-  <p class="meta">Bitcoin Magazine / The Guardian</p>
-</div>
-
-<div class="story">
-  <h3><a href="https://bitcoinmagazine.com/news/strategy-posts-record-operating-income">Strategy (MSTR) Posts Record $20.91B Q3 Operating Income</a></h3>
-  <p>Strategy reported record operating income of $20.91 billion in Q3 2026, driven by Bitcoin's rebound — despite declining revenue, negative year-to-date BTC yield, and continued pressure to fund preferred dividends. The result illustrates how Saylor's Bitcoin accumulation strategy converts BTC price appreciation directly into accounting income, making the company's financial profile almost entirely a leveraged Bitcoin expression rather than a software business.</p>
+  <h3><a href="https://bitcoinmagazine.com/videos/doomberg-us-treasury-sanctions-are-wildly-bullish-for-bitcoin-gold">Doomberg: US Treasury Sanctions are "Wildly Bullish" for Bitcoin & Gold</a></h3>
+  <p>Doomberg's thesis: US pressure on foreign central banks to hold Treasuries forces them to sell liquid assets they *can* sell, creating a structural long-term bid for gold and Bitcoin as non-confiscatable alternatives. The argument is that weaponizing dollar settlement accelerates de-dollarization at the sovereign level, with Bitcoin and gold as the primary beneficiaries. This is the macro sanctions-as-Bitcoin-catalyst argument in concise form.</p>
   <p class="meta">Bitcoin Magazine</p>
 </div>
 
 <div class="story">
-  <h3><a href="https://bitcoinmagazine.com/news/franklin-templeton-launches-2-bitcoin-etf">Franklin Templeton Launches Bitcoin DRIP ETFs (FBEQ, FIBT)</a></h3>
-  <p>Franklin Templeton launched two ETFs on Nasdaq that automatically convert stock dividends into Bitcoin — a structural product that routes traditional equity income into BTC accumulation without the investor having to act. This is a meaningful product innovation: it embeds Bitcoin as the default reinvestment vehicle inside existing equity portfolios, potentially channeling large passive dividend flows into BTC.</p>
+  <h3><a href="https://bitcoinmagazine.com/videos/tyler-evans-bitcoin-etf-flows-flipped-from-highly-negative-to-strong-accumulation">Bitcoin ETF Flows: "Highly Negative" to "Strong Accumulation"</a></h3>
+  <p>Tyler Evans notes that Bitcoin ETF flows have reversed from strongly negative to strong accumulation, and frames Fed policy and bond yields as the macro backdrop for a potential new bull leg heading into 2027, with US midterms cited as a near-term pivot point. Worth tracking as a sentiment/flow data point.</p>
   <p class="meta">Bitcoin Magazine</p>
 </div>
+
+<div class="story">
+  <h3><a href="https://bitcoinmagazine.com/videos/mstr-q3-2026-earnings-call-analyst-qa">MSTR Q3 2026 Earnings Call: Analyst Q&A</a></h3>
+  <p>Saylor and Phong Le fielded analyst questions on Strategy's Q3 earnings, including the new "Stretch" (STRC) instrument at par, preferred share structures, and the broader thesis of Bitcoin's financialization — the idea that Bitcoin is increasingly the collateral layer for a new class of digital credit instruments. Worth watching if you follow the Saylor capital structure playbook closely.</p>
+  <p class="meta">Bitcoin Magazine</p>
+</div>
+
+---
 
 <h2>🧬 Health & Science</h2>
 
 <div class="story">
-  <h3>Peter Attia: Longevity Playbook for Strength and Muscle Mass</h3>
-  <p>Attia's RSS piece focuses on training for lasting strength with the explicit goal of maintaining physical capability into later decades. The core framing: the question isn't just what maximizes hypertrophy now, but what training approach keeps you able to do what you love at 70–80. This implies prioritizing injury avoidance and sustainable programming over short-term volume, and treating strength as a longevity biomarker rather than an aesthetic goal. (Full tactics require reading the piece.)</p>
-  <p class="meta"><a href="https://peterattiamd.com/a-longevity-playbook-for-building-strength-and-muscle-mass/">Peter Attia MD</a></p>
+  <h3>Wearables Can Detect Sudden Cardiac Death Days in Advance</h3>
+  <p>A study in <em>JACC: Case Reports</em> analyzed longitudinal wearable physiological data from patients who subsequently died of sudden cardiac death. The finding: detectable changes in wearable-captured physiology (heart rate, HRV, activity) appeared in the days before the event — raising the possibility of predictive early warning using consumer devices. This is a small but methodologically interesting signal for anyone tracking HRV or resting HR longitudinally.</p>
+  <p class="meta"><a href="https://www.jacc.org/doi/epdf/10.1016/j.jaccas.2026.110397">Longitudinal Changes in Wearable-Captured Physiology Before Sudden Cardiac Death</a> · HN discussion</p>
 </div>
 
 <div class="story">
-  <h3>Peter Attia on Rapamycin: What He Actually Doesn't Know</h3>
-  <p>mTOR inhibition extends lifespan in all four standard eukaryotic models (yeast, flies, worms, rodents) — as strong a signal as exists in longevity biology. But Attia is candid that for humans, every practical question — dose, frequency, duration, cycling, timing of initiation — is genuinely unknown. The mouse studies used continuous dosing, which is different from the intermittent human protocols being tried. Matt Kaeberlein's dog study may eventually provide more relevant data. Attia's honest conclusion: he doesn't know if his once-weekly protocol clears the benefit/risk threshold, which is a notably humble stance for someone who has been one of rapamycin's highest-profile proponents.</p>
-  <p class="meta"><a href="https://www.youtube.com/shorts/TvNnPreLcow">YouTube</a></p>
+  <h3><a href="https://peterattiamd.com/a-longevity-playbook-for-building-strength-and-muscle-mass/">Peter Attia: A Longevity Playbook for Building Strength and Muscle Mass</a></h3>
+  <p>Attia's framework for training for lasting strength with a longevity lens — maintaining the ability to do what you love as you age. Likely covers load management, injury prevention, and the minimum effective dose for muscle preservation into later decades. Worth reading if you're programming with a 20-year horizon rather than a 20-week one.</p>
+  <p class="meta">Peter Attia MD</p>
 </div>
 
-<div class="story">
-  <h3>Nick Norwitz: Mouthwash Destroys Beet-Derived Nitric Oxide Benefits</h3>
-  <p>The mechanism: dietary nitrate (beets are the richest source) → oral bacteria convert to nitrite → converted to nitric oxide → vasodilation and improved blood flow. At ~540mg dietary nitrate (~1 cup beetroot), controlled human trials show improved athletic performance. The practical catch: antibacterial mouthwash kills the oral bacteria that initiate the nitrate→nitrite step, eliminating the benefit and, in some studies, measurably raising blood pressure. This is a specific, actionable interaction most athletes using beet-based supplements would be unaware of.</p>
-  <p class="meta"><a href="https://www.youtube.com/shorts/kJzU39akt1U">YouTube</a></p>
-</div>
-
-<div class="story">
-  <h3>Renaissance Periodization: Creatine Water Weight Is Intramuscular, Not Subcutaneous</h3>
-  <p>The common complaint that creatine causes a "watery" look is largely wrong: creatine pulls water into the muscle cell itself (intramuscular), drawing from the extracellular compartment — not into subcutaneous space that creates the soft, undefined look people worry about. Up to 5 lbs of intramuscular water gain visually approximates 5 lbs of actual muscle. Separately: a transient cortisol spike during training is a positive signal, not something to suppress — studies tracking hormone levels pre/post session found the highest cortisol responders gained the most muscle over 12–16 week programs, because cortisol is a proxy for training intensity.</p>
-  <p class="meta"><a href="https://www.youtube.com/shorts/IfCIOFBykqE">Creatine clip</a> · <a href="https://www.youtube.com/shorts/FGWF_OjPZC4">Cortisol clip</a></p>
-</div>
+---
 
 <h2>💡 Worth Reading</h2>
 
 <div class="story">
-  <h3><a href="https://figsinwintertime.substack.com/p/epictetus-argues-against-the-death">Epictetus Argues Against the Death Penalty</a></h3>
-  <p>Massimo Pigliucci's series on Epictetus reaches Discourses 1.18, where Epictetus makes a Stoic case against capital punishment rooted in the distinction between what is "up to us" and what isn't — wrongdoers act from false judgments about what is good, which they cannot fully control, making punishment-as-retribution philosophically incoherent from a Stoic view. Worth sitting with as a piece of applied Stoic ethics on a live moral question.</p>
-  <p class="meta">Figs in Winter (Pigliucci)</p>
+  <h3><a href="https://phorion.io/blog/offical-claude-code-vsx-compromise/">Backdoor in Claude Code for VS Code Extension on the Cursor Marketplace</a></h3>
+  <p>A supply chain attack on the official Claude Code VS Code extension distributed via the Cursor Marketplace — the extension was compromised to include a backdoor. This is a significant security event affecting developers who trusted the official-looking extension. If you or anyone on your team uses Cursor or VS Code with AI extensions, this is worth knowing about immediately.</p>
+  <p class="meta"><a href="https://news.ycombinator.com/item?id=50312756">HN Discussion</a> (890 pts)</p>
 </div>
 
 <div class="story">
-  <h3><a href="https://donaldrobertson.substack.com/p/the-wise-man-invests-his-time-in">The Wise Man Invests His Time in Self-Improvement — Donald Robertson on Epictetus #41</a></h3>
-  <p>Robertson's commentary on Handbook 41: Epictetus argues that time spent on self-improvement is the only investment with guaranteed return, because it's entirely within your control — unlike money, reputation, or outcomes in the world. The commentary connects this to modern psychology's distinction between learning goals and performance goals.</p>
-  <p class="meta">Donald Robertson</p>
+  <h3><a href="https://www.wired.com/story/the-dollar63-billion-binance-hack-was-pulled-off-in-just-20-minutes/">The $6.3B Binance Hack Was Pulled Off in Just 20 Minutes</a></h3>
+  <p>Wired's detailed account of how North Korea's TraderTraitor group (confirmed by Chainalysis and TRM Labs) executed a $6.3B hack of Binance in under 20 minutes, with $3.3B still unrecovered. The speed and scale make it the largest crypto exchange theft on record. Relevant not as crypto speculation but as a case study in nation-state cyberattack execution and exchange security failure.</p>
+  <p class="meta"><a href="https://news.ycombinator.com/item?id=50312756">HN Discussion</a> (448 pts)</p>
 </div>
 
 <div class="story">
-  <h3><a href="https://donaldrobertson.substack.com/p/how-to-use-rational-emotive-imagery">How to Use Rational Emotive Imagery</a></h3>
-  <p>Robertson explains a daily mental rehearsal technique from REBT (Rational Emotive Behavior Therapy): vividly imagine a distressing scenario, notice the unhealthy emotion that arises, then work to replace it with a healthier (but still realistic) emotion while holding the same image. The goal is to practice the emotional response you want until it becomes automatic — a Stoic-adjacent training method with a clinical backing that goes beyond simple positive visualization.</p>
-  <p class="meta">Donald Robertson</p>
+  <h3><a href="https://vitalik.eth.limo/general/2026/10/31/digital_minimalism.html">Digital Minimalism</a> — Vitalik Buterin</h3>
+  <p>Vitalik's essay on digital minimalism — worth reading less for the crypto angle and more because his long-form pieces tend to be unusually clear-eyed about technology's costs. Given the author and timing, likely examines what it means to use technology intentionally rather than reactively, and what to prune.</p>
+  <p class="meta"><a href="https://news.ycombinator.com/item?id=50312756">HN Discussion</a> (22 pts)</p>
 </div>
 
 <div class="story">
-  <h3>NBA Week 1: 79 Players on Injury Report</h3>
-  <p>A notable data point flagged in Marginal Revolution's Thursday links: 79 NBA players appeared on the 2:30pm injury report for a single night of games in Week 1 of the season — roughly 15% of the entire league. This isn't just a depth concern; it's a structural signal about load management culture, roster construction, and how teams are handling the start of the season after a full offseason. Worth tracking as the season develops.</p>
-  <p class="meta"><a href="https://marginalrevolution.com/marginalrevolution/2026/10/thursday-assorted-links-576.html">Marginal Revolution</a></p>
+  <h3><a href="https://www.sciencenorway.no/archaeology-climate-culture/the-oldest-ice-is-disappearing-the-stone-age-is-emerging-from-the-melting-ice/2713921">The Oldest Ice Disappears and the Stone Age Emerges From It</a></h3>
+  <p>As ancient glaciers melt, Stone Age artifacts preserved for thousands of years are emerging from the ice — creating an urgent archaeological window that closes as exposed objects deteriorate rapidly once uncovered. A striking reminder that climate change is simultaneously destroying and revealing history, and that the pace of discovery is outrunning researchers' capacity to document it.</p>
+  <p class="meta"><a href="https://news.ycombinator.com/item?id=50312756">HN Discussion</a> (150 pts) · Science Norway</p>
 </div>
+
+<div class="story">
+  <h3><a href="https://ideolalia.com/essays/trapped-in-the-technologist-factory.html">Trapped in the Technologist Factory</a></h3>
+  <p>An essay on the structural pressures that shape how technologists think and what they build — worth flagging given your interest in mental models and clear thinking. The premise appears to be that the industry produces a certain kind of person with certain blind spots, and the question is how to escape or at least see the walls.</p>
+  <p class="meta"><a href="https://news.ycombinator.com/item?id=50312756">HN Discussion</a> (39 pts)</p>
+</div>
+
+---
 
 <h2>🤖 AI Capability Watch</h2>
 
 <div class="story">
-  <h3><a href="https://mistral.ai/news/mistral-large-4-oss/">Mistral Large 4 — Open Weights Release</a></h3>
-  <p>Mistral is releasing the weights of Mistral Large 4, making a frontier-class model fully open for download and local deployment. The significance for end users: a model at this capability tier being open-weights means it can be run without API costs, with full privacy, and fine-tuned — categories that have previously required either closed APIs or smaller, less capable open models.</p>
-  <p class="meta">Mistral AI / Hacker News [1468 pts]</p>
+  <h3><a href="https://github.com/dbreunig/nesformer">A Working NES Emulator Baked Into LLM Weights</a></h3>
+  <p>Drew Breunig encoded a functional Nintendo Entertainment System 6502 CPU emulator into the weights of Qwen3.5-4B — meaning the model itself, not external code, is running the emulator logic, and you can actually play NES ROMs (including Super Mario Bros) inside the model. This is surprising not for practical utility but as a demonstration that LLM weights can encode arbitrary computational systems, not just language patterns — a conceptually novel result about what "weights" can contain.</p>
+  <p class="meta"><a href="https://news.ycombinator.com/item?id=50312756">HN Discussion</a> (249 pts) · <a href="https://simonwillison.net/2026/Oct/30/nesformer/">Simon Willison's writeup</a></p>
 </div>
 
 <div class="story">
-  <h3><a href="https://www.anthropic.com/research/early-progress-drug-development">Anthropic: Claude in Active Drug Development Partnerships</a></h3>
-  <p>Anthropic reports that Claude is now in deep research partnerships with six organizations actually developing new medicines — not as a writing assistant, but engaged in the scientific research process itself. This is a capability threshold moment: AI moving from answering questions about drug development to being embedded in the pipeline. Early results and specific findings are described in the research post.</p>
-  <p class="meta">Anthropic</p>
+  <h3><a href="https://research.google/blog/the-sleep-framework-a-new-way-for-llms-to-retain-knowledge-in-continual-learning/">Google's "Sleep Framework" for LLM Continual Learning</a></h3>
+  <p>Google Research introduces a method for LLMs to retain new knowledge over time without catastrophic forgetting — inspired by how biological sleep consolidates memory. If this works at scale, it would address one of the fundamental limitations of current models: they can't learn from new information after training without degrading existing knowledge. Still research-stage, but addresses a real capability gap.</p>
+  <p class="meta">Google Research Blog · <a href="https://news.ycombinator.com/item?id=50312756">HN Discussion</a> (224 pts)</p>
 </div>
 </body>
 </html>
