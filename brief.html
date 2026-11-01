@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>Morning Brief — Saturday, October 31, 2026</title>
+<title>Morning Brief — Sunday, November 01, 2026</title>
 <style>
   body {
     font-family: Georgia, serif;
@@ -92,166 +92,137 @@
 })();
 </script>
 <h1>Morning Brief</h1>
-<p class="date">Saturday, October 31, 2026</p>
+<p class="date">Sunday, November 01, 2026</p>
 
 <div class="anchor">
   <h2>☀️ Today's Anchor</h2>
   <div class="anchor-block">
-    <p class="quote">"Those who have a 'why' to live, can bear with almost any 'how'."</p>
-    <p class="author">— Viktor Frankl (adapted from Nietzsche)</p>
-    <p class="context">Frankl used this line in Man's Search for Meaning to frame his observations from Auschwitz about who survived and who didn't.</p>
+    <p class="quote">"The meaning of life is to find your gift. The purpose of life is to give it away."</p>
+    <p class="author">— Pablo Picasso (attribution disputed)</p>
+    <p class="context">Often attributed to Picasso; no primary source has been found. Still a widely-quoted summary of purpose.</p>
   </div>
   <div class="anchor-block">
-    <p class="model-label">Mental Model · Economics/Business</p>
-    <p class="model-name">Principle-Agent Problem</p>
-    <p class="context">When one party (agent) acts on behalf of another (principal), their incentives rarely perfectly align. Lawyers bill by the hour, not by outcome. CEOs optimize for short-term stock price, not long-term company health. The discipline: in any relationship, ask whose incentives actually match yours.</p>
+    <p class="model-label">Mental Model · Economics/Productivity</p>
+    <p class="model-name">Pareto Principle (80/20)</p>
+    <p class="context">Roughly 80% of effects come from 20% of causes, across almost every domain. 80% of sales from 20% of customers, 80% of crime from 20% of criminals, 80% of your happiness from 20% of your activities. The skill: identifying the 20% before wasting effort on the 80%.</p>
   </div>
 </div>
 
 <div class="spotlight">
   <h2>🧭 Channel Spotlight</h2>
-  <p class="spotlight-name">Michael Muthukrishna</p>
-  <p class="spotlight-pitch">Muthukrishna is a cultural evolutionary psychologist at LSE whose work sits at the intersection of collective intelligence, institutional design, and how societies make good decisions — a rigorous empirical counterweight to the Munger/Kahneman mental-models tradition you already consume. Where your current channels focus on individual cognition and decision-making, he zooms out to ask why some groups and cultures systematically think better than others, grounded in actual data. Format is a mix of lectures and long-form interviews, consistently high depth with no pop-psychology shortcuts.</p>
+  <p class="spotlight-name">Nate Silver</p>
+  <p class="spotlight-pitch">Silver applies rigorous probabilistic thinking and Kahneman-style calibration to real-world forecasting — sports, elections, and beyond — which directly extends the mental models and decision-under-uncertainty frameworks you care about without drifting into political commentary. His work on poker and prediction markets also bridges your interest in GTO thinking with broader epistemics: how do you build accurate beliefs when feedback is noisy and delayed? Mostly solo essays and conversational interviews, analytically dense, no fluff.</p>
   <p class="spotlight-instructions">Interested? Copy the line below into <code>YOUTUBE_CHANNELS</code> in <code>brief.py</code> and save:</p>
-  <pre class="spotlight-snippet" id="snippet">    "Michael Muthukrishna": "UCwc1zvSgRKvUMRVK_XxU8gg",</pre>
+  <pre class="spotlight-snippet" id="snippet">    "Nate Silver": "UCddiUEpeqJcYeBxX1IVBKvQ",</pre>
   <button class="copy-btn" onclick="navigator.clipboard.writeText(document.getElementById('snippet').innerText.trim()); this.innerText='✅ Copied'; setTimeout(()=>this.innerText='📋 Copy snippet', 2000);">📋 Copy snippet</button>
-  <p class="spotlight-meta">showing for 1 more day. If you don't add it, a new channel will be suggested.</p>
+  <p class="spotlight-meta">showing for 3 more days. If you don't add it, a new channel will be suggested.</p>
 </div>
 <h2>🎥 From People I Follow</h2>
 
 <p><strong>Worth your time:</strong></p>
 
 <div class="story">
-  <h3>Jared Alderman</h3>
-  <p>Jared and high-stakes heads-up specialist Uri Peleg dig into a genuinely underappreciated poker concept: the strategic value of hidden information about your own game tree. Uri's core point is that balance only matters if your opponent can detect and exploit imbalance — meaning you can systematically over-bluff certain boards and under-bluff others, and as long as your global frequencies are in the right ballpark, there's no practical way for opponents to discover this. He illustrates this with a real example: he told a shocked opponent "how can you know if I'm balanced?" when questioned about not RNG-ing. The conversation also covers the chess analogy of "invisible chessboards" — your range as a superposition of possible setups your opponent can't see — and how exploitative play is essentially making an informed guess about how your opponent's board is arranged and countering it specifically.</p>
+  <h3>Jared Alderman (feat. Uri Peleg)</h3>
+  <p>A genuinely interesting conversation on hidden information as a strategic asset in poker. Uri's core point: GTO balance only matters insofar as your opponent can detect and exploit imbalances — if they can't tell you're over-bluffing ace-high boards and under-bluffing king-high boards, you're globally fine. He frames ranges as "invisible chessboards" and argues that knowing where you are in your game tree, when your opponent doesn't, is an underappreciated edge. The discussion also lands on a practical ceiling: even top nosebleed players don't have multi-street, multi-size game trees mapped out, so the exploits from that hidden asymmetry are larger than most assume. Uri also pushes back on RNG-ing for balance — his point being that if your opponent can't detect your frequencies, you don't need to randomize.</p>
   <p class="meta">Videos: <a href="https://www.youtube.com/watch?v=d18PasuKpnA">"Poker Doesn't Work Without Exploits" - Uri Peleg</a></p>
 </div>
 
 <div class="story">
   <h3>GTO Lab</h3>
-  <p>Nikki P, Danny D, and coach Axel walk through GTO Lab's new Mystery Bounty library (240+ sims and counting). The key insight Axel hammers: most players dramatically underestimate how different Mystery Bounty strategy is from regular tournament play — it's not "adjust a little," it's a fundamentally different game, especially when bounties first kick in. The "KO to stack ratio" (average bounty value ÷ current stack) is their central heuristic for calibrating how aggressively to bounty-hunt vs. protect tournament equity. Their tooling shows EV broken down into prize-pool EV (green) vs. KO EV (yellow), so you can see hands that are pure-yellow — only profitable because of the bounty, not the tournament — which makes the decision framework concrete. The most common mistake: players are too accustomed to vanilla tournament ICM and don't deviate nearly enough, leaving literal bounty money on the table.</p>
+  <p>Nikki P and Axel walk through GTO Lab's new Mystery Bounty library (~240+ sims) with tools purpose-built for the format. The key strategic insight: when bounties first kick in, the dominant mistake is playing too tight — some spots call for 100% VPIP from early position. The library introduces a "KO-to-stack ratio" (bounty EV ÷ current stack) as the governing variable for preflop and postflop strategy, plus a visual prize pool EV vs. KO EV breakdown so you can see in real time when a call is a chip-EV disaster but a bounty-EV windfall. The point Nikki keeps returning to: Mystery Bounty isn't "a regular tournament with slight adjustments" — it's a structurally different game, and most players are leaving money on the table by treating it like the former.</p>
   <p class="meta">Videos: <a href="https://www.youtube.com/watch?v=jmPlsMbz3cc">Poker Is Soft Again: Mystery Bounty Tools, Live</a></p>
 </div>
 
 <div class="story">
-  <h3>Peter Attia</h3>
-  <p>Attia gives an honest, uncertain take on rapamycin for longevity. The mechanistic case is strong: mTOR inhibition extends life across all four eukaryotic model organisms (yeast, worms, flies, rodents), but there's zero human data proving it works in people. Even if you grant the mechanism transfers, the dose/frequency/timing questions are completely open — continuous dosing in mice may not map to the intermittent weekly protocols humans are using. He says he genuinely doesn't know whether the once-weekly protocol has a favorable enough benefit-to-risk ratio to justify current use, and is watching Matt Kaeberlein's dog study for better signal on intermittent dosing.</p>
-  <p class="meta">Videos: <a href="https://www.youtube.com/shorts/TvNnPreLcow">Peter's current thoughts on rapamycin</a></p>
-</div>
-
-<div class="story">
-  <h3>Renaissance Periodization</h3>
-  <p>Mike Israetel (RP) makes a direct, practical point worth internalizing: most people who lift weights don't need to train more than 2–4x per week for 30–60 minutes a session, and the belief that serious results require massive time commitment is simply wrong. A consistent twice-weekly 30-minute routine produces "unbelievable benefits" — the barrier isn't hours, it's showing up. Separately, RP reviewed 19-year-old powerlifter Gentile Lifts (5'3", ~260–285 lbs, drug-free claim), whose numbers are legitimately freakish (175 lb dumbbell incline press for reps, 585 lb bench with slingshot for 10). Israetel's coaching note: leg press range of motion matters more than load — angling the body to get full quad stretch beats piling on weight with short ROM, and the joint cost is lower.</p>
-  <p class="meta">Videos: <a href="https://www.youtube.com/shorts/gYtJFRvmt9M">Two Short Workouts a Week Still Builds Muscle</a> · <a href="https://www.youtube.com/watch?v=JjPzRBkFe2E">Exercise Scientist Critiques the Strongest 19-Year-Old</a></p>
-</div>
-
-<div class="story">
-  <h3>Ken Berry MD (with Dr. Shawn Baker)</h3>
-  <p>Berry and Baker make the case that carnivore is essentially "the floor" for low-carb — lowest possible carbohydrate intake — and that's the primary mechanism for type 2 diabetes remission, with A1C improvements from 12+ down to the 4s or 5s possible within 3 months in some patients (though 6–12 months is common). Baker adds that some keto patients who stall switch to carnivore and improve further, possibly due to gut permeability or dysbiosis resolving without plant fiber. Berry makes a specific point about hyperpalatable carnivore foods: cheese and heavy cream override satiety signals even on an otherwise clean diet — he personally carried an extra 10–15 lbs until removing them, despite them being technically "carnivore." On food addiction, both argue the concept should be reframed as sugar/starch addiction specifically — no one presents with clinical food noise around ribeye or eggs, only sugar-containing foods.</p>
-  <p class="meta">Videos: <a href="https://www.youtube.com/watch?v=FvXAIRIKps8">Carnivore Diet Safe for Diabetics? with Dr Shawn Baker</a> · <a href="https://www.youtube.com/shorts/hp54ogZnxWo">If meat and eggs reversed type 2 diabetes...</a> · <a href="https://www.youtube.com/shorts/5Z8YFdzfMjU">Just because cheese & heavy cream are technically carnivore...</a> · <a href="https://www.youtube.com/shorts/HOoMGiA6bdQ">You're not addicted to food. You're addicted to sugar.</a></p>
-</div>
-
-<div class="story">
-  <h3>Thomas DeLauer</h3>
-  <p>DeLauer runs through several specific self-corrections worth noting. On fish oil: he overdid high-DHA megadosing, found it made cell membranes too fluid (fragile rather than functional), and now recommends ~2g/day in TG form rather than ethyl ester. On creatine: he moved from low-dose "nootropic" microdosing to 15g+/day and reports meaningfully better strength and energy, with initial water retention resolving after ~a month. On fasting: he abandoned random one-off fasts in favor of "burst fasting" — 3–4 consecutive days of 18-hour fasts followed by 4–5 days off — finding his body could find homeostasis within the block rather than being chronically disrupted. He also warns that growth hormone releasing peptides like Ipamorelin can meaningfully raise HbA1c, and he'd now run these only alongside strict carb restriction or keto.</p>
-  <p class="meta">Videos: <a href="https://www.youtube.com/watch?v=TICeT9yT0g4">I've Changed My Mind on Fish Oil, Creatine and Fasting</a></p>
+  <h3>Lex Fridman</h3>
+  <p>An emergency panel of mathematicians (Brunton, Moitra, Alex) reacting to OpenAI dropping claimed proofs of Navier-Stokes, a quasi-Riemann Hypothesis result, the Unique Games Conjecture, and hundreds more. The consensus: the results appear to be operating in the "semigroup" of known ideas — not the derogatory "convex hull" (trivial combinations), but a vast combinatorial reach of existing techniques assembled in ways no human had time to. Terence Tao's lament about PhD students gets real airtime: once a proof exists, the exploratory journey is gone, and the grad school blueprint ("improve a problem people care about, get papers") is broken. The most useful frame introduced is the "doorman fallacy" — we've confused "proving theorems" (the visible task) with everything a mathematician actually does: asking the right questions, building generalizable structures, exposing beauty. The panel also flags that the Anthropic-connected 3SUM result may be more field-altering than the splashier OpenAI drops because it upends the entire program of fine-grained complexity theory.</p>
+  <p class="meta">Videos: <a href="https://www.youtube.com/watch?v=ZAzWPE9CItg">AI Crisis in Math: Navier-Stokes, Riemann Hypothesis & Complexity Theory | Lex Fridman Podcast #503</a></p>
 </div>
 
 <p><strong>Also posted:</strong></p>
 <ul>
-  <li><strong>Nick Norwitz:</strong> Nose breathing delivers nitric oxide from the paranasal sinuses directly to the lungs, widening blood vessels and improving oxygen uptake — and humming increases NO production further via acoustic vibrations. (<a href="https://www.youtube.com/shorts/Ktt1l56Ht8s">The #1 Reason To Nose Breath</a>)</li>
-  <li><strong>Paul Saladino MD:</strong> TDS meter comparison of tap, Brita, carbon filter (Berkey-equivalent), and reverse osmosis water — concludes RO is the clear winner for removing fluoride, arsenic, PFAs, and microplastics, and dismisses "dead water" concerns as overblown given mineral intake from food. (<a href="https://www.youtube.com/watch?v=vimEr84MNvA">Exposing The Most Popular Water Filters</a>)</li>
-  <li><strong>ModernWisdom:</strong> Short clip on friendship quality — the framing that real friends want you to win because you might take them with you, while bad friends fear you winning because you might leave them behind; test is how they react when you succeed. (<a href="https://www.youtube.com/shorts/BxH5CT6cUfM">How Should Real Friends React To Your Wins?</a>) +1 more (gender war / Gen Z political divide short).</li>
-  <li><strong>Lex Fridman:</strong> Emergency panel with three mathematicians on AI solving major open problems (Navier-Stokes, quasi-Riemann hypothesis, unique games conjecture). Key tensions: whether AI results are "in the convex hull" of existing math vs. genuinely expanding it; the "doorman fallacy" of reducing mathematicians to theorem-proving; and real concern about PhD pipelines and mentorship when the blueprint for a math career is suddenly broken. (<a href="https://www.youtube.com/watch?v=ZAzWPE9CItg">AI Crisis in Math: Navier-Stokes, Riemann Hypothesis & Complexity Theory</a>)</li>
-  <li><strong>Mind The Game:</strong> LeBron James on the occasion of his 1,229th NBA win credits youth coaches — Frank Walker Sr., Drew Joyce, Keith Dambrot — for instilling winning habits before his professional career. (<a href="https://www.youtube.com/shorts/8Oyv3QInxZE">THE NBA IS BACK.</a>)</li>
+  <li><strong>Paul Saladino MD:</strong> Reacts to Alan Ritchson's diet tour — hits on cage-free vs. pasture-raised eggs, carrageenan in almond milk, phytic acid in instant oats robbing mineral absorption, and his position that fruit/honey don't cause the gut dysbiosis that processed sugar does (citing honey studies in diabetics improving insulin sensitivity). (<a href="https://www.youtube.com/watch?v=V8OkGz-bAYM">Doctor Reacts to Alan Ritchson's Extreme Diet</a>)</li>
+  <li><strong>Thomas DeLauer:</strong> Course corrections: dropped mega-dose fish oil (too much DHA increases membrane fragility), moved to 15g+ creatine daily (bigger strength/energy effect than microdosing), and switched from random intermittent fasting to "burst fasting" — 3-4 consecutive days of 18-hour fasts followed by 4-5 days off, finding better homeostasis and body composition cycling vs. sporadic fasting. Also flags that GH-releasing peptides (Ipamorelin, Tesamorelin) meaningfully raised his HbA1c. (<a href="https://www.youtube.com/watch?v=TICeT9yT0g4">I've Changed My Mind on Fish Oil, Creatine and Fasting</a>)</li>
+  <li><strong>Nick Norwitz:</strong> Nose breathing delivers nitric oxide from the paranasal sinuses directly into the lungs, widening blood vessels and improving oxygen uptake; humming amplifies NO production further via acoustic vibration of stale air pockets. (<a href="https://www.youtube.com/shorts/Ktt1l56Ht8s">The #1 Reason To Nose Breath</a>)</li>
+  <li><strong>Peter Attia:</strong> Honest uncertainty on rapamycin — mTOR inhibition extends lifespan across all four eukaryotic model organisms (yeast, worms, flies, rodents), but optimal human dose, frequency, duration, and initiation timing are all genuinely unknown. He says he doesn't know where he comes out on weekly dosing. (<a href="https://www.youtube.com/shorts/TvNnPreLcow">Peter's current thoughts on rapamycin</a>)</li>
+  <li><strong>Andrew Huberman:</strong> Don't trust your own thoughts between 2–5am — the brain enters a state that distorts threat assessment and meaning; the value of pushing through hard things is experiencing the moment where motivation and logic return. (<a href="https://www.youtube.com/shorts/FNbTA_W9B5o">WHEN TO *NOT* TRUST YOUR THOUGHTS</a>)</li>
+  <li><strong>Renaissance Periodization:</strong> Brief reaction to Larry Wheels benching 405 lbs for 32 half-reps — RP estimates this equates to ~15–20 full pause reps, calling it extraordinary on both relative and absolute strength scales. (<a href="https://www.youtube.com/shorts/0_YYAyaNONg">Larry Wheels Benched 405 for 32 Reps!</a>)</li>
+  <li><strong>Ken Berry MD:</strong> Claims dietary guidelines are structurally corrupted by pharma lobbying (FDA's drug approval budget is 60% industry-funded; every member of Congress has three dedicated pharma lobbyists), arguing this explains why meat/egg-based reversal of T2 diabetes gets no institutional backing. (<a href="https://www.youtube.com/shorts/hp54ogZnxWo">If meat and eggs reversed type 2 diabetes, the government would tell us.</a>)</li>
+  <li><strong>Mind the Game (LeBron):</strong> LeBron on reaching 1,229 NBA wins — credits early coaches for instilling team-first winning habits from adolescence. (<a href="https://www.youtube.com/shorts/8Oyv3QInxZE">THE NBA IS BACK.</a>)</li>
 </ul>
-
----
 
 <h2>₿ Bitcoin & Macro</h2>
 
 <div class="story">
-  <h3><a href="https://bitcoinmagazine.com/videos/doomberg-us-treasury-sanctions-are-wildly-bullish-for-bitcoin-gold">Doomberg: US Treasury Sanctions are "Wildly Bullish" for Bitcoin & Gold</a></h3>
-  <p>Doomberg's thesis: US pressure on foreign central banks to hold Treasuries forces them to sell liquid assets they *can* sell, creating a structural long-term bid for gold and Bitcoin as non-confiscatable alternatives. The argument is that weaponizing dollar settlement accelerates de-dollarization at the sovereign level, with Bitcoin and gold as the primary beneficiaries. This is the macro sanctions-as-Bitcoin-catalyst argument in concise form.</p>
-  <p class="meta">Bitcoin Magazine</p>
-</div>
-
-<div class="story">
-  <h3><a href="https://bitcoinmagazine.com/videos/tyler-evans-bitcoin-etf-flows-flipped-from-highly-negative-to-strong-accumulation">Bitcoin ETF Flows: "Highly Negative" to "Strong Accumulation"</a></h3>
-  <p>Tyler Evans notes that Bitcoin ETF flows have reversed from strongly negative to strong accumulation, and frames Fed policy and bond yields as the macro backdrop for a potential new bull leg heading into 2027, with US midterms cited as a near-term pivot point. Worth tracking as a sentiment/flow data point.</p>
-  <p class="meta">Bitcoin Magazine</p>
-</div>
-
-<div class="story">
   <h3><a href="https://bitcoinmagazine.com/videos/mstr-q3-2026-earnings-call-analyst-qa">MSTR Q3 2026 Earnings Call: Analyst Q&A</a></h3>
-  <p>Saylor and Phong Le fielded analyst questions on Strategy's Q3 earnings, including the new "Stretch" (STRC) instrument at par, preferred share structures, and the broader thesis of Bitcoin's financialization — the idea that Bitcoin is increasingly the collateral layer for a new class of digital credit instruments. Worth watching if you follow the Saylor capital structure playbook closely.</p>
+  <p>Saylor and Phong Le fielded analyst questions on Strategy's "digital credit" thesis, the Stretch (STRC) preferred share trading at par, and Bitcoin's ongoing financialization. The Q&A is worth watching for how Saylor frames Bitcoin-backed financial instruments as the emerging primitive for institutional balance sheets — not speculation, but structured credit.</p>
   <p class="meta">Bitcoin Magazine</p>
 </div>
 
----
+<div class="story">
+  <h3><a href="https://bitcoinmagazine.com/videos/tyler-evans-bitcoin-etf-flows-flipped-from-highly-negative-to-strong-accumulation">Bitcoin ETF Flows Flipped From "Highly Negative" to "Strong Accumulation"</a></h3>
+  <p>Tyler Evans argues Bitcoin's post-bear setup is driven by a macro shift: Fed policy pivot, bond yield trajectory, and ETF flows reversing from net outflows to "strong accumulation." He flags the 2026 US midterms as a near-term pivot point for crypto regulatory clarity heading into 2027.</p>
+  <p class="meta">Bitcoin Magazine</p>
+</div>
+
+<div class="story">
+  <h3><a href="https://bitcoinmagazine.com/videos/doomberg-us-treasury-sanctions-are-wildly-bullish-for-bitcoin-gold">Doomberg: US Treasury Sanctions are "Wildly Bullish" for Bitcoin & Gold</a></h3>
+  <p>Doomberg's thesis: US pressure forcing foreign central banks to hold Treasuries also forces them to liquidate what they can — which is gold and, increasingly, Bitcoin. The structural consequence is a long-term bid under both assets from reserve diversification away from dollar instruments.</p>
+  <p class="meta">Bitcoin Magazine</p>
+</div>
 
 <h2>🧬 Health & Science</h2>
 
 <div class="story">
-  <h3>Wearables Can Detect Sudden Cardiac Death Days in Advance</h3>
-  <p>A study in <em>JACC: Case Reports</em> analyzed longitudinal wearable physiological data from patients who subsequently died of sudden cardiac death. The finding: detectable changes in wearable-captured physiology (heart rate, HRV, activity) appeared in the days before the event — raising the possibility of predictive early warning using consumer devices. This is a small but methodologically interesting signal for anyone tracking HRV or resting HR longitudinally.</p>
-  <p class="meta"><a href="https://www.jacc.org/doi/epdf/10.1016/j.jaccas.2026.110397">Longitudinal Changes in Wearable-Captured Physiology Before Sudden Cardiac Death</a> · HN discussion</p>
+  <h3>Peter Attia: Who Is Actually at Risk for CTE?</h3>
+  <p>Attia examines what autopsy-based CTE studies can and cannot tell us — a methodologically important distinction since CTE can only be diagnosed post-mortem, meaning all prevalence data comes from brains donated by symptomatic athletes or their families (severe selection bias). The piece is a useful corrective to both overclaiming (every football player will get CTE) and dismissal (it's rare), parsing what repetitive head impact exposure levels actually correlate with pathology vs. just neuropathological markers without clinical significance.</p>
+  <p class="meta"><a href="https://peterattiamd.com/who-is-actually-at-risk-for-cte/">peterattiamd.com</a></p>
 </div>
 
 <div class="story">
-  <h3><a href="https://peterattiamd.com/a-longevity-playbook-for-building-strength-and-muscle-mass/">Peter Attia: A Longevity Playbook for Building Strength and Muscle Mass</a></h3>
-  <p>Attia's framework for training for lasting strength with a longevity lens — maintaining the ability to do what you love as you age. Likely covers load management, injury prevention, and the minimum effective dose for muscle preservation into later decades. Worth reading if you're programming with a 20-year horizon rather than a 20-week one.</p>
-  <p class="meta">Peter Attia MD</p>
+  <h3>Thomas DeLauer: Creatine Dosing Revision</h3>
+  <p>DeLauer's personal n=1 data point worth noting: moving from microdose creatine (~3-5g) to 15g/day produced noticeably different strength and all-day energy outcomes. He cites literature supporting safe dosing up to 30-40g, though he doesn't personally go that high. The key practical flag: initial water retention subsided after ~one month — the common reason people abandon higher doses prematurely. He also notes that EAAs during training may blunt the body's own muscle-preservation signaling, making it easier to lose muscle when you come off them.</p>
+  <p class="meta"><a href="https://www.youtube.com/watch?v=TICeT9yT0g4">YouTube</a></p>
 </div>
-
----
 
 <h2>💡 Worth Reading</h2>
 
 <div class="story">
-  <h3><a href="https://phorion.io/blog/offical-claude-code-vsx-compromise/">Backdoor in Claude Code for VS Code Extension on the Cursor Marketplace</a></h3>
-  <p>A supply chain attack on the official Claude Code VS Code extension distributed via the Cursor Marketplace — the extension was compromised to include a backdoor. This is a significant security event affecting developers who trusted the official-looking extension. If you or anyone on your team uses Cursor or VS Code with AI extensions, this is worth knowing about immediately.</p>
-  <p class="meta"><a href="https://news.ycombinator.com/item?id=50312756">HN Discussion</a> (890 pts)</p>
+  <h3><a href="https://jetstream.security/insights/brazilian-court-sanctions-prompt-injection-filing">Brazilian Court Sanctions Lawyers for Prompt Injection in Court Filing</a></h3>
+  <p>Lawyers in Brazil were formally sanctioned after submitting a court filing that contained what appears to be a prompt injection attack — instructions embedded in the document intended to manipulate AI systems reading it. This is the first known case of a court imposing consequences for prompt injection in a legal context, and it sets a precedent for AI-assisted legal workflows becoming an attack surface.</p>
+  <p class="meta"><a href="https://news.ycombinator.com/item?url=https://jetstream.security/insights/brazilian-court-sanctions-prompt-injection-filing">HN Discussion</a></p>
 </div>
 
 <div class="story">
-  <h3><a href="https://www.wired.com/story/the-dollar63-billion-binance-hack-was-pulled-off-in-just-20-minutes/">The $6.3B Binance Hack Was Pulled Off in Just 20 Minutes</a></h3>
-  <p>Wired's detailed account of how North Korea's TraderTraitor group (confirmed by Chainalysis and TRM Labs) executed a $6.3B hack of Binance in under 20 minutes, with $3.3B still unrecovered. The speed and scale make it the largest crypto exchange theft on record. Relevant not as crypto speculation but as a case study in nation-state cyberattack execution and exchange security failure.</p>
-  <p class="meta"><a href="https://news.ycombinator.com/item?id=50312756">HN Discussion</a> (448 pts)</p>
+  <h3><a href="https://www.parameter.ai/labs/we-found-a-gap-at-openai">Do the math: How we took over ChatGPT accounts</a></h3>
+  <p>Parameter Labs documents an exploit in ChatGPT's HTML preview/Canvas feature where a malicious HTML artifact could be crafted to exfiltrate session data and take over accounts. The vulnerability is notable because it lived in the sandboxed interactive HTML preview pattern — a category of product feature now common across AI products — suggesting this is a class of exploit worth watching across the ecosystem.</p>
+  <p class="meta"><a href="https://news.ycombinator.com/item?url=https://www.parameter.ai/labs/we-found-a-gap-at-openai">HN Discussion</a></p>
 </div>
 
 <div class="story">
-  <h3><a href="https://vitalik.eth.limo/general/2026/10/31/digital_minimalism.html">Digital Minimalism</a> — Vitalik Buterin</h3>
-  <p>Vitalik's essay on digital minimalism — worth reading less for the crypto angle and more because his long-form pieces tend to be unusually clear-eyed about technology's costs. Given the author and timing, likely examines what it means to use technology intentionally rather than reactively, and what to prune.</p>
-  <p class="meta"><a href="https://news.ycombinator.com/item?id=50312756">HN Discussion</a> (22 pts)</p>
+  <h3><a href="https://aatishb.com/myriad/lets-build-a-brain/">Simple circuits can create complex behaviors</a></h3>
+  <p>An interactive explainer on how extremely simple feedback circuits — the kind you'd find in neurons or analog electronics — produce surprisingly rich, non-linear behavior. Relevant as a mental model for thinking about emergence in neural networks and why "it's just matrix multiplication" undersells what's happening structurally.</p>
+  <p class="meta"><a href="https://news.ycombinator.com/item?url=https://aatishb.com/myriad/lets-build-a-brain/">HN Discussion</a></p>
 </div>
 
 <div class="story">
-  <h3><a href="https://www.sciencenorway.no/archaeology-climate-culture/the-oldest-ice-is-disappearing-the-stone-age-is-emerging-from-the-melting-ice/2713921">The Oldest Ice Disappears and the Stone Age Emerges From It</a></h3>
-  <p>As ancient glaciers melt, Stone Age artifacts preserved for thousands of years are emerging from the ice — creating an urgent archaeological window that closes as exposed objects deteriorate rapidly once uncovered. A striking reminder that climate change is simultaneously destroying and revealing history, and that the pace of discovery is outrunning researchers' capacity to document it.</p>
-  <p class="meta"><a href="https://news.ycombinator.com/item?id=50312756">HN Discussion</a> (150 pts) · Science Norway</p>
+  <h3><a href="https://marginalrevolution.com/marginalrevolution/2026/11/are-llms-good-or-bad-bayesians.html">Are LLMs good or bad Bayesians?</a></h3>
+  <p>Bryan Caplan raises a sharp point: a proper Bayesian, when presented with a counterargument, should update toward or away from the presenter's view based purely on argument quality — not automatically toward the speaker. LLMs appear to systematically move toward whoever is arguing with them, which is a form of sycophancy dressed as open-mindedness. Relevant for anyone using LLMs as thinking partners or sounding boards.</p>
+  <p class="meta"><a href="https://marginalrevolution.com/marginalrevolution/2026/11/are-llms-good-or-bad-bayesians.html">Marginal Revolution</a></p>
 </div>
-
-<div class="story">
-  <h3><a href="https://ideolalia.com/essays/trapped-in-the-technologist-factory.html">Trapped in the Technologist Factory</a></h3>
-  <p>An essay on the structural pressures that shape how technologists think and what they build — worth flagging given your interest in mental models and clear thinking. The premise appears to be that the industry produces a certain kind of person with certain blind spots, and the question is how to escape or at least see the walls.</p>
-  <p class="meta"><a href="https://news.ycombinator.com/item?id=50312756">HN Discussion</a> (39 pts)</p>
-</div>
-
----
 
 <h2>🤖 AI Capability Watch</h2>
 
 <div class="story">
-  <h3><a href="https://github.com/dbreunig/nesformer">A Working NES Emulator Baked Into LLM Weights</a></h3>
-  <p>Drew Breunig encoded a functional Nintendo Entertainment System 6502 CPU emulator into the weights of Qwen3.5-4B — meaning the model itself, not external code, is running the emulator logic, and you can actually play NES ROMs (including Super Mario Bros) inside the model. This is surprising not for practical utility but as a demonstration that LLM weights can encode arbitrary computational systems, not just language patterns — a conceptually novel result about what "weights" can contain.</p>
-  <p class="meta"><a href="https://news.ycombinator.com/item?id=50312756">HN Discussion</a> (249 pts) · <a href="https://simonwillison.net/2026/Oct/30/nesformer/">Simon Willison's writeup</a></p>
+  <h3><a href="https://simonwillison.net/2026/Oct/29/how-i-built-the-most-ai-pilled-company-in-the-world/">Building a multiplayer game world with autonomous Fable-class models</a></h3>
+  <p>Jacob Sansbury describes Spawn — a massively multiplayer world where autonomous agents powered by frontier "Fable-class" models act as persistent NPCs with memory, goals, and relationships, running continuously at scale. This is a working production deployment of agentic AI as a game engine, not a demo — meaningful because it demonstrates that long-horizon autonomous agents with persistent state are now commercially operational, not just lab experiments.</p>
+  <p class="meta"><a href="https://simonwillison.net/2026/Oct/29/how-i-built-the-most-ai-pilled-company-in-the-world/">Simon Willison</a></p>
 </div>
 
 <div class="story">
-  <h3><a href="https://research.google/blog/the-sleep-framework-a-new-way-for-llms-to-retain-knowledge-in-continual-learning/">Google's "Sleep Framework" for LLM Continual Learning</a></h3>
-  <p>Google Research introduces a method for LLMs to retain new knowledge over time without catastrophic forgetting — inspired by how biological sleep consolidates memory. If this works at scale, it would address one of the fundamental limitations of current models: they can't learn from new information after training without degrading existing knowledge. Still research-stage, but addresses a real capability gap.</p>
-  <p class="meta">Google Research Blog · <a href="https://news.ycombinator.com/item?id=50312756">HN Discussion</a> (224 pts)</p>
+  <h3><a href="https://www.anthropic.com/research/early-progress-drug-development">Early progress on accelerating drug development with Claude</a></h3>
+  <p>Anthropic reports that Claude is being used in active drug discovery partnerships with six biomedical organizations, with scientists running deep research workflows — not just literature search, but contributing to experimental design. The "AI for Science" expansion to 20 foundations and research institutions suggests this is becoming a real capability deployment, not just a press release, though the actual scientific outputs aren't yet independently verified.</p>
+  <p class="meta"><a href="https://www.anthropic.com/research/early-progress-drug-development">Anthropic</a></p>
 </div>
 </body>
 </html>

@@ -1,11 +1,11 @@
 {
   "current_suggestion": {
-    "channel_name": "Michael Muthukrishna",
-    "channel_id": "UCwc1zvSgRKvUMRVK_XxU8gg",
-    "youtube_handle": "@mmuthukrishna",
-    "pitch": "Muthukrishna is a cultural evolutionary psychologist at LSE whose work sits at the intersection of collective intelligence, institutional design, and how societies make good decisions \u2014 a rigorous empirical counterweight to the Munger/Kahneman mental-models tradition you already consume. Where your current channels focus on individual cognition and decision-making, he zooms out to ask why some groups and cultures systematically think better than others, grounded in actual data. Format is a mix of lectures and long-form interviews, consistently high depth with no pop-psychology shortcuts."
+    "channel_name": "Nate Silver",
+    "channel_id": "UCddiUEpeqJcYeBxX1IVBKvQ",
+    "youtube_handle": "@natesilver",
+    "pitch": "Silver applies rigorous probabilistic thinking and Kahneman-style calibration to real-world forecasting \u2014 sports, elections, and beyond \u2014 which directly extends the mental models and decision-under-uncertainty frameworks you care about without drifting into political commentary. His work on poker and prediction markets also bridges your interest in GTO thinking with broader epistemics: how do you build accurate beliefs when feedback is noisy and delayed? Mostly solo essays and conversational interviews, analytically dense, no fluff."
   },
-  "shown_count": 3,
+  "shown_count": 1,
   "history": [
     "Brad Kearns",
     "Dr. Layne Norton",
@@ -77,6 +77,7 @@
     "Andy Galpin",
     "Renaissance Periodization",
     "David Epstein",
-    "Michael Muthukrishna"
+    "Michael Muthukrishna",
+    "Nate Silver"
   ]
 }
