@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>Morning Brief — Sunday, November 01, 2026</title>
+<title>Morning Brief — Monday, November 02, 2026</title>
 <style>
   body {
     font-family: Georgia, serif;
@@ -92,19 +92,19 @@
 })();
 </script>
 <h1>Morning Brief</h1>
-<p class="date">Sunday, November 01, 2026</p>
+<p class="date">Monday, November 02, 2026</p>
 
 <div class="anchor">
   <h2>☀️ Today's Anchor</h2>
   <div class="anchor-block">
-    <p class="quote">"The meaning of life is to find your gift. The purpose of life is to give it away."</p>
-    <p class="author">— Pablo Picasso (attribution disputed)</p>
-    <p class="context">Often attributed to Picasso; no primary source has been found. Still a widely-quoted summary of purpose.</p>
+    <p class="quote">"The purpose of life is not to be happy. It is to be useful, to be honorable, to be compassionate, to have it make some difference that you have lived and lived well."</p>
+    <p class="author">— Ralph Waldo Emerson (attribution disputed)</p>
+    <p class="context">Attributed to Emerson, though no source exists in his published writings. Widely quoted regardless.</p>
   </div>
   <div class="anchor-block">
-    <p class="model-label">Mental Model · Economics/Productivity</p>
-    <p class="model-name">Pareto Principle (80/20)</p>
-    <p class="context">Roughly 80% of effects come from 20% of causes, across almost every domain. 80% of sales from 20% of customers, 80% of crime from 20% of criminals, 80% of your happiness from 20% of your activities. The skill: identifying the 20% before wasting effort on the 80%.</p>
+    <p class="model-label">Mental Model · Problem-solving</p>
+    <p class="model-name">Five Whys</p>
+    <p class="context">Toyota's technique: when a problem surfaces, ask 'why?' five times. Each answer gets you closer to root cause. The first answer is always a symptom, not a cause. Munger uses this in business analysis: 'Why is this company losing money?' → five layers deep, you usually find a cultural or strategic issue, not an operational one.</p>
   </div>
 </div>
 
@@ -115,114 +115,130 @@
   <p class="spotlight-instructions">Interested? Copy the line below into <code>YOUTUBE_CHANNELS</code> in <code>brief.py</code> and save:</p>
   <pre class="spotlight-snippet" id="snippet">    "Nate Silver": "UCddiUEpeqJcYeBxX1IVBKvQ",</pre>
   <button class="copy-btn" onclick="navigator.clipboard.writeText(document.getElementById('snippet').innerText.trim()); this.innerText='✅ Copied'; setTimeout(()=>this.innerText='📋 Copy snippet', 2000);">📋 Copy snippet</button>
-  <p class="spotlight-meta">showing for 3 more days. If you don't add it, a new channel will be suggested.</p>
+  <p class="spotlight-meta">showing for 2 more days. If you don't add it, a new channel will be suggested.</p>
 </div>
 <h2>🎥 From People I Follow</h2>
 
 <p><strong>Worth your time:</strong></p>
 
 <div class="story">
-  <h3>Jared Alderman (feat. Uri Peleg)</h3>
-  <p>A genuinely interesting conversation on hidden information as a strategic asset in poker. Uri's core point: GTO balance only matters insofar as your opponent can detect and exploit imbalances — if they can't tell you're over-bluffing ace-high boards and under-bluffing king-high boards, you're globally fine. He frames ranges as "invisible chessboards" and argues that knowing where you are in your game tree, when your opponent doesn't, is an underappreciated edge. The discussion also lands on a practical ceiling: even top nosebleed players don't have multi-street, multi-size game trees mapped out, so the exploits from that hidden asymmetry are larger than most assume. Uri also pushes back on RNG-ing for balance — his point being that if your opponent can't detect your frequencies, you don't need to randomize.</p>
-  <p class="meta">Videos: <a href="https://www.youtube.com/watch?v=d18PasuKpnA">"Poker Doesn't Work Without Exploits" - Uri Peleg</a></p>
+  <h3>Nick Norwitz</h3>
+  <p>Norwitz had a rich week across several topics. On LDL/cardiovascular risk, he and Ken Berry dissected a new 293,000-person study from a prominent lipidologist showing that when HDL is high, the correlation between apoB and new-onset cardiovascular disease "vanishes" — the paper literally uses the word "immunity" for certain individuals with high LDL who appear not to develop heart disease. Norwitz's core argument: causality ≠ importance, and ApoB takes all the oxygen in cardiology discussions precisely because it's easy to drug, not because it's the most meaningful variable in the right metabolic context. On nitric oxide, he laid out a full mechanistic framework: mouthwash kills oral bacteria that convert dietary nitrate → nitrite → NO, raising blood pressure by 2–3.5 mmHg in studies; nasal breathing adds ~4 mmHg of BP benefit; humming increases nasal NO production ~15-fold vs. quiet exhalation; and beetroot at ~520 mg dietary nitrate produces 12–14% improvements on endurance tasks in controlled trials. On body composition, he profiled a case where a patient on testosterone replacement (to normal levels) + tirzepatide + low-carb + resistance training lost 50 lbs of pure fat while gaining 26 lbs of muscle — 100% of weight loss from fat mass. He also covered the fasting mimicking diet (5 days ~1,000 kcal, low protein, once/month for 3 months/year), which in RCTs reduces biological age by ~2.5 years on blood markers, improves liver fat and insulin resistance independent of weight loss, and extends lifespan in animals.</p>
+  <p class="meta">Videos: <a href="https://www.youtube.com/watch?v=i9dYXbMMBKU">We Have Heart Disease Backwards with Nick Norwitz</a> · <a href="https://www.youtube.com/watch?v=NlarD_GAgNY">How to Get the Best Blood Flow of Your Life</a> · <a href="https://www.youtube.com/watch?v=6gFxc0fP9GQ">How He Lost 50 lbs of Fat AND Built 26 lbs of Muscle</a> · <a href="https://www.youtube.com/shorts/CpNsPqsw8m0">How To Reduce Your Biological Age in 15 Days</a> · <a href="https://www.youtube.com/shorts/kJzU39akt1U">Are Beets the Best Food for Blood Flow?</a></p>
 </div>
 
 <div class="story">
-  <h3>GTO Lab</h3>
-  <p>Nikki P and Axel walk through GTO Lab's new Mystery Bounty library (~240+ sims) with tools purpose-built for the format. The key strategic insight: when bounties first kick in, the dominant mistake is playing too tight — some spots call for 100% VPIP from early position. The library introduces a "KO-to-stack ratio" (bounty EV ÷ current stack) as the governing variable for preflop and postflop strategy, plus a visual prize pool EV vs. KO EV breakdown so you can see in real time when a call is a chip-EV disaster but a bounty-EV windfall. The point Nikki keeps returning to: Mystery Bounty isn't "a regular tournament with slight adjustments" — it's a structurally different game, and most players are leaving money on the table by treating it like the former.</p>
-  <p class="meta">Videos: <a href="https://www.youtube.com/watch?v=jmPlsMbz3cc">Poker Is Soft Again: Mystery Bounty Tools, Live</a></p>
+  <h3>Peter Attia / Jeff Cavaliere</h3>
+  <p>Cavaliere (15M subscriber PT/strength coach, former NY Mets head PT) joined Attia to discuss resistance training as we age. Key claims: any injury is not a mandate to rest — it's a mandate to find safer exercise variations; flat feet with no orthotics caused decades of downstream knee/hip damage in his own case; he has a 50% labral tear plus partial supraspinatus tear and still trains around it. The core framework is that rehab and strength training are one continuum — function is function at different levels — and that having a large exercise substitution library matters more than following any fixed protocol. He also pushed back hard on short-form content as a format for education: without the "why," even correct cues don't transfer to novel situations.</p>
+  <p class="meta">Videos: <a href="https://www.youtube.com/watch?v=8IuHv7nYkDs">414 ‒ Resistance training as we age</a> · <a href="https://peterattiamd.com/jeffcavaliere/">Podcast episode</a></p>
 </div>
 
 <div class="story">
-  <h3>Lex Fridman</h3>
-  <p>An emergency panel of mathematicians (Brunton, Moitra, Alex) reacting to OpenAI dropping claimed proofs of Navier-Stokes, a quasi-Riemann Hypothesis result, the Unique Games Conjecture, and hundreds more. The consensus: the results appear to be operating in the "semigroup" of known ideas — not the derogatory "convex hull" (trivial combinations), but a vast combinatorial reach of existing techniques assembled in ways no human had time to. Terence Tao's lament about PhD students gets real airtime: once a proof exists, the exploratory journey is gone, and the grad school blueprint ("improve a problem people care about, get papers") is broken. The most useful frame introduced is the "doorman fallacy" — we've confused "proving theorems" (the visible task) with everything a mathematician actually does: asking the right questions, building generalizable structures, exposing beauty. The panel also flags that the Anthropic-connected 3SUM result may be more field-altering than the splashier OpenAI drops because it upends the entire program of fine-grained complexity theory.</p>
-  <p class="meta">Videos: <a href="https://www.youtube.com/watch?v=ZAzWPE9CItg">AI Crisis in Math: Navier-Stokes, Riemann Hypothesis & Complexity Theory | Lex Fridman Podcast #503</a></p>
+  <h3>GTO Lab / Jared Alderman</h3>
+  <p>GTO Lab showcased their Mystery Bounty library (240+ sims, growing to 300+), built around the core tension in bounty tournaments: how aggressively to hunt knockouts vs. preserve ICM equity in the prize pool. Axel's key insight is that the KO-to-stack ratio is the "golden ratio" that drives both preflop and postflop strategy — when bounties just kick in with 1,000 players left, ICM is nearly irrelevant and the most common mistake is playing too tight rather than VPIP'ing far wider than a normal tournament. They have a proprietary "Prize Pool EV vs. KO EV" breakdown tool that shows which hands are profitable purely because of the bounty (yellow) vs. tournament equity (green). Separately, Jared Alderman's conversation with Uri Peleg produced a sharp insight: GTO balance only matters if your opponent can detect your imbalances. Uri's practical point — you can over-bluff ace-high boards, under-bluff king-high boards, and globally be fine because no opponent has the sample size or tracking to discover board-specific frequency deviations. The chess analogy they developed: GTO is setting up an invisible chessboard optimally given your opponent doesn't know your exact layout; exploitative play is guessing their board and countering it.</p>
+  <p class="meta">Videos: <a href="https://www.youtube.com/watch?v=jmPlsMbz3cc">Poker Is Soft Again: Mystery Bounty Tools, Live</a> · <a href="https://www.youtube.com/watch?v=d18PasuKpnA">"Poker Doesn't Work Without Exploits" - Uri Peleg</a></p>
+</div>
+
+<div class="story">
+  <h3>Thomas DeLauer</h3>
+  <p>DeLauer covered urolithin A, a postbiotic produced when gut bacteria metabolize ellagitannins from pomegranate. The mechanism: urolithin A activates the PINK1/Parkin pathway (mitophagy — the cellular cleanup of dysfunctional mitochondria), which degrades with age and is the central driver of sarcopenia per a key Int'l Journal of Biochemistry review. A 4-month RCT (66 participants, 1,000mg/day) found significantly more muscle contractions before fatigue in both hand and leg groups, plus drops in acylcarnitines, ceramides, and CRP — all markers of improved mitochondrial function and reduced inflammation. The critical practical finding: 88% of people have zero detectable urolithin A in blood, and even after pomegranate juice, only ~40% reach meaningful levels. Direct supplementation (500mg) got 100% of participants to meaningful levels at 6× higher peak than pomegranate juice. He stacks three independent mitophagy pathways: urolithin A (PINK1/Parkin), exercise (AMPK/ULK1, peaking ~6 hours post-session), and fasting (mTOR suppression + BNIP3 pathway).</p>
+  <p class="meta">Video: <a href="https://www.youtube.com/watch?v=pQDuo3-6Yxk">This Compound Builds Muscle Over Age 40 (by Stopping Muscle Loss)</a></p>
+</div>
+
+<div class="story">
+  <h3>Robert Greene (Modern Wisdom)</h3>
+  <p>Greene discussed the concept of the "sublime" as experiences that break through the twin filters of cultural conditioning and the brain's reality-construction machinery. The neuroscientist stroke example is the anchor: Jill Bolte Taylor's left-hemisphere stroke progressively shut down her brain's separating/filtering functions, causing her to feel merged with everything, no internal chatter, profound bliss — and she spent years after recovery trying to scientifically recreate the feeling. Greene's thesis: the brain does not show you reality; it constructs a model optimized for your culture and survival, and the sublime — near-death, mountains, vastness — temporarily breaks that filter and produces awe. His broader death-of-his-own argument: having experienced something close to death forces an irreversible shift in how you value ordinary existence, and you can no longer take it for granted.</p>
+  <p class="meta">Video: <a href="https://www.youtube.com/watch?v=bSULVW0u1GM">What Death Reveals About Life - Robert Greene</a></p>
 </div>
 
 <p><strong>Also posted:</strong></p>
 <ul>
-  <li><strong>Paul Saladino MD:</strong> Reacts to Alan Ritchson's diet tour — hits on cage-free vs. pasture-raised eggs, carrageenan in almond milk, phytic acid in instant oats robbing mineral absorption, and his position that fruit/honey don't cause the gut dysbiosis that processed sugar does (citing honey studies in diabetics improving insulin sensitivity). (<a href="https://www.youtube.com/watch?v=V8OkGz-bAYM">Doctor Reacts to Alan Ritchson's Extreme Diet</a>)</li>
-  <li><strong>Thomas DeLauer:</strong> Course corrections: dropped mega-dose fish oil (too much DHA increases membrane fragility), moved to 15g+ creatine daily (bigger strength/energy effect than microdosing), and switched from random intermittent fasting to "burst fasting" — 3-4 consecutive days of 18-hour fasts followed by 4-5 days off, finding better homeostasis and body composition cycling vs. sporadic fasting. Also flags that GH-releasing peptides (Ipamorelin, Tesamorelin) meaningfully raised his HbA1c. (<a href="https://www.youtube.com/watch?v=TICeT9yT0g4">I've Changed My Mind on Fish Oil, Creatine and Fasting</a>)</li>
-  <li><strong>Nick Norwitz:</strong> Nose breathing delivers nitric oxide from the paranasal sinuses directly into the lungs, widening blood vessels and improving oxygen uptake; humming amplifies NO production further via acoustic vibration of stale air pockets. (<a href="https://www.youtube.com/shorts/Ktt1l56Ht8s">The #1 Reason To Nose Breath</a>)</li>
-  <li><strong>Peter Attia:</strong> Honest uncertainty on rapamycin — mTOR inhibition extends lifespan across all four eukaryotic model organisms (yeast, worms, flies, rodents), but optimal human dose, frequency, duration, and initiation timing are all genuinely unknown. He says he doesn't know where he comes out on weekly dosing. (<a href="https://www.youtube.com/shorts/TvNnPreLcow">Peter's current thoughts on rapamycin</a>)</li>
-  <li><strong>Andrew Huberman:</strong> Don't trust your own thoughts between 2–5am — the brain enters a state that distorts threat assessment and meaning; the value of pushing through hard things is experiencing the moment where motivation and logic return. (<a href="https://www.youtube.com/shorts/FNbTA_W9B5o">WHEN TO *NOT* TRUST YOUR THOUGHTS</a>)</li>
-  <li><strong>Renaissance Periodization:</strong> Brief reaction to Larry Wheels benching 405 lbs for 32 half-reps — RP estimates this equates to ~15–20 full pause reps, calling it extraordinary on both relative and absolute strength scales. (<a href="https://www.youtube.com/shorts/0_YYAyaNONg">Larry Wheels Benched 405 for 32 Reps!</a>)</li>
-  <li><strong>Ken Berry MD:</strong> Claims dietary guidelines are structurally corrupted by pharma lobbying (FDA's drug approval budget is 60% industry-funded; every member of Congress has three dedicated pharma lobbyists), arguing this explains why meat/egg-based reversal of T2 diabetes gets no institutional backing. (<a href="https://www.youtube.com/shorts/hp54ogZnxWo">If meat and eggs reversed type 2 diabetes, the government would tell us.</a>)</li>
-  <li><strong>Mind the Game (LeBron):</strong> LeBron on reaching 1,229 NBA wins — credits early coaches for instilling team-first winning habits from adolescence. (<a href="https://www.youtube.com/shorts/8Oyv3QInxZE">THE NBA IS BACK.</a>)</li>
+  <li><strong>Paul Saladino MD:</strong> Reacts to Alan Ritchson's diet — critiques cage-free eggs (still warehouse-raised, corn/soy fed; pasture-raised is the standard that matters), instant oatmeal (high phytic acid blocks zinc/calcium absorption; requires 4-day fermentation at specific pH to reduce antinutrients), seed-oil/sugar cookie dough, and processed hot dogs (phosphate additives disrupt calcium:phosphorus balance). Defends fruit and honey as metabolically distinct from processed sugar based on gut microbiome data from Hadza populations. (<a href="https://www.youtube.com/watch?v=V8OkGz-bAYM">Doctor Reacts to Alan Ritchson's Extreme Diet</a>)</li>
+  <li><strong>Nick Norwitz (additional shorts):</strong> Cold/cooked potato resistant starch reduces visceral fat in a calorie-controlled trial (40g/day); blueberry fructose vs. syrup fructose — food matrix slows intestinal delivery and enables intestinal conversion before liver exposure; GLP-1 drugs paradoxically activate hunger neurons to increase fat-over-carb burning (not appetite alone); Lp(a) context matters more than absolute number — a major trial found lowering Lp(a) did NOT reduce heart attacks/strokes; fermented foods beat fiber in a Stanford RCT for microbiome diversity and inflammatory markers. (<a href="https://www.youtube.com/shorts/KKa-3eNYFp8">Eat Your Potatoes Cold</a> + 4 more)</li>
+  <li><strong>Nick Norwitz (longevity deep-dive):</strong> Bowhead whales live 200+ years with 1,000× more cells than humans yet rarely get cancer — paradoxically their cells become cancerous with *fewer* mutations than human cells, but they massively outperform all species on DNA repair via CIRBP protein. Flies engineered with whale CIRBP survived radiation exposure 100% longer. Humans produce CIRBP too, just far less. Also covered: axolotl limb regeneration via molecular gradient GPS, thymus health correlating with lower cancer rates, and Yamanaka factor cell reprogramming. (<a href="https://www.youtube.com/watch?v=h3Sav_SBYj4">How to Make Your Cells Immortal</a>)</li>
+  <li><strong>Nick Norwitz (focus/ADHD):</strong> A Cell paper using fMRI on ~12,000 children found stimulant medications act on sensory/motor arousal and reward networks — NOT the attention system. Many children's stimulant response may be masking chronic sleep deprivation; well-rested kids got no grade benefit from stimulants, only sleep-deprived kids did. ADHD and delayed sleep phase disorder have up to 80% overlap in some studies. (<a href="https://www.youtube.com/watch?v=DRffW43GmbA">The Focus Trick I Wish I Knew Sooner</a>)</li>
+  <li><strong>Andrew Huberman:</strong> Brief clip — don't trust thoughts that occur between 2–5 a.m.; hitting "what's the point" during training is worth experiencing because the motivation returning teaches you the feeling is temporary. (<a href="https://www.youtube.com/shorts/FNbTA_W9B5o">WHEN TO *NOT* TRUST YOUR THOUGHTS</a>)</li>
+  <li><strong>Anthony Chaffee MD:</strong> Short on carnivore supplementation — most people on high-quality carnivore diets won't need supplements long-term, but nearly everyone starts from a deficient baseline and short-term supplementation while the diet "fixes" deficiencies is reasonable. (<a href="https://www.youtube.com/shorts/y2xnfmTKM4-Q">Supplementing On The Carnivore Diet</a>)</li>
+  <li><strong>Mind the Game (LeBron):</strong> LeBron on breaking the NBA wins record (1,229) — credits childhood coaches (Frank Walker Sr., Drew Joyce, Keith Dambrot) for teaching him team-based winning early. No tactical basketball content. (<a href="https://www.youtube.com/shorts/8Oyv3QInxZE">NBA Is Back</a>)</li>
+  <li><strong>Renaissance Periodization:</strong> Commentary on Larry Wheels benching 405 lbs for 32 reps — Dr. Mike estimates this equates to ~15–20 full paused reps, calling his strength-to-size ratio "outrageous on both relative and absolute scale." (<a href="https://www.youtube.com/shorts/0_YYAyaNONg">Larry Wheels Benched 405 for 32 Reps!</a>)</li>
 </ul>
+
+---
 
 <h2>₿ Bitcoin & Macro</h2>
 
 <div class="story">
-  <h3><a href="https://bitcoinmagazine.com/videos/mstr-q3-2026-earnings-call-analyst-qa">MSTR Q3 2026 Earnings Call: Analyst Q&A</a></h3>
-  <p>Saylor and Phong Le fielded analyst questions on Strategy's "digital credit" thesis, the Stretch (STRC) preferred share trading at par, and Bitcoin's ongoing financialization. The Q&A is worth watching for how Saylor frames Bitcoin-backed financial instruments as the emerging primitive for institutional balance sheets — not speculation, but structured credit.</p>
+  <h3><a href="https://bitcoinmagazine.com/videos/doomberg-us-treasury-sanctions-are-wildly-bullish-for-bitcoin-gold">Doomberg: US Treasury Sanctions are "Wildly Bullish" for Bitcoin & Gold</a></h3>
+  <p>Doomberg's thesis: U.S. pressure on allies and adversaries to hold Treasuries is backfiring — central banks forced to hold Treasuries are selling other liquid assets they *can* sell, creating sustained bid for gold and Bitcoin as non-sovereign stores of value. The argument is structural, not cyclical: every new sanctions episode erodes the "safe" perception of dollar assets and accelerates de-dollarization at the reserve level.</p>
   <p class="meta">Bitcoin Magazine</p>
 </div>
 
 <div class="story">
   <h3><a href="https://bitcoinmagazine.com/videos/tyler-evans-bitcoin-etf-flows-flipped-from-highly-negative-to-strong-accumulation">Bitcoin ETF Flows Flipped From "Highly Negative" to "Strong Accumulation"</a></h3>
-  <p>Tyler Evans argues Bitcoin's post-bear setup is driven by a macro shift: Fed policy pivot, bond yield trajectory, and ETF flows reversing from net outflows to "strong accumulation." He flags the 2026 US midterms as a near-term pivot point for crypto regulatory clarity heading into 2027.</p>
+  <p>Tyler Evans notes that Bitcoin ETF flows have reversed from "highly negative" to strong accumulation, and frames the setup as a post-bear recovery aligned with Fed policy trajectory and bond yield dynamics. He flags U.S. midterms as pivotal for the 2027 setup — the argument being that political tailwinds for crypto-friendly legislation could amplify the institutional accumulation cycle.</p>
   <p class="meta">Bitcoin Magazine</p>
 </div>
 
 <div class="story">
-  <h3><a href="https://bitcoinmagazine.com/videos/doomberg-us-treasury-sanctions-are-wildly-bullish-for-bitcoin-gold">Doomberg: US Treasury Sanctions are "Wildly Bullish" for Bitcoin & Gold</a></h3>
-  <p>Doomberg's thesis: US pressure forcing foreign central banks to hold Treasuries also forces them to liquidate what they can — which is gold and, increasingly, Bitcoin. The structural consequence is a long-term bid under both assets from reserve diversification away from dollar instruments.</p>
+  <h3><a href="https://bitcoinmagazine.com/videos/mstr-q3-2026-earnings-call-analyst-qa">MSTR Q3 2026 Earnings Call: Analyst Q&A</a></h3>
+  <p>Saylor and Phong Le fielded analyst questions on Strategy's evolving capital structure — specifically "digital credit," the Stretch (STRC) preferred at par, and Bitcoin's financialization thesis. The framing reflects Saylor's ongoing argument that MSTR is evolving from a Bitcoin holding company into a Bitcoin financial services firm, using preferred instruments and leverage products to access capital markets at scale.</p>
   <p class="meta">Bitcoin Magazine</p>
 </div>
+
+---
 
 <h2>🧬 Health & Science</h2>
 
 <div class="story">
-  <h3>Peter Attia: Who Is Actually at Risk for CTE?</h3>
-  <p>Attia examines what autopsy-based CTE studies can and cannot tell us — a methodologically important distinction since CTE can only be diagnosed post-mortem, meaning all prevalence data comes from brains donated by symptomatic athletes or their families (severe selection bias). The piece is a useful corrective to both overclaiming (every football player will get CTE) and dismissal (it's rare), parsing what repetitive head impact exposure levels actually correlate with pathology vs. just neuropathological markers without clinical significance.</p>
-  <p class="meta"><a href="https://peterattiamd.com/who-is-actually-at-risk-for-cte/">peterattiamd.com</a></p>
+  <h3>LDL, ApoB, and HDL Context — New 293,000-Person Study</h3>
+  <p>A study in the European Journal of Preventive Cardiology (first author: prominent lipidologist Allan Sniderman) found that when HDL cholesterol is high, the effect of apoB on new-onset cardiovascular disease "vanishes" in a dataset of ~293,000 people. The paper explicitly states there may be "apparent immunity" of some individuals to the clinical consequences of high LDL/apoB — language that has generated significant debate. The practical implication Norwitz draws: a carnivore/keto patient with LDL of 250-300 but high HDL and low waist-to-hip ratio may be in a category where aggressive statin therapy provides no meaningful benefit — and framing apoB as simply "causal" obscures this context entirely. The causality-vs-importance distinction is the key intellectual move: LDL is part of a causal cascade but is neither sufficient to cause disease alone nor necessarily the most important variable to treat in a metabolically healthy person.</p>
 </div>
 
 <div class="story">
-  <h3>Thomas DeLauer: Creatine Dosing Revision</h3>
-  <p>DeLauer's personal n=1 data point worth noting: moving from microdose creatine (~3-5g) to 15g/day produced noticeably different strength and all-day energy outcomes. He cites literature supporting safe dosing up to 30-40g, though he doesn't personally go that high. The key practical flag: initial water retention subsided after ~one month — the common reason people abandon higher doses prematurely. He also notes that EAAs during training may blunt the body's own muscle-preservation signaling, making it easier to lose muscle when you come off them.</p>
-  <p class="meta"><a href="https://www.youtube.com/watch?v=TICeT9yT0g4">YouTube</a></p>
+  <h3>Urolithin A and Mitophagy — RCT Data</h3>
+  <p>A 4-month RCT (JAMA Network Open, n=66, 1,000mg/day urolithin A vs. placebo) found significantly greater muscle endurance (more contractions before fatigue) in both hand and leg muscle groups, with biomarker improvements including acylcarnitine reduction, ceramide decrease, and lower CRP. The mitophagy mechanism (PINK1/Parkin pathway activation) is distinct from exercise-induced mitophagy (AMPK/ULK1) and fasting-induced mitophagy (BNIP3/mTOR suppression), meaning these pathways stack additively. Critical practical finding: 88% of people have undetectable urolithin A in blood without supplementation; even pomegranate juice only brings ~40% to meaningful levels, while direct supplementation achieves it 100% of the time at 6× higher peak concentrations.</p>
 </div>
+
+<div class="story">
+  <h3>Fasting Mimicking Diet — Biological Age Reduction in RCTs</h3>
+  <p>Nick Norwitz summarized the fasting mimicking diet protocol (5 days at ~1,000 kcal, low protein, once/month for 3 months/year = 15 days total) citing randomized controlled trials showing ~2.5 years of biological age reduction on blood markers, improvements in liver fat and insulin resistance, and visceral fat reduction — effects that held independent of weight loss. In animal models, the protocol extends lifespan. The mechanism involves enhanced recovery and cellular renewal pathways (autophagy, metabolic reset) triggered by the protein and caloric restriction without full fasting adherence difficulty.</p>
+</div>
+
+<div class="story">
+  <h3>Nitric Oxide: Practical Levers for Cardiovascular Health</h3>
+  <p>Norwitz's full NO video synthesized several evidence-based levers: (1) eliminate mouthwash — multiple studies show 2–3.5 mmHg blood pressure increase from killing oral nitrate-converting bacteria; (2) nose breathing adds ~4 mmHg BP benefit over mouth breathing; (3) humming increases nasal NO production ~15-fold vs. quiet exhalation via mechanical oscillation of paranasal sinuses; (4) beetroot at ~520mg dietary nitrate produces 12–14% endurance improvements in controlled trials; (5) regular exercise induces durable upregulation of eNOS (endothelial nitric oxide synthase), lowering resting BP by ~3.5–8+ mmHg depending on baseline. Extra virgin olive oil's hydroxytyrosol increases NO bioavailability and inhibits tau protein aggregation in Alzheimer's research — quality markers are harvest date (within 18 months), dark bottle, and throat-kick from oleocanthal.</p>
+</div>
+
+<div class="story">
+  <h3><a href="https://www.science.org/content/article/bones-may-release-proteins-slow-aging-and-extend-life-span">Bones May Release Proteins That Slow Aging and Extend Lifespan</a></h3>
+  <p>Emerging research suggests bone tissue actively secretes proteins with systemic anti-aging effects — reframing bone as an endocrine organ rather than passive structural tissue. The finding adds to a growing picture (alongside osteocalcin research) that skeletal loading and bone health have systemic longevity implications beyond fracture risk.</p>
+  <p class="meta"><a href="https://news.ycombinator.com/item?id=50328896">HN Discussion</a> · Science.org</p>
+</div>
+
+<div class="story">
+  <h3>Resistance Training as We Age — Jeff Cavaliere on Peter Attia</h3>
+  <p>Cavaliere's core framework: injury is not a mandate to stop training, it's a mandate to find safer loading and progressions — the PT and strength training continuum is one spectrum of function. He emphasized that exercise selection flexibility matters more than protocol adherence; for aging trainees, the ability to substitute exercises while preserving the stimulus is the critical skill. His personal history (50% labral tear + partial supraspinatus tear, "shoulder of an 80-year-old" at age 50) illustrates that severe structural damage is compatible with continued high-function training when movement is chosen wisely. He also noted that flat-foot neglect in his 20s created cascading knee/hip damage over decades — early orthotic intervention would have been high ROI.</p>
+  <p class="meta"><a href="https://peterattiamd.com/jeffcavaliere/">Peter Attia #414</a></p>
+</div>
+
+---
 
 <h2>💡 Worth Reading</h2>
 
 <div class="story">
-  <h3><a href="https://jetstream.security/insights/brazilian-court-sanctions-prompt-injection-filing">Brazilian Court Sanctions Lawyers for Prompt Injection in Court Filing</a></h3>
-  <p>Lawyers in Brazil were formally sanctioned after submitting a court filing that contained what appears to be a prompt injection attack — instructions embedded in the document intended to manipulate AI systems reading it. This is the first known case of a court imposing consequences for prompt injection in a legal context, and it sets a precedent for AI-assisted legal workflows becoming an attack surface.</p>
-  <p class="meta"><a href="https://news.ycombinator.com/item?url=https://jetstream.security/insights/brazilian-court-sanctions-prompt-injection-filing">HN Discussion</a></p>
+  <h3><a href="https://terrytao.wordpress.com/2026/11/01/mathematics-has-changed-lets-act-like-it">Mathematics Has Changed. Let's Act Like It — Terry Tao</a></h3>
+  <p>Fields Medal winner Terence Tao argues that AI solving major open problems (Navier-Stokes, quasi-Riemann Hypothesis, Unique Games Conjecture, and hundreds more in a single OpenAI drop) represents a genuine crisis for the mathematical enterprise — specifically for graduate students and postdocs whose life's work is disrupted by having problems "spoiled" before they can explore them. His concern isn't capability (he acknowledges the results are real) but the destruction of the slow, exploratory research culture that produces mathematical understanding, not just theorem-checking. The Lex Fridman emergency episode with three mathematicians provides the best immediate reaction: the "doorman fallacy" framing (don't reduce a mathematician's job to theorem-proving, just as a doorman's job isn't just holding doors) and the "semigroup vs. convex hull" debate about whether AI is genuinely expanding mathematical knowledge or recombining existing ideas very efficiently.</p>
+  <p class="meta"><a href="https://news.ycombinator.com/item?id=50328896">HN Discussion</a> · Terry Tao's blog · <a href="https://www.youtube.com/watch?v=ZAzWPE9CItg">Lex Fridman #503</a></p>
 </div>
 
 <div class="story">
-  <h3><a href="https://www.parameter.ai/labs/we-found-a-gap-at-openai">Do the math: How we took over ChatGPT accounts</a></h3>
-  <p>Parameter Labs documents an exploit in ChatGPT's HTML preview/Canvas feature where a malicious HTML artifact could be crafted to exfiltrate session data and take over accounts. The vulnerability is notable because it lived in the sandboxed interactive HTML preview pattern — a category of product feature now common across AI products — suggesting this is a class of exploit worth watching across the ecosystem.</p>
-  <p class="meta"><a href="https://news.ycombinator.com/item?url=https://www.parameter.ai/labs/we-found-a-gap-at-openai">HN Discussion</a></p>
+  <h3><a href="https://karpathy.bearblog.dev/hacker-tube/">HackerTube: YouTube Built From Videos Recommended on HN</a></h3>
+  <p>Andrej Karpathy built a curated YouTube front-end that surfaces videos organically recommended in Hacker News discussions — essentially a quality filter based on collective technical judgment rather than engagement algorithms. The site is genuinely useful as an antidote to recommendation-loop YouTube; it's been accumulating a lot of content that's substantive and obscure rather than viral. Worth bookmarking as an alternative discovery channel.</p>
+  <p class="meta"><a href="https://news.ycombinator.com/item?id=50328896">HN Discussion</a> (2,601 pts)</p>
 </div>
 
 <div class="story">
-  <h3><a href="https://aatishb.com/myriad/lets-build-a-brain/">Simple circuits can create complex behaviors</a></h3>
-  <p>An interactive explainer on how extremely simple feedback circuits — the kind you'd find in neurons or analog electronics — produce surprisingly rich, non-linear behavior. Relevant as a mental model for thinking about emergence in neural networks and why "it's just matrix multiplication" undersells what's happening structurally.</p>
-  <p class="meta"><a href="https://news.ycombinator.com/item?url=https://aatishb.com/myriad/lets-build-a-brain/">HN Discussion</a></p>
-</div>
-
-<div class="story">
-  <h3><a href="https://marginalrevolution.com/marginalrevolution/2026/11/are-llms-good-or-bad-bayesians.html">Are LLMs good or bad Bayesians?</a></h3>
-  <p>Bryan Caplan raises a sharp point: a proper Bayesian, when presented with a counterargument, should update toward or away from the presenter's view based purely on argument quality — not automatically toward the speaker. LLMs appear to systematically move toward whoever is arguing with them, which is a form of sycophancy dressed as open-mindedness. Relevant for anyone using LLMs as thinking partners or sounding boards.</p>
-  <p class="meta"><a href="https://marginalrevolution.com/marginalrevolution/2026/11/are-llms-good-or-bad-bayesians.html">Marginal Revolution</a></p>
-</div>
-
-<h2>🤖 AI Capability Watch</h2>
-
-<div class="story">
-  <h3><a href="https://simonwillison.net/2026/Oct/29/how-i-built-the-most-ai-pilled-company-in-the-world/">Building a multiplayer game world with autonomous Fable-class models</a></h3>
-  <p>Jacob Sansbury describes Spawn — a massively multiplayer world where autonomous agents powered by frontier "Fable-class" models act as persistent NPCs with memory, goals, and relationships, running continuously at scale. This is a working production deployment of agentic AI as a game engine, not a demo — meaningful because it demonstrates that long-horizon autonomous agents with persistent state are now commercially operational, not just lab experiments.</p>
-  <p class="meta"><a href="https://simonwillison.net/2026/Oct/29/how-i-built-the-most-ai-pilled-company-in-the-world/">Simon Willison</a></p>
-</div>
-
-<div class="story">
-  <h3><a href="https://www.anthropic.com/research/early-progress-drug-development">Early progress on accelerating drug development with Claude</a></h3>
-  <p>Anthropic reports that Claude is being used in active drug discovery partnerships with six biomedical organizations, with scientists running deep research workflows — not just literature search, but contributing to experimental design. The "AI for Science" expansion to 20 foundations and research institutions suggests this is becoming a real capability deployment, not just a press release, though the actual scientific outputs aren't yet independently verified.</p>
-  <p class="meta"><a href="https://www.anthropic.com/research/early-progress-drug-development">Anthropic</a></p>
-</div>
+  <h3><a href="http://rhaas.blogspot.com/2026/10/postgres-19-is-late-and-its-ais-fault.html">Postgres 19 Is Late Because So Many More Bugs Are Being Found Now</a></h3>
+  <p>The Postgres maintainer explains that AI-assisted development is causing Postgres 19 to slip: not because AI writes bad code (though it does), but because AI tools are enabling developers to write and submit vastly more code — including far more bugs — than human review bandwidth can handle. The meta-point is interesting beyond databases: AI as a force multiplier on code *generation* is outpacing the
 </body>
 </html>

@@ -1,98 +1,113 @@
 === HACKER NEWS ===
-1. [1340 pts] HackerTube: YouTube built from videos recommended by HN
+1. [213 pts] Show HN: Wikihack – HackerTube, but for Wikipedia articles mentioned on HN
+   https://wikihack.netlify.app
+
+2. [1418 pts] Show HN: HackerBooks – HackerTube, but for books mentioned on HN
+   https://hackerbooks.org
+
+3. [494 pts] Postgres 19 is late because so many more bugs are being found now
+   http://rhaas.blogspot.com/2026/10/postgres-19-is-late-and-its-ais-fault.html
+
+4. [2601 pts] HackerTube: YouTube built from videos recommended by HN
    https://karpathy.bearblog.dev/hacker-tube/
 
-2. [450 pts] An Italian farmer found some unknown seeds in his attic and planted them
-   https://www.smithsonianmag.com/science-nature/italian-farmer-found-unknown-seeds-attic-with-nothing-lose-planted-them-result-biblical-180989644/
+5. [133 pts] F/OSS Comics #13: BSD Unix, Part 3 – The Beginning of BSD Unix
+   https://fosscomics.com/posts/13.%20BSD%20Unix%20Part%203%20-%20The%20Beginning%20of%20BSD%20Unix/
 
-3. [14 pts] OpenIDEA: The IDE you know, rebuilt in Rust
-   https://github.com/l0ng-ai/openidea
+6. [19 pts] Show HN: I've updated my Linux System Call website and API
+   https://syscall.sh/
 
-4. [22 pts] No AI, 52 min. Build all Linux Files utils in C by Hand [video]
-   https://www.youtube.com/watch?v=gQRmSlcTq9c
+7. [113 pts] Bones may release proteins that slow aging and extend life span
+   https://www.science.org/content/article/bones-may-release-proteins-slow-aging-and-extend-life-span
 
-5. [93 pts] Running a bootstrapped SaaS for 20 years with my brother
-   https://blog.zamzar.com/2026/10/30/20-years-766-million-files-two-chameleons/
+8. [419 pts] Ask HN: Which TV do you recommend for privacy?
+   https://news.ycombinator.com/item?id=50328896
 
-6. [124 pts] Brazilian Court Sanctions Lawyers for Prompt Injection in Court Filing
-   https://jetstream.security/insights/brazilian-court-sanctions-prompt-injection-filing/
+9. [134 pts] Mystery of 60-Second Fluctuations in Power Grids Solved
+   https://www.fz-juelich.de/en/news/archive/press-release/2026/mystery-of-60-second-fluctuations-in-power-grids-solved
 
-7. [510 pts] TCP Use-After-Free: CVE-2026-98432 / CVSS 9.8
-   https://atlasum.net/blog/cve-2026-98432-linux-ipv4-tcp-uaf
+10. [37 pts] From Charlemagne to the Kitchen Boy: Reading the Hamburg Rathaus
+   https://alsterrunde.com/from-charlemagne-to-the-kitchen-boy-reading-the-hamburg-rathaus/
 
-8. [237 pts] Memdoor: A team of 5 Qwen3.8-27B models beats Fable 5 on LiveCodeBench Hard
-   https://github.com/guregodevo/memdoor/tree/main/examples/workflows/team-solve
+11. [96 pts] Trigger.dev customer environment variables exposed
+   https://trigger.dev/blog/security-incident-nov-2026
 
-9. [88 pts] Leaking Secrets from Air-Gap Computers by Spelling Radio Signals from RAM (2024)
-   https://arxiv.org/abs/2409.02292
+12. [152 pts] Nibnib: Image compression with extreme decompression speed
+   https://github.com/raphlinus/nibnib
 
-10. [77 pts] The AI cost of JavaScript frameworks
+13. [51 pts] China's First Frontier AI Export Controls: Mofcom Announcement No. 48
+   https://labs.cloudsecurityalliance.org/research/csa-research-note-china-ai-export-controls-announcement-48-2/
+
+14. [124 pts] Tips for more effective fuzz testing with AFL++
+   https://nullprogram.com/blog/2025/02/05/
+
+15. [170 pts] Copper – A minimal low-level programming language with OOP and generics
+   https://tibleiz.net/copper/
+
+16. [255 pts] Show HN: OmniDiff – Opensource, super fast, content aware Git difftool, in Rust
+   https://github.com/ivankovic/omnidiff
+
+17. [382 pts] The AI cost of JavaScript frameworks
    https://nolanlawson.com/2026/10/28/the-ai-cost-of-javascript-frameworks/
 
-11. [117 pts] Zinc creep in cable spelter sockets brought down the Arecibo telescope in 2020
-   https://maketecheasier.com/arecibo-zinc-creep-collapse/
+18. [86 pts] New 3D thermal invisibility cloak makes objects disappear from infrared cameras
+   https://www.sciencedaily.com/releases/2026/10/261025073051.htm
 
-12. [132 pts] ChatGPT and Codex usage limits merging
-   https://help.openai.com/en/articles/20001625-understanding-chatgpt-and-codex-usage-limits
+19. [298 pts] OccupySaaS
+   https://occupysaas.com/
 
-13. [39 pts] Pilot-wave hydrodynamics (Quantum phenomena in macroscopic hydrodynamic systems)
-   http://thales.mit.edu/bush/index.php/4801-2/
+20. [144 pts] Proving and improving the Platonic Representation Hypothesis with JEPAs
+   https://arxiv.org/abs/2610.39302
 
-14. [112 pts] Altoids Project
-   https://uvdn7.github.io/altoids-project/
+21. [210 pts] Show HN: Point your camera at a landscape to learn about its geology
+   https://outcrop.rocks/
 
-15. [198 pts] It's the memory latency, stupid
-   https://pivotlake.io/blog/its-the-memory-latency-stupid/
+22. [159 pts] One-minute frequency disturbances from synchronization in power systems
+   https://www.nature.com/articles/s41560-026-02144-0
 
-16. [43 pts] A 1580 Map Shows Why Data Visualization Is Never Neutral
-   https://thereader.mitpress.mit.edu/a-1580-map-shows-why-data-visualization-is-never-neutral/
+23. [320 pts] Mathematics has changed. Let's act like it
+   https://terrytao.wordpress.com/2026/11/01/mathematics-has-changed-lets-act-like-it/
 
-17. [30 pts] A brief history of just-in-time: forty years of JIT work, from 1960–2000
-   https://dl.acm.org/doi/10.1145/857076.857077
+24. [182 pts] Radiation Map of the World
+   https://radiaverse.com/
 
-18. [13 pts] Understanding Email Encryption
-   https://www.fastmail.com/blog/email-encryption/
+25. [497 pts] Lenovo's 'encrypted' fingerprint USB is just an unencrypted SD card in a case
+   https://www.reddit.com/r/technology/comments/1xl2pr3/lenovos_encrypted_fingerprint_usb_drive_is_just/
 
-19. [112 pts] Electrification Could Cut Global Energy Use in Half
-   https://fullycharged.show/podcasts/podcast-361-why-electrification-could-cut-global-energy-use-in-half/
+26. [9 pts] Show HN: HackerHack – HackerBooks but for Posts Posted on HN
+   https://news.ycombinator.com/
 
-20. [265 pts] Jepsen: ParticleDB 1.1.4
-   https://jepsen.io/analyses/particledb-1.1.4
+27. [93 pts] Show HN: I rebuilt my old canvas 3D library as a small WebGL 2 library – phoria2
+   https://kevs3d.co.uk/phoria2/
 
-21. [118 pts] Surviving "The Graduate"
-   https://www.newyorker.com/culture/the-weekend-essay/dustin-hoffman-on-surviving-the-graduate
+28. [30 pts] The She-Wolves of Jülich
+   https://www.historytoday.com/archive/history-matters/she-wolves-julich
 
-22. [332 pts] Do the math: How we took over ChatGPT accounts
-   https://www.parameter.ai/labs/we-found-a-gap-at-openai
+29. [92 pts] Domain hacks with unusual Unicode characters (2018)
+   https://shkspr.mobi/blog/2018/11/domain-hacks-with-unusual-unicode-characters/
 
-23. [35 pts] Edgar Allan Poe, Quintessential American Writer
-   https://slate.com/culture/2026/10/edgar-allan-poe-poems-stories-most-influential-american-writer-death-horror-detective.html
-
-24. [254 pts] Simple circuits can create complex behaviors
-   https://aatishb.com/myriad/lets-build-a-brain/
-
-25. [22 pts] Pac-Man's Siren Call
-   https://unsung.aresluna.org/pac-mans-siren-call/
-
-26. [34 pts] Show HN: BBRouter – Ben Eater's 8-bit computer, simulated on 3D breadboards
-   https://bbrouter.com/bbrouter/ben-eater-sap-1
-
-27. [119 pts] The Duty of a Scholar
-   https://www.daemonology.net/blog/2026-10-31-The-Duty-of-a-Scholar.html
-
-28. [358 pts] Anthropic blocks users for anything touching training larger models
-   https://twitter.com/jiahaoshao1/status/2116475922190922088
-
-29. [29 pts] Japan's trains are great. Why is booking one so hard?
-   https://vinibrasil.com/japan-train/
-
-30. [115 pts] Reading and writing are less symmetric than you (probably) think
-   https://fgiesen.wordpress.com/2015/10/25/reading-and-writing-are-less-symmetric-than-you-probably-think/
+30. [829 pts] An Italian farmer found some unknown seeds in his attic and planted them
+   https://www.smithsonianmag.com/science-nature/italian-farmer-found-unknown-seeds-attic-with-nothing-lose-planted-them-result-biblical-180989644/
 
 
 === RSS ===
-[health] Peter Attia: Who is actually at risk for CTE?
-  https://peterattiamd.com/who-is-actually-at-risk-for-cte/
+[ai] Simon Willison: If in doubt, delete the uv.lock file
+  https://simonwillison.net/2026/Nov/1/delete-uv-lock-first/
+
+[ai] Simon Willison: Quoting Kyle Kingsbury
+  https://simonwillison.net/2026/Nov/1/kyle-kingsbury/
+
+[ai] Simon Willison: How We Took Over ChatGPT Accounts
+  https://simonwillison.net/2026/Oct/31/how-we-took-over-chatgpt-accounts/
+
+[ai] Simon Willison: datasette-llm 0.1a9
+  https://simonwillison.net/2026/Oct/31/datasette-llm/
+
+[ai] Simon Willison: dbreunig/nesformer
+  https://simonwillison.net/2026/Oct/30/nesformer/
+
+[ideas] Paul Graham: Making Startups Powerful
+  https://paulgraham.com/powerful.html
 
 [ai] Anthropic News: AI for Science expands to foundations and research institutions
   https://www.anthropic.com/news/ai-for-science-expands-foundations-research-institutions
@@ -109,71 +124,26 @@
 [ai] Anthropic News: Open call for guest investigators in the life sciences
   https://www.anthropic.com/news/open-call-guest-investigators-life-sciences
 
-[bitcoin] The Pomp Letter: Binance $6B Hack: Why Bitcoin Only Fell 5% (And What It Means for 2027)
-  https://pomp.substack.com/p/binance-6b-hack-why-bitcoin-only
+[wisdom] Donald Robertson: The wise man invests his time in self-improvement...
+  https://donaldrobertson.substack.com/p/the-wise-man-invests-his-time-in
 
-[bitcoin] The Pomp Letter: Can 'Moneyball' win the AI arms race?
-  https://pomp.substack.com/p/can-moneyball-win-the-ai-arms-race
+[wisdom] Donald Robertson: How to use Rational Emotive Imagery
+  https://donaldrobertson.substack.com/p/how-to-use-rational-emotive-imagery
 
-[ideas] Marginal Revolution: Those new service sector jobs?
-  https://marginalrevolution.com/marginalrevolution/2026/11/those-new-service-sector-jobs-18.html?utm_source=rss&utm_medium=rss&utm_campaign=those-new-service-sector-jobs-18
+[wisdom] Donald Robertson: Video: Watch Stoicon 2026
+  https://donaldrobertson.substack.com/p/video-watch-stoicon-2026
 
-[ideas] Marginal Revolution: Are LLMs good or bad Bayesians?
-  https://marginalrevolution.com/marginalrevolution/2026/11/are-llms-good-or-bad-bayesians.html?utm_source=rss&utm_medium=rss&utm_campaign=are-llms-good-or-bad-bayesians
+[health] Peter Attia: #414 ‒ Resistance training as we age: optimizing exercise selection and training intensity for muscle growth, function, and injury risk management | Jeff Cavaliere, M.S.P.T., C.S.C.S.
+  https://peterattiamd.com/jeffcavaliere/
 
-[ideas] Marginal Revolution: William Nordhaus, RIP
-  https://marginalrevolution.com/marginalrevolution/2026/10/william-nordhaus-rip.html?utm_source=rss&utm_medium=rss&utm_campaign=william-nordhaus-rip
+[health] Peter Attia: Who is actually at risk for CTE?
+  https://peterattiamd.com/who-is-actually-at-risk-for-cte/
 
-[ideas] Marginal Revolution: And so it begins…
-  https://marginalrevolution.com/marginalrevolution/2026/10/and-so-it-begins-2.html?utm_source=rss&utm_medium=rss&utm_campaign=and-so-it-begins-2
-
-[ideas] Marginal Revolution: Saturday assorted links
-  https://marginalrevolution.com/marginalrevolution/2026/10/saturday-assorted-links-584.html?utm_source=rss&utm_medium=rss&utm_campaign=saturday-assorted-links-584
+[ideas] Stratechery: Google Earnings, Facebook Déjà Vu, The Agent Play
+  https://stratechery.com/2026/google-earnings-facebook-deja-vu-the-agent-play/
 
 [ideas] Stratechery: 2026.44: At Long Last…
   https://stratechery.com/2026/at-long-last/
-
-[ideas] Stratechery: Sharp Tech on Video: Anthropic’s S-1 and What It Means for Meta and Muse, You Can See Everything, and Brewers!
-  https://stratechery.com/2026/sharp-tech-on-video-anthropics-s-1-and-what-it-means-for-meta-and-muse-you-can-see-everything-and-brewers/
-
-[ai] Simon Willison: How We Took Over ChatGPT Accounts
-  https://simonwillison.net/2026/Oct/31/how-we-took-over-chatgpt-accounts/
-
-[ai] Simon Willison: datasette-llm 0.1a9
-  https://simonwillison.net/2026/Oct/31/datasette-llm/
-
-[ai] Simon Willison: dbreunig/nesformer
-  https://simonwillison.net/2026/Oct/30/nesformer/
-
-[ai] Simon Willison: API credits benefit for eligible ChatGPT subscriptions
-  https://simonwillison.net/2026/Oct/29/api-credits/
-
-[ai] Simon Willison: Building a multiplayer game world with autonomous Fable-class models
-  https://simonwillison.net/2026/Oct/29/how-i-built-the-most-ai-pilled-company-in-the-world/
-
-[wisdom] Figs in Winter (Pigliucci): Suggested Readings
-  https://figsinwintertime.substack.com/p/suggested-readings-085
-
-[wisdom] Figs in Winter (Pigliucci): How to care with Shantideva
-  https://figsinwintertime.substack.com/p/how-to-care-with-shantideva
-
-[wisdom] Figs in Winter (Pigliucci): Epictetus argues against the death penalty
-  https://figsinwintertime.substack.com/p/epictetus-argues-against-the-death
-
-[ideas] Paul Graham: Making Startups Powerful
-  https://paulgraham.com/powerful.html
-
-[ai] OpenAI Blog: Making it easier for websites to express AI training preferences
-  https://openai.com/index/helping-websites-express-ai-training-preferences
-
-[ai] OpenAI Blog: Community safety report and new protections for teens
-  https://openai.com/index/community-safety-report-and-new-protections-for-teens
-
-[ai] OpenAI Blog: Fair use benefits everyone
-  https://openai.com/index/fair-use-benefits-everyone
-
-[ai] OpenAI Blog: An updated Model Spec for more capable and beneficial AI
-  https://openai.com/index/updated-model-spec
 
 [bitcoin] Bitcoin Magazine: MSTR Q3 2026 Earnings Call: Analyst Q&A
   https://bitcoinmagazine.com/videos/mstr-q3-2026-earnings-call-analyst-qa
@@ -199,20 +169,38 @@
 [bitcoin] Bitcoin Magazine: Doomberg: US Treasury Sanctions are “Wildly Bullish” for Bitcoin & Gold
   https://bitcoinmagazine.com/videos/doomberg-us-treasury-sanctions-are-wildly-bullish-for-bitcoin-gold
 
+[bitcoin] The Pomp Letter: Binance $6B Hack: Why Bitcoin Only Fell 5% (And What It Means for 2027)
+  https://pomp.substack.com/p/binance-6b-hack-why-bitcoin-only
+
+[wisdom] Figs in Winter (Pigliucci): Suggested Readings
+  https://figsinwintertime.substack.com/p/suggested-readings-085
+
+[wisdom] Figs in Winter (Pigliucci): How to care with Shantideva
+  https://figsinwintertime.substack.com/p/how-to-care-with-shantideva
+
+[wisdom] Figs in Winter (Pigliucci): Epictetus argues against the death penalty
+  https://figsinwintertime.substack.com/p/epictetus-argues-against-the-death
+
+[ideas] Astral Codex Ten: Open Thread 458
+  https://www.astralcodexten.com/p/open-thread-458
+
 [ideas] Astral Codex Ten: Your Book Review: The History And Adventures Of An Atom
   https://www.astralcodexten.com/p/your-book-review-the-history-and
 
-[ideas] Astral Codex Ten: Links For October 2026
-  https://www.astralcodexten.com/p/links-for-october-2026
+[ideas] Marginal Revolution: Should you feel grief for the dead who go to heaven?
+  https://marginalrevolution.com/marginalrevolution/2026/11/should-you-feel-grief-for-the-dead-who-go-to-heaven.html?utm_source=rss&utm_medium=rss&utm_campaign=should-you-feel-grief-for-the-dead-who-go-to-heaven
 
-[wisdom] Donald Robertson: The wise man invests his time in self-improvement...
-  https://donaldrobertson.substack.com/p/the-wise-man-invests-his-time-in
+[ideas] Marginal Revolution: As predicted, the ACA exchanges seem not to be stable
+  https://marginalrevolution.com/marginalrevolution/2026/11/as-predicted-the-aca-exchanges-seem-not-to-be-stable.html?utm_source=rss&utm_medium=rss&utm_campaign=as-predicted-the-aca-exchanges-seem-not-to-be-stable
 
-[wisdom] Donald Robertson: How to use Rational Emotive Imagery
-  https://donaldrobertson.substack.com/p/how-to-use-rational-emotive-imagery
+[ideas] Marginal Revolution: Sunday assorted links
+  https://marginalrevolution.com/marginalrevolution/2026/11/sunday-assorted-links-588.html?utm_source=rss&utm_medium=rss&utm_campaign=sunday-assorted-links-588
 
-[wisdom] Donald Robertson: Video: Watch Stoicon 2026
-  https://donaldrobertson.substack.com/p/video-watch-stoicon-2026
+[ideas] Marginal Revolution: What are the Worst MR Posts?
+  https://marginalrevolution.com/marginalrevolution/2026/11/what-are-the-worst-mr-posts.html?utm_source=rss&utm_medium=rss&utm_campaign=what-are-the-worst-mr-posts
+
+[ideas] Marginal Revolution: Those new service sector jobs?
+  https://marginalrevolution.com/marginalrevolution/2026/11/those-new-service-sector-jobs-18.html?utm_source=rss&utm_medium=rss&utm_campaign=those-new-service-sector-jobs-18
 
 
 === YOUTUBE ===
@@ -220,24 +208,80 @@ Paul Saladino MD: Doctor Reacts to Alan Ritchson's Extreme Diet
   https://www.youtube.com/watch?v=V8OkGz-bAYM
   Transcript: yes
 
-Ken Berry MD: "If meat and eggs reversed type 2 diabetes, the government would tell us."
-  https://www.youtube.com/shorts/hp54ogZnxWo
+Anthony Chaffee MD: Supplementing On The Carnivore Diet
+  https://www.youtube.com/shorts/y2xnfmKT4-Q
+  Transcript: yes
+
+Ken Berry MD: We Have Heart Disease Backwards with Nick Norwitz
+  https://www.youtube.com/watch?v=i9dYXbMMBKU
   Transcript: yes
 
 GTO Wizard: Is every hand playable? PLO Preflop mechanics #shorts
   https://www.youtube.com/shorts/0g2IttfuTKM
   Transcript: NO
 
-Anthony Chaffee MD: We Didn't Develop To Our GENETIC Potential -
-  https://www.youtube.com/shorts/jG-i-OTTLt0
-  Transcript: yes
-
 Joe Rogan: Joe Rogan Experience #2574 - Francis Foster & Konstantin Kisin
   https://www.youtube.com/watch?v=a2K-AHeZ3o0
   Transcript: yes
 
-Nick Norwitz: The #1 Reason To Nose Breath
-  https://www.youtube.com/shorts/Ktt1l56Ht8s
+Nick Norwitz: How To Reduce Your Biological Age in 15 Days
+  https://www.youtube.com/shorts/CpNsPqsw8m0
+  Transcript: yes
+
+Nick Norwitz: Are Beets the Best Food for Blood Flow?
+  https://www.youtube.com/shorts/kJzU39akt1U
+  Transcript: yes
+
+Nick Norwitz: How to Get the Best Blood Flow of Your Life
+  https://www.youtube.com/watch?v=NlarD_GAgNY
+  Transcript: yes
+
+Nick Norwitz: Your Body Can Do THIS to Sugar
+  https://www.youtube.com/shorts/771zI6E7Vs4
+  Transcript: yes
+
+Nick Norwitz: Does LDL Really Cause Heart Disease?
+  https://www.youtube.com/shorts/jq8VqtFxc6s
+  Transcript: yes
+
+Nick Norwitz: How to Make Your Cells Immortal (I Couldn't Believe It!)
+  https://www.youtube.com/watch?v=h3Sav_SBYj4
+  Transcript: yes
+
+Nick Norwitz: Eat Your Potatoes Cold
+  https://www.youtube.com/shorts/KKa-3eNYFp8
+  Transcript: yes
+
+Nick Norwitz: Why Are People Doing Olive Oil Shots?
+  https://www.youtube.com/shorts/gbGXFc2bfHU
+  Transcript: yes
+
+Nick Norwitz: What People Get Wrong About Lp(a)
+  https://www.youtube.com/shorts/vPbBZ6d4XfM
+  Transcript: yes
+
+Nick Norwitz: The Focus Trick I Wish I Knew Sooner
+  https://www.youtube.com/watch?v=DRffW43GmbA
+  Transcript: yes
+
+Nick Norwitz: Healthy Things That Are Really Unhealthy
+  https://www.youtube.com/shorts/zUQYiHSPScM
+  Transcript: yes
+
+Nick Norwitz: What Happens When You Eat Blueberries vs Syrup?
+  https://www.youtube.com/shorts/-LNKhxq179o
+  Transcript: yes
+
+Nick Norwitz: The Weirdest GLP-1 Weight-Loss Paradox
+  https://www.youtube.com/shorts/G90OAXgxe9U
+  Transcript: yes
+
+Nick Norwitz: How He Lost 50 lbs of Fat AND Built 26 lbs of Muscle
+  https://www.youtube.com/watch?v=6gFxc0fP9GQ
+  Transcript: yes
+
+Nick Norwitz: Fermented Foods vs. Fiber—Who Wins?
+  https://www.youtube.com/shorts/ejwujHhcPXc
   Transcript: yes
 
 GTO Lab: Poker Is Soft Again: Mystery Bounty Tools, Live
@@ -252,8 +296,8 @@ Lex Fridman: AI Crisis in Math: Navier-Stokes, Riemann Hypothesis & Complexity T
   https://www.youtube.com/watch?v=ZAzWPE9CItg
   Transcript: yes
 
-Thomas DeLauer: I've Changed My Mind on Fish Oil, Creatine and Fasting
-  https://www.youtube.com/watch?v=TICeT9yT0g4
+Thomas DeLauer: This Compound Builds Muscle Over Age 40 (by Stopping Muscle Loss)
+  https://www.youtube.com/watch?v=pQDuo3-6Yxk
   Transcript: yes
 
 Dr. Sten Ekberg: 10 Sepsis Signs You Should NEVER Ignore
@@ -264,28 +308,20 @@ Renaissance Periodization: Larry Wheels Benched 405 for 32 Reps!
   https://www.youtube.com/shorts/0_YYAyaNONg
   Transcript: yes
 
+ModernWisdom: What Death Reveals About Life - Robert Greene
+  https://www.youtube.com/watch?v=bSULVW0u1GM
+  Transcript: yes
+
+Peter Attia: 414 ‒ Resistance training as we age: exercise selection, training intensity, and much more
+  https://www.youtube.com/watch?v=8IuHv7nYkDs
+  Transcript: yes
+
 Andrew Huberman: WHEN TO *NOT* TRUST YOUR THOUGHTS
   https://www.youtube.com/shorts/FNbTA_W9B5o
   Transcript: yes
 
-Peter Attia: Peter’s current thoughts on rapamycin
-  https://www.youtube.com/shorts/TvNnPreLcow
-  Transcript: yes
-
 ThinkingPoker: Bankroll Management - Thinking Poker
   https://www.youtube.com/watch?v=6w8amkDkeVw
-  Transcript: yes
-
-ModernWisdom: Why World War II Was So Traumatic
-  https://www.youtube.com/shorts/DI6Vf3ybTdQ
-  Transcript: yes
-
-ModernWisdom: How To Know When To Leave
-  https://www.youtube.com/shorts/pBLpwSuB8a8
-  Transcript: yes
-
-ModernWisdom: The Most Unhinged Path To Success - James Smith
-  https://www.youtube.com/watch?v=3FULQiLpRfk
   Transcript: yes
 
 Ben Felix: Breaking Down My Investment Portfolio
