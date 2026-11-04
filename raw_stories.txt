@@ -1,128 +1,98 @@
 === HACKER NEWS ===
-1. [2680 pts] Astra can read and write weights to improve Qwen
-   https://rikiyat.github.io/blog/weight-space-programming/
+1. [361 pts] Residential proxies detected on White House network
+   https://layer3intel.com/blog/residential-proxies-white-house-network
 
-2. [77 pts] Nvidia – open-source auto-ontology
-   https://github.com/NVIDIA/auto-ontology
+2. [108 pts] Insects don't swarm at LED lights
+   https://www.birdsoutsidemywindow.org/2026/11/03/insects-dont-swarm-at-led-lights/
 
-3. [89 pts] Toit v2.0.0
-   https://toit.io/blog/toit-v2-0-0/
+3. [164 pts] Ripple-65B Preview: U.S. Open-Weight SOTA on Agentic Coding
+   https://www.ricursive.com/ripple
 
-4. [291 pts] Show HN: Hacker Times, a New York Times-inspired version of Hacker News
-   https://hackertimes.ca/
+4. [979 pts] AI is forcing us to pay off 40 years of technical debt
+   https://spectrum.ieee.org/ai-in-cybersecurity-php2shell-vulnerability
 
-5. [224 pts] DiscImageStudio: burn visible artwork onto CDs, DVDs and Blu-ray discs
-   https://github.com/JiaFeiMiao-K-Cat/DiscImageStudio
+5. [174 pts] A new Go API for JSON
+   https://go.dev/blog/jsonv2
 
-6. [120 pts] European RISC-V Industrial Computing Initiative
-   https://erici.eu
+6. [65 pts] Qualcomm Cloud AI 100 Ultra – 150W AI Accelerator Card with 128GB at 548GB/s
+   https://www.qualcomm.com/data-center/products/cloud-ai-100-ultra
 
-7. [707 pts] Show HN: Subvocal – Talk to your computer without making noise
-   https://news.ycombinator.com/item?id=50340088
+7. [9 pts] Hacking the Xbox 360 Hypervisor Part 3: Bad Update Improvements
+   https://icode4.coffee/?p=1746
 
-8. [56 pts] Efficient algorithms, the Exponential Time Hypothesis, and losing the plot
-   https://www.argmin.net/p/galactus-the-devourer
+8. [152 pts] Progress on provable inference for large language models
+   https://www.anthropic.com/research/provable-inference
 
-9. [184 pts] Resisting Cognitive Surrender
-   https://knlb.dev/essays/surrender
+9. [569 pts] Nvidia RTX Spark encrypted firmware slows inference speed to 35% on Linux
+   https://www.mindstudio.ai/blog/linux-nvidia-rtx-spark-laptop
 
-10. [410 pts] US boy names that became girl names and vice versa
-   https://namedaisy.com/blog/boy-names-that-became-girl-names
+10. [67 pts] Show HN: After a decade of reversing, I got co-op working in DOS Wing Commander
+   https://fireflyk64.github.io/wcmulti/
 
-11. [558 pts] If you love a website, back it up
-   https://blog.mistys-internet.website/post/2026/10/29/if-you-love-a-website-back-it-up/
+11. [62 pts] Conductor Is Joining Meta
+   https://www.conductor.build/announcement
 
-12. [13 pts] Vathographs: Photographic depth maps as creative expression
-   https://vathography.com/
+12. [57 pts] Launch HN: Kino AI (YC S23) – AI media manager and video editor
+   https://news.ycombinator.com/item?id=50368804
 
-13. [235 pts] Self-Employed? Solopreneur? NIST Has a Cybersecurity Guide Just for You
-   https://www.nist.gov/news-events/news/2026/11/self-employed-solopreneur-nist-has-cybersecurity-guide-just-you
+13. [140 pts] OpenAI to acquire Pierre Computer Company
+   https://openai.com/index/openai-to-acquire-pierre/
 
-14. [10 pts] Optical Circuit Switch Technology Built on Low-Loss Silicon Photonics Platform
-   https://www.psiquantum.com/news-import/psiquantum-unveils-optical-circuit-switch-technology-built-on-advanced-low-loss-silicon-photonics-platform
+14. [157 pts] Tencent Hy4
+   https://hy.tencent.ai/research/hy4
 
-15. [146 pts] Launch HN: Momentic (YC W24) – Agents that catch bugs by using your app
-   https://momentic.ai/
+15. [20 pts] Ask HN: What Cryptography book do you recommend for reading with 10 year olds?
+   https://news.ycombinator.com/item?id=50347425
 
-16. [38 pts] Open-Source 5G Ran Platforms: A Dual Perspective on Performance and Capabilities
-   https://arxiv.org/abs/2608.25820
+16. [414 pts] AMD expects to outsell Intel in Q4 for the first time in history
+   https://www.tomshardware.com/pc-components/cpus/amd-expects-to-outsell-intel-in-q4-for-the-first-time-in-history-usd17b-guidance-would-exceed-intels-projections
 
-17. [279 pts] Show HN: Warsaw in voxels – An interactive 3D map of the city centre
-   https://p.migdal.pl/warsaw-vibe-voxel/
+17. [16 pts] Ask HN: What your experience with the monthly "who wants to be hired" thread?
+   https://news.ycombinator.com/item?id=50372294
 
-18. [29 pts] Revolut moves to self-hosted GLM
-   https://twitter.com/guilleflorvs/status/2117379073785696395
+18. [214 pts] Verification Is Not Knowledge: Science needs more than answers
+   https://blog.cosmos-institute.org/p/verification-is-not-knowledge
 
-19. [3 pts] Katamari Damacy but it's The Met collection
-   https://katamari.vaguespac.es/
+19. [533 pts] North Korean fake job interview led to $6.3B Binance heist
+   https://www.theregister.com/security/2026/11/03/north-korean-fake-job-interview-led-to-63b-binance-heist/5307398
 
-20. [86 pts] uBlock Origin filter to block autoplay videos in TechCrunch
-   https://cornfieldlabs.github.io/posts/ublock-stop-techcrunch-autoplay-video/post.html
+20. [243 pts] Incident with Pull Requests, Git Operations and Issues
+   https://www.githubstatus.com/incidents/smtdswd1h2w4
 
-21. [69 pts] Shrinking NixOS RAM footprint and resource requirements to the bare minimum
-   https://lowendspirit.com/discussion/11543/shrinking-nixos-ram-footprint-and-resource-requirements-to-the-bare-minimum
+21. [5 pts] Show HN: The DNA of DOOM – How code structure survives across 44 ports
+   https://squid-protocol.github.io/gitgalaxy/museum-of-code/doom-dna/
 
-22. [233 pts] Scaling Git at OpenAI
-   https://openai.com/index/scaling-git-at-openai/
+22. [593 pts] Tell HN: Gemini trains on chat history, even for subscribers (personal accounts)
+   https://news.ycombinator.com/item?id=50363461
 
-23. [39 pts] Show HN: I built a little browser game to practice Vim commands
-   https://hjkl.duy.run
+23. [300 pts] Kimi K3.1 Pro model weights are out
+   https://huggingface.co/moonshotai/Kimi-K3.1-Pro
 
-24. [220 pts] Ask HN: Who is hiring? (November 2026)
-   https://news.ycombinator.com/item?id=50338728
+24. [82 pts] Show HN: I built a tool that prices a prebuilt PC part by part
+   https://pcdealcheck.com/
 
-25. [164 pts] Egoless Mathematics in the AI Era
-   https://terrytao.wordpress.com/2026/11/02/egoless-mathematics-in-the-ai-era/
+25. [36 pts] If you're on Replit Pro, you have until November 8 to opt out of arbitration
+   https://readthediff.substack.com/p/replit-pro-arbitration-opt-out-november-8
 
-26. [78 pts] SLAC researchers find proof of altermagnetism, a new magnetic phase
-   https://www6.slac.stanford.edu/news/2026-10-29-slac-researchers-find-proof-altermagnetism-new-magnetic-phase
+26. [230 pts] Guerrilla bike lanes: San Francisco makes illicit infrastructure permanent (2016)
+   https://99percentinvisible.org/article/guerrilla-bike-lanes-san-francisco-makes-illicit-infrastructure-permanent/
 
-27. [137 pts] Polyend releases the Tracker firmware source code
-   https://polyend.com/whats-up/tracker-the-biggest-update-yet/
+27. [94 pts] Evergreen: A Provably Safe Systems Language
+   https://evergreenlang.net
 
-28. [362 pts] The SEC Should Block Anthropic's IPO to Protect the Public
-   https://www.techpolicy.press/the-sec-should-block-anthropics-ipo-to-protect-the-public/
+28. [24 pts] From wild to mild: Friendly foxes show changes in brain region
+   https://news.cornell.edu/stories/2026/11/wild-mild-friendly-foxes-show-changes-brain-region
 
-29. [526 pts] Ubuntu still has not released patch for Linux 0day RCE in almost 3 weeks
-   https://freenode.net/article/ubuntu-lts-kernels-still-unfixed-for-critical-cve-2026-98432
+29. [26 pts] Benchfmt.rs: Bringing Go's benchmarking and benchstat workflow to Rust
+   https://www.bwplotka.dev/2026/rust-microbenchmarks-benchstat/
 
-30. [1532 pts] WTF Ubuntu?
-   https://chalmovsky.com/posts/wtf-ubuntu
+30. [89 pts] Everything is an AI scam now
+   https://www.davidralphlewis.co.uk/posts/everything-is-an-ai-scam-now/
 
 
 === RSS ===
-[ideas] Stratechery: Google Earnings, Facebook Déjà Vu, The Agent Play
-  https://stratechery.com/2026/google-earnings-facebook-deja-vu-the-agent-play/
-
-[wisdom] Figs in Winter (Pigliucci): Suggested Readings
-  https://figsinwintertime.substack.com/p/suggested-readings-085
-
-[wisdom] Figs in Winter (Pigliucci): How to care with Shantideva
-  https://figsinwintertime.substack.com/p/how-to-care-with-shantideva
-
-[wisdom] Figs in Winter (Pigliucci): Epictetus argues against the death penalty
-  https://figsinwintertime.substack.com/p/epictetus-argues-against-the-death
-
-[ideas] Marginal Revolution: The economics of tips
-  https://marginalrevolution.com/marginalrevolution/2026/11/the-economics-of-tips.html?utm_source=rss&utm_medium=rss&utm_campaign=the-economics-of-tips
-
-[ideas] Marginal Revolution: Are economists declining in status?
-  https://marginalrevolution.com/marginalrevolution/2026/11/are-economists-declining-in-status.html?utm_source=rss&utm_medium=rss&utm_campaign=are-economists-declining-in-status
-
-[ideas] Marginal Revolution: *Fjord* and *Fatherland*
-  https://marginalrevolution.com/marginalrevolution/2026/11/fjord-and-fatherland.html?utm_source=rss&utm_medium=rss&utm_campaign=fjord-and-fatherland
-
-[ideas] Marginal Revolution: Monday assorted links
-  https://marginalrevolution.com/marginalrevolution/2026/11/monday-assorted-links-584.html?utm_source=rss&utm_medium=rss&utm_campaign=monday-assorted-links-584
-
-[ideas] Marginal Revolution: Expensive Pharmaceuticals for Targeted Diseases
-  https://marginalrevolution.com/marginalrevolution/2026/11/expensive-pharmaceuticals-for-targeted-diseases.html?utm_source=rss&utm_medium=rss&utm_campaign=expensive-pharmaceuticals-for-targeted-diseases
-
-[health] Peter Attia: #414 ‒ Resistance training as we age: optimizing exercise selection and training intensity for muscle growth, function, and injury risk management | Jeff Cavaliere, M.S.P.T., C.S.C.S.
-  https://peterattiamd.com/jeffcavaliere/
-
-[health] Peter Attia: Who is actually at risk for CTE?
-  https://peterattiamd.com/who-is-actually-at-risk-for-cte/
+[ideas] Paul Graham: Making Startups Powerful
+  https://paulgraham.com/powerful.html
 
 [ai] Anthropic News: AI for Science expands to foundations and research institutions
   https://www.anthropic.com/news/ai-for-science-expands-foundations-research-institutions
@@ -139,59 +109,92 @@
 [ai] Anthropic News: Open call for guest investigators in the life sciences
   https://www.anthropic.com/news/open-call-guest-investigators-life-sciences
 
+[wisdom] Figs in Winter (Pigliucci): Do we need to take reincarnation seriously? – Part I
+  https://figsinwintertime.substack.com/p/do-we-need-to-take-reincarnation
+
+[wisdom] Figs in Winter (Pigliucci): Suggested Readings
+  https://figsinwintertime.substack.com/p/suggested-readings-085
+
+[wisdom] Figs in Winter (Pigliucci): How to care with Shantideva
+  https://figsinwintertime.substack.com/p/how-to-care-with-shantideva
+
 [ideas] Astral Codex Ten: Open Thread 458
   https://www.astralcodexten.com/p/open-thread-458
+
+[health] Peter Attia: #414 ‒ Resistance training as we age: optimizing exercise selection and training intensity for muscle growth, function, and injury risk management | Jeff Cavaliere, M.S.P.T., C.S.C.S.
+  https://peterattiamd.com/jeffcavaliere/
+
+[ideas] Marginal Revolution: What Drives Censorship on College Campuses?
+  https://marginalrevolution.com/marginalrevolution/2026/11/what-drives-censorship-on-college-campuses.html?utm_source=rss&utm_medium=rss&utm_campaign=what-drives-censorship-on-college-campuses
+
+[ideas] Marginal Revolution: Wednesday assorted links
+  https://marginalrevolution.com/marginalrevolution/2026/11/wednesday-assorted-links-578.html?utm_source=rss&utm_medium=rss&utm_campaign=wednesday-assorted-links-578
+
+[ideas] Marginal Revolution: The election
+  https://marginalrevolution.com/marginalrevolution/2026/11/the-election.html?utm_source=rss&utm_medium=rss&utm_campaign=the-election
+
+[ideas] Marginal Revolution: Trade and the end of antiquity, or did Islam serve to deglobalize the world?
+  https://marginalrevolution.com/marginalrevolution/2026/11/trade-and-the-end-of-antiquity-or-did-islam-serve-to-deglobalize-the-world.html?utm_source=rss&utm_medium=rss&utm_campaign=trade-and-the-end-of-antiquity-or-did-islam-serve-to-deglobalize-the-world
+
+[ideas] Marginal Revolution: Ireland fact of the day
+  https://marginalrevolution.com/marginalrevolution/2026/11/ireland-fact-of-the-day-8.html?utm_source=rss&utm_medium=rss&utm_campaign=ireland-fact-of-the-day-8
+
+[bitcoin] The Pomp Letter: Democrats just won big. Here’s what it means for your portfolio.
+  https://pomp.substack.com/p/democrats-just-won-big-heres-what
+
+[bitcoin] The Pomp Letter: Investors, here’s your midterm playbook
+  https://pomp.substack.com/p/investors-heres-your-midterm-playbook
 
 [bitcoin] The Pomp Letter: The Two Most Unpopular Trades in the Market Right Now: Bitcoin/Gold and the AI Barbell
   https://pomp.substack.com/p/the-two-most-unpopular-trades-in
 
-[ai] Simon Willison: I discovered a sound that leaks your exact location (and it's everywhere) - YouTube
-  https://simonwillison.net/2026/Nov/3/a-sound-that-leaks-your-exact-location/
+[ai] Simon Willison: datasette-llm 0.1a10
+  https://simonwillison.net/2026/Nov/4/datasette-llm/
 
-[ai] Simon Willison: October sponsors-only newsletter
-  https://simonwillison.net/2026/Nov/3/october-newsletter/
+[ai] Simon Willison: datasette-apps 0.3a0
+  https://simonwillison.net/2026/Nov/4/datasette-apps/
 
-[ai] Simon Willison: llm 0.37
-  https://simonwillison.net/2026/Nov/2/llm/
+[ai] Simon Willison: datasette-agent 0.5a0
+  https://simonwillison.net/2026/Nov/3/datasette-agent/
 
-[ai] Simon Willison: The U.S. Census Bureau and “Super Intelligence”
-  https://simonwillison.net/2026/Nov/2/census-bureau-super-intelligence/
+[ai] Simon Willison: llm 0.37.1
+  https://simonwillison.net/2026/Nov/3/llm/
 
-[ai] Simon Willison: If in doubt, delete the uv.lock file
-  https://simonwillison.net/2026/Nov/1/delete-uv-lock-first/
+[ai] Simon Willison: Qwen 3.8 27B on my laptop can interpret model weights, too
+  https://simonwillison.net/2026/Nov/3/qwen-can-interpret-model-weights/
 
-[ai] OpenAI Blog: Heimstaden is changing residential real estate management with AI
-  https://openai.com/index/heimstaden
+[ideas] Stratechery: AI on the Ballot
+  https://stratechery.com/2026/ai-on-the-ballot/
 
-[ai] OpenAI Blog: Scaling Git at OpenAI
-  https://openai.com/index/scaling-git-at-openai
+[ideas] Stratechery: Apple Earnings, Memory Problems, The Hardware Company Regression
+  https://stratechery.com/2026/apple-earnings-memory-problems-the-hardware-company-regression/
 
-[ai] OpenAI Blog: Introducing the Grid Protectors Program
-  https://openai.com/index/grid-protectors-program
+[ideas] Stratechery: Google Earnings, Facebook Déjà Vu, The Agent Play
+  https://stratechery.com/2026/google-earnings-facebook-deja-vu-the-agent-play/
 
-[ai] OpenAI Blog: Rewarding defenders with bigger bug bounties
-  https://openai.com/index/rewarding-defenders-with-bigger-bug-bounties
+[bitcoin] Bitcoin Magazine: Judge Lets Stock Perpetual Futures Keep Trading but Says CFTC Likely Overstepped Its Authority
+  https://bitcoinmagazine.com/news/judge-lets-stock-perps-keep-trading-cftc
 
-[ai] OpenAI Blog: Preparing our next security sprint to harden OpenAI
-  https://openai.com/index/preparing-our-next-security-sprint-to-harden-openai
+[bitcoin] Bitcoin Magazine: Huizenga Loses House Seat Despite $1 Million From Crypto PAC Fairshake
+  https://bitcoinmagazine.com/news/huizenga-loses-despite-fairshake
 
-[bitcoin] Bitcoin Magazine: Nvidia, Nike Join 50 Companies Blocking OKX–ICE Stock Token Push
-  https://bitcoinmagazine.com/news/50-companies-blocks-okx-ice-token
+[bitcoin] Bitcoin Magazine: French Bank Credit Mutuel Arkea Confirms Cyberattack as ZachXBT Puts Losses Above $133 Million
+  https://bitcoinmagazine.com/news/credit-mutuel-arkea-hack-133-million
 
-[bitcoin] Bitcoin Magazine: Brazil’s Mercado Bitcoin Freezes Deposits and Withdrawals Due to Ongoing Security Incident, Losses Estimated Near $40 Million
-  https://bitcoinmagazine.com/news/brazils-mercado-bitcoin-freezes-40-million
+[bitcoin] Bitcoin Magazine: House Democrats Eye Their Own Crypto Market Structure Bill With a Bigger SEC Role After Sweep
+  https://bitcoinmagazine.com/news/house-democrats-crypto-market-structure
 
-[bitcoin] Bitcoin Magazine: Binance Reopens Withdrawals as Hack Recovery Enters Second Week
-  https://bitcoinmagazine.com/news/binance-reopens-withdrawals-hack
+[bitcoin] Bitcoin Magazine: Bitcoin Price Holds Near $80,000 as Democratic Sweep Sparks Short Squeeze
+  https://bitcoinmagazine.com/markets/bitcoin-price-holds-near-80000-short
 
-[bitcoin] Bitcoin Magazine: Bitwise’s André Dragosch: Bitcoin’s “Fair Value” of $197,000
-  https://bitcoinmagazine.com/videos/bitwises-andre-dragosch-bitcoins-fair-value-of-197000
+[bitcoin] Bitcoin Magazine: Matt Corallo Flags Critical Linux Kernel Flaw; Lightning Labs Ships LND Mitigation
+  https://bitcoinmagazine.com/news/matt-corallo-flags-critical-linux-kernel-flaw-lightning-labs-ships-lnd-mitigation
 
-[bitcoin] Bitcoin Magazine: Adam Back: Pension Funds Are Bitcoin’s “Third Wave” of Adoption
-  https://bitcoinmagazine.com/videos/adam-back-pension-funds-are-bitcoins-third-wave-of-adoption
+[bitcoin] Bitcoin Magazine: Strategy’s STRC Hits $100 Par for First Time Since May After Over $2 Billion in Buybacks
+  https://bitcoinmagazine.com/news/strategys-strc-hits-100-par-may
 
-[bitcoin] Bitcoin Magazine: Strategy (MSTR) Adds 811 Bitcoin, Strive (ASST) Follows Suit With 124 as Both Keep Stacking
-  https://bitcoinmagazine.com/news/strategy-mstr-adds-811-bitcoin-strive-too
+[bitcoin] Bitcoin Magazine: Jack Dorsey’s Block (XYZ) Sets Aside $764 Million for DOJ Settlement as Bitcoin Profit Halves
+  https://bitcoinmagazine.com/news/block-xyz-sets-aside-764-million
 
 [wisdom] Donald Robertson: The wise man invests his time in self-improvement...
   https://donaldrobertson.substack.com/p/the-wise-man-invests-his-time-in
@@ -202,8 +205,20 @@
 [wisdom] Donald Robertson: Video: Watch Stoicon 2026
   https://donaldrobertson.substack.com/p/video-watch-stoicon-2026
 
-[ideas] Paul Graham: Making Startups Powerful
-  https://paulgraham.com/powerful.html
+[ai] OpenAI Blog: OpenAI to acquire Pierre Computer Company, Inc.
+  https://openai.com/index/openai-to-acquire-pierre
+
+[ai] OpenAI Blog: Daybreak Red is now available in AWS GovCloud (US-East)
+  https://openai.com/index/daybreak-red-aws-govcloud
+
+[ai] OpenAI Blog: A thousand fewer paths to root
+  https://openai.com/index/a-thousand-fewer-paths-to-root
+
+[ai] OpenAI Blog: DevRev delivers autonomous self-service with GPT-6.1 Sol
+  https://openai.com/index/devrev-enterprise-self-service
+
+[ai] OpenAI Blog: Accelerating engineering for the physical world
+  https://openai.com/index/accelerating-engineering-for-the-physical-world
 
 
 === YOUTUBE ===
@@ -211,107 +226,147 @@ Anthony Chaffee MD: Supplementing On The Carnivore Diet
   https://www.youtube.com/shorts/y2xnfmKT4-Q
   Transcript: yes
 
+Paul Saladino MD: The difference between cheap and expensive eggs 👀
+  https://www.youtube.com/shorts/KOfSyWEy0eM
+  Transcript: yes
+
+Paul Saladino MD: I Strongly Believe Limiting Exposure to These Chemicals is Key to Radical Health
+  https://www.youtube.com/shorts/VxUS5jWj-gg
+  Transcript: yes
+
+Ken Berry MD: Ask your doctor "why?" and watch what happens.
+  https://www.youtube.com/shorts/SYYsmI1_CHY
+  Transcript: yes
+
+Ken Berry MD: I guarantee your doctor's office is checking your blood pressure wrong…
+  https://www.youtube.com/shorts/OWqVpXKYcKY
+  Transcript: yes
+
+Ken Berry MD: We've been told that fiber is necessary for a healthy gut microbiome. But is that actually true?
+  https://www.youtube.com/shorts/kJEtCDE1QZc
+  Transcript: yes
+
+Ken Berry MD: Dr. Shawn Baker saw the same thing as an orthopedic surgeon. Watch the full conversation.
+  https://www.youtube.com/shorts/NZ5RhFNB-sM
+  Transcript: yes
+
+Ken Berry MD: Are vegetables REALLY as healthy as you've been told?
+  https://www.youtube.com/shorts/7CY5GmCfG8k
+  Transcript: yes
+
+Ken Berry MD: You deserve the full picture before taking any medicine for years. Full video on the channel.
+  https://www.youtube.com/shorts/tFYgwc3fQuc
+  Transcript: yes
+
 GTO Wizard: Is every hand playable? PLO Preflop mechanics #shorts
   https://www.youtube.com/shorts/0g2IttfuTKM
   Transcript: NO
 
-Paul Saladino MD: Doctor Reacts to Alan Ritchson's Extreme Diet
-  https://www.youtube.com/watch?v=V8OkGz-bAYM
+Nick Norwitz: How to Activate Brown Fat for Better Health!
+  https://www.youtube.com/shorts/TBaAEwtYeC4
   Transcript: yes
 
-Nick Norwitz: Could This Probiotic Make Ozempic Obsolete?
-  https://www.youtube.com/watch?v=wJ72xlhdpoQ
-  Transcript: yes
-
-Joe Rogan: Joe Rogan Experience #2574 - Francis Foster & Konstantin Kisin
-  https://www.youtube.com/watch?v=a2K-AHeZ3o0
-  Transcript: yes
-
-Ken Berry MD: STOP Doing These 7 Things Before Bed - Monday Night Live with Dr. Berry & Nurse Neisha
-  https://www.youtube.com/watch?v=wAPtYuYYk-4
-  Transcript: yes
-
-Ken Berry MD: Your body doesn't treat nitrates like poison. It hangs on to them.
-  https://www.youtube.com/shorts/SrKQ_QoeWM0
-  Transcript: yes
-
-Ken Berry MD: Diets don't fail you. Starving does.
-  https://www.youtube.com/shorts/slhzuHyYdqU
-  Transcript: yes
-
-Ken Berry MD: "Uncured" bacon is still cured.
-  https://www.youtube.com/shorts/_Nc26LhKuIQ
-  Transcript: yes
-
-Ken Berry MD: Bacon Bad for You? The Nitrate Truth
-  https://www.youtube.com/watch?v=zbuDOoIx7q0
-  Transcript: yes
-
-Ken Berry MD: Many of the people who write those guidelines haven't read the newest research either.
-  https://www.youtube.com/shorts/HmCU2GeA5aU
-  Transcript: yes
-
-Thomas DeLauer: This Legal Fat Burner Works Better than Any Peptide (safer than steroids)
-  https://www.youtube.com/watch?v=1A5XU_lw5gI
-  Transcript: yes
-
-Thomas DeLauer: Restless Legs is a Warning Sign - Not a Sleep Problem (Do this to fix it)
-  https://www.youtube.com/watch?v=VLKVmYOUxAU
-  Transcript: yes
-
-Lex Fridman: AI Crisis in Math: Navier-Stokes, Riemann Hypothesis & Complexity Theory | Lex Fridman Podcast #503
-  https://www.youtube.com/watch?v=ZAzWPE9CItg
-  Transcript: yes
-
-GTO Lab: Poker Is Soft Again: Mystery Bounty Tools, Live
-  https://www.youtube.com/watch?v=jmPlsMbz3cc
-  Transcript: yes
-
-Renaissance Periodization: How Much Can You Improve Your Vertical Jump?
-  https://www.youtube.com/shorts/kZkwTShIaJk
-  Transcript: yes
-
-Renaissance Periodization: The Problem With Copying Fitness Influencer Workouts
-  https://www.youtube.com/watch?v=tGIVOCplrjQ
-  Transcript: yes
-
-Renaissance Periodization: Why Junk Food Is So Easy to Overeat
-  https://www.youtube.com/shorts/dPgUnulONK0
+GTO Lab: Mystery Bounty Is a Completely Different Game | Nick Petrangelo, Daniel Dvoress & Axel Hallay
+  https://www.youtube.com/watch?v=17QO6NohJ8E
   Transcript: yes
 
 Jared Alderman: "Poker Doesn't Work Without Exploits" - Uri Peleg
   https://www.youtube.com/watch?v=d18PasuKpnA
   Transcript: yes
 
+Thomas DeLauer: The Crazy Way I got Super Shredded in Less than 1 Month (not for faint of heart)
+  https://www.youtube.com/watch?v=11TaPC531bg
+  Transcript: yes
+
+Thomas DeLauer: People that Do This Within 30 Minutes of Waking are Leaner, Sharper and Less Inflamed
+  https://www.youtube.com/watch?v=dzu00ax9SJk
+  Transcript: yes
+
+Thomas DeLauer: This Natural Food Stops Hair from Thinning (regrows follicles)
+  https://www.youtube.com/watch?v=QluvCqlPvv4
+  Transcript: yes
+
+Lex Fridman: AI Crisis in Math: Navier-Stokes, Riemann Hypothesis & Complexity Theory | Lex Fridman Podcast #503
+  https://www.youtube.com/watch?v=ZAzWPE9CItg
+  Transcript: yes
+
+Joe Rogan: Joe Rogan Experience #2576 - Dr. Peter McCullough
+  https://www.youtube.com/watch?v=ml1hyhqBEJE
+  Transcript: yes
+
+Joe Rogan: Joe Rogan Experience #2575 - Sam Tallent
+  https://www.youtube.com/watch?v=y-ywxPcQQ3I
+  Transcript: yes
+
 Dr. Sten Ekberg: 10 Sepsis Signs You Should NEVER Ignore
   https://www.youtube.com/watch?v=NzhB7sNU31A
   Transcript: yes
 
-Peter Attia: 414 ‒ Resistance training as we age: exercise selection, training intensity, and much more
-  https://www.youtube.com/watch?v=8IuHv7nYkDs
+Renaissance Periodization: 30,000 People Studied. This Is How You Should Train.
+  https://www.youtube.com/watch?v=JT6PZdl3_k4
   Transcript: yes
 
-ModernWisdom: You Only Envy The Lives Of People Whose Sacrifices You Can't See
-  https://www.youtube.com/shorts/_I4Zn86mqKI
+Renaissance Periodization: THIS Is Why Pro Wrestling Is So Risky
+  https://www.youtube.com/shorts/ISgbSvlBP2I
   Transcript: yes
 
-ModernWisdom: Making Decisions Is Easy When You Do This - Joe Hudson
-  https://www.youtube.com/watch?v=xNwYaTf7Zn8
+Renaissance Periodization: the truth about "Peaked" Biceps
+  https://www.youtube.com/shorts/NMY5vaBJqMA
   Transcript: yes
 
-Ben Felix: Breaking Down My Investment Portfolio
-  https://www.youtube.com/watch?v=h3ajVyC5vJc
-  Transcript: yes
-
-Andrew Huberman: Access the Sublime & Live Your Best Life | Robert Greene
-  https://www.youtube.com/watch?v=y-fRFiTrrg4
+Peter Attia: Understanding reps in reserve | Jeff Cavaliere, M.S.P.T., C.S.C.S.
+  https://www.youtube.com/watch?v=e1RoRmKWsEE
   Transcript: yes
 
 ThinkingPoker: Bankroll Management - Thinking Poker
   https://www.youtube.com/watch?v=6w8amkDkeVw
   Transcript: yes
 
-Mind The Game: THE NBA IS BACK. 🏀 🔥  And nobody knows more about winning than the LeBron himself.
-  https://www.youtube.com/shorts/8Oyv3QInxZE
+Andrew Huberman: Falling in Love Is Rebellion | Robert Greene
+  https://www.youtube.com/shorts/Ko9p7w3Za6w
+  Transcript: yes
+
+ModernWisdom: Idiots All The Way Up
+  https://www.youtube.com/shorts/yb0Jwd7UrHM
+  Transcript: NO
+
+ModernWisdom: Ask Yourself This Before Every Big Decision - Joe Hudson
+  https://www.youtube.com/watch?v=3nvmFxdWF1g
+  Transcript: yes
+
+ModernWisdom: How To Know You're In The Wrong Relationship
+  https://www.youtube.com/shorts/n7LtT5bxZRM
+  Transcript: yes
+
+ModernWisdom: Life Is What Happens While You’re Making Other Plans
+  https://www.youtube.com/shorts/aJftr8ihGwM
+  Transcript: yes
+
+ModernWisdom: The War Horse Who Would Not Die - The Fat Electrician
+  https://www.youtube.com/watch?v=k39L86VW7iw
+  Transcript: yes
+
+Ben Felix: Breaking Down My Investment Portfolio
+  https://www.youtube.com/watch?v=h3ajVyC5vJc
+  Transcript: yes
+
+Mind The Game: Kyrie's skill level is in a league of it's own. 😮‍💨
+  https://www.youtube.com/shorts/mfPc7OS54V4
+  Transcript: yes
+
+Mind The Game: Russell Westbrook deserves all the flowers for what he's done for the game. 💐
+  https://www.youtube.com/shorts/trhWY6XTM7g
+  Transcript: yes
+
+Mind The Game: The vets of the league are still playing at a high level, but everyone's game had to adjust.
+  https://www.youtube.com/shorts/M3Y1tK0BH_c
+  Transcript: yes
+
+Mind The Game: A sneak peek at what's on the agenda for this episode. 🧠 🏀  New episode out now, tap in!
+  https://www.youtube.com/shorts/phVzGutqaiU
+  Transcript: yes
+
+Mind The Game: Why Kyrie, Steph, and KD Are Still Torching the NBA | LeBron James
+  https://www.youtube.com/watch?v=XjpaHLuK3QI
   Transcript: yes
 
