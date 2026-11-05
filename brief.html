@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>Morning Brief — Wednesday, November 04, 2026</title>
+<title>Morning Brief — Thursday, November 05, 2026</title>
 <style>
   body {
     font-family: Georgia, serif;
@@ -92,19 +92,19 @@
 })();
 </script>
 <h1>Morning Brief</h1>
-<p class="date">Wednesday, November 04, 2026</p>
+<p class="date">Thursday, November 05, 2026</p>
 
 <div class="anchor">
   <h2>☀️ Today's Anchor</h2>
   <div class="anchor-block">
-    <p class="quote">"You have power over your mind — not outside events. Realize this, and you will find strength."</p>
-    <p class="author">— Marcus Aurelius</p>
-    <p class="context">From Meditations, written as private notes to himself while emperor of Rome. The book wasn't meant for publication.</p>
+    <p class="quote">"We suffer more often in imagination than in reality."</p>
+    <p class="author">— Seneca</p>
+    <p class="context">From Letters from a Stoic. Seneca was advising a friend on anxiety — a 2000-year-old observation about human nature.</p>
   </div>
   <div class="anchor-block">
-    <p class="model-label">Mental Model · Statistics</p>
-    <p class="model-name">Regression to the Mean</p>
-    <p class="context">Extreme outcomes tend to be followed by more average ones. The best quarter is usually followed by a worse one. The worst employee review is usually followed by improvement. Don't mistake regression to the mean for real change — or for the failure of it.</p>
+    <p class="model-label">Mental Model · Systems/History</p>
+    <p class="model-name">Path Dependence</p>
+    <p class="context">Where you are now depends on the path you took to get here, not just your endpoint. QWERTY keyboards, VHS vs. Betamax, English as lingua franca. Once a path is established, switching costs often preserve it against better alternatives. Look for what's locked in by history, not optimality.</p>
   </div>
 </div>
 
@@ -115,138 +115,123 @@
   <p class="spotlight-instructions">Interested? Copy the line below into <code>YOUTUBE_CHANNELS</code> in <code>brief.py</code> and save:</p>
   <pre class="spotlight-snippet" id="snippet">    "10 Râu Shots": "UCGNaQ3uUClxqKvSGis3YMMQ",</pre>
   <button class="copy-btn" onclick="navigator.clipboard.writeText(document.getElementById('snippet').innerText.trim()); this.innerText='✅ Copied'; setTimeout(()=>this.innerText='📋 Copy snippet', 2000);">📋 Copy snippet</button>
-  <p class="spotlight-meta">showing for 3 more days. If you don't add it, a new channel will be suggested.</p>
+  <p class="spotlight-meta">showing for 2 more days. If you don't add it, a new channel will be suggested.</p>
 </div>
 <h2>🎥 From People I Follow</h2>
 
 <p><strong>Worth your time:</strong></p>
 
 <div class="story">
-  <h3>GTO Lab — Nick Petrangelo, Daniel Dvoress & Axel Hallay</h3>
-  <p>Excellent deep-dive on mystery bounty tournaments as a structurally different game from vanilla MTTs. The core insight: most players massively underadjust — not just "play a little looser" but recognize that at the bounty-kick-in stage with large fields, ICM is essentially irrelevant, chips are worth the least relative to the prize pool, and VPIP from early positions can approach 100% in certain spots. They walk through their library of ~300 sims built around the KO-to-stack ratio (bounty value ÷ current stack), which is the governing variable for all pre- and post-flop strategy. The EV breakdown tool separating regular prize pool EV (green) from KO pool EV (yellow) is the clearest visualization of the core trade-off: some hands are pure yellow — positive EV only because of the bounty, with zero expected prize pool value — and most players fold these, leaving money on the table. Key takeaway: manage the bounty-vs.-tournament trade-off explicitly at every stage; the final table is a completely different calculus from the first day of a 1,000-person field.</p>
-  <p class="meta">Video: <a href="https://www.youtube.com/watch?v=17QO6NohJ8E">Mystery Bounty Is a Completely Different Game</a></p>
+  <h3>GTO Lab (Nick Petrangelo, Daniel Dvoress & Axel Hallay)</h3>
+  <p>The core thesis: mystery bounty tournaments are not "regular poker with slightly wider calls" — they're a structurally different game, and most players massively underadjust. The key metric is the KO-to-stack ratio (bounty value ÷ current stack), which should drive all pre- and post-flop strategy. At early stages with 1,000 players remaining, ICM is essentially irrelevant, chips are worth the least relative to the prize pool, and the bounty is at its most valuable — meaning players should be VPIPing close to 100% from many positions, something almost no one does. The common mistake runs in one direction: players anchored to vanilla tournament thinking play too tight and forfeit EV that's sitting on the table. GTO Lab built a 240+ sim library with tools that separate dollar EV into prize-pool EV (green) vs. KO EV (yellow), so you can see when a call is pure bounty-justified and negative for tournament equity — which completely reframes whether to make it.</p>
+  <p class="meta">Video: <a href="https://www.youtube.com/watch?v=17QO6NohJ8E">Mystery Bounty Is a Completely Different Game | Nick Petrangelo, Daniel Dvoress & Axel Hallay</a></p>
 </div>
 
 <div class="story">
-  <h3>Jared Alderman — with Uri Peleg</h3>
-  <p>Dense theory conversation about hidden information as an underexplored edge. Uri's sharpest point: balance only matters if your opponent can detect and exploit your imbalances. If you over-bluff ace-high boards and under-bluff king-high boards but are globally near-correct in frequency, there is no practical way for opponents to discover this — meaning you have more freedom than GTO orthodoxy implies. The chess/chessboard analogy is clarifying: GTO is setting up an invisible board where you know your own positions but not your opponent's; exploitative play is guessing their setup and countering. Uri also makes the point that at even nosebleed stakes, almost no players have the full game tree mapped for a single-size strategy — so the "correct" play is often less about precision and more about not being face-up. His practical heuristic for profiling: check back certain hands specifically to gather information about whether opponents are too aggro or too passive on later streets.</p>
+  <h3>Jared Alderman (with Uri Peleg)</h3>
+  <p>Uri Peleg's central argument: the question "am I balanced?" is the wrong question. The correct question is "can my opponent detect if I'm unbalanced?" — and the practical answer is almost never yes. This means you can systematically over-bluff some board textures and under-bluff others (e.g., over-bluff ace-high boards, under-bluff king-high boards) and remain unexploitable in practice, because no opponent has the sample size or precision to isolate it. The chess analogy lands well: GTO is two players setting up invisible chessboards; exploitative play is making an informed guess about your opponent's board and countering it. Jared's randomized-sizing idea (using size randomization as a form of hidden information rather than frequency randomization) generates the interesting insight that checking becomes much harder to read if your opponent knows you sometimes bet any size including all-in — but Uri grounds it: practically, mastering a one-size game tree per spot is already elite-level, and multiple sizes add enormous tree complexity that almost no one can execute.</p>
   <p class="meta">Video: <a href="https://www.youtube.com/watch?v=d18PasuKpnA">"Poker Doesn't Work Without Exploits" - Uri Peleg</a></p>
 </div>
 
 <div class="story">
-  <h3>Renaissance Periodization — Dr. Mike</h3>
-  <p>Summary of a massive umbrella review (137 systematic reviews, ~30,000 participants) on resistance training. Five findings worth locking in: (1) Volume is the primary driver of hypertrophy — more than 10 sets/week per muscle beats fewer, with meaningful gains extending past 30 sets/week, though with strong diminishing returns above 20. (2) Training close to failure matters — stopping 4+ reps shy produces notably worse gains; stopping 1-2 reps shy is essentially equivalent to true failure. (3) Rep range is largely irrelevant — 5 to ~30 reps produces roughly equivalent hypertrophy if effort is equated; below 5 or above 30 is suboptimal. (4) Frequency per se doesn't drive gains — volume and quality do, but higher frequency enables more volume and better quality per set (fatigue dilutes stimulus after ~15 sets/session). (5) Rep tempo, exercise order, and advanced periodization nuances show barely detectable effects in the literature — the basics dominate almost everything. For strength specifically: twice-weekly beats once-weekly due to nervous system practice, and earlier exercises in a session get the best strength adaptations.</p>
-  <p class="meta">Videos: <a href="https://www.youtube.com/watch?v=JT6PZdl3_k4">30,000 People Studied. This Is How You Should Train.</a></p>
-</div>
-
-<div class="story">
-  <h3>Peter Attia — Jeff Cavaliere</h3>
-  <p>Cavaliere's framework for reps in reserve (RIR) is practical and well-articulated. Zero RIR = mechanical failure (can't complete another rep in good form); 1 RIR = one grinding rep left; 2-3 RIR = still challenging but no visible effort to outside observer; 4+ RIR = junk volume. His key claim: most people underestimate their true capacity by 1-3 reps, so when they think they're at 2 RIR they're often at 5+. His recommendation: start by training to true mechanical failure frequently so you can calibrate the scale — without that anchor, everything else is miscalibrated. Distinguishes psychological failure (discomfort avoidance) from mechanical failure, and notes form failure (slower reps, slight loosening) is acceptable while joint pain is not. The practical upshot: by pushing to genuine form failure more often, you can reduce total set count while actually increasing the productive stimulus per session.</p>
-  <p class="meta">Video: <a href="https://www.youtube.com/watch?v=e1RoRmKWsEE">Understanding reps in reserve</a></p>
-</div>
-
-<div class="story">
-  <h3>Lex Fridman — AI & Mathematics Crisis Episode</h3>
-  <p>Genuine emergency episode with three mathematicians (Brunton, Moitra, and a number theorist) reacting to OpenAI dropping solutions to Navier-Stokes, a quasi-Riemann Hypothesis result, the Unique Games Conjecture, and hundreds of other results simultaneously. The sharpest framing comes from the number theorist: the results aren't "inside the convex hull" of existing ideas (a derogatory framing suggesting humans could have trivially done it) but rather from the "semigroup generated" by known techniques — meaning the same building blocks, but combined in cascades of hundreds of steps that are genuinely shocking to see assembled. The Terence Tao quote about PhD students losing their motivating problems to AI "spoilers" lands hard. Ankur Moitra's "doorman fallacy" is the best reframe: reducing mathematics to theorem-proving is like reducing a doorman's job to door-opening — the real value is in asking the right questions, mentoring, building theories that illuminate surrounding problems, and finding beautiful structure. The honest tension: nobody has a clear answer for what the grad student career path looks like now, and the blueprint of "solve a problem people care about, get known" has been disrupted.</p>
+  <h3>Lex Fridman (with Steven Brunton, Ankur Moitra & Alex)</h3>
+  <p>This is a genuine "emergency episode" triggered by OpenAI releasing proofs of ~700 results including progress toward the Quasi-Riemann Hypothesis, the Unique Games Conjecture, and improvements to Fast Fourier Transform — results that, if done by humans, would be instant Fields Medals. The panel's honest assessment: the AI is operating in the "semigroup" of known mathematical moves rather than the "convex hull" (not derogatory — the semigroup can reach far further than humans have explored), combining known techniques in sequences no human would have patience to try. No genuinely new mathematical ideas yet — but the cascade of known moves is long enough to be "shocking." The most interesting tension: Terence Tao's concern that graduate students lose the ability to explore a problem richly once a solution exists (you can't unhear a spoiler), while others argue knowing a solution is possible is itself a massive accelerant. The "doorman fallacy" framing is worth keeping: reducing a mathematician's job to "proving theorems" misses what they actually do — building theories, asking the right questions, creating beautiful structures that generalize. The panel agrees asking the right questions will become the scarce human skill.</p>
   <p class="meta">Video: <a href="https://www.youtube.com/watch?v=ZAzWPE9CItg">AI Crisis in Math: Navier-Stokes, Riemann Hypothesis & Complexity Theory | Lex Fridman Podcast #503</a></p>
 </div>
 
 <div class="story">
-  <h3>ModernWisdom — Joe Hudson</h3>
-  <p>Joe Hudson on decision-making has a few genuinely sharp observations worth extracting. First: a terrible decision isn't one where you don't get what you want — it's one where you compromise yourself to get it, and there's something in you that always knows when that's happening. The muscle for detecting self-abandonment atrophies if ignored; resentment is the diagnostic signal (you resent others when you've abandoned yourself to accommodate them). Second: in business contexts, making 100 decisions a day and being wrong beats making 10 decisions carefully — because decisions are experiments, and experiments generate learning that compounds. The identity point ties it together: indecisiveness is usually identity under threat ("I have to be right because being wrong meant punishment"). People with stable identity are both more decisive and more open to being wrong — not in tension, because their identity isn't staked on the outcome. The paradox axes framing (high conviction AND high openness simultaneously) is worth sitting with.</p>
-  <p class="meta">Video: <a href="https://www.youtube.com/watch?v=3nvmFxdWF1g">Ask Yourself This Before Every Big Decision</a></p>
-</div>
-
-<div class="story">
-  <h3>Mind The Game — LeBron James & JJ Redick</h3>
-  <p>LeBron's injury discussion is more substantive than it sounds. His core argument: no amount of offseason training can simulate the unpredictability of in-game movement — the random angles, contact, and landing positions — which is why soft-tissue injuries spike in early-season play. He also pushes back on the performance science orthodoxy, arguing that the proliferation of sports scientists telling players to minimize load may be counterproductive: shorter preseasons, fewer two-a-days, and reduced contact in workouts may be leaving players underprepared for the actual demands of the game. His "junior Olympics vs. main event" self-deprecation about guarding Westbrook is funny, but his underlying point about Russ — that he developed from a pure athlete into a 10-assist-a-night creator while never sacrificing competitive intensity — is a legitimate legacy claim. On Kyrie: LeBron calls him the most skilled player to ever play the game, specifically citing his body control in the air and change-of-direction deceleration as athleticism that gets undercredited because he doesn't dunk on people.</p>
-  <p class="meta">Videos: <a href="https://www.youtube.com/watch?v=XjpaHLuK3QI">Why Kyrie, Steph, and KD Are Still Torching the NBA</a> · <a href="https://www.youtube.com/shorts/mfPc7OS54V4">Kyrie's skill level is in a league of its own</a> · <a href="https://www.youtube.com/shorts/trhWY6XTM7g">Russell Westbrook retirement</a></p>
+  <h3>Peter Attia (with Jeff Cavaliere)</h3>
+  <p>Cavaliere's framework on reps in reserve (RIR): 0 RIR = mechanical failure, 1 RIR = one grinding rep left, 2–3 RIR = still hard but no outside observer notices, 4+ RIR = junk volume. His argument is that most people systematically underestimate what they can do by 1–3 reps, which means their entire calibration is off — if you don't truly know what 0 feels like, every other number is a guess. The practical prescription: train to good-form failure (not ugly-rep failure, not psychological failure) on most sets, then strip out the volume you no longer need. The key distinction is psychological failure vs. mechanical failure — discomfort aversion is not the same as muscular incapacity, and the signal for hypertrophy requires getting past the former to reach the latter.</p>
+  <p class="meta">Video: <a href="https://www.youtube.com/watch?v=e1RoRmKWsEE">Understanding reps in reserve | Jeff Cavaliere, M.S.P.T., C.S.C.S.</a></p>
 </div>
 
 <p><strong>Also posted:</strong></p>
 <ul>
-  <li><strong>Nick Norwitz:</strong> Brown fat activation — cites a Nature study (100,000+ people) showing those with more brown fat had 22-48% lower odds of diabetes, heart disease, depression/anxiety; discusses losartan and dietary strategies including one claimed to increase energy expenditure by 600 kcal/day in RCTs. (<a href="https://www.youtube.com/shorts/TBaAEwtYeC4">How to Activate Brown Fat</a>)</li>
-  <li><strong>Thomas DeLauer:</strong> Morning routine physiology — practical breakdown of cortisol awakening response, adenosine clearance timing, and why delaying coffee 30-60 min captures more benefit; body temperature's role in cognition; ghrelin as a scheduled anticipatory signal rather than true hunger. +1 more (extreme cut protocol, hair loss/avocado video). (<a href="https://www.youtube.com/watch?v=dzu00ax9SJk">People that Do This Within 30 Minutes of Waking</a>)</li>
-  <li><strong>Anthony Chaffee MD:</strong> Brief take on carnivore supplementation — most people don't need supplements long-term on a quality carnivore diet, though early-transition deficiency gaps may warrant temporary use. (<a href="https://www.youtube.com/shorts/y2xnfmKT4-Q">Supplementing On The Carnivore Diet</a>) [Most recent, not new]</li>
-  <li><strong>Ken Berry MD:</strong> Multiple shorts on carnivore-adjacent topics: fiber not being an essential nutrient (carnivores show diverse, healthy microbiomes on stool analysis); anti-nutrients in plants blocking mineral absorption (spinach iron bioavailability); statins and the problem of pharmaceutical-funded safety data; blood pressure measurement errors causing overdiagnosis; joint arthritis improvement on ketogenic/carnivore diet (Dr. Shawn Baker's orthopedic surgery anecdotes). (<a href="https://www.youtube.com/shorts/kJEtCDE1QZc">Fiber and gut microbiome</a> + 4 more)</li>
-  <li><strong>Paul Saladino MD:</strong> Pasture-raised vs. conventional eggs — shell strength, yolk color, and omega profile differences; brief on candle toxins (soy candles releasing toluene, benzene, formaldehyde, phthalates) vs. beeswax alternatives. (<a href="https://www.youtube.com/shorts/KOfSyWEy0eM">Cheap vs. expensive eggs</a>)</li>
-  <li><strong>Andrew Huberman / Robert Greene:</strong> Short clip — Greene arguing that falling in love with someone and dropping your defenses is a form of rebellion against narcissism and defensiveness in modern culture. (<a href="https://www.youtube.com/shorts/Ko9p7w3Za6w">Falling in Love Is Rebellion</a>)</li>
-  <li><strong>GTO Wizard:</strong> PLO preflop mechanics short — no transcript available. (<a href="https://www.youtube.com/shorts/0g2IttfuTKM">Is every hand playable?</a>) [Most recent, not new]</li>
-  <li><strong>Ben Felix:</strong> Portfolio breakdown — all-equity (Dimensional Global Equity, factor-tilted toward size/value/profitability), significant private equity stake in his firm's parent company, and a personal philosophy that money above ~$85-105K (inflation-adjusted) has diminishing happiness returns; research-backed. (<a href="https://www.youtube.com/watch?v=h3ajVyC5vJc">Breaking Down My Investment Portfolio</a>) [Most recent, not new]</li>
-  <li><strong>Dr. Sten Ekberg:</strong> Sepsis explainer — 10 warning signs, mechanism (immune overreaction → vasodilation → organ hypoxia), and the strong association with insulin resistance/diabetes as an underappreciated risk multiplier. (<a href="https://www.youtube.com/watch?v=NzhB7sNU31A">10 Sepsis Signs</a>) [Most recent, not new]</li>
-  <li><strong>Joe Rogan / Dr. Peter McCullough:</strong> Long-form COVID revisionism episode — COVID origins, monoclonal antibody suppression, vaccine mandate critique, natural immunity vs. vaccine immunity data, and historical context of vaccination ideology going back to Cotton Mather. Heavy on narrative, light on new data; mostly ground covered before. (<a href="https://www.youtube.com/watch?v=ml1hyhqBEJE">JRE #2576</a>)</li>
+  <li><strong>Mind The Game:</strong> LeBron James calls Kyrie Irving "probably the most skilled player to ever play our game" — specifically citing his change of direction, deceleration, and body control in the air as the underrated athletic dimensions, distinct from the dunking athleticism we typically use to rank athletes. (<a href="https://www.youtube.com/shorts/mfPc7OS54V4">Kyrie's skill level is in a league of its own</a>)</li>
+  <li><strong>Nick Norwitz:</strong> A Nature study of 100,000+ people found those with more brown fat had 22–48% lower odds of diabetes, heart disease, depression, and anxiety; the study also identified losartan (a common blood pressure medication) as one activator, and separately found brown fat carriers had higher LDL — which Norwitz flags as a provocation worth thinking about. (<a href="https://www.youtube.com/shorts/TBaAEwtYeC4">How to Activate Brown Fat for Better Health</a>)</li>
+  <li><strong>Renaissance Periodization (Dr. Mike):</strong> Straightforward point on PED contribution to strength performance: drugs are "a small but notable contributor," roughly 10% of the gap between elite and enhanced lifters — the rest is genetics. Dr. Mike's best deadlift was ~600 lbs for 4 reps; the world record is 939 lbs; no drug protocol gets him to 800. (<a href="https://www.youtube.com/shorts/sCUumVRjU8A">Dr Mike's Best Deadlift vs the 939lb Record</a>)</li>
+  <li><strong>ModernWisdom:</strong> Short clip on reassurance-seeking as self-abandonment — the distinction made is between seeking input/wisdom from trusted people (fine) vs. needing approval before you can feel okay about a decision (a transfer of agency). (<a href="https://www.youtube.com/shorts/HGZYablJv9A">The Category For Those Who Need Reassurance From Others</a>)</li>
+  <li><strong>Paul Saladino MD:</strong> Visual comparison of cheap Walmart eggs vs. $10/dozen pasture-raised: noticeably stronger shells, tougher membrane, deeper orange yolk on the pasture-raised — consistent with higher carotenoid content from bugs/grass exposure vs. pure corn/soy diet. (<a href="https://www.youtube.com/shorts/KOfSyWEy0eM">The difference between cheap and expensive eggs</a>)</li>
+  <li><strong>Andrew Huberman (Robert Greene clip):</strong> Greene's argument that committing to romantic love — genuinely letting your defenses down for one person — is a form of cultural rebellion against ambient narcissism and defensiveness. Brief but quotable. (<a href="https://www.youtube.com/shorts/Ko9p7w3Za6w">Falling in Love Is Rebellion</a>)</li>
 </ul>
+
+---
 
 <h2>₿ Bitcoin & Macro</h2>
 
 <div class="story">
-  <h3>Bitcoin Near $80K After Democratic Sweep — Short Squeeze and Portfolio Implications</h3>
-  <p>Bitcoin rebounded to ~$80,000 after initially dropping to $75,600 on election night following a Democratic sweep of Congress. The move was partly driven by a short squeeze and accompanied by a broader stock rally and a 9% drop in oil prices. Pomp's framing: Bitcoin and gold are currently among the "most unpopular trades in the market" — meaning positioning is light and sentiment is skeptical — which historically has been a setup for outperformance. Democrats are now reportedly drafting their own crypto market structure bill with a larger SEC role and smaller CFTC role, changing the regulatory landscape from what the industry had expected under a different outcome.</p>
-  <p class="meta">Bitcoin Magazine / The Pomp Letter</p>
+  <h3><a href="https://pomp.substack.com/p/the-two-most-unpopular-trades-in">The Two Most Unpopular Trades in the Market Right Now: Bitcoin/Gold and the AI Barbell</a></h3>
+  <p>Pomp's thesis: the two trades with the most institutional skepticism right now are (1) hard money assets — Bitcoin and gold — as a macro hedge, and (2) an AI barbell that pairs pure-play AI exposure against hard assets. Bitcoin is holding near $80,000 after an election-night dip to $75,600, with the bounce attributed partly to a short squeeze following the Democratic sweep. The contrarian framing is that maximum unpopularity in a trade is often the signal worth paying attention to.</p>
+  <p class="meta">The Pomp Letter</p>
 </div>
 
 <div class="story">
-  <h3>Strategy's STRC Preferred Hits $100 Par After $2B+ in Buybacks</h3>
-  <p>Strategy (formerly MicroStrategy) has executed over $2 billion in buybacks of its STRC preferred shares, pushing the instrument back to $100 par for the first time since May. The company also switched to daily dividend payouts on the 12% yield instrument. This is worth watching as a signal of Saylor's capital structure management — using preferred instruments to fund Bitcoin accumulation while returning value to preferred holders, a model the market is continuing to price in real time.</p>
+  <h3><a href="https://bitcoinmagazine.com/news/american-bitcoin-126m-q3-profit">American Bitcoin (ABTC) Posts $126 Million Profit as Holdings Gain $197 Million</a></h3>
+  <p>American Bitcoin — the publicly traded Bitcoin treasury vehicle — swung to $126M net income in Q3 after a $197M unrealized gain on its BTC holdings, reversing a $57M loss in Q2. This is the Strategy/Saylor playbook in action at a second company: use capital markets access to accumulate BTC, let appreciation flow through to the income statement. Worth watching as a data point on how the corporate BTC treasury model is performing in practice.</p>
   <p class="meta">Bitcoin Magazine</p>
 </div>
+
+---
 
 <h2>🧬 Health & Science</h2>
 
 <div class="story">
-  <h3>Brown Fat, Metabolic Disease, and Activation Strategies</h3>
-  <p>Nick Norwitz summarized a large Nature study (~100,000 participants) finding that individuals with detectable brown adipose tissue had 22-48% lower odds of diabetes, cardiovascular disease, depression, and anxiety. Brown fat is mitochondria-dense and thermogenic — it burns calories rather than storing them, which is the mechanistic link to metabolic health. One counterintuitive finding from the study: people with more brown fat had <em>higher</em> LDL cholesterol, which is a useful data point in the LDL-as-proxy-for-cardiovascular-risk debate. The study identified losartan (an ARB blood pressure medication) as an activator, alongside other dietary and environmental strategies including one dietary intervention claimed to increase energy expenditure by ~600 kcal/day in RCTs (not specified in the short — worth following up on the full masterclass).</p>
-  <p class="meta">Video: <a href="https://www.youtube.com/shorts/TBaAEwtYeC4">How to Activate Brown Fat for Better Health</a></p>
+  <h3>Reps in Reserve: What "Failure" Actually Means (Peter Attia / Jeff Cavaliere)</h3>
+  <p>The practical upshot of Cavaliere's RIR framework is that most trainees are running junk volume without knowing it because they've never actually reached 0 RIR — true mechanical failure — and therefore have no calibrated reference point. He distinguishes three failure types: psychological failure (discomfort aversion, not a real limit), form failure (acceptable if the joint isn't hurting), and mechanical failure (the actual training signal). The fix: reach good-form mechanical failure more often, then reduce total set count — you get more hypertrophic signal with less joint wear and time.</p>
 </div>
 
 <div class="story">
-  <h3>Resistance Training Science: What 30,000 Participants Actually Show</h3>
-  <p>The Renaissance Periodization umbrella review (137 systematic reviews, ~30,000 participants, PMID 41843416) is the strongest single data point on training in the brief. Key findings that contradict common gym wisdom: rep range between 5-30 reps produces roughly equal hypertrophy when effort is equated — so there is no meaningful argument for staying exclusively in an 8-12 rep range; stopping 4+ reps from failure produces significantly worse outcomes than stopping 1-2 reps shy; and frequency itself doesn't drive hypertrophy — volume and quality do, but higher frequency enables more of both. The practical upshot for programming: prioritize proximity to failure and weekly volume over any other variable; rep tempo, exercise order, and periodization schemes show barely detectable effects in the literature.</p>
-  <p class="meta">Video: <a href="https://www.youtube.com/watch?v=JT6PZdl3_k4">30,000 People Studied. This Is How You Should Train.</a></p>
+  <h3>Brown Fat, Metabolic Health, and the LDL Paradox (Nick Norwitz)</h3>
+  <p>A Nature study (n > 100,000) found people with more brown adipose tissue had 22–48% lower odds of diabetes, cardiovascular disease, depression, and anxiety. Brown fat is metabolically active because it's dense with mitochondria — it burns rather than stores. The study identified losartan (a common ARB blood pressure medication) as one pharmacological activator. The buried finding Norwitz flags: higher brown fat was associated with better cardiometabolic outcomes but also higher LDL — a data point that cuts against simple LDL-as-risk-factor narratives and is worth sitting with.</p>
 </div>
 
 <div class="story">
-  <h3>Reps in Reserve Calibration — Jeff Cavaliere on Peter Attia</h3>
-  <p>Cavaliere's key empirical claim: most lifters systematically underestimate their true capacity by 1-3 reps, meaning what feels like 2 RIR is often 4-5 RIR. This matters because junk volume (sets done far from failure) accumulates wear without stimulus. His recommended fix: periodically train to true mechanical failure (not psychological failure, not form breakdown involving joint pain) so you can anchor the RIR scale accurately. Once calibrated, you can legitimately reduce total set count while increasing actual training stimulus — fewer but harder sets. The injury management corollary: an injury is not a mandate to rest, it's a mandate to find safer exercise variations and appropriate loads — a useful reframe for anyone managing chronic joint issues.</p>
-  <p class="meta">Video: <a href="https://www.youtube.com/watch?v=e1RoRmKWsEE">Understanding reps in reserve</a></p>
+  <h3>Alternate-Day Caloric Restriction for Body Composition (Thomas DeLauer)</h3>
+  <p>DeLauer's protocol for rapid fat loss centers on alternating high-calorie days (~3,000 kcal) with aggressive low-calorie days (~1,200 kcal), manipulating primarily fat intake while keeping protein constant (~1g per lb of lean mass) on both days — this is the evidence-based "intermittent caloric restriction" model, which appears to be more metabolically protective than continuous restriction of the same magnitude. He also cites a 2023 exercise physiology study suggesting spot reduction is possible when combining targeted resistance work with cardio simultaneously (the resistance mobilizes local fat, cardio oxidizes it) — though he appropriately notes it's one unreplicated study. The supplement stack he describes (yohimbine 15–20mg on a 2-on/1-off cycle, rudaarpine to accelerate caffeine clearance, tryptophan + theanine for sleep) is more extreme than everyday use warrants, but the alternating calorie cycling principle is well-grounded.</p>
 </div>
+
+---
 
 <h2>💡 Worth Reading</h2>
 
 <div class="story">
-  <h3><a href="https://blog.cosmos-institute.org/p/verification-is-not-knowledge">Verification Is Not Knowledge: Science needs more than answers</a></h3>
-  <p>The argument: being able to verify a proof or result is not the same as understanding it, and as AI systems produce more verified-but-opaque outputs (in math, science, code), the distinction becomes critical. This maps directly onto what the Lex Fridman math episode raised: Lean can confirm a proof is logically valid, but that validation doesn't transfer understanding to the humans downstream. Worth reading alongside the AI-in-math discussion — the epistemological implications of "correct but incomprehensible" results scale well beyond mathematics.</p>
-  <p class="meta"><a href="https://news.ycombinator.com/item?id=50363461">Discussion</a> · 214 pts on HN</p>
+  <h3><a href="https://openai.com/index/a-thousand-fewer-paths-to-root">A Thousand Fewer Paths to Root</a></h3>
+  <p>OpenAI built a fully autonomous pipeline that found, validated, and generated patches for 948 local privilege-escalation vulnerabilities in the Linux kernel — without human researchers in the loop. This is a concrete demonstration of AI doing security research at scale that would take years of human effort, and it connects directly to the separate Bitcoin Magazine item about Matt Corallo flagging CVE-2026-98432 (CVSS 9.8) in the same kernel codebase. The implication: AI is now capable of both finding and fixing classes of vulnerabilities faster than the ecosystem can respond.</p>
+  <p class="meta"><a href="https://news.ycombinator.com/item?id=50366117">HN Discussion</a> · OpenAI</p>
 </div>
 
 <div class="story">
-  <h3><a href="https://www.openai.com/index/a-thousand-fewer-paths-to-root">A Thousand Fewer Paths to Root — OpenAI</a></h3>
-  <p>OpenAI built an autonomous pipeline that found, validated, and generated patches for 948 local privilege-escalation vulnerabilities in the Linux kernel. This is a concrete, real-world capability demonstration: AI doing security research at scale that would take many human-years of work, and doing it on critical infrastructure. The implications for both offensive and defensive security are significant — the same capability that finds and patches vulnerabilities can in principle find and exploit them.</p>
-  <p class="meta">OpenAI Blog</p>
+  <h3><a href="https://donaldrobertson.substack.com/p/how-to-use-rational-emotive-imagery">How to Use Rational Emotive Imagery</a></h3>
+  <p>Donald Robertson walks through a specific Stoic/REBT mental rehearsal technique: vividly imagining a negative scenario, allowing yourself to feel the disturbed emotion, then actively working to shift the emotion (not suppress it) toward something more rational — practicing this daily until the new response becomes automatic. This is the practical side of Stoic premeditation (premeditatio malorum) combined with Ellis's REBT, and it's more actionable than most philosophy-adjacent content. Worth reading alongside Epictetus's Handbook #41, which Robertson also covers this week.</p>
+  <p class="meta">Donald Robertson / Substack</p>
 </div>
 
 <div class="story">
-  <h3><a href="https://www.anthropic.com/research/early-progress-drug-development">Early Progress on Accelerating Drug Development with Claude — Anthropic</a></h3>
-  <p>Anthropic reports early results from deep research partnerships with six drug development organizations over the past several months. The piece is light on specifics but represents a meaningful signal: Anthropic is treating drug development as a core scientific application, not just a customer vertical. Worth tracking — this is the kind of domain where AI capability could compound in ways that matter for longevity research readers.</p>
+  <h3><a href="https://spectrum.ieee.org/ai-in-cybersecurity-php2shell-vulnerability">AI Is Forcing Us to Pay Off 40 Years of Technical Debt</a></h3>
+  <p>IEEE Spectrum piece arguing that AI systems are now surfacing and exploiting vulnerabilities in legacy codebases — particularly ancient attack surfaces like PHP shells — that have been ignored for decades because automated tools couldn't find them and humans didn't have the time. The argument is that AI-driven security research is compressing a 40-year debt reckoning into a very short window, and organizations that haven't modernized their stacks are suddenly extremely exposed. Pairs well with the OpenAI kernel patching item above.</p>
+  <p class="meta"><a href="https://news.ycombinator.com/item?id=50366117">HN Discussion</a> · IEEE Spectrum</p>
+</div>
+
+<div class="story">
+  <h3><a href="https://www.anthropic.com/research/provable-inference">Progress on Provable Inference for Large Language Models</a></h3>
+  <p>Anthropic research on making LLM outputs formally verifiable — i.e., being able to prove properties about what a model will or won't output under certain conditions. This is early-stage but points toward a future where AI outputs in high-stakes domains (medical, legal, security) can carry formal guarantees rather than probabilistic assurances. The connection to the OpenAI kernel work is direct: if you're using AI to generate security patches, knowing the patch has provable properties matters.</p>
   <p class="meta">Anthropic Research</p>
 </div>
 
-<div class="story">
-  <h3><a href="https://www.theregister.com/security/2026/11/03/north-korean-fake-job-interview-led-to-63b-binance-heist/5307398">North Korean Fake Job Interview Led to $6.3B Binance Heist</a></h3>
-  <p>A North Korean operative used a fake job interview process to infiltrate Binance and execute what appears to be a $6.3 billion theft — the largest crypto exchange hack on record. The social engineering vector (fake interview → insider access) is a significant operational security lesson well beyond crypto: it's the same playbook documented in dozens of enterprise breaches, now being applied at nation-state scale against financial infrastructure.</p>
-  <p class="meta"><a href="https://news.ycombinator.com/item?id=50363461">HN Discussion</a> · 533 pts</p>
-</div>
+---
 
 <h2>🤖 AI Capability Watch</h2>
 
 <div class="story">
-  <h3><a href="https://www.openai.com/index/a-thousand-fewer-paths-to-root">AI Autonomously Finds and Patches 948 Linux Kernel Security Vulnerabilities</a></h3>
-  <p>OpenAI's autonomous pipeline — not a human-assisted tool but a fully automated system — identified, validated, and generated patches for 948 local privilege-escalation vulnerabilities in the Linux kernel. This is a step-change demonstration of AI doing real security research at scale: a task that would require years of expert human effort completed autonomously. The same capability is dual-use — it can patch vulnerabilities or find them to exploit.</p>
-  <p class="meta">OpenAI Blog</p>
+  <h3><a href="https://openai.com/index/introducing-images-2-6">Images 2.6: GIF Generation Now Available</a></h3>
+  <p>OpenAI's image model now generates animated GIFs natively — a new output format, not just a quality bump — alongside faster generation and more precise editing controls exposed through the API. GIF/animation generation from text is a meaningfully new capability for content creation workflows.</p>
+  <p class="meta">OpenAI</p>
 </div>
 
 <div class="story">
-  <h3><a href="https://www.anthropic.com/research/provable-inference">Progress on Provable Inference for Large Language Models — Anthropic</a></h3>
-  <p>Anthropic is working on making LLM inference verifiable — meaning being able to prove that a model ran correctly and produced a genuine output, rather than a spoofed or manipulated one. This matters for high-stakes applications (legal, medical, financial) where you need cryptographic or mathematical assurance that the AI actually produced the output attributed to it. Still research-stage, but represents a new class of capability (trustworthy computation) rather than a performance
+  <h3><a href="https://openai.com/index/a-thousand-fewer-paths-to-root">AI Autonomously Patches 948 Linux Kernel Vulnerabilities</a></h3>
+  <p>OpenAI's autonomous pipeline — no human researchers directing it — found, validated, and generated patches for 948 privilege-escalation vulnerabilities in the Linux kernel. This is the first public demonstration of AI doing end-to-end security research (find → validate → fix) at a scale and speed that is qualitatively beyond what human teams can match. This is a step-change in what AI can do in the security domain.</p>
+  <p class="meta">OpenAI</p>
+</div>
 </body>
 </html>
