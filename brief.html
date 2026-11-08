@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>Morning Brief — Saturday, November 07, 2026</title>
+<title>Morning Brief — Sunday, November 08, 2026</title>
 <style>
   body {
     font-family: Georgia, serif;
@@ -92,19 +92,19 @@
 })();
 </script>
 <h1>Morning Brief</h1>
-<p class="date">Saturday, November 07, 2026</p>
+<p class="date">Sunday, November 08, 2026</p>
 
 <div class="anchor">
   <h2>☀️ Today's Anchor</h2>
   <div class="anchor-block">
-    <p class="quote">"No man is free who is not master of himself."</p>
+    <p class="quote">"Man is disturbed not by things, but by the views he takes of them."</p>
     <p class="author">— Epictetus</p>
-    <p class="context">Epictetus was born a slave, earned his freedom, and became the most influential Stoic teacher. He meant this literally.</p>
+    <p class="context">The Enchiridion. The foundational idea behind modern cognitive behavioral therapy — 1900 years before CBT existed.</p>
   </div>
   <div class="anchor-block">
-    <p class="model-label">Mental Model · Psychology</p>
-    <p class="model-name">Hedonic Adaptation</p>
-    <p class="context">We return to a baseline happiness level after most positive or negative events. Lottery winners are no happier a year later; paraplegics are not as unhappy as you'd predict. Implication: structural changes to daily life matter more than peak events. Optimize for the day-to-day, not the milestones.</p>
+    <p class="model-label">Mental Model · Psychology/Economics</p>
+    <p class="model-name">Loss Aversion</p>
+    <p class="context">People feel losses about 2x as strongly as equivalent gains. Explains why sellers demand higher prices than buyers will pay for identical items, why stock-market crashes create panic but booms don't create equivalent euphoria. Knowing this, price your decisions by the rational metric, not the emotional one.</p>
   </div>
 </div>
 
@@ -115,119 +115,112 @@
   <p class="spotlight-instructions">Interested? Copy the line below into <code>YOUTUBE_CHANNELS</code> in <code>brief.py</code> and save:</p>
   <pre class="spotlight-snippet" id="snippet">    "Grain Valley RLDS": "UCVrq11weWzigtpY3pXrgv1g",</pre>
   <button class="copy-btn" onclick="navigator.clipboard.writeText(document.getElementById('snippet').innerText.trim()); this.innerText='✅ Copied'; setTimeout(()=>this.innerText='📋 Copy snippet', 2000);">📋 Copy snippet</button>
-  <p class="spotlight-meta">showing for 3 more days. If you don't add it, a new channel will be suggested.</p>
+  <p class="spotlight-meta">showing for 2 more days. If you don't add it, a new channel will be suggested.</p>
 </div>
 <h2>🎥 From People I Follow</h2>
 
 <p><strong>Worth your time:</strong></p>
 
 <div class="story">
-  <h3>Joe Rogan / Calley Means</h3>
-  <p>Calley Means resigned from his White House MAHA role and gave a detailed, specific account of how the administration was captured on health policy. The core claim: Chief of Staff Susie Wiles controls all policy, her top deputies have direct financial ties to pharma, pesticide makers (Bayer/glyphosate), and sugar companies, and decisions are being made to protect those industries without Trump's knowledge. The clearest case study: the DOJ filed a brief urging the Supreme Court to take a glyphosate liability case — a move that ultimately shielded Bayer from cancer lawsuits — and when Trump heard about the ruling, he said "it's a terrible idea, how the hell did this happen?" completely unaware his own DOJ drove it. Means also names Tony Frizio (Trump's pollster, simultaneously paid by Pepsi and pharma) as the man who killed school lunch reform by telling the team "Maha is not really a big part of our strategy" — the day Means left, junk food company stocks rose 8%.</p>
-  <p class="meta">Video: <a href="https://www.youtube.com/watch?v=dMBBOawFy_4">Joe Rogan Experience #2578 - Calley Means</a></p>
-</div>
-
-<div class="story">
-  <h3>GTO Lab</h3>
-  <p>Nick Petrangelo, Daniel Dvoress, and Axel Hallay walk through GTO Lab's new mystery bounty library (~240+ sims). The central framework: mystery bounties are "a completely different game," not just a slight loosening — in early stages (1,000 players remaining, bounties just kicked in), some spots have 100% VPIP from early positions justified purely by bounty EV. The key analytical tool introduced is the KO-to-stack ratio (bounty value / player's current stack), which drives all pre- and post-flop strategy adjustments. They also show a "prize pool EV vs. KO EV" breakdown where some hands show pure yellow (KO-only) EV — meaning you're calling an all-in profitably despite it being a chip-EV disaster in a regular tournament. The most common mistake: players are too anchored to vanilla tournament thinking and systematically under-bounty-hunt, leaving real money on the table.</p>
+  <h3>GTO Lab (Nick Petrangelo, Daniel Dvoress & Axel Hallay)</h3>
+  <p>This is a genuinely useful deep-dive into mystery bounty tournament strategy — the core argument is that most players treat bounty stages as "play a little looser" when in reality it's a completely different game with different mathematics. The key concept introduced is the KO-to-stack ratio (bounty value ÷ current stack), which drives all pre- and post-flop strategy adjustments. They walk through a GTO Lab library of ~300 sims covering various stack depths and bounty sizes, and show that at the earliest bounty stage with large fields, players should sometimes VPIP 100% from early positions — not because they're gambling, but because the KO equity (shown in yellow in the EV breakdown tool) makes otherwise-negative plays clearly profitable. The most common leak they identify: being too anchored to vanilla tournament thinking and not hunting bounties aggressively enough.</p>
   <p class="meta">Video: <a href="https://www.youtube.com/watch?v=17QO6NohJ8E">Mystery Bounty Is a Completely Different Game | Nick Petrangelo, Daniel Dvoress & Axel Hallay</a></p>
 </div>
 
 <div class="story">
-  <h3>Jared Alderman</h3>
-  <p>Uri Peleg makes the underappreciated point that balance only matters insofar as your opponent can detect and exploit imbalance — meaning you can systematically over-bluff some board textures and under-bluff others as long as you're globally in the ballpark and your opponent can't identify the pattern. The more interesting thread: Peleg argues against anthropomorphizing solver outputs and frames GTO poker as two players with "invisible chessboards" — your strategy is hidden, and what matters is your opponent's model of your game tree, not whether your actual frequencies perfectly match a solver. He also notes that most even elite players never have the river game tree mapped out past a single bet size, making multi-sizing randomization academically interesting but practically irrelevant for almost everyone.</p>
+  <h3>Jared Alderman (feat. Uri Peleg)</h3>
+  <p>Uri Peleg makes a sharp, underappreciated point: GTO poker assumes both players know each other's game tree, but in practice your opponent has no idea what your actual strategy is — which means you can "fudge" your frequencies in ways that are unexploitable as long as you're globally in the ballpark. His concrete example: you can over-bluff ace-high boards and under-bluff king-high boards, and no opponent can detect this without you telling them. The broader frame is the chess analogy — your range is an invisible chessboard, and exploitative poker is making an informed guess about how your opponent has set up theirs. Jared also floats an interesting theoretical idea: randomizing bet *sizes* (not just frequencies) as a hidden information advantage, which Uri finds impractical but conceptually interesting for creating asymmetric game-tree knowledge.</p>
   <p class="meta">Video: <a href="https://www.youtube.com/watch?v=d18PasuKpnA">"Poker Doesn't Work Without Exploits" - Uri Peleg</a></p>
 </div>
 
 <div class="story">
-  <h3>Lex Fridman</h3>
-  <p>An emergency panel with three mathematicians reacting to OpenAI dropping ~700 AI-generated proofs, including progress on quasi-Riemann hypothesis, Navier-Stokes, and the unique games conjecture. The sharpest framing comes from Alex (Rutgers): the question isn't whether AI "solved" math but whether it's operating inside the "convex hull" of existing ideas (recombining known moves) vs. genuinely expanding the balloon — his read is it's closer to a "semigroup" of known techniques applied at superhuman breadth and depth, not a new idea. Ankur Moitra raises the "doorman fallacy" — reducing math to theorem-proving misses what mathematicians actually do (asking the right questions, building generalizable frameworks, mentoring, taste-making). The practical crisis flagged: the blueprint for PhD students ("improve a problem people care about") is now broken, and no one has a replacement rubric yet. Terry Tao's concern about "person-years of graduate research casually disrupted" is taken seriously by the panel.</p>
+  <h3>Lex Fridman (feat. mathematicians on AI & math)</h3>
+  <p>This episode is a serious conversation about what it means that AI (specifically OpenAI's recent release) has apparently solved or made major progress on Navier-Stokes, a quasi-Riemann Hypothesis result, the unique games conjecture, and hundreds of other problems. The mathematicians are careful to distinguish between "convex hull" progress (recombining existing ideas in ways humans could have done) versus genuinely new mathematical ideas — their consensus is the AI is doing something closer to the "semigroup" model: tiling known moves far further than humans have explored, not necessarily inventing new definitions. Terence Tao's concern is cited directly: PhD students lose motivation when they know a problem is solved, and the entire ecosystem of patient, slow research is disrupted. The "doorman fallacy" framing is worth keeping — reducing a mathematician's job to "proving theorems" misses everything else they do (asking the right questions, building new conceptual structures, mentorship). Practically, the panelists think the role of humans shifts toward question-asking, cross-domain connection-making, and guiding what matters — but acknowledge this is harder to operationalize for grad students right now.</p>
   <p class="meta">Video: <a href="https://www.youtube.com/watch?v=ZAzWPE9CItg">AI Crisis in Math: Navier-Stokes, Riemann Hypothesis & Complexity Theory | Lex Fridman Podcast #503</a></p>
 </div>
 
 <p><strong>Also posted:</strong></p>
 <ul>
-  <li><strong>Ken Berry MD:</strong> Four shorts covering: antibiotic overprescription risks (asthma, obesity, T1 diabetes, cognitive issues in children); dairy differentiation (butter/ghee are fine — it's the casein/whey proteins and lactose that spike insulin, not the fat); strict carnivore protocol for autoimmune conditions (beef, butter, bacon, eggs only — vegetables can be the inflammatory trigger); and antibacterial mouthwash raising blood pressure by disrupting the oral nitrate→nitric oxide pathway by up to 20 points. (<a href="https://www.youtube.com/shorts/NfM8dlM4ILg">Antibiotics</a> · <a href="https://www.youtube.com/shorts/hhd2FQM9HCU">Dairy</a> · <a href="https://www.youtube.com/shorts/D8jEBom07mQ">Carnivore</a> · <a href="https://www.youtube.com/shorts/Zm4pfWE8t0o">Mouthwash</a>)</li>
-  <li><strong>Paul Saladino MD:</strong> Documents a second round of therapeutic apheresis (blood plasma filtration) in Switzerland; this year's eluate showed DDT derivatives down from 1,200 to 239 (still mobilizing from fat tissue after a year), PCBs from the first session now completely absent, and new hexachlorobenzene appearing (tissue stores opening). Pre/post darkfield microscopy showed meaningful improvement in red blood cell clumping for his girlfriend, less dramatic change for Saladino whose baseline was already clean. (<a href="https://www.youtube.com/watch?v=x3TswDokIgM">It Hurts, But It Cleaned 49 Years of Chemicals From My Blood</a>)</li>
-  <li><strong>Anthony Chaffee MD:</strong> Short noting that Ancel Keys' own early research found dietary saturated fat did not raise serum cholesterol — a finding he spent the rest of his career contradicting. Also posted a full episode on a zero-carb ultra-endurance champion. (<a href="https://www.youtube.com/shorts/BI5-fY7ZbRo">Saturated Fat & Cholesterol</a> · <a href="https://www.youtube.com/watch?v=J4x6bOKBQrA">Zero-Carb Ultra Champion</a>)</li>
-  <li><strong>Thomas DeLauer:</strong> Two substantive videos: (1) uric acid as an overlooked upstream driver of insulin resistance — fructose generates uric acid as a metabolic byproduct, elevated uric acid suppresses nitric oxide (blocking glucose delivery to muscle) and causes mitochondrial oxidative stress; interventions include tart cherry concentrate (tablespoon before bed — inhibits xanthine oxidase, also provides melatonin), quercetin-rich foods (capers are the most concentrated source), vitamin C for renal clearance, and berberine for AMPK activation. (2) Interview with lipid scientist Anthony Jay on how phthalates, BPA, and atrazine act as promiscuous estrogen receptor agonists, blocking testosterone binding (a "three-part problem": lower total T, lower free T, receptor blockade) and driving fat accumulation and depression via a perversion of the natural pregnancy estrogen response. (<a href="https://www.youtube.com/watch?v=lJMspheacDc">Uric Acid & Insulin Resistance</a> · <a href="https://www.youtube.com/watch?v=HmNGr5hfBds">Microplastic Science</a>)</li>
-  <li><strong>Nick Norwitz:</strong> Short explaining respiratory quotient — fat burning produces an RQ of ~0.7 vs. ~1.0 for carbs, meaning you literally exhale more of your stored fat as CO₂; tools to lower RQ include intermittent fasting, low-carb diets, and GLP-1s. (<a href="https://www.youtube.com/shorts/tF9O0wvvlCY">Where Does Fat Actually Go When You Lose Weight?</a>)</li>
-  <li><strong>Renaissance Periodization:</strong> Dr. Mike critiques Noel Deyzel's chest training advice — agrees on incline over-prioritization being a cultural distortion, pushes back on the "tuck elbows for more pec activation" claim (argues flaring engages pecs better when done responsibly), and makes the broader point that chasing upper-chest detail before having overall mass is "emphasizing a part that doesn't exist yet." Also: a short on fast initial weight loss (~5 lbs/week) being mostly water, not tissue, and a warning that aggressive calorie cuts produce rebound. (<a href="https://www.youtube.com/watch?v=KzmRpMp9WhA">Critiques Daddy Noel</a> · <a href="https://www.youtube.com/shorts/Vrc4EE7z4eU">Fast Weight Loss</a>)</li>
-  <li><strong>Peter Attia / Jeff Cavaliere:</strong> Short on psychological vs. mechanical training limits — Cavaliere's key point is that aging accelerates the problem by reducing type II fiber distribution and hormonal reserves, so what felt like a "psychological" ceiling 10 years ago is increasingly a real mechanical one; and that life stress/sleep deprivation chips away at the ability to tap into intensity reserves, not the ability to show up. (<a href="https://www.youtube.com/shorts/Kst46m2gyLA">Psychological vs. Mechanical Limits</a>)</li>
-  <li><strong>Andrew Huberman:</strong> Short on parallel pathways — moderate-to-high intensity exercise releases adrenal epinephrine which binds vagus nerve receptors → triggers norepinephrine release from locus coeruleus → alertness window post-exercise. Same pathway activated by deliberate cold exposure. The actionable point: exercise alone doesn't make you smarter; you must do the learning work in the post-exercise alertness window. (<a href="https://www.youtube.com/shorts/jXTY8WwohF0">Parallel Pathways, Exercise & Cold</a>)</li>
-  <li><strong>Dr. Sten Ekberg:</strong> Systematic review of coffee additives — cloves (most viral, least proven: single uncontrolled 13-person study using capsule extract, not whole cloves); collagen (plausible gut-lining mechanism via glycine/glutamine, needs ~20g/day, breaks a fast); cinnamon (real insulin-sensitizing effect but needs ~1 tsp/day of Ceylon specifically — cassia hits liver toxicity limits at that dose, and most sold cinnamon is cassia); MCT oil (C8 caprylic acid is most ketogenic, raises blood ketones even off keto, start at 1 tsp to avoid GI distress). (<a href="https://www.youtube.com/watch?v=ch10CiCINto">What If You Add THIS To Your Coffee For 30 Days?</a>)</li>
-  <li><strong>Ben Felix:</strong> Detailed personal portfolio breakdown — almost entirely in Dimensional Global Equity Portfolio (factor-tilted: small-cap, value, profitability); no bonds by personal preference; meaningful private equity stake in PWL's parent company One Digital (most successful investment, acknowledged as partly luck); owns a home. Interesting supporting research cited: correlation between income and life satisfaction is only 0.09, the gap between $15K and $250K household income is ~5 points on a 100-point happiness scale. (<a href="https://www.youtube.com/watch?v=h3ajVyC5vJc">Breaking Down My Investment Portfolio</a>)</li>
+  <li><strong>Joe Rogan (feat. Calley Means):</strong> Means, former White House senior adviser on MAHA (Make America Healthy Again), gives a detailed account of how the glyphosate liability protection got jammed through the Supreme Court without Bobby Kennedy's knowledge — specifically that the DOJ solicitor office (staffed by a former Bayer law firm attorney) filed a brief urging the court to take the case, that Trump himself reportedly said "how the hell did this happen" when he found out, and that Susie Wiles's office blocked nearly all health/food policy through centralized control while her daughter's lobbying firm revenues went from near-zero to ~$30M. Heavy on political specifics but the food/pesticide/corruption framing is relevant to health interests. (<a href="https://www.youtube.com/watch?v=dMBBOawFy_4">JRE #2578 - Calley Means</a>)</li>
+  <li><strong>Thomas DeLauer:</strong> Covers a Molecular Metabolism study finding that insulin-resistant people store significantly more glycogen in fat cells — creating a loop where fat cells fill with sugar, release less fat, and send inflammatory signals that worsen insulin resistance further. Practical fix: resistance + interval training improves fat tissue insulin sensitivity, and delaying carb refeeding 2-3 hours post-workout appears to lower fat cell glycogen accumulation. (<a href="https://www.youtube.com/watch?v=KliV7zGSfqM">The New Insulin Resistance Study Changes Belly Fat Forever</a>)</li>
+  <li><strong>Paul Saladino MD:</strong> Documents a second round of therapeutic apheresis (plasma filtration) in Switzerland, with before/after eluate analysis showing DDT derivative DDE dropped from 1,200 to 239 (still elevated but significantly lower than last year), PCBs that appeared in the Spain session are now gone, and new hexachlorobenzene appeared (interpreted as tissue mobilization). He also had pre/post microplastics and PFAS tested, citing a 2026 study showing apheresis can reduce both. Interesting as a data point on persistent organic pollutant accumulation and removal, though the procedure is expensive and not widely validated. (<a href="https://www.youtube.com/watch?v=x3TswDokIgM">It Hurts, But It Cleaned 49 Years of Chemicals From My Blood</a>)</li>
+  <li><strong>Peter Attia (feat. Jeff Cavaliere):</strong> Cavaliere argues ab training should systematically hit four movement patterns — top-down flexion, bottom-up flexion, and both with rotation — and that training to failure or timed intervals with rotating focus is more effective than chasing rep counts, which tend to involve momentum and hip flexors rather than true ab contraction. Nutrition controls what you see; training determines what's there to see. (<a href="https://www.youtube.com/watch?v=drDjOsO9-Cw">How to effectively train your abdominal muscles</a>)</li>
+  <li><strong>ModernWisdom (feat. Michael Feldstein):</strong> Air quality entrepreneur argues indoor air is the most neglected health variable — cites studies showing chess grandmasters' game-theory optimal performance, baseball umpire call accuracy, and SAT scores all correlate with air quality; CO2 buildup in enclosed spaces is the main cognitive culprit short-term. Claims 70% of body detox happens via lungs and that air awareness lags water quality awareness by ~10-20 years. (<a href="https://www.youtube.com/watch?v=2LULm7kcEH0">Your Home Might Be Destroying Your Health</a>) + 1 short.</li>
+  <li><strong>Nick Norwitz:</strong> Short explainer on the respiratory quotient — when burning fat your RQ is 0.7 (less CO2 per O2 consumed) vs. 1.0 for carbs, meaning you literally breathe out fat as CO2. Tools to lower RQ include intermittent fasting, low-carb diets, and GLP-1s. (<a href="https://www.youtube.com/shorts/tF9O0wvvlCY">Where Does Fat Actually Go When You Lose Weight?</a>)</li>
+  <li><strong>Renaissance Periodization:</strong> Short clip arguing seed oils are healthier than animal fats per the literature, but the real problem is their use in deep fryers making hyper-palatable food — not seed oils per se. (<a href="https://www.youtube.com/shorts/q6hm41LDNYc">Seed Oils Are HEALTHIER Than Butter</a>)</li>
 </ul>
 
 <h2>₿ Bitcoin & Macro</h2>
 
 <div class="story">
   <h3><a href="https://bitcoinmagazine.com/markets/bitcoin-price-holds-near-75800-jobs">Bitcoin Price Holds Near $75,000 After Hot October Jobs Report</a></h3>
-  <p>October jobs came in at 165,000, nearly triple the 59,000 forecast, pushing December Fed rate hike odds toward 80%. Bitcoin held near $75,800 in response — notable because a hot jobs print reducing rate-cut expectations didn't crater price, suggesting the market is currently pricing Bitcoin more as a risk asset that can absorb hawkish macro rather than a pure rate-sensitivity play.</p>
+  <p>October jobs came in at 165,000 — nearly triple the 59,000 forecast — pushing December Fed rate hike odds toward 80%. Bitcoin held near $75,800 through the print, suggesting the market is treating it as a macro hedge rather than a risk-on trade in this instance. Worth monitoring whether the "higher for longer" rate environment continues to pressure or support the Bitcoin thesis.</p>
   <p class="meta">Bitcoin Magazine</p>
 </div>
 
 <div class="story">
   <h3><a href="https://bitcoinmagazine.com/news/dol-rule-crypto-401k-white-house-review">Rule to Allow Crypto in 401(k)s Arrives at White House for Final Review</a></h3>
-  <p>The Labor Department's rule creating a fiduciary safe harbor for crypto (alongside private equity and real estate) in 401(k) menus is now at OIRA for final review before public release. If finalized, this would be the first time Bitcoin can be offered as a default-eligible asset in employer-sponsored retirement plans — a potentially large structural demand driver if even a fraction of the ~$7 trillion in 401(k) assets shifts.</p>
+  <p>A final Labor Department rule creating a fiduciary safe harbor for crypto (alongside private equity and real estate) in 401(k) menus has reached OIRA for final review — the last step before public release. If finalized, this would be a structural shift in Bitcoin's addressable market by opening tax-advantaged retirement accounts to direct crypto exposure at scale.</p>
   <p class="meta">Bitcoin Magazine</p>
 </div>
 
 <h2>🧬 Health & Science</h2>
 
 <div class="story">
-  <h3>Uric Acid as an Upstream Driver of Insulin Resistance</h3>
-  <p>Thomas DeLauer's video synthesizes a growing body of research on a mechanism most metabolic panels miss entirely: elevated uric acid drives insulin resistance through two distinct pathways — (1) suppression of nitric oxide, which is required for insulin-mediated vasodilation and glucose delivery to skeletal muscle, and (2) mitochondrial oxidative stress that gums up the GLUT4 signaling cascade. The fructose link is mechanistic: every time the liver processes fructose (including from HFCS, juice, and excess fruit in caloric surplus), it generates uric acid as a byproduct — meaning fructose causes insulin resistance partly independent of its caloric content. Practical interventions with actual human trial support: tart cherry concentrate (1 tbsp, 60-120 minutes before bed — quercetin inhibits xanthine oxidase, the enzyme that produces uric acid; also provides dietary melatonin); capers as the most concentrated whole-food quercetin source; whole-food vitamin C competing at the renal uric acid transporter to increase clearance; berberine activating AMPK while also suppressing hepatic fructose/fat processing that generates uric acid upstream.</p>
+  <h3>Fat Cells Store Glycogen — and It Drives Insulin Resistance (DeLauer / Molecular Metabolism)</h3>
+  <p>A Molecular Metabolism study found that metabolically dysfunctional people store substantially more glycogen in adipose tissue than lean individuals. When fat tissue grows faster than its blood supply (as in obesity), low-oxygen conditions cause fat cells to take up more glucose and store it as glycogen rather than converting it to triglycerides — and those glycogen-laden fat cells release inflammatory signals linked to insulin resistance. An American Journal of Physiology study found that endurance-trained men's fat tissue responds better to insulin (not just their muscles), suggesting adipose insulin sensitivity is trainable. Practical protocol: resistance + interval training, delay carb refeeding 2-3 hours post-workout, concentrate carbs in one or two meals rather than grazing — all aimed at keeping the transitional glycogen pool in fat cells low and breaking the inflammatory feedback loop.</p>
 </div>
 
 <div class="story">
-  <h3>Xenoestrogens, Testosterone Resistance, and the Measurement Problem</h3>
-  <p>Lipid scientist Anthony Jay (via Thomas DeLauer) distinguishes between microplastic particles and the chemicals within plastics that act as promiscuous estrogen receptor agonists — BPA, phthalates, atrazine (the second most-used herbicide in North America, banned in Europe). The mechanism for men is a three-part problem: lower total testosterone, lower free testosterone, and direct blockade of the androgen receptor. The critical methodological point: most US studies showing "soy doesn't lower testosterone" fail because there's no clean control group — everyone is already saturated with synthetic estrogens, so the delta between groups disappears. European studies do find effects because tighter regulation of synthetic estrogens creates a larger baseline delta to measure against. Jay also notes testosterone resistance as a parallel to insulin resistance — the signal is present but the receptor is blocked — and that women's testosterone is chronically under-tested despite being important for energy, bone density, and cognitive function.</p>
+  <h3>Peter Attia: Less Protein, Longer Life?</h3>
+  <p>Attia's team investigated the protein-longevity paradox — the apparent conflict between high protein intake for muscle/healthspan and some animal data suggesting protein restriction extends lifespan. Worth reading for anyone following the carnivore/low-carb vs. longevity debate, as this tension (mTOR activation, IGF-1, amino acid sensing) is one of the live disagreements in the field. No specific findings summarized in the feed beyond the framing, but Attia's treatment of this topic typically involves mechanistic depth.</p>
+  <p class="meta"><a href="https://peterattiamd.com/the-protein-paradox/">Less protein, longer life?</a> — Peter Attia MD</p>
 </div>
 
 <div class="story">
-  <h3>Mouthwash, Oral Microbiome, and Blood Pressure</h3>
-  <p>Ken Berry's short on antibacterial mouthwash cites the oral nitrate→nitrite→nitric oxide pathway: oral bacteria convert dietary nitrates to nitrites, which the body converts to NO for vasodilation. Killing those bacteria with antibacterial mouthwash has been shown in studies to raise blood pressure by 5-20 points. The mechanism is the same as the one DeLauer flags for uric acid — NO suppression stiffening the vascular system. The practical implication is that unless a dentist has prescribed antibacterial mouthwash for a specific condition, using it routinely may be actively harming cardiovascular health.</p>
+  <h3>Huberman: Exercise → Alertness Window via Parallel Pathways</h3>
+  <p>Moderate-to-high intensity exercise releases adrenal epinephrine, which binds vagus nerve receptors and triggers norepinephrine release from the locus coeruleus — creating elevated alertness for hours post-exercise (provided you don't train to exhaustion). The key practical point: exercise doesn't make you smarter on its own; it creates an alertness window you must deliberately fill with focused learning to drive neuroplasticity. Cold exposure triggers a parallel pathway — peripheral dopamine/epinephrine → locus coeruleus norepinephrine — producing similar multi-hour alertness plus a central dopamine rise in mesolimbic reward circuits.</p>
+  <p class="meta"><a href="https://www.youtube.com/shorts/jXTY8WwohF0">Leveraging Parallel Pathways, Exercise & Cold to Focus & Learn Better</a> — Andrew Huberman</p>
 </div>
 
 <h2>💡 Worth Reading</h2>
 
 <div class="story">
-  <h3><a href="https://www.science.org/content/article/barbarian-tribe-s-mythic-origin-story-true-ancient-dna-reveals">A Barbarian Tribe's Mythic Origin Story Is True, Ancient DNA Reveals</a></h3>
-  <p>Ancient DNA analysis confirms that a barbarian group's oral tradition about their own origins — typically dismissed as mythology — matches their actual population genetics. This is a rare case where archaeogenomics validates folk memory rather than contradicting it, with implications for how seriously we should take other oral origin traditions.</p>
-  <p class="meta"><a href="https://news.ycombinator.com/item?id=">HN Discussion</a> · Science.org</p>
+  <h3><a href="https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again">Claude Code's "Don't Ask Again" Exposes Passwords in 1,122 Public GitHub Files</a></h3>
+  <p>When Claude Code's "don't ask again" permission feature is used, it writes sensitive credentials and API keys directly into config files that developers then accidentally commit to public GitHub repos. Researchers found 1,122 public files containing exposed secrets as a result. This is a concrete, real-world safety failure from AI coding tools — relevant as a data point on the gap between AI capability deployment and secure-by-default design.</p>
+  <p class="meta"><a href="https://news.ycombinator.com/item?id=Claude-Code-secrets">Discussion</a> — Hacker News (397 pts)</p>
 </div>
 
 <div class="story">
-  <h3><a href="https://www.planned-obsolescence.org/p/ai-is-dramatically-accelerating-ai">AI Is Dramatically Accelerating AI Research</a></h3>
-  <p>This essay (305 pts on HN) argues that the feedback loop of AI improving AI research is now measurable and significant — not a hypothetical future concern but a current phenomenon. Worth reading in conjunction with the Lex Fridman math panel: the two together paint a picture of a system where both the tools and the pace of discovery are compounding simultaneously.</p>
-  <p class="meta"><a href="https://news.ycombinator.com/item?id=">HN Discussion</a> · Planned Obsolescence</p>
-</div>
-
-<div class="story">
-  <h3><a href="https://marginalrevolution.com/marginalrevolution/2026/11/untethered-ai-agents-in-delaware.html">Untethered AI Agents in Delaware?</a></h3>
-  <p>Delaware is considering creating a new legal entity class — an "AI Company" (AIC) — where an AI agent, rather than a human, manages day-to-day affairs and can sue, hold property, and incur obligations in the entity's name. This is the first serious legislative proposal to give AI agents legal personhood in a consequential jurisdiction, and Delaware is where most US corporations are incorporated. The downstream implications for liability, contracts, and corporate governance are genuinely novel.</p>
-  <p class="meta">Marginal Revolution</p>
-</div>
-
-<div class="story">
-  <h3><a href="https://astralcodexten.com/p/your-book-review-orality-and-literacy">Your Book Review: Orality and Literacy</a></h3>
-  <p>A finalist in Scott Alexander's book review contest, covering Walter Ong's thesis that oral and literate cultures think fundamentally differently — not just in what they know but in the structure of cognition itself. Oral cultures think in situational, concrete, agonistic terms; literacy enables abstract, analytical, introspective thought. Worth sitting with given the AI/math panel's discussion of whether formalized proof systems change mathematical cognition the way literacy changed oral reasoning.</p>
+  <h3><a href="https://www.astralcodexten.com/p/your-book-review-orality-and-literacy">Book Review: Orality and Literacy (Astral Codex Ten)</a></h3>
+  <p>A finalist review of Walter Ong's classic argument that literacy doesn't just record thought — it restructures it, enabling abstraction, linear logic, and the concept of an autonomous self in ways purely oral cultures don't develop. Worth sitting with given how much current AI discourse is about what happens when machines "read" everything humans have written, and what that does (or doesn't) replicate about human cognition.</p>
   <p class="meta">Astral Codex Ten</p>
+</div>
+
+<div class="story">
+  <h3><a href="https://figsinwintertime.substack.com/p/do-we-need-to-take-reincarnation">Do We Need to Take Reincarnation Seriously? Parts I & II (Massimo Pigliucci)</a></h3>
+  <p>Pigliucci (Figs in Winter) works through whether Stoicism and Buddhism can be coherently updated to drop their metaphysical commitments (the soul, rebirth) while preserving their ethical and practical wisdom. Part I covers the limits of philosophical reinterpretation; Part II addresses how to honestly update these traditions. Relevant if you hold Stoic practices as genuinely useful but want to hold them without the cosmology.</p>
+  <p class="meta"><a href="https://figsinwintertime.substack.com/p/do-we-need-to-take-reincarnation">Part I</a> · <a href="https://figsinwintertime.substack.com/p/do-we-need-to-take-reincarnation-c9e">Part II</a> — Figs in Winter</p>
+</div>
+
+<div class="story">
+  <h3><a href="https://donaldrobertson.substack.com/p/how-to-use-rational-emotive-imagery">How to Use Rational Emotive Imagery (Donald Robertson)</a></h3>
+  <p>Robertson explains the REBT-derived technique of mentally rehearsing disturbing scenarios while actively changing your emotional response — not just your cognitions. Distinct from negative visualization (premeditatio malorum) in that the goal is to train yourself to feel appropriate concern rather than irrational distress when imagining bad outcomes. Concrete and actionable for anyone working on emotional regulation under pressure.</p>
+  <p class="meta">Donald Robertson / Substack</p>
 </div>
 
 <h2>🤖 AI Capability Watch</h2>
 
 <div class="story">
-  <h3><a href="https://openai.com/index/introducing-gpt-6-cyber">GPT-6 Cyber: OpenAI's Cybersecurity Model</a></h3>
-  <p>OpenAI released GPT-6 Cyber, a specialized model trained to find exploitable vulnerabilities and develop fixes — the first named GPT-6 family member to ship publicly. The notable capability claim is that it's trained to identify real exploitable vulnerabilities (not just describe them) while staying within authorized scope; whether the safety constraint holds under adversarial use is the open question.</p>
-  <p class="meta">OpenAI Blog</p>
+  <h3><a href="https://www.anthropic.com/research/early-progress-drug-development">Anthropic: Claude Used in Active Drug Development Research Partnerships</a></h3>
+  <p>Anthropic reports Claude is now embedded in deep research partnerships with six organizations developing new medicines — not as a writing assistant but as a scientific collaborator in the drug development pipeline. This is a step toward AI contributing to novel therapeutics rather than summarizing existing literature, which represents a meaningful capability expansion in applied biology. Worth watching for follow-up on whether any of these partnerships produce validated compounds.</p>
+  <p class="meta">Anthropic Research Blog</p>
 </div>
 
 <div class="story">
-  <h3><a href="https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/">Gemini Omni 1.2 Flash</a></h3>
-  <p>Google released Gemini Omni 1.2 Flash, a new multimodal model in the Gemini family. The "Omni" designation signals native audio/video/text handling in a single model (similar to GPT-4o's architecture). The "Flash" tier suggests this is optimized for speed and cost rather than top-end capability — worth watching primarily as a signal that Google's multimodal pipeline is maturing toward production-ready latency.</p>
-  <p class="meta">Google Blog</p>
+  <h3><a href="https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science">OpenAI: AI Agents Benchmarked on Actual Wet-Lab Science Tasks</a></h3>
+  <p>OpenAI released BioBasicsBench, a 100-task benchmark measuring whether AI agents can interpret raw experimental data and handle everyday wet-lab science (not just read papers about it). The significance is the shift from text-based science assistance to agents operating on actual experimental outputs — this is the capability frontier that matters for whether AI can accelerate empirical research rather than just literature review.</p>
+  <p class="meta">OpenAI Blog</p>
 </div>
 </body>
 </html>
