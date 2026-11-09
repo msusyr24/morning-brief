@@ -1,167 +1,125 @@
 === HACKER NEWS ===
-1. [32 pts] GitHub Down Again?
-   https://github.com/torvalds/linux
+1. [30 pts] Fun things to do with your VM/370 CE machine – Fun with big computers
+   https://rbanffy.github.io/fun-with-big-computers/fun-with-vm370/
 
-2. [317 pts] Goodbye Claude, Hello Pi
+2. [102 pts] Next-Concept Modeling: Fast, Parallel Coarse-to-Fine Text Generation
+   https://arxiv.org/abs/2610.14162
+
+3. [534 pts] KetchUp – Open-source SketchUp alternative built with Rust and WebGPU
+   https://ketchup3d.github.io/app/
+
+4. [397 pts] Unlocking any car from X brand in most of the world
+   https://shubs.io/unlocking-any-car-from-x-brand-in-most-of-the-world/
+
+5. [9 pts] Nvidia was in 1 in 11 startup rounds over $100M last year
+   https://datahyena.com/research/a-chipmaker-was-in-one-of-every-eleven-100m-rounds/
+
+6. [326 pts] I'm not convinced the AI bubble exists
+   https://matteoraso.github.io/im-not-convinced-the-ai-bubble-exists.html#im-not-convinced-the-ai-bubble-exists
+
+7. [34 pts] Psalm 7 release: PHP security&static analysis software
+   https://psalm.dev/articles/psalm-7
+
+8. [575 pts] Declarative Dragging
+   https://declarative-dragging.github.io/
+
+9. [217 pts] Is Opus 5.5 nerfed? Thinking patterns changed on November 3
+   https://twitter.com/shanemelaugh/status/2119192075505893695
+
+10. [240 pts] Chimera Vocal Synth
+   https://chimera-vocal-synth.vercel.app/
+
+11. [11 pts] The French Cake Cooked on a Spit (2018) [video]
+   https://www.youtube.com/watch?v=havcACdx0Y0
+
+12. [424 pts] Outlook.com is rejecting email from domains without DMARC
+   https://mailroute.net/blog/outlook-rejecting-email-without-dmarc
+
+13. [297 pts] Dux: Free, open-source Wayland desktop shell with file manager and theming
+   https://duxlabs.dev/
+
+14. [43 pts] ChatGPT Desktop forwards your SSH agent to remote machines
+   https://news.ycombinator.com/item?id=50422628
+
+15. [41 pts] Show HN: Flide: Make Jev-like decision models up to 9.5x faster
+   https://github.com/OmniJev/Flide
+
+16. [222 pts] Ask HN: What are you working on? (November 2026)
+   https://news.ycombinator.com/item?id=50417407
+
+17. [708 pts] Nvidia CEO Jensen Huang's letter to staff about affair
+   https://nvidianews.nvidia.com/news/a-message-to-our-company
+
+18. [38 pts] Quasi-Logarithmic Kitchen Timer
+   https://blog.coredump.cx/p/quasi-logarithmic-kitchen-timer
+
+19. [23 pts] Ask HN: Do you still enjoy coding in C++?
+   https://news.ycombinator.com/item?id=50423371
+
+20. [18 pts] 370 Books in 20 months: South African author defends her use of AI
+   https://www.enca.com/lifestyle/370-books-20-months-sa-author-defends-her-use-ai
+
+21. [32 pts] Ur-Nammu Founder of the Sumerian Renaissance
+   https://www.worldhistory.org/Ur-Nammu/
+
+22. [430 pts] Llama-modchip: 284B DeepSeek on 64GB RAM, no GPU
+   https://github.com/synchopate/llama-modchip
+
+23. [267 pts] How I Fight AI Brain Fry
+   https://sergeykuhne.com/blog/fighting-ai-brain-fry
+
+24. [791 pts] Goldman Sachs is pulling Claude Code from its bankers and traders
+   https://www.thestateofai.com/news/goldman-sachs-claude-code-traders-bankers
+
+25. [378 pts] Writing as a thinking tool
+   http://muratbuffalo.blogspot.com/2026/11/writing-as-thinking-tool.html
+
+26. [368 pts] RIP, Harvest
+   https://aphyr.com/posts/427-rip-harvest
+
+27. [31 pts] The Qlobe: Rotating Quine (2010)
+   http://mamememo.blogspot.com/2010/09/qlobe.html
+
+28. [113 pts] A Critique of GPUI
+   https://blog.zortax.de/posts/a-critique-of-gpui
+
+29. [32 pts] Show HN: JavaScript web apps with WASM layout and GPU rendering in 280 KB
+   https://github.com/rkaehn/uniform
+
+30. [773 pts] Goodbye Claude, hello Pi
    https://caleb.software/posts/claude-to-pi.html
-
-3. [24 pts] Agent memory needs its OpenTelemetry moment
-   https://www.lorekit.io/blog/open-agent-memory-format
-
-4. [57 pts] Clj.rs – a Clojure dialect implemented in Rust
-   https://clj.rs/
-
-5. [589 pts] What I run on my $10 USD OpenStick homelab
-   https://blog.bosscher.ch/posts/openstick/
-
-6. [397 pts] Claude Code's "Don't Ask Again" exposes passwords in 1,122 public GitHub files
-   https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again
-
-7. [48 pts] Kirlian Photography: Building Your Own Equipment
-   https://imagesco.com/articles/kirlian/kirlian-photography.html
-
-8. [17 pts] Finding Xanadu: Inside a JRPG classic translation 15 years in the making
-   https://readonlymemo.com/legend-of-xanadu-pc-engine-fan-translation-interview-making-of/
-
-9. [145 pts] Making any integer with four 2s (2025)
-   https://eli.thegreenplace.net/2025/making-any-integer-with-four-2s/
-
-10. [992 pts] Need for Speed Underground 2 online in the browser
-   https://nfsu2.xyz/
-
-11. [138 pts] Uranium cubes reveal why the German nuclear project failed
-   https://arstechnica.com/science/2026/11/uranium-cubes-reveal-why-the-german-nuclear-project-failed/
-
-12. [313 pts] MaxxBench – "Nice DeepSWE score. But is it true?"
-   https://maxxbench.unlap.ai/research/why-maxxbench/
-
-13. [4 pts] New typeface using intricate designs from Shakespeare's First Folio (2023)
-   https://www.itsnicethat.com/news/typeland-shakespeares-globe-amifer-folio-graphic-design-090323
-
-14. [41 pts] ISponsorBlockTV: SponsorBlock client for all YouTube TV clients
-   https://github.com/dmunozv04/isponsorblocktv
-
-15. [143 pts] GitHub New pull request overview page in public preview
-   https://github.blog/changelog/2026-11-05-new-pull-request-overview-page-in-public-preview/
-
-16. [50 pts] Consumer brain wave headsets threaten privacy
-   https://www.science.org/content/article/wearable-device-makers-are-harvesting-brain-data-train-ai-without-telling-users?referrer=https%3A%2F%2Fwww.google.com%2F
-
-17. [76 pts] ZapFast: A fast, native WhatsApp client in Rust and egui
-   https://github.com/crmne/zapfast
-
-18. [9 pts] WaveDudeNext 2D Wave Simulator
-   https://github.com/graealex/WaveDudeNext
-
-19. [733 pts] Every Mac comes with an (undocumented) family member classifier
-   https://8rank.ai/game/apple-intelligence-personal-knowledge-graph
-
-20. [4 pts] I'm Rewriting IBM SPSS Statistics in 100% Safe Rust, Alone
-   https://github.com/kobaltgit/StatCraft
-
-21. [42 pts] Amsterdam School
-   https://architecture-history.org/schools/AMSTERDAM%20SCHOOL.html
-
-22. [330 pts] Every Windows 11 app should kill Electron, and Discord just showed why
-   https://www.windowslatest.com/2026/11/06/every-windows-11-app-should-kill-electron-and-discord-just-showed-why-no-starting-screen-and-70-less-ram-even-with-two-accounts-signed-in/
-
-23. [238 pts] Show HN: Coldframe, a honeypot that poses as a supermarket fridge controller
-   https://github.com/hedgerow-dev/coldframe
-
-24. [457 pts] The end of Microsoft Research's AI Frontiers group
-   https://hunch.net/?p=13764006
-
-25. [56 pts] Commodore PET – The Worlds First Personal Computer
-   https://www.commodore.ca/commodore-products/commodore-pet-the-worlds-first-personal-computer/
-
-26. [237 pts] The $8 Linux Computer (2022)
-   http://thelittleengineerthatcould.blogspot.com/2022/12/the-8-linux-computer.html
-
-27. [465 pts] Apple’s grey list: Words and phrases your iPhone won’t help you spell
-   https://www.theguardian.com/technology/2026/nov/06/struggling-to-spell-male-chauvinist-pig-apple-grey-list-means-your-iphone-wont-help-you
-
-28. [381 pts] Asahi Linux Progress Linux 7.3
-   https://asahilinux.org/2026/11/progress-report-7-3/
-
-29. [125 pts] Every processor die anyone has photographed and given away
-   https://sheets.works/data-viz/cpu-dies
-
-30. [116 pts] Five memorable books about programming (2008)
-   https://prog21.dadgum.com/19.html
 
 
 === RSS ===
-[ideas] Marginal Revolution: The Pope probably knows this song
-  https://marginalrevolution.com/marginalrevolution/2026/11/the-pope-probably-knows-this-song.html?utm_source=rss&utm_medium=rss&utm_campaign=the-pope-probably-knows-this-song
+[ai] Simon Willison: The Web Is More Than Enough, by Paul Ford
+  https://simonwillison.net/2026/Nov/9/hn-50421091/
 
-[ideas] Marginal Revolution: What I’ve been reading
-  https://marginalrevolution.com/marginalrevolution/2026/11/what-ive-been-reading-298.html?utm_source=rss&utm_medium=rss&utm_campaign=what-ive-been-reading-298
+[ai] Simon Willison: Hide your slop PR descriptions behind <details><summary>
+  https://simonwillison.net/2026/Nov/9/details-summary/
 
-[ideas] Marginal Revolution: Saturday assorted links
-  https://marginalrevolution.com/marginalrevolution/2026/11/saturday-assorted-links-585.html?utm_source=rss&utm_medium=rss&utm_campaign=saturday-assorted-links-585
-
-[ideas] Marginal Revolution: What are the Best MR Posts?
-  https://marginalrevolution.com/marginalrevolution/2026/11/ten-outstanding-marginal-revolution-posts-reasoning-originality-and-explanatory-power.html?utm_source=rss&utm_medium=rss&utm_campaign=ten-outstanding-marginal-revolution-posts-reasoning-originality-and-explanatory-power
-
-[ideas] Marginal Revolution: The Anthropic succession plan?
-  https://marginalrevolution.com/marginalrevolution/2026/11/the-anthropic-succession-plan.html?utm_source=rss&utm_medium=rss&utm_campaign=the-anthropic-succession-plan
-
-[ai] Anthropic News: AI for Science expands to foundations and research institutions
-  https://www.anthropic.com/news/ai-for-science-expands-foundations-research-institutions
-
-[ai] Anthropic News: Early progress on accelerating drug development with Claude
-  https://www.anthropic.com/research/early-progress-drug-development
-
-[ai] Anthropic News: Expanding our partnership with GSA to bring Claude to all levels of government
-  https://www.anthropic.com/news/expanding-partnership-gsa
-
-[ai] Anthropic News: Anthropic files S-1 with the SEC for proposed initial public offering
-  https://www.anthropic.com/news/s1-sec
-
-[ideas] Stratechery: 2026.45: Falling Leaves (and Stocks)
-  https://stratechery.com/2026/falling-leaves-and-stocks/
-
-[ideas] Stratechery: Sharp Tech on Video: The U.S. Votes on Data Centers, Implications for Big Tech, Google’s Response to AI
-  https://stratechery.com/2026/sharp-tech-on-video-the-u-s-votes-on-data-centers-implications-for-big-tech-googles-response-to-ai/
-
-[ideas] Stratechery: An Interview With Intuit CEO Sasan Goodarzi About Accounting and AI
-  https://stratechery.com/2026/an-interview-with-intuit-ceo-sasan-goodarzi-about-accounting-and-ai/
+[ai] Simon Willison: parse_number() as a SQLite extension: C vs Rust
+  https://simonwillison.net/2026/Nov/8/sqlite-parse-number-c-vs-rust/
 
 [ai] Simon Willison: datasette #3046: Don't serve link: rel=next HTTP headers to Firefox for HTML pages
   https://simonwillison.net/2026/Nov/7/link-rel-next/
 
-[ai] Simon Willison: Quoting Nilay Patel
-  https://simonwillison.net/2026/Nov/6/nilay-patel/
+[ai] Simon Willison: Terry Pratchett's Study
+  https://simonwillison.net/2026/Nov/7/hn-50407316/
 
-[ai] Simon Willison: Quoting Paul Ford
-  https://simonwillison.net/2026/Nov/5/paul-ford/
+[ideas] Paul Graham: Making Startups Powerful
+  https://paulgraham.com/powerful.html
 
-[bitcoin] The Pomp Letter: Five Friday Charts: Shifting plates in S&P 500
-  https://pomp.substack.com/p/five-friday-charts-shifting-plates
+[health] Peter Attia: #415 ‒ AMA #91: Understanding lab testing: what blood work can and cannot tell you about your health and disease risk
+  https://peterattiamd.com/ama91/
 
 [health] Peter Attia: Less protein, longer life?
   https://peterattiamd.com/the-protein-paradox/
 
-[wisdom] Figs in Winter (Pigliucci): Suggested Readings
-  https://figsinwintertime.substack.com/p/suggested-readings-07f
+[ideas] Stratechery: Jensen Huang’s Affair, The Culper Report, Huang’s Righteousness
+  https://stratechery.com/2026/jensen-huangs-affair-the-culper-report-huangs-righteousness/
 
-[wisdom] Figs in Winter (Pigliucci): Do we need to take reincarnation seriously? – Part II
-  https://figsinwintertime.substack.com/p/do-we-need-to-take-reincarnation-c9e
-
-[wisdom] Figs in Winter (Pigliucci): Do we need to take reincarnation seriously? – Part I
-  https://figsinwintertime.substack.com/p/do-we-need-to-take-reincarnation
-
-[ai] OpenAI Blog: Partnering with Hacktron to find vulnerabilities in OpenAI’s systems
-  https://openai.com/index/partnering-with-hacktron
-
-[ai] OpenAI Blog: Measuring how AI agents handle everyday wet-lab science
-  https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science
-
-[ai] OpenAI Blog: Australian universities are creating AI-native graduates
-  https://openai.com/index/australian-universities-ai-native-graduates
-
-[ai] OpenAI Blog: Cult.fit builds operational muscle with Codex
-  https://openai.com/index/cultfit-builds-with-codex
+[ideas] Stratechery: 2026.45: Falling Leaves (and Stocks)
+  https://stratechery.com/2026/falling-leaves-and-stocks/
 
 [wisdom] Donald Robertson: Greg Sadler reviews How to Think Like Socrates
   https://donaldrobertson.substack.com/p/greg-sadler-reviews-how-to-think
@@ -172,8 +130,41 @@
 [wisdom] Donald Robertson: How to use Rational Emotive Imagery
   https://donaldrobertson.substack.com/p/how-to-use-rational-emotive-imagery
 
-[ideas] Paul Graham: Making Startups Powerful
-  https://paulgraham.com/powerful.html
+[wisdom] Figs in Winter (Pigliucci): Suggested Readings
+  https://figsinwintertime.substack.com/p/suggested-readings-07f
+
+[wisdom] Figs in Winter (Pigliucci): Do we need to take reincarnation seriously? – Part II
+  https://figsinwintertime.substack.com/p/do-we-need-to-take-reincarnation-c9e
+
+[wisdom] Figs in Winter (Pigliucci): Do we need to take reincarnation seriously? – Part I
+  https://figsinwintertime.substack.com/p/do-we-need-to-take-reincarnation
+
+[bitcoin] The Pomp Letter: Five Friday Charts: Shifting plates in S&P 500
+  https://pomp.substack.com/p/five-friday-charts-shifting-plates
+
+[ai] Anthropic News: AI for Science expands to foundations and research institutions
+  https://www.anthropic.com/news/ai-for-science-expands-foundations-research-institutions
+
+[ai] Anthropic News: Early progress on accelerating drug development with Claude
+  https://www.anthropic.com/research/early-progress-drug-development
+
+[ai] Anthropic News: Expanding our partnership with GSA to bring Claude to all levels of government
+  https://www.anthropic.com/news/expanding-partnership-gsa
+
+[ideas] Marginal Revolution: Seb Krier, Ricardian?
+  https://marginalrevolution.com/marginalrevolution/2026/11/seb-krier-ricardian.html?utm_source=rss&utm_medium=rss&utm_campaign=seb-krier-ricardian
+
+[ideas] Marginal Revolution: The Paraguayan bank story
+  https://marginalrevolution.com/marginalrevolution/2026/11/the-paraguayan-bank-story.html?utm_source=rss&utm_medium=rss&utm_campaign=the-paraguayan-bank-story
+
+[ideas] Marginal Revolution: Sunday assorted links
+  https://marginalrevolution.com/marginalrevolution/2026/11/sunday-assorted-links-589.html?utm_source=rss&utm_medium=rss&utm_campaign=sunday-assorted-links-589
+
+[ideas] Marginal Revolution: The Pope probably knows this song
+  https://marginalrevolution.com/marginalrevolution/2026/11/the-pope-probably-knows-this-song.html?utm_source=rss&utm_medium=rss&utm_campaign=the-pope-probably-knows-this-song
+
+[ideas] Marginal Revolution: What I’ve been reading
+  https://marginalrevolution.com/marginalrevolution/2026/11/what-ive-been-reading-298.html?utm_source=rss&utm_medium=rss&utm_campaign=what-ive-been-reading-298
 
 [ideas] Astral Codex Ten: Your Book Review: Orality and Literacy
   https://www.astralcodexten.com/p/your-book-review-orality-and-literacy
@@ -204,32 +195,28 @@
 
 
 === YOUTUBE ===
-GTO Wizard: Is every hand playable? PLO Preflop mechanics #shorts
-  https://www.youtube.com/shorts/0g2IttfuTKM
+Ken Berry MD: Salt, a little SALTR seasoning, a hot cast iron pan, and bacon grease or butter. That's it.
+  https://www.youtube.com/shorts/aeyGbHE5FTo
+  Transcript: yes
+
+GTO Wizard: Espen Jorstad - $10k WCOOP Main Event Review
+  https://www.youtube.com/watch?v=T_e7HRTpWkA
   Transcript: NO
+
+Anthony Chaffee MD: He Eats ZERO Carbs... And He's an Ultra Champion | Justin Boyle
+  https://www.youtube.com/watch?v=J4x6bOKBQrA
+  Transcript: yes
 
 Paul Saladino MD: It Hurts, But It Cleaned 49 Years of Chemicals From My Blood
   https://www.youtube.com/watch?v=x3TswDokIgM
   Transcript: yes
 
-Ken Berry MD: "I'm not here for antibiotics unless my child actually needs them."
-  https://www.youtube.com/shorts/ovLgMdmK5vU
-  Transcript: yes
-
-Ken Berry MD: Dairy worsens mucus and congestion for some people, but affects others not at all.
-  https://www.youtube.com/shorts/f947P_WHc88
-  Transcript: yes
-
-Ken Berry MD: Monday Night Live with Dr. Berry & Nurse Neisha
-  https://www.youtube.com/watch?v=epkkF0C-gdc
-  Transcript: NO
-
-Anthony Chaffee MD: Everything You Know About Cholesterol is WRONG
-  https://www.youtube.com/shorts/C1twbqFqaMw
-  Transcript: yes
-
 Joe Rogan: Joe Rogan Experience #2578 - Calley Means
   https://www.youtube.com/watch?v=dMBBOawFy_4
+  Transcript: yes
+
+Nick Norwitz: What Everyone Gets Wrong About Artificial Sweeteners
+  https://www.youtube.com/shorts/4YzYv7Qtqic
   Transcript: yes
 
 GTO Lab: Mystery Bounty Is a Completely Different Game | Nick Petrangelo, Daniel Dvoress & Axel Hallay
@@ -240,40 +227,40 @@ Jared Alderman: "Poker Doesn't Work Without Exploits" - Uri Peleg
   https://www.youtube.com/watch?v=d18PasuKpnA
   Transcript: yes
 
-Nick Norwitz: Where Does Fat Actually Go When You Lose Weight?
-  https://www.youtube.com/shorts/tF9O0wvvlCY
+Lex Fridman: AI Crisis in Math: Navier-Stokes, Riemann Hypothesis & Complexity Theory | Lex Fridman Podcast #503
+  https://www.youtube.com/watch?v=ZAzWPE9CItg
   Transcript: yes
 
-Thomas DeLauer: The New Insulin Resistance Study Changes Belly Fat Forever
-  https://www.youtube.com/watch?v=KliV7zGSfqM
+Thomas DeLauer: Women’s Fat Loss Doctor: How You Need to Change Your Diet to Lose Fat & Build Muscle
+  https://www.youtube.com/watch?v=CoFx23tzibE
+  Transcript: yes
+
+Thomas DeLauer: I Can Spot Insulin Resistance Across the Room (how to fix it EARLY)
+  https://www.youtube.com/watch?v=vy0Ypj258ds
   Transcript: yes
 
 Dr. Sten Ekberg: What If You Add THIS To Your Coffee For 30 Days?
   https://www.youtube.com/watch?v=ch10CiCINto
   Transcript: yes
 
-Renaissance Periodization: Seed Oils Are HEALTHIER Than Butter (here's why)
-  https://www.youtube.com/shorts/q6hm41LDNYc
+Renaissance Periodization: Why Cardio Isn't Good For Fat Loss
+  https://www.youtube.com/shorts/a7qVmgGBg1k
   Transcript: yes
 
-Peter Attia: How to effectively train your abdominal muscles | Jeff Cavaliere, M.S.P.T., C.S.C.S.
-  https://www.youtube.com/watch?v=drDjOsO9-Cw
+Renaissance Periodization: Why Squats Hit Your BACK Instead of Your QUADS
+  https://www.youtube.com/shorts/fY5p6aIbG1c
   Transcript: yes
 
-Lex Fridman: AI Crisis in Math: Navier-Stokes, Riemann Hypothesis & Complexity Theory | Lex Fridman Podcast #503
-  https://www.youtube.com/watch?v=ZAzWPE9CItg
+Peter Attia: Understanding lab testing: what blood work can & cannot tell you (AMA 91 sneak peek)
+  https://www.youtube.com/watch?v=HhTirnNCxxE
+  Transcript: NO
+
+ModernWisdom: The Question Everyone Should Ask Themselves
+  https://www.youtube.com/shorts/CbiCynOOpbY
   Transcript: yes
 
-ModernWisdom: The Easiest Way To Become Brave
-  https://www.youtube.com/shorts/F0kn4YXc3qg
-  Transcript: yes
-
-ModernWisdom: Your Home Might Be Destroying Your Health (& how to fix it) - Michael Feldstein
-  https://www.youtube.com/watch?v=2LULm7kcEH0
-  Transcript: yes
-
-ThinkingPoker: Bankroll Management - Thinking Poker
-  https://www.youtube.com/watch?v=6w8amkDkeVw
+ModernWisdom: How To Develop Good Taste (the #1 skill today)
+  https://www.youtube.com/watch?v=pFscaR3gkfU
   Transcript: yes
 
 Andrew Huberman: LEVERAGING PARALLEL PATHWAYS, EXERCISE & COLD TO FOCUS & LEARN BETTER
@@ -282,6 +269,10 @@ Andrew Huberman: LEVERAGING PARALLEL PATHWAYS, EXERCISE & COLD TO FOCUS & LEARN 
 
 Ben Felix: Breaking Down My Investment Portfolio
   https://www.youtube.com/watch?v=h3ajVyC5vJc
+  Transcript: yes
+
+ThinkingPoker: Bankroll Management - Thinking Poker
+  https://www.youtube.com/watch?v=6w8amkDkeVw
   Transcript: yes
 
 Mind The Game: Age is just a number when your game keeps evolving. 💯
