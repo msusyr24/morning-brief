@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>Morning Brief — Tuesday, November 10, 2026</title>
+<title>Morning Brief — Wednesday, November 11, 2026</title>
 <style>
   body {
     font-family: Georgia, serif;
@@ -92,19 +92,19 @@
 })();
 </script>
 <h1>Morning Brief</h1>
-<p class="date">Tuesday, November 10, 2026</p>
+<p class="date">Wednesday, November 11, 2026</p>
 
 <div class="anchor">
   <h2>☀️ Today's Anchor</h2>
   <div class="anchor-block">
-    <p class="quote">"How long are you going to wait before you demand the best of yourself?"</p>
-    <p class="author">— Epictetus</p>
-    <p class="context">Discourses. Epictetus was impatient with students who treated philosophy as intellectual entertainment.</p>
+    <p class="quote">"Luck is what happens when preparation meets opportunity."</p>
+    <p class="author">— Seneca</p>
+    <p class="context">Often misattributed to Oprah or Thomas Jefferson. The actual source is Seneca's letters, 2000 years earlier.</p>
   </div>
   <div class="anchor-block">
-    <p class="model-label">Mental Model · Strategy/Military</p>
-    <p class="model-name">OODA Loop</p>
-    <p class="context">Colonel John Boyd's framework: Observe, Orient, Decide, Act — then repeat, faster than your opponent. The faster your loop, the more control you have. Applies to fighter pilots, startups, and personal decisions. Most people are stuck in 'Orient' — paralyzed by analysis — while faster actors run circles around them.</p>
+    <p class="model-label">Mental Model · Strategy</p>
+    <p class="model-name">Maginot Line Thinking</p>
+    <p class="context">France's WWI-era defense, designed against the last war, was simply bypassed in WWII. Generals always fight the last war. Companies always defend the last market. Individuals always prepare for the last threat. Ask: what if the threat doesn't come from where I'm defending?</p>
   </div>
 </div>
 
@@ -115,112 +115,102 @@
   <p class="spotlight-instructions">Interested? Copy the line below into <code>YOUTUBE_CHANNELS</code> in <code>brief.py</code> and save:</p>
   <pre class="spotlight-snippet" id="snippet">    "Mike Israetel (Renaissance Periodization solo)": "UCfQgsKhHjSyRLOp9mnffqVg",</pre>
   <button class="copy-btn" onclick="navigator.clipboard.writeText(document.getElementById('snippet').innerText.trim()); this.innerText='✅ Copied'; setTimeout(()=>this.innerText='📋 Copy snippet', 2000);">📋 Copy snippet</button>
-  <p class="spotlight-meta">showing for 3 more days. If you don't add it, a new channel will be suggested.</p>
+  <p class="spotlight-meta">showing for 2 more days. If you don't add it, a new channel will be suggested.</p>
 </div>
 <h2>🎥 From People I Follow</h2>
 
 <p><strong>Worth your time:</strong></p>
 
 <div class="story">
+  <h3>GTO Lab</h3>
+  <p>Nick Petrangelo, Daniel Dvoress, and Axel Hallay walk through GTO Lab's new mystery bounty library — 240+ sims and counting — built specifically for a format they argue almost no one plays correctly. The core insight: mystery bounties aren't "regular tournaments where you adjust a little." They're a fundamentally different game, and the most common mistake is being too tight when bounties first kick in, since ICM is minimal and bounties are maximally valuable at that stage. The key analytical tool they built is the KO-to-stack ratio: bounty value divided by current stack, which drives the entire pre- and post-flop strategic adjustment. They also show a combined EV view that breaks out prize-pool EV vs. KO EV per hand — revealing that some hands are played purely for bounty value, with zero prize-pool EV, which is nearly impossible to intuit without sims.</p>
+  <p class="meta">Videos: <a href="https://www.youtube.com/watch?v=17QO6NohJ8E">Mystery Bounty Is a Completely Different Game | Nick Petrangelo, Daniel Dvoress & Axel Hallay</a></p>
+</div>
+
+<div class="story">
+  <h3>Jared Alderman</h3>
+  <p>Jared and Uri Peleg dig into the hidden information layer of poker that gets underappreciated: your opponent cannot know your game tree. Uri's key claim is that bluffing balance only matters insofar as your opponent can detect it — meaning you can over-bluff ace-high boards and under-bluff king-high boards and be globally fine, because there's no practical way for anyone to discover this unless you tell them. The chess analogy Uri uses is sharp: GTO poker is setting up your "invisible chessboard" optimally given your opponent doesn't know your board. Exploitative poker is making an informed guess about how they've set up theirs. Uri also pushes back on RNG-dependency: he stopped RNGing and instead asked "how can my opponent even know if I'm balanced?" — and found that as long as frequencies aren't face-up, the edge from perfect randomization is minimal compared to other exploits available.</p>
+  <p class="meta">Videos: <a href="https://www.youtube.com/watch?v=d18PasuKpnA">"Poker Doesn't Work Without Exploits" - Uri Peleg</a></p>
+</div>
+
+<div class="story">
   <h3>Nick Norwitz</h3>
-  <p>Norwitz breaks down the fasting mimicking diet (FMD) — a protocol of roughly 700–1,100 calories/day, low protein, fat-primary, for 5 consecutive days, cycled 3x per year (15 total days). A 2024 <em>Nature Communications</em> study found participants became biologically younger by a median 2.5 years on a validated blood-based aging score (albumin, creatinine, CRP, HbA1c, blood pressure) — and critically, the reduction in biological age was NOT associated with how much weight people lost, suggesting metabolic reprogramming beyond simple caloric deficit. Additional findings: liver fat dropped from 14% to 8% in participants with fatty liver (>40% relative reduction), immune aging markers improved, and a monkey study showed lower bodyweight set points persisting 1,000+ days after the protocol ended. The two key mechanistic levers are (1) caloric restriction with fat as primary fuel, forcing ketosis, and (2) protein restriction, which lowers IGF-1 and suppresses mTOR — the cell's growth switch. Norwitz is careful to note this is about periodicity, not chronic restriction, and that it differs fundamentally from just "eating less."</p>
-  <p class="meta">Video: <a href="https://www.youtube.com/watch?v=qyy8fCuQ5_E">This Diet Reverses Aging in 15 Days</a></p>
-</div>
-
-<div class="story">
-  <h3>GTO Lab (Nick Petrangelo, Daniel Dvoress & Axel Hallay)</h3>
-  <p>The core argument: mystery bounty tournaments are not "regular tournaments with slightly wider ranges" — they're a structurally different game, and most players massively underadjust. Axel Hallay introduces the KO-to-stack ratio as the key governing variable: bounty value divided by villain's current stack, which drives preflop and postflop strategy throughout. GTO Lab built a library of ~300 sims specifically for mystery bounty spots, and the EV breakdown tool separates prize-pool EV (green) from bounty EV (yellow) — many early-stage hands show pure yellow EV, meaning you're calling/jamming purely for the knockout with zero expected prize pool gain, which almost no player accounts for. The most common leak identified: players VPIP too tightly at the bounty-on stage because they're pattern-matching to vanilla tournament play, leaving significant money on the table.</p>
-  <p class="meta">Video: <a href="https://www.youtube.com/watch?v=17QO6NohJ8E">Mystery Bounty Is a Completely Different Game</a></p>
-</div>
-
-<div class="story">
-  <h3>Jared Alderman (with Uri Peleg)</h3>
-  <p>Uri Peleg makes a genuinely interesting point about hidden information in poker: a player doesn't need to be perfectly balanced — they only need to be balanced enough that the opponent can't detect the imbalance. If you over-bluff ace-high boards and under-bluff king-high boards but are roughly correct globally, there's no practical way for opponents to discover this. He frames GTO play using a chess analogy: each player has an "invisible chessboard" (range), and GTO is setting up your pieces optimally given your opponent can see your board but not your plan — while exploitative play means making an informed guess about how they've set up theirs and countering. Alderman's underlying thesis: people dramatically overestimate how precisely opponents track your frequencies in real-time, which means well-disguised population-level exploits can be highly +EV.</p>
-  <p class="meta">Video: <a href="https://www.youtube.com/watch?v=d18PasuKpnA">"Poker Doesn't Work Without Exploits" - Uri Peleg</a></p>
-</div>
-
-<div class="story">
-  <h3>Lex Fridman (with mathematicians Steven Brunton, Ankur Moitra & Alex)</h3>
-  <p>This is an emergency episode convened after OpenAI released proofs of ~700 mathematical results including progress on Navier-Stokes, a quasi-Riemann Hypothesis result, and the Unique Games Conjecture — problems that would constitute instant Fields Medal territory if done by humans. The panel's sharpest distinction: the AI results appear to be in the "semigroup" of known mathematical moves (combining known techniques in long, surprising chains) rather than generating genuinely new definitions or concepts — but the semigroup reach is far larger than previously thought, which is itself shocking. Ankur Moitra raises the "doorman fallacy": reducing mathematics to theorem-proving is like reducing a doorman's job to door-opening — the actual value of mathematicians lies in asking the right questions, building conceptual frameworks, and mentoring, none of which has been displaced. The deepest concern isn't about senior researchers but about PhD students, whose traditional blueprint (pick a hard problem, improve it, make a name) has been destabilized overnight; Terence Tao is quoted calling it a "casual disruption" of years of patient graduate research.</p>
-  <p class="meta">Video: <a href="https://www.youtube.com/watch?v=ZAzWPE9CItg">AI Crisis in Math: Navier-Stokes, Riemann Hypothesis & Complexity Theory | Lex Fridman #503</a></p>
-</div>
-
-<div class="story">
-  <h3>Modern Wisdom (with Bugzy Malone)</h3>
-  <p>Rapper/entrepreneur Bugzy Malone on the psychological trap of "making it": once you get everything you wanted, the system keeps tricking you into believing you need more — usually driven by external validation-seeking that never ends. His framing: the Bible's "a lover of silver will never be content with the silver" describes most high achievers. He distinguishes between the person who never makes it and the person who had it and lost it, arguing the latter is more painful and more common — and that the identity of "someone who doesn't quit" can itself become a cage (echoing the Navy SEAL anecdote about staying in a toxic marriage for 15 years because quitting was incompatible with his self-concept). Most interesting line: "What you are praised for in public, you often pay for in private."</p>
-  <p class="meta">Video: <a href="https://www.youtube.com/watch?v=VyqLmiZSLG4">The Life You Want Will Cost You Everything - Bugzy Malone</a></p>
+  <p>Norwitz covers the fasting mimicking diet (FMD) with unusual depth, anchoring on a 2024 Nature Communications RCT: three 5-day FMD cycles (700–1,100 kcal/day, fat-dominant, protein-restricted) lowered biological age by a median of 2.5 years on a validated blood-based aging score, with a second independent trial replicating the finding. Crucially, the reduction in biological age was not correlated with weight loss — implying this is genuine metabolic reprogramming rather than a caloric restriction artifact. Mechanistically, the two levers are ketosis (from caloric + fat emphasis) and mTOR/IGF-1 suppression via protein restriction. Additional findings: liver fat dropped from 14% to 8% in participants with fatty liver, immune aging markers improved, and a monkey study showed lower bodyweight set points persisting 1,000+ days after the intervention ended. His modeled estimate: three FMD cycles per year could reduce 20-year cardiovascular mortality by 17% and cancer mortality by 6%.</p>
+  <p class="meta">Videos: <a href="https://www.youtube.com/watch?v=qyy8fCuQ5_E">This Diet Reverses Aging in 15 Days</a></p>
 </div>
 
 <p><strong>Also posted:</strong></p>
 <ul>
-  <li><strong>Ken Berry MD:</strong> Argued that protein-to-sugar gluconeogenesis fears are physiologically unfounded — citing PhD researcher Dr. Ben Bikman, he states you cannot eat enough whole-food animal protein for it to convert to glucose, and that satiety hormones self-regulate intake naturally. Also covered Thanksgiving strategy (pre-eat before the meal, bring a carnivore dish, do bathroom squats before dessert to deplete muscle glycogen). (<a href="https://www.youtube.com/watch?v=_x4pD7wKOcA">The High Protein Craze Has Gone TOO Far</a> + <a href="https://www.youtube.com/watch?v=jiHC8XGA4pY">Don't Let Thanksgiving Ruin Your Progress</a> +3 shorts)</li>
-  <li><strong>Peter Attia:</strong> AMA preview on lab testing: labs give you roughly 25–30% of the information needed for a complete health picture; reference ranges are a poor proxy for health since you can be "normal" and still have significant undetected risk. Emphasizes longitudinal data over single snapshots — a one-time CRP of 3 could be post-vaccine noise or chronic inflammation; without history you can't know. (<a href="https://www.youtube.com/watch?v=HhTirnNCxxE">Understanding lab testing: what blood work can & cannot tell you</a>)</li>
-  <li><strong>Renaissance Periodization (Dr. Mike):</strong> Practical supplement shopping guide: whey protein (any type fits budget/digestion), creatine monohydrate 5g/day (form doesn't matter), vitamin D+K2, fish oil EPA/DHA, multivitamin. At 42, he's shifted to higher rep ranges, slower tempo, and better technique to manage injury risk — recommends older lifters do the same. (<a href="https://www.youtube.com/watch?v=YYazO1Zzxo0">How to Buy Supplements Without Getting Ripped Off</a>)</li>
-  <li><strong>Thomas DeLauer:</strong> Beet juice (quarter cup) feeds nitrate-reducing bacteria on the tongue that convert nitrate → nitrite and consume the lactic acid that causes enamel demineralization — raising oral pH and reducing plaque/gingivitis. Caveat: aggressive tongue scraping and antiseptic mouthwash destroy this same bacteria population, undermining the effect and potentially raising blood pressure. Xylitol gum complements by starving Streptococcus mutans. (<a href="https://www.youtube.com/watch?v=YgqRgsDzv2o">Ditch Mouthwash - This Stops Tooth Decay</a>)</li>
-  <li><strong>Andrew Huberman (with Dr. Anna Lembke):</strong> Lembke's new book <em>Radical Surrender</em> centers on the paradox that giving up control is the mechanism of recovery — including from codependency, where the moment a codependent family member stops pulling on the rope, the addicted person often enters recovery almost "like clockwork." Addiction in its severest form is described as addiction to control itself: the ability to reliably change how you feel via a single lever. (<a href="https://www.youtube.com/watch?v=wbJ_Q1xsDHg">Overcome Addictions and Obsessions of All Kinds</a>)</li>
-  <li><strong>Joe Rogan (with Calley Means):</strong> Means resigned from his White House MAHA adviser role and details how the Bayer glyphosate liability protection was pushed through the Supreme Court via a DOJ brief — without Bobby Kennedy's knowledge and apparently without Trump's knowledge either (Trump's reaction upon hearing about it: "That's a terrible decision. How the hell did this happen?"). He names Susie Wiles and her deputies as the structural bottleneck blocking health reform, alleging conflicts of interest via lobbying firm relationships. Heavy on political detail — worth skimming if you follow the food/health policy angle, but mostly political mechanics. (<a href="https://www.youtube.com/watch?v=dMBBOawFy_4">JRE #2578 - Calley Means</a>)</li>
-  <li><strong>Paul Saladino MD:</strong> Short-form reel listing perceived benefits of red meat consumption (muscle, libido, sleep, mood) with no data cited. (<a href="https://www.youtube.com/shorts/pBiaPt2JsV0">All the Benefits of Eating Red Meat</a>)</li>
-  <li><strong>Anthony Chaffee MD:</strong> Showed his home dry-aging fridge setup (humidity/temp controlled), demonstrating 30-day dry-aged ribeye prep and cook technique (hot oil basting for crust). (<a href="https://www.youtube.com/shorts/JHbeNE4aKUk">Homemade Dry Aged Steaks</a>)</li>
-  <li><strong>Mind The Game (LeBron James):</strong> LeBron describes a live in-game business decision — choosing to lay up instead of dunk in traffic because the rookie chasing him back "looked like he was going to destroy me" — and frames it as the kind of risk/reward calculation that only clicks after 12+ years. (<a href="https://www.youtube.com/shorts/JA84J5pm7Lw">The Vets of the league...</a>)</li>
-  <li><strong>Dr. Sten Ekberg:</strong> Reviewed five coffee additives by evidence quality: MCT oil (C8) is the most evidence-backed for ketone production even outside keto; cinnamon has real mechanisms (GLUT4 upregulation, slowed gastric emptying) but requires ~1 tsp/day of Ceylon (not cassia) to reach study doses; collagen (20g) plausibly supports gut lining but breaks a fast; cloves are the most hyped and least studied. (<a href="https://www.youtube.com/watch?v=ch10CiCINto">What If You Add THIS To Your Coffee For 30 Days?</a>)</li>
-  <li><strong>Ben Felix:</strong> Detailed breakdown of his personal portfolio: primarily one fund (Dimensional Global Equity — tilted to small-cap, value, profitable stocks), significant private equity in PWL's parent company One Digital, house he lives in, and excess cash. No bonds by personal preference. Argues money's relationship to happiness is real but weak (correlation 0.09; going from $15K to $250K household income moves happiness ~5 points on a 100-point scale). (<a href="https://www.youtube.com/watch?v=h3ajVyC5vJc">Breaking Down My Investment Portfolio</a>)</li>
-  <li><strong>ThinkingPoker:</strong> Introductory bankroll management video — 20–30 buyins minimum at micro stakes, 100+ for MTTs, with structured shot-taking (4 buyins max at next level, return immediately if bust). Beginner-level content. (<a href="https://www.youtube.com/watch?v=6w8amkDkeVw">Bankroll Management</a>)</li>
+  <li><strong>Ken Berry MD:</strong> Multiple shorts arguing that type 2 diabetes (hazard ratio 10.71 for heart attack) dwarfs high LDL (HR 1.38) and even smoking as a cardiovascular risk factor — and that doctors who fixate on statin prescriptions while ignoring HbA1c are practicing "bad medicine." Also covers ultra-processed "protein" products (Pop-Tarts Protein: 30g sugar, 5g protein) and the case for animal protein satiety. (<a href="https://www.youtube.com/shorts/mDG17QRoTkg">LDL vs. Blood Sugar</a> + <a href="https://www.youtube.com/shorts/zgQg66Gmfd8">High-Protein Craze</a> +2 more)</li>
+  <li><strong>Thomas DeLauer:</strong> Argues that morning brain fog, breakfast dependency, afternoon crashes, and irritability are five symptoms of a single root cause — metabolic inflexibility from chronically elevated insulin blocking lipolysis and ketone production. Practical starting point he recommends: move dinner 2 hours earlier to extend the overnight fast, which he estimates improves insulin sensitivity 15–20%. Also mentions morning creatine as a way to stabilize ATP distribution in insulin-resistant individuals. (<a href="https://www.youtube.com/watch?v=Py0WdSZmXyg">If This Happens to You, You're Probably Insulin Resistant</a>)</li>
+  <li><strong>Renaissance Periodization:</strong> Short-form myth-busting: machines build as much muscle as free weights; "functional training" is an undefinable term; not being sore doesn't mean your workout failed; cardio timing is context-dependent based on priority. Also: individual recovery capacity (not a fixed set count) determines optimal training volume per session. (<a href="https://www.youtube.com/shorts/uESsb2Ygloo">Functional Training Problem</a> · <a href="https://www.youtube.com/shorts/Io3mY3eI020">Jeff Nippard Cut Workouts in Half</a>)</li>
+  <li><strong>ModernWisdom:</strong> Chris Williamson distinguishes discipline (friction accepted), motivation (friction reduced), and obsession (friction inverted) — arguing obsession is a non-renewable fuel source and the correct response to positive obsession is to surrender to it, not suppress it. Also features Robert Greene on the Russian explorer Arsenyev and the indigenous tracker Dersu Uzala: Greene's thesis is that humans once possessed perceptual and physiological powers now dormant, and that proximity to mortality can temporarily unlock them (citing a mountain climber who accessed "mountain goat" capability after a near-death fall). (<a href="https://www.youtube.com/shorts/lJFpqrkGtY4">This Matters More Than Discipline</a> · <a href="https://www.youtube.com/watch?v=HUCDvFHLLVg">Robert Greene - True Story Will Change How You See Reality</a>)</li>
+  <li><strong>Mind The Game (LeBron):</strong> LeBron discusses growth mindset in NBA longevity (Brook Lopez transforming from post scorer to 3-and-D, Al Horford reinventing himself), praises Paul George's self-awareness in recognizing he needed to be 1B not 1A to win, and calls Kyrie Irving "the most skilled player to ever play the game" — specifically citing Kyrie's change-of-direction athleticism and body control in the air as underappreciated. (<a href="https://www.youtube.com/watch?v=37nsid4dTFE">LeBron Is Still in Awe of Kyrie Irving's Game</a>)</li>
+  <li><strong>Peter Attia:</strong> AMA preview on blood testing: Attia's core framing is that comprehensive labs give you roughly 25–30% of the information needed to build a full health risk picture, and that reference-range thinking ("no flags = healthy") is dangerously incomplete. Covers the value of longitudinal vs. snapshot data and teases a walkthrough of labs by disease category. (<a href="https://www.youtube.com/watch?v=HhTirnNCxxE">Understanding Lab Testing AMA 91 Sneak Peek</a>)</li>
+  <li><strong>Paul Saladino MD / Anthony Chaffee MD:</strong> Promotional shorts for carnivore/animal-based eating. No new data or arguments. (<a href="https://www.youtube.com/shorts/pBiaPt2JsV0">Saladino: Benefits of Red Meat</a> · <a href="https://www.youtube.com/shorts/JHbeNE4aKUk">Chaffee: Dry Aged Steaks</a>)</li>
+  <li><strong>Dr. Sten Ekberg:</strong> Reviews five coffee additives by evidence quality: cloves (weakest — one uncontrolled 13-person study using capsule extract, not whole cloves), collagen (plausible gut-lining mechanism, unproven, breaks fasting at 20g), cinnamon (modest blood sugar effects, requires ~1 tsp of Ceylon variety daily, most sold is liver-stressing cassia), MCT oil (C8 raises ketones even off keto, start with 1 tsp), and implicitly ranks butter/fat highest. (<a href="https://www.youtube.com/watch?v=ch10CiCINto">What If You Add THIS To Your Coffee For 30 Days?</a>)</li>
 </ul>
 
 <h2>₿ Bitcoin & Macro</h2>
 
 <div class="story">
-  <h3><a href="https://bitcoinmagazine.com/news/blackrock-bitcoin-whales-self-custody-ibit">BlackRock: Security Fears Are Driving Bitcoin Whales Into IBIT</a></h3>
-  <p>BlackRock's Robbie Mitchnick reports that demand from large holders to swap self-custodied bitcoin directly for IBIT shares is at its highest level yet, with "security and peace of mind" — not performance — cited as the primary reason, as kidnappings and hacks targeting crypto holders rise. This is a notable behavioral shift: whales voluntarily trading self-sovereignty for institutional custody, which runs directly counter to the Bitcoin ethos but reflects real physical security concerns at scale.</p>
-  <p class="meta">Bitcoin Magazine</p>
-</div>
-
-<div class="story">
-  <h3><a href="https://bitcoinmagazine.com/news/amundi-boosts-strategy-mstr-stake-44">Amundi Boosts Strategy (MSTR) Stake 44% to $291 Million as Shares Slide</a></h3>
-  <p>Europe's largest asset manager raised its MicroStrategy position to 1.9 million shares in Q3 — a 44% increase — even as MSTR has since fallen ~18% from quarter-end. A major traditional institutional player doubling down on the Saylor Bitcoin proxy vehicle during a drawdown is a notable data point for anyone tracking institutional conviction in the BTC treasury strategy thesis.</p>
+  <h3><a href="https://bitcoinmagazine.com/news/texas-bill-invest-10-million-bitcoin">Texas Rep. Files Bill Letting Cities Invest $10 Million in Bitcoin</a></h3>
+  <p>Texas House Bill 815 would allow each city or county to allocate up to $10 million of public funds into Bitcoin starting September 2027. This follows Miami-Dade County now accepting Bitcoin for property taxes (converted to dollars before reaching county coffers) — a pattern of municipal-level Bitcoin normalization that doesn't require holding BTC on balance sheet but builds infrastructure familiarity and political legitimacy.</p>
   <p class="meta">Bitcoin Magazine</p>
 </div>
 
 <h2>🧬 Health & Science</h2>
 
 <div class="story">
-  <h3>Peter Attia: What Labs Actually Tell You (and What They Don't)</h3>
-  <p>Key framing from AMA #91: even a comprehensive blood panel gives you roughly 25–30% of the information needed to build a complete risk picture. Attia's specific concern with direct-to-consumer lab testing is that it amplifies a false belief — "if nothing is flagged outside reference ranges, I'm fine" — when reference ranges are population-based norms, not individualized risk thresholds. His clinical approach structures health through the lens of the major longevity threats: cardiovascular disease, cancer, neurodegeneration, metabolic disease, and accidental death on the lifespan side; physical capacity, cognitive function, and emotional health on the healthspan side. He emphasizes longitudinal data over snapshots — a single CRP of 3 could be post-vaccine noise or chronic systemic inflammation, and without history you cannot distinguish them.</p>
-  <p class="meta">Source: <a href="https://peterattiamd.com/ama91/">Peter Attia AMA #91</a> · <a href="https://www.youtube.com/watch?v=HhTirnNCxxE">YouTube preview</a></p>
+  <h3>Fasting Mimicking Diet: 2.5 Years of Biological Age Reduction in 15 Days (Nick Norwitz deep dive)</h3>
+  <p>The key RCT (Nature Communications, 2024): three 5-day cycles of ~700–1,100 kcal/day, fat-dominant, protein-restricted diet reduced biological age by a median 2.5 years on a validated mortality-predictive blood biomarker score (albumin, creatinine, CRP, HbA1c, blood pressure). A second independent trial replicated the finding. The age reduction was statistically independent of weight loss — suggesting metabolic reprogramming rather than caloric restriction is the mechanism. The two mechanistic levers: (1) ketosis forced by low-calorie, fat-dominant intake, mimicking fasting metabolic state; (2) protein restriction suppressing IGF-1 and mTOR (the cell's growth switch), triggering autophagy and cellular renewal pathways. A 2023 mouse study showed FMD cycles protected cardiac tissue from immunotherapy-induced fibrosis while making cancer cells more vulnerable — consistent with "differential stress resistance" where healthy cells hunker down while cancer cells get caught out. The monkey data is the most surprising: post-intervention weight setpoints remained lower 1,000+ days after animals resumed ad libitum eating, suggesting durable metabolic reprogramming rather than temporary caloric deficit. Practical protocol: one 5-day cycle per month for three months = 15 total days per year. Fat-dominant, low protein, ~700–1,100 kcal. This is not indefinite caloric restriction — the benefit comes from periodicity and the signaling environment change, not sustained deprivation.</p>
+  <p class="meta"><a href="https://www.youtube.com/watch?v=qyy8fCuQ5_E">Nick Norwitz</a></p>
 </div>
 
 <div class="story">
-  <h3>Peter Attia: Less Protein, Longer Life? The Protein Paradox</h3>
-  <p>Attia's team investigated the tension between high-protein recommendations for muscle/longevity and research suggesting protein restriction extends lifespan (via IGF-1/mTOR suppression — the same mechanism as the fasting mimicking diet above). Worth reading alongside the Norwitz FMD piece: both touch on the same mechanistic question of when mTOR suppression is beneficial versus when adequate protein is essential. The resolution likely involves periodicity — cycling between anabolic and catabolic states rather than chronic restriction or chronic surplus.</p>
-  <p class="meta">Source: <a href="https://peterattiamd.com/the-protein-paradox/">Peter Attia MD</a></p>
+  <h3>Blood Work as a Health Proxy: Peter Attia's 25–30% Rule</h3>
+  <p>Attia's core framework for interpreting labs: even the most comprehensive blood panels give you roughly 25–30% of the information needed for a complete health risk picture. The "check engine light" mental model — if nothing's flagged, all is fine — is dangerously wrong; most of the actionable risk information lives outside reference ranges and outside blood markers entirely. Longitudinal data matters more than snapshots: a CRP of 3 means something completely different if it's a chronic baseline versus a post-vaccination spike. He also notes that LP(a) and ApoE only need to be tested once (genetic, doesn't change), while markers like LDL and CRP require trend context to interpret meaningfully.</p>
+  <p class="meta"><a href="https://www.youtube.com/watch?v=HhTirnNCxxE">Peter Attia AMA 91 Sneak Peek</a> · <a href="https://peterattiamd.com/ama91/">Full Episode</a></p>
+</div>
+
+<div class="story">
+  <h3>Insulin Resistance as the Root of Five "Separate" Problems (Thomas DeLauer)</h3>
+  <p>DeLauer argues that morning brain fog, need-to-eat-breakfast, afternoon energy crashes, irritability between meals, and elevated fasting glucose (90+ mg/dL) are five presentations of the same root cause: chronically elevated insulin suppressing lipolysis, which prevents the brain from accessing ketones as backup fuel in the fasted state. The key mechanism: insulin blocks the lipolysis pathway even at sub-diabetic levels, leaving the brain simultaneously starved of glucose (last meal metabolized) and ketones (pathway blocked). He distinguishes this from low-carb-induced "peripheral insulin resistance," which is a protective adaptation. His lowest-friction intervention: shift dinner 2 hours earlier, extending the overnight fast without any other dietary change — estimated 15–20% improvement in insulin sensitivity from that alone.</p>
+  <p class="meta"><a href="https://www.youtube.com/watch?v=Py0WdSZmXyg">Thomas DeLauer</a></p>
 </div>
 
 <h2>💡 Worth Reading</h2>
 
 <div class="story">
-  <h3><a href="https://github.com/thisisme6598/gemini_files/">Google Gemini Routes Personal Drive Files and Emails to Human Annotators</a></h3>
-  <p>A GitHub thread documenting evidence that Google Gemini is sending personal Drive files and Gmail content to human annotators — the kind of data handling most users assume is automated and private. If the claims hold up, this is a significant privacy concern for anyone using Gemini with Google Workspace data, and a concrete reason to be cautious about enabling AI assistants with broad data permissions.</p>
-  <p class="meta"><a href="https://news.ycombinator.com/item?id=...">HN Discussion</a> · 621 points</p>
+  <h3><a href="https://deepmind.google/blog/introducing-alphaproof-code/">AlphaProof Code</a></h3>
+  <p>Google DeepMind's AlphaProof — the system that previously solved IMO-level math problems — has been extended to code. This is worth watching not for the benchmark numbers but because formal proof systems applied to code represent a qualitatively different approach to software verification than testing or fuzzing: you can prove correctness rather than just check for failures. Early days, but the direction matters.</p>
+  <p class="meta"><a href="https://news.ycombinator.com/item?id=AlphaProofCode">HN Discussion</a> · DeepMind Blog</p>
 </div>
 
 <div class="story">
-  <h3><a href="https://maurycyz.com/projects/fading/">Your TV Can See Through Walls</a></h3>
-  <p>A technical project demonstrating that modern smart TVs emit enough RF signal that they can be used — inadvertently or deliberately — to detect movement through walls via signal reflection analysis, essentially turning a consumer device into a passive radar. The implications for home privacy are real: a device most people consider passive and display-only has enough radio presence to function as a motion sensor for an external observer.</p>
-  <p class="meta"><a href="https://news.ycombinator.com/item?id=...">HN Discussion</a> · 133 points</p>
+  <h3><a href="https://www.astralcodexten.com/p/escaping-the-outside-criticism-trap">Escaping The "Outside Criticism" Trap — Astral Codex Ten</a></h3>
+  <p>Scott Alexander on a recurring dynamic where critics positioned as "outside" a field gain moral authority precisely from their outsider status — which makes them immune to domain-expert pushback even when they're wrong. The trap: engaging seriously looks defensive, not engaging lets the criticism stand. Worth sitting with as a mental model for evaluating heterodox claims, including in health and AI.</p>
+  <p class="meta">Astral Codex Ten</p>
 </div>
 
 <div class="story">
-  <h3><a href="https://www.anthropocenemagazine.org/2026/10/magenta-solar-panels-may-be-agrivoltaics-cleverest-trick-yet/">Semi-Transparent Magenta Solar Panels in Agrivoltaics</a></h3>
-  <p>Cadmium telluride solar panels tuned to absorb green light (which crops use less efficiently) while transmitting the red and blue wavelengths plants need most — allowing crops to grow underneath active solar panels with minimal yield loss. The magenta tint is a byproduct of the specific wavelengths absorbed, and the dual land use (power generation + agriculture on the same footprint) addresses one of the core land-competition critiques of large-scale solar deployment.</p>
-  <p class="meta"><a href="https://news.ycombinator.com/item?id=...">HN Discussion</a> · 318 points</p>
+  <h3><a href="https://marginalrevolution.com/marginalrevolution/2026/11/are-rcts-underpowered.html">Are RCTs Underpowered? — Marginal Revolution</a></h3>
+  <p>A study of 745 principal-hypothesis tests from 190 articles in leading economics journals finds that actual t-statistics peak well below what you'd expect from adequately powered studies — suggesting systematic underpowering, which produces inflated false-positive rates even in published, peer-reviewed RCTs. Directly relevant to evaluating health research claims, including some discussed in this brief.</p>
+  <p class="meta">Marginal Revolution</p>
 </div>
 
 <h2>🤖 AI Capability Watch</h2>
 
 <div class="story">
   <h3><a href="https://www.anthropic.com/claude-fable-and-mythos-5-2">Claude Fable 5.2 and Mythos 5.2</a></h3>
-  <p>Anthropic's new flagship model family: Fable 5.2 is currently ranked #1 on Artificial Analysis benchmarks, and Anthropic's internal evaluation notes include it having "solved two open problems in the physics of black holes" — suggesting their capability bar for self-assessment has meaningfully shifted. A user-facing demonstration (linked on HN with 409 points) showed Fable 5.2 generating a complete playable game from a single prompt for a child, which is the kind of one-shot creative/technical task that illustrates the gap from prior generations.</p>
-  <p class="meta">Source: <a href="https://www.anthropic.com/claude-fable-and-mythos-5-2">Anthropic</a> · <a href="https://notesbylex.com/fable-5-2-one-shotted-my-nephews-dream-game">User demo</a></p>
+  <p>Anthropic released two new flagship models: Fable 5.2 (ranked #1 on Artificial Analysis at launch) and Mythos 5.2, described as their most capable models for coding, finance, and science — with Anthropic claiming Fable 5.2 "solved two open problems in the physics of black holes" as an internal benchmark milestone. Simon Willison notes Fable 5.2's 3D modeling and animation capabilities are strong enough to generate interactive Three.js visualizations from casual prompts, which represents a meaningful step up in generalist creative-technical output.</p>
+  <p class="meta"><a href="https://simonwillison.net/2026/Nov/9/llm-anthropic/">Simon Willison</a> · Anthropic</p>
+</div>
+
+<div class="story">
+  <h3><a href="https://9to5mac.com/2026/11/10/apple-has-new-mac-app-coming-to-make-running-local-ai-models-easy/">Apple Mac App for Local AI Models</a></h3>
+  <p>Apple is building a native Mac app designed to make running local AI models straightforward for non-technical users — the equivalent of what Ollama does for developers, but with an Apple-polished GUI. If Apple ships this with their silicon's Neural Engine integration, it could meaningfully lower the barrier to private, offline AI use for everyday Mac users.</p>
+  <p class="meta">9to5Mac</p>
 </div>
 </body>
 </html>
