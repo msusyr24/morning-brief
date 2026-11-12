@@ -1,304 +1,135 @@
-=== HACKER NEWS ===
-1. [213 pts] Protecting SSH Keys with macOS Secure Enclave
-   https://gatezh.com/posts/macos-secure-enclave-ssh-keys/
-
-2. [975 pts] Smart home devices should work without the internet
-   https://docodethatmatters.com/home-automation-overnight-success/
-
-3. [856 pts] .name Grandfathered
-   https://neil.fraser.name/news/2026/11/10/
-
-4. [18 pts] Plane lifted into back garden as bunker takes shape
-   https://www.bbc.co.uk/news/articles/cqkgjv4pj023o
-
-5. [481 pts] Scion is back and is going to sell a kei truck in America
-   https://www.theautopian.com/scion-is-back-and-its-going-to-sell-a-freaking-kei-truck-in-america/
-
-6. [74 pts] Greg Kurtzer's Ginux is now a userspace kernel
-   https://github.com/gmkurtzer/ginux
-
-7. [175 pts] A great old-timey game-programming hack (2013)
-   https://blog.moertel.com/posts/2013-12-14-great-old-timey-game-programming-hack.html
-
-8. [270 pts] Apple has new Mac app coming to make running local AI models easy
-   https://9to5mac.com/2026/11/10/apple-has-new-mac-app-coming-to-make-running-local-ai-models-easy/
-
-9. [106 pts] To deter bioterrorism, U.S. imposes new rules on ordering synthetic DNA
-   https://www.science.org/content/article/deter-bioterrorism-u-s-imposes-new-rules-ordering-synthetic-dna
-
-10. [255 pts] Six Math Essentials
-   https://teorth.github.io/tao-web/six-math-essentials.html
-
-11. [102 pts] Why I wrote the BEAM book (2025)
-   https://happihacking.com/blog/posts/2025/why_I_wrote_theBEAMBook/
-
-12. [412 pts] Synaptics patent claims stop work on DisplayLink drivers
-   https://lwn.net/SubscriberLink/1102549/acbc92e00cee3a3f/
-
-13. [422 pts] Starlink Mini 2
-   https://starlink.com/mini-2
-
-14. [47 pts] Why Amstrad chose the 3" drives
-   https://www.cpcwiki.eu/forum/amstrad-cpc-hardware/why-amstrad-chose-the-3-drives/
-
-15. [641 pts] AlphaProof Code
-   https://deepmind.google/blog/introducing-alphaproof-code/
-
-16. [48 pts] A Compendium of Abandoned Greenhouses
-   https://www.messynessychic.com/2015/01/15/a-compendium-of-abandoned-greenhouses/
-
-17. [387 pts] Val Town is winding down
-   https://blog.val.town/winding-down
-
-18. [406 pts] Tracking Anthropic-discovered vulnerabilities
-   https://www.vulncheck.com/blog/anthropic-glasswing-november-update
-
-19. [373 pts] Show HN: Get your coding agent off ~2019 JavaScript, onto modern web primitives
-   https://github.com/GoogleChrome/modern-web-guidance
-
-20. [28 pts] Show HN: Black Ops II statically recompiled to native ARM64 macOS
-   https://github.com/adrbn/bo2-mac
-
-21. [16 pts] A ZIP-style Prolog VM for trilog
-   https://github.com/no382001/zipc
-
-22. [120 pts] Hacking the Meta Ray-Ban smartglasses
-   https://p0pcycle.com/2026/11/06/hacking-the-meta-ray-ban-smartglasses/
-
-23. [235 pts] Claude Whiteboards, Claude Sheets, and Claude Data
-   https://claude.com/resources/articles/sheets-whiteboards-data
-
-24. [564 pts] AI usage generates a fragile codebase
-   https://evanxmerz.com/post/ai-usage-generates-a-fragile-codebase/
-
-25. [72 pts] LLMs Play Zachtronics' TIS-100
-   https://tis-100.wincon.dev/
-
-26. [13 pts] "Jumping genes" helped ants evolve after the extinction of the dinosaurs
-   https://www.uni-muenster.de/news/view.php?cmdid=15659&utm_source=join1440&utm_medium=email&utm_placement=newsletter&user_id=66c4bf745d78644b3aa57b08
-
-27. [240 pts] AMD's Zen 6 Family: Feeding the Beast
-   https://chipsandcheese.com/p/amds-zen-6-family-feeding-the-beast
-
-28. [106 pts] $30M Raised to Redo the CPU
-   https://tendrils.co/blog/2026-11-10/30m-raised
-
-29. [211 pts] Process Explorer for macOS
-   https://github.com/microsoft/Procexp-Mac
-
-30. [202 pts] Announcing .NET 11
-   https://devblogs.microsoft.com/dotnet/announcing-dotnet-11/
-
-
-=== RSS ===
-[ideas] Marginal Revolution: UK fact of the day
-  https://marginalrevolution.com/marginalrevolution/2026/11/uk-fact-of-the-day-9.html?utm_source=rss&utm_medium=rss&utm_campaign=uk-fact-of-the-day-9
-
-[ideas] Marginal Revolution: Spying makes a comeback
-  https://marginalrevolution.com/marginalrevolution/2026/11/spying-makes-a-comeback.html?utm_source=rss&utm_medium=rss&utm_campaign=spying-makes-a-comeback
-
-[ideas] Marginal Revolution: Are RCTs underpowered?
-  https://marginalrevolution.com/marginalrevolution/2026/11/are-rcts-underpowered.html?utm_source=rss&utm_medium=rss&utm_campaign=are-rcts-underpowered
-
-[ideas] Marginal Revolution: Tuesday assorted links
-  https://marginalrevolution.com/marginalrevolution/2026/11/tuesday-assorted-links-594.html?utm_source=rss&utm_medium=rss&utm_campaign=tuesday-assorted-links-594
-
-[ideas] Marginal Revolution: Checking the AI audit of Saez and Zucman’s research.
-  https://marginalrevolution.com/marginalrevolution/2026/11/checking-the-ai-audit-of-saez-and-zucmans-research.html?utm_source=rss&utm_medium=rss&utm_campaign=checking-the-ai-audit-of-saez-and-zucmans-research
-
-[ideas] Stratechery: The Jensen Huang Story Gets Worse, Washington vs. New York, Silicon Valley
-  https://stratechery.com/2026/the-jensen-huang-story-gets-worse-washington-vs-new-york-silicon-valley/
-
-[ideas] Stratechery: Jensen Huang’s Affair, The Culper Report, Huang’s Righteousness
-  https://stratechery.com/2026/jensen-huangs-affair-the-culper-report-huangs-righteousness/
-
-[wisdom] Figs in Winter (Pigliucci): Suggested Readings
-  https://figsinwintertime.substack.com/p/suggested-readings-07f
-
-[wisdom] Figs in Winter (Pigliucci): Do we need to take reincarnation seriously? – Part II
-  https://figsinwintertime.substack.com/p/do-we-need-to-take-reincarnation-c9e
-
-[wisdom] Figs in Winter (Pigliucci): Do we need to take reincarnation seriously? – Part I
-  https://figsinwintertime.substack.com/p/do-we-need-to-take-reincarnation
-
-[bitcoin] The Pomp Letter: Dan Ives Warns Jensen Huang’s Removal Could Cut Nvidia’s Value by 25-30% — Here’s the $1 Trillion Risk
-  https://pomp.substack.com/p/dan-ives-warns-jensen-huangs-removal
-
-[bitcoin] The Pomp Letter: Is the Jensen Huang Scandal the Bottom for Nvidia and the Broader AI Stock Trade?
-  https://pomp.substack.com/p/is-the-jensen-huang-scandal-the-bottom
-
-[health] Peter Attia: #415 ‒ AMA #91: Understanding lab testing: what blood work can and cannot tell you about your health and disease risk
-  https://peterattiamd.com/ama91/
-
-[ai] Simon Willison: llm-gemini 0.36
-  https://simonwillison.net/2026/Nov/10/llm-gemini/
-
-[ai] Simon Willison: Introducing Our Smallest, Most Efficient Model: Muse Ember
-  https://simonwillison.net/2026/Nov/10/muse-ember/
-
-[ai] Simon Willison: Quoting Prompting Claude Fable 5.2
-  https://simonwillison.net/2026/Nov/10/prompting-claude-fable-52/
-
-[ai] Simon Willison: Yonkers Rises
-  https://simonwillison.net/2026/Nov/10/yonkers-rises/
-
-[ai] Simon Willison: llm-anthropic 0.31
-  https://simonwillison.net/2026/Nov/9/llm-anthropic/
-
-[ai] Anthropic News: Anthropic launches roadshow for proposed initial public offering
-  https://www.anthropic.com/news/roadshow-launch
-
-[ai] Anthropic News: Introducing Claude Fable 5.2 and Claude Mythos 5.2
-  https://www.anthropic.com/claude-fable-and-mythos-5-2
-
-[ideas] Paul Graham: Making Startups Powerful
-  https://paulgraham.com/powerful.html
-
-[ai] OpenAI Blog: Gilbert + Tobin rethinks the business of law with AI
-  https://openai.com/index/gilbert-tobin-sam-nickless
-
-[ai] OpenAI Blog: ChatGPT Plus for veterans and servicemembers
-  https://openai.com/index/chatgpt-plus-for-veterans
-
-[ai] OpenAI Blog: Helping caregivers use AI in everyday life
-  https://openai.com/index/helping-caregivers-use-ai-in-everyday-life
-
-[ai] OpenAI Blog: Introducing Businesses in ChatGPT
-  https://openai.com/index/introducing-businesses-chatgpt
-
-[ai] OpenAI Blog: Closing the AI guidance gap in education
-  https://openai.com/index/closing-ai-guidance-gap-education
-
-[ideas] Astral Codex Ten: Escaping The “Outside Criticism” Trap
-  https://www.astralcodexten.com/p/escaping-the-outside-criticism-trap
-
-[ideas] Astral Codex Ten: Open Thread 459
-  https://www.astralcodexten.com/p/open-thread-459
-
-[wisdom] Donald Robertson: Putting It All Together: Prepare, Respond, Review
-  https://donaldrobertson.substack.com/p/putting-it-all-together-prepare-respond
-
-[wisdom] Donald Robertson: Greg Sadler reviews How to Think Like Socrates
-  https://donaldrobertson.substack.com/p/greg-sadler-reviews-how-to-think
-
-[wisdom] Donald Robertson: The wise man invests his time in self-improvement...
-  https://donaldrobertson.substack.com/p/the-wise-man-invests-his-time-in
-
-[bitcoin] Bitcoin Magazine: Bitcoin Heated Hot Tubs and 278 Washington Bitcoin Merchants : Now Accepting Bitcoin
-  https://bitcoinmagazine.com/news/washington-bitcoin-merchants-snorkel
-
-[bitcoin] Bitcoin Magazine: LNbits Releases 1.7.0 Urgent Security Update After November 8 Attacks Drain Funds
-  https://bitcoinmagazine.com/news/lnbits-releases-1-7-0-urgent-security-update-after-november-8-attacks-drain-funds
-
-[bitcoin] Bitcoin Magazine: Texas Rep. Files Bill Letting Cities Invest $10 Million in Bitcoin
-  https://bitcoinmagazine.com/news/texas-bill-invest-10-million-bitcoin
-
-[bitcoin] Bitcoin Magazine: Poland’s Parliament Votes 240-202 to Let Officials Freeze Crypto Before Court Review
-  https://bitcoinmagazine.com/news/poland-votes-240-202-freeze-crypto
-
-[bitcoin] Bitcoin Magazine: Canaan (CAN) Swings to an $8 Million Profit on Bitcoin Gains as Rig Sales Collapse 96%
-  https://bitcoinmagazine.com/news/canaan-can-swings-8-million-profit
-
-[bitcoin] Bitcoin Magazine: Binance Warns iOS Flaw Could Expose Wallet Seed Phrases as Apple’s Latest iPhone Patch Stays Silent
-  https://bitcoinmagazine.com/news/binance-warns-ios-flaw-wallet-seed-phrases
-
-[bitcoin] Bitcoin Magazine: Miami-Dade County Now Accepts Bitcoin for Property Taxes
-  https://bitcoinmagazine.com/news/miami-dade-takes-bitcoin-property-taxes
-
-[bitcoin] Bitcoin Magazine: Trump Media (DJT) Pledges 73% of Its Bitcoin to an Options Program as $1 Billion Note Deadline Nears
-  https://bitcoinmagazine.com/news/trump-media-pledges-73-percent-bitcoin
-
-
-=== YOUTUBE ===
-Paul Saladino MD: All the Benefits of Eating Red Meat 🥩
-  https://www.youtube.com/shorts/pBiaPt2JsV0
-  Transcript: yes
-
-GTO Wizard: Espen Jorstad - $10k WCOOP Final Table Review
-  https://www.youtube.com/watch?v=T_e7HRTpWkA
-  Transcript: NO
-
-Anthony Chaffee MD: Homemade Dry Aged Steaks!
-  https://www.youtube.com/shorts/JHbeNE4aKUk
-  Transcript: yes
-
-Ken Berry MD: Eat eggs, beef, or another real animal-based protein source. Not ultra processed junk!
-  https://www.youtube.com/shorts/d2UWZJV3JuY
-  Transcript: yes
-
-Ken Berry MD: Your doctor keeps talking about your LDL cholesterol. But what about your blood sugar?l
-  https://www.youtube.com/shorts/mDG17QRoTkg
-  Transcript: yes
-
-Ken Berry MD: Watch our FULL Monday Night Live, "The HIGH-PROTEIN Craze Has Gone Too Far!"
-  https://www.youtube.com/shorts/zgQg66Gmfd8
-  Transcript: yes
-
-Ken Berry MD: If you smoke, PLEASE stop. But if you have type 2 diabetes, don't ignore it.
-  https://www.youtube.com/shorts/rtRVXB6U9OM
-  Transcript: yes
-
-GTO Lab: Mystery Bounty Is a Completely Different Game | Nick Petrangelo, Daniel Dvoress & Axel Hallay
-  https://www.youtube.com/watch?v=17QO6NohJ8E
-  Transcript: yes
-
-Joe Rogan: Joe Rogan Experience #2579 - Gary Sinise
-  https://www.youtube.com/watch?v=9i5VBuUtTbg
-  Transcript: yes
-
-Nick Norwitz: This Diet Reverses Aging in 15 Days
-  https://www.youtube.com/watch?v=qyy8fCuQ5_E
-  Transcript: yes
-
-Jared Alderman: "Poker Doesn't Work Without Exploits" - Uri Peleg
-  https://www.youtube.com/watch?v=d18PasuKpnA
-  Transcript: yes
-
-Thomas DeLauer: If This Happens to You, You’re Probably Insulin Resistant
-  https://www.youtube.com/watch?v=Py0WdSZmXyg
-  Transcript: yes
-
-Dr. Sten Ekberg: What If You Add THIS To Your Coffee For 30 Days?
-  https://www.youtube.com/watch?v=ch10CiCINto
-  Transcript: yes
-
-Renaissance Periodization: The Huge Problem with Functional Training
-  https://www.youtube.com/shorts/uESsb2Ygloo
-  Transcript: yes
-
-Renaissance Periodization: Jeff Nippard Cut His Workouts in HALF
-  https://www.youtube.com/shorts/Io3mY3eI020
-  Transcript: yes
-
-Peter Attia: Understanding lab testing: what blood work can & cannot tell you (AMA 91 sneak peek)
-  https://www.youtube.com/watch?v=HhTirnNCxxE
-  Transcript: yes
-
-ModernWisdom: This Matters More Than Discipline
-  https://www.youtube.com/shorts/lJFpqrkGtY4
-  Transcript: yes
-
-ModernWisdom: This True Story Will Change How You See Reality - Robert Greene
-  https://www.youtube.com/watch?v=HUCDvFHLLVg
-  Transcript: yes
-
-Lex Fridman: Ukraine War: Putin, Zelenskyy, Trump, Drones and the Future of Warfare | Lex Fridman Podcast #504
-  https://www.youtube.com/watch?v=2hJkprFnzhY
-  Transcript: yes
-
-ThinkingPoker: Bankroll Management - Thinking Poker
-  https://www.youtube.com/watch?v=6w8amkDkeVw
-  Transcript: yes
-
-Ben Felix: Breaking Down My Investment Portfolio
-  https://www.youtube.com/watch?v=h3ajVyC5vJc
-  Transcript: yes
-
-Mind The Game: LeBron Is Still in Awe of Kyrie Irving's Game
-  https://www.youtube.com/watch?v=37nsid4dTFE
-  Transcript: yes
-
-Andrew Huberman: Breaking the Codependency Cycle | Dr. Anna Lembke
-  https://www.youtube.com/shorts/pMuud2kayJo
-  Transcript: yes
-
+Generated 2026-11-12 07:06 UTC
+score  section   source / title
+----------------------------------------------------------------------
+   7   reading   [rss] Marginal Revolution: My excellent Conversation with Terence Tao
+                 https://marginalrevolution.com/marginalrevolution/2026/11/my-excellent-conversation-with-terence-tao.html?utm_source=rss&utm_medium=rss&utm_campaign=my-excellent-conversation-with-terence-tao
+   6   ai        [rss] Simon Willison: llm-gemini 0.36
+                 https://simonwillison.net/2026/Nov/10/llm-gemini/
+   6   reading   [rss] Figs in Winter (Pigliucci): Evolutionary ethics and how we treat strangers
+                 https://figsinwintertime.substack.com/p/evolutionary-ethics-and-how-we-treat
+   6   reading   [rss] Marginal Revolution: Experimentally validated digital twins
+                 https://marginalrevolution.com/marginalrevolution/2026/11/experimentally-validated-digital-twins.html?utm_source=rss&utm_medium=rss&utm_campaign=experimentally-validated-digital-twins
+   5   bitcoin   [rss] Bitcoin Magazine: Tavi Costa: Bitcoin “Very Undervalued with “Violent Moves Ahead”
+                 https://bitcoinmagazine.com/videos/tavi-costa-bitcoin-very-undervalued-with-violent-moves-ahead
+   5   ai        [hn] Hacker News: Gemini Decisions API
+                 https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/
+   5   reading   [hn] Hacker News: Did Life Begin in an RNA World?
+                 https://www.quantamagazine.org/did-life-begin-in-an-rna-world-20261109/
+   4   bitcoin   [rss] Bitcoin Magazine: MSCI Removes Strategy (MSTR) From Its USA Index, Forcing Index Funds to Sell by Nov. 30
+                 https://bitcoinmagazine.com/markets/msci-removes-strategy-mstr-usa-index
+   4   bitcoin   [rss] Bitcoin Magazine: Sam Lyman: “Bitcoin doesn’t need America. America needs Bitcoin.”
+                 https://bitcoinmagazine.com/videos/sam-lyman-bitcoin-doesnt-need-america-america-needs-bitcoin
+   4   bitcoin   [rss] Bitcoin Magazine: MSCI Rules Today on Cutting Strategy (MSTR) From Its Indexes After a Draft List Marks It Deleted
+                 https://bitcoinmagazine.com/markets/msci-rules-today-strategy-mstr-deleted
+   4   bitcoin   [rss] Bitcoin Magazine: Russia’s Central Bank Clears Exchange to Open Bitcoin and Crypto Trading on Nov. 22
+                 https://bitcoinmagazine.com/news/russia-clears-exchange-crypto-trading
+   4   ai        [rss] Simon Willison: Gemini Decisions API
+                 https://simonwillison.net/2026/Nov/11/gemini-decisions-api/
+   4   ai        [rss] Simon Willison: Anthropic's IPO roadshow video
+                 https://simonwillison.net/2026/Nov/11/anthropic-ipo-roadshow/
+   4   reading   [rss] Marginal Revolution: Wednesday assorted links
+                 https://marginalrevolution.com/marginalrevolution/2026/11/wednesday-assorted-links-579.html?utm_source=rss&utm_medium=rss&utm_campaign=wednesday-assorted-links-579
+   4   reading   [rss] Marginal Revolution: What should I ask Simon Sebag Montefiore?
+                 https://marginalrevolution.com/marginalrevolution/2026/11/what-should-i-ask-simon-sebag-montefiore.html?utm_source=rss&utm_medium=rss&utm_campaign=what-should-i-ask-simon-sebag-montefiore
+   4   reading   [rss] Marginal Revolution: UK fact of the day
+                 https://marginalrevolution.com/marginalrevolution/2026/11/uk-fact-of-the-day-9.html?utm_source=rss&utm_medium=rss&utm_campaign=uk-fact-of-the-day-9
+   4   skip      [hn] Hacker News: Tim Peters has died
+                 https://discuss.python.org/t/in-memoriam-tim-peters-1952-2026/110028
+   4   reading   [hn] Hacker News: My AI agents found an unmapped Maya site?
+                 https://pietromiotti.com/latest/maya-site
+   4   ai        [hn] Hacker News: Apple has new Mac app coming to make running local AI models easy
+                 https://9to5mac.com/2026/11/10/apple-has-new-mac-app-coming-to-make-running-local-ai-models-easy/
+   3   skip      [rss] Bitcoin Magazine: How Sam Altman-Backed Meanwhile Is Disrupting the $20T Life Insurance Industry
+                 https://bitcoinmagazine.com/videos/how-sam-altman-backed-meanwhile-is-disrupting-the-20t-life-insurance-industry
+   3   skip      [rss] Bitcoin Magazine: Outlook for Crypto Market Structure Bill By Democrats | Chris Giancarlo, Former CFTC Commissioner
+                 https://bitcoinmagazine.com/videos/outlook-for-crypto-market-structure-bill-by-democrats-chris-giancarlo-former-cftc-commissioner
+   3   skip      [rss] Bitcoin Magazine: ICE and OKX Set Nov. 23 Tokenized Stock Launch After 67 Companies Opt Out
+                 https://bitcoinmagazine.com/news/ice-okx-nov-23-tokenized-stock-launch
+   3   skip      [rss] OpenAI Blog: Gilbert + Tobin rethinks the business of law with AI
+                 https://openai.com/index/gilbert-tobin-sam-nickless
+   3   skip      [rss] OpenAI Blog: ChatGPT Plus for veterans and servicemembers
+                 https://openai.com/index/chatgpt-plus-for-veterans
+   3   skip      [rss] OpenAI Blog: JioStar’s chief architect on AI discovery at 500M-user scale
+                 https://openai.com/index/jiostar-vijay-seshadri
+   3   skip      [rss] Simon Willison: aws-emulator
+                 https://simonwillison.net/2026/Nov/11/aws-emulator/
+   3   skip      [rss] Astral Codex Ten: Escaping The “Outside Criticism” Trap
+                 https://www.astralcodexten.com/p/escaping-the-outside-criticism-trap
+   3   skip      [rss] Marginal Revolution: Richard Posner, RIP…
+                 https://marginalrevolution.com/marginalrevolution/2026/11/richard-posner-rip.html?utm_source=rss&utm_medium=rss&utm_campaign=richard-posner-rip
+   3   skip      [hn] Hacker News: Critical RCE Vulnerability in Apache HTTP Server
+                 https://www.wiz.io/blog/cve-2026-119618-rce-apache-http-server-vulnerability
+   3   skip      [hn] Hacker News: AWS emulator
+                 https://github.com/aws/aws-emulator
+   3   skip      [hn] Hacker News: Jane Street: Socratic Tutor
+                 https://github.com/janestreet/agent_skills/blob/master/socratic-tutor/SKILL.md
+   3   skip      [hn] Hacker News: A false smoke alarm almost drowned Jane Street's only NYC datacenter
+                 https://michael.bacarella.com/2026/11/10/false-smoke-alarm-jane-street-datacenter/
+   3   skip      [hn] Hacker News: United Airlines bans AI agents from booking flights on behalf of travelers
+                 https://www.cbsnews.com/news/united-airlines-bans-ai-agents-booking-flights/
+   3   skip      [hn] Hacker News: Emacs in the Age of Magic
+                 https://commandlinesystems.com/magic.txt
+   3   skip      [hn] Hacker News: Show HN: Yogurt – Free, private, open-source alternative to Granola
+                 https://github.com/FrigadeHQ/yogurt
+   3   skip      [hn] Hacker News: The hardest notes to find on the guitar
+                 https://www.gitori.com/blog/articles/hardest-notes-on-the-guitar-fretboard
+   2   skip      [rss] Simon Willison: Browse tools.simonwillison.net by tag
+                 https://simonwillison.net/2026/Nov/11/tools-tags/
+   2   skip      [rss] Stratechery: Intel Earnings, AMD Earnings, Intel and AMD’s Divergence
+                 https://stratechery.com/2026/intel-earnings-amd-earnings-intel-and-amds-divergence/
+   2   skip      [hn] Hacker News: 93% of paint splatters are valid Perl programs (2019)
+                 https://www.mcmillen.dev/sigbovik/
+   2   skip      [hn] Hacker News: Nvidia is preparing to oust Jensen Huang
+                 https://www.wsj.com/business/nvidia-is-preparing-to-oust-nvidia-ceo-jensen-huang-30f421ad
+   2   skip      [hn] Hacker News: Lock Your GitHub Actions
+                 https://hugovk.dev/blog/2026/lock-github-actions/
+   2   skip      [hn] Hacker News: I gave an agent a lakehouse and control of my garden
+                 https://jatorre.github.io/garden/
+   2   skip      [hn] Hacker News: Slavdom Unearthed: Marian Wawrzeniecki's Neopagan Paintings (1891–1923)
+                 https://publicdomainreview.org/collection/marian-wawrzeniecki/
+   2   skip      [hn] Hacker News: The Utah Teapot
+                 https://graphics.cs.utah.edu/teapot/
+   2   skip      [hn] Hacker News: A general purpose Apple Silicon layer for x86-64 PCs
+                 https://github.com/tylertms/Stela
+   2   skip      [hn] Hacker News: Bad ideas that aren't bad anymore
+                 https://devonestes.com/bad-ideas-that-arent-bad-anymore
+   2   skip      [hn] Hacker News: Lean Grimoire
+                 https://terrytao.wordpress.com/2026/11/11/lean-grimoire/
+   2   skip      [hn] Hacker News: Stingray Fish Laser
+                 https://www.stingray.no/en/technology/
+   2   skip      [hn] Hacker News: Hyper-Realistic Sand with WebGL2
+                 https://av.github.io/safe-sand/
+   2   skip      [hn] Hacker News: Faster Retrieval for Better, More Efficient RAG
+                 https://machinelearning.apple.com/research/faster-retrieval
+   2   skip      [hn] Hacker News: Huawei releases MACaQ, its internal quantizer for local inference
+                 https://github.com/huawei-csl/MACaQ
+   2   skip      [hn] Hacker News: Can a Linear Program Do Weight-Space Programming?
+                 https://nathan.rs/posts/weight-space-lp/
+   2   skip      [hn] Hacker News: A Brief History of Sierra Online (2017)
+                 https://retrofreakreviews.com/2017/01/30/sierra-retrospective/
+   2   skip      [hn] Hacker News: Using voltage glitching to unleash the A100 in my mining card
+                 https://blog.kate.land/posts/using-voltage-glitching-to-unlock-the-a100/
+   2   skip      [hn] Hacker News: Atuin Threads: All your agent sessions on every machine
+                 https://blog.atuin.sh/threads-agent-sessions/
+   2   skip      [hn] Hacker News: The Learjet Repo Man (2009)
+                 https://www.salon.com/2009/06/06/lear_jet_repo_man/
+   2   skip      [hn] Hacker News: Flying on Green: Why Farmers Are Turning to Drones for Cover Crop Seeding
+                 https://www.agweb.com/news/machinery/flying-green-why-farmers-are-turning-drones-cover-crop-seeding
+   2   skip      [hn] Hacker News: We need more goat sacrifices
+                 https://www.experimental-history.com/p/we-need-more-goat-sacrifices
+   1   skip      [rss] Simon Willison: llm 0.37.2
+                 https://simonwillison.net/2026/Nov/11/llm/
+   1   skip      [hn] Hacker News: Darling Development Update – Q4 2026
+                 https://blog.darlinghq.org/2026/11/08/development-update-q4-2026/
+   1   skip      [hn] Hacker News: I'm Working on a FOSS Linux Pinbal Simulation Engine
+                 https://www.getlazarus.org/forums/topic/17/
+   1   skip      [hn] Hacker News: Show HN: I recreated Papers Please but you're deciding which YC startups to fund
+                 https://termsheetplease.com/
+   1   skip      [hn] Hacker News: How to make a CNC plasma cutter with high-frequency start
+                 https://incoherency.co.uk/blog/stories/cnc-plasma-cutter.html
+   1   skip      [hn] Hacker News: Jensen Huang said to have had relationship with executive who reports to him
+                 https://www.nytimes.com/2026/11/11/technology/jensen-huang-nvidia-affair.html
+   1   skip      [hn] Hacker News: Launch HN: Pomerado (YC F26) – Turn any website into an MCP for agents
+                 https://news.ycombinator.com/item?id=50455811
+   1   skip      [hn] Hacker News: Tinfoil (YC P25) is hiring an applied AI security engineer in San Francisco
+                 https://news.ycombinator.com/item?id=50452404

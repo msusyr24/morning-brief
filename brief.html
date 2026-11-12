@@ -1,216 +1,164 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<title>Morning Brief — Wednesday, November 11, 2026</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<title>Morning Brief · Thursday, November 12</title>
 <style>
-  body {
-    font-family: Georgia, serif;
-    max-width: 720px;
-    margin: 40px auto;
-    padding: 0 20px;
-    line-height: 1.6;
-    color: #222;
-    background: #fafaf7;
+:root {
+  --bg:#f5f2ea; --card:#fffdf8; --ink:#1d1b17; --soft:#4a463e; --mute:#837d71; --rule:#e3ddd0;
+  --acc:#2d5b4f; --acc-soft:#e3ece6; --warm:#b4691a; --up:#2e7d4f; --down:#b8402f;
+  --serif: "Iowan Old Style", Charter, "Palatino Linotype", Georgia, serif;
+  --sans: -apple-system, "Segoe UI", system-ui, Roboto, sans-serif;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg:#16150f; --card:#1f1d17; --ink:#ece7da; --soft:#c9c2b2; --mute:#8f887a; --rule:#34312a;
+    --acc:#8fc2ad; --acc-soft:#22302a; --warm:#e0a15a; --up:#6cc28e; --down:#e57f6c;
   }
-  h1 { font-size: 2em; margin-bottom: 0; }
-  .date { color: #888; margin-top: 0; font-style: italic; }
-  h2 { margin-top: 2em; border-bottom: 1px solid #ddd; padding-bottom: 0.3em; }
-  h3 { margin-bottom: 0.3em; }
-  h3 a { color: #1a1a1a; text-decoration: none; }
-  h3 a:hover { text-decoration: underline; }
-  .story { margin-bottom: 1.8em; }
-  .meta { color: #888; font-size: 0.9em; margin-top: 0.3em; }
-  .meta a { color: #888; }
-
-  .btc-ticker {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background: #fff8e7;
-    border: 1px solid #f0d890;
-    padding: 10px 18px;
-    border-radius: 6px;
-    margin-bottom: 1.5em;
-    font-family: -apple-system, 'Segoe UI', sans-serif;
-  }
-  .btc-label { font-weight: bold; color: #8b6914; }
-  .btc-price { font-size: 1.3em; font-weight: bold; color: #222; }
-  .btc-change { font-size: 0.95em; font-weight: bold; }
-  .btc-up { color: #2d8a2d; }
-  .btc-down { color: #c23030; }
-  .btc-meta { color: #888; font-size: 0.85em; }
-
-  .anchor { background: #f0ede4; padding: 20px 25px; border-radius: 6px; margin-bottom: 2em; }
-  .anchor h2 { border-bottom: none; margin-top: 0; }
-  .anchor-block { margin: 1.2em 0; }
-  .quote { font-size: 1.15em; font-style: italic; margin: 0 0 0.3em 0; }
-  .author { color: #555; margin: 0 0 0.5em 0; font-weight: bold; }
-  .model-label { font-size: 0.85em; color: #888; text-transform: uppercase; letter-spacing: 0.05em; margin: 0; }
-  .model-name { font-size: 1.2em; font-weight: bold; margin: 0.2em 0 0.4em 0; }
-  .context { color: #444; font-size: 0.95em; margin: 0; }
-
-  .spotlight { background: #eef4f0; padding: 20px 25px; border-left: 4px solid #5a8a6b; border-radius: 6px; margin-bottom: 2em; }
-  .spotlight h2 { border-bottom: none; margin-top: 0; }
-  .spotlight-name { font-size: 1.25em; font-weight: bold; margin: 0 0 0.4em 0; }
-  .spotlight-pitch { color: #333; margin: 0 0 1em 0; }
-  .spotlight-instructions { font-size: 0.95em; color: #555; margin: 0 0 0.4em 0; }
-  .spotlight-snippet { background: #1e2a24; color: #d4e8d8; padding: 12px 15px; border-radius: 4px; font-family: 'Consolas', 'Monaco', monospace; font-size: 0.9em; overflow-x: auto; margin: 0.3em 0; }
-  .copy-btn { background: #5a8a6b; color: white; border: none; padding: 6px 14px; border-radius: 4px; cursor: pointer; font-size: 0.85em; margin-top: 0.3em; }
-  .copy-btn:hover { background: #4a7a5b; }
-  .spotlight-meta { color: #888; font-size: 0.85em; font-style: italic; margin: 0.8em 0 0 0; }
+}
+* { box-sizing:border-box; }
+html { scroll-behavior:smooth; }
+body { margin:0; background:var(--bg); color:var(--ink); font:18px/1.62 var(--serif);
+  -webkit-font-smoothing:antialiased; }
+.wrap { max-width:680px; margin:0 auto; padding:28px 18px 64px; }
+a { color:inherit; text-decoration-color:var(--rule); text-underline-offset:3px; }
+a:hover { text-decoration-color:var(--acc); }
+header .brand { font:600 12px/1 var(--sans); letter-spacing:.16em; text-transform:uppercase; color:var(--acc); margin:0; }
+header h1 { font-size:34px; line-height:1.15; margin:10px 0 8px; font-weight:600; letter-spacing:-.01em; }
+.bar { display:flex; flex-wrap:wrap; gap:6px 14px; align-items:center; font:14px/1.4 var(--sans); color:var(--mute); }
+.btc b { color:var(--ink); font-weight:600; }
+.btc .up { color:var(--up); } .btc .down { color:var(--down); }
+.kicker { font:600 11px/1 var(--sans); letter-spacing:.14em; text-transform:uppercase; color:var(--mute); margin:0 0 12px; }
+.top { background:var(--card); border:1px solid var(--rule); border-radius:12px; padding:20px 22px 8px; margin:26px 0 8px; }
+.top ol { margin:0; padding:0; list-style:none; counter-reset:t; }
+.top li { counter-increment:t; position:relative; padding:0 0 14px 34px; font-size:17px; line-height:1.5; }
+.top li::before { content:counter(t); position:absolute; left:0; top:-1px; font:600 22px/1 var(--serif); color:var(--acc); }
+.top a { text-decoration:none; } .top a:hover { text-decoration:underline; }
+.nav { position:sticky; top:0; z-index:5; display:flex; gap:6px; overflow-x:auto; padding:12px 0;
+  margin:0 -18px; padding-left:18px; padding-right:18px; background:var(--bg); scrollbar-width:none; }
+.nav::-webkit-scrollbar { display:none; }
+.nav a { flex:none; font:500 13px/1 var(--sans); padding:8px 12px; border-radius:99px; border:1px solid var(--rule);
+  text-decoration:none; color:var(--soft); background:var(--card); }
+.nav a:hover { border-color:var(--acc); color:var(--acc); }
+.sec { margin-top:34px; scroll-margin-top:60px; }
+.sec h2 { display:flex; align-items:center; gap:10px; font:600 13px/1 var(--sans); letter-spacing:.14em;
+  text-transform:uppercase; color:var(--acc); margin:0 0 6px; padding-bottom:10px; border-bottom:1px solid var(--rule); }
+.ic { font-size:15px; }
+.item { padding:18px 0 4px; border-bottom:1px solid var(--rule); scroll-margin-top:60px; }
+.item:last-child { border-bottom:0; }
+.item h3 { font-size:21px; line-height:1.3; margin:0 0 8px; font-weight:600; letter-spacing:-.005em; }
+.item h3 a { text-decoration:none; } .item h3 a:hover { text-decoration:underline; text-decoration-color:var(--acc); }
+.item p { margin:0 0 10px; color:var(--soft); }
+.badge { font:600 10px/1 var(--sans); letter-spacing:.08em; text-transform:uppercase; color:var(--warm);
+  border:1px solid currentColor; border-radius:4px; padding:3px 5px; margin-left:8px; vertical-align:3px; }
+.take { margin:0 0 12px; padding:12px 16px 12px 32px; background:var(--acc-soft); border-radius:8px; color:var(--soft); font-size:16.5px; }
+.take li { margin:4px 0; } .take li::marker { color:var(--acc); }
+.meta { font:13px/1.5 var(--sans) !important; color:var(--mute) !important; }
+.meta a { color:var(--mute); } .orig { font-style:italic; }
+.also { margin-top:34px; background:var(--card); border:1px solid var(--rule); border-radius:12px; padding:0 20px; }
+.also summary { cursor:pointer; padding:16px 0; font:600 13px/1 var(--sans); letter-spacing:.14em; text-transform:uppercase; color:var(--acc); list-style:none; }
+.also summary::-webkit-details-marker { display:none; }
+.also summary::after { content:"＋"; float:right; color:var(--mute); }
+.also[open] summary::after { content:"－"; }
+.also summary span { color:var(--mute); margin-left:6px; }
+.also ul { margin:0 0 16px; padding:0; list-style:none; }
+.also li { padding:10px 0; border-top:1px solid var(--rule); font-size:16px; color:var(--soft); }
+.also li b { font:600 13px var(--sans); color:var(--ink); margin-right:4px; }
+.go { text-decoration:none; color:var(--acc); }
+.scores { margin:14px 0 6px; }
+.sub { font:600 12px/1 var(--sans); color:var(--mute); margin:14px 0 8px; }
+.games { display:grid; grid-template-columns:repeat(auto-fill,minmax(290px,1fr)); gap:6px; }
+.game { background:var(--card); border:1px solid var(--rule); border-radius:8px; padding:8px 12px; font:14px/1.4 var(--sans); }
+.ln { display:flex; align-items:center; gap:6px; flex-wrap:wrap; }
+.tm { color:var(--mute); } .sc { color:var(--mute); font-variant-numeric:tabular-nums; min-width:26px; }
+.tm.w, .sc.w { color:var(--ink); font-weight:650; }
+.rk { font-size:11px; color:var(--mute); margin-right:3px; }
+.at { color:var(--rule); }
+.tag { font-size:10.5px; font-weight:600; text-transform:uppercase; letter-spacing:.06em; color:var(--mute);
+  border:1px solid var(--rule); border-radius:4px; padding:1px 5px; margin-left:auto; }
+.tag.up { color:var(--warm); border-color:var(--warm); }
+.ld { font-size:12px; color:var(--mute); margin-top:2px; }
+.anchor { display:grid; grid-template-columns:1fr 1fr; gap:22px; margin-top:40px; padding:22px; border-radius:12px; background:var(--card); border:1px solid var(--rule); }
+blockquote { margin:0; font-size:19px; line-height:1.45; font-style:italic; }
+.by { margin:6px 0 8px; font:600 13px var(--sans); color:var(--soft); }
+.mm { font-size:19px; font-weight:600; margin:0 0 6px; line-height:1.3; }
+.ctx { margin:0; font-size:15px; line-height:1.55; color:var(--soft); }
+.spot { margin-top:16px; padding:22px; border-radius:12px; border:1px dashed var(--rule); }
+.snip { display:flex; gap:8px; align-items:center; margin-top:12px; }
+.snip code { flex:1; overflow-x:auto; white-space:pre; font:12.5px/1.5 ui-monospace, Consolas, monospace; background:var(--acc-soft); padding:8px 10px; border-radius:6px; }
+.snip button { font:600 12px var(--sans); border:0; border-radius:6px; padding:9px 12px; background:var(--acc); color:var(--bg); cursor:pointer; }
+.hint { font:12px var(--sans); color:var(--mute); margin:8px 0 0; }
+.quiet { font-style:italic; color:var(--mute); margin-top:30px; }
+.health { margin-top:40px; padding-top:16px; border-top:1px solid var(--rule); font:13px/1.5 var(--sans); color:var(--mute); }
+.health ul { margin:6px 0; padding-left:18px; }
+.health li.fail b { color:var(--down); } .health li.warn b { color:var(--warm); }
+.hl { margin:0; font-weight:600; } .hl.ok { color:var(--up); } .hl.warn { color:var(--warm); }
+.stats { margin:4px 0 0; }
+@media (max-width:560px) {
+  body { font-size:17px; }
+  header h1 { font-size:28px; }
+  .item h3 { font-size:19px; }
+  .anchor { grid-template-columns:1fr; }
+  .games { grid-template-columns:1fr; }
+}
 </style>
 </head>
 <body>
-<div class="btc-ticker">
-  <span class="btc-label">₿ Bitcoin</span>
-  <span class="btc-price" id="btc-price">Loading...</span>
-  <span class="btc-change" id="btc-change"></span>
-  <span class="btc-meta" id="btc-meta"></span>
+<div class="wrap">
+<header>
+  <p class="brand">Morning Brief</p>
+  <h1>Thursday, November 12</h1>
+  <div class="bar"><span>1 min read</span><span>1 stories</span><span class="btc" id="btc">₿ <b id="btc-p">$73,560</b> <span class="up" id="btc-c">▲ 0.1%</span></span></div>
+</header>
+<section class="top"><p class="kicker">If you read nothing else</p><ol><li><a href="#r20">Tao argues AI has moved math from proof scarcity to proof abundance, and he uses comparative advantage and game framing to think and run his life.</a></li></ol></section>
+<nav class="nav"><a href="#s-reading">Worth Reading</a><a href="#s-hoops">Hoops</a></nav>
+<section class="sec" id="s-reading"><h2><span class="ic">¶</span>Worth Reading</h2>
+<article class="item" id="r20">
+  <h3><a href="https://marginalrevolution.com/marginalrevolution/2026/11/my-excellent-conversation-with-terence-tao.html?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=my-excellent-conversation-with-terence-tao">Terence Tao: AI is moving mathematics from proof scarcity to proof abundance</a></h3>
+  <p>In a long conversation with Tyler Cowen, Tao says AI has pushed mathematics into an era of &#x27;proof abundance&#x27;. The episode summary says this raises questions about the future of the research paper and suggests video talks may become more valuable than papers. Tao also describes recasting epsilon-delta analysis as a game against an opponent, which makes strategy easier to think about. He says he uses Ricardo&#x27;s comparative advantage to decide how to spend his time. On Black-Scholes, he calls it an &#x27;algebraic miracle&#x27; that works under Gaussian fluctuations and becomes dangerous when they don&#x27;t hold, especially once it is compounded into derivatives.</p><ul class="take"><li>Framing a hard analysis statement as a game gives you strategies and a sense of who is ahead.</li><li>Comparative advantage is a practical rule for choosing what to work on.</li><li>Know when a model breaks down: Black-Scholes is risky without Gaussian fluctuations.</li></ul>
+  <p class="meta">Marginal Revolution</p>
+</article></section><section class="sec" id="s-hoops"><h2><span class="ic">●</span>Hoops</h2><div class="scores"><p class="sub">NBA · Wed Nov 11</p><div class="games"><div class="game"><div class="ln"><span class="tm ">WSH</span><span class="sc ">101</span><span class="at">@</span><span class="tm w">IND</span><span class="sc w">114</span></div><div class="ld">K. George 25 · P. Siakam 28</div></div><div class="game"><div class="ln"><span class="tm w">CLE</span><span class="sc w">115</span><span class="at">@</span><span class="tm ">NY</span><span class="sc ">107</span></div><div class="ld">J. Harden 32 · J. Brunson 27</div></div><div class="game"><div class="ln"><span class="tm w">BOS</span><span class="sc w">98</span><span class="at">@</span><span class="tm ">TOR</span><span class="sc ">93</span></div><div class="ld">J. Tatum 24 · J. Walter 17</div></div><div class="game"><div class="ln"><span class="tm w">SA</span><span class="sc w">124</span><span class="at">@</span><span class="tm ">CHI</span><span class="sc ">119</span></div><div class="ld">V. Wembanyama 32 · J. Smith 23</div></div><div class="game"><div class="ln"><span class="tm w">DEN</span><span class="sc w">123</span><span class="at">@</span><span class="tm ">MEM</span><span class="sc ">118</span></div><div class="ld">J. Murray 30 · T. Jerome 22</div></div><div class="game"><div class="ln"><span class="tm w">LAL</span><span class="sc w">123</span><span class="at">@</span><span class="tm ">MIL</span><span class="sc ">112</span></div><div class="ld">L. Doncic 32 · T. Herro 27</div></div><div class="game"><div class="ln"><span class="tm w">BKN</span><span class="sc w">145</span><span class="at">@</span><span class="tm ">NO</span><span class="sc ">111</span></div><div class="ld">M. Porter Jr. 22 · Z. Williamson 29</div></div><div class="game"><div class="ln"><span class="tm w">ORL</span><span class="sc w">123</span><span class="at">@</span><span class="tm ">UTAH</span><span class="sc ">108</span></div><div class="ld">F. Wagner 38 · D. Peterson 22</div></div><div class="game"><div class="ln"><span class="tm ">GS</span><span class="sc ">108</span><span class="at">@</span><span class="tm w">HOU</span><span class="sc w">115</span></div><div class="ld">Y. Lendeborg 25 · K. Durant 20</div></div><div class="game"><div class="ln"><span class="tm ">OKC</span><span class="sc ">108</span><span class="at">@</span><span class="tm w">POR</span><span class="sc w">118</span></div><div class="ld">S. Gilgeous-Alexander 31 · D. Avdija 28</div></div></div><p class="sub">College · ranked teams · Wed Nov 11</p><div class="games"><div class="game"><div class="ln"><span class="tm ">Jax State</span><span class="sc ">46</span><span class="at">@</span><span class="tm w"><span class="rk">8</span>Houston</span><span class="sc w">92</span></div></div><div class="game"><div class="ln"><span class="tm ">AR-Pine Bluff</span><span class="sc ">37</span><span class="at">@</span><span class="tm w"><span class="rk">9</span>UCLA</span><span class="sc w">106</span></div></div><div class="game"><div class="ln"><span class="tm ">Colgate</span><span class="sc ">59</span><span class="at">@</span><span class="tm w"><span class="rk">13</span>St John&#x27;s</span><span class="sc w">90</span></div></div><div class="game"><div class="ln"><span class="tm ">Robert Morris</span><span class="sc ">53</span><span class="at">@</span><span class="tm w"><span class="rk">19</span>Arkansas</span><span class="sc w">76</span></div></div><div class="game"><div class="ln"><span class="tm ">Marquette</span><span class="sc ">70</span><span class="at">@</span><span class="tm w"><span class="rk">20</span>Michigan</span><span class="sc w">84</span></div></div><div class="game"><div class="ln"><span class="tm w"><span class="rk">21</span>USC</span><span class="sc w">77</span><span class="at">@</span><span class="tm ">California</span><span class="sc ">65</span></div></div><div class="game"><div class="ln"><span class="tm ">Lindenwood</span><span class="sc ">60</span><span class="at">@</span><span class="tm w"><span class="rk">25</span>Nebraska</span><span class="sc w">94</span></div></div></div></div></section>
+<details class="also"><summary>Also out today <span>3</span></summary><ul><li><b>Simon Willison</b> Google&#x27;s Gemini 4 Carbon, first limited to cyber defenders, is now generally available at $2/$10 per million tokens, with a planned doubling on December 1. <a href="https://simonwillison.net/2026/Nov/10/llm-gemini/" class="go">→</a></li><li><b>Figs in Winter (Pigliucci)</b> Pigliucci&#x27;s Figs in Winter asks whether fairness toward strangers is innate or taught, from an evolutionary ethics angle. <a href="https://figsinwintertime.substack.com/p/evolutionary-ethics-and-how-we-treat" class="go">→</a></li><li><b>Bitcoin Magazine</b> Tavi Costa says Bitcoin looks very undervalued and expects violent moves in Bitcoin and silver as the Fed&#x27;s hiking cycle ends. <a href="https://bitcoinmagazine.com/videos/tavi-costa-bitcoin-very-undervalued-with-violent-moves-ahead" class="go">→</a></li></ul></details>
+
+<section class="anchor">
+  <div>
+    <p class="kicker">Quote</p>
+    <blockquote>It is not the man who has too little, but the man who craves more, that is poor.</blockquote>
+    <p class="by">— Seneca</p>
+    <p class="ctx">Letters from a Stoic. Seneca was one of Rome&#x27;s richest men; he knew the trap he was writing about.</p>
+  </div>
+  <div>
+    <p class="kicker">Mental model · Strategy/Thinking</p>
+    <p class="mm">Hedgehog vs. Fox</p>
+    <p class="ctx">Isaiah Berlin&#x27;s distinction: the fox knows many things; the hedgehog knows one big thing. Philip Tetlock&#x27;s research: on forecasting, foxes beat hedgehogs decisively. Hedgehogs commit to grand narratives and defend them past the evidence. Foxes stay flexible. For understanding the world, be a fox.</p>
+  </div>
+</section>
+
+
+<footer class="health">
+  <p class="hl warn">21 source issues · 18 OK</p><ul><li class="warn"><b>Channel spotlight</b> — AttributeError</li><li class="fail"><b>Farnam Street</b> — HTTP 403</li><li class="fail"><b>Lyn Alden</b> — ProxyError</li><li class="fail"><b>YT · Andrew Huberman</b> — HTTP 404</li><li class="fail"><b>YT · Anthony Chaffee MD</b> — HTTP 404</li><li class="fail"><b>YT · Ben Felix</b> — HTTP 404</li><li class="fail"><b>YT · Dr. Sten Ekberg</b> — HTTP 404</li><li class="fail"><b>YT · GTO Lab</b> — HTTP 404</li><li class="fail"><b>YT · GTO Wizard</b> — HTTP 404</li><li class="fail"><b>YT · Jared Alderman</b> — HTTP 404</li><li class="fail"><b>YT · Joe Rogan</b> — HTTP 404</li><li class="fail"><b>YT · Ken Berry MD</b> — HTTP 404</li><li class="fail"><b>YT · Lex Fridman</b> — HTTP 404</li><li class="fail"><b>YT · Mind The Game</b> — HTTP 404</li><li class="fail"><b>YT · ModernWisdom</b> — HTTP 404</li><li class="fail"><b>YT · Nick Norwitz</b> — HTTP 404</li><li class="fail"><b>YT · Paul Saladino MD</b> — HTTP 404</li><li class="fail"><b>YT · Peter Attia</b> — HTTP 404</li><li class="fail"><b>YT · Renaissance Periodization</b> — HTTP 404</li><li class="fail"><b>YT · ThinkingPoker</b> — HTTP 404</li><li class="fail"><b>YT · Thomas DeLauer</b> — HTTP 404</li></ul>
+  <p class="stats">66 new items scanned · 1 read in full · 13k in / 2k out tokens · 1m42s</p>
+</footer>
 </div>
-
 <script>
-(async () => {
-  try {
-    const res = await fetch('https://api.coingecko.com/api/v3/coins/bitcoin?localization=false&tickers=false&market_data=true&community_data=false&developer_data=false');
-    const data = await res.json();
-    const price = data.market_data.current_price.usd;
-    const change24 = data.market_data.price_change_percentage_24h;
-    const change7d = data.market_data.price_change_percentage_7d;
-
-    document.getElementById('btc-price').innerText = '$' + price.toLocaleString(undefined, {maximumFractionDigits: 0});
-
-    const changeEl = document.getElementById('btc-change');
-    const sign = change24 >= 0 ? '▲' : '▼';
-    changeEl.innerText = `${sign} ${Math.abs(change24).toFixed(2)}% (24h)`;
-    changeEl.className = 'btc-change ' + (change24 >= 0 ? 'btc-up' : 'btc-down');
-
-    document.getElementById('btc-meta').innerText = `7d: ${change7d >= 0 ? '+' : ''}${change7d.toFixed(1)}%`;
-  } catch (err) {
-    document.getElementById('btc-price').innerText = 'Price unavailable';
-  }
+(function () {
+  var b = document.getElementById('copy');
+  if (b) b.addEventListener('click', function () {
+    navigator.clipboard.writeText(document.getElementById('snip').innerText.trim());
+    b.textContent = 'Copied'; setTimeout(function () { b.textContent = 'Copy'; }, 1800);
+  });
+  fetch('https://api.coingecko.com/api/v3/simple/price?ids=bitcoin&vs_currencies=usd&include_24hr_change=true')
+    .then(function (r) { return r.json(); })
+    .then(function (d) {
+      var p = d.bitcoin.usd, c = d.bitcoin.usd_24h_change;
+      document.getElementById('btc-p').textContent = '$' + Math.round(p).toLocaleString();
+      var el = document.getElementById('btc-c');
+      el.textContent = (c >= 0 ? '▲ ' : '▼ ') + Math.abs(c).toFixed(1) + '%';
+      el.className = c >= 0 ? 'up' : 'down';
+    }).catch(function () {});
 })();
 </script>
-<h1>Morning Brief</h1>
-<p class="date">Wednesday, November 11, 2026</p>
-
-<div class="anchor">
-  <h2>☀️ Today's Anchor</h2>
-  <div class="anchor-block">
-    <p class="quote">"Luck is what happens when preparation meets opportunity."</p>
-    <p class="author">— Seneca</p>
-    <p class="context">Often misattributed to Oprah or Thomas Jefferson. The actual source is Seneca's letters, 2000 years earlier.</p>
-  </div>
-  <div class="anchor-block">
-    <p class="model-label">Mental Model · Strategy</p>
-    <p class="model-name">Maginot Line Thinking</p>
-    <p class="context">France's WWI-era defense, designed against the last war, was simply bypassed in WWII. Generals always fight the last war. Companies always defend the last market. Individuals always prepare for the last threat. Ask: what if the threat doesn't come from where I'm defending?</p>
-  </div>
-</div>
-
-<div class="spotlight">
-  <h2>🧭 Channel Spotlight</h2>
-  <p class="spotlight-name">Mike Israetel (Renaissance Periodization solo)</p>
-  <p class="spotlight-pitch">You already follow Renaissance Periodization as a channel, but Mike Israetel's personal channel publishes solo deep-dives and debates specifically on diet science — including pointed critiques of carnivore and low-carb claims with actual mechanistic and epidemiological counter-arguments — that the main RP channel doesn't cover. This steelmans the conventional/evidence-based side of the diet wars you're watching play out on Chaffee, Saladino, and Norwitz, giving you the strongest opposing case rather than a strawman. Format is usually direct-to-camera monologue or structured debate, dense and fast, with citations.</p>
-  <p class="spotlight-instructions">Interested? Copy the line below into <code>YOUTUBE_CHANNELS</code> in <code>brief.py</code> and save:</p>
-  <pre class="spotlight-snippet" id="snippet">    "Mike Israetel (Renaissance Periodization solo)": "UCfQgsKhHjSyRLOp9mnffqVg",</pre>
-  <button class="copy-btn" onclick="navigator.clipboard.writeText(document.getElementById('snippet').innerText.trim()); this.innerText='✅ Copied'; setTimeout(()=>this.innerText='📋 Copy snippet', 2000);">📋 Copy snippet</button>
-  <p class="spotlight-meta">showing for 2 more days. If you don't add it, a new channel will be suggested.</p>
-</div>
-<h2>🎥 From People I Follow</h2>
-
-<p><strong>Worth your time:</strong></p>
-
-<div class="story">
-  <h3>GTO Lab</h3>
-  <p>Nick Petrangelo, Daniel Dvoress, and Axel Hallay walk through GTO Lab's new mystery bounty library — 240+ sims and counting — built specifically for a format they argue almost no one plays correctly. The core insight: mystery bounties aren't "regular tournaments where you adjust a little." They're a fundamentally different game, and the most common mistake is being too tight when bounties first kick in, since ICM is minimal and bounties are maximally valuable at that stage. The key analytical tool they built is the KO-to-stack ratio: bounty value divided by current stack, which drives the entire pre- and post-flop strategic adjustment. They also show a combined EV view that breaks out prize-pool EV vs. KO EV per hand — revealing that some hands are played purely for bounty value, with zero prize-pool EV, which is nearly impossible to intuit without sims.</p>
-  <p class="meta">Videos: <a href="https://www.youtube.com/watch?v=17QO6NohJ8E">Mystery Bounty Is a Completely Different Game | Nick Petrangelo, Daniel Dvoress & Axel Hallay</a></p>
-</div>
-
-<div class="story">
-  <h3>Jared Alderman</h3>
-  <p>Jared and Uri Peleg dig into the hidden information layer of poker that gets underappreciated: your opponent cannot know your game tree. Uri's key claim is that bluffing balance only matters insofar as your opponent can detect it — meaning you can over-bluff ace-high boards and under-bluff king-high boards and be globally fine, because there's no practical way for anyone to discover this unless you tell them. The chess analogy Uri uses is sharp: GTO poker is setting up your "invisible chessboard" optimally given your opponent doesn't know your board. Exploitative poker is making an informed guess about how they've set up theirs. Uri also pushes back on RNG-dependency: he stopped RNGing and instead asked "how can my opponent even know if I'm balanced?" — and found that as long as frequencies aren't face-up, the edge from perfect randomization is minimal compared to other exploits available.</p>
-  <p class="meta">Videos: <a href="https://www.youtube.com/watch?v=d18PasuKpnA">"Poker Doesn't Work Without Exploits" - Uri Peleg</a></p>
-</div>
-
-<div class="story">
-  <h3>Nick Norwitz</h3>
-  <p>Norwitz covers the fasting mimicking diet (FMD) with unusual depth, anchoring on a 2024 Nature Communications RCT: three 5-day FMD cycles (700–1,100 kcal/day, fat-dominant, protein-restricted) lowered biological age by a median of 2.5 years on a validated blood-based aging score, with a second independent trial replicating the finding. Crucially, the reduction in biological age was not correlated with weight loss — implying this is genuine metabolic reprogramming rather than a caloric restriction artifact. Mechanistically, the two levers are ketosis (from caloric + fat emphasis) and mTOR/IGF-1 suppression via protein restriction. Additional findings: liver fat dropped from 14% to 8% in participants with fatty liver, immune aging markers improved, and a monkey study showed lower bodyweight set points persisting 1,000+ days after the intervention ended. His modeled estimate: three FMD cycles per year could reduce 20-year cardiovascular mortality by 17% and cancer mortality by 6%.</p>
-  <p class="meta">Videos: <a href="https://www.youtube.com/watch?v=qyy8fCuQ5_E">This Diet Reverses Aging in 15 Days</a></p>
-</div>
-
-<p><strong>Also posted:</strong></p>
-<ul>
-  <li><strong>Ken Berry MD:</strong> Multiple shorts arguing that type 2 diabetes (hazard ratio 10.71 for heart attack) dwarfs high LDL (HR 1.38) and even smoking as a cardiovascular risk factor — and that doctors who fixate on statin prescriptions while ignoring HbA1c are practicing "bad medicine." Also covers ultra-processed "protein" products (Pop-Tarts Protein: 30g sugar, 5g protein) and the case for animal protein satiety. (<a href="https://www.youtube.com/shorts/mDG17QRoTkg">LDL vs. Blood Sugar</a> + <a href="https://www.youtube.com/shorts/zgQg66Gmfd8">High-Protein Craze</a> +2 more)</li>
-  <li><strong>Thomas DeLauer:</strong> Argues that morning brain fog, breakfast dependency, afternoon crashes, and irritability are five symptoms of a single root cause — metabolic inflexibility from chronically elevated insulin blocking lipolysis and ketone production. Practical starting point he recommends: move dinner 2 hours earlier to extend the overnight fast, which he estimates improves insulin sensitivity 15–20%. Also mentions morning creatine as a way to stabilize ATP distribution in insulin-resistant individuals. (<a href="https://www.youtube.com/watch?v=Py0WdSZmXyg">If This Happens to You, You're Probably Insulin Resistant</a>)</li>
-  <li><strong>Renaissance Periodization:</strong> Short-form myth-busting: machines build as much muscle as free weights; "functional training" is an undefinable term; not being sore doesn't mean your workout failed; cardio timing is context-dependent based on priority. Also: individual recovery capacity (not a fixed set count) determines optimal training volume per session. (<a href="https://www.youtube.com/shorts/uESsb2Ygloo">Functional Training Problem</a> · <a href="https://www.youtube.com/shorts/Io3mY3eI020">Jeff Nippard Cut Workouts in Half</a>)</li>
-  <li><strong>ModernWisdom:</strong> Chris Williamson distinguishes discipline (friction accepted), motivation (friction reduced), and obsession (friction inverted) — arguing obsession is a non-renewable fuel source and the correct response to positive obsession is to surrender to it, not suppress it. Also features Robert Greene on the Russian explorer Arsenyev and the indigenous tracker Dersu Uzala: Greene's thesis is that humans once possessed perceptual and physiological powers now dormant, and that proximity to mortality can temporarily unlock them (citing a mountain climber who accessed "mountain goat" capability after a near-death fall). (<a href="https://www.youtube.com/shorts/lJFpqrkGtY4">This Matters More Than Discipline</a> · <a href="https://www.youtube.com/watch?v=HUCDvFHLLVg">Robert Greene - True Story Will Change How You See Reality</a>)</li>
-  <li><strong>Mind The Game (LeBron):</strong> LeBron discusses growth mindset in NBA longevity (Brook Lopez transforming from post scorer to 3-and-D, Al Horford reinventing himself), praises Paul George's self-awareness in recognizing he needed to be 1B not 1A to win, and calls Kyrie Irving "the most skilled player to ever play the game" — specifically citing Kyrie's change-of-direction athleticism and body control in the air as underappreciated. (<a href="https://www.youtube.com/watch?v=37nsid4dTFE">LeBron Is Still in Awe of Kyrie Irving's Game</a>)</li>
-  <li><strong>Peter Attia:</strong> AMA preview on blood testing: Attia's core framing is that comprehensive labs give you roughly 25–30% of the information needed to build a full health risk picture, and that reference-range thinking ("no flags = healthy") is dangerously incomplete. Covers the value of longitudinal vs. snapshot data and teases a walkthrough of labs by disease category. (<a href="https://www.youtube.com/watch?v=HhTirnNCxxE">Understanding Lab Testing AMA 91 Sneak Peek</a>)</li>
-  <li><strong>Paul Saladino MD / Anthony Chaffee MD:</strong> Promotional shorts for carnivore/animal-based eating. No new data or arguments. (<a href="https://www.youtube.com/shorts/pBiaPt2JsV0">Saladino: Benefits of Red Meat</a> · <a href="https://www.youtube.com/shorts/JHbeNE4aKUk">Chaffee: Dry Aged Steaks</a>)</li>
-  <li><strong>Dr. Sten Ekberg:</strong> Reviews five coffee additives by evidence quality: cloves (weakest — one uncontrolled 13-person study using capsule extract, not whole cloves), collagen (plausible gut-lining mechanism, unproven, breaks fasting at 20g), cinnamon (modest blood sugar effects, requires ~1 tsp of Ceylon variety daily, most sold is liver-stressing cassia), MCT oil (C8 raises ketones even off keto, start with 1 tsp), and implicitly ranks butter/fat highest. (<a href="https://www.youtube.com/watch?v=ch10CiCINto">What If You Add THIS To Your Coffee For 30 Days?</a>)</li>
-</ul>
-
-<h2>₿ Bitcoin & Macro</h2>
-
-<div class="story">
-  <h3><a href="https://bitcoinmagazine.com/news/texas-bill-invest-10-million-bitcoin">Texas Rep. Files Bill Letting Cities Invest $10 Million in Bitcoin</a></h3>
-  <p>Texas House Bill 815 would allow each city or county to allocate up to $10 million of public funds into Bitcoin starting September 2027. This follows Miami-Dade County now accepting Bitcoin for property taxes (converted to dollars before reaching county coffers) — a pattern of municipal-level Bitcoin normalization that doesn't require holding BTC on balance sheet but builds infrastructure familiarity and political legitimacy.</p>
-  <p class="meta">Bitcoin Magazine</p>
-</div>
-
-<h2>🧬 Health & Science</h2>
-
-<div class="story">
-  <h3>Fasting Mimicking Diet: 2.5 Years of Biological Age Reduction in 15 Days (Nick Norwitz deep dive)</h3>
-  <p>The key RCT (Nature Communications, 2024): three 5-day cycles of ~700–1,100 kcal/day, fat-dominant, protein-restricted diet reduced biological age by a median 2.5 years on a validated mortality-predictive blood biomarker score (albumin, creatinine, CRP, HbA1c, blood pressure). A second independent trial replicated the finding. The age reduction was statistically independent of weight loss — suggesting metabolic reprogramming rather than caloric restriction is the mechanism. The two mechanistic levers: (1) ketosis forced by low-calorie, fat-dominant intake, mimicking fasting metabolic state; (2) protein restriction suppressing IGF-1 and mTOR (the cell's growth switch), triggering autophagy and cellular renewal pathways. A 2023 mouse study showed FMD cycles protected cardiac tissue from immunotherapy-induced fibrosis while making cancer cells more vulnerable — consistent with "differential stress resistance" where healthy cells hunker down while cancer cells get caught out. The monkey data is the most surprising: post-intervention weight setpoints remained lower 1,000+ days after animals resumed ad libitum eating, suggesting durable metabolic reprogramming rather than temporary caloric deficit. Practical protocol: one 5-day cycle per month for three months = 15 total days per year. Fat-dominant, low protein, ~700–1,100 kcal. This is not indefinite caloric restriction — the benefit comes from periodicity and the signaling environment change, not sustained deprivation.</p>
-  <p class="meta"><a href="https://www.youtube.com/watch?v=qyy8fCuQ5_E">Nick Norwitz</a></p>
-</div>
-
-<div class="story">
-  <h3>Blood Work as a Health Proxy: Peter Attia's 25–30% Rule</h3>
-  <p>Attia's core framework for interpreting labs: even the most comprehensive blood panels give you roughly 25–30% of the information needed for a complete health risk picture. The "check engine light" mental model — if nothing's flagged, all is fine — is dangerously wrong; most of the actionable risk information lives outside reference ranges and outside blood markers entirely. Longitudinal data matters more than snapshots: a CRP of 3 means something completely different if it's a chronic baseline versus a post-vaccination spike. He also notes that LP(a) and ApoE only need to be tested once (genetic, doesn't change), while markers like LDL and CRP require trend context to interpret meaningfully.</p>
-  <p class="meta"><a href="https://www.youtube.com/watch?v=HhTirnNCxxE">Peter Attia AMA 91 Sneak Peek</a> · <a href="https://peterattiamd.com/ama91/">Full Episode</a></p>
-</div>
-
-<div class="story">
-  <h3>Insulin Resistance as the Root of Five "Separate" Problems (Thomas DeLauer)</h3>
-  <p>DeLauer argues that morning brain fog, need-to-eat-breakfast, afternoon energy crashes, irritability between meals, and elevated fasting glucose (90+ mg/dL) are five presentations of the same root cause: chronically elevated insulin suppressing lipolysis, which prevents the brain from accessing ketones as backup fuel in the fasted state. The key mechanism: insulin blocks the lipolysis pathway even at sub-diabetic levels, leaving the brain simultaneously starved of glucose (last meal metabolized) and ketones (pathway blocked). He distinguishes this from low-carb-induced "peripheral insulin resistance," which is a protective adaptation. His lowest-friction intervention: shift dinner 2 hours earlier, extending the overnight fast without any other dietary change — estimated 15–20% improvement in insulin sensitivity from that alone.</p>
-  <p class="meta"><a href="https://www.youtube.com/watch?v=Py0WdSZmXyg">Thomas DeLauer</a></p>
-</div>
-
-<h2>💡 Worth Reading</h2>
-
-<div class="story">
-  <h3><a href="https://deepmind.google/blog/introducing-alphaproof-code/">AlphaProof Code</a></h3>
-  <p>Google DeepMind's AlphaProof — the system that previously solved IMO-level math problems — has been extended to code. This is worth watching not for the benchmark numbers but because formal proof systems applied to code represent a qualitatively different approach to software verification than testing or fuzzing: you can prove correctness rather than just check for failures. Early days, but the direction matters.</p>
-  <p class="meta"><a href="https://news.ycombinator.com/item?id=AlphaProofCode">HN Discussion</a> · DeepMind Blog</p>
-</div>
-
-<div class="story">
-  <h3><a href="https://www.astralcodexten.com/p/escaping-the-outside-criticism-trap">Escaping The "Outside Criticism" Trap — Astral Codex Ten</a></h3>
-  <p>Scott Alexander on a recurring dynamic where critics positioned as "outside" a field gain moral authority precisely from their outsider status — which makes them immune to domain-expert pushback even when they're wrong. The trap: engaging seriously looks defensive, not engaging lets the criticism stand. Worth sitting with as a mental model for evaluating heterodox claims, including in health and AI.</p>
-  <p class="meta">Astral Codex Ten</p>
-</div>
-
-<div class="story">
-  <h3><a href="https://marginalrevolution.com/marginalrevolution/2026/11/are-rcts-underpowered.html">Are RCTs Underpowered? — Marginal Revolution</a></h3>
-  <p>A study of 745 principal-hypothesis tests from 190 articles in leading economics journals finds that actual t-statistics peak well below what you'd expect from adequately powered studies — suggesting systematic underpowering, which produces inflated false-positive rates even in published, peer-reviewed RCTs. Directly relevant to evaluating health research claims, including some discussed in this brief.</p>
-  <p class="meta">Marginal Revolution</p>
-</div>
-
-<h2>🤖 AI Capability Watch</h2>
-
-<div class="story">
-  <h3><a href="https://www.anthropic.com/claude-fable-and-mythos-5-2">Claude Fable 5.2 and Mythos 5.2</a></h3>
-  <p>Anthropic released two new flagship models: Fable 5.2 (ranked #1 on Artificial Analysis at launch) and Mythos 5.2, described as their most capable models for coding, finance, and science — with Anthropic claiming Fable 5.2 "solved two open problems in the physics of black holes" as an internal benchmark milestone. Simon Willison notes Fable 5.2's 3D modeling and animation capabilities are strong enough to generate interactive Three.js visualizations from casual prompts, which represents a meaningful step up in generalist creative-technical output.</p>
-  <p class="meta"><a href="https://simonwillison.net/2026/Nov/9/llm-anthropic/">Simon Willison</a> · Anthropic</p>
-</div>
-
-<div class="story">
-  <h3><a href="https://9to5mac.com/2026/11/10/apple-has-new-mac-app-coming-to-make-running-local-ai-models-easy/">Apple Mac App for Local AI Models</a></h3>
-  <p>Apple is building a native Mac app designed to make running local AI models straightforward for non-technical users — the equivalent of what Ollama does for developers, but with an Apple-polished GUI. If Apple ships this with their silicon's Neural Engine integration, it could meaningfully lower the barrier to private, offline AI use for everyday Mac users.</p>
-  <p class="meta">9to5Mac</p>
-</div>
 </body>
 </html>
