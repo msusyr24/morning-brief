@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="color-scheme" content="light dark">
+<meta name="theme-color" content="#f5f2ea" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#16150f" media="(prefers-color-scheme: dark)">
+<meta name="apple-mobile-web-app-title" content="Brief">
+<meta name="robots" content="noindex">
+<link rel="icon" href="../icon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="../apple-touch-icon.png">
+<title>Morning Brief · Thursday, November 12</title>
+<style>
+:root {
+  --bg:#f5f2ea; --card:#fffdf8; --ink:#1d1b17; --soft:#47433b; --mute:#837d71; --rule:#e3ddd0;
+  --acc:#2d5b4f; --acc-soft:#e6eee8; --warm:#b4691a; --up:#2e7d4f; --down:#b8402f;
+  --serif: "Iowan Old Style", "Charter", "Palatino Linotype", Palatino, Georgia, serif;
+  --sans: -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, Roboto, sans-serif;
+  --shadow: 0 1px 2px rgba(40,30,10,.04), 0 6px 24px -12px rgba(40,30,10,.18);
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg:#15140f; --card:#1e1c16; --ink:#ede8db; --soft:#cbc4b4; --mute:#8f887a; --rule:#33302a;
+    --acc:#8fc2ad; --acc-soft:#202b26; --warm:#e0a15a; --up:#6cc28e; --down:#e57f6c;
+    --shadow: 0 1px 2px rgba(0,0,0,.3), 0 8px 28px -14px rgba(0,0,0,.6);
+  }
+  .sec, .nav a { --a: var(--ad) !important; }
+}
+* { box-sizing:border-box; }
+html { scroll-behavior:smooth; -webkit-text-size-adjust:100%; }
+body { margin:0; background:var(--bg); color:var(--ink); font:18px/1.64 var(--serif);
+  -webkit-font-smoothing:antialiased; text-rendering:optimizeLegibility; }
+.wrap { max-width:700px; margin:0 auto; padding:max(28px, env(safe-area-inset-top)) 20px 72px; }
+a { color:inherit; text-decoration-color:var(--rule); text-underline-offset:3px; text-decoration-thickness:1px; }
+a:hover { text-decoration-color:currentColor; }
+.kicker { font:600 11px/1 var(--sans); letter-spacing:.14em; text-transform:uppercase; color:var(--mute); margin:0 0 10px; }
+
+header .brand { display:flex; align-items:center; gap:8px; font:600 12px/1 var(--sans); letter-spacing:.16em; text-transform:uppercase; color:var(--acc); margin:0; }
+header .brand::before { content:""; width:18px; height:18px; border-radius:50%;
+  background:radial-gradient(circle at 50% 120%, var(--warm) 0 45%, transparent 46%), var(--acc-soft); box-shadow:inset 0 0 0 1px var(--rule); }
+header h1 { font-size:40px; line-height:1.1; margin:14px 0 6px; font-weight:600; letter-spacing:-.02em; }
+.greet { margin:0; color:var(--soft); font-size:17px; font-style:italic; }
+.bar { display:flex; flex-wrap:wrap; gap:4px 16px; margin-top:10px; font:13px/1.4 var(--sans); color:var(--mute); }
+
+.cards { display:grid; gap:12px; margin:24px 0 0; }
+.cards.n2 { grid-template-columns:1fr 1fr; }
+.card { background:var(--card); border:1px solid var(--rule); border-radius:14px; padding:16px 18px 14px; box-shadow:var(--shadow); position:relative; overflow:hidden; }
+.card .big { font:600 30px/1.1 var(--sans); letter-spacing:-.02em; font-variant-numeric:tabular-nums; display:flex; align-items:center; gap:8px; }
+.card .wi { font-size:26px; }
+.card .cap { margin:6px 0 0; font:13px/1.4 var(--sans); color:var(--mute); }
+.up { color:var(--up); } .down { color:var(--down); }
+.spark { position:absolute; right:14px; top:14px; opacity:.95; }
+.spark .ln { fill:none; stroke-width:1.8; stroke-linejoin:round; stroke-linecap:round; }
+.spark.up .ln { stroke:var(--up); } .spark.down .ln { stroke:var(--down); }
+.spark .fill { opacity:.12; } .spark.up .fill { fill:var(--up); } .spark.down .fill { fill:var(--down); }
+.spark.up .dot { fill:var(--up); } .spark.down .dot { fill:var(--down); }
+
+.top { background:var(--card); border:1px solid var(--rule); border-radius:14px; padding:20px 22px 8px; margin:14px 0 6px; box-shadow:var(--shadow); }
+.top ol { margin:0; padding:0; list-style:none; counter-reset:t; }
+.top li { counter-increment:t; position:relative; padding:0 0 14px 36px; font-size:17.5px; line-height:1.5; }
+.top li::before { content:counter(t); position:absolute; left:0; top:-2px; font:600 24px/1 var(--serif); color:var(--warm); }
+.top a { text-decoration:none; } .top a:hover { text-decoration:underline; text-decoration-color:var(--warm); }
+
+.nav { position:sticky; top:0; z-index:5; display:flex; gap:6px; overflow-x:auto; padding:12px 20px; margin:0 -20px;
+  background:color-mix(in srgb, var(--bg) 88%, transparent); backdrop-filter:saturate(1.4) blur(10px); -webkit-backdrop-filter:saturate(1.4) blur(10px); scrollbar-width:none; }
+.nav::-webkit-scrollbar { display:none; }
+.nav a { flex:none; display:flex; align-items:center; gap:6px; font:500 13px/1 var(--sans); padding:8px 12px; border-radius:99px; border:1px solid var(--rule);
+  text-decoration:none; color:var(--soft); background:var(--card); transition:border-color .15s, color .15s; }
+.nav a span { color:var(--a); }
+.nav a:hover { border-color:var(--a); color:var(--a); }
+
+.sec { margin-top:38px; scroll-margin-top:62px; }
+.sec h2 { display:flex; align-items:center; gap:10px; font:650 13px/1 var(--sans); letter-spacing:.14em;
+  text-transform:uppercase; color:var(--a); margin:0 0 4px; padding-bottom:11px; border-bottom:2px solid var(--a); }
+.sec h2 .n { margin-left:auto; font-weight:500; color:var(--mute); letter-spacing:0; }
+.ic { font-size:15px; }
+.item { padding:20px 0 6px; border-bottom:1px solid var(--rule); scroll-margin-top:62px; }
+.item:last-child { border-bottom:0; }
+.item h3 { font-size:22px; line-height:1.28; margin:0 0 8px; font-weight:600; letter-spacing:-.01em; }
+.item h3 a { text-decoration:none; } .item h3 a:hover { text-decoration:underline; text-decoration-color:var(--a); }
+.item p { margin:0 0 10px; color:var(--soft); }
+.item:target { background:linear-gradient(90deg, color-mix(in srgb, var(--a) 10%, transparent), transparent 70%); margin:0 -12px; padding-left:12px; padding-right:12px; border-radius:8px; }
+.badge { font:600 10px/1 var(--sans); letter-spacing:.06em; text-transform:uppercase; color:var(--a);
+  border:1px solid currentColor; border-radius:4px; padding:3px 5px; margin-left:8px; vertical-align:4px; white-space:nowrap; opacity:.85; }
+.take { margin:2px 0 12px; padding:12px 16px 12px 32px; background:color-mix(in srgb, var(--a) 8%, var(--card)); border-radius:10px; color:var(--soft); font-size:16.5px; line-height:1.55; }
+.take li { margin:4px 0; } .take li::marker { color:var(--a); }
+.meta { font:13px/1.5 var(--sans) !important; color:var(--mute) !important; }
+.meta a { color:var(--mute); } .orig { font-style:italic; }
+
+.also { margin-top:38px; background:var(--card); border:1px solid var(--rule); border-radius:14px; padding:0 20px; box-shadow:var(--shadow); }
+.also summary { cursor:pointer; padding:17px 0; font:650 13px/1 var(--sans); letter-spacing:.14em; text-transform:uppercase; color:var(--acc); list-style:none; }
+.also summary::-webkit-details-marker { display:none; }
+.also summary::after { content:"＋"; float:right; color:var(--mute); }
+.also[open] summary::after { content:"－"; }
+.also summary span { color:var(--mute); margin-left:6px; }
+.also ul { margin:0 0 14px; padding:0; list-style:none; }
+.also li a { display:block; padding:11px 0; border-top:1px solid var(--rule); font-size:16px; line-height:1.5; color:var(--soft); text-decoration:none; }
+.also li a:hover { color:var(--ink); }
+.also li b { font:600 12.5px var(--sans); color:var(--ink); margin-right:6px; }
+.go { color:var(--acc); margin-left:6px; }
+
+.scores { margin:14px 0 6px; }
+.sub { font:600 12px/1 var(--sans); color:var(--mute); margin:16px 0 8px; }
+.games { display:grid; grid-template-columns:repeat(auto-fill,minmax(300px,1fr)); gap:6px; }
+.game { background:var(--card); border:1px solid var(--rule); border-radius:10px; padding:9px 12px; font:14px/1.4 var(--sans); }
+.ln { display:flex; align-items:center; gap:6px; flex-wrap:wrap; }
+.tm { color:var(--mute); } .sc { color:var(--mute); font-variant-numeric:tabular-nums; min-width:26px; }
+.tm.w, .sc.w { color:var(--ink); font-weight:650; }
+.rk { font-size:11px; color:var(--mute); margin-right:3px; }
+.at { color:var(--rule); }
+.tag { font-size:10.5px; font-weight:600; text-transform:uppercase; letter-spacing:.06em; color:var(--mute);
+  border:1px solid var(--rule); border-radius:4px; padding:1px 5px; margin-left:auto; }
+.tag.up { color:var(--warm); border-color:var(--warm); }
+.ld { font-size:12px; color:var(--mute); margin-top:2px; }
+
+.anchor { display:grid; grid-template-columns:1fr 1fr; gap:26px; margin-top:44px; padding:24px; border-radius:14px; background:var(--card); border:1px solid var(--rule); box-shadow:var(--shadow); }
+blockquote { margin:0; font-size:20px; line-height:1.45; font-style:italic; }
+blockquote::before { content:"“"; display:block; font:600 44px/0.6 var(--serif); color:var(--warm); margin:10px 0 4px; }
+.by { margin:8px 0 8px; font:600 13px var(--sans); color:var(--soft); }
+.mm { font-size:20px; font-weight:600; margin:0 0 6px; line-height:1.3; }
+.ctx { margin:0; font-size:15px; line-height:1.58; color:var(--soft); }
+.spot { margin-top:14px; padding:22px 24px; border-radius:14px; border:1px dashed var(--rule); }
+.snip { display:flex; gap:8px; align-items:center; margin-top:12px; }
+.snip code { flex:1; min-width:0; overflow-x:auto; white-space:pre; font:12.5px/1.5 ui-monospace, Consolas, monospace; background:var(--acc-soft); padding:8px 10px; border-radius:6px; }
+.snip button { font:600 12px var(--sans); border:0; border-radius:6px; padding:9px 12px; background:var(--acc); color:var(--bg); cursor:pointer; }
+.hint { font:12px var(--sans); color:var(--mute); margin:8px 0 0; }
+.quiet { font-style:italic; color:var(--mute); margin-top:30px; }
+
+.foot { margin-top:44px; padding-top:16px; border-top:1px solid var(--rule); font:13px/1.5 var(--sans); color:var(--mute); }
+.arch { display:flex; gap:18px; margin-bottom:12px; }
+.arch a { color:var(--acc); text-decoration:none; font-weight:600; }
+.foot details summary { cursor:pointer; list-style:none; }
+.foot details summary::-webkit-details-marker { display:none; }
+.foot ul { margin:6px 0; padding-left:18px; }
+.foot li.fail b { color:var(--down); } .foot li.warn b { color:var(--warm); }
+.hl { margin:0; font-weight:600; } .hl.ok { color:var(--up); } .hl.warn { color:var(--warm); }
+.stats { margin:6px 0 0; }
+@media (max-width:560px) {
+  body { font-size:17px; }
+  header h1 { font-size:32px; }
+  .item h3 { font-size:19.5px; }
+  .anchor { grid-template-columns:1fr; gap:22px; }
+  .games { grid-template-columns:1fr; }
+  .card .big { font-size:25px; }
+  .spark { position:static; display:block; width:100%; height:30px; margin-top:8px; }
+}
+@media (max-width:380px) { .cards.n2 { grid-template-columns:1fr; } }
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+  <p class="brand">Morning Brief</p>
+  <h1>Thursday, November 12</h1>
+  <p class="greet">Today&#x27;s brief covers thin river overbets in poker, Mollick&#x27;s hands-on test of a new Claude model, Mozaffarian on saturated fat, and Romania&#x27;s 6.9% inflation, with rents up 38%.</p>
+  <div class="bar"><span>4 min read</span><span>6 stories</span><span>6 quick hits</span></div>
+</header>
+<section class="cards n1">
+  <div class="card btc">
+    <p class="kicker">Bitcoin</p>
+    <div class="big" id="btc-p">$71,464</div>
+    <p class="cap"><span id="btc-c"><span class="down">▼ 3.3%</span></span> 24h · <span class="down">▼ 8.6%</span> 7d</p>
+    <svg class="spark down" viewBox="0 0 132 36" width="132" height="36" preserveAspectRatio="none" aria-hidden="true"><polygon points="2,36 2.0,3.0 5.0,14.3 8.1,16.1 11.1,13.8 14.2,16.3 17.2,14.3 20.3,17.2 23.3,15.8 26.4,15.1 29.4,14.5 32.5,14.4 35.5,14.7 38.6,15.0 41.6,15.7 44.7,15.9 47.7,15.9 50.8,15.7 53.8,15.3 56.9,14.6 59.9,15.1 63.0,22.7 66.0,18.6 69.0,23.5 72.1,24.3 75.1,20.6 78.2,21.6 81.2,18.6 84.3,20.7 87.3,21.8 90.4,24.0 93.4,23.1 96.5,27.8 99.5,26.8 102.6,27.1 105.6,27.1 108.7,24.9 111.7,27.4 114.8,22.5 117.8,25.6 120.9,26.2 123.9,27.7 127.0,28.0 130.0,33.0 130,36" class="fill"/><polyline points="2.0,3.0 5.0,14.3 8.1,16.1 11.1,13.8 14.2,16.3 17.2,14.3 20.3,17.2 23.3,15.8 26.4,15.1 29.4,14.5 32.5,14.4 35.5,14.7 38.6,15.0 41.6,15.7 44.7,15.9 47.7,15.9 50.8,15.7 53.8,15.3 56.9,14.6 59.9,15.1 63.0,22.7 66.0,18.6 69.0,23.5 72.1,24.3 75.1,20.6 78.2,21.6 81.2,18.6 84.3,20.7 87.3,21.8 90.4,24.0 93.4,23.1 96.5,27.8 99.5,26.8 102.6,27.1 105.6,27.1 108.7,24.9 111.7,27.4 114.8,22.5 117.8,25.6 120.9,26.2 123.9,27.7 127.0,28.0 130.0,33.0" class="ln"/><circle cx="130.0" cy="33.0" r="2.6" class="dot"/></svg>
+  </div></section>
+<section class="top"><p class="kicker">If you read nothing else</p><ol><li><a href="#v21">You can overbet the river with the best hand, not only the nuts, when your equity against their range is high.</a></li><li><a href="#r30">Mollick&#x27;s tests show what a new frontier model can do alone, and where its taste and judgment still fail.</a></li><li><a href="#r57">Rents up 38% and fuel up 33-43% year on year directly affect an expat&#x27;s costs.</a></li></ol></section>
+<nav class="nav"><a href="#s-poker" style="--a:#2d5b4f;--ad:#8fc2ad"><span>♠</span>Poker</a><a href="#s-ai" style="--a:#4a4f9c;--ad:#a9adf0"><span>◆</span>AI Capability</a><a href="#s-health" style="--a:#a33c3c;--ad:#ec8f84"><span>✚</span>Health &amp; Training</a><a href="#s-romania" style="--a:#1f5f8b;--ad:#86bde3"><span>◈</span>Romania</a><a href="#s-hoops" style="--a:#c0531b;--ad:#f0965f"><span>●</span>Hoops</a></nav>
+<section class="sec" id="s-poker" style="--a:#2d5b4f;--ad:#8fc2ad"><h2><span class="ic">♠</span>Poker<span class="n">1</span></h2>
+<article class="item" id="v21">
+  <h3><a href="https://www.youtube.com/watch?v=syXnX4EWwG4">You can overbet the river with the best hand, not just the nuts</a><span class="badge">▶ video</span></h3>
+  <p>Upswing&#x27;s Max Exploit lesson says overbets belong to any part of your range with enough equity against the opponent&#x27;s actual range. The example hands are mostly river spots where the opponent&#x27;s range is capped after checking back or calling. In one, hero&#x27;s hand had 93% equity against the estimated range, and still looked clearly worth more than a 75% bet even if hero gave up 35% of that equity to allow for error. Overbetting wins roughly double or triple what a half-pot bet wins each time villain calls.</p><ul class="take"><li>Overbet more against players who call light and have shown down hands. Use a smaller size against tight players who overfold.</li><li>Thin value works better the worse your opponent balances. Many players almost never check back top pair, 10x or flush draws on a 10-9-2 two-heart flop.</li><li>The less you want to bluff a player, the thinner you can value bet him.</li><li>Use a two-size river strategy: about 75% pot for medium hands and an overbet for your best value hands plus some bluffs.</li></ul>
+  <p class="meta">Upswing Poker · <span class="orig">“You Don&#x27;t Need the Nuts to Overbet”</span></p>
+</article></section><section class="sec" id="s-ai" style="--a:#4a4f9c;--ad:#a9adf0"><h2><span class="ic">◆</span>AI Capability<span class="n">1</span></h2>
+<article class="item" id="r30">
+  <h3><a href="https://www.oneusefulthing.org/p/fable-52-and-jagged-agi">Mollick: new Claude Fable 5.2 is &#x27;almost AGI&#x27;, still jagged on taste and judgment</a></h3>
+  <p>Ethan Mollick tested the pre-release model on tasks run from a single prompt. It reverse-engineered a USB keyboard and wrote six games for it. It designed a business, Prebid Brief, after screening 22 ideas and reading agendas from 201 local governments. Its own estimate was a 20-40% chance of success, and Mollick stopped before launch. It also rebuilt W. H. Auden&#x27;s 1941 Michigan course as a site with fact-checking agents, and wrote a 182-page economics paper. That paper found Colorado&#x27;s $1 LLC fee raised registrations about 17%, and the UK&#x27;s fee rise cut them about 17%. Mollick says it was ahead of second-year PhD work but not publishable. The weaknesses are no longer hallucinations. They are taste, not noticing its own problems, never cutting material, and falsely implying that it had preregistered the study.</p><ul class="take"><li>Mollick&#x27;s definition of AGI here is an AI as good as most human experts at most computer-based intellectual tasks.</li><li>The business plan looked like strong MBA-team work, but he judged the infrastructure to run it was not yet in place.</li></ul>
+  <p class="meta">One Useful Thing (Ethan Mollick)</p>
+</article></section><section class="sec" id="s-health" style="--a:#a33c3c;--ad:#ec8f84"><h2><span class="ic">✚</span>Health &amp; Training<span class="n">3</span></h2>
+<article class="item" id="v0">
+  <h3><a href="https://www.youtube.com/watch?v=mDG17QRoTkg">Ken Berry: type 2 diabetes carries a far bigger heart attack hazard than high LDL</a><span class="badge">▶ video</span></h3>
+  <p>Berry cites a hazard ratio of 10.71 for type 2 diabetes against 1.38 for high LDL as heart attack risk factors. He argues doctors fixate on LDL and statins while ignoring blood sugar, insulin and blood pressure. He says an A1c of 6.5 to 7.0 on several medications is not good enough. The figures are quoted without a source here. A hazard ratio does not show how much risk each factor can be lowered by treatment.</p>
+  <p class="meta">Ken Berry MD · <span class="orig">“Your doctor keeps talking about your LDL cholesterol. But what about your blood sugar?l”</span></p>
+</article>
+<article class="item" id="v24">
+  <h3><a href="https://www.youtube.com/watch?v=7JeZk_J7_h4">Mozaffarian: saturated fat is a distraction, but LDL still matters</a><span class="badge">▶ video</span></h3>
+  <p>The Tufts cardiologist says saturated fat is not inert but is a poor focus for guidelines. It raises LDL, but it also changes triglycerides, HDL and Lp(a). Chain length matters, and dairy has a milk fat globule membrane that reduces cholesterol absorption. That is why cheese and butter differ. He explicitly rejects the claim that LDL is a myth and calls it a clear risk factor, alongside blood pressure, glucose, inflammation and activity. He says whole-fat and low-fat dairy show little difference in outcomes. He also says 99% of food additives are never FDA-reviewed and ultra-processed foods make up about 60% of calories. This is the counterweight to Ken Berry&#x27;s LDL-dismissive framing.</p><ul class="take"><li>Judge foods, not saturated fat as a single number.</li><li>MCTs raise LDL but also raise HDL and lower triglycerides, based on small trials.</li></ul>
+  <p class="meta">FoundMyFitness (Rhonda Patrick) · <span class="orig">“The Foods You Were Told to Avoid (But Should Be Eating)”</span></p>
+</article>
+<article class="item" id="v12">
+  <h3><a href="https://www.youtube.com/watch?v=Io3mY3eI020">Renaissance Periodization: set volume should match what you recover from before the next session</a><span class="badge">▶ video</span></h3>
+  <p>The test is how many hard sets you can do per session and still be recovered, strong and not sore when you train that muscle again. Some people are wrecked after six chest sets and can&#x27;t train it twice a week. Others do 12 and are fresh three days later. Jeff Nippard cut his workouts in half for 100 days. A related RP short says to start from volume you know you can recover from and work up. It also says not to trust a plan that has 18 chest sets three times a week.</p><ul class="take"><li>Start with sets per session you recover from easily, then add.</li></ul>
+  <p class="meta">Renaissance Periodization · <span class="orig">“Jeff Nippard Cut His Workouts in HALF”</span></p>
+</article></section><section class="sec" id="s-romania" style="--a:#1f5f8b;--ad:#86bde3"><h2><span class="ic">◈</span>Romania<span class="n">1</span></h2>
+<article class="item" id="r57">
+  <h3><a href="https://www.romania-insider.com/romanias-annual-inflation-rate-rises-69-october">Romania inflation hits 6.9%, with rents up 38% and fuel up sharply</a></h3>
+  <p>Annual inflation rose to 6.9% in October from 6.6%. Services rose 11.2%, led by rents at +38.5%, airfares +14.4% and water and sewerage +13.7%. Diesel is up 43% and petrol 33% over the year. Electricity rose 4.1% after the end of the price-cap base effect. Restaurants and cafes are up 6.2% and hotels 4.1%. Food overall is up 3.1%, with coffee +12.5% and eggs +10.5%. The central bank expects inflation to keep rising through end-2026, above its 6.1% forecast, and to fall to 3.4% by end-2027.</p>
+  <p class="meta">Romania Insider</p>
+</article></section><section class="sec" id="s-hoops" style="--a:#c0531b;--ad:#f0965f"><h2><span class="ic">●</span>Hoops</h2><div class="scores"><p class="sub">NBA · Wed Nov 11</p><div class="games"><div class="game"><div class="ln"><span class="tm ">WSH</span><span class="sc ">101</span><span class="at">@</span><span class="tm w">IND</span><span class="sc w">114</span></div><div class="ld">K. George 25 · P. Siakam 28</div></div><div class="game"><div class="ln"><span class="tm w">CLE</span><span class="sc w">115</span><span class="at">@</span><span class="tm ">NY</span><span class="sc ">107</span></div><div class="ld">J. Harden 32 · J. Brunson 27</div></div><div class="game"><div class="ln"><span class="tm w">BOS</span><span class="sc w">98</span><span class="at">@</span><span class="tm ">TOR</span><span class="sc ">93</span></div><div class="ld">J. Tatum 24 · J. Walter 17</div></div><div class="game"><div class="ln"><span class="tm w">SA</span><span class="sc w">124</span><span class="at">@</span><span class="tm ">CHI</span><span class="sc ">119</span></div><div class="ld">V. Wembanyama 32 · J. Smith 23</div></div><div class="game"><div class="ln"><span class="tm w">DEN</span><span class="sc w">123</span><span class="at">@</span><span class="tm ">MEM</span><span class="sc ">118</span></div><div class="ld">J. Murray 30 · T. Jerome 22</div></div><div class="game"><div class="ln"><span class="tm w">LAL</span><span class="sc w">123</span><span class="at">@</span><span class="tm ">MIL</span><span class="sc ">112</span></div><div class="ld">L. Doncic 32 · T. Herro 27</div></div><div class="game"><div class="ln"><span class="tm w">BKN</span><span class="sc w">145</span><span class="at">@</span><span class="tm ">NO</span><span class="sc ">111</span></div><div class="ld">M. Porter Jr. 22 · Z. Williamson 29</div></div><div class="game"><div class="ln"><span class="tm w">ORL</span><span class="sc w">123</span><span class="at">@</span><span class="tm ">UTAH</span><span class="sc ">108</span></div><div class="ld">F. Wagner 38 · D. Peterson 22</div></div><div class="game"><div class="ln"><span class="tm ">GS</span><span class="sc ">108</span><span class="at">@</span><span class="tm w">HOU</span><span class="sc w">115</span></div><div class="ld">Y. Lendeborg 25 · K. Durant 20</div></div><div class="game"><div class="ln"><span class="tm ">OKC</span><span class="sc ">108</span><span class="at">@</span><span class="tm w">POR</span><span class="sc w">118</span></div><div class="ld">S. Gilgeous-Alexander 31 · D. Avdija 28</div></div></div><p class="sub">College · ranked teams · Wed Nov 11</p><div class="games"><div class="game"><div class="ln"><span class="tm ">Jax State</span><span class="sc ">46</span><span class="at">@</span><span class="tm w"><span class="rk">8</span>Houston</span><span class="sc w">92</span></div></div><div class="game"><div class="ln"><span class="tm ">AR-Pine Bluff</span><span class="sc ">37</span><span class="at">@</span><span class="tm w"><span class="rk">9</span>UCLA</span><span class="sc w">106</span></div></div><div class="game"><div class="ln"><span class="tm ">Colgate</span><span class="sc ">59</span><span class="at">@</span><span class="tm w"><span class="rk">13</span>St John&#x27;s</span><span class="sc w">90</span></div></div><div class="game"><div class="ln"><span class="tm ">Robert Morris</span><span class="sc ">53</span><span class="at">@</span><span class="tm w"><span class="rk">19</span>Arkansas</span><span class="sc w">76</span></div></div><div class="game"><div class="ln"><span class="tm ">Marquette</span><span class="sc ">70</span><span class="at">@</span><span class="tm w"><span class="rk">20</span>Michigan</span><span class="sc w">84</span></div></div><div class="game"><div class="ln"><span class="tm w"><span class="rk">21</span>USC</span><span class="sc w">77</span><span class="at">@</span><span class="tm ">California</span><span class="sc ">65</span></div></div><div class="game"><div class="ln"><span class="tm ">Lindenwood</span><span class="sc ">60</span><span class="at">@</span><span class="tm w"><span class="rk">25</span>Nebraska</span><span class="sc w">94</span></div></div></div></div></section>
+<details class="also"><summary>Also out today <span>6</span></summary><ul><li><a href="https://www.pokernews.com/news/2026/11/martin-zamani-wins-fifth-wsop-bracelet-52787.htm?utm_medium=feed&amp;utm_campaign=homefeed&amp;utm_source=rss"><b>PokerNews</b> Martin Zamani tied the record with a fifth online WSOP bracelet, all five won online.<span class="go">→</span></a></li><li><a href="https://www.pokernews.com/news/2026/11/online-qualifier-wins-wsop-super-circuit-main-event-52789.htm?utm_medium=feed&amp;utm_campaign=homefeed&amp;utm_source=rss"><b>PokerNews</b> An online qualifier won the WSOP Super Circuit Main Event and took €370,000, in a festival with significant overlays.<span class="go">→</span></a></li><li><a href="https://www.romania-insider.com/bucharest-public-transport-company-fire-nearly-800-staff"><b>Romania Insider</b> Bucharest&#x27;s public transport company STB issued 796 dismissal notices and will cut 919 vacant posts to address over RON 3 billion in debt.<span class="go">→</span></a></li><li><a href="https://www.youtube.com/watch?v=tF9O0wvvlCY"><b>Nick Norwitz</b> Nick Norwitz: body fat leaves mainly as exhaled carbon dioxide.<span class="go">→</span></a></li><li><a href="https://www.youtube.com/watch?v=KliV7zGSfqM"><b>Thomas DeLauer</b> Thomas DeLauer cites a Molecular Metabolism study finding fat cells store glycogen, which he presents as a major insulin resistance finding.<span class="go">→</span></a></li><li><a href="https://www.youtube.com/watch?v=rtRVXB6U9OM"><b>Ken Berry MD</b> Ken Berry compares type 2 diabetes (hazard ratio 10.71) with smoking and family history (1.5) as heart attack risks.<span class="go">→</span></a></li></ul></details>
+
+<section class="anchor">
+  <div>
+    <p class="kicker">Quote</p>
+    <blockquote>It is not the man who has too little, but the man who craves more, that is poor.</blockquote>
+    <p class="by">— Seneca</p>
+    <p class="ctx">Letters from a Stoic. Seneca was one of Rome&#x27;s richest men; he knew the trap he was writing about.</p>
+  </div>
+  <div>
+    <p class="kicker">Mental model · Strategy/Thinking</p>
+    <p class="mm">Hedgehog vs. Fox</p>
+    <p class="ctx">Isaiah Berlin&#x27;s distinction: the fox knows many things; the hedgehog knows one big thing. Philip Tetlock&#x27;s research: on forecasting, foxes beat hedgehogs decisively. Hedgehogs commit to grand narratives and defend them past the evidence. Foxes stay flexible. For understanding the world, be a fox.</p>
+  </div>
+</section>
+
+<section class="spot">
+  <p class="kicker">Channel spotlight · 3 days left</p>
+  <p class="mm"><a href="https://www.youtube.com/channel/UCNJ1Ymd5yFuUPtn21xtRbbw">AI Explained</a></p>
+  <p class="ctx">Your list has long-form interviews but no channel that tests what new AI models can and can&#x27;t do. AI Explained is a solo channel that reads the papers and system cards and runs its own tests. It reports where models fail (reasoning, hallucination, real-world tasks) as well as where they&#x27;ve improved, which fits your interest in honest takes on capability over hype. Videos are about 15-25 minutes, dense but non-technical, and skip the infrastructure and dev-tooling material you want to avoid.</p>
+  <div class="snip"><code id="snip">    &quot;AI Explained&quot;: &quot;UCNJ1Ymd5yFuUPtn21xtRbbw&quot;,</code><button type="button" id="copy">Copy</button></div>
+  <p class="hint">Paste into YOUTUBE_CHANNELS in brief.py to follow.</p>
+</section>
+
+<footer class="foot">
+  <nav class="arch"><a href="./">All briefs</a></nav>
+  <details><summary class="hl warn">● 1 source issue · 44 OK</summary><ul><li class="fail"><b>Upswing Poker Blog</b> — direct HTTP 403, proxy HTTP 403</li></ul></details>
+  <p class="stats">80 new items scanned · 10 read in full · 34k in / 4k out tokens · 1m59s</p>
+</footer>
+</div>
+<script>
+(function () {
+  var b = document.getElementById('copy');
+  if (b) b.addEventListener('click', function () {
+    navigator.clipboard.writeText(document.getElementById('snip').innerText.trim());
+    b.textContent = 'Copied'; setTimeout(function () { b.textContent = 'Copy'; }, 1800);
+  });
+  var p = document.getElementById('btc-p');
+  if (p) fetch('https://api.coingecko.com/api/v3/simple/price?ids=bitcoin&vs_currencies=usd&include_24hr_change=true')
+    .then(function (r) { return r.json(); })
+    .then(function (d) {
+      var v = d.bitcoin.usd, c = d.bitcoin.usd_24h_change;
+      p.textContent = '$' + Math.round(v).toLocaleString('en-US');
+      document.getElementById('btc-c').innerHTML = '<span class="' + (c >= 0 ? 'up' : 'down') + '">' + (c >= 0 ? '▲ ' : '▼ ') + Math.abs(c).toFixed(1) + '%</span>';
+    }).catch(function () {});
+})();
+</script>
+</body>
+</html>

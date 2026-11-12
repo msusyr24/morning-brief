@@ -1,11 +1,11 @@
 {
   "current_suggestion": {
-    "channel_name": "Mike Israetel (Renaissance Periodization solo)",
-    "channel_id": "UCfQgsKhHjSyRLOp9mnffqVg",
-    "youtube_handle": "@RenaissancePeriodization",
-    "pitch": "You already follow Renaissance Periodization as a channel, but Mike Israetel's personal channel publishes solo deep-dives and debates specifically on diet science \u2014 including pointed critiques of carnivore and low-carb claims with actual mechanistic and epidemiological counter-arguments \u2014 that the main RP channel doesn't cover. This steelmans the conventional/evidence-based side of the diet wars you're watching play out on Chaffee, Saladino, and Norwitz, giving you the strongest opposing case rather than a strawman. Format is usually direct-to-camera monologue or structured debate, dense and fast, with citations."
+    "channel_name": "AI Explained",
+    "channel_id": "UCNJ1Ymd5yFuUPtn21xtRbbw",
+    "youtube_handle": "@aiexplained-official",
+    "pitch": "Your list has long-form interviews but no channel that tests what new AI models can and can't do. AI Explained is a solo channel that reads the papers and system cards and runs its own tests. It reports where models fail (reasoning, hallucination, real-world tasks) as well as where they've improved, which fits your interest in honest takes on capability over hype. Videos are about 15-25 minutes, dense but non-technical, and skip the infrastructure and dev-tooling material you want to avoid."
   },
-  "shown_count": 2,
+  "shown_count": 1,
   "history": [
     "Brad Kearns",
     "Dr. Layne Norton",
@@ -81,6 +81,7 @@
     "Nate Silver",
     "10 R\u00e2u Shots",
     "Grain Valley RLDS",
-    "Mike Israetel (Renaissance Periodization solo)"
+    "Mike Israetel (Renaissance Periodization solo)",
+    "AI Explained"
   ]
 }
