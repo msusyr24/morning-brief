@@ -30,22 +30,36 @@ def client():
     return _client
 
 
+_forced_ok = {}  # model -> whether it accepts a forced tool_choice
+
+
 def _call_tool(model, system, user, tool_name, schema, max_tokens):
-    resp = client().messages.create(
-        model=model,
-        max_tokens=max_tokens,
-        system=system,
-        messages=[{"role": "user", "content": user}],
-        tools=[{"name": tool_name, "description": "Submit the result.", "input_schema": schema}],
-        tool_choice={"type": "tool", "name": tool_name},
-    )
-    usage["input"] += resp.usage.input_tokens
-    usage["output"] += resp.usage.output_tokens
-    if resp.stop_reason == "max_tokens":
-        print(f"[Claude] WARNING: {model} hit max_tokens; output may be cut short")
-    for block in resp.content:
-        if block.type == "tool_use":
-            return block.input
+    """Ask the model to answer by calling `tool_name`. Forces the tool where the
+    model allows it; otherwise asks for it in the prompt and retries once."""
+    tools = [{"name": tool_name, "description": "Submit the result.", "input_schema": schema}]
+    system = system + f"\n\nReturn your answer by calling the {tool_name} tool exactly once."
+    for attempt in range(2):
+        kwargs = dict(model=model, max_tokens=max_tokens, system=system,
+                      messages=[{"role": "user", "content": user}], tools=tools)
+        if _forced_ok.get(model, True):
+            kwargs["tool_choice"] = {"type": "tool", "name": tool_name}
+        try:
+            resp = client().messages.create(**kwargs)
+        except Exception as e:
+            if "tool_choice" in str(e) and _forced_ok.get(model, True):
+                _forced_ok[model] = False
+                print(f"[Claude] {model} doesn't allow forced tool use; asking instead")
+                resp = client().messages.create(**{k: v for k, v in kwargs.items() if k != "tool_choice"})
+            else:
+                raise
+        usage["input"] += resp.usage.input_tokens
+        usage["output"] += resp.usage.output_tokens
+        if resp.stop_reason == "max_tokens":
+            print(f"[Claude] WARNING: {model} hit max_tokens; output may be cut short")
+        for block in resp.content:
+            if block.type == "tool_use" and block.name == tool_name:
+                return block.input
+        print(f"[Claude] {model} answered without calling {tool_name}; retrying")
     raise RuntimeError(f"{model} returned no tool call")
 
 

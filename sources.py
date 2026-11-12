@@ -140,6 +140,8 @@ def fetch_all_rss(sources, ledger, health, default_days=3):
             except Exception as e:
                 items, status = [], ("fail", type(e).__name__)
             health[name] = status
+            if status[0] != "ok":
+                print(f"[RSS] {name}: {status[1]}")
             out.extend(items)
     print(f"[RSS] {len(out)} new items from {len(sources)} feeds")
     return out
@@ -187,7 +189,8 @@ def fetch_channel(name, channel_id, ledger, lookback_days, max_videos):
         })
         if len(videos) >= max_videos:
             break
-    return videos, ("ok", f"{len(videos)} new" if videos else "nothing new")
+    n_entries = len(root.findall("atom:entry", _YT_NS))
+    return videos, ("ok", f"{len(videos)} new" if videos else f"nothing new ({n_entries} in feed)")
 
 
 def _transcript_api():
@@ -233,6 +236,7 @@ def fetch_all_youtube(channels, ledger, health, *, lookback_days=7, max_per_chan
             except Exception as e:
                 vids, status = [], ("fail", type(e).__name__)
             health[f"YT · {name}"] = status
+            print(f"[YT] {name}: {status[1]}")
             videos.extend(vids)
 
     if not videos:
