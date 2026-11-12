@@ -34,8 +34,8 @@ QUOTES = [
      "Discourses. Epictetus was impatient with students who treated philosophy as intellectual entertainment."),
 
     ("Luck is what happens when preparation meets opportunity.",
-     "Seneca",
-     "Often misattributed to Oprah or Thomas Jefferson. The actual source is Seneca's letters, 2000 years earlier."),
+     "Attributed to Seneca",
+     "Widely credited to Seneca, but the line doesn't appear in his surviving works. It's a modern paraphrase of the Stoic idea that fortune favors the prepared."),
 
     ("It is not the man who has too little, but the man who craves more, that is poor.",
      "Seneca",

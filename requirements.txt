@@ -1,5 +1,7 @@
-anthropic
+anthropic>=0.60
 requests
 python-dotenv
-youtube-transcript-api
+youtube-transcript-api>=1.0
 feedparser
+beautifulsoup4
+tzdata

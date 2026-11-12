@@ -8,9 +8,10 @@ Channel Spotlight: suggests a YouTube channel adjacent to interests.
 import json
 import os
 import re
-import requests
 from anthropic import Anthropic
 from dotenv import load_dotenv
+
+from net import http_get
 
 load_dotenv()
 
@@ -40,17 +41,16 @@ def verify_channel_exists(channel_id_or_handle):
     # If it looks like a channel ID, verify via RSS feed
     if channel_id_or_handle and channel_id_or_handle.startswith("UC") and len(channel_id_or_handle) == 24:
         feed_url = f"https://www.youtube.com/feeds/videos.xml?channel_id={channel_id_or_handle}"
-        try:
-            response = requests.get(feed_url, timeout=10)
-            if response.status_code == 200 and "<entry>" in response.text:
-                return channel_id_or_handle, None
-        except Exception:
-            pass
+        # YouTube blocks GitHub runner IPs, so go through the proxy first
+        response, _ = http_get(feed_url, mode="proxy_first", attempts=2, timeout=15)
+        if response is not None and "<entry>" in response.text:
+            return channel_id_or_handle, None
 
     # Otherwise, if we have an API key, search by name/handle
     if api_key and channel_id_or_handle:
         search_term = channel_id_or_handle.lstrip("@")
         try:
+            import requests
             resp = requests.get(
                 "https://www.googleapis.com/youtube/v3/search",
                 params={
@@ -106,7 +106,7 @@ Return your answer as a JSON object with this exact structure — no other text,
 }}"""
 
     response = client.messages.create(
-        model="claude-sonnet-4-6",
+        model=os.getenv("BRIEF_WRITER_MODEL", "claude-sonnet-5-5"),
         max_tokens=800,
         messages=[{"role": "user", "content": prompt}],
     )
@@ -130,7 +130,7 @@ def get_suggestion(current_channels, interests_text, max_retries=3):
     if current and state.get("shown_count", 0) < MAX_DAYS_SHOWN:
         # Check if user added it since last run
         current_name = current.get("channel_name", "")
-        if current_name in current_channels:
+        if current_name in current_channels or current.get("channel_id") in current_channels.values():
             # User added it! Celebrate, then rotate
             print(f"[suggestions] '{current_name}' was added — rotating.")
             state["current_suggestion"] = None
@@ -166,6 +166,14 @@ def get_suggestion(current_channels, interests_text, max_retries=3):
 
         if not verified_id:
             print(f"[suggestions] Could not verify {channel_name}, retrying...")
+            state.setdefault("history", []).append(channel_name)
+            save_state(state)
+            continue
+
+        # Reject channels already followed under another name (e.g. "Mike Israetel"
+        # suggested with Renaissance Periodization's channel ID)
+        if verified_id in current_channels.values():
+            print(f"[suggestions] {channel_name} is a channel you already follow, retrying...")
             state.setdefault("history", []).append(channel_name)
             save_state(state)
             continue
