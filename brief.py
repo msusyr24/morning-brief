@@ -109,9 +109,10 @@ RSS_SOURCES = {
 
 HN_STORIES = 40
 YT_LOOKBACK_DAYS = 7
-MAIN_SCORE = 7    # triage score needed to be considered for a full write-up
-LIGHT_SCORE = 5   # ...for a one-line mention
+MAIN_SCORE = 6    # triage score that always earns a full read
+MIN_MAIN = 10     # on slow days, fill up to this many full reads with 5s
 MAX_MAIN = 16     # cap on full-text items sent to the writer
+LIGHT_SCORE = 4   # ...for a one-line mention
 
 TEST_MODE = os.getenv("BRIEF_TEST") == "1"
 
@@ -195,8 +196,10 @@ def main():
 
     ranked = sorted((i for i in items if i["section"] != "skip"), key=lambda x: -x["score"])
     main_items = [i for i in ranked if i["score"] >= MAIN_SCORE][:MAX_MAIN]
-    light_items = [i for i in ranked if LIGHT_SCORE <= i["score"] < MAIN_SCORE
-                   or (i["score"] >= MAIN_SCORE and i not in main_items)][:14]
+    if len(main_items) < MIN_MAIN:
+        main_items += [i for i in ranked if i["score"] == MAIN_SCORE - 1][:MIN_MAIN - len(main_items)]
+    picked = {i["id"] for i in main_items}
+    light_items = [i for i in ranked if i["score"] >= LIGHT_SCORE and i["id"] not in picked][:14]
     print(f"[Claude] {len(main_items)} main picks, {len(light_items)} light picks")
 
     enrich_with_articles(main_items, health)

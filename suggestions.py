@@ -111,7 +111,7 @@ Return your answer as a JSON object with this exact structure — no other text,
         messages=[{"role": "user", "content": prompt}],
     )
 
-    text = response.content[0].text.strip()
+    text = next((b.text for b in response.content if getattr(b, "type", "") == "text"), "").strip()
     text = re.sub(r"^```(?:json)?\s*|\s*```$", "", text, flags=re.MULTILINE).strip()
 
     try:

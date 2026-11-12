@@ -113,9 +113,11 @@ def triage(candidates, interests):
 
 Scoring:
 - 9-10: squarely in their interests AND substantive (specific data, argument, technique, or a real launch)
-- 7-8: clearly relevant and worth a paragraph
-- 5-6: relevant but thin — fine for a one-line mention
-- 0-4: off-topic, promotional, fluff, or on their "do not care" list
+- 7-8: clearly relevant with real substance — worth a paragraph
+- 5-6: relevant, some substance — a short write-up or a one-liner
+- 3-4: on-topic but thin, clickbait, or a rehash
+- 0-2: off-topic, promotional, or on their "do not care" list
+The reader hand-picked the YouTube channels and blogs, so a substantive episode or post on one of their topics is normally a 6-8, not a 5. Use the full range.
 YouTube Shorts and clips rarely go above 5 unless they make a specific, novel claim.
 Score every id exactly once."""
 
@@ -192,7 +194,7 @@ Editorial rules:
 - If the title is jargon or the product is obscure, the headline says what the thing IS.
 - AI section: only new model families, new product categories from major labs, step-change capabilities, or surprising findings. 0-2 items on most days.
 - Bitcoin section: only a real argument, data point or policy development. Skip price chatter.
-- Be ruthless. Drop weak <item>s entirely rather than padding; an item can be demoted to a one-line 'also'. Max 5 items per section, ~12 items total.
+- Give each <item> a full write-up if its text has real substance (a claim, number, mechanism, technique). Demote to a one-line 'also' only if the text is thin, promotional, or repeats another item. Drop it only if it's worthless. Aim for 6-14 full items on a normal day. Max 5 per section.
 - 'also' is for <light> entries and demoted items worth one line. Skip the rest.
 - Videos marked as shorts: one-line 'also' at most, unless they make a specific novel claim.
 - Plain text only — no HTML or markdown. No hype words."""
