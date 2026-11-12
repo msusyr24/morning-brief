@@ -154,7 +154,7 @@ _YT_NS = {"atom": "http://www.w3.org/2005/Atom",
 
 def fetch_channel(name, channel_id, ledger, lookback_days, max_videos):
     url = f"https://www.youtube.com/feeds/videos.xml?channel_id={channel_id}"
-    resp, err = http_get(url, mode="proxy_first", attempts=3, timeout=15,
+    resp, err = http_get(url, mode="proxy_first", attempts=4, timeout=15,
                          accept="application/atom+xml, application/xml, */*", backoff=4)
     if resp is None:
         return [], ("fail", err)

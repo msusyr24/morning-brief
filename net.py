@@ -31,7 +31,7 @@ def proxy_config():
 
 
 def http_get(url, *, mode="direct_first", attempts=3, timeout=20,
-             accept="*/*", backoff=2.0, max_bytes=3_000_000):
+             accept="*/*", backoff=2.0):
     """
     GET a URL with retries. Returns (response_or_None, error_string_or_None).
 
@@ -50,24 +50,21 @@ def http_get(url, *, mode="direct_first", attempts=3, timeout=20,
     else:
         plan = [None] + [proxies] * (attempts - 1)
 
-    last_error = None
+    errors = []
     for i, px in enumerate(plan):
+        via = "proxy" if px else "direct"
         try:
-            resp = requests.get(url, headers=headers, timeout=timeout,
-                                proxies=px, stream=True)
-            body = resp.raw.read(max_bytes, decode_content=True)
-            resp._content = body  # make .content / .text / .json() work after streaming
-            resp._content_consumed = True
-            resp.close()
+            resp = requests.get(url, headers=headers, timeout=timeout, proxies=px)
             if resp.status_code == 200:
                 return resp, None
-            last_error = f"HTTP {resp.status_code}"
+            errors.append(f"{via} HTTP {resp.status_code}")
             if resp.status_code == 404 and px is None and mode == "direct":
                 break  # a real 404, retrying won't help
         except Exception as e:
-            last_error = type(e).__name__
+            errors.append(f"{via} {type(e).__name__}")
         if i < len(plan) - 1:
             time.sleep(backoff * (i + 1))
+    last_error = ", ".join(dict.fromkeys(errors))  # unique, in order
     return None, last_error
 
 
