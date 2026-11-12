@@ -13,9 +13,12 @@ Edit MY_INTERESTS, YOUTUBE_CHANNELS and RSS_SOURCES below. Everything else is pl
 Set BRIEF_TEST=1 for a cheap run with a few sources.
 """
 
+import glob
 import os
+import re
 import sys
 from datetime import datetime, timezone
+from zoneinfo import ZoneInfo
 
 from dotenv import load_dotenv
 
@@ -26,34 +29,39 @@ from hoops import get_hoops  # noqa: E402
 from ledger import Ledger  # noqa: E402
 from mental_models import pick_model_for_today  # noqa: E402
 from quotes import pick_quote_for_today  # noqa: E402
-from render import build_html  # noqa: E402
+from render import build_archive_index, build_html  # noqa: E402
 from sources import (enrich_with_articles, fetch_all_rss, fetch_all_youtube,  # noqa: E402
-                     fetch_btc, fetch_hn)
+                     fetch_btc, fetch_hn, fetch_weather)
 from suggestions import get_suggestion  # noqa: E402
 
 # ============================================================== YOUR SETTINGS
 MY_INTERESTS = """
 I care about:
-- AI/ML at the CAPABILITY level: what new things can AI actually DO? Real end-user applications, novel uses, surprising capabilities, model releases with major upgrades/changes for average person.
-- Bitcoin, monetary policy, macroeconomics, Michael Saylor's perspective
-- Health science with REAL DATA: diet debates (especially carnivore/low-carb vs. conventional), exercise science, longevity research, metabolism
-- Evidence-based fitness and training (hypertrophy, programming, recovery)
-- Poker theory and high-level strategy content (GTO Wizard, GTO Lab, Jared Alderman)
-- NBA and college basketball — games, storylines, analysis
-- Philosophy and Stoicism: Marcus Aurelius, Seneca, Epictetus, and modern interpreters; ethics, dealing with adversity, what makes a good life
-- Mental strength and the inner game: discipline, emotional regulation, decision-making under pressure, resilience, handling failure
-- Mental models and frameworks for thinking clearly (Munger, Kahneman, first principles, inversion, etc.)
-- Thoughtful long-form essays and ideas worth sitting with
+- Poker, from both sides of the table:
+  - High-level strategy: MTT ICM and PKO/bounty play, final tables, cash games (8-max, straddle/ante games), solver work and GTO Wizard content
+  - The poker business: staking and backing, online sites and rake/rakeback changes, GGPoker / WSOP / major series news, regulation, notable results and cheating/security stories
+- AI at the CAPABILITY level: what can AI newly DO? Model releases that change what an average power user can do, real end-user applications, surprising capabilities, honest takes on where it actually works (e.g. Ethan Mollick)
+- Bitcoin, monetary policy and macro (Michael Saylor, Lyn Alden style): real arguments, data and policy, not price chatter
+- Health with REAL DATA: carnivore/low-carb vs. conventional diet debates, metabolism, longevity research, cholesterol/LDL debates
+- Cognitive performance: caffeine, sleep, anxiety, and how diet and habits affect energy and mental performance
+- Evidence-based training: hypertrophy, programming, creatine, protein intake, VO2 max and cardio for longevity
+- NBA and college basketball: games, storylines, analysis
+- Stoicism and philosophy: Marcus Aurelius, Seneca, Epictetus and modern interpreters; dealing with adversity, what makes a good life
+- Mental strength and the inner game: discipline, emotional regulation, decision-making under pressure, resilience, handling variance and failure
+- Mental models and clear thinking (Munger, Kahneman, first principles, inversion)
+- Romania, for an English-speaking expat: practical news (laws, taxes, residency rules, prices, infrastructure, travel, big local events), especially in western Romania. Skip routine politics and corporate filler.
+- Thoughtful long-form essays and ideas worth sitting with; deep strategy in board games like Azul
 
 I do NOT care about:
 - AI infrastructure, inference layers, agent frameworks, dev tooling — too low-level for me
-- "Open source Qwen-X-B beats benchmark Y" — unless it enables a meaningfully new thing I can do
+- "Open source Qwen-X-B beats benchmark Y", unless it enables a meaningfully new thing I can do
 - Political drama, culture war content, sensationalized headlines
 - Crypto speculation, altcoins, NFTs
+- Casino/poker-site promotions and bonus ads, beginner poker tips
 - Startup funding gossip without product substance
 - Big Tech earnings, exec drama, corporate politics
 - JavaScript framework discourse, programming language wars
-- Generic self-help / hustle-culture content — "10 habits of successful people" style
+- Generic self-help / hustle-culture content ("10 habits of successful people")
 """
 
 YOUTUBE_CHANNELS = {
@@ -75,6 +83,9 @@ YOUTUBE_CHANNELS = {
     "ThinkingPoker": "UC_qsy__bQgZlPTfrnOMVgHg",
     "Ben Felix": "UCDXTQ8nWmx_EhZ2v-kp7QxA",
     "Mind The Game": "UC6L_LBqoKZXFa4WxHox5iCw",
+    "Upswing Poker": "UCHyxrwq_j4vcReGKd42tWyw",
+    "Jonathan Little": "UC6gQK2cneeUQQWovGTjmEvg",
+    "FoundMyFitness (Rhonda Patrick)": "UCWF8SqJVNlx-ctXbLswcTcA",
 }
 LONG_FORM_CHANNELS = {"Joe Rogan", "Lex Fridman"}  # longer transcript excerpts
 
@@ -84,21 +95,25 @@ RSS_SOURCES = {
     # Bitcoin & macro
     "Bitcoin Magazine": {"url": "https://bitcoinmagazine.com/.rss/full/", "category": "bitcoin", "max_items": 8},
     "The Pomp Letter": {"url": "https://pomp.substack.com/feed", "category": "bitcoin", "max_items": 5},
-    "Lyn Alden": {"url": "https://www.lynalden.com/feed/", "category": "bitcoin", "max_items": 3, "lookback_days": 60},
     # AI capability
     "Anthropic News": {"url": "https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_anthropic_news.xml",
                        "category": "ai", "max_items": 5, "lookback_days": 14},
     "OpenAI Blog": {"url": "https://openai.com/blog/rss.xml", "category": "ai", "max_items": 5},
     "Simon Willison": {"url": "https://simonwillison.net/atom/everything/", "category": "ai", "max_items": 8},
+    "One Useful Thing (Ethan Mollick)": {"url": "https://www.oneusefulthing.org/feed", "category": "ai", "max_items": 2, "lookback_days": 14},
+    "Google DeepMind": {"url": "https://deepmind.google/blog/rss.xml", "category": "ai", "max_items": 4},
     # Poker
     "GTO Wizard Blog": {"url": "https://blog.gtowizard.com/rss/", "category": "poker", "max_items": 3, "lookback_days": 14},
+    "Upswing Poker Blog": {"url": "https://upswingpoker.com/feed/", "category": "poker", "max_items": 2, "lookback_days": 14},
+    "PokerNews": {"url": "https://www.pokernews.com/rss.php", "category": "poker", "max_items": 12, "lookback_days": 2},
     # Health / training
     "Peter Attia": {"url": "https://peterattiamd.com/feed/", "category": "health", "max_items": 5},
     "Stronger by Science": {"url": "https://www.strongerbyscience.com/feed/", "category": "health", "max_items": 3, "lookback_days": 90},
     # Mind & philosophy
-    "Farnam Street": {"url": "https://fs.blog/feed/", "category": "mind", "max_items": 3, "lookback_days": 14},
     "Figs in Winter (Pigliucci)": {"url": "https://figsinwintertime.substack.com/feed", "category": "mind", "max_items": 3, "lookback_days": 14},
     "Donald Robertson": {"url": "https://donaldrobertson.substack.com/feed", "category": "mind", "max_items": 3, "lookback_days": 14},
+    # Romania
+    "Romania Insider": {"url": "https://www.romania-insider.com/feed", "category": "romania", "max_items": 12, "lookback_days": 2},
     # Ideas
     "Stratechery": {"url": "https://stratechery.com/feed/", "category": "reading", "max_items": 5},
     "Astral Codex Ten": {"url": "https://www.astralcodexten.com/feed", "category": "reading", "max_items": 3, "lookback_days": 7},
@@ -115,6 +130,14 @@ MAX_MAIN = 16     # cap on full-text items sent to the writer
 LIGHT_SCORE = 4   # ...for a one-line mention
 
 TEST_MODE = os.getenv("BRIEF_TEST") == "1"
+
+# The brief's date and greeting follow this time zone.
+LOCAL_TZ = os.getenv("BRIEF_TZ", "Europe/Bucharest")
+# Weather card: set BRIEF_LAT / BRIEF_LON (and optionally BRIEF_PLACE) as repo
+# secrets. Kept out of the code because the repo and the page are public.
+WEATHER_LAT = os.getenv("BRIEF_LAT")
+WEATHER_LON = os.getenv("BRIEF_LON")
+WEATHER_PLACE = os.getenv("BRIEF_PLACE", "Today")
 
 
 # ============================================================== pipeline
@@ -162,6 +185,38 @@ def write_raw_dump(items, scores):
                     f"{'':17}{it['url']}\n")
 
 
+def write_pages(today, date_label, kw):
+    """brief.html + index.html (today), archive/<date>.html and archive/index.html."""
+    os.makedirs("archive", exist_ok=True)
+    day = today.date().isoformat()
+    older = sorted(d for d in (os.path.basename(p)[:-5] for p in glob.glob("archive/*.html"))
+                   if re.fullmatch(r"\d{4}-\d{2}-\d{2}", d) and d < day)
+    prev = older[-1] if older else None
+
+    root_html = build_html(date_label=date_label, prev_url=f"archive/{prev}.html" if prev else None,
+                           base="", **kw)
+    for name in ("brief.html", "index.html"):
+        with open(name, "w", encoding="utf-8") as f:
+            f.write(root_html)
+    arch_html = build_html(date_label=date_label, prev_url=f"{prev}.html" if prev else None,
+                           base="../", **kw).replace('href="archive/"', 'href="./"')
+    with open(f"archive/{day}.html", "w", encoding="utf-8") as f:
+        f.write(arch_html)
+
+    entries = []
+    for p in sorted(glob.glob("archive/*.html"), reverse=True):
+        d = os.path.basename(p)[:-5]
+        if not re.fullmatch(r"\d{4}-\d{2}-\d{2}", d):
+            continue
+        with open(p, encoding="utf-8") as f:
+            head = f.read(200_000)
+        m = re.search(r"<title>Morning Brief · (.*?)</title>", head)
+        n = re.search(r"<span>(\d+) stor", head)
+        entries.append((d, m.group(1) if m else d, int(n.group(1)) if n else 0))
+    with open("archive/index.html", "w", encoding="utf-8") as f:
+        f.write(build_archive_index(entries))
+
+
 def main():
     started = datetime.now(timezone.utc)
     if os.getenv("GITHUB_ACTIONS"):
@@ -183,6 +238,11 @@ def main():
     btc = fetch_btc()
     if btc is None:
         health["Bitcoin price"] = ("warn", "CoinGecko unavailable")
+    weather = None
+    if WEATHER_LAT and WEATHER_LON:
+        weather = fetch_weather(WEATHER_LAT, WEATHER_LON, WEATHER_PLACE, LOCAL_TZ)
+        if weather is None:
+            health["Weather"] = ("warn", "Open-Meteo unavailable")
 
     # --- triage
     print(f"[Claude] Triage of {len(items)} items with {llm.TRIAGE_MODEL}...")
@@ -211,7 +271,7 @@ def main():
         draft = llm.write(main_items, light_items, MY_INTERESTS)
         brief = llm.validate(draft, by_id)
     else:
-        brief = {"top": [], "sections": {}, "also": [], "quiet_day": True}
+        brief = {"lede": "", "top": [], "sections": {}, "also": [], "quiet_day": True}
 
     # --- extras
     q_text, q_author, q_ctx = pick_quote_for_today()
@@ -232,14 +292,12 @@ def main():
     took = (datetime.now(timezone.utc) - started).seconds
     stats = (f"{len(items)} new items scanned · {len(main_items)} read in full · "
              f"{llm.usage['input'] // 1000}k in / {llm.usage['output'] // 1000}k out tokens · {took // 60}m{took % 60:02d}s")
-    today = datetime.now()
-    html = build_html(
-        date_label=f"{today:%A, %B} {today.day}",
-        brief=brief, anchor=anchor, spotlight=spotlight, hoops=hoops,
-        btc=btc, health=health, stats=stats,
-    )
-    with open("brief.html", "w", encoding="utf-8") as f:
-        f.write(html)
+    today = datetime.now(ZoneInfo(LOCAL_TZ))
+    date_label = f"{today:%A, %B} {today.day}"
+    write_pages(today, date_label, dict(
+        brief=brief, anchor=anchor, spotlight=spotlight, hoops=hoops, btc=btc,
+        weather=weather, health=health, stats=stats,
+        greeting=brief.get("lede") or "A quiet morning. Here's what cleared the bar."))
 
     for name, (status, detail) in sorted(health.items()):
         if status == "fail":

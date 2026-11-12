@@ -317,16 +317,45 @@ def enrich_with_articles(items, health):
 def fetch_btc():
     resp, _ = http_get(
         "https://api.coingecko.com/api/v3/coins/bitcoin?localization=false&tickers=false"
-        "&market_data=true&community_data=false&developer_data=false",
+        "&market_data=true&community_data=false&developer_data=false&sparkline=true",
         mode="direct_first", attempts=2, timeout=15, accept="application/json")
     if resp is None:
         return None
     try:
         md = resp.json()["market_data"]
+        spark = (md.get("sparkline_7d") or {}).get("price") or []
+        if len(spark) > 60:  # hourly -> ~every 4h, plenty for a 130px chart
+            step = len(spark) / 42
+            spark = [spark[int(i * step)] for i in range(42)] + [spark[-1]]
         return {
             "price": md["current_price"]["usd"],
             "d1": md.get("price_change_percentage_24h"),
             "d7": md.get("price_change_percentage_7d"),
+            "spark": spark,
+        }
+    except Exception:
+        return None
+
+
+# ---------------------------------------------------------------- weather
+def fetch_weather(lat, lon, place, tz):
+    """Today's forecast from Open-Meteo (free, no key)."""
+    url = (f"https://api.open-meteo.com/v1/forecast?latitude={lat}&longitude={lon}"
+           "&current=temperature_2m,weather_code"
+           "&daily=temperature_2m_max,temperature_2m_min,precipitation_probability_max,weather_code"
+           f"&timezone={tz}&forecast_days=1")
+    resp, _ = http_get(url, mode="direct_first", attempts=2, timeout=15, accept="application/json")
+    if resp is None:
+        return None
+    try:
+        d = resp.json()
+        return {
+            "place": place,
+            "temp": d["current"]["temperature_2m"],
+            "code": d["daily"]["weather_code"][0],
+            "hi": d["daily"]["temperature_2m_max"][0],
+            "lo": d["daily"]["temperature_2m_min"][0],
+            "precip_prob": d["daily"]["precipitation_probability_max"][0],
         }
     except Exception:
         return None

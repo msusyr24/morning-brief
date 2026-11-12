@@ -17,7 +17,7 @@ from anthropic import Anthropic
 TRIAGE_MODEL = os.getenv("BRIEF_TRIAGE_MODEL", "claude-haiku-5-5")
 WRITER_MODEL = os.getenv("BRIEF_WRITER_MODEL", "claude-sonnet-5-5")
 
-SECTION_KEYS = ["poker", "ai", "bitcoin", "health", "mind", "reading", "hoops"]
+SECTION_KEYS = ["poker", "ai", "bitcoin", "health", "mind", "romania", "reading", "hoops"]
 
 _client = None
 usage = {"input": 0, "output": 0}
@@ -84,11 +84,12 @@ TRIAGE_SCHEMA = {
 }
 
 SECTION_GUIDE = """Sections:
-- poker: poker strategy, theory, solver work, the poker industry
+- poker: poker strategy, theory, solver work, and poker business/industry news
 - ai: AI capability — what AI can newly DO (high bar, see interests)
 - bitcoin: Bitcoin, monetary policy, macroeconomics, investing
 - health: diet, metabolism, longevity, exercise science, training
 - mind: Stoicism, philosophy, mental strength, decision-making, mental models
+- romania: practical Romania news for an English-speaking expat (laws, taxes, residency, prices, infrastructure, travel, big events)
 - reading: other genuinely interesting essays, science, ideas
 - hoops: NBA and college basketball
 - skip: not worth showing"""
@@ -161,9 +162,10 @@ WRITE_SCHEMA = {
                 "line": {"type": "string", "description": "One sentence on what it says."},
             }, "required": ["id", "line"]},
         },
+        "lede": {"type": "string", "description": "One plain sentence (max ~25 words) on what today's brief is mostly about. No greeting, no hype."},
         "quiet_day": {"type": "boolean"},
     },
-    "required": ["top", "items", "also"],
+    "required": ["lede", "top", "items", "also"],
 }
 
 
@@ -194,6 +196,8 @@ Editorial rules:
 - If the title is jargon or the product is obscure, the headline says what the thing IS.
 - AI section: only new model families, new product categories from major labs, step-change capabilities, or surprising findings. 0-2 items on most days.
 - Bitcoin section: only a real argument, data point or policy development. Skip price chatter.
+- Romania section: 0-3 items, only things that affect daily life or are genuinely notable. No routine politics or corporate results.
+- Poker news: results and industry news are welcome but keep them tight; site promotions and bonus ads never qualify.
 - Give each <item> a full write-up if its text has real substance (a claim, number, mechanism, technique). Demote to a one-line 'also' only if the text is thin, promotional, or repeats another item. Drop it only if it's worthless. Aim for 6-14 full items on a normal day. Max 5 per section.
 - 'also' is for <light> entries and demoted items worth one line. Skip the rest.
 - Videos marked as shorts: one-line 'also' at most, unless they make a specific novel claim.
@@ -241,5 +245,5 @@ def validate(draft, by_id):
     dropped = len(draft.get("items", [])) + len(draft.get("also", [])) - len(used)
     if dropped:
         print(f"[validate] Dropped {dropped} invalid/duplicate entries from the draft")
-    return {"top": top, "sections": sections, "also": also,
+    return {"lede": (draft.get("lede") or "").strip(), "top": top, "sections": sections, "also": also,
             "quiet_day": bool(draft.get("quiet_day")) and not used}
