@@ -1,135 +1,19 @@
-Generated 2026-11-12 07:06 UTC
+Generated 2026-11-12 07:10 UTC
 score  section   source / title
 ----------------------------------------------------------------------
-   7   reading   [rss] Marginal Revolution: My excellent Conversation with Terence Tao
-                 https://marginalrevolution.com/marginalrevolution/2026/11/my-excellent-conversation-with-terence-tao.html?utm_source=rss&utm_medium=rss&utm_campaign=my-excellent-conversation-with-terence-tao
-   6   ai        [rss] Simon Willison: llm-gemini 0.36
-                 https://simonwillison.net/2026/Nov/10/llm-gemini/
-   6   reading   [rss] Figs in Winter (Pigliucci): Evolutionary ethics and how we treat strangers
-                 https://figsinwintertime.substack.com/p/evolutionary-ethics-and-how-we-treat
-   6   reading   [rss] Marginal Revolution: Experimentally validated digital twins
-                 https://marginalrevolution.com/marginalrevolution/2026/11/experimentally-validated-digital-twins.html?utm_source=rss&utm_medium=rss&utm_campaign=experimentally-validated-digital-twins
-   5   bitcoin   [rss] Bitcoin Magazine: Tavi Costa: Bitcoin “Very Undervalued with “Violent Moves Ahead”
-                 https://bitcoinmagazine.com/videos/tavi-costa-bitcoin-very-undervalued-with-violent-moves-ahead
-   5   ai        [hn] Hacker News: Gemini Decisions API
-                 https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/
-   5   reading   [hn] Hacker News: Did Life Begin in an RNA World?
-                 https://www.quantamagazine.org/did-life-begin-in-an-rna-world-20261109/
-   4   bitcoin   [rss] Bitcoin Magazine: MSCI Removes Strategy (MSTR) From Its USA Index, Forcing Index Funds to Sell by Nov. 30
-                 https://bitcoinmagazine.com/markets/msci-removes-strategy-mstr-usa-index
-   4   bitcoin   [rss] Bitcoin Magazine: Sam Lyman: “Bitcoin doesn’t need America. America needs Bitcoin.”
-                 https://bitcoinmagazine.com/videos/sam-lyman-bitcoin-doesnt-need-america-america-needs-bitcoin
-   4   bitcoin   [rss] Bitcoin Magazine: MSCI Rules Today on Cutting Strategy (MSTR) From Its Indexes After a Draft List Marks It Deleted
-                 https://bitcoinmagazine.com/markets/msci-rules-today-strategy-mstr-deleted
-   4   bitcoin   [rss] Bitcoin Magazine: Russia’s Central Bank Clears Exchange to Open Bitcoin and Crypto Trading on Nov. 22
-                 https://bitcoinmagazine.com/news/russia-clears-exchange-crypto-trading
-   4   ai        [rss] Simon Willison: Gemini Decisions API
-                 https://simonwillison.net/2026/Nov/11/gemini-decisions-api/
-   4   ai        [rss] Simon Willison: Anthropic's IPO roadshow video
-                 https://simonwillison.net/2026/Nov/11/anthropic-ipo-roadshow/
-   4   reading   [rss] Marginal Revolution: Wednesday assorted links
-                 https://marginalrevolution.com/marginalrevolution/2026/11/wednesday-assorted-links-579.html?utm_source=rss&utm_medium=rss&utm_campaign=wednesday-assorted-links-579
-   4   reading   [rss] Marginal Revolution: What should I ask Simon Sebag Montefiore?
-                 https://marginalrevolution.com/marginalrevolution/2026/11/what-should-i-ask-simon-sebag-montefiore.html?utm_source=rss&utm_medium=rss&utm_campaign=what-should-i-ask-simon-sebag-montefiore
-   4   reading   [rss] Marginal Revolution: UK fact of the day
-                 https://marginalrevolution.com/marginalrevolution/2026/11/uk-fact-of-the-day-9.html?utm_source=rss&utm_medium=rss&utm_campaign=uk-fact-of-the-day-9
-   4   skip      [hn] Hacker News: Tim Peters has died
-                 https://discuss.python.org/t/in-memoriam-tim-peters-1952-2026/110028
-   4   reading   [hn] Hacker News: My AI agents found an unmapped Maya site?
-                 https://pietromiotti.com/latest/maya-site
-   4   ai        [hn] Hacker News: Apple has new Mac app coming to make running local AI models easy
-                 https://9to5mac.com/2026/11/10/apple-has-new-mac-app-coming-to-make-running-local-ai-models-easy/
-   3   skip      [rss] Bitcoin Magazine: How Sam Altman-Backed Meanwhile Is Disrupting the $20T Life Insurance Industry
-                 https://bitcoinmagazine.com/videos/how-sam-altman-backed-meanwhile-is-disrupting-the-20t-life-insurance-industry
-   3   skip      [rss] Bitcoin Magazine: Outlook for Crypto Market Structure Bill By Democrats | Chris Giancarlo, Former CFTC Commissioner
-                 https://bitcoinmagazine.com/videos/outlook-for-crypto-market-structure-bill-by-democrats-chris-giancarlo-former-cftc-commissioner
-   3   skip      [rss] Bitcoin Magazine: ICE and OKX Set Nov. 23 Tokenized Stock Launch After 67 Companies Opt Out
-                 https://bitcoinmagazine.com/news/ice-okx-nov-23-tokenized-stock-launch
-   3   skip      [rss] OpenAI Blog: Gilbert + Tobin rethinks the business of law with AI
-                 https://openai.com/index/gilbert-tobin-sam-nickless
-   3   skip      [rss] OpenAI Blog: ChatGPT Plus for veterans and servicemembers
-                 https://openai.com/index/chatgpt-plus-for-veterans
-   3   skip      [rss] OpenAI Blog: JioStar’s chief architect on AI discovery at 500M-user scale
-                 https://openai.com/index/jiostar-vijay-seshadri
-   3   skip      [rss] Simon Willison: aws-emulator
-                 https://simonwillison.net/2026/Nov/11/aws-emulator/
-   3   skip      [rss] Astral Codex Ten: Escaping The “Outside Criticism” Trap
-                 https://www.astralcodexten.com/p/escaping-the-outside-criticism-trap
-   3   skip      [rss] Marginal Revolution: Richard Posner, RIP…
-                 https://marginalrevolution.com/marginalrevolution/2026/11/richard-posner-rip.html?utm_source=rss&utm_medium=rss&utm_campaign=richard-posner-rip
-   3   skip      [hn] Hacker News: Critical RCE Vulnerability in Apache HTTP Server
-                 https://www.wiz.io/blog/cve-2026-119618-rce-apache-http-server-vulnerability
-   3   skip      [hn] Hacker News: AWS emulator
-                 https://github.com/aws/aws-emulator
-   3   skip      [hn] Hacker News: Jane Street: Socratic Tutor
-                 https://github.com/janestreet/agent_skills/blob/master/socratic-tutor/SKILL.md
-   3   skip      [hn] Hacker News: A false smoke alarm almost drowned Jane Street's only NYC datacenter
-                 https://michael.bacarella.com/2026/11/10/false-smoke-alarm-jane-street-datacenter/
-   3   skip      [hn] Hacker News: United Airlines bans AI agents from booking flights on behalf of travelers
-                 https://www.cbsnews.com/news/united-airlines-bans-ai-agents-booking-flights/
-   3   skip      [hn] Hacker News: Emacs in the Age of Magic
-                 https://commandlinesystems.com/magic.txt
-   3   skip      [hn] Hacker News: Show HN: Yogurt – Free, private, open-source alternative to Granola
-                 https://github.com/FrigadeHQ/yogurt
-   3   skip      [hn] Hacker News: The hardest notes to find on the guitar
-                 https://www.gitori.com/blog/articles/hardest-notes-on-the-guitar-fretboard
-   2   skip      [rss] Simon Willison: Browse tools.simonwillison.net by tag
-                 https://simonwillison.net/2026/Nov/11/tools-tags/
-   2   skip      [rss] Stratechery: Intel Earnings, AMD Earnings, Intel and AMD’s Divergence
-                 https://stratechery.com/2026/intel-earnings-amd-earnings-intel-and-amds-divergence/
-   2   skip      [hn] Hacker News: 93% of paint splatters are valid Perl programs (2019)
-                 https://www.mcmillen.dev/sigbovik/
-   2   skip      [hn] Hacker News: Nvidia is preparing to oust Jensen Huang
-                 https://www.wsj.com/business/nvidia-is-preparing-to-oust-nvidia-ceo-jensen-huang-30f421ad
-   2   skip      [hn] Hacker News: Lock Your GitHub Actions
-                 https://hugovk.dev/blog/2026/lock-github-actions/
-   2   skip      [hn] Hacker News: I gave an agent a lakehouse and control of my garden
-                 https://jatorre.github.io/garden/
-   2   skip      [hn] Hacker News: Slavdom Unearthed: Marian Wawrzeniecki's Neopagan Paintings (1891–1923)
-                 https://publicdomainreview.org/collection/marian-wawrzeniecki/
-   2   skip      [hn] Hacker News: The Utah Teapot
-                 https://graphics.cs.utah.edu/teapot/
-   2   skip      [hn] Hacker News: A general purpose Apple Silicon layer for x86-64 PCs
-                 https://github.com/tylertms/Stela
-   2   skip      [hn] Hacker News: Bad ideas that aren't bad anymore
-                 https://devonestes.com/bad-ideas-that-arent-bad-anymore
-   2   skip      [hn] Hacker News: Lean Grimoire
-                 https://terrytao.wordpress.com/2026/11/11/lean-grimoire/
-   2   skip      [hn] Hacker News: Stingray Fish Laser
-                 https://www.stingray.no/en/technology/
-   2   skip      [hn] Hacker News: Hyper-Realistic Sand with WebGL2
-                 https://av.github.io/safe-sand/
-   2   skip      [hn] Hacker News: Faster Retrieval for Better, More Efficient RAG
-                 https://machinelearning.apple.com/research/faster-retrieval
-   2   skip      [hn] Hacker News: Huawei releases MACaQ, its internal quantizer for local inference
-                 https://github.com/huawei-csl/MACaQ
-   2   skip      [hn] Hacker News: Can a Linear Program Do Weight-Space Programming?
-                 https://nathan.rs/posts/weight-space-lp/
-   2   skip      [hn] Hacker News: A Brief History of Sierra Online (2017)
-                 https://retrofreakreviews.com/2017/01/30/sierra-retrospective/
-   2   skip      [hn] Hacker News: Using voltage glitching to unleash the A100 in my mining card
-                 https://blog.kate.land/posts/using-voltage-glitching-to-unlock-the-a100/
-   2   skip      [hn] Hacker News: Atuin Threads: All your agent sessions on every machine
-                 https://blog.atuin.sh/threads-agent-sessions/
-   2   skip      [hn] Hacker News: The Learjet Repo Man (2009)
-                 https://www.salon.com/2009/06/06/lear_jet_repo_man/
-   2   skip      [hn] Hacker News: Flying on Green: Why Farmers Are Turning to Drones for Cover Crop Seeding
-                 https://www.agweb.com/news/machinery/flying-green-why-farmers-are-turning-drones-cover-crop-seeding
-   2   skip      [hn] Hacker News: We need more goat sacrifices
-                 https://www.experimental-history.com/p/we-need-more-goat-sacrifices
-   1   skip      [rss] Simon Willison: llm 0.37.2
-                 https://simonwillison.net/2026/Nov/11/llm/
-   1   skip      [hn] Hacker News: Darling Development Update – Q4 2026
-                 https://blog.darlinghq.org/2026/11/08/development-update-q4-2026/
-   1   skip      [hn] Hacker News: I'm Working on a FOSS Linux Pinbal Simulation Engine
-                 https://www.getlazarus.org/forums/topic/17/
-   1   skip      [hn] Hacker News: Show HN: I recreated Papers Please but you're deciding which YC startups to fund
-                 https://termsheetplease.com/
-   1   skip      [hn] Hacker News: How to make a CNC plasma cutter with high-frequency start
-                 https://incoherency.co.uk/blog/stories/cnc-plasma-cutter.html
-   1   skip      [hn] Hacker News: Jensen Huang said to have had relationship with executive who reports to him
-                 https://www.nytimes.com/2026/11/11/technology/jensen-huang-nvidia-affair.html
-   1   skip      [hn] Hacker News: Launch HN: Pomerado (YC F26) – Turn any website into an MCP for agents
-                 https://news.ycombinator.com/item?id=50455811
-   1   skip      [hn] Hacker News: Tinfoil (YC P25) is hiring an applied AI security engineer in San Francisco
-                 https://news.ycombinator.com/item?id=50452404
+   6   bitcoin   [rss] Bitcoin Magazine: Deutsche Bank Switches On Bitcoin Custody for Paying Clients
+                 https://bitcoinmagazine.com/news/deutsche-bank-bitcoin-custody-live
+   5   reading   [rss] Marginal Revolution: Are RCTs underpowered?
+                 https://marginalrevolution.com/marginalrevolution/2026/11/are-rcts-underpowered.html?utm_source=rss&utm_medium=rss&utm_campaign=are-rcts-underpowered
+   5   ai        [rss] Marginal Revolution: Tuesday assorted links
+                 https://marginalrevolution.com/marginalrevolution/2026/11/tuesday-assorted-links-594.html?utm_source=rss&utm_medium=rss&utm_campaign=tuesday-assorted-links-594
+   4   reading   [rss] Marginal Revolution: *Unbeatable: The Brutally Honest Case for Free Markets*
+                 https://marginalrevolution.com/marginalrevolution/2026/11/unbeatable-the-brutally-honest-case-for-free-markets.html?utm_source=rss&utm_medium=rss&utm_campaign=unbeatable-the-brutally-honest-case-for-free-markets
+   3   skip      [rss] Bitcoin Magazine: Bitcoin Heated Hot Tubs and 278 Washington Bitcoin Merchants : Now Accepting Bitcoin
+                 https://bitcoinmagazine.com/news/washington-bitcoin-merchants-snorkel
+   3   skip      [rss] Marginal Revolution: Spying makes a comeback
+                 https://marginalrevolution.com/marginalrevolution/2026/11/spying-makes-a-comeback.html?utm_source=rss&utm_medium=rss&utm_campaign=spying-makes-a-comeback
+   3   skip      [rss] Marginal Revolution: Checking the AI audit of Saez and Zucman’s research.
+                 https://marginalrevolution.com/marginalrevolution/2026/11/checking-the-ai-audit-of-saez-and-zucmans-research.html?utm_source=rss&utm_medium=rss&utm_campaign=checking-the-ai-audit-of-saez-and-zucmans-research
+   2   skip      [rss] Marginal Revolution: *Godzilla: Minus Zero* (no spoilers)
+                 https://marginalrevolution.com/marginalrevolution/2026/11/godzilla-minus-zero-no-spoilers.html?utm_source=rss&utm_medium=rss&utm_campaign=godzilla-minus-zero-no-spoilers
