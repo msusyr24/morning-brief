@@ -2,9 +2,11 @@ name: Generate Daily Brief
 
 on:
   schedule:
-    # 03:17 UTC = 05:17 in Romania (winter) / 06:17 (summer)
+    # Backup only. GitHub runs this ~8h late, so a Claude scheduled task
+    # starts the brief at ~04:45 Romania time via workflow_dispatch.
+    # If that brief already exists today, this backup run skips itself.
     - cron: "17 3 * * *"
-  workflow_dispatch:  # manual run from the Actions tab
+  workflow_dispatch:  # manual run, and the early-morning scheduled task
 
 permissions:
   contents: write
@@ -20,17 +22,31 @@ jobs:
     steps:
       - name: Check out repo
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 50
+
+      - name: Skip backup run if today's brief exists
+        id: check
+        run: |
+          if [ "${{ github.event_name }}" = "schedule" ] && \
+             git log --since="20 hours ago" --format=%s | grep -q "^Daily brief: $(date -u +'%Y-%m-%d')"; then
+            echo "Today's brief already exists — skipping backup run."
+            echo "skip=true" >> "$GITHUB_OUTPUT"
+          fi
 
       - name: Set up Python
+        if: steps.check.outputs.skip != 'true'
         uses: actions/setup-python@v5
         with:
           python-version: "3.11"
           cache: pip
 
       - name: Install dependencies
+        if: steps.check.outputs.skip != 'true'
         run: pip install -r requirements.txt
 
       - name: Generate brief
+        if: steps.check.outputs.skip != 'true'
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           WEBSHARE_PROXY_USERNAME: ${{ secrets.WEBSHARE_PROXY_USERNAME }}
@@ -39,7 +55,7 @@ jobs:
         run: python brief.py
 
       - name: Save run files for debugging
-        if: always()
+        if: always() && steps.check.outputs.skip != 'true'
         uses: actions/upload-artifact@v4
         with:
           name: brief-${{ github.run_number }}
@@ -50,6 +66,7 @@ jobs:
           retention-days: 30
 
       - name: Commit and push brief
+        if: steps.check.outputs.skip != 'true'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
