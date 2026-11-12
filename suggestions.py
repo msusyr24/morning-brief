@@ -107,15 +107,16 @@ Return your answer as a JSON object with this exact structure — no other text,
 
     response = client.messages.create(
         model=os.getenv("BRIEF_WRITER_MODEL", "claude-sonnet-5-5"),
-        max_tokens=800,
+        max_tokens=2000,
         messages=[{"role": "user", "content": prompt}],
     )
 
     text = next((b.text for b in response.content if getattr(b, "type", "") == "text"), "").strip()
     text = re.sub(r"^```(?:json)?\s*|\s*```$", "", text, flags=re.MULTILINE).strip()
 
+    m = re.search(r"\{.*\}", text, flags=re.DOTALL)  # tolerate text around the JSON
     try:
-        return json.loads(text)
+        return json.loads(m.group(0) if m else text)
     except json.JSONDecodeError:
         print(f"[suggestions] Failed to parse Claude response: {text[:200]}")
         return None
@@ -133,8 +134,10 @@ def get_suggestion(current_channels, interests_text, max_retries=3):
         if current_name in current_channels or current.get("channel_id") in current_channels.values():
             # User added it! Celebrate, then rotate
             print(f"[suggestions] '{current_name}' was added — rotating.")
+            state.setdefault("history", []).append(current_name)
             state["current_suggestion"] = None
             state["shown_count"] = 0
+            save_state(state)
         else:
             state["shown_count"] += 1
             save_state(state)

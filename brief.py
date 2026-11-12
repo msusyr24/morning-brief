@@ -84,7 +84,6 @@ YOUTUBE_CHANNELS = {
     "Ben Felix": "UCDXTQ8nWmx_EhZ2v-kp7QxA",
     "Mind The Game": "UC6L_LBqoKZXFa4WxHox5iCw",
     "Upswing Poker": "UCHyxrwq_j4vcReGKd42tWyw",
-    "Jonathan Little": "UC6gQK2cneeUQQWovGTjmEvg",
     "FoundMyFitness (Rhonda Patrick)": "UCWF8SqJVNlx-ctXbLswcTcA",
 }
 LONG_FORM_CHANNELS = {"Joe Rogan", "Lex Fridman"}  # longer transcript excerpts
@@ -104,7 +103,6 @@ RSS_SOURCES = {
     "Google DeepMind": {"url": "https://deepmind.google/blog/rss.xml", "category": "ai", "max_items": 4},
     # Poker
     "GTO Wizard Blog": {"url": "https://blog.gtowizard.com/rss/", "category": "poker", "max_items": 3, "lookback_days": 14},
-    "Upswing Poker Blog": {"url": "https://upswingpoker.com/feed/", "category": "poker", "max_items": 2, "lookback_days": 14},
     "PokerNews": {"url": "https://www.pokernews.com/rss.php", "category": "poker", "max_items": 12, "lookback_days": 2},
     # Health / training
     "Peter Attia": {"url": "https://peterattiamd.com/feed/", "category": "health", "max_items": 5},
