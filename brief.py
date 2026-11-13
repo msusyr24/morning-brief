@@ -30,7 +30,9 @@ from mental_models import pick_model_for_today  # noqa: E402
 from quotes import pick_quote_for_today  # noqa: E402
 from render import build_archive_index, build_html  # noqa: E402
 from sources import (enrich_with_articles, fetch_all_rss, fetch_all_youtube,  # noqa: E402
-                     fetch_btc, fetch_hn, fetch_weather)
+                     fetch_btc, fetch_hn, fetch_weather, fetch_youtube_searches)
+import feedback  # noqa: E402
+from stoic import pick_passage_for_today  # noqa: E402
 from suggestions import get_suggestion  # noqa: E402
 
 # ============================================================== YOUR SETTINGS
@@ -39,27 +41,30 @@ I care about:
 - Poker, from both sides of the table:
   - High-level strategy: MTT ICM and PKO/bounty play, final tables, cash games (8-max, straddle/ante games), solver work and GTO Wizard content
   - The poker business: staking and backing, online sites and rake/rakeback changes, GGPoker / WSOP / major series news, regulation, notable results and cheating/security stories
-- AI at the CAPABILITY level: what can AI newly DO? Model releases that change what an average power user can do, real end-user applications, surprising capabilities, honest takes on where it actually works (e.g. Ethan Mollick)
-- Bitcoin, monetary policy and macro (Michael Saylor, Lyn Alden style): real arguments, data and policy, not price chatter
-- Health with REAL DATA: carnivore/low-carb vs. conventional diet debates, metabolism, longevity research, cholesterol/LDL debates
-- Cognitive performance: caffeine, sleep, anxiety, and how diet and habits affect energy and mental performance
+  - What the poker community is talking about (top r/poker threads with real substance: hand debates, drama, site/industry issues)
+- AI at the CAPABILITY level (only the 1-2 biggest things a day): what can AI newly DO? Model releases that change what an average power user can do, real end-user applications, surprising capabilities, honest takes on where it actually works (e.g. Ethan Mollick)
+- Important world, US and markets news: the 3-5 stories a well-informed person must know today (wars, elections, major policy, rates, big market moves). Facts, not opinion or drama.
+- Bitcoin, monetary policy and macro, especially Michael Saylor (his interviews, talks and Strategy's Bitcoin moves) and Lyn Alden-style analysis: real arguments, data and policy, not price chatter. Keep to the best 1-2 items a day.
+- Health with REAL DATA: new studies explained, metabolism, longevity research, cholesterol/LDL debates, carnivore/low-carb vs. conventional diet (but one low-carb item a day is plenty)
+- Sleep and cognitive performance (a priority): sleep quality, caffeine, anxiety, focus, and how diet and habits affect energy and mental performance
 - Evidence-based training: hypertrophy, programming, creatine, protein intake, VO2 max and cardio for longevity
-- NBA and college basketball: storylines and analysis (no scores or game recaps)
-- Stoicism and philosophy: Marcus Aurelius, Seneca, Epictetus and modern interpreters; dealing with adversity, what makes a good life
-- Mental strength and the inner game: discipline, emotional regulation, decision-making under pressure, resilience, handling variance and failure
+- Stoicism and philosophy (want MORE): Marcus Aurelius, Seneca, Epictetus and modern interpreters; dealing with adversity, what makes a good life
+- Mental strength and the inner game, especially applied to poker and decisions: tilt, variance, discipline, emotional regulation, decision-making under pressure, resilience
 - Mental models and clear thinking (Munger, Kahneman, first principles, inversion)
-- Romania, for an English-speaking expat: at most ONE item a day, only the single most useful practical item (laws, taxes, residency rules, prices). Skip routine politics and corporate filler.
+- Romania, for an English-speaking expat: only if genuinely important (a new law, tax or residency rule, major price or infrastructure change, a big national event). Most days: nothing. GDP stats, routine politics and corporate news never qualify.
 - Thoughtful long-form essays and ideas worth sitting with; deep strategy in board games like Azul
 
 I do NOT care about:
 - AI infrastructure, inference layers, agent frameworks, dev tooling — too low-level for me
 - "Open source Qwen-X-B beats benchmark Y", unless it enables a meaningfully new thing I can do
-- Political drama, culture war content, sensationalized headlines
+- Political drama, culture war content, sensationalized headlines (important news is welcome; the commentary circus is not)
+- Sports of any kind, including NBA / basketball
 - Crypto speculation, altcoins, NFTs
 - Casino/poker-site promotions and bonus ads, beginner poker tips
 - Startup funding gossip without product substance
 - Big Tech earnings, exec drama, corporate politics
 - JavaScript framework discourse, programming language wars
+- General tech / programming / startup stories from Hacker News unless they're major AI or science news
 - Generic self-help / hustle-culture content ("10 habits of successful people")
 """
 
@@ -87,7 +92,6 @@ YOUTUBE_CHANNELS = {
     # added Nov 13
     "Doug Polk Poker": "UCyI7FNTudkyALBh9N7hwI9Q",
     "AI Explained": "UCNJ1Ymd5yFuUPtn21xtRbbw",
-    "Two Minute Papers": "UCbfYPyITQ-7l4upoX8nvctg",
     "Nutrition Made Simple (Gil Carvalho)": "UCosmc75v-B2Dk7GWyEyFFMw",
     "Physionic": "UCj3p_1jOCJXB_L_we-DjLbA",
     "Jeff Nippard": "UC68TLK0mAEzUyHx5x5k-S1Q",
@@ -96,39 +100,62 @@ YOUTUBE_CHANNELS = {
 }
 LONG_FORM_CHANNELS = {"Joe Rogan", "Lex Fridman"}  # longer transcript excerpts
 
+# Low-carb/carnivore channels: at most ONE item a day across the whole group.
+LOWCARB_CHANNELS = {"Ken Berry MD", "Anthony Chaffee MD", "Paul Saladino MD",
+                    "Dr. Sten Ekberg", "Thomas DeLauer"}
+
+# People who mostly appear on OTHER people's shows: found daily by YouTube
+# search (needs YOUTUBE_API_KEY; ~100 quota units per query of a 10k/day budget).
+YOUTUBE_SEARCHES = {
+    "Michael Saylor": {"must_contain": "saylor", "category": "bitcoin", "max": 2},
+}
+
 # category = where triage leans for this source. lookback_days can be long:
 # the seen-ledger guarantees an item is only ever shown once.
 RSS_SOURCES = {
     # Bitcoin & macro
-    "Bitcoin Magazine": {"url": "https://bitcoinmagazine.com/.rss/full/", "category": "bitcoin", "max_items": 8},
+    "Bitcoin Magazine": {"url": "https://bitcoinmagazine.com/.rss/full/", "category": "bitcoin", "max_items": 3},
     "The Pomp Letter": {"url": "https://pomp.substack.com/feed", "category": "bitcoin", "max_items": 5},
     # AI capability
     "Anthropic News": {"url": "https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_anthropic_news.xml",
                        "category": "ai", "max_items": 5, "lookback_days": 14},
-    "OpenAI Blog": {"url": "https://openai.com/blog/rss.xml", "category": "ai", "max_items": 5},
-    "Simon Willison": {"url": "https://simonwillison.net/atom/everything/", "category": "ai", "max_items": 8},
+    "OpenAI Blog": {"url": "https://openai.com/blog/rss.xml", "category": "ai", "max_items": 3},
+    "Simon Willison": {"url": "https://simonwillison.net/atom/entries/", "category": "ai", "max_items": 3},
     "One Useful Thing (Ethan Mollick)": {"url": "https://www.oneusefulthing.org/feed", "category": "ai", "max_items": 2, "lookback_days": 14},
     "Google DeepMind": {"url": "https://deepmind.google/blog/rss.xml", "category": "ai", "max_items": 4},
+    # News (wire-style, neutral)
+    "BBC World": {"url": "https://feeds.bbci.co.uk/news/world/rss.xml", "category": "news", "max_items": 12, "lookback_days": 1},
+    "BBC US & Canada": {"url": "https://feeds.bbci.co.uk/news/world/us_and_canada/rss.xml", "category": "news", "max_items": 8, "lookback_days": 1},
+    "BBC Business": {"url": "https://feeds.bbci.co.uk/news/business/rss.xml", "category": "news", "max_items": 8, "lookback_days": 1},
+    "NPR News": {"url": "https://feeds.npr.org/1001/rss.xml", "category": "news", "max_items": 10, "lookback_days": 1},
     # Poker
+    "CardPlayer News": {"url": "https://www.cardplayer.com/poker-news.rss", "category": "poker", "max_items": 6, "lookback_days": 2},
+    "r/poker (top today)": {"url": "https://www.reddit.com/r/poker/top/.rss?t=day", "category": "poker",
+                            "max_items": 6, "lookback_days": 2, "mode": "proxy_first"},
     "GTO Wizard Blog": {"url": "https://blog.gtowizard.com/rss/", "category": "poker", "max_items": 3, "lookback_days": 14},
     "PokerNews": {"url": "https://www.pokernews.com/rss.php", "category": "poker", "max_items": 12, "lookback_days": 2},
     # Health / training
     "Peter Attia": {"url": "https://peterattiamd.com/feed/", "category": "health", "max_items": 5},
+    "Examine": {"url": "https://examine.com/feed/", "category": "health", "max_items": 3, "lookback_days": 7},
     "Stronger by Science": {"url": "https://www.strongerbyscience.com/feed/", "category": "health", "max_items": 3, "lookback_days": 90},
     # Mind & philosophy
     "Figs in Winter (Pigliucci)": {"url": "https://figsinwintertime.substack.com/feed", "category": "mind", "max_items": 3, "lookback_days": 14},
     "Donald Robertson": {"url": "https://donaldrobertson.substack.com/feed", "category": "mind", "max_items": 3, "lookback_days": 14},
+    "Daily Stoic (blog)": {"url": "https://dailystoic.com/feed/", "category": "mind", "max_items": 2, "lookback_days": 7},
+    "Modern Stoicism": {"url": "https://modernstoicism.com/feed/", "category": "mind", "max_items": 2, "lookback_days": 14},
     # Romania
     "Romania Insider": {"url": "https://www.romania-insider.com/feed", "category": "romania", "max_items": 6, "lookback_days": 2},
     # Ideas
-    "Stratechery": {"url": "https://stratechery.com/feed/", "category": "reading", "max_items": 5},
+    "Stratechery": {"url": "https://stratechery.com/feed/", "category": "reading", "max_items": 2},
     "Astral Codex Ten": {"url": "https://www.astralcodexten.com/feed", "category": "reading", "max_items": 3, "lookback_days": 7},
-    "Marginal Revolution": {"url": "https://marginalrevolution.com/feed", "category": "reading", "max_items": 6},
+    "Marginal Revolution": {"url": "https://marginalrevolution.com/feed", "category": "reading", "max_items": 3},
     "Paul Graham": {"url": "https://program247365.github.io/paulgraham-rss/rss.xml", "category": "reading", "max_items": 3, "lookback_days": 90},
     "Collaborative Fund (Morgan Housel)": {"url": "https://collabfund.substack.com/feed", "category": "reading", "max_items": 3, "lookback_days": 30},
 }
 
-HN_STORIES = 40
+HN_STORIES = 60
+HN_MIN_POINTS = 300  # only the biggest HN stories (AI/science) are worth a look
+ROMANIA_MIN_SCORE = 8  # Romania only when it's genuinely important
 YT_LOOKBACK_DAYS = 7
 MAIN_SCORE = 6    # triage score that always earns a full read
 MIN_MAIN = 10     # on slow days, fill up to this many full reads with 5s
@@ -157,15 +184,19 @@ def gha(level, msg):
 def collect(ledger, health):
     channels = dict(list(YOUTUBE_CHANNELS.items())[:2]) if TEST_MODE else YOUTUBE_CHANNELS
     feeds = dict(list(RSS_SOURCES.items())[:3]) if TEST_MODE else RSS_SOURCES
-    hn = fetch_hn(8 if TEST_MODE else HN_STORIES, ledger, health)
+    hn = fetch_hn(8 if TEST_MODE else HN_STORIES, ledger, health,
+                  min_points=0 if TEST_MODE else HN_MIN_POINTS)
     rss = fetch_all_rss(feeds, ledger, health)
+    searched = [] if TEST_MODE else fetch_youtube_searches(YOUTUBE_SEARCHES, ledger, health)
     yt = fetch_all_youtube(
         channels, ledger, health, lookback_days=YT_LOOKBACK_DAYS,
         long_form=LONG_FORM_CHANNELS, normal_chars=3000 if TEST_MODE else 15000,
-        long_chars=3000 if TEST_MODE else 60000)
+        long_chars=3000 if TEST_MODE else 60000, extra_videos=searched)
     items = yt + rss + hn
     for i, it in enumerate(items):
         it["id"] = f"{it['kind'][0]}{i}"
+        if it["source"] in LOWCARB_CHANNELS:
+            it["group"] = "lowcarb"
     return items, len(hn), len(rss), len(yt)
 
 
@@ -173,8 +204,6 @@ def quality_gate(n_hn, n_rss, n_yt):
     if n_hn + n_rss + n_yt == 0:
         gha("error", "No content collected from any source — keeping yesterday's brief.")
         sys.exit(1)
-    if n_hn == 0:
-        gha("warning", "Hacker News returned nothing.")
     if n_rss < 3:
         gha("warning", f"Only {n_rss} new RSS items — feeds may be failing.")
     if n_yt == 0:
@@ -238,9 +267,9 @@ def main():
         print("[ledger] No seen.json yet — first run only looks at the last 36 hours")
     health = {}
 
+    feedback.ingest(health)
     items, n_hn, n_rss, n_yt = collect(ledger, health)
     quality_gate(n_hn, n_rss, n_yt)
-    hoops = None  # scoreboard removed at Alex's request; hoops stories still appear
     btc = fetch_btc()
     if btc is None:
         health["Bitcoin price"] = ("warn", "CoinGecko unavailable")
@@ -253,13 +282,17 @@ def main():
     # --- triage
     print(f"[Claude] Triage of {len(items)} items with {llm.TRIAGE_MODEL}...")
     scores = {}
+    taste = feedback.taste_text()
     for start in range(0, len(items), 80):  # batches keep each call small
-        scores.update(llm.triage(items[start:start + 80], MY_INTERESTS))
+        scores.update(llm.triage(items[start:start + 80], MY_INTERESTS, taste))
     for it in items:
         s, sec = scores.get(it["id"], (0, "skip"))
         it["score"], it["section"] = s, sec
     write_raw_dump(items, scores)
 
+    for it in items:  # Romania only when it's genuinely important
+        if it["section"] == "romania" and it["score"] < ROMANIA_MIN_SCORE:
+            it["section"] = "skip"
     ranked = sorted((i for i in items if i["section"] != "skip"), key=lambda x: -x["score"])
     main_items = [i for i in ranked if i["score"] >= MAIN_SCORE][:MAX_MAIN]
     if len(main_items) < MIN_MAIN:
@@ -282,8 +315,14 @@ def main():
     # --- extras
     q_text, q_author, q_ctx = pick_quote_for_today()
     m_name, m_domain, m_story = pick_model_for_today()
+    try:
+        passage = None if TEST_MODE else pick_passage_for_today(datetime.now(ZoneInfo(LOCAL_TZ)).date())
+    except Exception as e:
+        passage = None
+        health["Stoic passage"] = ("warn", type(e).__name__)
     anchor = {"quote": q_text, "author": q_author, "quote_context": q_ctx,
-              "model_name": m_name, "model_domain": m_domain, "model_story": m_story}
+              "model_name": m_name, "model_domain": m_domain, "model_story": m_story,
+              "passage": passage}
     try:
         spotlight = None if TEST_MODE else get_suggestion(YOUTUBE_CHANNELS, MY_INTERESTS)
     except Exception as e:
@@ -301,7 +340,8 @@ def main():
     today = datetime.now(ZoneInfo(LOCAL_TZ))
     date_label = f"{today:%A, %B} {today.day}"
     write_pages(today, date_label, dict(
-        brief=brief, anchor=anchor, spotlight=spotlight, hoops=hoops, btc=btc,
+        brief=brief, anchor=anchor, spotlight=spotlight, btc=btc,
+        feedback_repo=feedback.REPO, day=today.date().isoformat(),
         weather=weather, health=health, stats=stats,
         greeting=brief.get("lede") or "A quiet morning. Here's what cleared the bar."))
 

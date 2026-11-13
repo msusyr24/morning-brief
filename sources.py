@@ -43,7 +43,7 @@ def _too_old(published, days, ledger, key):
 
 
 # ---------------------------------------------------------------- Hacker News
-def fetch_hn(n, ledger, health):
+def fetch_hn(n, ledger, health, min_points=0):
     base = "https://hacker-news.firebaseio.com/v0"
     try:
         ids = requests.get(f"{base}/topstories.json", timeout=15).json()[:n]
@@ -64,6 +64,8 @@ def fetch_hn(n, ledger, health):
     for s in raw:
         if not s or not s.get("title") or s.get("dead") or s.get("deleted"):
             continue
+        if s.get("score", 0) < min_points:
+            continue  # not marked seen: it can still qualify tomorrow if it keeps climbing
         key = f"hn:{s['id']}"
         if ledger.has(key):
             continue
@@ -80,7 +82,8 @@ def fetch_hn(n, ledger, health):
             "snippet": _clean(s.get("text", ""), 500),
             "content": "",
         })
-    health["Hacker News"] = ("ok", f"{len(stories)} new") if raw else ("fail", "no items")
+    health["Hacker News"] = (("ok", f"{len(stories)} new with {min_points}+ pts") if raw
+                             else ("fail", "no items"))
     return stories
 
 
@@ -102,9 +105,12 @@ def fetch_feed(name, cfg, ledger, default_days):
     items = []
     for entry in feed.entries[:30]:
         pub = entry.get("published_parsed") or entry.get("updated_parsed")
-        if not pub:
-            continue
-        published = datetime(*pub[:6], tzinfo=timezone.utc)
+        if pub:
+            published = datetime(*pub[:6], tzinfo=timezone.utc)
+        else:
+            # Some feeds (e.g. CardPlayer) use non-standard dates. Treat as new:
+            # the seen-ledger still guarantees each item shows up only once.
+            published = datetime.now(timezone.utc)
         url = entry.get("link", "")
         key = f"url:{normalize_url(url)}"
         if ledger.has(key) or _too_old(published, lookback, ledger, key):
@@ -193,6 +199,63 @@ def _channel_via_api(name, channel_id, ledger, lookback_days, max_videos, rss_er
     return videos, ("ok", (f"{len(videos)} new" if videos else "nothing new") + " (via API; RSS blocked)")
 
 
+def _iso_minutes(d):
+    m = re.fullmatch(r"P(?:\d+D)?T?(?:(\d+)H)?(?:(\d+)M)?(?:(\d+)S)?", d or "")
+    if not m:
+        return 0
+    h, mi, _ = (int(x or 0) for x in m.groups())
+    return h * 60 + mi
+
+
+def fetch_youtube_searches(searches, ledger, health, lookback_days=4):
+    """Find recent videos ABOUT/WITH a person across all of YouTube (e.g. Michael
+    Saylor, who mostly appears on other people's podcasts). Needs YOUTUBE_API_KEY."""
+    key = os.getenv("YOUTUBE_API_KEY")
+    out = []
+    for person, cfg in searches.items():
+        label = f"YT search · {person}"
+        if not key:
+            health[label] = ("warn", "YOUTUBE_API_KEY not set")
+            continue
+        after = (datetime.now(timezone.utc) - timedelta(days=lookback_days)).strftime("%Y-%m-%dT%H:%M:%SZ")
+        try:
+            r = requests.get("https://www.googleapis.com/youtube/v3/search", timeout=15, params={
+                "part": "snippet", "q": cfg.get("query", person), "type": "video", "order": "relevance",
+                "publishedAfter": after, "maxResults": 15, "relevanceLanguage": "en", "key": key})
+            data = r.json()
+            if r.status_code != 200:
+                health[label] = ("fail", ((data.get("error") or {}).get("message") or f"HTTP {r.status_code}")[:80])
+                continue
+            hits = [it for it in data.get("items", [])
+                    if cfg["must_contain"] in (it["snippet"]["title"] + it["snippet"]["channelTitle"]).lower()
+                    and not ledger.has(f"yt:{it['id']['videoId']}")]
+            # 1 more quota unit: drop shorts/clips, keep real interviews and talks
+            ids = ",".join(it["id"]["videoId"] for it in hits)
+            mins = {}
+            if ids:
+                d = requests.get("https://www.googleapis.com/youtube/v3/videos", timeout=15,
+                                 params={"part": "contentDetails,statistics", "id": ids, "key": key}).json()
+                mins = {v["id"]: (_iso_minutes(v["contentDetails"]["duration"]),
+                                  int(v.get("statistics", {}).get("viewCount", 0))) for v in d.get("items", [])}
+        except Exception as e:
+            health[label] = ("fail", type(e).__name__)
+            continue
+        hits = [h for h in hits if mins.get(h["id"]["videoId"], (0, 0))[0] >= cfg.get("min_minutes", 12)]
+        hits.sort(key=lambda h: -mins[h["id"]["videoId"]][1])  # most-watched first
+        for it in hits[:cfg.get("max", 2)]:
+            sn, vid = it["snippet"], it["id"]["videoId"]
+            out.append({
+                "key": f"yt:{vid}", "kind": "video", "video_id": vid,
+                "source": f"{person} · {unescape(sn['channelTitle'])}",
+                "topic_hint": cfg.get("category"),
+                "title": unescape(sn["title"]), "url": f"https://www.youtube.com/watch?v={vid}",
+                "is_short": False, "published": sn["publishedAt"], "snippet": "", "content": "",
+                "long_form": True,
+            })
+        health[label] = ("ok", f"{min(len(hits), cfg.get('max', 2))} new")
+    return out
+
+
 def fetch_channel(name, channel_id, ledger, lookback_days, max_videos):
     url = f"https://www.youtube.com/feeds/videos.xml?channel_id={channel_id}"
     resp, err = http_get(url, mode="proxy_first", attempts=3, timeout=15,
@@ -265,8 +328,10 @@ def fetch_transcript(api, video_id, max_chars, timeout=40):
 
 
 def fetch_all_youtube(channels, ledger, health, *, lookback_days=7, max_per_channel=3,
-                      long_form=(), long_chars=60000, normal_chars=15000, short_chars=1500):
-    videos = []
+                      long_form=(), long_chars=60000, normal_chars=15000, short_chars=1500,
+                      extra_videos=()):
+    videos = list(extra_videos)
+    seen_vids = {v["video_id"] for v in videos}
     with ThreadPoolExecutor(max_workers=4) as pool:  # >4 triggers YouTube throttling
         futures = {name: pool.submit(fetch_channel, name, cid, ledger,
                                      lookback_days, max_per_channel)
@@ -278,7 +343,7 @@ def fetch_all_youtube(channels, ledger, health, *, lookback_days=7, max_per_chan
                 vids, status = [], ("fail", type(e).__name__)
             health[f"YT · {name}"] = status
             print(f"[YT] {name}: {status[1]}")
-            videos.extend(vids)
+            videos.extend(v for v in vids if v["video_id"] not in seen_vids)
 
     if not videos:
         return []
@@ -288,7 +353,7 @@ def fetch_all_youtube(channels, ledger, health, *, lookback_days=7, max_per_chan
     def cap(v):
         if v["is_short"]:
             return short_chars
-        return long_chars if v["source"] in long_form else normal_chars
+        return long_chars if v["source"] in long_form or v.get("long_form") else normal_chars
 
     def load(v):
         v["content"], v["_err"] = fetch_transcript(api, v["video_id"], cap(v))

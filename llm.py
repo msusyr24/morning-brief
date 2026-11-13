@@ -17,7 +17,11 @@ from anthropic import Anthropic
 TRIAGE_MODEL = os.getenv("BRIEF_TRIAGE_MODEL", "claude-haiku-5-5")
 WRITER_MODEL = os.getenv("BRIEF_WRITER_MODEL", "claude-sonnet-5-5")
 
-SECTION_KEYS = ["poker", "ai", "bitcoin", "health", "mind", "romania", "reading", "hoops"]
+SECTION_KEYS = ["news", "poker", "ai", "bitcoin", "health", "mind", "romania", "reading"]
+# Max full write-ups per section. AI and Bitcoin are deliberately small.
+SECTION_CAPS = {"news": 5, "poker": 5, "ai": 2, "bitcoin": 2, "health": 5, "mind": 4, "romania": 1, "reading": 3}
+GROUP_CAPS = {"lowcarb": 1}
+CAPS_TEXT = ", ".join(f"{k} {v}" for k, v in SECTION_CAPS.items())  # items + one-liners combined, across the whole brief
 
 _client = None
 usage = {"input": 0, "output": 0}
@@ -84,18 +88,18 @@ TRIAGE_SCHEMA = {
 }
 
 SECTION_GUIDE = """Sections:
+- news: the day's genuinely important world, US and markets/economy news (wars, elections, major policy, central banks, big market moves). Neutral facts. Not celebrity, sport, crime blotter, opinion or culture-war items.
 - poker: poker strategy, theory, solver work, and poker business/industry news
 - ai: AI capability — what AI can newly DO (high bar, see interests)
 - bitcoin: Bitcoin, monetary policy, macroeconomics, investing
 - health: diet, metabolism, longevity, exercise science, training
-- mind: Stoicism, philosophy, mental strength, decision-making, mental models
+- mind: Stoicism, philosophy, mental strength, the mental game (tilt, variance), decision-making, mental models
 - romania: practical Romania news for an English-speaking expat (laws, taxes, residency, prices, infrastructure, travel, big events)
 - reading: other genuinely interesting essays, science, ideas
-- hoops: NBA and college basketball
 - skip: not worth showing"""
 
 
-def triage(candidates, interests):
+def triage(candidates, interests, taste=""):
     lines = []
     for c in candidates:
         extra = ""
@@ -109,7 +113,7 @@ def triage(candidates, interests):
     system = f"""You triage items for a personal morning brief. Score how much THIS reader would want each one (0-10) and pick its section.
 
 {interests}
-
+{taste}
 {SECTION_GUIDE}
 
 Scoring:
@@ -120,6 +124,10 @@ Scoring:
 - 0-2: off-topic, promotional, or on their "do not care" list
 The reader hand-picked the YouTube channels and blogs, so a substantive episode or post on one of their topics is normally a 6-8, not a 5. Use the full range.
 YouTube Shorts and clips rarely go above 5 unless they make a specific, novel claim.
+News: score by real-world importance. The 3-5 biggest stories of the day get 7-9; everything else in news gets 0-4. When several outlets cover the same story, give the fullest version the high score and the duplicates 2.
+Hacker News items are only worth 6+ if they are major AI or science news.
+Romania: 8+ ONLY for something an expat must know (new law/tax/residency rule, major national event). Economic stats, politics and corporate news: 0-3.
+r/poker threads: 6+ only for substantive discussion (industry/site issues, cheating, interesting strategy debate); memes, bad-beat stories and beginner questions 0-3.
 Score every id exactly once."""
 
     result = _call_tool(TRIAGE_MODEL, system, "Items:\n\n" + "\n".join(lines),
@@ -178,7 +186,8 @@ def write(main_items, light_items, interests):
         elif c["kind"] == "hn":
             meta += f" ({c['points']} pts)"
         body = c.get("content") or c.get("snippet") or "(title only)"
-        blocks.append(f"<item id=\"{c['id']}\" suggested_section=\"{c['section']}\">\n"
+        grp = f" group=\"{c['group']}\"" if c.get("group") else ""
+        blocks.append(f"<item id=\"{c['id']}\" suggested_section=\"{c['section']}\"{grp}>\n"
                       f"Source: {meta}\nTitle: {c['title']}\n\n{body}\n</item>")
     light = [f"<light id=\"{c['id']}\">{c['source']}: {c['title']} — "
              f"{(c.get('snippet') or '')[:400]}</light>" for c in light_items]
@@ -194,11 +203,13 @@ Editorial rules:
 - Summarize the IDEAS: the specific claim, number, study, mechanism or technique. Never "X discusses Y" — say what X concluded about Y.
 - Stick to what the source says. Don't add background facts from your own knowledge; if the source gives no specifics, say less.
 - If the title is jargon or the product is obscure, the headline says what the thing IS.
+- News section: the 3-5 most important stories, each written as neutral facts (what happened, the key number, why it matters). Never two items on the same story.
 - AI section: only new model families, new product categories from major labs, step-change capabilities, or surprising findings. 0-2 items on most days.
-- Bitcoin section: only a real argument, data point or policy development. Skip price chatter.
-- Romania: AT MOST ONE Romania item in the whole brief (items and 'also' combined) — the single most useful practical one, or none. No routine politics or corporate results.
+- Bitcoin section: only a real argument, data point or policy development. Skip price chatter. Michael Saylor interviews/talks are the reader's favorite: if one is present, it gets the Bitcoin write-up, with his specific claims and numbers. 1-2 items max.
+- Romania: AT MOST ONE Romania item in the whole brief (items and 'also' combined), and only if it's genuinely important. No stats, routine politics or corporate results. Usually none.
+- Low-carb/carnivore videos (marked group="lowcarb"): at most ONE across the whole brief — the most data-driven one.
 - Poker news: results and industry news are welcome but keep them tight; site promotions and bonus ads never qualify.
-- Give each <item> a full write-up if its text has real substance (a claim, number, mechanism, technique). Demote to a one-line 'also' only if the text is thin, promotional, or repeats another item. Drop it only if it's worthless. Aim for 6-14 full items on a normal day. Max 5 per section.
+- Give each <item> a full write-up if its text has real substance (a claim, number, mechanism, technique). Demote to a one-line 'also' only if the text is thin, promotional, or repeats another item. Drop it only if it's worthless. Aim for 8-14 full items on a normal day. Per-section maximums: {CAPS_TEXT}.
 - 'also' is for <light> entries and demoted items worth one line. Skip the rest.
 - Videos marked as shorts: one-line 'also' at most, unless they make a specific novel claim.
 - Plain text only — no HTML or markdown. No hype words."""
@@ -213,15 +224,21 @@ Editorial rules:
 def validate(draft, by_id):
     """Drop unknown/duplicate ids and over-long sections; return a clean structure."""
     used = set()
+    group_used = {}
     sections = {k: [] for k in SECTION_KEYS}
     for it in draft.get("items", []):
         iid = it.get("id")
         sec = it.get("section")
-        if iid not in by_id or iid in used or sec not in sections or len(sections[sec]) >= 5:
+        if iid not in by_id or iid in used or sec not in sections or len(sections[sec]) >= SECTION_CAPS.get(sec, 5):
+            continue
+        grp = by_id[iid].get("group")
+        if grp and group_used.get(grp, 0) >= GROUP_CAPS.get(grp, 99):
             continue
         if not (it.get("headline") and it.get("summary")):
             continue
         used.add(iid)
+        if grp:
+            group_used[grp] = group_used.get(grp, 0) + 1
         sections[sec].append({
             "src": by_id[iid],
             "headline": it["headline"].strip(),
@@ -253,8 +270,13 @@ def validate(draft, by_id):
             if romania_used:
                 continue
             romania_used = True
+        grp = by_id[iid].get("group") if iid in by_id else None
+        if grp and group_used.get(grp, 0) >= GROUP_CAPS.get(grp, 99):
+            continue
         if iid in by_id and iid not in used and a.get("line"):
             used.add(iid)
+            if grp:
+                group_used[grp] = group_used.get(grp, 0) + 1
             also.append({"src": by_id[iid], "line": a["line"].strip()})
 
     dropped = len(draft.get("items", [])) + len(draft.get("also", [])) - len(used)

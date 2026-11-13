@@ -10,6 +10,7 @@ on:
 
 permissions:
   contents: write
+  issues: write  # read + close "Brief feedback" issues (thumbs up/down votes)
 
 concurrency:
   group: daily-brief
@@ -55,6 +56,7 @@ jobs:
           BRIEF_LAT: ${{ secrets.BRIEF_LAT }}
           BRIEF_LON: ${{ secrets.BRIEF_LON }}
           BRIEF_PLACE: ${{ secrets.BRIEF_PLACE }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: python brief.py
 
       - name: Save run files for debugging
@@ -73,7 +75,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          for f in brief.html index.html archive raw_stories.txt seen.json suggestions_state.json; do
+          for f in brief.html index.html archive raw_stories.txt seen.json suggestions_state.json feedback.json stoic_cache; do
             [ -e "$f" ] && git add "$f"
           done
           git diff --staged --quiet && exit 0
