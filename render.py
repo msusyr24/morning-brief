@@ -85,12 +85,15 @@ def _hoops_block(h):
         lead_html = f'<div class="ld">{e(leaders)}</div>' if leaders and not college else ""
         return f'<div class="game"><div class="ln">{side(a)}<span class="at">@</span>{side(b)}{"".join(tags)}</div>{lead_html}</div>'
 
+    def later(n):
+        return f' · <span class="late">{n} still in progress</span>' if n else ""
+
     parts = []
     if h.get("nba"):
-        parts.append(f'<p class="sub">NBA · {h["nba_date"]:%a %b} {h["nba_date"].day}</p><div class="games">'
+        parts.append(f'<p class="sub">NBA · {h["nba_date"]:%a %b} {h["nba_date"].day}{later(h.get("nba_pending"))}</p><div class="games">'
                      + "".join(row(g) for g in h["nba"]) + "</div>")
     if h.get("ncaa"):
-        parts.append(f'<p class="sub">College · ranked teams · {h["ncaa_date"]:%a %b} {h["ncaa_date"].day}</p><div class="games">'
+        parts.append(f'<p class="sub">College · ranked teams · {h["ncaa_date"]:%a %b} {h["ncaa_date"].day}{later(h.get("ncaa_pending"))}</p><div class="games">'
                      + "".join(row(g, True) for g in h["ncaa"][:12]) + "</div>")
     return '<div class="scores">' + "".join(parts) + "</div>"
 
@@ -339,6 +342,7 @@ header h1 {{ font-size:40px; line-height:1.1; margin:14px 0 6px; font-weight:600
 
 .scores {{ margin:14px 0 6px; }}
 .sub {{ font:600 12px/1 var(--sans); color:var(--mute); margin:16px 0 8px; }}
+.late {{ font-weight:500; font-style:italic; }}
 .games {{ display:grid; grid-template-columns:repeat(auto-fill,minmax(300px,1fr)); gap:6px; }}
 .game {{ background:var(--card); border:1px solid var(--rule); border-radius:10px; padding:9px 12px; font:14px/1.4 var(--sans); }}
 .ln {{ display:flex; align-items:center; gap:6px; flex-wrap:wrap; }}

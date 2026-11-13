@@ -152,12 +152,53 @@ _YT_NS = {"atom": "http://www.w3.org/2005/Atom",
           "yt": "http://www.youtube.com/xml/schemas/2015"}
 
 
+def _channel_via_api(name, channel_id, ledger, lookback_days, max_videos, rss_err):
+    """Fallback when YouTube's RSS endpoint 404s/500s (it throttles by IP).
+    Reads the channel's uploads playlist through the Data API: 1 quota unit."""
+    key = os.getenv("YOUTUBE_API_KEY")
+    if not key:
+        return [], ("fail", rss_err)
+    try:
+        r = requests.get(
+            "https://www.googleapis.com/youtube/v3/playlistItems",
+            params={"part": "snippet,contentDetails", "maxResults": 15,
+                    "playlistId": "UU" + channel_id[2:], "key": key},
+            timeout=15)
+        data = r.json()
+        if r.status_code != 200:
+            msg = (data.get("error") or {}).get("message", f"HTTP {r.status_code}")
+            return [], ("fail", f"RSS: {rss_err}; API: {msg[:80]}")
+    except Exception as e:
+        return [], ("fail", f"RSS: {rss_err}; API: {type(e).__name__}")
+
+    videos = []
+    for it in data.get("items", []):
+        sn = it.get("snippet", {})
+        vid = (it.get("contentDetails") or {}).get("videoId") or (sn.get("resourceId") or {}).get("videoId")
+        when = (it.get("contentDetails") or {}).get("videoPublishedAt") or sn.get("publishedAt")
+        if not vid or not when or sn.get("title") in ("Private video", "Deleted video"):
+            continue
+        published = datetime.fromisoformat(when.replace("Z", "+00:00"))
+        if ledger.has(f"yt:{vid}") or _too_old(published, lookback_days, ledger, f"yt:{vid}"):
+            continue
+        videos.append({
+            "key": f"yt:{vid}", "kind": "video", "source": name, "video_id": vid,
+            "title": unescape(sn.get("title", "")),
+            "url": f"https://www.youtube.com/watch?v={vid}",
+            "is_short": "#shorts" in (sn.get("title", "") + sn.get("description", "")).lower(),
+            "published": published.isoformat(), "snippet": "", "content": "",
+        })
+        if len(videos) >= max_videos:
+            break
+    return videos, ("ok", (f"{len(videos)} new" if videos else "nothing new") + " (via API; RSS blocked)")
+
+
 def fetch_channel(name, channel_id, ledger, lookback_days, max_videos):
     url = f"https://www.youtube.com/feeds/videos.xml?channel_id={channel_id}"
-    resp, err = http_get(url, mode="proxy_first", attempts=4, timeout=15,
-                         accept="application/atom+xml, application/xml, */*", backoff=4)
+    resp, err = http_get(url, mode="proxy_first", attempts=3, timeout=15,
+                         accept="application/atom+xml, application/xml, */*", backoff=3)
     if resp is None:
-        return [], ("fail", err)
+        return _channel_via_api(name, channel_id, ledger, lookback_days, max_videos, err)
     body = resp.content.lstrip()
     if not (body.startswith(b"<?xml") or body.startswith(b"<feed")):
         return [], ("fail", "non-XML response")

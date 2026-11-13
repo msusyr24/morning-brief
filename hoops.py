@@ -56,26 +56,31 @@ def _parse(event):
 
 
 def _latest_complete_slate(league, extra=""):
+    """Most recent US-Eastern date with finished games. The brief runs at ~04:45
+    in Romania (~21:45 ET), so the current night's late games are often still on:
+    show the ones already final and count the rest."""
     today = datetime.now(timezone.utc).astimezone(ET).date()
     for back in range(0, 4):
         day = today - timedelta(days=back)
         games = [_parse(e) for e in _scoreboard(league, day, extra)]
-        if games and all(g["final"] for g in games):
-            return day, games
-    return None, []
+        finals = [g for g in games if g["final"]]
+        if finals:
+            return day, finals, len(games) - len(finals)
+    return None, [], 0
 
 
 def get_hoops(health):
-    out = {"nba": [], "ncaa": [], "nba_date": None, "ncaa_date": None}
+    out = {"nba": [], "ncaa": [], "nba_date": None, "ncaa_date": None, "nba_pending": 0, "ncaa_pending": 0}
     try:
-        day, games = _latest_complete_slate("nba")
-        out["nba_date"], out["nba"] = day, games
+        day, games, pending = _latest_complete_slate("nba")
+        out["nba_date"], out["nba"], out["nba_pending"] = day, games, pending
         health["NBA scores"] = ("ok", f"{len(games)} games" if games else "no games")
     except Exception as e:
         health["NBA scores"] = ("fail", str(e)[:60])
     try:
-        day, games = _latest_complete_slate("mens-college-basketball", "&groups=50")
+        day, games, pending = _latest_complete_slate("mens-college-basketball", "&groups=50")
         ranked = [g for g in games if any(t["rank"] for t in g["teams"])]
+        out["ncaa_pending"] = pending
         for g in ranked:
             w = next((t for t in g["teams"] if t["winner"]), None)
             l = next((t for t in g["teams"] if not t["winner"]), None)
