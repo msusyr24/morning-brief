@@ -25,7 +25,6 @@ from dotenv import load_dotenv
 load_dotenv()
 
 import llm  # noqa: E402
-from hoops import get_hoops  # noqa: E402
 from ledger import Ledger  # noqa: E402
 from mental_models import pick_model_for_today  # noqa: E402
 from quotes import pick_quote_for_today  # noqa: E402
@@ -45,11 +44,11 @@ I care about:
 - Health with REAL DATA: carnivore/low-carb vs. conventional diet debates, metabolism, longevity research, cholesterol/LDL debates
 - Cognitive performance: caffeine, sleep, anxiety, and how diet and habits affect energy and mental performance
 - Evidence-based training: hypertrophy, programming, creatine, protein intake, VO2 max and cardio for longevity
-- NBA and college basketball: games, storylines, analysis
+- NBA and college basketball: storylines and analysis (no scores or game recaps)
 - Stoicism and philosophy: Marcus Aurelius, Seneca, Epictetus and modern interpreters; dealing with adversity, what makes a good life
 - Mental strength and the inner game: discipline, emotional regulation, decision-making under pressure, resilience, handling variance and failure
 - Mental models and clear thinking (Munger, Kahneman, first principles, inversion)
-- Romania, for an English-speaking expat: practical news (laws, taxes, residency rules, prices, infrastructure, travel, big local events), especially in western Romania. Skip routine politics and corporate filler.
+- Romania, for an English-speaking expat: at most ONE item a day, only the single most useful practical item (laws, taxes, residency rules, prices). Skip routine politics and corporate filler.
 - Thoughtful long-form essays and ideas worth sitting with; deep strategy in board games like Azul
 
 I do NOT care about:
@@ -85,6 +84,15 @@ YOUTUBE_CHANNELS = {
     "Mind The Game": "UC6L_LBqoKZXFa4WxHox5iCw",
     "Upswing Poker": "UCHyxrwq_j4vcReGKd42tWyw",
     "FoundMyFitness (Rhonda Patrick)": "UCWF8SqJVNlx-ctXbLswcTcA",
+    # added Nov 13
+    "Doug Polk Poker": "UCyI7FNTudkyALBh9N7hwI9Q",
+    "AI Explained": "UCNJ1Ymd5yFuUPtn21xtRbbw",
+    "Two Minute Papers": "UCbfYPyITQ-7l4upoX8nvctg",
+    "Nutrition Made Simple (Gil Carvalho)": "UCosmc75v-B2Dk7GWyEyFFMw",
+    "Physionic": "UCj3p_1jOCJXB_L_we-DjLbA",
+    "Jeff Nippard": "UC68TLK0mAEzUyHx5x5k-S1Q",
+    "What Bitcoin Did": "UCzv873y61SOt_70zJStsPJg",
+    "Daily Stoic": "UCkUaT0T03TJvafYkfATM2Ag",
 }
 LONG_FORM_CHANNELS = {"Joe Rogan", "Lex Fridman"}  # longer transcript excerpts
 
@@ -111,7 +119,7 @@ RSS_SOURCES = {
     "Figs in Winter (Pigliucci)": {"url": "https://figsinwintertime.substack.com/feed", "category": "mind", "max_items": 3, "lookback_days": 14},
     "Donald Robertson": {"url": "https://donaldrobertson.substack.com/feed", "category": "mind", "max_items": 3, "lookback_days": 14},
     # Romania
-    "Romania Insider": {"url": "https://www.romania-insider.com/feed", "category": "romania", "max_items": 12, "lookback_days": 2},
+    "Romania Insider": {"url": "https://www.romania-insider.com/feed", "category": "romania", "max_items": 6, "lookback_days": 2},
     # Ideas
     "Stratechery": {"url": "https://stratechery.com/feed/", "category": "reading", "max_items": 5},
     "Astral Codex Ten": {"url": "https://www.astralcodexten.com/feed", "category": "reading", "max_items": 3, "lookback_days": 7},
@@ -232,7 +240,7 @@ def main():
 
     items, n_hn, n_rss, n_yt = collect(ledger, health)
     quality_gate(n_hn, n_rss, n_yt)
-    hoops = get_hoops(health)
+    hoops = None  # scoreboard removed at Alex's request; hoops stories still appear
     btc = fetch_btc()
     if btc is None:
         health["Bitcoin price"] = ("warn", "CoinGecko unavailable")

@@ -196,7 +196,7 @@ Editorial rules:
 - If the title is jargon or the product is obscure, the headline says what the thing IS.
 - AI section: only new model families, new product categories from major labs, step-change capabilities, or surprising findings. 0-2 items on most days.
 - Bitcoin section: only a real argument, data point or policy development. Skip price chatter.
-- Romania section: 0-3 items, only things that affect daily life or are genuinely notable. No routine politics or corporate results.
+- Romania: AT MOST ONE Romania item in the whole brief (items and 'also' combined) — the single most useful practical one, or none. No routine politics or corporate results.
 - Poker news: results and industry news are welcome but keep them tight; site promotions and bonus ads never qualify.
 - Give each <item> a full write-up if its text has real substance (a claim, number, mechanism, technique). Demote to a one-line 'also' only if the text is thin, promotional, or repeats another item. Drop it only if it's worthless. Aim for 6-14 full items on a normal day. Max 5 per section.
 - 'also' is for <light> entries and demoted items worth one line. Skip the rest.
@@ -235,9 +235,24 @@ def validate(draft, by_id):
             top.append({"src": by_id[t["id"]], "why": t["why"].strip()})
     top = top[:3]
 
+    # Hard cap: one Romania item total. Keep the first full write-up if any,
+    # and drop Romania one-liners once that slot is taken.
+    romania_used = bool(sections.get("romania"))
+    sections["romania"] = sections.get("romania", [])[:1]
+    for extra in [it for it in list(used) if by_id[it].get("topic_hint") == "romania"
+                  and not any(x["src"]["id"] == it for x in sections["romania"])]:
+        for sec in sections.values():
+            sec[:] = [x for x in sec if x["src"]["id"] != extra]
+        used.discard(extra)
+    top = [t for t in top if t["src"]["id"] in used]
+
     also = []
     for a in draft.get("also", []):
         iid = a.get("id")
+        if iid in by_id and by_id[iid].get("topic_hint") == "romania":
+            if romania_used:
+                continue
+            romania_used = True
         if iid in by_id and iid not in used and a.get("line"):
             used.add(iid)
             also.append({"src": by_id[iid], "line": a["line"].strip()})
