@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="color-scheme" content="light dark">
+<meta name="theme-color" content="#f5f2ea" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#15140f" media="(prefers-color-scheme: dark)">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="Brief">
+<meta name="robots" content="noindex">
+<link rel="icon" href="../icon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="../apple-touch-icon.png">
+<title>Morning Brief · Saturday, November 14</title>
+<style>
+:root {
+  --bg:#f5f2ea; --card:#fffdf8; --ink:#1d1b17; --soft:#47433b; --mute:#837d71; --rule:#e6e0d3;
+  --acc:#2d5b4f; --acc-soft:#e6eee8; --warm:#b4691a; --up:#2e7d4f; --down:#b8402f;
+  --serif: "Iowan Old Style", "Charter", "Palatino Linotype", Palatino, Georgia, serif;
+  --sans: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", system-ui, Roboto, sans-serif;
+  --shadow: 0 1px 2px rgba(40,30,10,.05), 0 8px 24px -14px rgba(40,30,10,.22);
+  --r: 18px; --pad: 20px;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg:#13120e; --card:#1c1a15; --ink:#efeadd; --soft:#cdc6b6; --mute:#8f887a; --rule:#2f2c26;
+    --acc:#8fc2ad; --acc-soft:#1f2a25; --warm:#e0a15a; --up:#6cc28e; --down:#e57f6c;
+    --shadow: 0 1px 2px rgba(0,0,0,.35), 0 10px 28px -16px rgba(0,0,0,.7);
+  }
+  .sec, .nav a { --a: var(--ad) !important; }
+}
+* { box-sizing:border-box; -webkit-tap-highlight-color:transparent; }
+html { scroll-behavior:smooth; -webkit-text-size-adjust:100%; }
+body { margin:0; background:var(--bg); color:var(--ink); font:18px/1.62 var(--serif);
+  -webkit-font-smoothing:antialiased; text-rendering:optimizeLegibility; overflow-x:hidden; }
+.wrap { max-width:680px; margin:0 auto;
+  padding:max(30px, calc(env(safe-area-inset-top) + 14px)) max(var(--pad), env(safe-area-inset-right))
+          calc(96px + env(safe-area-inset-bottom)) max(var(--pad), env(safe-area-inset-left)); }
+a { color:inherit; text-decoration-color:var(--rule); text-underline-offset:3px; text-decoration-thickness:1px; }
+.kicker { font:650 11px/1.2 var(--sans); letter-spacing:.13em; text-transform:uppercase; color:var(--mute); margin:0 0 10px; }
+.progress { position:fixed; inset:0 0 auto 0; height:3px; z-index:20; background:var(--warm); transform-origin:0 50%; transform:scaleX(0); }
+
+header .brand { display:flex; align-items:center; gap:8px; font:650 12px/1 var(--sans); letter-spacing:.16em; text-transform:uppercase; color:var(--acc); margin:0; }
+header .brand::before { content:""; width:18px; height:18px; border-radius:50%;
+  background:radial-gradient(circle at 50% 120%, var(--warm) 0 45%, transparent 46%), var(--acc-soft); box-shadow:inset 0 0 0 1px var(--rule); }
+header h1 { font-size:42px; line-height:1.06; margin:14px 0 10px; font-weight:650; letter-spacing:-.025em; }
+.greet { margin:0; color:var(--soft); font-size:18px; line-height:1.5; font-style:italic; }
+.bar { display:flex; flex-wrap:wrap; gap:6px; margin-top:14px; }
+.bar span { font:600 12px/1 var(--sans); color:var(--soft); background:var(--card); border:1px solid var(--rule); border-radius:99px; padding:7px 11px; }
+
+.cards { display:grid; gap:10px; margin:22px 0 0; }
+.cards.n2 { grid-template-columns:1fr 1fr; }
+.card { background:var(--card); border:1px solid var(--rule); border-radius:var(--r); padding:15px 16px 13px; box-shadow:var(--shadow); position:relative; overflow:hidden; }
+.card .big { font:650 28px/1.1 var(--sans); letter-spacing:-.02em; font-variant-numeric:tabular-nums; display:flex; align-items:center; gap:8px; }
+.card .wi { font-size:24px; }
+.card .cap { margin:6px 0 0; font:12.5px/1.4 var(--sans); color:var(--mute); }
+.up { color:var(--up); } .down { color:var(--down); }
+.spark { display:block; width:100%; height:30px; margin-top:8px; }
+.spark .ln { fill:none; stroke-width:1.8; stroke-linejoin:round; stroke-linecap:round; vector-effect:non-scaling-stroke; }
+.spark.up .ln { stroke:var(--up); } .spark.down .ln { stroke:var(--down); }
+.spark .fill { opacity:.12; } .spark.up .fill { fill:var(--up); } .spark.down .fill { fill:var(--down); }
+.spark.up .dot { fill:var(--up); } .spark.down .dot { fill:var(--down); }
+
+.top { background:var(--card); border:1px solid var(--rule); border-radius:var(--r); padding:20px 20px 6px; margin:12px 0 0; box-shadow:var(--shadow); }
+.top ol { margin:0; padding:0; list-style:none; counter-reset:t; }
+.top li { counter-increment:t; position:relative; padding:0 0 14px 34px; font-size:17.5px; line-height:1.48; }
+.top li::before { content:counter(t); position:absolute; left:0; top:-1px; font:650 23px/1 var(--serif); color:var(--warm); }
+.top a { text-decoration:none; }
+
+.nav { position:sticky; top:0; z-index:10; display:flex; gap:7px; overflow-x:auto; scroll-snap-type:x proximity; scroll-padding-inline:var(--pad);
+  padding:calc(env(safe-area-inset-top) + 10px) var(--pad) 10px; margin:18px calc(-1 * var(--pad)) 0;
+  background:color-mix(in srgb, var(--bg) 86%, transparent); backdrop-filter:saturate(1.5) blur(14px); -webkit-backdrop-filter:saturate(1.5) blur(14px);
+  scrollbar-width:none; mask-image:linear-gradient(90deg, #000 88%, transparent); -webkit-mask-image:linear-gradient(90deg, #000 88%, transparent); }
+.nav::-webkit-scrollbar { display:none; }
+.nav a { flex:none; scroll-snap-align:start; display:flex; align-items:center; gap:6px; font:600 13.5px/1 var(--sans); padding:10px 13px; border-radius:99px; border:1px solid var(--rule);
+  text-decoration:none; color:var(--soft); background:var(--card); }
+.nav a span { color:var(--a); }
+.nav a em { font-style:normal; font-weight:500; color:var(--mute); font-size:12px; }
+.nav a.on { border-color:var(--a); color:var(--a); background:color-mix(in srgb, var(--a) 9%, var(--card)); }
+
+.sec { margin-top:30px; scroll-margin-top:70px; }
+.sec h2 { display:flex; align-items:center; gap:9px; font:700 13px/1 var(--sans); letter-spacing:.13em;
+  text-transform:uppercase; color:var(--a); margin:0 0 12px 4px; }
+.ic { font-size:15px; }
+.item { background:var(--card); border:1px solid var(--rule); border-radius:var(--r); padding:16px 18px 10px; margin-bottom:12px;
+  box-shadow:var(--shadow); scroll-margin-top:70px; border-top:3px solid var(--a); }
+.item .src { font:650 12px/1.3 var(--sans); color:var(--a); margin:0 0 8px; letter-spacing:.01em; }
+.item .src a { color:var(--mute); font-weight:500; }
+.item h3 { font-size:21.5px; line-height:1.27; margin:0 0 9px; font-weight:650; letter-spacing:-.012em; }
+.item h3 a { text-decoration:none; }
+.item .sum { margin:0 0 10px; color:var(--soft); }
+.thumb { float:right; position:relative; width:112px; margin:2px 0 8px 14px; border-radius:10px; overflow:hidden; aspect-ratio:16/9; background:var(--rule); }
+.thumb img { width:100%; height:100%; object-fit:cover; display:block; }
+.thumb .play { position:absolute; inset:0; display:grid; place-items:center; color:#fff; font-size:15px; text-shadow:0 1px 6px rgba(0,0,0,.6); }
+.item:target { box-shadow:0 0 0 2px var(--a), var(--shadow); }
+.take { clear:both; margin:4px 0 12px; padding:12px 14px 12px 30px; background:color-mix(in srgb, var(--a) 7%, var(--card)); border-radius:12px; color:var(--soft); font-size:16px; line-height:1.52; }
+.take li { margin:4px 0; } .take li::marker { color:var(--a); }
+.orig { clear:both; margin:0 0 6px; font:italic 13px/1.45 var(--sans); color:var(--mute); }
+.row { clear:both; display:flex; align-items:center; justify-content:space-between; gap:10px; border-top:1px solid var(--rule); margin:6px -4px 0; padding-top:6px; }
+.open { font:650 14px/1 var(--sans); color:var(--a); text-decoration:none; padding:10px 4px; }
+
+.vote { display:inline-flex; gap:4px; flex:none; }
+.vote button { width:40px; height:36px; border-radius:10px; border:1px solid transparent; background:transparent; font-size:17px; line-height:1;
+  cursor:pointer; filter:grayscale(1); opacity:.5; transition:transform .12s, opacity .12s, filter .12s, background .12s; }
+.vote button:active { transform:scale(.9); }
+.vote button.on { filter:none; opacity:1; background:var(--acc-soft); border-color:var(--rule); }
+
+.also { margin-top:30px; background:var(--card); border:1px solid var(--rule); border-radius:var(--r); padding:0 16px 0 18px; box-shadow:var(--shadow); }
+.also summary { cursor:pointer; padding:18px 0; font:700 13px/1 var(--sans); letter-spacing:.13em; text-transform:uppercase; color:var(--acc); list-style:none; }
+.also summary::-webkit-details-marker { display:none; }
+.also summary::after { content:"＋"; float:right; color:var(--mute); }
+.also[open] summary::after { content:"－"; }
+.also summary span { color:var(--mute); margin-left:6px; }
+.also ul { margin:0 0 10px; padding:0; list-style:none; }
+.also li { display:flex; align-items:center; gap:6px; border-top:1px solid var(--rule); }
+.also li > a { flex:1; padding:12px 0; font-size:16px; line-height:1.48; color:var(--soft); text-decoration:none; }
+.also li b { display:block; font:650 12px/1.3 var(--sans); color:var(--ink); margin-bottom:2px; }
+.also .vote button { width:34px; }
+
+.passage { margin-top:36px; padding:24px 22px 22px; border-radius:var(--r); background:linear-gradient(160deg, color-mix(in srgb, #6b4b8a 10%, var(--card)), var(--card) 60%);
+  border:1px solid var(--rule); box-shadow:var(--shadow); }
+.ptext { margin:0; font-size:19px; line-height:1.6; }
+.ptext::first-letter { float:left; font:650 52px/.86 var(--serif); margin:6px 8px 0 0; color:var(--warm); }
+.anchor { display:grid; grid-template-columns:1fr 1fr; gap:26px; margin-top:12px; padding:22px; border-radius:var(--r); background:var(--card); border:1px solid var(--rule); box-shadow:var(--shadow); }
+blockquote { margin:0; font-size:20px; line-height:1.45; font-style:italic; }
+blockquote::before { content:"“"; display:block; font:650 44px/0.6 var(--serif); color:var(--warm); margin:10px 0 4px; }
+.by { margin:10px 0 8px; font:650 13px var(--sans); color:var(--soft); }
+.mm { font-size:20px; font-weight:650; margin:0 0 6px; line-height:1.3; }
+.ctx { margin:0; font-size:15.5px; line-height:1.58; color:var(--soft); }
+.spot { margin-top:12px; padding:20px 22px; border-radius:var(--r); border:1px dashed var(--rule); }
+.snip { display:flex; gap:8px; align-items:center; margin-top:12px; }
+.snip code { flex:1; min-width:0; overflow-x:auto; white-space:pre; font:12.5px/1.5 ui-monospace, Consolas, monospace; background:var(--acc-soft); padding:9px 10px; border-radius:8px; }
+.snip button { font:650 13px var(--sans); border:0; border-radius:8px; padding:10px 14px; background:var(--acc); color:var(--bg); cursor:pointer; }
+.hint { font:12px var(--sans); color:var(--mute); margin:8px 0 0; }
+.quiet { font-style:italic; color:var(--mute); margin-top:30px; }
+
+.send { position:fixed; left:50%; bottom:calc(16px + env(safe-area-inset-bottom)); z-index:30; transform:translate(-50%, 140%);
+  display:flex; align-items:center; gap:10px; padding:13px 20px; border-radius:99px; border:0; background:var(--ink); color:var(--bg);
+  font:650 15px/1 var(--sans); box-shadow:0 10px 30px -8px rgba(0,0,0,.45); cursor:pointer; transition:transform .25s cubic-bezier(.2,.9,.3,1.2); white-space:nowrap; }
+.send.show { transform:translate(-50%, 0); }
+.send b { background:var(--warm); color:#fff; border-radius:99px; min-width:22px; padding:4px 7px; font-size:12px; text-align:center; }
+
+.foot { margin-top:40px; padding-top:16px; border-top:1px solid var(--rule); font:13px/1.5 var(--sans); color:var(--mute); }
+.arch { display:flex; gap:10px; margin-bottom:14px; }
+.arch a { color:var(--acc); text-decoration:none; font-weight:650; padding:10px 14px; border:1px solid var(--rule); border-radius:99px; background:var(--card); }
+.foot details summary { cursor:pointer; list-style:none; }
+.foot details summary::-webkit-details-marker { display:none; }
+.foot ul { margin:6px 0; padding-left:18px; }
+.foot li.fail b { color:var(--down); } .foot li.warn b { color:var(--warm); }
+.hl { margin:0; font-weight:650; } .hl.ok { color:var(--up); } .hl.warn { color:var(--warm); }
+.stats { margin:6px 0 0; }
+@media (max-width:560px) {
+  :root { --pad:14px; --r:16px; }
+  body { font-size:17px; line-height:1.58; }
+  header h1 { font-size:36px; }
+  .greet { font-size:17px; }
+  .item { padding:15px 15px 8px; }
+  .item h3 { font-size:19.5px; }
+  .thumb { width:96px; margin-left:12px; }
+  .take { font-size:15.5px; }
+  .anchor { grid-template-columns:1fr; gap:22px; }
+  .card .big { font-size:24px; }
+  .ptext { font-size:18px; }
+}
+@media (max-width:360px) { .cards.n2 { grid-template-columns:1fr; } }
+@media (prefers-reduced-motion:reduce) { html { scroll-behavior:auto; } .send { transition:none; } }
+</style>
+</head>
+<body>
+<div class="progress" id="prog"></div>
+<div class="wrap">
+<header>
+  <p class="brand">Morning Brief</p>
+  <h1>Saturday, November 14</h1>
+  <p class="greet">Saylor on why Bitcoin lagged stocks in 2026 and how big digital capital could get, plus the Iran war&#x27;s stalemate and a brief nationwide US flight halt.</p>
+  <div class="bar"><span>5 min read</span><span>5 stories</span><span>9 quick hits</span></div>
+</header>
+<section class="cards n1">
+  <div class="card btc">
+    <p class="kicker">Bitcoin</p>
+    <div class="big" id="btc-p">$68,319</div>
+    <p class="cap"><span id="btc-c"><span class="down">▼ 4.2%</span></span> 24h · <span class="down">▼ 9.9%</span> 7d</p>
+    <svg class="spark down" viewBox="0 0 132 36" width="132" height="36" preserveAspectRatio="none" aria-hidden="true"><polygon points="2,36 2.0,3.5 5.0,3.0 8.1,3.1 11.1,3.0 14.2,3.4 17.2,3.8 20.3,4.2 23.3,4.2 26.4,4.0 29.4,3.5 32.5,3.5 35.5,4.1 38.6,10.6 41.6,6.4 44.7,8.9 47.7,9.7 50.8,8.0 53.8,7.8 56.9,6.9 59.9,6.7 63.0,7.7 66.0,8.8 69.0,11.6 72.1,13.5 75.1,11.3 78.2,12.3 81.2,11.1 84.3,11.6 87.3,11.5 90.4,8.8 93.4,9.3 96.5,12.0 99.5,12.3 102.6,12.7 105.6,16.5 108.7,18.7 111.7,20.0 114.8,22.3 117.8,33.0 120.9,29.3 123.9,27.5 127.0,29.9 130.0,30.1 130,36" class="fill"/><polyline points="2.0,3.5 5.0,3.0 8.1,3.1 11.1,3.0 14.2,3.4 17.2,3.8 20.3,4.2 23.3,4.2 26.4,4.0 29.4,3.5 32.5,3.5 35.5,4.1 38.6,10.6 41.6,6.4 44.7,8.9 47.7,9.7 50.8,8.0 53.8,7.8 56.9,6.9 59.9,6.7 63.0,7.7 66.0,8.8 69.0,11.6 72.1,13.5 75.1,11.3 78.2,12.3 81.2,11.1 84.3,11.6 87.3,11.5 90.4,8.8 93.4,9.3 96.5,12.0 99.5,12.3 102.6,12.7 105.6,16.5 108.7,18.7 111.7,20.0 114.8,22.3 117.8,33.0 120.9,29.3 123.9,27.5 127.0,29.9 130.0,30.1" class="ln"/><circle cx="130.0" cy="30.1" r="2.6" class="dot"/></svg>
+  </div></section>
+<section class="top"><p class="kicker">If you read nothing else</p><ol><li><a href="#v1">Saylor names the specific headwinds holding Bitcoin back and repeats his $100 trillion network thesis, while Strategy keeps buying in small lots.</a></li><li><a href="#r49">Nine months into the Iran war, the US has settled into a pressure-and-wait posture. The Gulf economies are in recession and the Yemen war is widening.</a></li><li><a href="#v0">Saylor argues the industry should build products rather than wait for the Clarity Act, and Arthur Hayes names the main obstacle.</a></li></ol></section>
+<nav class="nav" aria-label="Sections"><a href="#s-news" style="--a:#38506b;--ad:#a3b9d3"><span>◉</span>World &amp; Markets<em>2</em></a><a href="#s-bitcoin" style="--a:#b4691a;--ad:#e7a865"><span>₿</span>Bitcoin &amp; Macro<em>2</em></a><a href="#s-ai" style="--a:#4a4f9c;--ad:#a9adf0"><span>◆</span>AI Capability<em>1</em></a></nav>
+<section class="sec" id="s-news" style="--a:#38506b;--ad:#a3b9d3"><h2><span class="ic">◉</span>World &amp; Markets</h2>
+<article class="item" id="r49">
+  <p class="src">NPR News</p>
+  <h3><a href="https://www.npr.org/2026/11/13/g-s1-153578/whats-trumps-strategy-now-with-iran-to-keep-things-as-they-are">Nine months into the Iran war, Trump is holding the status quo of pressure and standoff</a></h3>
+  <p class="sum">Trump said the US doesn&#x27;t need a deal because it holds billions of Iran&#x27;s frozen dollars, and that an attack now seems unlikely. Talks mediated by Qatar are stuck. Iran says it will pause attacks on ships briefly, but only if seven demands are met, including lifting sanctions, ending the naval blockade and unfreezing its funds. Iran still controls passage through the Strait of Hormuz, and the US is sending a third carrier to the region. The IMF says Gulf states are in recession, with Kuwait, Qatar and Iraq contracting about 16% and Bahrain 11%. The US blockade has cut Iran off from at least $25 billion in revenue.</p><ul class="take"><li>Saudi Arabia and the Houthis are back in all-out war. The UN says 330,000 Yemenis are displaced, and Houthi strikes hit Saudi&#x27;s East-West pipeline.</li><li>Republicans lost their congressional majority in the midterms, and Netanyahu is close to being ousted after Israeli elections.</li></ul>
+  <div class="row"><a class="open" href="https://www.npr.org/2026/11/13/g-s1-153578/whats-trumps-strategy-now-with-iran-to-keep-things-as-they-are">Read →</a><span class="vote" data-src="NPR News" data-title="What&#x27;s Trump&#x27;s strategy now with Iran? To keep things as they are"><button type="button" class="up" aria-label="More like this">👍</button><button type="button" class="dn" aria-label="Less like this">👎</button></span></div>
+</article>
+<article class="item" id="r47">
+  <p class="src">NPR News</p>
+  <h3><a href="https://www.npr.org/2026/11/13/nx-s1-6040403/faa-nationwide-groundstop-airports">FAA briefly halted all flights at US airports after a communications outage</a></h3>
+  <p class="sum">On Friday afternoon the FAA issued a nationwide ground stop after a communication issue affecting all Air Route Traffic Control Centers. The FAA called it a temporary telecommunications outage and said every flight was accounted for. Homeland Security Secretary Mullin said there was no indication of a threat. The last ground stop of this scale was in 2023, caused by contractors accidentally deleting files in the NOTAM system.</p>
+  <div class="row"><a class="open" href="https://www.npr.org/2026/11/13/nx-s1-6040403/faa-nationwide-groundstop-airports">Read →</a><span class="vote" data-src="NPR News" data-title="FAA issues nationwide ground stop for all U.S. airports"><button type="button" class="up" aria-label="More like this">👍</button><button type="button" class="dn" aria-label="Less like this">👎</button></span></div>
+</article></section><section class="sec" id="s-bitcoin" style="--a:#b4691a;--ad:#e7a865"><h2><span class="ic">₿</span>Bitcoin &amp; Macro</h2>
+<article class="item" id="v1">
+  <p class="src">▶ Michael Saylor · Crypto Nutshell</p>
+  <a class="thumb" href="https://www.youtube.com/watch?v=ZICXst-rWrk" aria-hidden="true" tabindex="-1"><img src="https://i.ytimg.com/vi/ZICXst-rWrk/mqdefault.jpg" alt="" loading="lazy" width="320" height="180"><span class="play">▶</span></a><h3><a href="https://www.youtube.com/watch?v=ZICXst-rWrk">Saylor blames rates, AI capital flows and miner selling for Bitcoin lagging stocks</a></h3>
+  <p class="sum">At a May 2026 Q&amp;A, Saylor said Bitcoin trades on its own geopolitical capital flows. He listed the headwinds: rising long-end yields worldwide, capital moving into the AI trade, and miners selling coins to fund a pivot to AI compute. He also named trade wars, hot wars, and bank credit networks that haven&#x27;t rolled out yet. He said Strategy has no hard target for how much it buys. It depends on equity and credit markets. He also argued Bitcoin is already good enough to be a $100 trillion network, so innovation should happen on layers built on top rather than in the protocol.</p><ul class="take"><li>Strategy holds about 848,000 BTC, roughly 4% of all Bitcoin that will exist, at an average cost near $75,440.</li><li>Its Oct 12-18 purchase was 267 BTC for $22.1M, near $82,900 each. The same $250M that bought 21,454 BTC in 2020 would now buy about 3,000.</li><li>$100T across 21M coins works out to about $4.76M per coin, roughly 60 times the late-October market value.</li><li>The video says public miners sold over 32,000 BTC in Q1 2026, and Bitcoin&#x27;s low close was near $58,600 on July 1.</li></ul><p class="orig">“Michael Saylor :“I’ve Never Seen A Setup Like This Before” [New Bitcoin and Crypto Prediction 2026]”</p>
+  <div class="row"><a class="open" href="https://www.youtube.com/watch?v=ZICXst-rWrk">Watch →</a><span class="vote" data-src="Michael Saylor · Crypto Nutshell" data-title="Michael Saylor :“I’ve Never Seen A Setup Like This Before” [New Bitcoin and Crypto Prediction 2026]"><button type="button" class="up" aria-label="More like this">👍</button><button type="button" class="dn" aria-label="Less like this">👎</button></span></div>
+</article>
+<article class="item" id="v0">
+  <p class="src">▶ Michael Saylor · Crypto Nutshell</p>
+  <a class="thumb" href="https://www.youtube.com/watch?v=TMYmZ4gaqjc" aria-hidden="true" tabindex="-1"><img src="https://i.ytimg.com/vi/TMYmZ4gaqjc/mqdefault.jpg" alt="" loading="lazy" width="320" height="180"><span class="play">▶</span></a><h3><a href="https://www.youtube.com/watch?v=TMYmZ4gaqjc">Saylor says digital capital could reach tens of trillions, and the industry shouldn&#x27;t wait for the Clarity Act</a></h3>
+  <p class="sum">Saylor says the digital asset industry is about $3 trillion today and could become $10 to $100 trillion. He argues AI will eliminate many jobs, so the economy needs new companies, which means cheaper ways to raise capital. He says the Clarity Act is 630 pages, about 600 of them restrictions, and that the industry should ship products and win users first. His example is Steve Jobs not asking Washington for a law to support the iPhone. He also wants stablecoin issuers allowed to pay yield, which the Genius Act currently bars. Arthur Hayes, in the same video, says the weak point is whether other countries will let US-run platforms distribute dollar stablecoins to their citizens.</p><ul class="take"><li>The video cites a Bitcoin Policy Institute test of 36 AI models over 9,072 money scenarios. Bitcoin was the top pick at 48.3% of answers, and 79.1% when the goal was preserving purchasing power. Stablecoins led for payments at 53.2%.</li><li>Tokenized Treasury funds grew from $9.07B to $15.86B over the first eight months of 2026, per the video.</li><li>Over 99% of stablecoins are dollar-pegged: about $32.7B against roughly $830M of euro-pegged. The video also cites Treasury Secretary Bessent&#x27;s $2T stablecoin market figure as reasonable.</li></ul><p class="orig">“Michael Saylor :&quot;Important Warning To All Small Bitcoin &amp; Crypto Investors&quot; | Bitcoin Price 2026”</p>
+  <div class="row"><a class="open" href="https://www.youtube.com/watch?v=TMYmZ4gaqjc">Watch →</a><span class="vote" data-src="Michael Saylor · Crypto Nutshell" data-title="Michael Saylor :&quot;Important Warning To All Small Bitcoin &amp; Crypto Investors&quot; | Bitcoin Price 2026"><button type="button" class="up" aria-label="More like this">👍</button><button type="button" class="dn" aria-label="Less like this">👎</button></span></div>
+</article></section><section class="sec" id="s-ai" style="--a:#4a4f9c;--ad:#a9adf0"><h2><span class="ic">◆</span>AI Capability</h2>
+<article class="item" id="r77">
+  <p class="src">Marginal Revolution</p>
+  <h3><a href="https://marginalrevolution.com/marginalrevolution/2026/11/are-we-witnessing-an-intelligence-explosion.html?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=are-we-witnessing-an-intelligence-explosion">Economists find AI progress sped up 1.9x but cost 6.2x more, so no intelligence explosion yet</a></h3>
+  <p class="sum">Garicano and Imas compare the period after October 2025 with the one before. Measured AI capability improved 1.91 times faster, while R&amp;D spending rose 6.19 times and the technical workforce 3.10 times. Capability gains per dollar therefore fell about 69%, and per technical employee-year about 38%. They say this is only accounting and can&#x27;t prove cause. It could be organizational congestion or each advance getting harder. Their conclusion matches the finding that ideas get harder to find, and they say an intelligence explosion is not yet demonstrated.</p>
+  <div class="row"><a class="open" href="https://marginalrevolution.com/marginalrevolution/2026/11/are-we-witnessing-an-intelligence-explosion.html?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=are-we-witnessing-an-intelligence-explosion">Read →</a><span class="vote" data-src="Marginal Revolution" data-title="Are we witnessing an intelligence explosion?"><button type="button" class="up" aria-label="More like this">👍</button><button type="button" class="dn" aria-label="Less like this">👎</button></span></div>
+</article></section>
+<details class="also"><summary>Quick hits <span>9</span></summary><ul><li><a href="https://www.cardplayer.com/poker-news/1775764-1-million-buy-in-heads-up-tournament-added-to-upcoming-triton-poker-stop"><b>CardPlayer News</b>Triton Poker added a $1 million buy-in heads-up tournament to an upcoming stop.</a><span class="vote" data-src="CardPlayer News" data-title="$1 Million Buy-In Heads-Up Tournament Added To Upcoming Triton Poker Stop"><button type="button" class="up" aria-label="More like this">👍</button><button type="button" class="dn" aria-label="Less like this">👎</button></span></li><li><a href="https://www.reddit.com/r/poker/comments/1xuya3c/cops_are_no_longer_messing_around_in_houston_tx/"><b>r/poker (top today)</b>r/poker thread says Houston police have raided another underground poker room, with 4 arrested.</a><span class="vote" data-src="r/poker (top today)" data-title="Cops are no longer messing around in Houston (TX). Another raid. 4 arrested."><button type="button" class="up" aria-label="More like this">👍</button><button type="button" class="dn" aria-label="Less like this">👎</button></span></li><li><a href="https://www.cardplayer.com/poker-news/1775233-uk-commission-to-review-outdated-gambling-laws"><b>CardPlayer News</b>The UK Gambling Commission is set to review outdated gambling laws.</a><span class="vote" data-src="CardPlayer News" data-title="UK Commission To Review Outdated Gambling Laws"><button type="button" class="up" aria-label="More like this">👍</button><button type="button" class="dn" aria-label="Less like this">👎</button></span></li><li><a href="https://www.reddit.com/r/poker/comments/1xuwzp5/fold_middle_set_to_check_raise/"><b>r/poker (top today)</b>r/poker hand: a 1/3 player folded 55 for middle set to a check-raise, saying he put the other player on a bigger set. The set holder had promised to show his next hand.</a><span class="vote" data-src="r/poker (top today)" data-title="fold middle set to check raise?"><button type="button" class="up" aria-label="More like this">👍</button><button type="button" class="dn" aria-label="Less like this">👎</button></span></li><li><a href="https://www.youtube.com/watch?v=DyBh-rUSu3U"><b>Renaissance Periodization</b>Renaissance Periodization says post-workout carbs don&#x27;t need to be fast ones. Rice, bread, pasta or cereal all work, and timing only matters if you train several times a day.</a><span class="vote" data-src="Renaissance Periodization" data-title="You Don&#x27;t Need FAST Carbs Post-Workout"><button type="button" class="up" aria-label="More like this">👍</button><button type="button" class="dn" aria-label="Less like this">👎</button></span></li><li><a href="https://www.youtube.com/watch?v=a7qVmgGBg1k"><b>Renaissance Periodization</b>Renaissance Periodization argues cardio is inefficient for fat loss. Keeping steps near 10,000 and trimming carbs and fats slightly does more than a cardio session.</a><span class="vote" data-src="Renaissance Periodization" data-title="Why Cardio Isn&#x27;t Good For Fat Loss"><button type="button" class="up" aria-label="More like this">👍</button><button type="button" class="dn" aria-label="Less like this">👎</button></span></li><li><a href="https://www.youtube.com/watch?v=ZF8i6zKYevY"><b>Daily Stoic</b>Daily Stoic: memento mori can slow you down as well as speed you up, for example by not rushing through your kids&#x27; bedtime.</a><span class="vote" data-src="Daily Stoic" data-title="Stop Rushing Through the Moments That Matter"><button type="button" class="up" aria-label="More like this">👍</button><button type="button" class="dn" aria-label="Less like this">👎</button></span></li><li><a href="https://www.youtube.com/watch?v=J46lMGPGw1w"><b>Daily Stoic</b>Daily Stoic: our job is to leave the world better than we found it, in line with Marcus Aurelius&#x27;s picture of a society of equal laws.</a><span class="vote" data-src="Daily Stoic" data-title="Leave This Place Better Than You Found It"><button type="button" class="up" aria-label="More like this">👍</button><button type="button" class="dn" aria-label="Less like this">👎</button></span></li><li><a href="https://www.bbc.co.uk/news/articles/cq39glwprknjo?at_medium=RSS&amp;at_campaign=rss"><b>BBC World</b>BBC&#x27;s Steve Rosenberg says Putin has raised his demands for peace with Ukraine, and Moscow counts European security entering the talks as a victory.</a><span class="vote" data-src="BBC World" data-title="Rosenberg: Uncompromising Putin ups demands for peace with Ukraine"><button type="button" class="up" aria-label="More like this">👍</button><button type="button" class="dn" aria-label="Less like this">👎</button></span></li></ul></details>
+
+<section class="passage">
+  <p class="kicker">Daily Stoic reading · Judgment, not events, decides harm</p>
+  <p class="ptext">XXXII. In another man&#x27;s mind and understanding thy evil Cannot subsist, nor in any proper temper or distemper of the natural constitution of thy body, which is but as it were the coat or cottage of thy soul. Wherein then, but in that part of thee, wherein the conceit, and apprehension of any misery can subsist? Let not that part therefore admit any such conceit, and then all is well. Though thy body which is so near it should either be cut or burnt, or suffer any corruption or putrefaction, yet let that part to which it belongs to judge of these, be still at rest; that is, let her judge this, that whatsoever it is, that equally may happen to a wicked man, and to a good man, is neither good nor evil. For that which happens equally to him that lives according to nature, and to him that doth not, is neither according to nature, nor against it; and by consequent, neither good nor bad.</p>
+  <p class="by">— Marcus Aurelius, Meditations (tr. George Long)</p>
+  <p class="ctx">In plain terms: no one else&#x27;s mind can make you suffer, and pain in the body only becomes a misery if your own judgment labels it one, so keep that inner judgment steady even when the body is hurt. Anything that happens equally to a good person and a bad person is neither good nor bad in itself, because it does not reflect how you have chosen to act. For poker and other decisions under uncertainty, this means a bad beat or a run of losses is an outcome that hits the wicked and the wise alike, so it should not change your judgment of whether a decision was sound; grade the decision by your process, not the result, and keep the emotional reaction from setting your next bet.</p>
+</section>
+<section class="anchor">
+  <div>
+    <p class="kicker">Quote</p>
+    <blockquote>He who fears death will never do anything worthy of a living man.</blockquote>
+    <p class="by">— Seneca</p>
+    <p class="ctx">Letters from a Stoic. Seneca would later be ordered to commit suicide by Nero; he did so without fear, per witness accounts.</p>
+  </div>
+  <div>
+    <p class="kicker">Mental model · Psychology</p>
+    <p class="mm">Dunning-Kruger Effect</p>
+    <p class="ctx">Incompetent people overestimate their competence; experts underestimate theirs. The bottom 10% of performers often rate themselves above average. The top 10% doubt themselves. Defense: always seek external calibration. Your own assessment is least reliable where it matters most.</p>
+  </div>
+</section>
+
+<section class="spot">
+  <p class="kicker">Channel spotlight · 3 days left</p>
+  <p class="mm"><a href="https://www.youtube.com/channel/UCXUPKJO5MZQN11PqgIvyuvQ">Andrej Karpathy</a></p>
+  <p class="ctx">Your AI channels cover what new models can do. Karpathy explains, with no hype, why LLMs succeed and fail, which helps you judge which capability claims to trust. His long solo lectures, such as &#x27;Deep Dive into LLMs like ChatGPT&#x27; and &#x27;How I use LLMs&#x27;, are aimed at power users rather than infrastructure engineers. They are very high-depth and he uploads rarely, so expect a few essential videos a year rather than a daily feed.</p>
+  <div class="snip"><code id="snip">    &quot;Andrej Karpathy&quot;: &quot;UCXUPKJO5MZQN11PqgIvyuvQ&quot;,</code><button type="button" id="copy">Copy</button></div>
+  <p class="hint">Paste into YOUTUBE_CHANNELS in brief.py to follow.</p>
+</section>
+
+<footer class="foot">
+  <nav class="arch"><a href="2026-11-13.html">← Yesterday</a><a href="./">All briefs</a></nav>
+  <details><summary class="hl warn">● 1 source issue · 59 OK</summary><ul><li class="fail"><b>Examine</b> — direct HTTP 429, proxy HTTP 429</li></ul></details>
+  <p class="stats">79 new items scanned · 7 read in full · 35k in / 5k out tokens · 2m55s</p>
+</footer>
+</div>
+<button type="button" class="send" id="send">Send feedback <b id="send-n">0</b></button>
+<script>
+(function () {
+  var REPO = "msusyr24/morning-brief", DAY = "2026-11-14", KEY = 'brief-votes';
+
+  // copy button (channel spotlight)
+  var b = document.getElementById('copy');
+  if (b) b.addEventListener('click', function () {
+    navigator.clipboard.writeText(document.getElementById('snip').innerText.trim());
+    b.textContent = 'Copied'; setTimeout(function () { b.textContent = 'Copy'; }, 1800);
+  });
+
+  // live BTC price
+  var p = document.getElementById('btc-p');
+  if (p) fetch('https://api.coingecko.com/api/v3/simple/price?ids=bitcoin&vs_currencies=usd&include_24hr_change=true')
+    .then(function (r) { return r.json(); })
+    .then(function (d) {
+      var v = d.bitcoin.usd, c = d.bitcoin.usd_24h_change;
+      p.textContent = '$' + Math.round(v).toLocaleString('en-US');
+      document.getElementById('btc-c').innerHTML = '<span class="' + (c >= 0 ? 'up' : 'down') + '">' + (c >= 0 ? '▲ ' : '▼ ') + Math.abs(c).toFixed(1) + '%</span>';
+    }).catch(function () {});
+
+  // reading progress + active section pill
+  var prog = document.getElementById('prog'), pills = document.querySelectorAll('.nav a'), secs = document.querySelectorAll('.sec');
+  function onScroll() {
+    var h = document.documentElement, max = h.scrollHeight - h.clientHeight;
+    prog.style.transform = 'scaleX(' + (max > 0 ? h.scrollTop / max : 0) + ')';
+    var cur = null;
+    secs.forEach(function (s) { if (s.getBoundingClientRect().top < 120) cur = s.id; });
+    pills.forEach(function (a) {
+      var on = a.getAttribute('href') === '#' + cur;
+      if (on && !a.classList.contains('on')) a.scrollIntoView({inline: 'nearest', block: 'nearest'});
+      a.classList.toggle('on', on);
+    });
+  }
+  window.addEventListener('scroll', onScroll, {passive: true}); onScroll();
+
+  // thumbs up / down -> GitHub issue
+  var votes = {};
+  try { votes = JSON.parse(localStorage.getItem(KEY) || '{}'); } catch (e) {}
+  function save() { try { localStorage.setItem(KEY, JSON.stringify(votes)); } catch (e) {} }
+  function id(el) { return el.dataset.src + '|' + el.dataset.title; }
+  var send = document.getElementById('send'), sendN = document.getElementById('send-n');
+  function refresh() {
+    var n = Object.keys(votes).length;
+    sendN.textContent = n; send.classList.toggle('show', n > 0 && !!REPO);
+    document.querySelectorAll('.vote').forEach(function (el) {
+      var v = votes[id(el)];
+      el.querySelector('.up').classList.toggle('on', !!v && v.v > 0);
+      el.querySelector('.dn').classList.toggle('on', !!v && v.v < 0);
+    });
+  }
+  document.querySelectorAll('.vote button').forEach(function (btn) {
+    btn.addEventListener('click', function (ev) {
+      ev.preventDefault();
+      var el = btn.parentNode, k = id(el), v = btn.classList.contains('up') ? 1 : -1;
+      if (votes[k] && votes[k].v === v) delete votes[k];
+      else votes[k] = {v: v, s: el.dataset.src, t: el.dataset.title};
+      if (navigator.vibrate) navigator.vibrate(8);
+      save(); refresh();
+    });
+  });
+  send.addEventListener('click', function () {
+    var lines = Object.keys(votes).map(function (k) {
+      var v = votes[k]; return (v.v > 0 ? '+' : '-') + ' | ' + v.s.replace(/\|/g, '/') + ' | ' + v.t.replace(/\|/g, '/');
+    });
+    var url = 'https://github.com/' + REPO + '/issues/new?title=' + encodeURIComponent('Brief feedback ' + DAY) +
+      '&body=' + encodeURIComponent(lines.join('\n') + '\n\n(Tap Submit. The next brief learns from these.)');
+    votes = {}; save(); refresh();
+    window.open(url, '_blank');
+  });
+  refresh();
+})();
+</script>
+</body>
+</html>
