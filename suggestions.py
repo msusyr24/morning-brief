@@ -107,7 +107,7 @@ Return your answer as a JSON object with this exact structure — no other text,
 
     response = client.messages.create(
         model=os.getenv("BRIEF_WRITER_MODEL", "claude-sonnet-5-5"),
-        max_tokens=2000,
+        max_tokens=8000,  # Sonnet 5.5 thinks by default; thinking counts toward this
         messages=[{"role": "user", "content": prompt}],
     )
 

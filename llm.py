@@ -207,7 +207,7 @@ Editorial rules:
     if light:
         user += "\n\nLighter candidates (one-liners at most):\n" + "\n".join(light)
 
-    return _call_tool(WRITER_MODEL, system, user, "submit_brief", WRITE_SCHEMA, max_tokens=12000)
+    return _call_tool(WRITER_MODEL, system, user, "submit_brief", WRITE_SCHEMA, max_tokens=20000)
 
 
 def validate(draft, by_id):
