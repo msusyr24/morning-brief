@@ -107,7 +107,18 @@ LOWCARB_CHANNELS = {"Ken Berry MD", "Anthony Chaffee MD", "Paul Saladino MD",
 # People who mostly appear on OTHER people's shows: found daily by YouTube
 # search (needs YOUTUBE_API_KEY; ~100 quota units per query of a 10k/day budget).
 YOUTUBE_SEARCHES = {
-    "Michael Saylor": {"must_contain": "saylor", "category": "bitcoin", "max": 2},
+    "Michael Saylor": {
+        "must_contain": "saylor", "category": "bitcoin", "max": 2,
+        # Only real hosts — the open search is full of clickbait re-upload channels.
+        "trusted_channels": [
+            "michael saylor", "strategy", "microstrategy", "what bitcoin did", "bitcoin magazine",
+            "coin stories", "natalie brunell", "pomp", "anthony pompliano", "tftc", "swan",
+            "simply bitcoin", "cnbc", "bloomberg", "fox business", "yahoo finance", "kitco",
+            "peter mccormack", "the bitcoin layer", "bitcoin policy institute", "lex fridman",
+            "impact theory", "tom bilyeu", "the iced coffee hour", "david lin", "preston pysh",
+            "we study billionaires", "stansberry", "coindesk", "unchained", "bankless",
+        ],
+    },
 }
 
 # category = where triage leans for this source. lookback_days can be long:
@@ -136,7 +147,6 @@ RSS_SOURCES = {
     "PokerNews": {"url": "https://www.pokernews.com/rss.php", "category": "poker", "max_items": 12, "lookback_days": 2},
     # Health / training
     "Peter Attia": {"url": "https://peterattiamd.com/feed/", "category": "health", "max_items": 5},
-    "Examine": {"url": "https://examine.com/feed/", "category": "health", "max_items": 3, "lookback_days": 7},
     "Stronger by Science": {"url": "https://www.strongerbyscience.com/feed/", "category": "health", "max_items": 3, "lookback_days": 90},
     # Mind & philosophy
     "Figs in Winter (Pigliucci)": {"url": "https://figsinwintertime.substack.com/feed", "category": "mind", "max_items": 3, "lookback_days": 14},

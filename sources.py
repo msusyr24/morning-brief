@@ -226,8 +226,10 @@ def fetch_youtube_searches(searches, ledger, health, lookback_days=4):
             if r.status_code != 200:
                 health[label] = ("fail", ((data.get("error") or {}).get("message") or f"HTTP {r.status_code}")[:80])
                 continue
+            trusted = [t.lower() for t in cfg.get("trusted_channels", [])]
             hits = [it for it in data.get("items", [])
                     if cfg["must_contain"] in (it["snippet"]["title"] + it["snippet"]["channelTitle"]).lower()
+                    and (not trusted or any(t in unescape(it["snippet"]["channelTitle"]).lower() for t in trusted))
                     and not ledger.has(f"yt:{it['id']['videoId']}")]
             # 1 more quota unit: drop shorts/clips, keep real interviews and talks
             ids = ",".join(it["id"]["videoId"] for it in hits)
