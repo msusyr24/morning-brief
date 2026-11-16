@@ -1,11 +1,11 @@
 {
   "current_suggestion": {
-    "channel_name": "Andrej Karpathy",
-    "channel_id": "UCXUPKJO5MZQN11PqgIvyuvQ",
-    "youtube_handle": "@AndrejKarpathy",
-    "pitch": "Your AI channels cover what new models can do. Karpathy explains, with no hype, why LLMs succeed and fail, which helps you judge which capability claims to trust. His long solo lectures, such as 'Deep Dive into LLMs like ChatGPT' and 'How I use LLMs', are aimed at power users rather than infrastructure engineers. They are very high-depth and he uploads rarely, so expect a few essential videos a year rather than a daily feed."
+    "channel_name": "Sabine Hossenfelder",
+    "channel_id": "UC1yNl2E66ZzKApQdRuTQ4tw",
+    "youtube_handle": "@SabineHossenfelder",
+    "pitch": "She is a physicist who takes a skeptical, first-principles look at science news, including how research gets hyped and where studies and incentives go wrong. Your list is mostly health, poker, and AI voices, and she adds a more critical view of how to read new studies and AI claims, which fits your interest in clear thinking and inversion. She posts short solo explainers, usually 5-12 minutes and dense with data, several times a week."
   },
-  "shown_count": 3,
+  "shown_count": 1,
   "history": [
     "Brad Kearns",
     "Dr. Layne Norton",
@@ -84,6 +84,7 @@
     "Mike Israetel (Renaissance Periodization solo)",
     "AI Explained",
     "AI Explained",
-    "Andrej Karpathy"
+    "Andrej Karpathy",
+    "Sabine Hossenfelder"
   ]
 }
