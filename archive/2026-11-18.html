@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="color-scheme" content="light dark">
+<meta name="theme-color" content="#f5f2ea" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#15140f" media="(prefers-color-scheme: dark)">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="Brief">
+<meta name="robots" content="noindex">
+<link rel="icon" href="../icon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="../apple-touch-icon.png">
+<title>Morning Brief · Wednesday, November 18</title>
+<style>
+:root {
+  --bg:#f5f2ea; --card:#fffdf8; --ink:#1d1b17; --soft:#47433b; --mute:#837d71; --rule:#e6e0d3;
+  --acc:#2d5b4f; --acc-soft:#e6eee8; --warm:#b4691a; --up:#2e7d4f; --down:#b8402f;
+  --serif: "Iowan Old Style", "Charter", "Palatino Linotype", Palatino, Georgia, serif;
+  --sans: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", system-ui, Roboto, sans-serif;
+  --shadow: 0 1px 2px rgba(40,30,10,.05), 0 8px 24px -14px rgba(40,30,10,.22);
+  --r: 18px; --pad: 20px;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg:#13120e; --card:#1c1a15; --ink:#efeadd; --soft:#cdc6b6; --mute:#8f887a; --rule:#2f2c26;
+    --acc:#8fc2ad; --acc-soft:#1f2a25; --warm:#e0a15a; --up:#6cc28e; --down:#e57f6c;
+    --shadow: 0 1px 2px rgba(0,0,0,.35), 0 10px 28px -16px rgba(0,0,0,.7);
+  }
+  .sec, .nav a { --a: var(--ad) !important; }
+}
+* { box-sizing:border-box; -webkit-tap-highlight-color:transparent; }
+html { scroll-behavior:smooth; -webkit-text-size-adjust:100%; }
+body { margin:0; background:var(--bg); color:var(--ink); font:18px/1.62 var(--serif);
+  -webkit-font-smoothing:antialiased; text-rendering:optimizeLegibility; overflow-x:hidden; }
+.wrap { max-width:680px; margin:0 auto;
+  padding:max(30px, calc(env(safe-area-inset-top) + 14px)) max(var(--pad), env(safe-area-inset-right))
+          calc(96px + env(safe-area-inset-bottom)) max(var(--pad), env(safe-area-inset-left)); }
+a { color:inherit; text-decoration-color:var(--rule); text-underline-offset:3px; text-decoration-thickness:1px; }
+.kicker { font:650 11px/1.2 var(--sans); letter-spacing:.13em; text-transform:uppercase; color:var(--mute); margin:0 0 10px; }
+.progress { position:fixed; inset:0 0 auto 0; height:3px; z-index:20; background:var(--warm); transform-origin:0 50%; transform:scaleX(0); }
+
+header .brand { display:flex; align-items:center; gap:8px; font:650 12px/1 var(--sans); letter-spacing:.16em; text-transform:uppercase; color:var(--acc); margin:0; }
+header .brand::before { content:""; width:18px; height:18px; border-radius:50%;
+  background:radial-gradient(circle at 50% 120%, var(--warm) 0 45%, transparent 46%), var(--acc-soft); box-shadow:inset 0 0 0 1px var(--rule); }
+header h1 { font-size:42px; line-height:1.06; margin:14px 0 10px; font-weight:650; letter-spacing:-.025em; }
+.greet { margin:0; color:var(--soft); font-size:18px; line-height:1.5; font-style:italic; }
+.bar { display:flex; flex-wrap:wrap; gap:6px; margin-top:14px; }
+.bar span { font:600 12px/1 var(--sans); color:var(--soft); background:var(--card); border:1px solid var(--rule); border-radius:99px; padding:7px 11px; }
+
+.cards { display:grid; gap:10px; margin:22px 0 0; }
+.cards.n2 { grid-template-columns:1fr 1fr; }
+.card { background:var(--card); border:1px solid var(--rule); border-radius:var(--r); padding:15px 16px 13px; box-shadow:var(--shadow); position:relative; overflow:hidden; }
+.card .big { font:650 28px/1.1 var(--sans); letter-spacing:-.02em; font-variant-numeric:tabular-nums; display:flex; align-items:center; gap:8px; }
+.card .wi { font-size:24px; }
+.card .cap { margin:6px 0 0; font:12.5px/1.4 var(--sans); color:var(--mute); }
+.up { color:var(--up); } .down { color:var(--down); }
+.spark { display:block; width:100%; height:30px; margin-top:8px; }
+.spark .ln { fill:none; stroke-width:1.8; stroke-linejoin:round; stroke-linecap:round; vector-effect:non-scaling-stroke; }
+.spark.up .ln { stroke:var(--up); } .spark.down .ln { stroke:var(--down); }
+.spark .fill { opacity:.12; } .spark.up .fill { fill:var(--up); } .spark.down .fill { fill:var(--down); }
+.spark.up .dot { fill:var(--up); } .spark.down .dot { fill:var(--down); }
+
+.top { background:var(--card); border:1px solid var(--rule); border-radius:var(--r); padding:20px 20px 6px; margin:12px 0 0; box-shadow:var(--shadow); }
+.top ol { margin:0; padding:0; list-style:none; counter-reset:t; }
+.top li { counter-increment:t; position:relative; padding:0 0 14px 34px; font-size:17.5px; line-height:1.48; }
+.top li::before { content:counter(t); position:absolute; left:0; top:-1px; font:650 23px/1 var(--serif); color:var(--warm); }
+.top a { text-decoration:none; }
+
+.nav { position:sticky; top:0; z-index:10; display:flex; gap:7px; overflow-x:auto; scroll-snap-type:x proximity; scroll-padding-inline:var(--pad);
+  padding:calc(env(safe-area-inset-top) + 10px) var(--pad) 10px; margin:18px calc(-1 * var(--pad)) 0;
+  background:color-mix(in srgb, var(--bg) 86%, transparent); backdrop-filter:saturate(1.5) blur(14px); -webkit-backdrop-filter:saturate(1.5) blur(14px);
+  scrollbar-width:none; mask-image:linear-gradient(90deg, #000 88%, transparent); -webkit-mask-image:linear-gradient(90deg, #000 88%, transparent); }
+.nav::-webkit-scrollbar { display:none; }
+.nav a { flex:none; scroll-snap-align:start; display:flex; align-items:center; gap:6px; font:600 13.5px/1 var(--sans); padding:10px 13px; border-radius:99px; border:1px solid var(--rule);
+  text-decoration:none; color:var(--soft); background:var(--card); }
+.nav a span { color:var(--a); }
+.nav a em { font-style:normal; font-weight:500; color:var(--mute); font-size:12px; }
+.nav a.on { border-color:var(--a); color:var(--a); background:color-mix(in srgb, var(--a) 9%, var(--card)); }
+
+.sec { margin-top:30px; scroll-margin-top:70px; }
+.sec h2 { display:flex; align-items:center; gap:9px; font:700 13px/1 var(--sans); letter-spacing:.13em;
+  text-transform:uppercase; color:var(--a); margin:0 0 12px 4px; }
+.ic { font-size:15px; }
+.item { background:var(--card); border:1px solid var(--rule); border-radius:var(--r); padding:16px 18px 10px; margin-bottom:12px;
+  box-shadow:var(--shadow); scroll-margin-top:70px; border-top:3px solid var(--a); }
+.item .src { font:650 12px/1.3 var(--sans); color:var(--a); margin:0 0 8px; letter-spacing:.01em; }
+.item .src a { color:var(--mute); font-weight:500; }
+.item h3 { font-size:21.5px; line-height:1.27; margin:0 0 9px; font-weight:650; letter-spacing:-.012em; }
+.item h3 a { text-decoration:none; }
+.item .sum { margin:0 0 10px; color:var(--soft); }
+.thumb { float:right; position:relative; width:112px; margin:2px 0 8px 14px; border-radius:10px; overflow:hidden; aspect-ratio:16/9; background:var(--rule); }
+.thumb img { width:100%; height:100%; object-fit:cover; display:block; }
+.thumb .play { position:absolute; inset:0; display:grid; place-items:center; color:#fff; font-size:15px; text-shadow:0 1px 6px rgba(0,0,0,.6); }
+.item:target { box-shadow:0 0 0 2px var(--a), var(--shadow); }
+.take { clear:both; margin:4px 0 12px; padding:12px 14px 12px 30px; background:color-mix(in srgb, var(--a) 7%, var(--card)); border-radius:12px; color:var(--soft); font-size:16px; line-height:1.52; }
+.take li { margin:4px 0; } .take li::marker { color:var(--a); }
+.orig { clear:both; margin:0 0 6px; font:italic 13px/1.45 var(--sans); color:var(--mute); }
+.row { clear:both; display:flex; align-items:center; justify-content:space-between; gap:10px; border-top:1px solid var(--rule); margin:6px -4px 0; padding-top:6px; }
+.open { font:650 14px/1 var(--sans); color:var(--a); text-decoration:none; padding:10px 4px; }
+
+.vote { display:inline-flex; gap:4px; flex:none; }
+.vote button { width:40px; height:36px; border-radius:10px; border:1px solid transparent; background:transparent; font-size:17px; line-height:1;
+  cursor:pointer; filter:grayscale(1); opacity:.5; transition:transform .12s, opacity .12s, filter .12s, background .12s; }
+.vote button:active { transform:scale(.9); }
+.vote button.on { filter:none; opacity:1; background:var(--acc-soft); border-color:var(--rule); }
+
+.also { margin-top:30px; background:var(--card); border:1px solid var(--rule); border-radius:var(--r); padding:0 16px 0 18px; box-shadow:var(--shadow); }
+.also summary { cursor:pointer; padding:18px 0; font:700 13px/1 var(--sans); letter-spacing:.13em; text-transform:uppercase; color:var(--acc); list-style:none; }
+.also summary::-webkit-details-marker { display:none; }
+.also summary::after { content:"＋"; float:right; color:var(--mute); }
+.also[open] summary::after { content:"－"; }
+.also summary span { color:var(--mute); margin-left:6px; }
+.also ul { margin:0 0 10px; padding:0; list-style:none; }
+.also li { display:flex; align-items:center; gap:6px; border-top:1px solid var(--rule); }
+.also li > a { flex:1; padding:12px 0; font-size:16px; line-height:1.48; color:var(--soft); text-decoration:none; }
+.also li b { display:block; font:650 12px/1.3 var(--sans); color:var(--ink); margin-bottom:2px; }
+.also .vote button { width:34px; }
+
+.passage { margin-top:36px; padding:24px 22px 22px; border-radius:var(--r); background:linear-gradient(160deg, color-mix(in srgb, #6b4b8a 10%, var(--card)), var(--card) 60%);
+  border:1px solid var(--rule); box-shadow:var(--shadow); }
+.ptext { margin:0; font-size:19px; line-height:1.6; }
+.ptext::first-letter { float:left; font:650 52px/.86 var(--serif); margin:6px 8px 0 0; color:var(--warm); }
+.anchor { display:grid; grid-template-columns:1fr 1fr; gap:26px; margin-top:12px; padding:22px; border-radius:var(--r); background:var(--card); border:1px solid var(--rule); box-shadow:var(--shadow); }
+blockquote { margin:0; font-size:20px; line-height:1.45; font-style:italic; }
+blockquote::before { content:"“"; display:block; font:650 44px/0.6 var(--serif); color:var(--warm); margin:10px 0 4px; }
+.by { margin:10px 0 8px; font:650 13px var(--sans); color:var(--soft); }
+.mm { font-size:20px; font-weight:650; margin:0 0 6px; line-height:1.3; }
+.ctx { margin:0; font-size:15.5px; line-height:1.58; color:var(--soft); }
+.spot { margin-top:12px; padding:20px 22px; border-radius:var(--r); border:1px dashed var(--rule); }
+.snip { display:flex; gap:8px; align-items:center; margin-top:12px; }
+.snip code { flex:1; min-width:0; overflow-x:auto; white-space:pre; font:12.5px/1.5 ui-monospace, Consolas, monospace; background:var(--acc-soft); padding:9px 10px; border-radius:8px; }
+.snip button { font:650 13px var(--sans); border:0; border-radius:8px; padding:10px 14px; background:var(--acc); color:var(--bg); cursor:pointer; }
+.hint { font:12px var(--sans); color:var(--mute); margin:8px 0 0; }
+.quiet { font-style:italic; color:var(--mute); margin-top:30px; }
+
+.send { position:fixed; left:50%; bottom:calc(16px + env(safe-area-inset-bottom)); z-index:30; transform:translate(-50%, 140%);
+  display:flex; align-items:center; gap:10px; padding:13px 20px; border-radius:99px; border:0; background:var(--ink); color:var(--bg);
+  font:650 15px/1 var(--sans); box-shadow:0 10px 30px -8px rgba(0,0,0,.45); cursor:pointer; transition:transform .25s cubic-bezier(.2,.9,.3,1.2); white-space:nowrap; }
+.send.show { transform:translate(-50%, 0); }
+.send b { background:var(--warm); color:#fff; border-radius:99px; min-width:22px; padding:4px 7px; font-size:12px; text-align:center; }
+
+.foot { margin-top:40px; padding-top:16px; border-top:1px solid var(--rule); font:13px/1.5 var(--sans); color:var(--mute); }
+.arch { display:flex; gap:10px; margin-bottom:14px; }
+.arch a { color:var(--acc); text-decoration:none; font-weight:650; padding:10px 14px; border:1px solid var(--rule); border-radius:99px; background:var(--card); }
+.foot details summary { cursor:pointer; list-style:none; }
+.foot details summary::-webkit-details-marker { display:none; }
+.foot ul { margin:6px 0; padding-left:18px; }
+.foot li.fail b { color:var(--down); } .foot li.warn b { color:var(--warm); }
+.hl { margin:0; font-weight:650; } .hl.ok { color:var(--up); } .hl.warn { color:var(--warm); }
+.stats { margin:6px 0 0; }
+@media (max-width:560px) {
+  :root { --pad:14px; --r:16px; }
+  body { font-size:17px; line-height:1.58; }
+  header h1 { font-size:36px; }
+  .greet { font-size:17px; }
+  .item { padding:15px 15px 8px; }
+  .item h3 { font-size:19.5px; }
+  .thumb { width:96px; margin-left:12px; }
+  .take { font-size:15.5px; }
+  .anchor { grid-template-columns:1fr; gap:22px; }
+  .card .big { font-size:24px; }
+  .ptext { font-size:18px; }
+}
+@media (max-width:360px) { .cards.n2 { grid-template-columns:1fr; } }
+@media (prefers-reduced-motion:reduce) { html { scroll-behavior:auto; } .send { transition:none; } }
+</style>
+</head>
+<body>
+<div class="progress" id="prog"></div>
+<div class="wrap">
+<header>
+  <p class="brand">Morning Brief</p>
+  <h1>Wednesday, November 18</h1>
+  <p class="greet">Iran-US skirmishes resume around Bahrain, Ukraine hits the Crimean Bridge before a Trump-Xi-Putin meeting, and OpenAI ships GPT-6.2, with a few health and Stoic items.</p>
+  <div class="bar"><span>4 min read</span><span>7 stories</span><span>5 quick hits</span></div>
+</header>
+<section class="cards n1">
+  <div class="card btc">
+    <p class="kicker">Bitcoin</p>
+    <div class="big" id="btc-p">$64,336</div>
+    <p class="cap"><span id="btc-c"><span class="down">▼ 0.3%</span></span> 24h · <span class="down">▼ 12.5%</span> 7d</p>
+    <svg class="spark down" viewBox="0 0 132 36" width="132" height="36" preserveAspectRatio="none" aria-hidden="true"><polygon points="2,36 2.0,5.3 5.0,4.5 8.1,4.9 11.1,4.8 14.2,3.0 17.2,3.3 20.3,5.1 23.3,5.4 26.4,5.6 29.4,8.1 32.5,9.6 35.5,10.5 38.6,12.0 41.6,19.2 44.7,16.7 47.7,15.5 50.8,17.1 53.8,18.5 56.9,18.8 59.9,21.5 63.0,21.0 66.0,22.4 69.0,24.8 72.1,28.5 75.1,33.0 78.2,28.2 81.2,26.1 84.3,25.9 87.3,28.2 90.4,27.0 93.4,27.9 96.5,28.5 99.5,28.8 102.6,29.2 105.6,27.3 108.7,26.2 111.7,27.7 114.8,27.5 117.8,28.7 120.9,26.7 123.9,30.1 127.0,28.8 130.0,27.6 130,36" class="fill"/><polyline points="2.0,5.3 5.0,4.5 8.1,4.9 11.1,4.8 14.2,3.0 17.2,3.3 20.3,5.1 23.3,5.4 26.4,5.6 29.4,8.1 32.5,9.6 35.5,10.5 38.6,12.0 41.6,19.2 44.7,16.7 47.7,15.5 50.8,17.1 53.8,18.5 56.9,18.8 59.9,21.5 63.0,21.0 66.0,22.4 69.0,24.8 72.1,28.5 75.1,33.0 78.2,28.2 81.2,26.1 84.3,25.9 87.3,28.2 90.4,27.0 93.4,27.9 96.5,28.5 99.5,28.8 102.6,29.2 105.6,27.3 108.7,26.2 111.7,27.7 114.8,27.5 117.8,28.7 120.9,26.7 123.9,30.1 127.0,28.8 130.0,27.6" class="ln"/><circle cx="130.0" cy="27.6" r="2.6" class="dot"/></svg>
+  </div></section>
+<section class="top"><p class="kicker">If you read nothing else</p><ol><li><a href="#r53">A two-month lull in the Iran war has broken, and analysts say Iran may now judge escalation cheaper than the blockade.</a></li><li><a href="#r25">The strike cuts a key Russian supply link to Crimea days before Putin meets Trump and Xi.</a></li></ol></section>
+<nav class="nav" aria-label="Sections"><a href="#s-news" style="--a:#38506b;--ad:#a3b9d3"><span>◉</span>World &amp; Markets<em>3</em></a><a href="#s-poker" style="--a:#2d5b4f;--ad:#8fc2ad"><span>♠</span>Poker<em>1</em></a><a href="#s-health" style="--a:#a33c3c;--ad:#ec8f84"><span>✚</span>Health &amp; Sleep<em>1</em></a><a href="#s-mind" style="--a:#6b4b8a;--ad:#c6a4e6"><span>◎</span>Mind &amp; Philosophy<em>1</em></a><a href="#s-ai" style="--a:#4a4f9c;--ad:#a9adf0"><span>◆</span>AI Capability<em>1</em></a></nav>
+<section class="sec" id="s-news" style="--a:#38506b;--ad:#a3b9d3"><h2><span class="ic">◉</span>World &amp; Markets</h2>
+<article class="item" id="r53">
+  <p class="src">NPR News</p>
+  <h3><a href="https://www.npr.org/2026/11/17/nx-s1-6044255/us-iran-war-latest-bahrain">Iran attacks US radar in Bahrain a third time; US strikes Qeshm Island</a></h3>
+  <p class="sum">Iran fired drones at a US radar installation in Bahrain, its third attack on American targets there in five days. Bahrain intercepted them and the US reported no damage or injuries. A US fighter then struck an Iranian Revolutionary Guard missile site on Qeshm Island in the Strait of Hormuz. The strikes ended a roughly two-month lull in a war that began Feb. 28 and is now in its eighth month. Qatar-led peace talks are stalled, and a US naval blockade is hurting Iran&#x27;s economy.</p><ul class="take"><li>A third US carrier group, the USS Theodore Roosevelt, has arrived, putting US naval strength above its level at the war&#x27;s start.</li><li>Crisis Group analyst Azizi: the risk of renewed war now also depends on whether Tehran decides restraint costs more than escalation.</li><li>An IISS analyst says the Bahrain attacks are not yet a major escalation.</li></ul>
+  <div class="row"><a class="open" href="https://www.npr.org/2026/11/17/nx-s1-6044255/us-iran-war-latest-bahrain">Read →</a><span class="vote" data-src="NPR News" data-title="Iran launches a third round of strikes on Bahrain, host of U.S. Navy&#x27;s 5th Fleet"><button type="button" class="up" aria-label="More like this">👍</button><button type="button" class="dn" aria-label="Less like this">👎</button></span></div>
+</article>
+<article class="item" id="r25">
+  <p class="src">BBC World</p>
+  <h3><a href="https://www.bbc.co.uk/news/articles/cw772jk4rvmxo?at_medium=RSS&amp;at_campaign=rss">Ukraine collapses part of the Crimean Bridge in a month-long planned operation</a></h3>
+  <p class="sum">Ukraine severely damaged the Crimean Bridge. A large arched section fell into the water and the road is out of action. The rail section&#x27;s arch is damaged but standing, and some rail services have resumed. Zelensky said the strike was the last stage of a seven-stage operation that systematically destroyed air defences and radars, using drones plus Flamingo and Neptune cruise missiles. Russia opened a terrorism case and says it will rebuild the bridge. The Crimea supply routes left are a land corridor through occupied Zaporizhzhia and Kherson, which Ukraine is also striking, and a ferry with very limited capacity.</p><ul class="take"><li>Russia says it downed 2,256 Ukrainian drones, the largest attack of the war for the second day running.</li><li>Russian strikes damaged Kyiv&#x27;s Dnipro bridges and heating and water systems overnight.</li><li>The timing is just before Thursday&#x27;s Putin-Trump-Xi meeting in Shenzhen.</li></ul>
+  <div class="row"><a class="open" href="https://www.bbc.co.uk/news/articles/cw772jk4rvmxo?at_medium=RSS&amp;at_campaign=rss">Read →</a><span class="vote" data-src="BBC World" data-title="Putin&#x27;s Crimean Bridge partly collapses as Zelensky hails &#x27;unprecedented&#x27; attack by Ukraine"><button type="button" class="up" aria-label="More like this">👍</button><button type="button" class="dn" aria-label="Less like this">👎</button></span></div>
+</article>
+<article class="item" id="r35">
+  <p class="src">BBC World</p>
+  <h3><a href="https://www.bbc.co.uk/news/articles/crq5vlxxx32no?at_medium=RSS&amp;at_campaign=rss">Trump starts Asia trip, signs Thai trade deal, heads to Shenzhen talks with Xi and Putin</a></h3>
+  <p class="sum">Trump arrived in Manila for the Asean summit and met Quad leaders from India, Japan and Australia. He signed a trade deal with Thailand, whose largest export market is the US at 24% of shipments. He then flies to Shenzhen for nuclear talks with Xi Jinping and Vladimir Putin. He said he would also meet Putin one-on-one if possible. Southeast Asian exports to the US rose 30% last year on AI-hardware demand, and Washington is trying to pull the region into its &quot;Pax Silica&quot; tech ecosystem and away from China.</p><ul class="take"><li>New US rules restrict chip exports to Southeast Asia and access to computing power there, which China relies on.</li></ul>
+  <div class="row"><a class="open" href="https://www.bbc.co.uk/news/articles/crq5vlxxx32no?at_medium=RSS&amp;at_campaign=rss">Read →</a><span class="vote" data-src="BBC World" data-title="Trump in Asia ahead of talks with Russian and Chinese presidents"><button type="button" class="up" aria-label="More like this">👍</button><button type="button" class="dn" aria-label="Less like this">👎</button></span></div>
+</article></section><section class="sec" id="s-poker" style="--a:#2d5b4f;--ad:#8fc2ad"><h2><span class="ic">♠</span>Poker</h2>
+<article class="item" id="v0">
+  <p class="src">▶ GTO Wizard</p>
+  <a class="thumb" href="https://www.youtube.com/watch?v=raXOVUy7UzQ" aria-hidden="true" tabindex="-1"><img src="https://i.ytimg.com/vi/raXOVUy7UzQ/mqdefault.jpg" alt="" loading="lazy" width="320" height="180"><span class="play">▶</span></a><h3><a href="https://www.youtube.com/watch?v=raXOVUy7UzQ">GTO Wizard: how to run custom solves with one bet size per board</a></h3>
+  <p class="sum">GTO Wizard&#x27;s anniversary stream shows how to set up your own postflop solves. Its &quot;dynamic&quot; sizing lets you give a few sizes, such as 40, 80 and 120% pot. The solver then picks one size per board: 120% on Q97, a small bet on K72. Its point is that flop sizing matters little. On one ace-queen-six board, the button&#x27;s EV was 63.1% of the pot with a 33% bet and 63.4% with the larger, less-used size. You can compare sizes by duplicating the tab and checking the root node.</p><ul class="take"><li>The most frequently used size is not always the highest-EV size.</li><li>Matching dynamic sizes to your online hotkeys makes study spots easier to play.</li></ul><p class="orig">“Solve Like a Pro: Run Your Solves and Study Your Hands”</p>
+  <div class="row"><a class="open" href="https://www.youtube.com/watch?v=raXOVUy7UzQ">Watch →</a><span class="vote" data-src="GTO Wizard" data-title="Solve Like a Pro: Run Your Solves and Study Your Hands"><button type="button" class="up" aria-label="More like this">👍</button><button type="button" class="dn" aria-label="Less like this">👎</button></span></div>
+</article></section><section class="sec" id="s-health" style="--a:#a33c3c;--ad:#ec8f84"><h2><span class="ic">✚</span>Health &amp; Sleep</h2>
+<article class="item" id="v7">
+  <p class="src">▶ Thomas DeLauer</p>
+  <a class="thumb" href="https://www.youtube.com/watch?v=vi6TwOrxF8A" aria-hidden="true" tabindex="-1"><img src="https://i.ytimg.com/vi/vi6TwOrxF8A/mqdefault.jpg" alt="" loading="lazy" width="320" height="180"><span class="play">▶</span></a><h3><a href="https://www.youtube.com/watch?v=vi6TwOrxF8A">Lean people get sleep apnea too, and some fixes have trial support</a></h3>
+  <p class="sum">Thomas DeLauer cites a study in Sleep finding that tongue fat is higher in people with apnea, independent of overall weight. Apnea and insulin resistance also feed each other. He says a Cochrane review of nine randomized trials (about 350 people) found that tongue and throat exercises (myofunctional therapy) cut breathing events substantially and reduced daytime sleepiness. Didgeridoo playing cut events by about 50%. Sleeping on your side helps, and alcohol and sedatives make apnea worse because they relax the airway. The video also promotes a honey brand and supplements, which are weakly supported.</p><ul class="take"><li>Side-sleeping aids: a pillow between the legs, or a tennis ball in a sock taped to the shirt.</li><li>His suggested supplements: 3 g glycine and 200-400 mg theanine an hour before bed.</li></ul><p class="orig">“You Didn&#x27;t Know You Have Sleep Apnea - Start Sleeping Through the Night”</p>
+  <div class="row"><a class="open" href="https://www.youtube.com/watch?v=vi6TwOrxF8A">Watch →</a><span class="vote" data-src="Thomas DeLauer" data-title="You Didn&#x27;t Know You Have Sleep Apnea - Start Sleeping Through the Night"><button type="button" class="up" aria-label="More like this">👍</button><button type="button" class="dn" aria-label="Less like this">👎</button></span></div>
+</article></section><section class="sec" id="s-mind" style="--a:#6b4b8a;--ad:#c6a4e6"><h2><span class="ic">◎</span>Mind &amp; Philosophy</h2>
+<article class="item" id="v15">
+  <p class="src">▶ Daily Stoic</p>
+  <a class="thumb" href="https://www.youtube.com/watch?v=xRKMr0fOMIw" aria-hidden="true" tabindex="-1"><img src="https://i.ytimg.com/vi/xRKMr0fOMIw/mqdefault.jpg" alt="" loading="lazy" width="320" height="180"><span class="play">▶</span></a><h3><a href="https://www.youtube.com/watch?v=xRKMr0fOMIw">Marcus Aurelius got up without waiting to feel like it</a></h3>
+  <p class="sum">Daily Stoic points to the Meditations passage where Marcus struggles with an early, cold morning. He tells himself he wasn&#x27;t put here to huddle under the covers, and that he has duties to others. He was an emperor who could have kept lazy hours, as others did, and he may have been an insomniac. He chose consistent work because it was good for him and for others.</p><p class="orig">“Marcus Aurelius Didn&#x27;t Wait to Feel Like Getting Up”</p>
+  <div class="row"><a class="open" href="https://www.youtube.com/watch?v=xRKMr0fOMIw">Watch →</a><span class="vote" data-src="Daily Stoic" data-title="Marcus Aurelius Didn&#x27;t Wait to Feel Like Getting Up"><button type="button" class="up" aria-label="More like this">👍</button><button type="button" class="dn" aria-label="Less like this">👎</button></span></div>
+</article></section><section class="sec" id="s-ai" style="--a:#4a4f9c;--ad:#a9adf0"><h2><span class="ic">◆</span>AI Capability</h2>
+<article class="item" id="r21">
+  <p class="src">OpenAI Blog</p>
+  <h3><a href="https://openai.com/index/introducing-gpt-6-2-astra-sol">OpenAI releases GPT-6.2 Astra and Sol</a></h3>
+  <p class="sum">OpenAI announced two models, GPT-6.2 Astra and Sol. It claims better professional outputs, coding, computer use and efficiency at lower cost. They are available across ChatGPT Work, Codex and the API. The announcement gives no benchmarks or specifics, so it&#x27;s unclear what end users can newly do.</p>
+  <div class="row"><a class="open" href="https://openai.com/index/introducing-gpt-6-2-astra-sol">Read →</a><span class="vote" data-src="OpenAI Blog" data-title="Introducing GPT-6.2 Astra and Sol"><button type="button" class="up" aria-label="More like this">👍</button><button type="button" class="dn" aria-label="Less like this">👎</button></span></div>
+</article></section>
+<details class="also"><summary>Quick hits <span>5</span></summary><ul><li><a href="https://www.youtube.com/watch?v=DAtbYdsCFBk"><b>Daily Stoic</b>Daily Stoic on Marcus&#x27;s three memento mori lessons: you could leave life now, Alexander and his mule driver both died, and putting things off is arrogance.</a><span class="vote" data-src="Daily Stoic" data-title="3 Memento Mori Lessons From Marcus Aurelius"><button type="button" class="up" aria-label="More like this">👍</button><button type="button" class="dn" aria-label="Less like this">👎</button></span></li><li><a href="https://www.youtube.com/watch?v=gLExL8z5xpQ"><b>Renaissance Periodization</b>RP says beginners training about twice a week can gain real muscle even while losing weight, so they needn&#x27;t bulk.</a><span class="vote" data-src="Renaissance Periodization" data-title="Beginners Can Build Muscle Without Bulking"><button type="button" class="up" aria-label="More like this">👍</button><button type="button" class="dn" aria-label="Less like this">👎</button></span></li><li><a href="https://www.bbc.co.uk/news/articles/c977p71jx0xxo?at_medium=RSS&amp;at_campaign=rss"><b>BBC World</b>The US lost its measles elimination status after 26 years, with over 5,400 cases and 10 deaths reported.</a><span class="vote" data-src="BBC World" data-title="US loses measles elimination status after 26 years amid record case numbers"><button type="button" class="up" aria-label="More like this">👍</button><button type="button" class="dn" aria-label="Less like this">👎</button></span></li><li><a href="https://www.bbc.co.uk/news/articles/cwq6e2qgvmlgo?at_medium=RSS&amp;at_campaign=rss"><b>BBC Business</b>New US chip rules restrict exports to Southeast Asia and access to computing power there, which China relies on heavily.</a><span class="vote" data-src="BBC Business" data-title="How new US chip restrictions on South East Asia will hit China"><button type="button" class="up" aria-label="More like this">👍</button><button type="button" class="dn" aria-label="Less like this">👎</button></span></li><li><a href="https://www.cnn.com/2026/11/17/politics/highly-classified-national-security-communications-network-goes-down"><b>Hacker News</b>A highly classified US national security communications network went down, per Reuters.</a><span class="vote" data-src="Hacker News" data-title="Highly classified US national security communications network goes down"><button type="button" class="up" aria-label="More like this">👍</button><button type="button" class="dn" aria-label="Less like this">👎</button></span></li></ul></details>
+
+<section class="passage">
+  <p class="kicker">Daily Stoic reading · Judge each word and action</p>
+  <p class="ptext">IV. Word after word, every one by itself, must the things that are spoken be conceived and understood; and so the things that are done, purpose after purpose, every one by itself likewise. And as in matter of purposes and actions, we must presently see what is the proper use and relation of every one; so of words must we be as ready, to consider of every one what is the true meaning, and signification of it according to truth and nature, however it be taken in common use.</p>
+  <p class="by">— Marcus Aurelius, Meditations (tr. George Long)</p>
+  <p class="ctx">Marcus is saying that you should take each statement and each action on its own terms, and check what a word actually means and what a move is actually for, rather than accepting the common usage or the default story. For a poker player this maps onto reviewing each decision in isolation: judge the spot in front of you by its own purpose and expected value, not by the results of the previous hand or the label the table has attached to it.</p>
+</section>
+<section class="anchor">
+  <div>
+    <p class="kicker">Quote</p>
+    <blockquote>He who has a why to live for can bear almost any how.</blockquote>
+    <p class="by">— Friedrich Nietzsche</p>
+    <p class="ctx">Twilight of the Idols. Later used by Viktor Frankl as the thesis of Man&#x27;s Search for Meaning, written in a concentration camp.</p>
+  </div>
+  <div>
+    <p class="kicker">Mental model · Psychology</p>
+    <p class="mm">Social Proof</p>
+    <p class="ctx">When uncertain, humans copy others. Munger cites the Jonestown massacre: once a few people drank the poison, social proof cascaded through 900. Less horrifically: laugh tracks work because we&#x27;re wired to follow the crowd. The implication: in ambiguous situations, don&#x27;t check what others are doing — check the underlying reality.</p>
+  </div>
+</section>
+
+<section class="spot">
+  <p class="kicker">Channel spotlight · 1 day left</p>
+  <p class="mm"><a href="https://www.youtube.com/channel/UC1yNl2E66ZzKApQdRuTQ4tw">Sabine Hossenfelder</a></p>
+  <p class="ctx">She is a physicist who takes a skeptical, first-principles look at science news, including how research gets hyped and where studies and incentives go wrong. Your list is mostly health, poker, and AI voices, and she adds a more critical view of how to read new studies and AI claims, which fits your interest in clear thinking and inversion. She posts short solo explainers, usually 5-12 minutes and dense with data, several times a week.</p>
+  <div class="snip"><code id="snip">    &quot;Sabine Hossenfelder&quot;: &quot;UC1yNl2E66ZzKApQdRuTQ4tw&quot;,</code><button type="button" id="copy">Copy</button></div>
+  <p class="hint">Paste into YOUTUBE_CHANNELS in brief.py to follow.</p>
+</section>
+
+<footer class="foot">
+  <nav class="arch"><a href="2026-11-17.html">← Yesterday</a><a href="./">All briefs</a></nav>
+  <details><summary class="hl warn">● 1 source issue · 58 OK</summary><ul><li class="fail"><b>r/poker (top today)</b> — proxy HTTP 404, direct HTTP 404</li></ul></details>
+  <p class="stats">96 new items scanned · 10 read in full · 41k in / 4k out tokens · 1m41s</p>
+</footer>
+</div>
+<button type="button" class="send" id="send">Send feedback <b id="send-n">0</b></button>
+<script>
+(function () {
+  var REPO = "msusyr24/morning-brief", DAY = "2026-11-18", KEY = 'brief-votes';
+
+  // copy button (channel spotlight)
+  var b = document.getElementById('copy');
+  if (b) b.addEventListener('click', function () {
+    navigator.clipboard.writeText(document.getElementById('snip').innerText.trim());
+    b.textContent = 'Copied'; setTimeout(function () { b.textContent = 'Copy'; }, 1800);
+  });
+
+  // live BTC price
+  var p = document.getElementById('btc-p');
+  if (p) fetch('https://api.coingecko.com/api/v3/simple/price?ids=bitcoin&vs_currencies=usd&include_24hr_change=true')
+    .then(function (r) { return r.json(); })
+    .then(function (d) {
+      var v = d.bitcoin.usd, c = d.bitcoin.usd_24h_change;
+      p.textContent = '$' + Math.round(v).toLocaleString('en-US');
+      document.getElementById('btc-c').innerHTML = '<span class="' + (c >= 0 ? 'up' : 'down') + '">' + (c >= 0 ? '▲ ' : '▼ ') + Math.abs(c).toFixed(1) + '%</span>';
+    }).catch(function () {});
+
+  // reading progress + active section pill
+  var prog = document.getElementById('prog'), pills = document.querySelectorAll('.nav a'), secs = document.querySelectorAll('.sec');
+  function onScroll() {
+    var h = document.documentElement, max = h.scrollHeight - h.clientHeight;
+    prog.style.transform = 'scaleX(' + (max > 0 ? h.scrollTop / max : 0) + ')';
+    var cur = null;
+    secs.forEach(function (s) { if (s.getBoundingClientRect().top < 120) cur = s.id; });
+    pills.forEach(function (a) {
+      var on = a.getAttribute('href') === '#' + cur;
+      if (on && !a.classList.contains('on')) a.scrollIntoView({inline: 'nearest', block: 'nearest'});
+      a.classList.toggle('on', on);
+    });
+  }
+  window.addEventListener('scroll', onScroll, {passive: true}); onScroll();
+
+  // thumbs up / down -> GitHub issue
+  var votes = {};
+  try { votes = JSON.parse(localStorage.getItem(KEY) || '{}'); } catch (e) {}
+  function save() { try { localStorage.setItem(KEY, JSON.stringify(votes)); } catch (e) {} }
+  function id(el) { return el.dataset.src + '|' + el.dataset.title; }
+  var send = document.getElementById('send'), sendN = document.getElementById('send-n');
+  function refresh() {
+    var n = Object.keys(votes).length;
+    sendN.textContent = n; send.classList.toggle('show', n > 0 && !!REPO);
+    document.querySelectorAll('.vote').forEach(function (el) {
+      var v = votes[id(el)];
+      el.querySelector('.up').classList.toggle('on', !!v && v.v > 0);
+      el.querySelector('.dn').classList.toggle('on', !!v && v.v < 0);
+    });
+  }
+  document.querySelectorAll('.vote button').forEach(function (btn) {
+    btn.addEventListener('click', function (ev) {
+      ev.preventDefault();
+      var el = btn.parentNode, k = id(el), v = btn.classList.contains('up') ? 1 : -1;
+      if (votes[k] && votes[k].v === v) delete votes[k];
+      else votes[k] = {v: v, s: el.dataset.src, t: el.dataset.title};
+      if (navigator.vibrate) navigator.vibrate(8);
+      save(); refresh();
+    });
+  });
+  send.addEventListener('click', function () {
+    var lines = Object.keys(votes).map(function (k) {
+      var v = votes[k]; return (v.v > 0 ? '+' : '-') + ' | ' + v.s.replace(/\|/g, '/') + ' | ' + v.t.replace(/\|/g, '/');
+    });
+    var url = 'https://github.com/' + REPO + '/issues/new?title=' + encodeURIComponent('Brief feedback ' + DAY) +
+      '&body=' + encodeURIComponent(lines.join('\n') + '\n\n(Tap Submit. The next brief learns from these.)');
+    votes = {}; save(); refresh();
+    window.open(url, '_blank');
+  });
+  refresh();
+})();
+</script>
+</body>
+</html>
