@@ -1,11 +1,11 @@
 {
   "current_suggestion": {
-    "channel_name": "Sabine Hossenfelder",
-    "channel_id": "UC1yNl2E66ZzKApQdRuTQ4tw",
-    "youtube_handle": "@SabineHossenfelder",
-    "pitch": "She is a physicist who takes a skeptical, first-principles look at science news, including how research gets hyped and where studies and incentives go wrong. Your list is mostly health, poker, and AI voices, and she adds a more critical view of how to read new studies and AI claims, which fits your interest in clear thinking and inversion. She posts short solo explainers, usually 5-12 minutes and dense with data, several times a week."
+    "channel_name": "Tim Ferriss",
+    "channel_id": "UCznv7Vf9nBdJYvBagFdAHWw",
+    "youtube_handle": "@timferriss",
+    "pitch": "He covers the overlap between your Stoicism, decision-making and performance interests that most of your health and poker channels skip. He is a long-time Seneca devotee (the 'fear-setting' exercise is applied Stoic premeditatio malorum), and he interviews decision-science people, elite operators and researchers about resilience, sleep, and handling pressure. The format is 1.5\u20133 hour interviews, plus occasional solo or short-form pieces, and the questions are practical and tool-oriented, which complements the more data-heavy channels you already follow."
   },
-  "shown_count": 3,
+  "shown_count": 1,
   "history": [
     "Brad Kearns",
     "Dr. Layne Norton",
@@ -85,6 +85,7 @@
     "AI Explained",
     "AI Explained",
     "Andrej Karpathy",
-    "Sabine Hossenfelder"
+    "Sabine Hossenfelder",
+    "Tim Ferriss"
   ]
 }
