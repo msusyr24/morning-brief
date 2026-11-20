@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="color-scheme" content="light dark">
+<meta name="theme-color" content="#f5f2ea" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#15140f" media="(prefers-color-scheme: dark)">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="Brief">
+<meta name="robots" content="noindex">
+<link rel="icon" href="../icon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="../apple-touch-icon.png">
+<title>Morning Brief · Friday, November 20</title>
+<style>
+:root {
+  --bg:#f5f2ea; --card:#fffdf8; --ink:#1d1b17; --soft:#47433b; --mute:#837d71; --rule:#e6e0d3;
+  --acc:#2d5b4f; --acc-soft:#e6eee8; --warm:#b4691a; --up:#2e7d4f; --down:#b8402f;
+  --serif: "Iowan Old Style", "Charter", "Palatino Linotype", Palatino, Georgia, serif;
+  --sans: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", system-ui, Roboto, sans-serif;
+  --shadow: 0 1px 2px rgba(40,30,10,.05), 0 8px 24px -14px rgba(40,30,10,.22);
+  --r: 18px; --pad: 20px;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg:#13120e; --card:#1c1a15; --ink:#efeadd; --soft:#cdc6b6; --mute:#8f887a; --rule:#2f2c26;
+    --acc:#8fc2ad; --acc-soft:#1f2a25; --warm:#e0a15a; --up:#6cc28e; --down:#e57f6c;
+    --shadow: 0 1px 2px rgba(0,0,0,.35), 0 10px 28px -16px rgba(0,0,0,.7);
+  }
+  .sec, .nav a { --a: var(--ad) !important; }
+}
+* { box-sizing:border-box; -webkit-tap-highlight-color:transparent; }
+html { scroll-behavior:smooth; -webkit-text-size-adjust:100%; }
+body { margin:0; background:var(--bg); color:var(--ink); font:18px/1.62 var(--serif);
+  -webkit-font-smoothing:antialiased; text-rendering:optimizeLegibility; overflow-x:hidden; }
+.wrap { max-width:680px; margin:0 auto;
+  padding:max(30px, calc(env(safe-area-inset-top) + 14px)) max(var(--pad), env(safe-area-inset-right))
+          calc(96px + env(safe-area-inset-bottom)) max(var(--pad), env(safe-area-inset-left)); }
+a { color:inherit; text-decoration-color:var(--rule); text-underline-offset:3px; text-decoration-thickness:1px; }
+.kicker { font:650 11px/1.2 var(--sans); letter-spacing:.13em; text-transform:uppercase; color:var(--mute); margin:0 0 10px; }
+.progress { position:fixed; inset:0 0 auto 0; height:3px; z-index:20; background:var(--warm); transform-origin:0 50%; transform:scaleX(0); }
+
+header .brand { display:flex; align-items:center; gap:8px; font:650 12px/1 var(--sans); letter-spacing:.16em; text-transform:uppercase; color:var(--acc); margin:0; }
+header .brand::before { content:""; width:18px; height:18px; border-radius:50%;
+  background:radial-gradient(circle at 50% 120%, var(--warm) 0 45%, transparent 46%), var(--acc-soft); box-shadow:inset 0 0 0 1px var(--rule); }
+header h1 { font-size:42px; line-height:1.06; margin:14px 0 10px; font-weight:650; letter-spacing:-.025em; }
+.greet { margin:0; color:var(--soft); font-size:18px; line-height:1.5; font-style:italic; }
+.bar { display:flex; flex-wrap:wrap; gap:6px; margin-top:14px; }
+.bar span { font:600 12px/1 var(--sans); color:var(--soft); background:var(--card); border:1px solid var(--rule); border-radius:99px; padding:7px 11px; }
+
+.cards { display:grid; gap:10px; margin:22px 0 0; }
+.cards.n2 { grid-template-columns:1fr 1fr; }
+.card { background:var(--card); border:1px solid var(--rule); border-radius:var(--r); padding:15px 16px 13px; box-shadow:var(--shadow); position:relative; overflow:hidden; }
+.card .big { font:650 28px/1.1 var(--sans); letter-spacing:-.02em; font-variant-numeric:tabular-nums; display:flex; align-items:center; gap:8px; }
+.card .wi { font-size:24px; }
+.card .cap { margin:6px 0 0; font:12.5px/1.4 var(--sans); color:var(--mute); }
+.up { color:var(--up); } .down { color:var(--down); }
+.spark { display:block; width:100%; height:30px; margin-top:8px; }
+.spark .ln { fill:none; stroke-width:1.8; stroke-linejoin:round; stroke-linecap:round; vector-effect:non-scaling-stroke; }
+.spark.up .ln { stroke:var(--up); } .spark.down .ln { stroke:var(--down); }
+.spark .fill { opacity:.12; } .spark.up .fill { fill:var(--up); } .spark.down .fill { fill:var(--down); }
+.spark.up .dot { fill:var(--up); } .spark.down .dot { fill:var(--down); }
+
+.top { background:var(--card); border:1px solid var(--rule); border-radius:var(--r); padding:20px 20px 6px; margin:12px 0 0; box-shadow:var(--shadow); }
+.top ol { margin:0; padding:0; list-style:none; counter-reset:t; }
+.top li { counter-increment:t; position:relative; padding:0 0 14px 34px; font-size:17.5px; line-height:1.48; }
+.top li::before { content:counter(t); position:absolute; left:0; top:-1px; font:650 23px/1 var(--serif); color:var(--warm); }
+.top a { text-decoration:none; }
+
+.nav { position:sticky; top:0; z-index:10; display:flex; gap:7px; overflow-x:auto; scroll-snap-type:x proximity; scroll-padding-inline:var(--pad);
+  padding:calc(env(safe-area-inset-top) + 10px) var(--pad) 10px; margin:18px calc(-1 * var(--pad)) 0;
+  background:color-mix(in srgb, var(--bg) 86%, transparent); backdrop-filter:saturate(1.5) blur(14px); -webkit-backdrop-filter:saturate(1.5) blur(14px);
+  scrollbar-width:none; mask-image:linear-gradient(90deg, #000 88%, transparent); -webkit-mask-image:linear-gradient(90deg, #000 88%, transparent); }
+.nav::-webkit-scrollbar { display:none; }
+.nav a { flex:none; scroll-snap-align:start; display:flex; align-items:center; gap:6px; font:600 13.5px/1 var(--sans); padding:10px 13px; border-radius:99px; border:1px solid var(--rule);
+  text-decoration:none; color:var(--soft); background:var(--card); }
+.nav a span { color:var(--a); }
+.nav a em { font-style:normal; font-weight:500; color:var(--mute); font-size:12px; }
+.nav a.on { border-color:var(--a); color:var(--a); background:color-mix(in srgb, var(--a) 9%, var(--card)); }
+
+.sec { margin-top:30px; scroll-margin-top:70px; }
+.sec h2 { display:flex; align-items:center; gap:9px; font:700 13px/1 var(--sans); letter-spacing:.13em;
+  text-transform:uppercase; color:var(--a); margin:0 0 12px 4px; }
+.ic { font-size:15px; }
+.item { background:var(--card); border:1px solid var(--rule); border-radius:var(--r); padding:16px 18px 10px; margin-bottom:12px;
+  box-shadow:var(--shadow); scroll-margin-top:70px; border-top:3px solid var(--a); }
+.item .src { font:650 12px/1.3 var(--sans); color:var(--a); margin:0 0 8px; letter-spacing:.01em; }
+.item .src a { color:var(--mute); font-weight:500; }
+.item h3 { font-size:21.5px; line-height:1.27; margin:0 0 9px; font-weight:650; letter-spacing:-.012em; }
+.item h3 a { text-decoration:none; }
+.item .sum { margin:0 0 10px; color:var(--soft); }
+.thumb { float:right; position:relative; width:112px; margin:2px 0 8px 14px; border-radius:10px; overflow:hidden; aspect-ratio:16/9; background:var(--rule); }
+.thumb img { width:100%; height:100%; object-fit:cover; display:block; }
+.thumb .play { position:absolute; inset:0; display:grid; place-items:center; color:#fff; font-size:15px; text-shadow:0 1px 6px rgba(0,0,0,.6); }
+.item:target { box-shadow:0 0 0 2px var(--a), var(--shadow); }
+.take { clear:both; margin:4px 0 12px; padding:12px 14px 12px 30px; background:color-mix(in srgb, var(--a) 7%, var(--card)); border-radius:12px; color:var(--soft); font-size:16px; line-height:1.52; }
+.take li { margin:4px 0; } .take li::marker { color:var(--a); }
+.orig { clear:both; margin:0 0 6px; font:italic 13px/1.45 var(--sans); color:var(--mute); }
+.row { clear:both; display:flex; align-items:center; justify-content:space-between; gap:10px; border-top:1px solid var(--rule); margin:6px -4px 0; padding-top:6px; }
+.open { font:650 14px/1 var(--sans); color:var(--a); text-decoration:none; padding:10px 4px; }
+
+.vote { display:inline-flex; gap:4px; flex:none; }
+.vote button { width:40px; height:36px; border-radius:10px; border:1px solid transparent; background:transparent; font-size:17px; line-height:1;
+  cursor:pointer; filter:grayscale(1); opacity:.5; transition:transform .12s, opacity .12s, filter .12s, background .12s; }
+.vote button:active { transform:scale(.9); }
+.vote button.on { filter:none; opacity:1; background:var(--acc-soft); border-color:var(--rule); }
+
+.also { margin-top:30px; background:var(--card); border:1px solid var(--rule); border-radius:var(--r); padding:0 16px 0 18px; box-shadow:var(--shadow); }
+.also summary { cursor:pointer; padding:18px 0; font:700 13px/1 var(--sans); letter-spacing:.13em; text-transform:uppercase; color:var(--acc); list-style:none; }
+.also summary::-webkit-details-marker { display:none; }
+.also summary::after { content:"＋"; float:right; color:var(--mute); }
+.also[open] summary::after { content:"－"; }
+.also summary span { color:var(--mute); margin-left:6px; }
+.also ul { margin:0 0 10px; padding:0; list-style:none; }
+.also li { display:flex; align-items:center; gap:6px; border-top:1px solid var(--rule); }
+.also li > a { flex:1; padding:12px 0; font-size:16px; line-height:1.48; color:var(--soft); text-decoration:none; }
+.also li b { display:block; font:650 12px/1.3 var(--sans); color:var(--ink); margin-bottom:2px; }
+.also .vote button { width:34px; }
+
+.passage { margin-top:36px; padding:24px 22px 22px; border-radius:var(--r); background:linear-gradient(160deg, color-mix(in srgb, #6b4b8a 10%, var(--card)), var(--card) 60%);
+  border:1px solid var(--rule); box-shadow:var(--shadow); }
+.ptext { margin:0; font-size:19px; line-height:1.6; }
+.ptext::first-letter { float:left; font:650 52px/.86 var(--serif); margin:6px 8px 0 0; color:var(--warm); }
+.anchor { display:grid; grid-template-columns:1fr 1fr; gap:26px; margin-top:12px; padding:22px; border-radius:var(--r); background:var(--card); border:1px solid var(--rule); box-shadow:var(--shadow); }
+blockquote { margin:0; font-size:20px; line-height:1.45; font-style:italic; }
+blockquote::before { content:"“"; display:block; font:650 44px/0.6 var(--serif); color:var(--warm); margin:10px 0 4px; }
+.by { margin:10px 0 8px; font:650 13px var(--sans); color:var(--soft); }
+.mm { font-size:20px; font-weight:650; margin:0 0 6px; line-height:1.3; }
+.ctx { margin:0; font-size:15.5px; line-height:1.58; color:var(--soft); }
+.spot { margin-top:12px; padding:20px 22px; border-radius:var(--r); border:1px dashed var(--rule); }
+.snip { display:flex; gap:8px; align-items:center; margin-top:12px; }
+.snip code { flex:1; min-width:0; overflow-x:auto; white-space:pre; font:12.5px/1.5 ui-monospace, Consolas, monospace; background:var(--acc-soft); padding:9px 10px; border-radius:8px; }
+.snip button { font:650 13px var(--sans); border:0; border-radius:8px; padding:10px 14px; background:var(--acc); color:var(--bg); cursor:pointer; }
+.hint { font:12px var(--sans); color:var(--mute); margin:8px 0 0; }
+.quiet { font-style:italic; color:var(--mute); margin-top:30px; }
+
+.send { position:fixed; left:50%; bottom:calc(16px + env(safe-area-inset-bottom)); z-index:30; transform:translate(-50%, 140%);
+  display:flex; align-items:center; gap:10px; padding:13px 20px; border-radius:99px; border:0; background:var(--ink); color:var(--bg);
+  font:650 15px/1 var(--sans); box-shadow:0 10px 30px -8px rgba(0,0,0,.45); cursor:pointer; transition:transform .25s cubic-bezier(.2,.9,.3,1.2); white-space:nowrap; }
+.send.show { transform:translate(-50%, 0); }
+.send b { background:var(--warm); color:#fff; border-radius:99px; min-width:22px; padding:4px 7px; font-size:12px; text-align:center; }
+
+.foot { margin-top:40px; padding-top:16px; border-top:1px solid var(--rule); font:13px/1.5 var(--sans); color:var(--mute); }
+.arch { display:flex; gap:10px; margin-bottom:14px; }
+.arch a { color:var(--acc); text-decoration:none; font-weight:650; padding:10px 14px; border:1px solid var(--rule); border-radius:99px; background:var(--card); }
+.foot details summary { cursor:pointer; list-style:none; }
+.foot details summary::-webkit-details-marker { display:none; }
+.foot ul { margin:6px 0; padding-left:18px; }
+.foot li.fail b { color:var(--down); } .foot li.warn b { color:var(--warm); }
+.hl { margin:0; font-weight:650; } .hl.ok { color:var(--up); } .hl.warn { color:var(--warm); }
+.stats { margin:6px 0 0; }
+@media (max-width:560px) {
+  :root { --pad:14px; --r:16px; }
+  body { font-size:17px; line-height:1.58; }
+  header h1 { font-size:36px; }
+  .greet { font-size:17px; }
+  .item { padding:15px 15px 8px; }
+  .item h3 { font-size:19.5px; }
+  .thumb { width:96px; margin-left:12px; }
+  .take { font-size:15.5px; }
+  .anchor { grid-template-columns:1fr; gap:22px; }
+  .card .big { font-size:24px; }
+  .ptext { font-size:18px; }
+}
+@media (max-width:360px) { .cards.n2 { grid-template-columns:1fr; } }
+@media (prefers-reduced-motion:reduce) { html { scroll-behavior:auto; } .send { transition:none; } }
+</style>
+</head>
+<body>
+<div class="progress" id="prog"></div>
+<div class="wrap">
+<header>
+  <p class="brand">Morning Brief</p>
+  <h1>Friday, November 20</h1>
+  <p class="greet">Anthropic&#x27;s Nasdaq debut and a Trump-Putin-Xi summit lead the news, with Strategy&#x27;s Q&amp;A on its credit-funded Bitcoin model, a creatine trial and an aggregate-report poker lesson as the main specialist items.</p>
+  <div class="bar"><span>6 min read</span><span>9 stories</span><span>6 quick hits</span></div>
+</header>
+<section class="cards n1">
+  <div class="card btc">
+    <p class="kicker">Bitcoin</p>
+    <div class="big" id="btc-p">$61,652</div>
+    <p class="cap"><span id="btc-c"><span class="down">▼ 1.5%</span></span> 24h · <span class="down">▼ 13.0%</span> 7d</p>
+    <svg class="spark down" viewBox="0 0 132 36" width="132" height="36" preserveAspectRatio="none" aria-hidden="true"><polygon points="2,36 2.0,3.0 5.0,12.0 8.1,8.9 11.1,7.4 14.2,9.4 17.2,11.1 20.3,11.5 23.3,14.9 26.4,14.3 29.4,16.1 32.5,19.1 35.5,23.8 38.6,29.4 41.6,23.4 44.7,20.8 47.7,20.4 50.8,23.3 53.8,21.8 56.9,23.0 59.9,23.7 63.0,24.1 66.0,24.6 69.0,22.3 72.1,20.9 75.1,22.8 78.2,22.5 81.2,24.0 84.3,21.5 87.3,25.7 90.4,24.1 93.4,24.2 96.5,23.0 99.5,23.2 102.6,25.4 105.6,28.0 108.7,30.5 111.7,28.9 114.8,27.3 117.8,25.6 120.9,25.1 123.9,29.2 127.0,33.0 130.0,31.2 130,36" class="fill"/><polyline points="2.0,3.0 5.0,12.0 8.1,8.9 11.1,7.4 14.2,9.4 17.2,11.1 20.3,11.5 23.3,14.9 26.4,14.3 29.4,16.1 32.5,19.1 35.5,23.8 38.6,29.4 41.6,23.4 44.7,20.8 47.7,20.4 50.8,23.3 53.8,21.8 56.9,23.0 59.9,23.7 63.0,24.1 66.0,24.6 69.0,22.3 72.1,20.9 75.1,22.8 78.2,22.5 81.2,24.0 84.3,21.5 87.3,25.7 90.4,24.1 93.4,24.2 96.5,23.0 99.5,23.2 102.6,25.4 105.6,28.0 108.7,30.5 111.7,28.9 114.8,27.3 117.8,25.6 120.9,25.1 123.9,29.2 127.0,33.0 130.0,31.2" class="ln"/><circle cx="130.0" cy="31.2" r="2.6" class="dot"/></svg>
+  </div></section>
+<section class="top"><p class="kicker">If you read nothing else</p><ol><li><a href="#v0">Saylor explains in specific numbers how Strategy makes money from credit spreads, and why it is buying back STRC while Bitcoin is down.</a></li><li><a href="#r28">The first pure AI company to list closed at $97.17 against an $83 allocation price, on a day the Nasdaq fell 2.3%.</a></li><li><a href="#v1">A practical method for turning solver flop reports into written rules of thumb for a single spot.</a></li></ol></section>
+<nav class="nav" aria-label="Sections"><a href="#s-news" style="--a:#38506b;--ad:#a3b9d3"><span>◉</span>World &amp; Markets<em>3</em></a><a href="#s-poker" style="--a:#2d5b4f;--ad:#8fc2ad"><span>♠</span>Poker<em>1</em></a><a href="#s-health" style="--a:#a33c3c;--ad:#ec8f84"><span>✚</span>Health &amp; Sleep<em>2</em></a><a href="#s-mind" style="--a:#6b4b8a;--ad:#c6a4e6"><span>◎</span>Mind &amp; Philosophy<em>1</em></a><a href="#s-bitcoin" style="--a:#b4691a;--ad:#e7a865"><span>₿</span>Bitcoin &amp; Macro<em>1</em></a><a href="#s-ai" style="--a:#4a4f9c;--ad:#a9adf0"><span>◆</span>AI Capability<em>1</em></a></nav>
+<section class="sec" id="s-news" style="--a:#38506b;--ad:#a3b9d3"><h2><span class="ic">◉</span>World &amp; Markets</h2>
+<article class="item" id="r28">
+  <p class="src">BBC World</p>
+  <h3><a href="https://www.bbc.co.uk/news/articles/c3x29ggenz12o?at_medium=RSS&amp;at_campaign=rss">Anthropic lists on Nasdaq at roughly $1.76 trillion, closing 17% above allocation price</a></h3>
+  <p class="sum">Anthropic shares opened above the $83 allocation price and hit $111.53, near a $2 trillion valuation, then closed at $97.17. The Nasdaq Composite fell almost 2.3%, with Alphabet down 2.9% and Amazon down 3.9%. Analysts cited in the piece point to SpaceX, whose shares jumped about 10% on day one this year and then fell below the debut price within a month. The article also says Democrats are expected to hold more power after 2027 and are likely to push AI guardrails. Trump again opposed &#x27;robust regulation&#x27;, while a bipartisan House AI Safety and Innovation Caucus formed the same day.</p>
+  <div class="row"><a class="open" href="https://www.bbc.co.uk/news/articles/c3x29ggenz12o?at_medium=RSS&amp;at_campaign=rss">Read →</a><span class="vote" data-src="BBC World" data-title="Anthropic becomes one of world&#x27;s most valuable public companies in stock market debut"><button type="button" class="up" aria-label="More like this">👍</button><button type="button" class="dn" aria-label="Less like this">👎</button></span></div>
+</article>
+<article class="item" id="r32">
+  <p class="src">BBC World</p>
+  <h3><a href="https://www.bbc.co.uk/news/articles/c623j4ln97x7o?at_medium=RSS&amp;at_campaign=rss">Trump, Putin and Xi sign &#x27;peace declaration&#x27; at first trilateral meeting in Shenzhen</a></h3>
+  <p class="sum">The three leaders met for 90 minutes at the APEC summit and said &#x27;nuclear war cannot be won and must never be fought&#x27;. They also committed to raise petroleum output and to reform the UN, and said the ICC must not abuse its jurisdiction. Putin said Ukraine and Europe are not yet ready to compromise. Russian drones hit Kyiv during the talks, and Putin promised a &#x27;far more painful&#x27; response to the strike that destroyed the central road section of the Crimea bridge. Republican Senator John Curtis welcomed the nuclear language but said Putin and Xi &#x27;are not our friends&#x27;.</p>
+  <div class="row"><a class="open" href="https://www.bbc.co.uk/news/articles/c623j4ln97x7o?at_medium=RSS&amp;at_campaign=rss">Read →</a><span class="vote" data-src="BBC World" data-title="Trump, Putin and Xi release &#x27;peace declaration&#x27; after historic meeting"><button type="button" class="up" aria-label="More like this">👍</button><button type="button" class="dn" aria-label="Less like this">👎</button></span></div>
+</article>
+<article class="item" id="r30">
+  <p class="src">BBC World</p>
+  <h3><a href="https://www.bbc.co.uk/news/articles/c804wzp20ddvo?at_medium=RSS&amp;at_campaign=rss">ICJ rules Myanmar committed genocide against the Rohingya, the first such state finding</a></h3>
+  <p class="sum">The UN&#x27;s top court ruled 9 to 6 that genocidal intent was &#x27;the only reasonable inference&#x27; from the evidence. It found about 10,000 Rohingya were violently killed in the 2017 crackdown and more than 700,000 fled to Bangladesh. It also found for the first time that rape and sexual violence can be an act of genocide. Reparations will be set later. The court has limited enforcement power, and the ruling is expected to bear on the pending South Africa v. Israel case.</p>
+  <div class="row"><a class="open" href="https://www.bbc.co.uk/news/articles/c804wzp20ddvo?at_medium=RSS&amp;at_campaign=rss">Read →</a><span class="vote" data-src="BBC World" data-title="Myanmar committed genocide against Rohingya minority, top UN court rules"><button type="button" class="up" aria-label="More like this">👍</button><button type="button" class="dn" aria-label="Less like this">👎</button></span></div>
+</article></section><section class="sec" id="s-poker" style="--a:#2d5b4f;--ad:#8fc2ad"><h2><span class="ic">♠</span>Poker</h2>
+<article class="item" id="v1">
+  <p class="src">▶ GTO Wizard</p>
+  <a class="thumb" href="https://www.youtube.com/watch?v=VSkuZn3fQ_E" aria-hidden="true" tabindex="-1"><img src="https://i.ytimg.com/vi/VSkuZn3fQ_E/mqdefault.jpg" alt="" loading="lazy" width="320" height="180"><span class="play">▶</span></a><h3><a href="https://www.youtube.com/watch?v=VSkuZn3fQ_E">Turn solver aggregate flop reports into written rules of thumb, using SB vs CO 3-bet pot as the example</a></h3>
+  <p class="sum">GTO Wizard&#x27;s lesson uses aggregate reports, which show the solver&#x27;s strategy across all 1,755 flops at once. Grouping by high card, suit and connectedness makes patterns visible. In SB vs CO 3-bet pots, SB c-bets 75% or more on Jack-high and above and under a third on Ten-high and below, because SB has the range advantage on high cards. SB also bets more on rainbow, paired and disconnected boards, and less on monotone and connected ones. The general principle is to attack more when fewer draws are available. When SB bets less often, it tends to use larger sizes. The advice is to write each finding into a spreadsheet so you retain it.</p><p class="orig">“Every Flop at Once: Find the Patterns That Matter”</p>
+  <div class="row"><a class="open" href="https://www.youtube.com/watch?v=VSkuZn3fQ_E">Watch →</a><span class="vote" data-src="GTO Wizard" data-title="Every Flop at Once: Find the Patterns That Matter"><button type="button" class="up" aria-label="More like this">👍</button><button type="button" class="dn" aria-label="Less like this">👎</button></span></div>
+</article></section><section class="sec" id="s-health" style="--a:#a33c3c;--ad:#ec8f84"><h2><span class="ic">✚</span>Health &amp; Sleep</h2>
+<article class="item" id="v18">
+  <p class="src">▶ Physionic</p>
+  <a class="thumb" href="https://www.youtube.com/watch?v=WftKkLzq-d8" aria-hidden="true" tabindex="-1"><img src="https://i.ytimg.com/vi/WftKkLzq-d8/mqdefault.jpg" alt="" loading="lazy" width="320" height="180"><span class="play">▶</span></a><h3><a href="https://www.youtube.com/watch?v=WftKkLzq-d8">Creatine may raise muscle strength even without exercise, but the new trial is mixed</a></h3>
+  <p class="sum">A new four-arm randomized placebo-controlled trial compared creatine with and without exercise. On one strength measure creatine alone matched creatine plus exercise. On leg strength, creatine helped less than creatine plus exercise, and several other measures did not improve. The reviewer says the trial&#x27;s statistics are weak. He says earlier studies, including ones in people in their 60s and 70s, mostly found independent strength effects. The two null studies had issues: one measured lean mass only, and the other was underpowered with 33 of 42 needed participants. This trial used up to 10 g a day, and side effects were generally absent, with one possible signal for bloating and constipation.</p><p class="orig">“Creatine may help more than we thought - New Study”</p>
+  <div class="row"><a class="open" href="https://www.youtube.com/watch?v=WftKkLzq-d8">Watch →</a><span class="vote" data-src="Physionic" data-title="Creatine may help more than we thought - New Study"><button type="button" class="up" aria-label="More like this">👍</button><button type="button" class="dn" aria-label="Less like this">👎</button></span></div>
+</article>
+<article class="item" id="v14">
+  <p class="src">▶ Andrew Huberman</p>
+  <a class="thumb" href="https://www.youtube.com/watch?v=8YHTMsy0bT8" aria-hidden="true" tabindex="-1"><img src="https://i.ytimg.com/vi/8YHTMsy0bT8/mqdefault.jpg" alt="" loading="lazy" width="320" height="180"><span class="play">▶</span></a><h3><a href="https://www.youtube.com/watch?v=8YHTMsy0bT8">How nicotine acts on dopamine, acetylcholine and norepinephrine, and why it is not a workout aid</a></h3>
+  <p class="sum">Huberman says nicotine binds alpha4-beta2 receptors and drives three effects. It raises dopamine in the reward pathway, raises acetylcholine for focus (lasting about 30 to 45 minutes), and raises norepinephrine for alertness. It also suppresses appetite and lifts metabolism by roughly 2 to 5%, transiently. He says the combination of an alert brain with somewhat relaxed muscle suits cognitive work but is poor for physical performance. He says smokeless tobacco is linked to a 50-fold rise in mouth cancers. Smoking and vaping damage the blood-vessel lining.</p><p class="orig">“Essentials: Nicotine&#x27;s Effects on the Brain &amp; Body &amp; How to Quit Smoking or Vaping”</p>
+  <div class="row"><a class="open" href="https://www.youtube.com/watch?v=8YHTMsy0bT8">Watch →</a><span class="vote" data-src="Andrew Huberman" data-title="Essentials: Nicotine&#x27;s Effects on the Brain &amp; Body &amp; How to Quit Smoking or Vaping"><button type="button" class="up" aria-label="More like this">👍</button><button type="button" class="dn" aria-label="Less like this">👎</button></span></div>
+</article></section><section class="sec" id="s-mind" style="--a:#6b4b8a;--ad:#c6a4e6"><h2><span class="ic">◎</span>Mind &amp; Philosophy</h2>
+<article class="item" id="v19">
+  <p class="src">▶ Daily Stoic</p>
+  <a class="thumb" href="https://www.youtube.com/watch?v=eCjqWcbsK1M" aria-hidden="true" tabindex="-1"><img src="https://i.ytimg.com/vi/eCjqWcbsK1M/mqdefault.jpg" alt="" loading="lazy" width="320" height="180"><span class="play">▶</span></a><h3><a href="https://www.youtube.com/watch?v=eCjqWcbsK1M">Robert Greene&#x27;s &#x27;Law of the Sublime&#x27; meets Stoicism: awe, death and doing hard things</a></h3>
+  <p class="sum">Ryan Holiday draws Stoic parallels from Greene&#x27;s new book. After a stroke ended Greene&#x27;s travel plans, he found the sublime in his own backyard, which fits the obstacle-is-the-way idea. Marcus Aurelius&#x27;s &#x27;bird&#x27;s-eye view&#x27; passage is the cosmic sublime, a perspective that turns down what doesn&#x27;t matter. Holiday says that hard physical effort gives a sense of one&#x27;s capacity. He also says Stoicism is not emotionlessness, citing Marcus weeping and Antoninus saying &#x27;let the boy be human&#x27;. He argues that contemplating death, as Seneca urged, opens up the sublime rather than closing it.</p><p class="orig">“The 7 Stoic Lessons In Robert Greene&#x27;s New Book”</p>
+  <div class="row"><a class="open" href="https://www.youtube.com/watch?v=eCjqWcbsK1M">Watch →</a><span class="vote" data-src="Daily Stoic" data-title="The 7 Stoic Lessons In Robert Greene&#x27;s New Book"><button type="button" class="up" aria-label="More like this">👍</button><button type="button" class="dn" aria-label="Less like this">👎</button></span></div>
+</article></section><section class="sec" id="s-bitcoin" style="--a:#b4691a;--ad:#e7a865"><h2><span class="ic">₿</span>Bitcoin &amp; Macro</h2>
+<article class="item" id="v0">
+  <p class="src">▶ Michael Saylor · Bitcoin Magazine</p>
+  <a class="thumb" href="https://www.youtube.com/watch?v=nt-c32o032Y" aria-hidden="true" tabindex="-1"><img src="https://i.ytimg.com/vi/nt-c32o032Y/mqdefault.jpg" alt="" loading="lazy" width="320" height="180"><span class="play">▶</span></a><h3><a href="https://www.youtube.com/watch?v=nt-c32o032Y">Saylor: Strategy earns a spread on credit, and is shrinking STRC while credit markets contract</a></h3>
+  <p class="sum">Saylor says Strategy makes money by issuing credit against its Bitcoin. The key yardstick is a hurdle rate of about 10.5%. If Bitcoin beats that, the gains go to common shareholders. If it only matches it, the result is neutral. Below it, the result is dilutive. He says net Bitcoin per share is the immediate accretion test, while gross Bitcoin per share only matters to long-horizon bulls. On STRC (12% dividend), he says credit markets have contracted for about six months. Demand has fallen from about $10.5B to perhaps $5-7.5B, so Strategy is buying back around $3B below par. He gives the cash runway as about 3.4 years of dollar reserves, and says the only existential risk is Bitcoin going to zero.</p><ul class="take"><li>Capital structure cited: about $6.7B convertibles, $12.7B preferred, 850,000+ BTC</li><li>Swapping MSTR stock for BTC is accretive above roughly 1.3x mNAV; for dollars, above 1.0x</li><li>STRC buybacks fund a &#x27;continuous auction&#x27; to find the natural size of demand at a 12% dividend</li><li>Dollar reserves cover about 3.4 years, versus 0.7 years when Bitcoin last hit $62,000</li></ul><p class="orig">“LIVE: Strategy ($MSTR) Q3 2026 Investor Q&amp;A feat. Michael Saylor, Phong Le &amp; Natalie Brunell”</p>
+  <div class="row"><a class="open" href="https://www.youtube.com/watch?v=nt-c32o032Y">Watch →</a><span class="vote" data-src="Michael Saylor · Bitcoin Magazine" data-title="LIVE: Strategy ($MSTR) Q3 2026 Investor Q&amp;A feat. Michael Saylor, Phong Le &amp; Natalie Brunell"><button type="button" class="up" aria-label="More like this">👍</button><button type="button" class="dn" aria-label="Less like this">👎</button></span></div>
+</article></section><section class="sec" id="s-ai" style="--a:#4a4f9c;--ad:#a9adf0"><h2><span class="ic">◆</span>AI Capability</h2>
+<article class="item" id="v17">
+  <p class="src">▶ AI Explained</p>
+  <a class="thumb" href="https://www.youtube.com/watch?v=KGA7B_c_S4s" aria-hidden="true" tabindex="-1"><img src="https://i.ytimg.com/vi/KGA7B_c_S4s/mqdefault.jpg" alt="" loading="lazy" width="320" height="180"><span class="play">▶</span></a><h3><a href="https://www.youtube.com/watch?v=KGA7B_c_S4s">Which AI model is best depends on your domain, because progress follows training data</a></h3>
+  <p class="sum">AI Explained argues that benchmark leadership flips by task: Gemini 4 Neon leads on PDF expert tasks, Fable 5.2 on frontier coding, and the aggregate indexes disagree. His claim is that this reflects the data each lab trains on, not raw intelligence, so you should test the main model families on your own task. On automating AI research, he reports OpenAI researchers saying coding agents give about 3 months of work in 1 month, against Anthropic staff saying 12x personal speedup. He says these figures depend heavily on how the question is asked. He also says capability jumps such as cyber exploit-finding appear on no aggregate chart.</p><p class="orig">“Anthropic IPOs, GPT 6.2 Astra Arrives, But There’s a Bigger Story”</p>
+  <div class="row"><a class="open" href="https://www.youtube.com/watch?v=KGA7B_c_S4s">Watch →</a><span class="vote" data-src="AI Explained" data-title="Anthropic IPOs, GPT 6.2 Astra Arrives, But There’s a Bigger Story"><button type="button" class="up" aria-label="More like this">👍</button><button type="button" class="dn" aria-label="Less like this">👎</button></span></div>
+</article></section>
+<details class="also"><summary>Quick hits <span>6</span></summary><ul><li><a href="https://bitcoinmagazine.com/markets/strategy-stock-sinks-62000"><b>Bitcoin Magazine</b>Strategy shares fell 4.6% to $86.13, a sixth straight decline, as Bitcoin dipped below $62,000, leaving its 850,849 BTC worth about $11B less than it paid.</a><span class="vote" data-src="Bitcoin Magazine" data-title="Strategy (MSTR) Shares Tumble for Sixth Straight Day to $86 as Bitcoin Slides"><button type="button" class="up" aria-label="More like this">👍</button><button type="button" class="dn" aria-label="Less like this">👎</button></span></li><li><a href="https://www.bbc.co.uk/news/articles/ckzd9nln5e6go?at_medium=RSS&amp;at_campaign=rss"><b>BBC World</b>European allies of Ukraine say they have a united negotiating position and are ready for talks with Russia, after a summit in Berlin.</a><span class="vote" data-src="BBC World" data-title="Europe ready for talks with Russia on ending war in Ukraine, leaders say"><button type="button" class="up" aria-label="More like this">👍</button><button type="button" class="dn" aria-label="Less like this">👎</button></span></li><li><a href="https://www.youtube.com/watch?v=63BAYfMO6Do"><b>Renaissance Periodization</b>RP short: sleep is as powerful as steroids for muscle building up to 7 to 9 hours, but sleeping 12 to 14 hours adds nothing.</a><span class="vote" data-src="Renaissance Periodization" data-title="Sleep Builds Muscle Like a Drug"><button type="button" class="up" aria-label="More like this">👍</button><button type="button" class="dn" aria-label="Less like this">👎</button></span></li><li><a href="https://www.pokernews.com/news/2026/11/pokerstars-to-leave-new-zealand-after-missing-out-on-license-52842.htm?utm_medium=feed&amp;utm_campaign=homefeed&amp;utm_source=rss"><b>PokerNews</b>PokerStars is leaving New Zealand after parent company Flutter failed to secure a gambling licence.</a><span class="vote" data-src="PokerNews" data-title="PokerStars to Leave New Zealand After Missing Out on Gambling Licence"><button type="button" class="up" aria-label="More like this">👍</button><button type="button" class="dn" aria-label="Less like this">👎</button></span></li><li><a href="https://www.pokernews.com/video/wrestling-legend-chris-jericho-wants-to-bring-poker-to-the-h-13516.htm?utm_medium=feed&amp;utm_campaign=homefeed&amp;utm_source=rss"><b>PokerNews</b>PokerNews podcast touches on the recent GGPoker data leak and Martin Zamani&#x27;s fifth online bracelet.</a><span class="vote" data-src="PokerNews" data-title="Wrestling Legend Chris Jericho Wants to Bring Poker to the High Seas! | PokerNews Podcast #1017"><button type="button" class="up" aria-label="More like this">👍</button><button type="button" class="dn" aria-label="Less like this">👎</button></span></li><li><a href="https://www.anthropic.com/research/claude-black-hole-physics"><b>Hacker News</b>Hacker News: Claude is reported to have solved two open problems in black hole physics.</a><span class="vote" data-src="Hacker News" data-title="Claude solves two open problems in the physics of black holes"><button type="button" class="up" aria-label="More like this">👍</button><button type="button" class="dn" aria-label="Less like this">👎</button></span></li></ul></details>
+
+<section class="passage">
+  <p class="kicker">Daily Stoic reading · Acting justly, accepting what comes</p>
+  <p class="ptext">XII. He hath got loose from the bonds of his body, and perceiving that within a very little while he must of necessity bid the world farewell, and leave all these things behind him, he wholly applied himself, as to righteousness in all his actions, so to the common nature in all things that should happen unto him. And contenting himself with these two things, to do all things justly, and whatsoever God doth send to like well of it: what others shall either say or think of him, or shall do against him, he doth not so much as trouble his thoughts with it. To go on straight, whither right and reason directed him, and by so doing to follow God, was the only thing that he did mind, that, his only business and occupation.</p>
+  <p class="by">— Marcus Aurelius, Meditations (tr. George Long)</p>
+  <p class="ctx">In plain terms: the person who has made peace with his own mortality stops spending energy on what others think or might do to him, and simply aims to act justly and accept whatever happens. For a poker player, that means judging each decision by whether the reasoning was sound at the moment it was made, and accepting that the cards and the opponents&#x27; choices are outside his control. Results are noisy over short samples, so a good process should be evaluated on its own terms, not on the outcome of any single hand or session.</p>
+</section>
+<section class="anchor">
+  <div>
+    <p class="kicker">Quote</p>
+    <blockquote>The cave you fear to enter holds the treasure you seek.</blockquote>
+    <p class="by">— Joseph Campbell</p>
+    <p class="ctx">The Hero with a Thousand Faces. Campbell&#x27;s summary of why mythic heroes across cultures face what they dread.</p>
+  </div>
+  <div>
+    <p class="kicker">Mental model · Psychology</p>
+    <p class="mm">Availability Bias</p>
+    <p class="ctx">What&#x27;s easily recalled feels more common. Plane crashes dominate the news, so flying feels more dangerous than driving — despite driving being ~100x deadlier per mile. Munger&#x27;s defense: when estimating frequency, write down actual numbers, don&#x27;t trust your gut&#x27;s sense of &#x27;how often this happens.&#x27;</p>
+  </div>
+</section>
+
+<section class="spot">
+  <p class="kicker">Channel spotlight · 2 days left</p>
+  <p class="mm"><a href="https://www.youtube.com/channel/UCznv7Vf9nBdJYvBagFdAHWw">Tim Ferriss</a></p>
+  <p class="ctx">He covers the overlap between your Stoicism, decision-making and performance interests that most of your health and poker channels skip. He is a long-time Seneca devotee (the &#x27;fear-setting&#x27; exercise is applied Stoic premeditatio malorum), and he interviews decision-science people, elite operators and researchers about resilience, sleep, and handling pressure. The format is 1.5–3 hour interviews, plus occasional solo or short-form pieces, and the questions are practical and tool-oriented, which complements the more data-heavy channels you already follow.</p>
+  <div class="snip"><code id="snip">    &quot;Tim Ferriss&quot;: &quot;UCznv7Vf9nBdJYvBagFdAHWw&quot;,</code><button type="button" id="copy">Copy</button></div>
+  <p class="hint">Paste into YOUTUBE_CHANNELS in brief.py to follow.</p>
+</section>
+
+<footer class="foot">
+  <nav class="arch"><a href="2026-11-19.html">← Yesterday</a><a href="./">All briefs</a></nav>
+  <details><summary class="hl warn">● 1 source issue · 58 OK</summary><ul><li class="fail"><b>r/poker (top today)</b> — proxy HTTP 404, direct HTTP 404</li></ul></details>
+  <p class="stats">97 new items scanned · 10 read in full · 69k in / 5k out tokens · 2m07s</p>
+</footer>
+</div>
+<button type="button" class="send" id="send">Send feedback <b id="send-n">0</b></button>
+<script>
+(function () {
+  var REPO = "msusyr24/morning-brief", DAY = "2026-11-20", KEY = 'brief-votes';
+
+  // copy button (channel spotlight)
+  var b = document.getElementById('copy');
+  if (b) b.addEventListener('click', function () {
+    navigator.clipboard.writeText(document.getElementById('snip').innerText.trim());
+    b.textContent = 'Copied'; setTimeout(function () { b.textContent = 'Copy'; }, 1800);
+  });
+
+  // live BTC price
+  var p = document.getElementById('btc-p');
+  if (p) fetch('https://api.coingecko.com/api/v3/simple/price?ids=bitcoin&vs_currencies=usd&include_24hr_change=true')
+    .then(function (r) { return r.json(); })
+    .then(function (d) {
+      var v = d.bitcoin.usd, c = d.bitcoin.usd_24h_change;
+      p.textContent = '$' + Math.round(v).toLocaleString('en-US');
+      document.getElementById('btc-c').innerHTML = '<span class="' + (c >= 0 ? 'up' : 'down') + '">' + (c >= 0 ? '▲ ' : '▼ ') + Math.abs(c).toFixed(1) + '%</span>';
+    }).catch(function () {});
+
+  // reading progress + active section pill
+  var prog = document.getElementById('prog'), pills = document.querySelectorAll('.nav a'), secs = document.querySelectorAll('.sec');
+  function onScroll() {
+    var h = document.documentElement, max = h.scrollHeight - h.clientHeight;
+    prog.style.transform = 'scaleX(' + (max > 0 ? h.scrollTop / max : 0) + ')';
+    var cur = null;
+    secs.forEach(function (s) { if (s.getBoundingClientRect().top < 120) cur = s.id; });
+    pills.forEach(function (a) {
+      var on = a.getAttribute('href') === '#' + cur;
+      if (on && !a.classList.contains('on')) a.scrollIntoView({inline: 'nearest', block: 'nearest'});
+      a.classList.toggle('on', on);
+    });
+  }
+  window.addEventListener('scroll', onScroll, {passive: true}); onScroll();
+
+  // thumbs up / down -> GitHub issue
+  var votes = {};
+  try { votes = JSON.parse(localStorage.getItem(KEY) || '{}'); } catch (e) {}
+  function save() { try { localStorage.setItem(KEY, JSON.stringify(votes)); } catch (e) {} }
+  function id(el) { return el.dataset.src + '|' + el.dataset.title; }
+  var send = document.getElementById('send'), sendN = document.getElementById('send-n');
+  function refresh() {
+    var n = Object.keys(votes).length;
+    sendN.textContent = n; send.classList.toggle('show', n > 0 && !!REPO);
+    document.querySelectorAll('.vote').forEach(function (el) {
+      var v = votes[id(el)];
+      el.querySelector('.up').classList.toggle('on', !!v && v.v > 0);
+      el.querySelector('.dn').classList.toggle('on', !!v && v.v < 0);
+    });
+  }
+  document.querySelectorAll('.vote button').forEach(function (btn) {
+    btn.addEventListener('click', function (ev) {
+      ev.preventDefault();
+      var el = btn.parentNode, k = id(el), v = btn.classList.contains('up') ? 1 : -1;
+      if (votes[k] && votes[k].v === v) delete votes[k];
+      else votes[k] = {v: v, s: el.dataset.src, t: el.dataset.title};
+      if (navigator.vibrate) navigator.vibrate(8);
+      save(); refresh();
+    });
+  });
+  send.addEventListener('click', function () {
+    var lines = Object.keys(votes).map(function (k) {
+      var v = votes[k]; return (v.v > 0 ? '+' : '-') + ' | ' + v.s.replace(/\|/g, '/') + ' | ' + v.t.replace(/\|/g, '/');
+    });
+    var url = 'https://github.com/' + REPO + '/issues/new?title=' + encodeURIComponent('Brief feedback ' + DAY) +
+      '&body=' + encodeURIComponent(lines.join('\n') + '\n\n(Tap Submit. The next brief learns from these.)');
+    votes = {}; save(); refresh();
+    window.open(url, '_blank');
+  });
+  refresh();
+})();
+</script>
+</body>
+</html>
