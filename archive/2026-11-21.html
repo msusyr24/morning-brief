@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="color-scheme" content="light dark">
+<meta name="theme-color" content="#f5f2ea" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#15140f" media="(prefers-color-scheme: dark)">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="Brief">
+<meta name="robots" content="noindex">
+<link rel="icon" href="../icon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="../apple-touch-icon.png">
+<title>Morning Brief · Saturday, November 21</title>
+<style>
+:root {
+  --bg:#f5f2ea; --card:#fffdf8; --ink:#1d1b17; --soft:#47433b; --mute:#837d71; --rule:#e6e0d3;
+  --acc:#2d5b4f; --acc-soft:#e6eee8; --warm:#b4691a; --up:#2e7d4f; --down:#b8402f;
+  --serif: "Iowan Old Style", "Charter", "Palatino Linotype", Palatino, Georgia, serif;
+  --sans: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", system-ui, Roboto, sans-serif;
+  --shadow: 0 1px 2px rgba(40,30,10,.05), 0 8px 24px -14px rgba(40,30,10,.22);
+  --r: 18px; --pad: 20px;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg:#13120e; --card:#1c1a15; --ink:#efeadd; --soft:#cdc6b6; --mute:#8f887a; --rule:#2f2c26;
+    --acc:#8fc2ad; --acc-soft:#1f2a25; --warm:#e0a15a; --up:#6cc28e; --down:#e57f6c;
+    --shadow: 0 1px 2px rgba(0,0,0,.35), 0 10px 28px -16px rgba(0,0,0,.7);
+  }
+  .sec, .nav a { --a: var(--ad) !important; }
+}
+* { box-sizing:border-box; -webkit-tap-highlight-color:transparent; }
+html { scroll-behavior:smooth; -webkit-text-size-adjust:100%; }
+body { margin:0; background:var(--bg); color:var(--ink); font:18px/1.62 var(--serif);
+  -webkit-font-smoothing:antialiased; text-rendering:optimizeLegibility; overflow-x:hidden; }
+.wrap { max-width:680px; margin:0 auto;
+  padding:max(30px, calc(env(safe-area-inset-top) + 14px)) max(var(--pad), env(safe-area-inset-right))
+          calc(96px + env(safe-area-inset-bottom)) max(var(--pad), env(safe-area-inset-left)); }
+a { color:inherit; text-decoration-color:var(--rule); text-underline-offset:3px; text-decoration-thickness:1px; }
+.kicker { font:650 11px/1.2 var(--sans); letter-spacing:.13em; text-transform:uppercase; color:var(--mute); margin:0 0 10px; }
+.progress { position:fixed; inset:0 0 auto 0; height:3px; z-index:20; background:var(--warm); transform-origin:0 50%; transform:scaleX(0); }
+
+header .brand { display:flex; align-items:center; gap:8px; font:650 12px/1 var(--sans); letter-spacing:.16em; text-transform:uppercase; color:var(--acc); margin:0; }
+header .brand::before { content:""; width:18px; height:18px; border-radius:50%;
+  background:radial-gradient(circle at 50% 120%, var(--warm) 0 45%, transparent 46%), var(--acc-soft); box-shadow:inset 0 0 0 1px var(--rule); }
+header h1 { font-size:42px; line-height:1.06; margin:14px 0 10px; font-weight:650; letter-spacing:-.025em; }
+.greet { margin:0; color:var(--soft); font-size:18px; line-height:1.5; font-style:italic; }
+.bar { display:flex; flex-wrap:wrap; gap:6px; margin-top:14px; }
+.bar span { font:600 12px/1 var(--sans); color:var(--soft); background:var(--card); border:1px solid var(--rule); border-radius:99px; padding:7px 11px; }
+
+.cards { display:grid; gap:10px; margin:22px 0 0; }
+.cards.n2 { grid-template-columns:1fr 1fr; }
+.card { background:var(--card); border:1px solid var(--rule); border-radius:var(--r); padding:15px 16px 13px; box-shadow:var(--shadow); position:relative; overflow:hidden; }
+.card .big { font:650 28px/1.1 var(--sans); letter-spacing:-.02em; font-variant-numeric:tabular-nums; display:flex; align-items:center; gap:8px; }
+.card .wi { font-size:24px; }
+.card .cap { margin:6px 0 0; font:12.5px/1.4 var(--sans); color:var(--mute); }
+.up { color:var(--up); } .down { color:var(--down); }
+.spark { display:block; width:100%; height:30px; margin-top:8px; }
+.spark .ln { fill:none; stroke-width:1.8; stroke-linejoin:round; stroke-linecap:round; vector-effect:non-scaling-stroke; }
+.spark.up .ln { stroke:var(--up); } .spark.down .ln { stroke:var(--down); }
+.spark .fill { opacity:.12; } .spark.up .fill { fill:var(--up); } .spark.down .fill { fill:var(--down); }
+.spark.up .dot { fill:var(--up); } .spark.down .dot { fill:var(--down); }
+
+.top { background:var(--card); border:1px solid var(--rule); border-radius:var(--r); padding:20px 20px 6px; margin:12px 0 0; box-shadow:var(--shadow); }
+.top ol { margin:0; padding:0; list-style:none; counter-reset:t; }
+.top li { counter-increment:t; position:relative; padding:0 0 14px 34px; font-size:17.5px; line-height:1.48; }
+.top li::before { content:counter(t); position:absolute; left:0; top:-1px; font:650 23px/1 var(--serif); color:var(--warm); }
+.top a { text-decoration:none; }
+
+.nav { position:sticky; top:0; z-index:10; display:flex; gap:7px; overflow-x:auto; scroll-snap-type:x proximity; scroll-padding-inline:var(--pad);
+  padding:calc(env(safe-area-inset-top) + 10px) var(--pad) 10px; margin:18px calc(-1 * var(--pad)) 0;
+  background:color-mix(in srgb, var(--bg) 86%, transparent); backdrop-filter:saturate(1.5) blur(14px); -webkit-backdrop-filter:saturate(1.5) blur(14px);
+  scrollbar-width:none; mask-image:linear-gradient(90deg, #000 88%, transparent); -webkit-mask-image:linear-gradient(90deg, #000 88%, transparent); }
+.nav::-webkit-scrollbar { display:none; }
+.nav a { flex:none; scroll-snap-align:start; display:flex; align-items:center; gap:6px; font:600 13.5px/1 var(--sans); padding:10px 13px; border-radius:99px; border:1px solid var(--rule);
+  text-decoration:none; color:var(--soft); background:var(--card); }
+.nav a span { color:var(--a); }
+.nav a em { font-style:normal; font-weight:500; color:var(--mute); font-size:12px; }
+.nav a.on { border-color:var(--a); color:var(--a); background:color-mix(in srgb, var(--a) 9%, var(--card)); }
+
+.sec { margin-top:30px; scroll-margin-top:70px; }
+.sec h2 { display:flex; align-items:center; gap:9px; font:700 13px/1 var(--sans); letter-spacing:.13em;
+  text-transform:uppercase; color:var(--a); margin:0 0 12px 4px; }
+.ic { font-size:15px; }
+.item { background:var(--card); border:1px solid var(--rule); border-radius:var(--r); padding:16px 18px 10px; margin-bottom:12px;
+  box-shadow:var(--shadow); scroll-margin-top:70px; border-top:3px solid var(--a); }
+.item .src { font:650 12px/1.3 var(--sans); color:var(--a); margin:0 0 8px; letter-spacing:.01em; }
+.item .src a { color:var(--mute); font-weight:500; }
+.item h3 { font-size:21.5px; line-height:1.27; margin:0 0 9px; font-weight:650; letter-spacing:-.012em; }
+.item h3 a { text-decoration:none; }
+.item .sum { margin:0 0 10px; color:var(--soft); }
+.thumb { float:right; position:relative; width:112px; margin:2px 0 8px 14px; border-radius:10px; overflow:hidden; aspect-ratio:16/9; background:var(--rule); }
+.thumb img { width:100%; height:100%; object-fit:cover; display:block; }
+.thumb .play { position:absolute; inset:0; display:grid; place-items:center; color:#fff; font-size:15px; text-shadow:0 1px 6px rgba(0,0,0,.6); }
+.item:target { box-shadow:0 0 0 2px var(--a), var(--shadow); }
+.take { clear:both; margin:4px 0 12px; padding:12px 14px 12px 30px; background:color-mix(in srgb, var(--a) 7%, var(--card)); border-radius:12px; color:var(--soft); font-size:16px; line-height:1.52; }
+.take li { margin:4px 0; } .take li::marker { color:var(--a); }
+.orig { clear:both; margin:0 0 6px; font:italic 13px/1.45 var(--sans); color:var(--mute); }
+.row { clear:both; display:flex; align-items:center; justify-content:space-between; gap:10px; border-top:1px solid var(--rule); margin:6px -4px 0; padding-top:6px; }
+.open { font:650 14px/1 var(--sans); color:var(--a); text-decoration:none; padding:10px 4px; }
+
+.vote { display:inline-flex; gap:4px; flex:none; }
+.vote button { width:40px; height:36px; border-radius:10px; border:1px solid transparent; background:transparent; font-size:17px; line-height:1;
+  cursor:pointer; filter:grayscale(1); opacity:.5; transition:transform .12s, opacity .12s, filter .12s, background .12s; }
+.vote button:active { transform:scale(.9); }
+.vote button.on { filter:none; opacity:1; background:var(--acc-soft); border-color:var(--rule); }
+
+.also { margin-top:30px; background:var(--card); border:1px solid var(--rule); border-radius:var(--r); padding:0 16px 0 18px; box-shadow:var(--shadow); }
+.also summary { cursor:pointer; padding:18px 0; font:700 13px/1 var(--sans); letter-spacing:.13em; text-transform:uppercase; color:var(--acc); list-style:none; }
+.also summary::-webkit-details-marker { display:none; }
+.also summary::after { content:"＋"; float:right; color:var(--mute); }
+.also[open] summary::after { content:"－"; }
+.also summary span { color:var(--mute); margin-left:6px; }
+.also ul { margin:0 0 10px; padding:0; list-style:none; }
+.also li { display:flex; align-items:center; gap:6px; border-top:1px solid var(--rule); }
+.also li > a { flex:1; padding:12px 0; font-size:16px; line-height:1.48; color:var(--soft); text-decoration:none; }
+.also li b { display:block; font:650 12px/1.3 var(--sans); color:var(--ink); margin-bottom:2px; }
+.also .vote button { width:34px; }
+
+.passage { margin-top:36px; padding:24px 22px 22px; border-radius:var(--r); background:linear-gradient(160deg, color-mix(in srgb, #6b4b8a 10%, var(--card)), var(--card) 60%);
+  border:1px solid var(--rule); box-shadow:var(--shadow); }
+.ptext { margin:0; font-size:19px; line-height:1.6; }
+.ptext::first-letter { float:left; font:650 52px/.86 var(--serif); margin:6px 8px 0 0; color:var(--warm); }
+.anchor { display:grid; grid-template-columns:1fr 1fr; gap:26px; margin-top:12px; padding:22px; border-radius:var(--r); background:var(--card); border:1px solid var(--rule); box-shadow:var(--shadow); }
+blockquote { margin:0; font-size:20px; line-height:1.45; font-style:italic; }
+blockquote::before { content:"“"; display:block; font:650 44px/0.6 var(--serif); color:var(--warm); margin:10px 0 4px; }
+.by { margin:10px 0 8px; font:650 13px var(--sans); color:var(--soft); }
+.mm { font-size:20px; font-weight:650; margin:0 0 6px; line-height:1.3; }
+.ctx { margin:0; font-size:15.5px; line-height:1.58; color:var(--soft); }
+.spot { margin-top:12px; padding:20px 22px; border-radius:var(--r); border:1px dashed var(--rule); }
+.snip { display:flex; gap:8px; align-items:center; margin-top:12px; }
+.snip code { flex:1; min-width:0; overflow-x:auto; white-space:pre; font:12.5px/1.5 ui-monospace, Consolas, monospace; background:var(--acc-soft); padding:9px 10px; border-radius:8px; }
+.snip button { font:650 13px var(--sans); border:0; border-radius:8px; padding:10px 14px; background:var(--acc); color:var(--bg); cursor:pointer; }
+.hint { font:12px var(--sans); color:var(--mute); margin:8px 0 0; }
+.quiet { font-style:italic; color:var(--mute); margin-top:30px; }
+
+.send { position:fixed; left:50%; bottom:calc(16px + env(safe-area-inset-bottom)); z-index:30; transform:translate(-50%, 140%);
+  display:flex; align-items:center; gap:10px; padding:13px 20px; border-radius:99px; border:0; background:var(--ink); color:var(--bg);
+  font:650 15px/1 var(--sans); box-shadow:0 10px 30px -8px rgba(0,0,0,.45); cursor:pointer; transition:transform .25s cubic-bezier(.2,.9,.3,1.2); white-space:nowrap; }
+.send.show { transform:translate(-50%, 0); }
+.send b { background:var(--warm); color:#fff; border-radius:99px; min-width:22px; padding:4px 7px; font-size:12px; text-align:center; }
+
+.foot { margin-top:40px; padding-top:16px; border-top:1px solid var(--rule); font:13px/1.5 var(--sans); color:var(--mute); }
+.arch { display:flex; gap:10px; margin-bottom:14px; }
+.arch a { color:var(--acc); text-decoration:none; font-weight:650; padding:10px 14px; border:1px solid var(--rule); border-radius:99px; background:var(--card); }
+.foot details summary { cursor:pointer; list-style:none; }
+.foot details summary::-webkit-details-marker { display:none; }
+.foot ul { margin:6px 0; padding-left:18px; }
+.foot li.fail b { color:var(--down); } .foot li.warn b { color:var(--warm); }
+.hl { margin:0; font-weight:650; } .hl.ok { color:var(--up); } .hl.warn { color:var(--warm); }
+.stats { margin:6px 0 0; }
+@media (max-width:560px) {
+  :root { --pad:14px; --r:16px; }
+  body { font-size:17px; line-height:1.58; }
+  header h1 { font-size:36px; }
+  .greet { font-size:17px; }
+  .item { padding:15px 15px 8px; }
+  .item h3 { font-size:19.5px; }
+  .thumb { width:96px; margin-left:12px; }
+  .take { font-size:15.5px; }
+  .anchor { grid-template-columns:1fr; gap:22px; }
+  .card .big { font-size:24px; }
+  .ptext { font-size:18px; }
+}
+@media (max-width:360px) { .cards.n2 { grid-template-columns:1fr; } }
+@media (prefers-reduced-motion:reduce) { html { scroll-behavior:auto; } .send { transition:none; } }
+</style>
+</head>
+<body>
+<div class="progress" id="prog"></div>
+<div class="wrap">
+<header>
+  <p class="brand">Morning Brief</p>
+  <h1>Saturday, November 21</h1>
+  <p class="greet">A sharp AI-led stock sell-off tops the day, alongside Saylor on Strategy&#x27;s risks, a claimed AI proof of the Riemann hypothesis, and a GTO Wizard final-table study method.</p>
+  <div class="bar"><span>5 min read</span><span>6 stories</span><span>7 quick hits</span></div>
+</header>
+<section class="cards n1">
+  <div class="card btc">
+    <p class="kicker">Bitcoin</p>
+    <div class="big" id="btc-p">$58,623</div>
+    <p class="cap"><span id="btc-c"><span class="down">▼ 4.9%</span></span> 24h · <span class="down">▼ 14.1%</span> 7d</p>
+    <svg class="spark down" viewBox="0 0 132 36" width="132" height="36" preserveAspectRatio="none" aria-hidden="true"><polygon points="2,36 2.0,3.0 5.0,6.5 8.1,5.8 11.1,7.7 14.2,10.7 17.2,15.4 20.3,21.1 23.3,15.0 26.4,12.4 29.4,12.0 32.5,15.0 35.5,13.5 38.6,14.6 41.6,15.3 44.7,15.7 47.7,16.2 50.8,13.9 53.8,12.5 56.9,14.4 59.9,14.1 63.0,15.6 66.0,13.2 69.0,17.4 72.1,15.7 75.1,15.8 78.2,14.7 81.2,14.8 84.3,17.0 87.3,19.7 90.4,22.2 93.4,20.6 96.5,18.9 99.5,17.3 102.6,16.7 105.6,20.9 108.7,24.7 111.7,24.7 114.8,23.5 117.8,24.4 120.9,23.7 123.9,32.4 127.0,33.0 130.0,33.0 130,36" class="fill"/><polyline points="2.0,3.0 5.0,6.5 8.1,5.8 11.1,7.7 14.2,10.7 17.2,15.4 20.3,21.1 23.3,15.0 26.4,12.4 29.4,12.0 32.5,15.0 35.5,13.5 38.6,14.6 41.6,15.3 44.7,15.7 47.7,16.2 50.8,13.9 53.8,12.5 56.9,14.4 59.9,14.1 63.0,15.6 66.0,13.2 69.0,17.4 72.1,15.7 75.1,15.8 78.2,14.7 81.2,14.8 84.3,17.0 87.3,19.7 90.4,22.2 93.4,20.6 96.5,18.9 99.5,17.3 102.6,16.7 105.6,20.9 108.7,24.7 111.7,24.7 114.8,23.5 117.8,24.4 120.9,23.7 123.9,32.4 127.0,33.0 130.0,33.0" class="ln"/><circle cx="130.0" cy="33.0" r="2.6" class="dot"/></svg>
+  </div></section>
+<section class="top"><p class="kicker">If you read nothing else</p><ol><li><a href="#v0">Saylor and Phong Le give specific numbers on cash runway, the hurdle rate and what would actually threaten Strategy.</a></li><li><a href="#r55">The S&amp;P 500 entered correction territory in an AI-led sell-off that also hit Anthropic&#x27;s first week as a public company.</a></li><li><a href="#r32">If the proof holds up, it would be the biggest thing AI has done in maths, but verification is months away.</a></li></ol></section>
+<nav class="nav" aria-label="Sections"><a href="#s-news" style="--a:#38506b;--ad:#a3b9d3"><span>◉</span>World &amp; Markets<em>2</em></a><a href="#s-poker" style="--a:#2d5b4f;--ad:#8fc2ad"><span>♠</span>Poker<em>1</em></a><a href="#s-mind" style="--a:#6b4b8a;--ad:#c6a4e6"><span>◎</span>Mind &amp; Philosophy<em>1</em></a><a href="#s-bitcoin" style="--a:#b4691a;--ad:#e7a865"><span>₿</span>Bitcoin &amp; Macro<em>1</em></a><a href="#s-ai" style="--a:#4a4f9c;--ad:#a9adf0"><span>◆</span>AI Capability<em>1</em></a></nav>
+<section class="sec" id="s-news" style="--a:#38506b;--ad:#a3b9d3"><h2><span class="ic">◉</span>World &amp; Markets</h2>
+<article class="item" id="r55">
+  <p class="src">NPR News</p>
+  <h3><a href="https://www.npr.org/2026/11/20/g-s1-154797/nasdaq-sp500-stock-market-ai-sink-negative">AI stock rout pushes S&amp;P 500 into correction; Nasdaq negative for 2026</a></h3>
+  <p class="sum">The S&amp;P 500 fell 3.7% on Friday to 6,910.39, more than 10% below its Oct. 6 high. That was its worst week since April 2025 and a seven-day losing streak. The Nasdaq dropped 5.3% and is now down for the year, and the Dow fell 1.9%. Chip stocks led the fall: Nvidia fell 13.8%, Micron 13.9%, AMD 13.3% and Broadcom 12.1%. Nvidia has lost more than 25% since the scandal around former CEO Jensen Huang began. Reported drivers were AI-spending worries and midterm winners who want slower data-center construction. Elsewhere, the 10-year Treasury yield fell to 4.93% from 5.04%, and Brent crude rose 0.6% to $92.57 amid the continuing US war with Iran. Japan&#x27;s Nikkei and Korea&#x27;s Kospi each fell about 5%.</p><ul class="take"><li>Anthropic closed down 9.1% at $88.30, against an $83 IPO price and a $115.10 peak the day before.</li><li>Consumer sentiment (University of Michigan) rose, helped by easing gas prices, but is still below its February level.</li></ul>
+  <div class="row"><a class="open" href="https://www.npr.org/2026/11/20/g-s1-154797/nasdaq-sp500-stock-market-ai-sink-negative">Read →</a><span class="vote" data-src="NPR News" data-title="S&amp;P 500 sinks 3.7% and the Nasdaq composite goes negative for the year"><button type="button" class="up" aria-label="More like this">👍</button><button type="button" class="dn" aria-label="Less like this">👎</button></span></div>
+</article>
+<article class="item" id="r37">
+  <p class="src">BBC World</p>
+  <h3><a href="https://www.bbc.co.uk/news/articles/cmde1lw9y54ko?at_medium=RSS&amp;at_campaign=rss">Trump says he will ban US firms from building AI data centres abroad</a></h3>
+  <p class="sum">Trump told reporters he will not allow US companies to build data centres outside the country, and threatened a &#x27;tremendous tax&#x27; on those that do. He gave few details and said his own cabinet was hearing it for the first time. He named Google&#x27;s planned Finland build specifically. The comments follow a Monday rule requiring licences to buy advanced chips, meant to keep them from reaching Chinese firms. That rule affects Southeast Asian data-centre hubs. How any ban would be enforced is unclear. Meta and Anthropic both have projects in Canada.</p><ul class="take"><li>The US had about 3,000 data centres as of April, with another 1,500 in approval or construction (Pew).</li></ul>
+  <div class="row"><a class="open" href="https://www.bbc.co.uk/news/articles/cmde1lw9y54ko?at_medium=RSS&amp;at_campaign=rss">Read →</a><span class="vote" data-src="BBC World" data-title="Trump threatens ban on US firms building AI data centres overseas"><button type="button" class="up" aria-label="More like this">👍</button><button type="button" class="dn" aria-label="Less like this">👎</button></span></div>
+</article></section><section class="sec" id="s-poker" style="--a:#2d5b4f;--ad:#8fc2ad"><h2><span class="ic">♠</span>Poker</h2>
+<article class="item" id="v1">
+  <p class="src">▶ GTO Wizard</p>
+  <a class="thumb" href="https://www.youtube.com/watch?v=a7E5UCH0g7g" aria-hidden="true" tabindex="-1"><img src="https://i.ytimg.com/vi/a7E5UCH0g7g/mqdefault.jpg" alt="" loading="lazy" width="320" height="180"><span class="play">▶</span></a><h3><a href="https://www.youtube.com/watch?v=a7E5UCH0g7g">How to study a real WSOP final table hand by hand in GTO Wizard</a></h3>
+  <p class="sum">The method is to open the Events tab, pick a real final table (here the 2024 $25k Super High Roller), and watch each hand&#x27;s timestamped stream. Before each hand, guess the action from the preflop hole cards, then compare it to the ICM solution and note what surprised you. The session shows ICM ranges are more top-heavy than chip EV ranges, with suited connectors dropping out. The reason is that small hands win through big pots, and big pots carry more ICM tax. The big stack&#x27;s early-position open is about 30% under ICM versus 20% in chip EV at the same stacks. Bubble factors show the pressure between each pair: low jack versus button was 2.24, against 1.35 for the button versus low jack. Short stacks feel less ICM pressure because they are likely to bust next anyway. Mixed solver strategies, like 5s shoving or folding, exist partly to keep opponents indifferent.</p><ul class="take"><li>Min-raise suited aces that keep draw value and implied odds, and shove offsuit aces like A8, which have poor drawing equity.</li><li>The breakdown and reports tabs are post-flop only.</li></ul><p class="orig">“Final Table, From Preflop to River”</p>
+  <div class="row"><a class="open" href="https://www.youtube.com/watch?v=a7E5UCH0g7g">Watch →</a><span class="vote" data-src="GTO Wizard" data-title="Final Table, From Preflop to River"><button type="button" class="up" aria-label="More like this">👍</button><button type="button" class="dn" aria-label="Less like this">👎</button></span></div>
+</article></section><section class="sec" id="s-mind" style="--a:#6b4b8a;--ad:#c6a4e6"><h2><span class="ic">◎</span>Mind &amp; Philosophy</h2>
+<article class="item" id="v18">
+  <p class="src">▶ Daily Stoic</p>
+  <a class="thumb" href="https://www.youtube.com/watch?v=7ySTtVGotig" aria-hidden="true" tabindex="-1"><img src="https://i.ytimg.com/vi/7ySTtVGotig/mqdefault.jpg" alt="" loading="lazy" width="320" height="180"><span class="play">▶</span></a><h3><a href="https://www.youtube.com/watch?v=7ySTtVGotig">Epictetus asked: who is your master? Seneca said everyone serves something</a></h3>
+  <p class="sum">Epictetus spent 30 years enslaved. He later asked students who their master was, having watched powerful men in Nero&#x27;s court grovel to a shoemaker and beg for money. Seneca&#x27;s version is that everyone is a slave to something such as ambition or appetite. He said of the general Marius that &#x27;ambition commanded Marius&#x27;. The point of discipline is self-ownership. The master can be a job, a schedule, an addiction or a compulsion.</p><p class="orig">“Epictetus Was a Slave. But He Was Freer Than His Masters.”</p>
+  <div class="row"><a class="open" href="https://www.youtube.com/watch?v=7ySTtVGotig">Watch →</a><span class="vote" data-src="Daily Stoic" data-title="Epictetus Was a Slave. But He Was Freer Than His Masters."><button type="button" class="up" aria-label="More like this">👍</button><button type="button" class="dn" aria-label="Less like this">👎</button></span></div>
+</article></section><section class="sec" id="s-bitcoin" style="--a:#b4691a;--ad:#e7a865"><h2><span class="ic">₿</span>Bitcoin &amp; Macro</h2>
+<article class="item" id="v0">
+  <p class="src">▶ Michael Saylor · Natalie Brunell</p>
+  <a class="thumb" href="https://www.youtube.com/watch?v=lNU1RYzuw9I" aria-hidden="true" tabindex="-1"><img src="https://i.ytimg.com/vi/lNU1RYzuw9I/mqdefault.jpg" alt="" loading="lazy" width="320" height="180"><span class="play">▶</span></a><h3><a href="https://www.youtube.com/watch?v=lNU1RYzuw9I">Saylor: Strategy has 3.4 years of cash and sees only a Bitcoin collapse to zero as existential</a></h3>
+  <p class="sum">In an investor Q&amp;A, Saylor and CEO Phong Le said Strategy holds about 3.4 years of USD reserves, up from 0.7 years when Bitcoin was at $62,000. They said that would cover dividends and interest even if it could not sell any securities for three years. They describe the business as issuing digital credit, with common shareholders keeping the spread above a roughly 10.5% hurdle rate. Gross Bitcoin per share matters to long-horizon bulls, and net Bitcoin per share is the test of whether a swap helps shareholders immediately. On the short-duration preferred STRC, they say credit markets have contracted for about six months. Strategy bought back $3B of STRC below $100, and Saylor guesses organic demand at the 12% dividend is $5B to $7.5B. They say they buy it back below par and issue it above par. Saylor says they will not raise the dividend to chase growth, because that would raise the hurdle rate and the risk to equity holders.</p><ul class="take"><li>Capital structure cited: about $6.7B of convertibles, $12.7B of preferreds, $52.5B in Bitcoin reserves, and roughly 850,000 BTC held.</li><li>Swap thresholds: selling MSTR for dollars is accretive above 1x mNAV, and selling MSTR for BTC at roughly 1.3x.</li><li>Saylor calls STRC investment grade, about 5x over-collateralized, with a fair spread of 60 to 70 bps.</li></ul><p class="orig">“Michael Saylor &amp; Phong Le: What Could Actually Break Strategy?”</p>
+  <div class="row"><a class="open" href="https://www.youtube.com/watch?v=lNU1RYzuw9I">Watch →</a><span class="vote" data-src="Michael Saylor · Natalie Brunell" data-title="Michael Saylor &amp; Phong Le: What Could Actually Break Strategy?"><button type="button" class="up" aria-label="More like this">👍</button><button type="button" class="dn" aria-label="Less like this">👎</button></span></div>
+</article></section><section class="sec" id="s-ai" style="--a:#4a4f9c;--ad:#a9adf0"><h2><span class="ic">◆</span>AI Capability</h2>
+<article class="item" id="r32">
+  <p class="src">BBC World</p>
+  <h3><a href="https://www.bbc.co.uk/news/articles/c6pqr2g7w059o?at_medium=RSS&amp;at_campaign=rss">Anthropic mathematician claims Claude helped prove the Riemann hypothesis</a></h3>
+  <p class="sum">Levent Alpöge says he spent about six weeks using a non-public version of Claude to produce a proof of the Riemann hypothesis. The Lean formalization is over 250,000 pages. Terence Tao said checking it is still some way off, though a human author is available to help. Earlier AI maths claims, such as OpenAI&#x27;s Navier-Stokes result, remain unconfirmed. A group of mathematicians has criticized firms for advertising such claims. Treat it as a claim, not a result, until experts review it.</p><ul class="take"><li>Alpöge denies the timing, a day after Anthropic&#x27;s IPO, was intended.</li></ul>
+  <div class="row"><a class="open" href="https://www.bbc.co.uk/news/articles/c6pqr2g7w059o?at_medium=RSS&amp;at_campaign=rss">Read →</a><span class="vote" data-src="BBC World" data-title="In a year of AI solving maths problems, Anthropic may have just solved the biggest"><button type="button" class="up" aria-label="More like this">👍</button><button type="button" class="dn" aria-label="Less like this">👎</button></span></div>
+</article></section>
+<details class="also"><summary>Quick hits <span>7</span></summary><ul><li><a href="https://www.anthropic.com/news/ipo-close"><b>Anthropic News</b>Anthropic&#x27;s IPO closed at $83 a share, raising about $93.5B, plus a $26B private placement from AMD, Broadcom, Google, Micron, Microsoft, Nvidia and TSMC.</a><span class="vote" data-src="Anthropic News" data-title="Anthropic announces closing of initial public offering, including full exercise of underwriters’ option to purchase additional shares, and closing of concurrent private placement"><button type="button" class="up" aria-label="More like this">👍</button><button type="button" class="dn" aria-label="Less like this">👎</button></span></li><li><a href="https://www.bbc.co.uk/news/articles/cqx2x9dklxnro?at_medium=RSS&amp;at_campaign=rss"><b>BBC World</b>A Russian missile hit Poland with no injuries or reported damage; Warsaw called it a provocation.</a><span class="vote" data-src="BBC World" data-title="Russian missile hits Poland as Ukraine&#x27;s allies hold military exercise, says Tusk"><button type="button" class="up" aria-label="More like this">👍</button><button type="button" class="dn" aria-label="Less like this">👎</button></span></li><li><a href="https://www.bbc.co.uk/news/articles/c6x29gn4pdn9o?at_medium=RSS&amp;at_campaign=rss"><b>BBC World</b>Russia launched one of its biggest air attacks on Kyiv crossings and rejected security guarantees for Ukraine.</a><span class="vote" data-src="BBC World" data-title="Russia targets Kyiv crossings days after Ukraine hits Crimean Bridge"><button type="button" class="up" aria-label="More like this">👍</button><button type="button" class="dn" aria-label="Less like this">👎</button></span></li><li><a href="https://www.youtube.com/watch?v=Um7BiKP1bvQ"><b>Daily Stoic</b>Daily Stoic on Marcus Aurelius: obstacles advance action, ask what the wrongdoer values, and don&#x27;t assume you get tomorrow.</a><span class="vote" data-src="Daily Stoic" data-title="3 Life Changing Lessons From Marcus Aurelius"><button type="button" class="up" aria-label="More like this">👍</button><button type="button" class="dn" aria-label="Less like this">👎</button></span></li><li><a href="https://www.youtube.com/watch?v=picWzv1jnxM"><b>Renaissance Periodization</b>RP: if cheat meals set off binges for you, skip them; the leaner you get, the more likely they are to backfire.</a><span class="vote" data-src="Renaissance Periodization" data-title="Cheat Meals Can Trigger a Binge"><button type="button" class="up" aria-label="More like this">👍</button><button type="button" class="dn" aria-label="Less like this">👎</button></span></li><li><a href="https://www.youtube.com/watch?v=3n906iddUmg"><b>Renaissance Periodization</b>RP: running 200 extra calories three days a week is only 600 calories a week, which is a weak weight-loss plan.</a><span class="vote" data-src="Renaissance Periodization" data-title="Running Is a Bad Weight Loss Plan"><button type="button" class="up" aria-label="More like this">👍</button><button type="button" class="dn" aria-label="Less like this">👎</button></span></li><li><a href="https://www.pokernews.com/news/2026/11/hellmuths-home-game-season-2-episode-5-recap-52813.htm?utm_medium=feed&amp;utm_campaign=homefeed&amp;utm_source=rss"><b>PokerNews</b>Rampage lost about $300K in Hellmuth&#x27;s home game, with Charlie Hook, Dan Cates and Stanley Tang also playing.</a><span class="vote" data-src="PokerNews" data-title="Rampage on Hellmuth&#x27;s Home Game: &quot; I Didn’t Think I’d Lose $300K, But Here We Are.&quot;"><button type="button" class="up" aria-label="More like this">👍</button><button type="button" class="dn" aria-label="Less like this">👎</button></span></li></ul></details>
+
+<section class="passage">
+  <p class="kicker">Daily Stoic reading · Wish only what is yours</p>
+  <p class="ptext">If you wish your children and your wife and your friends to live forever, you are foolish, for you wish things to be in your power which are not so, and what belongs to others to be your own. So likewise, if you wish your servant to be without fault, you are foolish, for you wish vice not to be vice but something else. But if you wish not to be disappointed in your desires, that is in your own power. Exercise, therefore, what is in your power. A man’s master is he who is able to confer or remove whatever that man seeks or shuns. Whoever then would be free, let him wish nothing, let him decline nothing, which depends on others; else he must necessarily be a slave.</p>
+  <p class="by">— Epictetus, Enchiridion</p>
+  <p class="ctx">In plain terms: you cannot make your children, spouse, or friends live forever, and you cannot make a servant flawless, so wanting those outcomes sets you up for disappointment; the reliable lever is your own desires, which you can shape. For poker and other uncertain play, this points to judging decisions by the quality of your process rather than by the outcome a hand or session delivers, since card distribution and opponents&#x27; choices belong to others. Treat a bad beat the way you would treat a child&#x27;s illness you cannot control: do what is yours to do, then let the result go.</p>
+</section>
+<section class="anchor">
+  <div>
+    <p class="kicker">Quote</p>
+    <blockquote>What does not kill me makes me stronger.</blockquote>
+    <p class="by">— Friedrich Nietzsche</p>
+    <p class="ctx">Twilight of the Idols. Often quoted flippantly, but Nietzsche meant it about suffering that reveals character, not minor adversity.</p>
+  </div>
+  <div>
+    <p class="kicker">Mental model · Psychology</p>
+    <p class="mm">Commitment and Consistency</p>
+    <p class="ctx">Once we commit publicly, we distort reality to stay consistent. Cults exploit this with small initial commitments (a meeting, a donation) that escalate. Munger&#x27;s rule: be very careful what you commit to publicly. Once you&#x27;ve said it, your brain will defend it against evidence.</p>
+  </div>
+</section>
+
+<section class="spot">
+  <p class="kicker">Channel spotlight · 1 day left</p>
+  <p class="mm"><a href="https://www.youtube.com/channel/UCznv7Vf9nBdJYvBagFdAHWw">Tim Ferriss</a></p>
+  <p class="ctx">He covers the overlap between your Stoicism, decision-making and performance interests that most of your health and poker channels skip. He is a long-time Seneca devotee (the &#x27;fear-setting&#x27; exercise is applied Stoic premeditatio malorum), and he interviews decision-science people, elite operators and researchers about resilience, sleep, and handling pressure. The format is 1.5–3 hour interviews, plus occasional solo or short-form pieces, and the questions are practical and tool-oriented, which complements the more data-heavy channels you already follow.</p>
+  <div class="snip"><code id="snip">    &quot;Tim Ferriss&quot;: &quot;UCznv7Vf9nBdJYvBagFdAHWw&quot;,</code><button type="button" id="copy">Copy</button></div>
+  <p class="hint">Paste into YOUTUBE_CHANNELS in brief.py to follow.</p>
+</section>
+
+<footer class="foot">
+  <nav class="arch"><a href="2026-11-20.html">← Yesterday</a><a href="./">All briefs</a></nav>
+  <details><summary class="hl warn">● 1 source issue · 58 OK</summary><ul><li class="fail"><b>r/poker (top today)</b> — proxy HTTP 404, direct HTTP 404</li></ul></details>
+  <p class="stats">102 new items scanned · 10 read in full · 55k in / 5k out tokens · 1m46s</p>
+</footer>
+</div>
+<button type="button" class="send" id="send">Send feedback <b id="send-n">0</b></button>
+<script>
+(function () {
+  var REPO = "msusyr24/morning-brief", DAY = "2026-11-21", KEY = 'brief-votes';
+
+  // copy button (channel spotlight)
+  var b = document.getElementById('copy');
+  if (b) b.addEventListener('click', function () {
+    navigator.clipboard.writeText(document.getElementById('snip').innerText.trim());
+    b.textContent = 'Copied'; setTimeout(function () { b.textContent = 'Copy'; }, 1800);
+  });
+
+  // live BTC price
+  var p = document.getElementById('btc-p');
+  if (p) fetch('https://api.coingecko.com/api/v3/simple/price?ids=bitcoin&vs_currencies=usd&include_24hr_change=true')
+    .then(function (r) { return r.json(); })
+    .then(function (d) {
+      var v = d.bitcoin.usd, c = d.bitcoin.usd_24h_change;
+      p.textContent = '$' + Math.round(v).toLocaleString('en-US');
+      document.getElementById('btc-c').innerHTML = '<span class="' + (c >= 0 ? 'up' : 'down') + '">' + (c >= 0 ? '▲ ' : '▼ ') + Math.abs(c).toFixed(1) + '%</span>';
+    }).catch(function () {});
+
+  // reading progress + active section pill
+  var prog = document.getElementById('prog'), pills = document.querySelectorAll('.nav a'), secs = document.querySelectorAll('.sec');
+  function onScroll() {
+    var h = document.documentElement, max = h.scrollHeight - h.clientHeight;
+    prog.style.transform = 'scaleX(' + (max > 0 ? h.scrollTop / max : 0) + ')';
+    var cur = null;
+    secs.forEach(function (s) { if (s.getBoundingClientRect().top < 120) cur = s.id; });
+    pills.forEach(function (a) {
+      var on = a.getAttribute('href') === '#' + cur;
+      if (on && !a.classList.contains('on')) a.scrollIntoView({inline: 'nearest', block: 'nearest'});
+      a.classList.toggle('on', on);
+    });
+  }
+  window.addEventListener('scroll', onScroll, {passive: true}); onScroll();
+
+  // thumbs up / down -> GitHub issue
+  var votes = {};
+  try { votes = JSON.parse(localStorage.getItem(KEY) || '{}'); } catch (e) {}
+  function save() { try { localStorage.setItem(KEY, JSON.stringify(votes)); } catch (e) {} }
+  function id(el) { return el.dataset.src + '|' + el.dataset.title; }
+  var send = document.getElementById('send'), sendN = document.getElementById('send-n');
+  function refresh() {
+    var n = Object.keys(votes).length;
+    sendN.textContent = n; send.classList.toggle('show', n > 0 && !!REPO);
+    document.querySelectorAll('.vote').forEach(function (el) {
+      var v = votes[id(el)];
+      el.querySelector('.up').classList.toggle('on', !!v && v.v > 0);
+      el.querySelector('.dn').classList.toggle('on', !!v && v.v < 0);
+    });
+  }
+  document.querySelectorAll('.vote button').forEach(function (btn) {
+    btn.addEventListener('click', function (ev) {
+      ev.preventDefault();
+      var el = btn.parentNode, k = id(el), v = btn.classList.contains('up') ? 1 : -1;
+      if (votes[k] && votes[k].v === v) delete votes[k];
+      else votes[k] = {v: v, s: el.dataset.src, t: el.dataset.title};
+      if (navigator.vibrate) navigator.vibrate(8);
+      save(); refresh();
+    });
+  });
+  send.addEventListener('click', function () {
+    var lines = Object.keys(votes).map(function (k) {
+      var v = votes[k]; return (v.v > 0 ? '+' : '-') + ' | ' + v.s.replace(/\|/g, '/') + ' | ' + v.t.replace(/\|/g, '/');
+    });
+    var url = 'https://github.com/' + REPO + '/issues/new?title=' + encodeURIComponent('Brief feedback ' + DAY) +
+      '&body=' + encodeURIComponent(lines.join('\n') + '\n\n(Tap Submit. The next brief learns from these.)');
+    votes = {}; save(); refresh();
+    window.open(url, '_blank');
+  });
+  refresh();
+})();
+</script>
+</body>
+</html>
