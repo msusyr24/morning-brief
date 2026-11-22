@@ -1,11 +1,11 @@
 {
   "current_suggestion": {
-    "channel_name": "Tim Ferriss",
-    "channel_id": "UCznv7Vf9nBdJYvBagFdAHWw",
-    "youtube_handle": "@timferriss",
-    "pitch": "He covers the overlap between your Stoicism, decision-making and performance interests that most of your health and poker channels skip. He is a long-time Seneca devotee (the 'fear-setting' exercise is applied Stoic premeditatio malorum), and he interviews decision-science people, elite operators and researchers about resilience, sleep, and handling pressure. The format is 1.5\u20133 hour interviews, plus occasional solo or short-form pieces, and the questions are practical and tool-oriented, which complements the more data-heavy channels you already follow."
+    "channel_name": "Academy of Ideas",
+    "channel_id": "UCiRiQGCHGjDLT9FQXFW0I3A",
+    "youtube_handle": "@academyofideas",
+    "pitch": "You asked for more Stoicism and long-form essays. This channel covers them in a form your list lacks: scripted, narrated 10-25 minute essays instead of interviews or news-style commentary. Episodes work through Marcus Aurelius, Seneca, Epictetus, Nietzsche, existentialists and depth psychology, and ask what a good life is and how to face adversity. It suits the inner-game side of poker, such as tilt, variance and meaning under uncertainty, and it grounds ideas in primary texts rather than productivity-style advice."
   },
-  "shown_count": 3,
+  "shown_count": 1,
   "history": [
     "Brad Kearns",
     "Dr. Layne Norton",
@@ -86,6 +86,7 @@
     "AI Explained",
     "Andrej Karpathy",
     "Sabine Hossenfelder",
-    "Tim Ferriss"
+    "Tim Ferriss",
+    "Academy of Ideas"
   ]
 }
