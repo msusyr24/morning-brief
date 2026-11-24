@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="color-scheme" content="light dark">
+<meta name="theme-color" content="#f5f2ea" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#15140f" media="(prefers-color-scheme: dark)">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="Brief">
+<meta name="robots" content="noindex">
+<link rel="icon" href="../icon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="../apple-touch-icon.png">
+<title>Morning Brief · Tuesday, November 24</title>
+<style>
+:root {
+  --bg:#f5f2ea; --card:#fffdf8; --ink:#1d1b17; --soft:#47433b; --mute:#837d71; --rule:#e6e0d3;
+  --acc:#2d5b4f; --acc-soft:#e6eee8; --warm:#b4691a; --up:#2e7d4f; --down:#b8402f;
+  --serif: "Iowan Old Style", "Charter", "Palatino Linotype", Palatino, Georgia, serif;
+  --sans: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", system-ui, Roboto, sans-serif;
+  --shadow: 0 1px 2px rgba(40,30,10,.05), 0 8px 24px -14px rgba(40,30,10,.22);
+  --r: 18px; --pad: 20px;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg:#13120e; --card:#1c1a15; --ink:#efeadd; --soft:#cdc6b6; --mute:#8f887a; --rule:#2f2c26;
+    --acc:#8fc2ad; --acc-soft:#1f2a25; --warm:#e0a15a; --up:#6cc28e; --down:#e57f6c;
+    --shadow: 0 1px 2px rgba(0,0,0,.35), 0 10px 28px -16px rgba(0,0,0,.7);
+  }
+  .sec, .nav a { --a: var(--ad) !important; }
+}
+* { box-sizing:border-box; -webkit-tap-highlight-color:transparent; }
+html { scroll-behavior:smooth; -webkit-text-size-adjust:100%; }
+body { margin:0; background:var(--bg); color:var(--ink); font:18px/1.62 var(--serif);
+  -webkit-font-smoothing:antialiased; text-rendering:optimizeLegibility; overflow-x:hidden; }
+.wrap { max-width:680px; margin:0 auto;
+  padding:max(30px, calc(env(safe-area-inset-top) + 14px)) max(var(--pad), env(safe-area-inset-right))
+          calc(96px + env(safe-area-inset-bottom)) max(var(--pad), env(safe-area-inset-left)); }
+a { color:inherit; text-decoration-color:var(--rule); text-underline-offset:3px; text-decoration-thickness:1px; }
+.kicker { font:650 11px/1.2 var(--sans); letter-spacing:.13em; text-transform:uppercase; color:var(--mute); margin:0 0 10px; }
+.progress { position:fixed; inset:0 0 auto 0; height:3px; z-index:20; background:var(--warm); transform-origin:0 50%; transform:scaleX(0); }
+
+header .brand { display:flex; align-items:center; gap:8px; font:650 12px/1 var(--sans); letter-spacing:.16em; text-transform:uppercase; color:var(--acc); margin:0; }
+header .brand::before { content:""; width:18px; height:18px; border-radius:50%;
+  background:radial-gradient(circle at 50% 120%, var(--warm) 0 45%, transparent 46%), var(--acc-soft); box-shadow:inset 0 0 0 1px var(--rule); }
+header h1 { font-size:42px; line-height:1.06; margin:14px 0 10px; font-weight:650; letter-spacing:-.025em; }
+.greet { margin:0; color:var(--soft); font-size:18px; line-height:1.5; font-style:italic; }
+.bar { display:flex; flex-wrap:wrap; gap:6px; margin-top:14px; }
+.bar span { font:600 12px/1 var(--sans); color:var(--soft); background:var(--card); border:1px solid var(--rule); border-radius:99px; padding:7px 11px; }
+
+.cards { display:grid; gap:10px; margin:22px 0 0; }
+.cards.n2 { grid-template-columns:1fr 1fr; }
+.card { background:var(--card); border:1px solid var(--rule); border-radius:var(--r); padding:15px 16px 13px; box-shadow:var(--shadow); position:relative; overflow:hidden; }
+.card .big { font:650 28px/1.1 var(--sans); letter-spacing:-.02em; font-variant-numeric:tabular-nums; display:flex; align-items:center; gap:8px; }
+.card .wi { font-size:24px; }
+.card .cap { margin:6px 0 0; font:12.5px/1.4 var(--sans); color:var(--mute); }
+.up { color:var(--up); } .down { color:var(--down); }
+.spark { display:block; width:100%; height:30px; margin-top:8px; }
+.spark .ln { fill:none; stroke-width:1.8; stroke-linejoin:round; stroke-linecap:round; vector-effect:non-scaling-stroke; }
+.spark.up .ln { stroke:var(--up); } .spark.down .ln { stroke:var(--down); }
+.spark .fill { opacity:.12; } .spark.up .fill { fill:var(--up); } .spark.down .fill { fill:var(--down); }
+.spark.up .dot { fill:var(--up); } .spark.down .dot { fill:var(--down); }
+
+.top { background:var(--card); border:1px solid var(--rule); border-radius:var(--r); padding:20px 20px 6px; margin:12px 0 0; box-shadow:var(--shadow); }
+.top ol { margin:0; padding:0; list-style:none; counter-reset:t; }
+.top li { counter-increment:t; position:relative; padding:0 0 14px 34px; font-size:17.5px; line-height:1.48; }
+.top li::before { content:counter(t); position:absolute; left:0; top:-1px; font:650 23px/1 var(--serif); color:var(--warm); }
+.top a { text-decoration:none; }
+
+.nav { position:sticky; top:0; z-index:10; display:flex; gap:7px; overflow-x:auto; scroll-snap-type:x proximity; scroll-padding-inline:var(--pad);
+  padding:calc(env(safe-area-inset-top) + 10px) var(--pad) 10px; margin:18px calc(-1 * var(--pad)) 0;
+  background:color-mix(in srgb, var(--bg) 86%, transparent); backdrop-filter:saturate(1.5) blur(14px); -webkit-backdrop-filter:saturate(1.5) blur(14px);
+  scrollbar-width:none; mask-image:linear-gradient(90deg, #000 88%, transparent); -webkit-mask-image:linear-gradient(90deg, #000 88%, transparent); }
+.nav::-webkit-scrollbar { display:none; }
+.nav a { flex:none; scroll-snap-align:start; display:flex; align-items:center; gap:6px; font:600 13.5px/1 var(--sans); padding:10px 13px; border-radius:99px; border:1px solid var(--rule);
+  text-decoration:none; color:var(--soft); background:var(--card); }
+.nav a span { color:var(--a); }
+.nav a em { font-style:normal; font-weight:500; color:var(--mute); font-size:12px; }
+.nav a.on { border-color:var(--a); color:var(--a); background:color-mix(in srgb, var(--a) 9%, var(--card)); }
+
+.sec { margin-top:30px; scroll-margin-top:70px; }
+.sec h2 { display:flex; align-items:center; gap:9px; font:700 13px/1 var(--sans); letter-spacing:.13em;
+  text-transform:uppercase; color:var(--a); margin:0 0 12px 4px; }
+.ic { font-size:15px; }
+.item { background:var(--card); border:1px solid var(--rule); border-radius:var(--r); padding:16px 18px 10px; margin-bottom:12px;
+  box-shadow:var(--shadow); scroll-margin-top:70px; border-top:3px solid var(--a); }
+.item .src { font:650 12px/1.3 var(--sans); color:var(--a); margin:0 0 8px; letter-spacing:.01em; }
+.item .src a { color:var(--mute); font-weight:500; }
+.item h3 { font-size:21.5px; line-height:1.27; margin:0 0 9px; font-weight:650; letter-spacing:-.012em; }
+.item h3 a { text-decoration:none; }
+.item .sum { margin:0 0 10px; color:var(--soft); }
+.thumb { float:right; position:relative; width:112px; margin:2px 0 8px 14px; border-radius:10px; overflow:hidden; aspect-ratio:16/9; background:var(--rule); }
+.thumb img { width:100%; height:100%; object-fit:cover; display:block; }
+.thumb .play { position:absolute; inset:0; display:grid; place-items:center; color:#fff; font-size:15px; text-shadow:0 1px 6px rgba(0,0,0,.6); }
+.item:target { box-shadow:0 0 0 2px var(--a), var(--shadow); }
+.take { clear:both; margin:4px 0 12px; padding:12px 14px 12px 30px; background:color-mix(in srgb, var(--a) 7%, var(--card)); border-radius:12px; color:var(--soft); font-size:16px; line-height:1.52; }
+.take li { margin:4px 0; } .take li::marker { color:var(--a); }
+.orig { clear:both; margin:0 0 6px; font:italic 13px/1.45 var(--sans); color:var(--mute); }
+.row { clear:both; display:flex; align-items:center; justify-content:space-between; gap:10px; border-top:1px solid var(--rule); margin:6px -4px 0; padding-top:6px; }
+.open { font:650 14px/1 var(--sans); color:var(--a); text-decoration:none; padding:10px 4px; }
+
+.vote { display:inline-flex; gap:4px; flex:none; }
+.vote button { width:40px; height:36px; border-radius:10px; border:1px solid transparent; background:transparent; font-size:17px; line-height:1;
+  cursor:pointer; filter:grayscale(1); opacity:.5; transition:transform .12s, opacity .12s, filter .12s, background .12s; }
+.vote button:active { transform:scale(.9); }
+.vote button.on { filter:none; opacity:1; background:var(--acc-soft); border-color:var(--rule); }
+
+.also { margin-top:30px; background:var(--card); border:1px solid var(--rule); border-radius:var(--r); padding:0 16px 0 18px; box-shadow:var(--shadow); }
+.also summary { cursor:pointer; padding:18px 0; font:700 13px/1 var(--sans); letter-spacing:.13em; text-transform:uppercase; color:var(--acc); list-style:none; }
+.also summary::-webkit-details-marker { display:none; }
+.also summary::after { content:"＋"; float:right; color:var(--mute); }
+.also[open] summary::after { content:"－"; }
+.also summary span { color:var(--mute); margin-left:6px; }
+.also ul { margin:0 0 10px; padding:0; list-style:none; }
+.also li { display:flex; align-items:center; gap:6px; border-top:1px solid var(--rule); }
+.also li > a { flex:1; padding:12px 0; font-size:16px; line-height:1.48; color:var(--soft); text-decoration:none; }
+.also li b { display:block; font:650 12px/1.3 var(--sans); color:var(--ink); margin-bottom:2px; }
+.also .vote button { width:34px; }
+
+.passage { margin-top:36px; padding:24px 22px 22px; border-radius:var(--r); background:linear-gradient(160deg, color-mix(in srgb, #6b4b8a 10%, var(--card)), var(--card) 60%);
+  border:1px solid var(--rule); box-shadow:var(--shadow); }
+.ptext { margin:0; font-size:19px; line-height:1.6; }
+.ptext::first-letter { float:left; font:650 52px/.86 var(--serif); margin:6px 8px 0 0; color:var(--warm); }
+.anchor { display:grid; grid-template-columns:1fr 1fr; gap:26px; margin-top:12px; padding:22px; border-radius:var(--r); background:var(--card); border:1px solid var(--rule); box-shadow:var(--shadow); }
+blockquote { margin:0; font-size:20px; line-height:1.45; font-style:italic; }
+blockquote::before { content:"“"; display:block; font:650 44px/0.6 var(--serif); color:var(--warm); margin:10px 0 4px; }
+.by { margin:10px 0 8px; font:650 13px var(--sans); color:var(--soft); }
+.mm { font-size:20px; font-weight:650; margin:0 0 6px; line-height:1.3; }
+.ctx { margin:0; font-size:15.5px; line-height:1.58; color:var(--soft); }
+.spot { margin-top:12px; padding:20px 22px; border-radius:var(--r); border:1px dashed var(--rule); }
+.snip { display:flex; gap:8px; align-items:center; margin-top:12px; }
+.snip code { flex:1; min-width:0; overflow-x:auto; white-space:pre; font:12.5px/1.5 ui-monospace, Consolas, monospace; background:var(--acc-soft); padding:9px 10px; border-radius:8px; }
+.snip button { font:650 13px var(--sans); border:0; border-radius:8px; padding:10px 14px; background:var(--acc); color:var(--bg); cursor:pointer; }
+.hint { font:12px var(--sans); color:var(--mute); margin:8px 0 0; }
+.quiet { font-style:italic; color:var(--mute); margin-top:30px; }
+
+.send { position:fixed; left:50%; bottom:calc(16px + env(safe-area-inset-bottom)); z-index:30; transform:translate(-50%, 140%);
+  display:flex; align-items:center; gap:10px; padding:13px 20px; border-radius:99px; border:0; background:var(--ink); color:var(--bg);
+  font:650 15px/1 var(--sans); box-shadow:0 10px 30px -8px rgba(0,0,0,.45); cursor:pointer; transition:transform .25s cubic-bezier(.2,.9,.3,1.2); white-space:nowrap; }
+.send.show { transform:translate(-50%, 0); }
+.send b { background:var(--warm); color:#fff; border-radius:99px; min-width:22px; padding:4px 7px; font-size:12px; text-align:center; }
+
+.foot { margin-top:40px; padding-top:16px; border-top:1px solid var(--rule); font:13px/1.5 var(--sans); color:var(--mute); }
+.arch { display:flex; gap:10px; margin-bottom:14px; }
+.arch a { color:var(--acc); text-decoration:none; font-weight:650; padding:10px 14px; border:1px solid var(--rule); border-radius:99px; background:var(--card); }
+.foot details summary { cursor:pointer; list-style:none; }
+.foot details summary::-webkit-details-marker { display:none; }
+.foot ul { margin:6px 0; padding-left:18px; }
+.foot li.fail b { color:var(--down); } .foot li.warn b { color:var(--warm); }
+.hl { margin:0; font-weight:650; } .hl.ok { color:var(--up); } .hl.warn { color:var(--warm); }
+.stats { margin:6px 0 0; }
+@media (max-width:560px) {
+  :root { --pad:14px; --r:16px; }
+  body { font-size:17px; line-height:1.58; }
+  header h1 { font-size:36px; }
+  .greet { font-size:17px; }
+  .item { padding:15px 15px 8px; }
+  .item h3 { font-size:19.5px; }
+  .thumb { width:96px; margin-left:12px; }
+  .take { font-size:15.5px; }
+  .anchor { grid-template-columns:1fr; gap:22px; }
+  .card .big { font-size:24px; }
+  .ptext { font-size:18px; }
+}
+@media (max-width:360px) { .cards.n2 { grid-template-columns:1fr; } }
+@media (prefers-reduced-motion:reduce) { html { scroll-behavior:auto; } .send { transition:none; } }
+</style>
+</head>
+<body>
+<div class="progress" id="prog"></div>
+<div class="wrap">
+<header>
+  <p class="brand">Morning Brief</p>
+  <h1>Tuesday, November 24</h1>
+  <p class="greet">Saylor lays out Strategy&#x27;s Bitcoin credit model, plus a GTO Wizard study on raising limpers, midterm results, a Russian missile strike on Poland, and Ukraine&#x27;s attack on a warship in Libya.</p>
+  <div class="bar"><span>5 min read</span><span>7 stories</span><span>7 quick hits</span></div>
+</header>
+<section class="cards n1">
+  <div class="card btc">
+    <p class="kicker">Bitcoin</p>
+    <div class="big" id="btc-p">$60,471</div>
+    <p class="cap"><span id="btc-c"><span class="up">▲ 0.2%</span></span> 24h · <span class="down">▼ 6.5%</span> 7d</p>
+    <svg class="spark down" viewBox="0 0 132 36" width="132" height="36" preserveAspectRatio="none" aria-hidden="true"><polygon points="2,36 2.0,4.2 5.0,3.9 8.1,5.4 11.1,3.0 14.2,7.2 17.2,5.5 20.3,5.6 23.3,4.5 26.4,4.6 29.4,6.9 32.5,9.5 35.5,12.0 38.6,10.4 41.6,8.7 44.7,7.1 47.7,6.5 50.8,10.6 53.8,14.5 56.9,14.5 59.9,13.3 63.0,14.1 66.0,13.4 69.0,22.2 72.1,22.7 75.1,22.7 78.2,33.0 81.2,25.9 84.3,17.6 87.3,19.3 90.4,18.1 93.4,19.2 96.5,23.1 99.5,15.8 102.6,17.1 105.6,16.9 108.7,16.5 111.7,16.7 114.8,14.1 117.8,14.9 120.9,7.4 123.9,14.1 127.0,15.2 130.0,15.3 130,36" class="fill"/><polyline points="2.0,4.2 5.0,3.9 8.1,5.4 11.1,3.0 14.2,7.2 17.2,5.5 20.3,5.6 23.3,4.5 26.4,4.6 29.4,6.9 32.5,9.5 35.5,12.0 38.6,10.4 41.6,8.7 44.7,7.1 47.7,6.5 50.8,10.6 53.8,14.5 56.9,14.5 59.9,13.3 63.0,14.1 66.0,13.4 69.0,22.2 72.1,22.7 75.1,22.7 78.2,33.0 81.2,25.9 84.3,17.6 87.3,19.3 90.4,18.1 93.4,19.2 96.5,23.1 99.5,15.8 102.6,17.1 105.6,16.9 108.7,16.5 111.7,16.7 114.8,14.1 117.8,14.9 120.9,7.4 123.9,14.1 127.0,15.2 130.0,15.3" class="ln"/><circle cx="130.0" cy="15.3" r="2.6" class="dot"/></svg>
+  </div></section>
+<section class="top"><p class="kicker">If you read nothing else</p><ol><li><a href="#v0">Saylor sets out Strategy&#x27;s break-even numbers, its credit structure and his claim that it can fund dividends without margin debt.</a></li><li><a href="#r72">The solver says to raise limpers bigger from the blinds, around 10bb from the BB, which is more than the usual in-position sizing.</a></li><li><a href="#r65">Democrats won the House popular vote 56 to 42, and Russia fired missiles into Poland, prompting an emergency NATO session.</a></li></ol></section>
+<nav class="nav" aria-label="Sections"><a href="#s-news" style="--a:#38506b;--ad:#a3b9d3"><span>◉</span>World &amp; Markets<em>2</em></a><a href="#s-poker" style="--a:#2d5b4f;--ad:#8fc2ad"><span>♠</span>Poker<em>1</em></a><a href="#s-health" style="--a:#a33c3c;--ad:#ec8f84"><span>✚</span>Health &amp; Sleep<em>1</em></a><a href="#s-mind" style="--a:#6b4b8a;--ad:#c6a4e6"><span>◎</span>Mind &amp; Philosophy<em>2</em></a><a href="#s-bitcoin" style="--a:#b4691a;--ad:#e7a865"><span>₿</span>Bitcoin &amp; Macro<em>1</em></a></nav>
+<section class="sec" id="s-news" style="--a:#38506b;--ad:#a3b9d3"><h2><span class="ic">◉</span>World &amp; Markets</h2>
+<article class="item" id="r65">
+  <p class="src">NPR News</p>
+  <h3><a href="https://www.npr.org/2026/11/23/g-s1-155021/up-first-newsletter-midterms-house-ai-stocks-poland-nato-cop31">Democrats win House popular vote 56% to 42%, the largest margin in 50 years</a></h3>
+  <p class="sum">Counting for the 2026 midterms is wrapping up. Democrats took 56% of House votes to Republicans&#x27; 42%, a 14-point gap and the largest margin in 50 years. They hold the biggest congressional majority since the early 1990s. Separately, Wall Street had one of its worst recent weeks after Anthropic&#x27;s market debut, which was expected to lift markets but did not.</p><ul class="take"><li>A business economists&#x27; survey found one in five firms report measurable, widespread AI productivity gains.</li><li>Fed Chicago president Goolsbee says AI investment is adding to inflation by raising demand for construction materials and electronic components.</li></ul>
+  <div class="row"><a class="open" href="https://www.npr.org/2026/11/23/g-s1-155021/up-first-newsletter-midterms-house-ai-stocks-poland-nato-cop31">Read →</a><span class="vote" data-src="NPR News" data-title="Democrats win House by largest margin in 50 years. And, COP31 ends with no deal"><button type="button" class="up" aria-label="More like this">👍</button><button type="button" class="dn" aria-label="Less like this">👎</button></span></div>
+</article>
+<article class="item" id="r66">
+  <p class="src">NPR News</p>
+  <h3><a href="https://www.npr.org/2026/11/23/g-s1-155017/ukraine-attack-russian-warship-libya">Ukraine says drones sank a Russian corvette in Libya; Russia fires missiles into Poland</a></h3>
+  <p class="sum">Zelenskyy says seven maritime drones sank the Russian corvette Merkury at Benghazi, about 2,400 km from the front. Libyan officials say the ship was badly damaged, not sunk, that two drones hit it, and that at least 10 people were wounded. Eastern Libya has asked the UN to investigate the use of western Libya as a launch site. Also on Monday, the European Commission proposed new sanctions on dozens of Russian banks and crypto platforms. Poland called an emergency NATO session after three Russian cruise missiles entered its territory; bad weather prevented interception, and no damage or injuries were reported.</p><ul class="take"><li>The EU sanctions need approval from all 27 members, which can take weeks.</li><li>Russian strikes killed 11 in a village near Kyiv and 3 at a hospital in Zaporizhzhia.</li></ul>
+  <div class="row"><a class="open" href="https://www.npr.org/2026/11/23/g-s1-155017/ukraine-attack-russian-warship-libya">Read →</a><span class="vote" data-src="NPR News" data-title="Zelenskyy hails Ukraine&#x27;s attack on a Russian warship docked at a naval base in Libya"><button type="button" class="up" aria-label="More like this">👍</button><button type="button" class="dn" aria-label="Less like this">👎</button></span></div>
+</article></section><section class="sec" id="s-poker" style="--a:#2d5b4f;--ad:#8fc2ad"><h2><span class="ic">♠</span>Poker</h2>
+<article class="item" id="r72">
+  <p class="src">GTO Wizard Blog</p>
+  <h3><a href="https://blog.gtowizard.com/attacking-limpers-from-the-blinds/">Solver says raise limpers bigger from the blinds, about 10bb from the BB</a></h3>
+  <p class="sum">GTO Wizard&#x27;s multiway preflop solver, in a 3-handed 100bb game with rake only after the flop, shows the BB raising to the larger 10bb size against a BTN limp, never the 6.5bb size. The SB mixes sizes and raises more often, because the BB still has to act behind. The reasons are that raising turns weak hands that check poorly into good raises, that the BB needs a wide range to play out of position, and that raising folds out dominated hands. If the limper cannot raise and so is capped, even 14bb or a jam is used. Position matters: the usual &#x27;in position, raise 4bb plus 1bb per limper&#x27; rule undersizes from the blinds.</p><ul class="take"><li>Heuristic: raise larger when raising limpers from the blinds. 10bb is the BB baseline, and it can go larger against weak, capped limpers.</li><li>SB should not use the giant sizes, because BB is still behind.</li><li>Against a capped limper, you don&#x27;t need to polarize: raise strong hands, plus some suited connectors.</li></ul>
+  <div class="row"><a class="open" href="https://blog.gtowizard.com/attacking-limpers-from-the-blinds/">Read →</a><span class="vote" data-src="GTO Wizard Blog" data-title="Attacking Limpers From the Blinds"><button type="button" class="up" aria-label="More like this">👍</button><button type="button" class="dn" aria-label="Less like this">👎</button></span></div>
+</article></section><section class="sec" id="s-health" style="--a:#a33c3c;--ad:#ec8f84"><h2><span class="ic">✚</span>Health &amp; Sleep</h2>
+<article class="item" id="r82">
+  <p class="src">Peter Attia</p>
+  <h3><a href="https://peterattiamd.com/coldtherapy/">Peter Attia on cold therapy: strongest evidence is for soreness, with a possible cost to hypertrophy</a></h3>
+  <p class="sum">Attia reviews cold water immersion (typically 40-60F; 2-3 minutes at the colder end, about 30 minutes at the warmer end) and whole-body cryotherapy (-110 to -160C for about 3 minutes). He says the strongest data is for delayed-onset muscle soreness, and that cold water is subjectively much colder than cryo. The episode also covers mood and depression, brown fat, and possible hypertrophy blunting. He warns that the literature relies on meta-analyses of very heterogeneous small studies. He also explains standardized mean difference, where 0.2 is a small effect, 0.5 moderate and 0.8 large. Excerpts show he starts with a 2022 meta-analysis of 52 studies in regular exercisers. The video is a rebroadcast, and the excerpt cuts off before his conclusions.</p>
+  <div class="row"><a class="open" href="https://peterattiamd.com/coldtherapy/">Read →</a><span class="vote" data-src="Peter Attia" data-title="Cold therapy: pros, cons, and its impact on longevity (AMA #47 rebroadcast)"><button type="button" class="up" aria-label="More like this">👍</button><button type="button" class="dn" aria-label="Less like this">👎</button></span></div>
+</article></section><section class="sec" id="s-mind" style="--a:#6b4b8a;--ad:#c6a4e6"><h2><span class="ic">◎</span>Mind &amp; Philosophy</h2>
+<article class="item" id="v21">
+  <p class="src">▶ Daily Stoic</p>
+  <a class="thumb" href="https://www.youtube.com/watch?v=8Mpk0qSYZKE" aria-hidden="true" tabindex="-1"><img src="https://i.ytimg.com/vi/8Mpk0qSYZKE/mqdefault.jpg" alt="" loading="lazy" width="320" height="180"><span class="play">▶</span></a><h3><a href="https://www.youtube.com/watch?v=8Mpk0qSYZKE">Seven Stoic one-liners, led by Seneca on pre-suffering and Marcus on obstacles</a></h3>
+  <p class="sum">Seneca says he who suffers before it is necessary suffers more than necessary, so catastrophizing adds to total suffering. Marcus Aurelius says the impediment to action advances action: treat an obstacle as practice for virtue. Epictetus says it is impossible to learn what you think you already know, and Zeno says to listen more than you talk. Applied to poker, the first is a direct tilt tool.</p><p class="orig">“7 Life Changing Lessons From the Ancient Stoics”</p>
+  <div class="row"><a class="open" href="https://www.youtube.com/watch?v=8Mpk0qSYZKE">Watch →</a><span class="vote" data-src="Daily Stoic" data-title="7 Life Changing Lessons From the Ancient Stoics"><button type="button" class="up" aria-label="More like this">👍</button><button type="button" class="dn" aria-label="Less like this">👎</button></span></div>
+</article>
+<article class="item" id="v13">
+  <p class="src">▶ Andrew Huberman</p>
+  <a class="thumb" href="https://www.youtube.com/watch?v=brzkTni-nTQ" aria-hidden="true" tabindex="-1"><img src="https://i.ytimg.com/vi/brzkTni-nTQ/mqdefault.jpg" alt="" loading="lazy" width="320" height="180"><span class="play">▶</span></a><h3><a href="https://www.youtube.com/watch?v=brzkTni-nTQ">Eckhart Tolle: present-moment practice starts with sense perception and reduces thinking</a></h3>
+  <p class="sum">Tolle&#x27;s exercise has two steps. First, attend to what you see and hear without labeling it, which he says cuts the amount of thinking. Second, become aware of yourself as the awareness doing the perceiving, rather than your historical personality. He says that people mistake the concepts and names for the self, and that words cannot capture feeling states. He opens with Camus: in the midst of winter, an invincible summer.</p><p class="orig">“Access the Power of Now to Experience Life More Fully | Eckhart Tolle”</p>
+  <div class="row"><a class="open" href="https://www.youtube.com/watch?v=brzkTni-nTQ">Watch →</a><span class="vote" data-src="Andrew Huberman" data-title="Access the Power of Now to Experience Life More Fully | Eckhart Tolle"><button type="button" class="up" aria-label="More like this">👍</button><button type="button" class="dn" aria-label="Less like this">👎</button></span></div>
+</article></section><section class="sec" id="s-bitcoin" style="--a:#b4691a;--ad:#e7a865"><h2><span class="ic">₿</span>Bitcoin &amp; Macro</h2>
+<article class="item" id="v0">
+  <p class="src">▶ Michael Saylor · Strategy</p>
+  <a class="thumb" href="https://www.youtube.com/watch?v=8iPdQNLJv38" aria-hidden="true" tabindex="-1"><img src="https://i.ytimg.com/vi/8iPdQNLJv38/mqdefault.jpg" alt="" loading="lazy" width="320" height="180"><span class="play">▶</span></a><h3><a href="https://www.youtube.com/watch?v=8iPdQNLJv38">Saylor: Strategy aims to be the central bank of crypto, funded by Bitcoin-backed preferred stock</a></h3>
+  <p class="sum">Saylor says Strategy&#x27;s flagship preferred, STRC, pays about 12% daily and is backed by Bitcoin plus cash. He argues the payout is treated as return of capital, which defers tax for 8 to 10 years. He says the company has no margin debt and no liquidation point. Its break-even is Bitcoin appreciating about 2.4% a year, and he says it would need to refinance in about a decade only if Bitcoin fell 16% a year forever. He says STRC credit risk is about 67 basis points, which he calls investment grade, and that it trades about $200M a day. He puts digital credit at about $15B outstanding, with $22B raised this year. He also says Strategy holds about 4% of all Bitcoin, and states his goal of buying all remaining supply and driving the price to $10M.</p><ul class="take"><li>He tracks the 200-week moving average as Bitcoin&#x27;s &#x27;book value&#x27;; he says price is now below it, which he says it has been only about 3-4% of the time historically.</li><li>He says STRC buckled to the mid-70s in June, then Strategy raised about $8B, bought back billions of it and raised the dividend.</li><li>Bank lending against Bitcoin ETFs is about $50B financeable so far, which he sees as the driver for price.</li><li>He calls the AI/IPO capital rotation a near-term headwind but a long-term tailwind.</li></ul><p class="orig">“Michael Saylor Keynote at ITC Conference 2026”</p>
+  <div class="row"><a class="open" href="https://www.youtube.com/watch?v=8iPdQNLJv38">Watch →</a><span class="vote" data-src="Michael Saylor · Strategy" data-title="Michael Saylor Keynote at ITC Conference 2026"><button type="button" class="up" aria-label="More like this">👍</button><button type="button" class="dn" aria-label="Less like this">👎</button></span></div>
+</article></section>
+<details class="also"><summary>Quick hits <span>7</span></summary><ul><li><a href="https://www.youtube.com/watch?v=Z8kroQW76UE"><b>Renaissance Periodization</b>RP: if you&#x27;re skinny fat, spend 1 to 2 years recomping at maintenance with high protein and hard lifting before cutting.</a><span class="vote" data-src="Renaissance Periodization" data-title="Skinny Fat? Start Here."><button type="button" class="up" aria-label="More like this">👍</button><button type="button" class="dn" aria-label="Less like this">👎</button></span></li><li><a href="https://www.youtube.com/watch?v=O8HkacQBGYA"><b>Renaissance Periodization</b>RP: pro bodybuilders don&#x27;t actually take every set to failure.</a><span class="vote" data-src="Renaissance Periodization" data-title="Pro Bodybuilders Don&#x27;t Actually Train to Failure"><button type="button" class="up" aria-label="More like this">👍</button><button type="button" class="dn" aria-label="Less like this">👎</button></span></li><li><a href="https://www.youtube.com/watch?v=kiiq1vcXfR4"><b>ModernWisdom</b>ModernWisdom: requests for advice are often really requests for permission, a short-term loan on courage.</a><span class="vote" data-src="ModernWisdom" data-title="Why Are You Scared To Make Your Own Decisions?"><button type="button" class="up" aria-label="More like this">👍</button><button type="button" class="dn" aria-label="Less like this">👎</button></span></li><li><a href="https://www.youtube.com/watch?v=t09qO4lQ6y8"><b>Andrew Huberman</b>Tolle: the world isn&#x27;t here to make you happy, and expecting otherwise makes challenges feel like something has gone wrong.</a><span class="vote" data-src="Andrew Huberman" data-title="Happiness Isn&#x27;t the World&#x27;s Job | Eckhart Tolle"><button type="button" class="up" aria-label="More like this">👍</button><button type="button" class="dn" aria-label="Less like this">👎</button></span></li><li><a href="https://www.pokernews.com/news/2026/11/bryan-taylor-captures-third-trophy-at-the-vic-of-the-year-52864.htm?utm_medium=feed&amp;utm_campaign=homefeed&amp;utm_source=rss"><b>PokerNews</b>Bryan Taylor won his third tournament of 2026 at the Grosvenor Victoria at the GUKPT Grand Final.</a><span class="vote" data-src="PokerNews" data-title="Bryan Taylor Captures Third Trophy at The Vic of 2026 During GUKPT Grand Final"><button type="button" class="up" aria-label="More like this">👍</button><button type="button" class="dn" aria-label="Less like this">👎</button></span></li><li><a href="https://marginalrevolution.com/marginalrevolution/2026/11/the-ai-gains-that-gdp-misses.html?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=the-ai-gains-that-gdp-misses"><b>Marginal Revolution</b>Tyler Cowen argues GDP misses AI gains such as greater product variety and customization.</a><span class="vote" data-src="Marginal Revolution" data-title="The AI gains that gdp misses"><button type="button" class="up" aria-label="More like this">👍</button><button type="button" class="dn" aria-label="Less like this">👎</button></span></li><li><a href="https://donaldrobertson.substack.com/p/the-daily-stoic-10th-anniversary"><b>Donald Robertson</b>Donald Robertson marks the 10th anniversary edition of The Daily Stoic, which has sold over 3 million copies and adds 60 new translations.</a><span class="vote" data-src="Donald Robertson" data-title="The Daily Stoic: 10th Anniversary Edition"><button type="button" class="up" aria-label="More like this">👍</button><button type="button" class="dn" aria-label="Less like this">👎</button></span></li></ul></details>
+
+<section class="passage">
+  <p class="kicker">Daily Stoic reading · Seeking approval from the ignorant</p>
+  <p class="ptext">LI. He that knoweth not what the world is, knoweth not where he himself is. And he that knoweth not what the world was made for, cannot possibly know either what are the qualities, or what is the nature of the world. Now he that in either of these is to seek, for what he himself was made is ignorant also. What then dost thou think of that man, who proposeth unto himself, as a matter of great moment, the noise and applause of men, who both where they are, and what they are themselves, are altogether ignorant? Dost thou desire to be commended of that man, who thrice in one hour perchance, doth himself curse himself? Dost thou desire to please him, who pleaseth not himself? or dost thou think that he pleaseth himself, who doth use to repent himself almost of everything that he doth?</p>
+  <p class="by">— Marcus Aurelius, Meditations (tr. George Long)</p>
+  <p class="ctx">In plain terms, you cannot understand your own place or purpose without understanding the world, so someone who does not know either is a poor judge of your worth, and a person who keeps cursing and regretting themselves is no reliable source of praise. For poker, this means you should weigh feedback from people who cannot evaluate your decisions, such as a rail that cheers a lucky river or a friend who only sees the results, and anchor your sense of a good session to whether the decisions matched your process, not to applause or to the reactions of players who are themselves confused about variance.</p>
+</section>
+<section class="anchor">
+  <div>
+    <p class="kicker">Quote</p>
+    <blockquote>Hard choices, easy life. Easy choices, hard life.</blockquote>
+    <p class="by">— Jerzy Gregorek</p>
+    <p class="ctx">Polish-American weightlifter and poet. The line encapsulates why short-term discipline compounds into long-term freedom.</p>
+  </div>
+  <div>
+    <p class="kicker">Mental model · Psychology</p>
+    <p class="mm">Authority-Misinfluence Tendency</p>
+    <p class="ctx">We defer to perceived authority, often past the point of sense. Milgram&#x27;s experiments: subjects delivered &#x27;lethal&#x27; shocks because a lab coat said to. Real-world: pilots crashing planes because captains made errors first-officers wouldn&#x27;t challenge. Defense: evaluate the claim, not the credential.</p>
+  </div>
+</section>
+
+<section class="spot">
+  <p class="kicker">Channel spotlight · 1 day left</p>
+  <p class="mm"><a href="https://www.youtube.com/channel/UCiRiQGCHGjDLT9FQXFW0I3A">Academy of Ideas</a></p>
+  <p class="ctx">You asked for more Stoicism and long-form essays. This channel covers them in a form your list lacks: scripted, narrated 10-25 minute essays instead of interviews or news-style commentary. Episodes work through Marcus Aurelius, Seneca, Epictetus, Nietzsche, existentialists and depth psychology, and ask what a good life is and how to face adversity. It suits the inner-game side of poker, such as tilt, variance and meaning under uncertainty, and it grounds ideas in primary texts rather than productivity-style advice.</p>
+  <div class="snip"><code id="snip">    &quot;Academy of Ideas&quot;: &quot;UCiRiQGCHGjDLT9FQXFW0I3A&quot;,</code><button type="button" id="copy">Copy</button></div>
+  <p class="hint">Paste into YOUTUBE_CHANNELS in brief.py to follow.</p>
+</section>
+
+<footer class="foot">
+  <nav class="arch"><a href="2026-11-23.html">← Yesterday</a><a href="./">All briefs</a></nav>
+  <details><summary class="hl warn">● 1 source issue · 58 OK</summary><ul><li class="fail"><b>r/poker (top today)</b> — proxy HTTP 404, direct HTTP 404</li></ul></details>
+  <p class="stats">105 new items scanned · 10 read in full · 58k in / 5k out tokens · 1m40s</p>
+</footer>
+</div>
+<button type="button" class="send" id="send">Send feedback <b id="send-n">0</b></button>
+<script>
+(function () {
+  var REPO = "msusyr24/morning-brief", DAY = "2026-11-24", KEY = 'brief-votes';
+
+  // copy button (channel spotlight)
+  var b = document.getElementById('copy');
+  if (b) b.addEventListener('click', function () {
+    navigator.clipboard.writeText(document.getElementById('snip').innerText.trim());
+    b.textContent = 'Copied'; setTimeout(function () { b.textContent = 'Copy'; }, 1800);
+  });
+
+  // live BTC price
+  var p = document.getElementById('btc-p');
+  if (p) fetch('https://api.coingecko.com/api/v3/simple/price?ids=bitcoin&vs_currencies=usd&include_24hr_change=true')
+    .then(function (r) { return r.json(); })
+    .then(function (d) {
+      var v = d.bitcoin.usd, c = d.bitcoin.usd_24h_change;
+      p.textContent = '$' + Math.round(v).toLocaleString('en-US');
+      document.getElementById('btc-c').innerHTML = '<span class="' + (c >= 0 ? 'up' : 'down') + '">' + (c >= 0 ? '▲ ' : '▼ ') + Math.abs(c).toFixed(1) + '%</span>';
+    }).catch(function () {});
+
+  // reading progress + active section pill
+  var prog = document.getElementById('prog'), pills = document.querySelectorAll('.nav a'), secs = document.querySelectorAll('.sec');
+  function onScroll() {
+    var h = document.documentElement, max = h.scrollHeight - h.clientHeight;
+    prog.style.transform = 'scaleX(' + (max > 0 ? h.scrollTop / max : 0) + ')';
+    var cur = null;
+    secs.forEach(function (s) { if (s.getBoundingClientRect().top < 120) cur = s.id; });
+    pills.forEach(function (a) {
+      var on = a.getAttribute('href') === '#' + cur;
+      if (on && !a.classList.contains('on')) a.scrollIntoView({inline: 'nearest', block: 'nearest'});
+      a.classList.toggle('on', on);
+    });
+  }
+  window.addEventListener('scroll', onScroll, {passive: true}); onScroll();
+
+  // thumbs up / down -> GitHub issue
+  var votes = {};
+  try { votes = JSON.parse(localStorage.getItem(KEY) || '{}'); } catch (e) {}
+  function save() { try { localStorage.setItem(KEY, JSON.stringify(votes)); } catch (e) {} }
+  function id(el) { return el.dataset.src + '|' + el.dataset.title; }
+  var send = document.getElementById('send'), sendN = document.getElementById('send-n');
+  function refresh() {
+    var n = Object.keys(votes).length;
+    sendN.textContent = n; send.classList.toggle('show', n > 0 && !!REPO);
+    document.querySelectorAll('.vote').forEach(function (el) {
+      var v = votes[id(el)];
+      el.querySelector('.up').classList.toggle('on', !!v && v.v > 0);
+      el.querySelector('.dn').classList.toggle('on', !!v && v.v < 0);
+    });
+  }
+  document.querySelectorAll('.vote button').forEach(function (btn) {
+    btn.addEventListener('click', function (ev) {
+      ev.preventDefault();
+      var el = btn.parentNode, k = id(el), v = btn.classList.contains('up') ? 1 : -1;
+      if (votes[k] && votes[k].v === v) delete votes[k];
+      else votes[k] = {v: v, s: el.dataset.src, t: el.dataset.title};
+      if (navigator.vibrate) navigator.vibrate(8);
+      save(); refresh();
+    });
+  });
+  send.addEventListener('click', function () {
+    var lines = Object.keys(votes).map(function (k) {
+      var v = votes[k]; return (v.v > 0 ? '+' : '-') + ' | ' + v.s.replace(/\|/g, '/') + ' | ' + v.t.replace(/\|/g, '/');
+    });
+    var url = 'https://github.com/' + REPO + '/issues/new?title=' + encodeURIComponent('Brief feedback ' + DAY) +
+      '&body=' + encodeURIComponent(lines.join('\n') + '\n\n(Tap Submit. The next brief learns from these.)');
+    votes = {}; save(); refresh();
+    window.open(url, '_blank');
+  });
+  refresh();
+})();
+</script>
+</body>
+</html>
