@@ -1,11 +1,11 @@
 {
   "current_suggestion": {
-    "channel_name": "Academy of Ideas",
-    "channel_id": "UCiRiQGCHGjDLT9FQXFW0I3A",
-    "youtube_handle": "@academyofideas",
-    "pitch": "You asked for more Stoicism and long-form essays. This channel covers them in a form your list lacks: scripted, narrated 10-25 minute essays instead of interviews or news-style commentary. Episodes work through Marcus Aurelius, Seneca, Epictetus, Nietzsche, existentialists and depth psychology, and ask what a good life is and how to face adversity. It suits the inner-game side of poker, such as tilt, variance and meaning under uncertainty, and it grounds ideas in primary texts rather than productivity-style advice."
+    "channel_name": "Patrick Boyle",
+    "channel_id": "UCASM0cgfkJxQ1ICmRilfHLw",
+    "youtube_handle": "@PBoyle",
+    "pitch": "Boyle is a former hedge fund manager who explains markets, monetary policy, and financial history with data and a skeptical eye. That gives you a rigorous counterweight to the Saylor and Lyn Alden bitcoin/macro view you follow, because he takes on the strongest arguments against it. He also covers how markets, incentives, and risk work in practice, including gambling-adjacent topics like prediction markets and betting, which suits your interest in variance and decision-making under uncertainty. The format is solo, scripted, 10-20 minute explainers with a dry sense of humor and little price chatter."
   },
-  "shown_count": 3,
+  "shown_count": 1,
   "history": [
     "Brad Kearns",
     "Dr. Layne Norton",
@@ -87,6 +87,7 @@
     "Andrej Karpathy",
     "Sabine Hossenfelder",
     "Tim Ferriss",
-    "Academy of Ideas"
+    "Academy of Ideas",
+    "Patrick Boyle"
   ]
 }
