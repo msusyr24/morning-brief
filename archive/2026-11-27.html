@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="color-scheme" content="light dark">
+<meta name="theme-color" content="#f5f2ea" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#15140f" media="(prefers-color-scheme: dark)">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="Brief">
+<meta name="robots" content="noindex">
+<link rel="icon" href="../icon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="../apple-touch-icon.png">
+<title>Morning Brief · Friday, November 27</title>
+<style>
+:root {
+  --bg:#f5f2ea; --card:#fffdf8; --ink:#1d1b17; --soft:#47433b; --mute:#837d71; --rule:#e6e0d3;
+  --acc:#2d5b4f; --acc-soft:#e6eee8; --warm:#b4691a; --up:#2e7d4f; --down:#b8402f;
+  --serif: "Iowan Old Style", "Charter", "Palatino Linotype", Palatino, Georgia, serif;
+  --sans: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", system-ui, Roboto, sans-serif;
+  --shadow: 0 1px 2px rgba(40,30,10,.05), 0 8px 24px -14px rgba(40,30,10,.22);
+  --r: 18px; --pad: 20px;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg:#13120e; --card:#1c1a15; --ink:#efeadd; --soft:#cdc6b6; --mute:#8f887a; --rule:#2f2c26;
+    --acc:#8fc2ad; --acc-soft:#1f2a25; --warm:#e0a15a; --up:#6cc28e; --down:#e57f6c;
+    --shadow: 0 1px 2px rgba(0,0,0,.35), 0 10px 28px -16px rgba(0,0,0,.7);
+  }
+  .sec, .nav a { --a: var(--ad) !important; }
+}
+* { box-sizing:border-box; -webkit-tap-highlight-color:transparent; }
+html { scroll-behavior:smooth; -webkit-text-size-adjust:100%; }
+body { margin:0; background:var(--bg); color:var(--ink); font:18px/1.62 var(--serif);
+  -webkit-font-smoothing:antialiased; text-rendering:optimizeLegibility; overflow-x:hidden; }
+.wrap { max-width:680px; margin:0 auto;
+  padding:max(30px, calc(env(safe-area-inset-top) + 14px)) max(var(--pad), env(safe-area-inset-right))
+          calc(96px + env(safe-area-inset-bottom)) max(var(--pad), env(safe-area-inset-left)); }
+a { color:inherit; text-decoration-color:var(--rule); text-underline-offset:3px; text-decoration-thickness:1px; }
+.kicker { font:650 11px/1.2 var(--sans); letter-spacing:.13em; text-transform:uppercase; color:var(--mute); margin:0 0 10px; }
+.progress { position:fixed; inset:0 0 auto 0; height:3px; z-index:20; background:var(--warm); transform-origin:0 50%; transform:scaleX(0); }
+
+header .brand { display:flex; align-items:center; gap:8px; font:650 12px/1 var(--sans); letter-spacing:.16em; text-transform:uppercase; color:var(--acc); margin:0; }
+header .brand::before { content:""; width:18px; height:18px; border-radius:50%;
+  background:radial-gradient(circle at 50% 120%, var(--warm) 0 45%, transparent 46%), var(--acc-soft); box-shadow:inset 0 0 0 1px var(--rule); }
+header h1 { font-size:42px; line-height:1.06; margin:14px 0 10px; font-weight:650; letter-spacing:-.025em; }
+.greet { margin:0; color:var(--soft); font-size:18px; line-height:1.5; font-style:italic; }
+.bar { display:flex; flex-wrap:wrap; gap:6px; margin-top:14px; }
+.bar span { font:600 12px/1 var(--sans); color:var(--soft); background:var(--card); border:1px solid var(--rule); border-radius:99px; padding:7px 11px; }
+
+.cards { display:grid; gap:10px; margin:22px 0 0; }
+.cards.n2 { grid-template-columns:1fr 1fr; }
+.card { background:var(--card); border:1px solid var(--rule); border-radius:var(--r); padding:15px 16px 13px; box-shadow:var(--shadow); position:relative; overflow:hidden; }
+.card .big { font:650 28px/1.1 var(--sans); letter-spacing:-.02em; font-variant-numeric:tabular-nums; display:flex; align-items:center; gap:8px; }
+.card .wi { font-size:24px; }
+.card .cap { margin:6px 0 0; font:12.5px/1.4 var(--sans); color:var(--mute); }
+.up { color:var(--up); } .down { color:var(--down); }
+.spark { display:block; width:100%; height:30px; margin-top:8px; }
+.spark .ln { fill:none; stroke-width:1.8; stroke-linejoin:round; stroke-linecap:round; vector-effect:non-scaling-stroke; }
+.spark.up .ln { stroke:var(--up); } .spark.down .ln { stroke:var(--down); }
+.spark .fill { opacity:.12; } .spark.up .fill { fill:var(--up); } .spark.down .fill { fill:var(--down); }
+.spark.up .dot { fill:var(--up); } .spark.down .dot { fill:var(--down); }
+
+.top { background:var(--card); border:1px solid var(--rule); border-radius:var(--r); padding:20px 20px 6px; margin:12px 0 0; box-shadow:var(--shadow); }
+.top ol { margin:0; padding:0; list-style:none; counter-reset:t; }
+.top li { counter-increment:t; position:relative; padding:0 0 14px 34px; font-size:17.5px; line-height:1.48; }
+.top li::before { content:counter(t); position:absolute; left:0; top:-1px; font:650 23px/1 var(--serif); color:var(--warm); }
+.top a { text-decoration:none; }
+
+.nav { position:sticky; top:0; z-index:10; display:flex; gap:7px; overflow-x:auto; scroll-snap-type:x proximity; scroll-padding-inline:var(--pad);
+  padding:calc(env(safe-area-inset-top) + 10px) var(--pad) 10px; margin:18px calc(-1 * var(--pad)) 0;
+  background:color-mix(in srgb, var(--bg) 86%, transparent); backdrop-filter:saturate(1.5) blur(14px); -webkit-backdrop-filter:saturate(1.5) blur(14px);
+  scrollbar-width:none; mask-image:linear-gradient(90deg, #000 88%, transparent); -webkit-mask-image:linear-gradient(90deg, #000 88%, transparent); }
+.nav::-webkit-scrollbar { display:none; }
+.nav a { flex:none; scroll-snap-align:start; display:flex; align-items:center; gap:6px; font:600 13.5px/1 var(--sans); padding:10px 13px; border-radius:99px; border:1px solid var(--rule);
+  text-decoration:none; color:var(--soft); background:var(--card); }
+.nav a span { color:var(--a); }
+.nav a em { font-style:normal; font-weight:500; color:var(--mute); font-size:12px; }
+.nav a.on { border-color:var(--a); color:var(--a); background:color-mix(in srgb, var(--a) 9%, var(--card)); }
+
+.sec { margin-top:30px; scroll-margin-top:70px; }
+.sec h2 { display:flex; align-items:center; gap:9px; font:700 13px/1 var(--sans); letter-spacing:.13em;
+  text-transform:uppercase; color:var(--a); margin:0 0 12px 4px; }
+.ic { font-size:15px; }
+.item { background:var(--card); border:1px solid var(--rule); border-radius:var(--r); padding:16px 18px 10px; margin-bottom:12px;
+  box-shadow:var(--shadow); scroll-margin-top:70px; border-top:3px solid var(--a); }
+.item .src { font:650 12px/1.3 var(--sans); color:var(--a); margin:0 0 8px; letter-spacing:.01em; }
+.item .src a { color:var(--mute); font-weight:500; }
+.item h3 { font-size:21.5px; line-height:1.27; margin:0 0 9px; font-weight:650; letter-spacing:-.012em; }
+.item h3 a { text-decoration:none; }
+.item .sum { margin:0 0 10px; color:var(--soft); }
+.thumb { float:right; position:relative; width:112px; margin:2px 0 8px 14px; border-radius:10px; overflow:hidden; aspect-ratio:16/9; background:var(--rule); }
+.thumb img { width:100%; height:100%; object-fit:cover; display:block; }
+.thumb .play { position:absolute; inset:0; display:grid; place-items:center; color:#fff; font-size:15px; text-shadow:0 1px 6px rgba(0,0,0,.6); }
+.item:target { box-shadow:0 0 0 2px var(--a), var(--shadow); }
+.take { clear:both; margin:4px 0 12px; padding:12px 14px 12px 30px; background:color-mix(in srgb, var(--a) 7%, var(--card)); border-radius:12px; color:var(--soft); font-size:16px; line-height:1.52; }
+.take li { margin:4px 0; } .take li::marker { color:var(--a); }
+.orig { clear:both; margin:0 0 6px; font:italic 13px/1.45 var(--sans); color:var(--mute); }
+.row { clear:both; display:flex; align-items:center; justify-content:space-between; gap:10px; border-top:1px solid var(--rule); margin:6px -4px 0; padding-top:6px; }
+.open { font:650 14px/1 var(--sans); color:var(--a); text-decoration:none; padding:10px 4px; }
+
+.vote { display:inline-flex; gap:4px; flex:none; }
+.vote button { width:40px; height:36px; border-radius:10px; border:1px solid transparent; background:transparent; font-size:17px; line-height:1;
+  cursor:pointer; filter:grayscale(1); opacity:.5; transition:transform .12s, opacity .12s, filter .12s, background .12s; }
+.vote button:active { transform:scale(.9); }
+.vote button.on { filter:none; opacity:1; background:var(--acc-soft); border-color:var(--rule); }
+
+.also { margin-top:30px; background:var(--card); border:1px solid var(--rule); border-radius:var(--r); padding:0 16px 0 18px; box-shadow:var(--shadow); }
+.also summary { cursor:pointer; padding:18px 0; font:700 13px/1 var(--sans); letter-spacing:.13em; text-transform:uppercase; color:var(--acc); list-style:none; }
+.also summary::-webkit-details-marker { display:none; }
+.also summary::after { content:"＋"; float:right; color:var(--mute); }
+.also[open] summary::after { content:"－"; }
+.also summary span { color:var(--mute); margin-left:6px; }
+.also ul { margin:0 0 10px; padding:0; list-style:none; }
+.also li { display:flex; align-items:center; gap:6px; border-top:1px solid var(--rule); }
+.also li > a { flex:1; padding:12px 0; font-size:16px; line-height:1.48; color:var(--soft); text-decoration:none; }
+.also li b { display:block; font:650 12px/1.3 var(--sans); color:var(--ink); margin-bottom:2px; }
+.also .vote button { width:34px; }
+
+.passage { margin-top:36px; padding:24px 22px 22px; border-radius:var(--r); background:linear-gradient(160deg, color-mix(in srgb, #6b4b8a 10%, var(--card)), var(--card) 60%);
+  border:1px solid var(--rule); box-shadow:var(--shadow); }
+.ptext { margin:0; font-size:19px; line-height:1.6; }
+.ptext::first-letter { float:left; font:650 52px/.86 var(--serif); margin:6px 8px 0 0; color:var(--warm); }
+.anchor { display:grid; grid-template-columns:1fr 1fr; gap:26px; margin-top:12px; padding:22px; border-radius:var(--r); background:var(--card); border:1px solid var(--rule); box-shadow:var(--shadow); }
+blockquote { margin:0; font-size:20px; line-height:1.45; font-style:italic; }
+blockquote::before { content:"“"; display:block; font:650 44px/0.6 var(--serif); color:var(--warm); margin:10px 0 4px; }
+.by { margin:10px 0 8px; font:650 13px var(--sans); color:var(--soft); }
+.mm { font-size:20px; font-weight:650; margin:0 0 6px; line-height:1.3; }
+.ctx { margin:0; font-size:15.5px; line-height:1.58; color:var(--soft); }
+.spot { margin-top:12px; padding:20px 22px; border-radius:var(--r); border:1px dashed var(--rule); }
+.snip { display:flex; gap:8px; align-items:center; margin-top:12px; }
+.snip code { flex:1; min-width:0; overflow-x:auto; white-space:pre; font:12.5px/1.5 ui-monospace, Consolas, monospace; background:var(--acc-soft); padding:9px 10px; border-radius:8px; }
+.snip button { font:650 13px var(--sans); border:0; border-radius:8px; padding:10px 14px; background:var(--acc); color:var(--bg); cursor:pointer; }
+.hint { font:12px var(--sans); color:var(--mute); margin:8px 0 0; }
+.quiet { font-style:italic; color:var(--mute); margin-top:30px; }
+
+.send { position:fixed; left:50%; bottom:calc(16px + env(safe-area-inset-bottom)); z-index:30; transform:translate(-50%, 140%);
+  display:flex; align-items:center; gap:10px; padding:13px 20px; border-radius:99px; border:0; background:var(--ink); color:var(--bg);
+  font:650 15px/1 var(--sans); box-shadow:0 10px 30px -8px rgba(0,0,0,.45); cursor:pointer; transition:transform .25s cubic-bezier(.2,.9,.3,1.2); white-space:nowrap; }
+.send.show { transform:translate(-50%, 0); }
+.send b { background:var(--warm); color:#fff; border-radius:99px; min-width:22px; padding:4px 7px; font-size:12px; text-align:center; }
+
+.foot { margin-top:40px; padding-top:16px; border-top:1px solid var(--rule); font:13px/1.5 var(--sans); color:var(--mute); }
+.arch { display:flex; gap:10px; margin-bottom:14px; }
+.arch a { color:var(--acc); text-decoration:none; font-weight:650; padding:10px 14px; border:1px solid var(--rule); border-radius:99px; background:var(--card); }
+.foot details summary { cursor:pointer; list-style:none; }
+.foot details summary::-webkit-details-marker { display:none; }
+.foot ul { margin:6px 0; padding-left:18px; }
+.foot li.fail b { color:var(--down); } .foot li.warn b { color:var(--warm); }
+.hl { margin:0; font-weight:650; } .hl.ok { color:var(--up); } .hl.warn { color:var(--warm); }
+.stats { margin:6px 0 0; }
+@media (max-width:560px) {
+  :root { --pad:14px; --r:16px; }
+  body { font-size:17px; line-height:1.58; }
+  header h1 { font-size:36px; }
+  .greet { font-size:17px; }
+  .item { padding:15px 15px 8px; }
+  .item h3 { font-size:19.5px; }
+  .thumb { width:96px; margin-left:12px; }
+  .take { font-size:15.5px; }
+  .anchor { grid-template-columns:1fr; gap:22px; }
+  .card .big { font-size:24px; }
+  .ptext { font-size:18px; }
+}
+@media (max-width:360px) { .cards.n2 { grid-template-columns:1fr; } }
+@media (prefers-reduced-motion:reduce) { html { scroll-behavior:auto; } .send { transition:none; } }
+</style>
+</head>
+<body>
+<div class="progress" id="prog"></div>
+<div class="wrap">
+<header>
+  <p class="brand">Morning Brief</p>
+  <h1>Friday, November 27</h1>
+  <p class="greet">A light day: a Strategic Bitcoin Reserve bill moves toward a House vote, Anthropic publishes a machine-checked Lean proof of the Riemann Hypothesis, and the rest is natto, sleep and Stoicism.</p>
+  <div class="bar"><span>4 min read</span><span>7 stories</span><span>5 quick hits</span></div>
+</header>
+<section class="cards n1">
+  <div class="card btc">
+    <p class="kicker">Bitcoin</p>
+    <div class="big" id="btc-p">$61,548</div>
+    <p class="cap"><span id="btc-c"><span class="up">▲ 1.0%</span></span> 24h · <span class="up">▲ 0.1%</span> 7d</p>
+    <svg class="spark down" viewBox="0 0 132 36" width="132" height="36" preserveAspectRatio="none" aria-hidden="true"><polygon points="2,36 2.0,11.3 5.0,9.9 8.1,10.9 11.1,10.1 14.2,20.3 17.2,20.9 20.3,20.9 23.3,33.0 26.4,24.7 29.4,15.0 32.5,17.0 35.5,15.5 38.6,16.9 41.6,21.3 44.7,12.8 47.7,14.4 50.8,14.1 53.8,13.7 56.9,13.9 59.9,10.9 63.0,11.7 66.0,3.0 69.0,10.8 72.1,12.1 75.1,13.0 78.2,14.8 81.2,17.2 84.3,17.1 87.3,16.7 90.4,17.5 93.4,19.8 96.5,20.3 99.5,20.7 102.6,24.4 105.6,18.6 108.7,16.2 111.7,13.9 114.8,14.1 117.8,13.6 120.9,13.8 123.9,15.2 127.0,14.0 130.0,14.5 130,36" class="fill"/><polyline points="2.0,11.3 5.0,9.9 8.1,10.9 11.1,10.1 14.2,20.3 17.2,20.9 20.3,20.9 23.3,33.0 26.4,24.7 29.4,15.0 32.5,17.0 35.5,15.5 38.6,16.9 41.6,21.3 44.7,12.8 47.7,14.4 50.8,14.1 53.8,13.7 56.9,13.9 59.9,10.9 63.0,11.7 66.0,3.0 69.0,10.8 72.1,12.1 75.1,13.0 78.2,14.8 81.2,17.2 84.3,17.1 87.3,16.7 90.4,17.5 93.4,19.8 96.5,20.3 99.5,20.7 102.6,24.4 105.6,18.6 108.7,16.2 111.7,13.9 114.8,14.1 117.8,13.6 120.9,13.8 123.9,15.2 127.0,14.0 130.0,14.5" class="ln"/><circle cx="130.0" cy="14.5" r="2.6" class="dot"/></svg>
+  </div></section>
+<section class="top"><p class="kicker">If you read nothing else</p><ol><li><a href="#r17">It would turn the Strategic Bitcoin Reserve from a reversible executive order into law, with a 20-year no-sale lock-up.</a></li><li><a href="#h84">If the machine check holds, it is a striking math result produced with Claude, though no mathematician has read it yet.</a></li></ol></section>
+<nav class="nav" aria-label="Sections"><a href="#s-health" style="--a:#a33c3c;--ad:#ec8f84"><span>✚</span>Health &amp; Sleep<em>2</em></a><a href="#s-mind" style="--a:#6b4b8a;--ad:#c6a4e6"><span>◎</span>Mind &amp; Philosophy<em>3</em></a><a href="#s-bitcoin" style="--a:#b4691a;--ad:#e7a865"><span>₿</span>Bitcoin &amp; Macro<em>1</em></a><a href="#s-ai" style="--a:#4a4f9c;--ad:#a9adf0"><span>◆</span>AI Capability<em>1</em></a></nav>
+<section class="sec" id="s-health" style="--a:#a33c3c;--ad:#ec8f84"><h2><span class="ic">✚</span>Health &amp; Sleep</h2>
+<article class="item" id="v11">
+  <p class="src">▶ Physionic</p>
+  <a class="thumb" href="https://www.youtube.com/watch?v=x01cXsOKUnQ" aria-hidden="true" tabindex="-1"><img src="https://i.ytimg.com/vi/x01cXsOKUnQ/mqdefault.jpg" alt="" loading="lazy" width="320" height="180"><span class="play">▶</span></a><h3><a href="https://www.youtube.com/watch?v=x01cXsOKUnQ">Natto lowers post-meal blood sugar and may cut stroke risk, but the evidence has gaps</a></h3>
+  <p class="sum">Short randomized meal trials found that natto lowered blood glucose compared with rice alone and with a control meal. It also lowered insulin compared with the control meal. Those trials were mostly designed to test food viscosity, so natto cannot be isolated as the cause. Large Japanese cohort studies show lower stroke risk in the highest natto-intake group. Unfermented soy protein did not show the same benefit, which suggests natto itself matters. The caveats are that all the studies were in Japan and that diet was measured only once, at baseline.</p><ul class="take"><li>Studies linked cardiovascular benefit to 7 to 30 g of natto a day, and as little as 7 g was effective.</li><li>The host speculates that gamma-PGA, the sticky component, drives the benefit, so stickier natto may be better.</li><li>Evidence for lower cholesterol is suggestive and unconfirmed.</li></ul><p class="orig">“Make this Heart Disease Protecting Food even more Potent!”</p>
+  <div class="row"><a class="open" href="https://www.youtube.com/watch?v=x01cXsOKUnQ">Watch →</a><span class="vote" data-src="Physionic" data-title="Make this Heart Disease Protecting Food even more Potent!"><button type="button" class="up" aria-label="More like this">👍</button><button type="button" class="dn" aria-label="Less like this">👎</button></span></div>
+</article>
+<article class="item" id="v9">
+  <p class="src">▶ Andrew Huberman</p>
+  <a class="thumb" href="https://www.youtube.com/watch?v=jZoTujYPduM" aria-hidden="true" tabindex="-1"><img src="https://i.ytimg.com/vi/jZoTujYPduM/mqdefault.jpg" alt="" loading="lazy" width="320" height="180"><span class="play">▶</span></a><h3><a href="https://www.youtube.com/watch?v=jZoTujYPduM">Huberman: four conditions for falling asleep, centered on a falling core temperature</a></h3>
+  <p class="sum">Falling asleep requires core body temperature to drop and heart rate to slow. You can cool the room or have a hot shower or bath, which leads to a drop in core temperature afterward. Long, deliberate exhales slow the heart rate. A racing mind can&#x27;t be stopped, but you can shift attention to a sound or to bodily sensations. The fourth condition, forgetting the position of your limbs, was cut off in the text.</p><p class="orig">“4 THINGS TO DO TO FALL ASLEEP”</p>
+  <div class="row"><a class="open" href="https://www.youtube.com/watch?v=jZoTujYPduM">Watch →</a><span class="vote" data-src="Andrew Huberman" data-title="4 THINGS TO DO TO FALL ASLEEP"><button type="button" class="up" aria-label="More like this">👍</button><button type="button" class="dn" aria-label="Less like this">👎</button></span></div>
+</article></section><section class="sec" id="s-mind" style="--a:#6b4b8a;--ad:#c6a4e6"><h2><span class="ic">◎</span>Mind &amp; Philosophy</h2>
+<article class="item" id="v10">
+  <p class="src">▶ Andrew Huberman</p>
+  <a class="thumb" href="https://www.youtube.com/watch?v=KVDs3-zuTyo" aria-hidden="true" tabindex="-1"><img src="https://i.ytimg.com/vi/KVDs3-zuTyo/mqdefault.jpg" alt="" loading="lazy" width="320" height="180"><span class="play">▶</span></a><h3><a href="https://www.youtube.com/watch?v=KVDs3-zuTyo">Tim Ferriss on finding trends early and building a network from nothing</a></h3>
+  <p class="sum">Ferriss says he stress-tests any claim made in absolutes. He looks for new technologies, orphaned old ideas, and what technical people do on weekends and what rich people do now that everyone may do later. To build a network, he moved to a high-density area, volunteered at events and did more than the bare minimum. At conferences he talked to panel moderators, who are ignored while panelists get rushed, and asked them for introductions. He also writes from about 10 pm to 4 am and doesn&#x27;t force it when he isn&#x27;t in the zone.</p><p class="orig">“Essentials: How to Learn Better &amp; Create Your Best Future | Tim Ferriss”</p>
+  <div class="row"><a class="open" href="https://www.youtube.com/watch?v=KVDs3-zuTyo">Watch →</a><span class="vote" data-src="Andrew Huberman" data-title="Essentials: How to Learn Better &amp; Create Your Best Future | Tim Ferriss"><button type="button" class="up" aria-label="More like this">👍</button><button type="button" class="dn" aria-label="Less like this">👎</button></span></div>
+</article>
+<article class="item" id="v13">
+  <p class="src">▶ Daily Stoic</p>
+  <a class="thumb" href="https://www.youtube.com/watch?v=FVNvCeku1pU" aria-hidden="true" tabindex="-1"><img src="https://i.ytimg.com/vi/FVNvCeku1pU/mqdefault.jpg" alt="" loading="lazy" width="320" height="180"><span class="play">▶</span></a><h3><a href="https://www.youtube.com/watch?v=FVNvCeku1pU">Daily Stoic: Stoicism has lasted because it has been tested across every kind of life</a></h3>
+  <p class="sum">Ryan Holiday&#x27;s argument is that Stoicism has been tried by people at opposite ends of power, such as the emperor Marcus Aurelius and Seneca, who was caught in Nero&#x27;s court. He cites Thoreau&#x27;s view that philosophy should solve the problems of life practically. He also cites Admiral Stockdale, who said he tested Epictetus&#x27;s ideas in the laboratory of his years as a prisoner in Hanoi.</p><p class="orig">“Why Stoicism Has Survived for Nearly 2,500 Years”</p>
+  <div class="row"><a class="open" href="https://www.youtube.com/watch?v=FVNvCeku1pU">Watch →</a><span class="vote" data-src="Daily Stoic" data-title="Why Stoicism Has Survived for Nearly 2,500 Years"><button type="button" class="up" aria-label="More like this">👍</button><button type="button" class="dn" aria-label="Less like this">👎</button></span></div>
+</article>
+<article class="item" id="r68">
+  <p class="src">Donald Robertson</p>
+  <h3><a href="https://donaldrobertson.substack.com/p/putting-stoicism-into-practice">Donald Robertson&#x27;s Stoic anxiety course ends with a Prepare, Respond, Review method</a></h3>
+  <p class="sum">The free course The Stoic Mind applies Stoic practice to anxiety. Its exercises include Leaves on a Stream, which treats an anxious prediction as just a thought. Mental Review rehearses coping with feelings you might otherwise avoid. The View from Above places a worry in a wider view of life. The final lesson combines these into preparing for a difficulty, responding while it happens, and reviewing it afterward. Guided audio and worksheets are for paid subscribers.</p>
+  <div class="row"><a class="open" href="https://donaldrobertson.substack.com/p/putting-stoicism-into-practice">Read →</a><span class="vote" data-src="Donald Robertson" data-title="Putting Stoicism into Practice"><button type="button" class="up" aria-label="More like this">👍</button><button type="button" class="dn" aria-label="Less like this">👎</button></span></div>
+</article></section><section class="sec" id="s-bitcoin" style="--a:#b4691a;--ad:#e7a865"><h2><span class="ic">₿</span>Bitcoin &amp; Macro</h2>
+<article class="item" id="r17">
+  <p class="src">Bitcoin Magazine</p>
+  <h3><a href="https://bitcoinmagazine.com/news/strategic-bitcoin-reserve-bill-house-floor">Strategic Bitcoin Reserve bill clears House committee, awaits floor vote</a></h3>
+  <p class="sum">H.R. 8957, the American Reserve Modernization Act, was reported out of House Financial Services after a 28-21 committee vote. It has 23 cosponsors, including Democrat Jared Golden. Treasury would have to set up a Strategic Bitcoin Reserve and a separate Digital Asset Stockpile within 180 days. Reserve bitcoin could not be sold, swapped or encumbered for 20 years. After that, Treasury could recommend selling at most 10% in any two-year period. The reserve exists today only under a March 2025 executive order, which a future president could reverse.</p><ul class="take"><li>The committee removed the original funding ideas: Fed remittances, revaluing the Fed&#x27;s gold certificates, tariff revenue and tax payments.</li><li>The amended text bars borrowing, collateral, new taxes or deficit spending to buy bitcoin.</li><li>An annual Proof of Reserve report would be independently audited, with GAO oversight.</li><li>The bill has not had a floor vote, and the Senate would still have to act.</li></ul>
+  <div class="row"><a class="open" href="https://bitcoinmagazine.com/news/strategic-bitcoin-reserve-bill-house-floor">Read →</a><span class="vote" data-src="Bitcoin Magazine" data-title="Strategic Bitcoin Reserve Bill Clears House Committee, Heads to Floor"><button type="button" class="up" aria-label="More like this">👍</button><button type="button" class="dn" aria-label="Less like this">👎</button></span></div>
+</article></section><section class="sec" id="s-ai" style="--a:#4a4f9c;--ad:#a9adf0"><h2><span class="ic">◆</span>AI Capability</h2>
+<article class="item" id="h84">
+  <p class="src">Hacker News · <a href="https://news.ycombinator.com/item?id=50648050">347 comments</a></p>
+  <h3><a href="https://github.com/lsernau/grh-lean">Anthropic and Claude produce a Lean-verified proof of the Riemann Hypothesis</a></h3>
+  <p class="sum">Anthropic released a Lean 4 proof of the Riemann Hypothesis and the Generalized Riemann Hypothesis for Dirichlet L-functions. It builds on Levent Alpöge&#x27;s proof, written with Claude, and uses only the standard Lean axioms. The readable version is about 300,000 lines and the compact one about 76,000. The repository says the proof has passed machine checks only. No mathematician has read it through, and no paper accompanies it. Treat it as a claim awaiting human scrutiny.</p>
+  <div class="row"><a class="open" href="https://github.com/lsernau/grh-lean">Read →</a><span class="vote" data-src="Hacker News" data-title="Much shorter version of GRH Lean verification from Anthropic"><button type="button" class="up" aria-label="More like this">👍</button><button type="button" class="dn" aria-label="Less like this">👎</button></span></div>
+</article></section>
+<details class="also"><summary>Quick hits <span>5</span></summary><ul><li><a href="https://www.youtube.com/watch?v=sEUp2na1qLM"><b>Renaissance Periodization</b>RP short: advice to plan as if you&#x27;ll never die rather than living each day as your last, because small daily steps compound over a decade.</a><span class="vote" data-src="Renaissance Periodization" data-title="Getting Jacked Isn’t Worth Dying For"><button type="button" class="up" aria-label="More like this">👍</button><button type="button" class="dn" aria-label="Less like this">👎</button></span></li><li><a href="https://www.youtube.com/watch?v=SpQHZf_1-D0"><b>Daily Stoic</b>Daily Stoic short: Marcus Aurelius&#x27;s passages on wine and purple dye as rotten grapes and shellfish blood show the world&#x27;s poetry together with its science.</a><span class="vote" data-src="Daily Stoic" data-title="The Stoic Secret to Seeing Beauty in Everything"><button type="button" class="up" aria-label="More like this">👍</button><button type="button" class="dn" aria-label="Less like this">👎</button></span></li><li><a href="https://www.youtube.com/watch?v=uiIVQwbl-QY"><b>Daily Stoic</b>Daily Stoic: Robert Greene&#x27;s stroke and near-death experience reshaped his view of life and made his new book possible.</a><span class="vote" data-src="Daily Stoic" data-title="A Near-Death Experience Changed the Way Robert Greene Sees Life"><button type="button" class="up" aria-label="More like this">👍</button><button type="button" class="dn" aria-label="Less like this">👎</button></span></li><li><a href="https://www.npr.org/2026/11/26/g-s1-155957/congo-ebola-responders"><b>NPR News</b>Congo&#x27;s Ebola outbreak has reached 12,000 cases, and fighting between rebels and the army is disrupting containment.</a><span class="vote" data-src="NPR News" data-title="Congo Ebola outbreak reaches 12,000 cases as some responders evacuate"><button type="button" class="up" aria-label="More like this">👍</button><button type="button" class="dn" aria-label="Less like this">👎</button></span></li><li><a href="https://www.bbc.co.uk/news/articles/c39w9y5dx4k5o?at_medium=RSS&amp;at_campaign=rss"><b>BBC World</b>Two Italian technicians working for Rheinmetall were killed in a strike in Kuwait, and Iran denies responsibility.</a><span class="vote" data-src="BBC World" data-title="Two Italians killed in strike in Kuwait, as Iran denies responsibility"><button type="button" class="up" aria-label="More like this">👍</button><button type="button" class="dn" aria-label="Less like this">👎</button></span></li></ul></details>
+
+<section class="passage">
+  <p class="kicker">Daily Stoic reading · Knowing when enough is enough</p>
+  <p class="ptext">The body is to everyone the proper measure of its possessions, as the foot is of the shoe. If, therefore, you stop at this, you will keep the measure; but if you move beyond it, you must necessarily be carried forward, as down a precipice; as in the case of a shoe, if you go beyond its fitness to the foot, it comes first to be gilded, then purple, and then studded with jewels. For to that which once exceeds the fit measure there is no bound.</p>
+  <p class="by">— Epictetus, Enchiridion</p>
+  <p class="ctx">Epictetus says your body sets a natural size for what you need, the way a foot sets the size of a shoe, and that once you go past that size there is no natural stopping point, so each addition leads to another. For a poker player and bettor, the same applies to bankroll, bet sizing and stakes: a size that fits your edge and your tolerance for swings is the right measure, and every step beyond it, such as chasing losses or moving up in stakes too fast, tends to pull you further without a built-in brake.</p>
+</section>
+<section class="anchor">
+  <div>
+    <p class="kicker">Quote</p>
+    <blockquote>Everyone has a plan until they get punched in the face.</blockquote>
+    <p class="by">— Mike Tyson</p>
+    <p class="ctx">Interview before his 1987 fight. Tyson&#x27;s point: reality breaks theory on contact. Strategy must survive first contact with the enemy.</p>
+  </div>
+  <div>
+    <p class="kicker">Mental model · Math/Statistics</p>
+    <p class="mm">Base Rates</p>
+    <p class="ctx">When evaluating any individual case, start with the frequency across the population. Restaurants fail ~60% in year one — no matter how passionate your friend&#x27;s pitch is, that&#x27;s your prior. Doctors miss this constantly: a positive test for a rare disease is usually a false positive, even if the test is 95% accurate. Anchor on the base rate before adjusting for specifics.</p>
+  </div>
+</section>
+
+<section class="spot">
+  <p class="kicker">Channel spotlight · 1 day left</p>
+  <p class="mm"><a href="https://www.youtube.com/channel/UCASM0cgfkJxQ1ICmRilfHLw">Patrick Boyle</a></p>
+  <p class="ctx">Boyle is a former hedge fund manager who explains markets, monetary policy, and financial history with data and a skeptical eye. That gives you a rigorous counterweight to the Saylor and Lyn Alden bitcoin/macro view you follow, because he takes on the strongest arguments against it. He also covers how markets, incentives, and risk work in practice, including gambling-adjacent topics like prediction markets and betting, which suits your interest in variance and decision-making under uncertainty. The format is solo, scripted, 10-20 minute explainers with a dry sense of humor and little price chatter.</p>
+  <div class="snip"><code id="snip">    &quot;Patrick Boyle&quot;: &quot;UCASM0cgfkJxQ1ICmRilfHLw&quot;,</code><button type="button" id="copy">Copy</button></div>
+  <p class="hint">Paste into YOUTUBE_CHANNELS in brief.py to follow.</p>
+</section>
+
+<footer class="foot">
+  <nav class="arch"><a href="2026-11-26.html">← Yesterday</a><a href="./">All briefs</a></nav>
+  <details><summary class="hl warn">● 1 source issue · 58 OK</summary><ul><li class="fail"><b>r/poker (top today)</b> — proxy HTTP 404, direct HTTP 404</li></ul></details>
+  <p class="stats">88 new items scanned · 9 read in full · 33k in / 4k out tokens · 1m34s</p>
+</footer>
+</div>
+<button type="button" class="send" id="send">Send feedback <b id="send-n">0</b></button>
+<script>
+(function () {
+  var REPO = "msusyr24/morning-brief", DAY = "2026-11-27", KEY = 'brief-votes';
+
+  // copy button (channel spotlight)
+  var b = document.getElementById('copy');
+  if (b) b.addEventListener('click', function () {
+    navigator.clipboard.writeText(document.getElementById('snip').innerText.trim());
+    b.textContent = 'Copied'; setTimeout(function () { b.textContent = 'Copy'; }, 1800);
+  });
+
+  // live BTC price
+  var p = document.getElementById('btc-p');
+  if (p) fetch('https://api.coingecko.com/api/v3/simple/price?ids=bitcoin&vs_currencies=usd&include_24hr_change=true')
+    .then(function (r) { return r.json(); })
+    .then(function (d) {
+      var v = d.bitcoin.usd, c = d.bitcoin.usd_24h_change;
+      p.textContent = '$' + Math.round(v).toLocaleString('en-US');
+      document.getElementById('btc-c').innerHTML = '<span class="' + (c >= 0 ? 'up' : 'down') + '">' + (c >= 0 ? '▲ ' : '▼ ') + Math.abs(c).toFixed(1) + '%</span>';
+    }).catch(function () {});
+
+  // reading progress + active section pill
+  var prog = document.getElementById('prog'), pills = document.querySelectorAll('.nav a'), secs = document.querySelectorAll('.sec');
+  function onScroll() {
+    var h = document.documentElement, max = h.scrollHeight - h.clientHeight;
+    prog.style.transform = 'scaleX(' + (max > 0 ? h.scrollTop / max : 0) + ')';
+    var cur = null;
+    secs.forEach(function (s) { if (s.getBoundingClientRect().top < 120) cur = s.id; });
+    pills.forEach(function (a) {
+      var on = a.getAttribute('href') === '#' + cur;
+      if (on && !a.classList.contains('on')) a.scrollIntoView({inline: 'nearest', block: 'nearest'});
+      a.classList.toggle('on', on);
+    });
+  }
+  window.addEventListener('scroll', onScroll, {passive: true}); onScroll();
+
+  // thumbs up / down -> GitHub issue
+  var votes = {};
+  try { votes = JSON.parse(localStorage.getItem(KEY) || '{}'); } catch (e) {}
+  function save() { try { localStorage.setItem(KEY, JSON.stringify(votes)); } catch (e) {} }
+  function id(el) { return el.dataset.src + '|' + el.dataset.title; }
+  var send = document.getElementById('send'), sendN = document.getElementById('send-n');
+  function refresh() {
+    var n = Object.keys(votes).length;
+    sendN.textContent = n; send.classList.toggle('show', n > 0 && !!REPO);
+    document.querySelectorAll('.vote').forEach(function (el) {
+      var v = votes[id(el)];
+      el.querySelector('.up').classList.toggle('on', !!v && v.v > 0);
+      el.querySelector('.dn').classList.toggle('on', !!v && v.v < 0);
+    });
+  }
+  document.querySelectorAll('.vote button').forEach(function (btn) {
+    btn.addEventListener('click', function (ev) {
+      ev.preventDefault();
+      var el = btn.parentNode, k = id(el), v = btn.classList.contains('up') ? 1 : -1;
+      if (votes[k] && votes[k].v === v) delete votes[k];
+      else votes[k] = {v: v, s: el.dataset.src, t: el.dataset.title};
+      if (navigator.vibrate) navigator.vibrate(8);
+      save(); refresh();
+    });
+  });
+  send.addEventListener('click', function () {
+    var lines = Object.keys(votes).map(function (k) {
+      var v = votes[k]; return (v.v > 0 ? '+' : '-') + ' | ' + v.s.replace(/\|/g, '/') + ' | ' + v.t.replace(/\|/g, '/');
+    });
+    var url = 'https://github.com/' + REPO + '/issues/new?title=' + encodeURIComponent('Brief feedback ' + DAY) +
+      '&body=' + encodeURIComponent(lines.join('\n') + '\n\n(Tap Submit. The next brief learns from these.)');
+    votes = {}; save(); refresh();
+    window.open(url, '_blank');
+  });
+  refresh();
+})();
+</script>
+</body>
+</html>

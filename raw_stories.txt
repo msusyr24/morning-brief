@@ -1,197 +1,179 @@
-Generated 2026-11-26 02:44 UTC
+Generated 2026-11-27 02:43 UTC
 score  section   source / title
 ----------------------------------------------------------------------
-   8   news      [rss] BBC World: US stocks fall further as fears over AI intensify
-                 https://www.bbc.co.uk/news/articles/cq0md8g14zryo?at_medium=RSS&at_campaign=rss
-   7   mind      [rss] Figs in Winter (Pigliucci): The true meaning of “indifferent”
-                 https://figsinwintertime.substack.com/p/the-true-meaning-of-indifferent
-   6   poker     [video] GTO Wizard: The Mistake Most Players Make Against Limpers
-                 https://www.youtube.com/watch?v=MuHFY4x9rfg
-   6   mind      [video] Daily Stoic: Why You Need to Keep a Journal in Chaotic Times
-                 https://www.youtube.com/watch?v=rX9K_4E5MyY
-   6   ai        [rss] Marginal Revolution: AI in research
-                 https://marginalrevolution.com/marginalrevolution/2026/11/ai-in-research.html?utm_source=rss&utm_medium=rss&utm_campaign=ai-in-research
-   6   ai        [hn] Hacker News: The matrix multiplication exponent is nine fourths [pdf]
-                 https://github.com/openai/math/blob/main/preprints/The-matrix-multiplication-exponent-is-nine-fourths-November-24-2026/paper.pdf
-   5   health    [video] Anthony Chaffee MD: Taking TWICE The Choline Boosts IQ
-                 https://www.youtube.com/watch?v=r3dBNXtYn_4
-   5   health    [video] Renaissance Periodization: They're Starting to Ban Muscle Building Supplements
-                 https://www.youtube.com/watch?v=5zemgvnJJRc
-   5   mind      [video] Daily Stoic: Stoicism Doesn't Mean You Have to Stop Being Human
-                 https://www.youtube.com/watch?v=kVvFqOCA_JI
-   5   poker     [rss] PokerNews: Emilien Pitavy Snaps Off Triple-Barrel Bluff to Bank a $1.5M GGPoker Score
-                 https://www.pokernews.com/news/2026/11/emilien-pitavy-snaps-off-triple-barrel-bluff-to-bank-1-5m-52893.htm?utm_medium=feed&utm_campaign=homefeed&utm_source=rss
-   5   reading   [rss] Astral Codex Ten: Anima, Bicameral
-                 https://www.astralcodexten.com/p/anima-bicameral
-   5   ai        [hn] Hacker News: Holy shit holy shit holy shit holy shit: The magnitude of what’s now happening
-                 https://scottaaronson.blog/?p=10379
-   4   health    [video] Ken Berry MD: Skipping breakfast isn't automatically the same thing as following a structured fasting routine.
-                 https://www.youtube.com/watch?v=5pRVOSkJSEM
-   4   health    [video] Nick Norwitz: This Brownie LOWERS Blood Sugar
-                 https://www.youtube.com/watch?v=uxVEYmCdXHA
-   4   health    [video] Renaissance Periodization: TRT After 40?  Check This First
-                 https://www.youtube.com/watch?v=g1EXbSRWbmI
-   4   mind      [video] Daily Stoic: Stop Trying to Make Everything Work With Matthew McConaughey
-                 https://www.youtube.com/watch?v=qeC6yy_uAj4
-   4   bitcoin   [rss] Bitcoin Magazine: Bitcoin is Vanishing into “Deep Storage” Faster than Miners Make It
-                 https://bitcoinmagazine.com/videos/bitcoin-is-vanishing-into-deep-storage-faster-than-miners-make-it
-   4   poker     [rss] CardPlayer News: MGM Jumps Ship From National Council On Problem Gambling Over Prediction Markets
-                 https://www.cardplayer.com/poker-news/1780568-mgm-jumps-ship-from-national-council-on-problem-gambling-over-prediction-markets
-   4   poker     [rss] PokerNews: Learning From Effel and Stone: Tyler Willse Leads the APT Floor
-                 https://www.pokernews.com/news/2026/11/learning-from-effel-and-stone-tyler-willse-leads-apt-floor-52862.htm?utm_medium=feed&utm_campaign=homefeed&utm_source=rss
-   4   poker     [rss] PokerNews: Michael Mizrachi Partners With Solana Days Before WSOP Paradise Begins
-                 https://www.pokernews.com/news/2026/11/michael-mizrachi-joins-solana-52898.htm?utm_medium=feed&utm_campaign=homefeed&utm_source=rss
-   4   poker     [rss] PokerNews: 27-Year-Old Poker Prodigy Takes 2026 Earnings to $10M With Triton Main Event Win
-                 https://www.pokernews.com/news/2026/11/27-year-old-poker-prodigy-takes-2026-earnings-to-10m-52889.htm?utm_medium=feed&utm_campaign=homefeed&utm_source=rss
-   4   poker     [rss] PokerNews: Beloved BARGE Poker Player Mark “Old Bear” Hughes Passes Away
-                 https://www.pokernews.com/news/2026/11/beloved-barge-player-mark-old-bear-hughes-passes-away-52876.htm?utm_medium=feed&utm_campaign=homefeed&utm_source=rss
-   4   ai        [hn] Hacker News: Rumors swirling that labs might have cracked Factoring in P
-                 https://www.reddit.com/r/singularity/comments/1y59ef1/rumor_that_openai_or_anthropic_found_a_way_to/
-   4   ai        [hn] Hacker News: GPT-6 models demonstrate intrinsic protein-design capabilities
-                 https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities/
-   3   health    [video] Ken Berry MD: Woman eats RED MEAT for 17 YEARS?! with Kelly Hogan
-                 https://www.youtube.com/watch?v=nGXSh7iXsrI
-   3   health    [video] Thomas DeLauer: This 3g Trick Crushes Insulin Resistance by 130% (try it today)
-                 https://www.youtube.com/watch?v=FIxNGB-8lqk
-   3   health    [video] Thomas DeLauer: 1 Tbsp Stops Fatty Liver and 1 Cup Shrinks Visceral Fat (Easy to Add)
-                 https://www.youtube.com/watch?v=hPyXZeSM-Ks
-   3   skip      [video] ModernWisdom: Men Will Literally Invade Russia Instead Of Going To Therapy - Fin & Horatio
-                 https://www.youtube.com/watch?v=y7fZtvVP2_U
-   3   health    [video] Andrew Huberman: Thank You! To everyone who has read or listened to my recently released book Protocols
-                 https://www.youtube.com/watch?v=HrcT5tZyQ8E
-   3   bitcoin   [rss] Bitcoin Magazine: Stanford Professor Reveals “Praxis” Bitcoin Cryptography Breakthrough
-                 https://bitcoinmagazine.com/videos/stanford-professor-reveals-praxis-bitcoin-cryptography-breakthrough
-   3   reading   [rss] BBC World: Images of asteroid targeted to test Earth's defences reveal stadium-sized crater
-                 https://www.bbc.co.uk/news/articles/cw8dv112r5gmo?at_medium=RSS&at_campaign=rss
-   3   news      [rss] BBC World: Thirty-one killed in massive fire as fuel tanker crashes on Cairo highway
-                 https://www.bbc.co.uk/news/articles/cqy7rn30v314o?at_medium=RSS&at_campaign=rss
-   3   news      [rss] BBC World: Israeli judges recommend dropping most serious charges against Netanyahu
-                 https://www.bbc.co.uk/news/articles/cxj05mv723r2o?at_medium=RSS&at_campaign=rss
-   3   news      [rss] BBC World: Russia's own figures show it has lost nearly 500,000 people in Ukraine war
-                 https://www.bbc.co.uk/news/articles/cmx27g533zwyo?at_medium=RSS&at_campaign=rss
-   3   news      [rss] BBC World: Israeli strike kills senior Hamas security official and family in Gaza City
-                 https://www.bbc.co.uk/news/articles/cmd718zydz9qo?at_medium=RSS&at_campaign=rss
-   3   news      [rss] BBC US & Canada: US approves SpaceX plan to send a million data satellites to space
-                 https://www.bbc.co.uk/news/articles/cwp836l8n1jgo?at_medium=RSS&at_campaign=rss
-   3   news      [rss] BBC Business: UK government set to publish new treaties agreed with EU
-                 https://www.bbc.co.uk/news/articles/c98r7p65edvgo?at_medium=RSS&at_campaign=rss
-   3   poker     [rss] CardPlayer News: Ramin Hajiyev Wins $2.8 Million At Triton North Cyprus
-                 https://www.cardplayer.com/poker-news/1782425-ramin-hajiyev-wins-2-8-million-at-triton-north-cyprus
-   3   poker     [rss] PokerNews: Randomizing Cards Goes Wrong for Robl in $1.2 Million 'High Stakes Poker' Pot
-                 https://www.pokernews.com/news/2026/11/robl-randomizes-in-high-stakes-poker-pot-52891.htm?utm_medium=feed&utm_campaign=homefeed&utm_source=rss
-   3   reading   [rss] Marginal Revolution: How did the United States become a lawyerly society?
-                 https://marginalrevolution.com/marginalrevolution/2026/11/how-did-the-united-states-become-a-lawyerly-society.html?utm_source=rss&utm_medium=rss&utm_campaign=how-did-the-united-states-become-a-lawyerly-society
-   3   ai        [hn] Hacker News: PenGPT: A Generative Transformer for Handwriting and Sketches
-                 https://greydanus.github.io/2026/11/12/pengpt/
-   3   ai        [hn] Hacker News: Models Can Communicate via Inference Servers Despite Being Sandboxed
-                 https://www.lesswrong.com/posts/7wzWuLP3HhyBLmKfo/models-can-communicate-via-inference-servers-despite-being
-   2   skip      [video] Joe Rogan: Joe Rogan Experience #2586 - Jocko Willink
-                 https://www.youtube.com/watch?v=4XjqOxsqjLk
-   2   skip      [video] Renaissance Periodization: The Truth About Dr. Mike’s Weird Head
-                 https://www.youtube.com/watch?v=ddPmeBjamtY
-   2   skip      [video] ModernWisdom: Why Is Russian History So Crazy?
-                 https://www.youtube.com/watch?v=EfmbuZyuans
-   2   skip      [rss] Bitcoin Magazine: Matt Hougan: $1.6 MILLION Bitcoin Price Target “Conservative”
-                 https://bitcoinmagazine.com/videos/matt-hougan-1-6-million-bitcoin-price-target-conservative
-   2   skip      [rss] OpenAI Blog: How iFood scales coding agents across 15,000 repositories
-                 https://openai.com/business/customer-stories/ifood
-   2   skip      [rss] BBC World: Trump's accounts traded Nvidia shares 44 times this year, records show
-                 https://www.bbc.co.uk/news/articles/cq772vk664yvo?at_medium=RSS&at_campaign=rss
-   2   news      [rss] BBC World: North Korea expels Swiss diplomat in sanctions row
-                 https://www.bbc.co.uk/news/articles/cq0l34e4kkr5o?at_medium=RSS&at_campaign=rss
-   2   skip      [rss] BBC US & Canada: Macy's postpones Thanksgiving parade due to weather
-                 https://www.bbc.co.uk/news/articles/cwkgr38l2g9yo?at_medium=RSS&at_campaign=rss
-   2   skip      [rss] BBC US & Canada: Trump's accounts traded Nvidia shares 44 times this year, records show
-                 https://www.bbc.co.uk/news/articles/cq772vk664yvo?at_medium=RSS&at_campaign=rss
-   2   skip      [rss] BBC US & Canada: US stocks fall further as fears over AI intensify
-                 https://www.bbc.co.uk/news/articles/cq0md8g14zryo?at_medium=RSS&at_campaign=rss
-   2   news      [rss] BBC Business: Poundland collapses putting 11,000 jobs at risk
-                 https://www.bbc.co.uk/news/articles/cm3vgdn037z4o?at_medium=RSS&at_campaign=rss
-   2   skip      [rss] BBC Business: US approves SpaceX plan to send a million data satellites to space
-                 https://www.bbc.co.uk/news/articles/cwp836l8n1jgo?at_medium=RSS&at_campaign=rss
-   2   skip      [rss] BBC Business: US stocks fall further as fears over AI intensify
-                 https://www.bbc.co.uk/news/articles/cq0md8g14zryo?at_medium=RSS&at_campaign=rss
-   2   skip      [rss] BBC Business: Trump's accounts traded Nvidia shares 44 times this year, records show
-                 https://www.bbc.co.uk/news/articles/cq772vk664yvo?at_medium=RSS&at_campaign=rss
-   2   skip      [rss] BBC Business: Zoe Kleinman: Nobody is irreplaceable - unless you're Jensen Huang
-                 https://www.bbc.co.uk/news/articles/c3rrgqj2zx5yo?at_medium=RSS&at_campaign=rss
-   2   skip      [rss] NPR News: Army to detonate tons of lead azide after delays. And, Abrego Garcia leaves U.S.
-                 https://www.npr.org/2026/11/25/g-s1-155493/up-first-newsletter-iowa-detonation-kilmar-abrego-garcia-nvidia-jensen-huang
-   2   skip      [rss] NPR News: Republican wants FBI and CIA answers before questioning Nvidia chief
-                 https://www.npr.org/2026/11/25/nx-s1-6052417/nvidia-jensen-huang-reaction-republicans-congress-investigation
-   2   skip      [rss] NPR News: Buying new things feels wonderful. But it can also be a trap
-                 https://www.npr.org/2026/11/25/nx-s1-6052361/buying-new-things-feels-wonderful-can-be-trap-break-the-cycle
-   2   poker     [rss] PokerNews: Bar Poker Open Draws Over 1,100 Entries on Atlantic City Return
-                 https://www.pokernews.com/news/2026/11/bar-poker-open-atlantic-city-2026-results-52890.htm?utm_medium=feed&utm_campaign=homefeed&utm_source=rss
-   2   poker     [rss] PokerNews: 'Texas Mike' Wins $2.6 Million Poker Hand Against Comedian Kevin Hart
-                 https://www.pokernews.com/news/2026/11/texas-mike-wins-massive-poker-hand-52877.htm?utm_medium=feed&utm_campaign=homefeed&utm_source=rss
-   2   romania   [rss] Romania Insider: Romanian Parliament passes simple motion against health minister Alexandru Rogobete
-                 https://www.romania-insider.com/romanian-parliament-passes-simple-motion-against-health-minister
-   2   skip      [rss] Marginal Revolution: Wednesday assorted links
-                 https://marginalrevolution.com/marginalrevolution/2026/11/wednesday-assorted-links-581.html?utm_source=rss&utm_medium=rss&utm_campaign=wednesday-assorted-links-581
-   2   skip      [hn] Hacker News: Google releases Cogentic papers on integer factorization, discrete logs and more
-                 https://github.com/google-research/google-research/tree/master/cogentic_research_papers
-   2   skip      [hn] Hacker News: Ask HN: Anthropic is accusing my company of distilling. How can I prove I'm not?
-                 https://news.ycombinator.com/item?id=50630809
-   1   skip      [video] Ken Berry MD: See you soon at MeatStock 2027. Use code PHD for $50 off your ticket.
-                 https://www.youtube.com/watch?v=xQTOQMapDBc
-   1   skip      [rss] OpenAI Blog: Clay helps sales teams win with Codex and ChatGPT
-                 https://openai.com/business/customer-stories/clay-plugins-openai
-   1   skip      [rss] Google DeepMind: From spectrum to structure: Identifying molecules with Mass Spec Skills for Google Antigravity
-                 https://deepmind.google/blog/interpreting-mass-spectra-with-google-antigravity/
-   1   skip      [rss] BBC World: US Army says controlled blast of explosives in Iowa was 'huge success'
-                 https://www.bbc.co.uk/news/articles/cwg7l5ve251ko?at_medium=RSS&at_campaign=rss
-   1   skip      [rss] BBC World: California warns of flooding as king tides peak over Thanksgiving
-                 https://www.bbc.co.uk/news/articles/ckn806qq760po?at_medium=RSS&at_campaign=rss
-   1   skip      [rss] BBC US & Canada: California warns of flooding as king tides peak over Thanksgiving
-                 https://www.bbc.co.uk/news/articles/ckn806qq760po?at_medium=RSS&at_campaign=rss
-   1   skip      [rss] BBC US & Canada: US Army says controlled blast of explosives in Iowa was 'huge success'
-                 https://www.bbc.co.uk/news/articles/cwg7l5ve251ko?at_medium=RSS&at_campaign=rss
-   1   skip      [rss] BBC Business: Guitar wars - the transatlantic battle over the Stratocaster
-                 https://www.bbc.co.uk/news/articles/cqd01l9x8k48o?at_medium=RSS&at_campaign=rss
-   1   skip      [rss] NPR News: Group of Senate Democrats push to add freshman to leadership
-                 https://www.npr.org/2026/11/25/g-s1-155518/senate-democrats-freshman-leadership-schumer-van-hollen
-   1   skip      [rss] NPR News: How American Thanksgiving took root -- and evolved -- in Liberia
-                 https://www.npr.org/2026/11/25/nx-s1-6048614/thanksgiving-liberia-gratitude-prayer
-   1   skip      [rss] NPR News: What to know before using AI agents for Black Friday shopping
-                 https://www.npr.org/2026/11/25/nx-s1-6048524/what-to-know-before-using-ai-agents-for-black-friday-shopping
-   1   skip      [rss] NPR News: In a time of rising costs, one Thanksgiving commodity is cheaper: cannabis
-                 https://www.npr.org/2026/11/25/nx-s1-6046173/cannabis-marijuana-prices-retailers-discounts
-   1   skip      [rss] Romania Insider: Romanian art collective Apparatus 22 takes part in inaugural program of KANAL – Centre Pompidou Brussels
-                 https://www.romania-insider.com/romanian-art-collective-apparatus-22-takes-part-inaugural
-   1   skip      [rss] Romania Insider: Photo of bear dance preparations in Romania wins Global Lens People award
-                 https://www.romania-insider.com/photo-bear-dance-preparations-romania-wins-global-lens
-   1   skip      [hn] Hacker News: 1Password Security Incident
-                 https://1password.com/blog/update-on-nov-2026-security-incident
-   1   skip      [hn] Hacker News: Windows Loudness Equalization, reverse-engineered and ported to PipeWire
-                 https://github.com/xoxorwr/pw-loudness-eq
-   1   skip      [hn] Hacker News: Show HN: Old Nvidia and ATI tech demos, running again in the browser
-                 https://gpu-demo-gallery.pages.dev/
-   1   skip      [hn] Hacker News: Bypassing iOS Safari's 60 FPS Limit to Build Web Applications That Feel Native
-                 https://rida.dev/blog/bypassing-ios-safari-60-fps-limit
-   1   skip      [hn] Hacker News: Button Sounds – collection of professionally-recorded button clicks and presses
-                 https://buttons.joshwcomeau.com/
-   0   skip      [rss] BBC World: Macy's postpones Thanksgiving parade due to weather
-                 https://www.bbc.co.uk/news/articles/cwkgr38l2g9yo?at_medium=RSS&at_campaign=rss
-   0   skip      [rss] BBC World: Angelina Jolie and Brad Pitt settle legal battle over French winery
-                 https://www.bbc.co.uk/news/articles/cmvg2989wv74o?at_medium=RSS&at_campaign=rss
-   0   skip      [rss] BBC US & Canada: Four-time MVP Rodgers released and may have played last NFL game
-                 https://www.bbc.co.uk/sport/american-football/articles/c64gn8ryp7jno?at_medium=RSS&at_campaign=rss
-   0   skip      [rss] BBC US & Canada: Angelina Jolie and Brad Pitt settle legal battle over French winery
-                 https://www.bbc.co.uk/news/articles/cmvg2989wv74o?at_medium=RSS&at_campaign=rss
-   0   skip      [rss] NPR News: At this Little Free Bakery in Austin, neighbors come for the pastries and stay for community connection
-                 https://www.npr.org/2026/11/25/nx-s1-6005522/little-free-bakery-austin-community-connection
-   0   skip      [rss] NPR News: Greetings from Mount Kilimanjaro, Africa's highest point in all its splendor
-                 https://www.npr.org/2026/11/25/nx-s1-6051429/mount-kilimanjaro-africa-tanzania
-   0   skip      [rss] NPR News: A quintessential Route 66 diner has been serving up Americana for nearly 100 years
-                 https://www.npr.org/2026/11/25/nx-s1-5983717/ariston-cafe-route-66-diner-litchfield-illinois
-   0   skip      [rss] PokerNews: Jurojin Black Friday Promo Code: How to Save 15% on Your Bundle
-                 https://www.pokernews.com/strategy/jurojin-black-friday-offer-gives-players-15-off-annual-bundl-52894.htm?utm_medium=feed&utm_campaign=homefeed&utm_source=rss
-   0   skip      [rss] Romania Insider: International Double Bass Days bring concerts, masterclasses to Bucharest
-                 https://www.romania-insider.com/international-double-bass-days-bring-concerts-masterclasses-bucharest
-   0   skip      [rss] Romania Insider: Five Kinds of Silence: Slovenian theatre performance presented in Bucharest explores domestic violence
-                 https://www.romania-insider.com/five-kinds-silence-slovenian-theatre-performance-presented-bucharest
-   0   skip      [rss] Romania Insider: Romanian Edward Iordănescu named head coach of British football team Watford
-                 https://www.romania-insider.com/romanian-edward-iordanescu-named-head-coach-british-football
-   0   skip      [hn] Hacker News: A few questions for the guy who went snorkeling in a Home Depot retention pond
-                 https://www.vox.com/down-to-earth/511999/home-depot-retention-pond-snorkel-joseph-ricketts
+   6   mind      [video] Andrew Huberman: Essentials: How to Learn Better & Create Your Best Future | Tim Ferriss
+                 https://www.youtube.com/watch?v=KVDs3-zuTyo
+   6   health    [video] Physionic: Make this Heart Disease Protecting Food even more Potent!
+                 https://www.youtube.com/watch?v=x01cXsOKUnQ
+   5   mind      [video] Renaissance Periodization: Getting Jacked Isn’t Worth Dying For
+                 https://www.youtube.com/watch?v=sEUp2na1qLM
+   5   health    [video] Andrew Huberman: 4 THINGS TO DO TO FALL ASLEEP
+                 https://www.youtube.com/watch?v=jZoTujYPduM
+   5   mind      [video] Daily Stoic: The Stoic Secret to Seeing Beauty in Everything
+                 https://www.youtube.com/watch?v=SpQHZf_1-D0
+   5   mind      [video] Daily Stoic: Why Stoicism Has Survived for Nearly 2,500 Years
+                 https://www.youtube.com/watch?v=FVNvCeku1pU
+   5   bitcoin   [rss] Bitcoin Magazine: Strategic Bitcoin Reserve Bill Clears House Committee, Heads to Floor
+                 https://bitcoinmagazine.com/news/strategic-bitcoin-reserve-bill-house-floor
+   5   mind      [rss] Donald Robertson: Putting Stoicism into Practice
+                 https://donaldrobertson.substack.com/p/putting-stoicism-into-practice
+   5   ai        [hn] Hacker News: Much shorter version of GRH Lean verification from Anthropic
+                 https://github.com/lsernau/grh-lean
+   4   health    [video] Ken Berry MD: Tired all the time? Gaining weight? Always cold? Your thyroid could be trying to tell you something.
+                 https://www.youtube.com/watch?v=vRoiA-t4c_Y
+   4   mind      [video] Daily Stoic: A Near-Death Experience Changed the Way Robert Greene Sees Life
+                 https://www.youtube.com/watch?v=uiIVQwbl-QY
+   4   news      [rss] BBC World: Two Italians killed in strike in Kuwait, as Iran denies responsibility
+                 https://www.bbc.co.uk/news/articles/c39w9y5dx4k5o?at_medium=RSS&at_campaign=rss
+   4   news      [rss] BBC US & Canada: Analysis: Why Trump's new tariffs are less of a threat
+                 https://www.bbc.co.uk/news/articles/c6r7g4e3yep1o?at_medium=RSS&at_campaign=rss
+   4   news      [rss] NPR News: Congo Ebola outbreak reaches 12,000 cases as some responders evacuate
+                 https://www.npr.org/2026/11/26/g-s1-155957/congo-ebola-responders
+   4   poker     [rss] PokerNews: Master the Poker Skill Everyone Loves but Few Actually Study
+                 https://www.pokernews.com/news/2026/11/octopi-poker-art-of-bluffing-52900.htm?utm_medium=feed&utm_campaign=homefeed&utm_source=rss
+   4   poker     [rss] PokerNews: Amid Houston Poker Robberies, Champions Club is a Secure Place to Play
+                 https://www.pokernews.com/news/2026/11/champions-club-security-measures-52902.htm?utm_medium=feed&utm_campaign=homefeed&utm_source=rss
+   4   romania   [rss] Romania Insider: Social Monitor: Nearly 3 million people in Romania lacked public health insurance in 2025
+                 https://www.romania-insider.com/social-monitor-nearly-3-million-people-romania-lacked
+   4   reading   [rss] Marginal Revolution: HumanFish — Predicting Who Actually Wins a Human Chess Game
+                 https://marginalrevolution.com/marginalrevolution/2026/11/humanfish-predicting-who-actually-wins-a-human-chess-game.html?utm_source=rss&utm_medium=rss&utm_campaign=humanfish-predicting-who-actually-wins-a-human-chess-game
+   3   health    [video] Ken Berry MD: November 25, 2026
+                 https://www.youtube.com/watch?v=B8ftcsMVuEo
+   3   health    [video] Thomas DeLauer: This Increases Metabolic Rate 90% and Drops Cortisol 34%
+                 https://www.youtube.com/watch?v=jy-hYCHF9CA
+   3   news      [rss] BBC World: US too focused on Middle East and not pushing Russia hard enough, Zelensky tells BBC
+                 https://www.bbc.co.uk/news/articles/c820q9wgrpyyo?at_medium=RSS&at_campaign=rss
+   3   news      [rss] BBC World: New Zealand's ruling coalition falls short of parliamentary majority by one seat
+                 https://www.bbc.co.uk/news/articles/c670278qk879o?at_medium=RSS&at_campaign=rss
+   3   health    [rss] BBC World: Hope for millions as cheaper HIV prevention jab reaches Africa
+                 https://www.bbc.co.uk/news/articles/cmly7jve72r2o?at_medium=RSS&at_campaign=rss
+   3   news      [rss] BBC Business: Asia made a big AI bet on Nvidia. What happens now?
+                 https://www.bbc.co.uk/news/articles/cqevr4lnd1nxo?at_medium=RSS&at_campaign=rss
+   3   news      [rss] NPR News: North Korea's Kim vows to build more nuclear weapons after ignoring Trump's overture
+                 https://www.npr.org/2026/11/26/g-s1-155955/north-korea-kim-nuclear-weapons-trump
+   3   news      [rss] NPR News: FCC says SpaceX can deploy 1 million satellites for data centers in space. Scientists are skeptical
+                 https://www.npr.org/2026/11/26/g-s1-155940/fcc-spacex-satellites-data-centers-in-space
+   3   reading   [rss] Marginal Revolution: Thanksgiving assorted links
+                 https://marginalrevolution.com/marginalrevolution/2026/11/thanksgiving-assorted-links-6.html?utm_source=rss&utm_medium=rss&utm_campaign=thanksgiving-assorted-links-6
+   3   reading   [rss] Marginal Revolution: What we are grateful for
+                 https://marginalrevolution.com/marginalrevolution/2026/11/what-we-are-grateful-for.html?utm_source=rss&utm_medium=rss&utm_campaign=what-we-are-grateful-for
+   2   skip      [video] ModernWisdom: Why Your Dreams Run Away From You
+                 https://www.youtube.com/watch?v=IF6Ry4-FXMs
+   2   skip      [video] ModernWisdom: Q&A: Age Gaps, Sexual Frustration & Performance Anxiety
+                 https://www.youtube.com/watch?v=kIQPEWLfp5Y
+   2   skip      [rss] Bitcoin Magazine: Bitcoin Has Become Boring, Finally
+                 https://bitcoinmagazine.com/culture/bitcoin-has-become-boring-finally
+   2   skip      [rss] BBC World: Major Thanksgiving storm brings flooding, flight delays across US
+                 https://www.bbc.co.uk/news/articles/ckm2mz3prq77o?at_medium=RSS&at_campaign=rss
+   2   skip      [rss] BBC US & Canada: Major Thanksgiving storm brings flooding, flight delays across US
+                 https://www.bbc.co.uk/news/articles/ckm2mz3prq77o?at_medium=RSS&at_campaign=rss
+   2   skip      [rss] BBC Business: Faisal Islam: Why Trump's new tariffs are less of a threat
+                 https://www.bbc.co.uk/news/articles/c6r7g4e3yep1o?at_medium=RSS&at_campaign=rss
+   2   skip      [rss] NPR News: Storms disrupt Thanksgiving travel. And, FCC violated ABC's free speech, judge says
+                 https://www.npr.org/2026/11/26/g-s1-155950/up-first-newsletter-thanksgiving-weather-travel-trump-tariffs-iowa-detonation-fcc-free-speech
+   2   skip      [rss] NPR News: Powerful storms disrupt holiday travel, as Macy's Thanksgiving Day Parade is postponed
+                 https://www.npr.org/2026/11/26/nx-s1-6054079/storms-expected-on-both-coasts-as-millions-travel-for-thanksgiving
+   2   skip      [rss] CardPlayer News: Mikalai Vaskaboinikau Seizes Second Triton Poker Title
+                 https://www.cardplayer.com/poker-news/1782592-mikalai-vaskaboinikau-seizes-second-triton-poker-title
+   2   skip      [rss] PokerNews: Jason Mercier’s Shocking Story: STABBED After EPT Win | PokerNews Podcast #1018
+                 https://www.pokernews.com/podcast/pokernews-podcast/pokernews-podcast-1018-jason-mercier-kevin-hart-52907.htm?utm_medium=feed&utm_campaign=homefeed&utm_source=rss
+   2   skip      [rss] PokerNews: The 2026 WSOPC Wraps Up in Cherokee With a $1.5M Gtd Main Event and 18 Ring Events
+                 https://www.pokernews.com/news/2026/11/the-2026-wsopc-cherokee-1-5m-gtd-main-event-52905.htm?utm_medium=feed&utm_campaign=homefeed&utm_source=rss
+   2   skip      [rss] PokerNews: Ramin Hajiyev Hauls Third Triton Trophy and $2.8M After Steamrolling Final Table of $150K Trition Anniversary Special
+                 https://www.pokernews.com/news/2026/11/ramin-hajiyev-wins-triton-poker-event-52903.htm?utm_medium=feed&utm_campaign=homefeed&utm_source=rss
+   2   romania   [rss] Romania Insider: MetaWealth signs EUR 10 mln battery supply deal with StarCharge for Romanian energy storage project
+                 https://www.romania-insider.com/metawealth-signs-eur-10-mln-battery-supply-deal
+   2   skip      [hn] Hacker News: The New York Times warns photographers not to update Photoshop over AI features
+                 https://www.theverge.com/ai-artificial-intelligence/1041227/the-new-york-times-warns-photographers-not-to-update-photoshop-over-ai-features
+   2   skip      [hn] Hacker News: OpenAI cuts GPT-6.2 usage: Astra hits limits 40% faster, Sol 25% faster
+                 https://twitter.com/thsottiaux/status/2125784147889393806
+   1   skip      [video] Ken Berry MD: Our neighbor dropped off two half-gallons of fresh raw cow's milk, straight from her farm.
+                 https://www.youtube.com/watch?v=lEE7InuII_w
+   1   skip      [video] Joe Rogan: Joe Rogan Experience #2587 - Anthony Kim
+                 https://www.youtube.com/watch?v=-V8jDI2-qgw
+   1   skip      [video] Renaissance Periodization: Dr. Mike Grades PewDiePie s Home Gym
+                 https://www.youtube.com/watch?v=SvO72nBuQgI
+   1   skip      [rss] Bitcoin Magazine: The Agentic Economy Is WAY Bigger Than You Think | Xen Baynham-Herd
+                 https://bitcoinmagazine.com/videos/the-agentic-economy-is-way-bigger-than-you-think-xen-baynham-herd
+   1   skip      [rss] BBC World: Watch: Roofs torn off and streets under water as severe weather hits US
+                 https://www.bbc.co.uk/news/videos/cq808d704m22o?at_medium=RSS&at_campaign=rss
+   1   skip      [rss] BBC World: German boat dealer suspected of supplying Channel smuggling gangs, BBC finds
+                 https://www.bbc.co.uk/news/articles/cqlymky8kpzjo?at_medium=RSS&at_campaign=rss
+   1   skip      [rss] BBC World: Watch: BBC confronts German man suspected of supplying migrant gangs with small boats
+                 https://www.bbc.co.uk/news/videos/cvglrz5yr79go?at_medium=RSS&at_campaign=rss
+   1   skip      [rss] BBC World: Gérard Depardieu to stand trial for alleged rape of actress in 2018, court rules
+                 https://www.bbc.co.uk/news/articles/cmlyd76kyx44o?at_medium=RSS&at_campaign=rss
+   1   skip      [rss] BBC World: Diesel tanker carrying up to 7,000 tonnes capsizes near Ibiza, killing one
+                 https://www.bbc.co.uk/news/articles/c9gklryvj24do?at_medium=RSS&at_campaign=rss
+   1   skip      [rss] BBC US & Canada: Watch: Roofs torn off and streets under water as severe weather hits US
+                 https://www.bbc.co.uk/news/videos/cq808d704m22o?at_medium=RSS&at_campaign=rss
+   1   skip      [rss] BBC Business: UK to pay 'participation' fee to deliver EU deals
+                 https://www.bbc.co.uk/news/articles/ck2057x387ego?at_medium=RSS&at_campaign=rss
+   1   skip      [rss] BBC Business: Millions of people to see average monthly mortgage payments rise by £100
+                 https://www.bbc.co.uk/news/articles/cwg5r02zel9qo?at_medium=RSS&at_campaign=rss
+   1   skip      [rss] NPR News: Court lets Puerto Rico governor fire firm that runs the island's troubled power grid
+                 https://www.npr.org/2026/11/26/nx-s1-6054139/court-rules-puerto-ricos-governor-can-fire-company-that-runs-troubled-power-grid
+   1   skip      [rss] NPR News: Andy Taylor, guitarist of new wave icons Duran Duran, dies at 65
+                 https://www.npr.org/2026/11/26/g-s1-155934/andy-taylor-duran-duran-obit
+   1   skip      [rss] PokerNews: What Just Happened? Phil Hellmuth Gets Short Tempered After Back-to-Back Slowrolls
+                 https://www.pokernews.com/news/2026/11/hellmuths-home-game-season-2-episode-6-recap-52897.htm?utm_medium=feed&utm_campaign=homefeed&utm_source=rss
+   1   skip      [rss] PokerNews: Is This The Chillest FT Chip Leader You've Ever Seen?
+                 https://www.pokernews.com/news/2026/11/yoon-kang-leads-final-table-of-apt-championship-main-event-52906.htm?utm_medium=feed&utm_campaign=homefeed&utm_source=rss
+   1   skip      [rss] PokerNews: KPC Poker Returns to Jeju in January 2027 with KRW 3.6 Billion GTD
+                 https://www.pokernews.com/news/2026/11/kpc-poker-jeju-january-2027-schedule-52895.htm?utm_medium=feed&utm_campaign=homefeed&utm_source=rss
+   1   romania   [rss] Romania Insider: Auchan opens two stores on the same day: the Auchan hypermarket in Sun Plaza, Bucharest, and an ATAC supermarket in Timis County
+                 https://www.romania-insider.com/auchan-opens-two-stores-same-day-auchan-hypermarket
+   1   skip      [rss] Romania Insider: Nadia Comăneci, Via Transilvanica exhibitions, Cristian Mungiu retrospective among events marking Romania's National Day abroad
+                 https://www.romania-insider.com/nadia-comaneci-via-transilvanica-exhibitions-cristian-mungiu
+   1   skip      [rss] Romania Insider: Romanian mountain resorts kick off 2026-2027 ski season
+                 https://www.romania-insider.com/romanian-mountain-resorts-kick-off-2026-2027-ski-season
+   1   skip      [hn] Hacker News: AI made self-hosting fun again
+                 https://janlukas.blog/posts/ai-self-hosting
+   1   skip      [hn] Hacker News: Tell HN: Happy Thanksgiving
+                 https://news.ycombinator.com/item?id=50655664
+   1   skip      [hn] Hacker News: Nextcloud Office Desktop app
+                 https://nextcloud.com/blog/euro-office-comes-to-your-desktop-with-the-nextcloud-office-desktop-app/
+   1   skip      [hn] Hacker News: Smart people who give a shit use tools
+                 https://www.iankduncan.com/engineering/2026-11-19-smart-people-who-give-a-shit-use-tools
+   1   skip      [hn] Hacker News: Collection of preserved UI style guides
+                 https://aresluna.org/ui-style-guides/
+   1   skip      [hn] Hacker News: Slow Ubuntu security response times
+                 https://www.openwall.com/lists/oss-security/2026/11/25/9
+   0   skip      [rss] BBC World: Pregnant US inmate escapes in prison vehicle after medical appointment
+                 https://www.bbc.co.uk/news/articles/c9m2jke85xzxo?at_medium=RSS&at_campaign=rss
+   0   skip      [rss] BBC World: Egyptian authorities arrest motorist over tanker crash that killed 31
+                 https://www.bbc.co.uk/news/articles/c3gre90l0g45o?at_medium=RSS&at_campaign=rss
+   0   skip      [rss] BBC US & Canada: Alaskan flying team airdrops Thanksgiving turkeys to remote communities
+                 https://www.bbc.co.uk/news/videos/cvze7yk7dy5lo?at_medium=RSS&at_campaign=rss
+   0   skip      [rss] BBC US & Canada: 'Think twice': Banff officials issue warning over thin ice after skater's death
+                 https://www.bbc.co.uk/news/articles/c3wy01q8pjr8o?at_medium=RSS&at_campaign=rss
+   0   skip      [rss] BBC US & Canada: Pregnant US inmate escapes in prison vehicle after medical appointment
+                 https://www.bbc.co.uk/news/articles/c9m2jke85xzxo?at_medium=RSS&at_campaign=rss
+   0   skip      [rss] BBC US & Canada: Watch: Man and dog narrowly escape powerful king tide in Oregon
+                 https://www.bbc.co.uk/news/videos/cm4gnje836x2o?at_medium=RSS&at_campaign=rss
+   0   skip      [rss] BBC US & Canada: Fireball steals the show during Thanksgiving drone display in Indiana
+                 https://www.bbc.co.uk/news/videos/c6n4e3yypylxo?at_medium=RSS&at_campaign=rss
+   0   skip      [rss] BBC Business: I spend £200 a month on fancy meals by myself - would you dine solo?
+                 https://www.bbc.co.uk/news/articles/cw8dv11dp2yeo?at_medium=RSS&at_campaign=rss
+   0   skip      [rss] BBC Business: Simon Jack: Is Poundland's US owner to blame for its collapse?
+                 https://www.bbc.co.uk/news/articles/c62klzxvyzyqo?at_medium=RSS&at_campaign=rss
+   0   skip      [rss] BBC Business: Why is there a shortage of 'wizard' elevator mechanics?
+                 https://www.bbc.co.uk/news/articles/c52e8k19y94mo?at_medium=RSS&at_campaign=rss
+   0   skip      [rss] BBC Business: New boss appointed to lead Travelodge
+                 https://www.bbc.co.uk/news/articles/cqx2wx89kg0eo?at_medium=RSS&at_campaign=rss
+   0   skip      [rss] NPR News: At Albuquerque's Indian Pueblo Kitchen, Native American dishes are the main course
+                 https://www.npr.org/2026/11/26/nx-s1-5983712/indian-pueblo-kitchen-native-american-food-albuquerque
+   0   skip      [rss] NPR News: 'Memories of a Good Meal': How food made a difference during WWII
+                 https://www.npr.org/2026/11/26/nx-s1-6028781/memories-of-a-good-meal-cookbook-chef-alon-shaya
+   0   skip      [rss] NPR News: A dish with a story, Thanksgiving with culinary historian Michael Twitty
+                 https://www.npr.org/2026/11/26/nx-s1-6044602/michael-twitty-thanksgiving-food-culinary-history
+   0   skip      [rss] CardPlayer News: WNBA’s Sophie Cunningham Says She’s Received Torrent Of Hate Messages From Gamblers
+                 https://www.cardplayer.com/poker-news/1779500-wnbas-sophie-cunningham-says-shes-received-torrent-of-hate-messages-from-gamblers
+   0   skip      [rss] PokerNews: NBA Star Runs Thanksgiving Giveaway Using Charity Poker Funds
+                 https://www.pokernews.com/news/2026/11/russell-westbrook-poker-thanksgiving-giveaway-52904.htm?utm_medium=feed&utm_campaign=homefeed&utm_source=rss
+   0   skip      [rss] PokerNews: Michael Mizrachi's Solana story with the countdown to WSOP Paradise
+                 https://www.pokernews.com/news/2026/11/michael-mizrachi-joins-solana-stories-52898.htm?utm_medium=feed&utm_campaign=homefeed&utm_source=rss
+   0   skip      [rss] Romania Insider: Nobel laureate Jon Fosse comes to Romania for Grivița 53 Theater anniversary
+                 https://www.romania-insider.com/nobel-laureate-jon-fosse-comes-romania-grivita-53
+   0   skip      [hn] Hacker News: Intel One Mono font (2023)
+                 https://github.com/intel/intel-one-mono
