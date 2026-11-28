@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="color-scheme" content="light dark">
+<meta name="theme-color" content="#f5f2ea" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#15140f" media="(prefers-color-scheme: dark)">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="Brief">
+<meta name="robots" content="noindex">
+<link rel="icon" href="../icon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="../apple-touch-icon.png">
+<title>Morning Brief · Saturday, November 28</title>
+<style>
+:root {
+  --bg:#f5f2ea; --card:#fffdf8; --ink:#1d1b17; --soft:#47433b; --mute:#837d71; --rule:#e6e0d3;
+  --acc:#2d5b4f; --acc-soft:#e6eee8; --warm:#b4691a; --up:#2e7d4f; --down:#b8402f;
+  --serif: "Iowan Old Style", "Charter", "Palatino Linotype", Palatino, Georgia, serif;
+  --sans: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", system-ui, Roboto, sans-serif;
+  --shadow: 0 1px 2px rgba(40,30,10,.05), 0 8px 24px -14px rgba(40,30,10,.22);
+  --r: 18px; --pad: 20px;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg:#13120e; --card:#1c1a15; --ink:#efeadd; --soft:#cdc6b6; --mute:#8f887a; --rule:#2f2c26;
+    --acc:#8fc2ad; --acc-soft:#1f2a25; --warm:#e0a15a; --up:#6cc28e; --down:#e57f6c;
+    --shadow: 0 1px 2px rgba(0,0,0,.35), 0 10px 28px -16px rgba(0,0,0,.7);
+  }
+  .sec, .nav a { --a: var(--ad) !important; }
+}
+* { box-sizing:border-box; -webkit-tap-highlight-color:transparent; }
+html { scroll-behavior:smooth; -webkit-text-size-adjust:100%; }
+body { margin:0; background:var(--bg); color:var(--ink); font:18px/1.62 var(--serif);
+  -webkit-font-smoothing:antialiased; text-rendering:optimizeLegibility; overflow-x:hidden; }
+.wrap { max-width:680px; margin:0 auto;
+  padding:max(30px, calc(env(safe-area-inset-top) + 14px)) max(var(--pad), env(safe-area-inset-right))
+          calc(96px + env(safe-area-inset-bottom)) max(var(--pad), env(safe-area-inset-left)); }
+a { color:inherit; text-decoration-color:var(--rule); text-underline-offset:3px; text-decoration-thickness:1px; }
+.kicker { font:650 11px/1.2 var(--sans); letter-spacing:.13em; text-transform:uppercase; color:var(--mute); margin:0 0 10px; }
+.progress { position:fixed; inset:0 0 auto 0; height:3px; z-index:20; background:var(--warm); transform-origin:0 50%; transform:scaleX(0); }
+
+header .brand { display:flex; align-items:center; gap:8px; font:650 12px/1 var(--sans); letter-spacing:.16em; text-transform:uppercase; color:var(--acc); margin:0; }
+header .brand::before { content:""; width:18px; height:18px; border-radius:50%;
+  background:radial-gradient(circle at 50% 120%, var(--warm) 0 45%, transparent 46%), var(--acc-soft); box-shadow:inset 0 0 0 1px var(--rule); }
+header h1 { font-size:42px; line-height:1.06; margin:14px 0 10px; font-weight:650; letter-spacing:-.025em; }
+.greet { margin:0; color:var(--soft); font-size:18px; line-height:1.5; font-style:italic; }
+.bar { display:flex; flex-wrap:wrap; gap:6px; margin-top:14px; }
+.bar span { font:600 12px/1 var(--sans); color:var(--soft); background:var(--card); border:1px solid var(--rule); border-radius:99px; padding:7px 11px; }
+
+.cards { display:grid; gap:10px; margin:22px 0 0; }
+.cards.n2 { grid-template-columns:1fr 1fr; }
+.card { background:var(--card); border:1px solid var(--rule); border-radius:var(--r); padding:15px 16px 13px; box-shadow:var(--shadow); position:relative; overflow:hidden; }
+.card .big { font:650 28px/1.1 var(--sans); letter-spacing:-.02em; font-variant-numeric:tabular-nums; display:flex; align-items:center; gap:8px; }
+.card .wi { font-size:24px; }
+.card .cap { margin:6px 0 0; font:12.5px/1.4 var(--sans); color:var(--mute); }
+.up { color:var(--up); } .down { color:var(--down); }
+.spark { display:block; width:100%; height:30px; margin-top:8px; }
+.spark .ln { fill:none; stroke-width:1.8; stroke-linejoin:round; stroke-linecap:round; vector-effect:non-scaling-stroke; }
+.spark.up .ln { stroke:var(--up); } .spark.down .ln { stroke:var(--down); }
+.spark .fill { opacity:.12; } .spark.up .fill { fill:var(--up); } .spark.down .fill { fill:var(--down); }
+.spark.up .dot { fill:var(--up); } .spark.down .dot { fill:var(--down); }
+
+.top { background:var(--card); border:1px solid var(--rule); border-radius:var(--r); padding:20px 20px 6px; margin:12px 0 0; box-shadow:var(--shadow); }
+.top ol { margin:0; padding:0; list-style:none; counter-reset:t; }
+.top li { counter-increment:t; position:relative; padding:0 0 14px 34px; font-size:17.5px; line-height:1.48; }
+.top li::before { content:counter(t); position:absolute; left:0; top:-1px; font:650 23px/1 var(--serif); color:var(--warm); }
+.top a { text-decoration:none; }
+
+.nav { position:sticky; top:0; z-index:10; display:flex; gap:7px; overflow-x:auto; scroll-snap-type:x proximity; scroll-padding-inline:var(--pad);
+  padding:calc(env(safe-area-inset-top) + 10px) var(--pad) 10px; margin:18px calc(-1 * var(--pad)) 0;
+  background:color-mix(in srgb, var(--bg) 86%, transparent); backdrop-filter:saturate(1.5) blur(14px); -webkit-backdrop-filter:saturate(1.5) blur(14px);
+  scrollbar-width:none; mask-image:linear-gradient(90deg, #000 88%, transparent); -webkit-mask-image:linear-gradient(90deg, #000 88%, transparent); }
+.nav::-webkit-scrollbar { display:none; }
+.nav a { flex:none; scroll-snap-align:start; display:flex; align-items:center; gap:6px; font:600 13.5px/1 var(--sans); padding:10px 13px; border-radius:99px; border:1px solid var(--rule);
+  text-decoration:none; color:var(--soft); background:var(--card); }
+.nav a span { color:var(--a); }
+.nav a em { font-style:normal; font-weight:500; color:var(--mute); font-size:12px; }
+.nav a.on { border-color:var(--a); color:var(--a); background:color-mix(in srgb, var(--a) 9%, var(--card)); }
+
+.sec { margin-top:30px; scroll-margin-top:70px; }
+.sec h2 { display:flex; align-items:center; gap:9px; font:700 13px/1 var(--sans); letter-spacing:.13em;
+  text-transform:uppercase; color:var(--a); margin:0 0 12px 4px; }
+.ic { font-size:15px; }
+.item { background:var(--card); border:1px solid var(--rule); border-radius:var(--r); padding:16px 18px 10px; margin-bottom:12px;
+  box-shadow:var(--shadow); scroll-margin-top:70px; border-top:3px solid var(--a); }
+.item .src { font:650 12px/1.3 var(--sans); color:var(--a); margin:0 0 8px; letter-spacing:.01em; }
+.item .src a { color:var(--mute); font-weight:500; }
+.item h3 { font-size:21.5px; line-height:1.27; margin:0 0 9px; font-weight:650; letter-spacing:-.012em; }
+.item h3 a { text-decoration:none; }
+.item .sum { margin:0 0 10px; color:var(--soft); }
+.thumb { float:right; position:relative; width:112px; margin:2px 0 8px 14px; border-radius:10px; overflow:hidden; aspect-ratio:16/9; background:var(--rule); }
+.thumb img { width:100%; height:100%; object-fit:cover; display:block; }
+.thumb .play { position:absolute; inset:0; display:grid; place-items:center; color:#fff; font-size:15px; text-shadow:0 1px 6px rgba(0,0,0,.6); }
+.item:target { box-shadow:0 0 0 2px var(--a), var(--shadow); }
+.take { clear:both; margin:4px 0 12px; padding:12px 14px 12px 30px; background:color-mix(in srgb, var(--a) 7%, var(--card)); border-radius:12px; color:var(--soft); font-size:16px; line-height:1.52; }
+.take li { margin:4px 0; } .take li::marker { color:var(--a); }
+.orig { clear:both; margin:0 0 6px; font:italic 13px/1.45 var(--sans); color:var(--mute); }
+.row { clear:both; display:flex; align-items:center; justify-content:space-between; gap:10px; border-top:1px solid var(--rule); margin:6px -4px 0; padding-top:6px; }
+.open { font:650 14px/1 var(--sans); color:var(--a); text-decoration:none; padding:10px 4px; }
+
+.vote { display:inline-flex; gap:4px; flex:none; }
+.vote button { width:40px; height:36px; border-radius:10px; border:1px solid transparent; background:transparent; font-size:17px; line-height:1;
+  cursor:pointer; filter:grayscale(1); opacity:.5; transition:transform .12s, opacity .12s, filter .12s, background .12s; }
+.vote button:active { transform:scale(.9); }
+.vote button.on { filter:none; opacity:1; background:var(--acc-soft); border-color:var(--rule); }
+
+.also { margin-top:30px; background:var(--card); border:1px solid var(--rule); border-radius:var(--r); padding:0 16px 0 18px; box-shadow:var(--shadow); }
+.also summary { cursor:pointer; padding:18px 0; font:700 13px/1 var(--sans); letter-spacing:.13em; text-transform:uppercase; color:var(--acc); list-style:none; }
+.also summary::-webkit-details-marker { display:none; }
+.also summary::after { content:"＋"; float:right; color:var(--mute); }
+.also[open] summary::after { content:"－"; }
+.also summary span { color:var(--mute); margin-left:6px; }
+.also ul { margin:0 0 10px; padding:0; list-style:none; }
+.also li { display:flex; align-items:center; gap:6px; border-top:1px solid var(--rule); }
+.also li > a { flex:1; padding:12px 0; font-size:16px; line-height:1.48; color:var(--soft); text-decoration:none; }
+.also li b { display:block; font:650 12px/1.3 var(--sans); color:var(--ink); margin-bottom:2px; }
+.also .vote button { width:34px; }
+
+.passage { margin-top:36px; padding:24px 22px 22px; border-radius:var(--r); background:linear-gradient(160deg, color-mix(in srgb, #6b4b8a 10%, var(--card)), var(--card) 60%);
+  border:1px solid var(--rule); box-shadow:var(--shadow); }
+.ptext { margin:0; font-size:19px; line-height:1.6; }
+.ptext::first-letter { float:left; font:650 52px/.86 var(--serif); margin:6px 8px 0 0; color:var(--warm); }
+.anchor { display:grid; grid-template-columns:1fr 1fr; gap:26px; margin-top:12px; padding:22px; border-radius:var(--r); background:var(--card); border:1px solid var(--rule); box-shadow:var(--shadow); }
+blockquote { margin:0; font-size:20px; line-height:1.45; font-style:italic; }
+blockquote::before { content:"“"; display:block; font:650 44px/0.6 var(--serif); color:var(--warm); margin:10px 0 4px; }
+.by { margin:10px 0 8px; font:650 13px var(--sans); color:var(--soft); }
+.mm { font-size:20px; font-weight:650; margin:0 0 6px; line-height:1.3; }
+.ctx { margin:0; font-size:15.5px; line-height:1.58; color:var(--soft); }
+.spot { margin-top:12px; padding:20px 22px; border-radius:var(--r); border:1px dashed var(--rule); }
+.snip { display:flex; gap:8px; align-items:center; margin-top:12px; }
+.snip code { flex:1; min-width:0; overflow-x:auto; white-space:pre; font:12.5px/1.5 ui-monospace, Consolas, monospace; background:var(--acc-soft); padding:9px 10px; border-radius:8px; }
+.snip button { font:650 13px var(--sans); border:0; border-radius:8px; padding:10px 14px; background:var(--acc); color:var(--bg); cursor:pointer; }
+.hint { font:12px var(--sans); color:var(--mute); margin:8px 0 0; }
+.quiet { font-style:italic; color:var(--mute); margin-top:30px; }
+
+.send { position:fixed; left:50%; bottom:calc(16px + env(safe-area-inset-bottom)); z-index:30; transform:translate(-50%, 140%);
+  display:flex; align-items:center; gap:10px; padding:13px 20px; border-radius:99px; border:0; background:var(--ink); color:var(--bg);
+  font:650 15px/1 var(--sans); box-shadow:0 10px 30px -8px rgba(0,0,0,.45); cursor:pointer; transition:transform .25s cubic-bezier(.2,.9,.3,1.2); white-space:nowrap; }
+.send.show { transform:translate(-50%, 0); }
+.send b { background:var(--warm); color:#fff; border-radius:99px; min-width:22px; padding:4px 7px; font-size:12px; text-align:center; }
+
+.foot { margin-top:40px; padding-top:16px; border-top:1px solid var(--rule); font:13px/1.5 var(--sans); color:var(--mute); }
+.arch { display:flex; gap:10px; margin-bottom:14px; }
+.arch a { color:var(--acc); text-decoration:none; font-weight:650; padding:10px 14px; border:1px solid var(--rule); border-radius:99px; background:var(--card); }
+.foot details summary { cursor:pointer; list-style:none; }
+.foot details summary::-webkit-details-marker { display:none; }
+.foot ul { margin:6px 0; padding-left:18px; }
+.foot li.fail b { color:var(--down); } .foot li.warn b { color:var(--warm); }
+.hl { margin:0; font-weight:650; } .hl.ok { color:var(--up); } .hl.warn { color:var(--warm); }
+.stats { margin:6px 0 0; }
+@media (max-width:560px) {
+  :root { --pad:14px; --r:16px; }
+  body { font-size:17px; line-height:1.58; }
+  header h1 { font-size:36px; }
+  .greet { font-size:17px; }
+  .item { padding:15px 15px 8px; }
+  .item h3 { font-size:19.5px; }
+  .thumb { width:96px; margin-left:12px; }
+  .take { font-size:15.5px; }
+  .anchor { grid-template-columns:1fr; gap:22px; }
+  .card .big { font-size:24px; }
+  .ptext { font-size:18px; }
+}
+@media (max-width:360px) { .cards.n2 { grid-template-columns:1fr; } }
+@media (prefers-reduced-motion:reduce) { html { scroll-behavior:auto; } .send { transition:none; } }
+</style>
+</head>
+<body>
+<div class="progress" id="prog"></div>
+<div class="wrap">
+<header>
+  <p class="brand">Morning Brief</p>
+  <h1>Saturday, November 28</h1>
+  <p class="greet">A light day: deep-stack tournament preflop mechanics, a few training and sleep items, and some Stoic short clips, with little hard news.</p>
+  <div class="bar"><span>4 min read</span><span>7 stories</span><span>5 quick hits</span></div>
+</header>
+<section class="cards n1">
+  <div class="card btc">
+    <p class="kicker">Bitcoin</p>
+    <div class="big" id="btc-p">$59,977</div>
+    <p class="cap"><span id="btc-c"><span class="down">▼ 2.4%</span></span> 24h · <span class="up">▲ 1.8%</span> 7d</p>
+    <svg class="spark up" viewBox="0 0 132 36" width="132" height="36" preserveAspectRatio="none" aria-hidden="true"><polygon points="2,36 2.0,20.9 5.0,33.0 8.1,24.7 11.1,15.0 14.2,17.0 17.2,15.5 20.3,16.9 23.3,21.3 26.4,12.8 29.4,14.4 32.5,14.1 35.5,13.7 38.6,13.9 41.6,10.9 44.7,11.7 47.7,3.0 50.8,10.8 53.8,12.1 56.9,13.0 59.9,14.8 63.0,17.2 66.0,17.1 69.0,16.7 72.1,17.5 75.1,19.8 78.2,20.3 81.2,20.7 84.3,24.4 87.3,18.6 90.4,16.2 93.4,13.9 96.5,14.1 99.5,13.6 102.6,13.8 105.6,15.2 108.7,14.0 111.7,14.4 114.8,10.5 117.8,11.0 120.9,11.5 123.9,17.5 127.0,17.8 130.0,17.5 130,36" class="fill"/><polyline points="2.0,20.9 5.0,33.0 8.1,24.7 11.1,15.0 14.2,17.0 17.2,15.5 20.3,16.9 23.3,21.3 26.4,12.8 29.4,14.4 32.5,14.1 35.5,13.7 38.6,13.9 41.6,10.9 44.7,11.7 47.7,3.0 50.8,10.8 53.8,12.1 56.9,13.0 59.9,14.8 63.0,17.2 66.0,17.1 69.0,16.7 72.1,17.5 75.1,19.8 78.2,20.3 81.2,20.7 84.3,24.4 87.3,18.6 90.4,16.2 93.4,13.9 96.5,14.1 99.5,13.6 102.6,13.8 105.6,15.2 108.7,14.0 111.7,14.4 114.8,10.5 117.8,11.0 120.9,11.5 123.9,17.5 127.0,17.8 130.0,17.5" class="ln"/><circle cx="130.0" cy="17.5" r="2.6" class="dot"/></svg>
+  </div></section>
+<section class="top"><p class="kicker">If you read nothing else</p><ol><li><a href="#v14">Concrete solver-based mechanics for 200bb tournament preflop: suited connectors, 3-bet sizing and big blind over-calling.</a></li><li><a href="#v4">Galfond on choosing projects by energy and congruence, plus a warning about the dopamine pull of building with AI.</a></li><li><a href="#v5">A sleep-apnea argument built on tongue fat and ectopic fat, with one cited trial and a caution against sedatives.</a></li></ol></section>
+<nav class="nav" aria-label="Sections"><a href="#s-poker" style="--a:#2d5b4f;--ad:#8fc2ad"><span>♠</span>Poker<em>1</em></a><a href="#s-health" style="--a:#a33c3c;--ad:#ec8f84"><span>✚</span>Health &amp; Sleep<em>3</em></a><a href="#s-mind" style="--a:#6b4b8a;--ad:#c6a4e6"><span>◎</span>Mind &amp; Philosophy<em>3</em></a></nav>
+<section class="sec" id="s-poker" style="--a:#2d5b4f;--ad:#8fc2ad"><h2><span class="ic">♠</span>Poker</h2>
+<article class="item" id="v14">
+  <p class="src">▶ Upswing Poker</p>
+  <a class="thumb" href="https://www.youtube.com/watch?v=LfY1gpf32VI" aria-hidden="true" tabindex="-1"><img src="https://i.ytimg.com/vi/LfY1gpf32VI/mqdefault.jpg" alt="" loading="lazy" width="320" height="180"><span class="play">▶</span></a><h3><a href="https://www.youtube.com/watch?v=LfY1gpf32VI">Deep-stack tournament preflop: why small suited connectors beat middling ones</a></h3>
+  <p class="sum">Upswing&#x27;s coach walks through a 200bb solver output. Early in a tournament he argues the best approach sits between wild and ultra-tight. He thinks chip accumulation before the bubble has more upside now, because the field tightens early with premature ICM adjustments. Offsuit hands like ATo fold from the low jack while K5s opens, because deep stacks reward hands that make big flushes and cover many boards. Facing a raise, the cutoff 3-bets to about 9bb, and kings mix flats, which they never do at 100bb.</p><ul class="take"><li>Small suited connectors (54s, 65s) outperform 98s when defending against a 3-bet. Middling connectors are dominated and often make the dummy end of a straight.</li><li>Big blinds over-call too wide with offsuit hands like A6o and K6o. The solver folds many of them, and pot odds are not a reason to call.</li><li>Big blind 3-bet bluffs: suited 9x and 8x sit one pip below the opener&#x27;s weakest offsuit opens. 3-bet large (about 15bb) and polar to force indifference.</li><li>Aces should always 3-bet deep. Slow-playing aces only starts to be reasonable below about 25bb.</li></ul><p class="orig">“Poker Tournament Leaks That Cost You Chips”</p>
+  <div class="row"><a class="open" href="https://www.youtube.com/watch?v=LfY1gpf32VI">Watch →</a><span class="vote" data-src="Upswing Poker" data-title="Poker Tournament Leaks That Cost You Chips"><button type="button" class="up" aria-label="More like this">👍</button><button type="button" class="dn" aria-label="Less like this">👎</button></span></div>
+</article></section><section class="sec" id="s-health" style="--a:#a33c3c;--ad:#ec8f84"><h2><span class="ic">✚</span>Health &amp; Sleep</h2>
+<article class="item" id="v5">
+  <p class="src">▶ Thomas DeLauer</p>
+  <a class="thumb" href="https://www.youtube.com/watch?v=yNx71FeOAmo" aria-hidden="true" tabindex="-1"><img src="https://i.ytimg.com/vi/yNx71FeOAmo/mqdefault.jpg" alt="" loading="lazy" width="320" height="180"><span class="play">▶</span></a><h3><a href="https://www.youtube.com/watch?v=yNx71FeOAmo">Claim: tongue fat from insulin resistance helps drive sleep apnea, even in lean people</a></h3>
+  <p class="sum">DeLauer argues that ectopic fat, stored outside the safe subcutaneous layer, can end up in the tongue and throat, and a study in the journal Sleep found tongue fat is elevated in people with apnea. He cites a trial in Obesity where fasting with protein pacing cut visceral fat 33% in 8 weeks versus 14% for ordinary calorie restriction at equal calories. For sleep, he suggests 200 to 400 mg of theanine and avoiding alcohol and sedatives, which relax the airway. The video opens with a supplement ad. The &#x27;sauna before bed&#x27; and theanine advice come with little cited evidence.</p><ul class="take"><li>Short HIIT plus resistance training is recommended to improve insulin sensitivity.</li><li>Hot baths or sauna a couple of hours before bed to aid deep sleep.</li><li>Avoid alcohol and NyQuil-type sedatives if you have apnea.</li></ul><p class="orig">“Before Bed, Do This to Drop Visceral Fat and Stop Sleep Apnea”</p>
+  <div class="row"><a class="open" href="https://www.youtube.com/watch?v=yNx71FeOAmo">Watch →</a><span class="vote" data-src="Thomas DeLauer" data-title="Before Bed, Do This to Drop Visceral Fat and Stop Sleep Apnea"><button type="button" class="up" aria-label="More like this">👍</button><button type="button" class="dn" aria-label="Less like this">👎</button></span></div>
+</article>
+<article class="item" id="v9">
+  <p class="src">▶ Renaissance Periodization</p>
+  <a class="thumb" href="https://www.youtube.com/watch?v=xgo1_-lsq8I" aria-hidden="true" tabindex="-1"><img src="https://i.ytimg.com/vi/xgo1_-lsq8I/mqdefault.jpg" alt="" loading="lazy" width="320" height="180"><span class="play">▶</span></a><h3><a href="https://www.youtube.com/watch?v=xgo1_-lsq8I">Exercise scientist on a huge young bodybuilder: lean body fat is what keeps steroid users healthy</a></h3>
+  <p class="sum">RP&#x27;s coach reviews a viral bodybuilder who wears a CPAP mask to sleep. He says the mask makes sense because heavier people develop sleep apnea, but wearing it in the gym is for show. He lists three ways to be healthy on large steroid doses: good genetics, intelligent drug and nutrition management, and, probably the biggest, staying lean. He criticises starting steroids at 19. On training, he says a deeper stretch on presses grows more muscle, and he recommends lengthened partials after failure.</p><ul class="take"><li>Muscles trained under tension at a stretch grow more than those trained under tension without a stretch, so lower the bar to the chest where possible.</li><li>Add 10 to 15 partials after a short pause once you reach failure.</li></ul><p class="orig">“Exercise Scientist Critiques the Real-Life Bane”</p>
+  <div class="row"><a class="open" href="https://www.youtube.com/watch?v=xgo1_-lsq8I">Watch →</a><span class="vote" data-src="Renaissance Periodization" data-title="Exercise Scientist Critiques the Real-Life Bane"><button type="button" class="up" aria-label="More like this">👍</button><button type="button" class="dn" aria-label="Less like this">👎</button></span></div>
+</article>
+<article class="item" id="v10">
+  <p class="src">▶ Renaissance Periodization</p>
+  <a class="thumb" href="https://www.youtube.com/watch?v=rzBqbAAG2OM" aria-hidden="true" tabindex="-1"><img src="https://i.ytimg.com/vi/rzBqbAAG2OM/mqdefault.jpg" alt="" loading="lazy" width="320" height="180"><span class="play">▶</span></a><h3><a href="https://www.youtube.com/watch?v=rzBqbAAG2OM">Dietary fat matters more for hypertrophy than carbs, but total mix is flexible</a></h3>
+  <p class="sum">RP&#x27;s coaches say dietary fat is more essential than carbohydrate, and that too little fat has a downside that too few carbs do not. Natural lifters often need more fat than they assume for testosterone. Overall evidence suggests that with enough protein and a slight calorie surplus, hypertrophy is roughly maximised whether the diet is high-carb or high-fat.</p><p class="orig">“He Said Fat Doesn&#x27;t Affect Testosterone...”</p>
+  <div class="row"><a class="open" href="https://www.youtube.com/watch?v=rzBqbAAG2OM">Watch →</a><span class="vote" data-src="Renaissance Periodization" data-title="He Said Fat Doesn&#x27;t Affect Testosterone..."><button type="button" class="up" aria-label="More like this">👍</button><button type="button" class="dn" aria-label="Less like this">👎</button></span></div>
+</article></section><section class="sec" id="s-mind" style="--a:#6b4b8a;--ad:#c6a4e6"><h2><span class="ic">◎</span>Mind &amp; Philosophy</h2>
+<article class="item" id="v4">
+  <p class="src">▶ Jared Alderman</p>
+  <a class="thumb" href="https://www.youtube.com/watch?v=oxnt47Mc9CU" aria-hidden="true" tabindex="-1"><img src="https://i.ytimg.com/vi/oxnt47Mc9CU/mqdefault.jpg" alt="" loading="lazy" width="320" height="180"><span class="play">▶</span></a><h3><a href="https://www.youtube.com/watch?v=oxnt47Mc9CU">Phil Galfond: pick projects by energy and congruence, and watch the dopamine</a></h3>
+  <p class="sum">In the final episode of Seeking Balance, Galfond says he now coaches and runs side projects built to keep running without his full attention. He had previously started businesses assuming 20 hours a week, then lost interest within six months. His filter is &#x27;intentional congruence&#x27;: work that feeds the skills he wants to grow, so he charges double for poker coaching. Small-group and one-on-one coaching energizes him, and he cut back AI building after noticing how much dopamine it was giving him.</p><ul class="take"><li>Design side projects so they survive without your full attention.</li><li>Cut first the activities that are least congruent with your main skill.</li><li>Fast build-and-see loops like AI tinkering can feel productive while draining energy.</li></ul><p class="orig">“The Poker Skill That Saved Phil Galfond’s Biggest Challenge”</p>
+  <div class="row"><a class="open" href="https://www.youtube.com/watch?v=oxnt47Mc9CU">Watch →</a><span class="vote" data-src="Jared Alderman" data-title="The Poker Skill That Saved Phil Galfond’s Biggest Challenge"><button type="button" class="up" aria-label="More like this">👍</button><button type="button" class="dn" aria-label="Less like this">👎</button></span></div>
+</article>
+<article class="item" id="v17">
+  <p class="src">▶ Daily Stoic</p>
+  <a class="thumb" href="https://www.youtube.com/watch?v=PVjpUTE6bF8" aria-hidden="true" tabindex="-1"><img src="https://i.ytimg.com/vi/PVjpUTE6bF8/mqdefault.jpg" alt="" loading="lazy" width="320" height="180"><span class="play">▶</span></a><h3><a href="https://www.youtube.com/watch?v=PVjpUTE6bF8">Marcus Aurelius: good fortune is made from good intentions, values and deeds</a></h3>
+  <p class="sum">Daily Stoic cites Marcus, writing through plague, famine, floods and war, who concludes against the feeling that fortune has abandoned him. Good fortune is defined as good intentions, values and deeds, so we make our own moral luck. Circumstances are less decisive than character.</p><p class="orig">“Your Circumstances Don&#x27;t Determine Your Fortune”</p>
+  <div class="row"><a class="open" href="https://www.youtube.com/watch?v=PVjpUTE6bF8">Watch →</a><span class="vote" data-src="Daily Stoic" data-title="Your Circumstances Don&#x27;t Determine Your Fortune"><button type="button" class="up" aria-label="More like this">👍</button><button type="button" class="dn" aria-label="Less like this">👎</button></span></div>
+</article>
+<article class="item" id="v16">
+  <p class="src">▶ Daily Stoic</p>
+  <a class="thumb" href="https://www.youtube.com/watch?v=Yfq2S6AHr94" aria-hidden="true" tabindex="-1"><img src="https://i.ytimg.com/vi/Yfq2S6AHr94/mqdefault.jpg" alt="" loading="lazy" width="320" height="180"><span class="play">▶</span></a><h3><a href="https://www.youtube.com/watch?v=Yfq2S6AHr94">Robert Greene: hard physical challenge teaches you your limits, and Stoics were athletes</a></h3>
+  <p class="sum">Greene, after his stroke, found that struggling with his body&#x27;s limits has attuned him to it more closely. The speaker notes that Marcus Aurelius hunted, boxed and ran, Chrysippus was active, and Aristotle may have wrestled. Pushing the self beyond what it thinks it can do is framed as the core of Stoicism, which is self-conquest.</p><p class="orig">“Robert Greene on the Power of Doing Hard Things”</p>
+  <div class="row"><a class="open" href="https://www.youtube.com/watch?v=Yfq2S6AHr94">Watch →</a><span class="vote" data-src="Daily Stoic" data-title="Robert Greene on the Power of Doing Hard Things"><button type="button" class="up" aria-label="More like this">👍</button><button type="button" class="dn" aria-label="Less like this">👎</button></span></div>
+</article></section>
+<details class="also"><summary>Quick hits <span>5</span></summary><ul><li><a href="https://www.pokernews.com/news/2026/11/joris-ruijs-wins-apt-championship-main-event-52910.htm?utm_medium=feed&amp;utm_campaign=homefeed&amp;utm_source=rss"><b>PokerNews</b>Dutchman Joris Ruijs beat Quang Trinh Do heads-up to win the APT Championship Main Event, his first seven-figure live score.</a><span class="vote" data-src="PokerNews" data-title="Joris Ruijs Wins First Seven-Figure Live Score With APT Championship Title"><button type="button" class="up" aria-label="More like this">👍</button><button type="button" class="dn" aria-label="Less like this">👎</button></span></li><li><a href="https://www.pokernews.com/video/jason-mercier-s-shocking-story-stabbed-after-ept-win-pokerne-13517.htm?utm_medium=feed&amp;utm_campaign=homefeed&amp;utm_source=rss"><b>PokerNews</b>Jason Mercier on the PokerNews Podcast: life in Las Vegas, High Stakes Poker, a $2.6M pot, and the night he was stabbed after winning EPT San Remo.</a><span class="vote" data-src="PokerNews" data-title="Jason Mercier’s Shocking Story: STABBED After EPT Win | PokerNews Podcast #1018"><button type="button" class="up" aria-label="More like this">👍</button><button type="button" class="dn" aria-label="Less like this">👎</button></span></li><li><a href="https://www.youtube.com/watch?v=Z528prV531w"><b>ModernWisdom</b>Short clip arguing that coming through childhood challenges without bitterness or a victim identity is remarkable.</a><span class="vote" data-src="ModernWisdom" data-title="Why Makes Broken People So Amazing"><button type="button" class="up" aria-label="More like this">👍</button><button type="button" class="dn" aria-label="Less like this">👎</button></span></li><li><a href="https://www.youtube.com/watch?v=Ji-N7w1BhMw"><b>Andrew Huberman</b>Huberman clip: opinions are mental concepts, and when tied to ego any challenge to them feels like an attack.</a><span class="vote" data-src="Andrew Huberman" data-title="OPINIONS ARE CONCEPTS. IF THEY ARE STRONGLY LINKED TO YOUR EGO, YOU WILL BE EASILY OFFENDED."><button type="button" class="up" aria-label="More like this">👍</button><button type="button" class="dn" aria-label="Less like this">👎</button></span></li><li><a href="https://marginalrevolution.com/marginalrevolution/2026/11/the-mental-illness-theory-of-politics-is-modestly-underrated.html?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=the-mental-illness-theory-of-politics-is-modestly-underrated"><b>Marginal Revolution</b>Marginal Revolution: a large panel dataset finds mental-health counseling lowers later protesting by 34 to 39 percent, and outreach cut anxiety 11 percent in a field experiment.</a><span class="vote" data-src="Marginal Revolution" data-title="The mental illness theory of politics is modestly underrated"><button type="button" class="up" aria-label="More like this">👍</button><button type="button" class="dn" aria-label="Less like this">👎</button></span></li></ul></details>
+
+<section class="passage">
+  <p class="kicker">Daily Stoic reading · Returning to composure quickly</p>
+  <p class="ptext">IX. Whensoever by some present hard occurrences thou art constrained to be in some sort troubled and vexed, return unto thyself as soon as may be, and be not out of tune longer than thou must needs. For so shalt thou be the better able to keep thy part another time, and to maintain the harmony, if thou dost use thyself to this continually; once out, presently to have recourse unto it, and to begin again.</p>
+  <p class="by">— Marcus Aurelius, Meditations (tr. George Long)</p>
+  <p class="ctx">When a hard moment knocks you off balance, the aim is not to never be shaken but to notice it, come back to your centre as soon as you can, and not stay rattled longer than the situation forces you to. The more often you practise this return, the easier it becomes to recover your footing next time. For a poker player, this means after a bad beat or a tilt-inducing hand, the discipline is to reset quickly, check your process, and get back to playing your standard strategy rather than chasing losses.</p>
+</section>
+<section class="anchor">
+  <div>
+    <p class="kicker">Quote</p>
+    <blockquote>The man who thinks he can and the man who thinks he can&#x27;t are both right.</blockquote>
+    <p class="by">— Henry Ford</p>
+    <p class="ctx">Ford&#x27;s observation from decades of hiring. He meant it as a hiring filter, not motivational poster material.</p>
+  </div>
+  <div>
+    <p class="kicker">Mental model · Math/Statistics</p>
+    <p class="mm">Bayesian Updating</p>
+    <p class="ctx">New evidence should shift your beliefs proportional to how surprising it is. Most people either anchor too hard on priors or overreact to recent news. The discipline: state your prior, see the evidence, update — but by how much the evidence would change things, not how much it feels like it should.</p>
+  </div>
+</section>
+
+<section class="spot">
+  <p class="kicker">Channel spotlight · 3 days left</p>
+  <p class="mm"><a href="https://www.youtube.com/channel/UCNAxrHudMfdzNi6NxruKPLw">Sam Harris (Making Sense)</a></p>
+  <p class="ctx">Your list is strong on tactics (poker, nutrition, training) and on Stoic practice, but light on the philosophy of mind behind the inner game. Harris covers attention, the nature of the thinking self, meditation, free will and how beliefs form. These are the foundations of tilt, emotional regulation and decision-making under pressure. The format is long-form, one-on-one interviews with scientists and philosophers (AI safety and neuroscience come up often) plus occasional solo talks. It&#x27;s a different, more secular and introspective angle than Daily Stoic. Skip the episodes that drift into politics.</p>
+  <div class="snip"><code id="snip">    &quot;Sam Harris (Making Sense)&quot;: &quot;UCNAxrHudMfdzNi6NxruKPLw&quot;,</code><button type="button" id="copy">Copy</button></div>
+  <p class="hint">Paste into YOUTUBE_CHANNELS in brief.py to follow.</p>
+</section>
+
+<footer class="foot">
+  <nav class="arch"><a href="2026-11-27.html">← Yesterday</a><a href="./">All briefs</a></nav>
+  <details><summary class="hl warn">● 1 source issue · 57 OK</summary><ul><li class="fail"><b>r/poker (top today)</b> — proxy HTTP 404, direct HTTP 404</li></ul></details>
+  <p class="stats">80 new items scanned · 9 read in full · 42k in / 4k out tokens · 2m20s</p>
+</footer>
+</div>
+<button type="button" class="send" id="send">Send feedback <b id="send-n">0</b></button>
+<script>
+(function () {
+  var REPO = "msusyr24/morning-brief", DAY = "2026-11-28", KEY = 'brief-votes';
+
+  // copy button (channel spotlight)
+  var b = document.getElementById('copy');
+  if (b) b.addEventListener('click', function () {
+    navigator.clipboard.writeText(document.getElementById('snip').innerText.trim());
+    b.textContent = 'Copied'; setTimeout(function () { b.textContent = 'Copy'; }, 1800);
+  });
+
+  // live BTC price
+  var p = document.getElementById('btc-p');
+  if (p) fetch('https://api.coingecko.com/api/v3/simple/price?ids=bitcoin&vs_currencies=usd&include_24hr_change=true')
+    .then(function (r) { return r.json(); })
+    .then(function (d) {
+      var v = d.bitcoin.usd, c = d.bitcoin.usd_24h_change;
+      p.textContent = '$' + Math.round(v).toLocaleString('en-US');
+      document.getElementById('btc-c').innerHTML = '<span class="' + (c >= 0 ? 'up' : 'down') + '">' + (c >= 0 ? '▲ ' : '▼ ') + Math.abs(c).toFixed(1) + '%</span>';
+    }).catch(function () {});
+
+  // reading progress + active section pill
+  var prog = document.getElementById('prog'), pills = document.querySelectorAll('.nav a'), secs = document.querySelectorAll('.sec');
+  function onScroll() {
+    var h = document.documentElement, max = h.scrollHeight - h.clientHeight;
+    prog.style.transform = 'scaleX(' + (max > 0 ? h.scrollTop / max : 0) + ')';
+    var cur = null;
+    secs.forEach(function (s) { if (s.getBoundingClientRect().top < 120) cur = s.id; });
+    pills.forEach(function (a) {
+      var on = a.getAttribute('href') === '#' + cur;
+      if (on && !a.classList.contains('on')) a.scrollIntoView({inline: 'nearest', block: 'nearest'});
+      a.classList.toggle('on', on);
+    });
+  }
+  window.addEventListener('scroll', onScroll, {passive: true}); onScroll();
+
+  // thumbs up / down -> GitHub issue
+  var votes = {};
+  try { votes = JSON.parse(localStorage.getItem(KEY) || '{}'); } catch (e) {}
+  function save() { try { localStorage.setItem(KEY, JSON.stringify(votes)); } catch (e) {} }
+  function id(el) { return el.dataset.src + '|' + el.dataset.title; }
+  var send = document.getElementById('send'), sendN = document.getElementById('send-n');
+  function refresh() {
+    var n = Object.keys(votes).length;
+    sendN.textContent = n; send.classList.toggle('show', n > 0 && !!REPO);
+    document.querySelectorAll('.vote').forEach(function (el) {
+      var v = votes[id(el)];
+      el.querySelector('.up').classList.toggle('on', !!v && v.v > 0);
+      el.querySelector('.dn').classList.toggle('on', !!v && v.v < 0);
+    });
+  }
+  document.querySelectorAll('.vote button').forEach(function (btn) {
+    btn.addEventListener('click', function (ev) {
+      ev.preventDefault();
+      var el = btn.parentNode, k = id(el), v = btn.classList.contains('up') ? 1 : -1;
+      if (votes[k] && votes[k].v === v) delete votes[k];
+      else votes[k] = {v: v, s: el.dataset.src, t: el.dataset.title};
+      if (navigator.vibrate) navigator.vibrate(8);
+      save(); refresh();
+    });
+  });
+  send.addEventListener('click', function () {
+    var lines = Object.keys(votes).map(function (k) {
+      var v = votes[k]; return (v.v > 0 ? '+' : '-') + ' | ' + v.s.replace(/\|/g, '/') + ' | ' + v.t.replace(/\|/g, '/');
+    });
+    var url = 'https://github.com/' + REPO + '/issues/new?title=' + encodeURIComponent('Brief feedback ' + DAY) +
+      '&body=' + encodeURIComponent(lines.join('\n') + '\n\n(Tap Submit. The next brief learns from these.)');
+    votes = {}; save(); refresh();
+    window.open(url, '_blank');
+  });
+  refresh();
+})();
+</script>
+</body>
+</html>

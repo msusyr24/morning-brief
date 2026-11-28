@@ -1,11 +1,11 @@
 {
   "current_suggestion": {
-    "channel_name": "Patrick Boyle",
-    "channel_id": "UCASM0cgfkJxQ1ICmRilfHLw",
-    "youtube_handle": "@PBoyle",
-    "pitch": "Boyle is a former hedge fund manager who explains markets, monetary policy, and financial history with data and a skeptical eye. That gives you a rigorous counterweight to the Saylor and Lyn Alden bitcoin/macro view you follow, because he takes on the strongest arguments against it. He also covers how markets, incentives, and risk work in practice, including gambling-adjacent topics like prediction markets and betting, which suits your interest in variance and decision-making under uncertainty. The format is solo, scripted, 10-20 minute explainers with a dry sense of humor and little price chatter."
+    "channel_name": "Sam Harris (Making Sense)",
+    "channel_id": "UCNAxrHudMfdzNi6NxruKPLw",
+    "youtube_handle": "@samharris",
+    "pitch": "Your list is strong on tactics (poker, nutrition, training) and on Stoic practice, but light on the philosophy of mind behind the inner game. Harris covers attention, the nature of the thinking self, meditation, free will and how beliefs form. These are the foundations of tilt, emotional regulation and decision-making under pressure. The format is long-form, one-on-one interviews with scientists and philosophers (AI safety and neuroscience come up often) plus occasional solo talks. It's a different, more secular and introspective angle than Daily Stoic. Skip the episodes that drift into politics."
   },
-  "shown_count": 3,
+  "shown_count": 1,
   "history": [
     "Brad Kearns",
     "Dr. Layne Norton",
@@ -88,6 +88,7 @@
     "Sabine Hossenfelder",
     "Tim Ferriss",
     "Academy of Ideas",
-    "Patrick Boyle"
+    "Patrick Boyle",
+    "Sam Harris (Making Sense)"
   ]
 }
